@@ -83,6 +83,23 @@ If you can find it with a simple search, it doesn't belong here.
 
 This KB includes [`.github/copilot-instructions.md`](.github/copilot-instructions.md) — instructions that tell AI assistants to consult the [CATALOG.md](CATALOG.md) when problems arise.
 
+---
+
+## KB Mall — External Skill Stores
+
+When heir-act-kb doesn't have what you need, browse other stores:
+
+**[STORES.md](STORES.md)** — LLM-friendly directory of 15+ skill stores
+
+| Store | Stars | Focus |
+|-------|-------|-------|
+| [microsoft/skills](https://github.com/microsoft/skills) | 2.2K | Azure SDKs (132 skills, 5 languages) |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 168K | Largest cross-platform (183 skills) |
+| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 18K | Official Claude Code plugins |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 12K | 12-platform support (235 skills) |
+
+Your AI can read STORES.md to research which store has your answer.
+
 ### For GitHub Copilot / VS Code
 
 Clone this repo as a submodule or reference folder:
