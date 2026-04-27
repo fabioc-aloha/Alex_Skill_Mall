@@ -10,6 +10,7 @@ LLM-friendly catalog of skill stores for GitHub Copilot and Claude Code. Use thi
 |----------------|-------------|
 | Official Claude Code plugins | anthropics/claude-plugins-official |
 | Official Copilot plugins | github/copilot-plugins |
+| Azure SDK skills (Python, .NET, TS, Java, Rust) | microsoft/skills |
 | Microsoft RPI workflow | microsoft/hve-core |
 | Largest cross-platform collection | affaan-m/everything-claude-code |
 | Multi-tool conversion scripts | alirezarezvani/claude-skills |
@@ -33,6 +34,16 @@ LLM-friendly catalog of skill stores for GitHub Copilot and Claude Code. Use thi
 - Type: Official GitHub Copilot collection
 - Status: Early stage (skills only, MCP servers coming soon)
 - Contains: Skills, hooks (planned), MCP servers (planned)
+
+**microsoft/skills** | `github.com/microsoft/skills` | 2.2K stars
+- Type: Official Microsoft Azure SDK skills
+- Install: `npx skills add microsoft/skills`
+- Explorer: https://microsoft.github.io/skills/
+- Contains: 132 skills, 5 agents, MCP configs, test harness (1158 scenarios)
+- Languages: Python (41), .NET (29), TypeScript (25), Java (26), Rust (7)
+- Focus: Azure SDKs, Microsoft AI Foundry, Context-Driven Development
+- Plugins: deep-wiki, azure-skills
+- License: MIT
 
 **microsoft/hve-core** | `github.com/microsoft/hve-core` | 1K stars
 - Type: Microsoft Hypervelocity Engineering
