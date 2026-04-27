@@ -25,23 +25,27 @@ Your AI assistant (Copilot, Claude, Cursor, etc.) now has access to the skill.
 
 ## What's Here
 
-### [Skills](skills/) — Hard Knowledge (20 MVP skills)
+### [Skills](skills/) — Hard Knowledge (51 skills)
 
 Domain-specific knowledge that saves debugging time:
 
 | Category | Count | What They Solve |
 |----------|-------|-----------------|
-| [Security](skills/security/) | 3 | XSS, shell injection, input validation |
+| [Security](skills/security/) | 5 | XSS, shell injection, input validation, path traversal |
+| [Quality](skills/quality/) | 8 | Audit patterns, QA, testing, date arithmetic |
+| [Documentation](skills/documentation/) | 6 | Mermaid, docs decay, count drift, version stamps |
+| [Architecture](skills/architecture/) | 5 | Defaults-plus-overrides, pipelines, scoring |
+| [Build](skills/build/) | 5 | Path rot, config separation, data-driven layouts |
 | [Cross-Platform](skills/cross-platform/) | 4 | Path handling, line endings, shell quirks |
-| [Azure](skills/azure/) | 2 | MSI identity, subscription context |
-| [Cloud](skills/cloud/) | 1 | Azure SWA gotchas (12 issues) |
+| [Azure](skills/azure/) | 3 | MSI identity, subscription context, Cost API |
+| [VitePress](skills/vitepress/) | 3 | Iframe embed, clean URLs, SPA routing |
+| [Academic](skills/academic/) | 2 | Editorial judgment, survey verification |
+| [Data](skills/data/) | 2 | Temp-file analysis, TMDL linter |
 | [GitHub](skills/github/) | 2 | README override, Wiki structure |
-| [Documentation](skills/documentation/) | 2 | Mermaid fragility, docs decay |
+| [Visual](skills/visual/) | 2 | Image embedding, storage split |
 | [Windows/Node](skills/windows-node/) | 2 | Winget collisions, PAT expiration |
-| [Quality](skills/quality/) | 1 | Universal audit pattern |
-| [Visual](skills/visual/) | 1 | Image embedding limits |
-| [VitePress](skills/vitepress/) | 1 | Iframe embed pattern |
-| [Architecture](skills/architecture/) | 1 | Defaults-plus-overrides pattern |
+| [Cloud](skills/cloud/) | 1 | Azure SWA gotchas (12 issues) |
+| [GitHub Actions](skills/github-actions/) | 1 | Version upgrades |
 
 [Browse the full catalog →](CATALOG.md)
 
