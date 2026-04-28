@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**96 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**158 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
@@ -507,4 +507,226 @@ Drop-in compatible with any `.github/skills/` consumer (Copilot, Claude, Cursor)
 
 **ui-ux-design** | `skills/design/ui-ux-design/` | design-system, accessibility, components
 - User interface design, user experience optimization, accessibility compliance, design systems
+
+---
+
+## Round 2: More Master Alex Skills (62 skills, v0.4.x)
+
+Second wave of promotions from the Master Alex inheritable skill set —
+expanding critical thinking, adding privacy/compliance, frontend/VS Code engineering,
+data viz, process & risk, media generation, academic writing, and personal effectiveness.
+
+### Critical Thinking (+7)
+
+**appropriate-reliance** | `skills/critical-thinking/appropriate-reliance/` | calibration, human-ai, confidence
+- Calibrated human-AI collaboration with creative latitude — trust calibrated to reliability, creativi
+
+**awareness** | `skills/critical-thinking/awareness/` | metacognition, blindspot, self-correction
+- Proactive detection, self-correction, and epistemic vigilance
+
+**anti-hallucination** | `skills/critical-thinking/anti-hallucination/` | confabulation, llm, verification
+- Recognize and prevent confabulation — when you dont know, say so.
+
+**socratic-questioning** | `skills/critical-thinking/socratic-questioning/` | questioning, discovery, teaching
+- Help users discover answers, dont just deliver them.
+
+**dialog-engineering** | `skills/critical-thinking/dialog-engineering/` | csar, conversation, structure
+- CSAR Loop and structured conversation patterns for effective AI dialog -- Clarify, Summarize, Act, R
+
+**calibration-tracking** | `skills/critical-thinking/calibration-tracking/` | confidence, tracking, reconciliation
+- Record confidence claims and reconcile against outcomes — closing Tenet V (calibration over confiden
+
+**knowledge-synthesis** | `skills/critical-thinking/knowledge-synthesis/` | patterns, abstraction, cross-project
+- Cross-project pattern recognition — abstract, generalize, connect, store at the highest true level
+
+### AI / LLM Development (+5)
+
+**copilot-sdk** | `skills/ai-llm/copilot-sdk/` | copilot-sdk, github, language-model
+- Build applications powered by GitHub Copilot using the Copilot SDK — session management, custom tool
+
+**sse-streaming** | `skills/ai-llm/sse-streaming/` | sse, streaming, post
+- POST-based Server-Sent Events streaming for Azure Functions — HTTP streaming, chunked response parsi
+
+**chat-participant-patterns** | `skills/ai-llm/chat-participant-patterns/` | vscode, chat-api, participant
+- VS Code Chat API patterns.
+
+**content-safety-implementation** | `skills/ai-llm/content-safety-implementation/` | safety, azure, kill-switch, injection
+- Azure Content Safety API integration, multi-layer defense pipeline, output validation, and operation
+
+**foundry-agent-platform** | `skills/ai-llm/foundry-agent-platform/` | foundry, microsoft, agents
+- Microsoft Foundry agent deployment, orchestration, and cloud-native AI service patterns
+
+### Azure (+5)
+
+**azure-devops-automation** | `skills/azure/azure-devops-automation/` | azure-devops, ci-cd, pipelines
+- CI/CD pipelines, infrastructure as code, and deployment automation for Azure workloads
+
+**azure-architecture-patterns** | `skills/azure/azure-architecture-patterns/` | waf, well-architected, design
+- Well-Architected Framework principles and Azure best practices
+
+**cloud-solution-architect** | `skills/azure/cloud-solution-architect/` | design, review, well-architected
+- Design well-architected Azure cloud systems — 10 design principles, 6 architecture styles, 44 design
+
+**msal-authentication** | `skills/azure/msal-authentication/` | msal, oauth, tokens
+- Microsoft Authentication Library (MSAL) patterns for React/SPA applications with Entra ID
+
+**enterprise-integration** | `skills/azure/enterprise-integration/` | graph, m365, power-platform
+- Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integration in VS Code exte
+
+### Security (+1)
+
+**secrets-management** | `skills/security/secrets-management/` | secrets, secretstorage, key-vault, env
+- Secure token storage, VS Code SecretStorage API, credential management, environment variable migrati
+
+### Privacy & Compliance (+2)
+
+**privacy-responsible-ai** | `skills/privacy/privacy-responsible-ai/` | privacy-by-design, responsible-ai, ethics
+- Privacy by design, data protection, and responsible AI principles.
+
+**pii-privacy-regulations** | `skills/privacy/pii-privacy-regulations/` | gdpr, ccpa, hipaa, pii
+- Handling personally identifiable information under European and Australian privacy regulations.
+
+### Frontend (+3)
+
+**react-vite-performance** | `skills/frontend/react-vite-performance/` | react, vite, performance
+- React + Vite performance optimization — code splitting, lazy loading, bundle analysis, Web Vitals, a
+
+**service-worker-offline-first** | `skills/frontend/service-worker-offline-first/` | pwa, service-worker, offline
+- Progressive Web App offline-first patterns — Service Worker lifecycle, caching strategies, backgroun
+
+**frontend-design-review** | `skills/frontend/frontend-design-review/` | design-review, distinctive, frontend
+- Review and create distinctive frontend interfaces — design system compliance, three quality pillars 
+
+### VS Code (+2)
+
+**vscode-extension-patterns** | `skills/vscode/vscode-extension-patterns/` | extension, patterns, authoring
+- Reusable patterns for VS Code extension development.
+
+**vscode-configuration-validation** | `skills/vscode/vscode-configuration-validation/` | manifest, validation, settings
+- Validate VS Code extension manifest against runtime code usage
+
+### Documentation (+6)
+
+**markdown-mermaid** | `skills/documentation/markdown-mermaid/` | mermaid, diagrams, markdown, comprehensive
+- Clear documentation through visual excellence
+
+**documentation-quality-assurance** | `skills/documentation/documentation-quality-assurance/` | audit, drift, quality
+- Systematic documentation audit, drift detection, preflight validation, and multi-pass quality pipeli
+
+**ai-writing-avoidance** | `skills/documentation/ai-writing-avoidance/` | ai-detection, voice, human-writing
+- Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patt
+
+**api-documentation** | `skills/documentation/api-documentation/` | api-docs, reference, onboarding
+- Technical documentation, API references, user guides, and docs-as-code workflows.
+
+**md-scaffold** | `skills/documentation/md-scaffold/` | markdown, scaffold, templates
+- Scaffold properly structured Markdown files from templates for clean first-pass conversion
+
+**localization** | `skills/documentation/localization/` | i18n, l10n, translation
+- **Domain**: Software localization, internationalization, multilingual application development
+
+### Data (+6)
+
+**data-visualization** | `skills/data/data-visualization/` | charts, color, story-intent
+- Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the title =
+
+**data-analysis** | `skills/data/data-analysis/` | eda, profiling, exploration
+- Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly 
+
+**data-storytelling** | `skills/data/data-storytelling/` | narrative, story, end-to-end
+- End-to-end data narrative construction -- three-act structure, Knaflic/Duarte methodology, audience-
+
+**dashboard-design** | `skills/data/dashboard-design/` | dashboard, kpi, layout
+- Dashboard layout patterns, KPI card design, filter architecture, narrative flow through panels, and 
+
+**chart-interpretation** | `skills/data/chart-interpretation/` | reading-charts, image, screenshot
+- Read any chart (image, HTML, screenshot) and extract insights, patterns, anomalies, bias, and narrat
+
+**data-quality-monitoring** | `skills/data/data-quality-monitoring/` | pipeline, anomaly, dq
+- Data pipeline quality assurance — anomaly detection, schema drift, null ratio monitoring, freshness 
+
+### Process & Risk (+7)
+
+**project-risk-analysis** | `skills/process/project-risk-analysis/` | risk, mitigation, planning
+- Systematic methodology for identifying, categorizing, and mitigating software project risks before i
+
+**business-analysis** | `skills/process/business-analysis/` | requirements, brd, stakeholder
+- Patterns for requirements elicitation, BRDs, process analysis, and stakeholder alignment.
+
+**scope-management** | `skills/process/scope-management/` | scope-creep, mvp, backlog
+- Recognize scope creep, suggest MVP cuts, and manage project boundaries
+
+**change-management** | `skills/process/change-management/` | adkar, organizational, change
+- Patterns for organizational change, ADKAR methodology, stakeholder engagement, and adoption strategi
+
+**project-deployment** | `skills/process/project-deployment/` | deployment, release, universal
+- Universal deployment patterns for any project type.
+
+**git-workflow** | `skills/process/git-workflow/` | git, recovery, practices
+- Consistent git practices, recovery patterns, and safe operations.
+
+**error-recovery-patterns** | `skills/process/error-recovery-patterns/` | error-handling, recovery, resilience
+- What to do when things break.
+
+### Quality (+1)
+
+**extension-audit-methodology** | `skills/quality/extension-audit-methodology/` | audit, 5-dimension, framework
+- Systematic 5-dimension audit framework for VS Code extensions — debug hygiene, dead code, performanc
+
+### Media & Presentation (+9)
+
+**gamma-presentation** | `skills/media/gamma-presentation/` | gamma, slides, presentation
+- Author markdown files optimized for Gamma import — card structure, layout hints, image directives, s
+
+**slide-design** | `skills/media/slide-design/` | slides, visual-hierarchy, dataviz
+- Visual hierarchy, data visualization, and minimal text patterns for impactful presentations
+
+**graphic-design** | `skills/media/graphic-design/` | visual, svg, design
+- Patterns for visual design, SVG creation, layout composition, typography, and brand identity.
+
+**image-handling** | `skills/media/image-handling/` | images, format, size, quality
+- Right format, right size, right quality — plus AI image generation via Replicate
+
+**video-generation** | `skills/media/video-generation/` | video, replicate, ai-generation
+- AI video generation via Replicate — 17 models, editing, and production workflows
+
+**text-to-speech** | `skills/media/text-to-speech/` | tts, replicate, voice-cloning
+- Cloud TTS via Replicate — 15 models, voice cloning, emotion control, and multi-language support
+
+**music-generation** | `skills/media/music-generation/` | music, replicate, soundtrack
+- AI music generation via Replicate — 5 models for background tracks, lyrics, and sound design
+
+**svg-graphics** | `skills/media/svg-graphics/` | svg, accessible, theme-aware
+- Scalable, accessible, theme-aware visuals
+
+**pptx-generation** | `skills/media/pptx-generation/` | pptx, powerpoint, programmatic
+- Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markdown conversion
+
+### Academic (+5)
+
+**academic-paper-drafting** | `skills/academic/academic-paper-drafting/` | paper, manuscript, drafting
+- End-to-end academic paper drafting for CHI, HBR, journals, and conferences with venue-specific templ
+
+**research-first-development** | `skills/academic/research-first-development/` | research, knowledge-base, workflow
+- Build knowledge bases that build software — research before code, teach before execute
+
+**literature-review** | `skills/academic/literature-review/` | literature, synthesis, search
+- Systematic literature search, synthesis, gap identification, and narrative construction for academic
+
+**academic-research** | `skills/academic/academic-research/` | thesis, dissertation, scaffolding
+- Research project scaffolding, thesis/dissertation writing, literature reviews, publication workflows
+
+**citation-management** | `skills/academic/citation-management/` | apa, citation, references
+- APA 7th formatting, citation integration, reference validation, and bibliography generation
+
+### Productivity (+3)
+
+**deep-work-optimization** | `skills/productivity/deep-work-optimization/` | focus, deep-work, distraction
+- Focus blocks, distraction management, and flow state triggers for cognitively demanding work
+
+**presentation-tool-selection** | `skills/productivity/presentation-tool-selection/` | tools, decision-matrix, presentations
+- Best practice decision matrix for choosing between Marp, Gamma, and PptxGenJS based on use case requ
+
+**creative-writing** | `skills/productivity/creative-writing/` | fiction, narrative, structure
+- Patterns for fiction, narrative structure, character development, dialogue, and storytelling craft.
 
