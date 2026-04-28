@@ -10,10 +10,14 @@ LLM-friendly catalog of skill stores for GitHub Copilot and Claude Code. Use thi
 |----------------|-------------|
 | Official Claude Code plugins | anthropics/claude-plugins-official |
 | Official Copilot plugins | github/copilot-plugins |
+| Official MCP reference servers | modelcontextprotocol/servers |
+| Canonical MCP server directory | punkpeye/awesome-mcp-servers |
 | Azure SDK skills (Python, .NET, TS, Java, Rust) | microsoft/skills |
 | Microsoft RPI workflow | microsoft/hve-core |
+| Largest quality-focused collection | wshobson/agents |
 | Largest cross-platform collection | affaan-m/everything-claude-code |
 | Multi-tool conversion scripts | alirezarezvani/claude-skills |
+| Claude Code subagents directory | VoltAgent/awesome-claude-code-subagents |
 | Golang skills | samber/cc-skills-golang |
 | Android/Kotlin skills | new-silvermoon/awesome-android-agent-skills |
 | Rust skills | leonardomso/rust-skills |
@@ -54,6 +58,27 @@ LLM-friendly catalog of skill stores for GitHub Copilot and Claude Code. Use thi
 
 ---
 
+## MCP Server Registries
+
+MCP (Model Context Protocol) servers extend AI assistants with tools, data sources, and external integrations. These registries are how heirs discover servers worth wiring into `.mcp.json`. Evaluate individual servers before adopting — the directory listing implies discoverability, not endorsement.
+
+**modelcontextprotocol/servers** | `github.com/modelcontextprotocol/servers`
+- Type: Official Anthropic reference servers
+- Contains: filesystem, fetch, git, memory, sequential-thinking, time, sqlite, and other first-party servers
+- License: MIT
+- Notable: The correct starting point for any heir adopting MCP — these servers set the conventions everything else follows
+- Use when: Wiring up local file access, git operations, web fetch, or persistent memory
+
+**punkpeye/awesome-mcp-servers** | `github.com/punkpeye/awesome-mcp-servers` | 85K stars
+- Type: Canonical community awesome-list (1,600+ contributors)
+- Web directory: https://glama.ai/mcp/servers (searchable UI backing the list)
+- Contains: ~30 categories — Aggregators, Art & Culture, Browser Automation, Cloud Platforms, Code Execution, Databases, Developer Tools, File Systems, Finance, Knowledge & Memory, Location Services, Monitoring, Search & Data Extraction, Security, Workplace, etc.
+- License: MIT (list itself; individual servers vary)
+- Notable: The de-facto registry — if a server isn't here, it's likely too new or too niche
+- Caveat: Volume is high and quality varies — score individual servers before adoption (active maintenance, license, security review)
+
+---
+
 ## Cross-Platform Collections
 
 **affaan-m/everything-claude-code** | `github.com/affaan-m/everything-claude-code` | 168K stars
@@ -62,6 +87,20 @@ LLM-friendly catalog of skill stores for GitHub Copilot and Claude Code. Use thi
 - Features: Continuous learning, AgentShield security, hooks
 - Install: `/plugin install everything-claude-code@everything-claude-code`
 - Notable: Anthropic hackathon winner, largest community collection
+
+**wshobson/agents** | `github.com/wshobson/agents` | 34.5K stars
+- Platforms: Claude Code (primary), portable to other agentskills.io consumers
+- Contains: 184 agents, 150 skills, 78 plugins
+- Features: Built-in **PluginEval** quality framework — the project measures its own outputs
+- License: MIT
+- Notable: Largest *quality-focused* cross-platform collection. Active maintenance (commits within days). Caveat: format conventions may differ from agentskills.io spec — verify before bulk adoption
+
+**VoltAgent/awesome-claude-code-subagents** | `github.com/VoltAgent/awesome-claude-code-subagents` | 18.6K stars
+- Platforms: Claude Code (subagents — not the same artifact as skills)
+- Contains: 131+ subagents across 10 categories
+- Sister repos: `awesome-agent-skills`, `awesome-codex-subagents`, `awesome-openclaw-skills` (cross-platform parity)
+- License: MIT
+- Notable: Subagent-focused — useful when an ACT heir delegates a bounded sub-task. Subagents ≠ skills; do not conflate scopes
 
 **alirezarezvani/claude-skills** | `github.com/alirezarezvani/claude-skills` | 12K stars
 - Platforms: 12 tools (Claude, Codex, Gemini CLI, Cursor, Aider, Windsurf, Kilo Code, OpenCode, Augment, Antigravity, Hermes, OpenClaw)
