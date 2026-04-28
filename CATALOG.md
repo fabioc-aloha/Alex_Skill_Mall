@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**184 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**200 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
@@ -373,7 +373,7 @@ Drop-in compatible with any `.github/skills/` consumer (Copilot, Claude, Cursor)
 - Challenge what you think is right — alternative hypotheses, missing data, evidence quality, bias det
 
 **hypothesis-driven-debugging** | `skills/critical-thinking/hypothesis-driven-debugging/` | debugging, scientific-method
-- Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic 
+- Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic
 
 **root-cause-analysis** | `skills/critical-thinking/root-cause-analysis/` | debugging, 5-whys, investigation
 - Find the true source, not symptoms — systematic debugging from observation to permanent fix
@@ -441,7 +441,7 @@ Drop-in compatible with any `.github/skills/` consumer (Copilot, Claude, Cursor)
 - Systematic testing for confidence without over-testing — the right test at the right level
 
 **test-quality-analysis** | `skills/quality/test-quality-analysis/` | testing, smells, assertions
-- Analyze test code quality to detect coverage-only tests, test smells, and low-value assertions. Use 
+- Analyze test code quality to detect coverage-only tests, test smells, and low-value assertions. Use
 
 **tech-debt-discovery** | `skills/quality/tech-debt-discovery/` | debt, inventory, prioritization
 - Systematic technical debt inventory and prioritization. Use when asked to find tech debt, show me th
@@ -595,7 +595,7 @@ data viz, process & risk, media generation, academic writing, and personal effec
 - Progressive Web App offline-first patterns — Service Worker lifecycle, caching strategies, backgroun
 
 **frontend-design-review** | `skills/frontend/frontend-design-review/` | design-review, distinctive, frontend
-- Review and create distinctive frontend interfaces — design system compliance, three quality pillars 
+- Review and create distinctive frontend interfaces — design system compliance, three quality pillars
 
 ### VS Code (+2)
 
@@ -631,19 +631,19 @@ data viz, process & risk, media generation, academic writing, and personal effec
 - Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the title =
 
 **data-analysis** | `skills/data/data-analysis/` | eda, profiling, exploration
-- Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly 
+- Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly
 
 **data-storytelling** | `skills/data/data-storytelling/` | narrative, story, end-to-end
 - End-to-end data narrative construction -- three-act structure, Knaflic/Duarte methodology, audience-
 
 **dashboard-design** | `skills/data/dashboard-design/` | dashboard, kpi, layout
-- Dashboard layout patterns, KPI card design, filter architecture, narrative flow through panels, and 
+- Dashboard layout patterns, KPI card design, filter architecture, narrative flow through panels, and
 
 **chart-interpretation** | `skills/data/chart-interpretation/` | reading-charts, image, screenshot
 - Read any chart (image, HTML, screenshot) and extract insights, patterns, anomalies, bias, and narrat
 
 **data-quality-monitoring** | `skills/data/data-quality-monitoring/` | pipeline, anomaly, dq
-- Data pipeline quality assurance — anomaly detection, schema drift, null ratio monitoring, freshness 
+- Data pipeline quality assurance — anomaly detection, schema drift, null ratio monitoring, freshness
 
 ### Process & Risk (+7)
 
@@ -811,7 +811,7 @@ knowledge (healthcare, finance, legal, etc.), soft skills, publishing workflows,
 ### Publishing (+4)
 
 **book-publishing** | `skills/publishing/book-publishing/` | pdf, pandoc, latex
-- Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready 
+- Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready
 
 **kdp-publishing** | `skills/publishing/kdp-publishing/` | amazon, kdp, self-publishing
 - Amazon KDP self-publishing specs — cover requirements, interior formatting, spine formulas, ink opti
@@ -826,4 +826,84 @@ knowledge (healthcare, finance, legal, etc.), soft skills, publishing workflows,
 
 **brand-asset-management** | `skills/design/brand-asset-management/` | brand, hierarchy, assets
 - Brand hierarchy, visual identity, asset deployment, platform-specific branding guidelines
+
+---
+
+## Round 4: Master Alex Utility Skills (16 skills, v0.4.x)
+
+Fourth wave of promotions from the Master Alex inheritable skill set —
+short battle-tested utilities deferred from earlier rounds: dev-tooling, ops,
+reasoning, and quality-of-life skills heirs benefit from on day one.
+
+### Critical Thinking (+2)
+
+**debugging-patterns** | `skills/critical-thinking/debugging-patterns/` | debugging, investigation, methodology
+- Systematic debugging patterns — bisection, logging strategy, hypothesis discipline
+
+**bootstrap-learning** | `skills/critical-thinking/bootstrap-learning/` | learning, ramp-up, new-domain
+- Rapid context acquisition for new domains — phased learning protocol from zero to partnership
+
+### AI / LLM Development (+1)
+
+**token-waste-elimination** | `skills/ai-llm/token-waste-elimination/` | tokens, efficiency, output
+- Eliminate token waste in LLM I/O — output sizing, image embedding, terminal capture, redirect-to-file
+
+### Architecture (+2)
+
+**architecture-refinement** | `skills/architecture/architecture-refinement/` | architecture, refactor, evolution
+- Iterative architecture refinement — when to refactor, when to rewrite, when to leave it alone
+
+**early-filter-optimization** | `skills/architecture/early-filter-optimization/` | performance, filter, pipeline
+- Push filters early in pipelines — work avoidance over work optimization
+
+### Communication (+1)
+
+**disagreement-protocol** | `skills/communication/disagreement-protocol/` | disagreement, conflict, dialog
+- Productive disagreement protocol — name the gap, surface evidence, commit or escalate
+
+### Documentation (+3)
+
+**lint-clean-markdown** | `skills/documentation/lint-clean-markdown/` | markdown, lint, formatting
+- Write Markdown that passes the linter on first attempt — header hierarchy, list spacing, code fences
+
+**doc-hygiene** | `skills/documentation/doc-hygiene/` | docs, hygiene, drift
+- Keep documentation correct, current, and concise — staleness checks and rewrite triggers
+
+**nav-inject** | `skills/documentation/nav-inject/` | nav, sidebar, generation
+- Auto-inject navigation sidebars from doc structure — keeps nav in sync without manual edits
+
+### Media (+1)
+
+**terminal-image-rendering** | `skills/media/terminal-image-rendering/` | terminal, images, sixel-iterm
+- Render images directly in terminal — sixel, iTerm2 inline images, kitty graphics protocol
+
+### Operations (+1)
+
+**incident-response** | `skills/operations/incident-response/` | incident, sev, response
+- Incident response playbook — severity classification, war-room norms, recovery checklist
+
+### Process (+1)
+
+**release-preflight** | `skills/process/release-preflight/` | release, preflight, ship-checklist
+- Pre-release checklist — version, changelog, smoke tests, rollback plan before any push
+
+### Productivity (+1)
+
+**work-life-balance** | `skills/productivity/work-life-balance/` | wellbeing, sustainable, pace
+- Sustainable engineering pace — when to stop, when to push, recovery norms
+
+### Quality (+1)
+
+**terminal-command-safety** | `skills/quality/terminal-command-safety/` | terminal, shell, safety
+- Safe terminal command patterns — backtick escaping, output capture, and hang prevention
+
+### Security (+1)
+
+**distribution-security** | `skills/security/distribution-security/` | distribution, signing, supply-chain
+- Secure software distribution — signing, provenance, supply-chain hygiene, package integrity
+
+### VS Code (+1)
+
+**vscode-environment** | `skills/vscode/vscode-environment/` | vscode, environment, settings
+- VS Code environment setup — settings, extensions, keybindings tuned for AI-assisted development
 
