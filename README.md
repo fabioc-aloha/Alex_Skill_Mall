@@ -68,6 +68,14 @@ Reusable patterns that apply everywhere:
 |---------|-------------|
 | [Champion-Challenger Cache](patterns/champion-challenger-cache.md) | Hash LLM inputs, skip API if unchanged |
 
+### [Configs](configs/) — Drop-In Tool Configurations
+
+Portable config files your tooling consumes directly (VS Code settings, themes, linter rules):
+
+| Config | What It Does |
+|--------|--------------|
+| [markdown-light](configs/markdown-light/) | GitHub-flavored markdown preview theme for VS Code |
+
 ---
 
 ## Quality Standard
