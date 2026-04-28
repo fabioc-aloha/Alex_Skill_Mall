@@ -25,7 +25,7 @@ Your AI assistant (Copilot, Claude, Cursor, etc.) now has access to the skill.
 
 ## What's Here
 
-### [Skills](skills/) — Hard Knowledge (56 skills)
+### [Skills](skills/) — Hard Knowledge (62 skills)
 
 Domain-specific knowledge that saves debugging time:
 
@@ -34,6 +34,7 @@ Domain-specific knowledge that saves debugging time:
 | [Security](skills/security/) | 6 | XSS, injection, API hardening, path traversal |
 | [Quality](skills/quality/) | 8 | Audit patterns, QA, testing, date arithmetic |
 | [Documentation](skills/documentation/) | 6 | Mermaid, docs decay, count drift, version stamps |
+| [Converters](skills/converters/) | 6 | PDF, EPUB, LaTeX, PPTX, Gamma — Pandoc-backed format conversion |
 | [Architecture](skills/architecture/) | 5 | Defaults-plus-overrides, pipelines, scoring |
 | [Build](skills/build/) | 5 | Path rot, config separation, data-driven layouts |
 | [Cross-Platform](skills/cross-platform/) | 5 | Path handling, regex, line endings, shell quirks |
