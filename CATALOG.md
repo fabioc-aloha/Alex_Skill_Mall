@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**200 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**202 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
@@ -698,6 +698,12 @@ data viz, process & risk, media generation, academic writing, and personal effec
 
 **svg-graphics** | `skills/media/svg-graphics/` | svg, accessible, theme-aware
 - Scalable, accessible, theme-aware visuals
+
+**document-banner-pastel** | `skills/media/document-banner-pastel/` | svg, banner, pastel, documentation
+- Hand-authored pastel SVG banners (1200×240) with content-specific iconography — A/B/C/D/E variants and three accent tracks; complement to algorithmic banner muscles
+
+**svg-dashboard-composition** | `skills/media/svg-dashboard-composition/` | svg, dashboard, treemap, panel, composition
+- One self-contained SVG from many fragments — shared 820px canvas, one panel primitive, treemap + bar charts + KPI strip + footer; banner regex-injection trick. Promoted from AlexFleetPortfolio.
 
 **pptx-generation** | `skills/media/pptx-generation/` | pptx, powerpoint, programmatic
 - Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markdown conversion

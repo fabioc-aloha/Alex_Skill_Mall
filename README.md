@@ -25,7 +25,7 @@ Your AI assistant (Copilot, Claude, Cursor, etc.) now has access to the skill.
 
 ## What's Here
 
-### [Skills](skills/) — Hard Knowledge (200 skills)
+### [Skills](skills/) — Hard Knowledge (202 skills)
 
 Domain-specific knowledge that saves debugging time:
 
