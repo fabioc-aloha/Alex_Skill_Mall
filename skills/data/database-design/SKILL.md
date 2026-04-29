@@ -377,6 +377,7 @@ const pool = new Pool({
 ### Connection Pool Sizing
 
 Rule of thumb for PostgreSQL:
+
 ```
 connections = (core_count * 2) + spindle_count
 ```

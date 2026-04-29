@@ -170,12 +170,14 @@ Get-ChildItem -Recurse -Include "*.md" |
 ## Automation Opportunities
 
 ### Pre-commit Hook
+
 ```bash
 # .husky/pre-commit or similar
 npm run audit:quick  # Fast checks only
 ```
 
 ### CI Pipeline
+
 ```yaml
 # GitHub Actions
 - name: Architecture Audit
@@ -184,6 +186,7 @@ npm run audit:quick  # Fast checks only
 ```
 
 ### Scheduled Audit
+
 ```yaml
 # Weekly full audit
 on:

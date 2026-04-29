@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > In a crisis, follow the process. Panic is the enemy of resolution.
 
 ## Severity Levels
@@ -106,12 +105,15 @@ One paragraph: what happened, impact, resolution.
 ## Communication Templates
 
 ### To Users (Status Page / Email)
+>
 > **[Service] is experiencing [issues/downtime].** We are investigating and will update every [30 min / 1 hour]. Current workaround: [describe if applicable].
 
 ### To Leadership
+>
 > **Incident P[X]**: [Service] [is down / degraded] since [time]. Impact: [N users / $X revenue]. ETA for resolution: [time / investigating]. Next update: [time].
 
 ### Resolution Announcement
+>
 > **Resolved**: [Service] has been restored as of [time]. Root cause: [one sentence]. Full post-mortem to follow within 48 hours.
 
 ## On-Call Handoff Checklist

@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > Pre-checks, version consistency, and deployment discipline.
 
 ## The Golden Rule

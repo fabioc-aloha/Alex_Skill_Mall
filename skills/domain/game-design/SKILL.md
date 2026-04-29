@@ -20,6 +20,7 @@ A great game teaches you how to play it without telling you. Every mechanic, lev
 ## Core Mechanics
 
 ### MDA Framework
+
 | Layer | Stands For | Perspective |
 |-------|-----------|-------------|
 | **Mechanics** | Rules, systems, algorithms | Designer builds |
@@ -30,6 +31,7 @@ Design flows: Mechanics → Dynamics → Aesthetics
 Player experiences: Aesthetics ← Dynamics ← Mechanics
 
 ### Eight Kinds of Fun (Aesthetics)
+
 | Aesthetic | Description | Example Games |
 |-----------|-------------|---------------|
 | Sensation | Sensory pleasure | Journey, Flower |
@@ -44,6 +46,7 @@ Player experiences: Aesthetics ← Dynamics ← Mechanics
 ## Game Loops
 
 ### Core Loop
+
 The repeatable cycle that forms the foundation of gameplay:
 
 ```text
@@ -69,6 +72,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 ```
 
 ### Nested Loops
+
 | Loop Level | Timescale | Example (RPG) |
 |-----------|-----------|---------------|
 | **Micro** | Seconds | Combat: attack → dodge → counter |
@@ -79,12 +83,14 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 ## Level Design
 
 ### Design Pillars
+
 1. **Readability** — Player understands the space and objectives at a glance
 2. **Flow** — Smooth navigation, no dead ends without purpose
 3. **Pacing** — Tension and release cycle (combat → exploration → puzzle → reward)
 4. **Teaching** — Introduce mechanics in safe spaces before testing them
 
 ### Level Design Process
+
 1. **Paper design** — Sketch layout, define critical path, mark encounters
 2. **Graybox** — Blockout in engine with primitive geometry
 3. **Playtest graybox** — Test flow, pacing, sightlines before art investment
@@ -93,6 +99,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 6. **QA** — Bug testing, boundary testing, performance profiling
 
 ### Spatial Communication
+
 | Technique | Purpose |
 |-----------|---------|
 | **Weenies** (landmarks) | Draw player toward objectives (Disney's castle principle) |
@@ -104,11 +111,13 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 ## Player Psychology
 
 ### Flow State (Csikszentmihalyi)
+
 - **Challenge ≈ Skill** — Too easy = boredom; too hard = frustration
 - Dynamic difficulty adjustment (DDA) keeps players in the flow channel
 - Provide clear goals, immediate feedback, and sense of control
 
 ### Motivation Frameworks
+
 | Theory | Components | Design Implication |
 |--------|-----------|-------------------|
 | **Self-Determination** | Autonomy, Competence, Relatedness | Player choice, skill growth, social features |
@@ -116,6 +125,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 | **Operant Conditioning** | Reinforcement schedules | Reward timing (variable ratio is most engaging) |
 
 ### Onboarding Best Practices
+
 1. Let players do before telling them
 2. One mechanic per tutorial section
 3. Safe failure — let players fail without punishment in early areas
@@ -125,6 +135,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 ## Systems Design & Balancing
 
 ### Economy Design
+
 | Currency Type | Earnable By | Sinks |
 |--------------|-------------|-------|
 | **Soft currency** | Normal gameplay | Common items, upgrades |
@@ -132,6 +143,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 | **Energy** | Time-gated regeneration | Play sessions (mobile) |
 
 ### Balancing Methodology
+
 1. **Spreadsheet modeling** — Define formulas for damage, health, progression curves
 2. **Power budget** — Each item/character gets a fixed power budget; trade-offs within budget
 3. **Internal playtesting** — Team plays the game, not just tests it
@@ -139,6 +151,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 5. **Iterative tuning** — Small changes, measure impact, repeat
 
 ### Progression Curves
+
 | Curve Type | Shape | Player Feeling |
 |-----------|-------|----------------|
 | Linear | Constant rate | Predictable, can feel grindy |
@@ -149,11 +162,13 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 ## Narrative Design
 
 ### Environmental Storytelling
+
 - Tell stories through objects, placement, and state (not cutscenes)
 - "What happened here?" is more engaging than "Here's what happened"
 - Every room should tell a micro-story through its contents
 
 ### Quest Design Patterns
+
 | Type | Structure | Player Agency |
 |------|-----------|--------------|
 | **Main quest** | Critical path, mandatory | Low (must complete) |
@@ -163,6 +178,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 | **Environmental** | Discovered through exploration | High (player-driven discovery) |
 
 ### Dialogue Systems
+
 - **Branching trees** — Explicit choices, clear consequences
 - **Hub and spoke** — Central topic, player explores branches
 - **Parser-driven** — Text input interpreted (niche but immersive)
@@ -171,6 +187,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 ## Monetization Ethics
 
 ### Ethical Monetization
+
 - Cosmetics over power (avoid pay-to-win)
 - Transparent odds for randomized rewards
 - No dark patterns targeting vulnerable populations
@@ -178,6 +195,7 @@ aesthetics: ["Challenge", "Fantasy", "Discovery"]
 - Value proposition: players should feel good about purchases
 
 ### Anti-Patterns to Avoid
+
 | Pattern | Why It's Harmful |
 |---------|-----------------|
 | Loot boxes with opaque odds | Gambling mechanics, regulatory risk |

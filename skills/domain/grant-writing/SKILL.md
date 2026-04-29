@@ -28,9 +28,11 @@ Answer all three. Clearly. Early.
 ## Proposal Structure (General)
 
 ### 1. Specific Aims (1 page)
+
 The most important page. Reviewers decide here.
 
 **Structure:**
+
 - **Hook**: Why this problem matters NOW
 - **Gap**: What's missing in current knowledge
 - **Hypothesis**: Your central claim
@@ -41,22 +43,26 @@ The most important page. Reviewers decide here.
 > [Problem statement establishing significance]. Despite [current state of knowledge], [the gap] remains unaddressed. We hypothesize that [your central hypothesis]. To test this, we will: Aim 1: [specific objective]. Aim 2: [specific objective]. This work will [impact statement].
 
 ### 2. Significance & Innovation
+
 - Why the problem matters (societal, scientific, economic)
 - What's new about your approach
 - How it advances the field
 
 ### 3. Approach / Research Plan
+
 - Detailed methodology for each aim
 - Preliminary data (shows feasibility)
 - Timeline and milestones
 - Potential pitfalls and alternatives
 
 ### 4. Investigator Qualifications
+
 - Why you're the right person/team
 - Relevant expertise and publications
 - Collaborations and resources
 
 ### 5. Budget & Justification
+
 - Personnel, equipment, supplies, travel
 - Clear justification for each item
 - Matches scope of work
@@ -87,12 +93,14 @@ justification: |
 ## Agency-Specific Guidance
 
 ### NSF (National Science Foundation)
+
 - **Broader Impacts** required (education, diversity, public benefit)
 - **Intellectual Merit** equally weighted
 - Project descriptions limited to 15 pages
 - Annual reports and data management plan required
 
 ### NIH (National Institutes of Health)
+
 - **Significance, Innovation, Approach, Investigators, Environment** (5 criteria)
 - R01 is the standard research grant
 - K awards for career development
@@ -100,6 +108,7 @@ justification: |
 - Biosketch format is strict
 
 ### Private Foundations
+
 - Often shorter applications
 - More flexibility in format
 - Relationship building matters
@@ -108,13 +117,16 @@ justification: |
 ## Writing Strategies
 
 ### The Inverted Pyramid
+
 Start with the most important information:
+
 1. **Significance** (why care?)
 2. **Innovation** (what's new?)
 3. **Approach** (how?)
 4. **Details** (specifics)
 
 ### Active Voice, Concrete Claims
+
 | Weak | Strong |
 |------|--------|
 | "It is believed that..." | "We will test whether..." |
@@ -122,12 +134,14 @@ Start with the most important information:
 | "This may lead to..." | "This will demonstrate..." |
 
 ### Preliminary Data Strategy
+
 - Show you CAN do the work
 - Demonstrate feasibility, not completion
 - Just enough to prove concept
 - Save some results for the funded project
 
 ### Addressing Weaknesses
+
 - Acknowledge risks upfront
 - Provide alternatives for each
 - Shows you've thought it through
@@ -184,6 +198,7 @@ Map your writing to review criteria:
 ## Resubmission Strategy
 
 Most grants don't fund on first try. Resubmissions:
+
 - Address EVERY reviewer concern
 - Show what changed (clearly marked)
 - Don't argue with reviewers—adapt

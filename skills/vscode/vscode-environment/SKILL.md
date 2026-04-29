@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > Optimal workspace setup for productivity.
 
 ## Essential Extensions

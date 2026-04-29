@@ -3,6 +3,7 @@
 ## The Problem
 
 Version numbers in 5+ files WILL drift with manual edits:
+
 - `package.json` says 2.1.0
 - README badge says 2.0.0
 - CHANGELOG header says 2.1.0-beta

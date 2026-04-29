@@ -117,10 +117,12 @@ For every claim, ask: "So what? Why does this matter to the executive?"
 ### Grouping and Ordering
 
 **MECE Principle** (Mutually Exclusive, Collectively Exhaustive):
+
 - Groups should not overlap
 - Groups should cover everything
 
 **Ordering options:**
+
 1. **Importance** - Most impactful first
 2. **Time** - Chronological sequence
 3. **Structure** - Parts of a whole
@@ -141,17 +143,20 @@ For every claim, ask: "So what? Why does this matter to the executive?"
 ### Narrative Patterns
 
 **The Hero's Journey** (for transformation stories):
+
 - Current state (ordinary world)
 - Challenge arises (call to adventure)
 - Struggle and learning (trials)
 - Success achieved (return with elixir)
 
 **The Discovery** (for research findings):
+
 - What we believed
 - What we found
 - What this changes
 
 **The Comparison** (for recommendations):
+
 - Option A: status quo
 - Option B: alternative
 - Why B wins
@@ -224,6 +229,7 @@ Every executive presentation needs a clear ask:
 ### Backup Slides
 
 Keep supporting detail in backup slides:
+
 - Detailed methodology
 - Full data tables
 - Alternative scenarios
@@ -345,6 +351,7 @@ I need [ask] to proceed.
 ### The Stakeholder Ladder
 
 Move stakeholders progressively:
+
 ```
 Opponent → Skeptic → Neutral → Supporter → Champion
 ```

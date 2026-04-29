@@ -88,6 +88,7 @@ because [evidence from data].
 ```
 
 Examples:
+
 - "The exec team should double Q4 marketing spend because every $1 of email marketing generates $3.20 in pipeline"
 - "Engineering should prioritize Region B support because resolution time is 2.5x the company average"
 
@@ -119,25 +120,30 @@ Annotations carry the argument. The chart is evidence; the annotation is the law
 When `/datastory` is invoked, execute these phases in order:
 
 ### Phase 0: Ingest
+
 - Activate `data-ingest.cjs` (or inline parse)
 - Output: clean columnar data + metadata
 
 ### Phase 1: Discover
+
 - Activate `data-analysis` skill
 - Output: 3-5 insight statements with story intents
 
 ### Phase 2: Visualize
+
 - Activate `data-visualization` skill for each insight
 - Match story intent → chart type
 - Output: chart specs with titles-as-insights
 
 ### Phase 3: Arrange
+
 - Activate `dashboard-design` skill
 - Choose layout by audience
 - Place KPIs, hero, supporting, table, drill-down
 - Output: dashboard scaffold
 
 ### Phase 4: Narrate
+
 - Apply three-act structure
 - Write Big Idea sentence
 - Add annotations as narration

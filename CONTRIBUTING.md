@@ -145,6 +145,7 @@ git checkout -b skill/your-skill-name
 ### 2. Create the Skill
 
 Follow the format above. Include:
+
 - Concrete problem description
 - Why it's hard to find
 - Actionable solution
@@ -202,6 +203,7 @@ Skills can become outdated. To update:
 4. Note what changed in your PR
 
 To deprecate a skill:
+
 1. Add `**Status**: Deprecated as of [version]` to SKILL.md
 2. Explain what changed (e.g., "Fixed in Azure SWA v2.0")
 3. Skill will be removed after 6 months

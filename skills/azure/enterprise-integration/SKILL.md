@@ -19,6 +19,7 @@ Microsoft Graph and Microsoft Entra ID APIs evolve frequently. Authentication fl
 See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence.
 
 **Refresh triggers:**
+
 - Microsoft Graph API version updates
 - MSAL library major releases
 - Microsoft Entra ID rebranded to Microsoft Entra ID

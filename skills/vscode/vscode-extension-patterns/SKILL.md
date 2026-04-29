@@ -212,12 +212,14 @@ the AI assistant extension: 553MB → 33MB (94% reduction).
 **Problem**: esbuild minifies + hoists, causing `Cannot access 'X' before initialization`.
 
 **Bad**:
+
 ```typescript
 const handlers = { click: () => config.value };  // config hoisted below
 const config = { value: 42 };
 ```
 
 **Good**:
+
 ```typescript
 const config = { value: 42 };  // Define before use
 const handlers = { click: () => config.value };
@@ -235,6 +237,7 @@ const handlers = { click: () => config.value };
 | `chat.hooks.enabled` | Lifecycle hooks |
 
 **Agent file** (`.github/agents/my.agent.md`):
+
 ```yaml
 ---
 name: "MyAgent"
@@ -244,6 +247,7 @@ Instructions here.
 ```
 
 **Chat participant**:
+
 ```typescript
 vscode.chat.createChatParticipant("myext.agent", async (req, ctx, stream) => {
   stream.markdown("Hello!");
@@ -251,6 +255,7 @@ vscode.chat.createChatParticipant("myext.agent", async (req, ctx, stream) => {
 ```
 
 **Tool registration**:
+
 ```typescript
 vscode.lm.registerTool("myext-search", {
   async invoke(opts) {

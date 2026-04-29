@@ -178,6 +178,7 @@ Color theory principles translate directly to Mermaid diagram styling. The **Git
 5. **Consistent stroke family**: Each color has a matching mid-tone stroke (not jarring black borders)
 
 **When to Override the Palette**:
+
 - Diagrams comparing two systems → Use just 2 contrasting colors (complementary scheme)
 - Status dashboards → Green/Yellow/Red RAG mapping
 - Sequential processes → Monochromatic gradient (light to dark within one hue)
@@ -404,6 +405,7 @@ Every illustration should serve one of these purposes:
 ### Principle 4: Format Consistency
 
 **HTML for precise control:**
+
 ```html
 <p align="center">
 <img src="assets/IMAGE.png" alt="Descriptive alt text" width="60%">

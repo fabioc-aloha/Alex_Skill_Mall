@@ -18,6 +18,7 @@ Generate clear, audience-appropriate project status updates. Transform technical
 > "Stakeholders don't need to know HOW you did it — they need to know WHAT it means for them."
 
 Status reports serve different audiences with different needs:
+
 - **Executives**: Impact, risk, timeline
 - **Managers**: Progress, blockers, resources
 - **Teams**: Details, dependencies, next steps
@@ -187,6 +188,7 @@ Happy to jump on a call if you have questions.
 ### Data Sources
 
 Pull information from:
+
 - Git commits and PR descriptions
 - Issue tracker (completed, in-progress, blocked)
 - Calendar (milestones, deadlines)
@@ -196,6 +198,7 @@ Pull information from:
 ## Best Practices
 
 ### DO ✅
+
 - Lead with the most important information
 - Use consistent formatting across reports
 - Include specific dates and numbers
@@ -204,6 +207,7 @@ Pull information from:
 - Show progress, not just activity
 
 ### DON'T ❌
+
 - Bury bad news
 - Use jargon with non-technical audiences
 - Include unnecessary detail
@@ -235,12 +239,14 @@ Pull information from:
 ## Integration Points
 
 ### With Other Skills
+
 - **proactive-assistance**: Offer status prep at end of day
 - **scope-management**: Include scope health in reports
 - **alex-effort-estimation**: Include timeline projections
 - **project-management**: Pull from project tracking
 
 ### Triggers for This Skill
+
 - "status update", "status report"
 - "what did we accomplish", "summarize progress"
 - "stakeholder update", "email to [stakeholder]"

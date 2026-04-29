@@ -95,7 +95,7 @@ the AI assistant has three presentation generation capabilities. This skill prov
 
 ## Use Case Matrix
 
-### Choose MARP When:
+### Choose MARP When
 
 | Scenario | Why Marp |
 |----------|----------|
@@ -106,6 +106,7 @@ the AI assistant has three presentation generation capabilities. This skill prov
 | Offline-first | No cloud dependency |
 
 **Marp Workflow:**
+
 ```markdown
 ---
 marp: true
@@ -126,7 +127,7 @@ theme: default
 
 ---
 
-### Choose GAMMA When:
+### Choose GAMMA When
 
 | Scenario | Why Gamma |
 |----------|-----------|
@@ -137,6 +138,7 @@ theme: default
 | Client-facing deliverables | Publication-quality output |
 
 **Gamma Workflow:**
+
 1. Provide topic/outline to the AI assistant
 2. the AI assistant applies Duarte methodology (see `gamma-presentations` skill)
 3. the AI assistant generates structured markdown
@@ -146,7 +148,7 @@ theme: default
 
 ---
 
-### Choose PPTXGENJS When:
+### Choose PPTXGENJS When
 
 | Scenario | Why PptxGenJS |
 |----------|---------------|
@@ -157,6 +159,7 @@ theme: default
 | Custom branding | Full Slide Master control |
 
 **PptxGenJS Workflow:**
+
 ```typescript
 import { generateAndSavePresentation } from './pptxGenerator';
 
@@ -193,16 +196,19 @@ await generateAndSavePresentation(slides, {}, 'report.pptx');
 Sometimes the best approach combines tools:
 
 ### Marp → Gamma Refinement
+
 1. Draft slides in Marp (fast iteration)
 2. Export rough content
 3. Refine in Gamma for final polish
 
 ### PptxGenJS + Marp Templates
+
 1. Use Marp themes for branding reference
 2. Replicate in PptxGenJS Slide Masters
 3. Automate data-driven generation
 
 ### Gamma Consulting → PptxGenJS Automation
+
 1. Use the AI assistant/Gamma for narrative structure
 2. Implement as PptxGenJS templates
 3. Feed data for automated generation

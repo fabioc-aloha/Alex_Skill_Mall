@@ -47,6 +47,7 @@ The loop is not one-shot. Complex tasks cycle 3-5 times. Each cycle narrows the 
 ### Turn 1: The Anchor (Clarify + Summarize)
 
 State context AND goal in the first turn. Include:
+
 - Tech stack and constraints
 - What output you want (code, doc, plan, analysis)
 - What you DON'T want (avoids the most common waste)
@@ -71,6 +72,7 @@ State context AND goal in the first turn. Include:
 ### The Closing Turn (Reflect)
 
 End sessions by asking:
+
 - "What did we miss?"
 - "What would break this?"
 - "Summarize the decisions we made"

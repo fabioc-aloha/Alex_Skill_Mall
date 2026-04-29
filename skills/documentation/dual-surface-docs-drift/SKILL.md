@@ -3,6 +3,7 @@
 ## The Problem
 
 Two READMEs covering overlapping scope will diverge:
+
 - Root README describes feature X
 - Wiki page also describes feature X
 - One gets updated, the other doesn't

@@ -12,6 +12,7 @@ VitePress intercepts all navigation clicks for SPA routing:
 ```
 
 This breaks:
+
 - Links to non-VitePress pages in the same domain
 - Links to static HTML files
 - Links to other apps hosted at subpaths

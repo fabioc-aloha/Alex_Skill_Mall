@@ -3,6 +3,7 @@
 ## The Problem
 
 One-time fixes get repeated manually:
+
 - "Add the missing import to every new file"
 - "Remember to set the flag when creating services"
 - Relies on human memory → fails over time

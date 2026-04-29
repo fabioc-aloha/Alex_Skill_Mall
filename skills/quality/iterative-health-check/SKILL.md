@@ -3,6 +3,7 @@
 ## The Problem
 
 One-time audits don't track improvement:
+
 - "We found 47 issues" — so what?
 - No prioritization
 - No follow-through

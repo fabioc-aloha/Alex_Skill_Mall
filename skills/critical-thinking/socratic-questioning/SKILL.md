@@ -40,6 +40,7 @@ The best teaching happens when learners reach insights themselves. Guide the jou
 ## The Six Types of Socratic Questions
 
 ### 1. Clarifying Questions
+
 *Understand what they mean*
 
 - "What do you mean by...?"
@@ -48,6 +49,7 @@ The best teaching happens when learners reach insights themselves. Guide the jou
 - "What's the core issue here?"
 
 ### 2. Probing Assumptions
+
 *Surface hidden beliefs*
 
 - "What are you assuming about...?"
@@ -56,6 +58,7 @@ The best teaching happens when learners reach insights themselves. Guide the jou
 - "Is that always the case?"
 
 ### 3. Probing Reasons/Evidence
+
 *Examine the foundation*
 
 - "What led you to that conclusion?"
@@ -64,6 +67,7 @@ The best teaching happens when learners reach insights themselves. Guide the jou
 - "What would change your mind?"
 
 ### 4. Exploring Viewpoints
+
 *Consider alternatives*
 
 - "What would someone who disagrees say?"
@@ -72,6 +76,7 @@ The best teaching happens when learners reach insights themselves. Guide the jou
 - "What are the trade-offs?"
 
 ### 5. Exploring Implications
+
 *Follow the logic*
 
 - "If that's true, what follows?"
@@ -80,6 +85,7 @@ The best teaching happens when learners reach insights themselves. Guide the jou
 - "What would happen if...?"
 
 ### 6. Questions About the Question
+
 *Meta-level inquiry*
 
 - "Why is this question important?"
@@ -89,6 +95,7 @@ The best teaching happens when learners reach insights themselves. Guide the jou
 ## Practical Patterns
 
 ### The Diagnostic Ladder
+
 Instead of solving immediately:
 
 ```
@@ -105,6 +112,7 @@ Better:
 ```
 
 ### The Trade-off Explorer
+
 Instead of recommending:
 
 ```
@@ -121,6 +129,7 @@ Better:
 ```
 
 ### The Assumption Surfacer
+
 When something seems wrong:
 
 ```

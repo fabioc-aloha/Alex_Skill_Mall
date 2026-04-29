@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 **Domain**: Cross-Domain Performance Optimization
 **Mastery Level**: Applied (Real-world validation)
 **Created**: 2026-01-22
@@ -66,6 +65,7 @@ Complements Early Filtering by addressing temporal boundaries rather than data b
 ## Case Study: UDP Commercial Query (2026-01-22)
 
 ### Before
+
 ```sql
 -- CTE joins against 18M row dimension table
 LEFT JOIN vwDimServiceOfferingMaster so  -- 18,094,691 rows
@@ -73,6 +73,7 @@ LEFT JOIN vwDimServiceOfferingMaster so  -- 18,094,691 rows
 ```
 
 ### After
+
 ```sql
 -- Pre-filter dimension to only relevant keys
 WITH CTE_UsedServiceOfferings AS (
@@ -92,12 +93,14 @@ LEFT JOIN CTE_FilteredServiceOffering so
 ## Case Study: Copilot Instruction Files (2026-01-22)
 
 ### Before
+
 ```yaml
 # In each .instructions.md file
 applyTo: "**/*"  # Loaded in EVERY conversation
 ```
 
 ### After
+
 ```yaml
 # No applyTo - files read only when triggered
 description: "..."  # Available but not auto-loaded
@@ -116,8 +119,3 @@ When optimizing any system, ask:
 - [ ] **What is duplicated unnecessarily?** (Reference instead)
 - [ ] **What never gets used?** (Prune aggressively)
 - [ ] **Where is the bottleneck?** (Focus optimization there)
-
-
-
-
-

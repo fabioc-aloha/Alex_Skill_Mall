@@ -12,7 +12,6 @@ currency: 2026-04-20
 
 ---
 
-
 > Write markdown that passes linting on first attempt by internalizing common rules.
 
 ## Purpose

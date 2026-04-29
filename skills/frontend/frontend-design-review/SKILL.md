@@ -20,6 +20,7 @@ currency: 2026-04-22
 ### Mode 1: Design Review
 
 Evaluate existing UI for:
+
 - Design system compliance
 - Three quality pillars (Frictionless, Quality Craft, Trustworthy)
 - Accessibility
@@ -28,6 +29,7 @@ Evaluate existing UI for:
 ### Mode 2: Creative Frontend Design
 
 Create distinctive interfaces that:
+
 - Avoid generic "AI slop" aesthetics
 - Have clear conceptual direction
 - Execute with precision
@@ -39,17 +41,20 @@ Create distinctive interfaces that:
 ### Design System Workflow
 
 **Before implementing:**
+
 1. Review component in your Storybook / component library for API and usage
 2. Use Figma Dev Mode to get exact specs (spacing, tokens, properties)
 3. Implement using design system components + design tokens
 
 **During review:**
+
 1. Compare implementation to Figma design
 2. Verify design tokens are used (not hardcoded values)
 3. Check all variants/states are implemented correctly
 4. Flag deviations (needs design approval)
 
 **If component doesn't exist:**
+
 1. Check if existing component can be adapted
 2. Reach out to design for new component creation
 3. Document exception and rationale in code
@@ -80,6 +85,7 @@ Create distinctive interfaces that:
 **Evaluate:** Task completable in ≤3 interactions? Primary action obvious and singular?
 
 **Red flags:**
+
 - Excessive clicks
 - Multiple competing primary buttons
 - Buried actions
@@ -88,11 +94,13 @@ Create distinctive interfaces that:
 ### 2. Quality is Craft
 
 **Evaluate:**
+
 - **Design system compliance**: matches Figma specs, uses design tokens
 - **Aesthetic direction**: distinctive typography, cohesive colors, intentional motion
 - **Accessibility**: Grade C minimum (WCAG 2.1 A), Grade B ideal (WCAG 2.1 AA)
 
 **Red flags:**
+
 - Generic AI aesthetics
 - Hardcoded values
 - Implementation doesn't match Figma
@@ -102,10 +110,12 @@ Create distinctive interfaces that:
 ### 3. Trustworthy Building
 
 **Evaluate:**
+
 - **AI transparency**: disclaimer on AI-generated content
 - **Error transparency**: actionable error messages
 
 **Red flags:**
+
 - Missing AI disclaimers
 - Opaque errors without guidance
 
@@ -131,6 +141,7 @@ Before coding, commit to an aesthetic direction:
 | **Backgrounds** | Gradient meshes, noise textures, geometric patterns, layered transparencies, dramatic shadows, grain overlays. |
 
 **AVOID:**
+
 - Overused fonts
 - Cliché color schemes
 - Predictable layouts
@@ -234,12 +245,14 @@ Match implementation complexity to vision. Maximalist = elaborate code. Minimali
 ### Pre-Approval
 
 **Design System:**
+
 - [ ] Uses design system components (not custom implementations)
 - [ ] Uses design tokens (not hardcoded colors/spacing)
 - [ ] Matches Figma specs within tolerance
 - [ ] All variants/states implemented
 
 **React 19 Patterns (if applicable):**
+
 - [ ] Forms use `useActionState` (not manual useState + fetch)
 - [ ] Optimistic updates use `useOptimistic` hook
 - [ ] Server state via TanStack Query (not local state for fetched data)
@@ -247,12 +260,14 @@ Match implementation complexity to vision. Maximalist = elaborate code. Minimali
 - [ ] No unnecessary `forwardRef` (React 19 accepts ref as prop)
 
 **Aesthetic Quality:**
+
 - [ ] Distinctive typography choice
 - [ ] Cohesive color palette via CSS variables
 - [ ] Intentional motion (or explicit choice of none)
 - [ ] Appropriate visual density
 
 **Frictionless:**
+
 - [ ] Primary action ≤3 interactions
 - [ ] Clear action hierarchy
 - [ ] No dead ends
@@ -260,12 +275,14 @@ Match implementation complexity to vision. Maximalist = elaborate code. Minimali
 - [ ] Optimistic UI for perceived performance
 
 **Quality Craft:**
+
 - [ ] Responsive/reflow works
 - [ ] Focus indicators visible (`:focus-visible` with ring)
 - [ ] Loading states present (skeleton > spinner)
 - [ ] Error states handled with `role="alert"`
 
 **Trustworthy:**
+
 - [ ] AI content disclosed
 - [ ] Errors are actionable
 - [ ] User data handling transparent
@@ -287,6 +304,7 @@ Match implementation complexity to vision. Maximalist = elaborate code. Minimali
 ## Related Skills
 
 This skill complements:
+
 - **ui-ux-design** — Accessibility patterns, design system foundations
 - **Frontend** agent — React 19 patterns, full component examples
 - **graphic-design** — Visual design principles, SVG graphics

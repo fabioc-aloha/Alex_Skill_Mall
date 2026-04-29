@@ -123,6 +123,7 @@ Functions the AI can execute:
 ```
 
 **Tool Design Principles:**
+
 - Clear, action-oriented names
 - Comprehensive descriptions (when to use, what it returns)
 - Strict input schemas with validation
@@ -152,6 +153,7 @@ Data the AI can read:
 ```
 
 **Resource Patterns:**
+
 - Static: Fixed URIs for known data
 - Template: Dynamic URIs with parameters
 - Subscription: Real-time updates (notifications)
@@ -325,6 +327,7 @@ Default for local servers:
 ```
 
 **Characteristics:**
+
 - Process-based communication
 - Secure (no network exposure)
 - Simple deployment
@@ -343,6 +346,7 @@ For remote/shared servers (replaces deprecated HTTP+SSE as of MCP spec 2025-03-2
 ```
 
 **Characteristics:**
+
 - Single HTTP endpoint handles both request and streaming response
 - Network-accessible
 - Supports authentication (Bearer tokens)
@@ -394,6 +398,7 @@ const { contents } = await client.readResource({
 ### Configuration Patterns
 
 **Per-User Config** (Claude Desktop):
+
 ```json
 // ~/Library/Application Support/Claude/claude_desktop_config.json
 {
@@ -410,6 +415,7 @@ const { contents } = await client.readResource({
 ```
 
 **Workspace Config** (VS Code):
+
 ```json
 // .vscode/mcp.json
 {
@@ -757,6 +763,7 @@ Review every MCP tool handler against this table:
 | 8 | **Backup before overwrite** — tools that modify existing files preserve the original | `.backup.md` created before overwrite; path included in result | Original content lost on write | Create backup; include `backupPath` in result |
 
 **Known findings in `alex-cognitive-tools` (v1.1.0)**:
+
 - `alex_knowledge_save` fails rows 1, 3, 5, 8 — writes directly to AI-Memory with no isolation check, no decision logging, no review signal, and no backup of existing content.
 - `alex_health_check` passes (read-only, no mutations).
 - `alex_memory_search` and `alex_knowledge_search` pass (read-only).

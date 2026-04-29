@@ -27,6 +27,7 @@ Ignore these specific false positives:
 ### Verification
 
 Test in Power BI Desktop or Tabular Editor:
+
 1. Apply the TMDL
 2. If it loads without error, the syntax is correct
 3. The VS Code linter is wrong, not your code

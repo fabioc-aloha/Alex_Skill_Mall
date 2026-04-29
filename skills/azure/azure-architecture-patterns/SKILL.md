@@ -164,16 +164,19 @@ currency: 2026-04-22
 ## Reference Architectures
 
 ### Web Application
+
 ```
 Internet → Front Door → App Service → Azure SQL + Redis
 ```
 
 ### Microservices
+
 ```
 Internet → API Management → AKS → Cosmos DB + Service Bus
 ```
 
 ### Serverless
+
 ```
 Events → Event Grid → Functions → Cosmos DB + Storage
 ```

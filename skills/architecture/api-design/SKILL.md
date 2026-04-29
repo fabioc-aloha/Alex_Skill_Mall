@@ -90,12 +90,14 @@ paths:
 ## Pagination Patterns
 
 ### Offset-Based
+
 ```json
 GET /users?offset=40&limit=20
 { "data": [...], "pagination": { "total": 150 } }
 ```
 
 ### Cursor-Based (Preferred for large datasets)
+
 ```json
 GET /users?cursor=abc123&limit=20
 { "data": [...], "next_cursor": "def456" }
@@ -115,6 +117,7 @@ GET /users?cursor=abc123&limit=20
 ```
 
 **Principles**:
+
 - Machine-readable code
 - Human-readable message
 - Request ID for correlation
@@ -137,6 +140,7 @@ Cache-Control: no-store
 ```
 
 ### ETag Flow
+
 ```http
 GET /users/123
 -> 200 OK, ETag: "v1-abc123"
@@ -183,6 +187,7 @@ Retry-After: 30
 - Envelope responses: `{ "data": ..., "meta": ... }`
 
 ### Partial Responses
+
 ```
 GET /users/123?fields=id,name,email
 ```

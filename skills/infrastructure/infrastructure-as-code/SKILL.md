@@ -217,6 +217,7 @@ terraform {
 ```
 
 **State Best Practices:**
+
 - ✅ Use remote state (never local for teams)
 - ✅ Enable state locking
 - ✅ Encrypt state at rest
@@ -390,12 +391,14 @@ export const endpoint = pulumi.interpolate`https://${webApp.defaultHostName}`;
 ### When to Use Pulumi
 
 ✅ **Good fit:**
+
 - Team prefers TypeScript/Python/Go over HCL
 - Need complex logic (loops, conditionals, API calls)
 - Want type checking and IDE support
 - Building reusable libraries
 
 ❌ **Consider alternatives:**
+
 - Simple infrastructure needs
 - Team experienced with Terraform
 - Need maximum community resources
@@ -702,6 +705,7 @@ resource "azurerm_linux_web_app" "main" {
 | **MCP Server** | `azure-mcp` | Azure architecture and deployment tools |
 
 **Installation**:
+
 ```bash
 # VS Code Extensions
 code --install-extension ms-azuretools.vscode-bicep
@@ -716,14 +720,15 @@ code --install-extension ms-azuretools.vscode-azure-github-copilot
 
 | MCP Tool | Fallback Approach |
 |----------|-------------------|
-| `list_avm_metadata` | Browse https://aka.ms/avm/modules |
+| `list_avm_metadata` | Browse <https://aka.ms/avm/modules> |
 | `get_az_resource_type_schema` | ARM template reference or `az rest` API |
-| `get_bicep_best_practices` | https://learn.microsoft.com/azure/azure-resource-manager/bicep/best-practices |
+| `get_bicep_best_practices` | <https://learn.microsoft.com/azure/azure-resource-manager/bicep/best-practices> |
 | `get_bicep_file_diagnostics` | VS Code Bicep extension or `bicep build` CLI |
-| `cloudarchitect` | Azure Architecture Center + WAF Assessment (https://aka.ms/waf-assessment) |
-| `documentation` | https://learn.microsoft.com/azure/architecture |
+| `cloudarchitect` | Azure Architecture Center + WAF Assessment (<https://aka.ms/waf-assessment>) |
+| `documentation` | <https://learn.microsoft.com/azure/architecture> |
 
 **Terraform Fallbacks** (no MCP yet):
+
 ```bash
 # Terraform validation
 terraform validate

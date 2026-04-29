@@ -66,6 +66,7 @@ $result = $version -replace '(\d+)\.(\d+)\.(\d+)', {
 ## Cross-Platform Note
 
 This ambiguity exists in:
+
 - PowerShell (`-replace`)
 - .NET (`Regex.Replace`)
 - JavaScript (`String.replace` with function)

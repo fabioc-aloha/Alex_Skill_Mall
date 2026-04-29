@@ -117,6 +117,7 @@ Selling is structured problem-solving. You diagnose a customer's pain, match it 
 ### Cold Outreach Framework
 
 **Email structure (3-sentence max):**
+
 1. Relevant observation about their business (shows research)
 2. One sentence connecting their challenge to your solution
 3. Low-friction ask (15-minute call, not a demo)

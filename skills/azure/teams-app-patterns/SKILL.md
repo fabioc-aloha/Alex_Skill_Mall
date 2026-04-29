@@ -50,10 +50,12 @@ The `@m365agents` chat participant exposes MCP tools. **Use these programmatical
 | `user_overrides` | `{ "capabilities": [...] }` | `[ { "path": "$.capabilities[?(@.name=='X')]", "allowed_actions": ["remove"] } ]` |
 
 **CLI Version Matters:**
+
 - **v2.x**: `--app-package-file` flag, may NOT include declarativeAgent.json in zip (bug)
 - **v3.x**: `--package-file` flag, correctly includes declarativeAgent.json
 
 **Upgrade CLI if packaging fails:**
+
 ```bash
 npm install -g @microsoft/teamsapp-cli@latest
 teamsapp --version  # Should be 3.x
@@ -72,6 +74,7 @@ appPackage/
 ```
 
 ### Icon Requirements (CRITICAL)
+
 | Icon | Size | Background | Content |
 |------|------|------------|---------|
 | color.png | 192×192 | Any | Full color logo |
@@ -141,6 +144,7 @@ const token = await microsoftTeams.authentication.getAuthToken();
 The M365 Agents Toolkit (formerly Teams Toolkit) provides:
 
 **CLI commands:**
+
 ```bash
 npx teamsapp package --env local
 npx teamsapp validate --package-file ...
@@ -148,6 +152,7 @@ npx teamsapp preview --env local
 ```
 
 **MCP tools** (available when M365 Agents Toolkit extension is installed):
+
 ```
 mcp_m365agentstoo_get_schema("app_manifest")       # Get Teams app manifest schema
 mcp_m365agentstoo_get_schema("declarative_agent_manifest")  # Get DA schema
@@ -156,6 +161,7 @@ mcp_m365agentstoo_troubleshoot("sideloading fails")         # Diagnose issues
 ```
 
 **`@m365agents` chat participant** — ask in VS Code Copilot Chat:
+
 - "I want to create a declarative agent"
 - "How to add SSO?"
 - "My Teams app doesn't sideload"
@@ -176,9 +182,10 @@ mcp_m365agentstoo_troubleshoot("sideloading fails")         # Diagnose issues
 Microsoft orgs with strict conditional access policies may block `teamsapp auth login m365`. Error: `AADSTS530084`.
 
 **Fallback: Manual Developer Portal Upload**
+
 1. Build package: `npm run package:dev`
 2. Validate: `npx teamsapp validate --package-file ./appPackage/build/appPackage.dev.zip`
-3. Open: https://dev.teams.microsoft.com/apps
+3. Open: <https://dev.teams.microsoft.com/apps>
 4. Import app package → Upload zip
 5. Publish to org catalog
 
@@ -194,5 +201,6 @@ Microsoft orgs with strict conditional access policies may block `teamsapp auth 
 | M365/Teams | Knowledge workers | Research, analysis, productivity |
 
 **M365 Positioning Example**:
+
 - ❌ "Accelerate your Python development"
 - ✅ "Your AI research partner. Remembers context, grows with you."

@@ -30,6 +30,7 @@ Financial analysis transforms raw numbers into decisions. Every model, ratio, an
 ### Key Ratios
 
 #### Profitability
+
 | Ratio | Formula | Meaning |
 |-------|---------|---------|
 | Gross Margin | (Revenue − COGS) / Revenue | Pricing power and production efficiency |
@@ -39,6 +40,7 @@ Financial analysis transforms raw numbers into decisions. Every model, ratio, an
 | ROA | Net Income / Total Assets | Asset efficiency |
 
 #### Liquidity
+
 | Ratio | Formula | Healthy Range |
 |-------|---------|---------------|
 | Current Ratio | Current Assets / Current Liabilities | 1.5–3.0 |
@@ -46,6 +48,7 @@ Financial analysis transforms raw numbers into decisions. Every model, ratio, an
 | Cash Ratio | Cash / Current Liabilities | 0.5–1.0 |
 
 #### Leverage
+
 | Ratio | Formula | Watch For |
 |-------|---------|-----------|
 | Debt-to-Equity | Total Debt / Total Equity | >2.0 signals high leverage |
@@ -59,6 +62,7 @@ Financial analysis transforms raw numbers into decisions. Every model, ratio, an
 **When to use**: Valuing a business, project, or investment based on future cash flows.
 
 **Steps:**
+
 1. Project free cash flows (FCF) for 5–10 years
 2. Calculate terminal value (perpetuity growth or exit multiple)
 3. Discount all cash flows to present value using WACC
@@ -66,6 +70,7 @@ Financial analysis transforms raw numbers into decisions. Every model, ratio, an
 5. Subtract net debt → equity value
 
 **Key assumptions to document:**
+
 - Revenue growth rate and drivers
 - Margin trajectory
 - Capital expenditure requirements

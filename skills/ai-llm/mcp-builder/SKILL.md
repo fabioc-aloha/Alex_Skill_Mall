@@ -74,6 +74,7 @@ Error messages should guide agents toward solutions with specific suggestions an
 Start with the sitemap: `https://modelcontextprotocol.io/sitemap.xml`
 
 Key pages to review:
+
 - Specification overview and architecture
 - Transport mechanisms (streamable HTTP, stdio)
 - Tool, resource, and prompt definitions
@@ -225,12 +226,14 @@ server.tool(
 ### Build and Verify
 
 **TypeScript:**
+
 ```bash
 npm run build
 npx @modelcontextprotocol/inspector ./dist/server.js
 ```
 
 **Python:**
+
 ```bash
 python -m py_compile your_server.py
 npx @modelcontextprotocol/inspector -- python your_server.py
@@ -271,6 +274,7 @@ Test whether LLMs can effectively use your MCP server to answer realistic, compl
 ### Evaluation Requirements
 
 Each question must be:
+
 - **Independent**: Not dependent on other questions
 - **Read-only**: Only non-destructive operations required
 - **Complex**: Requiring multiple tool calls and deep exploration
@@ -307,6 +311,7 @@ Each question must be:
 ## Related Skills
 
 This skill complements:
+
 - **mcp-development** — Core MCP protocol patterns and architecture
 - **azure-architecture-patterns** — When building Azure-integrated MCP servers
 - **testing-strategies** — For comprehensive MCP server testing

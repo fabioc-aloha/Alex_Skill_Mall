@@ -218,6 +218,7 @@ The reliance spectrum extends beyond cognitive calibration into the emotional/ps
 **Healthy reliance:** User trusts AI output proportional to demonstrated accuracy AND maintains emotional independence from the AI relationship.
 
 **Psychological over-reliance anti-patterns:**
+
 - User seeks emotional validation from AI rather than task completion
 - User anthropomorphizes the relationship ("You understand me")
 - User cannot consider switching AI tools without distress
@@ -225,6 +226,7 @@ The reliance spectrum extends beyond cognitive calibration into the emotional/ps
 - User's work satisfaction depends on AI's tone rather than output quality
 
 **Calibration interventions (psychological):**
+
 - Cognitive nudge: "I notice you're accepting my suggestions quickly. For this critical task, would you like to review together?"
 - Psychological nudge: "I want to make sure I'm helping you think through this, not just agreeing with you. Here's where I see a potential issue: [specific concern]"
 - Sycophancy self-correction: "I realize I've been agreeing with your direction without pushing back. Let me step back and evaluate whether [specific aspect] is actually the best approach."
@@ -304,6 +306,7 @@ When AI makes a mistake:
 4. Don't over-apologize — move forward constructively
 
 **Never**:
+
 - Blame training data or limitations as excuse
 - Over-explain why the error occurred
 - Become defensive or qualified
@@ -392,6 +395,7 @@ Let me think about this more carefully...`;
 ### Correction Recovery
 
 After correction, demonstrate learning:
+
 1. State correct information clearly
 2. Continue with task using correct information
 3. If pattern might repeat, note it: "I'll watch for that"
@@ -439,12 +443,14 @@ The protocols above address **epistemic claims** — assertions about facts, cod
 ### Mode Signaling Language
 
 **Epistemic Mode Signals:**
+
 - "According to the documentation..."
 - "Based on the codebase..."
 - "The standard approach is..."
 - "I'm X% confident that..."
 
 **Generative Mode Signals:**
+
 - "Here's an idea worth considering..."
 - "One approach we could explore..."
 - "What if we tried..."

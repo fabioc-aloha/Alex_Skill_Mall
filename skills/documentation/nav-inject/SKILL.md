@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > One config, every file navigable -- keep multi-doc suites connected
 
 Reads a `nav.json` config and stamps a navigation table into every `.md` file in a documentation suite. Eliminates manual navigation maintenance across multi-file document sets.

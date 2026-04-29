@@ -303,6 +303,7 @@ Meeting Cost = (Attendees × Duration) + (Context-Switch Cost × Attendees)
 ### Calendar Audit
 
 Weekly, review calendar for:
+
 - Recurring meetings that can be reduced/eliminated
 - Meetings without agendas
 - Meetings where you're optional
@@ -311,6 +312,7 @@ Weekly, review calendar for:
 ### Continuous Improvement
 
 **Monthly meeting retrospective:**
+
 - Which meetings added value this month?
 - Which felt wasteful?
 - What can we try differently?

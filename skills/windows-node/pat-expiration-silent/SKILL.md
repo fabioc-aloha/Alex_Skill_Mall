@@ -81,17 +81,20 @@ Reminder: 2026-04-01 (2 weeks before)
 ### VS Code Marketplace (VSCE)
 
 Required scopes for Azure DevOps PAT:
+
 - **Marketplace**: Manage (or Publish)
 - Organization: All accessible organizations (or specific)
 
 ### npm
 
 Required scope:
+
 - **Automation** (for CI/CD) or **Publish** (for interactive)
 
 ### GitHub Packages
 
 Required scopes:
+
 - `write:packages`
 - `read:packages`
 - `delete:packages` (if needed)
@@ -107,6 +110,7 @@ env:
 ```
 
 **Reminder**: When you rotate a token, update:
+
 1. Local environment variable
 2. CI/CD secrets (GitHub, Azure DevOps, etc.)
 3. Any shared credential stores

@@ -60,6 +60,7 @@ Examples:
 ```
 
 **Rules:**
+
 - Use hyphen (`-`), not underscore (`_`)
 - Lowercase language, titlecase script, uppercase region
 - Keep tags minimal (no script unless disambiguating)
@@ -759,6 +760,7 @@ function pseudoLocalize(text: string): string {
 ```
 
 **What pseudo-loc catches**:
+
 - Hardcoded strings (no brackets = not going through i18n)
 - Truncated text (expansion breaks UI)
 - Encoding issues (accented chars display wrong)
@@ -771,6 +773,7 @@ function pseudoLocalize(text: string): string {
 ### Language Switcher UX
 
 ✅ **Do:**
+
 - Show native language names ("Deutsch" not "German")
 - Use flag + name (flags alone are problematic)
 - Group by region for long lists
@@ -778,6 +781,7 @@ function pseudoLocalize(text: string): string {
 - Instant switch (no page reload)
 
 ❌ **Don't:**
+
 - Hide in footer or settings
 - Use flags alone (languages ≠ countries)
 - Auto-switch without confirmation
@@ -786,6 +790,7 @@ function pseudoLocalize(text: string): string {
 ### Privacy Considerations
 
 All detection methods should be GDPR/privacy compliant:
+
 - ✅ User selection (explicit consent)
 - ✅ Accept-Language header (browser setting, not PII)
 - ✅ Organization default (no personal data)

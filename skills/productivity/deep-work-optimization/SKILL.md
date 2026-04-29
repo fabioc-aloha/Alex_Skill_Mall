@@ -227,6 +227,7 @@ After Session:
 ### The 10-Minute Rule
 
 When tempted to check email/social:
+
 1. Note the urge
 2. Wait 10 minutes
 3. Continue working

@@ -45,12 +45,14 @@ This skill depends on rapidly evolving technology. Model capabilities, pricing, 
 | **Haiku 4.5** | `claude-haiku-4-5-20251001` | Near-frontier intelligence, fastest | $1 / $5 | 200K | 64K |
 
 **All Claude 4 models support:**
+
 - Extended thinking
 - Vision (images)
 - Tool use
 - Priority Tier access
 
 **Opus 4.6 and Sonnet 4.6 additionally support:**
+
 - Adaptive thinking (dynamic reasoning depth)
 - 1M token context window (beta, via `context-1m-2025-08-07` header — long context pricing applies beyond 200K)
 

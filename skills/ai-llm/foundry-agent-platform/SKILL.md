@@ -20,6 +20,7 @@ currency: 2026-04-22
 Foundry is in active preview (February 2026). SDK versions change frequently.
 
 **Refresh triggers:**
+
 - `azure-ai-projects` SDK version bump (currently 2.0.0b3)
 - Foundry portal feature releases
 - Hosted Agents GA
@@ -35,9 +36,9 @@ Microsoft Foundry (formerly Azure AI Foundry) unifies model hosting, agent orche
 
 | Concept | Description |
 |---------|-------------|
-| **Portal** | https://ai.azure.com |
+| **Portal** | <https://ai.azure.com> |
 | **Endpoint** | `https://<resource>.services.ai.azure.com/api/projects/<project>` |
-| **MCP Server** | https://mcp.ai.azure.com (cloud-hosted, Entra ID) |
+| **MCP Server** | <https://mcp.ai.azure.com> (cloud-hosted, Entra ID) |
 | **VS Code Extension** | `TeamsDevApp.vscode-ai-foundry` |
 | **Key Distinction** | Infrastructure platform (backend), not a surface |
 

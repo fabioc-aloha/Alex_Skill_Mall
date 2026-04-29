@@ -18,6 +18,7 @@ currency: 2026-04-20
 Security practices evolve with new threats, vulnerabilities, and industry standards.
 
 **Refresh triggers:**
+
 - New CVEs affecting our stack
 - Microsoft SFI updates
 - Major security incidents (industry-wide)
@@ -75,6 +76,7 @@ Four foundations that underpin successful security operations:
 ### Secure by Design Checklist
 
 Before coding:
+
 - [ ] Authentication method defined
 - [ ] Authorization model designed
 - [ ] Data classification done
@@ -152,6 +154,7 @@ function processInput(input: unknown) {
 ## Code Review Security Lens
 
 ### Authentication
+
 ```
 □ Passwords hashed with bcrypt/argon2 (not MD5/SHA1)
 □ No hardcoded credentials
@@ -161,6 +164,7 @@ function processInput(input: unknown) {
 ```
 
 ### Authorization
+
 ```
 □ Every endpoint has explicit access control
 □ No security through obscurity (hidden URLs)
@@ -170,6 +174,7 @@ function processInput(input: unknown) {
 ```
 
 ### Input Validation
+
 ```
 □ All input validated on server (not just client)
 □ Allowlist validation preferred over blocklist
@@ -179,6 +184,7 @@ function processInput(input: unknown) {
 ```
 
 ### Data Protection
+
 ```
 □ Sensitive data encrypted at rest
 □ TLS 1.2+ for data in transit
@@ -188,6 +194,7 @@ function processInput(input: unknown) {
 ```
 
 ### Dependencies
+
 ```
 □ npm audit / pip audit / cargo audit clean
 □ No deprecated or unmaintained packages
@@ -315,6 +322,7 @@ X-XSS-Protection: 0 (deprecated, use CSP)
 ## Quick Security Questions
 
 Before shipping, ask:
+
 1. **What's the worst thing an attacker could do?**
 2. **What data could leak if this endpoint is exposed?**
 3. **Who should NOT have access to this?**
@@ -326,6 +334,7 @@ Before shipping, ask:
 ## Incident Response Connection
 
 When vulnerability found:
+
 1. **Assess**: What's the blast radius?
 2. **Contain**: Can we disable the feature?
 3. **Fix**: Patch the vulnerability

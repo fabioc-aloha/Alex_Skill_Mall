@@ -263,6 +263,7 @@ Use Architecture Decision Records (ADRs):
 ## Related Skills
 
 This skill complements:
+
 - **azure-architecture-patterns** — Detailed Azure-specific patterns
 - **bicep-avm-mastery** — Infrastructure as code for Azure
 - **security-review** — STRIDE, threat modeling

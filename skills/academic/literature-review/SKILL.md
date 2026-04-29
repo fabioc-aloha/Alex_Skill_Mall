@@ -68,6 +68,7 @@ For empirical research questions:
 ### Search String Construction
 
 **Boolean operators:**
+
 ```
 ("artificial intelligence" OR "AI" OR "machine learning")
 AND
@@ -77,6 +78,7 @@ AND
 ```
 
 **Truncation and wildcards:**
+
 - `adopt*` → adoption, adopting, adopter
 - `behavio?r` → behavior, behaviour
 
@@ -129,6 +131,7 @@ Final Corpus (~20-40)
 ### Screening Criteria
 
 **Quick reject (title/abstract):**
+
 - Wrong population
 - Wrong intervention
 - Wrong outcome
@@ -137,6 +140,7 @@ Final Corpus (~20-40)
 - Duplicate
 
 **Full-text assessment:**
+
 - Methodological rigor
 - Relevance to research question
 - Contribution to synthesis
@@ -144,11 +148,13 @@ Final Corpus (~20-40)
 ### Citation Tracking
 
 **Backward citation** (reference mining):
+
 - Review reference lists of key papers
 - Find foundational works
 - Identify theoretical ancestry
 
 **Forward citation** (cited by):
+
 - Use Google Scholar "Cited by"
 - Find recent developments
 - Identify methodological improvements
@@ -170,6 +176,7 @@ Final Corpus (~20-40)
 ### Study Type Checklists
 
 **Quantitative survey studies:**
+
 - [ ] Sample size adequate (power analysis?)
 - [ ] Response rate reported
 - [ ] Validated instruments used
@@ -178,6 +185,7 @@ Final Corpus (~20-40)
 - [ ] Appropriate statistical analysis
 
 **Qualitative studies:**
+
 - [ ] Sampling strategy justified
 - [ ] Data saturation discussed
 - [ ] Researcher positionality stated
@@ -185,6 +193,7 @@ Final Corpus (~20-40)
 - [ ] Member checking or triangulation
 
 **SEM/CFA studies:**
+
 - [ ] Model fit indices reported (CFI, RMSEA, SRMR)
 - [ ] Convergent validity (AVE ≥ .50)
 - [ ] Discriminant validity (HTMT < .85)
@@ -201,6 +210,7 @@ Final Corpus (~20-40)
 3. **Develop analytical narrative** - What themes mean together
 
 **Example themes for AIRS research:**
+
 - Trust and reliance
 - Value perception
 - Effort-benefit trade-offs
@@ -216,11 +226,13 @@ Final Corpus (~20-40)
 ### Theoretical Integration
 
 **Identifying theoretical tensions:**
+
 - Where do theories contradict?
 - What boundary conditions apply?
 - How can conflicts be resolved?
 
 **Building theoretical contribution:**
+
 - What's missing from current theories?
 - How does your work extend understanding?
 - What new constructs are needed?
@@ -260,18 +272,22 @@ Final Corpus (~20-40)
 ### Structure Options
 
 **Chronological:**
+
 - Best for: Tracing evolution of a concept
 - Risk: Can become mere historical summary
 
 **Thematic:**
+
 - Best for: Synthesizing diverse perspectives
 - Risk: May obscure temporal development
 
 **Methodological:**
+
 - Best for: Evaluating research approaches
 - Risk: Can be dry, less engaging
 
 **Theoretical:**
+
 - Best for: Comparing frameworks
 - Risk: Requires deep theory knowledge
 

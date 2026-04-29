@@ -3,6 +3,7 @@
 ## The Problem
 
 Extensions/tools that auto-write to user workspaces without consent:
+
 - Create `.vscode/` folders unexpectedly
 - Add config files that get committed accidentally
 - Scaffold structures the user didn't want

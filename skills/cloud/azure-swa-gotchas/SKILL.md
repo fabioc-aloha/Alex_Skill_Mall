@@ -28,6 +28,7 @@ Azure Static Web Apps is powerful but has numerous edge cases that cause silent 
 **Cause**: `/.auth/*` routes must be explicitly allowed for `anonymous` BEFORE any `/*` wildcard with `authenticated`.
 
 **Solution**:
+
 ```json
 {
   "routes": [
@@ -87,6 +88,7 @@ Azure Static Web Apps is powerful but has numerous edge cases that cause silent 
 **Cause**: Entra ID app registration must include callback URIs for BOTH the default SWA hostname AND any custom domain.
 
 **Solution**: Add both to app registration:
+
 - `https://yourapp.azurestaticapps.net/.auth/login/aad/callback`
 - `https://yourdomain.com/.auth/login/aad/callback`
 
@@ -141,6 +143,7 @@ az staticwebapp backends link \
 **Cause**: Files in `public/` are copied to `dist/` during build. Committing doesn't serve them.
 
 **Solution**: Rebuild and redeploy:
+
 ```bash
 npm run build
 # Then trigger deployment
@@ -157,6 +160,7 @@ npm run build
 **Cause**: Previous deployment source still linked
 
 **Solution**: Disconnect before moving to CLI or new workflow:
+
 ```bash
 az staticwebapp disconnect --name my-swa
 ```
@@ -172,6 +176,7 @@ az staticwebapp disconnect --name my-swa
 **Cause**: `package.json` must have `"main"` pointing to the file that registers functions via `app.http()`.
 
 **Solution**:
+
 ```json
 {
   "main": "dist/index.js"
@@ -179,6 +184,7 @@ az staticwebapp disconnect --name my-swa
 ```
 
 Where `index.js` contains:
+
 ```javascript
 const { app } = require('@azure/functions');
 app.http('myFunction', { ... });
@@ -195,6 +201,7 @@ app.http('myFunction', { ... });
 **Cause**: SWA hostnames can change, especially after region changes
 
 **Solution**: Always verify:
+
 ```bash
 az staticwebapp show --name my-swa --query defaultHostname -o tsv
 ```
@@ -222,6 +229,7 @@ az staticwebapp show --name my-swa --query defaultHostname -o tsv
 **Cause**: Browsers may kill connections without explicit timeout
 
 **Solution**:
+
 ```javascript
 const controller = new AbortController();
 const timeoutId = setTimeout(() => controller.abort(), 180000); // 3 min
@@ -249,4 +257,4 @@ try {
 
 - [entra-redirect-uris](../entra-redirect-uris/) — More auth gotchas
 - [vite-public-rebuild](../../build/vite-public-rebuild/) — Build system details
-- Official docs: https://docs.microsoft.com/azure/static-web-apps/
+- Official docs: <https://docs.microsoft.com/azure/static-web-apps/>

@@ -75,6 +75,7 @@ logger.info('Processing request', { traceId: req.traceId, ...data });
 ### The RED Method (Request-focused)
 
 For services:
+
 - **R**ate: Requests per second
 - **E**rrors: Failed requests per second
 - **D**uration: Request latency distribution
@@ -82,6 +83,7 @@ For services:
 ### The USE Method (Resource-focused)
 
 For infrastructure:
+
 - **U**tilization: % time resource busy
 - **S**aturation: Queue depth
 - **E**rrors: Error count

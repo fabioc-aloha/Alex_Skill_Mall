@@ -224,6 +224,7 @@ function getToken(tokenName: string): string | null {
 the AI assistant can automatically detect secrets in `.env` files and offer secure migration:
 
 **Detection Pattern**:
+
 ```typescript
 // Scan workspace for .env files (excludes .env.example, .env.template)
 const envFiles = await vscode.workspace.findFiles('**/.env*', '**/node_modules/**');
@@ -240,6 +241,7 @@ const envPattern = /^\s*([A-Z_][A-Z0-9_]*)\s*=\s*([^#\n]+)/i;
 ```
 
 **Migration Workflow**:
+
 1. **Scan**: Find all `.env` files in workspace
 2. **Parse**: Detect environment variables matching secret patterns
 3. **Classify**: Separate recognized tokens (matching TOKEN_CONFIGS) from custom
@@ -248,10 +250,12 @@ const envPattern = /^\s*([A-Z_][A-Z0-9_]*)\s*=\s*([^#\n]+)/i;
 6. **Guide**: Provide code migration instructions
 
 **User Commands**:
+
 - Detect and migrate .env secrets: Scan workspace for .env files
 - Export SecretStorage to .env: Write tokens to .env for external tool access
 
 **Migration UI Flow**:
+
 ```
 🔍 Found 3 potential secret(s) in .env files:
 ✅ 2 recognized (can auto-migrate)
@@ -262,11 +266,13 @@ const envPattern = /^\s*([A-Z_][A-Z0-9_]*)\s*=\s*([^#\n]+)/i;
 
 **Code Migration Guide**:
 After migration, users must update their code:
+
 - **VS Code extensions**: Use `context.secrets` API
 - **Node.js apps**: Load from environment at runtime (CI/CD secrets, Azure Key Vault, etc.)
 - **Scripts called by the AI assistant**: Receive secrets as command-line arguments
 
 **Security Benefits**:
+
 - ✅ Removes plaintext secrets from `.env` files
 - ✅ OS-level encryption (Credential Manager, Keychain, Secret Service)
 - ✅ Prevents accidental commits to version control
@@ -277,11 +283,13 @@ After migration, users must update their code:
 VS Code SecretStorage is inaccessible to PowerShell scripts, CLI tools, and CI/CD pipelines. The export command bridges this gap.
 
 **Why Export is Needed**:
+
 - PowerShell scripts (like `brain-qa.cjs`) can't access SecretStorage
 - External tools (Replicate CLI, OpenAI CLI) need env vars or .env
 - CI/CD pipelines require explicit secret injection
 
 **Export Implementation**:
+
 ```typescript
 async function exportSecretsToEnv(): Promise<void> {
     const workspaceFolder = vscode.workspace.workspaceFolders?.[0];
@@ -328,6 +336,7 @@ async function exportSecretsToEnv(): Promise<void> {
 ```
 
 **PowerShell Script Usage**:
+
 ```powershell
 # Source the .env file in PowerShell
 if (Test-Path .env) {
@@ -342,6 +351,7 @@ if (Test-Path .env) {
 ```
 
 **Security Considerations**:
+
 - ⚠️ Exported .env contains plaintext secrets — add to `.gitignore`
 - ⚠️ Re-export if tokens change in SecretStorage
 - ✅ Markers identify the AI assistant-managed section for safe updates
@@ -350,6 +360,7 @@ if (Test-Path .env) {
 ## Implementation Checklist
 
 ### Service Setup
+
 - [ ] Create `secretsManager.ts` service
 - [ ] Define TOKEN_CONFIGS registry
 - [ ] Initialize SecretStorage in activate()
@@ -357,6 +368,7 @@ if (Test-Path .env) {
 - [ ] Add migration logic (env vars → SecretStorage)
 
 ### Core API
+
 - [ ] `initSecretsManager(context)` - Set up storage + cache
 - [ ] `getToken(name)` - Synchronous retrieval with fallback
 - [ ] `setToken(name, value)` - Store + update cache
@@ -364,6 +376,7 @@ if (Test-Path .env) {
 - [ ] `migrateSecretsFromEnvironment()` - One-time migration
 
 ### UI Components
+
 - [ ] Command: "Manage API Keys & Secrets"
 - [ ] Command: "Detect & Migrate .env Secrets"
 - [ ] Command: "Export Secrets to .env"
@@ -376,6 +389,7 @@ if (Test-Path .env) {
 - [ ] Migration guide: Code update instructions
 
 ### Integration
+
 - [ ] Import secrets manager in extension.ts
 - [ ] Call `initSecretsManager()` in activate()
 - [ ] Register management command
@@ -383,6 +397,7 @@ if (Test-Path .env) {
 - [ ] Add "Configure API Key" options to warnings
 
 ### Testing
+
 - [ ] Test on Windows (Credential Manager)
 - [ ] Test on macOS (Keychain)
 - [ ] Test on Linux (Secret Service)

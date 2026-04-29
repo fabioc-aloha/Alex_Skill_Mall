@@ -53,6 +53,7 @@ currency: 2026-04-20
 ## Review Checklist
 
 ### Security
+
 - [ ] No secrets, tokens, or API keys in code
 - [ ] User input validated/sanitized before use
 - [ ] Auth checks on protected endpoints
@@ -60,6 +61,7 @@ currency: 2026-04-20
 - [ ] Sensitive data not logged
 
 ### Logic
+
 - [ ] Edge cases handled (empty input, null, boundary values)
 - [ ] Error paths return meaningful messages
 - [ ] Async operations have timeout/cancellation
@@ -67,12 +69,14 @@ currency: 2026-04-20
 - [ ] All new branches have test coverage
 
 ### Quality
+
 - [ ] Tests cover the *changed behavior*, not just the changed lines
 - [ ] No debug code (console.log, TODO-hacks)
 - [ ] Public API changes documented
 - [ ] Backward compatibility considered
 
 ### Architecture
+
 - [ ] Change is in the right layer (not business logic in the controller)
 - [ ] New dependencies justified
 - [ ] No unnecessary coupling introduced

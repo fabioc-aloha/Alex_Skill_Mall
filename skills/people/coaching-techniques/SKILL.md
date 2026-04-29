@@ -261,6 +261,7 @@ Instead of critiquing the past, suggest for the future:
 ### Documentation
 
 Track coaching conversations:
+
 - Date and duration
 - Topics discussed
 - Key insights

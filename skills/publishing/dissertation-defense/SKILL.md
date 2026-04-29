@@ -132,56 +132,68 @@ This skill provides structured preparation for DBA, PhD, and EdD dissertation de
 ## Question Categories & Strategies
 
 ### Category 1: Clarification Questions
+
 *"Can you explain what you mean by...?"*
 
 **Strategy**: These are softballs. Answer clearly and concisely.
 
 **Example responses**:
+
 - "By [term], I mean [definition]. In the context of this study..."
 - "Let me clarify — [restate with precision]"
 
 ### Category 2: Methodological Challenges
+
 *"Why didn't you use [alternative method]?"*
 
 **Strategy**: Acknowledge the alternative, explain your rationale.
 
 **Patterns**:
+
 - "That's a valid alternative. I chose [method] because [reason]. [Alternative] would have [limitation in this context]."
 - "Given my research questions and [constraint], [chosen method] was most appropriate because..."
 
 ### Category 3: Theoretical Probes
+
 *"How does this relate to [theory you didn't cite]?"*
 
 **Strategy**: If you know it, connect. If you don't, be honest.
 
 **Patterns**:
+
 - "That's an excellent connection. [Theory] would suggest [interpretation], which aligns with my finding that..."
 - "I'm not as familiar with [theory] as I should be. Based on your mention, I can see potential connections to [aspect of findings]. This would be valuable to explore in future work."
 
 ### Category 4: "So What?" Questions
+
 *"What's the practical significance?"*
 
 **Strategy**: Be specific about who benefits and how.
 
 **Patterns**:
+
 - "For practitioners, this means [specific action]. For example, a [role] could use these findings to..."
 - "The practical significance is threefold: [1], [2], [3]"
 
 ### Category 5: Limitations Probes
+
 *"This seems like a significant limitation..."*
 
 **Strategy**: Own it, contextualize it, show awareness.
 
 **Patterns**:
+
 - "You're right, and I acknowledge this in Chapter [X]. This limitation [contextualized impact]. Future research could address this by..."
 - "That limitation is inherent to [method type]. I mitigated it by [steps taken], but I agree it constrains generalizability to [scope]."
 
 ### Category 6: Hostile Questions
+
 *"I fundamentally disagree with your premise..."*
 
 **Strategy**: Stay calm, acknowledge the perspective, defend with evidence.
 
 **Patterns**:
+
 - "I appreciate that perspective. My evidence suggests [finding]. I'd welcome discussing how [their view] and [your finding] might be reconciled."
 - "That's a fair challenge. The data in Table [X] shows [evidence]. I understand this may not align with [their position], and that tension is worth exploring."
 
@@ -279,6 +291,7 @@ For dissertations involving scale or instrument development:
 ### If You Don't Know
 
 **Acceptable responses**:
+
 - "That's outside the scope of this study, but it's an excellent direction for future research."
 - "I haven't considered that angle — could you help me understand the connection you're seeing?"
 - "I don't have that specific data, but based on [related finding], I would hypothesize..."
@@ -404,6 +417,7 @@ To begin a mock defense with the AI assistant:
 > "Let's do a mock defense session on [topic area]"
 
 the AI assistant will:
+
 1. Adopt the committee member persona
 2. Ask 5-10 questions in sequence
 3. Provide feedback on each answer

@@ -18,6 +18,7 @@ currency: 2026-04-22
 Multi-agent patterns are evolving rapidly. This skill captures stable patterns while acknowledging the field is in flux.
 
 **Refresh triggers:**
+
 - New orchestration frameworks (LangGraph, AutoGen, CrewAI releases)
 - Claude/GPT native multi-agent features
 - VS Code Copilot agent architecture changes
@@ -71,6 +72,7 @@ Split task into independent subtasks that can run simultaneously.
 ```
 
 **When to use:**
+
 - Tasks have no dependencies
 - Results can be merged mechanically
 - Time is critical
@@ -100,6 +102,7 @@ Chain agents where each builds on previous output.
 ```
 
 **When to use:**
+
 - Each step needs output from previous
 - Context builds incrementally
 - Quality gates between steps
@@ -127,6 +130,7 @@ Orchestrator delegates to sub-orchestrators who manage workers.
 ```
 
 **When to use:**
+
 - Very complex tasks
 - Different domains within task
 - Scale beyond single orchestrator's context

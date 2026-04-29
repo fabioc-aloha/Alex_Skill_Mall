@@ -56,6 +56,7 @@ Viewers should understand the slide's main point in 3 seconds.
 ### Z-Pattern and F-Pattern
 
 **Z-Pattern** (for sparse slides):
+
 ```
 [Title/Headline]
       ↘
@@ -65,6 +66,7 @@ Viewers should understand the slide's main point in 3 seconds.
 ```
 
 **F-Pattern** (for text-heavy slides):
+
 ```
 [Strong headline] ← First scan
 [Key point 1] ← Second scan
@@ -89,6 +91,7 @@ White space is not empty—it's breathing room for ideas.
 ### Traditional vs. Assertion-Evidence
 
 **Traditional** (weak):
+
 ```
 Title: Q4 Sales Results
 • Revenue: $2.3M
@@ -98,6 +101,7 @@ Title: Q4 Sales Results
 ```
 
 **Assertion-Evidence** (strong):
+
 ```
 Title: Q4 revenue grew 15% to $2.3M—our best quarter ever
 [Bar chart showing growth trend]
@@ -135,21 +139,25 @@ Title: Q4 revenue grew 15% to $2.3M—our best quarter ever
 ### Visualization Principles
 
 **1. Title = Insight**
+
 - ❌ "Revenue 2020-2025"
 - ✅ "Revenue doubled in 5 years"
 
 **2. Reduce chart junk**
+
 - Remove gridlines (or make very light)
 - Remove 3D effects
 - Remove unnecessary legends
 - Remove borders and boxes
 
 **3. Highlight the insight**
+
 - Color the key data point differently
 - Use annotations to point to insight
 - Grey out non-essential data
 
 **4. Simplify scales**
+
 - Round numbers ($2.3M not $2,347,891)
 - Start axis at zero (unless change is the story)
 - Use consistent intervals
@@ -157,12 +165,14 @@ Title: Q4 revenue grew 15% to $2.3M—our best quarter ever
 ### Before/After Example
 
 **Before** (cluttered):
+
 ```
 [3D pie chart with 8 slices, legend on side, 
 percentages on each slice, title "Q4 Breakdown"]
 ```
 
 **After** (clear):
+
 ```
 Title: "AI projects drove 40% of Q4 revenue"
 [Simple horizontal bar chart, AI highlighted in blue,
@@ -263,6 +273,7 @@ others in grey, percentages inline]
 │                                         │
 └─────────────────────────────────────────┘
 ```
+
 Minimal text, bold color, signals transition.
 
 ### Data Slide
@@ -322,6 +333,7 @@ Minimal text, bold color, signals transition.
 ### The "Billboard Test"
 
 Pretend your slide is a highway billboard:
+
 - Would someone get the point at 65 mph?
 - Can they read it in 3 seconds?
 - Is one thing clearly most important?

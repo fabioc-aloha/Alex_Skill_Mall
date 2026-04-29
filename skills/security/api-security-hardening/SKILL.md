@@ -34,6 +34,7 @@ app.use('/api/', limiter);
 ```
 
 **Rules:**
+
 - Use sliding window, not fixed window (prevents burst at window boundaries)
 - Per-user limits (100/min) AND per-IP limits (1000/min)
 - For serverless: Upstash Redis (`@upstash/ratelimit`)
@@ -55,6 +56,7 @@ function validateToken(token) {
 ```
 
 **Rules:**
+
 - Validate issuer, audience, expiration, AND signature
 - Explicit algorithm allowlist (`algorithms: ['RS256']`) — prevents algorithm confusion attacks
 - Never decode without verification (`jwt.decode` is NOT validation)
@@ -80,6 +82,7 @@ app.use(cors(corsOptions));
 ```
 
 **Rules:**
+
 - Never use `origin: '*'` in production
 - Explicit origin allowlist
 - Include `Access-Control-Max-Age` for preflight caching
@@ -109,6 +112,7 @@ app.post('/users', (req, res) => {
 ```
 
 **Rules:**
+
 - Validate at the boundary — don't let bad data propagate
 - Use Zod, Joi, or similar for request body, query params, AND path params
 - Reject early with clear error messages (but don't leak internals)

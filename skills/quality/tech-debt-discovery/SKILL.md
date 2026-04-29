@@ -132,6 +132,7 @@ Finds 14 markers: 3 FIXME (High), 8 TODO (Medium), 3 NOTE (Low). For each hit, r
 
 **Step 2 — Dependency Analysis**: Agent detects `package.json` and `requirements.txt`.
 Compares pinned versions against latest. Flags:
+
 - 🔴 `lodash@4.17.15` — known prototype pollution CVE (Critical)
 - 🟡 `express@4.17.1` — 2 major versions behind (High)
 - 🟡 `moment` — abandoned, recommend `date-fns` (High)
@@ -140,10 +141,12 @@ Compares pinned versions against latest. Flags:
 Top churn file: `src/api/orders.ts` (47 changes, 6 authors, 4 TODO markers).
 
 **Step 4 — Structural Analysis**: Agent scans for god files and long functions.
+
 - `src/api/orders.ts` — 620 lines (god file, High)
 - `src/utils/helpers.ts` — `processData()` is 180 lines (long function, Medium)
 
 **Step 5 — Prioritized Report**:
+
 ```
 # Technical Debt Report — my-app | Files scanned: 89
 

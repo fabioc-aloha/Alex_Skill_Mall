@@ -141,10 +141,12 @@ At $17.99: (0.60 × $17.99) − $8.14 = $2.65 royalty
 ## Categories & Keywords
 
 **Reading age settings**:
+
 - Ages 9–12 → Children's Books categories
 - Ages 13–17 → Teen & Young Adult categories
 
 **Category selections** (up to 3 for middle-grade mystery):
+
 1. Children's Books > Mysteries & Detectives
 2. Children's Books > Science Fiction & Fantasy > Fantasy & Magic
 3. Children's Books > Growing Up & Facts of Life > Friendship

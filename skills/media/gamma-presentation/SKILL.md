@@ -119,10 +119,10 @@ Gamma renders simple data via its chart card. To hint the importer, use a fenced
 ```chart
 type: bar
 title: Revenue by Quarter
-Q1	120
-Q2	145
-Q3	180
-Q4	210
+Q1 120
+Q2 145
+Q3 180
+Q4 210
 ```
 ````
 

@@ -98,6 +98,7 @@ toc: true
 ```
 
 Includes:
+
 - Executive Summary
 - Background
 - Analysis with tables
@@ -118,6 +119,7 @@ time: "30 minutes"
 ```
 
 Includes:
+
 - Learning Objectives
 - Prerequisites
 - Step-by-step sections
@@ -136,6 +138,7 @@ date: "{{date}}"
 ```
 
 Includes:
+
 - Synopsis
 - Commands table
 - Options table
@@ -155,6 +158,7 @@ format: gamma
 ```
 
 Includes:
+
 - H2 slide breaks
 - Speaker notes format `<!-- notes: -->`
 - Image placeholders
@@ -173,6 +177,7 @@ reply-to:
 ```
 
 Includes:
+
 - Greeting
 - Body sections
 - Call to action

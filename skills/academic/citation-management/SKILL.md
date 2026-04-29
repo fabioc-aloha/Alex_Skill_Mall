@@ -67,11 +67,13 @@ Proper citation is the invisible infrastructure of scholarly work. This skill en
 ### Page Numbers
 
 Required for:
+
 - Direct quotes
 - Paraphrases of specific passages
 - Referring to specific figures/tables
 
 Not required for:
+
 - General reference to entire work
 - Summarizing main argument
 
@@ -92,6 +94,7 @@ Venkatesh, V., Thong, J. Y., & Xu, X. (2012). Consumer acceptance and use of inf
 ```
 
 **Key rules:**
+
 - Italicize journal name and volume
 - Include DOI as hyperlink when available
 - Use sentence case for article title
@@ -104,6 +107,7 @@ Newport, C. (2016). Deep work: Rules for focused success in a distracted world. 
 ```
 
 **Key rules:**
+
 - Italicize book title
 - Include publisher (no location since APA 7th)
 - Sentence case for title
@@ -144,7 +148,7 @@ Correa, F. (2025). AI readiness scale: Extending UTAUT2 to predict enterprise AI
 | Missing comma | (Smith 2020) | (Smith, 2020) |
 | Et al. too early | (Smith et al., 2020) for 2 authors | (Smith & Jones, 2020) |
 | Italics wrong | *Article Title* | Article title (not italicized) |
-| DOI format | doi: 10.xxx | https://doi.org/10.xxx |
+| DOI format | doi: 10.xxx | <https://doi.org/10.xxx> |
 
 ### Reference List Errors
 
@@ -172,12 +176,14 @@ Correa, F. (2025). AI readiness scale: Extending UTAUT2 to predict enterprise AI
 ### Verification Checklist
 
 **For each in-text citation:**
+
 - [ ] Author name spelled correctly?
 - [ ] Year matches reference list?
 - [ ] Page number included for quotes?
 - [ ] Corresponding entry in reference list?
 
 **For each reference:**
+
 - [ ] All authors listed (up to 20)?
 - [ ] Year accurate?
 - [ ] Title accurate and correctly capitalized?
@@ -194,8 +200,9 @@ https://doi.org/10.XXXX/XXXXXXX
 **Test**: Paste DOI in browser—should resolve to article.
 
 **Finding DOIs:**
-- CrossRef: https://www.crossref.org/guestquery
-- DOI lookup: https://doi.org
+
+- CrossRef: <https://www.crossref.org/guestquery>
+- DOI lookup: <https://doi.org>
 
 ---
 
@@ -221,6 +228,7 @@ https://doi.org/10.XXXX/XXXXXXX
 ### Manual Backup Strategy
 
 Always keep:
+
 - Exported BibTeX file (portable format)
 - Annotated PDF copies
 - Citation spreadsheet for complex works
@@ -257,6 +265,7 @@ Author, A. A. (Year). Title (Retracted). Journal, Volume, Pages. https://doi.org
 ### AI-Generated Content
 
 APA guidance (as of 2023):
+
 - Cite the AI tool as author
 - Include prompt in quotes
 - Note that output is not retrievable

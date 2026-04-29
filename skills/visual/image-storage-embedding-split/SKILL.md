@@ -3,6 +3,7 @@
 ## The Problem
 
 Storing images at embed size loses the original:
+
 - Can't upscale later
 - Can't use for different contexts
 - Quality degradation is permanent

@@ -12,7 +12,6 @@ currency: 2026-04-20
 
 ---
 
-
 > Prevent documentation drift through structural rules — not manual vigilance.
 
 ## The Count Problem
@@ -145,5 +144,6 @@ async function checkLinkIntegrity(docsRoot: string): Promise<string[]> {
 ### Orphan Detection
 
 A file is orphaned if it exists in a doc folder but is not referenced by any index or parent document. Orphans are either:
+
 - **Forgotten knowledge** → add to appropriate index
 - **Stale artifacts** → archive or delete

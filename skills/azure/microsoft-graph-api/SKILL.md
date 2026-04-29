@@ -19,6 +19,7 @@ Microsoft Graph APIs evolve frequently. Permissions, endpoints, and authenticati
 See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence.
 
 **Refresh triggers:**
+
 - Microsoft Graph API version updates
 - MSAL library major releases
 - Azure Active Directory to Microsoft Entra ID migration (completed)
@@ -50,6 +51,7 @@ See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs a
 | **Application** | `Authorization: Bearer {token}` | Background services — acts as the app itself |
 
 **Token Acquisition (VS Code Extension)**:
+
 ```typescript
 // Progressive scope acquisition — request minimal scopes initially
 const INITIAL_SCOPES = ['User.Read'];
@@ -346,6 +348,7 @@ Graph supports standard OData query parameters:
 | `$search` | `?$search="displayName:Jane"` | Full-text search |
 
 **Combining parameters**:
+
 ```http
 GET /users?$select=id,displayName,department&$filter=department eq 'Analytics'&$top=25&$orderby=displayName
 ```
@@ -513,6 +516,7 @@ Retry-After: 30
 | **Sensitivity Labels** | `/me/informationProtection/sensitivityLabels` | Document classification |
 
 ---
+
 ## References
 
 - [Microsoft Graph Overview](https://learn.microsoft.com/graph/overview)

@@ -23,6 +23,7 @@ When a pipeline stage calls an LLM, hash all inputs → compare to cached champi
 ## Why This Matters
 
 LLM API calls are:
+
 - **Slow** — 1-30 seconds per call
 - **Expensive** — $0.01-$0.10+ per call
 - **Rate-limited** — Quota exhaustion on frequent runs
@@ -140,11 +141,13 @@ const inputHash = hashInputs({
 ## Proven Usage
 
 Pattern validated in 3 stages of a content pipeline:
+
 - **Classification** — Document categorization
 - **Clustering** — Semantic grouping
 - **RAI Review** — Responsible AI assessment
 
 Results:
+
 - 90% cache hit rate on unchanged runs
 - 5x faster pipeline execution
 - 80% token cost reduction

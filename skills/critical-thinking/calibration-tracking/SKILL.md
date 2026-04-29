@@ -109,6 +109,7 @@ During `/calibration-review` or when a trigger fires:
 ### Indeterminate Outcomes
 
 Mark `indeterminate` when:
+
 - The situation changed making the claim moot
 - Insufficient evidence to determine outcome
 - The claim was ambiguous in retrospect
@@ -126,6 +127,7 @@ Brier Score = (1/N) × Σ(confidence - outcome)²
 Where `outcome` is 1.0 for correct, 0.0 for incorrect, 0.5 for partially-correct.
 
 **Interpretation**:
+
 - 0.00 = perfect calibration
 - 0.25 = no better than random
 - <0.15 = good calibration
@@ -155,6 +157,7 @@ Where `outcome` is 1.0 for correct, 0.0 for incorrect, 0.5 for partially-correct
 ## Falsifiability (F3)
 
 This skill is decorative if after 30 days with ≥10 resolved entries:
+
 - Brier score cannot be computed (no data)
 - Brier score is >0.25 (no better than random)
 - the AI assistant stops recording new entries (loop collapsed)

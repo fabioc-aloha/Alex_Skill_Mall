@@ -107,9 +107,11 @@ study-project/
 | [A] | [Prerequisites] | [What it unlocks] |
 
 ## Learning Sequence
+
 1. Start with: [Foundation concepts]
 2. Then learn: [Building blocks]
 3. Finally: [Advanced topics]
+
 ```
 
 ### copilot-instructions.md Template (Study Projects)

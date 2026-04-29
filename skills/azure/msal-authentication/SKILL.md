@@ -21,6 +21,7 @@ currency: 2026-04-22
 ## Core Concepts
 
 **Microsoft Authentication Library (MSAL)** handles authentication with Microsoft Entra ID (formerly Azure Active Directory). It manages:
+
 - Token acquisition and caching
 - Silent token renewal
 - Redirect/popup authentication flows

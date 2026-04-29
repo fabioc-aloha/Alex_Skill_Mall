@@ -28,6 +28,7 @@ Privacy regulations are actively evolving. Major changes expected.
 **Last validated:** February 2026
 
 **Check current state:**
+
 - EU: [GDPR.eu](https://gdpr.eu/), [EU Commission](https://commission.europa.eu/law/law-topic/data-protection_en)
 - Australia: [OAIC](https://www.oaic.gov.au/privacy/australian-privacy-principles)
 
@@ -176,11 +177,13 @@ Under Australian law, sensitive information includes:
 ### Notifiable Data Breaches (NDB) Scheme
 
 **When to notify:**
+
 - Unauthorized access, disclosure, or loss of personal information
 - Likely to result in serious harm to individuals
 - Remedial action hasn't prevented serious harm
 
 **Timeline:**
+
 - Notify OAIC and affected individuals **as soon as practicable**
 - Assessment must be completed within **30 days**
 
@@ -350,12 +353,14 @@ function pseudonymize(record: UserRecord): PseudonymizedRecord {
 ## Resources
 
 ### Official
+
 - [GDPR Full Text](https://gdpr.eu/tag/gdpr/)
 - [EU Commission Data Protection](https://commission.europa.eu/law/law-topic/data-protection_en)
 - [OAIC Australian Privacy Principles](https://www.oaic.gov.au/privacy/australian-privacy-principles)
 - [OAIC Privacy Act](https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act)
 
 ### Tools
+
 - Data Protection Impact Assessment templates
 - Consent management platforms
 - Data discovery and classification tools

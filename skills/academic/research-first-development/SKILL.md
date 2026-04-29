@@ -52,6 +52,7 @@ Instead of the human writing code with AI assistance, **the human orchestrates i
 | 5 | **Branding/identity decisions** | Project character and voice |
 
 Each research document should:
+
 - Explore one domain **exhaustively**
 - Cite sources: academic papers, industry best practices, competitive analysis
 - Be structured with clear sections, code examples, decision rationales
@@ -68,6 +69,7 @@ Each research document should:
 | 5 | **Connection wiring** | 2-4 links per new file |
 
 **Key distinction**:
+
 - **Skills** encode *patterns and principles* — reusable, domain knowledge ("how does X work?")
 - **Instructions** encode *procedures* — project-specific workflows ("how do I do X here?")
 
@@ -144,6 +146,7 @@ Catalogue current knowledge across all four dimensions:
 | GA-P: Prompts | {%} | {missing workflows} |
 
 **Decision gate:**
+
 - All 4 ≥ 75%: **Proceed to coding**
 - Any < 75%: **Fill gaps first**
 - Any < 50%: **Research sprint needed**
@@ -201,6 +204,7 @@ For any non-trivial project, create at least two agents with **distinct mental m
 ### Why Separate Agents?
 
 Adversarial thinking requires a **different context** than constructive thinking. Separating agents allows each to:
+
 - Optimize for its role's vocabulary and patterns
 - Load only relevant skills (builder loads implementation skills; validator loads testing/security skills)
 - Hand off cleanly at domain boundaries
@@ -356,6 +360,7 @@ Master absorbs: generalizable patterns promoted back via heir-skill-promotion
 ### What Flows Back to Master
 
 When heir knowledge is cross-project applicable:
+
 1. **Patterns** → new Master skills or GK patterns
 2. **Processes** → refined Master instructions
 3. **Agent templates** → new agent patterns in Master

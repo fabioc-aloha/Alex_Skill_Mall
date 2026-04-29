@@ -36,21 +36,25 @@ currency: 2026-04-22
 ### Core Design Principles
 
 **Visual Hierarchy**
+
 - Typography scale: base size ≥11px for WCAG AA compliance
 - Weight progression: 400 (regular) → 500 (medium) → 600 (semibold) → 700 (bold)
 - Size jumps: ~2px increments (11px → 13px → 14px → 16px → 18px → 20px)
 
 **Spacing System**
+
 - Base unit: 4px or 8px (8px recommended for touch interfaces)
 - Scale: base × 0.5, 1, 2, 3, 4, 6, 8, 12 (e.g., 4px, 8px, 16px, 24px, 32px, 48px, 64px, 96px)
 - Consistency: All margins, padding, gaps use scale values
 
 **Color & Contrast**
+
 - WCAG AA minimum: 4.5:1 for normal text, 3:1 for large text (≥18px or ≥14px bold)
 - WCAG AAA enhanced: 7:1 for normal text, 4.5:1 for large text
 - Color-blind safety: Never rely on color alone (add icons, patterns, text labels)
 
 **Touch Targets**
+
 - Minimum size: 44×44px (WCAG 2.1 AA Level 2.5.5)
 - Recommended: 48×48px for primary actions
 - Spacing: Minimum 8px between adjacent targets
@@ -58,24 +62,28 @@ currency: 2026-04-22
 ### WCAG 2.1 AA Compliance Checklist
 
 **Perceivable**
+
 - ✓ Text alternatives (alt text, aria-label) for non-text content
 - ✓ Color contrast ratio ≥4.5:1 for normal text, ≥3:1 for large text
 - ✓ Text resizable up to 200% without loss of functionality
 - ✓ No information conveyed by color alone
 
 **Operable**
+
 - ✓ All functionality available via keyboard (tabindex, focus management)
 - ✓ Focus indicators visible (:focus-visible styles)
 - ✓ Touch targets ≥44×44px
 - ✓ No keyboard traps (can tab away from all interactive elements)
 
 **Understandable**
+
 - ✓ Semantic HTML (header, nav, main, article, aside, footer)
 - ✓ ARIA roles for custom components (button, dialog, menu, tab, progressbar)
 - ✓ Form labels associated with inputs (for/id or aria-labelledby)
 - ✓ Error messages clear and actionable
 
 **Robust**
+
 - ✓ Valid HTML (no unclosed tags, proper nesting)
 - ✓ ARIA attributes used correctly (aria-valuenow/min/max for progressbar)
 - ✓ Compatible with assistive technologies (screen readers, keyboard-only)
@@ -83,6 +91,7 @@ currency: 2026-04-22
 ### Design System Quick Setup
 
 **CSS Variables Pattern**
+
 ```css
 :root {
   /* Typography Scale */
@@ -116,6 +125,7 @@ currency: 2026-04-22
 ### Systematic UI/UX Audit Process
 
 **Phase 1: Visual Assessment**
+
 1. **Typography Audit**
    - Measure all font sizes (dev tools inspector)
    - Flag sizes <11px (WCAG AA violation)
@@ -142,6 +152,7 @@ currency: 2026-04-22
    - Check spacing between adjacent targets (<8px = risk of mis-taps)
 
 **Phase 2: Accessibility Assessment**
+
 1. **Keyboard Navigation Test**
    - Tab through entire interface
    - Verify focus visible on all interactive elements
@@ -166,6 +177,7 @@ currency: 2026-04-22
    - Add icons, patterns, or text labels to color-coded elements
 
 **Phase 3: Design System Implementation**
+
 1. **Extract Design Tokens**
    - List all unique font sizes → create typography scale
    - List all unique spacing values → create spacing scale
@@ -189,6 +201,7 @@ currency: 2026-04-22
 ### Accessibility Patterns Library
 
 **Focus Indicators**
+
 ```css
 /* VS Code-aware focus styling */
 :focus-visible {
@@ -204,6 +217,7 @@ currency: 2026-04-22
 ```
 
 **Color-Blind Safe Status Indicators**
+
 ```css
 /* Status dots with icons via ::after */
 .status-dot {
@@ -253,6 +267,7 @@ currency: 2026-04-22
 ```
 
 **ARIA Progressbar**
+
 ```html
 <!-- Accessible progress bar -->
 <div role="progressbar" 
@@ -265,6 +280,7 @@ currency: 2026-04-22
 ```
 
 **Accessible Buttons**
+
 ```html
 <!-- Semantic button with ARIA -->
 <button type="button" 
@@ -286,6 +302,7 @@ currency: 2026-04-22
 ```
 
 **Card Layout with Semantic HTML**
+
 ```html
 <article class="card" role="article">
   <header>
@@ -303,6 +320,7 @@ currency: 2026-04-22
 ### Modern Component Architecture (2024+)
 
 **React 19 Form Patterns**
+
 ```tsx
 // useActionState replaces form submission boilerplate
 import { useActionState } from 'react';
@@ -327,6 +345,7 @@ function SubscribeForm() {
 ```
 
 **Optimistic Updates**
+
 ```tsx
 import { useOptimistic, startTransition } from 'react';
 
@@ -348,6 +367,7 @@ function LikeButton({ liked, onToggle }) {
 ```
 
 **Composable Component Pattern (shadcn/ui style)**
+
 ```tsx
 // All components share: variants + sizes + states + ref forwarding
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -370,6 +390,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 ### Design System Implementation Workflow
 
 **Step 1: Audit Current State**
+
 ```bash
 # Extract all font-size declarations
 grep -r "font-size:" src/ | grep -oP "\d+px" | sort -u
@@ -382,6 +403,7 @@ grep -r -E "(color|background):" src/ | grep -oP "#[0-9a-fA-F]{3,6}" | sort -u
 ```
 
 **Step 2: Calculate Base Unit**
+
 ```
 Spacing values found: 4px, 8px, 12px, 16px, 20px, 24px, 32px
 GCD = 4px → Base unit = 4px
@@ -389,6 +411,7 @@ Scale: 1×, 2×, 3×, 4×, 5×, 6×, 8× (0.25rem, 0.5rem, 0.75rem, 1rem, 1.25re
 ```
 
 **Step 3: Create Token System**
+
 ```javascript
 // Design tokens as JavaScript object
 const tokens = {
@@ -420,6 +443,7 @@ const tokens = {
 ```
 
 **Step 4: Generate CSS Variables**
+
 ```css
 :root {
   /* Typography */
@@ -447,6 +471,7 @@ const tokens = {
 ```
 
 **Step 5: Apply Design Tokens**
+
 ```css
 /* Before: Hardcoded values */
 .button {
@@ -468,6 +493,7 @@ const tokens = {
 ### Testing & Validation
 
 **Manual Testing Checklist**
+
 - [ ] Tab through all interactive elements (keyboard navigation)
 - [ ] Verify focus visible on all focusable elements
 - [ ] Test with screen reader (NVDA, VoiceOver, Narrator)
@@ -478,6 +504,7 @@ const tokens = {
 - [ ] Verify minimum touch target size (44×44px)
 
 **Automated Testing Tools**
+
 - **axe DevTools**: Browser extension for WCAG violations
 - **Lighthouse**: Chrome DevTools → Accessibility score
 - **WAVE**: Web Accessibility Evaluation Tool
@@ -485,6 +512,7 @@ const tokens = {
 - **Pa11y**: Command-line accessibility testing
 
 **Validation Scripts**
+
 ```javascript
 // Check for minimum font sizes
 const elements = document.querySelectorAll('*');
@@ -520,11 +548,13 @@ buttons.forEach(btn => {
 ### WCAG 2.1 Specification
 
 **Official Documentation**
-- WCAG 2.1 Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
-- Understanding WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/
-- ARIA Authoring Practices: https://www.w3.org/WAI/ARIA/apg/
+
+- WCAG 2.1 Guidelines: <https://www.w3.org/WAI/WCAG21/quickref/>
+- Understanding WCAG 2.1: <https://www.w3.org/WAI/WCAG21/Understanding/>
+- ARIA Authoring Practices: <https://www.w3.org/WAI/ARIA/apg/>
 
 **Key Success Criteria**
+
 - **1.4.3 Contrast (Minimum)** - Level AA: 4.5:1 normal text, 3:1 large text
 - **1.4.6 Contrast (Enhanced)** - Level AAA: 7:1 normal text, 4.5:1 large text
 - **1.4.10 Reflow** - Content reflows at 320px width (400% zoom)
@@ -538,62 +568,71 @@ buttons.forEach(btn => {
 ### Design Systems Examples
 
 **Material Design 3**
+
 - Typography: 11 type scales (Display, Headline, Title, Body, Label)
 - Spacing: 4px base unit, 8dp grid system
 - Color: Dynamic color from seed, contrast-safe palettes
 - Components: 40+ accessible components with ARIA
-- Link: https://m3.material.io/
+- Link: <https://m3.material.io/>
 
 **Apple Human Interface Guidelines**
+
 - Typography: SF Pro font family, Dynamic Type support
 - Spacing: 8pt grid, consistent margins
 - Touch Targets: 44pt minimum
 - Accessibility: VoiceOver, Dynamic Type, Reduced Motion
-- Link: https://developer.apple.com/design/human-interface-guidelines/
+- Link: <https://developer.apple.com/design/human-interface-guidelines/>
 
 **Microsoft Fluent Design**
+
 - Typography: Segoe UI Variable, type ramp
 - Spacing: 4px base unit
 - Components: React, Web Components, .NET
 - Accessibility: Built-in ARIA, keyboard navigation
-- Link: https://fluent2.microsoft.design/
+- Link: <https://fluent2.microsoft.design/>
 
 **VS Code Design Guidelines**
+
 - Colors: Theme-aware CSS variables (`--vscode-*`)
 - Typography: VS Code font stack, 13px default
 - Icons: Codicons icon font
 - Components: Webview UI Toolkit
-- Link: https://code.visualstudio.com/api/references/extension-guidelines
+- Link: <https://code.visualstudio.com/api/references/extension-guidelines>
 
 ### Design Tools & Resources
 
 **Accessibility Testing**
-- **axe DevTools**: https://www.deque.com/axe/devtools/
-- **WAVE**: https://wave.webaim.org/
+
+- **axe DevTools**: <https://www.deque.com/axe/devtools/>
+- **WAVE**: <https://wave.webaim.org/>
 - **Lighthouse**: Built into Chrome DevTools
-- **Color Contrast Analyzer**: https://www.tpgi.com/color-contrast-checker/
-- **WebAIM Contrast Checker**: https://webaim.org/resources/contrastchecker/
+- **Color Contrast Analyzer**: <https://www.tpgi.com/color-contrast-checker/>
+- **WebAIM Contrast Checker**: <https://webaim.org/resources/contrastchecker/>
 
 **Color-Blindness Simulators**
-- **Coblis**: https://www.color-blindness.com/coblis-color-blindness-simulator/
+
+- **Coblis**: <https://www.color-blindness.com/coblis-color-blindness-simulator/>
 - **Chrome DevTools**: DevTools → Rendering → Emulate vision deficiencies
 - **Photoshop/Figma**: Built-in color-blind preview modes
 
 **Design Token Tools**
+
 - **Style Dictionary**: Build system for design tokens
 - **Theo**: Salesforce design token tool
 - **Tokens Studio**: Figma plugin for design tokens
-- **CSS Variables Spec**: https://www.w3.org/TR/css-variables/
+- **CSS Variables Spec**: <https://www.w3.org/TR/css-variables/>
 
 **Screen Readers**
-- **NVDA** (Windows, free): https://www.nvaccess.org/
+
+- **NVDA** (Windows, free): <https://www.nvaccess.org/>
 - **VoiceOver** (Mac, built-in): Cmd+F5 to enable
 - **Narrator** (Windows, built-in): Win+Ctrl+Enter to enable
-- **JAWS** (Windows, commercial): https://www.freedomscientific.com/products/software/jaws/
+- **JAWS** (Windows, commercial): <https://www.freedomscientific.com/products/software/jaws/>
 
 ### Code Examples Repository
 
 **Accessible Component Patterns**
+
 ```html
 <!-- Modal Dialog -->
 <div role="dialog" 
@@ -630,11 +669,13 @@ buttons.forEach(btn => {
 ### Related Skills
 
 **Direct Dependencies**
+
 - **graphic-design**: Visual identity, logo design, brand consistency
 - **code-review**: Accessibility code quality validation
 - **testing-strategies**: Automated accessibility testing integration
 
 **Complementary Skills**
+
 - **markdown-mermaid**: Diagram accessibility (alt text, semantic structure)
 - **vscode-extension-patterns**: Webview UI patterns, theme integration
 - **localization**: Internationalization, RTL support, cultural considerations
@@ -642,17 +683,20 @@ buttons.forEach(btn => {
 ### Common Pitfalls
 
 **Typography Mistakes**
+
 - Using font sizes <11px (WCAG violation)
 - Inconsistent font weights (mixing 450, 500, 550)
 - Line-height too tight (<1.4 for body text)
 - Font color insufficient contrast
 
 **Spacing Mistakes**
+
 - Random spacing values (7px, 13px, 21px) instead of scale
 - Inconsistent padding within similar components
 - Touch targets too close together (<8px spacing)
 
 **Accessibility Mistakes**
+
 - Using `<div>` instead of `<button>` for clickable elements
 - Missing `aria-label` on icon-only buttons
 - No visible focus indicator
@@ -660,6 +704,7 @@ buttons.forEach(btn => {
 - Touch targets <44×44px
 
 **Design Token Mistakes**
+
 - Hardcoding theme colors (breaks dark mode)
 - Using presentational names (`--blue-500`) instead of semantic (`--color-primary`)
 - Not using CSS variables consistently
@@ -668,12 +713,14 @@ buttons.forEach(btn => {
 ### Performance Considerations
 
 **CSS Variables Performance**
+
 - CSS variables have minimal performance impact
 - Prefer `:root` scope for global tokens
 - Use component scope for component-specific overrides
 - Avoid excessive `calc()` operations with variables
 
 **Accessibility Tree Performance**
+
 - Excessive ARIA attributes can slow screen readers
 - Use semantic HTML instead of ARIA when possible
 - Minimize DOM depth for better screen reader performance
@@ -682,6 +729,7 @@ buttons.forEach(btn => {
 ### Version History
 
 **v1.0.0** (2026-02-15)
+
 - Initial skill creation based on the AI assistant v5.8.0 accessibility implementation session
 - WCAG 2.1 AA compliance patterns from welcomeView.ts refactoring
 - Design system implementation workflow from production experience

@@ -35,6 +35,7 @@ currency: 2026-04-20
 ```
 
 **Example:**
+
 ```text
 Thought: Need Seattle weather to answer umbrella question
 Action: weather_api(location="Seattle")
@@ -45,6 +46,7 @@ Thought: Raining with 80% precipitation. Recommend umbrella.
 ### Plan-and-Execute
 
 For complex multi-step tasks:
+
 1. **Planner**: Create high-level plan
 2. **Executor**: Execute each step
 3. **Replanner**: Adjust based on results
@@ -54,6 +56,7 @@ Use when order matters and partial failures need recovery.
 ### Reflexion
 
 Self-improvement through reflection:
+
 1. Attempt task
 2. Evaluate outcome
 3. Generate reflection on failures
@@ -65,6 +68,7 @@ Self-improvement through reflection:
 ### Supervisor
 
 Central coordinator delegates to specialists:
+
 ```text
        Supervisor
       /    |    \
@@ -74,6 +78,7 @@ Research Writer Reviewer
 ### Hierarchical Teams
 
 Nested supervisors for complex organizations:
+
 ```text
       Top Supervisor
        /         \
@@ -85,6 +90,7 @@ Web   Paper   Draft   Edit
 ### Debate/Adversarial
 
 Multiple agents argue to reduce hallucination:
+
 ```text
 Agent A (Pro) <--argue--> Agent B (Con)
               \    |    /
@@ -105,6 +111,7 @@ Agent A (Pro) <--argue--> Agent B (Con)
 ```
 
 **Principles:**
+
 - Clear names (verb + noun)
 - Rich descriptions with when/what
 - Sensible defaults
@@ -164,6 +171,7 @@ Recovery: reflection prompt, force tool change, replan, escalate.
 ## Human-in-the-Loop
 
 Require approval for high-risk actions:
+
 - Financial transactions
 - Data deletion
 - External communications

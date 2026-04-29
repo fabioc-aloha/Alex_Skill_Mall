@@ -64,7 +64,7 @@ Before creating new knowledge, check: does this extend an existing pattern?
 | Same bug in different context   | Missing knowledge → capture the fix pattern    |
 | "This works everywhere"         | Universal principle → high-value pattern       |
 | "I wish I'd known this earlier" | Onboarding knowledge → insight worth capturing |
-| "This is not obvious"           | Non-obvious insight → capture the *why*        |
+| "This is not obvious"           | Non-obvious insight → capture the _why_        |
 
 ## Promotion Candidacy Decision Table (TR5)
 

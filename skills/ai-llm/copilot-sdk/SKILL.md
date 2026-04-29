@@ -251,6 +251,7 @@ npx @modelcontextprotocol/inspector /path/to/your/mcp-server
 ```
 
 **Common issues:**
+
 - Tools not appearing → Set `tools: ["*"]` and verify server responds to `tools/list`
 - Server not starting → Use absolute command paths, check `cwd`
 - Stdout pollution → Debug output must go to stderr, not stdout
@@ -289,11 +290,13 @@ Use your own API keys — no Copilot subscription required:
 ### Provider Configurations
 
 **OpenAI:**
+
 ```typescript
 provider: { type: "openai", baseUrl: "https://api.openai.com/v1", apiKey: process.env.OPENAI_API_KEY }
 ```
 
 **Azure AI Foundry:**
+
 ```typescript
 provider: {
     type: "openai",
@@ -304,6 +307,7 @@ provider: {
 ```
 
 **Azure OpenAI (native):**
+
 ```typescript
 provider: {
     type: "azure",
@@ -314,11 +318,13 @@ provider: {
 ```
 
 **Anthropic:**
+
 ```typescript
 provider: { type: "anthropic", baseUrl: "https://api.anthropic.com", apiKey: process.env.ANTHROPIC_API_KEY }
 ```
 
 **Ollama (local):**
+
 ```typescript
 provider: { type: "openai", baseUrl: "http://localhost:11434/v1" }
 ```

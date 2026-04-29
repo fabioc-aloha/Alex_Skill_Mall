@@ -95,6 +95,7 @@ currency: 2026-04-22
 ```
 
 When team members from high-context cultures say:
+
 - **"We'll try"** → May already know it won't happen
 - **"It's almost done"** → Could mean 20% or 80% complete
 - **Silence on a question** → May indicate disagreement or confusion
@@ -118,6 +119,7 @@ When team members from high-context cultures say:
 ### Why "No" Is Difficult
 
 In high Power Distance cultures (India = 77, Brazil = 69), saying "no" to superiors:
+
 - Feels disrespectful
 - Implies inability or incompetence
 - Damages the relationship
@@ -140,6 +142,7 @@ Model statement to normalize blockers:
 > "I'd rather know about a problem on Day 1 than be surprised on Day 14. Raising blockers early is a sign of professionalism, not weakness. It helps me help you."
 
 **Techniques:**
+
 1. **Normalize blockers**: "Every complex project has blockers. I expect them."
 2. **Reward early escalation**: Publicly praise when someone raises an issue early
 3. **Separate person from problem**: "The process isn't working" not "You're not working"
@@ -154,6 +157,7 @@ Model statement to normalize blockers:
 ### Working With Team Leads
 
 In high Power Distance cultures, team members:
+
 - May not act until their lead explicitly directs them
 - Will prioritize their lead's requests over documented processes
 - Need lead's permission to push back or escalate
@@ -256,6 +260,7 @@ Americans often sandwich criticism: "Great work on X, but Y needs improvement, a
 | 9:00-10:00 AM | 7:30-8:30 PM | Quick syncs (limit 30 min) |
 
 **Warning Signs of Burnout:**
+
 - Regular late-night work
 - "Just get it done" mentality
 - Family time sacrificed

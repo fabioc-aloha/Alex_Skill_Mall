@@ -86,6 +86,7 @@ KQL's `dynamic` type is flexible but strict in certain contexts. A common mistak
 KQL joins have constraints that differ from SQL.
 
 ### Equality only
+
 KQL join conditions support **only `==`**. No `<`, `>`, `!=`, or function calls in join predicates.
 
 ```kql
@@ -100,6 +101,7 @@ KQL join conditions support **only `==`**. No `<`, `>`, `!=`, or function calls 
 For range joins, pre-bin values: `| extend bin_val = bin(Value, 100)`, then join on `bin_val`.
 
 ### Left/right attribute matching
+
 Both sides of a join `on` clause must reference **column entities only** — not expressions, not aggregates.
 
 ```kql
@@ -111,6 +113,7 @@ Both sides of a join `on` clause must reference **column entities only** — not
 ```
 
 ### Cardinality check before large joins
+
 **Always** check cardinality before joining tables with >10K rows. A cross-join explosion was the source of the single `E_RUNAWAY_QUERY` error (25K × 195 = potential 4.8M rows).
 
 ```kql
@@ -124,6 +127,7 @@ TableB | summarize dcount(JoinKey)  // → 195? OK if filtered first
 KQL handles regex natively — no need for Python.
 
 ### The `extract_all` gotcha
+
 Unlike Python's `re.findall()`, KQL's `extract_all` **requires capturing groups** in the regex:
 
 ```kql
@@ -135,6 +139,7 @@ Unlike Python's `re.findall()`, KQL's `extract_all` **requires capturing groups*
 ```
 
 ### Regex toolkit — don't fall back to Python
+
 | Function | Use case | Example |
 |----------|----------|---------|
 | `extract(regex, group, source)` | Single match | `extract(@"User '([^']+)'", 1, Msg)` |
@@ -165,6 +170,7 @@ Functions requiring serialization: `row_number()`, `row_cumsum()`, `prev()`, `ne
 The most common memory error. Caused by scanning too much data without pre-filtering.
 
 ### The progression of safety
+
 ```
 Safest ──────────────────────────────────────────────── Most dangerous
 | count    | take 10    | where + summarize    | summarize (no filter)    | full scan
@@ -192,13 +198,16 @@ Consumption
 ```
 
 ### When you see `E_LOW_MEMORY_CONDITION`
+
 The query touched too much data. Your options:
+
 - Add `| where` filters (time range, partition key)
 - Reduce the number of `by` columns in `summarize`
 - Break into smaller time windows and union results
 - Use `| sample 10000` for exploratory work instead of full scans
 
 ### When you see `E_RUNAWAY_QUERY`
+
 A join or aggregation produced too many output rows. Check join cardinality — one or both sides is too large.
 
 ## 7. Result Size Discipline
@@ -234,6 +243,7 @@ This is most common with computed values from `geo_point_to_s2cell()`, `hash()`,
 KQL handles these natively — no need for Python:
 
 ### Vector similarity
+
 ```kql
 // Don't export vectors and compute cosine similarity in Python
 let target = toscalar(Vectors | where Word == "test" | project Vec);
@@ -242,6 +252,7 @@ Data | extend sim = series_cosine_similarity(parse_json(VecColumn), target)
 ```
 
 ### Geo operations
+
 ```kql
 // Point-in-polygon check
 | where geo_point_in_polygon(Longitude, Latitude, dynamic({"type":"Polygon","coordinates":[...]}))
@@ -254,6 +265,7 @@ Data | extend sim = series_cosine_similarity(parse_json(VecColumn), target)
 ```
 
 ### Graph queries
+
 ```kql
 // Build and traverse a graph
 graph(Nodes, Edges)
@@ -263,6 +275,7 @@ graph(Nodes, Edges)
 ```
 
 ### Time series
+
 ```kql
 // Create a time series and detect anomalies
 | make-series count() default=0 on Timestamp step 1h
@@ -295,6 +308,7 @@ When you encounter an error, look it up here before retrying:
 Datetime literals are a common source of errors. A wrong literal format can cascade into completely different approaches instead of fixing the small issue.
 
 ### Literal format
+
 ```kql
 // ❌ WRONG — bare year is not a valid datetime
 | where StartTime > datetime(2007)
@@ -304,6 +318,7 @@ Datetime literals are a common source of errors. A wrong literal format can casc
 ```
 
 ### Filtering by year, month, or hour
+
 ```kql
 // ❌ WRONG — comparing datetime column to integer
 | where StartTime == 2007
@@ -316,6 +331,7 @@ Datetime literals are a common source of errors. A wrong literal format can casc
 ```
 
 ### Time bucketing in summarize
+
 ```kql
 // ❌ WRONG — complex expression directly in by-clause can fail in some engines
 | summarize count() by startofmonth(StartTime)
@@ -327,6 +343,7 @@ Datetime literals are a common source of errors. A wrong literal format can casc
 ```
 
 ### Useful datetime functions
+
 | Function | Purpose | Example |
 |----------|---------|---------|
 | `bin(ts, 1h)` | Round to nearest bucket | `bin(Timestamp, 1d)` |
@@ -343,6 +360,7 @@ Datetime literals are a common source of errors. A wrong literal format can casc
 KQL has subtle differences from SQL syntax.
 
 ### Equality operators
+
 ```kql
 // In where clauses, == is case-sensitive, =~ is case-insensitive
 | where State == "TEXAS"      // exact match
@@ -355,9 +373,11 @@ KQL has subtle differences from SQL syntax.
 ```
 
 ### sort vs order
+
 Both `sort by` and `order by` work identically in KQL — they are aliases. Use whichever you prefer, but be consistent.
 
 ### contains vs has
+
 ```kql
 // contains: substring match (slower)
 | where Message contains "error"        // finds "MyErrorHandler" too
@@ -375,6 +395,7 @@ Both `sort by` and `order by` work identically in KQL — they are aliases. Use 
 When a first KQL query fails, the temptation is to abandon the entire approach and try something completely different. The correct response is almost always to **fix the specific error**, not change strategy.
 
 ### The pattern to avoid
+
 ```
 Query 1: extract(@"pattern", 1, col)  → Parse error
 Query 2: todynamic(col)               → Different error  
@@ -383,12 +404,14 @@ Query 4: Python script                → Works but 10x tokens
 ```
 
 ### The correct pattern
+
 ```
 Query 1: extract(@"pattern", 1, col)  → Parse error (bad escaping)
 Query 2: extract(@"pattern", 1, col)  → Fix the specific escaping issue → Success
 ```
 
 **Rules for error recovery:**
+
 1. Read the error message carefully — it almost always tells you exactly what's wrong
 2. Fix the **specific** syntax/escaping issue, don't switch approaches
 3. Use the self-correction table (Section 10) to map errors to fixes

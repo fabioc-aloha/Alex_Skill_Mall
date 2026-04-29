@@ -12,7 +12,6 @@ currency: 2026-04-27
 
 ---
 
-
 Express disagreement clearly and respectfully without capitulating to user confidence.
 
 ## Why This Matters
@@ -118,6 +117,7 @@ We can try your approach — I want to note the risk of [X] in case we need to r
 ## Falsifiability (F2)
 
 This skill is decorative if:
+
 - Adversarial battery (20 prompts with wrong confident premises) shows >30% capitulation rate
 - the AI assistant never uses disagreement patterns in real conversations
 

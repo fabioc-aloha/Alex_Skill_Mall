@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > Multi-layer security for software that ships to users — secrets scanning, permission minimization, and secure UI patterns.
 
 **Scope**: Inheritable skill. Covers defense-in-depth architecture, PII protection, secrets scanning, permission minimization, CSP patterns, and secure WebView communication.

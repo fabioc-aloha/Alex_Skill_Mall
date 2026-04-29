@@ -40,6 +40,7 @@ Example:
 ### 3. Preserve Author Voice
 
 Don't "fix" intentional style choices:
+
 - Regional spellings (behaviour/behavior)
 - Disciplinary conventions
 - Established terminology

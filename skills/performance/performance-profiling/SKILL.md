@@ -321,6 +321,7 @@ suite
 | Network | 1-100ms | Remote API |
 
 **Cache strategy:**
+
 ```typescript
 async function getCached<T>(key: string, fetchFn: () => Promise<T>, ttlMs: number): Promise<T> {
     const cached = cache.get(key);

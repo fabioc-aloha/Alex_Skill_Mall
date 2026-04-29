@@ -227,12 +227,14 @@ to hit timeline with confidence.
 ## Integration Points
 
 ### With Other Skills
+
 - **proactive-assistance**: Detect scope growth, offer check
 - **status-reporting**: Include scope health in updates
 - **alex-effort-estimation**: Scope impacts estimates
 - **project-management**: Backlog management
 
 ### Triggers for This Skill
+
 - "scope creep", "adding features"
 - "what's MVP", "minimum viable"
 - "can we cut", "reduce scope"
@@ -243,6 +245,7 @@ to hit timeline with confidence.
 ## Red Flags (Automatic Alert)
 
 Alert when:
+
 - Requirements change > 2x per week
 - "Must have" list grows after kickoff
 - No explicit "Won't have" list

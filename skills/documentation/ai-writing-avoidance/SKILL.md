@@ -80,6 +80,7 @@ AI compulsively numbers and lists things even when prose would work better:
 ### The Sandwich Structure
 
 AI follows predictable patterns:
+
 - Introduction that announces the topic
 - Body with exactly 3-5 points
 - Conclusion that restates everything
@@ -113,6 +114,7 @@ AI is terrified of being wrong, so it qualifies everything:
 ### The Neutral Voice Problem
 
 AI writes like a diplomatic robot trying not to offend anyone:
+
 - No strong opinions
 - No personality
 - No humor or frustration
@@ -150,6 +152,7 @@ AI writes like a diplomatic robot trying not to offend anyone:
 ### Dead Giveaway Phrases
 
 These almost never appear in natural human writing:
+
 - "In the ever-evolving landscape of..."
 - "Navigating the complexities of..."
 - "Unlock the potential of..."
@@ -194,6 +197,7 @@ AI presents perfectly balanced arguments on everything:
 ### The "Comprehensive" Trap
 
 AI tries to cover everything superficially rather than anything deeply:
+
 - Lists every possible consideration
 - Touches on all angles
 - Never commits to priorities
@@ -210,6 +214,7 @@ AI reaches for bullets instantly:
 
 ❌ **AI Pattern**:
 > The benefits include:
+>
 > - Improved efficiency
 > - Cost savings
 > - Better outcomes
@@ -222,6 +227,7 @@ AI reaches for bullets instantly:
 ### Predictable Headers
 
 AI uses generic, parallel headers:
+
 - Understanding the Challenge
 - Exploring Solutions
 - Implementing Changes
@@ -232,6 +238,7 @@ AI uses generic, parallel headers:
 ### The Rule of Three (Overused)
 
 AI loves groups of three:
+
 - Three main points
 - Three examples
 - Three recommendations

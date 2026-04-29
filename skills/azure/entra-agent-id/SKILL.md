@@ -22,6 +22,7 @@ currency: 2026-04-22
 ## Before You Start
 
 Search `microsoft-docs` MCP for the latest Agent ID documentation:
+
 - Query: "Microsoft Entra agent identity setup"
 - Verify: API parameters match current preview behavior
 
@@ -268,6 +269,7 @@ requests.delete(f"{GRAPH}/applications/{blueprint_obj_id}", headers=headers)
 ## Related Skills
 
 This skill complements:
+
 - **microsoft-graph-api** — General Graph API patterns
 - **msal-authentication** — MSAL token flows
 - **azure-architecture-patterns** — Agent deployment patterns

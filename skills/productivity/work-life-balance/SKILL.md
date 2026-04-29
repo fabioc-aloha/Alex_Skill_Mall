@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > Detect burnout signals and proactively support sustainable productivity.
 
 ## Purpose

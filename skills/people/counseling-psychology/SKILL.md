@@ -20,6 +20,7 @@ Effective counseling creates a safe space where people can understand themselves
 ## Therapeutic Frameworks
 
 ### Cognitive Behavioral Therapy (CBT)
+
 **Core model**: Thoughts → Feelings → Behaviors (bidirectional)
 
 | Technique | Purpose | When to Use |
@@ -31,6 +32,7 @@ Effective counseling creates a safe space where people can understand themselves
 | **Behavioral experiments** | Test beliefs through real-world experience | Entrenched cognitive distortions |
 
 ### Cognitive Distortions (Common Patterns)
+
 | Distortion | Description |
 |-----------|-------------|
 | All-or-nothing thinking | Black/white, no middle ground |
@@ -43,6 +45,7 @@ Effective counseling creates a safe space where people can understand themselves
 | Overgeneralization | One event = always/never |
 
 ### Dialectical Behavior Therapy (DBT)
+
 **Four skill modules**:
 
 | Module | Core Skills | Target |
@@ -53,6 +56,7 @@ Effective counseling creates a safe space where people can understand themselves
 | **Interpersonal Effectiveness** | DEAR MAN, GIVE, FAST | Assertiveness, relationships, self-respect |
 
 ### Motivational Interviewing (MI)
+
 **Spirit**: Partnership, Acceptance, Compassion, Evocation (PACE)
 
 | Principle | Technique |
@@ -94,13 +98,16 @@ plan:
 **OARS skills**: Open questions, Affirmations, Reflections, Summaries
 
 ### Solution-Focused Brief Therapy (SFBT)
+
 - **Miracle question**: "If you woke up tomorrow and the problem was solved, what would be different?"
 - **Scaling questions**: "On a scale of 1–10, where are you now? What would one step up look like?"
 - **Exception finding**: "When was the problem absent or less severe? What was different?"
 - **Coping questions**: "How have you managed to cope despite these difficulties?"
 
 ### Person-Centered Therapy (Rogerian)
+
 Three core conditions:
+
 1. **Unconditional Positive Regard** — Non-judgmental acceptance
 2. **Empathy** — Understanding the client's internal frame of reference
 3. **Congruence** — Therapist authenticity and transparency
@@ -108,6 +115,7 @@ Three core conditions:
 ## Assessment
 
 ### Clinical Interview Structure
+
 1. **Presenting problem** — Chief complaint in client's words
 2. **History of present illness** — Onset, duration, severity, triggers, coping
 3. **Mental status exam** — Appearance, behavior, speech, mood, affect, thought process/content, cognition, insight, judgment
@@ -117,6 +125,7 @@ Three core conditions:
 7. **Strengths and resources** — Protective factors, support systems, coping skills
 
 ### Standardized Measures
+
 | Instrument | Measures | Items | Scoring |
 |-----------|----------|-------|---------|
 | PHQ-9 | Depression severity | 9 | 0–27 (≥10 = moderate) |
@@ -127,6 +136,7 @@ Three core conditions:
 | PHQ-A | Adolescent depression | 9 | Modified PHQ-9 |
 
 ### Risk Assessment Framework
+
 | Level | Indicators | Response |
 |-------|-----------|----------|
 | **Low** | Passive ideation, no plan, strong protective factors | Safety planning, increased monitoring |
@@ -137,6 +147,7 @@ Three core conditions:
 ## Treatment Planning
 
 ### SMART Goals for Therapy
+
 | Element | Clinical Example |
 |---------|-----------------|
 | **Specific** | "Reduce panic attacks" not "feel better" |
@@ -146,6 +157,7 @@ Three core conditions:
 | **Time-bound** | "Within 12 sessions" or "by 90-day review" |
 
 ### Treatment Plan Template
+
 1. **Problem statement** — Specific, behavioral description
 2. **Long-term goal** — Desired end state
 3. **Short-term objectives** — Measurable stepping stones
@@ -156,6 +168,7 @@ Three core conditions:
 ## Ethical Practice
 
 ### APA Ethics Code — Key Principles
+
 | Principle | Application |
 |-----------|------------|
 | **Beneficence & Nonmaleficence** | Do good, avoid harm |
@@ -165,6 +178,7 @@ Three core conditions:
 | **Respect for Rights & Dignity** | Privacy, confidentiality, informed consent |
 
 ### Confidentiality Exceptions
+
 | Exception | Threshold |
 |-----------|-----------|
 | Duty to warn/protect | Immediate, credible threat to identifiable person |
@@ -174,6 +188,7 @@ Three core conditions:
 | Medical emergency | Risk to client's life |
 
 ### Boundaries
+
 - No dual relationships (therapist + friend, employer, romantic partner)
 - Social media: no friending/following clients
 - Gifts: generally decline; consider cultural context
@@ -183,18 +198,22 @@ Three core conditions:
 ## Documentation
 
 ### Progress Note Formats
+
 **DAP Format**:
+
 - **D** — Data: What happened in session (observations, client statements)
 - **A** — Assessment: Clinical interpretation, progress toward goals
 - **P** — Plan: Next steps, interventions, homework
 
 **SOAP Format**:
+
 - **S** — Subjective: Client's report
 - **O** — Objective: Clinician observations, test results
 - **A** — Assessment: Diagnosis, clinical formulation
 - **P** — Plan: Treatment next steps
 
 ### Documentation Standards
+
 - Document within 24 hours of session
 - Factual, behavioral descriptions (not judgments)
 - Record interventions used and client response
@@ -204,6 +223,7 @@ Three core conditions:
 ## AI in Mental Health — Guardrails
 
 **Critical**: AI must never provide therapy, diagnose mental health conditions, or replace clinical judgment.
+
 - AI can assist with: psychoeducation materials, symptom tracking tools, scheduling, documentation templates
 - AI must not: interpret assessment scores, make diagnostic impressions, recommend specific interventions
 - Always include: "This is informational. If you're in crisis, contact 988 Suicide & Crisis Lifeline or go to your nearest emergency room."

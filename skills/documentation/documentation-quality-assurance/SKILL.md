@@ -70,6 +70,7 @@ Count elimination rules, canonical sources, and docs-as-architecture principles 
 Operational documentation (regression checklists, deployment guides, QA procedures, release workflows) should include comprehensive headers that provide complete context at-a-glance.
 
 **Minimal Header (4 lines)** — Insufficient:
+
 ```markdown
 **Date**: 2026-02-14
 **Status**: In Progress
@@ -78,6 +79,7 @@ Operational documentation (regression checklists, deployment guides, QA procedur
 ```
 
 **Enhanced Header (10+ lines)** — Comprehensive:
+
 ```markdown
 **Version**: 5.7.1
 **Date**: 2026-02-14
@@ -249,6 +251,7 @@ docs/
 ```
 
 **Rules**:
+
 - Numbered prefixes ensure consistent ordering across all tools
 - Each chapter folder has 3-7 files (not 1, not 20)
 - Root `README.md` serves as table of contents with links to all sections

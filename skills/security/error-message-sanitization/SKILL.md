@@ -3,6 +3,7 @@
 ## The Problem
 
 Raw error messages leak internal information to users:
+
 - File paths reveal directory structure
 - Stack traces expose code organization
 - Internal state shows implementation details

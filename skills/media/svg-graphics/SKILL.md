@@ -180,6 +180,7 @@ Separate position and animation transforms:
 AI defaults to stacking circles — producing geometric snowmen. Real subjects need `<path>` with Bezier curves.
 
 **Mandatory Rules**:
+
 1. Start with silhouette — outline must be identifiable alone
 2. Use `<path>` with curves for ALL organic shapes
 3. Get proportions right before details

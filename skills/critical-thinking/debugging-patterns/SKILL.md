@@ -12,7 +12,6 @@ currency: 2026-04-20
 
 ---
 
-
 > Systematic problem-solving and error analysis.
 
 ## The Debugging Mindset

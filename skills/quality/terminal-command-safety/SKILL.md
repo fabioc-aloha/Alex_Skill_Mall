@@ -12,7 +12,6 @@ currency: 2026-04-20
 
 ---
 
-
 Detailed patterns and examples for safe terminal command execution in AI agent contexts.
 
 ## Decision Table
@@ -32,8 +31,8 @@ Detailed patterns and examples for safe terminal command execution in AI agent c
 
 Backticks in terminal command arguments break across all shells:
 
-- **bash/zsh**: backtick = command substitution (`echo "use `ls` here"` executes `ls`)
-- **PowerShell**: backtick = escape character (`echo "use `n here"` inserts newline)
+- **bash/zsh**: backtick = command substitution (`echo "use`ls`here"` executes `ls`)
+- **PowerShell**: backtick = escape character (`echo "use`n here"` inserts newline)
 
 **Ref**: [vscode#295620](https://github.com/microsoft/vscode/issues/295620)
 

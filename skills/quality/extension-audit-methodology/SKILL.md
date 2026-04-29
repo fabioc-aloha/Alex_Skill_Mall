@@ -22,6 +22,7 @@ A systematic 5-dimension audit framework for VS Code extensions to identify code
 **Problem Solved**: Standard code review catches logic bugs and style issues, but misses extension-specific quality problems like orphaned commands, blocking I/O in UI threads, debug noise in production, and leftover dependencies from removed features.
 
 **When to Use**:
+
 - Before major release (milestone versions)
 - After significant refactoring
 - When performance degradation suspected
@@ -38,6 +39,7 @@ A systematic 5-dimension audit framework for VS Code extensions to identify code
 **Objective**: Identify console statements and categorize by necessity
 
 **Method**:
+
 ```powershell
 # Scan for all console statements
 Select-String -Path src/*.ts -Pattern "console\.(log|debug|warn|error)" -Recurse
@@ -58,6 +60,7 @@ Select-String -Path src/*.ts -Pattern "console\.(log|debug|warn|error)" -Recurse
 ### 2. Dead Code Detection
 
 **Commands Cross-Check**:
+
 1. Find registered commands in `extension.ts`
 2. Find command contributions in `package.json`
 3. Find command invocations in UI/views
@@ -68,12 +71,14 @@ Select-String -Path src/*.ts -Pattern "console\.(log|debug|warn|error)" -Recurse
 ### 3. Performance Profiling
 
 **Blocking I/O Scan**:
+
 ```powershell
 # Synchronous file operations (event loop blockers)
 Select-String -Path src/*.ts -Pattern "fs\.(readFileSync|existsSync|readdirSync|writeFileSync)" -Recurse
 ```
 
 **Refactoring Pattern**:
+
 ```typescript
 // BEFORE (blocking)
 const exists = fs.existsSync(path);
@@ -88,6 +93,7 @@ const exists = await fs.pathExists(path);
 ### 4. Menu Validation
 
 **Test Matrix**:
+
 - Extract all commands from `package.json` contributions
 - Verify each has a registered handler
 - Test in VS Code: Command Palette, buttons, context menus
@@ -97,6 +103,7 @@ const exists = await fs.pathExists(path);
 ### 5. Dependency Hygiene
 
 **Unused Package Detection**:
+
 ```powershell
 npm ls --depth=0
 # For each dependency, verify it's imported
@@ -140,12 +147,14 @@ Select-String -Path src/*.ts -Pattern "from '@package-name'" -Recurse
 ## Success Metrics
 
 **Before Audit** (typical mature extension):
+
 - Console statements: 40-80
 - Dead commands: 3-8
 - Blocking sync I/O: 10-30 operations
 - Code quality grade: B/B+
 
 **After Remediation**:
+
 - Console statements: 15-25 (legitimate only)
 - Dead commands: 0
 - Blocking sync I/O: 0 (all async)
@@ -158,12 +167,14 @@ Select-String -Path src/*.ts -Pattern "from '@package-name'" -Recurse
 ## Real-World Application: the AI assistant v5.7.1
 
 **Audit Results**:
+
 - Console statements: 46 found → 27 removed (18 legitimate kept)
 - Dead code: 3 deprecated commands + 1 UI feature + 1 unused dependency
 - Performance: 16 blocking sync operations in cognitiveDashboard.ts
 - Menu validation: 39/41 working (95%)
 
 **Remediation Actions**:
+
 1. Removed 27 console statements
 2. Deleted 3 deprecated Gist sync commands
 3. Removed `generateImageFromSelection` UI from 3 locations
@@ -172,6 +183,7 @@ Select-String -Path src/*.ts -Pattern "from '@package-name'" -Recurse
 6. Deleted 477-line obsolete MS Graph documentation
 
 **Results**:
+
 - Code quality: B+ → A+
 - TypeScript errors: 0
 - Extension size: 9.45 MB (optimized)

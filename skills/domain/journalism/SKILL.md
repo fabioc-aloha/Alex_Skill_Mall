@@ -20,6 +20,7 @@ Journalism's job is to tell the truth as completely and fairly as possible. Ever
 ## News Writing Fundamentals
 
 ### The Inverted Pyramid
+
 1. **Lead (Lede)** — Most important facts: Who, What, When, Where, Why, How
 2. **Key details** — Context, quotes, supporting evidence
 3. **Background** — History, related events, lesser details
@@ -27,6 +28,7 @@ Journalism's job is to tell the truth as completely and fairly as possible. Ever
 The reader should get the essential story from the first paragraph alone.
 
 ### Lead Types
+
 | Type | Use When | Example Pattern |
 |------|----------|----------------|
 | **Hard news** | Breaking/spot news | WHO did WHAT at WHERE on WHEN |
@@ -36,6 +38,7 @@ The reader should get the essential story from the first paragraph alone.
 | **Question** | Rarely (avoid) | Only when genuinely provocative |
 
 ### AP Style Quick Reference
+
 | Rule | Correct | Incorrect |
 |------|---------|-----------|
 | Numbers < 10 | five people | 5 people |
@@ -49,6 +52,7 @@ The reader should get the essential story from the first paragraph alone.
 ## Source Verification
 
 ### Source Hierarchy
+
 | Tier | Source Type | Reliability | Verification Need |
 |------|-----------|-------------|-------------------|
 | 1 | Primary documents | Highest | Authenticate provenance |
@@ -59,6 +63,7 @@ The reader should get the essential story from the first paragraph alone.
 | 6 | Social media posts | Low | Verify identity, context, authenticity |
 
 ### Two-Source Rule
+
 - Every factual claim should be confirmed by at least two independent sources
 - Independent = not derived from the same original source
 - Exceptions: official documents, on-record statements, direct observation
@@ -90,6 +95,7 @@ claims:
 ```
 
 ### Source Attribution
+
 | Attribution | Use When |
 |------------|----------|
 | **On the record** | Default — named source, direct quotes |
@@ -102,6 +108,7 @@ claims:
 ## Fact-Checking Protocol
 
 ### Pre-Publication Checklist
+
 1. ☐ All names spelled correctly (verify against official sources)
 2. ☐ All numbers verified (dates, statistics, amounts, addresses)
 3. ☐ All quotes accurate (audio/transcript confirmed)
@@ -112,6 +119,7 @@ claims:
 8. ☐ Potential defamation reviewed (truth, public interest, fair comment)
 
 ### Statistical Literacy
+
 | Red Flag | Question to Ask |
 |----------|----------------|
 | Percentage without base | Percent of what? (10% of 10 vs. 10% of 10M) |
@@ -123,6 +131,7 @@ claims:
 ## Investigative Reporting
 
 ### Investigation Framework
+
 1. **Hypothesis** — What do you suspect, and why?
 2. **Document trail** — FOIA requests, court records, corporate filings, financial disclosures
 3. **Human sources** — Insiders, whistleblowers, affected parties, experts
@@ -132,6 +141,7 @@ claims:
 7. **Legal review** — Pre-publication review for defamation, privacy, source protection
 
 ### Public Records Toolkit
+
 | Record Type | Source |
 |------------|--------|
 | Corporate filings | SEC EDGAR, state SOS databases |
@@ -145,12 +155,14 @@ claims:
 ## Ethical Standards
 
 ### SPJ Code of Ethics (Four Principles)
+
 1. **Seek truth and report it** — Accuracy, context, transparency about methods
 2. **Minimize harm** — Balance public interest against potential damage
 3. **Act independently** — Avoid conflicts of interest, refuse gifts
 4. **Be accountable** — Acknowledge mistakes, correct promptly
 
 ### Correction Protocol
+
 | Severity | Action |
 |----------|--------|
 | Minor factual error | Correction appended, original text updated |
@@ -161,6 +173,7 @@ claims:
 ## Digital & Multimedia Journalism
 
 ### Verification of Digital Content
+
 - **Reverse image search** — Google Images, TinEye to check origin
 - **EXIF data** — Check photo metadata for date, location, device
 - **Geolocation** — Cross-reference landmarks, shadows, signs with claimed location
@@ -168,6 +181,7 @@ claims:
 - **Social media verification** — Account age, posting history, network analysis
 
 ### Data Journalism Principles
+
 - Show your work: publish methodology and datasets when possible
 - Visualizations must not misrepresent data (avoid truncated axes, misleading scales)
 - Acknowledge limitations of the data

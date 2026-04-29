@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 Memory files are LLM context, not human documentation. Every line costs tokens. Optimize for my consumption, not human readability.
 
 ## Loading Tiers

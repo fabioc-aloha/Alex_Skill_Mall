@@ -433,6 +433,7 @@ RQ3: [Specific question]
 ### Philosophy of AI Focus
 
 Minds & Machines emphasizes philosophical arguments about:
+
 - Consciousness and AI
 - Ethics of artificial agents
 - Epistemology of machine learning
@@ -529,6 +530,7 @@ Minds & Machines emphasizes philosophical arguments about:
 ### Phase 2: Rough Draft (1-2 weeks)
 
 **Rules for first draft:**
+
 1. **Don't edit while writing** — Separate generation from editing
 2. **Start with what you know** — Often Methods or Results, not Intro
 3. **Use placeholder brackets** — "[CITE Smith here]", "[need better transition]"

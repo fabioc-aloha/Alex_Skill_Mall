@@ -65,6 +65,7 @@ suite('My test suite', () => {
 ## Quality Gate Integration
 
 This muscle is part of the pre-publish quality gate:
+
 1. `converter-qa.cjs` runs all 284 assertions
 2. Zero failures required to pass
 3. Skips are tracked but don't block (used for environment-dependent tests)

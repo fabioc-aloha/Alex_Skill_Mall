@@ -29,6 +29,7 @@ currency: 2026-04-22
 ## Problem
 
 VS Code extensions fail at runtime when:
+
 - Configuration keys are updated without being registered in `package.json`
 - Commands are invoked but not declared in manifest
 - Views/webviews reference unregistered IDs
@@ -59,6 +60,7 @@ try {
 ```
 
 **Audit Pattern**:
+
 ```bash
 # Find all config.update() calls
 grep -r "getConfiguration.*\.update\(" src/
@@ -87,6 +89,7 @@ vscode.commands.registerCommand('alex.validateHeir', async () => {...});
 ```
 
 **Audit Pattern**:
+
 ```bash
 # Find all command registrations
 grep -r "registerCommand\(['\"]alex\." src/
@@ -106,6 +109,7 @@ const enabled = vscode.workspace.getConfiguration('alex.voice').get('enabled', f
 ```
 
 **Warning Pattern**: Configuration reads with no defaults are risky:
+
 ```typescript
 // ⚠️ No fallback - will be undefined if not registered
 const value = config.get('someKey');
@@ -135,6 +139,7 @@ async function trackUserPreference(key: string, value: any) {
 ```
 
 **For Critical Configuration**:
+
 ```typescript
 // Pattern: Essential config must be registered
 await vscode.workspace.getConfiguration('alex.globalKnowledge')
@@ -164,6 +169,7 @@ Pseudocode: validate-manifest
      Flag as unregistered config write (potential runtime error)
 4. Report all mismatches
 ```
+
     $issues += "⚠️  $fullKey - not registered (verify try-catch exists)"
   }
 }
@@ -173,6 +179,7 @@ if ($issues.Count -gt 0) {
   $issues | ForEach-Object { Write-Host $_ }
   exit 1
 }
+
 ```
 
 ## Common Pitfalls
@@ -213,6 +220,7 @@ async function trackRecommendation(skillId: string, accepted: boolean) {
 ```
 
 **Why This Works**:
+
 - Feature works with or without tracking
 - No user-facing error for unregistered config
 - Logging helps debug if tracking is important
@@ -241,6 +249,7 @@ Before each release:
 ---
 
 **Sources of Truth**:
+
 - Incident: Skill recommendations broken due to unregistered config (2026-02-15)
 - Root Cause: `alex.skillRecommendations.*` keys not in package.json
 - Fix: Try-catch wrapper in `src/chat/skillRecommendations.ts`

@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > Images in the terminal — no file explorer needed.
 
 VS Code 1.110+ supports the **Kitty graphics protocol** for rendering images directly in the integrated terminal. Enable with `terminal.integrated.enableImages: true`.

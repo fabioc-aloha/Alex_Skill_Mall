@@ -175,6 +175,7 @@ data-project/
 ### 1. Microsoft Fabric REST API
 
 **Endpoint Structure**:
+
 ```
 Base URL: https://api.fabric.microsoft.com/v1
 Workspaces: /workspaces/{workspaceId}
@@ -183,6 +184,7 @@ Definitions: /workspaces/{workspaceId}/{type}/{itemId}/getDefinition
 ```
 
 **Async Operation Pattern**:
+
 1. POST to definition endpoint
 2. Receive 202 Accepted with `Location` header
 3. Poll `Location` URL until status = `Succeeded`
@@ -190,6 +192,7 @@ Definitions: /workspaces/{workspaceId}/{type}/{itemId}/getDefinition
 5. Decode base64 content for notebooks
 
 **Authentication**:
+
 ```powershell
 # Fabric API token
 $fabricToken = az account get-access-token --resource https://api.fabric.microsoft.com --query accessToken -o tsv
@@ -209,6 +212,7 @@ $storageToken = az account get-access-token --resource https://storage.azure.com
 | Gold | Domain models | Schema-enabled | dbo, CxPulse |
 
 **Table Distribution Pattern** (Fishbowl Example):
+
 - Bronze: 88 tables (raw data from 5+ systems)
 - Silver: 77 tables (cleansed, standardized)
 - Gold: 39 tables (domain-separated)
@@ -220,6 +224,7 @@ $storageToken = az account get-access-token --resource https://storage.azure.com
 **7-Step CPM Pattern**: Copy Contacts → MSWide Perm API → TXN Perm API → CPERM Validation → Country Enrichment → Data Hydration → Load Lakehouse
 
 **Permission Tables**:
+
 - `CPERM_OptOut` - Marketing opt-outs
 - `US_FAR_List` - US government exclusions
 - `US_CAPSL_List` - CAPSL compliance
@@ -228,6 +233,7 @@ $storageToken = az account get-access-token --resource https://storage.azure.com
 ### 4. Unity Catalog Integration
 
 **Schema-Enabled Lakehouse Access**:
+
 ```python
 # Catalog URL pattern
 catalog_url = f"https://onelake.table.fabric.microsoft.com/delta/{workspace_id}/{lakehouse_id}"
@@ -240,6 +246,7 @@ GET /schemas/{schema_name}/tables
 ```
 
 **Domain Organization**:
+
 - Use schemas for domain separation (dbo, CxPulse)
 - Enable for Gold layer business domains
 - Keep Bronze/Silver as standard for flexibility
@@ -247,6 +254,7 @@ GET /schemas/{schema_name}/tables
 ### 5. PowerShell Automation
 
 **Workspace Scanner Pattern**:
+
 ```powershell
 # Use Invoke-WebRequest for header access (not Invoke-RestMethod)
 $response = Invoke-WebRequest -Uri $uri -Headers $headers -Method Post
@@ -306,6 +314,7 @@ if ($response.StatusCode -eq 202) {
 1. **Bronze**: Accept all formats, minimal transformation
 2. **Silver**: Standardize types, deduplicate, validate
 3. **Gold**: Domain models, business logic, aggregations
+
 ## Related Resources
 
 - [Microsoft Fabric REST API Documentation](https://learn.microsoft.com/en-us/rest/api/fabric/)

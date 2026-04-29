@@ -133,6 +133,7 @@ A realistic end-to-end session showing how this skill operates.
 (via `import { describe } from '@jest/globals'`). Finds 28 test methods across 6 files.
 
 **Step 2 — Rapid Triage**: Agent scans each test for assertion patterns.
+
 - 🔴 Red (4 tests): No assertions or trivial assertions
 - 🟡 Yellow (7 tests): Suspicious patterns (over-mocking, weak verification)
 - 🟢 Green (17 tests): Appear to have meaningful assertions
@@ -156,6 +157,7 @@ A realistic end-to-end session showing how this skill operates.
    exact total for known inputs. Missing edge cases: empty cart, discounts.
 
 **Step 4 — Report**:
+
 ```
 # Test Quality Report — tests/services/ | 28 tests
 

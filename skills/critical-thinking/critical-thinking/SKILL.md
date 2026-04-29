@@ -72,16 +72,16 @@ Run **at least one** of the eight step-back checks before committing to a soluti
 2. **Generalise** — what is this a special case of?
 3. **Specialise** — what's the simplest concrete instance?
 4. **Invert** — what would make this worse?
-5. **Five Whys** — why is this a problem? And why is *that* a problem? (×5)
+5. **Five Whys** — why is this a problem? And why is _that_ a problem? (×5)
 6. **Pre-mortem** — imagine it's done and didn't work; what went wrong?
-7. **Stakeholder** — whose problem is this, really? What outcome would tell *them* it's solved?
+7. **Stakeholder** — whose problem is this, really? What outcome would tell _them_ it's solved?
 8. **Frame audit** — what other framings exist? At least two.
 
-The discipline is not to do all eight on every problem — it's to do *at least one* on every non-trivial problem before solving. The cost is small; avoiding a Type III error is large.
+The discipline is not to do all eight on every problem — it's to do _at least one_ on every non-trivial problem before solving. The cost is small; avoiding a Type III error is large.
 
 ### Symptom-frame → cause-frame
 
-The most common reframe: the user names a *symptom*, the audit surfaces the *cause*.
+The most common reframe: the user names a _symptom_, the audit surfaces the _cause_.
 
 | User said (symptom-frame) | Audit surfaces (cause-frame) |
 |---|---|
@@ -90,7 +90,7 @@ The most common reframe: the user names a *symptom*, the audit surfaces the *cau
 | "Add a workaround for this API quirk" | Quirk is the API enforcing a real constraint |
 | "Why does this query take 2 minutes?" | Query is fine; UI re-renders 47M rows |
 
-When the audit surfaces a cause-frame, *propose it before solving*. Don't silently solve the cause-frame — let the user choose between symptom and cause.
+When the audit surfaces a cause-frame, _propose it before solving_. Don't silently solve the cause-frame — let the user choose between symptom and cause.
 
 ### Visible markers
 

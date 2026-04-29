@@ -72,6 +72,7 @@ Generate AI videos using 17 cloud models on Replicate. Supports text-to-video, i
 | `wan` | ✅ | 5–10 | — | ✅ | — | ✅ | ✅ auto |
 
 **Notes:**
+
 - **Fixed values** (e.g., 5/9) mean only those exact values accepted
 - **Ranges** (e.g., 3–15) accept any integer in range
 - **Sora models** use "portrait"/"landscape" internally (mapped from 9:16/16:9)
@@ -111,6 +112,7 @@ node scripts/generate-edit-video.js --model avmerge --video clip.mp4 --audio spe
 ```
 
 **Model notes:**
+
 - `kling26` — Best overall motion quality for talking-head i2v
 - `grok` — Best lip sync, but no native audio (requires `avmerge`)
 - `veo3fast` / `sora` — May flag real-person reference photos

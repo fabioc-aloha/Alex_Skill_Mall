@@ -35,6 +35,7 @@ Actual survey item: "How safe do you feel walking alone at night?"
 ```
 
 Compare exact wording:
+
 - Survey instrument file (if available)
 - Qualtrics/SurveyMonkey export
 - IRB-approved protocol

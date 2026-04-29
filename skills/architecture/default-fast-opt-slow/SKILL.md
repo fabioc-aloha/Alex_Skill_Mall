@@ -3,6 +3,7 @@
 ## The Problem
 
 AI/LLM features default to verbose responses, causing:
+
 - Long wait times for simple queries
 - Token/cost waste
 - User frustration

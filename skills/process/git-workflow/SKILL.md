@@ -159,6 +159,7 @@ git worktree prune
 ```
 
 **VS Code integration** (1.109+):
+
 - `git.worktreeIncludeFiles` — copy gitignored files (e.g., `.env`) into agent worktrees
 - Background agents auto-commit at end of each turn within their worktree
 - Check Agent Sessions view to see which worktree an agent is using

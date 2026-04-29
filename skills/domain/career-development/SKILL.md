@@ -127,6 +127,7 @@ Career development is a repeatable skill, not luck. Strong candidates prepare sy
 ### Application Tracking
 
 Track every application with:
+
 - Company, role, date applied, source
 - Contact name and email
 - Stage (Applied → Phone screen → Interview → Offer → Accepted/Rejected)

@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > Meta-skill for maintaining and evolving the AI assistant's cognitive architecture through deliberate documentation and pattern extraction.
 
 ## Purpose

@@ -3,6 +3,7 @@
 ## The Problem
 
 Multi-factor decisions become arbitrary without explicit weights:
+
 - "We chose Option A because it felt better"
 - No audit trail for why factors mattered
 - Inconsistent decision-making across time

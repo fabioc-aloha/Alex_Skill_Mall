@@ -12,7 +12,6 @@ currency: 2026-04-22
 
 ---
 
-
 > Turn any unfamiliar domain into structured, connected knowledge through progressive conversation.
 
 ## The Bootstrap Problem

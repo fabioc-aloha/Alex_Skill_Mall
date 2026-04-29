@@ -189,6 +189,7 @@ mcp_bicep_list_avm_metadata → 328 modules with:
 | **MCP Server** | `bicep-mcp` | AVM lookup, schema, validation, best practices |
 
 **Installation**:
+
 ```bash
 # VS Code Extensions (required for Bicep authoring)
 code --install-extension ms-azuretools.vscode-bicep
@@ -205,14 +206,15 @@ If Bicep MCP tools are not available, use these alternatives:
 
 | MCP Tool | Fallback Approach |
 |----------|-------------------|
-| `list_avm_metadata` | Browse https://aka.ms/avm/modules |
+| `list_avm_metadata` | Browse <https://aka.ms/avm/modules> |
 | `get_az_resource_type_schema` | Use `bicep list-api-types` CLI or ARM reference docs |
-| `get_bicep_best_practices` | Reference https://learn.microsoft.com/azure/azure-resource-manager/bicep/best-practices |
+| `get_bicep_best_practices` | Reference <https://learn.microsoft.com/azure/azure-resource-manager/bicep/best-practices> |
 | `get_bicep_file_diagnostics` | VS Code Bicep extension shows diagnostics automatically |
 | `format_bicep_file` | Run `bicep format <file>` CLI |
 | `decompile_arm_template_file` | Run `az bicep decompile --file <file>` CLI |
 
 **Manual AVM Module Discovery**:
+
 ```bash
 # Search Bicep Registry for modules
 az bicep registry list --resource-group bicep-registry
