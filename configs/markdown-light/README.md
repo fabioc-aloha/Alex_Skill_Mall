@@ -8,30 +8,22 @@ A ~21KB CSS file that styles VS Code's built-in markdown preview to match GitHub
 
 ## Install
 
-```bash
-# 1. Copy into your project's .vscode/ folder (or anywhere you like)
-mkdir -p .vscode
-cp ~/Alex_Skill_Mall/configs/markdown-light/markdown-light.css .vscode/markdown-light.css
-
-# 2. Reference it from .vscode/settings.json
-```
+The CSS ships in `.vscode/markdown-light.css` and is already configured in `.vscode/settings.json`:
 
 ```jsonc
-// .vscode/settings.json
+// .vscode/settings.json (already set)
 {
   "markdown.styles": [".vscode/markdown-light.css"]
 }
 ```
 
-Then reload the markdown preview (`Ctrl+Shift+V`).
+For other projects, copy the CSS into your `.vscode/` folder:
 
-## Alternative: ship it under .github/config/
-
-If you're an Alex Edition heir, the file already lives at `.github/config/markdown-light.css`. Reference it as:
-
-```jsonc
-{ "markdown.styles": [".github/config/markdown-light.css"] }
+```bash
+cp ~/Alex_Skill_Mall/.vscode/markdown-light.css .vscode/markdown-light.css
 ```
+
+Then add `"markdown.styles": [".vscode/markdown-light.css"]` to your `.vscode/settings.json`.
 
 ## Customizing
 
