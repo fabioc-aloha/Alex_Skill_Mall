@@ -1,0 +1,3182 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-05-01",
+  "count": 303,
+  "categories": [
+    "academic",
+    "ai-llm",
+    "architecture",
+    "azure",
+    "build",
+    "cloud",
+    "communication",
+    "converters",
+    "critical-thinking",
+    "cross-platform",
+    "data",
+    "design",
+    "documentation",
+    "domain",
+    "frontend",
+    "github",
+    "github-actions",
+    "infrastructure",
+    "javascript",
+    "media",
+    "operations",
+    "people",
+    "performance",
+    "privacy",
+    "process",
+    "productivity",
+    "publishing",
+    "quality",
+    "security",
+    "supervisor",
+    "testing",
+    "visual",
+    "vitepress",
+    "vscode",
+    "windows-node"
+  ],
+  "skills": [
+    {
+      "name": "academic-editorial-judgment",
+      "category": "academic",
+      "path": "skills/academic/academic-editorial-judgment/",
+      "description": "Context-dependent editorial style rules for academic writing — APA7, Chicago, MLA judgment calls",
+      "tier": "extended",
+      "applyTo": "**/*academic*,**/*editorial*,**/*apa*,**/*chicago*,**/*mla*,**/*manuscript*",
+      "triggers": [],
+      "title": "Academic Editorial Judgment"
+    },
+    {
+      "name": "academic-paper-drafting",
+      "category": "academic",
+      "path": "skills/academic/academic-paper-drafting/",
+      "description": "End-to-end academic paper drafting for CHI, HBR, journals, and conferences with venue-specific templates, drafting workflows, and revision strategies.",
+      "tier": "extended",
+      "applyTo": "**/*academic*,**/*paper*,**/*drafting*",
+      "triggers": [],
+      "title": "Academic Paper Drafting Skill"
+    },
+    {
+      "name": "academic-research",
+      "category": "academic",
+      "path": "skills/academic/academic-research/",
+      "description": "Research project scaffolding, thesis/dissertation writing, literature reviews, publication workflows, and the AI assistant-assisted academic workflows",
+      "tier": "extended",
+      "applyTo": "**/*academic*,**/*research*",
+      "triggers": [],
+      "title": "Academic Research"
+    },
+    {
+      "name": "citation-management",
+      "category": "academic",
+      "path": "skills/academic/citation-management/",
+      "description": "APA 7th formatting, citation integration, reference validation, and bibliography generation",
+      "tier": "extended",
+      "applyTo": "**/*citation*,**/*management*",
+      "triggers": [],
+      "title": "Skill: Citation Management"
+    },
+    {
+      "name": "literature-review",
+      "category": "academic",
+      "path": "skills/academic/literature-review/",
+      "description": "Systematic literature search, synthesis, gap identification, and narrative construction for academic research",
+      "tier": "extended",
+      "applyTo": "**/*literature*,**/*review*",
+      "triggers": [],
+      "title": "Skill: Literature Review"
+    },
+    {
+      "name": "research-first-development",
+      "category": "academic",
+      "path": "skills/academic/research-first-development/",
+      "description": "Build knowledge bases that build software — research before code, teach before execute",
+      "tier": "extended",
+      "applyTo": "**/*research*,**/*first*,**/*development*",
+      "triggers": [],
+      "title": "Research-First Development"
+    },
+    {
+      "name": "survey-instrument-verification",
+      "category": "academic",
+      "path": "skills/academic/survey-instrument-verification/",
+      "description": "Manuscripts evolve terminology that may not match what was actually administered:",
+      "tier": "extended",
+      "applyTo": "**/*survey*,**/*instrument*,**/*verification*",
+      "triggers": [],
+      "title": "Survey Instrument Verification"
+    },
+    {
+      "name": "agent-governance",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/agent-governance/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*agent*,**/*governance*",
+      "triggers": [],
+      "title": "Agent Governance Patterns"
+    },
+    {
+      "name": "agent-supply-chain",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/agent-supply-chain/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*agent*,**/*supply*,**/*chain*",
+      "triggers": [],
+      "title": "Agent Supply Chain Integrity"
+    },
+    {
+      "name": "agentic-eval",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/agentic-eval/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*agentic*,**/*eval*",
+      "triggers": [],
+      "title": "Agentic Evaluation Patterns"
+    },
+    {
+      "name": "ai-agent-design",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/ai-agent-design/",
+      "description": "Design autonomous AI agents that reason, plan, and execute tasks",
+      "tier": "standard",
+      "applyTo": "**/*agent*,**/*design*",
+      "triggers": [],
+      "title": "AI Agent Design Skill"
+    },
+    {
+      "name": "chat-participant-patterns",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/chat-participant-patterns/",
+      "description": "VS Code Chat API patterns.",
+      "tier": "standard",
+      "applyTo": "**/*chat*,**/*participant*,**/*patterns*",
+      "triggers": [],
+      "title": "Chat Participant Patterns Skill"
+    },
+    {
+      "name": "content-safety-implementation",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/content-safety-implementation/",
+      "description": "Azure Content Safety API integration, multi-layer defense pipeline, output validation, and operational safety controls",
+      "tier": "standard",
+      "applyTo": "**/*content*,**/*safety*,**/*implementation*",
+      "triggers": [],
+      "title": "Content Safety Implementation"
+    },
+    {
+      "name": "copilot-sdk",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/copilot-sdk/",
+      "description": "Build applications powered by GitHub Copilot using the Copilot SDK — session management, custom tools, streaming, hooks, MCP servers, BYOK, deployment patterns",
+      "tier": "standard",
+      "applyTo": "**/*copilot*,**/*sdk*",
+      "triggers": [],
+      "title": "GitHub Copilot SDK"
+    },
+    {
+      "name": "evaluate-plugin",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/evaluate-plugin/",
+      "description": "Evaluate plugin quality. Use when user says \"evaluate plugin\", \"review plugin quality\", \"score my plugin\", \"check plugin\", \"rate plugin\".",
+      "tier": "standard",
+      "applyTo": "**/*evaluate*,**/*plugin*",
+      "triggers": [
+        "evaluate plugin",
+        "review plugin quality",
+        "score my plugin",
+        "check plugin",
+        "rate plugin"
+      ],
+      "title": "Evaluate Plugin Quality"
+    },
+    {
+      "name": "foundry-agent-platform",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/foundry-agent-platform/",
+      "description": "Microsoft Foundry agent deployment, orchestration, and cloud-native AI service patterns",
+      "tier": "standard",
+      "applyTo": "**/*foundry*,**/*agent*,**/*platform*",
+      "triggers": [],
+      "title": "Foundry Agent Platform Skill"
+    },
+    {
+      "name": "llm-model-selection",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/llm-model-selection/",
+      "description": "Choosing the right model for the task — power vs. cost vs. speed.",
+      "tier": "standard",
+      "applyTo": "**/*llm*,**/*model*,**/*selection*",
+      "triggers": [],
+      "title": "LLM Model Selection Skill"
+    },
+    {
+      "name": "make-skill-template",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/make-skill-template/",
+      "description": "Create new Agent Skills for GitHub Copilot from prompts or by duplicating this template. Use when asked to \"create a skill\", \"make a new skill\", \"scaffold a skill\", or when building specialized AI capabilities with bundled resources. Generates SKILL.md files with proper frontmatter, directory structure, and optional scripts/references/assets folders.",
+      "tier": "standard",
+      "applyTo": "**/*make*,**/*skill*,**/*template*",
+      "triggers": [
+        "create a skill",
+        "make a new skill",
+        "scaffold a skill"
+      ],
+      "title": "Make Skill Template"
+    },
+    {
+      "name": "mcp-builder",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/mcp-builder/",
+      "description": "Build MCP servers for LLM tool integration — Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK)",
+      "tier": "standard",
+      "applyTo": "**/*mcp*,**/*builder*",
+      "triggers": [],
+      "title": "MCP Server Development Guide"
+    },
+    {
+      "name": "mcp-development",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/mcp-development/",
+      "description": "Domain: AI Infrastructure",
+      "tier": "standard",
+      "applyTo": "**/*mcp*,**/*development*",
+      "triggers": [],
+      "title": "MCP Development Skill"
+    },
+    {
+      "name": "multi-agent-orchestration",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/multi-agent-orchestration/",
+      "description": "Coordinate multiple AI agents for complex tasks — decomposition, delegation, and synthesis",
+      "tier": "standard",
+      "applyTo": "**/*multi*,**/*agent*,**/*orchestration*",
+      "triggers": [],
+      "title": "Multi-Agent Orchestration Skill"
+    },
+    {
+      "name": "prompt-builder",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/prompt-builder/",
+      "description": "Create and validate .prompt.md files that pass brain-qa on first attempt",
+      "tier": "standard",
+      "applyTo": "**/*prompt*,**/*builder*",
+      "triggers": [],
+      "title": "Prompt Builder"
+    },
+    {
+      "name": "prompt-engineering",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/prompt-engineering/",
+      "description": "Craft effective prompts that get the best results from language models.",
+      "tier": "standard",
+      "applyTo": "**/*prompt*,**/*engineering*",
+      "triggers": [],
+      "title": "Prompt Engineering Skill"
+    },
+    {
+      "name": "rag-architecture",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/rag-architecture/",
+      "description": "Build retrieval-augmented generation systems that ground LLMs in your data.",
+      "tier": "standard",
+      "applyTo": "**/*rag*,**/*architecture*",
+      "triggers": [],
+      "title": "RAG Architecture Skill"
+    },
+    {
+      "name": "sse-streaming",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/sse-streaming/",
+      "description": "POST-based Server-Sent Events streaming for Azure Functions — HTTP streaming, chunked response parsing, reconnection",
+      "tier": "standard",
+      "applyTo": "**/*sse*,**/*streaming*",
+      "triggers": [],
+      "title": "SSE Streaming"
+    },
+    {
+      "name": "token-waste-elimination",
+      "category": "ai-llm",
+      "path": "skills/ai-llm/token-waste-elimination/",
+      "description": "Audit and eliminate token waste from cognitive architecture memory files -- instructions, prompts, skills, and agents",
+      "tier": "standard",
+      "applyTo": "**/*token*,**/*waste*,**/*elimination*",
+      "triggers": [],
+      "title": "Token Waste Elimination"
+    },
+    {
+      "name": "api-connector-builder",
+      "category": "architecture",
+      "path": "skills/architecture/api-connector-builder/",
+      "description": "Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture.",
+      "tier": "standard",
+      "applyTo": "**/*api*,**/*connector*,**/*builder*",
+      "triggers": [],
+      "title": "API Connector Builder"
+    },
+    {
+      "name": "api-design",
+      "category": "architecture",
+      "path": "skills/architecture/api-design/",
+      "description": "Design APIs that developers love to use.",
+      "tier": "standard",
+      "applyTo": "**/*api*,**/*design*",
+      "triggers": [],
+      "title": "API Design Skill"
+    },
+    {
+      "name": "architecture-audit",
+      "category": "architecture",
+      "path": "skills/architecture/architecture-audit/",
+      "description": "Comprehensive project consistency review across code, documentation, diagrams, and configuration",
+      "tier": "standard",
+      "applyTo": "**/*architecture*,**/*audit*",
+      "triggers": [],
+      "title": "Architecture Audit"
+    },
+    {
+      "name": "architecture-refinement",
+      "category": "architecture",
+      "path": "skills/architecture/architecture-refinement/",
+      "description": "Meta-skill for maintaining and evolving Alex's cognitive architecture through deliberate documentation and pattern extraction.",
+      "tier": "standard",
+      "applyTo": "**/*architecture*,**/*refinement*",
+      "triggers": [],
+      "title": "Architecture Refinement Skill"
+    },
+    {
+      "name": "default-fast-opt-slow",
+      "category": "architecture",
+      "path": "skills/architecture/default-fast-opt-slow/",
+      "description": "AI/LLM features default to verbose responses, causing:",
+      "tier": "standard",
+      "applyTo": "**/*default*,**/*fast*,**/*opt*",
+      "triggers": [],
+      "title": "Default to Fast, Opt Into Slow"
+    },
+    {
+      "name": "defaults-plus-overrides",
+      "category": "architecture",
+      "path": "skills/architecture/defaults-plus-overrides/",
+      "description": "Provide sensible defaults with user-overridable configuration — reduce boilerplate without limiting flexibility",
+      "tier": "standard",
+      "applyTo": "**/*defaults*,**/*plus*,**/*overrides*",
+      "triggers": [],
+      "title": "Defaults Plus Overrides"
+    },
+    {
+      "name": "early-filter-optimization",
+      "category": "architecture",
+      "path": "skills/architecture/early-filter-optimization/",
+      "description": "Cross-domain early-filtering paradigm for reducing cognitive and computational load in data pipelines, AI context, and human attention",
+      "tier": "standard",
+      "applyTo": "**/*early*,**/*filter*,**/*optimization*",
+      "triggers": [],
+      "title": "Domain Knowledge: Early Filter Optimization"
+    },
+    {
+      "name": "microservices-patterns",
+      "category": "architecture",
+      "path": "skills/architecture/microservices-patterns/",
+      "description": "Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing microservices.",
+      "tier": "standard",
+      "applyTo": "**/*microservices*,**/*patterns*",
+      "triggers": [],
+      "title": "Microservices Patterns"
+    },
+    {
+      "name": "opt-in-workspace-writes",
+      "category": "architecture",
+      "path": "skills/architecture/opt-in-workspace-writes/",
+      "description": "Extensions/tools that auto-write to user workspaces without consent:",
+      "tier": "standard",
+      "applyTo": "**/*opt*,**/*workspace*,**/*writes*",
+      "triggers": [],
+      "title": "Opt-In for Workspace Writes"
+    },
+    {
+      "name": "saga-orchestration",
+      "category": "architecture",
+      "path": "skills/architecture/saga-orchestration/",
+      "description": "Implement saga patterns for distributed transactions and cross-aggregate workflows. Use this skill when implementing distributed transactions across microservices where 2PC is unavailable, designing compensating actions for failed order workflows that span inventory, payment, and shipping services, building event-driven saga coordinators for travel booking systems that must roll back hotel, flight, and car rental reservations atomically, or debugging stuck saga states in production where compensation steps never complete.",
+      "tier": "standard",
+      "applyTo": "**/*saga*,**/*orchestration*",
+      "triggers": [],
+      "title": "Saga Orchestration"
+    },
+    {
+      "name": "semantic-codebase-intelligence",
+      "category": "architecture",
+      "path": "skills/architecture/semantic-codebase-intelligence/",
+      "description": "Deep structural analysis of a codebase — dependency mapping, architecture boundary detection, coupling/cohesion scoring, and dead code discovery. Use when asked to analyze codebase structure, map dependencies, find dead code, architecture analysis, coupling analysis, trace dependencies, or understand this system. Produces a Context Map with actionable insights.",
+      "tier": "standard",
+      "applyTo": "**/*semantic*,**/*codebase*,**/*intelligence*",
+      "triggers": [],
+      "title": "Semantic Codebase Intelligence"
+    },
+    {
+      "name": "staged-transformation-pipeline",
+      "category": "architecture",
+      "path": "skills/architecture/staged-transformation-pipeline/",
+      "description": "Monolithic transformations are hard to test and debug:",
+      "tier": "standard",
+      "applyTo": "**/*staged*,**/*transformation*,**/*pipeline*",
+      "triggers": [],
+      "title": "Staged Transformation Pipeline"
+    },
+    {
+      "name": "weighted-scoring-matrix",
+      "category": "architecture",
+      "path": "skills/architecture/weighted-scoring-matrix/",
+      "description": "Multi-factor decisions become arbitrary without explicit weights:",
+      "tier": "standard",
+      "applyTo": "**/*weighted*,**/*scoring*,**/*matrix*",
+      "triggers": [],
+      "title": "Weighted Scoring Matrix"
+    },
+    {
+      "name": "workflow-orchestration-patterns",
+      "category": "architecture",
+      "path": "skills/architecture/workflow-orchestration-patterns/",
+      "description": "Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration.",
+      "tier": "standard",
+      "applyTo": "**/*workflow*,**/*orchestration*,**/*patterns*",
+      "triggers": [],
+      "title": "Workflow Orchestration Patterns"
+    },
+    {
+      "name": "az-cost-optimize",
+      "category": "azure",
+      "path": "skills/azure/az-cost-optimize/",
+      "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
+      "tier": "standard",
+      "applyTo": "**/*cost*,**/*optimize*",
+      "triggers": [],
+      "title": "Azure Cost Optimize"
+    },
+    {
+      "name": "azure-architecture-patterns",
+      "category": "azure",
+      "path": "skills/azure/azure-architecture-patterns/",
+      "description": "Well-Architected Framework principles and Azure best practices",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*architecture*,**/*patterns*",
+      "triggers": [],
+      "title": "Azure Architecture Patterns"
+    },
+    {
+      "name": "azure-cost-management-api",
+      "category": "azure",
+      "path": "skills/azure/azure-cost-management-api/",
+      "description": "In PowerShell, inline JSON for Cost Management API causes \"Unsupported Media Type\" errors:",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*cost*,**/*management*",
+      "triggers": [
+        "Unsupported Media Type"
+      ],
+      "title": "Azure Cost Management API"
+    },
+    {
+      "name": "azure-deployment-operations",
+      "category": "azure",
+      "path": "skills/azure/azure-deployment-operations/",
+      "description": "Production deployment patterns for Azure Static Web Apps, Container Apps, App Service, and infrastructure",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*deployment*,**/*operations*",
+      "triggers": [],
+      "title": "Azure Deployment Operations"
+    },
+    {
+      "name": "azure-deployment-preflight",
+      "category": "azure",
+      "path": "skills/azure/azure-deployment-preflight/",
+      "description": "Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, what-if analysis, and permission checks. Use this skill before any deployment to Azure to preview changes, identify potential issues, and ensure the deployment will succeed. Activate when users mention deploying to Azure, validating Bicep files, checking deployment permissions, previewing infrastructure changes, running what-if, or preparing for azd provision.",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*deployment*,**/*preflight*",
+      "triggers": [],
+      "title": "Azure Deployment Preflight Validation"
+    },
+    {
+      "name": "azure-devops-automation",
+      "category": "azure",
+      "path": "skills/azure/azure-devops-automation/",
+      "description": "CI/CD pipelines, infrastructure as code, and deployment automation for Azure workloads",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*devops*,**/*automation*",
+      "triggers": [],
+      "title": "Skill: Azure DevOps Automation"
+    },
+    {
+      "name": "azure-identity-msi",
+      "category": "azure",
+      "path": "skills/azure/azure-identity-msi/",
+      "description": "Time Saved: 1-2 hours debugging identity and RBAC",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*identity*,**/*msi*",
+      "triggers": [],
+      "title": "Azure Managed Identity (MSI) Concepts"
+    },
+    {
+      "name": "azure-openai-patterns",
+      "category": "azure",
+      "path": "skills/azure/azure-openai-patterns/",
+      "description": "Azure OpenAI API patterns for rate limiting, function calling, error handling, and token optimization",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*openai*,**/*patterns*",
+      "triggers": [],
+      "title": "Azure OpenAI Patterns"
+    },
+    {
+      "name": "azure-subscription-context",
+      "category": "azure",
+      "path": "skills/azure/azure-subscription-context/",
+      "description": "Time Saved: 30 minutes - 1 hour debugging",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*subscription*,**/*context*",
+      "triggers": [],
+      "title": "Azure Subscription Context"
+    },
+    {
+      "name": "cloud-solution-architect",
+      "category": "azure",
+      "path": "skills/azure/cloud-solution-architect/",
+      "description": "Design well-architected Azure cloud systems — 10 design principles, 6 architecture styles, 44 design patterns, technology choices, WAF pillars",
+      "tier": "standard",
+      "applyTo": "**/*cloud*,**/*solution*,**/*architect*",
+      "triggers": [],
+      "title": "Cloud Solution Architect"
+    },
+    {
+      "name": "enterprise-integration",
+      "category": "azure",
+      "path": "skills/azure/enterprise-integration/",
+      "description": "Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integration in VS Code extensions",
+      "tier": "standard",
+      "applyTo": "**/*enterprise*,**/*integration*",
+      "triggers": [],
+      "title": "Enterprise Integration Skill"
+    },
+    {
+      "name": "entra-agent-id",
+      "category": "azure",
+      "path": "skills/azure/entra-agent-id/",
+      "description": "Microsoft Entra Agent ID (preview) — create OAuth2-capable AI agent identities via Microsoft Graph beta API",
+      "tier": "standard",
+      "applyTo": "**/*entra*,**/*agent*",
+      "triggers": [],
+      "title": "Microsoft Entra Agent ID"
+    },
+    {
+      "name": "import-infrastructure-as-code",
+      "category": "azure",
+      "path": "skills/azure/import-infrastructure-as-code/",
+      "description": "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when asked to reverse-engineer live Azure infrastructure, generate Infrastructure as Code from existing subscriptions/resource groups/resource IDs, map dependencies, derive exact import addresses from downloaded module source, prevent configuration drift, and produce AVM-based Terraform files ready for validation and planning across any Azure resource type.",
+      "tier": "standard",
+      "applyTo": "**/*import*,**/*infrastructure*,**/*code*",
+      "triggers": [],
+      "title": "Import Infrastructure as Code (Azure -> Terraform with AVM)"
+    },
+    {
+      "name": "microsoft-fabric",
+      "category": "azure",
+      "path": "skills/azure/microsoft-fabric/",
+      "description": "Microsoft Fabric workspace management, governance, REST API patterns, and medallion architecture implementation",
+      "tier": "standard",
+      "applyTo": "**/*microsoft*,**/*fabric*",
+      "triggers": [],
+      "title": "Microsoft Fabric Governance Skill"
+    },
+    {
+      "name": "microsoft-graph-api",
+      "category": "azure",
+      "path": "skills/azure/microsoft-graph-api/",
+      "description": "Comprehensive Microsoft Graph API reference for M365 service integration",
+      "tier": "standard",
+      "applyTo": "**/*microsoft*,**/*graph*,**/*api*",
+      "triggers": [],
+      "title": "Microsoft Graph API Skill"
+    },
+    {
+      "name": "msal-authentication",
+      "category": "azure",
+      "path": "skills/azure/msal-authentication/",
+      "description": "Microsoft Authentication Library (MSAL) patterns for React/SPA applications with Entra ID",
+      "tier": "standard",
+      "applyTo": "**/*msal*,**/*authentication*",
+      "triggers": [],
+      "title": "MSAL Authentication"
+    },
+    {
+      "name": "msal-singleton-pattern",
+      "category": "azure",
+      "path": "skills/azure/msal-singleton-pattern/",
+      "description": "Time Saved: 1+ hour debugging silent auth failures",
+      "tier": "standard",
+      "applyTo": "**/*msal*,**/*singleton*,**/*pattern*",
+      "triggers": [],
+      "title": "MSAL Singleton Pattern"
+    },
+    {
+      "name": "teams-app-patterns",
+      "category": "azure",
+      "path": "skills/azure/teams-app-patterns/",
+      "description": "Full Teams app development patterns.",
+      "tier": "standard",
+      "applyTo": "**/*teams*,**/*app*,**/*patterns*",
+      "triggers": [],
+      "title": "Teams App Patterns Skill"
+    },
+    {
+      "name": "update-avm-modules-in-bicep",
+      "category": "azure",
+      "path": "skills/azure/update-avm-modules-in-bicep/",
+      "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
+      "tier": "standard",
+      "applyTo": "**/*update*,**/*avm*,**/*modules*",
+      "triggers": [],
+      "title": "Update Azure Verified Modules in Bicep Files"
+    },
+    {
+      "name": "build-script-path-rot",
+      "category": "build",
+      "path": "skills/build/build-script-path-rot/",
+      "description": "Hardcoded paths in build scripts break when directory structure changes:",
+      "tier": "standard",
+      "applyTo": "**/*build*,**/*script*,**/*path*",
+      "triggers": [],
+      "title": "Build Script Path Rot"
+    },
+    {
+      "name": "config-content-separation",
+      "category": "build",
+      "path": "skills/build/config-content-separation/",
+      "description": "Mixing structure and content makes both hard to maintain:",
+      "tier": "standard",
+      "applyTo": "**/*config*,**/*content*,**/*separation*",
+      "triggers": [],
+      "title": "Config + Content Separation"
+    },
+    {
+      "name": "config-transcription-verification",
+      "category": "build",
+      "path": "skills/build/config-transcription-verification/",
+      "description": "When extracting hardcoded data to JSON, field values silently drift:",
+      "tier": "standard",
+      "applyTo": "**/*config*,**/*transcription*,**/*verification*",
+      "triggers": [],
+      "title": "Config Transcription Verification"
+    },
+    {
+      "name": "data-driven-layouts",
+      "category": "build",
+      "path": "skills/build/data-driven-layouts/",
+      "description": "Template-driven layouts require code changes for structural updates:",
+      "tier": "standard",
+      "applyTo": "**/*data*,**/*driven*,**/*layouts*",
+      "triggers": [],
+      "title": "Data-Driven Layouts"
+    },
+    {
+      "name": "fix-once-auto-inject",
+      "category": "build",
+      "path": "skills/build/fix-once-auto-inject/",
+      "description": "One-time fixes get repeated manually:",
+      "tier": "standard",
+      "applyTo": "**/*fix*,**/*once*,**/*auto*",
+      "triggers": [],
+      "title": "Fix-Once + Auto-Inject-Future"
+    },
+    {
+      "name": "azure-swa-gotchas",
+      "category": "cloud",
+      "path": "skills/cloud/azure-swa-gotchas/",
+      "description": "Time saved: 2-4 hours per issue",
+      "tier": "standard",
+      "applyTo": "**/*azure*,**/*swa*,**/*gotchas*",
+      "triggers": [],
+      "title": "Azure Static Web Apps Gotchas"
+    },
+    {
+      "name": "disagreement-protocol",
+      "category": "communication",
+      "path": "skills/communication/disagreement-protocol/",
+      "description": "Canonical phrasing for respectful disagreement without capitulation — structural resistance to sycophancy",
+      "tier": "standard",
+      "applyTo": "**/*disagreement*,**/*protocol*",
+      "triggers": [],
+      "title": "Disagreement Protocol Skill"
+    },
+    {
+      "name": "executive-storytelling",
+      "category": "communication",
+      "path": "skills/communication/executive-storytelling/",
+      "description": "Data-driven narrative construction, stakeholder management, and influencing senior leadership decisions",
+      "tier": "standard",
+      "applyTo": "**/*executive*,**/*storytelling*",
+      "triggers": [],
+      "title": "Skill: Executive Storytelling"
+    },
+    {
+      "name": "meeting-efficiency",
+      "category": "communication",
+      "path": "skills/communication/meeting-efficiency/",
+      "description": "Agenda design, time boxing, decision capture, async alternatives, and productive facilitation",
+      "tier": "standard",
+      "applyTo": "**/*meeting*,**/*efficiency*",
+      "triggers": [],
+      "title": "Skill: Meeting Efficiency"
+    },
+    {
+      "name": "stakeholder-management",
+      "category": "communication",
+      "path": "skills/communication/stakeholder-management/",
+      "description": "Influence mapping, communication strategies, and expectation management for complex organizations",
+      "tier": "standard",
+      "applyTo": "**/*stakeholder*,**/*management*",
+      "triggers": [],
+      "title": "Skill: Stakeholder Management"
+    },
+    {
+      "name": "status-reporting",
+      "category": "communication",
+      "path": "skills/communication/status-reporting/",
+      "description": "Create stakeholder-friendly project status updates and progress reports",
+      "tier": "standard",
+      "applyTo": "**/*status*,**/*reporting*",
+      "triggers": [],
+      "title": "Status Reporting Skill"
+    },
+    {
+      "name": "converter-qa",
+      "category": "converters",
+      "path": "skills/converters/converter-qa/",
+      "description": "Test harness for validating converter outputs with 284 assertions across all converter muscles",
+      "tier": "standard",
+      "applyTo": "**/*converter*",
+      "triggers": [],
+      "title": "Converter QA Framework"
+    },
+    {
+      "name": "docx-to-md",
+      "category": "converters",
+      "path": "skills/converters/docx-to-md/",
+      "description": "Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup",
+      "tier": "standard",
+      "applyTo": "**/*docx*",
+      "triggers": [],
+      "title": "Word to Markdown Conversion"
+    },
+    {
+      "name": "md-to-eml",
+      "category": "converters",
+      "path": "skills/converters/md-to-eml/",
+      "description": "Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images",
+      "tier": "standard",
+      "applyTo": "**/*eml*",
+      "triggers": [],
+      "title": "Markdown to Email Conversion"
+    },
+    {
+      "name": "md-to-epub",
+      "category": "converters",
+      "path": "skills/converters/md-to-epub/",
+      "description": "Convert Markdown to EPUB 3 e-books via Pandoc.",
+      "tier": "standard",
+      "applyTo": "**/*epub*",
+      "triggers": [],
+      "title": "md-to-epub"
+    },
+    {
+      "name": "md-to-gamma",
+      "category": "converters",
+      "path": "skills/converters/md-to-gamma/",
+      "description": "Pre-process Markdown into a Gamma-import-ready version.",
+      "tier": "standard",
+      "applyTo": "**/*gamma*",
+      "triggers": [],
+      "title": "md-to-gamma"
+    },
+    {
+      "name": "md-to-html",
+      "category": "converters",
+      "path": "skills/converters/md-to-html/",
+      "description": "Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid diagrams",
+      "tier": "standard",
+      "applyTo": "**/*html*",
+      "triggers": [],
+      "title": "Markdown to HTML Conversion"
+    },
+    {
+      "name": "md-to-latex",
+      "category": "converters",
+      "path": "skills/converters/md-to-latex/",
+      "description": "Convert Markdown to LaTeX source via Pandoc.",
+      "tier": "standard",
+      "applyTo": "**/*latex*",
+      "triggers": [],
+      "title": "md-to-latex"
+    },
+    {
+      "name": "md-to-pdf",
+      "category": "converters",
+      "path": "skills/converters/md-to-pdf/",
+      "description": "Convert Markdown to PDF via Pandoc with two rendering engines.",
+      "tier": "standard",
+      "applyTo": "**/*pdf*",
+      "triggers": [],
+      "title": "md-to-pdf"
+    },
+    {
+      "name": "md-to-pptx",
+      "category": "converters",
+      "path": "skills/converters/md-to-pptx/",
+      "description": "Convert Markdown to PowerPoint presentations via Pandoc.",
+      "tier": "standard",
+      "applyTo": "**/*pptx*",
+      "triggers": [],
+      "title": "md-to-pptx"
+    },
+    {
+      "name": "md-to-word",
+      "category": "converters",
+      "path": "skills/converters/md-to-word/",
+      "description": "Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents",
+      "tier": "standard",
+      "applyTo": "**/*word*",
+      "triggers": [],
+      "title": "Markdown to Word Conversion"
+    },
+    {
+      "name": "pptx-to-md",
+      "category": "converters",
+      "path": "skills/converters/pptx-to-md/",
+      "description": "Convert PowerPoint (.pptx) to Markdown via Pandoc.",
+      "tier": "standard",
+      "applyTo": "**/*pptx*",
+      "triggers": [],
+      "title": "pptx-to-md"
+    },
+    {
+      "name": "act-pass",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/act-pass/",
+      "description": "Run the 7-step Artificial Critical Thinking pass — Materiality → Hypothesise → Alternatives → Disconfirmers → Audit priors → Severity → Commit-with-marker",
+      "tier": "core",
+      "applyTo": "**/*act*,**/*pass*",
+      "triggers": [],
+      "title": "ACT Pass (7-Step Operational Pass)"
+    },
+    {
+      "name": "anti-hallucination",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/anti-hallucination/",
+      "description": "Recognize and prevent confabulation — when you don't know, say so.",
+      "tier": "core",
+      "applyTo": "**/*anti*,**/*hallucination*",
+      "triggers": [],
+      "title": "Anti-Hallucination Skill"
+    },
+    {
+      "name": "appropriate-reliance",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/appropriate-reliance/",
+      "description": "Calibrated human-AI collaboration with creative latitude — trust calibrated to reliability, creativity preserved with validation.",
+      "tier": "core",
+      "applyTo": "**/*appropriate*,**/*reliance*",
+      "triggers": [],
+      "title": "Appropriate Reliance Skill (v2.0)"
+    },
+    {
+      "name": "awareness",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/awareness/",
+      "description": "Proactive detection, self-correction, and epistemic vigilance",
+      "tier": "core",
+      "applyTo": "**/*awareness*",
+      "triggers": [],
+      "title": "Awareness Skill"
+    },
+    {
+      "name": "bootstrap-learning",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/bootstrap-learning/",
+      "description": "Domain-agnostic knowledge acquisition — from zero to structured expertise through conversational learning",
+      "tier": "core",
+      "applyTo": "**/*bootstrap*,**/*learning*",
+      "triggers": [],
+      "title": "Bootstrap Learning Skill"
+    },
+    {
+      "name": "calibration-tracking",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/calibration-tracking/",
+      "description": "Record confidence claims and reconcile against outcomes — closing Tenet V (calibration over confidence)",
+      "tier": "core",
+      "applyTo": "**/*calibration*,**/*tracking*",
+      "triggers": [],
+      "title": "Calibration Tracking Skill"
+    },
+    {
+      "name": "critical-thinking",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/critical-thinking/",
+      "description": "Challenge what you think is right — alternative hypotheses, missing data, evidence quality, bias detection, falsifiability, and adversarial review",
+      "tier": "core",
+      "applyTo": "**/*critical*,**/*thinking*",
+      "triggers": [],
+      "title": "Critical Thinking"
+    },
+    {
+      "name": "debugging-patterns",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/debugging-patterns/",
+      "description": "Systematic problem-solving and error analysis.",
+      "tier": "core",
+      "applyTo": "**/*debugging*,**/*patterns*",
+      "triggers": [],
+      "title": "Debugging Patterns Skill"
+    },
+    {
+      "name": "dialog-engineering",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/dialog-engineering/",
+      "description": "CSAR Loop and structured conversation patterns for effective AI dialog -- Clarify, Summarize, Act, Reflect",
+      "tier": "core",
+      "applyTo": "**/*dialog*,**/*engineering*",
+      "triggers": [],
+      "title": "Dialog Engineering"
+    },
+    {
+      "name": "hypothesis-driven-debugging",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/hypothesis-driven-debugging/",
+      "description": "Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic minimal reproduction, multi-hypothesis testing, and evidence-based verification. Use when asked to \"debug\", \"investigate a failure\", \"find root cause\", \"troubleshoot\", \"fix a failing test\", or \"diagnose an issue\". Always re-run builds and tests after changes.",
+      "tier": "core",
+      "applyTo": "**/*hypothesis*,**/*driven*,**/*debugging*",
+      "triggers": [
+        "debug",
+        "investigate a failure",
+        "find root cause",
+        "troubleshoot",
+        "fix a failing test"
+      ],
+      "title": "Hypothesis-Driven Debugging"
+    },
+    {
+      "name": "knowledge-synthesis",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/knowledge-synthesis/",
+      "description": "Cross-project pattern recognition — abstract, generalize, connect, store at the highest true level",
+      "tier": "core",
+      "applyTo": "**/*knowledge*,**/*synthesis*",
+      "triggers": [],
+      "title": "Knowledge Synthesis Skill"
+    },
+    {
+      "name": "problem-framing-audit",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/problem-framing-audit/",
+      "description": "Step-back protocol — restate, generalise, specialise, invert, ask why, pre-mortem, check stakeholders, and audit framings before solving",
+      "tier": "core",
+      "applyTo": "**/*problem*,**/*framing*,**/*audit*",
+      "triggers": [],
+      "title": "Problem Framing Audit (Discipline -1)"
+    },
+    {
+      "name": "root-cause-analysis",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/root-cause-analysis/",
+      "description": "Find the true source, not symptoms — systematic debugging from observation to permanent fix",
+      "tier": "core",
+      "applyTo": "**/*root*,**/*cause*,**/*analysis*",
+      "triggers": [],
+      "title": "Root Cause Analysis Skill"
+    },
+    {
+      "name": "rubber-duck-debugging",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/rubber-duck-debugging/",
+      "description": "Be a thinking partner. The answer often emerges when explaining the problem.",
+      "tier": "core",
+      "applyTo": "**/*rubber*,**/*duck*,**/*debugging*",
+      "triggers": [],
+      "title": "Rubber Duck Debugging Skill"
+    },
+    {
+      "name": "socratic-questioning",
+      "category": "critical-thinking",
+      "path": "skills/critical-thinking/socratic-questioning/",
+      "description": "Help users discover answers, don't just deliver them.",
+      "tier": "core",
+      "applyTo": "**/*socratic*,**/*questioning*",
+      "triggers": [],
+      "title": "Socratic Questioning Skill"
+    },
+    {
+      "name": "cloud-storage-paths",
+      "category": "cross-platform",
+      "path": "skills/cross-platform/cloud-storage-paths/",
+      "description": "Cross-platform cloud storage path resolution — OneDrive, iCloud, Dropbox path discovery and normalization",
+      "tier": "standard",
+      "applyTo": "**/*cloud*,**/*storage*,**/*paths*",
+      "triggers": [],
+      "title": "Cloud Storage Paths"
+    },
+    {
+      "name": "line-ending-parsing",
+      "category": "cross-platform",
+      "path": "skills/cross-platform/line-ending-parsing/",
+      "description": "Line ending handling across platforms — CRLF vs LF detection, normalization, and git config",
+      "tier": "standard",
+      "applyTo": "**/*line*,**/*ending*,**/*parsing*",
+      "triggers": [],
+      "title": "Line Ending Parsing"
+    },
+    {
+      "name": "powershell-regex-backreference",
+      "category": "cross-platform",
+      "path": "skills/cross-platform/powershell-regex-backreference/",
+      "description": "PowerShell regex backreference syntax pitfalls — dollar-sign escaping in replacement strings",
+      "tier": "standard",
+      "applyTo": "**/*powershell*,**/*regex*,**/*backreference*",
+      "triggers": [],
+      "title": "PowerShell Regex Backreference Ambiguity"
+    },
+    {
+      "name": "terminal-backtick-hazard",
+      "category": "cross-platform",
+      "path": "skills/cross-platform/terminal-backtick-hazard/",
+      "description": "Backticks break in all shells — bash treats them as command substitution, PowerShell as escape character",
+      "tier": "standard",
+      "applyTo": "**/*terminal*,**/*backtick*,**/*hazard*",
+      "triggers": [],
+      "title": "Terminal Backtick Hazard"
+    },
+    {
+      "name": "vscode-cross-platform-paths",
+      "category": "cross-platform",
+      "path": "skills/cross-platform/vscode-cross-platform-paths/",
+      "description": "VS Code path handling across Windows, macOS, and Linux — URI schemes, path separators, workspace folders",
+      "tier": "standard",
+      "applyTo": "**/*vscode*,**/*cross*,**/*platform*",
+      "triggers": [],
+      "title": "VS Code Cross-Platform Paths"
+    },
+    {
+      "name": "biome-kusto-query",
+      "category": "data",
+      "path": "skills/data/biome-kusto-query/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*biome*,**/*kusto*,**/*query*",
+      "triggers": [],
+      "title": "kusto-query — Read-Only KQL Queries via Kusto MCP Server"
+    },
+    {
+      "name": "biome-powerbi-query",
+      "category": "data",
+      "path": "skills/data/biome-powerbi-query/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*biome*,**/*powerbi*,**/*query*",
+      "triggers": [],
+      "title": "powerbi-query — Read-Only DAX Queries via Power BI MCP Server"
+    },
+    {
+      "name": "chart-interpretation",
+      "category": "data",
+      "path": "skills/data/chart-interpretation/",
+      "description": "Read any chart (image, HTML, screenshot) and extract insights, patterns, anomalies, bias, and narrative -- the reverse of visualization",
+      "tier": "standard",
+      "applyTo": "**/*chart*,**/*interpretation*",
+      "triggers": [],
+      "title": "Chart Interpretation"
+    },
+    {
+      "name": "dashboard-design",
+      "category": "data",
+      "path": "skills/data/dashboard-design/",
+      "description": "Dashboard layout patterns, KPI card design, filter architecture, narrative flow through panels, and self-contained HTML generation",
+      "tier": "standard",
+      "applyTo": "**/*dashboard*,**/*design*",
+      "triggers": [],
+      "title": "Dashboard Design"
+    },
+    {
+      "name": "data-analysis",
+      "category": "data",
+      "path": "skills/data/data-analysis/",
+      "description": "Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly detection, and translating statistics into narrative insights",
+      "tier": "standard",
+      "applyTo": "**/*data*,**/*analysis*",
+      "triggers": [],
+      "title": "Data Analysis"
+    },
+    {
+      "name": "data-quality-monitoring",
+      "category": "data",
+      "path": "skills/data/data-quality-monitoring/",
+      "description": "Data pipeline quality assurance — anomaly detection, schema drift, null ratio monitoring, freshness checks, and safe-write protection for reliable data engineering",
+      "tier": "standard",
+      "applyTo": "**/*data*,**/*quality*,**/*monitoring*",
+      "triggers": [],
+      "title": "Data Quality Monitoring"
+    },
+    {
+      "name": "data-storytelling",
+      "category": "data",
+      "path": "skills/data/data-storytelling/",
+      "description": "End-to-end data narrative construction -- three-act structure, Knaflic/Duarte methodology, audience-first framing, and orchestration across analysis, visualization, and dashboard skills",
+      "tier": "standard",
+      "applyTo": "**/*data*,**/*storytelling*",
+      "triggers": [],
+      "title": "Data Storytelling"
+    },
+    {
+      "name": "data-visualization",
+      "category": "data",
+      "path": "skills/data/data-visualization/",
+      "description": "Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the \"title = insight\" principle for data-driven visuals",
+      "tier": "standard",
+      "applyTo": "**/*data*,**/*visualization*",
+      "triggers": [
+        "title = insight"
+      ],
+      "title": "Skill: Data Visualization"
+    },
+    {
+      "name": "database-design",
+      "category": "data",
+      "path": "skills/data/database-design/",
+      "description": "Schema design, normalization, query optimization, and data modeling patterns",
+      "tier": "standard",
+      "applyTo": "**/*database*,**/*design*",
+      "triggers": [],
+      "title": "Database Design Skill"
+    },
+    {
+      "name": "fabric-lakehouse",
+      "category": "data",
+      "path": "skills/data/fabric-lakehouse/",
+      "description": "Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions. It offers descriptions of Lakehouse data components, organization with schemas and shortcuts, access control, and code examples. This skill supports users in designing, building, and optimizing Lakehouse solutions using best practices.",
+      "tier": "standard",
+      "applyTo": "**/*fabric*,**/*lakehouse*",
+      "triggers": [],
+      "title": "When to Use This Skill"
+    },
+    {
+      "name": "kql",
+      "category": "data",
+      "path": "skills/data/kql/",
+      "description": "KQL language expertise for writing correct, efficient Kusto Query Language queries. Covers syntax gotchas, join patterns, dynamic types, datetime pitfalls, regex patterns, serialization, memory management, result-size discipline, and advanced functions (geo, vector, graph). USE THIS SKILL whenever writing, debugging, or reviewing KQL queries — even simple ones — because the gotchas section prevents the most common errors that waste tool calls and cause expensive retry cascades. Trigger on: KQL, Kusto, ADX, Azure Data Explorer, Fabric Real-Time Intelligence, EventHouse, Log Analytics, log analysis, data exploration, time series, anomaly detection, summarize, where clause, join, extend, project, let statement, parse operator, extract function, any mention of pipe-forward query syntax.",
+      "tier": "standard",
+      "applyTo": "**/*kql*",
+      "triggers": [
+        "on: KQL",
+        "Kusto",
+        "ADX",
+        "Azure Data Explorer",
+        "Fabric Real-Time Intelligence",
+        "EventHouse",
+        "Log Analytics",
+        "log analysis"
+      ],
+      "title": "KQL Mastery"
+    },
+    {
+      "name": "power-bi-performance-troubleshooting",
+      "category": "data",
+      "path": "skills/data/power-bi-performance-troubleshooting/",
+      "description": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.",
+      "tier": "standard",
+      "applyTo": "**/*power*,**/*performance*,**/*troubleshooting*",
+      "triggers": [],
+      "title": "Power BI Performance Troubleshooting Guide"
+    },
+    {
+      "name": "powerbi-modeling",
+      "category": "data",
+      "path": "skills/data/powerbi-modeling/",
+      "description": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implementing RLS, or optimizing model performance. Triggers on queries about DAX calculations, table relationships, dimension/fact table design, naming conventions, model documentation, cardinality, cross-filter direction, calculation groups, and data model best practices. Always connects to the active model first using power-bi-modeling MCP tools to understand the data structure before providing guidance.",
+      "tier": "standard",
+      "applyTo": "**/*powerbi*,**/*modeling*",
+      "triggers": [
+        "on queries about DAX calculations",
+        "table relationships",
+        "dimension/fact table design",
+        "naming conventions",
+        "model documentation",
+        "cardinality",
+        "cross-filter direction",
+        "calculation groups"
+      ],
+      "title": "Power BI Semantic Modeling"
+    },
+    {
+      "name": "prompt-2-data",
+      "category": "data",
+      "path": "skills/data/prompt-2-data/",
+      "description": "Generate comprehensive synthetic relational data for any specified subject with multiple normalized CSV files maintaining referential integrity",
+      "tier": "standard",
+      "applyTo": "**/*prompt*,**/*data*",
+      "triggers": [],
+      "title": "Synthetic Relational Data Generator"
+    },
+    {
+      "name": "semantic-overlap-detection",
+      "category": "data",
+      "path": "skills/data/semantic-overlap-detection/",
+      "description": "Analyze a semantic model (via MCP or TMDL) to find columns whose value domains overlap, classify ambiguity types, generate proposed descriptions/rules/exclusions, and produce a review Excel for domain experts. Use when a semantic model has columns whose values overlap across tables or hierarchies, when Copilot picks the wrong column for ambiguous queries, when preparing a model for Prep data for AI, or when auditing a model for attribute collisions before connecting a data agent.",
+      "tier": "standard",
+      "applyTo": "**/*semantic*,**/*overlap*,**/*detection*",
+      "triggers": [],
+      "title": "Semantic Overlap Detection"
+    },
+    {
+      "name": "temp-file-python-analysis",
+      "category": "data",
+      "path": "skills/data/temp-file-python-analysis/",
+      "description": "Inline Python in shell scripts has quoting issues:",
+      "tier": "standard",
+      "applyTo": "**/*temp*,**/*file*,**/*python*",
+      "triggers": [],
+      "title": "Temp File Python Analysis"
+    },
+    {
+      "name": "tmdl-linter-false-positives",
+      "category": "data",
+      "path": "skills/data/tmdl-linter-false-positives/",
+      "description": "VS Code's TMDL (Tabular Model Definition Language) linter reports valid syntax as errors:",
+      "tier": "standard",
+      "applyTo": "**/*tmdl*,**/*linter*,**/*false*",
+      "triggers": [],
+      "title": "TMDL Linter False Positives"
+    },
+    {
+      "name": "brand-asset-management",
+      "category": "design",
+      "path": "skills/design/brand-asset-management/",
+      "description": "Brand hierarchy, visual identity, asset deployment, platform-specific branding guidelines",
+      "tier": "extended",
+      "applyTo": "**/*brand*,**/*asset*,**/*management*",
+      "triggers": [],
+      "title": "Brand Asset Management Skill"
+    },
+    {
+      "name": "ui-ux-design",
+      "category": "design",
+      "path": "skills/design/ui-ux-design/",
+      "description": "User interface design, user experience optimization, accessibility compliance, design systems",
+      "tier": "extended",
+      "applyTo": "**/*design*",
+      "triggers": [],
+      "title": "UI/UX Design"
+    },
+    {
+      "name": "ai-writing-avoidance",
+      "category": "documentation",
+      "path": "skills/documentation/ai-writing-avoidance/",
+      "description": "Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns",
+      "tier": "standard",
+      "applyTo": "**/*writing*,**/*avoidance*",
+      "triggers": [],
+      "title": "AI Writing Avoidance"
+    },
+    {
+      "name": "api-documentation",
+      "category": "documentation",
+      "path": "skills/documentation/api-documentation/",
+      "description": "Technical documentation, API references, user guides, and docs-as-code workflows.",
+      "tier": "standard",
+      "applyTo": "**/*api*,**/*documentation*",
+      "triggers": [],
+      "title": "API Documentation Skill"
+    },
+    {
+      "name": "doc-coauthoring",
+      "category": "documentation",
+      "path": "skills/documentation/doc-coauthoring/",
+      "description": "Structured workflow for co-authoring technical documentation. Use when asked to \"write documentation\", \"create a spec\", \"draft a proposal\", \"write a design doc\", \"create an RFC\", \"document this feature\", or \"write technical docs\". Three stages: context gathering, iterative refinement, and reader testing.",
+      "tier": "standard",
+      "applyTo": "**/*doc*,**/*coauthoring*",
+      "triggers": [
+        "write documentation",
+        "create a spec",
+        "draft a proposal",
+        "write a design doc",
+        "create an RFC"
+      ],
+      "title": "Doc Co-Authoring"
+    },
+    {
+      "name": "doc-hygiene",
+      "category": "documentation",
+      "path": "skills/documentation/doc-hygiene/",
+      "description": "Documentation hygiene — anti-drift rules, count elimination, and living document maintenance",
+      "tier": "standard",
+      "applyTo": "**/*doc*,**/*hygiene*",
+      "triggers": [],
+      "title": "Documentation Hygiene"
+    },
+    {
+      "name": "docs-decay-velocity",
+      "category": "documentation",
+      "path": "skills/documentation/docs-decay-velocity/",
+      "description": "Documentation decay rates by content type — hardcoded numbers and version pins rot fastest",
+      "tier": "standard",
+      "applyTo": "**/*docs*,**/*decay*,**/*velocity*",
+      "triggers": [],
+      "title": "Documentation Decay Velocity"
+    },
+    {
+      "name": "documentation-quality-assurance",
+      "category": "documentation",
+      "path": "skills/documentation/documentation-quality-assurance/",
+      "description": "Systematic documentation audit, drift detection, preflight validation, and multi-pass quality pipelines",
+      "tier": "standard",
+      "applyTo": "**/*documentation*,**/*quality*,**/*assurance*",
+      "triggers": [],
+      "title": "Documentation Quality Assurance"
+    },
+    {
+      "name": "dual-surface-docs-drift",
+      "category": "documentation",
+      "path": "skills/documentation/dual-surface-docs-drift/",
+      "description": "Two READMEs covering overlapping scope will diverge:",
+      "tier": "standard",
+      "applyTo": "**/*dual*,**/*surface*,**/*docs*",
+      "triggers": [],
+      "title": "Dual-Surface Docs Drift"
+    },
+    {
+      "name": "lint-clean-markdown",
+      "category": "documentation",
+      "path": "skills/documentation/lint-clean-markdown/",
+      "description": "Write markdown that passes linting on first attempt by internalizing common rules.",
+      "tier": "standard",
+      "applyTo": "**/*lint*,**/*clean*,**/*markdown*",
+      "triggers": [],
+      "title": "Lint-Clean Markdown Skill"
+    },
+    {
+      "name": "localization",
+      "category": "documentation",
+      "path": "skills/documentation/localization/",
+      "description": "Domain: Software localization, internationalization, multilingual application development",
+      "tier": "standard",
+      "applyTo": "**/*localization*",
+      "triggers": [],
+      "title": "Localization & Internationalization (i18n/l10n)"
+    },
+    {
+      "name": "machine-readable-content",
+      "category": "documentation",
+      "path": "skills/documentation/machine-readable-content/",
+      "description": "Emoji, color codes, and visual markers in files parsed by regex or LLMs break tooling:",
+      "tier": "standard",
+      "applyTo": "**/*machine*,**/*readable*,**/*content*",
+      "triggers": [],
+      "title": "Machine-Readable Content"
+    },
+    {
+      "name": "markdown-mermaid",
+      "category": "documentation",
+      "path": "skills/documentation/markdown-mermaid/",
+      "description": "Clear documentation through visual excellence",
+      "tier": "standard",
+      "applyTo": "**/*markdown*,**/*mermaid*",
+      "triggers": [],
+      "title": "Markdown & Mermaid"
+    },
+    {
+      "name": "md-scaffold",
+      "category": "documentation",
+      "path": "skills/documentation/md-scaffold/",
+      "description": "Scaffold properly structured Markdown files from templates for clean first-pass conversion",
+      "tier": "standard",
+      "applyTo": "**/*scaffold*",
+      "triggers": [],
+      "title": "Markdown Scaffolder"
+    },
+    {
+      "name": "mermaid-diagram",
+      "category": "documentation",
+      "path": "skills/documentation/mermaid-diagram/",
+      "description": "Create diagrams using Mermaid.js markdown-inspired syntax. Supports 23+ diagram types including flowcharts, sequence diagrams, class diagrams, ER diagrams, Gantt charts, state diagrams, pie charts, git graphs, C4 architecture, mindmaps, timelines, and more. Outputs plain text (.mmd or .md) files renderable on GitHub, GitLab, and mermaid.live, and many more clients.",
+      "tier": "standard",
+      "applyTo": "**/*mermaid*,**/*diagram*",
+      "triggers": [],
+      "title": "Mermaid Diagram Builder"
+    },
+    {
+      "name": "mermaid-mode-fragility",
+      "category": "documentation",
+      "path": "skills/documentation/mermaid-mode-fragility/",
+      "description": "Mermaid diagram mode fragility — timeline, gitGraph, and gantt break on colons, default to flowchart",
+      "tier": "standard",
+      "applyTo": "**/*mermaid*,**/*mode*,**/*fragility*",
+      "triggers": [],
+      "title": "Mermaid Mode Fragility"
+    },
+    {
+      "name": "multi-surface-count-drift",
+      "category": "documentation",
+      "path": "skills/documentation/multi-surface-count-drift/",
+      "description": "When a number (skill count, repo count, test count) appears in multiple files, they WILL diverge:",
+      "tier": "standard",
+      "applyTo": "**/*multi*,**/*surface*,**/*count*",
+      "triggers": [],
+      "title": "Multi-Surface Count Drift"
+    },
+    {
+      "name": "nav-inject",
+      "category": "documentation",
+      "path": "skills/documentation/nav-inject/",
+      "description": "Inject cross-document navigation tables into multi-file Markdown documentation suites",
+      "tier": "standard",
+      "applyTo": "**/*nav*,**/*inject*",
+      "triggers": [],
+      "title": "Navigation Injector"
+    },
+    {
+      "name": "sequence-diagram",
+      "category": "documentation",
+      "path": "skills/documentation/sequence-diagram/",
+      "description": "Create UML sequence diagrams using sequencediagram.org syntax. Use when users request sequence diagrams, interaction diagrams, API flow visualizations, system communication flows, or ask to visualize message exchanges between components/actors. Outputs plain text (.txt) files compatible with sequencediagram.org for viewing and exporting.",
+      "tier": "standard",
+      "applyTo": "**/*sequence*,**/*diagram*",
+      "triggers": [],
+      "title": "Sequence Diagram Builder"
+    },
+    {
+      "name": "version-stamp-automation",
+      "category": "documentation",
+      "path": "skills/documentation/version-stamp-automation/",
+      "description": "Version numbers in 5+ files WILL drift with manual edits:",
+      "tier": "standard",
+      "applyTo": "**/*version*,**/*stamp*,**/*automation*",
+      "triggers": [],
+      "title": "Version Stamp Automation"
+    },
+    {
+      "name": "wiki-generation",
+      "category": "documentation",
+      "path": "skills/documentation/wiki-generation/",
+      "description": "Generate structured documentation from codebases — architecture mapping, page writing, and onboarding guides. Use when asked to create a wiki, document a repo, generate onboarding docs, map architecture for documentation, or produce a documentation plan from source code.",
+      "tier": "standard",
+      "applyTo": "**/*wiki*,**/*generation*",
+      "triggers": [],
+      "title": "Wiki Generation"
+    },
+    {
+      "name": "career-development",
+      "category": "domain",
+      "path": "skills/domain/career-development/",
+      "description": "Resume crafting, interview preparation, job search strategy, and professional growth planning.",
+      "tier": "extended",
+      "applyTo": "**/*career*,**/*development*",
+      "triggers": [],
+      "title": "Career Development Skill"
+    },
+    {
+      "name": "comedy-writing",
+      "category": "domain",
+      "path": "skills/domain/comedy-writing/",
+      "description": "Joke structure, comedic timing, set construction, callback patterns, and audience engagement for comedy writers.",
+      "tier": "extended",
+      "applyTo": "**/*comedy*,**/*writing*",
+      "triggers": [],
+      "title": "Comedy Writing Skill"
+    },
+    {
+      "name": "cross-cultural-collaboration",
+      "category": "domain",
+      "path": "skills/domain/cross-cultural-collaboration/",
+      "description": "Domain: Multicultural team communication, cultural intelligence, global collaboration",
+      "tier": "extended",
+      "applyTo": "**/*cross*,**/*cultural*,**/*collaboration*",
+      "triggers": [],
+      "title": "Cross-Cultural Collaboration"
+    },
+    {
+      "name": "financial-analysis",
+      "category": "domain",
+      "path": "skills/domain/financial-analysis/",
+      "description": "Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals.",
+      "tier": "extended",
+      "applyTo": "**/*financial*,**/*analysis*",
+      "triggers": [],
+      "title": "Financial Analysis Skill"
+    },
+    {
+      "name": "game-design",
+      "category": "domain",
+      "path": "skills/domain/game-design/",
+      "description": "Game mechanics, level design, player psychology, systems balancing, and narrative design for game developers.",
+      "tier": "extended",
+      "applyTo": "**/*game*,**/*design*",
+      "triggers": [],
+      "title": "Game Design Skill"
+    },
+    {
+      "name": "grant-writing",
+      "category": "domain",
+      "path": "skills/domain/grant-writing/",
+      "description": "Translate research vision into funded reality.",
+      "tier": "extended",
+      "applyTo": "**/*grant*,**/*writing*",
+      "triggers": [],
+      "title": "Grant Writing Skill"
+    },
+    {
+      "name": "healthcare-informatics",
+      "category": "domain",
+      "path": "skills/domain/healthcare-informatics/",
+      "description": "Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and health data management.",
+      "tier": "extended",
+      "applyTo": "**/*health*,**/*clinical*,**/*medical*,**/*patient*,**/*hipaa*,**/*ehr*,**/*pharma*",
+      "triggers": [],
+      "title": "Healthcare Informatics Skill"
+    },
+    {
+      "name": "hr-people-operations",
+      "category": "domain",
+      "path": "skills/domain/hr-people-operations/",
+      "description": "Talent acquisition, employee lifecycle, compensation, labor regulations, and organizational development.",
+      "tier": "extended",
+      "applyTo": "**/*people*,**/*operations*",
+      "triggers": [],
+      "title": "HR & People Operations Skill"
+    },
+    {
+      "name": "journalism",
+      "category": "domain",
+      "path": "skills/domain/journalism/",
+      "description": "News writing, investigative reporting, source verification, editorial standards, and fact-checking for journalists.",
+      "tier": "extended",
+      "applyTo": "**/*journalism*",
+      "triggers": [],
+      "title": "Journalism Skill"
+    },
+    {
+      "name": "legal-compliance",
+      "category": "domain",
+      "path": "skills/domain/legal-compliance/",
+      "description": "Legal research, contract analysis, regulatory compliance, and case law citation for legal professionals.",
+      "tier": "extended",
+      "applyTo": "**/*legal*,**/*compliance*",
+      "triggers": [],
+      "title": "Legal Compliance Skill"
+    },
+    {
+      "name": "localization",
+      "category": "domain",
+      "path": "skills/domain/localization/",
+      "description": "Software localization, internationalization, multilingual application development — i18n architecture, RTL support, ICU MessageFormat, LQA, dialect inheritance",
+      "tier": "extended",
+      "applyTo": "**/*i18n*,**/*l10n*,**/*localization*,**/*translation*",
+      "triggers": [],
+      "title": "Localization & Internationalization (i18n/l10n)"
+    },
+    {
+      "name": "sales-enablement",
+      "category": "domain",
+      "path": "skills/domain/sales-enablement/",
+      "description": "Sales methodology, pipeline management, negotiation frameworks, and customer engagement patterns.",
+      "tier": "extended",
+      "applyTo": "**/*sales*,**/*enablement*",
+      "triggers": [],
+      "title": "Sales Enablement Skill"
+    },
+    {
+      "name": "frontend-design-review",
+      "category": "frontend",
+      "path": "skills/frontend/frontend-design-review/",
+      "description": "Review and create distinctive frontend interfaces — design system compliance, three quality pillars (Frictionless, Quality Craft, Trustworthy), accessibility",
+      "tier": "standard",
+      "applyTo": "**/*frontend*,**/*design*,**/*review*",
+      "triggers": [],
+      "title": "Frontend Design Review"
+    },
+    {
+      "name": "react-vite-performance",
+      "category": "frontend",
+      "path": "skills/frontend/react-vite-performance/",
+      "description": "React + Vite performance optimization — code splitting, lazy loading, bundle analysis, Web Vitals, and modern React patterns for fast web applications",
+      "tier": "standard",
+      "applyTo": "**/*react*,**/*vite*,**/*performance*",
+      "triggers": [],
+      "title": "React + Vite Performance Optimization"
+    },
+    {
+      "name": "service-worker-offline-first",
+      "category": "frontend",
+      "path": "skills/frontend/service-worker-offline-first/",
+      "description": "Progressive Web App offline-first patterns — Service Worker lifecycle, caching strategies, background sync, and offline fallbacks for resilient web applications",
+      "tier": "standard",
+      "applyTo": "**/*service*,**/*worker*,**/*offline*",
+      "triggers": [],
+      "title": "Service Worker Offline-First Patterns"
+    },
+    {
+      "name": "github-readme-override",
+      "category": "github",
+      "path": "skills/github/github-readme-override/",
+      "description": "GitHub README display rules — which README renders when multiple exist, profile READMEs, org READMEs",
+      "tier": "standard",
+      "applyTo": "**/*github*,**/*readme*,**/*override*",
+      "triggers": [],
+      "title": "GitHub README Override"
+    },
+    {
+      "name": "github-wiki-flat",
+      "category": "github",
+      "path": "skills/github/github-wiki-flat/",
+      "description": "GitHub Wiki has a flat namespace — no real folders, sidebar ordering tricks, link gotchas",
+      "tier": "standard",
+      "applyTo": "**/*github*,**/*wiki*,**/*flat*",
+      "triggers": [],
+      "title": "GitHub Wiki Is Flat"
+    },
+    {
+      "name": "github-actions-version-upgrades",
+      "category": "github-actions",
+      "path": "skills/github-actions/github-actions-version-upgrades/",
+      "description": "Older action versions trigger deprecation warnings and will eventually break:",
+      "tier": "standard",
+      "applyTo": "**/*github*,**/*actions*,**/*version*",
+      "triggers": [
+        "deprecation warnings and will eventually break:"
+      ],
+      "title": "GitHub Actions Version Upgrades"
+    },
+    {
+      "name": "bicep-avm-mastery",
+      "category": "infrastructure",
+      "path": "skills/infrastructure/bicep-avm-mastery/",
+      "description": "Azure Verified Modules (AVM), Bicep best practices, and MCP-powered infrastructure as code for Azure",
+      "tier": "standard",
+      "applyTo": "**/*bicep*,**/*avm*,**/*mastery*",
+      "triggers": [],
+      "title": "Skill: Bicep AVM Mastery"
+    },
+    {
+      "name": "containerize-aspnetcore",
+      "category": "infrastructure",
+      "path": "skills/infrastructure/containerize-aspnetcore/",
+      "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
+      "tier": "standard",
+      "applyTo": "**/*containerize*,**/*aspnetcore*",
+      "triggers": [],
+      "title": "ASP.NET Core Docker Containerization Prompt"
+    },
+    {
+      "name": "infrastructure-as-code",
+      "category": "infrastructure",
+      "path": "skills/infrastructure/infrastructure-as-code/",
+      "description": "Domain: DevOps & Cloud Engineering",
+      "tier": "standard",
+      "applyTo": "**/*infrastructure*,**/*code*",
+      "triggers": [],
+      "title": "Infrastructure as Code Skill"
+    },
+    {
+      "name": "multi-stage-dockerfile",
+      "category": "infrastructure",
+      "path": "skills/infrastructure/multi-stage-dockerfile/",
+      "description": "Create optimized multi-stage Dockerfiles for any language or framework",
+      "tier": "standard",
+      "applyTo": "**/*multi*,**/*stage*,**/*dockerfile*",
+      "triggers": [],
+      "title": ""
+    },
+    {
+      "name": "boolean-string-trap",
+      "category": "javascript",
+      "path": "skills/javascript/boolean-string-trap/",
+      "description": "JavaScript boolean-string coercion trap — \"false\" is truthy, JSON.parse or strict comparison required",
+      "tier": "standard",
+      "applyTo": "**/*boolean*,**/*string*,**/*trap*",
+      "triggers": [
+        "false"
+      ],
+      "title": "Boolean String Trap"
+    },
+    {
+      "name": "alex-banner-generation",
+      "category": "media",
+      "path": "skills/media/alex-banner-generation/",
+      "description": "Generate branded SVG banners for documents (READMEs, plans, changelogs, release artifacts) using a configurable Node.js muscle. Covers watermark selection, subtitle craft, and embedding. Requires the generate-banner.cjs muscle from Alex_ACT_Edition.",
+      "tier": "extended",
+      "applyTo": "**/*alex*,**/*banner*,**/*generation*",
+      "triggers": [],
+      "title": "Alex Banner Generation"
+    },
+    {
+      "name": "document-banner-pastel",
+      "category": "media",
+      "path": "skills/media/document-banner-pastel/",
+      "description": "Hand-authored pastel SVG banners for documentation — 1200×240 with content-specific iconography, complementary to algorithmic banner muscles",
+      "tier": "extended",
+      "applyTo": "**/*document*,**/*banner*,**/*pastel*",
+      "triggers": [],
+      "title": "Document Banner — Pastel Pattern"
+    },
+    {
+      "name": "gamma-presentation",
+      "category": "media",
+      "path": "skills/media/gamma-presentation/",
+      "description": "Author markdown files optimized for Gamma import — card structure, layout hints, image directives, speaker notes, and chat-agent refinement workflow",
+      "tier": "extended",
+      "applyTo": "**/*gamma*,**/*presentation*",
+      "triggers": [],
+      "title": "Gamma Presentation Authoring"
+    },
+    {
+      "name": "graphic-design",
+      "category": "media",
+      "path": "skills/media/graphic-design/",
+      "description": "Patterns for visual design, SVG creation, layout composition, typography, and brand identity.",
+      "tier": "extended",
+      "applyTo": "**/*graphic*,**/*design*",
+      "triggers": [],
+      "title": "Graphic Design Skill"
+    },
+    {
+      "name": "image-handling",
+      "category": "media",
+      "path": "skills/media/image-handling/",
+      "description": "Right format, right size, right quality — plus AI image generation via Replicate",
+      "tier": "extended",
+      "applyTo": "**/*image*,**/*handling*",
+      "triggers": [],
+      "title": "Image Handling Skill"
+    },
+    {
+      "name": "marp-presentation",
+      "category": "media",
+      "path": "skills/media/marp-presentation/",
+      "description": "End-to-end Marp Markdown presentation workflow — create decks from topics or codebases, build to PDF/PPTX/HTML, review for quality, and customize themes. Use when asked to create slides, export presentations, review decks, or style Marp files.",
+      "tier": "extended",
+      "applyTo": "**/*marp*,**/*presentation*",
+      "triggers": [],
+      "title": "Marp Presentation Workflow"
+    },
+    {
+      "name": "music-generation",
+      "category": "media",
+      "path": "skills/media/music-generation/",
+      "description": "AI music generation via Replicate — 5 models for background tracks, lyrics, and sound design",
+      "tier": "extended",
+      "applyTo": "**/*music*,**/*generation*",
+      "triggers": [],
+      "title": "Music Generation Skill"
+    },
+    {
+      "name": "pptx-generation",
+      "category": "media",
+      "path": "skills/media/pptx-generation/",
+      "description": "Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markdown conversion",
+      "tier": "extended",
+      "applyTo": "**/*pptx*,**/*generation*",
+      "triggers": [],
+      "title": "PPTX Generation Skill"
+    },
+    {
+      "name": "slide-design",
+      "category": "media",
+      "path": "skills/media/slide-design/",
+      "description": "Visual hierarchy, data visualization, and minimal text patterns for impactful presentations",
+      "tier": "extended",
+      "applyTo": "**/*slide*,**/*design*",
+      "triggers": [],
+      "title": "Skill: Slide Design Principles"
+    },
+    {
+      "name": "svg-dashboard-composition",
+      "category": "media",
+      "path": "skills/media/svg-dashboard-composition/",
+      "description": "Compose one self-contained SVG from multiple visual fragments — banner, treemap, bar charts, KPI strip, footer — using a shared coordinate system and one panel primitive.",
+      "tier": "extended",
+      "applyTo": "**/*svg*,**/*dashboard*,**/*composition*",
+      "triggers": [],
+      "title": "SVG Dashboard Composition"
+    },
+    {
+      "name": "svg-graphics",
+      "category": "media",
+      "path": "skills/media/svg-graphics/",
+      "description": "Scalable, accessible, theme-aware visuals",
+      "tier": "extended",
+      "applyTo": "**/*svg*,**/*graphics*",
+      "triggers": [],
+      "title": "SVG Graphics Skill"
+    },
+    {
+      "name": "terminal-image-rendering",
+      "category": "media",
+      "path": "skills/media/terminal-image-rendering/",
+      "description": "Render images inline in VS Code's integrated terminal using the Kitty graphics protocol",
+      "tier": "extended",
+      "applyTo": "**/*terminal*,**/*image*,**/*rendering*",
+      "triggers": [],
+      "title": "Terminal Image Rendering"
+    },
+    {
+      "name": "text-to-speech",
+      "category": "media",
+      "path": "skills/media/text-to-speech/",
+      "description": "Cloud TTS via Replicate — 15 models, voice cloning, emotion control, and multi-language support",
+      "tier": "extended",
+      "applyTo": "**/*text*,**/*speech*",
+      "triggers": [],
+      "title": "Text-to-Speech Skill"
+    },
+    {
+      "name": "video-generation",
+      "category": "media",
+      "path": "skills/media/video-generation/",
+      "description": "AI video generation via Replicate — 17 models, editing, and production workflows",
+      "tier": "extended",
+      "applyTo": "**/*video*,**/*generation*",
+      "triggers": [],
+      "title": "Video Generation Skill"
+    },
+    {
+      "name": "copilot-usage-metrics",
+      "category": "operations",
+      "path": "skills/operations/copilot-usage-metrics/",
+      "description": "Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API.",
+      "tier": "standard",
+      "applyTo": "**/*copilot*,**/*usage*,**/*metrics*",
+      "triggers": [],
+      "title": "Copilot Usage Metrics"
+    },
+    {
+      "name": "incident-response",
+      "category": "operations",
+      "path": "skills/operations/incident-response/",
+      "description": "Calm, systematic crisis handling — from detection through post-mortem to prevention",
+      "tier": "standard",
+      "applyTo": "**/*incident*,**/*response*",
+      "triggers": [],
+      "title": "Incident Response Skill"
+    },
+    {
+      "name": "observability-monitoring",
+      "category": "operations",
+      "path": "skills/operations/observability-monitoring/",
+      "description": "Production visibility through logs, metrics, traces, and alerting — the three pillars of observability",
+      "tier": "standard",
+      "applyTo": "**/*observability*,**/*monitoring*",
+      "triggers": [],
+      "title": "Observability & Monitoring Skill"
+    },
+    {
+      "name": "postmortem",
+      "category": "operations",
+      "path": "skills/operations/postmortem/",
+      "description": "Write a postmortem for a regression or incident that escaped to production, broke real users, and traces back to a design flaw worth documenting. Use when asked to \"write a postmortem\", \"document an incident\", \"analyze a production failure\", \"root cause analysis\", or \"incident review\". Only invoke after confirming no existing postmortem covers the same root cause.",
+      "tier": "standard",
+      "applyTo": "**/*postmortem*",
+      "triggers": [
+        "write a postmortem",
+        "document an incident",
+        "analyze a production failure",
+        "root cause analysis",
+        "incident review"
+      ],
+      "title": "Postmortem Writing"
+    },
+    {
+      "name": "coaching-techniques",
+      "category": "people",
+      "path": "skills/people/coaching-techniques/",
+      "description": "GROW model, active listening, developmental feedback, and team growth approaches",
+      "tier": "extended",
+      "applyTo": "**/*coaching*,**/*techniques*",
+      "triggers": [],
+      "title": "Skill: Coaching Techniques"
+    },
+    {
+      "name": "cognitive-load",
+      "category": "people",
+      "path": "skills/people/cognitive-load/",
+      "description": "Don't overwhelm — chunk, scaffold, summarize first.",
+      "tier": "extended",
+      "applyTo": "**/*cognitive*,**/*load*",
+      "triggers": [],
+      "title": "Cognitive Load Skill"
+    },
+    {
+      "name": "counseling-psychology",
+      "category": "people",
+      "path": "skills/people/counseling-psychology/",
+      "description": "Therapeutic frameworks, assessment, ethical practice, and client documentation for counselors and psychologists.",
+      "tier": "extended",
+      "applyTo": "**/*counseling*,**/*psychology*",
+      "triggers": [],
+      "title": "Counseling Psychology Skill"
+    },
+    {
+      "name": "learning-psychology",
+      "category": "people",
+      "path": "skills/people/learning-psychology/",
+      "description": "Help humans learn through partnership, not instruction.",
+      "tier": "extended",
+      "applyTo": "**/*learning*,**/*psychology*",
+      "triggers": [],
+      "title": "Learning Psychology Skill"
+    },
+    {
+      "name": "performance-profiling",
+      "category": "performance",
+      "path": "skills/performance/performance-profiling/",
+      "description": "CPU, memory, network bottleneck analysis — systematic performance investigation",
+      "tier": "standard",
+      "applyTo": "**/*performance*,**/*profiling*",
+      "triggers": [],
+      "title": "Performance Profiling Skill"
+    },
+    {
+      "name": "pii-privacy-regulations",
+      "category": "privacy",
+      "path": "skills/privacy/pii-privacy-regulations/",
+      "description": "Handling personally identifiable information under European and Australian privacy regulations.",
+      "tier": "standard",
+      "applyTo": "**/*pii*,**/*privacy*,**/*regulations*",
+      "triggers": [],
+      "title": "PII & Privacy Regulations Skill"
+    },
+    {
+      "name": "privacy-responsible-ai",
+      "category": "privacy",
+      "path": "skills/privacy/privacy-responsible-ai/",
+      "description": "Privacy by design, data protection, and responsible AI principles.",
+      "tier": "standard",
+      "applyTo": "**/*privacy*,**/*responsible*",
+      "triggers": [],
+      "title": "Privacy & Responsible AI Skill"
+    },
+    {
+      "name": "business-analysis",
+      "category": "process",
+      "path": "skills/process/business-analysis/",
+      "description": "Patterns for requirements elicitation, BRDs, process analysis, and stakeholder alignment.",
+      "tier": "standard",
+      "applyTo": "**/*business*,**/*analysis*",
+      "triggers": [],
+      "title": "Business Analysis Skill"
+    },
+    {
+      "name": "change-management",
+      "category": "process",
+      "path": "skills/process/change-management/",
+      "description": "Patterns for organizational change, ADKAR methodology, stakeholder engagement, and adoption strategies.",
+      "tier": "standard",
+      "applyTo": "**/*change*,**/*management*",
+      "triggers": [],
+      "title": "Change Management Skill"
+    },
+    {
+      "name": "error-recovery-patterns",
+      "category": "process",
+      "path": "skills/process/error-recovery-patterns/",
+      "description": "What to do when things break.",
+      "tier": "standard",
+      "applyTo": "**/*error*,**/*recovery*,**/*patterns*",
+      "triggers": [],
+      "title": "Error Recovery Patterns Skill"
+    },
+    {
+      "name": "git-commit",
+      "category": "process",
+      "path": "skills/process/git-commit/",
+      "description": "Create well-structured git commits using the Conventional Commits specification. Use when asked to \"commit changes\", \"create a git commit\", \"stage and commit\", \"write a commit message\", or \"/commit\". Analyzes diffs to auto-detect type and scope, generates semantic commit messages, and supports intelligent file staging.",
+      "tier": "standard",
+      "applyTo": "**/*git*,**/*commit*",
+      "triggers": [
+        "commit changes",
+        "create a git commit",
+        "stage and commit",
+        "write a commit message",
+        "/commit"
+      ],
+      "title": "Git Commit with Conventional Commits"
+    },
+    {
+      "name": "git-workflow",
+      "category": "process",
+      "path": "skills/process/git-workflow/",
+      "description": "Consistent git practices, recovery patterns, and safe operations.",
+      "tier": "standard",
+      "applyTo": "**/*git*,**/*workflow*",
+      "triggers": [],
+      "title": "Git Workflow Skill"
+    },
+    {
+      "name": "project-deployment",
+      "category": "process",
+      "path": "skills/process/project-deployment/",
+      "description": "Universal deployment patterns for any project type.",
+      "tier": "standard",
+      "applyTo": "**/*project*,**/*deployment*",
+      "triggers": [],
+      "title": "Project Deployment Skill"
+    },
+    {
+      "name": "project-risk-analysis",
+      "category": "process",
+      "path": "skills/process/project-risk-analysis/",
+      "description": "Systematic methodology for identifying, categorizing, and mitigating software project risks before implementation",
+      "tier": "standard",
+      "applyTo": "**/*project*,**/*risk*,**/*analysis*",
+      "triggers": [],
+      "title": "Domain Knowledge: Project Risk Analysis Methodology"
+    },
+    {
+      "name": "release-notes",
+      "category": "process",
+      "path": "skills/process/release-notes/",
+      "description": "Generate release notes or changelog entries for completed changes. Use when asked to \"write release notes\", \"update the changelog\", \"document what changed\", \"create a release summary\", or when preparing a release. Follows Keep a Changelog format.",
+      "tier": "standard",
+      "applyTo": "**/*release*,**/*notes*",
+      "triggers": [
+        "write release notes",
+        "update the changelog",
+        "document what changed",
+        "create a release summary"
+      ],
+      "title": "Release Notes"
+    },
+    {
+      "name": "release-preflight",
+      "category": "process",
+      "path": "skills/process/release-preflight/",
+      "description": "Pre-checks, version consistency, and deployment discipline.",
+      "tier": "standard",
+      "applyTo": "**/*release*,**/*preflight*",
+      "triggers": [],
+      "title": "Release Preflight Skill"
+    },
+    {
+      "name": "scope-management",
+      "category": "process",
+      "path": "skills/process/scope-management/",
+      "description": "Recognize scope creep, suggest MVP cuts, and manage project boundaries",
+      "tier": "standard",
+      "applyTo": "**/*scope*,**/*management*",
+      "triggers": [],
+      "title": "Scope Management Skill"
+    },
+    {
+      "name": "creative-writing",
+      "category": "productivity",
+      "path": "skills/productivity/creative-writing/",
+      "description": "Patterns for fiction, narrative structure, character development, dialogue, and storytelling craft.",
+      "tier": "standard",
+      "applyTo": "**/*fiction*,**/*story*,**/*narrative*,**/*dialogue*,**/*character*",
+      "triggers": [],
+      "title": "Creative Writing Skill"
+    },
+    {
+      "name": "deep-work-optimization",
+      "category": "productivity",
+      "path": "skills/productivity/deep-work-optimization/",
+      "description": "Focus blocks, distraction management, and flow state triggers for cognitively demanding work",
+      "tier": "extended",
+      "applyTo": "**/*deep*,**/*work*,**/*optimization*",
+      "triggers": [
+        "for cognitively demanding work"
+      ],
+      "title": "Skill: Deep Work Optimization"
+    },
+    {
+      "name": "presentation-tool-selection",
+      "category": "productivity",
+      "path": "skills/productivity/presentation-tool-selection/",
+      "description": "Best practice decision matrix for choosing between Marp, Gamma, and PptxGenJS based on use case requirements.",
+      "tier": "extended",
+      "applyTo": "**/*presentation*,**/*tool*,**/*selection*",
+      "triggers": [],
+      "title": "Presentation Tool Selection Skill"
+    },
+    {
+      "name": "work-life-balance",
+      "category": "productivity",
+      "path": "skills/productivity/work-life-balance/",
+      "description": "Detect burnout signals and proactively support sustainable productivity.",
+      "tier": "extended",
+      "applyTo": "**/*work*,**/*life*,**/*balance*",
+      "triggers": [],
+      "title": "Work-Life Balance Skill"
+    },
+    {
+      "name": "book-launch-content",
+      "category": "publishing",
+      "path": "skills/publishing/book-launch-content/",
+      "description": "Generate launch-companion content for books — blog posts, author notes, and dogfooding angles that demonstrate the book's thesis through its own production. Use when a manuscript is approaching publication submission (KDP, agent query, prelaunch).",
+      "tier": "standard",
+      "applyTo": "**/books/**,**/manuscript*,**/*launch*content*,**/*book*launch*",
+      "triggers": [],
+      "title": "Book Launch Content"
+    },
+    {
+      "name": "book-publishing",
+      "category": "publishing",
+      "path": "skills/publishing/book-publishing/",
+      "description": "Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready formatting",
+      "tier": "extended",
+      "applyTo": "**/*book*,**/*publish*,**/*pdf*,**/*pandoc*",
+      "triggers": [],
+      "title": "Book Publishing"
+    },
+    {
+      "name": "dissertation-defense",
+      "category": "publishing",
+      "path": "skills/publishing/dissertation-defense/",
+      "description": "Comprehensive preparation for doctoral dissertation defense including timeline management, presentation design, Q&A practice, mock sessions, and committee dynamics.",
+      "tier": "extended",
+      "applyTo": "**/*dissertation*,**/*defense*",
+      "triggers": [],
+      "title": "Dissertation Defense Skill"
+    },
+    {
+      "name": "kdp-publishing",
+      "category": "publishing",
+      "path": "skills/publishing/kdp-publishing/",
+      "description": "Amazon KDP self-publishing specs — cover requirements, interior formatting, spine formulas, ink options, and pricing tiers",
+      "tier": "extended",
+      "applyTo": "**/*kdp*,**/*publish*,**/*book*",
+      "triggers": [],
+      "title": "Domain Knowledge: Amazon KDP Self-Publishing"
+    },
+    {
+      "name": "audit-integrity",
+      "category": "quality",
+      "path": "skills/quality/audit-integrity/",
+      "description": "Shared audit integrity framework for all AppSec agents — enforces output quality, intellectual honesty, and continuous improvement through anti-rationalization guards, self-critique loops, retry protocols, non-negotiable behaviors, self-reflection quality gates (1-10 scoring, ≥8 threshold), and a self-learning system with lesson/memory governance for security analysis agents.",
+      "tier": "standard",
+      "applyTo": "**/*audit*,**/*integrity*",
+      "triggers": [],
+      "title": "Audit Integrity Skill"
+    },
+    {
+      "name": "autocoverage",
+      "category": "quality",
+      "path": "skills/quality/autocoverage/",
+      "description": "Use when a user asks to generate or improve unit tests with measurable coverage gains using a strict staged workflow (build -> baseline -> plan -> generate -> verify -> coverage delta). Trigger phrases: generate unit tests, improve coverage, write tests for uncovered code, make PR-ready tests. Do not use for integration/E2E testing, production refactoring, or planning-only requests without code generation intent.",
+      "tier": "standard",
+      "applyTo": "**/*autocoverage*",
+      "triggers": [
+        "phrases: generate unit tests",
+        "improve coverage",
+        "write tests for uncovered code",
+        "make PR-ready tests"
+      ],
+      "title": "Auto Unit Test Generator"
+    },
+    {
+      "name": "capability-signature-detection",
+      "category": "quality",
+      "path": "skills/quality/capability-signature-detection/",
+      "description": "Code-scanning regex that looks for literal strings misses real usage:",
+      "tier": "standard",
+      "applyTo": "**/*capability*,**/*signature*,**/*detection*",
+      "triggers": [],
+      "title": "Capability Signature Detection"
+    },
+    {
+      "name": "code-review",
+      "category": "quality",
+      "path": "skills/quality/code-review/",
+      "description": "Systematic code review for correctness, security, and growth — not just style enforcement",
+      "tier": "standard",
+      "applyTo": "**/*code*,**/*review*",
+      "triggers": [],
+      "title": "Code Review Skill"
+    },
+    {
+      "name": "coverage-guidelines",
+      "category": "quality",
+      "path": "skills/quality/deployment-coverage-guidelines/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*deployment*,**/*coverage*,**/*guidelines*",
+      "triggers": [],
+      "title": "Coverage Improvement Guidelines"
+    },
+    {
+      "name": "date-threshold-arithmetic",
+      "category": "quality",
+      "path": "skills/quality/date-threshold-arithmetic/",
+      "description": "Date comparisons at thresholds fail due to fractional days:",
+      "tier": "standard",
+      "applyTo": "**/*date*,**/*threshold*,**/*arithmetic*",
+      "triggers": [],
+      "title": "Date Threshold Arithmetic"
+    },
+    {
+      "name": "deep-review",
+      "category": "quality",
+      "path": "skills/quality/deep-review/",
+      "description": "Adversarial code review with three parallel perspectives — Advocate, Skeptic, Architect — that create productive tension. Use for high-stakes PRs, architectural changes, or when single-pass review would miss issues. Surfaces findings through disagreement, not consensus.",
+      "tier": "standard",
+      "applyTo": "**/*deep*,**/*review*",
+      "triggers": [],
+      "title": "Deep Review"
+    },
+    {
+      "name": "extension-audit-methodology",
+      "category": "quality",
+      "path": "skills/quality/extension-audit-methodology/",
+      "description": "Systematic 5-dimension audit framework for VS Code extensions — debug hygiene, dead code, performance, menu validation, dependency cleanup",
+      "tier": "standard",
+      "applyTo": "**/*extension*,**/*audit*,**/*methodology*",
+      "triggers": [],
+      "title": "Extension Audit Methodology"
+    },
+    {
+      "name": "falsifiability-test-pattern",
+      "category": "quality",
+      "path": "skills/quality/falsifiability-test-pattern/",
+      "description": "Plans without measurable success criteria drift into wishful thinking:",
+      "tier": "standard",
+      "applyTo": "**/*falsifiability*,**/*test*,**/*pattern*",
+      "triggers": [],
+      "title": "Falsifiability Test Pattern"
+    },
+    {
+      "name": "inclusive-language",
+      "category": "quality",
+      "path": "skills/quality/deployment-inclusive-language/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*deployment*,**/*inclusive*,**/*language*",
+      "triggers": [],
+      "title": "Inclusive Language Guide"
+    },
+    {
+      "name": "iterative-health-check",
+      "category": "quality",
+      "path": "skills/quality/iterative-health-check/",
+      "description": "One-time audits don't track improvement:",
+      "tier": "standard",
+      "applyTo": "**/*iterative*,**/*health*,**/*check*",
+      "triggers": [],
+      "title": "Iterative Health-Check Loop"
+    },
+    {
+      "name": "microsoft-standards",
+      "category": "quality",
+      "path": "skills/quality/deployment-microsoft-standards/",
+      "description": "Practical guidance for applying Microsoft's security (SDL), privacy, responsible AI, accessibility, and compliance standards during code generation, review, and planning. Use when writing code, reviewing changes, creating plans, or handling data.",
+      "tier": "standard",
+      "applyTo": "**/*deployment*,**/*microsoft*,**/*standards*",
+      "triggers": [],
+      "title": "Microsoft Standards Compliance"
+    },
+    {
+      "name": "parity-guard-test-pattern",
+      "category": "quality",
+      "path": "skills/quality/parity-guard-test-pattern/",
+      "description": "When checking that all callers of a contract implement it correctly, you get false positives from wrapper delegators:",
+      "tier": "standard",
+      "applyTo": "**/*parity*,**/*guard*,**/*test*",
+      "triggers": [],
+      "title": "Parity Guard Test Pattern"
+    },
+    {
+      "name": "refactor",
+      "category": "quality",
+      "path": "skills/quality/refactor/",
+      "description": "Systematic code refactoring to improve maintainability without changing behavior. Use when asked to \"refactor this\", \"clean up this code\", \"improve code quality\", \"simplify this\", \"reduce complexity\", or \"eliminate code smells\". Always preserves existing behavior.",
+      "tier": "standard",
+      "applyTo": "**/*refactor*",
+      "triggers": [
+        "refactor this",
+        "clean up this code",
+        "improve code quality",
+        "simplify this",
+        "reduce complexity"
+      ],
+      "title": "Refactor"
+    },
+    {
+      "name": "refactoring-patterns",
+      "category": "quality",
+      "path": "skills/quality/refactoring-patterns/",
+      "description": "Safe transformations — same behavior, better structure.",
+      "tier": "standard",
+      "applyTo": "**/*refactoring*,**/*patterns*",
+      "triggers": [],
+      "title": "Refactoring Patterns Skill"
+    },
+    {
+      "name": "repository-readiness-eval",
+      "category": "quality",
+      "path": "skills/quality/repository-readiness-eval/",
+      "description": "Evaluate a repository's readiness for AI-assisted development across 4 axes: code understanding, dependency restore, build success, and test execution. Use when onboarding to a new repo, assessing CI readiness, or validating that an AI agent can work effectively in a codebase.",
+      "tier": "standard",
+      "applyTo": "**/*repository*,**/*readiness*,**/*eval*",
+      "triggers": [],
+      "title": "Repository Readiness Evaluation"
+    },
+    {
+      "name": "scaffolding-generator",
+      "category": "quality",
+      "path": "skills/quality/scaffolding-generator/",
+      "description": "Pattern-aware code scaffolding that detects existing conventions and generates new components matching the codebase style. Use when asked to \"scaffold a component\", \"generate boilerplate\", \"create a new module\", \"bootstrap a service\", \"add a new endpoint\", \"create a new controller\", or \"add a new feature module\". Discovers patterns first, then replicates them.",
+      "tier": "standard",
+      "applyTo": "**/*scaffolding*,**/*generator*",
+      "triggers": [
+        "scaffold a component",
+        "generate boilerplate",
+        "create a new module",
+        "bootstrap a service",
+        "add a new endpoint"
+      ],
+      "title": "Scaffolding Generator"
+    },
+    {
+      "name": "semantic-codebase-intelligence",
+      "category": "quality",
+      "path": "skills/quality/semantic-codebase-intelligence/",
+      "description": "Deep structural analysis of a codebase—dependency mapping, architecture boundary detection, coupling/cohesion scoring, and dead code discovery. Use when asked to \"analyze codebase structure\", \"map dependencies\", \"find dead code\", \"architecture analysis\", \"coupling analysis\", \"trace dependencies\", or \"understand this system\". Produces a Context Map with actionable insights.",
+      "tier": "standard",
+      "applyTo": "**/*semantic*,**/*codebase*,**/*intelligence*",
+      "triggers": [
+        "analyze codebase structure",
+        "map dependencies",
+        "find dead code",
+        "architecture analysis",
+        "coupling analysis"
+      ],
+      "title": "Semantic Codebase Intelligence"
+    },
+    {
+      "name": "tech-debt-discovery",
+      "category": "quality",
+      "path": "skills/quality/tech-debt-discovery/",
+      "description": "Systematic technical debt inventory and prioritization. Use when asked to \"find tech debt\", \"show me the TODOs\", \"how healthy is this codebase\", \"what should we fix first\", \"find code smells\", \"audit code quality\", or \"identify hotspots\". Scans code markers, analyzes git history, checks dependencies, and produces a prioritized debt report.",
+      "tier": "standard",
+      "applyTo": "**/*tech*,**/*debt*,**/*discovery*",
+      "triggers": [
+        "find tech debt",
+        "show me the TODOs",
+        "how healthy is this codebase",
+        "what should we fix first",
+        "find code smells"
+      ],
+      "title": "Tech Debt Discovery"
+    },
+    {
+      "name": "terminal-command-safety",
+      "category": "quality",
+      "path": "skills/quality/terminal-command-safety/",
+      "description": "Safe terminal command patterns — backtick escaping, output capture, and hang prevention",
+      "tier": "standard",
+      "applyTo": "**/*terminal*,**/*command*,**/*safety*",
+      "triggers": [],
+      "title": "Terminal Command Safety"
+    },
+    {
+      "name": "test-quality-analysis",
+      "category": "quality",
+      "path": "skills/quality/test-quality-analysis/",
+      "description": "Analyze test code quality to detect coverage-only tests, test smells, and low-value assertions. Use when asked to \"analyze test quality\", \"find coverage-only tests\", \"audit our tests\", \"are these tests valuable\", \"find test smells\", or \"which tests should we delete\". Scores tests 1-5 on real value and produces prioritized improvement reports.",
+      "tier": "standard",
+      "applyTo": "**/*test*,**/*quality*,**/*analysis*",
+      "triggers": [
+        "analyze test quality",
+        "find coverage-only tests",
+        "audit our tests",
+        "are these tests valuable",
+        "find test smells"
+      ],
+      "title": "Test Quality Analysis"
+    },
+    {
+      "name": "test-rename-drift",
+      "category": "quality",
+      "path": "skills/quality/test-rename-drift/",
+      "description": "When renaming a function, test files have references that survive find-and-replace:",
+      "tier": "standard",
+      "applyTo": "**/*test*,**/*rename*,**/*drift*",
+      "triggers": [],
+      "title": "Test Rename Drift"
+    },
+    {
+      "name": "testing-strategies",
+      "category": "quality",
+      "path": "skills/quality/testing-strategies/",
+      "description": "Systematic testing for confidence without over-testing — the right test at the right level",
+      "tier": "standard",
+      "applyTo": "**/*testing*,**/*strategies*",
+      "triggers": [],
+      "title": "Testing Strategies Skill"
+    },
+    {
+      "name": "universal-audit-pattern",
+      "category": "quality",
+      "path": "skills/quality/universal-audit-pattern/",
+      "description": "Systematic project audit pattern — version consistency, terminology, fact inventory, cross-references",
+      "tier": "standard",
+      "applyTo": "**/*universal*,**/*audit*,**/*pattern*",
+      "triggers": [],
+      "title": "Universal Audit Pattern"
+    },
+    {
+      "name": "visual-artifact-qa",
+      "category": "quality",
+      "path": "skills/quality/visual-artifact-qa/",
+      "description": "Visual output that passes static checks can still fail to render:",
+      "tier": "standard",
+      "applyTo": "**/*visual*,**/*artifact*",
+      "triggers": [],
+      "title": "Visual Artifact QA"
+    },
+    {
+      "name": "allowlist-over-blocklist",
+      "category": "security",
+      "path": "skills/security/allowlist-over-blocklist/",
+      "description": "Validate input against an allowlist of permitted values — reject everything else",
+      "tier": "standard",
+      "applyTo": "**/*allowlist*,**/*over*,**/*blocklist*",
+      "triggers": [],
+      "title": "Allowlist Over Blocklist"
+    },
+    {
+      "name": "api-security-hardening",
+      "category": "security",
+      "path": "skills/security/api-security-hardening/",
+      "description": "API security hardening — rate limiting, JWT validation, CORS, input validation (4-layer defense)",
+      "tier": "standard",
+      "applyTo": "**/*api*,**/*security*,**/*hardening*",
+      "triggers": [],
+      "title": "API Security Hardening"
+    },
+    {
+      "name": "assist-sg-update",
+      "category": "security",
+      "path": "skills/security/assist-sg-update/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*assist*,**/*update*",
+      "triggers": [],
+      "title": ""
+    },
+    {
+      "name": "auth-authz",
+      "category": "security",
+      "path": "skills/security/bug-hunter-auth-authz/",
+      "description": "Knowledge skill: auth-authz category — Authentication & Authorization assessment based on MISE/Entra KPI framework. Covers inbound token validation, authorization enforcement, user context validation, OBO flows, outbound auth, and privilege elevation detection.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*auth*",
+      "triggers": [],
+      "title": "Authentication & Authorization — Knowledge Skill"
+    },
+    {
+      "name": "build-fix",
+      "category": "security",
+      "path": "skills/security/build-fix/",
+      "description": "Fix compile-time and build errors introduced by prior agent changes",
+      "tier": "standard",
+      "applyTo": "**/*build*,**/*fix*",
+      "triggers": [],
+      "title": "Build Fix — Instructions"
+    },
+    {
+      "name": "build-fix",
+      "category": "security",
+      "path": "skills/security/codeql-build-fix/",
+      "description": "Fix compile-time and build errors introduced by prior agent changes",
+      "tier": "standard",
+      "applyTo": "**/*codeql*,**/*build*,**/*fix*",
+      "triggers": [],
+      "title": "Build Fix — Instructions"
+    },
+    {
+      "name": "code-quality",
+      "category": "security",
+      "path": "skills/security/bug-hunter-code-quality/",
+      "description": "Knowledge skill: code-quality category — documentation, type annotations, god classes, deep nesting, DLL loading, compiler warnings, and inclusive language.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*code*",
+      "triggers": [],
+      "title": "Code Quality — Knowledge Skill"
+    },
+    {
+      "name": "core-bugs",
+      "category": "security",
+      "path": "skills/security/bug-hunter-core-bugs/",
+      "description": "Knowledge skill: 8 core bug categories — logic errors, null references, race conditions, error handling, API contracts, resource leaks, performance, and test coverage.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*core*",
+      "triggers": [],
+      "title": "Core Bug Categories — Knowledge Skill"
+    },
+    {
+      "name": "create-associate-nsg",
+      "category": "security",
+      "path": "skills/security/create-associate-nsg/",
+      "description": "Creates a new Network Security Group and associates it with the specified subnets and/or NICs of a Virtual Network.",
+      "tier": "standard",
+      "applyTo": "**/*create*,**/*associate*,**/*nsg*",
+      "triggers": [],
+      "title": "Skill: Create and Associate NSG"
+    },
+    {
+      "name": "crypto",
+      "category": "security",
+      "path": "skills/security/bug-hunter-crypto/",
+      "description": "Knowledge skill: cryptographic-weaknesses category — banned algorithms, weak keys, insecure protocols, JWT, KDF, and encryption best practices.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*crypto*",
+      "triggers": [],
+      "title": "Cryptographic Weaknesses — Knowledge Skill"
+    },
+    {
+      "name": "dependencies",
+      "category": "security",
+      "path": "skills/security/bug-hunter-dependencies/",
+      "description": "Knowledge skill: dependency-risk category — vulnerable packages, unpinned versions, EOL runtimes, SBOM, and supply chain security.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*dependencies*",
+      "triggers": [],
+      "title": "Dependency Risk — Knowledge Skill"
+    },
+    {
+      "name": "distribution-security",
+      "category": "security",
+      "path": "skills/security/distribution-security/",
+      "description": "Defense-in-depth, PII protection, secrets scanning, and secure packaging for distributed software",
+      "tier": "standard",
+      "applyTo": "**/*distribution*,**/*security*",
+      "triggers": [],
+      "title": "Distribution Security"
+    },
+    {
+      "name": "error-message-sanitization",
+      "category": "security",
+      "path": "skills/security/error-message-sanitization/",
+      "description": "Raw error messages leak internal information to users:",
+      "tier": "standard",
+      "applyTo": "**/*error*,**/*message*,**/*sanitization*",
+      "triggers": [],
+      "title": "Error Message Sanitization"
+    },
+    {
+      "name": "fetch-violations",
+      "category": "security",
+      "path": "skills/security/fetch-violations/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*fetch*,**/*violations*",
+      "triggers": [],
+      "title": ""
+    },
+    {
+      "name": "generate-report",
+      "category": "security",
+      "path": "skills/security/generate-report/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*generate*,**/*report*",
+      "triggers": [],
+      "title": "Generate Tenant Isolation Violation Report"
+    },
+    {
+      "name": "guide-advanced-remediation",
+      "category": "security",
+      "path": "skills/security/guide-advanced-remediation/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*guide*,**/*advanced*,**/*remediation*",
+      "triggers": [],
+      "title": "Advanced Remediation Guide"
+    },
+    {
+      "name": "guide-cert-rehoming",
+      "category": "security",
+      "path": "skills/security/guide-cert-rehoming/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*guide*,**/*cert*,**/*rehoming*",
+      "triggers": [],
+      "title": "Guide: Certificate Rehoming"
+    },
+    {
+      "name": "infra-deploy",
+      "category": "security",
+      "path": "skills/security/bug-hunter-infra-deploy/",
+      "description": "Knowledge skill: infra-deploy category — Infrastructure-as-Code and Azure deployment detection patterns for EV2 service models, ARM templates, Bicep files, and Terraform configurations. Covers misconfigurations, security issues, and deployment best practices.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*infra*",
+      "triggers": [],
+      "title": "Infrastructure & Deployment — Knowledge Skill"
+    },
+    {
+      "name": "input",
+      "category": "security",
+      "path": "skills/security/codeql-input/",
+      "description": "Extract and resolve required CodeQL alert metadata from user input before remediation",
+      "tier": "standard",
+      "applyTo": "**/*codeql*,**/*input*",
+      "triggers": [],
+      "title": "Input Resolution — Instructions"
+    },
+    {
+      "name": "input",
+      "category": "security",
+      "path": "skills/security/input/",
+      "description": "Extract and resolve required CodeQL alert metadata from user input before remediation",
+      "tier": "standard",
+      "applyTo": "**/*input*",
+      "triggers": [],
+      "title": "Input Resolution — Instructions"
+    },
+    {
+      "name": "lookup-nsg",
+      "category": "security",
+      "path": "skills/security/lookup-nsg/",
+      "description": "Finds the Network Interface Card (NIC) and associated Network Security Group (NSG) for a VM given its public IP address.",
+      "tier": "standard",
+      "applyTo": "**/*lookup*,**/*nsg*",
+      "triggers": [],
+      "title": "Skill: NSG Lookup"
+    },
+    {
+      "name": "lookup-nsg-for-vnet",
+      "category": "security",
+      "path": "skills/security/lookup-nsg-for-vnet/",
+      "description": "Checks every subnet in a Virtual Network for an associated Network Security Group, and also inspects each NIC attached to those subnets for NIC-level NSG coverage.",
+      "tier": "standard",
+      "applyTo": "**/*lookup*,**/*nsg*,**/*for*",
+      "triggers": [],
+      "title": "Skill: NSG Lookup for VNet"
+    },
+    {
+      "name": "markdown-sanitization-chain",
+      "category": "security",
+      "path": "skills/security/markdown-sanitization-chain/",
+      "description": "Markdown sanitization order matters — marked.js then DOMPurify then Mermaid to prevent XSS",
+      "tier": "standard",
+      "applyTo": "**/*markdown*,**/*sanitization*,**/*chain*",
+      "triggers": [],
+      "title": "Markdown Sanitization Chain"
+    },
+    {
+      "name": "multi-scan",
+      "category": "security",
+      "path": "skills/security/bug-hunter-multi-scan/",
+      "description": "Run Bug Hunter in parallel across multiple AI models for maximum bug coverage. ADO deduplication prevents duplicate work items.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*multi*",
+      "triggers": [],
+      "title": "Bug Hunter Multi-Model Scan"
+    },
+    {
+      "name": "nnf-cve-cleanup",
+      "category": "security",
+      "path": "skills/security/nnf-cve-cleanup/",
+      "description": "Cleans up NNF deployments impacted by vulnerable or outdated container images using guided execution.",
+      "tier": "standard",
+      "applyTo": "**/*nnf*,**/*cve*,**/*cleanup*",
+      "triggers": [],
+      "title": "NNF CVE Cleanup (Execution Enabled)"
+    },
+    {
+      "name": "observability",
+      "category": "security",
+      "path": "skills/security/bug-hunter-observability/",
+      "description": "Knowledge skill: observability category — structured logging, telemetry, health checks, correlation IDs, PII in logs, and audit trails.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*observability*",
+      "triggers": [],
+      "title": "Observability — Knowledge Skill"
+    },
+    {
+      "name": "output",
+      "category": "security",
+      "path": "skills/security/codeql-output/",
+      "description": "Produce the final CodeQL fix result table and choose the correct exit code and retry behavior",
+      "tier": "standard",
+      "applyTo": "**/*codeql*,**/*output*",
+      "triggers": [],
+      "title": "Output Reporting — Instructions"
+    },
+    {
+      "name": "output",
+      "category": "security",
+      "path": "skills/security/output/",
+      "description": "Produce the final CodeQL fix result table and choose the correct exit code and retry behavior",
+      "tier": "standard",
+      "applyTo": "**/*output*",
+      "triggers": [],
+      "title": "Output Reporting — Instructions"
+    },
+    {
+      "name": "path-traversal-prevention",
+      "category": "security",
+      "path": "skills/security/path-traversal-prevention/",
+      "description": "When copying files or serving content, user-controlled paths can escape the intended directory:",
+      "tier": "standard",
+      "applyTo": "**/*path*,**/*traversal*,**/*prevention*",
+      "triggers": [],
+      "title": "Path Traversal Prevention"
+    },
+    {
+      "name": "remediate-nsg",
+      "category": "security",
+      "path": "skills/security/remediate-nsg/",
+      "description": "Applies M365NetIsoNsg compliance rules to an existing Azure NSG and outputs the ARM template for Safe Deployment.",
+      "tier": "standard",
+      "applyTo": "**/*remediate*,**/*nsg*",
+      "triggers": [],
+      "title": "Skill: NSG Remediation"
+    },
+    {
+      "name": "remediate-pfx-certificates",
+      "category": "security",
+      "path": "skills/security/remediate-pfx-certificates/",
+      "description": "Skill helps user to remove checked-in certificates from source code in case of exposed secrets",
+      "tier": "standard",
+      "applyTo": "**/*remediate*,**/*pfx*,**/*certificates*",
+      "triggers": [],
+      "title": "PFX (Personal Information Exchange) Found in Source Code"
+    },
+    {
+      "name": "resilience",
+      "category": "security",
+      "path": "skills/security/bug-hunter-resilience/",
+      "description": "Knowledge skill: resilience category — retry policies, circuit breakers, timeouts, graceful degradation, bulkhead isolation, and idempotency.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*resilience*",
+      "triggers": [],
+      "title": "Resilience — Knowledge Skill"
+    },
+    {
+      "name": "revoke-and-rotate-certificate",
+      "category": "security",
+      "path": "skills/security/revoke-and-rotate-certificate/",
+      "description": "Skill helps user to revoke and rotate certificate in case of exposed secrets",
+      "tier": "standard",
+      "applyTo": "**/*revoke*,**/*and*,**/*rotate*",
+      "triggers": [],
+      "title": ""
+    },
+    {
+      "name": "scan",
+      "category": "security",
+      "path": "skills/security/bug-hunter-scan/",
+      "description": "Run a Bug Hunter scan on the current repo. Finds bugs and files them as ADO work items. Supports safe mode, model selection, and scan mode options.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*scan*",
+      "triggers": [],
+      "title": "Bug Hunter Scan"
+    },
+    {
+      "name": "sdl",
+      "category": "security",
+      "path": "skills/security/bug-hunter-sdl/",
+      "description": "Knowledge pack: SDL (Security Development Lifecycle) compliance scan. Aggregates SDL-mapped patterns from security, crypto, secrets, dependencies, observability, and code-quality knowledge skills.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*sdl*",
+      "triggers": [],
+      "title": "SDL Compliance — Knowledge Pack"
+    },
+    {
+      "name": "secrets",
+      "category": "security",
+      "path": "skills/security/bug-hunter-secrets/",
+      "description": "Knowledge skill: secret-exposure category — hardcoded secrets, credential management, secret storage, and identity SDK compliance.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*secrets*",
+      "triggers": [],
+      "title": "Secret Exposure — Knowledge Skill"
+    },
+    {
+      "name": "secrets-management",
+      "category": "security",
+      "path": "skills/security/secrets-management/",
+      "description": "Secure token storage, VS Code SecretStorage API, credential management, environment variable migration",
+      "tier": "standard",
+      "applyTo": "**/*secrets*,**/*management*",
+      "triggers": [],
+      "title": "Secrets Management Skill"
+    },
+    {
+      "name": "security",
+      "category": "security",
+      "path": "skills/security/bug-hunter-security/",
+      "description": "Knowledge skill: security-vulnerabilities category — injection, auth, access control, XSS, SSRF, CSRF, memory corruption, banned APIs, and more.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*security*",
+      "triggers": [],
+      "title": "Security Vulnerabilities — Knowledge Skill"
+    },
+    {
+      "name": "security-review",
+      "category": "security",
+      "path": "skills/security/security-review/",
+      "description": "Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI",
+      "tier": "standard",
+      "applyTo": "**/*security*,**/*review*",
+      "triggers": [],
+      "title": "Security Review Skill"
+    },
+    {
+      "name": "security-threat-modeler",
+      "category": "security",
+      "path": "skills/security/security-threat-modeler/",
+      "description": "Analyze codebase architecture to generate a STRIDE-based threat model with data flow diagrams, trust boundaries, prioritized threats, and mitigations. Compatible with Microsoft Threat Modeling Tool concepts. Use when asked to \"threat model\", \"security analysis\", \"STRIDE analysis\", \"identify security threats\", \"data flow security\", \"generate a threat model\", or \"security architecture review\".",
+      "tier": "standard",
+      "applyTo": "**/*security*,**/*threat*,**/*modeler*",
+      "triggers": [
+        "threat model",
+        "security analysis",
+        "STRIDE analysis",
+        "identify security threats",
+        "data flow security"
+      ],
+      "title": "Security Threat Modeler"
+    },
+    {
+      "name": "setup",
+      "category": "security",
+      "path": "skills/security/bug-hunter-setup/",
+      "description": "Scaffold .bug-hunter/ config directory in the current repo. Creates config.yaml with template values that you must edit before running live scans.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*setup*",
+      "triggers": [],
+      "title": "Bug Hunter Setup"
+    },
+    {
+      "name": "shell-injection-prevention",
+      "category": "security",
+      "path": "skills/security/shell-injection-prevention/",
+      "description": "Use execFileSync with args array instead of execSync with string concatenation to prevent shell injection",
+      "tier": "standard",
+      "applyTo": "**/*shell*,**/*injection*,**/*prevention*",
+      "triggers": [],
+      "title": "Shell Injection Prevention"
+    },
+    {
+      "name": "symfix",
+      "category": "security",
+      "path": "skills/security/codeql-symfix/",
+      "description": "Classify and remediate CodeQL alerts with the SymFix workflow using staged changelog updates",
+      "tier": "standard",
+      "applyTo": "**/*codeql*,**/*symfix*",
+      "triggers": [],
+      "title": "SymFix Workflow — Instructions"
+    },
+    {
+      "name": "symfix",
+      "category": "security",
+      "path": "skills/security/symfix/",
+      "description": "Classify and remediate CodeQL alerts with the SymFix workflow using staged changelog updates",
+      "tier": "standard",
+      "applyTo": "**/*symfix*",
+      "triggers": [],
+      "title": "SymFix Workflow — Instructions"
+    },
+    {
+      "name": "threat-surface-analysis",
+      "category": "security",
+      "path": "skills/security/threat-surface-analysis/",
+      "description": "Discover a codebase's threat surface through systematic investigation — map ecosystem groups, dependency graphs, service connections, authentication mechanisms, and trust boundaries. Use when performing threat modeling, security review, or architectural analysis of any multi-ecosystem repository.",
+      "tier": "standard",
+      "applyTo": "**/*threat*,**/*surface*,**/*analysis*",
+      "triggers": [],
+      "title": "Threat Surface Analysis"
+    },
+    {
+      "name": "trip",
+      "category": "security",
+      "path": "skills/security/bug-hunter-trip/",
+      "description": "Knowledge pack: TrIP (Trust in Product) compliance scan. Aggregates TrIP-mapped patterns from security, crypto, secrets, observability, resilience, and code-quality knowledge skills.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*trip*",
+      "triggers": [],
+      "title": "TrIP Compliance — Knowledge Pack"
+    },
+    {
+      "name": "validate",
+      "category": "security",
+      "path": "skills/security/bug-hunter-validate/",
+      "description": "Validate Bug Hunter scan output against the JSON schema. Checks for missing fields, invalid types, and out-of-range values.",
+      "tier": "standard",
+      "applyTo": "**/*bug*,**/*hunter*,**/*validate*",
+      "triggers": [],
+      "title": "Bug Hunter Validate Output"
+    },
+    {
+      "name": "violation-triager",
+      "category": "security",
+      "path": "skills/security/violation-triager/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "**/*violation*,**/*triager*",
+      "triggers": [],
+      "title": ""
+    },
+    {
+      "name": "coherence-audit",
+      "category": "supervisor",
+      "path": "skills/supervisor/coherence-audit/",
+      "description": "Detect coherence violations between Alex_ACT_Edition (brain) and Alex_Skill_Mall (marketplace) — broken references, tag mismatches, deprecated install snippets",
+      "tier": "standard",
+      "applyTo": "\"**/Alex_ACT_Edition/.github/**,**/Alex_Skill_Mall/STORES.md,**/Alex_Skill_Mall/CATALOG.md\"",
+      "triggers": [],
+      "title": "Coherence Audit"
+    },
+    {
+      "name": "escalation-routing",
+      "category": "supervisor",
+      "path": "skills/supervisor/escalation-routing/",
+      "description": "Decide whether a feedback item is in-scope for the Supervisor or must be escalated to AlexMaster (framework-level)",
+      "tier": "standard",
+      "applyTo": "\"**/feedback/inbox/**,**/feedback/triaged/**\"",
+      "triggers": [],
+      "title": "Escalation Routing"
+    },
+    {
+      "name": "feedback-triage",
+      "category": "supervisor",
+      "path": "skills/supervisor/feedback-triage/",
+      "description": "Categorize, deduplicate, and route fleet feedback to Edition fix, Mall change, or AlexMaster escalation",
+      "tier": "standard",
+      "applyTo": "\"**/feedback/inbox/**\"",
+      "triggers": [],
+      "title": "Feedback Triage"
+    },
+    {
+      "name": "fleet-announcement",
+      "category": "supervisor",
+      "path": "skills/supervisor/fleet-announcement/",
+      "description": "Author fleet announcements for AI-Memory that heirs execute automatically on greeting check-in",
+      "tier": "standard",
+      "applyTo": "**/*announcement*,**/*ai-memory*",
+      "triggers": [],
+      "title": "Fleet Announcement"
+    },
+    {
+      "name": "fleet-management",
+      "category": "supervisor",
+      "path": "skills/supervisor/fleet-management/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "",
+      "triggers": [],
+      "title": "Fleet Management"
+    },
+    {
+      "name": "mall-curation",
+      "category": "supervisor",
+      "path": "skills/supervisor/mall-curation/",
+      "description": "Curate Alex_Skill_Mall — decide when to add, keep, refresh, or prune stores and catalog entries",
+      "tier": "standard",
+      "applyTo": "\"**/Alex_Skill_Mall/**,**/STORES.md,**/CATALOG.md\"",
+      "triggers": [],
+      "title": "Mall Curation"
+    },
+    {
+      "name": "release-process",
+      "category": "supervisor",
+      "path": "skills/supervisor/release-process/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "",
+      "triggers": [],
+      "title": "Release Process Skill"
+    },
+    {
+      "name": "release-ritual",
+      "category": "supervisor",
+      "path": "skills/supervisor/release-ritual/",
+      "description": "Cut a release of Alex_ACT_Edition — preflight, brain-qa, changelog, version bump, tag, push",
+      "tier": "standard",
+      "applyTo": "\"**/Alex_ACT_Edition/**,**/CHANGELOG.md,**/package.json\"",
+      "triggers": [],
+      "title": "Release Ritual"
+    },
+    {
+      "name": "skill-review",
+      "category": "supervisor",
+      "path": "skills/supervisor/skill-review/",
+      "description": "Review submissions to Alex_ACT_Edition for ACT spec compliance, content quality, and scope fit",
+      "tier": "standard",
+      "applyTo": "\"**/*.skill.review.md,**/Alex_ACT_Edition/**\"",
+      "triggers": [],
+      "title": "Skill Review"
+    },
+    {
+      "name": "staleness-discipline",
+      "category": "supervisor",
+      "path": "skills/supervisor/staleness-discipline/",
+      "description": "Detect, classify, and prune stale entries in Alex_Skill_Mall — define what stale means and how to remove gracefully",
+      "tier": "standard",
+      "applyTo": "\"**/Alex_Skill_Mall/STORES.md,**/Alex_Skill_Mall/CATALOG.md\"",
+      "triggers": [],
+      "title": "Staleness Discipline"
+    },
+    {
+      "name": "store-adoption",
+      "category": "supervisor",
+      "path": "skills/supervisor/store-adoption/",
+      "description": "Fetch plugin store updates, inventory contents, match against fleet profile, and generate adoption candidates report",
+      "tier": "standard",
+      "applyTo": "**/*store*,**/*adopt*,**/*plugin*,**/*candidate*",
+      "triggers": [],
+      "title": "Store Adoption"
+    },
+    {
+      "name": "store-evaluation",
+      "category": "supervisor",
+      "path": "skills/supervisor/store-evaluation/",
+      "description": "Evaluate a proposed store for inclusion in Alex_Skill_Mall using a quality scorecard",
+      "tier": "standard",
+      "applyTo": "\"**/Alex_Skill_Mall/STORES.md,**/Alex_Skill_Mall/CATALOG.md,**/feedback/inbox/*store*.md\"",
+      "triggers": [],
+      "title": "Store Evaluation"
+    },
+    {
+      "name": "supervisor",
+      "category": "supervisor",
+      "path": "skills/supervisor/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "",
+      "triggers": [],
+      "title": "ACT Supervisor"
+    },
+    {
+      "name": "version-management",
+      "category": "supervisor",
+      "path": "skills/supervisor/version-management/",
+      "description": "",
+      "tier": "standard",
+      "applyTo": "",
+      "triggers": [],
+      "title": "Version Management"
+    },
+    {
+      "name": "python-mock-patching-location",
+      "category": "testing",
+      "path": "skills/testing/python-mock-patching-location/",
+      "description": "Python mock.patch must target the import location, not the definition location",
+      "tier": "standard",
+      "applyTo": "**/*python*,**/*mock*,**/*patching*",
+      "triggers": [],
+      "title": "Python Mock Patching Location"
+    },
+    {
+      "name": "image-embedding-size-limits",
+      "category": "visual",
+      "path": "skills/visual/image-embedding-size-limits/",
+      "description": "Image embedding size limits in markdown — base64 bloats 33%, use file references for images over 50KB",
+      "tier": "standard",
+      "applyTo": "**/*image*,**/*embedding*,**/*size*",
+      "triggers": [],
+      "title": "Image Embedding Size Limits"
+    },
+    {
+      "name": "image-storage-embedding-split",
+      "category": "visual",
+      "path": "skills/visual/image-storage-embedding-split/",
+      "description": "Storing images at embed size loses the original:",
+      "tier": "standard",
+      "applyTo": "**/*image*,**/*storage*,**/*embedding*",
+      "triggers": [],
+      "title": "Image Storage vs Embedding Split"
+    },
+    {
+      "name": "vitepress-clean-urls",
+      "category": "vitepress",
+      "path": "skills/vitepress/vitepress-clean-urls/",
+      "description": "With `cleanUrls: true`, nav links must NOT have `.html` extensions:",
+      "tier": "extended",
+      "applyTo": "**/*vitepress*,**/*clean*,**/*urls*",
+      "triggers": [],
+      "title": "VitePress Clean URLs"
+    },
+    {
+      "name": "vitepress-iframe-embed",
+      "category": "vitepress",
+      "path": "skills/vitepress/vitepress-iframe-embed/",
+      "description": "VitePress iframe embedding gotchas — CSP headers, sandboxing, responsive sizing",
+      "tier": "extended",
+      "applyTo": "**/*vitepress*,**/*iframe*,**/*embed*",
+      "triggers": [],
+      "title": "VitePress Iframe Embed"
+    },
+    {
+      "name": "vitepress-spa-routing",
+      "category": "vitepress",
+      "path": "skills/vitepress/vitepress-spa-routing/",
+      "description": "VitePress intercepts all navigation clicks for SPA routing:",
+      "tier": "extended",
+      "applyTo": "**/*vitepress*,**/*spa*,**/*routing*",
+      "triggers": [],
+      "title": "VitePress SPA Routing"
+    },
+    {
+      "name": "vscode-configuration-validation",
+      "category": "vscode",
+      "path": "skills/vscode/vscode-configuration-validation/",
+      "description": "Validate VS Code extension manifest against runtime code usage",
+      "tier": "standard",
+      "applyTo": "**/*vscode*,**/*configuration*,**/*validation*",
+      "triggers": [],
+      "title": "VS Code Extension Configuration Validation"
+    },
+    {
+      "name": "vscode-environment",
+      "category": "vscode",
+      "path": "skills/vscode/vscode-environment/",
+      "description": "Optimal workspace setup for productivity.",
+      "tier": "standard",
+      "applyTo": "**/*vscode*,**/*environment*",
+      "triggers": [],
+      "title": "VS Code Environment Skill"
+    },
+    {
+      "name": "vscode-extension-patterns",
+      "category": "vscode",
+      "path": "skills/vscode/vscode-extension-patterns/",
+      "description": "Reusable patterns for VS Code extension development.",
+      "tier": "standard",
+      "applyTo": "**/*vscode*,**/*extension*,**/*patterns*",
+      "triggers": [],
+      "title": "VS Code Extension Patterns"
+    },
+    {
+      "name": "node-winget-collision",
+      "category": "windows-node",
+      "path": "skills/windows-node/node-winget-collision/",
+      "description": "Node.js installed via winget collides with nvm — path priority, shim conflicts, resolution steps",
+      "tier": "extended",
+      "applyTo": "**/*node*,**/*winget*,**/*collision*",
+      "triggers": [],
+      "title": "Node.js Winget Collision"
+    },
+    {
+      "name": "pat-expiration-silent",
+      "category": "windows-node",
+      "path": "skills/windows-node/pat-expiration-silent/",
+      "description": "Personal Access Token expiration fails silently — 401 errors with no expiry message, pre-check pattern",
+      "tier": "extended",
+      "applyTo": "**/*pat*,**/*expiration*,**/*silent*",
+      "triggers": [],
+      "title": "PAT Expiration Silent Failure"
+    }
+  ]
+}

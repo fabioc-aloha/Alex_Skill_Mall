@@ -18,7 +18,7 @@ The Mall also works with any AI assistant that reads `.github/` skill files:
 
 | Surface | How it uses the Mall |
 | --- | --- |
-| **ACT Edition heirs** | Native integration — `/find-skill`, `/install-from-mall`, auto-discovery via CATALOG.md |
+| **ACT Edition heirs** | Native integration — `/find-skill`, `/install-from-mall`, auto-discovery via CATALOG.json |
 | **GitHub Copilot** | Drop skills into `.github/skills/` — Copilot reads them as custom instructions |
 | **Claude (Code + Desktop)** | Skills work as `.claude/` instructions or project knowledge files |
 | **Cursor** | Copy skills into `.cursor/rules/` for context-aware completions |
@@ -86,7 +86,7 @@ Expert knowledge across 35 domains:
 | [GitHub Actions](skills/github-actions/) | 1 | Version upgrades |
 | [Performance](skills/performance/) | 1 | CPU, memory, network profiling |
 
-[Browse the full catalog →](CATALOG.md)
+[Browse the full catalog →](CATALOG.json) (machine-readable JSON — use `/find-skill` for search)
 
 Need something not in this Mall? Run `/feedback` in your heir to request it. The Supervisor evaluates external stores and promotes skills here.
 
@@ -142,7 +142,7 @@ If a skill doesn't teach your AI assistant something it wouldn't already know, i
 
 ## Works With Any AI Assistant
 
-This Mall is AI-platform agnostic. Skills are plain Markdown — they work with GitHub Copilot, Claude, Cursor, Windsurf, or any AI assistant that reads `.github/` files. The included [`.github/copilot-instructions.md`](.github/copilot-instructions.md) enables auto-discovery from the [CATALOG.md](CATALOG.md).
+This Mall is AI-platform agnostic. Skills are plain Markdown — they work with GitHub Copilot, Claude, Cursor, Windsurf, or any AI assistant that reads `.github/` files. The included [`.github/copilot-instructions.md`](.github/copilot-instructions.md) enables auto-discovery from [CATALOG.json](CATALOG.json).
 
 ## Using the Mall
 
