@@ -12,13 +12,13 @@ The result: a single marketplace where your AI assistant finds expert knowledge 
 
 ## Built for ACT Edition
 
-The Mall's primary consumer is [**Alex ACT Edition**](https://github.com/fabioc-aloha/Alex_ACT_Edition) — an AI assistant brain built on the Artificial Critical Thinking (ACT) framework. Edition heirs use `/find-skill` and `/install-from-mall` to shop the Mall directly from their projects.
+The Mall's primary consumer is [**Alex ACT Edition**](https://github.com/fabioc-aloha/Alex_ACT_Edition) — an AI assistant brain built on the Artificial Critical Thinking (ACT) framework. Edition projects use `/find-skill` and `/install-from-mall` to shop the Mall directly.
 
 The Mall also works with any AI assistant that reads `.github/` skill files:
 
 | Surface | How it uses the Mall |
 | --- | --- |
-| **ACT Edition heirs** | Native integration — `/find-skill`, `/install-from-mall`, auto-discovery via CATALOG.json |
+| **ACT Edition projects** | Native integration — `/find-skill`, `/install-from-mall`, auto-discovery via CATALOG.json |
 | **GitHub Copilot** | Drop skills into `.github/skills/` — Copilot reads them as custom instructions |
 | **Claude (Code + Desktop)** | Skills work as `.claude/` instructions or project knowledge files |
 | **Cursor** | Copy skills into `.cursor/rules/` for context-aware completions |
@@ -88,7 +88,7 @@ Expert knowledge across 35 domains:
 
 [Browse the full catalog →](CATALOG.json) (machine-readable JSON — use `/find-skill` for search)
 
-Need something not in this Mall? Run `/feedback` in your heir to request it. The Supervisor evaluates external stores and promotes skills here.
+Need something not in this Mall? Run `/feedback` in your project to request it. The Supervisor evaluates external stores and promotes skills here.
 
 ### [Scaffolds](scaffolds/) — Project Starters
 
@@ -114,7 +114,7 @@ Skills arrive from three streams. Every skill passes the same quality gates rega
 | --- | --- | --- |
 | **Original** | Built from real project friction — the gotcha you hit, documented so nobody hits it again | Shell injection prevention, TMDL linter false positives, boolean string trap |
 | **Curated from external stores** | The Supervisor scans 19+ plugin stores (Microsoft, community, internal), evaluates with a five-dimension scorecard, strips telemetry, standardizes frontmatter, and promotes | CodeQL skills from `.github-private`, Fabric skills from `awesome-copilot`, enterprise patterns from `wshobson-agents` |
-| **Promoted from heirs** | Fleet projects surface patterns through `/feedback` — the Supervisor triages and generalizes | Cross-platform path gotchas, Azure SWA deployment issues |
+| **Promoted from projects** | Fleet projects surface patterns through `/feedback` — the Supervisor triages and generalizes | Cross-platform path gotchas, Azure SWA deployment issues |
 
 The [Supervisor](skills/supervisor/) automates this pipeline: `/scan-stores` to discover, `/add-store` to evaluate, `/audit-mall` to keep it fresh.
 
@@ -138,7 +138,7 @@ This Mall is AI-platform agnostic. Skills are plain Markdown — they work with 
 
 ## Using the Mall
 
-### From a VS Code heir
+### From a VS Code project
 
 1. Run `/find-skill <keyword>` to search
 2. Run `/install-from-mall` for guided install with project-needs assessment
