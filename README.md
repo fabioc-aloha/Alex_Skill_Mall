@@ -68,7 +68,7 @@ Domain-specific knowledge that saves debugging time:
 
 [Browse the full catalog →](CATALOG.md)
 
-Looking for skills *outside* Alex_Skill_Mall? See [STORES.md](STORES.md) for the directory of external stores and [EXTERNAL-CATALOG.md](EXTERNAL-CATALOG.md) for an abbreviated, at-a-glance summary of what each store offers.
+Need something not in this Mall? Run `/feedback` in your heir to request it. The Supervisor evaluates external stores and promotes skills here.
 
 ### [Scaffolds](scaffolds/) — Project Starters
 
@@ -118,34 +118,18 @@ This KB includes [`.github/copilot-instructions.md`](.github/copilot-instruction
 
 ---
 
-## KB Mall — External Skill Stores
+## Using the Mall
 
-When Alex Skill Mall doesn't have what you need, browse other stores:
+### From a VS Code heir
 
-**[STORES.md](STORES.md)** — LLM-friendly directory of 15+ skill stores
+1. Run `/find-skill <keyword>` to search
+2. Run `/install-from-mall` for guided install with project-needs assessment
+3. Skills install into `.github/skills/local/` (survives Edition upgrades)
 
-| Store | Stars | Focus |
-| --- | --- | --- |
-| [microsoft/skills](https://github.com/microsoft/skills) | 2.2K | Azure SDKs (132 skills, 5 languages) |
-| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 168K | Largest cross-platform (183 skills) |
-| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 18K | Official Claude Code plugins |
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 12K | 12-platform support (235 skills) |
-
-Your AI can read STORES.md to research which store has your answer.
-
-### For GitHub Copilot / VS Code
-
-Clone this repo as a submodule or reference folder:
+### Clone for local access
 
 ```bash
-git submodule add https://github.com/fabioc-aloha/Alex_Skill_Mall.git skill-mall
-```
-
-### For Other AI Assistants (Claude, ChatGPT, etc.)
-
-```text
-I have access to a skill store at https://github.com/fabioc-aloha/Alex_Skill_Mall
-Consult the CATALOG.md for available skills. Load the SKILL.md before giving advice.
+git clone https://github.com/fabioc-aloha/Alex_Skill_Mall.git ~/Alex_Skill_Mall
 ```
 
 ---
