@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**267 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**273 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
@@ -1144,4 +1144,5 @@ Dev-tooling, ops, reasoning, and quality-of-life utilities.
 **vscode-environment** | `skills/vscode/vscode-environment/` | vscode, environment, settings
 
 - VS Code environment setup — settings, extensions, keybindings tuned for AI-assisted development
+
 
