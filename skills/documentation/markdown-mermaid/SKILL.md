@@ -1596,6 +1596,10 @@ KISS means removing **unnecessary** complexity while preserving **meaningful** i
 
 ## 📚 References
 
+### Skill References (in `references/`)
+
+- **[references/diagram-types.md](references/diagram-types.md)** — Per-type quick-reference syntax for all 23 Mermaid diagram types with examples and pitfalls
+
 ### Official Documentation
 
 - [Mermaid Documentation](https://mermaid.js.org/intro/)

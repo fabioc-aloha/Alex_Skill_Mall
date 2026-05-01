@@ -1,12 +1,12 @@
 # Skill Catalog
 
-**202 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**207 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
 ---
 
-## Security (6)
+## Security (7)
 
 **allowlist-over-blocklist** | `skills/security/allowlist-over-blocklist/` | security, validation, input
 
@@ -37,6 +37,11 @@
 
 - Trigger: Building HTTP API, security review checklist
 - Pattern: 4-layer defense (rate limiting, JWT validation, CORS, input validation)
+
+**threat-surface-analysis** | `skills/security/threat-surface-analysis/` | security, threat-modeling, architecture
+
+- Trigger: Security review, threat modeling prep, discovering attack surface of unfamiliar codebase
+- Pattern: Ecosystem detection → project classification → dependency graph → config & auth → trust boundaries
 
 ---
 
@@ -74,7 +79,7 @@
 
 ---
 
-## Quality (8)
+## Quality (9)
 
 **universal-audit-pattern** | `skills/quality/universal-audit-pattern/` | quality, audit, process
 
@@ -115,6 +120,11 @@
 
 - Trigger: Code scanning regex missing real usage
 - Pattern: Detect capability (import + call) not literal strings
+
+**repository-readiness-eval** | `skills/quality/repository-readiness-eval/` | quality, onboarding, ci-cd
+
+- Trigger: Onboarding to new repo, assessing AI-agent readiness, CI health check
+- Pattern: 4-axis eval (code understanding → dependency restore → build → test) with 0–20 scoring
 
 ---
 
@@ -369,6 +379,29 @@
 
 - Trigger: New Vite + Azure SWA project
 - Pattern: Starter with common gotchas pre-solved
+
+---
+
+## Media (2)
+
+**marp-presentation** | `skills/media/marp-presentation/` | marp, slides, presentation, pdf
+
+- Trigger: Create slides, export Marp deck to PDF/PPTX, review presentation quality, theme customization
+- Pattern: 4 capabilities (create → build → review → theme) for end-to-end Marp workflow
+
+**alex-banner-generation** | `skills/media/alex-banner-generation/` | svg, banner, branding
+
+- Trigger: Generate branded SVG banner for README, PLAN, CHANGELOG, or other docs
+- Pattern: Watermark selection + subtitle craft → muscle generates 1200×300 SVG
+
+---
+
+## AI / LLM (1)
+
+**agentic-eval** | `skills/ai-llm/agentic-eval/` | evaluation, llm-as-judge, self-critique
+
+- Trigger: Building self-improvement loops, evaluator-optimizer pipelines, rubric-based scoring
+- Pattern: Generate → Evaluate → Critique → Refine loop with convergence detection
 
 ---
 
