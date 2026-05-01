@@ -1,15 +1,16 @@
 ---
+type: skill
+inheritance: inheritable
+lifecycle: stable
 name: book-launch-content
 description: "Generate launch-companion content for books — blog posts, author notes, and dogfooding angles that demonstrate the book's thesis through its own production. Use when a manuscript is approaching publication submission (KDP, agent query, prelaunch)."
-currency: 2026-04-25
+tier: standard
+applyTo: "**/books/**,**/manuscript*,**/*launch*content*,**/*book*launch*"
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
+
 # Book Launch Content
-
-**Tags**: `book-launch` `marketing` `content`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Companion-content patterns for book launches — find the angle that demonstrates the thesis instead of summarizing it.
 

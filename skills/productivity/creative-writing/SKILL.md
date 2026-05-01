@@ -1,15 +1,16 @@
 ---
+type: skill
+inheritance: inheritable
+lifecycle: stable
 name: creative-writing
 description: Patterns for fiction, narrative structure, character development, dialogue, and storytelling craft.
-currency: 2026-04-22
+tier: standard
+applyTo: '**/*fiction*,**/*story*,**/*narrative*,**/*dialogue*,**/*character*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
+
 # Creative Writing Skill
-
-**Tags**: `fiction` `narrative` `structure`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Patterns for fiction, narrative structure, character development, dialogue, and storytelling craft.
 
@@ -22,7 +23,7 @@ currency: 2026-04-22
 ```text
 book-project/
 ├── .github/
-│   ├── copilot-instructions.md    # Book-specific the AI assistant context
+│   ├── copilot-instructions.md    # Book-specific Alex context
 │   └── prompts/
 │       └── chapter-review.prompt.md
 ├── outline/
@@ -149,7 +150,7 @@ book-project/
 - Characters: characters/CHARACTER-BIBLE.md
 - World: worldbuilding/WORLD-BIBLE.md (if applicable)
 
-## the AI assistant Guidance
+## Alex Guidance
 - **Voice**: [Describe the narrative voice — literary, commercial, etc.]
 - **POV Rules**: [Third limited / No head-hopping / etc.]
 - **Tone**: [Dark, humorous, lyrical, etc.]
@@ -176,7 +177,7 @@ book-project/
 - [ ] Chapters organized (by act or sequentially)
 - [ ] Drafts versioned separately
 
-### the AI assistant-Readiness Assessment
+### Alex-Readiness Assessment
 - [ ] copilot-instructions.md exists with project context
 - [ ] Current phase clearly marked
 - [ ] Voice/tone guidance provided

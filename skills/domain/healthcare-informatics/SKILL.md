@@ -1,15 +1,16 @@
 ---
+type: skill
+inheritance: inheritable
+lifecycle: stable
 name: healthcare-informatics
 description: Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and health data management.
-currency: 2026-04-22
+tier: extended
+applyTo: '**/*health*,**/*clinical*,**/*medical*,**/*patient*,**/*hipaa*,**/*ehr*,**/*pharma*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
+
 # Healthcare Informatics Skill
-
-**Tags**: `clinical` `hipaa` `healthcare`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and health data management.
 
@@ -20,7 +21,6 @@ Healthcare information systems exist to improve patient outcomes. Every data dec
 ## HIPAA Compliance
 
 ### Protected Health Information (PHI)
-
 PHI is any individually identifiable health information. The 18 HIPAA identifiers:
 
 | # | Identifier | Example |
@@ -45,14 +45,12 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 | 18 | Any other unique identifying number | All |
 
 ### De-identification Methods
-
 | Method | Approach | Use When |
 |--------|----------|----------|
 | **Safe Harbor** | Remove all 18 identifiers | Standard approach, lower risk |
 | **Expert Determination** | Statistical/scientific analysis | Need richer dataset, qualified expert available |
 
 ### Minimum Necessary Standard
-
 - Use or disclose only the minimum PHI necessary for the purpose
 - Role-based access controls in EHR systems
 - Audit logs for every PHI access
@@ -101,7 +99,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 ## Clinical Terminology Standards
 
 ### Key Coding Systems
-
 | System | Purpose | Example |
 |--------|---------|---------|
 | **ICD-10** | Diagnosis codes | E11.9 (Type 2 diabetes without complications) |
@@ -112,7 +109,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 | **NDC** | Drug packaging | 10-digit national drug code |
 
 ### Interoperability Standards
-
 | Standard | Role |
 |----------|------|
 | **HL7 FHIR** | RESTful API for health data exchange |
@@ -124,7 +120,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 ## Electronic Health Records (EHR)
 
 ### Core EHR Functions
-
 1. **Clinical Documentation** — Progress notes, assessments, plans
 2. **CPOE** — Computerized Provider Order Entry (meds, labs, imaging)
 3. **CDS** — Clinical Decision Support (alerts, reminders, pathways)
@@ -132,7 +127,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 5. **Medication Management** — e-Prescribing, interaction checks, reconciliation
 
 ### Patient Safety Checks
-
 | Check | Purpose |
 |-------|---------|
 | Drug-drug interactions | Prevent harmful combinations |
@@ -144,7 +138,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 ## Healthcare Data Analytics
 
 ### Quality Measures
-
 | Measure Type | Example | Source |
 |-------------|---------|--------|
 | **Process** | % of diabetics with annual HbA1c | HEDIS |
@@ -153,7 +146,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 | **Structure** | EHR adoption rate, nurse-to-patient ratio | Various |
 
 ### Risk Adjustment
-
 - HCC (Hierarchical Condition Categories) for Medicare risk scoring
 - Comorbidity indices (Charlson, Elixhauser) for severity adjustment
 - Social Determinants of Health (SDOH) as contextual factors
@@ -161,7 +153,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 ## Research & Clinical Trials
 
 ### IRB Requirements
-
 | Element | Requirement |
 |---------|------------|
 | Informed consent | Written, plain language, voluntary |
@@ -170,7 +161,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 | Vulnerable populations | Extra safeguards for children, prisoners, pregnant women |
 
 ### Clinical Trial Phases
-
 | Phase | Purpose | Size |
 |-------|---------|------|
 | Phase I | Safety, dosage | 20–100 |
@@ -181,7 +171,6 @@ PHI is any individually identifiable health information. The 18 HIPAA identifier
 ## AI in Healthcare — Guardrails
 
 **Critical**: AI-generated medical information must never be presented as clinical advice.
-
 - Always include disclaimer: "This is informational only. Consult a healthcare professional."
 - Never diagnose or recommend treatment
 - Flag when confidence is low or data is ambiguous

@@ -1,21 +1,20 @@
 ---
+type: skill
+inheritance: inheritable
+lifecycle: stable
 name: "book-publishing"
 description: "Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready formatting"
-metadata:
-  inheritance: inheritable
-currency: 2026-04-22
+tier: extended
+applyTo: '**/*book*,**/*publish*,**/*pdf*,**/*pandoc*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
+
 # Book Publishing
-
-**Tags**: `pdf` `pandoc` `latex`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > End-to-end book production pipeline: Markdown → Pandoc → LuaLaTeX → dual PDF (print + digital).
 
-> **Staleness Watch**: See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence
+> **Staleness Watch**: See [EXTERNAL-API-REGISTRY.md](../../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence
 
 **Scope**: Inheritable skill. Covers the complete pipeline for producing professional-quality PDF books from Markdown source, including emoji handling, dual format output, and print-ready configuration.
 

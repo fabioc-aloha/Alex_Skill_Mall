@@ -1,26 +1,27 @@
 ---
+type: skill
+inheritance: inheritable
+lifecycle: stable
 name: kdp-publishing
 description: "Amazon KDP self-publishing specs — cover requirements, interior formatting, spine formulas, ink options, and pricing tiers"
-currency: 2026-04-22
+applyTo: "**/*kdp*,**/*publish*,**/*book*"
+tier: extended
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
+
 # Domain Knowledge: Amazon KDP Self-Publishing
 
-**Tags**: `amazon` `kdp` `self-publishing`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
-
-**Source**: Validated from publishing *the AI assistant in Wonderland* (Amazon KDP, February 21, 2026)
+**Source**: Validated from publishing *Alex in Wonderland* (Amazon KDP, February 21, 2026)
 **Applies to**: Any book published via Amazon Kindle Direct Publishing
 **Last verified**: February 21, 2026
 
-## Live Reference: *the AI assistant in Wonderland* (Published February 21, 2026)
+## Live Reference: *Alex in Wonderland* (Published February 21, 2026)
 
 | Field           | Value                                                                         |
 | --------------- | ----------------------------------------------------------------------------- |
-| Title           | the AI assistant in Wonderland: A Detective Mystery Adventure                             |
-| Series          | your AI assistant Detective Series, Book 1                                           |
+| Title           | Alex in Wonderland: A Detective Mystery Adventure                             |
+| Series          | Alex Finch Detective Series, Book 1                                           |
 | Author          | *(your name)*                                                                 |
 | ISBN            | 979-8-24895072-0 (KDP free ISBN, 979-8 prefix)                                |
 | Kindle ASIN     | B0GPCV6V6R — [amazon.com/dp/B0GPCV6V6R](https://www.amazon.com/dp/B0GPCV6V6R) |
@@ -141,12 +142,10 @@ At $17.99: (0.60 × $17.99) − $8.14 = $2.65 royalty
 ## Categories & Keywords
 
 **Reading age settings**:
-
 - Ages 9–12 → Children's Books categories
 - Ages 13–17 → Teen & Young Adult categories
 
 **Category selections** (up to 3 for middle-grade mystery):
-
 1. Children's Books > Mysteries & Detectives
 2. Children's Books > Science Fiction & Fantasy > Fantasy & Magic
 3. Children's Books > Growing Up & Facts of Life > Friendship

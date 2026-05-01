@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: academic-editorial-judgment
+description: Context-dependent editorial style rules for academic writing — APA7, Chicago, MLA judgment calls
+tier: extended
+applyTo: '**/*academic*,**/*editorial*,**/*apa*,**/*chicago*,**/*mla*,**/*manuscript*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Academic Editorial Judgment
 
 ## The Problem
