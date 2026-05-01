@@ -142,7 +142,7 @@ If a skill doesn't teach your AI assistant something it wouldn't already know, i
 
 ## Works With Any AI Assistant
 
-This Mall is AI-platform agnostic. Skills are plain Markdown — they work with GitHub Copilot, Claude, Cursor, Windsurf, or any AI assistant that reads `.github/` files. The included [`.github/copilot-instructions.md`](.github/copilot-instructions.md) enables auto-discovery from [CATALOG.json](CATALOG.json).
+This Mall is AI-platform agnostic. Skills are plain Markdown — they work with GitHub Copilot, Claude, Cursor, Windsurf, or any AI assistant that reads `.github/` files. The machine-readable [CATALOG.json](CATALOG.json) enables programmatic search and auto-discovery.
 
 ## Using the Mall
 
