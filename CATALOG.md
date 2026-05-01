@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**289 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**303 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
@@ -1150,3 +1150,62 @@ Dev-tooling, ops, reasoning, and quality-of-life utilities.
 
 
 
+
+
+## Supervisor (14 skills + instructions + prompts + scripts)
+
+Complete package for running your own ACT Supervisor instance. See `skills/supervisor/SKILL.md` for the full setup guide.
+
+**coherence-audit** | `skills/supervisor/coherence-audit/` | governance, cross-repo
+- Trigger: Edition references don't match Mall reality
+- Pattern: Cross-repo reference validation with catalog-of-record rules
+
+**escalation-routing** | `skills/supervisor/escalation-routing/` | governance, routing
+- Trigger: Feedback or change touches ACT framework scope
+- Pattern: Cardinal Test: stays in Supervisor vs escalates upstream
+
+**feedback-triage** | `skills/supervisor/feedback-triage/` | governance, feedback
+- Trigger: New items in heir feedback inbox
+- Pattern: Categorize, deduplicate, route to Edition fix / Mall change / escalation
+
+**fleet-announcement** | `skills/supervisor/fleet-announcement/` | governance, fleet
+- Trigger: Need to communicate with all heirs
+- Pattern: Write announcement to AI-Memory with auto_actions
+
+**fleet-management** | `skills/supervisor/fleet-management/` | governance, fleet
+- Trigger: Heir sync, drift detection, version auditing
+- Pattern: Audit → Upgrade → Verify → Curate
+
+**mall-curation** | `skills/supervisor/mall-curation/` | governance, mall
+- Trigger: Monthly audit or new store proposal
+- Pattern: Add / Keep / Refresh / Prune decision tree
+
+**release-process** | `skills/supervisor/release-process/` | governance, release
+- Trigger: Publishing to marketplace
+- Pattern: PAT setup, preflight gates, version sync, publish
+
+**release-ritual** | `skills/supervisor/release-ritual/` | governance, release
+- Trigger: Cutting an Edition release
+- Pattern: Preflight → brain-qa → changelog → tag → push → announce
+
+**skill-review** | `skills/supervisor/skill-review/` | governance, review
+- Trigger: PR or submission for Edition
+- Pattern: Four-gate review: spec, quality, scope, safety
+
+**staleness-discipline** | `skills/supervisor/staleness-discipline/` | governance, mall
+- Trigger: Monthly Mall sweep or broken entry report
+- Pattern: Define stale → classify → prune gracefully
+
+**store-adoption** | `skills/supervisor/store-adoption/` | governance, adoption
+- Trigger: External store evaluation
+- Pattern: Fetch → semantic match → triage → route
+
+**store-evaluation** | `skills/supervisor/store-evaluation/` | governance, evaluation
+- Trigger: New store proposed for Mall
+- Pattern: Five-dimension scorecard (maintenance, adoption, license, fit, docs)
+
+**version-management** | `skills/supervisor/version-management/` | governance, semver
+- Trigger: Classifying PRs and cutting releases
+- Pattern: "Would a heir notice?" test → patch / minor / major
+
+Also includes: 9 instructions, 21 prompts, 9 scripts, identity template, ADR template.
