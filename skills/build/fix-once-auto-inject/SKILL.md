@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: fix-once-auto-inject
+description: One-time fixes get repeated manually:
+tier: standard
+applyTo: '**/*fix*,**/*once*,**/*auto*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Fix-Once + Auto-Inject-Future
 
 ## The Problem

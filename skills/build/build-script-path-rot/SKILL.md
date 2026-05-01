@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: build-script-path-rot
+description: Hardcoded paths in build scripts break when directory structure changes:
+tier: standard
+applyTo: '**/*build*,**/*script*,**/*path*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Build Script Path Rot
 
 ## The Problem

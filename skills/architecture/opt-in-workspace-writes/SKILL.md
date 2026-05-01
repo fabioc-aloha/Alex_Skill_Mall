@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: opt-in-workspace-writes
+description: Extensions/tools that auto-write to user workspaces without consent:
+tier: standard
+applyTo: '**/*opt*,**/*workspace*,**/*writes*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Opt-In for Workspace Writes
 
 ## The Problem

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: security-review
 description: Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI
+tier: standard
+applyTo: '**/*security*,**/*review*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Security Review Skill
 
-**Tags**: `owasp` `stride` `audit`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Defend before attackers find the gaps.
 

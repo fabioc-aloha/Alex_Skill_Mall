@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: error-message-sanitization
+description: Raw error messages leak internal information to users:
+tier: standard
+applyTo: '**/*error*,**/*message*,**/*sanitization*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Error Message Sanitization
 
 ## The Problem

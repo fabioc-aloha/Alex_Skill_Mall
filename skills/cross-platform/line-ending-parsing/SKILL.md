@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: line-ending-parsing
+description: Line ending handling across platforms — CRLF vs LF detection, normalization, and git config
+tier: standard
+applyTo: '**/*line*,**/*ending*,**/*parsing*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Line Ending Parsing
 
 **Category**: Cross-Platform

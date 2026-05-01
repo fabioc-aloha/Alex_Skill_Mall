@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: capability-signature-detection
+description: Code-scanning regex that looks for literal strings misses real usage:
+tier: standard
+applyTo: '**/*capability*,**/*signature*,**/*detection*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Capability Signature Detection
 
 ## The Problem

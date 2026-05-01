@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "video-generation"
-description: "AI video generation via Replicate — 17 models, editing, and production workflows"
-$schema: ../SKILL-SCHEMA.json
+description: AI video generation via Replicate — 17 models, editing, and production workflows
+tier: extended
+applyTo: '**/*video*,**/*generation*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Video Generation Skill
 
-**Tags**: `video` `replicate` `ai-generation`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > **Domain**: AI Video Generation  
 > **Version**: 2.0.0  

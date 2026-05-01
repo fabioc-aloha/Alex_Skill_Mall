@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "testing-strategies"
-description: "Systematic testing for confidence without over-testing — the right test at the right level"
+description: Systematic testing for confidence without over-testing — the right test at the right level
+tier: standard
+applyTo: '**/*testing*,**/*strategies*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Testing Strategies Skill
 
-**Tags**: `testing` `coverage` `risk`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Test the behavior, not the implementation. Test the boundaries, not the happy path.
 

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: hr-people-operations
 description: Talent acquisition, employee lifecycle, compensation, labor regulations, and organizational development.
+tier: extended
+applyTo: '**/*people*,**/*operations*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # HR & People Operations Skill
 
-**Tags**: `hr` `talent` `lifecycle`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Talent acquisition, employee lifecycle, compensation, labor regulations, and organizational development.
 

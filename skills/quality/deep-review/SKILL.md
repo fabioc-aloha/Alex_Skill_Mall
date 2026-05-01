@@ -1,6 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: deep-review
-description: "Adversarial code review with three parallel perspectives — Advocate, Skeptic, Architect — that create productive tension. Use for high-stakes PRs, architectural changes, or when single-pass review would miss issues. Surfaces findings through disagreement, not consensus."
+description: Adversarial code review with three parallel perspectives — Advocate, Skeptic, Architect — that create productive tension. Use for high-stakes PRs, architectural changes, or when single-pass review would miss issues. Surfaces findings through disagreement, not consensus.
+tier: standard
+applyTo: '**/*deep*,**/*review*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
 
 # Deep Review

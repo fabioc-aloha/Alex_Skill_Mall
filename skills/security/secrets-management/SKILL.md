@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "secrets-management"
-description: "Secure token storage, VS Code SecretStorage API, credential management, environment variable migration"
+description: Secure token storage, VS Code SecretStorage API, credential management, environment variable migration
+tier: standard
+applyTo: '**/*secrets*,**/*management*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Secrets Management Skill
 
-**Tags**: `secrets` `secretstorage` `key-vault` `env`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Expert in secure credential storage for VS Code extensions using SecretStorage API, token lifecycle management, and security best practices.
 

@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: msal-singleton-pattern
+description: Time Saved: 1+ hour debugging silent auth failures
+tier: standard
+applyTo: '**/*msal*,**/*singleton*,**/*pattern*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # MSAL Singleton Pattern
 
 **Category**: Azure

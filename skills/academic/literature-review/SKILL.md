@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: literature-review
 description: Systematic literature search, synthesis, gap identification, and narrative construction for academic research
+tier: extended
+applyTo: '**/*literature*,**/*review*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Literature Review
 
-**Tags**: `literature` `synthesis` `search`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Systematic literature search, synthesis, gap identification, and narrative construction for academic research.
 

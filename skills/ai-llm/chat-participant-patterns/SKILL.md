@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: chat-participant-patterns
 description: VS Code Chat API patterns.
+tier: standard
+applyTo: '**/*chat*,**/*participant*,**/*patterns*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Chat Participant Patterns Skill
 
-**Tags**: `vscode` `chat-api` `participant`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > VS Code Chat API patterns.
 

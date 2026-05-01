@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: rag-architecture
 description: Build retrieval-augmented generation systems that ground LLMs in your data.
+tier: standard
+applyTo: '**/*rag*,**/*architecture*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # RAG Architecture Skill
 
-**Tags**: `rag` `retrieval` `vector-store`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Build retrieval-augmented generation systems that ground LLMs in your data.
 

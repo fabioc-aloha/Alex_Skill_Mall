@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: rubber-duck-debugging
 description: Be a thinking partner. The answer often emerges when explaining the problem.
+tier: core
+applyTo: '**/*rubber*,**/*duck*,**/*debugging*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Rubber Duck Debugging Skill
 
-**Tags**: `debugging` `thinking-partner`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Be a thinking partner. The answer often emerges when explaining the problem.
 

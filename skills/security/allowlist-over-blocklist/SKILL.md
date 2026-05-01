@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: allowlist-over-blocklist
+description: Validate input against an allowlist of permitted values — reject everything else
+tier: standard
+applyTo: '**/*allowlist*,**/*over*,**/*blocklist*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Allowlist Over Blocklist
 
 **Category**: Security

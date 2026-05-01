@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: shell-injection-prevention
+description: Use execFileSync with args array instead of execSync with string concatenation to prevent shell injection
+tier: standard
+applyTo: '**/*shell*,**/*injection*,**/*prevention*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Shell Injection Prevention
 
 **Category**: Security

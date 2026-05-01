@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: infrastructure-as-code
-description: '**Domain**: DevOps & Cloud Engineering'
+description: Domain: DevOps & Cloud Engineering
+tier: standard
+applyTo: '**/*infrastructure*,**/*code*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Infrastructure as Code Skill
 
-**Tags**: `iac` `bicep` `terraform` `arm`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > **Domain**: DevOps & Cloud Engineering
 > **Inheritance**: inheritable

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: error-recovery-patterns
 description: What to do when things break.
+tier: standard
+applyTo: '**/*error*,**/*recovery*,**/*patterns*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Error Recovery Patterns Skill
 
-**Tags**: `error-handling` `recovery` `resilience`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > What to do when things break.
 

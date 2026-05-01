@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: md-to-epub
+description: Convert Markdown to EPUB 3 e-books via Pandoc.
+tier: standard
+applyTo: '**/*epub*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # md-to-epub
 
 Convert Markdown to EPUB 3 e-books via Pandoc.

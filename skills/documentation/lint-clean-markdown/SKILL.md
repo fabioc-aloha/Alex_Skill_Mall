@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: lint-clean-markdown
 description: Write markdown that passes linting on first attempt by internalizing common rules.
+tier: standard
+applyTo: '**/*lint*,**/*clean*,**/*markdown*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
 
 # Lint-Clean Markdown Skill
 
-**Tags**: `markdown` `lint` `formatting`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Write markdown that passes linting on first attempt by internalizing common rules.
 

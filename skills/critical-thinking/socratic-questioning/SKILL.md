@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: socratic-questioning
 description: Help users discover answers, don't just deliver them.
+tier: core
+applyTo: '**/*socratic*,**/*questioning*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Socratic Questioning Skill
 
-**Tags**: `questioning` `discovery` `teaching`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Help users discover answers, don't just deliver them.
 

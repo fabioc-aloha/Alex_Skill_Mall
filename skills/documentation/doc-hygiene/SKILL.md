@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: doc-hygiene
 description: Documentation hygiene — anti-drift rules, count elimination, and living document maintenance
+tier: standard
+applyTo: '**/*doc*,**/*hygiene*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
 
 # Documentation Hygiene
 
-**Tags**: `docs` `hygiene` `drift`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Prevent documentation drift through structural rules — not manual vigilance.
 

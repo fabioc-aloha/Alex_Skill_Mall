@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: mcp-builder
 description: Build MCP servers for LLM tool integration — Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK)
+tier: standard
+applyTo: '**/*mcp*,**/*builder*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # MCP Server Development Guide
 
-**Tags**: `mcp` `tools` `registration`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Build high-quality MCP servers that enable LLMs to interact with external services
 

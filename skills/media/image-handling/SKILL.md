@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "image-handling"
-description: "Right format, right size, right quality — plus AI image generation via Replicate"
+description: Right format, right size, right quality — plus AI image generation via Replicate
+tier: extended
+applyTo: '**/*image*,**/*handling*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Image Handling Skill
 
-**Tags**: `images` `format` `size` `quality`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Right format, right size, right quality.
 > **Staleness Watch**: See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence

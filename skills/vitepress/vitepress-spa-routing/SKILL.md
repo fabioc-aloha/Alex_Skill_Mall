@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: vitepress-spa-routing
+description: VitePress intercepts all navigation clicks for SPA routing:
+tier: extended
+applyTo: '**/*vitepress*,**/*spa*,**/*routing*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # VitePress SPA Routing
 
 ## The Problem

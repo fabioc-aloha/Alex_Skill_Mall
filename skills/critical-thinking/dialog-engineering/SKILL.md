@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "dialog-engineering"
-description: "CSAR Loop and structured conversation patterns for effective AI dialog -- Clarify, Summarize, Act, Reflect"
+description: CSAR Loop and structured conversation patterns for effective AI dialog -- Clarify, Summarize, Act, Reflect
+tier: core
+applyTo: '**/*dialog*,**/*engineering*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Dialog Engineering
 
-**Tags**: `csar` `conversation` `structure`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Single prompts fail at complex problems. Structured dialog succeeds.
 

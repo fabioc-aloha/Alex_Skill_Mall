@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: vitepress-clean-urls
+description: With `cleanUrls: true`, nav links must NOT have `.html` extensions:
+tier: extended
+applyTo: '**/*vitepress*,**/*clean*,**/*urls*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # VitePress Clean URLs
 
 ## The Problem

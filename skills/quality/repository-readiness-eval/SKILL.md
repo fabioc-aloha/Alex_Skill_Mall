@@ -1,6 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: repository-readiness-eval
-description: "Evaluate a repository's readiness for AI-assisted development across 4 axes: code understanding, dependency restore, build success, and test execution. Use when onboarding to a new repo, assessing CI readiness, or validating that an AI agent can work effectively in a codebase."
+description: Evaluate a repository's readiness for AI-assisted development across 4 axes: code understanding, dependency restore, build success, and test execution. Use when onboarding to a new repo, assessing CI readiness, or validating that an AI agent can work effectively in a codebase.
+tier: standard
+applyTo: '**/*repository*,**/*readiness*,**/*eval*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
 
 # Repository Readiness Evaluation

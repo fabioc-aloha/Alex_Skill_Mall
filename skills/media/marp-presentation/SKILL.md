@@ -1,6 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: marp-presentation
-description: "End-to-end Marp Markdown presentation workflow — create decks from topics or codebases, build to PDF/PPTX/HTML, review for quality, and customize themes. Use when asked to create slides, export presentations, review decks, or style Marp files."
+description: End-to-end Marp Markdown presentation workflow — create decks from topics or codebases, build to PDF/PPTX/HTML, review for quality, and customize themes. Use when asked to create slides, export presentations, review decks, or style Marp files.
+tier: extended
+applyTo: '**/*marp*,**/*presentation*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
 
 # Marp Presentation Workflow

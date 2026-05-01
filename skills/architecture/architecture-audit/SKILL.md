@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: architecture-audit
-description: Comprehensive **project** consistency review across code, documentation, diagrams, and configuration
+description: Comprehensive project consistency review across code, documentation, diagrams, and configuration
+tier: standard
+applyTo: '**/*architecture*,**/*audit*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Architecture Audit
 
-**Tags**: `consistency` `audit` `project-wide`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Comprehensive **project** consistency review across code, documentation, diagrams, and configuration
 

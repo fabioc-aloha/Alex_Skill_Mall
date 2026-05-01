@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: work-life-balance
 description: Detect burnout signals and proactively support sustainable productivity.
+tier: extended
+applyTo: '**/*work*,**/*life*,**/*balance*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Work-Life Balance Skill
 
-**Tags**: `wellbeing` `sustainable` `pace`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Detect burnout signals and proactively support sustainable productivity.
 

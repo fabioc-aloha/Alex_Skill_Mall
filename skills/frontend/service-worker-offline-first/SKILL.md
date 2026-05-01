@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: service-worker-offline-first
-description: "Progressive Web App offline-first patterns — Service Worker lifecycle, caching strategies, background sync, and offline fallbacks for resilient web applications"
+description: Progressive Web App offline-first patterns — Service Worker lifecycle, caching strategies, background sync, and offline fallbacks for resilient web applications
+tier: standard
+applyTo: '**/*service*,**/*worker*,**/*offline*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Service Worker Offline-First Patterns
 
-**Tags**: `pwa` `service-worker` `offline`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Resilient web applications that work when the network doesn't.
 

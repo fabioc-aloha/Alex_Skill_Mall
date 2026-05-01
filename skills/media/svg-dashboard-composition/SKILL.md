@@ -1,9 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: svg-dashboard-composition
-domain: media
-tags: [svg, dashboard, visualization, treemap, panel, composition]
+description: Compose one self-contained SVG from multiple visual fragments — banner, treemap, bar charts, KPI strip, footer — using a shared coordinate system and one panel primitive.
+tier: extended
+applyTo: '**/*svg*,**/*dashboard*,**/*composition*'
 currency: 2026-04-29
-promoted-from: AlexFleetPortfolio (publish/VISUAL-STORYTELLING.md)
+lastReviewed: 2026-04-30
 ---
 
 # SVG Dashboard Composition

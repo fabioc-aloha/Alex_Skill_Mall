@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: change-management
 description: Patterns for organizational change, ADKAR methodology, stakeholder engagement, and adoption strategies.
+tier: standard
+applyTo: '**/*change*,**/*management*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Change Management Skill
 
-**Tags**: `adkar` `organizational` `change`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Patterns for organizational change, ADKAR methodology, stakeholder engagement, and adoption strategies.
 

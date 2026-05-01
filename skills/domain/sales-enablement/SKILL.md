@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: sales-enablement
 description: Sales methodology, pipeline management, negotiation frameworks, and customer engagement patterns.
+tier: extended
+applyTo: '**/*sales*,**/*enablement*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Sales Enablement Skill
 
-**Tags**: `sales` `pipeline` `enablement`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Sales methodology, pipeline management, negotiation frameworks, and customer engagement patterns.
 

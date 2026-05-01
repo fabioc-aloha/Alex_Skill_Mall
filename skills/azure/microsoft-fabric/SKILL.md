@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: microsoft-fabric
 description: Microsoft Fabric workspace management, governance, REST API patterns, and medallion architecture implementation
+tier: standard
+applyTo: '**/*microsoft*,**/*fabric*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Microsoft Fabric Governance Skill
 
-**Tags**: `fabric` `lakehouse` `medallion`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > ⚠️ **Staleness Watch** (Last validated: Feb 2026 — REST API v1): Microsoft Fabric ships major features monthly. Monitor the [Fabric release notes](https://learn.microsoft.com/en-us/fabric/release-notes/release-notes) for new item types, API surface changes, and Git integration improvements. The REST API base URL (`api.fabric.microsoft.com/v1`) is stable but new endpoints are added regularly. See also [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md).
 

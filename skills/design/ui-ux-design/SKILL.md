@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: ui-ux-design
 description: User interface design, user experience optimization, accessibility compliance, design systems
+tier: extended
+applyTo: '**/*design*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # UI/UX Design
 
-**Tags**: `design-system` `accessibility` `components`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 **Domain**: User interface design, user experience optimization, accessibility compliance, design systems  
 **Applicable To**: Web applications, VS Code extensions, mobile apps, desktop software  

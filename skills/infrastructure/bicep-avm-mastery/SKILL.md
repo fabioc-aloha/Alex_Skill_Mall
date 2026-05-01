@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: bicep-avm-mastery
 description: Azure Verified Modules (AVM), Bicep best practices, and MCP-powered infrastructure as code for Azure
+tier: standard
+applyTo: '**/*bicep*,**/*avm*,**/*mastery*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Bicep AVM Mastery
 
-**Tags**: `bicep` `avm` `azure-modules`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Azure Verified Modules (AVM), Bicep best practices, and MCP-powered infrastructure as code for Azure.
 > **Staleness Watch**: See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence

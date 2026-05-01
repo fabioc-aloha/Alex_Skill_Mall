@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: azure-devops-automation
 description: CI/CD pipelines, infrastructure as code, and deployment automation for Azure workloads
+tier: standard
+applyTo: '**/*azure*,**/*devops*,**/*automation*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Azure DevOps Automation
 
-**Tags**: `azure-devops` `ci-cd` `pipelines`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > CI/CD pipelines, infrastructure as code, and deployment automation for Azure workloads.
 

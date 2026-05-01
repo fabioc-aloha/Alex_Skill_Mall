@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "brand-asset-management"
-description: "Brand hierarchy, visual identity, asset deployment, platform-specific branding guidelines"
+description: Brand hierarchy, visual identity, asset deployment, platform-specific branding guidelines
+tier: extended
+applyTo: '**/*brand*,**/*asset*,**/*management*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Brand Asset Management Skill
 
-**Tags**: `brand` `hierarchy` `assets`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Expert in the AI assistant brand hierarchy, visual identity systems, asset deployment, and platform-specific branding guidelines.
 

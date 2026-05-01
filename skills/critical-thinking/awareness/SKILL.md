@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: awareness
 description: Proactive detection, self-correction, and epistemic vigilance
+tier: core
+applyTo: '**/*awareness*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Awareness Skill
 
-**Tags**: `metacognition` `blindspot` `self-correction`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Proactive detection, self-correction, and epistemic vigilance
 

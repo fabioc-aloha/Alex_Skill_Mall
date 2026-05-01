@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: iterative-health-check
+description: One-time audits don't track improvement:
+tier: standard
+applyTo: '**/*iterative*,**/*health*,**/*check*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Iterative Health-Check Loop
 
 ## The Problem

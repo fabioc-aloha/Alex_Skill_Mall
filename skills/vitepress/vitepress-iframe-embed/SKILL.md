@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: vitepress-iframe-embed
+description: VitePress iframe embedding gotchas — CSP headers, sandboxing, responsive sizing
+tier: extended
+applyTo: '**/*vitepress*,**/*iframe*,**/*embed*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # VitePress Iframe Embed
 
 **Category**: VitePress

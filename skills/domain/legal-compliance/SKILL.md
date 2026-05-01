@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: legal-compliance
 description: Legal research, contract analysis, regulatory compliance, and case law citation for legal professionals.
+tier: extended
+applyTo: '**/*legal*,**/*compliance*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Legal Compliance Skill
 
-**Tags**: `legal` `contracts` `compliance`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Legal research, contract analysis, regulatory compliance, and case law citation for legal professionals.
 

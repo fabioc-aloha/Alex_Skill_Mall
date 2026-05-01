@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: architecture-refinement
 description: Meta-skill for maintaining and evolving Alex's cognitive architecture through deliberate documentation and pattern extraction.
+tier: standard
+applyTo: '**/*architecture*,**/*refinement*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Architecture Refinement Skill
 
-**Tags**: `architecture` `refactor` `evolution`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Meta-skill for maintaining and evolving the AI assistant's cognitive architecture through deliberate documentation and pattern extraction.
 

@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "nav-inject"
 description: Inject cross-document navigation tables into multi-file Markdown documentation suites
+tier: standard
+applyTo: '**/*nav*,**/*inject*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Navigation Injector
 
-**Tags**: `nav` `sidebar` `generation`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > One config, every file navigable -- keep multi-doc suites connected
 

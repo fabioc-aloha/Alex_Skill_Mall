@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: vscode-configuration-validation
 description: Validate VS Code extension manifest against runtime code usage
+tier: standard
+applyTo: '**/*vscode*,**/*configuration*,**/*validation*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # VS Code Extension Configuration Validation
 
-**Tags**: `manifest` `validation` `settings`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 **Domain**: VS Code extension development, configuration management, quality assurance  
 **Complexity**: Intermediate  

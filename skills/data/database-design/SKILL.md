@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: database-design
 description: Schema design, normalization, query optimization, and data modeling patterns
+tier: standard
+applyTo: '**/*database*,**/*design*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Database Design Skill
 
-**Tags**: `schema` `normalization` `indexing`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Model data to match access patterns. Normalize for integrity, denormalize for performance.
 

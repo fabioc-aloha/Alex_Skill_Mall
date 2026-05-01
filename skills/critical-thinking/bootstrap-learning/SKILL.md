@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "bootstrap-learning"
 description: Domain-agnostic knowledge acquisition — from zero to structured expertise through conversational learning
+tier: core
+applyTo: '**/*bootstrap*,**/*learning*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Bootstrap Learning Skill
 
-**Tags**: `learning` `ramp-up` `new-domain`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Turn any unfamiliar domain into structured, connected knowledge through progressive conversation.
 

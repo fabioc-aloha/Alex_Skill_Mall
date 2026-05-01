@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: pptx-to-md
+description: Convert PowerPoint (.pptx) to Markdown via Pandoc.
+tier: standard
+applyTo: '**/*pptx*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # pptx-to-md
 
 Convert PowerPoint (.pptx) to Markdown via Pandoc.

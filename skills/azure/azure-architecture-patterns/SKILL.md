@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: azure-architecture-patterns
 description: Well-Architected Framework principles and Azure best practices
+tier: standard
+applyTo: '**/*azure*,**/*architecture*,**/*patterns*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Azure Architecture Patterns
 
-**Tags**: `waf` `well-architected` `design`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Well-Architected Framework principles, reference architectures, and Azure best practices.
 

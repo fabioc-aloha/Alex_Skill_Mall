@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: cognitive-load
 description: Don't overwhelm — chunk, scaffold, summarize first.
+tier: extended
+applyTo: '**/*cognitive*,**/*load*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Cognitive Load Skill
 
-**Tags**: `cognitive-load` `chunking` `scaffolding`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Don't overwhelm — chunk, scaffold, summarize first.
 

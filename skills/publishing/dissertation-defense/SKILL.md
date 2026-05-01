@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: dissertation-defense
 description: Comprehensive preparation for doctoral dissertation defense including timeline management, presentation design, Q&A practice, mock sessions, and committee dynamics.
+tier: extended
+applyTo: '**/*dissertation*,**/*defense*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Dissertation Defense Skill
 
-**Tags**: `dissertation` `defense` `doctoral`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Master the art and science of defending your doctoral research with confidence.
 

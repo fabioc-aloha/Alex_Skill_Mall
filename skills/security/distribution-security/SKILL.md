@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "distribution-security"
 description: Defense-in-depth, PII protection, secrets scanning, and secure packaging for distributed software
+tier: standard
+applyTo: '**/*distribution*,**/*security*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Distribution Security
 
-**Tags**: `distribution` `signing` `supply-chain`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Multi-layer security for software that ships to users — secrets scanning, permission minimization, and secure UI patterns.
 

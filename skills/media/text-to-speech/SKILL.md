@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "text-to-speech"
-description: "Cloud TTS via Replicate — 15 models, voice cloning, emotion control, and multi-language support"
-$schema: ../SKILL-SCHEMA.json
+description: Cloud TTS via Replicate — 15 models, voice cloning, emotion control, and multi-language support
+tier: extended
+applyTo: '**/*text*,**/*speech*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Text-to-Speech Skill
 
-**Tags**: `tts` `replicate` `voice-cloning`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > **Domain**: AI Audio Generation  
 > **Version**: 4.0.0  

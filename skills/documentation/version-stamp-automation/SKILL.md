@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: version-stamp-automation
+description: Version numbers in 5+ files WILL drift with manual edits:
+tier: standard
+applyTo: '**/*version*,**/*stamp*,**/*automation*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Version Stamp Automation
 
 ## The Problem

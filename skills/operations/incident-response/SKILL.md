@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "incident-response"
 description: Calm, systematic crisis handling — from detection through post-mortem to prevention
+tier: standard
+applyTo: '**/*incident*,**/*response*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Incident Response Skill
 
-**Tags**: `incident` `sev` `response`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > In a crisis, follow the process. Panic is the enemy of resolution.
 

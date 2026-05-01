@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "converter-qa"
-description: "Test harness for validating converter outputs with 284 assertions across all converter muscles"
-muscle: ~
+description: Test harness for validating converter outputs with 284 assertions across all converter muscles
+tier: standard
+applyTo: '**/*converter*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Converter QA Framework
 
-**Tags**: `testing` `conversion` `validation`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Trust your converters -- 284 assertions prove they work
 

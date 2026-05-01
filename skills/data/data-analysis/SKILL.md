@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: data-analysis
-description: "Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly detection, and translating statistics into narrative insights"
+description: Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly detection, and translating statistics into narrative insights
+tier: standard
+applyTo: '**/*data*,**/*analysis*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Data Analysis
 
-**Tags**: `eda` `profiling` `exploration`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 | Property     | Value                                                          |
 | ------------ | -------------------------------------------------------------- |

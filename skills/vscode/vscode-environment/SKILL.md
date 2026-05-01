@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: vscode-environment
 description: Optimal workspace setup for productivity.
+tier: standard
+applyTo: '**/*vscode*,**/*environment*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # VS Code Environment Skill
 
-**Tags**: `vscode` `environment` `settings`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Optimal workspace setup for productivity.
 

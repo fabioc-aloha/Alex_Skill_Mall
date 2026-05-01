@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: extension-audit-methodology
-description: "Systematic 5-dimension audit framework for VS Code extensions — debug hygiene, dead code, performance, menu validation, dependency cleanup"
+description: Systematic 5-dimension audit framework for VS Code extensions — debug hygiene, dead code, performance, menu validation, dependency cleanup
+tier: standard
+applyTo: '**/*extension*,**/*audit*,**/*methodology*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Extension Audit Methodology
 
-**Tags**: `audit` `5-dimension` `framework`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Find quality issues standard code review misses — before release, not after deployment.
 

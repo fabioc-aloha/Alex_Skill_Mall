@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: enterprise-integration
 description: Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integration in VS Code extensions
+tier: standard
+applyTo: '**/*enterprise*,**/*integration*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Enterprise Integration Skill
 
-**Tags**: `graph` `m365` `power-platform`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Expert in building enterprise features with Microsoft Graph API, Microsoft Entra ID authentication, and enterprise-mode feature gating for VS Code extensions.
 

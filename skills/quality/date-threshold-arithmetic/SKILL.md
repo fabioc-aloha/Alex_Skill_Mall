@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: date-threshold-arithmetic
+description: Date comparisons at thresholds fail due to fractional days:
+tier: standard
+applyTo: '**/*date*,**/*threshold*,**/*arithmetic*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Date Threshold Arithmetic
 
 ## The Problem

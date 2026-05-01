@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: dual-surface-docs-drift
+description: Two READMEs covering overlapping scope will diverge:
+tier: standard
+applyTo: '**/*dual*,**/*surface*,**/*docs*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Dual-Surface Docs Drift
 
 ## The Problem

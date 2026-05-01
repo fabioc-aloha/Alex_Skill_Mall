@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "code-review"
-description: "Systematic code review for correctness, security, and growth — not just style enforcement"
+description: Systematic code review for correctness, security, and growth — not just style enforcement
+tier: standard
+applyTo: '**/*code*,**/*review*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Code Review Skill
 
-**Tags**: `review` `pr` `feedback`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Good reviews catch bugs. Great reviews teach the author something.
 

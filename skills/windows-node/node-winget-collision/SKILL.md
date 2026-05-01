@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: node-winget-collision
+description: Node.js installed via winget collides with nvm — path priority, shim conflicts, resolution steps
+tier: extended
+applyTo: '**/*node*,**/*winget*,**/*collision*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Node.js Winget Collision
 
 **Category**: Windows / Node.js

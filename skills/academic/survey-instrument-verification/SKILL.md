@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: survey-instrument-verification
+description: Manuscripts evolve terminology that may not match what was actually administered:
+tier: extended
+applyTo: '**/*survey*,**/*instrument*,**/*verification*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Survey Instrument Verification
 
 ## The Problem

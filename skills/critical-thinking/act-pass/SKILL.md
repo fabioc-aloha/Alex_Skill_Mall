@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: act-pass
-description: "Run the 7-step Artificial Critical Thinking pass — Materiality → Hypothesise → Alternatives → Disconfirmers → Audit priors → Severity → Commit-with-marker"
+description: Run the 7-step Artificial Critical Thinking pass — Materiality → Hypothesise → Alternatives → Disconfirmers → Audit priors → Severity → Commit-with-marker
+tier: core
+applyTo: '**/*act*,**/*pass*'
 currency: 2026-04-26
+lastReviewed: 2026-04-30
 ---
+
 # ACT Pass (7-Step Operational Pass)
 
-**Tags**: `reasoning` `decision-making` `act`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > ACT is not a posture; it is a 7-step pass for non-trivial requests. Short enough to run in seconds, concrete enough to leave evidence in the output.
 

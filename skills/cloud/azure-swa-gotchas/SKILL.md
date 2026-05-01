@@ -1,7 +1,17 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: azure-swa-gotchas
+description: Time saved: 2-4 hours per issue
+tier: standard
+applyTo: '**/*azure*,**/*swa*,**/*gotchas*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Azure Static Web Apps Gotchas
 
-**Tags**: `azure` `static-web-apps` `deployment` `auth` `functions`
-**Currency**: 2026-04-27
 **Time saved**: 2-4 hours per issue
 
 ---

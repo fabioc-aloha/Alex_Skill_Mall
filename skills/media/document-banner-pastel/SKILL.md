@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: document-banner-pastel
 description: Hand-authored pastel SVG banners for documentation — 1200×240 with content-specific iconography, complementary to algorithmic banner muscles
+tier: extended
+applyTo: '**/*document*,**/*banner*,**/*pastel*'
 currency: 2026-04-29
+lastReviewed: 2026-04-30
 ---
 
 # Document Banner — Pastel Pattern
 
-**Tags**: `svg` `banner` `pastel` `documentation` `hand-authored`
-**Currency**: 2026-04-29
-**Promoted from**: `job` heir (Dr. Fabio Correa branding workspace, 2026-04-29)
-
----
 
 > Hand-authored pastel banners that match each document's content. Complement to [`alex-banner-generation`](../../../../Alex_ACT_Edition/.github/skills/alex-banner-generation/SKILL.md) (which is algorithmic, dark-slate, 1200×300, fixed watermarks).
 

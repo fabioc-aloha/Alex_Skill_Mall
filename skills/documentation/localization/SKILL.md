@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "localization"
-description: "**Domain**: Software localization, internationalization, multilingual application development"
+description: Domain: Software localization, internationalization, multilingual application development
+tier: standard
+applyTo: '**/*localization*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Localization & Internationalization (i18n/l10n)
 
-**Tags**: `i18n` `l10n` `translation`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > **Domain**: Software localization, internationalization, multilingual application development
 > **Activation**: Language detection, translation systems, RTL support, ICU MessageFormat, LQA, dialect inheritance

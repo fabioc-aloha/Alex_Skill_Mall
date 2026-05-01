@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "md-to-word"
-description: "Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents"
-muscle: .github/muscles/md-to-word.cjs
+description: Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents
+tier: standard
+applyTo: '**/*word*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Markdown to Word Conversion
 
-**Tags**: `markdown` `docx` `pandoc`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > One command to professional Word documents — diagrams, tables, and formatting done right on first attempt.
 

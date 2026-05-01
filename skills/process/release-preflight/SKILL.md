@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: release-preflight
 description: Pre-checks, version consistency, and deployment discipline.
+tier: standard
+applyTo: '**/*release*,**/*preflight*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Release Preflight Skill
 
-**Tags**: `release` `preflight` `ship-checklist`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Pre-checks, version consistency, and deployment discipline.
 

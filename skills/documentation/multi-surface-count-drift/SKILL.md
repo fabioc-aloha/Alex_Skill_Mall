@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: multi-surface-count-drift
+description: When a number (skill count, repo count, test count) appears in multiple files, they WILL diverge:
+tier: standard
+applyTo: '**/*multi*,**/*surface*,**/*count*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Multi-Surface Count Drift
 
 ## The Problem

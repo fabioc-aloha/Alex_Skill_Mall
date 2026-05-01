@@ -1,6 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: alex-banner-generation
-description: "Generate branded SVG banners for documents (READMEs, plans, changelogs, release artifacts) using a configurable Node.js muscle. Covers watermark selection, subtitle craft, and embedding. Requires the generate-banner.cjs muscle from Alex_ACT_Edition."
+description: Generate branded SVG banners for documents (READMEs, plans, changelogs, release artifacts) using a configurable Node.js muscle. Covers watermark selection, subtitle craft, and embedding. Requires the generate-banner.cjs muscle from Alex_ACT_Edition.
+tier: extended
+applyTo: '**/*alex*,**/*banner*,**/*generation*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
 
 # Alex Banner Generation

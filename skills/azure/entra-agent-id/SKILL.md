@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: entra-agent-id
 description: Microsoft Entra Agent ID (preview) — create OAuth2-capable AI agent identities via Microsoft Graph beta API
+tier: standard
+applyTo: '**/*entra*,**/*agent*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Microsoft Entra Agent ID
 
-**Tags**: `entra` `agent-id` `app-registration`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Create and manage OAuth2-capable identities for AI agents using Microsoft Graph beta API
 

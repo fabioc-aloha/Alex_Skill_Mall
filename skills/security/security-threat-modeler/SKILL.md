@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: security-threat-modeler
-description: 'Analyze codebase architecture to generate a STRIDE-based threat model with data flow diagrams, trust boundaries, prioritized threats, and mitigations. Compatible with Microsoft Threat Modeling Tool concepts. Use when asked to "threat model", "security analysis", "STRIDE analysis", "identify security threats", "data flow security", "generate a threat model", or "security architecture review".'
+description: Analyze codebase architecture to generate a STRIDE-based threat model with data flow diagrams, trust boundaries, prioritized threats, and mitigations. Compatible with Microsoft Threat Modeling Tool concepts. Use when asked to "threat model", "security analysis", "STRIDE analysis", "identify security threats", "data flow security", "generate a threat model", or "security architecture review".
+tier: standard
+applyTo: '**/*security*,**/*threat*,**/*modeler*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Security Threat Modeler
 
-**Tags**: `stride` `threat-modeling` `dfd`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Produce a structured threat model using the STRIDE methodology, compatible with Microsoft Threat Modeling Tool concepts.
 

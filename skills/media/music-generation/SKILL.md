@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "music-generation"
-description: "AI music generation via Replicate — 5 models for background tracks, lyrics, and sound design"
-$schema: ../SKILL-SCHEMA.json
+description: AI music generation via Replicate — 5 models for background tracks, lyrics, and sound design
+tier: extended
+applyTo: '**/*music*,**/*generation*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Music Generation Skill
 
-**Tags**: `music` `replicate` `soundtrack`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > **Domain**: AI Music Generation  
 > **Version**: 1.0.0  

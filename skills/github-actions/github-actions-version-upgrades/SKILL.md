@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: github-actions-version-upgrades
+description: Older action versions trigger deprecation warnings and will eventually break:
+tier: standard
+applyTo: '**/*github*,**/*actions*,**/*version*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # GitHub Actions Version Upgrades
 
 ## The Problem

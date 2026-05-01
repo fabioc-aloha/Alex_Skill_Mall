@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: observability-monitoring
 description: Production visibility through logs, metrics, traces, and alerting — the three pillars of observability
+tier: standard
+applyTo: '**/*observability*,**/*monitoring*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Observability & Monitoring Skill
 
-**Tags**: `logs` `metrics` `traces` `alerts`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > See what's happening in production. Debug without reproducing. Understand system behavior at scale.
 

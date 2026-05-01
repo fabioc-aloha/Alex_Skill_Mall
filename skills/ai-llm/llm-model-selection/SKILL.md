@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: llm-model-selection
 description: Choosing the right model for the task — power vs. cost vs. speed.
+tier: standard
+applyTo: '**/*llm*,**/*model*,**/*selection*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # LLM Model Selection Skill
 
-**Tags**: `models` `selection` `cost-quality`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Choosing the right model for the task — power vs. cost vs. speed.
 

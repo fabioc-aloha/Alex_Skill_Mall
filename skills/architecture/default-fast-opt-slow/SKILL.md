@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: default-fast-opt-slow
+description: AI/LLM features default to verbose responses, causing:
+tier: standard
+applyTo: '**/*default*,**/*fast*,**/*opt*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Default to Fast, Opt Into Slow
 
 ## The Problem

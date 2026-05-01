@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: multi-agent-orchestration
 description: Coordinate multiple AI agents for complex tasks — decomposition, delegation, and synthesis
+tier: standard
+applyTo: '**/*multi*,**/*agent*,**/*orchestration*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Multi-Agent Orchestration Skill
 
-**Tags**: `agents` `delegation` `synthesis`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Decompose complex problems into agent-appropriate subtasks, delegate effectively, and synthesize results.
 

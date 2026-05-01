@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: executive-storytelling
 description: Data-driven narrative construction, stakeholder management, and influencing senior leadership decisions
+tier: standard
+applyTo: '**/*executive*,**/*storytelling*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Executive Storytelling
 
-**Tags**: `pyramid` `narrative` `leadership`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Data-driven narrative construction, stakeholder management, and meeting efficiency for influencing senior leadership decisions.
 

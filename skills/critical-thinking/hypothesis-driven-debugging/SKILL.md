@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: hypothesis-driven-debugging
-description: 'Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic minimal reproduction, multi-hypothesis testing, and evidence-based verification. Use when asked to "debug", "investigate a failure", "find root cause", "troubleshoot", "fix a failing test", or "diagnose an issue". Always re-run builds and tests after changes.'
+description: Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic minimal reproduction, multi-hypothesis testing, and evidence-based verification. Use when asked to "debug", "investigate a failure", "find root cause", "troubleshoot", "fix a failing test", or "diagnose an issue". Always re-run builds and tests after changes.
+tier: core
+applyTo: '**/*hypothesis*,**/*driven*,**/*debugging*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Hypothesis-Driven Debugging
 
-**Tags**: `debugging` `scientific-method`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Apply the scientific method to debugging: observe, hypothesize, experiment, conclude. No trial-and-error.
 

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "stakeholder-management"
-description: "Influence mapping, communication strategies, and expectation management for complex organizations"
+description: Influence mapping, communication strategies, and expectation management for complex organizations
+tier: standard
+applyTo: '**/*stakeholder*,**/*management*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Stakeholder Management
 
-**Tags**: `influence` `communication` `alignment`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Influence mapping, communication strategies, and expectation management for complex organizations.
 

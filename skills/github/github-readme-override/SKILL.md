@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: github-readme-override
+description: GitHub README display rules — which README renders when multiple exist, profile READMEs, org READMEs
+tier: standard
+applyTo: '**/*github*,**/*readme*,**/*override*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # GitHub README Override
 
 **Category**: GitHub

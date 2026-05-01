@@ -1,22 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: content-safety-implementation
 description: Azure Content Safety API integration, multi-layer defense pipeline, output validation, and operational safety controls
-metadata:
-  category: security
-  tags: [content-safety, guardrails, input-defense, output-validation, kill-switch, content-filter, azure-ai]
-  activation:
-    triggers: [content safety, guardrail, input defense, output validation, content filter, kill switch, safety layer, responsible AI implementation]
-    context: Working on content safety implementation, guardrails, or Azure Content Safety API integration
-  prerequisites: []
+tier: standard
+applyTo: '**/*content*,**/*safety*,**/*implementation*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Content Safety Implementation
 
-**Tags**: `safety` `azure` `kill-switch` `injection`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Implementation patterns for Azure Content Safety API integration, multi-layer defense pipelines, and operational safety controls for AI-facing applications.
 

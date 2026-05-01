@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: graphic-design
 description: Patterns for visual design, SVG creation, layout composition, typography, and brand identity.
+tier: extended
+applyTo: '**/*graphic*,**/*design*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Graphic Design Skill
 
-**Tags**: `visual` `svg` `design`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Patterns for visual design, SVG creation, layout composition, typography, and brand identity.
 

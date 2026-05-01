@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: falsifiability-test-pattern
+description: Plans without measurable success criteria drift into wishful thinking:
+tier: standard
+applyTo: '**/*falsifiability*,**/*test*,**/*pattern*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Falsifiability Test Pattern
 
 ## The Problem

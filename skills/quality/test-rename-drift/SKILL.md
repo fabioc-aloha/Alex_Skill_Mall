@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: test-rename-drift
+description: When renaming a function, test files have references that survive find-and-replace:
+tier: standard
+applyTo: '**/*test*,**/*rename*,**/*drift*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Test Rename Drift
 
 ## The Problem

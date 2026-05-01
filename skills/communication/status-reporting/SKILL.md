@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "status-reporting"
-description: "Create stakeholder-friendly project status updates and progress reports"
+description: Create stakeholder-friendly project status updates and progress reports
+tier: standard
+applyTo: '**/*status*,**/*reporting*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Status Reporting Skill
 
-**Tags**: `rag` `dashboards` `escalation`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Generate clear, audience-appropriate project status updates. Transform technical progress into stakeholder-friendly communication.
 

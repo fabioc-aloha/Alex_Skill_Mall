@@ -1,17 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "azure-deployment-operations"
-description: "Production deployment patterns for Azure Static Web Apps, Container Apps, App Service, and infrastructure"
-metadata:
-  inheritance: inheritable
+description: Production deployment patterns for Azure Static Web Apps, Container Apps, App Service, and infrastructure
+tier: standard
+applyTo: '**/*azure*,**/*deployment*,**/*operations*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Azure Deployment Operations
 
-**Tags**: `deploy` `production` `operations`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Battle-tested patterns for deploying and operating Azure services in production.
 

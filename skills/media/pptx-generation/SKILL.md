@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: pptx-generation
 description: Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markdown conversion
-muscle: ~
+tier: extended
+applyTo: '**/*pptx*,**/*generation*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # PPTX Generation Skill
 
-**Tags**: `pptx` `powerpoint` `programmatic`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 **Domain**: Presentation Generation  
 **Purpose**: Programmatic PowerPoint creation via PptxGenJS  

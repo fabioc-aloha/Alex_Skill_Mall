@@ -1,6 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: agentic-eval
-description: "Patterns for evaluating and improving AI agent outputs through iterative refinement loops. Use when implementing self-critique, building evaluator-optimizer pipelines, creating rubric-based or LLM-as-judge evaluation systems, or adding iterative quality improvement to generated content (code, reports, analysis)."
+description: Patterns for evaluating and improving AI agent outputs through iterative refinement loops. Use when implementing self-critique, building evaluator-optimizer pipelines, creating rubric-based or LLM-as-judge evaluation systems, or adding iterative quality improvement to generated content (code, reports, analysis).
+tier: standard
+applyTo: '**/*agentic*,**/*eval*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
 
 # Agentic Evaluation Patterns

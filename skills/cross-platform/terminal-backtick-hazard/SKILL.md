@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: terminal-backtick-hazard
+description: Backticks break in all shells — bash treats them as command substitution, PowerShell as escape character
+tier: standard
+applyTo: '**/*terminal*,**/*backtick*,**/*hazard*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Terminal Backtick Hazard
 
 **Category**: Cross-Platform

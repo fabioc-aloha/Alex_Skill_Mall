@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: prompt-engineering
 description: Craft effective prompts that get the best results from language models.
+tier: standard
+applyTo: '**/*prompt*,**/*engineering*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Prompt Engineering Skill
 
-**Tags**: `prompts` `patterns` `eval`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Craft effective prompts that get the best results from language models.
 

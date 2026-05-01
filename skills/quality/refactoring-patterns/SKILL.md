@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: refactoring-patterns
 description: Safe transformations — same behavior, better structure.
+tier: standard
+applyTo: '**/*refactoring*,**/*patterns*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Refactoring Patterns Skill
 
-**Tags**: `refactoring` `extract` `rename`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Safe transformations — same behavior, better structure.
 

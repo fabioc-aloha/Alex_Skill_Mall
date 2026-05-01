@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "vscode-extension-patterns"
-description: "Reusable patterns for VS Code extension development."
+description: Reusable patterns for VS Code extension development.
+tier: standard
+applyTo: '**/*vscode*,**/*extension*,**/*patterns*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # VS Code Extension Patterns
 
-**Tags**: `extension` `patterns` `authoring`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Reusable patterns for VS Code extension development.
 > **Staleness Watch**: See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence

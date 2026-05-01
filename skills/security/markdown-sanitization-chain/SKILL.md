@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: markdown-sanitization-chain
+description: Markdown sanitization order matters — marked.js then DOMPurify then Mermaid to prevent XSS
+tier: standard
+applyTo: '**/*markdown*,**/*sanitization*,**/*chain*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Markdown Sanitization Chain
 
 **Category**: Security

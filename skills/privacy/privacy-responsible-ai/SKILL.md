@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: privacy-responsible-ai
 description: Privacy by design, data protection, and responsible AI principles.
+tier: standard
+applyTo: '**/*privacy*,**/*responsible*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Privacy & Responsible AI Skill
 
-**Tags**: `privacy-by-design` `responsible-ai` `ethics`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Privacy by design, data protection, and responsible AI principles.
 

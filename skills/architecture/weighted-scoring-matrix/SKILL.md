@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: weighted-scoring-matrix
+description: Multi-factor decisions become arbitrary without explicit weights:
+tier: standard
+applyTo: '**/*weighted*,**/*scoring*,**/*matrix*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Weighted Scoring Matrix
 
 ## The Problem

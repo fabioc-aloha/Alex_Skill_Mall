@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: performance-profiling
 description: CPU, memory, network bottleneck analysis — systematic performance investigation
+tier: standard
+applyTo: '**/*performance*,**/*profiling*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Performance Profiling Skill
 
-**Tags**: `cpu` `memory` `network` `bottleneck`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Find the bottleneck before optimizing. Measure twice, optimize once.
 

@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: temp-file-python-analysis
+description: Inline Python in shell scripts has quoting issues:
+tier: standard
+applyTo: '**/*temp*,**/*file*,**/*python*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Temp File Python Analysis
 
 ## The Problem

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: counseling-psychology
 description: Therapeutic frameworks, assessment, ethical practice, and client documentation for counselors and psychologists.
+tier: extended
+applyTo: '**/*counseling*,**/*psychology*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Counseling Psychology Skill
 
-**Tags**: `counseling` `therapy` `ethics`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Therapeutic frameworks, assessment, ethical practice, and client documentation for counselors and psychologists.
 

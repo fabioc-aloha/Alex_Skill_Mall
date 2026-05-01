@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: prompt-builder
 description: Create and validate .prompt.md files that pass brain-qa on first attempt
+tier: standard
+applyTo: '**/*prompt*,**/*builder*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Prompt Builder
 
-**Tags**: `prompt-md` `frontmatter` `authoring`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Build `.prompt.md` files that pass brain-qa on first attempt — no regressions
 

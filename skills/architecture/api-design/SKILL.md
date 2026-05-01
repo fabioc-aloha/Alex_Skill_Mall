@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: api-design
 description: Design APIs that developers love to use.
+tier: standard
+applyTo: '**/*api*,**/*design*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # API Design Skill
 
-**Tags**: `rest` `graphql` `versioning`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Design APIs that developers love to use.
 

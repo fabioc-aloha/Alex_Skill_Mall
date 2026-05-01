@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: config-transcription-verification
+description: When extracting hardcoded data to JSON, field values silently drift:
+tier: standard
+applyTo: '**/*config*,**/*transcription*,**/*verification*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Config Transcription Verification
 
 ## The Problem

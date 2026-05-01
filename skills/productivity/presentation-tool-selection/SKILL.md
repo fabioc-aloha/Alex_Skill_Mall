@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: presentation-tool-selection
 description: Best practice decision matrix for choosing between Marp, Gamma, and PptxGenJS based on use case requirements.
+tier: extended
+applyTo: '**/*presentation*,**/*tool*,**/*selection*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Presentation Tool Selection Skill
 
-**Tags**: `tools` `decision-matrix` `presentations`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Choose the right presentation tool for your use case — Slides, Pitch, or Auto.
 

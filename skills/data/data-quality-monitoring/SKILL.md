@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: data-quality-monitoring
-description: "Data pipeline quality assurance — anomaly detection, schema drift, null ratio monitoring, freshness checks, and safe-write protection for reliable data engineering"
+description: Data pipeline quality assurance — anomaly detection, schema drift, null ratio monitoring, freshness checks, and safe-write protection for reliable data engineering
+tier: standard
+applyTo: '**/*data*,**/*quality*,**/*monitoring*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Data Quality Monitoring
 
-**Tags**: `pipeline` `anomaly` `dq`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Trust your data, or fix it before anyone else sees it.
 

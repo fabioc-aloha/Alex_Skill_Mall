@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "microsoft-graph-api"
-description: "Comprehensive Microsoft Graph API reference for M365 service integration"
+description: Comprehensive Microsoft Graph API reference for M365 service integration
+tier: standard
+applyTo: '**/*microsoft*,**/*graph*,**/*api*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Microsoft Graph API Skill
 
-**Tags**: `graph` `m365` `rest`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Comprehensive reference for Microsoft Graph API integration including endpoints, authentication, rate limiting, and best practices.
 

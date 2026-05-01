@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "foundry-agent-platform"
-description: "Microsoft Foundry agent deployment, orchestration, and cloud-native AI service patterns"
+description: Microsoft Foundry agent deployment, orchestration, and cloud-native AI service patterns
+tier: standard
+applyTo: '**/*foundry*,**/*agent*,**/*platform*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Foundry Agent Platform Skill
 
-**Tags**: `foundry` `microsoft` `agents`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Deploy, orchestrate, and manage AI agents on Microsoft Foundry — the unified Azure PaaS for enterprise AI.
 

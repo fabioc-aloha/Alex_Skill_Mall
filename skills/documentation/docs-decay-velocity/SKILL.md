@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: docs-decay-velocity
+description: Documentation decay rates by content type — hardcoded numbers and version pins rot fastest
+tier: standard
+applyTo: '**/*docs*,**/*decay*,**/*velocity*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Documentation Decay Velocity
 
 **Category**: Documentation

@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: md-to-latex
+description: Convert Markdown to LaTeX source via Pandoc.
+tier: standard
+applyTo: '**/*latex*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # md-to-latex
 
 Convert Markdown to LaTeX source via Pandoc.

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: teams-app-patterns
 description: Full Teams app development patterns.
+tier: standard
+applyTo: '**/*teams*,**/*app*,**/*patterns*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Teams App Patterns Skill
 
-**Tags**: `teams` `m365` `adaptive-cards`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Full Teams app development patterns.
 

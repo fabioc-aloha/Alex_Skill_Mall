@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: game-design
 description: Game mechanics, level design, player psychology, systems balancing, and narrative design for game developers.
+tier: extended
+applyTo: '**/*game*,**/*design*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Game Design Skill
 
-**Tags**: `game-design` `mechanics` `level-design`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Game mechanics, level design, player psychology, systems balancing, and narrative design for game developers.
 

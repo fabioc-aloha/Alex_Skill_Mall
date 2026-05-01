@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: gamma-presentation
 description: Author markdown files optimized for Gamma import — card structure, layout hints, image directives, speaker notes, and chat-agent refinement workflow
+tier: extended
+applyTo: '**/*gamma*,**/*presentation*'
 currency: 2026-04-23
+lastReviewed: 2026-04-30
 ---
+
 # Gamma Presentation Authoring
 
-**Tags**: `gamma` `slides` `presentation`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > **Staleness Watch**: See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence
 

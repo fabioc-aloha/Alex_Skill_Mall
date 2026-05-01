@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: image-storage-embedding-split
+description: Storing images at embed size loses the original:
+tier: standard
+applyTo: '**/*image*,**/*storage*,**/*embedding*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Image Storage vs Embedding Split
 
 ## The Problem

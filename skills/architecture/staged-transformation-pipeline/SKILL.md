@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: staged-transformation-pipeline
+description: Monolithic transformations are hard to test and debug:
+tier: standard
+applyTo: '**/*staged*,**/*transformation*,**/*pipeline*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Staged Transformation Pipeline
 
 ## The Problem

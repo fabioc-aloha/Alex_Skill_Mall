@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: path-traversal-prevention
+description: When copying files or serving content, user-controlled paths can escape the intended directory:
+tier: standard
+applyTo: '**/*path*,**/*traversal*,**/*prevention*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Path Traversal Prevention
 
 ## The Problem

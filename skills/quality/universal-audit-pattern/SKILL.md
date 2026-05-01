@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: universal-audit-pattern
+description: Systematic project audit pattern — version consistency, terminology, fact inventory, cross-references
+tier: standard
+applyTo: '**/*universal*,**/*audit*,**/*pattern*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Universal Audit Pattern
 
 **Category**: Quality

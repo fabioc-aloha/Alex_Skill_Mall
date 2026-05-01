@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: svg-graphics
 description: Scalable, accessible, theme-aware visuals
+tier: extended
+applyTo: '**/*svg*,**/*graphics*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # SVG Graphics Skill
 
-**Tags**: `svg` `accessible` `theme-aware`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Scalable, accessible, theme-aware visuals.
 

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: appropriate-reliance
-description: "Calibrated human-AI collaboration with creative latitude — trust calibrated to reliability, creativity preserved with validation."
+description: Calibrated human-AI collaboration with creative latitude — trust calibrated to reliability, creativity preserved with validation.
+tier: core
+applyTo: '**/*appropriate*,**/*reliance*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Appropriate Reliance Skill (v2.0)
 
-**Tags**: `calibration` `human-ai` `confidence`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Calibrated human-AI collaboration with creative latitude — trust calibrated to reliability, creativity preserved with validation.
 

@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: github-wiki-flat
+description: GitHub Wiki has a flat namespace — no real folders, sidebar ordering tricks, link gotchas
+tier: standard
+applyTo: '**/*github*,**/*wiki*,**/*flat*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # GitHub Wiki Is Flat
 
 **Category**: GitHub

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: business-analysis
 description: Patterns for requirements elicitation, BRDs, process analysis, and stakeholder alignment.
+tier: standard
+applyTo: '**/*business*,**/*analysis*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Business Analysis Skill
 
-**Tags**: `requirements` `brd` `stakeholder`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Patterns for requirements elicitation, BRDs, process analysis, and stakeholder alignment.
 

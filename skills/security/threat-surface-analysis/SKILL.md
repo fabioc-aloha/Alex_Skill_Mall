@@ -1,6 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: threat-surface-analysis
-description: "Discover a codebase's threat surface through systematic investigation — map ecosystem groups, dependency graphs, service connections, authentication mechanisms, and trust boundaries. Use when performing threat modeling, security review, or architectural analysis of any multi-ecosystem repository."
+description: Discover a codebase's threat surface through systematic investigation — map ecosystem groups, dependency graphs, service connections, authentication mechanisms, and trust boundaries. Use when performing threat modeling, security review, or architectural analysis of any multi-ecosystem repository.
+tier: standard
+applyTo: '**/*threat*,**/*surface*,**/*analysis*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
 
 # Threat Surface Analysis

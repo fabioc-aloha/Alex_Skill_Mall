@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: terminal-command-safety
 description: Safe terminal command patterns — backtick escaping, output capture, and hang prevention
+tier: standard
+applyTo: '**/*terminal*,**/*command*,**/*safety*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
 
 # Terminal Command Safety
 
-**Tags**: `terminal` `shell` `safety`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Detailed patterns and examples for safe terminal command execution in AI agent contexts.
 

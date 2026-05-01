@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: postmortem
-description: 'Write a postmortem for a regression or incident that escaped to production, broke real users, and traces back to a design flaw worth documenting. Use when asked to "write a postmortem", "document an incident", "analyze a production failure", "root cause analysis", or "incident review". Only invoke after confirming no existing postmortem covers the same root cause.'
+description: Write a postmortem for a regression or incident that escaped to production, broke real users, and traces back to a design flaw worth documenting. Use when asked to "write a postmortem", "document an incident", "analyze a production failure", "root cause analysis", or "incident review". Only invoke after confirming no existing postmortem covers the same root cause.
+tier: standard
+applyTo: '**/*postmortem*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Postmortem Writing
 
-**Tags**: `incident` `root-cause` `timeline`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Structured analysis of production incidents to capture root causes, prevent recurrence, and build organizational knowledge.
 

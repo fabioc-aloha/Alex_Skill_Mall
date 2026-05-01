@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: grant-writing
 description: Translate research vision into funded reality.
+tier: extended
+applyTo: '**/*grant*,**/*writing*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Grant Writing Skill
 
-**Tags**: `grants` `research` `funding`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Translate research vision into funded reality.
 

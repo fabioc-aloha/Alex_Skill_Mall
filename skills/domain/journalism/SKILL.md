@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: journalism
 description: News writing, investigative reporting, source verification, editorial standards, and fact-checking for journalists.
+tier: extended
+applyTo: '**/*journalism*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Journalism Skill
 
-**Tags**: `journalism` `news` `investigative`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > News writing, investigative reporting, source verification, editorial standards, and fact-checking for journalists.
 

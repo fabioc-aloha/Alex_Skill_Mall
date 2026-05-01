@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: token-waste-elimination
 description: Audit and eliminate token waste from cognitive architecture memory files -- instructions, prompts, skills, and agents
+tier: standard
+applyTo: '**/*token*,**/*waste*,**/*elimination*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Token Waste Elimination
 
-**Tags**: `tokens` `efficiency` `output`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Memory files are LLM context, not human documentation. Every line costs tokens. Optimize for my consumption, not human readability.
 

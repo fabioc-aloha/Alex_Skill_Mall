@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: debugging-patterns
 description: Systematic problem-solving and error analysis.
+tier: core
+applyTo: '**/*debugging*,**/*patterns*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
 
 # Debugging Patterns Skill
 
-**Tags**: `debugging` `investigation` `methodology`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Systematic problem-solving and error analysis.
 

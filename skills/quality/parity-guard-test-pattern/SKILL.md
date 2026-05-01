@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: parity-guard-test-pattern
+description: When checking that all callers of a contract implement it correctly, you get false positives from wrapper delegators:
+tier: standard
+applyTo: '**/*parity*,**/*guard*,**/*test*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Parity Guard Test Pattern
 
 ## The Problem

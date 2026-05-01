@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: data-driven-layouts
+description: Template-driven layouts require code changes for structural updates:
+tier: standard
+applyTo: '**/*data*,**/*driven*,**/*layouts*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Data-Driven Layouts
 
 ## The Problem

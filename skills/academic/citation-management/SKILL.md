@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: citation-management
 description: APA 7th formatting, citation integration, reference validation, and bibliography generation
+tier: extended
+applyTo: '**/*citation*,**/*management*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Citation Management
 
-**Tags**: `apa` `citation` `references`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > APA 7th formatting, citation integration, reference validation, and bibliography generation.
 

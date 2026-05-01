@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: api-security-hardening
+description: API security hardening — rate limiting, JWT validation, CORS, input validation (4-layer defense)
+tier: standard
+applyTo: '**/*api*,**/*security*,**/*hardening*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # API Security Hardening
 
 **Category**: Security

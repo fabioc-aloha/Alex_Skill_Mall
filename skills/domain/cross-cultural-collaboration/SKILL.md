@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: cross-cultural-collaboration
-description: '**Domain**: Multicultural team communication, cultural intelligence, global collaboration'
-disableModelInvocation: true
+description: Domain: Multicultural team communication, cultural intelligence, global collaboration
+tier: extended
+applyTo: '**/*cross*,**/*cultural*,**/*collaboration*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Cross-Cultural Collaboration
 
-**Tags**: `multicultural` `collaboration` `communication`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > **Domain**: Multicultural team communication, cultural intelligence, global collaboration
 > **Activation**: Cultural adaptation, offshore teams, Hofstede, Meyer culture map, communication styles

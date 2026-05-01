@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: mcp-development
-description: '**Domain**: AI Infrastructure'
+description: Domain: AI Infrastructure
+tier: standard
+applyTo: '**/*mcp*,**/*development*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # MCP Development Skill
 
-**Tags**: `mcp` `server` `primitives` `transport`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > **Domain**: AI Infrastructure
 > **Inheritance**: inheritable

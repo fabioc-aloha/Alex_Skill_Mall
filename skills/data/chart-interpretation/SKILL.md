@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: chart-interpretation
-description: "Read any chart (image, HTML, screenshot) and extract insights, patterns, anomalies, bias, and narrative -- the reverse of visualization"
+description: Read any chart (image, HTML, screenshot) and extract insights, patterns, anomalies, bias, and narrative -- the reverse of visualization
+tier: standard
+applyTo: '**/*chart*,**/*interpretation*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Chart Interpretation
 
-**Tags**: `reading-charts` `image` `screenshot`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 | Property     | Value                                                                 |
 | ------------ | --------------------------------------------------------------------- |

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "root-cause-analysis"
-description: "Find the true source, not symptoms — systematic debugging from observation to permanent fix"
+description: Find the true source, not symptoms — systematic debugging from observation to permanent fix
+tier: core
+applyTo: '**/*root*,**/*cause*,**/*analysis*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Root Cause Analysis Skill
 
-**Tags**: `debugging` `5-whys` `investigation`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > If you fixed it but it came back, you fixed a symptom.
 

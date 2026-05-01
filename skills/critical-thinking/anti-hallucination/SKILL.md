@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: anti-hallucination
 description: Recognize and prevent confabulation — when you don't know, say so.
+tier: core
+applyTo: '**/*anti*,**/*hallucination*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Anti-Hallucination Skill
 
-**Tags**: `confabulation` `llm` `verification`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Recognize and prevent confabulation — when you don't know, say so.
 

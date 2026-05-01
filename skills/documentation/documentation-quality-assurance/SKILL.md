@@ -1,17 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "documentation-quality-assurance"
-description: "Systematic documentation audit, drift detection, preflight validation, and multi-pass quality pipelines"
-metadata:
-  inheritance: inheritable
+description: Systematic documentation audit, drift detection, preflight validation, and multi-pass quality pipelines
+tier: standard
+applyTo: '**/*documentation*,**/*quality*,**/*assurance*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Documentation Quality Assurance
 
-**Tags**: `audit` `drift` `quality`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Prevent documentation rot through systematic audits, automated validation, and pipeline-enforced quality gates.
 

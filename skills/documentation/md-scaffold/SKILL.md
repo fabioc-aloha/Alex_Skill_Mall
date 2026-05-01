@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "md-scaffold"
-description: "Scaffold properly structured Markdown files from templates for clean first-pass conversion"
-muscle: .github/muscles/md-scaffold.cjs
+description: Scaffold properly structured Markdown files from templates for clean first-pass conversion
+tier: standard
+applyTo: '**/*scaffold*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Markdown Scaffolder
 
-**Tags**: `markdown` `scaffold` `templates`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Start right, convert clean — templates that work with every converter
 

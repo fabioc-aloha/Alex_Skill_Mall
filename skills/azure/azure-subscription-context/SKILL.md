@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: azure-subscription-context
+description: Time Saved: 30 minutes - 1 hour debugging
+tier: standard
+applyTo: '**/*azure*,**/*subscription*,**/*context*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Azure Subscription Context
 
 **Category**: Azure

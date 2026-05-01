@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: tech-debt-discovery
-description: 'Systematic technical debt inventory and prioritization. Use when asked to "find tech debt", "show me the TODOs", "how healthy is this codebase", "what should we fix first", "find code smells", "audit code quality", or "identify hotspots". Scans code markers, analyzes git history, checks dependencies, and produces a prioritized debt report.'
+description: Systematic technical debt inventory and prioritization. Use when asked to "find tech debt", "show me the TODOs", "how healthy is this codebase", "what should we fix first", "find code smells", "audit code quality", or "identify hotspots". Scans code markers, analyzes git history, checks dependencies, and produces a prioritized debt report.
+tier: standard
+applyTo: '**/*tech*,**/*debt*,**/*discovery*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Tech Debt Discovery
 
-**Tags**: `debt` `inventory` `prioritization`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Systematically discover, inventory, and prioritize technical debt. Produces actionable reports.
 

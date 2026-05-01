@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: frontend-design-review
 description: Review and create distinctive frontend interfaces — design system compliance, three quality pillars (Frictionless, Quality Craft, Trustworthy), accessibility
+tier: standard
+applyTo: '**/*frontend*,**/*design*,**/*review*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Frontend Design Review
 
-**Tags**: `design-review` `distinctive` `frontend`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Review UI implementations against design quality standards **OR** create distinctive, production-grade frontend interfaces
 

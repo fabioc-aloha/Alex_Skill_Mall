@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: test-quality-analysis
-description: 'Analyze test code quality to detect coverage-only tests, test smells, and low-value assertions. Use when asked to "analyze test quality", "find coverage-only tests", "audit our tests", "are these tests valuable", "find test smells", or "which tests should we delete". Scores tests 1-5 on real value and produces prioritized improvement reports.'
+description: Analyze test code quality to detect coverage-only tests, test smells, and low-value assertions. Use when asked to "analyze test quality", "find coverage-only tests", "audit our tests", "are these tests valuable", "find test smells", or "which tests should we delete". Scores tests 1-5 on real value and produces prioritized improvement reports.
+tier: standard
+applyTo: '**/*test*,**/*quality*,**/*analysis*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Test Quality Analysis
 
-**Tags**: `testing` `smells` `assertions`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Detect tests that exist solely for coverage metrics, identify test smells, and score test value.
 

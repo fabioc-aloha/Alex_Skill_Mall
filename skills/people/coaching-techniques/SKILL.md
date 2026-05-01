@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: coaching-techniques
 description: GROW model, active listening, developmental feedback, and team growth approaches
+tier: extended
+applyTo: '**/*coaching*,**/*techniques*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Coaching Techniques
 
-**Tags**: `coaching` `grow` `listening`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > GROW model, active listening, developmental feedback, and team growth approaches.
 

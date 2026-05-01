@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "meeting-efficiency"
-description: "Agenda design, time boxing, decision capture, async alternatives, and productive facilitation"
+description: Agenda design, time boxing, decision capture, async alternatives, and productive facilitation
+tier: standard
+applyTo: '**/*meeting*,**/*efficiency*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Meeting Efficiency
 
-**Tags**: `agenda` `facilitation` `async`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Agenda design, time boxing, decision capture, async alternatives, and productive facilitation.
 

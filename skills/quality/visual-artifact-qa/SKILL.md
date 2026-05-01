@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: visual-artifact-qa
+description: Visual output that passes static checks can still fail to render:
+tier: standard
+applyTo: '**/*visual*,**/*artifact*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Visual Artifact QA
 
 ## The Problem

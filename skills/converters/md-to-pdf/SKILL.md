@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: md-to-pdf
+description: Convert Markdown to PDF via Pandoc with two rendering engines.
+tier: standard
+applyTo: '**/*pdf*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # md-to-pdf
 
 Convert Markdown to PDF via Pandoc with two rendering engines.

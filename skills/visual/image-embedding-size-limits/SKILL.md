@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: image-embedding-size-limits
+description: Image embedding size limits in markdown — base64 bloats 33%, use file references for images over 50KB
+tier: standard
+applyTo: '**/*image*,**/*embedding*,**/*size*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Image Embedding Size Limits
 
 **Category**: Visual

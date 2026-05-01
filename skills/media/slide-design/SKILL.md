@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: slide-design
 description: Visual hierarchy, data visualization, and minimal text patterns for impactful presentations
+tier: extended
+applyTo: '**/*slide*,**/*design*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Slide Design Principles
 
-**Tags**: `slides` `visual-hierarchy` `dataviz`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Visual hierarchy, data visualization, and minimal text patterns for impactful presentations.
 

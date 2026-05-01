@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: powershell-regex-backreference
+description: PowerShell regex backreference syntax pitfalls — dollar-sign escaping in replacement strings
+tier: standard
+applyTo: '**/*powershell*,**/*regex*,**/*backreference*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # PowerShell Regex Backreference Ambiguity
 
 **Category**: Cross-Platform

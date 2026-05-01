@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: early-filter-optimization
 description: Cross-domain early-filtering paradigm for reducing cognitive and computational load in data pipelines, AI context, and human attention
+tier: standard
+applyTo: '**/*early*,**/*filter*,**/*optimization*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Domain Knowledge: Early Filter Optimization
 
-**Tags**: `performance` `filter` `pipeline`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 **Domain**: Cross-Domain Performance Optimization
 **Mastery Level**: Applied (Real-world validation)

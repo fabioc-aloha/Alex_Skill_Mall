@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: ai-agent-design
 description: Design autonomous AI agents that reason, plan, and execute tasks
+tier: standard
+applyTo: '**/*agent*,**/*design*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # AI Agent Design Skill
 
-**Tags**: `agents` `reasoning` `tools`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Patterns for designing AI agents—autonomous systems that use LLMs to reason, plan, and execute multi-step tasks.
 

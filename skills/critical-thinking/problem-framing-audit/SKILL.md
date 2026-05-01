@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: problem-framing-audit
-description: "Step-back protocol — restate, generalise, specialise, invert, ask why, pre-mortem, check stakeholders, and audit framings before solving"
+description: Step-back protocol — restate, generalise, specialise, invert, ask why, pre-mortem, check stakeholders, and audit framings before solving
+tier: core
+applyTo: '**/*problem*,**/*framing*,**/*audit*'
 currency: 2026-04-26
+lastReviewed: 2026-04-30
 ---
+
 # Problem Framing Audit (Discipline -1)
 
-**Tags**: `reasoning` `frame-audit` `type-iii-error`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Before you solve, audit the frame. A flawless solution to the wrong problem is still a wrong answer.
 

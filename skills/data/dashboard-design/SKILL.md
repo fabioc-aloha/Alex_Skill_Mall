@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: dashboard-design
-description: "Dashboard layout patterns, KPI card design, filter architecture, narrative flow through panels, and self-contained HTML generation"
+description: Dashboard layout patterns, KPI card design, filter architecture, narrative flow through panels, and self-contained HTML generation
+tier: standard
+applyTo: '**/*dashboard*,**/*design*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Dashboard Design
 
-**Tags**: `dashboard` `kpi` `layout`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 | Property     | Value                                                                  |
 | ------------ | ---------------------------------------------------------------------- |

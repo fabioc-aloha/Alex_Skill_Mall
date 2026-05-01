@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: mermaid-mode-fragility
+description: Mermaid diagram mode fragility — timeline, gitGraph, and gantt break on colons, default to flowchart
+tier: standard
+applyTo: '**/*mermaid*,**/*mode*,**/*fragility*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Mermaid Mode Fragility
 
 **Category**: Documentation

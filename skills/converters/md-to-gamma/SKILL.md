@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: md-to-gamma
+description: Pre-process Markdown into a Gamma-import-ready version.
+tier: standard
+applyTo: '**/*gamma*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # md-to-gamma
 
 Pre-process Markdown into a Gamma-import-ready version.

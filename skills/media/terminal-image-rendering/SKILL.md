@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "terminal-image-rendering"
 description: Render images inline in VS Code's integrated terminal using the Kitty graphics protocol
+tier: extended
+applyTo: '**/*terminal*,**/*image*,**/*rendering*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
 
 # Terminal Image Rendering
 
-**Tags**: `terminal` `images` `sixel-iterm`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Images in the terminal — no file explorer needed.
 

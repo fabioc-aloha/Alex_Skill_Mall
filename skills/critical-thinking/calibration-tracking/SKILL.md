@@ -1,17 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: calibration-tracking
 description: Record confidence claims and reconcile against outcomes — closing Tenet V (calibration over confidence)
-version: 1.0.0
+tier: core
+applyTo: '**/*calibration*,**/*tracking*'
 currency: 2026-04-27
-evidence: Tetlock 2005, Mellers et al. 2014 — calibration improves only with feedback loops
+lastReviewed: 2026-04-30
 ---
+
 # Calibration Tracking Skill
 
-**Tags**: `confidence` `tracking` `reconciliation`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Record the AI's confidence claims and reconcile them against actual outcomes. This closes ACT Tenet V (calibration over confidence) by creating a feedback loop.
 

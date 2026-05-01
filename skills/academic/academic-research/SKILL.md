@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: academic-research
 description: Research project scaffolding, thesis/dissertation writing, literature reviews, publication workflows, and the AI assistant-assisted academic workflows
-category: documentation
+tier: extended
+applyTo: '**/*academic*,**/*research*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Academic Research
 
-**Tags**: `thesis` `dissertation` `scaffolding`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Complete research lifecycle: project setup, literature review, writing, publication, and defense.
 

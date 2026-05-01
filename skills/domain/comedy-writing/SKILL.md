@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: comedy-writing
 description: Joke structure, comedic timing, set construction, callback patterns, and audience engagement for comedy writers.
+tier: extended
+applyTo: '**/*comedy*,**/*writing*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Comedy Writing Skill
 
-**Tags**: `comedy` `jokes` `timing`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Joke structure, comedic timing, set construction, callback patterns, and audience engagement for comedy writers.
 

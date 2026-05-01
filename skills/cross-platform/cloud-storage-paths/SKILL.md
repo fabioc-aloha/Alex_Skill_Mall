@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: cloud-storage-paths
+description: Cross-platform cloud storage path resolution — OneDrive, iCloud, Dropbox path discovery and normalization
+tier: standard
+applyTo: '**/*cloud*,**/*storage*,**/*paths*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Cloud Storage Paths
 
 **Category**: Cross-Platform

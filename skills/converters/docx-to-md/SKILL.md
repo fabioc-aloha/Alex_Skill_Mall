@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "docx-to-md"
-description: "Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup"
-muscle: .github/muscles/docx-to-md.cjs
+description: Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup
+tier: standard
+applyTo: '**/*docx*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Word to Markdown Conversion
 
-**Tags**: `docx` `markdown` `conversion`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Ingest Word documents into your Markdown workflow — clean, linted, version-control ready
 

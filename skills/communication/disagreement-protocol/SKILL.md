@@ -1,16 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: disagreement-protocol
 description: Canonical phrasing for respectful disagreement without capitulation — structural resistance to sycophancy
+tier: standard
+applyTo: '**/*disagreement*,**/*protocol*'
 currency: 2026-04-27
+lastReviewed: 2026-04-30
 ---
 
 # Disagreement Protocol Skill
 
-**Tags**: `disagreement` `conflict` `dialog`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Express disagreement clearly and respectfully without capitulating to user confidence.
 

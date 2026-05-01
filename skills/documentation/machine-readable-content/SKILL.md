@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: machine-readable-content
+description: Emoji, color codes, and visual markers in files parsed by regex or LLMs break tooling:
+tier: standard
+applyTo: '**/*machine*,**/*readable*,**/*content*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Machine-Readable Content
 
 ## The Problem

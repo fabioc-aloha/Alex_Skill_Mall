@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: config-content-separation
+description: Mixing structure and content makes both hard to maintain:
+tier: standard
+applyTo: '**/*config*,**/*content*,**/*separation*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Config + Content Separation
 
 ## The Problem

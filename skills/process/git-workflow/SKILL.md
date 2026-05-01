@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: git-workflow
 description: Consistent git practices, recovery patterns, and safe operations.
+tier: standard
+applyTo: '**/*git*,**/*workflow*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Git Workflow Skill
 
-**Tags**: `git` `recovery` `practices`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Consistent git practices, recovery patterns, and safe operations.
 

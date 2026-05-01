@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: api-documentation
 description: Technical documentation, API references, user guides, and docs-as-code workflows.
+tier: standard
+applyTo: '**/*api*,**/*documentation*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # API Documentation Skill
 
-**Tags**: `api-docs` `reference` `onboarding`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Technical documentation, API references, user guides, and docs-as-code workflows.
 

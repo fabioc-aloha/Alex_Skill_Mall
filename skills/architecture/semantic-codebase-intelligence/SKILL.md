@@ -1,6 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: semantic-codebase-intelligence
-description: "Deep structural analysis of a codebase — dependency mapping, architecture boundary detection, coupling/cohesion scoring, and dead code discovery. Use when asked to analyze codebase structure, map dependencies, find dead code, architecture analysis, coupling analysis, trace dependencies, or understand this system. Produces a Context Map with actionable insights."
+description: Deep structural analysis of a codebase — dependency mapping, architecture boundary detection, coupling/cohesion scoring, and dead code discovery. Use when asked to analyze codebase structure, map dependencies, find dead code, architecture analysis, coupling analysis, trace dependencies, or understand this system. Produces a Context Map with actionable insights.
+tier: standard
+applyTo: '**/*semantic*,**/*codebase*,**/*intelligence*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
 
 # Semantic Codebase Intelligence

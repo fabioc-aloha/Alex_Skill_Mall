@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: academic-paper-drafting
-description: "End-to-end academic paper drafting for CHI, HBR, journals, and conferences with venue-specific templates, drafting workflows, and revision strategies."
+description: End-to-end academic paper drafting for CHI, HBR, journals, and conferences with venue-specific templates, drafting workflows, and revision strategies.
+tier: extended
+applyTo: '**/*academic*,**/*paper*,**/*drafting*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # Academic Paper Drafting Skill
 
-**Tags**: `paper` `manuscript` `drafting`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Turn research into published scholarship. From blank page to accepted manuscript.
 

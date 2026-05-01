@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: pii-privacy-regulations
 description: Handling personally identifiable information under European and Australian privacy regulations.
+tier: standard
+applyTo: '**/*pii*,**/*privacy*,**/*regulations*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # PII & Privacy Regulations Skill
 
-**Tags**: `gdpr` `ccpa` `hipaa` `pii`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Handling personally identifiable information under European and Australian privacy regulations.
 

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: ai-writing-avoidance
-description: "Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns"
+description: Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns
+tier: standard
+applyTo: '**/*writing*,**/*avoidance*'
 currency: 2026-04-20
+lastReviewed: 2026-04-30
 ---
+
 # AI Writing Avoidance
 
-**Tags**: `ai-detection` `voice` `human-writing`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 **Domain**: Document quality assurance, policy writing, authentic voice preservation
 

@@ -1,23 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: sse-streaming
 description: POST-based Server-Sent Events streaming for Azure Functions — HTTP streaming, chunked response parsing, reconnection
-metadata:
-  version: 1.0.0
-  category: web-development
-  tags: [sse, streaming, azure-functions, http-streaming, readablestream, real-time]
-  activation:
-    triggers: [SSE, streaming, server-sent events, HTTP streaming, ReadableStream, chunked response, real-time]
-    context: Working on real-time streaming from Azure Functions to client
-  prerequisites: []
+tier: standard
+applyTo: '**/*sse*,**/*streaming*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # SSE Streaming
 
-**Tags**: `sse` `streaming` `post`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 POST-based Server-Sent Events pattern for Azure Functions. Solves the gap where native EventSource (GET-only) can't send request bodies, and Azure Static Web Apps don't proxy WebSocket to the API layer.
 

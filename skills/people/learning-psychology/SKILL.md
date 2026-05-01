@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: learning-psychology
 description: Help humans learn through partnership, not instruction.
+tier: extended
+applyTo: '**/*learning*,**/*psychology*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Learning Psychology Skill
 
-**Tags**: `learning` `partnership` `teaching`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Help humans learn through partnership, not instruction.
 

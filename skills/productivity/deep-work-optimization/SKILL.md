@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: deep-work-optimization
 description: Focus blocks, distraction management, and flow state triggers for cognitively demanding work
+tier: extended
+applyTo: '**/*deep*,**/*work*,**/*optimization*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Deep Work Optimization
 
-**Tags**: `focus` `deep-work` `distraction`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Focus blocks, distraction management, and flow state triggers for cognitively demanding work.
 

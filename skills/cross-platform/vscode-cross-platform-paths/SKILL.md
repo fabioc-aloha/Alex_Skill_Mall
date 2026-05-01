@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: vscode-cross-platform-paths
+description: VS Code path handling across Windows, macOS, and Linux — URI schemes, path separators, workspace folders
+tier: standard
+applyTo: '**/*vscode*,**/*cross*,**/*platform*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # VS Code Cross-Platform Paths
 
 **Category**: Cross-Platform

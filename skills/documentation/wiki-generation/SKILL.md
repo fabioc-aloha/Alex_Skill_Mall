@@ -1,6 +1,13 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: wiki-generation
-description: "Generate structured documentation from codebases — architecture mapping, page writing, and onboarding guides. Use when asked to create a wiki, document a repo, generate onboarding docs, map architecture for documentation, or produce a documentation plan from source code."
+description: Generate structured documentation from codebases — architecture mapping, page writing, and onboarding guides. Use when asked to create a wiki, document a repo, generate onboarding docs, map architecture for documentation, or produce a documentation plan from source code.
+tier: standard
+applyTo: '**/*wiki*,**/*generation*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
 ---
 
 # Wiki Generation

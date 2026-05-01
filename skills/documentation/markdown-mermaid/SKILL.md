@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "markdown-mermaid"
-description: "Clear documentation through visual excellence"
+description: Clear documentation through visual excellence
+tier: standard
+applyTo: '**/*markdown*,**/*mermaid*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Markdown & Mermaid
 
-**Tags**: `mermaid` `diagrams` `markdown` `comprehensive`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Clear documentation through visual excellence
 

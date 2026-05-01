@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: msal-authentication
 description: Microsoft Authentication Library (MSAL) patterns for React/SPA applications with Entra ID
+tier: standard
+applyTo: '**/*msal*,**/*authentication*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # MSAL Authentication
 
-**Tags**: `msal` `oauth` `tokens`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Microsoft Authentication Library patterns for React/SPA applications with Microsoft Entra ID.
 > **Staleness Watch**: See [EXTERNAL-API-REGISTRY.md](../../EXTERNAL-API-REGISTRY.md) for source URLs and recheck cadence

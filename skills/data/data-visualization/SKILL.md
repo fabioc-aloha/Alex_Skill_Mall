@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: data-visualization
 description: Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the "title = insight" principle for data-driven visuals
+tier: standard
+applyTo: '**/*data*,**/*visualization*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Skill: Data Visualization
 
-**Tags**: `charts` `color` `story-intent`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Choose the right chart for the story, not just the data shape. Every chart should make an argument.
 

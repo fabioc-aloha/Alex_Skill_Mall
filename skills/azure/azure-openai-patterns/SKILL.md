@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: azure-openai-patterns
 description: Azure OpenAI API patterns for rate limiting, function calling, error handling, and token optimization
+tier: standard
+applyTo: '**/*azure*,**/*openai*,**/*patterns*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Azure OpenAI Patterns
 
-**Tags**: `openai` `rate-limit` `content-safety`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Rate limiting, function calling, error handling, and token optimization for Azure OpenAI API.
 

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "research-first-development"
-description: "Build knowledge bases that build software — research before code, teach before execute"
+description: Build knowledge bases that build software — research before code, teach before execute
+tier: extended
+applyTo: '**/*research*,**/*first*,**/*development*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Research-First Development
 
-**Tags**: `research` `knowledge-base` `workflow`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Build knowledge bases that build software — research before code, teach before execute
 

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: career-development
 description: Resume crafting, interview preparation, job search strategy, and professional growth planning.
+tier: extended
+applyTo: '**/*career*,**/*development*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Career Development Skill
 
-**Tags**: `career` `resume` `interview`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Resume crafting, interview preparation, job search strategy, and professional growth planning.
 

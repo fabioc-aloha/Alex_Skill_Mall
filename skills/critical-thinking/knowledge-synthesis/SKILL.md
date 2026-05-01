@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "knowledge-synthesis"
-description: "Cross-project pattern recognition — abstract, generalize, connect, store at the highest true level"
+description: Cross-project pattern recognition — abstract, generalize, connect, store at the highest true level
+tier: core
+applyTo: '**/*knowledge*,**/*synthesis*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Knowledge Synthesis Skill
 
-**Tags**: `patterns` `abstraction` `cross-project`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Extract the reusable from the specific. Store at the highest level that remains true.
 

@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: python-mock-patching-location
+description: Python mock.patch must target the import location, not the definition location
+tier: standard
+applyTo: '**/*python*,**/*mock*,**/*patching*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Python Mock Patching Location
 
 **Category**: Testing

@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: azure-cost-management-api
+description: In PowerShell, inline JSON for Cost Management API causes "Unsupported Media Type" errors:
+tier: standard
+applyTo: '**/*azure*,**/*cost*,**/*management*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Azure Cost Management API
 
 ## The Problem

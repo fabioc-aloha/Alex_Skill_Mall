@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: project-risk-analysis
-description: "Systematic methodology for identifying, categorizing, and mitigating software project risks before implementation"
+description: Systematic methodology for identifying, categorizing, and mitigating software project risks before implementation
+tier: standard
+applyTo: '**/*project*,**/*risk*,**/*analysis*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Domain Knowledge: Project Risk Analysis Methodology
 
-**Tags**: `risk` `mitigation` `planning`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 **Domain**: Software Project Risk Management & Strategic Planning
 **Version**: 1.0.0 UNUNNILIUM (un-un-nil-ium)

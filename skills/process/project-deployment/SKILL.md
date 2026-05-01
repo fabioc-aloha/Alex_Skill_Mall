@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: project-deployment
 description: Universal deployment patterns for any project type.
+tier: standard
+applyTo: '**/*project*,**/*deployment*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Project Deployment Skill
 
-**Tags**: `deployment` `release` `universal`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Universal deployment patterns for any project type.
 

@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: react-vite-performance
-description: "React + Vite performance optimization — code splitting, lazy loading, bundle analysis, Web Vitals, and modern React patterns for fast web applications"
+description: React + Vite performance optimization — code splitting, lazy loading, bundle analysis, Web Vitals, and modern React patterns for fast web applications
+tier: standard
+applyTo: '**/*react*,**/*vite*,**/*performance*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # React + Vite Performance Optimization
 
-**Tags**: `react` `vite` `performance`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Fast by default, optimized by design — sub-300KB bundles and sub-2s load times.
 >

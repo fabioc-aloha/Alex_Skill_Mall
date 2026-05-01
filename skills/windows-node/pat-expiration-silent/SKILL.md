@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: pat-expiration-silent
+description: Personal Access Token expiration fails silently — 401 errors with no expiry message, pre-check pattern
+tier: extended
+applyTo: '**/*pat*,**/*expiration*,**/*silent*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # PAT Expiration Silent Failure
 
 **Category**: Windows / Node.js

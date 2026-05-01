@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: tmdl-linter-false-positives
+description: VS Code's TMDL (Tabular Model Definition Language) linter reports valid syntax as errors:
+tier: standard
+applyTo: '**/*tmdl*,**/*linter*,**/*false*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # TMDL Linter False Positives
 
 ## The Problem

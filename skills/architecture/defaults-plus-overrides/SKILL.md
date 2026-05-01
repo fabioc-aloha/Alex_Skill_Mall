@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: defaults-plus-overrides
+description: Provide sensible defaults with user-overridable configuration — reduce boilerplate without limiting flexibility
+tier: standard
+applyTo: '**/*defaults*,**/*plus*,**/*overrides*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Defaults Plus Overrides
 
 **Category**: Architecture

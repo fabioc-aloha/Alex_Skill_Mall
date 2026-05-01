@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: data-storytelling
-description: "End-to-end data narrative construction -- three-act structure, Knaflic/Duarte methodology, audience-first framing, and orchestration across analysis, visualization, and dashboard skills"
+description: End-to-end data narrative construction -- three-act structure, Knaflic/Duarte methodology, audience-first framing, and orchestration across analysis, visualization, and dashboard skills
+tier: standard
+applyTo: '**/*data*,**/*storytelling*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Data Storytelling
 
-**Tags**: `narrative` `story` `end-to-end`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 | Property     | Value                                                                       |
 | ------------ | --------------------------------------------------------------------------- |

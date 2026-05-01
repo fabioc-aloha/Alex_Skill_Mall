@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: "scope-management"
-description: "Recognize scope creep, suggest MVP cuts, and manage project boundaries"
+description: Recognize scope creep, suggest MVP cuts, and manage project boundaries
+tier: standard
+applyTo: '**/*scope*,**/*management*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Scope Management Skill
 
-**Tags**: `scope-creep` `mvp` `backlog`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 Recognize scope creep, suggest MVP cuts, and help maintain healthy project boundaries. The art of delivering the right thing, not everything.
 

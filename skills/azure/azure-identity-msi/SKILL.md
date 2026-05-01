@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: azure-identity-msi
+description: Time Saved: 1-2 hours debugging identity and RBAC
+tier: standard
+applyTo: '**/*azure*,**/*identity*,**/*msi*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Azure Managed Identity (MSI) Concepts
 
 **Category**: Azure

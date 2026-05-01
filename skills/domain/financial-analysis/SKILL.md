@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: financial-analysis
 description: Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals.
+tier: extended
+applyTo: '**/*financial*,**/*analysis*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # Financial Analysis Skill
 
-**Tags**: `finance` `modeling` `analysis`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals.
 

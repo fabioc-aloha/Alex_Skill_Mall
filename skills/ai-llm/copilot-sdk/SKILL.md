@@ -1,15 +1,17 @@
 ---
+type: skill
+lifecycle: stable
+inheritance: inheritable
 name: copilot-sdk
 description: Build applications powered by GitHub Copilot using the Copilot SDK — session management, custom tools, streaming, hooks, MCP servers, BYOK, deployment patterns
+tier: standard
+applyTo: '**/*copilot*,**/*sdk*'
 currency: 2026-04-22
+lastReviewed: 2026-04-30
 ---
+
 # GitHub Copilot SDK
 
-**Tags**: `copilot-sdk` `github` `language-model`
-**Currency**: 2026-04-28
-**Promoted from**: Master Alex inheritable skills
-
----
 
 > Build applications that programmatically interact with GitHub Copilot
 

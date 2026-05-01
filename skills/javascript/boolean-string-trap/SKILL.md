@@ -1,3 +1,15 @@
+---
+type: skill
+lifecycle: stable
+inheritance: inheritable
+name: boolean-string-trap
+description: JavaScript boolean-string coercion trap — "false" is truthy, JSON.parse or strict comparison required
+tier: standard
+applyTo: '**/*boolean*,**/*string*,**/*trap*'
+currency: 2026-04-30
+lastReviewed: 2026-04-30
+---
+
 # Boolean String Trap
 
 **Category**: JavaScript
