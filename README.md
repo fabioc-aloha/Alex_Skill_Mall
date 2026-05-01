@@ -10,8 +10,6 @@ We develop original skills from real project experience, and we curate the best 
 
 The result: a single marketplace where your AI assistant finds expert knowledge across software engineering, cloud infrastructure, healthcare informatics, academic research, data analysis, publishing, security compliance, and AI agent governance. Drop a skill into your `.github/` folder and it learns instantly.
 
----
-
 ## Built for ACT Edition
 
 The Mall's primary consumer is [**Alex ACT Edition**](https://github.com/fabioc-aloha/Alex_ACT_Edition) — an AI assistant brain built on the Artificial Critical Thinking (ACT) framework. Edition heirs use `/find-skill` and `/install-from-mall` to shop the Mall directly from their projects.
@@ -29,8 +27,6 @@ The Mall also works with any AI assistant that reads `.github/` skill files:
 
 The [ACT Supervisor](https://github.com/fabioc-aloha/Alex_ACT_Supervisor) curates this Mall. The complete Supervisor package is available in [skills/supervisor/](skills/supervisor/) for anyone who wants to run their own curation instance.
 
----
-
 ## Quick Start
 
 ```bash
@@ -45,8 +41,6 @@ cp -r Alex_Skill_Mall/skills/azure/ /your/project/.github/skills/
 ```
 
 Your AI assistant (Copilot, Claude, Cursor, etc.) now has access to the skill.
-
----
 
 ## What's Here
 
@@ -120,8 +114,6 @@ Portable config files your tooling consumes directly (VS Code settings, themes, 
 | --- | --- |
 | [markdown-light](configs/markdown-light/) | GitHub-flavored markdown preview theme for VS Code |
 
----
-
 ## Where Skills Come From
 
 Skills arrive from three streams. Every skill passes the same quality gates regardless of origin.
@@ -133,8 +125,6 @@ Skills arrive from three streams. Every skill passes the same quality gates rega
 | **Promoted from heirs** | Fleet projects surface patterns through `/feedback` — the Supervisor triages and generalizes | Cross-platform path gotchas, Azure SWA deployment issues |
 
 The [Supervisor](skills/supervisor/) automates this pipeline: `/scan-stores` to discover, `/add-store` to evaluate, `/audit-mall` to keep it fresh.
-
----
 
 ## Quality Standard
 
@@ -150,13 +140,9 @@ Every skill in this repo has passed:
 
 If a skill doesn't teach your AI assistant something it wouldn't already know, it doesn't belong here.
 
----
-
 ## Works With Any AI Assistant
 
 This Mall is AI-platform agnostic. Skills are plain Markdown — they work with GitHub Copilot, Claude, Cursor, Windsurf, or any AI assistant that reads `.github/` files. The included [`.github/copilot-instructions.md`](.github/copilot-instructions.md) enables auto-discovery from the [CATALOG.md](CATALOG.md).
-
----
 
 ## Using the Mall
 
@@ -172,8 +158,6 @@ This Mall is AI-platform agnostic. Skills are plain Markdown — they work with 
 git clone https://github.com/fabioc-aloha/Alex_Skill_Mall.git ~/Alex_Skill_Mall
 ```
 
----
-
 ## Contributing
 
 Found expertise worth sharing? [See the contribution guide](CONTRIBUTING.md).
@@ -185,13 +169,9 @@ Skills must:
 3. Encode knowledge that isn't a quick search away
 4. Include actionable guidance, not just theory
 
----
-
 ## License
 
 MIT — use freely, contribute back.
-
----
 
 ## Origin
 
