@@ -12,6 +12,25 @@ The result: a single marketplace where your AI assistant finds expert knowledge 
 
 ---
 
+## Built for ACT Edition
+
+The Mall's primary consumer is [**Alex ACT Edition**](https://github.com/fabioc-aloha/Alex_ACT_Edition) — an AI assistant brain built on the Artificial Critical Thinking (ACT) framework. Edition heirs use `/find-skill` and `/install-from-mall` to shop the Mall directly from their projects.
+
+The Mall also works with any AI assistant that reads `.github/` skill files:
+
+| Surface | How it uses the Mall |
+| --- | --- |
+| **ACT Edition heirs** | Native integration — `/find-skill`, `/install-from-mall`, auto-discovery via CATALOG.md |
+| **GitHub Copilot** | Drop skills into `.github/skills/` — Copilot reads them as custom instructions |
+| **Claude (Code + Desktop)** | Skills work as `.claude/` instructions or project knowledge files |
+| **Cursor** | Copy skills into `.cursor/rules/` for context-aware completions |
+| **Windsurf** | Skills load as `.windsurfrules` project knowledge |
+| **Any AI assistant** | Plain Markdown — paste into system prompts, knowledge bases, or context files |
+
+The [ACT Supervisor](https://github.com/fabioc-aloha/Alex_ACT_Supervisor) curates this Mall. The complete Supervisor package is available in [skills/supervisor/](skills/supervisor/) for anyone who wants to run their own curation instance.
+
+---
+
 ## Quick Start
 
 ```bash
