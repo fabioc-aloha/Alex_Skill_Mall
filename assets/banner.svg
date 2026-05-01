@@ -117,22 +117,27 @@
   <!-- Bottom tagline -->
   <text x="230" y="268" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Drop a skill into <tspan fill="#94a3b8" font-family="Consolas, monospace">.github/skills/</tspan> and your AI assistant learns it instantly</text>
 
-  <!-- Right side: floating skill cards -->
-  <g transform="translate(820, 45)" opacity="0.4">
-    <rect x="0" y="0" width="160" height="40" rx="8" fill="#38bdf8"/>
-    <rect x="40" y="50" width="160" height="40" rx="8" fill="#818cf8"/>
-    <rect x="10" y="100" width="160" height="40" rx="8" fill="#c084fc"/>
-    <rect x="50" y="150" width="160" height="40" rx="8" fill="#fbbf24"/>
-    <rect x="20" y="200" width="160" height="40" rx="8" fill="#34d399"/>
-  </g>
+  <!-- Right side: value proposition cards -->
+  <g transform="translate(790, 35)">
+    <rect x="0" y="0" width="220" height="38" rx="8" fill="#38bdf8" opacity="0.2"/>
+    <rect x="0" y="0" width="220" height="38" rx="8" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.4"/>
+    <text x="16" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#7dd3fc">Ship code 2x faster</text>
 
-  <!-- Right side: skill card labels -->
-  <g transform="translate(820, 45)" font-family="Consolas, monospace" font-size="11">
-    <text x="14" y="25" fill="#f8fafc" opacity="0.7">security/</text>
-    <text x="54" y="75" fill="#f8fafc" opacity="0.7">azure/</text>
-    <text x="24" y="125" fill="#f8fafc" opacity="0.7">ai-llm/</text>
-    <text x="64" y="175" fill="#f8fafc" opacity="0.7">data/</text>
-    <text x="34" y="225" fill="#f8fafc" opacity="0.7">supervisor/</text>
+    <rect x="30" y="50" width="250" height="38" rx="8" fill="#818cf8" opacity="0.2"/>
+    <rect x="30" y="50" width="250" height="38" rx="8" fill="none" stroke="#818cf8" stroke-width="1" opacity="0.4"/>
+    <text x="46" y="74" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#a5b4fc">Catch security bugs before PR</text>
+
+    <rect x="10" y="100" width="240" height="38" rx="8" fill="#c084fc" opacity="0.2"/>
+    <rect x="10" y="100" width="240" height="38" rx="8" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.4"/>
+    <text x="26" y="124" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#d8b4fe">Production-ready IaC patterns</text>
+
+    <rect x="40" y="150" width="260" height="38" rx="8" fill="#fbbf24" opacity="0.15"/>
+    <rect x="40" y="150" width="260" height="38" rx="8" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.4"/>
+    <text x="56" y="174" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#fcd34d">Govern your AI agent fleet</text>
+
+    <rect x="20" y="200" width="230" height="38" rx="8" fill="#34d399" opacity="0.2"/>
+    <rect x="20" y="200" width="230" height="38" rx="8" fill="none" stroke="#34d399" stroke-width="1" opacity="0.4"/>
+    <text x="36" y="224" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#6ee7b7">Save 30 min per debugging</text>
   </g>
 
   <!-- Version pill bottom-right -->
