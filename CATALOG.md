@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**235 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**248 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
