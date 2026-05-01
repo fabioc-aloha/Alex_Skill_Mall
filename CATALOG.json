@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "generated": "2026-05-01",
-  "count": 301,
+  "count": 302,
   "categories": [
     "academic",
     "ai-llm",
@@ -1779,6 +1779,16 @@
       "title": "Skill: Slide Design Principles"
     },
     {
+      "name": "supervisor-banners",
+      "category": "media",
+      "path": "skills/media/supervisor-banners/",
+      "description": "Dark-slate SVG banner family — 1200×320 hero + 1200×60 section dividers — for governance, curation, and audit-style documentation",
+      "tier": "extended",
+      "applyTo": "**/assets/banner*,**/*supervisor*,**/*governance*,**/*decisions*,**/*adr*,**/*changelog*",
+      "triggers": [],
+      "title": "Supervisor Banners"
+    },
+    {
       "name": "svg-dashboard-composition",
       "category": "media",
       "path": "skills/media/svg-dashboard-composition/",
@@ -2851,20 +2861,20 @@
     {
       "name": "symfix",
       "category": "security",
-      "path": "skills/security/codeql-symfix/",
+      "path": "skills/security/symfix/",
       "description": "Classify and remediate CodeQL alerts with the SymFix workflow using staged changelog updates",
       "tier": "standard",
-      "applyTo": "**/*codeql*,**/*symfix*",
+      "applyTo": "**/*symfix*",
       "triggers": [],
       "title": "SymFix Workflow — Instructions"
     },
     {
       "name": "symfix",
       "category": "security",
-      "path": "skills/security/symfix/",
+      "path": "skills/security/codeql-symfix/",
       "description": "Classify and remediate CodeQL alerts with the SymFix workflow using staged changelog updates",
       "tier": "standard",
-      "applyTo": "**/*symfix*",
+      "applyTo": "**/*codeql*,**/*symfix*",
       "triggers": [],
       "title": "SymFix Workflow — Instructions"
     },
