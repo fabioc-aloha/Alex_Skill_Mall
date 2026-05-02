@@ -1,13 +1,29 @@
 {
   "name": "weighted-scoring-matrix",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Multi-factor decisions become arbitrary without explicit weights:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "weighted",
+    "scoring",
+    "matrix",
+    "multi-factor",
+    "decisions",
+    "become",
+    "arbitrary",
+    "without"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "architecture-patterns",
   "tier": "standard",
+  "token_cost": 863,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 693,
   "artifacts": {
     "skill": "SKILL.md"
   },

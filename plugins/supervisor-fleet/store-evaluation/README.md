@@ -1,4 +1,4 @@
-# Store Evaluation
+# store-evaluation
 
 Evaluate a proposed store for inclusion in Alex_Skill_Mall using a quality scorecard
 
@@ -9,14 +9,14 @@ Evaluate a proposed store for inclusion in Alex_Skill_Mall using a quality score
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~912 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Evaluate a proposed store for inclusion in Alex_Skill_Mall using a quality scorecard
+| **Token cost** | ~1084 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | store, evaluation, evaluate, proposed, inclusion, alexskillmall, using, quality |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install store-evaluation
@@ -24,7 +24,7 @@ Evaluate a proposed store for inclusion in Alex_Skill_Mall using a quality score
 
 Or manually copy the plugin contents to `.github/skills/local/store-evaluation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

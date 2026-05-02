@@ -1,4 +1,4 @@
-# Journalism Skill
+# journalism
 
 News writing, investigative reporting, source verification, editorial standards, and fact-checking for journalists.
 
@@ -9,14 +9,14 @@ News writing, investigative reporting, source verification, editorial standards,
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1950 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-News writing, investigative reporting, source verification, editorial standards, and fact-checking for journalists.
+| **Token cost** | ~2136 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | journalism, news, writing, investigative, reporting, source, verification, editorial |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install journalism
@@ -24,7 +24,7 @@ News writing, investigative reporting, source verification, editorial standards,
 
 Or manually copy the plugin contents to `.github/skills/local/journalism/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

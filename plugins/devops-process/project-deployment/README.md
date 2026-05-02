@@ -1,4 +1,4 @@
-# Project Deployment Skill
+# project-deployment
 
 Universal deployment patterns for any project type.
 
@@ -9,14 +9,14 @@ Universal deployment patterns for any project type.
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1484 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Universal deployment patterns for any project type.
+| **Token cost** | ~1642 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | project, deployment, universal, patterns, type |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install project-deployment
@@ -24,7 +24,7 @@ Universal deployment patterns for any project type.
 
 Or manually copy the plugin contents to `.github/skills/local/project-deployment/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

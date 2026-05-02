@@ -1,4 +1,4 @@
-# Tech Debt Discovery
+# tech-debt-discovery
 
 Systematic technical debt inventory and prioritization. Use when asked to "find tech debt", "show me the TODOs", "how healthy is this codebase", "what should we fix first", "find code smells", "audit code quality", or "identify hotspots". Scans code markers, analyzes git history, checks dependencies, and produces a prioritized debt report.
 
@@ -9,14 +9,14 @@ Systematic technical debt inventory and prioritization. Use when asked to "find 
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2169 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Systematic technical debt inventory and prioritization. Use when asked to "find tech debt", "show me the TODOs", "how healthy is this codebase", "what should we fix first", "find code smells", "audit code quality", or "identify hotspots". Scans code markers, analyzes git history, checks dependencies, and produces a prioritized debt report.
+| **Token cost** | ~2471 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | tech, debt, discovery, systematic, technical, inventory, prioritization, asked |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install tech-debt-discovery
@@ -24,7 +24,7 @@ Systematic technical debt inventory and prioritization. Use when asked to "find 
 
 Or manually copy the plugin contents to `.github/skills/local/tech-debt-discovery/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

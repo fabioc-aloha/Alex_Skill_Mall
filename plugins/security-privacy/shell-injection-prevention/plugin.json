@@ -1,13 +1,29 @@
 {
   "name": "shell-injection-prevention",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Use execFileSync with args array instead of execSync with string concatenation to prevent shell injection",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "shell",
+    "injection",
+    "prevention",
+    "execfilesync",
+    "args",
+    "array",
+    "instead",
+    "execsync"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 1089,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 898,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# Architecture Audit
+# architecture-audit
 
 Comprehensive project consistency review across code, documentation, diagrams, and configuration
 
@@ -9,14 +9,14 @@ Comprehensive project consistency review across code, documentation, diagrams, a
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2374 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Comprehensive project consistency review across code, documentation, diagrams, and configuration
+| **Token cost** | ~2556 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | architecture, audit, comprehensive, project, consistency, review, across, code |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install architecture-audit
@@ -24,7 +24,7 @@ Comprehensive project consistency review across code, documentation, diagrams, a
 
 Or manually copy the plugin contents to `.github/skills/local/architecture-audit/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

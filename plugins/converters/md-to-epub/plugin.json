@@ -1,13 +1,26 @@
 {
   "name": "md-to-epub",
   "version": "1.0.0",
-  "shape": ".S.M",
   "description": "Convert Markdown to EPUB 3 e-books via Pandoc.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "epub",
+    "convert",
+    "markdown",
+    "e-books",
+    "pandoc"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S.M",
   "category": "converters",
   "tier": "standard",
+  "token_cost": 2244,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2090,
   "artifacts": {
     "muscle": "md-to-epub.cjs",
     "skill": "SKILL.md"

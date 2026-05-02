@@ -1,4 +1,4 @@
-# Frontend Design Review
+# frontend-design-review
 
 Review and create distinctive frontend interfaces -- design system compliance, three quality pillars (Frictionless, Quality Craft, Trustworthy), accessibility
 
@@ -9,14 +9,14 @@ Review and create distinctive frontend interfaces -- design system compliance, t
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2254 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Review and create distinctive frontend interfaces -- design system compliance, three quality pillars (Frictionless, Quality Craft, Trustworthy), accessibility
+| **Token cost** | ~2468 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | frontend, design, review, create, distinctive, interfaces, system, compliance |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install frontend-design-review
@@ -24,7 +24,7 @@ Review and create distinctive frontend interfaces -- design system compliance, t
 
 Or manually copy the plugin contents to `.github/skills/local/frontend-design-review/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

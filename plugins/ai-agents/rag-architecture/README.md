@@ -1,4 +1,4 @@
-# RAG Architecture Skill
+# rag-architecture
 
 Build retrieval-augmented generation systems that ground LLMs in your data.
 
@@ -9,14 +9,14 @@ Build retrieval-augmented generation systems that ground LLMs in your data.
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3411 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Build retrieval-augmented generation systems that ground LLMs in your data.
+| **Token cost** | ~3579 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | rag, architecture, build, retrieval-augmented, generation, systems, ground, llms |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install rag-architecture
@@ -24,7 +24,7 @@ Build retrieval-augmented generation systems that ground LLMs in your data.
 
 Or manually copy the plugin contents to `.github/skills/local/rag-architecture/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Defaults Plus Overrides
+# defaults-plus-overrides
 
 Provide sensible defaults with user-overridable configuration -- reduce boilerplate without limiting flexibility
 
@@ -9,14 +9,14 @@ Provide sensible defaults with user-overridable configuration -- reduce boilerpl
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1292 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Provide sensible defaults with user-overridable configuration -- reduce boilerplate without limiting flexibility
+| **Token cost** | ~1485 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | defaults, plus, overrides, provide, sensible, user-overridable, configuration, reduce |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install defaults-plus-overrides
@@ -24,7 +24,7 @@ Provide sensible defaults with user-overridable configuration -- reduce boilerpl
 
 Or manually copy the plugin contents to `.github/skills/local/defaults-plus-overrides/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Microsoft Fabric Governance Skill
+# microsoft-fabric
 
 Microsoft Fabric workspace management, governance, REST API patterns, and medallion architecture implementation
 
@@ -9,14 +9,14 @@ Microsoft Fabric workspace management, governance, REST API patterns, and medall
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2403 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Microsoft Fabric workspace management, governance, REST API patterns, and medallion architecture implementation
+| **Token cost** | ~2594 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | microsoft, fabric, workspace, management, governance, rest, patterns, medallion |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install microsoft-fabric
@@ -24,7 +24,7 @@ Microsoft Fabric workspace management, governance, REST API patterns, and medall
 
 Or manually copy the plugin contents to `.github/skills/local/microsoft-fabric/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

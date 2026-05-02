@@ -1,13 +1,29 @@
 {
   "name": "architecture-refinement",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Meta-skill for maintaining and evolving Alex's cognitive architecture through deliberate documentation and pattern extraction.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "architecture",
+    "refinement",
+    "meta-skill",
+    "maintaining",
+    "evolving",
+    "alexs",
+    "cognitive",
+    "through"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "architecture-patterns",
   "tier": "standard",
+  "token_cost": 1287,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1085,
   "artifacts": {
     "skill": "SKILL.md"
   },

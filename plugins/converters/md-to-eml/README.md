@@ -1,4 +1,4 @@
-# Markdown to Email Conversion
+# md-to-eml
 
 Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images
 
@@ -9,14 +9,14 @@ Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images
 | **Category** | converters |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1836 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images
+| **Token cost** | ~2001 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | eml, convert, markdown, 5322, email, inline, images |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install md-to-eml
@@ -24,7 +24,7 @@ Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images
 
 Or manually copy the plugin contents to `.github/skills/local/md-to-eml/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

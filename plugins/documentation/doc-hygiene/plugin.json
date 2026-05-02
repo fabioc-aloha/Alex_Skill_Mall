@@ -1,13 +1,29 @@
 {
   "name": "doc-hygiene",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Documentation hygiene -- anti-drift rules, count elimination, and living document maintenance",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "doc",
+    "hygiene",
+    "documentation",
+    "anti-drift",
+    "rules",
+    "count",
+    "elimination",
+    "living"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 1613,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1438,
   "artifacts": {
     "skill": "SKILL.md"
   },

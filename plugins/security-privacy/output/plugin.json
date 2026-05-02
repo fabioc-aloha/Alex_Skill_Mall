@@ -1,13 +1,29 @@
 {
   "name": "output",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Produce the final CodeQL fix result table and choose the correct exit code and retry behavior",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "output",
+    "produce",
+    "final",
+    "codeql",
+    "result",
+    "table",
+    "choose",
+    "correct"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 1927,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1751,
   "artifacts": {
     "skill": "SKILL.md"
   },

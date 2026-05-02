@@ -1,4 +1,4 @@
-# Documentation Hygiene
+# doc-hygiene
 
 Documentation hygiene -- anti-drift rules, count elimination, and living document maintenance
 
@@ -9,14 +9,14 @@ Documentation hygiene -- anti-drift rules, count elimination, and living documen
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1438 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Documentation hygiene -- anti-drift rules, count elimination, and living document maintenance
+| **Token cost** | ~1613 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | doc, hygiene, documentation, anti-drift, rules, count, elimination, living |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install doc-hygiene
@@ -24,7 +24,7 @@ Documentation hygiene -- anti-drift rules, count elimination, and living documen
 
 Or manually copy the plugin contents to `.github/skills/local/doc-hygiene/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

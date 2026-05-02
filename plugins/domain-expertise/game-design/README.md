@@ -1,4 +1,4 @@
-# Game Design Skill
+# game-design
 
 Game mechanics, level design, player psychology, systems balancing, and narrative design for game developers.
 
@@ -9,14 +9,14 @@ Game mechanics, level design, player psychology, systems balancing, and narrativ
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1910 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Game mechanics, level design, player psychology, systems balancing, and narrative design for game developers.
+| **Token cost** | ~2093 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | game, design, mechanics, level, player, psychology, systems, balancing |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install game-design
@@ -24,7 +24,7 @@ Game mechanics, level design, player psychology, systems balancing, and narrativ
 
 Or manually copy the plugin contents to `.github/skills/local/game-design/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

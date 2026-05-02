@@ -1,4 +1,4 @@
-# Line Ending Parsing
+# line-ending-parsing
 
 Line ending handling across platforms -- CRLF vs LF detection, normalization, and git config
 
@@ -9,14 +9,14 @@ Line ending handling across platforms -- CRLF vs LF detection, normalization, an
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~903 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Line ending handling across platforms -- CRLF vs LF detection, normalization, and git config
+| **Token cost** | ~1082 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | line, ending, parsing, handling, across, platforms, crlf, detection |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install line-ending-parsing
@@ -24,7 +24,7 @@ Line ending handling across platforms -- CRLF vs LF detection, normalization, an
 
 Or manually copy the plugin contents to `.github/skills/local/line-ending-parsing/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

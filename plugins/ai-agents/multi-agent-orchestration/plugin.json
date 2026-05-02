@@ -1,13 +1,29 @@
 {
   "name": "multi-agent-orchestration",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Coordinate multiple AI agents for complex tasks -- decomposition, delegation, and synthesis",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "multi",
+    "agent",
+    "orchestration",
+    "coordinate",
+    "multiple",
+    "agents",
+    "complex",
+    "tasks"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 2244,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2061,
   "artifacts": {
     "skill": "SKILL.md"
   },

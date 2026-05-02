@@ -1,4 +1,4 @@
-# Advanced Remediation Guide
+# guide-advanced-remediation
 
 >
 
@@ -9,14 +9,14 @@
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~6419 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
->
+| **Token cost** | ~6558 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | guide, advanced, remediation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install guide-advanced-remediation
@@ -24,7 +24,7 @@
 
 Or manually copy the plugin contents to `.github/skills/local/guide-advanced-remediation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

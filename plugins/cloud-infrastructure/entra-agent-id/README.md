@@ -1,4 +1,4 @@
-# Microsoft Entra Agent ID
+# entra-agent-id
 
 Microsoft Entra Agent ID (preview) -- create OAuth2-capable AI agent identities via Microsoft Graph beta API
 
@@ -9,14 +9,14 @@ Microsoft Entra Agent ID (preview) -- create OAuth2-capable AI agent identities 
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2296 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Microsoft Entra Agent ID (preview) -- create OAuth2-capable AI agent identities via Microsoft Graph beta API
+| **Token cost** | ~2483 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | entra, agent, microsoft, preview, create, oauth2-capable, identities, graph |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install entra-agent-id
@@ -24,7 +24,7 @@ Microsoft Entra Agent ID (preview) -- create OAuth2-capable AI agent identities 
 
 Or manually copy the plugin contents to `.github/skills/local/entra-agent-id/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

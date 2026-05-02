@@ -1,4 +1,4 @@
-# Parity Guard Test Pattern
+# parity-guard-test-pattern
 
 When checking that all callers of a contract implement it correctly, you get false positives from wrapper delegators:
 
@@ -9,14 +9,14 @@ When checking that all callers of a contract implement it correctly, you get fal
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~658 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-When checking that all callers of a contract implement it correctly, you get false positives from wrapper delegators:
+| **Token cost** | ~853 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | parity, guard, test, pattern, checking, callers, contract, implement |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install parity-guard-test-pattern
@@ -24,7 +24,7 @@ When checking that all callers of a contract implement it correctly, you get fal
 
 Or manually copy the plugin contents to `.github/skills/local/parity-guard-test-pattern/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Temp File Python Analysis
+# temp-file-python-analysis
 
 Inline Python in shell scripts has quoting issues:
 
@@ -9,14 +9,14 @@ Inline Python in shell scripts has quoting issues:
 | **Category** | data-analytics |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~552 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Inline Python in shell scripts has quoting issues:
+| **Token cost** | ~714 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | temp, file, python, analysis, inline, shell, scripts, quoting |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install temp-file-python-analysis
@@ -24,7 +24,7 @@ Inline Python in shell scripts has quoting issues:
 
 Or manually copy the plugin contents to `.github/skills/local/temp-file-python-analysis/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

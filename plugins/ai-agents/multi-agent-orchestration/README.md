@@ -1,4 +1,4 @@
-# Multi-Agent Orchestration Skill
+# multi-agent-orchestration
 
 Coordinate multiple AI agents for complex tasks -- decomposition, delegation, and synthesis
 
@@ -9,14 +9,14 @@ Coordinate multiple AI agents for complex tasks -- decomposition, delegation, an
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2061 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Coordinate multiple AI agents for complex tasks -- decomposition, delegation, and synthesis
+| **Token cost** | ~2244 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | multi, agent, orchestration, coordinate, multiple, agents, complex, tasks |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install multi-agent-orchestration
@@ -24,7 +24,7 @@ Coordinate multiple AI agents for complex tasks -- decomposition, delegation, an
 
 Or manually copy the plugin contents to `.github/skills/local/multi-agent-orchestration/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

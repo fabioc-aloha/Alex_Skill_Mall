@@ -1,4 +1,4 @@
-# UI/UX Design
+# ui-ux-design
 
 User interface design, user experience optimization, accessibility compliance, design systems
 
@@ -9,14 +9,14 @@ User interface design, user experience optimization, accessibility compliance, d
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~5380 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-User interface design, user experience optimization, accessibility compliance, design systems
+| **Token cost** | ~5554 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | design, user, interface, experience, optimization, accessibility, compliance, systems |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install ui-ux-design
@@ -24,7 +24,7 @@ User interface design, user experience optimization, accessibility compliance, d
 
 Or manually copy the plugin contents to `.github/skills/local/ui-ux-design/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

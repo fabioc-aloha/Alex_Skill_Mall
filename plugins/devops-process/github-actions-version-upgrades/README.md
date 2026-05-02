@@ -1,4 +1,4 @@
-# GitHub Actions Version Upgrades
+# github-actions-version-upgrades
 
 Older action versions trigger deprecation warnings and will eventually break:
 
@@ -9,14 +9,14 @@ Older action versions trigger deprecation warnings and will eventually break:
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~503 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Older action versions trigger deprecation warnings and will eventually break:
+| **Token cost** | ~683 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | github, actions, version, upgrades, older, action, versions, trigger |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install github-actions-version-upgrades
@@ -24,7 +24,7 @@ Older action versions trigger deprecation warnings and will eventually break:
 
 Or manually copy the plugin contents to `.github/skills/local/github-actions-version-upgrades/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

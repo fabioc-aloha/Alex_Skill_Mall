@@ -1,13 +1,24 @@
 {
   "name": "biome-kusto-query",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": ">",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "biome",
+    "kusto",
+    "query"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 2991,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2850,
   "artifacts": {
     "skill": "SKILL.md"
   },

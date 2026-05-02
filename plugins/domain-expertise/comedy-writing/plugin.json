@@ -1,13 +1,29 @@
 {
   "name": "comedy-writing",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Joke structure, comedic timing, set construction, callback patterns, and audience engagement for comedy writers.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "comedy",
+    "writing",
+    "joke",
+    "structure",
+    "comedic",
+    "timing",
+    "construction",
+    "callback"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 1668,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1481,
   "artifacts": {
     "skill": "SKILL.md"
   },

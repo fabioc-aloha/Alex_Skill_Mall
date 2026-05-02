@@ -9,14 +9,14 @@ Convert PowerPoint (.pptx) to Markdown via Pandoc.
 | **Category** | converters |
 | **Shape** | `.S.M` |
 | **Tier** | standard |
-| **Token cost** | ~1775 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Convert PowerPoint (.pptx) to Markdown via Pandoc.
+| **Token cost** | ~1932 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | pptx, convert, powerpoint, markdown, pandoc |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install pptx-to-md
@@ -24,7 +24,7 @@ Convert PowerPoint (.pptx) to Markdown via Pandoc.
 
 Or manually copy the plugin contents to `.github/skills/local/pptx-to-md/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **muscle**: `pptx-to-md.cjs`
 - **skill**: `SKILL.md`

@@ -1,13 +1,29 @@
 {
   "name": "work-life-balance",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Detect burnout signals and proactively support sustainable productivity.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "work",
+    "life",
+    "balance",
+    "detect",
+    "burnout",
+    "signals",
+    "proactively",
+    "support"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "extended",
+  "token_cost": 1042,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 873,
   "artifacts": {
     "skill": "SKILL.md"
   },

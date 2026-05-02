@@ -1,4 +1,4 @@
-# Release Preflight Skill
+# release-preflight
 
 Pre-checks, version consistency, and deployment discipline.
 
@@ -9,14 +9,14 @@ Pre-checks, version consistency, and deployment discipline.
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1675 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Pre-checks, version consistency, and deployment discipline.
+| **Token cost** | ~1837 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | release, preflight, pre-checks, version, consistency, deployment, discipline |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install release-preflight
@@ -24,7 +24,7 @@ Pre-checks, version consistency, and deployment discipline.
 
 Or manually copy the plugin contents to `.github/skills/local/release-preflight/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

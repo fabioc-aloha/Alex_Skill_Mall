@@ -1,4 +1,4 @@
-# Learning Psychology Skill
+# learning-psychology
 
 Help humans learn through partnership, not instruction.
 
@@ -9,14 +9,14 @@ Help humans learn through partnership, not instruction.
 | **Category** | communication-people |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1368 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Help humans learn through partnership, not instruction.
+| **Token cost** | ~1531 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | learning, psychology, help, humans, learn, through, partnership, instruction |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install learning-psychology
@@ -24,7 +24,7 @@ Help humans learn through partnership, not instruction.
 
 Or manually copy the plugin contents to `.github/skills/local/learning-psychology/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

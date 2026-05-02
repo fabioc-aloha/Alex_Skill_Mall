@@ -1,13 +1,29 @@
 {
   "name": "lookup-nsg",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Finds the Network Interface Card (NIC) and associated Network Security Group (NSG) for a VM given its public IP address.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "lookup",
+    "nsg",
+    "finds",
+    "network",
+    "interface",
+    "card",
+    "associated",
+    "security"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 658,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 470,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "problem-framing-audit",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Step-back protocol -- restate, generalise, specialise, invert, ask why, pre-mortem, check stakeholders, and audit framings before solving",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "problem",
+    "framing",
+    "audit",
+    "step-back",
+    "protocol",
+    "restate",
+    "generalise",
+    "specialise"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "reasoning-metacognition",
   "tier": "core",
+  "token_cost": 2317,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2109,
   "artifacts": {
     "skill": "SKILL.md"
   },

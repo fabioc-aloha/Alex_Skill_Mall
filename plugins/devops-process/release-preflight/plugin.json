@@ -1,13 +1,28 @@
 {
   "name": "release-preflight",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Pre-checks, version consistency, and deployment discipline.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "release",
+    "preflight",
+    "pre-checks",
+    "version",
+    "consistency",
+    "deployment",
+    "discipline"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 1837,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1675,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "git-commit",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Create well-structured git commits using the Conventional Commits specification. Use when asked to \"commit changes\", \"create a git commit\", \"stage and commit\", \"write a commit message\", or \"/commit\". Analyzes diffs to auto-detect type and scope, generates semantic commit messages, and supports intelligent file staging.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "create",
+    "well-structured",
+    "commits",
+    "using",
+    "conventional",
+    "specification"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 1989,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1697,
   "artifacts": {
     "skill": "SKILL.md"
   },

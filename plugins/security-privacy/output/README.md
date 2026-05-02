@@ -1,4 +1,4 @@
-# Output Reporting -- Instructions
+# output
 
 Produce the final CodeQL fix result table and choose the correct exit code and retry behavior
 
@@ -9,14 +9,14 @@ Produce the final CodeQL fix result table and choose the correct exit code and r
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1751 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Produce the final CodeQL fix result table and choose the correct exit code and retry behavior
+| **Token cost** | ~1927 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | output, produce, final, codeql, result, table, choose, correct |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install output
@@ -24,7 +24,7 @@ Produce the final CodeQL fix result table and choose the correct exit code and r
 
 Or manually copy the plugin contents to `.github/skills/local/output/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

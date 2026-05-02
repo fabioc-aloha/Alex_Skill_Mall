@@ -1,4 +1,4 @@
-# Skill: Citation Management
+# citation-management
 
 APA 7th formatting, citation integration, reference validation, and bibliography generation
 
@@ -9,14 +9,14 @@ APA 7th formatting, citation integration, reference validation, and bibliography
 | **Category** | academic-research |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2228 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-APA 7th formatting, citation integration, reference validation, and bibliography generation
+| **Token cost** | ~2408 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | citation, management, formatting, integration, reference, validation, bibliography, generation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install citation-management
@@ -24,7 +24,7 @@ APA 7th formatting, citation integration, reference validation, and bibliography
 
 Or manually copy the plugin contents to `.github/skills/local/citation-management/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

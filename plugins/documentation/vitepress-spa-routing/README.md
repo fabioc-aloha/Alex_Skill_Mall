@@ -1,4 +1,4 @@
-# VitePress SPA Routing
+# vitepress-spa-routing
 
 VitePress intercepts all navigation clicks for SPA routing:
 
@@ -9,14 +9,14 @@ VitePress intercepts all navigation clicks for SPA routing:
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~520 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-VitePress intercepts all navigation clicks for SPA routing:
+| **Token cost** | ~683 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | vitepress, spa, routing, intercepts, navigation, clicks |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install vitepress-spa-routing
@@ -24,7 +24,7 @@ VitePress intercepts all navigation clicks for SPA routing:
 
 Or manually copy the plugin contents to `.github/skills/local/vitepress-spa-routing/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

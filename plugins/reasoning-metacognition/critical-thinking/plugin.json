@@ -1,13 +1,29 @@
 {
   "name": "critical-thinking",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Challenge what you think is right -- alternative hypotheses, missing data, evidence quality, bias detection, falsifiability, and adversarial review",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "critical",
+    "thinking",
+    "challenge",
+    "what",
+    "think",
+    "right",
+    "alternative",
+    "hypotheses"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "reasoning-metacognition",
   "tier": "core",
+  "token_cost": 6510,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 6305,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "staged-transformation-pipeline",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Monolithic transformations are hard to test and debug:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "staged",
+    "transformation",
+    "pipeline",
+    "monolithic",
+    "transformations",
+    "hard",
+    "test",
+    "debug"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "architecture-patterns",
   "tier": "standard",
+  "token_cost": 873,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 704,
   "artifacts": {
     "skill": "SKILL.md"
   },

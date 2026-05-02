@@ -1,4 +1,4 @@
-# Staleness Discipline
+# staleness-discipline
 
 Detect, classify, and prune stale entries in Alex_Skill_Mall -- define what stale means and how to remove gracefully
 
@@ -9,14 +9,14 @@ Detect, classify, and prune stale entries in Alex_Skill_Mall -- define what stal
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1056 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Detect, classify, and prune stale entries in Alex_Skill_Mall -- define what stale means and how to remove gracefully
+| **Token cost** | ~1248 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | staleness, discipline, detect, classify, prune, stale, entries, alexskillmall |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install staleness-discipline
@@ -24,7 +24,7 @@ Detect, classify, and prune stale entries in Alex_Skill_Mall -- define what stal
 
 Or manually copy the plugin contents to `.github/skills/local/staleness-discipline/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

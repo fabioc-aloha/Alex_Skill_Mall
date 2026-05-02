@@ -1,4 +1,4 @@
-# Image Storage vs Embedding Split
+# image-storage-embedding-split
 
 Storing images at embed size loses the original:
 
@@ -9,14 +9,14 @@ Storing images at embed size loses the original:
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~507 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Storing images at embed size loses the original:
+| **Token cost** | ~672 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | image, storage, embedding, split, storing, images, embed, size |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install image-storage-embedding-split
@@ -24,7 +24,7 @@ Storing images at embed size loses the original:
 
 Or manually copy the plugin contents to `.github/skills/local/image-storage-embedding-split/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

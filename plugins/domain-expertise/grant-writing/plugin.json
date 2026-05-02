@@ -1,13 +1,28 @@
 {
   "name": "grant-writing",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Translate research vision into funded reality.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "grant",
+    "writing",
+    "translate",
+    "research",
+    "vision",
+    "funded",
+    "reality"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 1719,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1566,
   "artifacts": {
     "skill": "SKILL.md"
   },

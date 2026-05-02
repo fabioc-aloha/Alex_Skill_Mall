@@ -1,4 +1,4 @@
-# Problem Framing Audit (Discipline -1)
+# problem-framing-audit
 
 Step-back protocol -- restate, generalise, specialise, invert, ask why, pre-mortem, check stakeholders, and audit framings before solving
 
@@ -9,14 +9,14 @@ Step-back protocol -- restate, generalise, specialise, invert, ask why, pre-mort
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~2109 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Step-back protocol -- restate, generalise, specialise, invert, ask why, pre-mortem, check stakeholders, and audit framings before solving
+| **Token cost** | ~2317 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | problem, framing, audit, step-back, protocol, restate, generalise, specialise |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install problem-framing-audit
@@ -24,7 +24,7 @@ Step-back protocol -- restate, generalise, specialise, invert, ask why, pre-mort
 
 Or manually copy the plugin contents to `.github/skills/local/problem-framing-audit/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

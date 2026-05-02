@@ -1,4 +1,4 @@
-# ACT Pass (7-Step Operational Pass)
+# act-pass
 
 Run the 7-step Artificial Critical Thinking pass -- Materiality → Hypothesise → Alternatives → Disconfirmers → Audit priors → Severity → Commit-with-marker
 
@@ -9,14 +9,14 @@ Run the 7-step Artificial Critical Thinking pass -- Materiality → Hypothesise 
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~2347 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Run the 7-step Artificial Critical Thinking pass -- Materiality → Hypothesise → Alternatives → Disconfirmers → Audit priors → Severity → Commit-with-marker
+| **Token cost** | ~2556 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | act, pass, 7-step, artificial, critical, thinking, materiality, hypothesise |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install act-pass
@@ -24,7 +24,7 @@ Run the 7-step Artificial Critical Thinking pass -- Materiality → Hypothesise 
 
 Or manually copy the plugin contents to `.github/skills/local/act-pass/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

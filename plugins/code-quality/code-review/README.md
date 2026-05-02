@@ -1,4 +1,4 @@
-# Code Review Skill
+# code-review
 
 Systematic code review for correctness, security, and growth -- not just style enforcement
 
@@ -9,14 +9,14 @@ Systematic code review for correctness, security, and growth -- not just style e
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2074 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Systematic code review for correctness, security, and growth -- not just style enforcement
+| **Token cost** | ~2246 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | code, review, systematic, correctness, security, growth, style, enforcement |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install code-review
@@ -24,7 +24,7 @@ Systematic code review for correctness, security, and growth -- not just style e
 
 Or manually copy the plugin contents to `.github/skills/local/code-review/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

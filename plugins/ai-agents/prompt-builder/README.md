@@ -1,4 +1,4 @@
-# Prompt Builder
+# prompt-builder
 
 Create and validate .prompt.md files that pass brain-qa on first attempt
 
@@ -9,14 +9,14 @@ Create and validate .prompt.md files that pass brain-qa on first attempt
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1277 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Create and validate .prompt.md files that pass brain-qa on first attempt
+| **Token cost** | ~1440 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | prompt, builder, create, validate, promptmd, files, pass, brain-qa |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install prompt-builder
@@ -24,7 +24,7 @@ Create and validate .prompt.md files that pass brain-qa on first attempt
 
 Or manually copy the plugin contents to `.github/skills/local/prompt-builder/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

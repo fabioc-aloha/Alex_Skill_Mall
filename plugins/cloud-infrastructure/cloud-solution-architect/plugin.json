@@ -1,13 +1,29 @@
 {
   "name": "cloud-solution-architect",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Design well-architected Azure cloud systems -- 10 design principles, 6 architecture styles, 44 design patterns, technology choices, WAF pillars",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "cloud",
+    "solution",
+    "architect",
+    "design",
+    "well-architected",
+    "azure",
+    "systems",
+    "principles"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "cloud-infrastructure",
   "tier": "standard",
+  "token_cost": 3850,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3640,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "frontend-design-review",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Review and create distinctive frontend interfaces -- design system compliance, three quality pillars (Frictionless, Quality Craft, Trustworthy), accessibility",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "frontend",
+    "design",
+    "review",
+    "create",
+    "distinctive",
+    "interfaces",
+    "system",
+    "compliance"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 2468,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2254,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "coaching-techniques",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "GROW model, active listening, developmental feedback, and team growth approaches",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "coaching",
+    "techniques",
+    "grow",
+    "model",
+    "active",
+    "listening",
+    "developmental",
+    "feedback"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "communication-people",
   "tier": "extended",
+  "token_cost": 2611,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2436,
   "artifacts": {
     "skill": "SKILL.md"
   },

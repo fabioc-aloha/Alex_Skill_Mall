@@ -1,13 +1,29 @@
 {
   "name": "journalism",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "News writing, investigative reporting, source verification, editorial standards, and fact-checking for journalists.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "journalism",
+    "news",
+    "writing",
+    "investigative",
+    "reporting",
+    "source",
+    "verification",
+    "editorial"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 2136,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1950,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# VitePress Clean URLs
+# vitepress-clean-urls
 
 With `cleanUrls: true`, nav links must NOT have `.html` extensions:
 
@@ -9,14 +9,14 @@ With `cleanUrls: true`, nav links must NOT have `.html` extensions:
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~509 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-With `cleanUrls: true`, nav links must NOT have `.html` extensions:
+| **Token cost** | ~675 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | vitepress, clean, urls, cleanurls, true, links, must, html |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install vitepress-clean-urls
@@ -24,7 +24,7 @@ With `cleanUrls: true`, nav links must NOT have `.html` extensions:
 
 Or manually copy the plugin contents to `.github/skills/local/vitepress-clean-urls/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "store-evaluation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Evaluate a proposed store for inclusion in Alex_Skill_Mall using a quality scorecard",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "store",
+    "evaluation",
+    "evaluate",
+    "proposed",
+    "inclusion",
+    "alexskillmall",
+    "using",
+    "quality"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "supervisor-fleet",
   "tier": "standard",
+  "token_cost": 1084,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 912,
   "artifacts": {
     "skill": "SKILL.md"
   },

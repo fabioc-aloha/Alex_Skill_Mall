@@ -1,13 +1,29 @@
 {
   "name": "content-safety-implementation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Azure Content Safety API integration, multi-layer defense pipeline, output validation, and operational safety controls",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "content",
+    "safety",
+    "implementation",
+    "azure",
+    "integration",
+    "multi-layer",
+    "defense",
+    "pipeline"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 2536,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2338,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "vscode-cross-platform-paths",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "VS Code path handling across Windows, macOS, and Linux -- URI schemes, path separators, workspace folders",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "vscode",
+    "cross",
+    "platform",
+    "paths",
+    "code",
+    "path",
+    "handling",
+    "across"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 1317,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1125,
   "artifacts": {
     "skill": "SKILL.md"
   },

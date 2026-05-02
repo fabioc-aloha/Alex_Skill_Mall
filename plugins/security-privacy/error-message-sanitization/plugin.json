@@ -1,13 +1,29 @@
 {
   "name": "error-message-sanitization",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Raw error messages leak internal information to users:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "error",
+    "message",
+    "sanitization",
+    "messages",
+    "leak",
+    "internal",
+    "information",
+    "users"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 709,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 544,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# GitHub README Override
+# github-readme-override
 
 GitHub README display rules -- which README renders when multiple exist, profile READMEs, org READMEs
 
@@ -9,14 +9,14 @@ GitHub README display rules -- which README renders when multiple exist, profile
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~746 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-GitHub README display rules -- which README renders when multiple exist, profile READMEs, org READMEs
+| **Token cost** | ~931 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | github, readme, override, display, rules, which, renders, multiple |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install github-readme-override
@@ -24,7 +24,7 @@ GitHub README display rules -- which README renders when multiple exist, profile
 
 Or manually copy the plugin contents to `.github/skills/local/github-readme-override/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

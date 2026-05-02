@@ -1,4 +1,4 @@
-# Shell Injection Prevention
+# shell-injection-prevention
 
 Use execFileSync with args array instead of execSync with string concatenation to prevent shell injection
 
@@ -9,14 +9,14 @@ Use execFileSync with args array instead of execSync with string concatenation t
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~898 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Use execFileSync with args array instead of execSync with string concatenation to prevent shell injection
+| **Token cost** | ~1089 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | shell, injection, prevention, execfilesync, args, array, instead, execsync |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install shell-injection-prevention
@@ -24,7 +24,7 @@ Use execFileSync with args array instead of execSync with string concatenation t
 
 Or manually copy the plugin contents to `.github/skills/local/shell-injection-prevention/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

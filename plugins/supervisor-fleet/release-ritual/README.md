@@ -1,4 +1,4 @@
-# Release Ritual
+# release-ritual
 
 Cut a release of Alex_ACT_Edition -- preflight, brain-qa, changelog, version bump, tag, push
 
@@ -9,14 +9,14 @@ Cut a release of Alex_ACT_Edition -- preflight, brain-qa, changelog, version bum
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1056 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Cut a release of Alex_ACT_Edition -- preflight, brain-qa, changelog, version bump, tag, push
+| **Token cost** | ~1231 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | release, ritual, alexactedition, preflight, brain-qa, changelog, version, bump |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install release-ritual
@@ -24,7 +24,7 @@ Cut a release of Alex_ACT_Edition -- preflight, brain-qa, changelog, version bum
 
 Or manually copy the plugin contents to `.github/skills/local/release-ritual/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# API Documentation Skill
+# api-documentation
 
 Technical documentation, API references, user guides, and docs-as-code workflows.
 
@@ -9,14 +9,14 @@ Technical documentation, API references, user guides, and docs-as-code workflows
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1880 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Technical documentation, API references, user guides, and docs-as-code workflows.
+| **Token cost** | ~2053 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | api, documentation, technical, references, user, guides, docs-as-code, workflows |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install api-documentation
@@ -24,7 +24,7 @@ Technical documentation, API references, user guides, and docs-as-code workflows
 
 Or manually copy the plugin contents to `.github/skills/local/api-documentation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

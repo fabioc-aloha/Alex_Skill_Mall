@@ -1,13 +1,29 @@
 {
   "name": "threat-surface-analysis",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Discover a codebase's threat surface through systematic investigation -- map ecosystem groups, dependency graphs, service connections, authentication mechanisms, and trust boundaries. Use when performing threat modeling, security review, or architectural analysis of any multi-ecosystem repository.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "threat",
+    "surface",
+    "analysis",
+    "discover",
+    "codebases",
+    "through",
+    "systematic",
+    "investigation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 2421,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2136,
   "artifacts": {
     "skill": "SKILL.md"
   },

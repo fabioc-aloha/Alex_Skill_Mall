@@ -1,4 +1,4 @@
-# Gamma Presentation Authoring
+# gamma-presentation
 
 Author markdown files optimized for Gamma import -- card structure, layout hints, image directives, speaker notes, and chat-agent refinement workflow
 
@@ -9,14 +9,14 @@ Author markdown files optimized for Gamma import -- card structure, layout hints
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2901 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Author markdown files optimized for Gamma import -- card structure, layout hints, image directives, speaker notes, and chat-agent refinement workflow
+| **Token cost** | ~3110 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | gamma, presentation, author, markdown, files, optimized, import, card |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install gamma-presentation
@@ -24,7 +24,7 @@ Author markdown files optimized for Gamma import -- card structure, layout hints
 
 Or manually copy the plugin contents to `.github/skills/local/gamma-presentation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

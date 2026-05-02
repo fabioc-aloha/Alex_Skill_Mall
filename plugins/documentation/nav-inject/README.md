@@ -1,4 +1,4 @@
-# Navigation Injector
+# nav-inject
 
 Inject cross-document navigation tables into multi-file Markdown documentation suites
 
@@ -9,14 +9,14 @@ Inject cross-document navigation tables into multi-file Markdown documentation s
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~825 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Inject cross-document navigation tables into multi-file Markdown documentation suites
+| **Token cost** | ~995 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | nav, inject, cross-document, navigation, tables, multi-file, markdown, documentation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install nav-inject
@@ -24,7 +24,7 @@ Inject cross-document navigation tables into multi-file Markdown documentation s
 
 Or manually copy the plugin contents to `.github/skills/local/nav-inject/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

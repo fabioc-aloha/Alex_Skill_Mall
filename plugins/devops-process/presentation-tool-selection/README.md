@@ -1,4 +1,4 @@
-# Presentation Tool Selection Skill
+# presentation-tool-selection
 
 Best practice decision matrix for choosing between Marp, Gamma, and PptxGenJS based on use case requirements.
 
@@ -9,14 +9,14 @@ Best practice decision matrix for choosing between Marp, Gamma, and PptxGenJS ba
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1856 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Best practice decision matrix for choosing between Marp, Gamma, and PptxGenJS based on use case requirements.
+| **Token cost** | ~2050 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | presentation, tool, selection, best, practice, decision, matrix, choosing |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install presentation-tool-selection
@@ -24,7 +24,7 @@ Best practice decision matrix for choosing between Marp, Gamma, and PptxGenJS ba
 
 Or manually copy the plugin contents to `.github/skills/local/presentation-tool-selection/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

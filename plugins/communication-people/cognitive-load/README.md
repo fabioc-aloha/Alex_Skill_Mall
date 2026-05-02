@@ -1,4 +1,4 @@
-# Cognitive Load Skill
+# cognitive-load
 
 Don't overwhelm -- chunk, scaffold, summarize first.
 
@@ -9,14 +9,14 @@ Don't overwhelm -- chunk, scaffold, summarize first.
 | **Category** | communication-people |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1498 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Don't overwhelm -- chunk, scaffold, summarize first.
+| **Token cost** | ~1656 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | cognitive, load, dont, overwhelm, chunk, scaffold, summarize, first |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install cognitive-load
@@ -24,7 +24,7 @@ Don't overwhelm -- chunk, scaffold, summarize first.
 
 Or manually copy the plugin contents to `.github/skills/local/cognitive-load/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

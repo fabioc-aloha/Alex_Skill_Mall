@@ -1,13 +1,27 @@
 {
   "name": "vscode-extension-patterns",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Reusable patterns for VS Code extension development.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "vscode",
+    "extension",
+    "patterns",
+    "reusable",
+    "code",
+    "development"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 1884,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1720,
   "artifacts": {
     "skill": "SKILL.md"
   },

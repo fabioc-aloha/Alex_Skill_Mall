@@ -1,13 +1,29 @@
 {
   "name": "audit-integrity",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Shared audit integrity framework for all AppSec agents -- enforces output quality, intellectual honesty, and continuous improvement through anti-rationalization guards, self-critique loops, retry protocols, non-negotiable behaviors, self-reflection quality gates (1-10 scoring, ≥8 threshold), and a self-learning system with lesson/memory governance for security analysis agents.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "audit",
+    "integrity",
+    "shared",
+    "framework",
+    "appsec",
+    "agents",
+    "enforces",
+    "output"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 1159,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 839,
   "artifacts": {
     "skill": "SKILL.md"
   },

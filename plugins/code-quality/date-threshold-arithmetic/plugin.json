@@ -1,13 +1,29 @@
 {
   "name": "date-threshold-arithmetic",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Date comparisons at thresholds fail due to fractional days:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "date",
+    "threshold",
+    "arithmetic",
+    "comparisons",
+    "thresholds",
+    "fail",
+    "fractional",
+    "days"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 697,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 531,
   "artifacts": {
     "skill": "SKILL.md"
   },

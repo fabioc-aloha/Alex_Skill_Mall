@@ -1,4 +1,4 @@
-# Appropriate Reliance Skill (v2.0)
+# appropriate-reliance
 
 Calibrated human-AI collaboration with creative latitude -- trust calibrated to reliability, creativity preserved with validation.
 
@@ -9,14 +9,14 @@ Calibrated human-AI collaboration with creative latitude -- trust calibrated to 
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~4676 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Calibrated human-AI collaboration with creative latitude -- trust calibrated to reliability, creativity preserved with validation.
+| **Token cost** | ~4879 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | appropriate, reliance, calibrated, human-ai, collaboration, creative, latitude, trust |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install appropriate-reliance
@@ -24,7 +24,7 @@ Calibrated human-AI collaboration with creative latitude -- trust calibrated to 
 
 Or manually copy the plugin contents to `.github/skills/local/appropriate-reliance/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

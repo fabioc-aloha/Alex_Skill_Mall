@@ -1,4 +1,4 @@
-# Distribution Security
+# distribution-security
 
 Defense-in-depth, PII protection, secrets scanning, and secure packaging for distributed software
 
@@ -9,14 +9,14 @@ Defense-in-depth, PII protection, secrets scanning, and secure packaging for dis
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2231 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Defense-in-depth, PII protection, secrets scanning, and secure packaging for distributed software
+| **Token cost** | ~2414 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | distribution, security, defense-in-depth, protection, secrets, scanning, secure, packaging |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install distribution-security
@@ -24,7 +24,7 @@ Defense-in-depth, PII protection, secrets scanning, and secure packaging for dis
 
 Or manually copy the plugin contents to `.github/skills/local/distribution-security/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

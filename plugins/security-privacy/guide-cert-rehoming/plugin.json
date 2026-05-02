@@ -1,13 +1,24 @@
 {
   "name": "guide-cert-rehoming",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": ">",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "guide",
+    "cert",
+    "rehoming"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 3548,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3412,
   "artifacts": {
     "skill": "SKILL.md"
   },

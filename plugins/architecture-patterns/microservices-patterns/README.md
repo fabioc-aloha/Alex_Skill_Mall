@@ -1,4 +1,4 @@
-# Microservices Patterns
+# microservices-patterns
 
 Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing microservices.
 
@@ -9,14 +9,14 @@ Design microservices architectures with service boundaries, event-driven communi
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~4126 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing microservices.
+| **Token cost** | ~4365 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | microservices, patterns, design, architectures, service, boundaries, event-driven, communication |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install microservices-patterns
@@ -24,7 +24,7 @@ Design microservices architectures with service boundaries, event-driven communi
 
 Or manually copy the plugin contents to `.github/skills/local/microservices-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

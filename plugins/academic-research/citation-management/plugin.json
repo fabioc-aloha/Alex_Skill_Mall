@@ -1,13 +1,29 @@
 {
   "name": "citation-management",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "APA 7th formatting, citation integration, reference validation, and bibliography generation",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "citation",
+    "management",
+    "formatting",
+    "integration",
+    "reference",
+    "validation",
+    "bibliography",
+    "generation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "academic-research",
   "tier": "extended",
+  "token_cost": 2408,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2228,
   "artifacts": {
     "skill": "SKILL.md"
   },

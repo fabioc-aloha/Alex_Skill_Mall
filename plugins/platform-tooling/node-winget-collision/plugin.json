@@ -1,13 +1,29 @@
 {
   "name": "node-winget-collision",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Node.js installed via winget collides with nvm -- path priority, shim conflicts, resolution steps",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "node",
+    "winget",
+    "collision",
+    "nodejs",
+    "installed",
+    "collides",
+    "path",
+    "priority"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "extended",
+  "token_cost": 1091,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 908,
   "artifacts": {
     "skill": "SKILL.md"
   },

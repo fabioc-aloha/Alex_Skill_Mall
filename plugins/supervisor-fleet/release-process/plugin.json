@@ -1,13 +1,24 @@
 {
   "name": "release-process",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Release Process Skill",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "release",
+    "process",
+    "skill"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "supervisor-fleet",
   "tier": "standard",
+  "token_cost": 3951,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3809,
   "artifacts": {
     "skill": "SKILL.md"
   },

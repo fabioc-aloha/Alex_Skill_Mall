@@ -1,13 +1,29 @@
 {
   "name": "copilot-sdk",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Build applications powered by GitHub Copilot using the Copilot SDK -- session management, custom tools, streaming, hooks, MCP servers, BYOK, deployment patterns",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "copilot",
+    "sdk",
+    "build",
+    "applications",
+    "powered",
+    "github",
+    "using",
+    "session"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 3812,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3605,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# HR & People Operations Skill
+# hr-people-operations
 
 Talent acquisition, employee lifecycle, compensation, labor regulations, and organizational development.
 
@@ -9,14 +9,14 @@ Talent acquisition, employee lifecycle, compensation, labor regulations, and org
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1998 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Talent acquisition, employee lifecycle, compensation, labor regulations, and organizational development.
+| **Token cost** | ~2186 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | people, operations, talent, acquisition, employee, lifecycle, compensation, labor |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install hr-people-operations
@@ -24,7 +24,7 @@ Talent acquisition, employee lifecycle, compensation, labor regulations, and org
 
 Or manually copy the plugin contents to `.github/skills/local/hr-people-operations/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

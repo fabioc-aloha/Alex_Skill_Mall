@@ -1,4 +1,4 @@
-# Visual Artifact QA
+# visual-artifact-qa
 
 Visual output that passes static checks can still fail to render:
 
@@ -9,14 +9,14 @@ Visual output that passes static checks can still fail to render:
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~534 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Visual output that passes static checks can still fail to render:
+| **Token cost** | ~698 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | visual, artifact, output, passes, static, checks, still, fail |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install visual-artifact-qa
@@ -24,7 +24,7 @@ Visual output that passes static checks can still fail to render:
 
 Or manually copy the plugin contents to `.github/skills/local/visual-artifact-qa/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Multi-Surface Count Drift
+# multi-surface-count-drift
 
 When a number (skill count, repo count, test count) appears in multiple files, they WILL diverge:
 
@@ -9,14 +9,14 @@ When a number (skill count, repo count, test count) appears in multiple files, t
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~515 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-When a number (skill count, repo count, test count) appears in multiple files, they WILL diverge:
+| **Token cost** | ~700 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | multi, surface, count, drift, number, skill, repo, test |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install multi-surface-count-drift
@@ -24,7 +24,7 @@ When a number (skill count, repo count, test count) appears in multiple files, t
 
 Or manually copy the plugin contents to `.github/skills/local/multi-surface-count-drift/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "code-review",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Systematic code review for correctness, security, and growth -- not just style enforcement",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "code",
+    "review",
+    "systematic",
+    "correctness",
+    "security",
+    "growth",
+    "style",
+    "enforcement"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 2246,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2074,
   "artifacts": {
     "skill": "SKILL.md"
   },

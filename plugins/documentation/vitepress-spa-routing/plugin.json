@@ -1,13 +1,27 @@
 {
   "name": "vitepress-spa-routing",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "VitePress intercepts all navigation clicks for SPA routing:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "vitepress",
+    "spa",
+    "routing",
+    "intercepts",
+    "navigation",
+    "clicks"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "extended",
+  "token_cost": 683,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 520,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# MSAL Authentication
+# msal-authentication
 
 Microsoft Authentication Library (MSAL) patterns for React/SPA applications with Entra ID
 
@@ -9,14 +9,14 @@ Microsoft Authentication Library (MSAL) patterns for React/SPA applications with
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1801 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Microsoft Authentication Library (MSAL) patterns for React/SPA applications with Entra ID
+| **Token cost** | ~1979 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | msal, authentication, microsoft, library, patterns, reactspa, applications, entra |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install msal-authentication
@@ -24,7 +24,7 @@ Microsoft Authentication Library (MSAL) patterns for React/SPA applications with
 
 Or manually copy the plugin contents to `.github/skills/local/msal-authentication/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

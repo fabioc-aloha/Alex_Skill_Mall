@@ -1,13 +1,29 @@
 {
   "name": "mall-curation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Curate Alex_Skill_Mall -- decide when to add, keep, refresh, or prune stores and catalog entries",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "mall",
+    "curation",
+    "curate",
+    "alexskillmall",
+    "decide",
+    "keep",
+    "refresh",
+    "prune"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "supervisor-fleet",
   "tier": "standard",
+  "token_cost": 1157,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 980,
   "artifacts": {
     "skill": "SKILL.md"
   },

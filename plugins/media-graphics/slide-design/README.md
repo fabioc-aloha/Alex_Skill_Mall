@@ -1,4 +1,4 @@
-# Skill: Slide Design Principles
+# slide-design
 
 Visual hierarchy, data visualization, and minimal text patterns for impactful presentations
 
@@ -9,14 +9,14 @@ Visual hierarchy, data visualization, and minimal text patterns for impactful pr
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2277 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Visual hierarchy, data visualization, and minimal text patterns for impactful presentations
+| **Token cost** | ~2455 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | slide, design, visual, hierarchy, data, visualization, minimal, text |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install slide-design
@@ -24,7 +24,7 @@ Visual hierarchy, data visualization, and minimal text patterns for impactful pr
 
 Or manually copy the plugin contents to `.github/skills/local/slide-design/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

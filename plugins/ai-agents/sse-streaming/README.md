@@ -1,4 +1,4 @@
-# SSE Streaming
+# sse-streaming
 
 POST-based Server-Sent Events streaming for Azure Functions -- HTTP streaming, chunked response parsing, reconnection
 
@@ -9,14 +9,14 @@ POST-based Server-Sent Events streaming for Azure Functions -- HTTP streaming, c
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1824 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-POST-based Server-Sent Events streaming for Azure Functions -- HTTP streaming, chunked response parsing, reconnection
+| **Token cost** | ~2009 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | sse, streaming, post-based, server-sent, events, azure, functions, http |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install sse-streaming
@@ -24,7 +24,7 @@ POST-based Server-Sent Events streaming for Azure Functions -- HTTP streaming, c
 
 Or manually copy the plugin contents to `.github/skills/local/sse-streaming/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

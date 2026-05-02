@@ -1,4 +1,4 @@
-# Path Traversal Prevention
+# path-traversal-prevention
 
 When copying files or serving content, user-controlled paths can escape the intended directory:
 
@@ -9,14 +9,14 @@ When copying files or serving content, user-controlled paths can escape the inte
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~717 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-When copying files or serving content, user-controlled paths can escape the intended directory:
+| **Token cost** | ~902 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | path, traversal, prevention, copying, files, serving, content, user-controlled |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install path-traversal-prevention
@@ -24,7 +24,7 @@ When copying files or serving content, user-controlled paths can escape the inte
 
 Or manually copy the plugin contents to `.github/skills/local/path-traversal-prevention/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

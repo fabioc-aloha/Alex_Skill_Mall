@@ -1,4 +1,4 @@
-# Repository Readiness Evaluation
+# repository-readiness-eval
 
 Evaluate a repository's readiness for AI-assisted development across 4 axes: code understanding, dependency restore, build success, and test execution. Use when onboarding to a new repo, assessing CI readiness, or validating that an AI agent can work effectively in a codebase.
 
@@ -9,14 +9,14 @@ Evaluate a repository's readiness for AI-assisted development across 4 axes: cod
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2410 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Evaluate a repository's readiness for AI-assisted development across 4 axes: code understanding, dependency restore, build success, and test execution. Use when onboarding to a new repo, assessing CI readiness, or validating that an AI agent can work effectively in a codebase.
+| **Token cost** | ~2686 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | repository, readiness, eval, evaluate, repositorys, ai-assisted, development, across |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install repository-readiness-eval
@@ -24,7 +24,7 @@ Evaluate a repository's readiness for AI-assisted development across 4 axes: cod
 
 Or manually copy the plugin contents to `.github/skills/local/repository-readiness-eval/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

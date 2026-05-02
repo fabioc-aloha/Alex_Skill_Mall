@@ -1,4 +1,4 @@
-# Config + Content Separation
+# config-content-separation
 
 Mixing structure and content makes both hard to maintain:
 
@@ -9,14 +9,14 @@ Mixing structure and content makes both hard to maintain:
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~603 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Mixing structure and content makes both hard to maintain:
+| **Token cost** | ~768 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | config, content, separation, mixing, structure, makes, both, hard |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install config-content-separation
@@ -24,7 +24,7 @@ Mixing structure and content makes both hard to maintain:
 
 Or manually copy the plugin contents to `.github/skills/local/config-content-separation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

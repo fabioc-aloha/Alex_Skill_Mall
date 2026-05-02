@@ -1,4 +1,4 @@
-# Config Transcription Verification
+# config-transcription-verification
 
 When extracting hardcoded data to JSON, field values silently drift:
 
@@ -9,14 +9,14 @@ When extracting hardcoded data to JSON, field values silently drift:
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~647 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-When extracting hardcoded data to JSON, field values silently drift:
+| **Token cost** | ~824 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | config, transcription, verification, extracting, hardcoded, data, json, field |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install config-transcription-verification
@@ -24,7 +24,7 @@ When extracting hardcoded data to JSON, field values silently drift:
 
 Or manually copy the plugin contents to `.github/skills/local/config-transcription-verification/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

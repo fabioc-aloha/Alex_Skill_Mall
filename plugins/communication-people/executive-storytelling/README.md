@@ -1,4 +1,4 @@
-# Skill: Executive Storytelling
+# executive-storytelling
 
 Data-driven narrative construction, stakeholder management, and influencing senior leadership decisions
 
@@ -9,14 +9,14 @@ Data-driven narrative construction, stakeholder management, and influencing seni
 | **Category** | communication-people |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3487 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Data-driven narrative construction, stakeholder management, and influencing senior leadership decisions
+| **Token cost** | ~3677 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | executive, storytelling, data-driven, narrative, construction, stakeholder, management, influencing |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install executive-storytelling
@@ -24,7 +24,7 @@ Data-driven narrative construction, stakeholder management, and influencing seni
 
 Or manually copy the plugin contents to `.github/skills/local/executive-storytelling/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

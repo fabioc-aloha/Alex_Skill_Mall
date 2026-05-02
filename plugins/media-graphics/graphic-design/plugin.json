@@ -1,13 +1,29 @@
 {
   "name": "graphic-design",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Patterns for visual design, SVG creation, layout composition, typography, and brand identity.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "graphic",
+    "design",
+    "patterns",
+    "visual",
+    "creation",
+    "layout",
+    "composition",
+    "typography"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 3493,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3317,
   "artifacts": {
     "skill": "SKILL.md"
   },

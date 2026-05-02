@@ -1,4 +1,4 @@
-# Security Review Skill
+# security-review
 
 Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI
 
@@ -9,14 +9,14 @@ Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2367 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI
+| **Token cost** | ~2535 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | security, review, defend, before, attackers, find, gaps, owasp |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install security-review
@@ -24,7 +24,7 @@ Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI
 
 Or manually copy the plugin contents to `.github/skills/local/security-review/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

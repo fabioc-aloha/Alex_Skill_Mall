@@ -1,4 +1,4 @@
-# Machine-Readable Content
+# machine-readable-content
 
 Emoji, color codes, and visual markers in files parsed by regex or LLMs break tooling:
 
@@ -9,14 +9,14 @@ Emoji, color codes, and visual markers in files parsed by regex or LLMs break to
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~487 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Emoji, color codes, and visual markers in files parsed by regex or LLMs break tooling:
+| **Token cost** | ~666 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | machine, readable, content, emoji, color, codes, visual, markers |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install machine-readable-content
@@ -24,7 +24,7 @@ Emoji, color codes, and visual markers in files parsed by regex or LLMs break to
 
 Or manually copy the plugin contents to `.github/skills/local/machine-readable-content/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

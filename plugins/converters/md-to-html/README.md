@@ -1,4 +1,4 @@
-# Markdown to HTML Conversion
+# md-to-html
 
 Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid diagrams
 
@@ -9,14 +9,14 @@ Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid
 | **Category** | converters |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1997 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid diagrams
+| **Token cost** | ~2171 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | html, convert, markdown, standalone, pages, embedded, images, mermaid |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install md-to-html
@@ -24,7 +24,7 @@ Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid
 
 Or manually copy the plugin contents to `.github/skills/local/md-to-html/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

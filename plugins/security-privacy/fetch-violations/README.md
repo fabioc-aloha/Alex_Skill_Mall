@@ -9,14 +9,14 @@ Query S360 Kusto for SFI-TI3.2.2 tenant isolation violations, classify by Violat
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3154 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Query S360 Kusto for SFI-TI3.2.2 tenant isolation violations, classify by ViolationTitle, flag autofix-eligible items for downstream remediation
+| **Token cost** | ~3356 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | fetch, violations, query, s360, kusto, sfi-ti322, tenant, isolation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install fetch-violations
@@ -24,7 +24,7 @@ Query S360 Kusto for SFI-TI3.2.2 tenant isolation violations, classify by Violat
 
 Or manually copy the plugin contents to `.github/skills/local/fetch-violations/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

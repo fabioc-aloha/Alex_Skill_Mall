@@ -1,4 +1,4 @@
-# Input Resolution -- Instructions
+# input
 
 Extract and resolve required CodeQL alert metadata from user input before remediation
 
@@ -9,14 +9,14 @@ Extract and resolve required CodeQL alert metadata from user input before remedi
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~610 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Extract and resolve required CodeQL alert metadata from user input before remediation
+| **Token cost** | ~782 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | input, extract, resolve, required, codeql, alert, metadata, user |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install input
@@ -24,7 +24,7 @@ Extract and resolve required CodeQL alert metadata from user input before remedi
 
 Or manually copy the plugin contents to `.github/skills/local/input/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

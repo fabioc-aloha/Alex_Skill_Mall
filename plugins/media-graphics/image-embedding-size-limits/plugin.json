@@ -1,13 +1,29 @@
 {
   "name": "image-embedding-size-limits",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Image embedding size limits in markdown -- base64 bloats 33%, use file references for images over 50KB",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "image",
+    "embedding",
+    "size",
+    "limits",
+    "markdown",
+    "base64",
+    "bloats",
+    "file"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "standard",
+  "token_cost": 1270,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1081,
   "artifacts": {
     "skill": "SKILL.md"
   },

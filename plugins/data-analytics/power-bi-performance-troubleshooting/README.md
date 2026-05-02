@@ -1,4 +1,4 @@
-# Power BI Performance Troubleshooting Guide
+# power-bi-performance-troubleshooting
 
 Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.
 
@@ -9,14 +9,14 @@ Systematic Power BI performance troubleshooting prompt for identifying, diagnosi
 | **Category** | data-analytics |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2635 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.
+| **Token cost** | ~2861 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | power, performance, troubleshooting, systematic, prompt, identifying, diagnosing, resolving |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install power-bi-performance-troubleshooting
@@ -24,7 +24,7 @@ Systematic Power BI performance troubleshooting prompt for identifying, diagnosi
 
 Or manually copy the plugin contents to `.github/skills/local/power-bi-performance-troubleshooting/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Node.js Winget Collision
+# node-winget-collision
 
 Node.js installed via winget collides with nvm -- path priority, shim conflicts, resolution steps
 
@@ -9,14 +9,14 @@ Node.js installed via winget collides with nvm -- path priority, shim conflicts,
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~908 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Node.js installed via winget collides with nvm -- path priority, shim conflicts, resolution steps
+| **Token cost** | ~1091 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | node, winget, collision, nodejs, installed, collides, path, priority |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install node-winget-collision
@@ -24,7 +24,7 @@ Node.js installed via winget collides with nvm -- path priority, shim conflicts,
 
 Or manually copy the plugin contents to `.github/skills/local/node-winget-collision/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

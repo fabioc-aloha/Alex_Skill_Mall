@@ -1,4 +1,4 @@
-# API Connector Builder
+# api-connector-builder
 
 Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture.
 
@@ -9,14 +9,14 @@ Build a new API connector or provider by matching the target repo's existing int
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~691 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture.
+| **Token cost** | ~918 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | api, connector, builder, build, provider, matching, target, repos |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install api-connector-builder
@@ -24,7 +24,7 @@ Build a new API connector or provider by matching the target repo's existing int
 
 Or manually copy the plugin contents to `.github/skills/local/api-connector-builder/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

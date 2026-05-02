@@ -1,13 +1,29 @@
 {
   "name": "secrets-management",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Secure token storage, VS Code SecretStorage API, credential management, environment variable migration",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "secrets",
+    "management",
+    "secure",
+    "token",
+    "storage",
+    "code",
+    "secretstorage",
+    "credential"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 3943,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3758,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "line-ending-parsing",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Line ending handling across platforms -- CRLF vs LF detection, normalization, and git config",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "line",
+    "ending",
+    "parsing",
+    "handling",
+    "across",
+    "platforms",
+    "crlf",
+    "detection"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 1082,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 903,
   "artifacts": {
     "skill": "SKILL.md"
   },

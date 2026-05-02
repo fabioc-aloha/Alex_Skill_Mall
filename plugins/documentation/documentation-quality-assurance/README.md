@@ -1,4 +1,4 @@
-# Documentation Quality Assurance
+# documentation-quality-assurance
 
 Systematic documentation audit, drift detection, preflight validation, and multi-pass quality pipelines
 
@@ -9,14 +9,14 @@ Systematic documentation audit, drift detection, preflight validation, and multi
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3607 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Systematic documentation audit, drift detection, preflight validation, and multi-pass quality pipelines
+| **Token cost** | ~3800 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | documentation, quality, assurance, systematic, audit, drift, detection, preflight |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install documentation-quality-assurance
@@ -24,7 +24,7 @@ Systematic documentation audit, drift detection, preflight validation, and multi
 
 Or manually copy the plugin contents to `.github/skills/local/documentation-quality-assurance/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

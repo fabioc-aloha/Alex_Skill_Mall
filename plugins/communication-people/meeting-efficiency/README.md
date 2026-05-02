@@ -1,4 +1,4 @@
-# Skill: Meeting Efficiency
+# meeting-efficiency
 
 Agenda design, time boxing, decision capture, async alternatives, and productive facilitation
 
@@ -9,14 +9,14 @@ Agenda design, time boxing, decision capture, async alternatives, and productive
 | **Category** | communication-people |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2529 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Agenda design, time boxing, decision capture, async alternatives, and productive facilitation
+| **Token cost** | ~2711 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | meeting, efficiency, agenda, design, time, boxing, decision, capture |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install meeting-efficiency
@@ -24,7 +24,7 @@ Agenda design, time boxing, decision capture, async alternatives, and productive
 
 Or manually copy the plugin contents to `.github/skills/local/meeting-efficiency/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

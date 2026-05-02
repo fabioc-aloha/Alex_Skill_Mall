@@ -1,4 +1,4 @@
-# Markdown to Word Conversion
+# md-to-word
 
 Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents
 
@@ -9,14 +9,14 @@ Convert Markdown with Mermaid diagrams and SVG illustrations to professional Wor
 | **Category** | converters |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3835 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents
+| **Token cost** | ~4010 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | word, convert, markdown, mermaid, diagrams, illustrations, professional, documents |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install md-to-word
@@ -24,7 +24,7 @@ Convert Markdown with Mermaid diagrams and SVG illustrations to professional Wor
 
 Or manually copy the plugin contents to `.github/skills/local/md-to-word/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

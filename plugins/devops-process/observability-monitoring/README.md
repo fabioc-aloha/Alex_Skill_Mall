@@ -1,4 +1,4 @@
-# Observability & Monitoring Skill
+# observability-monitoring
 
 Production visibility through logs, metrics, traces, and alerting -- the three pillars of observability
 
@@ -9,14 +9,14 @@ Production visibility through logs, metrics, traces, and alerting -- the three p
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2166 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Production visibility through logs, metrics, traces, and alerting -- the three pillars of observability
+| **Token cost** | ~2356 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | observability, monitoring, production, visibility, through, logs, metrics, traces |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install observability-monitoring
@@ -24,7 +24,7 @@ Production visibility through logs, metrics, traces, and alerting -- the three p
 
 Or manually copy the plugin contents to `.github/skills/local/observability-monitoring/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

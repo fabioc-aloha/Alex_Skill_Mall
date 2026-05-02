@@ -1,4 +1,4 @@
-# Architecture Refinement Skill
+# architecture-refinement
 
 Meta-skill for maintaining and evolving Alex's cognitive architecture through deliberate documentation and pattern extraction.
 
@@ -9,14 +9,14 @@ Meta-skill for maintaining and evolving Alex's cognitive architecture through de
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1085 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Meta-skill for maintaining and evolving Alex's cognitive architecture through deliberate documentation and pattern extraction.
+| **Token cost** | ~1287 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | architecture, refinement, meta-skill, maintaining, evolving, alexs, cognitive, through |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install architecture-refinement
@@ -24,7 +24,7 @@ Meta-skill for maintaining and evolving Alex's cognitive architecture through de
 
 Or manually copy the plugin contents to `.github/skills/local/architecture-refinement/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "game-design",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Game mechanics, level design, player psychology, systems balancing, and narrative design for game developers.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "game",
+    "design",
+    "mechanics",
+    "level",
+    "player",
+    "psychology",
+    "systems",
+    "balancing"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 2093,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1910,
   "artifacts": {
     "skill": "SKILL.md"
   },

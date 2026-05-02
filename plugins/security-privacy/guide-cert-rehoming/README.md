@@ -1,4 +1,4 @@
-# Guide: Certificate Rehoming
+# guide-cert-rehoming
 
 >
 
@@ -9,14 +9,14 @@
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3412 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
->
+| **Token cost** | ~3548 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | guide, cert, rehoming |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install guide-cert-rehoming
@@ -24,7 +24,7 @@
 
 Or manually copy the plugin contents to `.github/skills/local/guide-cert-rehoming/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Skill: Deep Work Optimization
+# deep-work-optimization
 
 Focus blocks, distraction management, and flow state triggers for cognitively demanding work
 
@@ -9,14 +9,14 @@ Focus blocks, distraction management, and flow state triggers for cognitively de
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2830 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Focus blocks, distraction management, and flow state triggers for cognitively demanding work
+| **Token cost** | ~3013 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | deep, work, optimization, focus, blocks, distraction, management, flow |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install deep-work-optimization
@@ -24,7 +24,7 @@ Focus blocks, distraction management, and flow state triggers for cognitively de
 
 Or manually copy the plugin contents to `.github/skills/local/deep-work-optimization/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

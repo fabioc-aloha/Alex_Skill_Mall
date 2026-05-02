@@ -1,4 +1,4 @@
-# VS Code Environment Skill
+# vscode-environment
 
 Optimal workspace setup for productivity.
 
@@ -9,14 +9,14 @@ Optimal workspace setup for productivity.
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~532 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Optimal workspace setup for productivity.
+| **Token cost** | ~686 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | vscode, environment, optimal, workspace, setup, productivity |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install vscode-environment
@@ -24,7 +24,7 @@ Optimal workspace setup for productivity.
 
 Or manually copy the plugin contents to `.github/skills/local/vscode-environment/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

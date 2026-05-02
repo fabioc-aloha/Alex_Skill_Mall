@@ -1,4 +1,4 @@
-# Falsifiability Test Pattern
+# falsifiability-test-pattern
 
 Plans without measurable success criteria drift into wishful thinking:
 
@@ -9,14 +9,14 @@ Plans without measurable success criteria drift into wishful thinking:
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~574 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Plans without measurable success criteria drift into wishful thinking:
+| **Token cost** | ~747 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | falsifiability, test, pattern, plans, without, measurable, success, criteria |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install falsifiability-test-pattern
@@ -24,7 +24,7 @@ Plans without measurable success criteria drift into wishful thinking:
 
 Or manually copy the plugin contents to `.github/skills/local/falsifiability-test-pattern/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

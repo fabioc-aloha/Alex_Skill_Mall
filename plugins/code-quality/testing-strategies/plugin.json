@@ -1,13 +1,29 @@
 {
   "name": "testing-strategies",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Systematic testing for confidence without over-testing -- the right test at the right level",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "testing",
+    "strategies",
+    "systematic",
+    "confidence",
+    "without",
+    "over-testing",
+    "right",
+    "test"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 1952,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1774,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "change-management",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Patterns for organizational change, ADKAR methodology, stakeholder engagement, and adoption strategies.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "change",
+    "management",
+    "patterns",
+    "organizational",
+    "adkar",
+    "methodology",
+    "stakeholder",
+    "engagement"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 1974,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1790,
   "artifacts": {
     "skill": "SKILL.md"
   },

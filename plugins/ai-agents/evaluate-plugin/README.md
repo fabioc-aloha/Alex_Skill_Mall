@@ -1,4 +1,4 @@
-# Evaluate Plugin Quality
+# evaluate-plugin
 
 Evaluate plugin quality. Use when user says "evaluate plugin", "review plugin quality", "score my plugin", "check plugin", "rate plugin".
 
@@ -9,14 +9,14 @@ Evaluate plugin quality. Use when user says "evaluate plugin", "review plugin qu
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3997 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Evaluate plugin quality. Use when user says "evaluate plugin", "review plugin quality", "score my plugin", "check plugin", "rate plugin".
+| **Token cost** | ~4196 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | evaluate, plugin, quality, user, says, review, score, check |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install evaluate-plugin
@@ -24,7 +24,7 @@ Evaluate plugin quality. Use when user says "evaluate plugin", "review plugin qu
 
 Or manually copy the plugin contents to `.github/skills/local/evaluate-plugin/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

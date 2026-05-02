@@ -1,13 +1,29 @@
 {
   "name": "cross-cultural-collaboration",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Domain: Multicultural team communication, cultural intelligence, global collaboration",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "cross",
+    "cultural",
+    "collaboration",
+    "domain",
+    "multicultural",
+    "team",
+    "communication",
+    "intelligence"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 3623,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3440,
   "artifacts": {
     "skill": "SKILL.md"
   },

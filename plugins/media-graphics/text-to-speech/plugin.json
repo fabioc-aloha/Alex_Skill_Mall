@@ -1,13 +1,29 @@
 {
   "name": "text-to-speech",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Cloud TTS via Replicate -- 15 models, voice cloning, emotion control, and multi-language support",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "text",
+    "speech",
+    "cloud",
+    "replicate",
+    "models",
+    "voice",
+    "cloning",
+    "emotion"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 2025,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1847,
   "artifacts": {
     "skill": "SKILL.md"
   },

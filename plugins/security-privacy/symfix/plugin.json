@@ -1,13 +1,29 @@
 {
   "name": "symfix",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Classify and remediate CodeQL alerts with the SymFix workflow using staged changelog updates",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "symfix",
+    "classify",
+    "remediate",
+    "codeql",
+    "alerts",
+    "workflow",
+    "using",
+    "staged"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 1084,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 909,
   "artifacts": {
     "skill": "SKILL.md"
   },

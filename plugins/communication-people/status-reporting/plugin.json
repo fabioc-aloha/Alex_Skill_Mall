@@ -1,13 +1,29 @@
 {
   "name": "status-reporting",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Create stakeholder-friendly project status updates and progress reports",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "status",
+    "reporting",
+    "create",
+    "stakeholder-friendly",
+    "project",
+    "updates",
+    "progress",
+    "reports"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "communication-people",
   "tier": "standard",
+  "token_cost": 1940,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1771,
   "artifacts": {
     "skill": "SKILL.md"
   },

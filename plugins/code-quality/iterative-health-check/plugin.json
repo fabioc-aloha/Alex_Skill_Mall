@@ -1,13 +1,29 @@
 {
   "name": "iterative-health-check",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "One-time audits don't track improvement:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "iterative",
+    "health",
+    "check",
+    "one-time",
+    "audits",
+    "dont",
+    "track",
+    "improvement"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 804,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 649,
   "artifacts": {
     "skill": "SKILL.md"
   },

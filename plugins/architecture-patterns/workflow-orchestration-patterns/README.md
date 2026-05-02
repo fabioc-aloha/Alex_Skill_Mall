@@ -1,4 +1,4 @@
-# Workflow Orchestration Patterns
+# workflow-orchestration-patterns
 
 Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration.
 
@@ -9,14 +9,14 @@ Design durable workflows with Temporal for distributed systems. Covers workflow 
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2328 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration.
+| **Token cost** | ~2603 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | workflow, orchestration, patterns, design, durable, workflows, temporal, distributed |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install workflow-orchestration-patterns
@@ -24,7 +24,7 @@ Design durable workflows with Temporal for distributed systems. Covers workflow 
 
 Or manually copy the plugin contents to `.github/skills/local/workflow-orchestration-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

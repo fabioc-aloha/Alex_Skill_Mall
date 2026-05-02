@@ -1,4 +1,4 @@
-# SymFix Workflow -- Instructions
+# symfix
 
 Classify and remediate CodeQL alerts with the SymFix workflow using staged changelog updates
 
@@ -9,14 +9,14 @@ Classify and remediate CodeQL alerts with the SymFix workflow using staged chang
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~909 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Classify and remediate CodeQL alerts with the SymFix workflow using staged changelog updates
+| **Token cost** | ~1084 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | symfix, classify, remediate, codeql, alerts, workflow, using, staged |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install symfix
@@ -24,7 +24,7 @@ Classify and remediate CodeQL alerts with the SymFix workflow using staged chang
 
 Or manually copy the plugin contents to `.github/skills/local/symfix/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

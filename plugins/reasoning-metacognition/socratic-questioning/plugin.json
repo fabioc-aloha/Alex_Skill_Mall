@@ -1,13 +1,29 @@
 {
   "name": "socratic-questioning",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Help users discover answers, don't just deliver them.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "socratic",
+    "questioning",
+    "help",
+    "users",
+    "discover",
+    "answers",
+    "dont",
+    "deliver"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "reasoning-metacognition",
   "tier": "core",
+  "token_cost": 1307,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1145,
   "artifacts": {
     "skill": "SKILL.md"
   },

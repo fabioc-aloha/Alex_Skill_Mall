@@ -1,4 +1,4 @@
-# Dashboard Design
+# dashboard-design
 
 Dashboard layout patterns, KPI card design, filter architecture, narrative flow through panels, and self-contained HTML generation
 
@@ -9,14 +9,14 @@ Dashboard layout patterns, KPI card design, filter architecture, narrative flow 
 | **Category** | data-analytics |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2939 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Dashboard layout patterns, KPI card design, filter architecture, narrative flow through panels, and self-contained HTML generation
+| **Token cost** | ~3134 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | dashboard, design, layout, patterns, card, filter, architecture, narrative |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install dashboard-design
@@ -24,7 +24,7 @@ Dashboard layout patterns, KPI card design, filter architecture, narrative flow 
 
 Or manually copy the plugin contents to `.github/skills/local/dashboard-design/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

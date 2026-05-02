@@ -1,13 +1,29 @@
 {
   "name": "remediate-nsg",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Applies M365NetIsoNsg compliance rules to an existing Azure NSG and outputs the ARM template for Safe Deployment.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "remediate",
+    "nsg",
+    "applies",
+    "m365netisonsg",
+    "compliance",
+    "rules",
+    "existing",
+    "azure"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 3396,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3209,
   "artifacts": {
     "skill": "SKILL.md"
   },

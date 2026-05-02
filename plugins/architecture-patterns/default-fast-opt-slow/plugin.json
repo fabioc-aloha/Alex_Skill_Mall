@@ -1,13 +1,29 @@
 {
   "name": "default-fast-opt-slow",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "AI/LLM features default to verbose responses, causing:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "default",
+    "fast",
+    "opt",
+    "slow",
+    "aillm",
+    "features",
+    "verbose",
+    "responses"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "architecture-patterns",
   "tier": "standard",
+  "token_cost": 684,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 520,
   "artifacts": {
     "skill": "SKILL.md"
   },

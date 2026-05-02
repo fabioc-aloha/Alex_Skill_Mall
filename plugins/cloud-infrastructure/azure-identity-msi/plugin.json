@@ -1,13 +1,29 @@
 {
   "name": "azure-identity-msi",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Time Saved: 1-2 hours debugging identity and RBAC",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "azure",
+    "identity",
+    "msi",
+    "time",
+    "saved",
+    "hours",
+    "debugging",
+    "rbac"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "cloud-infrastructure",
   "tier": "standard",
+  "token_cost": 1351,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1188,
   "artifacts": {
     "skill": "SKILL.md"
   },

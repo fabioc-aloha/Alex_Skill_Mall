@@ -1,13 +1,29 @@
 {
   "name": "azure-devops-automation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "CI/CD pipelines, infrastructure as code, and deployment automation for Azure workloads",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "azure",
+    "devops",
+    "automation",
+    "cicd",
+    "pipelines",
+    "infrastructure",
+    "code",
+    "deployment"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "cloud-infrastructure",
   "tier": "standard",
+  "token_cost": 2672,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2490,
   "artifacts": {
     "skill": "SKILL.md"
   },

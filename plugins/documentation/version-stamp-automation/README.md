@@ -1,4 +1,4 @@
-# Version Stamp Automation
+# version-stamp-automation
 
 Version numbers in 5+ files WILL drift with manual edits:
 
@@ -9,14 +9,14 @@ Version numbers in 5+ files WILL drift with manual edits:
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~570 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Version numbers in 5+ files WILL drift with manual edits:
+| **Token cost** | ~734 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | version, stamp, automation, numbers, files, drift, manual, edits |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install version-stamp-automation
@@ -24,7 +24,7 @@ Version numbers in 5+ files WILL drift with manual edits:
 
 Or manually copy the plugin contents to `.github/skills/local/version-stamp-automation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

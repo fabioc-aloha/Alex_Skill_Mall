@@ -1,4 +1,4 @@
-# Deep Review
+# deep-review
 
 Adversarial code review with three parallel perspectives -- Advocate, Skeptic, Architect -- that create productive tension. Use for high-stakes PRs, architectural changes, or when single-pass review would miss issues. Surfaces findings through disagreement, not consensus.
 
@@ -9,14 +9,14 @@ Adversarial code review with three parallel perspectives -- Advocate, Skeptic, A
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1527 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Adversarial code review with three parallel perspectives -- Advocate, Skeptic, Architect -- that create productive tension. Use for high-stakes PRs, architectural changes, or when single-pass review would miss issues. Surfaces findings through disagreement, not consensus.
+| **Token cost** | ~1789 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | deep, review, adversarial, code, three, parallel, perspectives, advocate |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install deep-review
@@ -24,7 +24,7 @@ Adversarial code review with three parallel perspectives -- Advocate, Skeptic, A
 
 Or manually copy the plugin contents to `.github/skills/local/deep-review/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

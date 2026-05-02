@@ -1,13 +1,29 @@
 {
   "name": "creative-writing",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Patterns for fiction, narrative structure, character development, dialogue, and storytelling craft.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "creative",
+    "writing",
+    "patterns",
+    "fiction",
+    "narrative",
+    "structure",
+    "character",
+    "development"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 3428,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3247,
   "artifacts": {
     "skill": "SKILL.md"
   },

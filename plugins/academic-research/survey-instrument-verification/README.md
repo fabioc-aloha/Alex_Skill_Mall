@@ -1,4 +1,4 @@
-# Survey Instrument Verification
+# survey-instrument-verification
 
 Manuscripts evolve terminology that may not match what was actually administered:
 
@@ -9,14 +9,14 @@ Manuscripts evolve terminology that may not match what was actually administered
 | **Category** | academic-research |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~554 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Manuscripts evolve terminology that may not match what was actually administered:
+| **Token cost** | ~736 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | survey, instrument, verification, manuscripts, evolve, terminology, match, what |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install survey-instrument-verification
@@ -24,7 +24,7 @@ Manuscripts evolve terminology that may not match what was actually administered
 
 Or manually copy the plugin contents to `.github/skills/local/survey-instrument-verification/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

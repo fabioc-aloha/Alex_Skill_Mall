@@ -1,4 +1,4 @@
-# Skill: Literature Review
+# literature-review
 
 Systematic literature search, synthesis, gap identification, and narrative construction for academic research
 
@@ -9,14 +9,14 @@ Systematic literature search, synthesis, gap identification, and narrative const
 | **Category** | academic-research |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2490 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Systematic literature search, synthesis, gap identification, and narrative construction for academic research
+| **Token cost** | ~2678 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | literature, review, systematic, search, synthesis, identification, narrative, construction |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install literature-review
@@ -24,7 +24,7 @@ Systematic literature search, synthesis, gap identification, and narrative const
 
 Or manually copy the plugin contents to `.github/skills/local/literature-review/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Mermaid Mode Fragility
+# mermaid-mode-fragility
 
 Mermaid diagram mode fragility -- timeline, gitGraph, and gantt break on colons, default to flowchart
 
@@ -9,14 +9,14 @@ Mermaid diagram mode fragility -- timeline, gitGraph, and gantt break on colons,
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~872 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Mermaid diagram mode fragility -- timeline, gitGraph, and gantt break on colons, default to flowchart
+| **Token cost** | ~1057 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | mermaid, mode, fragility, diagram, timeline, gitgraph, gantt, break |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install mermaid-mode-fragility
@@ -24,7 +24,7 @@ Mermaid diagram mode fragility -- timeline, gitGraph, and gantt break on colons,
 
 Or manually copy the plugin contents to `.github/skills/local/mermaid-mode-fragility/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# PPTX Generation Skill
+# pptx-generation
 
 Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markdown conversion
 
@@ -9,14 +9,14 @@ Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markd
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1052 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markdown conversion
+| **Token cost** | ~1230 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | pptx, generation, programmatic, powerpoint, creation, pptxgenjs, data-driven, slides |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install pptx-generation
@@ -24,7 +24,7 @@ Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markd
 
 Or manually copy the plugin contents to `.github/skills/local/pptx-generation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "postmortem",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Write a postmortem for a regression or incident that escaped to production, broke real users, and traces back to a design flaw worth documenting. Use when asked to \"write a postmortem\", \"document an incident\", \"analyze a production failure\", \"root cause analysis\", or \"incident review\". Only invoke after confirming no existing postmortem covers the same root cause.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "postmortem",
+    "write",
+    "regression",
+    "incident",
+    "escaped",
+    "production",
+    "broke",
+    "real"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 2849,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2538,
   "artifacts": {
     "skill": "SKILL.md"
   },

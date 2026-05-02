@@ -1,13 +1,29 @@
 {
   "name": "vscode-configuration-validation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Validate VS Code extension manifest against runtime code usage",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "vscode",
+    "configuration",
+    "validation",
+    "validate",
+    "code",
+    "extension",
+    "manifest",
+    "against"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 2205,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2029,
   "artifacts": {
     "skill": "SKILL.md"
   },

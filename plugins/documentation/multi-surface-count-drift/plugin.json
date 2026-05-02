@@ -1,13 +1,29 @@
 {
   "name": "multi-surface-count-drift",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "When a number (skill count, repo count, test count) appears in multiple files, they WILL diverge:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "multi",
+    "surface",
+    "count",
+    "drift",
+    "number",
+    "skill",
+    "repo",
+    "test"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 700,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 515,
   "artifacts": {
     "skill": "SKILL.md"
   },

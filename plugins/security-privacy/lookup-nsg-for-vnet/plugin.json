@@ -1,13 +1,29 @@
 {
   "name": "lookup-nsg-for-vnet",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Checks every subnet in a Virtual Network for an associated Network Security Group, and also inspects each NIC attached to those subnets for NIC-level NSG coverage.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "lookup",
+    "nsg",
+    "for",
+    "vnet",
+    "checks",
+    "every",
+    "subnet",
+    "virtual"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 1265,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1048,
   "artifacts": {
     "skill": "SKILL.md"
   },

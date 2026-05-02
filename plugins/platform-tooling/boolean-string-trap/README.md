@@ -1,4 +1,4 @@
-# Boolean String Trap
+# boolean-string-trap
 
 JavaScript boolean-string coercion trap -- "false" is truthy, JSON.parse or strict comparison required
 
@@ -9,14 +9,14 @@ JavaScript boolean-string coercion trap -- "false" is truthy, JSON.parse or stri
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~812 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-JavaScript boolean-string coercion trap -- "false" is truthy, JSON.parse or strict comparison required
+| **Token cost** | ~996 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | boolean, string, trap, javascript, boolean-string, coercion, false, truthy |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install boolean-string-trap
@@ -24,7 +24,7 @@ JavaScript boolean-string coercion trap -- "false" is truthy, JSON.parse or stri
 
 Or manually copy the plugin contents to `.github/skills/local/boolean-string-trap/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

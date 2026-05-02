@@ -1,4 +1,4 @@
-# LLM Model Selection Skill
+# llm-model-selection
 
 Choosing the right model for the task -- power vs. cost vs. speed.
 
@@ -9,14 +9,14 @@ Choosing the right model for the task -- power vs. cost vs. speed.
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2062 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Choosing the right model for the task -- power vs. cost vs. speed.
+| **Token cost** | ~2228 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | llm, model, selection, choosing, right, task, power, cost |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install llm-model-selection
@@ -24,7 +24,7 @@ Choosing the right model for the task -- power vs. cost vs. speed.
 
 Or manually copy the plugin contents to `.github/skills/local/llm-model-selection/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

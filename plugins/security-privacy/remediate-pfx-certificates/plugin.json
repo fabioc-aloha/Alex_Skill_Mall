@@ -1,13 +1,29 @@
 {
   "name": "remediate-pfx-certificates",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Skill helps user to remove checked-in certificates from source code in case of exposed secrets",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "remediate",
+    "pfx",
+    "certificates",
+    "skill",
+    "helps",
+    "user",
+    "remove",
+    "checked-in"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 3073,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2880,
   "artifacts": {
     "skill": "SKILL.md"
   },

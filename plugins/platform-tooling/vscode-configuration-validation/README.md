@@ -1,4 +1,4 @@
-# VS Code Extension Configuration Validation
+# vscode-configuration-validation
 
 Validate VS Code extension manifest against runtime code usage
 
@@ -9,14 +9,14 @@ Validate VS Code extension manifest against runtime code usage
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2029 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Validate VS Code extension manifest against runtime code usage
+| **Token cost** | ~2205 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | vscode, configuration, validation, validate, code, extension, manifest, against |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install vscode-configuration-validation
@@ -24,7 +24,7 @@ Validate VS Code extension manifest against runtime code usage
 
 Or manually copy the plugin contents to `.github/skills/local/vscode-configuration-validation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

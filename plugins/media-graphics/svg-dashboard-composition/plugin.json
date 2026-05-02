@@ -1,13 +1,29 @@
 {
   "name": "svg-dashboard-composition",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Compose one self-contained SVG from multiple visual fragments -- banner, treemap, bar charts, KPI strip, footer -- using a shared coordinate system and one panel primitive.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "svg",
+    "dashboard",
+    "composition",
+    "compose",
+    "self-contained",
+    "multiple",
+    "visual",
+    "fragments"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 2622,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2399,
   "artifacts": {
     "skill": "SKILL.md"
   },

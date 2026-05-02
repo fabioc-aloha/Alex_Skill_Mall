@@ -1,4 +1,4 @@
-# Copilot Usage Metrics
+# copilot-usage-metrics
 
 Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API.
 
@@ -9,14 +9,14 @@ Retrieve and display GitHub Copilot usage metrics for organizations and enterpri
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1302 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API.
+| **Token cost** | ~1554 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | copilot, usage, metrics, retrieve, display, github, organizations, enterprises |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install copilot-usage-metrics
@@ -24,7 +24,7 @@ Retrieve and display GitHub Copilot usage metrics for organizations and enterpri
 
 Or manually copy the plugin contents to `.github/skills/local/copilot-usage-metrics/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **get-enterprise-metrics.sh**: `get-enterprise-metrics.sh`
 - **get-enterprise-user-metrics.sh**: `get-enterprise-user-metrics.sh`

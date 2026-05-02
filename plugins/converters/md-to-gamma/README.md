@@ -9,14 +9,14 @@ Pre-process Markdown into a Gamma-import-ready version.
 | **Category** | converters |
 | **Shape** | `.S.M` |
 | **Tier** | standard |
-| **Token cost** | ~2884 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Pre-process Markdown into a Gamma-import-ready version.
+| **Token cost** | ~3044 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | gamma, pre-process, markdown, gamma-import-ready, version |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install md-to-gamma
@@ -24,7 +24,7 @@ Pre-process Markdown into a Gamma-import-ready version.
 
 Or manually copy the plugin contents to `.github/skills/local/md-to-gamma/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **muscle**: `md-to-gamma.cjs`
 - **skill**: `SKILL.md`

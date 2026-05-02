@@ -1,4 +1,4 @@
-# Audit Integrity Skill
+# audit-integrity
 
 Shared audit integrity framework for all AppSec agents -- enforces output quality, intellectual honesty, and continuous improvement through anti-rationalization guards, self-critique loops, retry protocols, non-negotiable behaviors, self-reflection quality gates (1-10 scoring, ≥8 threshold), and a self-learning system with lesson/memory governance for security analysis agents.
 
@@ -9,14 +9,14 @@ Shared audit integrity framework for all AppSec agents -- enforces output qualit
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~839 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Shared audit integrity framework for all AppSec agents -- enforces output quality, intellectual honesty, and continuous improvement through anti-rationalization guards, self-critique loops, retry protocols, non-negotiable behaviors, self-reflection quality gates (1-10 scoring, ≥8 threshold), and a self-learning system with lesson/memory governance for security analysis agents.
+| **Token cost** | ~1159 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | audit, integrity, shared, framework, appsec, agents, enforces, output |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install audit-integrity
@@ -24,7 +24,7 @@ Shared audit integrity framework for all AppSec agents -- enforces output qualit
 
 Or manually copy the plugin contents to `.github/skills/local/audit-integrity/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

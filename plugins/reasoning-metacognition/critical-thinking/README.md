@@ -1,4 +1,4 @@
-# Critical Thinking
+# critical-thinking
 
 Challenge what you think is right -- alternative hypotheses, missing data, evidence quality, bias detection, falsifiability, and adversarial review
 
@@ -9,14 +9,14 @@ Challenge what you think is right -- alternative hypotheses, missing data, evide
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~6305 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Challenge what you think is right -- alternative hypotheses, missing data, evidence quality, bias detection, falsifiability, and adversarial review
+| **Token cost** | ~6510 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | critical, thinking, challenge, what, think, right, alternative, hypotheses |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install critical-thinking
@@ -24,7 +24,7 @@ Challenge what you think is right -- alternative hypotheses, missing data, evide
 
 Or manually copy the plugin contents to `.github/skills/local/critical-thinking/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

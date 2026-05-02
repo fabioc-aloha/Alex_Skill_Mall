@@ -1,4 +1,4 @@
-# Terminal Backtick Hazard
+# terminal-backtick-hazard
 
 Backticks break in all shells -- bash treats them as command substitution, PowerShell as escape character
 
@@ -9,14 +9,14 @@ Backticks break in all shells -- bash treats them as command substitution, Power
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~905 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Backticks break in all shells -- bash treats them as command substitution, PowerShell as escape character
+| **Token cost** | ~1094 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | terminal, backtick, hazard, backticks, break, shells, bash, treats |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install terminal-backtick-hazard
@@ -24,7 +24,7 @@ Backticks break in all shells -- bash treats them as command substitution, Power
 
 Or manually copy the plugin contents to `.github/skills/local/terminal-backtick-hazard/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

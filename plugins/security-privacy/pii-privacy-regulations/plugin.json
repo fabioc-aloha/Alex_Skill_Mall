@@ -1,13 +1,29 @@
 {
   "name": "pii-privacy-regulations",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Handling personally identifiable information under European and Australian privacy regulations.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "pii",
+    "privacy",
+    "regulations",
+    "handling",
+    "personally",
+    "identifiable",
+    "information",
+    "under"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 3191,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3006,
   "artifacts": {
     "skill": "SKILL.md"
   },

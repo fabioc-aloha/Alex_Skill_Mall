@@ -1,4 +1,4 @@
-# Skill: Data Visualization
+# data-visualization
 
 Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the "title = insight" principle for data-driven visuals
 
@@ -9,14 +9,14 @@ Story-intent chart selection, color theory, annotation patterns, decluttering ru
 | **Category** | data-analytics |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~5074 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the "title = insight" principle for data-driven visuals
+| **Token cost** | ~5280 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | data, visualization, story-intent, chart, selection, color, theory, annotation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install data-visualization
@@ -24,7 +24,7 @@ Story-intent chart selection, color theory, annotation patterns, decluttering ru
 
 Or manually copy the plugin contents to `.github/skills/local/data-visualization/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

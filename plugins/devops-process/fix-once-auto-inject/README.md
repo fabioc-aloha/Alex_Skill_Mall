@@ -1,4 +1,4 @@
-# Fix-Once + Auto-Inject-Future
+# fix-once-auto-inject
 
 One-time fixes get repeated manually:
 
@@ -9,14 +9,14 @@ One-time fixes get repeated manually:
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~592 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-One-time fixes get repeated manually:
+| **Token cost** | ~746 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | fix, once, auto, inject, one-time, fixes, repeated, manually |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install fix-once-auto-inject
@@ -24,7 +24,7 @@ One-time fixes get repeated manually:
 
 Or manually copy the plugin contents to `.github/skills/local/fix-once-auto-inject/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

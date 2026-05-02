@@ -1,4 +1,4 @@
-# VS Code Extension Patterns
+# vscode-extension-patterns
 
 Reusable patterns for VS Code extension development.
 
@@ -9,14 +9,14 @@ Reusable patterns for VS Code extension development.
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1720 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Reusable patterns for VS Code extension development.
+| **Token cost** | ~1884 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | vscode, extension, patterns, reusable, code, development |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install vscode-extension-patterns
@@ -24,7 +24,7 @@ Reusable patterns for VS Code extension development.
 
 Or manually copy the plugin contents to `.github/skills/local/vscode-extension-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

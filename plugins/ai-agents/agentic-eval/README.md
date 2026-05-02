@@ -1,4 +1,4 @@
-# Agentic Evaluation Patterns
+# agentic-eval
 
 |
 
@@ -9,14 +9,14 @@
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1389 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-|
+| **Token cost** | ~1519 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | agentic, eval |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install agentic-eval
@@ -24,7 +24,7 @@
 
 Or manually copy the plugin contents to `.github/skills/local/agentic-eval/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

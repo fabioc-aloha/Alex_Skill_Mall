@@ -1,4 +1,4 @@
-# VS Code Cross-Platform Paths
+# vscode-cross-platform-paths
 
 VS Code path handling across Windows, macOS, and Linux -- URI schemes, path separators, workspace folders
 
@@ -9,14 +9,14 @@ VS Code path handling across Windows, macOS, and Linux -- URI schemes, path sepa
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1125 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-VS Code path handling across Windows, macOS, and Linux -- URI schemes, path separators, workspace folders
+| **Token cost** | ~1317 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | vscode, cross, platform, paths, code, path, handling, across |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install vscode-cross-platform-paths
@@ -24,7 +24,7 @@ VS Code path handling across Windows, macOS, and Linux -- URI schemes, path sepa
 
 Or manually copy the plugin contents to `.github/skills/local/vscode-cross-platform-paths/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

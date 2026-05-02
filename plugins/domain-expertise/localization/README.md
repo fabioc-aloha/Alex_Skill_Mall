@@ -1,4 +1,4 @@
-# Localization & Internationalization (i18n/l10n)
+# localization
 
 Software localization, internationalization, multilingual application development -- i18n architecture, RTL support, ICU MessageFormat, LQA, dialect inheritance
 
@@ -9,14 +9,14 @@ Software localization, internationalization, multilingual application developmen
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~5843 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Software localization, internationalization, multilingual application development -- i18n architecture, RTL support, ICU MessageFormat, LQA, dialect inheritance
+| **Token cost** | ~6060 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | localization, software, internationalization, multilingual, application, development, i18n, architecture |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install localization
@@ -24,7 +24,7 @@ Software localization, internationalization, multilingual application developmen
 
 Or manually copy the plugin contents to `.github/skills/local/localization/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

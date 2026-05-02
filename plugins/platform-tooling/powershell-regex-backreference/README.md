@@ -1,4 +1,4 @@
-# PowerShell Regex Backreference Ambiguity
+# powershell-regex-backreference
 
 PowerShell regex backreference syntax pitfalls -- dollar-sign escaping in replacement strings
 
@@ -9,14 +9,14 @@ PowerShell regex backreference syntax pitfalls -- dollar-sign escaping in replac
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~673 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-PowerShell regex backreference syntax pitfalls -- dollar-sign escaping in replacement strings
+| **Token cost** | ~863 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | powershell, regex, backreference, syntax, pitfalls, dollar-sign, escaping, replacement |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install powershell-regex-backreference
@@ -24,7 +24,7 @@ PowerShell regex backreference syntax pitfalls -- dollar-sign escaping in replac
 
 Or manually copy the plugin contents to `.github/skills/local/powershell-regex-backreference/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

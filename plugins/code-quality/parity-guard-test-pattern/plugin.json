@@ -1,13 +1,29 @@
 {
   "name": "parity-guard-test-pattern",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "When checking that all callers of a contract implement it correctly, you get false positives from wrapper delegators:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "parity",
+    "guard",
+    "test",
+    "pattern",
+    "checking",
+    "callers",
+    "contract",
+    "implement"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 853,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 658,
   "artifacts": {
     "skill": "SKILL.md"
   },

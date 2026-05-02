@@ -1,4 +1,4 @@
-# Graphic Design Skill
+# graphic-design
 
 Patterns for visual design, SVG creation, layout composition, typography, and brand identity.
 
@@ -9,14 +9,14 @@ Patterns for visual design, SVG creation, layout composition, typography, and br
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~3317 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Patterns for visual design, SVG creation, layout composition, typography, and brand identity.
+| **Token cost** | ~3493 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | graphic, design, patterns, visual, creation, layout, composition, typography |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install graphic-design
@@ -24,7 +24,7 @@ Patterns for visual design, SVG creation, layout composition, typography, and br
 
 Or manually copy the plugin contents to `.github/skills/local/graphic-design/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

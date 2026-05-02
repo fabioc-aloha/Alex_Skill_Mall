@@ -1,4 +1,4 @@
-# Infrastructure as Code Skill
+# infrastructure-as-code
 
 Domain: DevOps & Cloud Engineering
 
@@ -9,14 +9,14 @@ Domain: DevOps & Cloud Engineering
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~5626 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Domain: DevOps & Cloud Engineering
+| **Token cost** | ~5781 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | infrastructure, code, domain, devops, cloud, engineering |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install infrastructure-as-code
@@ -24,7 +24,7 @@ Domain: DevOps & Cloud Engineering
 
 Or manually copy the plugin contents to `.github/skills/local/infrastructure-as-code/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

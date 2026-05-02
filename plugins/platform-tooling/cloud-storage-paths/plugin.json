@@ -1,13 +1,29 @@
 {
   "name": "cloud-storage-paths",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Cross-platform cloud storage path resolution -- OneDrive, iCloud, Dropbox path discovery and normalization",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "cloud",
+    "storage",
+    "paths",
+    "cross-platform",
+    "path",
+    "resolution",
+    "onedrive",
+    "icloud"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 1400,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1214,
   "artifacts": {
     "skill": "SKILL.md"
   },

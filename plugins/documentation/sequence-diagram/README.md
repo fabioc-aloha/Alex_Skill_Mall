@@ -1,4 +1,4 @@
-# Sequence Diagram Builder
+# sequence-diagram
 
 Create UML sequence diagrams using sequencediagram.org syntax. Use when users request sequence diagrams, interaction diagrams, API flow visualizations, system communication flows, or ask to visualize message exchanges between components/actors. Outputs plain text (.txt) files compatible with sequencediagram.org for viewing and exporting.
 
@@ -9,14 +9,14 @@ Create UML sequence diagrams using sequencediagram.org syntax. Use when users re
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~644 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Create UML sequence diagrams using sequencediagram.org syntax. Use when users request sequence diagrams, interaction diagrams, API flow visualizations, system communication flows, or ask to visualize message exchanges between components/actors. Outputs plain text (.txt) files compatible with sequencediagram.org for viewing and exporting.
+| **Token cost** | ~945 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | sequence, diagram, create, diagrams, using, sequencediagramorg, syntax, users |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install sequence-diagram
@@ -24,7 +24,7 @@ Create UML sequence diagrams using sequencediagram.org syntax. Use when users re
 
 Or manually copy the plugin contents to `.github/skills/local/sequence-diagram/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

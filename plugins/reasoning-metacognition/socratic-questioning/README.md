@@ -1,4 +1,4 @@
-# Socratic Questioning Skill
+# socratic-questioning
 
 Help users discover answers, don't just deliver them.
 
@@ -9,14 +9,14 @@ Help users discover answers, don't just deliver them.
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~1145 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Help users discover answers, don't just deliver them.
+| **Token cost** | ~1307 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | socratic, questioning, help, users, discover, answers, dont, deliver |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install socratic-questioning
@@ -24,7 +24,7 @@ Help users discover answers, don't just deliver them.
 
 Or manually copy the plugin contents to `.github/skills/local/socratic-questioning/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

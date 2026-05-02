@@ -1,4 +1,4 @@
-# Data Analysis
+# data-analysis
 
 Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly detection, and translating statistics into narrative insights
 
@@ -9,14 +9,14 @@ Exploratory data analysis patterns -- profiling, distributions, correlations, se
 | **Category** | data-analytics |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2815 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly detection, and translating statistics into narrative insights
+| **Token cost** | ~3024 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | data, analysis, exploratory, patterns, profiling, distributions, correlations, segmentation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install data-analysis
@@ -24,7 +24,7 @@ Exploratory data analysis patterns -- profiling, distributions, correlations, se
 
 Or manually copy the plugin contents to `.github/skills/local/data-analysis/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

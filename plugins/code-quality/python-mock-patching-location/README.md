@@ -1,4 +1,4 @@
-# Python Mock Patching Location
+# python-mock-patching-location
 
 Python mock.patch must target the import location, not the definition location
 
@@ -9,14 +9,14 @@ Python mock.patch must target the import location, not the definition location
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~647 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Python mock.patch must target the import location, not the definition location
+| **Token cost** | ~825 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | python, mock, patching, location, mockpatch, must, target, import |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install python-mock-patching-location
@@ -24,7 +24,7 @@ Python mock.patch must target the import location, not the definition location
 
 Or manually copy the plugin contents to `.github/skills/local/python-mock-patching-location/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

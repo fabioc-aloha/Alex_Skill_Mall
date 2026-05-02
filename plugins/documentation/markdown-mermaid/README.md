@@ -1,4 +1,4 @@
-# Markdown & Mermaid
+# markdown-mermaid
 
 Clear documentation through visual excellence
 
@@ -9,14 +9,14 @@ Clear documentation through visual excellence
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~12245 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Clear documentation through visual excellence
+| **Token cost** | ~12398 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | markdown, mermaid, clear, documentation, through, visual, excellence |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install markdown-mermaid
@@ -24,7 +24,7 @@ Clear documentation through visual excellence
 
 Or manually copy the plugin contents to `.github/skills/local/markdown-mermaid/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

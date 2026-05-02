@@ -1,13 +1,29 @@
 {
   "name": "powerbi-modeling",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implementing RLS, or optimizing model performance. Triggers on queries about DAX calculations, table relationships, dimension/fact table design, naming conventions, model documentation, cardinality, cross-filter direction, calculation groups, and data model best practices. Always connects to the active model first using power-bi-modeling MCP tools to understand the data structure before providing guidance.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "powerbi",
+    "modeling",
+    "power",
+    "semantic",
+    "assistant",
+    "building",
+    "optimized",
+    "data"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 1966,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1533,
   "artifacts": {
     "skill": "SKILL.md"
   },

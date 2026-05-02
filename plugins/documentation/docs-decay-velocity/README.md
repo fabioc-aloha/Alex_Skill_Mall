@@ -1,4 +1,4 @@
-# Documentation Decay Velocity
+# docs-decay-velocity
 
 Documentation decay rates by content type -- hardcoded numbers and version pins rot fastest
 
@@ -9,14 +9,14 @@ Documentation decay rates by content type -- hardcoded numbers and version pins 
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1101 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Documentation decay rates by content type -- hardcoded numbers and version pins rot fastest
+| **Token cost** | ~1281 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | docs, decay, velocity, documentation, rates, content, type, hardcoded |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install docs-decay-velocity
@@ -24,7 +24,7 @@ Documentation decay rates by content type -- hardcoded numbers and version pins 
 
 Or manually copy the plugin contents to `.github/skills/local/docs-decay-velocity/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

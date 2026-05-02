@@ -1,4 +1,4 @@
-# Synthetic Relational Data Generator
+# prompt-2-data
 
 Generate comprehensive synthetic relational data for any specified subject with multiple normalized CSV files maintaining referential integrity
 
@@ -9,14 +9,14 @@ Generate comprehensive synthetic relational data for any specified subject with 
 | **Category** | data-analytics |
 | **Shape** | `.SP.` |
 | **Tier** | standard |
-| **Token cost** | ~8829 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Generate comprehensive synthetic relational data for any specified subject with multiple normalized CSV files maintaining referential integrity
+| **Token cost** | ~9041 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | prompt, data, generate, comprehensive, synthetic, relational, specified, subject |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install prompt-2-data
@@ -24,7 +24,7 @@ Generate comprehensive synthetic relational data for any specified subject with 
 
 Or manually copy the plugin contents to `.github/skills/local/prompt-2-data/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **prompt**: `review.prompt.md`
 - **skill**: `SKILL.md`

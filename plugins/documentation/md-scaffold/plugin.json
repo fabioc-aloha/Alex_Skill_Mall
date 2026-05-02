@@ -1,13 +1,29 @@
 {
   "name": "md-scaffold",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Scaffold properly structured Markdown files from templates for clean first-pass conversion",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "scaffold",
+    "properly",
+    "structured",
+    "markdown",
+    "files",
+    "templates",
+    "clean",
+    "first-pass"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 1498,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1325,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "terminal-backtick-hazard",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Backticks break in all shells -- bash treats them as command substitution, PowerShell as escape character",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "terminal",
+    "backtick",
+    "hazard",
+    "backticks",
+    "break",
+    "shells",
+    "bash",
+    "treats"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 1094,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 905,
   "artifacts": {
     "skill": "SKILL.md"
   },

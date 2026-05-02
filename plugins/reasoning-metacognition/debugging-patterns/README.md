@@ -1,4 +1,4 @@
-# Debugging Patterns Skill
+# debugging-patterns
 
 Systematic problem-solving and error analysis.
 
@@ -9,14 +9,14 @@ Systematic problem-solving and error analysis.
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~777 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Systematic problem-solving and error analysis.
+| **Token cost** | ~934 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | debugging, patterns, systematic, problem-solving, error, analysis |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install debugging-patterns
@@ -24,7 +24,7 @@ Systematic problem-solving and error analysis.
 
 Or manually copy the plugin contents to `.github/skills/local/debugging-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "supervisor-banners",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Dark-slate SVG banner family -- 1200×320 hero + 1200×60 section dividers -- for governance, curation, and audit-style documentation",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "supervisor",
+    "banners",
+    "dark-slate",
+    "banner",
+    "family",
+    "1200320",
+    "hero",
+    "120060"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 3670,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3472,
   "artifacts": {
     "skill": "SKILL.md"
   },

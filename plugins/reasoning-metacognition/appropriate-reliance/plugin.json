@@ -1,13 +1,29 @@
 {
   "name": "appropriate-reliance",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Calibrated human-AI collaboration with creative latitude -- trust calibrated to reliability, creativity preserved with validation.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "appropriate",
+    "reliance",
+    "calibrated",
+    "human-ai",
+    "collaboration",
+    "creative",
+    "latitude",
+    "trust"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "reasoning-metacognition",
   "tier": "core",
+  "token_cost": 4879,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 4676,
   "artifacts": {
     "skill": "SKILL.md"
   },

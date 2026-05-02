@@ -1,4 +1,4 @@
-# Scaffolding Generator
+# scaffolding-generator
 
 Pattern-aware code scaffolding that detects existing conventions and generates new components matching the codebase style. Use when asked to "scaffold a component", "generate boilerplate", "create a new module", "bootstrap a service", "add a new endpoint", "create a new controller", or "add a new feature module". Discovers patterns first, then replicates them.
 
@@ -9,14 +9,14 @@ Pattern-aware code scaffolding that detects existing conventions and generates n
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1806 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Pattern-aware code scaffolding that detects existing conventions and generates new components matching the codebase style. Use when asked to "scaffold a component", "generate boilerplate", "create a new module", "bootstrap a service", "add a new endpoint", "create a new controller", or "add a new feature module". Discovers patterns first, then replicates them.
+| **Token cost** | ~2120 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | scaffolding, generator, pattern-aware, code, detects, existing, conventions, generates |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install scaffolding-generator
@@ -24,7 +24,7 @@ Pattern-aware code scaffolding that detects existing conventions and generates n
 
 Or manually copy the plugin contents to `.github/skills/local/scaffolding-generator/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

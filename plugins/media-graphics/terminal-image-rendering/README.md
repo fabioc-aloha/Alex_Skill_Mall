@@ -1,4 +1,4 @@
-# Terminal Image Rendering
+# terminal-image-rendering
 
 Render images inline in VS Code's integrated terminal using the Kitty graphics protocol
 
@@ -9,14 +9,14 @@ Render images inline in VS Code's integrated terminal using the Kitty graphics p
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~862 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Render images inline in VS Code's integrated terminal using the Kitty graphics protocol
+| **Token cost** | ~1042 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | terminal, image, rendering, render, images, inline, codes, integrated |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install terminal-image-rendering
@@ -24,7 +24,7 @@ Render images inline in VS Code's integrated terminal using the Kitty graphics p
 
 Or manually copy the plugin contents to `.github/skills/local/terminal-image-rendering/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "docx-to-md",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "docx",
+    "convert",
+    "word",
+    "documents",
+    "clean",
+    "markdown",
+    "image",
+    "extraction"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "converters",
   "tier": "standard",
+  "token_cost": 2297,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2124,
   "artifacts": {
     "skill": "SKILL.md"
   },

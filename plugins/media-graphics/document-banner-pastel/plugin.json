@@ -1,13 +1,29 @@
 {
   "name": "document-banner-pastel",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Hand-authored pastel SVG banners for documentation -- 1200×240 with content-specific iconography, complementary to algorithmic banner muscles",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "document",
+    "banner",
+    "pastel",
+    "hand-authored",
+    "banners",
+    "documentation",
+    "1200240",
+    "content-specific"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 2908,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2700,
   "artifacts": {
     "skill": "SKILL.md"
   },

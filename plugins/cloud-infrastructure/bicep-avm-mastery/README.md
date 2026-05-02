@@ -1,4 +1,4 @@
-# Skill: Bicep AVM Mastery
+# bicep-avm-mastery
 
 Azure Verified Modules (AVM), Bicep best practices, and MCP-powered infrastructure as code for Azure
 
@@ -9,14 +9,14 @@ Azure Verified Modules (AVM), Bicep best practices, and MCP-powered infrastructu
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2842 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Azure Verified Modules (AVM), Bicep best practices, and MCP-powered infrastructure as code for Azure
+| **Token cost** | ~3027 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | bicep, avm, mastery, azure, verified, modules, best, practices |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install bicep-avm-mastery
@@ -24,7 +24,7 @@ Azure Verified Modules (AVM), Bicep best practices, and MCP-powered infrastructu
 
 Or manually copy the plugin contents to `.github/skills/local/bicep-avm-mastery/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

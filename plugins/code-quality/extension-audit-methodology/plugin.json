@@ -1,13 +1,29 @@
 {
   "name": "extension-audit-methodology",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Systematic 5-dimension audit framework for VS Code extensions -- debug hygiene, dead code, performance, menu validation, dependency cleanup",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "extension",
+    "audit",
+    "methodology",
+    "systematic",
+    "5-dimension",
+    "framework",
+    "code",
+    "extensions"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 1620,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1412,
   "artifacts": {
     "skill": "SKILL.md"
   },

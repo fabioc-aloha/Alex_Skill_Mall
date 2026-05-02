@@ -9,14 +9,14 @@ Generate assisted PRs to correct Security Group ownership for first-party apps f
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2825 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Generate assisted PRs to correct Security Group ownership for first-party apps flagged by S360 tenant-isolation policy (SFI-TI3.2.2)
+| **Token cost** | ~3022 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | assist, update, generate, assisted, correct, security, group, ownership |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install assist-sg-update
@@ -24,7 +24,7 @@ Generate assisted PRs to correct Security Group ownership for first-party apps f
 
 Or manually copy the plugin contents to `.github/skills/local/assist-sg-update/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

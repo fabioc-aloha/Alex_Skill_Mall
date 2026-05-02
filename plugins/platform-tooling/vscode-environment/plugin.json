@@ -1,13 +1,27 @@
 {
   "name": "vscode-environment",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Optimal workspace setup for productivity.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "vscode",
+    "environment",
+    "optimal",
+    "workspace",
+    "setup",
+    "productivity"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 686,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 532,
   "artifacts": {
     "skill": "SKILL.md"
   },

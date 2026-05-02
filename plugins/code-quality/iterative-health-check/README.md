@@ -1,4 +1,4 @@
-# Iterative Health-Check Loop
+# iterative-health-check
 
 One-time audits don't track improvement:
 
@@ -9,14 +9,14 @@ One-time audits don't track improvement:
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~649 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-One-time audits don't track improvement:
+| **Token cost** | ~804 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | iterative, health, check, one-time, audits, dont, track, improvement |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install iterative-health-check
@@ -24,7 +24,7 @@ One-time audits don't track improvement:
 
 Or manually copy the plugin contents to `.github/skills/local/iterative-health-check/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Work-Life Balance Skill
+# work-life-balance
 
 Detect burnout signals and proactively support sustainable productivity.
 
@@ -9,14 +9,14 @@ Detect burnout signals and proactively support sustainable productivity.
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~873 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Detect burnout signals and proactively support sustainable productivity.
+| **Token cost** | ~1042 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | work, life, balance, detect, burnout, signals, proactively, support |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install work-life-balance
@@ -24,7 +24,7 @@ Detect burnout signals and proactively support sustainable productivity.
 
 Or manually copy the plugin contents to `.github/skills/local/work-life-balance/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

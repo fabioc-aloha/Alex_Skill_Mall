@@ -1,4 +1,4 @@
-# Prompt Engineering Skill
+# prompt-engineering
 
 Craft effective prompts that get the best results from language models.
 
@@ -9,14 +9,14 @@ Craft effective prompts that get the best results from language models.
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2260 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Craft effective prompts that get the best results from language models.
+| **Token cost** | ~2427 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | prompt, engineering, craft, effective, prompts, best, results, language |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install prompt-engineering
@@ -24,7 +24,7 @@ Craft effective prompts that get the best results from language models.
 
 Or manually copy the plugin contents to `.github/skills/local/prompt-engineering/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

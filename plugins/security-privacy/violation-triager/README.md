@@ -9,14 +9,14 @@ Orchestrate end-to-end SFI-TI3.2.2 workflow -- fetch violations, classify, dispa
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1300 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Orchestrate end-to-end SFI-TI3.2.2 workflow -- fetch violations, classify, dispatch to remediation skills, generate report
+| **Token cost** | ~1493 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | violation, triager, orchestrate, end-to-end, sfi-ti322, workflow, fetch, violations |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install violation-triager
@@ -24,7 +24,7 @@ Orchestrate end-to-end SFI-TI3.2.2 workflow -- fetch violations, classify, dispa
 
 Or manually copy the plugin contents to `.github/skills/local/violation-triager/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

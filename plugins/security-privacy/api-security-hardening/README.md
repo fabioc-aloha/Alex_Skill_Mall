@@ -1,4 +1,4 @@
-# API Security Hardening
+# api-security-hardening
 
 API security hardening -- rate limiting, JWT validation, CORS, input validation (4-layer defense)
 
@@ -9,14 +9,14 @@ API security hardening -- rate limiting, JWT validation, CORS, input validation 
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1012 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-API security hardening -- rate limiting, JWT validation, CORS, input validation (4-layer defense)
+| **Token cost** | ~1196 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | api, security, hardening, rate, limiting, validation, cors, input |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install api-security-hardening
@@ -24,7 +24,7 @@ API security hardening -- rate limiting, JWT validation, CORS, input validation 
 
 Or manually copy the plugin contents to `.github/skills/local/api-security-hardening/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Weighted Scoring Matrix
+# weighted-scoring-matrix
 
 Multi-factor decisions become arbitrary without explicit weights:
 
@@ -9,14 +9,14 @@ Multi-factor decisions become arbitrary without explicit weights:
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~693 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Multi-factor decisions become arbitrary without explicit weights:
+| **Token cost** | ~863 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | weighted, scoring, matrix, multi-factor, decisions, become, arbitrary, without |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install weighted-scoring-matrix
@@ -24,7 +24,7 @@ Multi-factor decisions become arbitrary without explicit weights:
 
 Or manually copy the plugin contents to `.github/skills/local/weighted-scoring-matrix/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

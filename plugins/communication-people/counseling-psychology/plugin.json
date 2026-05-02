@@ -1,13 +1,29 @@
 {
   "name": "counseling-psychology",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Therapeutic frameworks, assessment, ethical practice, and client documentation for counselors and psychologists.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "counseling",
+    "psychology",
+    "therapeutic",
+    "frameworks",
+    "assessment",
+    "ethical",
+    "practice",
+    "client"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "communication-people",
   "tier": "extended",
+  "token_cost": 2602,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2409,
   "artifacts": {
     "skill": "SKILL.md"
   },

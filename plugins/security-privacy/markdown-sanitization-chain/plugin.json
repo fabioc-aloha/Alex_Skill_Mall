@@ -1,13 +1,29 @@
 {
   "name": "markdown-sanitization-chain",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Markdown sanitization order matters -- marked.js then DOMPurify then Mermaid to prevent XSS",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "markdown",
+    "sanitization",
+    "chain",
+    "order",
+    "matters",
+    "markedjs",
+    "dompurify",
+    "mermaid"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 892,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 708,
   "artifacts": {
     "skill": "SKILL.md"
   },

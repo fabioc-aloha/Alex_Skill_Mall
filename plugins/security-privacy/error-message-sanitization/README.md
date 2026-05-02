@@ -1,4 +1,4 @@
-# Error Message Sanitization
+# error-message-sanitization
 
 Raw error messages leak internal information to users:
 
@@ -9,14 +9,14 @@ Raw error messages leak internal information to users:
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~544 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Raw error messages leak internal information to users:
+| **Token cost** | ~709 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | error, message, sanitization, messages, leak, internal, information, users |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install error-message-sanitization
@@ -24,7 +24,7 @@ Raw error messages leak internal information to users:
 
 Or manually copy the plugin contents to `.github/skills/local/error-message-sanitization/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

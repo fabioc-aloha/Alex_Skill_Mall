@@ -1,13 +1,29 @@
 {
   "name": "input",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Extract and resolve required CodeQL alert metadata from user input before remediation",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "input",
+    "extract",
+    "resolve",
+    "required",
+    "codeql",
+    "alert",
+    "metadata",
+    "user"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 782,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 610,
   "artifacts": {
     "skill": "SKILL.md"
   },

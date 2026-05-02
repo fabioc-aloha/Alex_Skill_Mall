@@ -1,4 +1,4 @@
-# Version Management
+# version-management
 
 Version Management
 
@@ -9,14 +9,14 @@ Version Management
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1210 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Version Management
+| **Token cost** | ~1352 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | version, management |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install version-management
@@ -24,7 +24,7 @@ Version Management
 
 Or manually copy the plugin contents to `.github/skills/local/version-management/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

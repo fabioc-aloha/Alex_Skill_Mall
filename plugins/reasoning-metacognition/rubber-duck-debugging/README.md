@@ -1,4 +1,4 @@
-# Rubber Duck Debugging Skill
+# rubber-duck-debugging
 
 Be a thinking partner. The answer often emerges when explaining the problem.
 
@@ -9,14 +9,14 @@ Be a thinking partner. The answer often emerges when explaining the problem.
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~1493 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Be a thinking partner. The answer often emerges when explaining the problem.
+| **Token cost** | ~1668 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | rubber, duck, debugging, thinking, partner, answer, often, emerges |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install rubber-duck-debugging
@@ -24,7 +24,7 @@ Be a thinking partner. The answer often emerges when explaining the problem.
 
 Or manually copy the plugin contents to `.github/skills/local/rubber-duck-debugging/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

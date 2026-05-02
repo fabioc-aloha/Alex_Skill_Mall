@@ -1,4 +1,4 @@
-# Escalation Routing
+# escalation-routing
 
 Decide whether a feedback item is in-scope for the Supervisor or must be escalated to AlexMaster (framework-level)
 
@@ -9,14 +9,14 @@ Decide whether a feedback item is in-scope for the Supervisor or must be escalat
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1605 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Decide whether a feedback item is in-scope for the Supervisor or must be escalated to AlexMaster (framework-level)
+| **Token cost** | ~1794 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | escalation, routing, decide, whether, feedback, item, in-scope, supervisor |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install escalation-routing
@@ -24,7 +24,7 @@ Decide whether a feedback item is in-scope for the Supervisor or must be escalat
 
 Or manually copy the plugin contents to `.github/skills/local/escalation-routing/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

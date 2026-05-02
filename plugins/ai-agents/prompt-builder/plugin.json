@@ -1,13 +1,29 @@
 {
   "name": "prompt-builder",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Create and validate .prompt.md files that pass brain-qa on first attempt",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "prompt",
+    "builder",
+    "create",
+    "validate",
+    "promptmd",
+    "files",
+    "pass",
+    "brain-qa"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 1440,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1277,
   "artifacts": {
     "skill": "SKILL.md"
   },

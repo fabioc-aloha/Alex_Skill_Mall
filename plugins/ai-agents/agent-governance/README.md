@@ -1,4 +1,4 @@
-# Agent Governance Patterns
+# agent-governance
 
 |
 
@@ -9,14 +9,14 @@
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~4509 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-|
+| **Token cost** | ~4641 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | agent, governance |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install agent-governance
@@ -24,7 +24,7 @@
 
 Or manually copy the plugin contents to `.github/skills/local/agent-governance/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

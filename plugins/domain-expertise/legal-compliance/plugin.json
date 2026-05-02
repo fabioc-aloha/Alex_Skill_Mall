@@ -1,13 +1,29 @@
 {
   "name": "legal-compliance",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Legal research, contract analysis, regulatory compliance, and case law citation for legal professionals.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "legal",
+    "compliance",
+    "research",
+    "contract",
+    "analysis",
+    "regulatory",
+    "case",
+    "citation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 1698,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1514,
   "artifacts": {
     "skill": "SKILL.md"
   },

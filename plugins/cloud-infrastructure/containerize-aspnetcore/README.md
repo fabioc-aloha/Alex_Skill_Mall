@@ -1,4 +1,4 @@
-# ASP.NET Core Docker Containerization Prompt
+# containerize-aspnetcore
 
 Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.
 
@@ -9,14 +9,14 @@ Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile file
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~4028 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.
+| **Token cost** | ~4225 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | containerize, aspnetcore, aspnet, core, project, creating, dockerfile, files |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install containerize-aspnetcore
@@ -24,7 +24,7 @@ Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile file
 
 Or manually copy the plugin contents to `.github/skills/local/containerize-aspnetcore/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

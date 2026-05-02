@@ -1,13 +1,29 @@
 {
   "name": "docs-decay-velocity",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Documentation decay rates by content type -- hardcoded numbers and version pins rot fastest",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "docs",
+    "decay",
+    "velocity",
+    "documentation",
+    "rates",
+    "content",
+    "type",
+    "hardcoded"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 1281,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1101,
   "artifacts": {
     "skill": "SKILL.md"
   },

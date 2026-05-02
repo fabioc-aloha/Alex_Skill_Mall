@@ -1,13 +1,29 @@
 {
   "name": "release-notes",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Generate release notes or changelog entries for completed changes. Use when asked to \"write release notes\", \"update the changelog\", \"document what changed\", \"create a release summary\", or when preparing a release. Follows Keep a Changelog format.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "release",
+    "notes",
+    "generate",
+    "changelog",
+    "entries",
+    "completed",
+    "changes",
+    "asked"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 2053,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1802,
   "artifacts": {
     "skill": "SKILL.md"
   },

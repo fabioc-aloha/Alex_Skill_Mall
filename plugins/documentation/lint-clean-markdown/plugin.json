@@ -1,13 +1,29 @@
 {
   "name": "lint-clean-markdown",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Write markdown that passes linting on first attempt by internalizing common rules.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "lint",
+    "clean",
+    "markdown",
+    "write",
+    "passes",
+    "linting",
+    "first",
+    "attempt"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 1018,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 844,
   "artifacts": {
     "skill": "SKILL.md"
   },

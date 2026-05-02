@@ -1,13 +1,25 @@
 {
   "name": "chat-participant-patterns",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "VS Code Chat API patterns.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "chat",
+    "participant",
+    "patterns",
+    "code"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 2199,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2049,
   "artifacts": {
     "skill": "SKILL.md"
   },

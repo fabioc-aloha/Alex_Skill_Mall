@@ -1,4 +1,4 @@
-# Fleet Announcement
+# fleet-announcement
 
 Author fleet announcements for AI-Memory that heirs execute automatically on greeting check-in
 
@@ -9,14 +9,14 @@ Author fleet announcements for AI-Memory that heirs execute automatically on gre
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1326 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Author fleet announcements for AI-Memory that heirs execute automatically on greeting check-in
+| **Token cost** | ~1505 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | fleet, announcement, author, announcements, ai-memory, heirs, execute, automatically |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install fleet-announcement
@@ -24,7 +24,7 @@ Author fleet announcements for AI-Memory that heirs execute automatically on gre
 
 Or manually copy the plugin contents to `.github/skills/local/fleet-announcement/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

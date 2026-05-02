@@ -1,13 +1,29 @@
 {
   "name": "performance-profiling",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "CPU, memory, network bottleneck analysis -- systematic performance investigation",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "performance",
+    "profiling",
+    "memory",
+    "network",
+    "bottleneck",
+    "analysis",
+    "systematic",
+    "investigation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 3041,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2866,
   "artifacts": {
     "skill": "SKILL.md"
   },

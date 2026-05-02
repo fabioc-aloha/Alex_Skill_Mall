@@ -1,13 +1,28 @@
 {
   "name": "anti-hallucination",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Recognize and prevent confabulation -- when you don't know, say so.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "anti",
+    "hallucination",
+    "recognize",
+    "prevent",
+    "confabulation",
+    "dont",
+    "know"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "reasoning-metacognition",
   "tier": "core",
+  "token_cost": 1484,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1316,
   "artifacts": {
     "skill": "SKILL.md"
   },

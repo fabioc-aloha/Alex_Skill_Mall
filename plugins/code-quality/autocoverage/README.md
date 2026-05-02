@@ -1,4 +1,4 @@
-# Auto Unit Test Generator
+# autocoverage
 
 Use when a user asks to generate or improve unit tests with measurable coverage gains using a strict staged workflow (build -> baseline -> plan -> generate -> verify -> coverage delta). Trigger phrases: generate unit tests, improve coverage, write tests for uncovered code, make PR-ready tests. Do not use for integration/E2E testing, production refactoring, or planning-only requests without code generation intent.
 
@@ -9,14 +9,14 @@ Use when a user asks to generate or improve unit tests with measurable coverage 
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~15976 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Use when a user asks to generate or improve unit tests with measurable coverage gains using a strict staged workflow (build -> baseline -> plan -> generate -> verify -> coverage delta). Trigger phrases: generate unit tests, improve coverage, write tests for uncovered code, make PR-ready tests. Do not use for integration/E2E testing, production refactoring, or planning-only requests without code generation intent.
+| **Token cost** | ~16314 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | autocoverage, user, asks, generate, improve, unit, tests, measurable |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install autocoverage
@@ -24,7 +24,7 @@ Use when a user asks to generate or improve unit tests with measurable coverage 
 
 Or manually copy the plugin contents to `.github/skills/local/autocoverage/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

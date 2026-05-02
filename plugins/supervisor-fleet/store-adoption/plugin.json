@@ -1,13 +1,29 @@
 {
   "name": "store-adoption",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Fetch plugin store updates, inventory contents, match against fleet profile, and generate adoption candidates report",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "store",
+    "adoption",
+    "fetch",
+    "plugin",
+    "updates",
+    "inventory",
+    "contents",
+    "match"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "supervisor-fleet",
   "tier": "standard",
+  "token_cost": 1427,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1240,
   "artifacts": {
     "skill": "SKILL.md"
   },

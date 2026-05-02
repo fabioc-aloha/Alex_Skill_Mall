@@ -1,4 +1,4 @@
-# Generate Tenant Isolation Violation Report
+# generate-report
 
 >
 
@@ -9,14 +9,14 @@
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~7388 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
->
+| **Token cost** | ~7525 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | generate, report |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install generate-report
@@ -24,7 +24,7 @@
 
 Or manually copy the plugin contents to `.github/skills/local/generate-report/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

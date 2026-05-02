@@ -1,4 +1,4 @@
-# Build Fix -- Instructions
+# build-fix
 
 Fix compile-time and build errors introduced by prior agent changes
 
@@ -9,14 +9,14 @@ Fix compile-time and build errors introduced by prior agent changes
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1292 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Fix compile-time and build errors introduced by prior agent changes
+| **Token cost** | ~1455 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | build, fix, compile-time, errors, introduced, prior, agent, changes |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install build-fix
@@ -24,7 +24,7 @@ Fix compile-time and build errors introduced by prior agent changes
 
 Or manually copy the plugin contents to `.github/skills/local/build-fix/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

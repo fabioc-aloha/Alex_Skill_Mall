@@ -1,4 +1,4 @@
-# AI Writing Avoidance
+# ai-writing-avoidance
 
 Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns
 
@@ -9,14 +9,14 @@ Help writers produce content that sounds genuinely human by avoiding telltale AI
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2568 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns
+| **Token cost** | ~2753 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | writing, avoidance, help, writers, produce, content, sounds, genuinely |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install ai-writing-avoidance
@@ -24,7 +24,7 @@ Help writers produce content that sounds genuinely human by avoiding telltale AI
 
 Or manually copy the plugin contents to `.github/skills/local/ai-writing-avoidance/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

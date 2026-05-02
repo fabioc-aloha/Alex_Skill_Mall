@@ -1,4 +1,4 @@
-# Academic Research
+# academic-research
 
 Research project scaffolding, thesis/dissertation writing, literature reviews, publication workflows, and the AI assistant-assisted academic workflows
 
@@ -9,14 +9,14 @@ Research project scaffolding, thesis/dissertation writing, literature reviews, p
 | **Category** | academic-research |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2140 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Research project scaffolding, thesis/dissertation writing, literature reviews, publication workflows, and the AI assistant-assisted academic workflows
+| **Token cost** | ~2347 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | academic, research, project, scaffolding, thesisdissertation, writing, literature, reviews |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install academic-research
@@ -24,7 +24,7 @@ Research project scaffolding, thesis/dissertation writing, literature reviews, p
 
 Or manually copy the plugin contents to `.github/skills/local/academic-research/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

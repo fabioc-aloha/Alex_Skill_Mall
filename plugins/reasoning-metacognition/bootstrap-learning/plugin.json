@@ -1,13 +1,29 @@
 {
   "name": "bootstrap-learning",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Domain-agnostic knowledge acquisition -- from zero to structured expertise through conversational learning",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "bootstrap",
+    "learning",
+    "domain-agnostic",
+    "knowledge",
+    "acquisition",
+    "zero",
+    "structured",
+    "expertise"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "reasoning-metacognition",
   "tier": "core",
+  "token_cost": 1374,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1187,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "temp-file-python-analysis",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Inline Python in shell scripts has quoting issues:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "temp",
+    "file",
+    "python",
+    "analysis",
+    "inline",
+    "shell",
+    "scripts",
+    "quoting"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 714,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 552,
   "artifacts": {
     "skill": "SKILL.md"
   },

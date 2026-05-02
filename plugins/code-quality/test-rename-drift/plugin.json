@@ -1,13 +1,29 @@
 {
   "name": "test-rename-drift",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "When renaming a function, test files have references that survive find-and-replace:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "test",
+    "rename",
+    "drift",
+    "renaming",
+    "function",
+    "files",
+    "references",
+    "survive"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 783,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 611,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# Dissertation Defense Skill
+# dissertation-defense
 
 Comprehensive preparation for doctoral dissertation defense including timeline management, presentation design, Q&A practice, mock sessions, and committee dynamics.
 
@@ -9,14 +9,14 @@ Comprehensive preparation for doctoral dissertation defense including timeline m
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~4734 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Comprehensive preparation for doctoral dissertation defense including timeline management, presentation design, Q&A practice, mock sessions, and committee dynamics.
+| **Token cost** | ~4951 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | dissertation, defense, comprehensive, preparation, doctoral, including, timeline, management |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install dissertation-defense
@@ -24,7 +24,7 @@ Comprehensive preparation for doctoral dissertation defense including timeline m
 
 Or manually copy the plugin contents to `.github/skills/local/dissertation-defense/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

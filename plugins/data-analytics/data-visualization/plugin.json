@@ -1,13 +1,29 @@
 {
   "name": "data-visualization",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the \"title = insight\" principle for data-driven visuals",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "story-intent",
+    "chart",
+    "selection",
+    "color",
+    "theory",
+    "annotation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 5280,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 5074,
   "artifacts": {
     "skill": "SKILL.md"
   },

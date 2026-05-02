@@ -1,13 +1,29 @@
 {
   "name": "fetch-violations",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Query S360 Kusto for SFI-TI3.2.2 tenant isolation violations, classify by ViolationTitle, flag autofix-eligible items for downstream remediation",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "fetch",
+    "violations",
+    "query",
+    "s360",
+    "kusto",
+    "sfi-ti322",
+    "tenant",
+    "isolation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 3356,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3154,
   "artifacts": {
     "skill": "SKILL.md"
   },

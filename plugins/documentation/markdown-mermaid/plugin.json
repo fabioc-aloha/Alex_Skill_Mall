@@ -1,13 +1,28 @@
 {
   "name": "markdown-mermaid",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Clear documentation through visual excellence",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "markdown",
+    "mermaid",
+    "clear",
+    "documentation",
+    "through",
+    "visual",
+    "excellence"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 12398,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 12245,
   "artifacts": {
     "skill": "SKILL.md"
   },

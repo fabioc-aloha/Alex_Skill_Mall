@@ -1,13 +1,23 @@
 {
   "name": "version-management",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Version Management",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "version",
+    "management"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "supervisor-fleet",
   "tier": "standard",
+  "token_cost": 1352,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1210,
   "artifacts": {
     "skill": "SKILL.md"
   },

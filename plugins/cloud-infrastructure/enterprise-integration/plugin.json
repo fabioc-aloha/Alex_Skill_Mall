@@ -1,13 +1,29 @@
 {
   "name": "enterprise-integration",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integration in VS Code extensions",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "enterprise",
+    "integration",
+    "patterns",
+    "microsoft",
+    "graph",
+    "entra",
+    "feature",
+    "code"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "cloud-infrastructure",
   "tier": "standard",
+  "token_cost": 1807,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1616,
   "artifacts": {
     "skill": "SKILL.md"
   },

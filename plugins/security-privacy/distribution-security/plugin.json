@@ -1,13 +1,29 @@
 {
   "name": "distribution-security",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Defense-in-depth, PII protection, secrets scanning, and secure packaging for distributed software",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "distribution",
+    "security",
+    "defense-in-depth",
+    "protection",
+    "secrets",
+    "scanning",
+    "secure",
+    "packaging"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 2414,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2231,
   "artifacts": {
     "skill": "SKILL.md"
   },

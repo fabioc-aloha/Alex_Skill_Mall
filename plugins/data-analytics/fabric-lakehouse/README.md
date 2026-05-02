@@ -1,4 +1,4 @@
-# When to Use This Skill
+# fabric-lakehouse
 
 Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions. It offers descriptions of Lakehouse data components, organization with schemas and shortcuts, access control, and code examples. This skill supports users in designing, building, and optimizing Lakehouse solutions using best practices.
 
@@ -9,14 +9,14 @@ Use this skill to get context about Fabric Lakehouse and its features for softwa
 | **Category** | data-analytics |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1551 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions. It offers descriptions of Lakehouse data components, organization with schemas and shortcuts, access control, and code examples. This skill supports users in designing, building, and optimizing Lakehouse solutions using best practices.
+| **Token cost** | ~1859 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | fabric, lakehouse, skill, context, features, software, systems, ai-powered |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install fabric-lakehouse
@@ -24,7 +24,7 @@ Use this skill to get context about Fabric Lakehouse and its features for softwa
 
 Or manually copy the plugin contents to `.github/skills/local/fabric-lakehouse/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

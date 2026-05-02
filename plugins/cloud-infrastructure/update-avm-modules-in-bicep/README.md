@@ -1,4 +1,4 @@
-# Update Azure Verified Modules in Bicep Files
+# update-avm-modules-in-bicep
 
 Update Azure Verified Modules (AVM) to latest versions in Bicep files.
 
@@ -9,14 +9,14 @@ Update Azure Verified Modules (AVM) to latest versions in Bicep files.
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~604 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Update Azure Verified Modules (AVM) to latest versions in Bicep files.
+| **Token cost** | ~783 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | update, avm, modules, bicep, azure, verified, latest, versions |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install update-avm-modules-in-bicep
@@ -24,7 +24,7 @@ Update Azure Verified Modules (AVM) to latest versions in Bicep files.
 
 Or manually copy the plugin contents to `.github/skills/local/update-avm-modules-in-bicep/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

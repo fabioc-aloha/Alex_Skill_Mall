@@ -1,13 +1,29 @@
 {
   "name": "tech-debt-discovery",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Systematic technical debt inventory and prioritization. Use when asked to \"find tech debt\", \"show me the TODOs\", \"how healthy is this codebase\", \"what should we fix first\", \"find code smells\", \"audit code quality\", or \"identify hotspots\". Scans code markers, analyzes git history, checks dependencies, and produces a prioritized debt report.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "tech",
+    "debt",
+    "discovery",
+    "systematic",
+    "technical",
+    "inventory",
+    "prioritization",
+    "asked"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 2471,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2169,
   "artifacts": {
     "skill": "SKILL.md"
   },

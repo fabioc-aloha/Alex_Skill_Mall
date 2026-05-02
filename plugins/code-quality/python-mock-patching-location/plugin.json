@@ -1,13 +1,29 @@
 {
   "name": "python-mock-patching-location",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Python mock.patch must target the import location, not the definition location",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "python",
+    "mock",
+    "patching",
+    "location",
+    "mockpatch",
+    "must",
+    "target",
+    "import"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 825,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 647,
   "artifacts": {
     "skill": "SKILL.md"
   },

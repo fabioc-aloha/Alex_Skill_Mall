@@ -1,4 +1,4 @@
-# Domain Knowledge: Amazon KDP Self-Publishing
+# kdp-publishing
 
 Amazon KDP self-publishing specs -- cover requirements, interior formatting, spine formulas, ink options, and pricing tiers
 
@@ -9,14 +9,14 @@ Amazon KDP self-publishing specs -- cover requirements, interior formatting, spi
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2460 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Amazon KDP self-publishing specs -- cover requirements, interior formatting, spine formulas, ink options, and pricing tiers
+| **Token cost** | ~2658 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | kdp, publishing, amazon, self-publishing, specs, cover, requirements, interior |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install kdp-publishing
@@ -24,7 +24,7 @@ Amazon KDP self-publishing specs -- cover requirements, interior formatting, spi
 
 Or manually copy the plugin contents to `.github/skills/local/kdp-publishing/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

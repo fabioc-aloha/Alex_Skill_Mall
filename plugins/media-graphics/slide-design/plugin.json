@@ -1,13 +1,29 @@
 {
   "name": "slide-design",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Visual hierarchy, data visualization, and minimal text patterns for impactful presentations",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "slide",
+    "design",
+    "visual",
+    "hierarchy",
+    "data",
+    "visualization",
+    "minimal",
+    "text"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 2455,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2277,
   "artifacts": {
     "skill": "SKILL.md"
   },

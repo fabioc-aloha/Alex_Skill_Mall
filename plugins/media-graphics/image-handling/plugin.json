@@ -1,13 +1,29 @@
 {
   "name": "image-handling",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Right format, right size, right quality -- plus AI image generation via Replicate",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "image",
+    "handling",
+    "right",
+    "format",
+    "size",
+    "quality",
+    "plus",
+    "generation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 5487,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 5316,
   "artifacts": {
     "skill": "SKILL.md"
   },

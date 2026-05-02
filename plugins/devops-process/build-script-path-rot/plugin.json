@@ -1,13 +1,29 @@
 {
   "name": "build-script-path-rot",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Hardcoded paths in build scripts break when directory structure changes:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "build",
+    "script",
+    "path",
+    "rot",
+    "hardcoded",
+    "paths",
+    "scripts",
+    "break"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 827,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 657,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# Testing Strategies Skill
+# testing-strategies
 
 Systematic testing for confidence without over-testing -- the right test at the right level
 
@@ -9,14 +9,14 @@ Systematic testing for confidence without over-testing -- the right test at the 
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1774 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Systematic testing for confidence without over-testing -- the right test at the right level
+| **Token cost** | ~1952 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | testing, strategies, systematic, confidence, without, over-testing, right, test |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install testing-strategies
@@ -24,7 +24,7 @@ Systematic testing for confidence without over-testing -- the right test at the 
 
 Or manually copy the plugin contents to `.github/skills/local/testing-strategies/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

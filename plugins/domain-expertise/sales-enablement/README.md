@@ -1,4 +1,4 @@
-# Sales Enablement Skill
+# sales-enablement
 
 Sales methodology, pipeline management, negotiation frameworks, and customer engagement patterns.
 
@@ -9,14 +9,14 @@ Sales methodology, pipeline management, negotiation frameworks, and customer eng
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1867 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Sales methodology, pipeline management, negotiation frameworks, and customer engagement patterns.
+| **Token cost** | ~2048 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | sales, enablement, methodology, pipeline, management, negotiation, frameworks, customer |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install sales-enablement
@@ -24,7 +24,7 @@ Sales methodology, pipeline management, negotiation frameworks, and customer eng
 
 Or manually copy the plugin contents to `.github/skills/local/sales-enablement/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Legal Compliance Skill
+# legal-compliance
 
 Legal research, contract analysis, regulatory compliance, and case law citation for legal professionals.
 
@@ -9,14 +9,14 @@ Legal research, contract analysis, regulatory compliance, and case law citation 
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1514 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Legal research, contract analysis, regulatory compliance, and case law citation for legal professionals.
+| **Token cost** | ~1698 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | legal, compliance, research, contract, analysis, regulatory, case, citation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install legal-compliance
@@ -24,7 +24,7 @@ Legal research, contract analysis, regulatory compliance, and case law citation 
 
 Or manually copy the plugin contents to `.github/skills/local/legal-compliance/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

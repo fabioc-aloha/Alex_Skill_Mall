@@ -1,4 +1,4 @@
-# Knowledge Synthesis Skill
+# knowledge-synthesis
 
 Cross-project pattern recognition -- abstract, generalize, connect, store at the highest true level
 
@@ -9,14 +9,14 @@ Cross-project pattern recognition -- abstract, generalize, connect, store at the
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~3021 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Cross-project pattern recognition -- abstract, generalize, connect, store at the highest true level
+| **Token cost** | ~3206 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | knowledge, synthesis, cross-project, pattern, recognition, abstract, generalize, connect |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install knowledge-synthesis
@@ -24,7 +24,7 @@ Cross-project pattern recognition -- abstract, generalize, connect, store at the
 
 Or manually copy the plugin contents to `.github/skills/local/knowledge-synthesis/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Grant Writing Skill
+# grant-writing
 
 Translate research vision into funded reality.
 
@@ -9,14 +9,14 @@ Translate research vision into funded reality.
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1566 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Translate research vision into funded reality.
+| **Token cost** | ~1719 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | grant, writing, translate, research, vision, funded, reality |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install grant-writing
@@ -24,7 +24,7 @@ Translate research vision into funded reality.
 
 Or manually copy the plugin contents to `.github/skills/local/grant-writing/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

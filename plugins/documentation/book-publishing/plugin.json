@@ -1,13 +1,29 @@
 {
   "name": "book-publishing",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready formatting",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "book",
+    "publishing",
+    "markdown-to-pdf",
+    "pipeline",
+    "pandoc",
+    "lualatex",
+    "emoji",
+    "rendering"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "extended",
+  "token_cost": 2260,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2075,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# PFX (Personal Information Exchange) Found in Source Code
+# remediate-pfx-certificates
 
 Skill helps user to remove checked-in certificates from source code in case of exposed secrets
 
@@ -9,14 +9,14 @@ Skill helps user to remove checked-in certificates from source code in case of e
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2880 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Skill helps user to remove checked-in certificates from source code in case of exposed secrets
+| **Token cost** | ~3073 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | remediate, pfx, certificates, skill, helps, user, remove, checked-in |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install remediate-pfx-certificates
@@ -24,7 +24,7 @@ Skill helps user to remove checked-in certificates from source code in case of e
 
 Or manually copy the plugin contents to `.github/skills/local/remediate-pfx-certificates/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

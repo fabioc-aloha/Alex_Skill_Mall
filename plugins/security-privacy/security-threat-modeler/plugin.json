@@ -1,13 +1,29 @@
 {
   "name": "security-threat-modeler",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Analyze codebase architecture to generate a STRIDE-based threat model with data flow diagrams, trust boundaries, prioritized threats, and mitigations. Compatible with Microsoft Threat Modeling Tool concepts. Use when asked to \"threat model\", \"security analysis\", \"STRIDE analysis\", \"identify security threats\", \"data flow security\", \"generate a threat model\", or \"security architecture review\".",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "security",
+    "threat",
+    "modeler",
+    "analyze",
+    "codebase",
+    "architecture",
+    "generate",
+    "stride-based"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 3033,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2700,
   "artifacts": {
     "skill": "SKILL.md"
   },

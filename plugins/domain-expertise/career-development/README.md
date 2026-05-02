@@ -1,4 +1,4 @@
-# Career Development Skill
+# career-development
 
 Resume crafting, interview preparation, job search strategy, and professional growth planning.
 
@@ -9,14 +9,14 @@ Resume crafting, interview preparation, job search strategy, and professional gr
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2238 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Resume crafting, interview preparation, job search strategy, and professional growth planning.
+| **Token cost** | ~2419 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | career, development, resume, crafting, interview, preparation, search, strategy |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install career-development
@@ -24,7 +24,7 @@ Resume crafting, interview preparation, job search strategy, and professional gr
 
 Or manually copy the plugin contents to `.github/skills/local/career-development/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

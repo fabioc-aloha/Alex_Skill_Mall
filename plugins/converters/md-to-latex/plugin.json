@@ -1,13 +1,26 @@
 {
   "name": "md-to-latex",
   "version": "1.0.0",
-  "shape": ".S.M",
   "description": "Convert Markdown to LaTeX source via Pandoc.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "latex",
+    "convert",
+    "markdown",
+    "source",
+    "pandoc"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S.M",
   "category": "converters",
   "tier": "standard",
+  "token_cost": 2427,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2273,
   "artifacts": {
     "muscle": "md-to-latex.cjs",
     "skill": "SKILL.md"

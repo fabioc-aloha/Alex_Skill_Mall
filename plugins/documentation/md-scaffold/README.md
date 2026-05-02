@@ -1,4 +1,4 @@
-# Markdown Scaffolder
+# md-scaffold
 
 Scaffold properly structured Markdown files from templates for clean first-pass conversion
 
@@ -9,14 +9,14 @@ Scaffold properly structured Markdown files from templates for clean first-pass 
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1325 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Scaffold properly structured Markdown files from templates for clean first-pass conversion
+| **Token cost** | ~1498 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | scaffold, properly, structured, markdown, files, templates, clean, first-pass |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install md-scaffold
@@ -24,7 +24,7 @@ Scaffold properly structured Markdown files from templates for clean first-pass 
 
 Or manually copy the plugin contents to `.github/skills/local/md-scaffold/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

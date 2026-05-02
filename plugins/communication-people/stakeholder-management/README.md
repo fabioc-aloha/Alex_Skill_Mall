@@ -1,4 +1,4 @@
-# Skill: Stakeholder Management
+# stakeholder-management
 
 Influence mapping, communication strategies, and expectation management for complex organizations
 
@@ -9,14 +9,14 @@ Influence mapping, communication strategies, and expectation management for comp
 | **Category** | communication-people |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2372 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Influence mapping, communication strategies, and expectation management for complex organizations
+| **Token cost** | ~2558 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | stakeholder, management, influence, mapping, communication, strategies, expectation, complex |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install stakeholder-management
@@ -24,7 +24,7 @@ Influence mapping, communication strategies, and expectation management for comp
 
 Or manually copy the plugin contents to `.github/skills/local/stakeholder-management/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

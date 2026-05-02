@@ -1,13 +1,29 @@
 {
   "name": "tmdl-linter-false-positives",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "VS Code's TMDL (Tabular Model Definition Language) linter reports valid syntax as errors:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "tmdl",
+    "linter",
+    "false",
+    "positives",
+    "codes",
+    "tabular",
+    "model",
+    "definition"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 688,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 506,
   "artifacts": {
     "skill": "SKILL.md"
   },

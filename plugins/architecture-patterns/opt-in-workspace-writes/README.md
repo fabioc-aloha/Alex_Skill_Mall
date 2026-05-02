@@ -1,4 +1,4 @@
-# Opt-In for Workspace Writes
+# opt-in-workspace-writes
 
 Extensions/tools that auto-write to user workspaces without consent:
 
@@ -9,14 +9,14 @@ Extensions/tools that auto-write to user workspaces without consent:
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~618 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Extensions/tools that auto-write to user workspaces without consent:
+| **Token cost** | ~790 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | opt, workspace, writes, extensionstools, auto-write, user, workspaces, without |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install opt-in-workspace-writes
@@ -24,7 +24,7 @@ Extensions/tools that auto-write to user workspaces without consent:
 
 Or manually copy the plugin contents to `.github/skills/local/opt-in-workspace-writes/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

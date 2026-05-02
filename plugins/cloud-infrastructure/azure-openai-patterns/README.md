@@ -1,4 +1,4 @@
-# Azure OpenAI Patterns
+# azure-openai-patterns
 
 Azure OpenAI API patterns for rate limiting, function calling, error handling, and token optimization
 
@@ -9,14 +9,14 @@ Azure OpenAI API patterns for rate limiting, function calling, error handling, a
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2468 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Azure OpenAI API patterns for rate limiting, function calling, error handling, and token optimization
+| **Token cost** | ~2654 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | azure, openai, patterns, rate, limiting, function, calling, error |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install azure-openai-patterns
@@ -24,7 +24,7 @@ Azure OpenAI API patterns for rate limiting, function calling, error handling, a
 
 Or manually copy the plugin contents to `.github/skills/local/azure-openai-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

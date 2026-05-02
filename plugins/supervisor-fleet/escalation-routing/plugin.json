@@ -1,13 +1,29 @@
 {
   "name": "escalation-routing",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Decide whether a feedback item is in-scope for the Supervisor or must be escalated to AlexMaster (framework-level)",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "escalation",
+    "routing",
+    "decide",
+    "whether",
+    "feedback",
+    "item",
+    "in-scope",
+    "supervisor"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "supervisor-fleet",
   "tier": "standard",
+  "token_cost": 1794,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1605,
   "artifacts": {
     "skill": "SKILL.md"
   },

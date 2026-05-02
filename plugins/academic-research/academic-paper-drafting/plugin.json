@@ -1,13 +1,29 @@
 {
   "name": "academic-paper-drafting",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "End-to-end academic paper drafting for CHI, HBR, journals, and conferences with venue-specific templates, drafting workflows, and revision strategies.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "academic",
+    "paper",
+    "drafting",
+    "end-to-end",
+    "journals",
+    "conferences",
+    "venue-specific",
+    "templates"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "academic-research",
   "tier": "extended",
+  "token_cost": 5019,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 4807,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "service-worker-offline-first",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Progressive Web App offline-first patterns -- Service Worker lifecycle, caching strategies, background sync, and offline fallbacks for resilient web applications",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "service",
+    "worker",
+    "offline",
+    "first",
+    "progressive",
+    "offline-first",
+    "patterns",
+    "lifecycle"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 2065,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1843,
   "artifacts": {
     "skill": "SKILL.md"
   },

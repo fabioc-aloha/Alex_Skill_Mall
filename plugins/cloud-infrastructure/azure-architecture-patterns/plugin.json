@@ -1,13 +1,29 @@
 {
   "name": "azure-architecture-patterns",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Well-Architected Framework principles and Azure best practices",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "azure",
+    "architecture",
+    "patterns",
+    "well-architected",
+    "framework",
+    "principles",
+    "best",
+    "practices"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "cloud-infrastructure",
   "tier": "standard",
+  "token_cost": 1545,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1374,
   "artifacts": {
     "skill": "SKILL.md"
   },

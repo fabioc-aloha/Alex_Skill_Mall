@@ -1,13 +1,29 @@
 {
   "name": "ui-ux-design",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "User interface design, user experience optimization, accessibility compliance, design systems",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "design",
+    "user",
+    "interface",
+    "experience",
+    "optimization",
+    "accessibility",
+    "compliance",
+    "systems"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 5554,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 5380,
   "artifacts": {
     "skill": "SKILL.md"
   },

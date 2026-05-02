@@ -1,13 +1,29 @@
 {
   "name": "pptx-generation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markdown conversion",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "pptx",
+    "generation",
+    "programmatic",
+    "powerpoint",
+    "creation",
+    "pptxgenjs",
+    "data-driven",
+    "slides"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 1230,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1052,
   "artifacts": {
     "skill": "SKILL.md"
   },

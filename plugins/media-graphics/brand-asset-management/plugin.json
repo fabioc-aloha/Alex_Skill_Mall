@@ -1,13 +1,29 @@
 {
   "name": "brand-asset-management",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Brand hierarchy, visual identity, asset deployment, platform-specific branding guidelines",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "brand",
+    "asset",
+    "management",
+    "hierarchy",
+    "visual",
+    "identity",
+    "deployment",
+    "platform-specific"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 1341,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1160,
   "artifacts": {
     "skill": "SKILL.md"
   },

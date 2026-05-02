@@ -1,4 +1,4 @@
-# Coherence Audit
+# coherence-audit
 
 Detect coherence violations between Alex_ACT_Edition (brain) and Alex_Skill_Mall (marketplace) -- broken references, tag mismatches, deprecated install snippets
 
@@ -9,14 +9,14 @@ Detect coherence violations between Alex_ACT_Edition (brain) and Alex_Skill_Mall
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1185 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Detect coherence violations between Alex_ACT_Edition (brain) and Alex_Skill_Mall (marketplace) -- broken references, tag mismatches, deprecated install snippets
+| **Token cost** | ~1395 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | coherence, audit, detect, violations, between, alexactedition, brain, alexskillmall |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install coherence-audit
@@ -24,7 +24,7 @@ Detect coherence violations between Alex_ACT_Edition (brain) and Alex_Skill_Mall
 
 Or manually copy the plugin contents to `.github/skills/local/coherence-audit/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

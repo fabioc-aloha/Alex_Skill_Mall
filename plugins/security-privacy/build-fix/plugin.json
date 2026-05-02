@@ -1,13 +1,29 @@
 {
   "name": "build-fix",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Fix compile-time and build errors introduced by prior agent changes",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "build",
+    "fix",
+    "compile-time",
+    "errors",
+    "introduced",
+    "prior",
+    "agent",
+    "changes"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 1455,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1292,
   "artifacts": {
     "skill": "SKILL.md"
   },

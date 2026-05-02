@@ -1,4 +1,4 @@
-# Anti-Hallucination Skill
+# anti-hallucination
 
 Recognize and prevent confabulation -- when you don't know, say so.
 
@@ -9,14 +9,14 @@ Recognize and prevent confabulation -- when you don't know, say so.
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~1316 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Recognize and prevent confabulation -- when you don't know, say so.
+| **Token cost** | ~1484 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | anti, hallucination, recognize, prevent, confabulation, dont, know |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install anti-hallucination
@@ -24,7 +24,7 @@ Recognize and prevent confabulation -- when you don't know, say so.
 
 Or manually copy the plugin contents to `.github/skills/local/anti-hallucination/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

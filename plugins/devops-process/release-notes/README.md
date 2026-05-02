@@ -1,4 +1,4 @@
-# Release Notes
+# release-notes
 
 Generate release notes or changelog entries for completed changes. Use when asked to "write release notes", "update the changelog", "document what changed", "create a release summary", or when preparing a release. Follows Keep a Changelog format.
 
@@ -9,14 +9,14 @@ Generate release notes or changelog entries for completed changes. Use when aske
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1802 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Generate release notes or changelog entries for completed changes. Use when asked to "write release notes", "update the changelog", "document what changed", "create a release summary", or when preparing a release. Follows Keep a Changelog format.
+| **Token cost** | ~2053 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | release, notes, generate, changelog, entries, completed, changes, asked |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install release-notes
@@ -24,7 +24,7 @@ Generate release notes or changelog entries for completed changes. Use when aske
 
 Or manually copy the plugin contents to `.github/skills/local/release-notes/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

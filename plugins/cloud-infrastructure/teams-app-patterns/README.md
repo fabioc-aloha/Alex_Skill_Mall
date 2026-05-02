@@ -1,4 +1,4 @@
-# Teams App Patterns Skill
+# teams-app-patterns
 
 Full Teams app development patterns.
 
@@ -9,14 +9,14 @@ Full Teams app development patterns.
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1699 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Full Teams app development patterns.
+| **Token cost** | ~1852 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | teams, app, patterns, full, development |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install teams-app-patterns
@@ -24,7 +24,7 @@ Full Teams app development patterns.
 
 Or manually copy the plugin contents to `.github/skills/local/teams-app-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

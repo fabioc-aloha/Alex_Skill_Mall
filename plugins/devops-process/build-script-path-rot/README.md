@@ -1,4 +1,4 @@
-# Build Script Path Rot
+# build-script-path-rot
 
 Hardcoded paths in build scripts break when directory structure changes:
 
@@ -9,14 +9,14 @@ Hardcoded paths in build scripts break when directory structure changes:
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~657 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Hardcoded paths in build scripts break when directory structure changes:
+| **Token cost** | ~827 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | build, script, path, rot, hardcoded, paths, scripts, break |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install build-script-path-rot
@@ -24,7 +24,7 @@ Hardcoded paths in build scripts break when directory structure changes:
 
 Or manually copy the plugin contents to `.github/skills/local/build-script-path-rot/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

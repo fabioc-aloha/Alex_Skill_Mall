@@ -1,4 +1,4 @@
-# Healthcare Informatics Skill
+# healthcare-informatics
 
 Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and health data management.
 
@@ -9,14 +9,14 @@ Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and 
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1572 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and health data management.
+| **Token cost** | ~1760 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | healthcare, informatics, clinical, terminology, compliance, hipaahitech, patient, safety |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install healthcare-informatics
@@ -24,7 +24,7 @@ Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and 
 
 Or manually copy the plugin contents to `.github/skills/local/healthcare-informatics/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

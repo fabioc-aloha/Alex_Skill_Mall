@@ -1,4 +1,4 @@
-# AI Agent Design Skill
+# ai-agent-design
 
 Design autonomous AI agents that reason, plan, and execute tasks
 
@@ -9,14 +9,14 @@ Design autonomous AI agents that reason, plan, and execute tasks
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1401 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Design autonomous AI agents that reason, plan, and execute tasks
+| **Token cost** | ~1563 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | agent, design, autonomous, agents, reason, plan, execute, tasks |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install ai-agent-design
@@ -24,7 +24,7 @@ Design autonomous AI agents that reason, plan, and execute tasks
 
 Or manually copy the plugin contents to `.github/skills/local/ai-agent-design/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

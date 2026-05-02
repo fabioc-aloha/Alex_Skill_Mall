@@ -1,4 +1,4 @@
-# Awareness Skill
+# awareness
 
 Proactive detection, self-correction, and epistemic vigilance
 
@@ -9,14 +9,14 @@ Proactive detection, self-correction, and epistemic vigilance
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~2938 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Proactive detection, self-correction, and epistemic vigilance
+| **Token cost** | ~3096 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | awareness, proactive, detection, self-correction, epistemic, vigilance |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install awareness
@@ -24,7 +24,7 @@ Proactive detection, self-correction, and epistemic vigilance
 
 Or manually copy the plugin contents to `.github/skills/local/awareness/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "learning-psychology",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Help humans learn through partnership, not instruction.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "learning",
+    "psychology",
+    "help",
+    "humans",
+    "learn",
+    "through",
+    "partnership",
+    "instruction"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "communication-people",
   "tier": "extended",
+  "token_cost": 1531,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1368,
   "artifacts": {
     "skill": "SKILL.md"
   },

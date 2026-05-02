@@ -1,13 +1,29 @@
 {
   "name": "executive-storytelling",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Data-driven narrative construction, stakeholder management, and influencing senior leadership decisions",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "executive",
+    "storytelling",
+    "data-driven",
+    "narrative",
+    "construction",
+    "stakeholder",
+    "management",
+    "influencing"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "communication-people",
   "tier": "standard",
+  "token_cost": 3677,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 3487,
   "artifacts": {
     "skill": "SKILL.md"
   },

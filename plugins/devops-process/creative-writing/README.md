@@ -1,4 +1,4 @@
-# Creative Writing Skill
+# creative-writing
 
 Patterns for fiction, narrative structure, character development, dialogue, and storytelling craft.
 
@@ -9,14 +9,14 @@ Patterns for fiction, narrative structure, character development, dialogue, and 
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3247 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Patterns for fiction, narrative structure, character development, dialogue, and storytelling craft.
+| **Token cost** | ~3428 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | creative, writing, patterns, fiction, narrative, structure, character, development |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install creative-writing
@@ -24,7 +24,7 @@ Patterns for fiction, narrative structure, character development, dialogue, and 
 
 Or manually copy the plugin contents to `.github/skills/local/creative-writing/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# MSAL Singleton Pattern
+# msal-singleton-pattern
 
 Time Saved: 1+ hour debugging silent auth failures
 
@@ -9,14 +9,14 @@ Time Saved: 1+ hour debugging silent auth failures
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~929 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Time Saved: 1+ hour debugging silent auth failures
+| **Token cost** | ~1090 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | msal, singleton, pattern, time, saved, hour, debugging, silent |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install msal-singleton-pattern
@@ -24,7 +24,7 @@ Time Saved: 1+ hour debugging silent auth failures
 
 Or manually copy the plugin contents to `.github/skills/local/msal-singleton-pattern/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

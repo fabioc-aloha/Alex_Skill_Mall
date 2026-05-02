@@ -1,4 +1,4 @@
-# Git Workflow Skill
+# git-workflow
 
 Consistent git practices, recovery patterns, and safe operations.
 
@@ -9,14 +9,14 @@ Consistent git practices, recovery patterns, and safe operations.
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1120 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Consistent git practices, recovery patterns, and safe operations.
+| **Token cost** | ~1282 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | git, workflow, consistent, practices, recovery, patterns, safe, operations |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install git-workflow
@@ -24,7 +24,7 @@ Consistent git practices, recovery patterns, and safe operations.
 
 Or manually copy the plugin contents to `.github/skills/local/git-workflow/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

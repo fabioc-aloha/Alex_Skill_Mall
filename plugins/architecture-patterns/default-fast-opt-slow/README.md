@@ -1,4 +1,4 @@
-# Default to Fast, Opt Into Slow
+# default-fast-opt-slow
 
 AI/LLM features default to verbose responses, causing:
 
@@ -9,14 +9,14 @@ AI/LLM features default to verbose responses, causing:
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~520 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-AI/LLM features default to verbose responses, causing:
+| **Token cost** | ~684 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | default, fast, opt, slow, aillm, features, verbose, responses |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install default-fast-opt-slow
@@ -24,7 +24,7 @@ AI/LLM features default to verbose responses, causing:
 
 Or manually copy the plugin contents to `.github/skills/local/default-fast-opt-slow/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

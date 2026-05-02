@@ -1,13 +1,29 @@
 {
   "name": "survey-instrument-verification",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Manuscripts evolve terminology that may not match what was actually administered:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "survey",
+    "instrument",
+    "verification",
+    "manuscripts",
+    "evolve",
+    "terminology",
+    "match",
+    "what"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "academic-research",
   "tier": "extended",
+  "token_cost": 736,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 554,
   "artifacts": {
     "skill": "SKILL.md"
   },

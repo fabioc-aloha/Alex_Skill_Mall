@@ -1,4 +1,4 @@
-# Token Waste Elimination
+# token-waste-elimination
 
 Audit and eliminate token waste from cognitive architecture memory files -- instructions, prompts, skills, and agents
 
@@ -9,14 +9,14 @@ Audit and eliminate token waste from cognitive architecture memory files -- inst
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1761 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Audit and eliminate token waste from cognitive architecture memory files -- instructions, prompts, skills, and agents
+| **Token cost** | ~1954 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | token, waste, elimination, audit, eliminate, cognitive, architecture, memory |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install token-waste-elimination
@@ -24,7 +24,7 @@ Audit and eliminate token waste from cognitive architecture memory files -- inst
 
 Or manually copy the plugin contents to `.github/skills/local/token-waste-elimination/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

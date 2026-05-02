@@ -1,4 +1,4 @@
-# Azure Subscription Context
+# azure-subscription-context
 
 Time Saved: 30 minutes - 1 hour debugging
 
@@ -9,14 +9,14 @@ Time Saved: 30 minutes - 1 hour debugging
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1005 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Time Saved: 30 minutes - 1 hour debugging
+| **Token cost** | ~1164 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | azure, subscription, context, time, saved, minutes, hour, debugging |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install azure-subscription-context
@@ -24,7 +24,7 @@ Time Saved: 30 minutes - 1 hour debugging
 
 Or manually copy the plugin contents to `.github/skills/local/azure-subscription-context/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

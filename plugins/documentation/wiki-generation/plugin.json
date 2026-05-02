@@ -1,13 +1,29 @@
 {
   "name": "wiki-generation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Generate structured documentation from codebases -- architecture mapping, page writing, and onboarding guides. Use when asked to create a wiki, document a repo, generate onboarding docs, map architecture for documentation, or produce a documentation plan from source code.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "wiki",
+    "generation",
+    "generate",
+    "structured",
+    "documentation",
+    "codebases",
+    "architecture",
+    "mapping"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 2162,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1897,
   "artifacts": {
     "skill": "SKILL.md"
   },

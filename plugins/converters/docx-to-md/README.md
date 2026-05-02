@@ -1,4 +1,4 @@
-# Word to Markdown Conversion
+# docx-to-md
 
 Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup
 
@@ -9,14 +9,14 @@ Convert Word documents (.docx) to clean Markdown with image extraction and pando
 | **Category** | converters |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2124 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup
+| **Token cost** | ~2297 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | docx, convert, word, documents, clean, markdown, image, extraction |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install docx-to-md
@@ -24,7 +24,7 @@ Convert Word documents (.docx) to clean Markdown with image extraction and pando
 
 Or manually copy the plugin contents to `.github/skills/local/docx-to-md/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

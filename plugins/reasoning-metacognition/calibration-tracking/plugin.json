@@ -1,13 +1,29 @@
 {
   "name": "calibration-tracking",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Record confidence claims and reconcile against outcomes -- closing Tenet V (calibration over confidence)",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "calibration",
+    "tracking",
+    "record",
+    "confidence",
+    "claims",
+    "reconcile",
+    "against",
+    "outcomes"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "reasoning-metacognition",
   "tier": "core",
+  "token_cost": 1755,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1567,
   "artifacts": {
     "skill": "SKILL.md"
   },

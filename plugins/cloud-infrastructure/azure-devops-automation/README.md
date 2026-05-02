@@ -1,4 +1,4 @@
-# Skill: Azure DevOps Automation
+# azure-devops-automation
 
 CI/CD pipelines, infrastructure as code, and deployment automation for Azure workloads
 
@@ -9,14 +9,14 @@ CI/CD pipelines, infrastructure as code, and deployment automation for Azure wor
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2490 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-CI/CD pipelines, infrastructure as code, and deployment automation for Azure workloads
+| **Token cost** | ~2672 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | azure, devops, automation, cicd, pipelines, infrastructure, code, deployment |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install azure-devops-automation
@@ -24,7 +24,7 @@ CI/CD pipelines, infrastructure as code, and deployment automation for Azure wor
 
 Or manually copy the plugin contents to `.github/skills/local/azure-devops-automation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,27 @@
 {
   "name": "md-to-pptx",
   "version": "1.0.0",
-  "shape": ".S.M",
   "description": "Convert Markdown to PowerPoint presentations via Pandoc.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "pptx",
+    "convert",
+    "markdown",
+    "powerpoint",
+    "presentations",
+    "pandoc"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S.M",
   "category": "converters",
   "tier": "standard",
+  "token_cost": 2142,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1983,
   "artifacts": {
     "muscle": "md-to-pptx.cjs",
     "skill": "SKILL.md"

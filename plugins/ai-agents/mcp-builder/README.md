@@ -1,4 +1,4 @@
-# MCP Server Development Guide
+# mcp-builder
 
 Build MCP servers for LLM tool integration -- Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK)
 
@@ -9,14 +9,14 @@ Build MCP servers for LLM tool integration -- Python (FastMCP), Node/TypeScript 
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2386 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Build MCP servers for LLM tool integration -- Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK)
+| **Token cost** | ~2576 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | mcp, builder, build, servers, tool, integration, python, fastmcp |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install mcp-builder
@@ -24,7 +24,7 @@ Build MCP servers for LLM tool integration -- Python (FastMCP), Node/TypeScript 
 
 Or manually copy the plugin contents to `.github/skills/local/mcp-builder/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

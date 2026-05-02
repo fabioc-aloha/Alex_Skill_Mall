@@ -1,13 +1,29 @@
 {
   "name": "deep-review",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Adversarial code review with three parallel perspectives -- Advocate, Skeptic, Architect -- that create productive tension. Use for high-stakes PRs, architectural changes, or when single-pass review would miss issues. Surfaces findings through disagreement, not consensus.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "deep",
+    "review",
+    "adversarial",
+    "code",
+    "three",
+    "parallel",
+    "perspectives",
+    "advocate"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 1789,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1527,
   "artifacts": {
     "skill": "SKILL.md"
   },

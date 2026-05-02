@@ -1,13 +1,26 @@
 {
   "name": "teams-app-patterns",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Full Teams app development patterns.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "teams",
+    "app",
+    "patterns",
+    "full",
+    "development"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "cloud-infrastructure",
   "tier": "standard",
+  "token_cost": 1852,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1699,
   "artifacts": {
     "skill": "SKILL.md"
   },

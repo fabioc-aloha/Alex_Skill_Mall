@@ -1,13 +1,29 @@
 {
   "name": "import-infrastructure-as-code",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when asked to reverse-engineer live Azure infrastructure, generate Infrastructure as Code from existing subscriptions/resource groups/resource IDs, map dependencies, derive exact import addresses from downloaded module source, prevent configuration drift, and produce AVM-based Terraform files ready for validation and planning across any Azure resource type.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "import",
+    "infrastructure",
+    "code",
+    "existing",
+    "azure",
+    "resources",
+    "terraform",
+    "using"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "cloud-infrastructure",
   "tier": "standard",
+  "token_cost": 5106,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 4722,
   "artifacts": {
     "skill": "SKILL.md"
   },

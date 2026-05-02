@@ -1,4 +1,4 @@
-# Enterprise Integration Skill
+# enterprise-integration
 
 Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integration in VS Code extensions
 
@@ -9,14 +9,14 @@ Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integra
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1616 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integration in VS Code extensions
+| **Token cost** | ~1807 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | enterprise, integration, patterns, microsoft, graph, entra, feature, code |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install enterprise-integration
@@ -24,7 +24,7 @@ Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integra
 
 Or manually copy the plugin contents to `.github/skills/local/enterprise-integration/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Allowlist Over Blocklist
+# allowlist-over-blocklist
 
 Validate input against an allowlist of permitted values -- reject everything else
 
@@ -9,14 +9,14 @@ Validate input against an allowlist of permitted values -- reject everything els
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1034 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Validate input against an allowlist of permitted values -- reject everything else
+| **Token cost** | ~1211 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | allowlist, over, blocklist, validate, input, against, permitted, values |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install allowlist-over-blocklist
@@ -24,7 +24,7 @@ Validate input against an allowlist of permitted values -- reject everything els
 
 Or manually copy the plugin contents to `.github/skills/local/allowlist-over-blocklist/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

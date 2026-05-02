@@ -1,13 +1,29 @@
 {
   "name": "github-wiki-flat",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "GitHub Wiki has a flat namespace -- no real folders, sidebar ordering tricks, link gotchas",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "github",
+    "wiki",
+    "flat",
+    "namespace",
+    "real",
+    "folders",
+    "sidebar",
+    "ordering"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 1067,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 891,
   "artifacts": {
     "skill": "SKILL.md"
   },

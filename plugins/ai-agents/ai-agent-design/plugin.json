@@ -1,13 +1,29 @@
 {
   "name": "ai-agent-design",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Design autonomous AI agents that reason, plan, and execute tasks",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "agent",
+    "design",
+    "autonomous",
+    "agents",
+    "reason",
+    "plan",
+    "execute",
+    "tasks"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 1563,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1401,
   "artifacts": {
     "skill": "SKILL.md"
   },

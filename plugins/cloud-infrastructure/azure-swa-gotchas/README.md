@@ -1,4 +1,4 @@
-# Azure Static Web Apps Gotchas
+# azure-swa-gotchas
 
 Time saved: 2-4 hours per issue
 
@@ -9,14 +9,14 @@ Time saved: 2-4 hours per issue
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1518 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Time saved: 2-4 hours per issue
+| **Token cost** | ~1669 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | azure, swa, gotchas, time, saved, hours, issue |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install azure-swa-gotchas
@@ -24,7 +24,7 @@ Time saved: 2-4 hours per issue
 
 Or manually copy the plugin contents to `.github/skills/local/azure-swa-gotchas/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

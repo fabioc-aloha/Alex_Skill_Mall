@@ -1,13 +1,27 @@
 {
   "name": "error-recovery-patterns",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "What to do when things break.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "error",
+    "recovery",
+    "patterns",
+    "what",
+    "things",
+    "break"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 1549,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1398,
   "artifacts": {
     "skill": "SKILL.md"
   },

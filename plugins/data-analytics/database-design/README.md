@@ -1,4 +1,4 @@
-# Database Design Skill
+# database-design
 
 Schema design, normalization, query optimization, and data modeling patterns
 
@@ -9,14 +9,14 @@ Schema design, normalization, query optimization, and data modeling patterns
 | **Category** | data-analytics |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2657 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Schema design, normalization, query optimization, and data modeling patterns
+| **Token cost** | ~2826 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | database, design, schema, normalization, query, optimization, data, modeling |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install database-design
@@ -24,7 +24,7 @@ Schema design, normalization, query optimization, and data modeling patterns
 
 Or manually copy the plugin contents to `.github/skills/local/database-design/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

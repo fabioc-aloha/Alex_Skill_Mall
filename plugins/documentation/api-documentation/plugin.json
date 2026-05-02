@@ -1,13 +1,29 @@
 {
   "name": "api-documentation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Technical documentation, API references, user guides, and docs-as-code workflows.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "api",
+    "documentation",
+    "technical",
+    "references",
+    "user",
+    "guides",
+    "docs-as-code",
+    "workflows"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 2053,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1880,
   "artifacts": {
     "skill": "SKILL.md"
   },

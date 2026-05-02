@@ -1,4 +1,4 @@
-# Refactoring Patterns Skill
+# refactoring-patterns
 
 Safe transformations -- same behavior, better structure.
 
@@ -9,14 +9,14 @@ Safe transformations -- same behavior, better structure.
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1600 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Safe transformations -- same behavior, better structure.
+| **Token cost** | ~1762 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | refactoring, patterns, safe, transformations, same, behavior, better, structure |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install refactoring-patterns
@@ -24,7 +24,7 @@ Safe transformations -- same behavior, better structure.
 
 Or manually copy the plugin contents to `.github/skills/local/refactoring-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "literature-review",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Systematic literature search, synthesis, gap identification, and narrative construction for academic research",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "literature",
+    "review",
+    "systematic",
+    "search",
+    "synthesis",
+    "identification",
+    "narrative",
+    "construction"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "academic-research",
   "tier": "extended",
+  "token_cost": 2678,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2490,
   "artifacts": {
     "skill": "SKILL.md"
   },

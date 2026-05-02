@@ -1,13 +1,29 @@
 {
   "name": "career-development",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Resume crafting, interview preparation, job search strategy, and professional growth planning.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "career",
+    "development",
+    "resume",
+    "crafting",
+    "interview",
+    "preparation",
+    "search",
+    "strategy"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 2419,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2238,
   "artifacts": {
     "skill": "SKILL.md"
   },

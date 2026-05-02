@@ -1,4 +1,4 @@
-# Domain Knowledge: Early Filter Optimization
+# early-filter-optimization
 
 Cross-domain early-filtering paradigm for reducing cognitive and computational load in data pipelines, AI context, and human attention
 
@@ -9,14 +9,14 @@ Cross-domain early-filtering paradigm for reducing cognitive and computational l
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~973 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Cross-domain early-filtering paradigm for reducing cognitive and computational load in data pipelines, AI context, and human attention
+| **Token cost** | ~1183 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | early, filter, optimization, cross-domain, early-filtering, paradigm, reducing, cognitive |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install early-filter-optimization
@@ -24,7 +24,7 @@ Cross-domain early-filtering paradigm for reducing cognitive and computational l
 
 Or manually copy the plugin contents to `.github/skills/local/early-filter-optimization/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

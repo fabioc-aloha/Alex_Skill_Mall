@@ -1,13 +1,29 @@
 {
   "name": "dual-surface-docs-drift",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Two READMEs covering overlapping scope will diverge:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "dual",
+    "surface",
+    "docs",
+    "drift",
+    "readmes",
+    "covering",
+    "overlapping",
+    "scope"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 668,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 507,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "presentation-tool-selection",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Best practice decision matrix for choosing between Marp, Gamma, and PptxGenJS based on use case requirements.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "presentation",
+    "tool",
+    "selection",
+    "best",
+    "practice",
+    "decision",
+    "matrix",
+    "choosing"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "extended",
+  "token_cost": 2050,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1856,
   "artifacts": {
     "skill": "SKILL.md"
   },

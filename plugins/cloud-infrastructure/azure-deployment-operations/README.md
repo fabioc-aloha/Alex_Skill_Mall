@@ -1,4 +1,4 @@
-# Azure Deployment Operations
+# azure-deployment-operations
 
 Production deployment patterns for Azure Static Web Apps, Container Apps, App Service, and infrastructure
 
@@ -9,14 +9,14 @@ Production deployment patterns for Azure Static Web Apps, Container Apps, App Se
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2231 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Production deployment patterns for Azure Static Web Apps, Container Apps, App Service, and infrastructure
+| **Token cost** | ~2423 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | azure, deployment, operations, production, patterns, static, apps, container |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install azure-deployment-operations
@@ -24,7 +24,7 @@ Production deployment patterns for Azure Static Web Apps, Container Apps, App Se
 
 Or manually copy the plugin contents to `.github/skills/local/azure-deployment-operations/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

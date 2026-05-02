@@ -1,4 +1,4 @@
-# Academic Editorial Judgment
+# academic-editorial-judgment
 
 Context-dependent editorial style rules for academic writing -- APA7, Chicago, MLA judgment calls
 
@@ -9,14 +9,14 @@ Context-dependent editorial style rules for academic writing -- APA7, Chicago, M
 | **Category** | academic-research |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~573 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Context-dependent editorial style rules for academic writing -- APA7, Chicago, MLA judgment calls
+| **Token cost** | ~761 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | academic, editorial, judgment, context-dependent, style, rules, writing, apa7 |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install academic-editorial-judgment
@@ -24,7 +24,7 @@ Context-dependent editorial style rules for academic writing -- APA7, Chicago, M
 
 Or manually copy the plugin contents to `.github/skills/local/academic-editorial-judgment/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

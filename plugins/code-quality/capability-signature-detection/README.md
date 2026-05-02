@@ -1,4 +1,4 @@
-# Capability Signature Detection
+# capability-signature-detection
 
 Code-scanning regex that looks for literal strings misses real usage:
 
@@ -9,14 +9,14 @@ Code-scanning regex that looks for literal strings misses real usage:
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~658 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Code-scanning regex that looks for literal strings misses real usage:
+| **Token cost** | ~832 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | capability, signature, detection, code-scanning, regex, looks, literal, strings |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install capability-signature-detection
@@ -24,7 +24,7 @@ Code-scanning regex that looks for literal strings misses real usage:
 
 Or manually copy the plugin contents to `.github/skills/local/capability-signature-detection/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

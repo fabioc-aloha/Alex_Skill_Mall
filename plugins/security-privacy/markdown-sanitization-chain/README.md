@@ -1,4 +1,4 @@
-# Markdown Sanitization Chain
+# markdown-sanitization-chain
 
 Markdown sanitization order matters -- marked.js then DOMPurify then Mermaid to prevent XSS
 
@@ -9,14 +9,14 @@ Markdown sanitization order matters -- marked.js then DOMPurify then Mermaid to 
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~708 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Markdown sanitization order matters -- marked.js then DOMPurify then Mermaid to prevent XSS
+| **Token cost** | ~892 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | markdown, sanitization, chain, order, matters, markedjs, dompurify, mermaid |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install markdown-sanitization-chain
@@ -24,7 +24,7 @@ Markdown sanitization order matters -- marked.js then DOMPurify then Mermaid to 
 
 Or manually copy the plugin contents to `.github/skills/local/markdown-sanitization-chain/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "financial-analysis",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "financial",
+    "analysis",
+    "modeling",
+    "frameworks",
+    "regulatory",
+    "awareness",
+    "business-minded",
+    "professionals"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 1736,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1553,
   "artifacts": {
     "skill": "SKILL.md"
   },

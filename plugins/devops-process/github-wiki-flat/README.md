@@ -1,4 +1,4 @@
-# GitHub Wiki Is Flat
+# github-wiki-flat
 
 GitHub Wiki has a flat namespace -- no real folders, sidebar ordering tricks, link gotchas
 
@@ -9,14 +9,14 @@ GitHub Wiki has a flat namespace -- no real folders, sidebar ordering tricks, li
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~891 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-GitHub Wiki has a flat namespace -- no real folders, sidebar ordering tricks, link gotchas
+| **Token cost** | ~1067 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | github, wiki, flat, namespace, real, folders, sidebar, ordering |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install github-wiki-flat
@@ -24,7 +24,7 @@ GitHub Wiki has a flat namespace -- no real folders, sidebar ordering tricks, li
 
 Or manually copy the plugin contents to `.github/skills/local/github-wiki-flat/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

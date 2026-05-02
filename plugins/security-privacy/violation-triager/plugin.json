@@ -1,13 +1,29 @@
 {
   "name": "violation-triager",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Orchestrate end-to-end SFI-TI3.2.2 workflow -- fetch violations, classify, dispatch to remediation skills, generate report",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "violation",
+    "triager",
+    "orchestrate",
+    "end-to-end",
+    "sfi-ti322",
+    "workflow",
+    "fetch",
+    "violations"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 1493,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1300,
   "artifacts": {
     "skill": "SKILL.md"
   },

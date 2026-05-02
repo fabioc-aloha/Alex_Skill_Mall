@@ -1,13 +1,29 @@
 {
   "name": "dialog-engineering",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "CSAR Loop and structured conversation patterns for effective AI dialog -- Clarify, Summarize, Act, Reflect",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "dialog",
+    "engineering",
+    "csar",
+    "loop",
+    "structured",
+    "conversation",
+    "patterns",
+    "effective"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "reasoning-metacognition",
   "tier": "core",
+  "token_cost": 1703,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1517,
   "artifacts": {
     "skill": "SKILL.md"
   },

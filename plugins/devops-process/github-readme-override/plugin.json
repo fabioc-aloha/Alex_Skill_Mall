@@ -1,13 +1,29 @@
 {
   "name": "github-readme-override",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "GitHub README display rules -- which README renders when multiple exist, profile READMEs, org READMEs",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "github",
+    "readme",
+    "override",
+    "display",
+    "rules",
+    "which",
+    "renders",
+    "multiple"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 931,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 746,
   "artifacts": {
     "skill": "SKILL.md"
   },

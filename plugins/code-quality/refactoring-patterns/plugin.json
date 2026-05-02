@@ -1,13 +1,29 @@
 {
   "name": "refactoring-patterns",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Safe transformations -- same behavior, better structure.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "refactoring",
+    "patterns",
+    "safe",
+    "transformations",
+    "same",
+    "behavior",
+    "better",
+    "structure"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 1762,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1600,
   "artifacts": {
     "skill": "SKILL.md"
   },

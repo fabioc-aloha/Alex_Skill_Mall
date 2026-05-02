@@ -1,4 +1,4 @@
-# Store Adoption
+# store-adoption
 
 Fetch plugin store updates, inventory contents, match against fleet profile, and generate adoption candidates report
 
@@ -9,14 +9,14 @@ Fetch plugin store updates, inventory contents, match against fleet profile, and
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1240 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Fetch plugin store updates, inventory contents, match against fleet profile, and generate adoption candidates report
+| **Token cost** | ~1427 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | store, adoption, fetch, plugin, updates, inventory, contents, match |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install store-adoption
@@ -24,7 +24,7 @@ Fetch plugin store updates, inventory contents, match against fleet profile, and
 
 Or manually copy the plugin contents to `.github/skills/local/store-adoption/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "prompt-2-data",
   "version": "1.0.0",
-  "shape": ".SP.",
   "description": "Generate comprehensive synthetic relational data for any specified subject with multiple normalized CSV files maintaining referential integrity",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "prompt",
+    "data",
+    "generate",
+    "comprehensive",
+    "synthetic",
+    "relational",
+    "specified",
+    "subject"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".SP.",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 9041,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 8829,
   "artifacts": {
     "prompt": "review.prompt.md",
     "skill": "SKILL.md"

@@ -1,13 +1,29 @@
 {
   "name": "converter-qa",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Test harness for validating converter outputs with 284 assertions across all converter muscles",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "converter",
+    "test",
+    "harness",
+    "validating",
+    "outputs",
+    "assertions",
+    "across",
+    "muscles"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "converters",
   "tier": "standard",
+  "token_cost": 1095,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 919,
   "artifacts": {
     "skill": "SKILL.md"
   },

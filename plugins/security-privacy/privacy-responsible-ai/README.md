@@ -1,4 +1,4 @@
-# Privacy & Responsible AI Skill
+# privacy-responsible-ai
 
 Privacy by design, data protection, and responsible AI principles.
 
@@ -9,14 +9,14 @@ Privacy by design, data protection, and responsible AI principles.
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2266 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Privacy by design, data protection, and responsible AI principles.
+| **Token cost** | ~2436 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | privacy, responsible, design, data, protection, principles |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install privacy-responsible-ai
@@ -24,7 +24,7 @@ Privacy by design, data protection, and responsible AI principles.
 
 Or manually copy the plugin contents to `.github/skills/local/privacy-responsible-ai/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

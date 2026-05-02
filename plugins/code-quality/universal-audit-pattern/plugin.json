@@ -1,13 +1,29 @@
 {
   "name": "universal-audit-pattern",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Systematic project audit pattern -- version consistency, terminology, fact inventory, cross-references",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "universal",
+    "audit",
+    "pattern",
+    "systematic",
+    "project",
+    "version",
+    "consistency",
+    "terminology"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "code-quality",
   "tier": "standard",
+  "token_cost": 1361,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1175,
   "artifacts": {
     "skill": "SKILL.md"
   },

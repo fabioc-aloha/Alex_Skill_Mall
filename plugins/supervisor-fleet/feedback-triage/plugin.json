@@ -1,13 +1,29 @@
 {
   "name": "feedback-triage",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Categorize, deduplicate, and route fleet feedback to Edition fix, Mall change, or AlexMaster escalation",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "feedback",
+    "triage",
+    "categorize",
+    "deduplicate",
+    "route",
+    "fleet",
+    "edition",
+    "mall"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "supervisor-fleet",
   "tier": "standard",
+  "token_cost": 1132,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 951,
   "artifacts": {
     "skill": "SKILL.md"
   },

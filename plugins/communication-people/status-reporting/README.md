@@ -1,4 +1,4 @@
-# Status Reporting Skill
+# status-reporting
 
 Create stakeholder-friendly project status updates and progress reports
 
@@ -9,14 +9,14 @@ Create stakeholder-friendly project status updates and progress reports
 | **Category** | communication-people |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1771 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Create stakeholder-friendly project status updates and progress reports
+| **Token cost** | ~1940 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | status, reporting, create, stakeholder-friendly, project, updates, progress, reports |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install status-reporting
@@ -24,7 +24,7 @@ Create stakeholder-friendly project status updates and progress reports
 
 Or manually copy the plugin contents to `.github/skills/local/status-reporting/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

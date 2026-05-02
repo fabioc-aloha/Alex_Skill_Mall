@@ -1,4 +1,4 @@
-# Dialog Engineering
+# dialog-engineering
 
 CSAR Loop and structured conversation patterns for effective AI dialog -- Clarify, Summarize, Act, Reflect
 
@@ -9,14 +9,14 @@ CSAR Loop and structured conversation patterns for effective AI dialog -- Clarif
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~1517 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-CSAR Loop and structured conversation patterns for effective AI dialog -- Clarify, Summarize, Act, Reflect
+| **Token cost** | ~1703 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | dialog, engineering, csar, loop, structured, conversation, patterns, effective |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install dialog-engineering
@@ -24,7 +24,7 @@ CSAR Loop and structured conversation patterns for effective AI dialog -- Clarif
 
 Or manually copy the plugin contents to `.github/skills/local/dialog-engineering/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "architecture-audit",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Comprehensive project consistency review across code, documentation, diagrams, and configuration",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "architecture",
+    "audit",
+    "comprehensive",
+    "project",
+    "consistency",
+    "review",
+    "across",
+    "code"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "architecture-patterns",
   "tier": "standard",
+  "token_cost": 2556,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2374,
   "artifacts": {
     "skill": "SKILL.md"
   },

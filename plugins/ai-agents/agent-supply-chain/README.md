@@ -1,4 +1,4 @@
-# Agent Supply Chain Integrity
+# agent-supply-chain
 
 |
 
@@ -9,14 +9,14 @@
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2567 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-|
+| **Token cost** | ~2701 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | agent, supply, chain |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install agent-supply-chain
@@ -24,7 +24,7 @@
 
 Or manually copy the plugin contents to `.github/skills/local/agent-supply-chain/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

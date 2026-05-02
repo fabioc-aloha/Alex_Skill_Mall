@@ -1,13 +1,29 @@
 {
   "name": "fabric-lakehouse",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions. It offers descriptions of Lakehouse data components, organization with schemas and shortcuts, access control, and code examples. This skill supports users in designing, building, and optimizing Lakehouse solutions using best practices.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "fabric",
+    "lakehouse",
+    "skill",
+    "context",
+    "features",
+    "software",
+    "systems",
+    "ai-powered"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 1859,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1551,
   "artifacts": {
     "skill": "SKILL.md"
   },

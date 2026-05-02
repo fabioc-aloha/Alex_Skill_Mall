@@ -1,4 +1,4 @@
-# Error Recovery Patterns Skill
+# error-recovery-patterns
 
 What to do when things break.
 
@@ -9,14 +9,14 @@ What to do when things break.
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1398 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-What to do when things break.
+| **Token cost** | ~1549 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | error, recovery, patterns, what, things, break |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install error-recovery-patterns
@@ -24,7 +24,7 @@ What to do when things break.
 
 Or manually copy the plugin contents to `.github/skills/local/error-recovery-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

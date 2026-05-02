@@ -1,4 +1,4 @@
-# Image Handling Skill
+# image-handling
 
 Right format, right size, right quality -- plus AI image generation via Replicate
 
@@ -9,14 +9,14 @@ Right format, right size, right quality -- plus AI image generation via Replicat
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~5316 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Right format, right size, right quality -- plus AI image generation via Replicate
+| **Token cost** | ~5487 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | image, handling, right, format, size, quality, plus, generation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install image-handling
@@ -24,7 +24,7 @@ Right format, right size, right quality -- plus AI image generation via Replicat
 
 Or manually copy the plugin contents to `.github/skills/local/image-handling/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

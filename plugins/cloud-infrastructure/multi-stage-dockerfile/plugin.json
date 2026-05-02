@@ -1,13 +1,29 @@
 {
   "name": "multi-stage-dockerfile",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Create optimized multi-stage Dockerfiles for any language or framework",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "multi",
+    "stage",
+    "dockerfile",
+    "create",
+    "optimized",
+    "multi-stage",
+    "dockerfiles",
+    "language"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "cloud-infrastructure",
   "tier": "standard",
+  "token_cost": 789,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 618,
   "artifacts": {
     "skill": "SKILL.md"
   },

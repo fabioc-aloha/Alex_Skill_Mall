@@ -1,13 +1,29 @@
 {
   "name": "data-quality-monitoring",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Data pipeline quality assurance -- anomaly detection, schema drift, null ratio monitoring, freshness checks, and safe-write protection for reliable data engineering",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "data",
+    "quality",
+    "monitoring",
+    "pipeline",
+    "assurance",
+    "anomaly",
+    "detection",
+    "schema"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 1962,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1744,
   "artifacts": {
     "skill": "SKILL.md"
   },

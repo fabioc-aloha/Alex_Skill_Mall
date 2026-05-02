@@ -1,4 +1,4 @@
-# Incident Response Skill
+# incident-response
 
 Calm, systematic crisis handling -- from detection through post-mortem to prevention
 
@@ -9,14 +9,14 @@ Calm, systematic crisis handling -- from detection through post-mortem to preven
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1081 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Calm, systematic crisis handling -- from detection through post-mortem to prevention
+| **Token cost** | ~1256 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | incident, response, calm, systematic, crisis, handling, detection, through |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install incident-response
@@ -24,7 +24,7 @@ Calm, systematic crisis handling -- from detection through post-mortem to preven
 
 Or manually copy the plugin contents to `.github/skills/local/incident-response/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

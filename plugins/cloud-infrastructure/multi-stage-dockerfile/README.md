@@ -9,14 +9,14 @@ Create optimized multi-stage Dockerfiles for any language or framework
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~618 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Create optimized multi-stage Dockerfiles for any language or framework
+| **Token cost** | ~789 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | multi, stage, dockerfile, create, optimized, multi-stage, dockerfiles, language |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install multi-stage-dockerfile
@@ -24,7 +24,7 @@ Create optimized multi-stage Dockerfiles for any language or framework
 
 Or manually copy the plugin contents to `.github/skills/local/multi-stage-dockerfile/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

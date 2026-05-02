@@ -1,4 +1,4 @@
-# Performance Profiling Skill
+# performance-profiling
 
 CPU, memory, network bottleneck analysis -- systematic performance investigation
 
@@ -9,14 +9,14 @@ CPU, memory, network bottleneck analysis -- systematic performance investigation
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~2866 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-CPU, memory, network bottleneck analysis -- systematic performance investigation
+| **Token cost** | ~3041 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | performance, profiling, memory, network, bottleneck, analysis, systematic, investigation |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install performance-profiling
@@ -24,7 +24,7 @@ CPU, memory, network bottleneck analysis -- systematic performance investigation
 
 Or manually copy the plugin contents to `.github/skills/local/performance-profiling/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Financial Analysis Skill
+# financial-analysis
 
 Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals.
 
@@ -9,14 +9,14 @@ Financial modeling, analysis frameworks, and regulatory awareness for business-m
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1553 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals.
+| **Token cost** | ~1736 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | financial, analysis, modeling, frameworks, regulatory, awareness, business-minded, professionals |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install financial-analysis
@@ -24,7 +24,7 @@ Financial modeling, analysis frameworks, and regulatory awareness for business-m
 
 Or manually copy the plugin contents to `.github/skills/local/financial-analysis/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

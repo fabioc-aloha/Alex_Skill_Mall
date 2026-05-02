@@ -1,4 +1,4 @@
-# Comedy Writing Skill
+# comedy-writing
 
 Joke structure, comedic timing, set construction, callback patterns, and audience engagement for comedy writers.
 
@@ -9,14 +9,14 @@ Joke structure, comedic timing, set construction, callback patterns, and audienc
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1481 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Joke structure, comedic timing, set construction, callback patterns, and audience engagement for comedy writers.
+| **Token cost** | ~1668 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | comedy, writing, joke, structure, comedic, timing, construction, callback |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install comedy-writing
@@ -24,7 +24,7 @@ Joke structure, comedic timing, set construction, callback patterns, and audienc
 
 Or manually copy the plugin contents to `.github/skills/local/comedy-writing/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

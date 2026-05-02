@@ -1,13 +1,29 @@
 {
   "name": "llm-model-selection",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Choosing the right model for the task -- power vs. cost vs. speed.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "llm",
+    "model",
+    "selection",
+    "choosing",
+    "right",
+    "task",
+    "power",
+    "cost"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 2228,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2062,
   "artifacts": {
     "skill": "SKILL.md"
   },

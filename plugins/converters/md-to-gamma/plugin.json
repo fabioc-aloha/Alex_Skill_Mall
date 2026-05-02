@@ -1,13 +1,26 @@
 {
   "name": "md-to-gamma",
   "version": "1.0.0",
-  "shape": ".S.M",
   "description": "Pre-process Markdown into a Gamma-import-ready version.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "gamma",
+    "pre-process",
+    "markdown",
+    "gamma-import-ready",
+    "version"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S.M",
   "category": "converters",
   "tier": "standard",
+  "token_cost": 3044,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2884,
   "artifacts": {
     "muscle": "md-to-gamma.cjs",
     "skill": "SKILL.md"

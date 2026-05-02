@@ -1,13 +1,29 @@
 {
   "name": "fix-once-auto-inject",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "One-time fixes get repeated manually:",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "fix",
+    "once",
+    "auto",
+    "inject",
+    "one-time",
+    "fixes",
+    "repeated",
+    "manually"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 746,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 592,
   "artifacts": {
     "skill": "SKILL.md"
   },

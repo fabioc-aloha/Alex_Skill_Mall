@@ -1,4 +1,4 @@
-# SVG Graphics Skill
+# svg-graphics
 
 Scalable, accessible, theme-aware visuals
 
@@ -9,14 +9,14 @@ Scalable, accessible, theme-aware visuals
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1255 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Scalable, accessible, theme-aware visuals
+| **Token cost** | ~1404 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | svg, graphics, scalable, accessible, theme-aware, visuals |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install svg-graphics
@@ -24,7 +24,7 @@ Scalable, accessible, theme-aware visuals
 
 Or manually copy the plugin contents to `.github/skills/local/svg-graphics/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

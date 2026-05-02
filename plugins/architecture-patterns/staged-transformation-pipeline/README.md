@@ -1,4 +1,4 @@
-# Staged Transformation Pipeline
+# staged-transformation-pipeline
 
 Monolithic transformations are hard to test and debug:
 
@@ -9,14 +9,14 @@ Monolithic transformations are hard to test and debug:
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~704 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Monolithic transformations are hard to test and debug:
+| **Token cost** | ~873 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | staged, transformation, pipeline, monolithic, transformations, hard, test, debug |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install staged-transformation-pipeline
@@ -24,7 +24,7 @@ Monolithic transformations are hard to test and debug:
 
 Or manually copy the plugin contents to `.github/skills/local/staged-transformation-pipeline/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

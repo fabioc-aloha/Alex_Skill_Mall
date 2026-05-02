@@ -1,4 +1,4 @@
-# Skill Review
+# skill-review
 
 Review submissions to Alex_ACT_Edition for ACT spec compliance, content quality, and scope fit
 
@@ -9,14 +9,14 @@ Review submissions to Alex_ACT_Edition for ACT spec compliance, content quality,
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1219 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Review submissions to Alex_ACT_Edition for ACT spec compliance, content quality, and scope fit
+| **Token cost** | ~1394 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | skill, review, submissions, alexactedition, spec, compliance, content, quality |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install skill-review
@@ -24,7 +24,7 @@ Review submissions to Alex_ACT_Edition for ACT spec compliance, content quality,
 
 Or manually copy the plugin contents to `.github/skills/local/skill-review/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

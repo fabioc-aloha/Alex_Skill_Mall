@@ -1,13 +1,29 @@
 {
   "name": "business-analysis",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Patterns for requirements elicitation, BRDs, process analysis, and stakeholder alignment.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "business",
+    "analysis",
+    "patterns",
+    "requirements",
+    "elicitation",
+    "brds",
+    "process",
+    "stakeholder"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "devops-process",
   "tier": "standard",
+  "token_cost": 2120,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1943,
   "artifacts": {
     "skill": "SKILL.md"
   },

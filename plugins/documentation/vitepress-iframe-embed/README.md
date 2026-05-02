@@ -1,4 +1,4 @@
-# VitePress Iframe Embed
+# vitepress-iframe-embed
 
 VitePress iframe embedding gotchas -- CSP headers, sandboxing, responsive sizing
 
@@ -9,14 +9,14 @@ VitePress iframe embedding gotchas -- CSP headers, sandboxing, responsive sizing
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1106 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-VitePress iframe embedding gotchas -- CSP headers, sandboxing, responsive sizing
+| **Token cost** | ~1280 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | vitepress, iframe, embed, embedding, gotchas, headers, sandboxing, responsive |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install vitepress-iframe-embed
@@ -24,7 +24,7 @@ VitePress iframe embedding gotchas -- CSP headers, sandboxing, responsive sizing
 
 Or manually copy the plugin contents to `.github/skills/local/vitepress-iframe-embed/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

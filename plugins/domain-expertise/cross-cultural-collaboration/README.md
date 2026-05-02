@@ -1,4 +1,4 @@
-# Cross-Cultural Collaboration
+# cross-cultural-collaboration
 
 Domain: Multicultural team communication, cultural intelligence, global collaboration
 
@@ -9,14 +9,14 @@ Domain: Multicultural team communication, cultural intelligence, global collabor
 | **Category** | domain-expertise |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~3440 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Domain: Multicultural team communication, cultural intelligence, global collaboration
+| **Token cost** | ~3623 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | cross, cultural, collaboration, domain, multicultural, team, communication, intelligence |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install cross-cultural-collaboration
@@ -24,7 +24,7 @@ Domain: Multicultural team communication, cultural intelligence, global collabor
 
 Or manually copy the plugin contents to `.github/skills/local/cross-cultural-collaboration/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

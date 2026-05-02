@@ -1,13 +1,29 @@
 {
   "name": "terminal-image-rendering",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Render images inline in VS Code's integrated terminal using the Kitty graphics protocol",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "terminal",
+    "image",
+    "rendering",
+    "render",
+    "images",
+    "inline",
+    "codes",
+    "integrated"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 1042,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 862,
   "artifacts": {
     "skill": "SKILL.md"
   },

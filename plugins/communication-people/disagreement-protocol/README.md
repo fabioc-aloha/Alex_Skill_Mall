@@ -1,4 +1,4 @@
-# Disagreement Protocol Skill
+# disagreement-protocol
 
 Canonical phrasing for respectful disagreement without capitulation -- structural resistance to sycophancy
 
@@ -9,14 +9,14 @@ Canonical phrasing for respectful disagreement without capitulation -- structura
 | **Category** | communication-people |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1064 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Canonical phrasing for respectful disagreement without capitulation -- structural resistance to sycophancy
+| **Token cost** | ~1254 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | disagreement, protocol, canonical, phrasing, respectful, without, capitulation, structural |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install disagreement-protocol
@@ -24,7 +24,7 @@ Canonical phrasing for respectful disagreement without capitulation -- structura
 
 Or manually copy the plugin contents to `.github/skills/local/disagreement-protocol/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,13 +1,29 @@
 {
   "name": "healthcare-informatics",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and health data management.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "healthcare",
+    "informatics",
+    "clinical",
+    "terminology",
+    "compliance",
+    "hipaahitech",
+    "patient",
+    "safety"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "domain-expertise",
   "tier": "extended",
+  "token_cost": 1760,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1572,
   "artifacts": {
     "skill": "SKILL.md"
   },

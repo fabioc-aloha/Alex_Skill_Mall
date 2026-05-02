@@ -1,4 +1,4 @@
-# Release Process Skill
+# release-process
 
 Release Process Skill
 
@@ -9,14 +9,14 @@ Release Process Skill
 | **Category** | supervisor-fleet |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3809 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Release Process Skill
+| **Token cost** | ~3951 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | release, process, skill |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install release-process
@@ -24,7 +24,7 @@ Release Process Skill
 
 Or manually copy the plugin contents to `.github/skills/local/release-process/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

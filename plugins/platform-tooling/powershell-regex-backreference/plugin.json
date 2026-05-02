@@ -1,13 +1,29 @@
 {
   "name": "powershell-regex-backreference",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "PowerShell regex backreference syntax pitfalls -- dollar-sign escaping in replacement strings",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "powershell",
+    "regex",
+    "backreference",
+    "syntax",
+    "pitfalls",
+    "dollar-sign",
+    "escaping",
+    "replacement"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "standard",
+  "token_cost": 863,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 673,
   "artifacts": {
     "skill": "SKILL.md"
   },

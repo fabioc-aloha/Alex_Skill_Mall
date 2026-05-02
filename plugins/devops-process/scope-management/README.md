@@ -1,4 +1,4 @@
-# Scope Management Skill
+# scope-management
 
 Recognize scope creep, suggest MVP cuts, and manage project boundaries
 
@@ -9,14 +9,14 @@ Recognize scope creep, suggest MVP cuts, and manage project boundaries
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1866 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Recognize scope creep, suggest MVP cuts, and manage project boundaries
+| **Token cost** | ~2033 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | scope, management, recognize, creep, suggest, cuts, manage, project |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install scope-management
@@ -24,7 +24,7 @@ Recognize scope creep, suggest MVP cuts, and manage project boundaries
 
 Or manually copy the plugin contents to `.github/skills/local/scope-management/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

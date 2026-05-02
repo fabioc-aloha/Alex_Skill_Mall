@@ -1,4 +1,4 @@
-# PAT Expiration Silent Failure
+# pat-expiration-silent
 
 Personal Access Token expiration fails silently -- 401 errors with no expiry message, pre-check pattern
 
@@ -9,14 +9,14 @@ Personal Access Token expiration fails silently -- 401 errors with no expiry mes
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~1066 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Personal Access Token expiration fails silently -- 401 errors with no expiry message, pre-check pattern
+| **Token cost** | ~1254 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | pat, expiration, silent, personal, access, token, fails, silently |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install pat-expiration-silent
@@ -24,7 +24,7 @@ Personal Access Token expiration fails silently -- 401 errors with no expiry mes
 
 Or manually copy the plugin contents to `.github/skills/local/pat-expiration-silent/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

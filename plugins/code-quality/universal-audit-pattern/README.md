@@ -1,4 +1,4 @@
-# Universal Audit Pattern
+# universal-audit-pattern
 
 Systematic project audit pattern -- version consistency, terminology, fact inventory, cross-references
 
@@ -9,14 +9,14 @@ Systematic project audit pattern -- version consistency, terminology, fact inven
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1175 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Systematic project audit pattern -- version consistency, terminology, fact inventory, cross-references
+| **Token cost** | ~1361 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | universal, audit, pattern, systematic, project, version, consistency, terminology |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install universal-audit-pattern
@@ -24,7 +24,7 @@ Systematic project audit pattern -- version consistency, terminology, fact inven
 
 Or manually copy the plugin contents to `.github/skills/local/universal-audit-pattern/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

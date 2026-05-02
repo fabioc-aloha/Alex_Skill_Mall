@@ -1,13 +1,29 @@
 {
   "name": "data-storytelling",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "End-to-end data narrative construction -- three-act structure, Knaflic/Duarte methodology, audience-first framing, and orchestration across analysis, visualization, and dashboard skills",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "data",
+    "storytelling",
+    "end-to-end",
+    "narrative",
+    "construction",
+    "three-act",
+    "structure",
+    "knaflicduarte"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "data-analytics",
   "tier": "standard",
+  "token_cost": 2488,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2264,
   "artifacts": {
     "skill": "SKILL.md"
   },

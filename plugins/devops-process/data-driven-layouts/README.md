@@ -1,4 +1,4 @@
-# Data-Driven Layouts
+# data-driven-layouts
 
 Template-driven layouts require code changes for structural updates:
 
@@ -9,14 +9,14 @@ Template-driven layouts require code changes for structural updates:
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~622 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Template-driven layouts require code changes for structural updates:
+| **Token cost** | ~788 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | data, driven, layouts, template-driven, require, code, changes, structural |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install data-driven-layouts
@@ -24,7 +24,7 @@ Template-driven layouts require code changes for structural updates:
 
 Or manually copy the plugin contents to `.github/skills/local/data-driven-layouts/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

@@ -1,4 +1,4 @@
-# Secrets Management Skill
+# secrets-management
 
 Secure token storage, VS Code SecretStorage API, credential management, environment variable migration
 
@@ -9,14 +9,14 @@ Secure token storage, VS Code SecretStorage API, credential management, environm
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3758 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Secure token storage, VS Code SecretStorage API, credential management, environment variable migration
+| **Token cost** | ~3943 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | secrets, management, secure, token, storage, code, secretstorage, credential |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install secrets-management
@@ -24,7 +24,7 @@ Secure token storage, VS Code SecretStorage API, credential management, environm
 
 Or manually copy the plugin contents to `.github/skills/local/secrets-management/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

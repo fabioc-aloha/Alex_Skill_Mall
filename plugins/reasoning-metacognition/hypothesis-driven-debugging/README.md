@@ -1,4 +1,4 @@
-# Hypothesis-Driven Debugging
+# hypothesis-driven-debugging
 
 Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic minimal reproduction, multi-hypothesis testing, and evidence-based verification. Use when asked to "debug", "investigate a failure", "find root cause", "troubleshoot", "fix a failing test", or "diagnose an issue". Always re-run builds and tests after changes.
 
@@ -9,14 +9,14 @@ Investigate build failures, test errors, runtime crashes, or unexpected behavior
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~2186 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic minimal reproduction, multi-hypothesis testing, and evidence-based verification. Use when asked to "debug", "investigate a failure", "find root cause", "troubleshoot", "fix a failing test", or "diagnose an issue". Always re-run builds and tests after changes.
+| **Token cost** | ~2506 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | hypothesis, driven, debugging, investigate, build, failures, test, errors |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install hypothesis-driven-debugging
@@ -24,7 +24,7 @@ Investigate build failures, test errors, runtime crashes, or unexpected behavior
 
 Or manually copy the plugin contents to `.github/skills/local/hypothesis-driven-debugging/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

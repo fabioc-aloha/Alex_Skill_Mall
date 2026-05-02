@@ -1,4 +1,4 @@
-# Root Cause Analysis Skill
+# root-cause-analysis
 
 Find the true source, not symptoms -- systematic debugging from observation to permanent fix
 
@@ -9,14 +9,14 @@ Find the true source, not symptoms -- systematic debugging from observation to p
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~1480 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Find the true source, not symptoms -- systematic debugging from observation to permanent fix
+| **Token cost** | ~1662 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | root, cause, analysis, find, true, source, symptoms, systematic |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install root-cause-analysis
@@ -24,7 +24,7 @@ Find the true source, not symptoms -- systematic debugging from observation to p
 
 Or manually copy the plugin contents to `.github/skills/local/root-cause-analysis/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

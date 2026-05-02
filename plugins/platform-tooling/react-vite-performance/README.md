@@ -1,4 +1,4 @@
-# React + Vite Performance Optimization
+# react-vite-performance
 
 React + Vite performance optimization -- code splitting, lazy loading, bundle analysis, Web Vitals, and modern React patterns for fast web applications
 
@@ -9,14 +9,14 @@ React + Vite performance optimization -- code splitting, lazy loading, bundle an
 | **Category** | platform-tooling |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1849 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-React + Vite performance optimization -- code splitting, lazy loading, bundle analysis, Web Vitals, and modern React patterns for fast web applications
+| **Token cost** | ~2063 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | react, vite, performance, optimization, code, splitting, lazy, loading |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install react-vite-performance
@@ -24,7 +24,7 @@ React + Vite performance optimization -- code splitting, lazy loading, bundle an
 
 Or manually copy the plugin contents to `.github/skills/local/react-vite-performance/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

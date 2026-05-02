@@ -1,4 +1,4 @@
-# Microsoft Graph API Skill
+# microsoft-graph-api
 
 Comprehensive Microsoft Graph API reference for M365 service integration
 
@@ -9,14 +9,14 @@ Comprehensive Microsoft Graph API reference for M365 service integration
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~4457 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Comprehensive Microsoft Graph API reference for M365 service integration
+| **Token cost** | ~4629 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | microsoft, graph, api, comprehensive, reference, m365, service, integration |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install microsoft-graph-api
@@ -24,7 +24,7 @@ Comprehensive Microsoft Graph API reference for M365 service integration
 
 Or manually copy the plugin contents to `.github/skills/local/microsoft-graph-api/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

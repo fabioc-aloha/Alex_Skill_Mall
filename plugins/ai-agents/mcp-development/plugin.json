@@ -1,13 +1,25 @@
 {
   "name": "mcp-development",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Domain: AI Infrastructure",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "mcp",
+    "development",
+    "domain",
+    "infrastructure"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 5519,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 5376,
   "artifacts": {
     "skill": "SKILL.md"
   },

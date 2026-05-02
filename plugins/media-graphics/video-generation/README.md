@@ -1,4 +1,4 @@
-# Video Generation Skill
+# video-generation
 
 AI video generation via Replicate -- 17 models, editing, and production workflows
 
@@ -9,14 +9,14 @@ AI video generation via Replicate -- 17 models, editing, and production workflow
 | **Category** | media-graphics |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2756 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-AI video generation via Replicate -- 17 models, editing, and production workflows
+| **Token cost** | ~2928 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | video, generation, replicate, models, editing, production, workflows |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install video-generation
@@ -24,7 +24,7 @@ AI video generation via Replicate -- 17 models, editing, and production workflow
 
 Or manually copy the plugin contents to `.github/skills/local/video-generation/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

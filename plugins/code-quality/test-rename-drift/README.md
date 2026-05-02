@@ -1,4 +1,4 @@
-# Test Rename Drift
+# test-rename-drift
 
 When renaming a function, test files have references that survive find-and-replace:
 
@@ -9,14 +9,14 @@ When renaming a function, test files have references that survive find-and-repla
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~611 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-When renaming a function, test files have references that survive find-and-replace:
+| **Token cost** | ~783 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | test, rename, drift, renaming, function, files, references, survive |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install test-rename-drift
@@ -24,7 +24,7 @@ When renaming a function, test files have references that survive find-and-repla
 
 Or manually copy the plugin contents to `.github/skills/local/test-rename-drift/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

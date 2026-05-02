@@ -1,13 +1,29 @@
 {
   "name": "nav-inject",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Inject cross-document navigation tables into multi-file Markdown documentation suites",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "nav",
+    "inject",
+    "cross-document",
+    "navigation",
+    "tables",
+    "multi-file",
+    "markdown",
+    "documentation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 995,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 825,
   "artifacts": {
     "skill": "SKILL.md"
   },

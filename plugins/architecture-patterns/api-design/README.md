@@ -1,4 +1,4 @@
-# API Design Skill
+# api-design
 
 Design APIs that developers love to use.
 
@@ -9,14 +9,14 @@ Design APIs that developers love to use.
 | **Category** | architecture-patterns |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1366 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Design APIs that developers love to use.
+| **Token cost** | ~1515 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | api, design, apis, developers, love |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install api-design
@@ -24,7 +24,7 @@ Design APIs that developers love to use.
 
 Or manually copy the plugin contents to `.github/skills/local/api-design/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

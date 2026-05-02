@@ -1,13 +1,29 @@
 {
   "name": "token-waste-elimination",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Audit and eliminate token waste from cognitive architecture memory files -- instructions, prompts, skills, and agents",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "token",
+    "waste",
+    "elimination",
+    "audit",
+    "eliminate",
+    "cognitive",
+    "architecture",
+    "memory"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "ai-agents",
   "tier": "standard",
+  "token_cost": 1954,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1761,
   "artifacts": {
     "skill": "SKILL.md"
   },

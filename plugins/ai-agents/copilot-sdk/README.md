@@ -1,4 +1,4 @@
-# GitHub Copilot SDK
+# copilot-sdk
 
 Build applications powered by GitHub Copilot using the Copilot SDK -- session management, custom tools, streaming, hooks, MCP servers, BYOK, deployment patterns
 
@@ -9,14 +9,14 @@ Build applications powered by GitHub Copilot using the Copilot SDK -- session ma
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~3605 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Build applications powered by GitHub Copilot using the Copilot SDK -- session management, custom tools, streaming, hooks, MCP servers, BYOK, deployment patterns
+| **Token cost** | ~3812 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | copilot, sdk, build, applications, powered, github, using, session |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install copilot-sdk
@@ -24,7 +24,7 @@ Build applications powered by GitHub Copilot using the Copilot SDK -- session ma
 
 Or manually copy the plugin contents to `.github/skills/local/copilot-sdk/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

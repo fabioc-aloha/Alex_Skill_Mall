@@ -1,13 +1,29 @@
 {
   "name": "ai-writing-avoidance",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "writing",
+    "avoidance",
+    "help",
+    "writers",
+    "produce",
+    "content",
+    "sounds",
+    "genuinely"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "standard",
+  "token_cost": 2753,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2568,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "stakeholder-management",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Influence mapping, communication strategies, and expectation management for complex organizations",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "stakeholder",
+    "management",
+    "influence",
+    "mapping",
+    "communication",
+    "strategies",
+    "expectation",
+    "complex"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "communication-people",
   "tier": "standard",
+  "token_cost": 2558,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2372,
   "artifacts": {
     "skill": "SKILL.md"
   },

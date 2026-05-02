@@ -1,13 +1,28 @@
 {
   "name": "video-generation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "AI video generation via Replicate -- 17 models, editing, and production workflows",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "video",
+    "generation",
+    "replicate",
+    "models",
+    "editing",
+    "production",
+    "workflows"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "media-graphics",
   "tier": "extended",
+  "token_cost": 2928,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2756,
   "artifacts": {
     "skill": "SKILL.md"
   },

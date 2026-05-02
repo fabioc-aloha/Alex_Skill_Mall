@@ -1,13 +1,23 @@
 {
   "name": "fleet-management",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Fleet Management",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "fleet",
+    "management"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "supervisor-fleet",
   "tier": "standard",
+  "token_cost": 1564,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1425,
   "artifacts": {
     "skill": "SKILL.md"
   },

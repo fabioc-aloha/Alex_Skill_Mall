@@ -1,4 +1,4 @@
-# Change Management Skill
+# change-management
 
 Patterns for organizational change, ADKAR methodology, stakeholder engagement, and adoption strategies.
 
@@ -9,14 +9,14 @@ Patterns for organizational change, ADKAR methodology, stakeholder engagement, a
 | **Category** | devops-process |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1790 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Patterns for organizational change, ADKAR methodology, stakeholder engagement, and adoption strategies.
+| **Token cost** | ~1974 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | change, management, patterns, organizational, adkar, methodology, stakeholder, engagement |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install change-management
@@ -24,7 +24,7 @@ Patterns for organizational change, ADKAR methodology, stakeholder engagement, a
 
 Or manually copy the plugin contents to `.github/skills/local/change-management/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

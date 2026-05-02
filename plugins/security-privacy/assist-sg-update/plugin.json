@@ -1,13 +1,29 @@
 {
   "name": "assist-sg-update",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Generate assisted PRs to correct Security Group ownership for first-party apps flagged by S360 tenant-isolation policy (SFI-TI3.2.2)",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "assist",
+    "update",
+    "generate",
+    "assisted",
+    "correct",
+    "security",
+    "group",
+    "ownership"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 3022,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 2825,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,4 +1,4 @@
-# Azure Architecture Patterns
+# azure-architecture-patterns
 
 Well-Architected Framework principles and Azure best practices
 
@@ -9,14 +9,14 @@ Well-Architected Framework principles and Azure best practices
 | **Category** | cloud-infrastructure |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~1374 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Well-Architected Framework principles and Azure best practices
+| **Token cost** | ~1545 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | azure, architecture, patterns, well-architected, framework, principles, best, practices |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install azure-architecture-patterns
@@ -24,7 +24,7 @@ Well-Architected Framework principles and Azure best practices
 
 Or manually copy the plugin contents to `.github/skills/local/azure-architecture-patterns/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

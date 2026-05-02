@@ -1,13 +1,29 @@
 {
   "name": "pat-expiration-silent",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Personal Access Token expiration fails silently -- 401 errors with no expiry message, pre-check pattern",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "pat",
+    "expiration",
+    "silent",
+    "personal",
+    "access",
+    "token",
+    "fails",
+    "silently"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "platform-tooling",
   "tier": "extended",
+  "token_cost": 1254,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1066,
   "artifacts": {
     "skill": "SKILL.md"
   },

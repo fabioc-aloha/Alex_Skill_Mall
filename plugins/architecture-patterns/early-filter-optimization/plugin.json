@@ -1,13 +1,29 @@
 {
   "name": "early-filter-optimization",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Cross-domain early-filtering paradigm for reducing cognitive and computational load in data pipelines, AI context, and human attention",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "early",
+    "filter",
+    "optimization",
+    "cross-domain",
+    "early-filtering",
+    "paradigm",
+    "reducing",
+    "cognitive"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "architecture-patterns",
   "tier": "standard",
+  "token_cost": 1183,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 973,
   "artifacts": {
     "skill": "SKILL.md"
   },

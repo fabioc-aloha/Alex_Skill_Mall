@@ -1,4 +1,4 @@
-# Skill: NSG Lookup
+# lookup-nsg
 
 Finds the Network Interface Card (NIC) and associated Network Security Group (NSG) for a VM given its public IP address.
 
@@ -9,14 +9,14 @@ Finds the Network Interface Card (NIC) and associated Network Security Group (NS
 | **Category** | security-privacy |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~470 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Finds the Network Interface Card (NIC) and associated Network Security Group (NSG) for a VM given its public IP address.
+| **Token cost** | ~658 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | lookup, nsg, finds, network, interface, card, associated, security |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install lookup-nsg
@@ -24,7 +24,7 @@ Finds the Network Interface Card (NIC) and associated Network Security Group (NS
 
 Or manually copy the plugin contents to `.github/skills/local/lookup-nsg/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

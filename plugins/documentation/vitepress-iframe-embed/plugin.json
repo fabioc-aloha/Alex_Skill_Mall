@@ -1,13 +1,29 @@
 {
   "name": "vitepress-iframe-embed",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "VitePress iframe embedding gotchas -- CSP headers, sandboxing, responsive sizing",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "vitepress",
+    "iframe",
+    "embed",
+    "embedding",
+    "gotchas",
+    "headers",
+    "sandboxing",
+    "responsive"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "documentation",
   "tier": "extended",
+  "token_cost": 1280,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 1106,
   "artifacts": {
     "skill": "SKILL.md"
   },

@@ -1,13 +1,29 @@
 {
   "name": "revoke-and-rotate-certificate",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": "Skill helps user to revoke and rotate certificate in case of exposed secrets",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "revoke",
+    "and",
+    "rotate",
+    "certificate",
+    "skill",
+    "helps",
+    "user",
+    "case"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 342,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 164,
   "artifacts": {
     "skill": "SKILL.md"
   },

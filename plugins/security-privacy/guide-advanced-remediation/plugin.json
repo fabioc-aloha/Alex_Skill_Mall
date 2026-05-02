@@ -1,13 +1,24 @@
 {
   "name": "guide-advanced-remediation",
   "version": "1.0.0",
-  "shape": ".S..",
   "description": ">",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "keywords": [
+    "guide",
+    "advanced",
+    "remediation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
   "category": "security-privacy",
   "tier": "standard",
+  "token_cost": 6558,
   "requires_edition": ">=1.0.0",
   "requires_plugins": [],
-  "token_cost": 6419,
   "artifacts": {
     "skill": "SKILL.md"
   },

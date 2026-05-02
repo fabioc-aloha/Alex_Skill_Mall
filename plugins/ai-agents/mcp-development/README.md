@@ -1,4 +1,4 @@
-# MCP Development Skill
+# mcp-development
 
 Domain: AI Infrastructure
 
@@ -9,14 +9,14 @@ Domain: AI Infrastructure
 | **Category** | ai-agents |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~5376 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Domain: AI Infrastructure
+| **Token cost** | ~5519 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | mcp, development, domain, infrastructure |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install mcp-development
@@ -24,7 +24,7 @@ Domain: AI Infrastructure
 
 Or manually copy the plugin contents to `.github/skills/local/mcp-development/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

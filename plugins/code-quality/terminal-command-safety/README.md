@@ -1,4 +1,4 @@
-# Terminal Command Safety
+# terminal-command-safety
 
 Safe terminal command patterns -- backtick escaping, output capture, and hang prevention
 
@@ -9,14 +9,14 @@ Safe terminal command patterns -- backtick escaping, output capture, and hang pr
 | **Category** | code-quality |
 | **Shape** | `.S..` |
 | **Tier** | standard |
-| **Token cost** | ~847 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Safe terminal command patterns -- backtick escaping, output capture, and hang prevention
+| **Token cost** | ~1026 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | terminal, command, safety, safe, patterns, backtick, escaping, output |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install terminal-command-safety
@@ -24,7 +24,7 @@ Safe terminal command patterns -- backtick escaping, output capture, and hang pr
 
 Or manually copy the plugin contents to `.github/skills/local/terminal-command-safety/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

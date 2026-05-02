@@ -1,4 +1,4 @@
-# Book Publishing
+# book-publishing
 
 Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready formatting
 
@@ -9,14 +9,14 @@ Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual outp
 | **Category** | documentation |
 | **Shape** | `.S..` |
 | **Tier** | extended |
-| **Token cost** | ~2075 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready formatting
+| **Token cost** | ~2260 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | book, publishing, markdown-to-pdf, pipeline, pandoc, lualatex, emoji, rendering |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install book-publishing
@@ -24,7 +24,7 @@ Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual outp
 
 Or manually copy the plugin contents to `.github/skills/local/book-publishing/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 

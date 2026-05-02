@@ -1,4 +1,4 @@
-# Bootstrap Learning Skill
+# bootstrap-learning
 
 Domain-agnostic knowledge acquisition -- from zero to structured expertise through conversational learning
 
@@ -9,14 +9,14 @@ Domain-agnostic knowledge acquisition -- from zero to structured expertise throu
 | **Category** | reasoning-metacognition |
 | **Shape** | `.S..` |
 | **Tier** | core |
-| **Token cost** | ~1187 tokens |
-| **Requires Edition** | >= 1.0.0 |
-
-## What This Plugin Does
-
-Domain-agnostic knowledge acquisition -- from zero to structured expertise through conversational learning
+| **Token cost** | ~1374 tokens |
+| **Engines** | copilot |
+| **Requires Edition** | >=1.0.0 |
+| **Keywords** | bootstrap, learning, domain-agnostic, knowledge, acquisition, zero, structured, expertise |
 
 ## Installation
+
+From ACT Edition:
 
 ```text
 /mall install bootstrap-learning
@@ -24,7 +24,7 @@ Domain-agnostic knowledge acquisition -- from zero to structured expertise throu
 
 Or manually copy the plugin contents to `.github/skills/local/bootstrap-learning/`.
 
-## Artifacts Installed
+## Artifacts
 
 - **skill**: `SKILL.md`
 
