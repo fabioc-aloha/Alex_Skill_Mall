@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
   "generated_at": "2026-05-02T18:30:48.875Z",
-  "plugin_count": 281,
+  "plugin_count": 283,
   "category_count": 16,
   "categories": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "name": "data-analytics",
-      "count": 20
+      "count": 22
     },
     {
       "name": "reasoning-metacognition",
@@ -7834,6 +7834,66 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/data-analytics/delivery-ascii-dashboard/",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "data-preparation",
+      "title": "data-preparation",
+      "category": "data-analytics",
+      "shape": ".S..",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1500,
+      "description": "Data cleaning, profiling, transformation, and quality gates -- prepares raw data for visualization and analysis",
+      "keywords": [
+        "data",
+        "cleaning",
+        "profiling",
+        "transform",
+        "aggregate",
+        "pivot",
+        "null",
+        "outlier",
+        "quality",
+        "preparation"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/data-analytics/data-preparation/",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "datasource-connectors",
+      "title": "datasource-connectors",
+      "category": "data-analytics",
+      "shape": ".S..",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2000,
+      "description": "Ingestion patterns for CSV, JSON, REST API, SQL, Excel, and Parquet -- guides an LLM through loading data from any common source",
+      "keywords": [
+        "data",
+        "ingest",
+        "csv",
+        "json",
+        "api",
+        "sql",
+        "excel",
+        "parquet",
+        "connector",
+        "import"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/data-analytics/datasource-connectors/",
       "artifacts": [
         "SKILL.md"
       ]
