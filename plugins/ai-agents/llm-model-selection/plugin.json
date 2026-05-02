@@ -1,0 +1,17 @@
+{
+  "name": "llm-model-selection",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Choosing the right model for the task -- power vs. cost vs. speed.",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2062,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/llm-model-selection/SKILL.md"
+  }
+}

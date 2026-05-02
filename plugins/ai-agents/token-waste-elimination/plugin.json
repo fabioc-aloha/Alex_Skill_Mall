@@ -1,0 +1,17 @@
+{
+  "name": "token-waste-elimination",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Audit and eliminate token waste from cognitive architecture memory files -- instructions, prompts, skills, and agents",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1761,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/token-waste-elimination/SKILL.md"
+  }
+}

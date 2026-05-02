@@ -1,0 +1,17 @@
+{
+  "name": "create-associate-nsg",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Creates a new Network Security Group and associates it with the specified subnets and/or NICs of a Virtual Network.",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1571,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/create-associate-nsg/SKILL.md"
+  }
+}

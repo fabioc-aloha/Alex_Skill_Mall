@@ -1,0 +1,17 @@
+{
+  "name": "default-fast-opt-slow",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "AI/LLM features default to verbose responses, causing:",
+  "category": "architecture-patterns",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 520,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/default-fast-opt-slow/SKILL.md"
+  }
+}

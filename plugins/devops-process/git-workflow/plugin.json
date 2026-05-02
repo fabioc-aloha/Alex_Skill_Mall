@@ -1,0 +1,17 @@
+{
+  "name": "git-workflow",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Consistent git practices, recovery patterns, and safe operations.",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1120,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/git-workflow/SKILL.md"
+  }
+}

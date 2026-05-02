@@ -1,0 +1,17 @@
+{
+  "name": "update-avm-modules-in-bicep",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 604,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/update-avm-modules-in-bicep/SKILL.md"
+  }
+}

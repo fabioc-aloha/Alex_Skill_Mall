@@ -1,0 +1,17 @@
+{
+  "name": "config-content-separation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Mixing structure and content makes both hard to maintain:",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 603,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/config-content-separation/SKILL.md"
+  }
+}

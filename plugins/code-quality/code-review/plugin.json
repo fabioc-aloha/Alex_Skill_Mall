@@ -1,0 +1,17 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Systematic code review for correctness, security, and growth -- not just style enforcement",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2074,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/code-review/SKILL.md"
+  }
+}

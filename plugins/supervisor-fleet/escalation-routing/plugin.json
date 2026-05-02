@@ -1,0 +1,17 @@
+{
+  "name": "escalation-routing",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Decide whether a feedback item is in-scope for the Supervisor or must be escalated to AlexMaster (framework-level)",
+  "category": "supervisor-fleet",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1605,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/escalation-routing/SKILL.md"
+  }
+}

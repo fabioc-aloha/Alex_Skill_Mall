@@ -1,0 +1,17 @@
+{
+  "name": "git-commit",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Create well-structured git commits using the Conventional Commits specification. Use when asked to \"commit changes\", \"create a git commit\", \"stage and commit\", \"write a commit message\", or \"/commit\". Analyzes diffs to auto-detect type and scope, generates semantic commit messages, and supports intelligent file staging.",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1697,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/git-commit/SKILL.md"
+  }
+}

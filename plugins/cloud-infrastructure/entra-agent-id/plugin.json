@@ -1,0 +1,17 @@
+{
+  "name": "entra-agent-id",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Microsoft Entra Agent ID (preview) -- create OAuth2-capable AI agent identities via Microsoft Graph beta API",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2296,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/entra-agent-id/SKILL.md"
+  }
+}

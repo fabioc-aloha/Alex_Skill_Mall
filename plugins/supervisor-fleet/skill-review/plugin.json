@@ -1,0 +1,17 @@
+{
+  "name": "skill-review",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Review submissions to Alex_ACT_Edition for ACT spec compliance, content quality, and scope fit",
+  "category": "supervisor-fleet",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1219,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/skill-review/SKILL.md"
+  }
+}

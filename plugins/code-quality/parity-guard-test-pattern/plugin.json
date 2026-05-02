@@ -1,0 +1,17 @@
+{
+  "name": "parity-guard-test-pattern",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "When checking that all callers of a contract implement it correctly, you get false positives from wrapper delegators:",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 658,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/parity-guard-test-pattern/SKILL.md"
+  }
+}

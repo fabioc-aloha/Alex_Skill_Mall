@@ -1,0 +1,17 @@
+{
+  "name": "extension-audit-methodology",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Systematic 5-dimension audit framework for VS Code extensions -- debug hygiene, dead code, performance, menu validation, dependency cleanup",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1412,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/extension-audit-methodology/SKILL.md"
+  }
+}

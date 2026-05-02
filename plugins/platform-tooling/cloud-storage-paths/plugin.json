@@ -1,0 +1,17 @@
+{
+  "name": "cloud-storage-paths",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Cross-platform cloud storage path resolution -- OneDrive, iCloud, Dropbox path discovery and normalization",
+  "category": "platform-tooling",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1214,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/cloud-storage-paths/SKILL.md"
+  }
+}

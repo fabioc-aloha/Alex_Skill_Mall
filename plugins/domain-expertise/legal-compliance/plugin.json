@@ -1,0 +1,17 @@
+{
+  "name": "legal-compliance",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Legal research, contract analysis, regulatory compliance, and case law citation for legal professionals.",
+  "category": "domain-expertise",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1514,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/legal-compliance/SKILL.md"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "md-to-gamma",
+  "version": "1.0.0",
+  "shape": ".S.M",
+  "description": "Pre-process Markdown into a Gamma-import-ready version.",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2884,
+  "artifacts": {
+    "muscle": "md-to-gamma.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/md-to-gamma.cjs",
+    "skill": ".github/skills/local/md-to-gamma/SKILL.md"
+  }
+}

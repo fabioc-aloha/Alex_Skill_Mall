@@ -1,0 +1,17 @@
+{
+  "name": "fix-once-auto-inject",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "One-time fixes get repeated manually:",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 592,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/fix-once-auto-inject/SKILL.md"
+  }
+}

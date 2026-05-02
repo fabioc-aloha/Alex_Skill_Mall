@@ -1,0 +1,17 @@
+{
+  "name": "md-scaffold",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Scaffold properly structured Markdown files from templates for clean first-pass conversion",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1325,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/md-scaffold/SKILL.md"
+  }
+}

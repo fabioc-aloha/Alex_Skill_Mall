@@ -1,0 +1,17 @@
+{
+  "name": "release-notes",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Generate release notes or changelog entries for completed changes. Use when asked to \"write release notes\", \"update the changelog\", \"document what changed\", \"create a release summary\", or when preparing a release. Follows Keep a Changelog format.",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1802,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/release-notes/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "anti-hallucination",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Recognize and prevent confabulation -- when you don't know, say so.",
+  "category": "reasoning-metacognition",
+  "tier": "core",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1316,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/anti-hallucination/SKILL.md"
+  }
+}

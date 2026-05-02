@@ -1,0 +1,17 @@
+{
+  "name": "pat-expiration-silent",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Personal Access Token expiration fails silently -- 401 errors with no expiry message, pre-check pattern",
+  "category": "platform-tooling",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1066,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/pat-expiration-silent/SKILL.md"
+  }
+}

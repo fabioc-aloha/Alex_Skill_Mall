@@ -1,0 +1,17 @@
+{
+  "name": "kdp-publishing",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Amazon KDP self-publishing specs -- cover requirements, interior formatting, spine formulas, ink options, and pricing tiers",
+  "category": "documentation",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2460,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/kdp-publishing/SKILL.md"
+  }
+}

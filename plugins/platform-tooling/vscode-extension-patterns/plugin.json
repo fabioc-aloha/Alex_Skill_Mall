@@ -1,0 +1,17 @@
+{
+  "name": "vscode-extension-patterns",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Reusable patterns for VS Code extension development.",
+  "category": "platform-tooling",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1720,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/vscode-extension-patterns/SKILL.md"
+  }
+}

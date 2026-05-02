@@ -1,0 +1,17 @@
+{
+  "name": "calibration-tracking",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Record confidence claims and reconcile against outcomes -- closing Tenet V (calibration over confidence)",
+  "category": "reasoning-metacognition",
+  "tier": "core",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1567,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/calibration-tracking/SKILL.md"
+  }
+}

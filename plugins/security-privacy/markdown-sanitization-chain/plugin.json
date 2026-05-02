@@ -1,0 +1,17 @@
+{
+  "name": "markdown-sanitization-chain",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Markdown sanitization order matters -- marked.js then DOMPurify then Mermaid to prevent XSS",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 708,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/markdown-sanitization-chain/SKILL.md"
+  }
+}

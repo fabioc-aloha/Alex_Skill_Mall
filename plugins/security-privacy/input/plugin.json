@@ -1,0 +1,17 @@
+{
+  "name": "input",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Extract and resolve required CodeQL alert metadata from user input before remediation",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 610,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/input/SKILL.md"
+  }
+}

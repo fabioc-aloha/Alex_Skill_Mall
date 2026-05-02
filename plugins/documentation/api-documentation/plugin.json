@@ -1,0 +1,17 @@
+{
+  "name": "api-documentation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Technical documentation, API references, user guides, and docs-as-code workflows.",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1880,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/api-documentation/SKILL.md"
+  }
+}

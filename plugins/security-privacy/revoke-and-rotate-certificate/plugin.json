@@ -1,0 +1,17 @@
+{
+  "name": "revoke-and-rotate-certificate",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Skill helps user to revoke and rotate certificate in case of exposed secrets",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 164,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/revoke-and-rotate-certificate/SKILL.md"
+  }
+}

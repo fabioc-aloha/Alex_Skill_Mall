@@ -1,0 +1,17 @@
+{
+  "name": "store-evaluation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Evaluate a proposed store for inclusion in Alex_Skill_Mall using a quality scorecard",
+  "category": "supervisor-fleet",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 912,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/store-evaluation/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "text-to-speech",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Cloud TTS via Replicate -- 15 models, voice cloning, emotion control, and multi-language support",
+  "category": "media-graphics",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1847,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/text-to-speech/SKILL.md"
+  }
+}

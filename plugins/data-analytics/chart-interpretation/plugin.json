@@ -1,0 +1,17 @@
+{
+  "name": "chart-interpretation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Read any chart (image, HTML, screenshot) and extract insights, patterns, anomalies, bias, and narrative -- the reverse of visualization",
+  "category": "data-analytics",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2897,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/chart-interpretation/SKILL.md"
+  }
+}

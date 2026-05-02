@@ -1,0 +1,17 @@
+{
+  "name": "release-preflight",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Pre-checks, version consistency, and deployment discipline.",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1675,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/release-preflight/SKILL.md"
+  }
+}

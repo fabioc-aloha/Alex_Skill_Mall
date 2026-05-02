@@ -1,0 +1,17 @@
+{
+  "name": "microsoft-fabric",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Microsoft Fabric workspace management, governance, REST API patterns, and medallion architecture implementation",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2403,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/microsoft-fabric/SKILL.md"
+  }
+}

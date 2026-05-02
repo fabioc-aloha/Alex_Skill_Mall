@@ -1,0 +1,17 @@
+{
+  "name": "boolean-string-trap",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "JavaScript boolean-string coercion trap -- \"false\" is truthy, JSON.parse or strict comparison required",
+  "category": "platform-tooling",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 812,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/boolean-string-trap/SKILL.md"
+  }
+}

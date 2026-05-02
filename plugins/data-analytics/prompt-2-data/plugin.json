@@ -1,0 +1,19 @@
+{
+  "name": "prompt-2-data",
+  "version": "1.0.0",
+  "shape": ".SP.",
+  "description": "Generate comprehensive synthetic relational data for any specified subject with multiple normalized CSV files maintaining referential integrity",
+  "category": "data-analytics",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 8829,
+  "artifacts": {
+    "prompt": "review.prompt.md",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "prompt": ".github/prompts/local/review.prompt.md",
+    "skill": ".github/skills/local/prompt-2-data/SKILL.md"
+  }
+}

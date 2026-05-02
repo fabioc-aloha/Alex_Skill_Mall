@@ -1,0 +1,17 @@
+{
+  "name": "rag-architecture",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Build retrieval-augmented generation systems that ground LLMs in your data.",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3411,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/rag-architecture/SKILL.md"
+  }
+}

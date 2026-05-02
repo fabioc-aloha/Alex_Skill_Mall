@@ -1,0 +1,17 @@
+{
+  "name": "github-wiki-flat",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "GitHub Wiki has a flat namespace -- no real folders, sidebar ordering tricks, link gotchas",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 891,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/github-wiki-flat/SKILL.md"
+  }
+}

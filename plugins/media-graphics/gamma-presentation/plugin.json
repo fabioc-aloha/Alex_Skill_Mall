@@ -1,0 +1,17 @@
+{
+  "name": "gamma-presentation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Author markdown files optimized for Gamma import -- card structure, layout hints, image directives, speaker notes, and chat-agent refinement workflow",
+  "category": "media-graphics",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2901,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/gamma-presentation/SKILL.md"
+  }
+}

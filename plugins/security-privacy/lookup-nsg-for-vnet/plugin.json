@@ -1,0 +1,17 @@
+{
+  "name": "lookup-nsg-for-vnet",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Checks every subnet in a Virtual Network for an associated Network Security Group, and also inspects each NIC attached to those subnets for NIC-level NSG coverage.",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1048,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/lookup-nsg-for-vnet/SKILL.md"
+  }
+}

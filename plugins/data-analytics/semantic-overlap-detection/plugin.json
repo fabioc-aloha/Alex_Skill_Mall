@@ -1,0 +1,17 @@
+{
+  "name": "semantic-overlap-detection",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Analyze a semantic model (via MCP or TMDL) to find columns whose value domains overlap, classify ambiguity types, generate proposed descriptions/rules/exclusions, and produce a review Excel for domain experts. Use when a semantic model has columns whose values overlap across tables or hierarchies, when Copilot picks the wrong column for ambiguous queries, when preparing a model for Prep data for AI, or when auditing a model for attribute collisions before connecting a data agent.",
+  "category": "data-analytics",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 7009,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/semantic-overlap-detection/SKILL.md"
+  }
+}

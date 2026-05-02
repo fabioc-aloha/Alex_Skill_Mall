@@ -1,0 +1,17 @@
+{
+  "name": "version-management",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Version Management",
+  "category": "supervisor-fleet",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1210,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/version-management/SKILL.md"
+  }
+}

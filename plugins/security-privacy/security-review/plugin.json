@@ -1,0 +1,17 @@
+{
+  "name": "security-review",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2367,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/security-review/SKILL.md"
+  }
+}

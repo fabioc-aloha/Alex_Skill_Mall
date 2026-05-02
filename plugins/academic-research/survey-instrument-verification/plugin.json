@@ -1,0 +1,17 @@
+{
+  "name": "survey-instrument-verification",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Manuscripts evolve terminology that may not match what was actually administered:",
+  "category": "academic-research",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 554,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/survey-instrument-verification/SKILL.md"
+  }
+}

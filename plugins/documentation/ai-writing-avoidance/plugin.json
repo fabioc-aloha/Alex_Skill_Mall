@@ -1,0 +1,17 @@
+{
+  "name": "ai-writing-avoidance",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2568,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/ai-writing-avoidance/SKILL.md"
+  }
+}

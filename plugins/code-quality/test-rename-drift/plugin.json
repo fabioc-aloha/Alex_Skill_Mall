@@ -1,0 +1,17 @@
+{
+  "name": "test-rename-drift",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "When renaming a function, test files have references that survive find-and-replace:",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 611,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/test-rename-drift/SKILL.md"
+  }
+}

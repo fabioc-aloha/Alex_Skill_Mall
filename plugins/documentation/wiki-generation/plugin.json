@@ -1,0 +1,17 @@
+{
+  "name": "wiki-generation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Generate structured documentation from codebases -- architecture mapping, page writing, and onboarding guides. Use when asked to create a wiki, document a repo, generate onboarding docs, map architecture for documentation, or produce a documentation plan from source code.",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1897,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/wiki-generation/SKILL.md"
+  }
+}

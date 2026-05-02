@@ -1,0 +1,17 @@
+{
+  "name": "observability-monitoring",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Production visibility through logs, metrics, traces, and alerting -- the three pillars of observability",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2166,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/observability-monitoring/SKILL.md"
+  }
+}

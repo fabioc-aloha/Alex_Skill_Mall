@@ -1,0 +1,17 @@
+{
+  "name": "book-publishing",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready formatting",
+  "category": "documentation",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2075,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/book-publishing/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "md-to-word",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3835,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/md-to-word/SKILL.md"
+  }
+}

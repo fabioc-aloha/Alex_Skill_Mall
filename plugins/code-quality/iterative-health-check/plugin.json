@@ -1,0 +1,17 @@
+{
+  "name": "iterative-health-check",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "One-time audits don't track improvement:",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 649,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/iterative-health-check/SKILL.md"
+  }
+}

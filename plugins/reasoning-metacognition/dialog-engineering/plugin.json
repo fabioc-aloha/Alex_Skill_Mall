@@ -1,0 +1,17 @@
+{
+  "name": "dialog-engineering",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "CSAR Loop and structured conversation patterns for effective AI dialog -- Clarify, Summarize, Act, Reflect",
+  "category": "reasoning-metacognition",
+  "tier": "core",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1517,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/dialog-engineering/SKILL.md"
+  }
+}

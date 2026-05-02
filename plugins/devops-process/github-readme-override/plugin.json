@@ -1,0 +1,17 @@
+{
+  "name": "github-readme-override",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "GitHub README display rules -- which README renders when multiple exist, profile READMEs, org READMEs",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 746,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/github-readme-override/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "containerize-aspnetcore",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 4028,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/containerize-aspnetcore/SKILL.md"
+  }
+}

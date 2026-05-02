@@ -1,0 +1,17 @@
+{
+  "name": "fleet-management",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Fleet Management",
+  "category": "supervisor-fleet",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1425,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/fleet-management/SKILL.md"
+  }
+}

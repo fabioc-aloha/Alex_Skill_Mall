@@ -1,0 +1,17 @@
+{
+  "name": "journalism",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "News writing, investigative reporting, source verification, editorial standards, and fact-checking for journalists.",
+  "category": "domain-expertise",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1950,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/journalism/SKILL.md"
+  }
+}

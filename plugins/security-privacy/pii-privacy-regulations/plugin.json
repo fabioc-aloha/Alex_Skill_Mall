@@ -1,0 +1,17 @@
+{
+  "name": "pii-privacy-regulations",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Handling personally identifiable information under European and Australian privacy regulations.",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3006,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/pii-privacy-regulations/SKILL.md"
+  }
+}

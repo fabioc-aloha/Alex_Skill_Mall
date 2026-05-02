@@ -1,0 +1,17 @@
+{
+  "name": "evaluate-plugin",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Evaluate plugin quality. Use when user says \"evaluate plugin\", \"review plugin quality\", \"score my plugin\", \"check plugin\", \"rate plugin\".",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3997,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/evaluate-plugin/SKILL.md"
+  }
+}

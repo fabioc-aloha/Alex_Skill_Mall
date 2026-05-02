@@ -1,0 +1,17 @@
+{
+  "name": "architecture-refinement",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Meta-skill for maintaining and evolving Alex's cognitive architecture through deliberate documentation and pattern extraction.",
+  "category": "architecture-patterns",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1085,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/architecture-refinement/SKILL.md"
+  }
+}

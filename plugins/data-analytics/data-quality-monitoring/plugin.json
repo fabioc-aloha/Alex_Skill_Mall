@@ -1,0 +1,17 @@
+{
+  "name": "data-quality-monitoring",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Data pipeline quality assurance -- anomaly detection, schema drift, null ratio monitoring, freshness checks, and safe-write protection for reliable data engineering",
+  "category": "data-analytics",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1744,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/data-quality-monitoring/SKILL.md"
+  }
+}

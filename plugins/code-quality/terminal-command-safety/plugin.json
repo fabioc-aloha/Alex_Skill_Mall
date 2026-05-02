@@ -1,0 +1,17 @@
+{
+  "name": "terminal-command-safety",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Safe terminal command patterns -- backtick escaping, output capture, and hang prevention",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 847,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/terminal-command-safety/SKILL.md"
+  }
+}

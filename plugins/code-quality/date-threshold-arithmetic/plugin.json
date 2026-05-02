@@ -1,0 +1,17 @@
+{
+  "name": "date-threshold-arithmetic",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Date comparisons at thresholds fail due to fractional days:",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 531,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/date-threshold-arithmetic/SKILL.md"
+  }
+}

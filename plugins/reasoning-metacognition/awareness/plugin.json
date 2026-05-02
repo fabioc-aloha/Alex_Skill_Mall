@@ -1,0 +1,17 @@
+{
+  "name": "awareness",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Proactive detection, self-correction, and epistemic vigilance",
+  "category": "reasoning-metacognition",
+  "tier": "core",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2938,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/awareness/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "azure-identity-msi",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Time Saved: 1-2 hours debugging identity and RBAC",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1188,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/azure-identity-msi/SKILL.md"
+  }
+}

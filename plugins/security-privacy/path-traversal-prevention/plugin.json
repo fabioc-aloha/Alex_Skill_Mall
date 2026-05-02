@@ -1,0 +1,17 @@
+{
+  "name": "path-traversal-prevention",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "When copying files or serving content, user-controlled paths can escape the intended directory:",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 717,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/path-traversal-prevention/SKILL.md"
+  }
+}

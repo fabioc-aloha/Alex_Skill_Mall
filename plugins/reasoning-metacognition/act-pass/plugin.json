@@ -1,0 +1,17 @@
+{
+  "name": "act-pass",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Run the 7-step Artificial Critical Thinking pass -- Materiality → Hypothesise → Alternatives → Disconfirmers → Audit priors → Severity → Commit-with-marker",
+  "category": "reasoning-metacognition",
+  "tier": "core",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2347,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/act-pass/SKILL.md"
+  }
+}

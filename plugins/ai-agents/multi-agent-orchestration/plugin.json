@@ -1,0 +1,17 @@
+{
+  "name": "multi-agent-orchestration",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Coordinate multiple AI agents for complex tasks -- decomposition, delegation, and synthesis",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2061,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/multi-agent-orchestration/SKILL.md"
+  }
+}

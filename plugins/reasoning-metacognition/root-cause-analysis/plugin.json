@@ -1,0 +1,17 @@
+{
+  "name": "root-cause-analysis",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Find the true source, not symptoms -- systematic debugging from observation to permanent fix",
+  "category": "reasoning-metacognition",
+  "tier": "core",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1480,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/root-cause-analysis/SKILL.md"
+  }
+}

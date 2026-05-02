@@ -1,0 +1,17 @@
+{
+  "name": "microsoft-graph-api",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Comprehensive Microsoft Graph API reference for M365 service integration",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 4457,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/microsoft-graph-api/SKILL.md"
+  }
+}

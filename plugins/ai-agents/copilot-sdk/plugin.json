@@ -1,0 +1,17 @@
+{
+  "name": "copilot-sdk",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Build applications powered by GitHub Copilot using the Copilot SDK -- session management, custom tools, streaming, hooks, MCP servers, BYOK, deployment patterns",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3605,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/copilot-sdk/SKILL.md"
+  }
+}

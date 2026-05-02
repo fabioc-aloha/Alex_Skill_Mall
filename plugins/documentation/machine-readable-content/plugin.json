@@ -1,0 +1,17 @@
+{
+  "name": "machine-readable-content",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Emoji, color codes, and visual markers in files parsed by regex or LLMs break tooling:",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 487,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/machine-readable-content/SKILL.md"
+  }
+}

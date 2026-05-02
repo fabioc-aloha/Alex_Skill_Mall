@@ -1,0 +1,19 @@
+{
+  "name": "md-to-epub",
+  "version": "1.0.0",
+  "shape": ".S.M",
+  "description": "Convert Markdown to EPUB 3 e-books via Pandoc.",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2090,
+  "artifacts": {
+    "muscle": "md-to-epub.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/md-to-epub.cjs",
+    "skill": ".github/skills/local/md-to-epub/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "assist-sg-update",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Generate assisted PRs to correct Security Group ownership for first-party apps flagged by S360 tenant-isolation policy (SFI-TI3.2.2)",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2825,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/assist-sg-update/SKILL.md"
+  }
+}

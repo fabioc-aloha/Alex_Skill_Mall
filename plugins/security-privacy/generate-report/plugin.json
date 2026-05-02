@@ -1,0 +1,17 @@
+{
+  "name": "generate-report",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": ">",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 7388,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/generate-report/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "node-winget-collision",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Node.js installed via winget collides with nvm -- path priority, shim conflicts, resolution steps",
+  "category": "platform-tooling",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 908,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/node-winget-collision/SKILL.md"
+  }
+}

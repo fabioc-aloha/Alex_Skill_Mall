@@ -1,0 +1,17 @@
+{
+  "name": "architecture-audit",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Comprehensive project consistency review across code, documentation, diagrams, and configuration",
+  "category": "architecture-patterns",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2374,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/architecture-audit/SKILL.md"
+  }
+}

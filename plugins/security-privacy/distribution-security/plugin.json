@@ -1,0 +1,17 @@
+{
+  "name": "distribution-security",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Defense-in-depth, PII protection, secrets scanning, and secure packaging for distributed software",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2231,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/distribution-security/SKILL.md"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "md-to-pptx",
+  "version": "1.0.0",
+  "shape": ".S.M",
+  "description": "Convert Markdown to PowerPoint presentations via Pandoc.",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1983,
+  "artifacts": {
+    "muscle": "md-to-pptx.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/md-to-pptx.cjs",
+    "skill": ".github/skills/local/md-to-pptx/SKILL.md"
+  }
+}

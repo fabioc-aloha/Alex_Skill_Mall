@@ -1,0 +1,17 @@
+{
+  "name": "critical-thinking",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Challenge what you think is right -- alternative hypotheses, missing data, evidence quality, bias detection, falsifiability, and adversarial review",
+  "category": "reasoning-metacognition",
+  "tier": "core",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 6305,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/critical-thinking/SKILL.md"
+  }
+}

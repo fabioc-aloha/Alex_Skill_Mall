@@ -1,0 +1,17 @@
+{
+  "name": "line-ending-parsing",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Line ending handling across platforms -- CRLF vs LF detection, normalization, and git config",
+  "category": "platform-tooling",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 903,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/line-ending-parsing/SKILL.md"
+  }
+}

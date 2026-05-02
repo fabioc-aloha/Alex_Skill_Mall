@@ -1,0 +1,17 @@
+{
+  "name": "md-to-html",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid diagrams",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1997,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/md-to-html/SKILL.md"
+  }
+}

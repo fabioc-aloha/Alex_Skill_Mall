@@ -1,0 +1,17 @@
+{
+  "name": "symfix",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Classify and remediate CodeQL alerts with the SymFix workflow using staged changelog updates",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 909,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/symfix/SKILL.md"
+  }
+}

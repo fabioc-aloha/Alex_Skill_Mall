@@ -1,0 +1,17 @@
+{
+  "name": "sequence-diagram",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Create UML sequence diagrams using sequencediagram.org syntax. Use when users request sequence diagrams, interaction diagrams, API flow visualizations, system communication flows, or ask to visualize message exchanges between components/actors. Outputs plain text (.txt) files compatible with sequencediagram.org for viewing and exporting.",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 644,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/sequence-diagram/SKILL.md"
+  }
+}

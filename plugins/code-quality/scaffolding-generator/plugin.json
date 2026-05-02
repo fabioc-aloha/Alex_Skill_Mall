@@ -1,0 +1,17 @@
+{
+  "name": "scaffolding-generator",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Pattern-aware code scaffolding that detects existing conventions and generates new components matching the codebase style. Use when asked to \"scaffold a component\", \"generate boilerplate\", \"create a new module\", \"bootstrap a service\", \"add a new endpoint\", \"create a new controller\", or \"add a new feature module\". Discovers patterns first, then replicates them.",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1806,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/scaffolding-generator/SKILL.md"
+  }
+}

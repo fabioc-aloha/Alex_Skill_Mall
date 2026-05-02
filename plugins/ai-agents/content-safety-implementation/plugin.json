@@ -1,0 +1,17 @@
+{
+  "name": "content-safety-implementation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Azure Content Safety API integration, multi-layer defense pipeline, output validation, and operational safety controls",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2338,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/content-safety-implementation/SKILL.md"
+  }
+}

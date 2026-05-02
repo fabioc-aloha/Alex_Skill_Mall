@@ -1,0 +1,17 @@
+{
+  "name": "tmdl-linter-false-positives",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "VS Code's TMDL (Tabular Model Definition Language) linter reports valid syntax as errors:",
+  "category": "data-analytics",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 506,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/tmdl-linter-false-positives/SKILL.md"
+  }
+}

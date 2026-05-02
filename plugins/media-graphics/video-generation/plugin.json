@@ -1,0 +1,17 @@
+{
+  "name": "video-generation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "AI video generation via Replicate -- 17 models, editing, and production workflows",
+  "category": "media-graphics",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2756,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/video-generation/SKILL.md"
+  }
+}

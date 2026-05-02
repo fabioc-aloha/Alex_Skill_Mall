@@ -1,0 +1,17 @@
+{
+  "name": "mcp-development",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Domain: AI Infrastructure",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 5376,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/mcp-development/SKILL.md"
+  }
+}

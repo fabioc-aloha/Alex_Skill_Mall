@@ -1,0 +1,17 @@
+{
+  "name": "universal-audit-pattern",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Systematic project audit pattern -- version consistency, terminology, fact inventory, cross-references",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1175,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/universal-audit-pattern/SKILL.md"
+  }
+}

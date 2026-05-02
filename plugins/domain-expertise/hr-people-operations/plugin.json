@@ -1,0 +1,17 @@
+{
+  "name": "hr-people-operations",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Talent acquisition, employee lifecycle, compensation, labor regulations, and organizational development.",
+  "category": "domain-expertise",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1998,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/hr-people-operations/SKILL.md"
+  }
+}

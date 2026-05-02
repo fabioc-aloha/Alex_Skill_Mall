@@ -1,0 +1,17 @@
+{
+  "name": "error-message-sanitization",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Raw error messages leak internal information to users:",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 544,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/error-message-sanitization/SKILL.md"
+  }
+}

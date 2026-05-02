@@ -1,0 +1,17 @@
+{
+  "name": "config-transcription-verification",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "When extracting hardcoded data to JSON, field values silently drift:",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 647,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/config-transcription-verification/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "api-security-hardening",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "API security hardening -- rate limiting, JWT validation, CORS, input validation (4-layer defense)",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1012,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/api-security-hardening/SKILL.md"
+  }
+}

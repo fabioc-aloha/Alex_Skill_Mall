@@ -1,0 +1,17 @@
+{
+  "name": "image-embedding-size-limits",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Image embedding size limits in markdown -- base64 bloats 33%, use file references for images over 50KB",
+  "category": "media-graphics",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1081,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/image-embedding-size-limits/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "fetch-violations",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Query S360 Kusto for SFI-TI3.2.2 tenant isolation violations, classify by ViolationTitle, flag autofix-eligible items for downstream remediation",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3154,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/fetch-violations/SKILL.md"
+  }
+}

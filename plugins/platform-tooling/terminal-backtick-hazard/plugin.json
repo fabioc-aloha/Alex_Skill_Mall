@@ -1,0 +1,17 @@
+{
+  "name": "terminal-backtick-hazard",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Backticks break in all shells -- bash treats them as command substitution, PowerShell as escape character",
+  "category": "platform-tooling",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 905,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/terminal-backtick-hazard/SKILL.md"
+  }
+}

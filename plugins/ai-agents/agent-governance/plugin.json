@@ -1,0 +1,17 @@
+{
+  "name": "agent-governance",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "|",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 4509,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/agent-governance/SKILL.md"
+  }
+}

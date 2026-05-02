@@ -1,0 +1,19 @@
+{
+  "name": "md-to-latex",
+  "version": "1.0.0",
+  "shape": ".S.M",
+  "description": "Convert Markdown to LaTeX source via Pandoc.",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2273,
+  "artifacts": {
+    "muscle": "md-to-latex.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/md-to-latex.cjs",
+    "skill": ".github/skills/local/md-to-latex/SKILL.md"
+  }
+}

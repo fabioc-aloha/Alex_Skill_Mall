@@ -1,0 +1,17 @@
+{
+  "name": "image-handling",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Right format, right size, right quality -- plus AI image generation via Replicate",
+  "category": "media-graphics",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 5316,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/image-handling/SKILL.md"
+  }
+}

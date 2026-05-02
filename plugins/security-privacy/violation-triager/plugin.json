@@ -1,0 +1,17 @@
+{
+  "name": "violation-triager",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Orchestrate end-to-end SFI-TI3.2.2 workflow -- fetch violations, classify, dispatch to remediation skills, generate report",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1300,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/violation-triager/SKILL.md"
+  }
+}

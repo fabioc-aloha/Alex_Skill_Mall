@@ -1,0 +1,17 @@
+{
+  "name": "mall-curation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Curate Alex_Skill_Mall -- decide when to add, keep, refresh, or prune stores and catalog entries",
+  "category": "supervisor-fleet",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 980,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/mall-curation/SKILL.md"
+  }
+}

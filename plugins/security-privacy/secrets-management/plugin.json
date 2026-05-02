@@ -1,0 +1,17 @@
+{
+  "name": "secrets-management",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Secure token storage, VS Code SecretStorage API, credential management, environment variable migration",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3758,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/secrets-management/SKILL.md"
+  }
+}

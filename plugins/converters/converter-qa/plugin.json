@@ -1,0 +1,17 @@
+{
+  "name": "converter-qa",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Test harness for validating converter outputs with 284 assertions across all converter muscles",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 919,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/converter-qa/SKILL.md"
+  }
+}

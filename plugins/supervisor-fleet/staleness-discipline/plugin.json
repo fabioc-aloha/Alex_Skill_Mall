@@ -1,0 +1,17 @@
+{
+  "name": "staleness-discipline",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Detect, classify, and prune stale entries in Alex_Skill_Mall -- define what stale means and how to remove gracefully",
+  "category": "supervisor-fleet",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1056,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/staleness-discipline/SKILL.md"
+  }
+}

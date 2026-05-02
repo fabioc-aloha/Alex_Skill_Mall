@@ -1,0 +1,17 @@
+{
+  "name": "docx-to-md",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2124,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/docx-to-md/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "socratic-questioning",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Help users discover answers, don't just deliver them.",
+  "category": "reasoning-metacognition",
+  "tier": "core",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1145,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/socratic-questioning/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "multi-surface-count-drift",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "When a number (skill count, repo count, test count) appears in multiple files, they WILL diverge:",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 515,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/multi-surface-count-drift/SKILL.md"
+  }
+}

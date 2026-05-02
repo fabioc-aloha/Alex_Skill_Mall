@@ -1,0 +1,17 @@
+{
+  "name": "book-launch-content",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Generate launch-companion content for books -- blog posts, author notes, and dogfooding angles that demonstrate the book's thesis through its own production. Use when a manuscript is approaching publication submission (KDP, agent query, prelaunch).",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1503,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/book-launch-content/SKILL.md"
+  }
+}

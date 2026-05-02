@@ -1,0 +1,17 @@
+{
+  "name": "vscode-configuration-validation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Validate VS Code extension manifest against runtime code usage",
+  "category": "platform-tooling",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2029,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/vscode-configuration-validation/SKILL.md"
+  }
+}

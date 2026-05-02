@@ -1,0 +1,17 @@
+{
+  "name": "azure-subscription-context",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Time Saved: 30 minutes - 1 hour debugging",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1005,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/azure-subscription-context/SKILL.md"
+  }
+}

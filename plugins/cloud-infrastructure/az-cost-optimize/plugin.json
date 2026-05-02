@@ -1,0 +1,17 @@
+{
+  "name": "az-cost-optimize",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3255,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/az-cost-optimize/SKILL.md"
+  }
+}

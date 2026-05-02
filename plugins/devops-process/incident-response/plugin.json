@@ -1,0 +1,17 @@
+{
+  "name": "incident-response",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Calm, systematic crisis handling -- from detection through post-mortem to prevention",
+  "category": "devops-process",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1081,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/incident-response/SKILL.md"
+  }
+}

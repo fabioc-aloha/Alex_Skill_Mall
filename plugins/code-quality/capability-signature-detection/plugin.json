@@ -1,0 +1,17 @@
+{
+  "name": "capability-signature-detection",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Code-scanning regex that looks for literal strings misses real usage:",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 658,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/capability-signature-detection/SKILL.md"
+  }
+}

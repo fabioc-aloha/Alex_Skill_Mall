@@ -1,0 +1,17 @@
+{
+  "name": "documentation-quality-assurance",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Systematic documentation audit, drift detection, preflight validation, and multi-pass quality pipelines",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 3607,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/documentation-quality-assurance/SKILL.md"
+  }
+}

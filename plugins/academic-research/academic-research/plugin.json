@@ -1,0 +1,17 @@
+{
+  "name": "academic-research",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Research project scaffolding, thesis/dissertation writing, literature reviews, publication workflows, and the AI assistant-assisted academic workflows",
+  "category": "academic-research",
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2140,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/academic-research/SKILL.md"
+  }
+}

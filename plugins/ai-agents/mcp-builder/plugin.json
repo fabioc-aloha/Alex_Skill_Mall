@@ -1,0 +1,17 @@
+{
+  "name": "mcp-builder",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Build MCP servers for LLM tool integration -- Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK)",
+  "category": "ai-agents",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2386,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/mcp-builder/SKILL.md"
+  }
+}

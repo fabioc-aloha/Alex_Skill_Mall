@@ -1,0 +1,17 @@
+{
+  "name": "mermaid-diagram",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Create diagrams using Mermaid.js markdown-inspired syntax. Supports 23+ diagram types including flowcharts, sequence diagrams, class diagrams, ER diagrams, Gantt charts, state diagrams, pie charts, git graphs, C4 architecture, mindmaps, timelines, and more. Outputs plain text (.mmd or .md) files renderable on GitHub, GitLab, and mermaid.live, and many more clients.",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 889,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/mermaid-diagram/SKILL.md"
+  }
+}

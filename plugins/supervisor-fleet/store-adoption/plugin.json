@@ -1,0 +1,17 @@
+{
+  "name": "store-adoption",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Fetch plugin store updates, inventory contents, match against fleet profile, and generate adoption candidates report",
+  "category": "supervisor-fleet",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1240,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/store-adoption/SKILL.md"
+  }
+}

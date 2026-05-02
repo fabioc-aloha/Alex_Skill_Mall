@@ -1,0 +1,17 @@
+{
+  "name": "version-stamp-automation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Version numbers in 5+ files WILL drift with manual edits:",
+  "category": "documentation",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 570,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/version-stamp-automation/SKILL.md"
+  }
+}

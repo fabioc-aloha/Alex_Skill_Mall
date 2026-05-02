@@ -1,0 +1,17 @@
+{
+  "name": "deep-review",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Adversarial code review with three parallel perspectives -- Advocate, Skeptic, Architect -- that create productive tension. Use for high-stakes PRs, architectural changes, or when single-pass review would miss issues. Surfaces findings through disagreement, not consensus.",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1527,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/deep-review/SKILL.md"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "shell-injection-prevention",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Use execFileSync with args array instead of execSync with string concatenation to prevent shell injection",
+  "category": "security-privacy",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 898,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/shell-injection-prevention/SKILL.md"
+  }
+}

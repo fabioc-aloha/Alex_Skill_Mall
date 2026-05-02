@@ -1,0 +1,17 @@
+{
+  "name": "visual-artifact-qa",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "Visual output that passes static checks can still fail to render:",
+  "category": "code-quality",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 534,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/visual-artifact-qa/SKILL.md"
+  }
+}

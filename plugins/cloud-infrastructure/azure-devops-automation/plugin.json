@@ -1,0 +1,17 @@
+{
+  "name": "azure-devops-automation",
+  "version": "1.0.0",
+  "shape": ".S..",
+  "description": "CI/CD pipelines, infrastructure as code, and deployment automation for Azure workloads",
+  "category": "cloud-infrastructure",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 2490,
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/azure-devops-automation/SKILL.md"
+  }
+}

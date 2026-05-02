@@ -1,0 +1,19 @@
+{
+  "name": "pptx-to-md",
+  "version": "1.0.0",
+  "shape": ".S.M",
+  "description": "Convert PowerPoint (.pptx) to Markdown via Pandoc.",
+  "category": "converters",
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "token_cost": 1775,
+  "artifacts": {
+    "muscle": "pptx-to-md.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/pptx-to-md.cjs",
+    "skill": ".github/skills/local/pptx-to-md/SKILL.md"
+  }
+}
