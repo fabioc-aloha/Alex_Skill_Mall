@@ -6,7 +6,7 @@ The plugin marketplace for ACT (Artificial Critical Thinking) agents and heirs. 
 
 ## What's Here
 
-283 plugins organized into 16 categories. Each plugin is a self-contained folder with a human-readable README, machine-readable manifest (`plugin.json`), brain artifact (`SKILL.md`), and optional instructions, prompts, or muscles.
+284 plugins organized into 16 categories. Each plugin is a self-contained folder with a human-readable README, machine-readable manifest (`plugin.json`), brain artifact (`SKILL.md`), and optional instructions, prompts, or muscles.
 
 Install plugins into any ACT heir project without losing them to Edition upgrades.
 
@@ -47,7 +47,7 @@ Plugins install into `local/` paths so Edition upgrades never clobber them.
 
 Three axes for discovery: **category** (what domain), **shape** (how complex), **tier** (how specialized).
 
-### Categories (283 plugins)
+### Categories (284 plugins)
 
 | Category | Count | Coverage |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ Three axes for discovery: **category** (what domain), **shape** (how complex), *
 | [Reasoning & Metacognition](plugins/reasoning-metacognition/) | 15 | ACT pass, hypothesis debugging, root cause, calibration |
 | [Platform & Tooling](plugins/platform-tooling/) | 14 | VS Code, cross-platform, Node.js, frontend patterns |
 | [Architecture & Patterns](plugins/architecture-patterns/) | 13 | Microservices, saga, API design, workflow orchestration |
-| [Supervisor & Fleet](plugins/supervisor-fleet/) | 13 | Fleet governance, Mall curation, release ritual |
+| [Supervisor & Fleet](plugins/supervisor-fleet/) | 14 | Fleet governance, Mall curation, release ritual, AI-Memory setup |
 | [Domain Expertise](plugins/domain-expertise/) | 12 | Healthcare, legal, finance, game design, localization |
 | [Converters](plugins/converters/) | 11 | Word, HTML, email, PDF, EPUB, LaTeX, PPTX, plain text |
 | [Communication & People](plugins/communication-people/) | 9 | Stakeholder management, coaching, collaboration |
