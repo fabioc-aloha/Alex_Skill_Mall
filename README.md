@@ -6,7 +6,9 @@ The plugin marketplace for ACT (Artificial Critical Thinking) agents and heirs. 
 
 ## What's Here
 
-298 plugins organized into 16 categories. Each plugin is a self-contained folder with a human-readable README, machine-readable manifest (`plugin.json`), brain artifact (`SKILL.md`), and optional instructions, prompts, or muscles.
+298 plugins organized into 16 categories, plus knowledge packages for on-demand reference material. Each plugin is a self-contained folder with a human-readable README, machine-readable manifest (`plugin.json`), brain artifact (`SKILL.md`), and optional instructions, prompts, or muscles.
+
+**Knowledge packages** (`knowledge/`) are reference material installed to `AI-Memory/knowledge/` instead of the brain. They cost zero tokens until consulted -- ideal for architecture planning, compliance audits, and other periodic tasks.
 
 Install plugins into any ACT heir project without losing them to Edition upgrades.
 
