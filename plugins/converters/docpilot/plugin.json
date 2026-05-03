@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/docpilot/SKILL.md"
+  },
+  "description": "Convert Markdown specs to styled Word (.docx) or Microsoft Loop. Pure Python, no Pandoc. Syntax-highlighted code blocks, formatted tables, blue headers.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "word",
+    "docx",
+    "loop",
+    "convert",
+    "markdown",
+    "no-pandoc"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "docpilot",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 1522.0,
+  "category": "converters"
+}

@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/diagrams/SKILL.md"
+  },
+  "description": "Text-based diagram generation: Mermaid and sequence diagrams with reference guides, syntax validation, and rendering best practices.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "diagram",
+    "mermaid",
+    "sequence",
+    "visualization",
+    "flowchart",
+    "architecture"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "diagrams",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 1627.0,
+  "category": "documentation"
+}

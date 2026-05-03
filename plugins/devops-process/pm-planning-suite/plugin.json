@@ -1,0 +1,34 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/pm-planning-suite/SKILL.md"
+  },
+  "description": "Comprehensive quarterly planning toolkit for Technical Program Managers. 20 skills from scenario creation through execution tracking, cost analysis, and work breakdown.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "planning",
+    "pm",
+    "quarterly",
+    "scenario",
+    "wbs",
+    "cost-analysis",
+    "capacity"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "pm-planning-suite",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 29597.0,
+  "category": "devops-process"
+}

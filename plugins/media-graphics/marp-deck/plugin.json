@@ -1,0 +1,34 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/marp-deck/SKILL.md"
+  },
+  "description": "Create, build, review, and theme Marp Markdown presentations. 4 skills covering the full deck lifecycle from content authoring to PDF/PPTX export with custom themes.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "marp",
+    "presentation",
+    "slides",
+    "pdf",
+    "pptx",
+    "markdown",
+    "theme"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "marp-deck",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 4610.0,
+  "category": "media-graphics"
+}

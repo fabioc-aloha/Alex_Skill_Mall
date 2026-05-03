@@ -1,0 +1,36 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "claude-code",
+    "copilot"
+  ],
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/regulatory-quality-management/SKILL.md"
+  },
+  "description": "14 skills for HealthTech/MedTech regulatory compliance and quality management: FDA, GDPR, ISO 13485, MDR 745, SOC2, ISMS audit, CAPA, risk management.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "healthcare",
+    "regulatory",
+    "fda",
+    "iso-13485",
+    "gdpr",
+    "soc2",
+    "quality-management",
+    "capa",
+    "medtech"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "regulatory-quality-management",
+  "source_store": "alirezarezvani/claude-skills",
+  "token_cost": 45170.0,
+  "category": "domain-expertise"
+}

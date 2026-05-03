@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "claude-code",
+    "copilot"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/engineering-team-select/SKILL.md"
+  },
+  "description": "Cherry-picked engineering skills: adversarial code reviewer, epic design, incident commander, TDD guide, senior architect, tech stack evaluator, red team, senior DevOps. 8 roles from a 32-skill engineering pack, selected for breadth without Mall overlap.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "engineering",
+    "adversarial-review",
+    "tdd",
+    "architecture",
+    "devops",
+    "red-team",
+    "incident",
+    "epic"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "engineering-team-select",
+  "source_store": "alirezarezvani/claude-skills",
+  "token_cost": 25342.0,
+  "category": "code-quality"
+}

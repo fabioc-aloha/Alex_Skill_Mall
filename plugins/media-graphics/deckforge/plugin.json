@@ -1,0 +1,34 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/deckforge/SKILL.md"
+  },
+  "description": "Forge data-driven PowerPoint presentations from Markdown via pptxgenjs. 4 skills: prepare content, build deck, review quality, update existing. Built-in accessibility post-processing.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "powerpoint",
+    "pptx",
+    "presentation",
+    "slides",
+    "deck",
+    "markdown",
+    "data-driven"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "deckforge",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 17052.0,
+  "category": "media-graphics"
+}

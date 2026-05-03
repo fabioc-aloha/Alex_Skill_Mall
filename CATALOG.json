@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
   "generated_at": "2026-05-02T18:30:48.875Z",
-  "plugin_count": 283,
+  "plugin_count": 298,
   "category_count": 16,
   "categories": [
     {
@@ -539,7 +539,10 @@
       "path": "plugins/reasoning-metacognition/appropriate-reliance",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 3,
+      "act_tenets": "V,IV"
     },
     {
       "name": "architecture-audit",
@@ -651,7 +654,10 @@
       "path": "plugins/code-quality/audit-integrity",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 2,
+      "act_tenets": "X,IX"
     },
     {
       "name": "autocoverage",
@@ -1310,7 +1316,10 @@
       "path": "plugins/reasoning-metacognition/calibration-tracking",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 3,
+      "act_tenets": "V,IX"
     },
     {
       "name": "capability-signature-detection",
@@ -2348,7 +2357,10 @@
       "path": "plugins/code-quality/deep-review",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 3,
+      "act_tenets": "VIII,III"
     },
     {
       "name": "deep-work-optimization",
@@ -2518,7 +2530,10 @@
       "path": "plugins/communication-people/disagreement-protocol",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 2,
+      "act_tenets": "VIII,IV"
     },
     {
       "name": "dissertation-defense",
@@ -2714,7 +2729,10 @@
       "path": "plugins/documentation/documentation-quality-assurance",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 2,
+      "act_tenets": "X,II"
     },
     {
       "name": "docx-to-md",
@@ -3076,7 +3094,10 @@
       "path": "plugins/code-quality/falsifiability-test-pattern",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 3,
+      "act_tenets": "II,IX"
     },
     {
       "name": "feedback-triage",
@@ -3697,7 +3718,10 @@
       "path": "plugins/reasoning-metacognition/hypothesis-driven-debugging",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 3,
+      "act_tenets": "I,II,VIII"
     },
     {
       "name": "image-embedding-size-limits",
@@ -3919,7 +3943,10 @@
       "path": "plugins/code-quality/iterative-health-check",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 2,
+      "act_tenets": "II,IX"
     },
     {
       "name": "journalism",
@@ -7194,7 +7221,10 @@
       "path": "plugins/code-quality/test-quality-analysis",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 2,
+      "act_tenets": "II"
     },
     {
       "name": "test-rename-drift",
@@ -7362,7 +7392,10 @@
       "path": "plugins/ai-agents/token-waste-elimination",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 2,
+      "act_tenets": "VI"
     },
     {
       "name": "ui-ux-design",
@@ -7418,7 +7451,10 @@
       "path": "plugins/code-quality/universal-audit-pattern",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 2,
+      "act_tenets": "X,VII"
     },
     {
       "name": "update-avm-modules-in-bicep",
@@ -7828,7 +7864,10 @@
       "path": "plugins/architecture-patterns/weighted-scoring-matrix",
       "artifacts": [
         "SKILL.md"
-      ]
+      ],
+      "act_aligned": true,
+      "act_score": 2,
+      "act_tenets": "III,VI"
     },
     {
       "name": "wiki-generation",
@@ -7913,6 +7952,118 @@
       "artifacts": [
         "SKILL.md"
       ]
+    },
+    {
+      "category": "media-graphics",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "deckforge",
+      "description": "Forge data-driven PowerPoint presentations from Markdown via pptxgenjs",
+      "source_store": "agency-microsoft/playground"
+    },
+    {
+      "category": "converters",
+      "shape": "SA..",
+      "version": "1.0.0",
+      "name": "docpilot",
+      "description": "Convert Markdown to styled Word (.docx) or Microsoft Loop without Pandoc",
+      "source_store": "agency-microsoft/playground"
+    },
+    {
+      "category": "data-analytics",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "semantic-model-disambiguation",
+      "description": "Detect and fix Power BI semantic model column overlaps via MCP",
+      "source_store": "agency-microsoft/playground"
+    },
+    {
+      "category": "devops-process",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "pm-planning-suite",
+      "description": "20-skill quarterly planning toolkit for Technical Program Managers",
+      "source_store": "agency-microsoft/playground"
+    },
+    {
+      "category": "domain-expertise",
+      "shape": "SA..",
+      "version": "1.0.0",
+      "name": "marketing-skill",
+      "description": "44-skill marketing suite: SEO, content, campaigns, CRO, social media",
+      "source_store": "alirezarezvani/claude-skills"
+    },
+    {
+      "category": "media-graphics",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "marp-deck",
+      "description": "Create, build, review, and theme Marp presentations",
+      "source_store": "agency-microsoft/playground"
+    },
+    {
+      "category": "documentation",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "diagrams",
+      "description": "Mermaid and sequence diagram generation with syntax validation",
+      "source_store": "agency-microsoft/playground"
+    },
+    {
+      "category": "domain-expertise",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "regulatory-quality-management",
+      "description": "14 skills for HealthTech/MedTech: FDA, GDPR, ISO 13485, MDR 745, SOC2, CAPA",
+      "source_store": "alirezarezvani/claude-skills"
+    },
+    {
+      "category": "devops-process",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "project-management-atlassian",
+      "description": "9 skills: Jira, Confluence, scrum master, senior PM, meeting analyzer",
+      "source_store": "alirezarezvani/claude-skills"
+    },
+    {
+      "category": "domain-expertise",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "executive-leadership",
+      "description": "28 skills: C-suite advisors, board deck builder, competitive intel, strategy",
+      "source_store": "alirezarezvani/claude-skills"
+    },
+    {
+      "category": "devops-process",
+      "shape": "SA..",
+      "version": "1.0.0",
+      "name": "sdlc-toolkit",
+      "description": "13 skills: tech debt, design review, safety audit, drift detection, regression",
+      "source_store": "agency-microsoft/playground"
+    },
+    {
+      "category": "converters",
+      "shape": "SA..",
+      "version": "1.0.0",
+      "name": "docx-to-pdf",
+      "description": "Convert Word to PDF without Word or LibreOffice",
+      "source_store": "agency-microsoft/playground"
+    },
+    {
+      "category": "code-quality",
+      "shape": "S...",
+      "version": "1.0.0",
+      "name": "engineering-team-select",
+      "description": "8 cherry-picked engineering roles: adversarial reviewer, TDD, architect, DevOps, red team",
+      "source_store": "alirezarezvani/claude-skills"
+    },
+    {
+      "name": "product-team",
+      "category": "devops-process",
+      "version": "1.0.0",
+      "description": "13 skills: product discovery, strategy, UX research, design systems, competitive teardowns, experiments, roadmap",
+      "shape": "SA..",
+      "source_store": "alirezarezvani/claude-skills"
     }
   ]
 }

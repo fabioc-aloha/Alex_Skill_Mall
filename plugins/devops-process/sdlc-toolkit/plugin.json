@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/sdlc-toolkit/SKILL.md"
+  },
+  "description": "13 skills for full-lifecycle SDLC: tech debt discovery, design review, safety audit, artifact curation, drift detection, regression prediction, impact analysis, onboarding.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "sdlc",
+    "tech-debt",
+    "design-review",
+    "safety-audit",
+    "drift",
+    "regression",
+    "impact-analysis",
+    "onboarding"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "sdlc-toolkit",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 12013.0,
+  "category": "devops-process"
+}

@@ -1,0 +1,32 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/semantic-model-disambiguation/SKILL.md"
+  },
+  "description": "Analyze Power BI semantic models for column-level overlaps that confuse Copilot and Fabric data agents. Detect ambiguity, review with domain expert, apply fixes via MCP.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "power-bi",
+    "semantic-model",
+    "disambiguation",
+    "fabric",
+    "copilot",
+    "overlap"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "semantic-model-disambiguation",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 9407.0,
+  "category": "data-analytics"
+}

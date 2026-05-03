@@ -1,0 +1,34 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "claude-code",
+    "copilot"
+  ],
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/project-management-atlassian/SKILL.md"
+  },
+  "description": "9 skills for Atlassian-based project management: Jira expert, Confluence expert, scrum master, senior PM, meeting analyzer, team communications.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "jira",
+    "confluence",
+    "atlassian",
+    "scrum",
+    "agile",
+    "project-management",
+    "pm"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "project-management-atlassian",
+  "source_store": "alirezarezvani/claude-skills",
+  "token_cost": 21722.0,
+  "category": "devops-process"
+}

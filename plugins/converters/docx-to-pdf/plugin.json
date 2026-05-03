@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/docx-to-pdf/SKILL.md"
+  },
+  "description": "Convert Word documents to PDF without Word or LibreOffice. Python-based, single command, preserves formatting.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "word",
+    "pdf",
+    "convert",
+    "docx",
+    "python",
+    "no-libreoffice"
+  ],
+  "requires_plugins": [],
+  "shape": "S...",
+  "name": "docx-to-pdf",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 530.0,
+  "category": "converters"
+}

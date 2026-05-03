@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "claude-code",
+    "copilot"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/product-team/SKILL.md"
+  },
+  "description": "13 skills for product management: product discovery, strategy, UX research, design systems, competitive teardowns, experiment design, roadmap communication, landing pages, SaaS scaffolding, spec-to-repo.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "product-management",
+    "ux-research",
+    "design-system",
+    "strategy",
+    "competitive-intel",
+    "agile",
+    "roadmap",
+    "saas"
+  ],
+  "requires_plugins": [],
+  "shape": "SA..",
+  "name": "product-team",
+  "source_store": "alirezarezvani/claude-skills",
+  "token_cost": 24796.0,
+  "category": "devops-process"
+}
