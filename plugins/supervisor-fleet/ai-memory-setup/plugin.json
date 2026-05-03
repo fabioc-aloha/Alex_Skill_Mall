@@ -1,0 +1,33 @@
+{
+    "name": "ai-memory-setup",
+    "version": "1.0.0",
+    "description": "Detect, create, and manage the AI-Memory fleet communication channel on the user's cloud drive",
+    "author": {
+        "name": "ACT Plugin Mall"
+    },
+    "keywords": [
+        "ai-memory",
+        "fleet",
+        "onedrive",
+        "cloud",
+        "feedback",
+        "announcements",
+        "setup",
+        "bootstrap"
+    ],
+    "engines": [
+        "copilot"
+    ],
+    "shape": ".S..",
+    "category": "supervisor-fleet",
+    "tier": "standard",
+    "token_cost": 2200,
+    "requires_edition": ">=0.9.9",
+    "requires_plugins": [],
+    "artifacts": {
+        "skill": "SKILL.md"
+    },
+    "install_paths": {
+        "skill": ".github/skills/local/ai-memory-setup/SKILL.md"
+    }
+}
