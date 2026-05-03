@@ -14,20 +14,29 @@ lastReviewed: 2026-05-02
 
 AI-Memory is the shared folder on the user's cloud drive where ACT heirs exchange feedback, announcements, and registry data. This skill covers detection, creation, path resolution, and ongoing read/write operations.
 
+## Supported Cloud Providers
+
+| Provider | Folder patterns detected | Notes |
+| --- | --- | --- |
+| OneDrive | `OneDrive`, `OneDrive - *` (personal, family, business) | Most common; multiple accounts create multiple folders |
+| iCloud | `iCloudDrive`, `iCloud Drive`, `iCloud~com~apple~CloudDocs` | macOS and Windows variants |
+| Dropbox | `Dropbox`, `Dropbox (Personal)`, `Dropbox (Business)` | Personal and business variants |
+| Google Drive | `Google Drive`, `My Drive` | Drive for Desktop sync folder |
+| Box | `Box`, `Box Sync` | Enterprise cloud storage |
+| MEGA | `MEGA`, `MEGAsync` | Encrypted cloud storage |
+| pCloud | `pCloud`, `pCloud Drive` | European cloud storage |
+| Nextcloud | `Nextcloud` | Self-hosted cloud |
+
+Discovery scans the user's HOME directory for any folder matching these patterns. Unknown cloud drives are ignored (the user can still point to them manually via `ai_memory_root`).
+
 ## Path Resolution Algorithm
 
 Resolve the AI-Memory root in this order:
 
 1. **Config override**: read `.github/config/cognitive-config.json`. If `ai_memory_root` is set, use `<HOME>/<ai_memory_root>/AI-Memory`.
-2. **Candidate scan**: check these folders under `<HOME>` in order. First existing `<folder>/AI-Memory/` wins:
-   - `OneDrive - Correa Family`
-   - `OneDrive`
-   - `iCloudDrive`
-   - `iCloud Drive`
-   - `iCloud~com~apple~CloudDocs`
-   - `Dropbox`
-3. **Local fallback**: `~/AI-Memory` (no cloud sync)
-4. **Exclusion list**: if `ai_memory_exclude` is set in cognitive-config.json, skip those folder names during the candidate scan.
+2. **Auto-discovery**: scan `<HOME>` for folders matching known cloud provider patterns. Skip any folder listed in `ai_memory_exclude`. Among matches, prefer drives that already contain an `AI-Memory/` subfolder.
+3. **Local fallback**: `~/AI-Memory` (no cloud sync, still functional)
+4. **Exclusion list**: `ai_memory_exclude` in cognitive-config.json lists folder names to skip (e.g., `["OneDrive - Microsoft"]` to avoid the work account).
 
 The resolution order matches `_registry.cjs` (the muscle used by `bootstrap-heir.cjs` and `upgrade-self.cjs`). LLM heirs and scripts must agree on the same path.
 
@@ -67,30 +76,36 @@ When AI-Memory is needed but doesn't exist (bootstrap, first feedback write):
 
 1. Discover which cloud drives exist:
 
-   ```javascript
-   // In a heir project with Edition scripts:
-   node -e "console.log(JSON.stringify(require('./.github/scripts/_registry.cjs').discoverCloudDrives(), null, 2))"
+   ```bash
+   node .github/scripts/_registry.cjs --discover
    ```
+
+   Output lists all detected cloud drives with provider name and whether AI-Memory exists.
 
 2. If multiple drives found, ask the user which one to use. If only one, use it. If none, offer `~/AI-Memory` as local fallback.
 
 3. Create the folder structure:
 
-   ```javascript
-   node -e "const r = require('./.github/scripts/_registry.cjs'); console.log(JSON.stringify(r.initAiMemory('<drive-name>'), null, 2))"
+   ```bash
+   node .github/scripts/_registry.cjs --init "<drive-name>"
    ```
 
-4. Persist the choice:
+   Or during bootstrap, use the `--ai-memory` flag:
+
+   ```bash
+   node bootstrap-heir.cjs --target . --heir-id my-project --ai-memory "Dropbox" --apply
+   ```
+
+4. The choice is automatically persisted in `.github/config/cognitive-config.json`:
 
    ```json
-   // .github/config/cognitive-config.json (heir-owned)
    {
-     "ai_memory_root": "OneDrive - Correa Family",
+     "ai_memory_root": "Dropbox",
      "ai_memory_exclude": ["OneDrive - Microsoft"]
    }
    ```
 
-5. Verify: `resolveAiMemoryRoot()` should now return the new path.
+5. Verify: `node .github/scripts/_registry.cjs --resolve .` should return the AI-Memory path.
 
 ### Write Feedback
 
@@ -144,11 +159,29 @@ Users may have multiple OneDrive accounts (personal + work). The `ai_memory_excl
 
 ## Muscle Reference
 
-The `_registry.cjs` script (shipped with Edition) provides the programmatic API:
+The `_registry.cjs` script (shipped with Edition) provides both a programmatic API and a CLI:
+
+### Programmatic API
 
 | Function | Purpose |
 | --- | --- |
-| `resolveAiMemoryRoot()` | Returns the AI-Memory path or null |
-| `discoverCloudDrives()` | Lists cloud drives with `hasAiMemory` flag |
+| `resolveAiMemoryRoot(heirRoot?)` | Returns the AI-Memory path or null; honors cognitive-config.json |
+| `discoverCloudDrives(heirRoot?)` | Scans HOME for cloud drive folders; returns `[{ name, path, provider, hasAiMemory }]` |
 | `initAiMemory(driveName)` | Creates full folder structure + READMEs |
 | `upsertHeir(marker, repoPath)` | Updates `heirs/registry.json` |
+
+### CLI
+
+```bash
+node .github/scripts/_registry.cjs --discover          # List cloud drives
+node .github/scripts/_registry.cjs --init "<name>"     # Create AI-Memory in named drive
+node .github/scripts/_registry.cjs --resolve [dir]     # Resolve AI-Memory root
+```
+
+### Bootstrap Flag
+
+```bash
+node .github/scripts/bootstrap-heir.cjs --ai-memory "<drive-name>" ...
+```
+
+Overrides auto-selection during bootstrap. Persists to cognitive-config.json.
