@@ -2,7 +2,7 @@
 
 Self-contained HTML dashboard powered by Apache ECharts.
 
-**Status**: Complete (Phase 2)
+**Status**: Published (v1.0.0)
 
 ## Technology
 
