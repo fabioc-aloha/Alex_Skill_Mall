@@ -1,0 +1,34 @@
+{
+    "name": "delivery-html-dashboard",
+    "version": "1.0.0",
+    "description": "Render data dashboards as self-contained HTML files using Apache ECharts v6. Single file, zero build step, interactive charts with tooltips and data zoom. Declarative JSON option config optimized for AI generation.",
+    "author": {
+        "name": "ACT Plugin Mall"
+    },
+    "keywords": [
+        "html",
+        "dashboard",
+        "echarts",
+        "interactive",
+        "charts",
+        "responsive",
+        "dark-mode",
+        "accessible",
+        "single-file"
+    ],
+    "engines": [
+        "copilot"
+    ],
+    "shape": ".S..",
+    "category": "data-analytics",
+    "tier": "standard",
+    "token_cost": 4800,
+    "requires_edition": ">=1.0.0",
+    "requires_plugins": [],
+    "artifacts": {
+        "skill": "SKILL.md"
+    },
+    "install_paths": {
+        "skill": ".github/skills/local/delivery-html-dashboard/SKILL.md"
+    }
+}
