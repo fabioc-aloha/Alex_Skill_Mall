@@ -18,7 +18,7 @@ Install plugins into any ACT heir project without losing them to Edition upgrade
 | Categories | 16 |
 | Shape types | 7 (see notation below) |
 | Install path | `.github/skills/local/` (or matching `local/` dirs) |
-| Primary consumer | Alex ACT Edition v1.0.0+ |
+| Primary consumer | Alex ACT Edition v1.2.0+ |
 | Also works with | GitHub Copilot, Claude, Cursor, Windsurf, any AI reading `.github/` |
 
 ## Quick Start
