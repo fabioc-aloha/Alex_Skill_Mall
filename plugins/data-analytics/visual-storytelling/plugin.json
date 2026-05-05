@@ -1,0 +1,47 @@
+{
+    "name": "visual-storytelling",
+    "version": "1.0.0",
+    "description": "Turn raw data into visual stories. Full pipeline: structured brief, data ingestion, chart selection, and delivery to ASCII, SVG, or HTML dashboards. Installs 7 component plugins and an orchestrator agent.",
+    "author": {
+        "name": "ACT Plugin Mall"
+    },
+    "keywords": [
+        "visual-storytelling",
+        "dashboard",
+        "data-visualization",
+        "charts",
+        "echarts",
+        "svg",
+        "ascii",
+        "pipeline",
+        "bundle"
+    ],
+    "engines": [
+        "copilot"
+    ],
+    "shape": "IS..",
+    "category": "data-analytics",
+    "tier": "standard",
+    "token_cost": 20400,
+    "requires_edition": ">=1.0.0",
+    "requires_plugins": [],
+    "bundle": true,
+    "components": [
+        "data-analytics/storytelling-requirements",
+        "data-analytics/datasource-connectors",
+        "data-analytics/data-preparation",
+        "data-analytics/visual-vocabulary",
+        "data-analytics/delivery-ascii-dashboard",
+        "data-analytics/delivery-html-dashboard",
+        "media-graphics/delivery-svg-markdown"
+    ],
+    "artifacts": {
+        "skill": "SKILL.md",
+        "instruction": null,
+        "agent": "visual-storytelling.agent.md"
+    },
+    "install_paths": {
+        "skill": ".github/skills/local/visual-storytelling/SKILL.md",
+        "agent": ".github/agents/visual-storytelling.agent.md"
+    }
+}
