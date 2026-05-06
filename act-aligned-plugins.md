@@ -1,7 +1,7 @@
 # ACT-Aligned Plugins
 
-**Last updated**: 2026-05-03
-**Source**: `CATALOG.json` (field: `act_aligned: true`)
+**Last updated**: 2026-05-06
+**Source**: Supervisor curation (this document is the canonical ACT-alignment reference)
 **Purpose**: Heirs can install these on-demand to strengthen ACT reasoning based on project complexity
 
 ## How to Use
@@ -87,5 +87,5 @@ These ACT-core skills ship with every heir by default:
 ## Notes
 
 - Token costs are for on-demand loading (local/ install), not always-on. They only consume context when the skill activates.
-- The `act_aligned` and `act_score` fields are queryable in `CATALOG.json` for tooling: `jq '.plugins[] | select(.act_aligned == true)'`
+- This list is the canonical reference for ACT-aligned plugins. Use it directly rather than querying CATALOG.json (the catalog schema does not carry ACT-alignment metadata).
 - This list is maintained by the Supervisor during quarterly retraining passes.
