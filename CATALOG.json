@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
-  "generated_at": "2026-05-05T17:45:11.096Z",
-  "plugin_count": 301,
+  "generated_at": "2026-05-13T15:11:43.800Z",
+  "plugin_count": 297,
   "category_count": 16,
   "categories": [
     {
@@ -1970,35 +1970,6 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/code-quality/deep-review",
-      "artifacts": [
-        "SKILL.md"
-      ]
-    },
-    {
-      "name": "engineering-team-select",
-      "title": "engineering-team-select",
-      "category": "code-quality",
-      "shape": "S...",
-      "tier": "standard",
-      "engines": [
-        "claude-code",
-        "copilot"
-      ],
-      "token_cost": 25342,
-      "description": "Cherry-picked engineering skills: adversarial code reviewer, epic design, incident commander, TDD guide, senior architect, tech stack evaluator, red team, senior DevOps. 8 roles from a 32-skill engineering pack, selected for breadth without Mall overlap.",
-      "keywords": [
-        "engineering",
-        "adversarial-review",
-        "tdd",
-        "architecture",
-        "devops",
-        "red-team",
-        "incident",
-        "epic"
-      ],
-      "requires_edition": ">=1.0.0",
-      "requires_plugins": [],
-      "path": "plugins/code-quality/engineering-team-select",
       "artifacts": [
         "SKILL.md"
       ]
@@ -4462,34 +4433,6 @@
       ]
     },
     {
-      "name": "project-management-atlassian",
-      "title": "project-management-atlassian",
-      "category": "devops-process",
-      "shape": "S...",
-      "tier": "extended",
-      "engines": [
-        "claude-code",
-        "copilot"
-      ],
-      "token_cost": 21722,
-      "description": "9 skills for Atlassian-based project management: Jira expert, Confluence expert, scrum master, senior PM, meeting analyzer, team communications.",
-      "keywords": [
-        "jira",
-        "confluence",
-        "atlassian",
-        "scrum",
-        "agile",
-        "project-management",
-        "pm"
-      ],
-      "requires_edition": ">=1.0.0",
-      "requires_plugins": [],
-      "path": "plugins/devops-process/project-management-atlassian",
-      "artifacts": [
-        "SKILL.md"
-      ]
-    },
-    {
       "name": "project-risk-analysis",
       "title": "project-risk-analysis",
       "category": "devops-process",
@@ -5469,36 +5412,6 @@
       ]
     },
     {
-      "name": "executive-leadership",
-      "title": "executive-leadership",
-      "category": "domain-expertise",
-      "shape": "S...",
-      "tier": "extended",
-      "engines": [
-        "claude-code",
-        "copilot"
-      ],
-      "token_cost": 57254,
-      "description": "28 skills for executive leadership: CEO/CTO/CFO/CISO/CMO advisors, board deck builder, competitive intel, org health diagnostics, M&A playbook, strategic alignment.",
-      "keywords": [
-        "executive",
-        "ceo",
-        "cto",
-        "cfo",
-        "leadership",
-        "board",
-        "strategy",
-        "competitive-intel",
-        "c-suite"
-      ],
-      "requires_edition": ">=1.0.0",
-      "requires_plugins": [],
-      "path": "plugins/domain-expertise/executive-leadership",
-      "artifacts": [
-        "SKILL.md"
-      ]
-    },
-    {
       "name": "financial-analysis",
       "title": "financial-analysis",
       "category": "domain-expertise",
@@ -5746,36 +5659,6 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/domain-expertise/marketing-skill",
-      "artifacts": [
-        "SKILL.md"
-      ]
-    },
-    {
-      "name": "regulatory-quality-management",
-      "title": "regulatory-quality-management",
-      "category": "domain-expertise",
-      "shape": "S...",
-      "tier": "extended",
-      "engines": [
-        "claude-code",
-        "copilot"
-      ],
-      "token_cost": 45170,
-      "description": "14 skills for HealthTech/MedTech regulatory compliance and quality management: FDA, GDPR, ISO 13485, MDR 745, SOC2, ISMS audit, CAPA, risk management.",
-      "keywords": [
-        "healthcare",
-        "regulatory",
-        "fda",
-        "iso-13485",
-        "gdpr",
-        "soc2",
-        "quality-management",
-        "capa",
-        "medtech"
-      ],
-      "requires_edition": ">=1.0.0",
-      "requires_plugins": [],
-      "path": "plugins/domain-expertise/regulatory-quality-management",
       "artifacts": [
         "SKILL.md"
       ]
