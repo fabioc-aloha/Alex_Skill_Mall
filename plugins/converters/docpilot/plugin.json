@@ -15,7 +15,7 @@
   "author": {
     "name": "ACT Plugin Mall"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "word",
     "docx",
@@ -29,5 +29,13 @@
   "name": "docpilot",
   "source_store": "agency-microsoft/playground",
   "token_cost": 1522.0,
-  "category": "converters"
+  "category": "converters",
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 2,
+    "agents": 2,
+    "has_mcp": false,
+    "checked_at": "2026-05-13"
+  }
 }

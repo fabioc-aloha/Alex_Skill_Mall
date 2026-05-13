@@ -15,7 +15,7 @@
   "author": {
     "name": "ACT Plugin Mall"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "planning",
     "pm",
@@ -30,5 +30,13 @@
   "name": "pm-planning-suite",
   "source_store": "agency-microsoft/playground",
   "token_cost": 29597.0,
-  "category": "devops-process"
+  "category": "devops-process",
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 20,
+    "agents": 0,
+    "has_mcp": false,
+    "checked_at": "2026-05-13"
+  }
 }

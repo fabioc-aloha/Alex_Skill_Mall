@@ -15,7 +15,7 @@
   "author": {
     "name": "ACT Plugin Mall"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "sdlc",
     "tech-debt",
@@ -31,5 +31,13 @@
   "name": "sdlc-toolkit",
   "source_store": "agency-microsoft/playground",
   "token_cost": 12013.0,
-  "category": "devops-process"
+  "category": "devops-process",
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 13,
+    "agents": 6,
+    "has_mcp": true,
+    "checked_at": "2026-05-13"
+  }
 }

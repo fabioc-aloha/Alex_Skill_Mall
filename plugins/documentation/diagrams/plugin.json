@@ -15,7 +15,7 @@
   "author": {
     "name": "ACT Plugin Mall"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "diagram",
     "mermaid",
@@ -29,5 +29,13 @@
   "name": "diagrams",
   "source_store": "agency-microsoft/playground",
   "token_cost": 1627.0,
-  "category": "documentation"
+  "category": "documentation",
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 2,
+    "agents": 0,
+    "has_mcp": false,
+    "checked_at": "2026-05-13"
+  }
 }

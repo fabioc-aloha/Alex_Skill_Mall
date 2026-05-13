@@ -15,7 +15,7 @@
   "author": {
     "name": "ACT Plugin Mall"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "word",
     "pdf",
@@ -29,5 +29,13 @@
   "name": "docx-to-pdf",
   "source_store": "agency-microsoft/playground",
   "token_cost": 530.0,
-  "category": "converters"
+  "category": "converters",
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 1,
+    "agents": 1,
+    "has_mcp": false,
+    "checked_at": "2026-05-13"
+  }
 }

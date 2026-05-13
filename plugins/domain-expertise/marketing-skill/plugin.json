@@ -15,7 +15,7 @@
   "author": {
     "name": "ACT Plugin Mall"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "marketing",
     "seo",
@@ -31,5 +31,13 @@
   "name": "marketing-skill",
   "source_store": "alirezarezvani/claude-skills",
   "token_cost": 110346.0,
-  "category": "domain-expertise"
+  "category": "domain-expertise",
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "alirezarezvani/claude-skills",
+    "skills": 44,
+    "agents": 4,
+    "has_mcp": false,
+    "checked_at": "2026-05-13"
+  }
 }

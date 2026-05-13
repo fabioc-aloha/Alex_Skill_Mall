@@ -14,7 +14,7 @@
   "author": {
     "name": "ACT Plugin Mall"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "power-bi",
     "semantic-model",
@@ -28,5 +28,13 @@
   "name": "semantic-model-disambiguation",
   "source_store": "agency-microsoft/playground",
   "token_cost": 9407.0,
-  "category": "data-analytics"
+  "category": "data-analytics",
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 2,
+    "agents": 0,
+    "has_mcp": true,
+    "checked_at": "2026-05-13"
+  }
 }
