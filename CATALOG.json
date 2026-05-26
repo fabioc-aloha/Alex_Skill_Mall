@@ -1,24 +1,20 @@
 {
   "schema_version": "2.1",
-  "generated_at": "2026-05-13T15:11:43.800Z",
+  "generated_at": "2026-05-26T03:02:54.360Z",
   "plugin_count": 297,
   "category_count": 16,
   "categories": [
-    {
-      "name": "devops-process",
-      "count": 30
-    },
     {
       "name": "security-privacy",
       "count": 30
     },
     {
-      "name": "documentation",
-      "count": 26
+      "name": "devops-process",
+      "count": 29
     },
     {
-      "name": "code-quality",
-      "count": 25
+      "name": "documentation",
+      "count": 26
     },
     {
       "name": "data-analytics",
@@ -29,16 +25,16 @@
       "count": 24
     },
     {
+      "name": "code-quality",
+      "count": 24
+    },
+    {
       "name": "media-graphics",
       "count": 22
     },
     {
       "name": "ai-agents",
       "count": 19
-    },
-    {
-      "name": "domain-expertise",
-      "count": 15
     },
     {
       "name": "reasoning-metacognition",
@@ -58,6 +54,10 @@
     },
     {
       "name": "converters",
+      "count": 13
+    },
+    {
+      "name": "domain-expertise",
       "count": 13
     },
     {
@@ -276,7 +276,7 @@
         "copilot"
       ],
       "token_cost": 4641,
-      "description": "|",
+      "description": "Patterns for adding safety, trust, and policy enforcement to AI agent systems -- control which tools agents can call, what content they process, and maintain accountability through audit trails.",
       "keywords": [
         "agent",
         "governance"
@@ -298,7 +298,7 @@
         "copilot"
       ],
       "token_cost": 2701,
-      "description": "|",
+      "description": "Generate and verify integrity manifests for AI agent plugins and tools -- detect tampering, enforce version pinning, and establish supply chain provenance (the SLSA/Sigstore gap for agent ecosystems).",
       "keywords": [
         "agent",
         "supply",
@@ -321,7 +321,7 @@
         "copilot"
       ],
       "token_cost": 1519,
-      "description": "|",
+      "description": "Patterns for agent self-improvement through iterative evaluation and refinement -- generate, evaluate, critique, refine loops that move beyond single-shot generation.",
       "keywords": [
         "agentic",
         "eval"
@@ -3091,7 +3091,7 @@
         "copilot"
       ],
       "token_cost": 2991,
-      "description": ">",
+      "description": "Execute read-only KQL queries against Kusto / Azure Data Explorer clusters via the Kusto MCP server. Read-only -- does not create, alter, or drop objects.",
       "keywords": [
         "biome",
         "kusto",
@@ -3114,7 +3114,7 @@
         "copilot"
       ],
       "token_cost": 2304,
-      "description": ">",
+      "description": "Execute read-only DAX queries against Power BI semantic models via the Power BI MCP server -- metadata discovery with INFO.VIEW functions and data retrieval with EVALUATE.",
       "keywords": [
         "biome",
         "powerbi",
@@ -3754,7 +3754,8 @@
       "requires_plugins": [],
       "path": "plugins/data-analytics/visual-storytelling",
       "artifacts": [
-        "SKILL.md"
+        "SKILL.md",
+        "visual-storytelling.agent.md"
       ]
     },
     {
@@ -7343,7 +7344,7 @@
         "copilot"
       ],
       "token_cost": 7525,
-      "description": ">",
+      "description": "Generate an interactive, self-contained HTML dashboard displaying SFI-TI3.2.2 tenant isolation violations for a service, org, or alias -- includes filtering, sorting, severity coding, TSG links, S360 deep links.",
       "keywords": [
         "generate",
         "report"
@@ -7365,7 +7366,7 @@
         "copilot"
       ],
       "token_cost": 6558,
-      "description": ">",
+      "description": "Complex multi-step remediation scenarios for S360 Tenant Isolation violations that require code changes, Federated Identity Credential (FIC) setup, and bilateral coordination between service teams.",
       "keywords": [
         "guide",
         "advanced",
@@ -7388,7 +7389,7 @@
         "copilot"
       ],
       "token_cost": 3548,
-      "description": ">",
+      "description": "End-to-end process of rehoming (moving or reissuing) certificates so every production Entra app credential lives in the same tenant and cloud as the app itself.",
       "keywords": [
         "guide",
         "cert",
@@ -8088,7 +8089,7 @@
         "copilot"
       ],
       "token_cost": 1564,
-      "description": "Fleet Management",
+      "description": "Keep heir projects synchronized with Master Alex brain updates -- audit drift, upgrade brains, verify deployments across the fleet.",
       "keywords": [
         "fleet",
         "management"
@@ -8301,7 +8302,7 @@
         "copilot"
       ],
       "token_cost": 1352,
-      "description": "Version Management",
+      "description": "Semver discipline for Alex_ACT_Edition releases -- bump rules, breaking-change classification, fleet rollout sequencing.",
       "keywords": [
         "version",
         "management"
