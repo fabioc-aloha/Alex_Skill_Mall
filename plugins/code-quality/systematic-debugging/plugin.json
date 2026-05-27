@@ -1,0 +1,33 @@
+{
+  "name": "systematic-debugging",
+  "version": "1.0.0",
+  "description": "Structured 4-phase debugging agent — problem assessment, root cause investigation, targeted fix, quality assurance with regression tests.",
+  "author": {
+    "name": "ACT Plugin Mall",
+    "source": "awesome-copilot/agents/debug.agent.md + awesome-claude-code-toolkit/plugins/bug-detective/"
+  },
+  "keywords": [
+    "debugging",
+    "bug",
+    "root-cause",
+    "diagnosis",
+    "regression",
+    "testing",
+    "fix"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": "..A.",
+  "category": "code-quality",
+  "tier": "standard",
+  "token_cost": 1900,
+  "requires_edition": ">=2.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "agent": "AGENT.md"
+  },
+  "install_paths": {
+    "agent": ".github/agents/systematic-debugger.agent.md"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
-  "generated_at": "2026-05-27T00:38:49.300Z",
-  "plugin_count": 360,
+  "generated_at": "2026-05-27T22:31:07.059Z",
+  "plugin_count": 362,
   "category_count": 21,
   "categories": [
     {
@@ -25,15 +25,15 @@
       "count": 26
     },
     {
+      "name": "code-quality",
+      "count": 25
+    },
+    {
       "name": "data-analytics",
       "count": 25
     },
     {
       "name": "cloud-infrastructure",
-      "count": 24
-    },
-    {
-      "name": "code-quality",
       "count": 24
     },
     {
@@ -45,16 +45,16 @@
       "count": 16
     },
     {
+      "name": "platform-tooling",
+      "count": 15
+    },
+    {
       "name": "productivity",
       "count": 15
     },
     {
       "name": "reasoning-metacognition",
       "count": 15
-    },
-    {
-      "name": "platform-tooling",
-      "count": 14
     },
     {
       "name": "architecture-patterns",
@@ -2902,6 +2902,33 @@
       "path": "plugins/code-quality/semantic-codebase-intelligence",
       "artifacts": [
         "SKILL.md"
+      ]
+    },
+    {
+      "name": "systematic-debugging",
+      "title": "systematic-debugging",
+      "category": "code-quality",
+      "shape": "..A.",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1900,
+      "description": "Structured 4-phase debugging agent — problem assessment, root cause investigation, targeted fix, quality assurance with regression tests.",
+      "keywords": [
+        "debugging",
+        "bug",
+        "root-cause",
+        "diagnosis",
+        "regression",
+        "testing",
+        "fix"
+      ],
+      "requires_edition": ">=2.0.0",
+      "requires_plugins": [],
+      "path": "plugins/code-quality/systematic-debugging",
+      "artifacts": [
+        "AGENT.md"
       ]
     },
     {
@@ -7769,6 +7796,34 @@
       "path": "plugins/platform-tooling/vscode-environment",
       "artifacts": [
         "SKILL.md"
+      ]
+    },
+    {
+      "name": "vscode-extension-developer",
+      "title": "vscode-extension-developer",
+      "category": "platform-tooling",
+      "shape": "..A.",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2100,
+      "description": "Agent for developing VS Code extensions with LSP, webviews, activation optimization, bundling, testing, and Marketplace publishing.",
+      "keywords": [
+        "vscode",
+        "extension",
+        "development",
+        "LSP",
+        "webview",
+        "marketplace",
+        "publishing",
+        "bundling"
+      ],
+      "requires_edition": ">=2.0.0",
+      "requires_plugins": [],
+      "path": "plugins/platform-tooling/vscode-extension-developer",
+      "artifacts": [
+        "AGENT.md"
       ]
     },
     {
