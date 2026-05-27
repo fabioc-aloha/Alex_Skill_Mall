@@ -4,6 +4,16 @@ All notable changes to Alex ACT Plugin Mall.
 
 ## [Unreleased]
 
+### Changed
+
+- README refreshed to match catalog reality: 360 plugins (was 301) across 21 categories (was 16), 19 knowledge packages across 9 categories (was 8)
+- Category table re-sorted by size descending; removed stale "diagrams" wording from documentation row now that `diagrams` is its own category
+
+### Added
+
+- New categories surfaced in catalog: `productivity` (15), `image-generation` (4), `diagrams` (3), `3d-graphics` (2), `bioinformatics` (1)
+- Recent plugin additions: 13 fleet/agent-management skills, 3 free LinkedIn skills, 12 Tier-A productivity plugins, 24 media-graphics Tier-A picks, 11 academic-research/bioinformatics plugins
+
 ---
 
 ## [1.0.0] - 2026-05-05
