@@ -1,0 +1,26 @@
+{
+  "name": "multi-agent-patterns",
+  "version": "1.0.0",
+  "description": "This skill should be used when designing multi-agent systems that need context isolation, supervisor or swarm coordination, explicit handoffs, parallel execution, or a decision on whether multiple agents are justified.",
+  "author": "agent-skills-context-engineering",
+  "keywords": [
+    "ai",
+    "multi",
+    "agent"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "ai-agents",
+  "tier": "extended",
+  "token_cost": 4714,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/multi-agent-patterns/SKILL.md"
+  }
+}

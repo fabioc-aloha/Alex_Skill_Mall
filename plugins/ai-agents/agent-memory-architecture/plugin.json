@@ -1,0 +1,26 @@
+{
+  "name": "agent-memory-architecture",
+  "version": "1.0.0",
+  "description": ">",
+  "author": "agent-skills-context-engineering",
+  "keywords": [
+    "ai",
+    "agent",
+    "memory"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "ai-agents",
+  "tier": "extended",
+  "token_cost": 4190,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/agent-memory-architecture/SKILL.md"
+  }
+}

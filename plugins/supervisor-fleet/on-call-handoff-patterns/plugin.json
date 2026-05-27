@@ -1,0 +1,26 @@
+{
+  "name": "on-call-handoff-patterns",
+  "version": "1.0.0",
+  "description": "Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.",
+  "author": "antigravity-awesome-skills",
+  "keywords": [
+    "supervisor",
+    "on",
+    "call"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "supervisor-fleet",
+  "tier": "extended",
+  "token_cost": 3062,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/on-call-handoff-patterns/SKILL.md"
+  }
+}

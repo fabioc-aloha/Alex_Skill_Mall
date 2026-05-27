@@ -1,0 +1,26 @@
+{
+  "name": "subagent-orchestrator",
+  "version": "1.0.0",
+  "description": "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.",
+  "author": "antigravity-awesome-skills",
+  "keywords": [
+    "supervisor",
+    "subagent",
+    "orchestrator"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "supervisor-fleet",
+  "tier": "extended",
+  "token_cost": 1621,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/subagent-orchestrator/SKILL.md"
+  }
+}

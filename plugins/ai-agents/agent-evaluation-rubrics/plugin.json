@@ -1,0 +1,26 @@
+{
+  "name": "agent-evaluation-rubrics",
+  "version": "1.0.0",
+  "description": "This skill should be used when building agent evaluation systems: deterministic checks, regression suites, multi-dimensional rubrics, quality gates, production monitoring, baseline comparison, and outcome measurement for agent pipelines.",
+  "author": "agent-skills-context-engineering",
+  "keywords": [
+    "ai",
+    "agent",
+    "evaluation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "ai-agents",
+  "tier": "extended",
+  "token_cost": 4278,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/agent-evaluation-rubrics/SKILL.md"
+  }
+}

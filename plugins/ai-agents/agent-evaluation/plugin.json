@@ -1,0 +1,26 @@
+{
+  "name": "agent-evaluation",
+  "version": "1.0.0",
+  "description": "Testing and benchmarking LLM agents including behavioral testing,",
+  "author": "antigravity-awesome-skills",
+  "keywords": [
+    "ai",
+    "agent",
+    "evaluation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "ai-agents",
+  "tier": "extended",
+  "token_cost": 9522,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/agent-evaluation/SKILL.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "bdi-mental-states",
+  "version": "1.0.0",
+  "description": "This skill should be used when modeling agent mental states with BDI concepts: beliefs, desires, intentions, RDF-to-belief transformations, rational agency traces, cognitive agents, BDI ontologies, and neuro-symbolic AI integration.",
+  "author": "agent-skills-context-engineering",
+  "keywords": [
+    "ai",
+    "bdi",
+    "mental"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "ai-agents",
+  "tier": "extended",
+  "token_cost": 4525,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/bdi-mental-states/SKILL.md"
+  }
+}

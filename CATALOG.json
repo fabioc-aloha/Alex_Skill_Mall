@@ -1,12 +1,16 @@
 {
   "schema_version": "2.1",
-  "generated_at": "2026-05-27T00:29:08.796Z",
-  "plugin_count": 347,
+  "generated_at": "2026-05-27T00:38:49.300Z",
+  "plugin_count": 360,
   "category_count": 21,
   "categories": [
     {
       "name": "media-graphics",
       "count": 37
+    },
+    {
+      "name": "ai-agents",
+      "count": 30
     },
     {
       "name": "security-privacy",
@@ -33,12 +37,12 @@
       "count": 24
     },
     {
-      "name": "ai-agents",
-      "count": 19
-    },
-    {
       "name": "academic-research",
       "count": 17
+    },
+    {
+      "name": "supervisor-fleet",
+      "count": 16
     },
     {
       "name": "productivity",
@@ -50,10 +54,6 @@
     },
     {
       "name": "platform-tooling",
-      "count": 14
-    },
-    {
-      "name": "supervisor-fleet",
       "count": 14
     },
     {
@@ -607,6 +607,52 @@
       ]
     },
     {
+      "name": "agent-evaluation",
+      "title": "agent-evaluation",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 9522,
+      "description": "Testing and benchmarking LLM agents including behavioral testing,",
+      "keywords": [
+        "ai",
+        "agent",
+        "evaluation"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/agent-evaluation",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "agent-evaluation-rubrics",
+      "title": "agent-evaluation-rubrics",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4278,
+      "description": "This skill should be used when building agent evaluation systems: deterministic checks, regression suites, multi-dimensional rubrics, quality gates, production monitoring, baseline comparison, and outcome measurement for agent pipelines.",
+      "keywords": [
+        "ai",
+        "agent",
+        "evaluation"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/agent-evaluation-rubrics",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "agent-governance",
       "title": "agent-governance",
       "category": "ai-agents",
@@ -624,6 +670,29 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/ai-agents/agent-governance",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "agent-memory-architecture",
+      "title": "agent-memory-architecture",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4190,
+      "description": ">",
+      "keywords": [
+        "ai",
+        "agent",
+        "memory"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/agent-memory-architecture",
       "artifacts": [
         "SKILL.md"
       ]
@@ -647,6 +716,52 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/ai-agents/agent-supply-chain",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "agent-tool-design",
+      "title": "agent-tool-design",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 5096,
+      "description": "This skill should be used for the tool-interface layer of an agent system specifically: writing tool descriptions agents can route on, designing tool schemas and response formats, naming conventions, actionable error recovery messages, MCP server design, tool-set consolidation, and deciding when to add or remove an individual tool. Use this when the unit of work is a single tool or a set of tools. Route project-shape, pipeline architecture, and task-model-fit decisions to project-development; route deciding whether to introduce sub-agents to multi-agent-patterns.",
+      "keywords": [
+        "ai",
+        "agent",
+        "tool"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/agent-tool-design",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "agentic-actions-auditor",
+      "title": "agentic-actions-auditor",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 5286,
+      "description": ">",
+      "keywords": [
+        "ai",
+        "agentic",
+        "actions"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/agentic-actions-auditor",
       "artifacts": [
         "SKILL.md"
       ]
@@ -702,6 +817,29 @@
       ]
     },
     {
+      "name": "bdi-mental-states",
+      "title": "bdi-mental-states",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4525,
+      "description": "This skill should be used when modeling agent mental states with BDI concepts: beliefs, desires, intentions, RDF-to-belief transformations, rational agency traces, cognitive agents, BDI ontologies, and neuro-symbolic AI integration.",
+      "keywords": [
+        "ai",
+        "bdi",
+        "mental"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/bdi-mental-states",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "chat-participant-patterns",
       "title": "chat-participant-patterns",
       "category": "ai-agents",
@@ -749,6 +887,52 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/ai-agents/content-safety-implementation",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "context-compression",
+      "title": "context-compression",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4618,
+      "description": "This skill should be used when long-running agent sessions need context compression, structured summarization, compaction, token-per-task optimization, or durable handoff summaries that preserve decisions, files, risks, and next actions.",
+      "keywords": [
+        "ai",
+        "context",
+        "compression"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/context-compression",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "context-degradation",
+      "title": "context-degradation",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4843,
+      "description": "This skill should be used for diagnosing and mitigating context degradation: lost-in-middle failures, context poisoning, context clash, context confusion, attention-pattern issues, and agent performance degradation caused by accumulated or conflicting context.",
+      "keywords": [
+        "ai",
+        "context",
+        "degradation"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/context-degradation",
       "artifacts": [
         "SKILL.md"
       ]
@@ -834,6 +1018,29 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/ai-agents/foundry-agent-platform",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "hosted-agents",
+      "title": "hosted-agents",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4504,
+      "description": "This skill should be used when designing hosted or background agent infrastructure: sandboxed execution, remote coding environments, warm pools, session persistence, multiplayer collaboration, self-spawning agents, or Modal-style sandboxes.",
+      "keywords": [
+        "ai",
+        "hosted",
+        "agents"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/hosted-agents",
       "artifacts": [
         "SKILL.md"
       ]
@@ -947,6 +1154,29 @@
       ]
     },
     {
+      "name": "multi-agent-architect",
+      "title": "multi-agent-architect",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 3137,
+      "description": "Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.",
+      "keywords": [
+        "ai",
+        "multi",
+        "agent"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/multi-agent-architect",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "multi-agent-orchestration",
       "title": "multi-agent-orchestration",
       "category": "ai-agents",
@@ -970,6 +1200,29 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/ai-agents/multi-agent-orchestration",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "multi-agent-patterns",
+      "title": "multi-agent-patterns",
+      "category": "ai-agents",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4714,
+      "description": "This skill should be used when designing multi-agent systems that need context isolation, supervisor or swarm coordination, explicit handoffs, parallel execution, or a decision on whether multiple agents are justified.",
+      "keywords": [
+        "ai",
+        "multi",
+        "agent"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/ai-agents/multi-agent-patterns",
       "artifacts": [
         "SKILL.md"
       ]
@@ -9311,6 +9564,29 @@
       ]
     },
     {
+      "name": "on-call-handoff-patterns",
+      "title": "on-call-handoff-patterns",
+      "category": "supervisor-fleet",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 3062,
+      "description": "Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.",
+      "keywords": [
+        "supervisor",
+        "on",
+        "call"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/supervisor-fleet/on-call-handoff-patterns",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "release-process",
       "title": "release-process",
       "category": "supervisor-fleet",
@@ -9469,6 +9745,29 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/supervisor-fleet/store-evaluation",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "subagent-orchestrator",
+      "title": "subagent-orchestrator",
+      "category": "supervisor-fleet",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1621,
+      "description": "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.",
+      "keywords": [
+        "supervisor",
+        "subagent",
+        "orchestrator"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/supervisor-fleet/subagent-orchestrator",
       "artifacts": [
         "SKILL.md"
       ]

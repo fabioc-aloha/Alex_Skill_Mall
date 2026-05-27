@@ -1,0 +1,26 @@
+{
+  "name": "context-compression",
+  "version": "1.0.0",
+  "description": "This skill should be used when long-running agent sessions need context compression, structured summarization, compaction, token-per-task optimization, or durable handoff summaries that preserve decisions, files, risks, and next actions.",
+  "author": "agent-skills-context-engineering",
+  "keywords": [
+    "ai",
+    "context",
+    "compression"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "ai-agents",
+  "tier": "extended",
+  "token_cost": 4618,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/context-compression/SKILL.md"
+  }
+}

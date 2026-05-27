@@ -1,0 +1,26 @@
+{
+  "name": "context-degradation",
+  "version": "1.0.0",
+  "description": "This skill should be used for diagnosing and mitigating context degradation: lost-in-middle failures, context poisoning, context clash, context confusion, attention-pattern issues, and agent performance degradation caused by accumulated or conflicting context.",
+  "author": "agent-skills-context-engineering",
+  "keywords": [
+    "ai",
+    "context",
+    "degradation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "ai-agents",
+  "tier": "extended",
+  "token_cost": 4843,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/context-degradation/SKILL.md"
+  }
+}

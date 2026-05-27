@@ -1,0 +1,26 @@
+{
+  "name": "hosted-agents",
+  "version": "1.0.0",
+  "description": "This skill should be used when designing hosted or background agent infrastructure: sandboxed execution, remote coding environments, warm pools, session persistence, multiplayer collaboration, self-spawning agents, or Modal-style sandboxes.",
+  "author": "agent-skills-context-engineering",
+  "keywords": [
+    "ai",
+    "hosted",
+    "agents"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "ai-agents",
+  "tier": "extended",
+  "token_cost": 4504,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/hosted-agents/SKILL.md"
+  }
+}
