@@ -1,0 +1,29 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "Guided, section-by-section GDD authoring for a single game system. Gathers context from existing docs, walks through each required section collaboratively, cross-references dependencies, and writes incrementally to file.",
+  "author": "game-studios",
+  "source": {
+    "store": "game-studios",
+    "path": ".claude/skills/design-system",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "media-graphics"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "media-graphics",
+  "tier": "extended",
+  "token_cost": 10557,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/design-system/SKILL.md"
+  }
+}

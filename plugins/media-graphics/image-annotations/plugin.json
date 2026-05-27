@@ -1,0 +1,29 @@
+{
+  "name": "image-annotations",
+  "version": "1.0.0",
+  "description": "Annotate screenshots, diagrams, and images with callout rectangles, arrows, labels, and color-coded highlights using PIL. Includes rules for animated GIF annotations with timing and pacing.",
+  "author": "awesome-copilot",
+  "source": {
+    "store": "awesome-copilot",
+    "path": "skills/image-annotations",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "media-graphics"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "media-graphics",
+  "tier": "extended",
+  "token_cost": 5956,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/image-annotations/SKILL.md"
+  }
+}

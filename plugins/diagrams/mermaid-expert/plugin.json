@@ -1,0 +1,29 @@
+{
+  "name": "mermaid-expert",
+  "version": "1.0.0",
+  "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.",
+  "author": "antigravity-awesome-skills",
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "skills/mermaid-expert",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "diagrams"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "diagrams",
+  "tier": "extended",
+  "token_cost": 530,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/mermaid-expert/SKILL.md"
+  }
+}

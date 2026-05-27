@@ -1,0 +1,29 @@
+{
+  "name": "image-studio",
+  "version": "1.0.0",
+  "description": "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.",
+  "author": "antigravity-awesome-skills",
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "skills/image-studio",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "image-generation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "image-generation",
+  "tier": "extended",
+  "token_cost": 2420,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/image-studio/SKILL.md"
+  }
+}

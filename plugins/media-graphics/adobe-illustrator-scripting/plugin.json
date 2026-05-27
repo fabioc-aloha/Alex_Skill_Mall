@@ -1,0 +1,29 @@
+{
+  "name": "adobe-illustrator-scripting",
+  "version": "1.0.0",
+  "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols, artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, coordinate system, measurement units, export workflows, and scripting best practices.",
+  "author": "awesome-copilot",
+  "source": {
+    "store": "awesome-copilot",
+    "path": "skills/adobe-illustrator-scripting",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "media-graphics"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "media-graphics",
+  "tier": "extended",
+  "token_cost": 5794,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/adobe-illustrator-scripting/SKILL.md"
+  }
+}

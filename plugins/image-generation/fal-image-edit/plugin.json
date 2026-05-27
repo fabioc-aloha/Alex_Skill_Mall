@@ -1,0 +1,29 @@
+{
+  "name": "fal-image-edit",
+  "version": "1.0.0",
+  "description": "AI-powered image editing with style transfer and object removal",
+  "author": "antigravity-awesome-skills",
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "skills/fal-image-edit",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "image-generation"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "image-generation",
+  "tier": "extended",
+  "token_cost": 276,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/fal-image-edit/SKILL.md"
+  }
+}

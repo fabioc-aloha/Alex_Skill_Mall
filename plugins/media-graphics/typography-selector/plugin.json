@@ -1,0 +1,29 @@
+{
+  "name": "typography-selector",
+  "version": "1.0.0",
+  "description": "Browse and select fonts from Google Fonts or curated pairings. Use to find the perfect typography for a design project.",
+  "author": "buildwithclaude",
+  "source": {
+    "store": "buildwithclaude",
+    "path": "plugins/frontend-design-pro/skills/typography-selector",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "media-graphics"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "media-graphics",
+  "tier": "extended",
+  "token_cost": 1605,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/typography-selector/SKILL.md"
+  }
+}

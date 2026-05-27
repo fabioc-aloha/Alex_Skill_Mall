@@ -1,0 +1,29 @@
+{
+  "name": "seek-and-analyze-video",
+  "version": "1.0.0",
+  "description": "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence",
+  "author": "antigravity-awesome-skills",
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "skills/seek-and-analyze-video",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "media-graphics"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "media-graphics",
+  "tier": "extended",
+  "token_cost": 1021,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/seek-and-analyze-video/SKILL.md"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "excalidraw-diagram-generator",
+  "version": "1.0.0",
+  "description": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or \"generate an Excalidraw file\". Supports flowcharts, relationship diagrams, mind maps, and system architecture diagrams. Outputs .excalidraw JSON files that can be opened directly in Excalidraw.",
+  "author": "awesome-copilot",
+  "source": {
+    "store": "awesome-copilot",
+    "path": "skills/excalidraw-diagram-generator",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "diagrams"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "diagrams",
+  "tier": "extended",
+  "token_cost": 5925,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/excalidraw-diagram-generator/SKILL.md"
+  }
+}

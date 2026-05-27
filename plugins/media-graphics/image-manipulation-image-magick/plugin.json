@@ -1,0 +1,29 @@
+{
+  "name": "image-manipulation-image-magick",
+  "version": "1.0.0",
+  "description": "Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata. Use when working with images, creating thumbnails, resizing wallpapers, or performing batch image operations.",
+  "author": "awesome-copilot",
+  "source": {
+    "store": "awesome-copilot",
+    "path": "skills/image-manipulation-image-magick",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "media-graphics"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "media-graphics",
+  "tier": "extended",
+  "token_cost": 1741,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/image-manipulation-image-magick/SKILL.md"
+  }
+}

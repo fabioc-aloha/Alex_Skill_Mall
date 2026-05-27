@@ -1,9 +1,13 @@
 {
   "schema_version": "2.1",
-  "generated_at": "2026-05-27T00:08:16.483Z",
-  "plugin_count": 308,
-  "category_count": 17,
+  "generated_at": "2026-05-27T00:14:41.967Z",
+  "plugin_count": 332,
+  "category_count": 20,
   "categories": [
+    {
+      "name": "media-graphics",
+      "count": 37
+    },
     {
       "name": "security-privacy",
       "count": 30
@@ -27,10 +31,6 @@
     {
       "name": "code-quality",
       "count": 24
-    },
-    {
-      "name": "media-graphics",
-      "count": 22
     },
     {
       "name": "ai-agents",
@@ -69,11 +69,67 @@
       "count": 9
     },
     {
+      "name": "image-generation",
+      "count": 4
+    },
+    {
+      "name": "diagrams",
+      "count": 3
+    },
+    {
+      "name": "3d-graphics",
+      "count": 2
+    },
+    {
       "name": "bioinformatics",
       "count": 1
     }
   ],
   "plugins": [
+    {
+      "name": "spline-3d-integration",
+      "title": "spline-3d-integration",
+      "category": "3d-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1200,
+      "description": "Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API.",
+      "keywords": [
+        "3d-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/3d-graphics/spline-3d-integration",
+      "artifacts": [
+        "examples",
+        "guides",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "threejs-animation",
+      "title": "threejs-animation",
+      "category": "3d-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 3537,
+      "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.",
+      "keywords": [
+        "3d-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/3d-graphics/threejs-animation",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
     {
       "name": "academic-editorial-judgment",
       "title": "academic-editorial-judgment",
@@ -4911,6 +4967,75 @@
       ]
     },
     {
+      "name": "draw-io-diagram-generator",
+      "title": "draw-io-diagram-generator",
+      "category": "diagrams",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4884,
+      "description": "Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph XML authoring, shape libraries, style strings, flowcharts, system architecture, sequence diagrams, ER diagrams, UML class diagrams, network topology, layout strategy, the hediet.vscode-drawio VS Code extension, and the full agent workflow from request to a ready-to-open file.",
+      "keywords": [
+        "diagrams"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/diagrams/draw-io-diagram-generator",
+      "artifacts": [
+        "assets",
+        "references",
+        "scripts",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "excalidraw-diagram-generator",
+      "title": "excalidraw-diagram-generator",
+      "category": "diagrams",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 5925,
+      "description": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or \"generate an Excalidraw file\". Supports flowcharts, relationship diagrams, mind maps, and system architecture diagrams. Outputs .excalidraw JSON files that can be opened directly in Excalidraw.",
+      "keywords": [
+        "diagrams"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/diagrams/excalidraw-diagram-generator",
+      "artifacts": [
+        "references",
+        "scripts",
+        "SKILL.md",
+        "templates"
+      ]
+    },
+    {
+      "name": "mermaid-expert",
+      "title": "mermaid-expert",
+      "category": "diagrams",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 530,
+      "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.",
+      "keywords": [
+        "diagrams"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/diagrams/mermaid-expert",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "ai-writing-avoidance",
       "title": "ai-writing-avoidance",
       "category": "documentation",
@@ -6002,6 +6127,117 @@
       ]
     },
     {
+      "name": "fal-image-edit",
+      "title": "fal-image-edit",
+      "category": "image-generation",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 276,
+      "description": "AI-powered image editing with style transfer and object removal",
+      "keywords": [
+        "image-generation"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/image-generation/fal-image-edit",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "gpt-image-2",
+      "title": "gpt-image-2",
+      "category": "image-generation",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4151,
+      "description": "面向 GPT Image 2 的图像生成 / 编辑技能。可在 3 种环境下使用：(A) Garden 本地模式，通过 OpenAI 兼容接口直接出图并落盘；(B) Host-Native 模式，把本 Skill 当作提示词工程指引，把渲染好的 prompt 交给宿主 Agent 自带的图像工具出图；(C) Advisor 模式，宿主无任何图像工具时退化为高质量 prompt 顾问。涵盖 18 大类、80+ 个结构化模板，覆盖海报 / UI / 产品 / 信息图 / 学术图 / 技术架构图 / 漫画 / 头像 / 流程板 / 电影分镜 / IP 周边 / 编辑工作流等场景。",
+      "keywords": [
+        "image-generation"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/image-generation/gpt-image-2",
+      "artifacts": [
+        "manifest.json",
+        "README.zh-CN.md",
+        "references",
+        "scripts",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "image-studio",
+      "title": "image-studio",
+      "category": "image-generation",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2420,
+      "description": "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.",
+      "keywords": [
+        "image-generation"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/image-generation/image-studio",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "imagen",
+      "title": "imagen",
+      "category": "image-generation",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 735,
+      "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
+      "keywords": [
+        "image-generation"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/image-generation/imagen",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "adobe-illustrator-scripting",
+      "title": "adobe-illustrator-scripting",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 5794,
+      "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols, artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, coordinate system, measurement units, export workflows, and scripting best practices.",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/adobe-illustrator-scripting",
+      "artifacts": [
+        "references",
+        "scripts",
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "alex-banner-generation",
       "title": "alex-banner-generation",
       "category": "media-graphics",
@@ -6054,6 +6290,28 @@
       "requires_plugins": [],
       "path": "plugins/media-graphics/brand-asset-management",
       "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "color-curator",
+      "title": "color-curator",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1381,
+      "description": "Browse and select color palettes from Coolors or curated fallbacks. Use to find the perfect color palette for a design project.",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/color-curator",
+      "artifacts": [
+        "references",
         "SKILL.md"
       ]
     },
@@ -6115,6 +6373,27 @@
       ]
     },
     {
+      "name": "design-system",
+      "title": "design-system",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 10557,
+      "description": "Guided, section-by-section GDD authoring for a single game system. Gathers context from existing docs, walks through each required section collaboratively, cross-references dependencies, and writes incrementally to file.",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/design-system",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "document-banner-pastel",
       "title": "document-banner-pastel",
       "category": "media-graphics",
@@ -6138,6 +6417,90 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/media-graphics/document-banner-pastel",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "fal-audio",
+      "title": "fal-audio",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 267,
+      "description": "Text-to-speech and speech-to-text using fal.ai audio models",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/fal-audio",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "fal-upscale",
+      "title": "fal-upscale",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 265,
+      "description": "Upscale and enhance image and video resolution using AI",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/fal-upscale",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "favicon",
+      "title": "favicon",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2479,
+      "description": "Generate favicons from a source image",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/favicon",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "figma-automation",
+      "title": "figma-automation",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1886,
+      "description": "Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/figma-automation",
       "artifacts": [
         "SKILL.md"
       ]
@@ -6199,6 +6562,48 @@
       ]
     },
     {
+      "name": "iconsax-library",
+      "title": "iconsax-library",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 613,
+      "description": "iconsax-library (imported from antigravity-awesome-skills)",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/iconsax-library",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "image-annotations",
+      "title": "image-annotations",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 5956,
+      "description": "Annotate screenshots, diagrams, and images with callout rectangles, arrows, labels, and color-coded highlights using PIL. Includes rules for animated GIF annotations with timing and pacing.",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/image-annotations",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "image-embedding-size-limits",
       "title": "image-embedding-size-limits",
       "category": "media-graphics",
@@ -6255,6 +6660,27 @@
       ]
     },
     {
+      "name": "image-manipulation-image-magick",
+      "title": "image-manipulation-image-magick",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1741,
+      "description": "Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata. Use when working with images, creating thumbnails, resizing wallpapers, or performing batch image operations.",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/image-manipulation-image-magick",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "image-storage-embedding-split",
       "title": "image-storage-embedding-split",
       "category": "media-graphics",
@@ -6279,6 +6705,30 @@
       "requires_plugins": [],
       "path": "plugins/media-graphics/image-storage-embedding-split",
       "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "latex-posters",
+      "title": "latex-posters",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 15149,
+      "description": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/latex-posters",
+      "artifacts": [
+        "assets",
+        "references",
+        "scripts",
         "SKILL.md"
       ]
     },
@@ -6367,6 +6817,28 @@
       ]
     },
     {
+      "name": "penpot-uiux-design",
+      "title": "penpot-uiux-design",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 3026,
+      "description": "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design systems with components and tokens, (3) Designing dashboards, forms, navigation, or landing pages, (4) Applying accessibility standards and best practices, (5) Following platform guidelines (iOS, Android, Material Design), (6) Reviewing or improving existing Penpot designs for usability. Triggers: \"design a UI\", \"create interface\", \"build layout\", \"design dashboard\", \"create form\", \"design landing page\", \"make it accessible\", \"design system\", \"component library\".",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/penpot-uiux-design",
+      "artifacts": [
+        "references",
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "pptx-generation",
       "title": "pptx-generation",
       "category": "media-graphics",
@@ -6390,6 +6862,27 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/media-graphics/pptx-generation",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "seek-and-analyze-video",
+      "title": "seek-and-analyze-video",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1021,
+      "description": "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/seek-and-analyze-video",
       "artifacts": [
         "SKILL.md"
       ]
@@ -6562,6 +7055,28 @@
       ]
     },
     {
+      "name": "typography-selector",
+      "title": "typography-selector",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1605,
+      "description": "Browse and select fonts from Google Fonts or curated pairings. Use to find the perfect typography for a design project.",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/typography-selector",
+      "artifacts": [
+        "references",
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "ui-ux-design",
       "title": "ui-ux-design",
       "category": "media-graphics",
@@ -6612,6 +7127,27 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/media-graphics/video-generation",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "voice-agents",
+      "title": "voice-agents",
+      "category": "media-graphics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 6768,
+      "description": "Voice agents represent the frontier of AI interaction - humans",
+      "keywords": [
+        "media-graphics"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/media-graphics/voice-agents",
       "artifacts": [
         "SKILL.md"
       ]

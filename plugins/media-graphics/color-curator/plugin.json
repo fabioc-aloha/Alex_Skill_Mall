@@ -1,0 +1,29 @@
+{
+  "name": "color-curator",
+  "version": "1.0.0",
+  "description": "Browse and select color palettes from Coolors or curated fallbacks. Use to find the perfect color palette for a design project.",
+  "author": "buildwithclaude",
+  "source": {
+    "store": "buildwithclaude",
+    "path": "plugins/frontend-design-pro/skills/color-curator",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "media-graphics"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "media-graphics",
+  "tier": "extended",
+  "token_cost": 1381,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/color-curator/SKILL.md"
+  }
+}

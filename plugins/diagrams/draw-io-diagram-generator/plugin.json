@@ -1,0 +1,29 @@
+{
+  "name": "draw-io-diagram-generator",
+  "version": "1.0.0",
+  "description": "Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph XML authoring, shape libraries, style strings, flowcharts, system architecture, sequence diagrams, ER diagrams, UML class diagrams, network topology, layout strategy, the hediet.vscode-drawio VS Code extension, and the full agent workflow from request to a ready-to-open file.",
+  "author": "awesome-copilot",
+  "source": {
+    "store": "awesome-copilot",
+    "path": "skills/draw-io-diagram-generator",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "diagrams"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "diagrams",
+  "tier": "extended",
+  "token_cost": 4884,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/draw-io-diagram-generator/SKILL.md"
+  }
+}
