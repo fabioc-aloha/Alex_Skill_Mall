@@ -9848,6 +9848,58 @@
       "artifacts": [
         "SKILL.md"
       ]
+    },
+    {
+      "name": "github-actions-expert",
+      "title": "GitHub Actions Expert",
+      "category": "devops-process",
+      "shape": "..A.",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 3200,
+      "description": "GitHub Actions specialist focused on secure CI/CD workflows, action pinning, OIDC authentication, permissions least privilege, and supply-chain security.",
+      "keywords": [
+        "github-actions",
+        "ci-cd",
+        "supply-chain-security",
+        "oidc",
+        "action-pinning",
+        "workflows"
+      ],
+      "requires_edition": ">=2.0.0",
+      "requires_plugins": [],
+      "path": "plugins/devops-process/github-actions-expert",
+      "artifacts": [
+        "AGENT.md"
+      ]
+    },
+    {
+      "name": "context-architect",
+      "title": "Context Architect",
+      "category": "architecture-patterns",
+      "shape": "..A.",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1200,
+      "description": "Plans and executes multi-file changes by mapping context, tracing dependencies, identifying patterns, and sequencing modifications before touching code.",
+      "keywords": [
+        "architecture",
+        "refactoring",
+        "multi-file",
+        "dependencies",
+        "context-mapping",
+        "planning"
+      ],
+      "requires_edition": ">=2.0.0",
+      "requires_plugins": [],
+      "path": "plugins/architecture-patterns/context-architect",
+      "artifacts": [
+        "AGENT.md"
+      ]
     }
   ]
 }

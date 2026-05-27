@@ -1,0 +1,34 @@
+{
+  "name": "github-actions-expert",
+  "version": "1.0.0",
+  "description": "GitHub Actions specialist focused on secure CI/CD workflows, action pinning, OIDC authentication, permissions least privilege, and supply-chain security.",
+  "author": {
+    "name": "ACT Plugin Mall",
+    "source": "awesome-copilot/agents/github-actions-expert.agent.md"
+  },
+  "keywords": [
+    "github-actions",
+    "ci-cd",
+    "supply-chain-security",
+    "oidc",
+    "action-pinning",
+    "workflows",
+    "dependabot",
+    "security-hardening"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": "..A.",
+  "category": "devops-process",
+  "tier": "standard",
+  "token_cost": 3200,
+  "requires_edition": ">=2.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "agent": "AGENT.md"
+  },
+  "install_paths": {
+    "agent": ".github/agents/github-actions-expert.agent.md"
+  }
+}
