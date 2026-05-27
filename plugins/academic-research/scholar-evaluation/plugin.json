@@ -1,0 +1,36 @@
+{
+  "name": "scholar-evaluation",
+  "version": "1.0.0",
+  "description": "Systematically evaluate scholarly work using the ScholarEval framework, providing structured assessment across research quality dimensions.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "k-dense-scientific-agent-skills",
+    "path": "k-dense-scientific-agent-skills/scientific-skills/scholar-evaluation",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "evaluation",
+    "scholarly",
+    "peer-review",
+    "assessment",
+    "research",
+    "quality"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 3139,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/scholar-evaluation/SKILL.md"
+  }
+}

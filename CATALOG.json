@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
-  "generated_at": "2026-05-26T03:02:54.360Z",
-  "plugin_count": 297,
-  "category_count": 16,
+  "generated_at": "2026-05-27T00:08:16.483Z",
+  "plugin_count": 308,
+  "category_count": 17,
   "categories": [
     {
       "name": "security-privacy",
@@ -37,6 +37,10 @@
       "count": 19
     },
     {
+      "name": "academic-research",
+      "count": 17
+    },
+    {
       "name": "reasoning-metacognition",
       "count": 15
     },
@@ -65,8 +69,8 @@
       "count": 9
     },
     {
-      "name": "academic-research",
-      "count": 7
+      "name": "bioinformatics",
+      "count": 1
     }
   ],
   "plugins": [
@@ -127,6 +131,36 @@
       ]
     },
     {
+      "name": "academic-paper-reviewer",
+      "title": "academic-paper-reviewer",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 6205,
+      "description": "Multi-perspective academic paper review with dynamic reviewer personas. Simulates 5 independent reviewers (EIC + 3 peer reviewers + devil's advocate) for manuscript critique.",
+      "keywords": [
+        "peer-review",
+        "academic",
+        "manuscript",
+        "review",
+        "reviewer-personas",
+        "editorial"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/academic-paper-reviewer",
+      "artifacts": [
+        "agents",
+        "examples",
+        "references",
+        "SKILL.md",
+        "templates"
+      ]
+    },
+    {
       "name": "academic-research",
       "title": "academic-research",
       "category": "academic-research",
@@ -183,6 +217,111 @@
       ]
     },
     {
+      "name": "deep-dive",
+      "title": "deep-dive",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1559,
+      "description": "Claude-native deep research using DAG-based query planning, parallel subagent execution, and gap-driven iteration. No external dependencies.",
+      "keywords": [
+        "deep-research",
+        "dag-planning",
+        "parallel-subagents",
+        "iterative",
+        "synthesis"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/deep-dive",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "hugging-face-papers",
+      "title": "hugging-face-papers",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2447,
+      "description": "Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API metadata.",
+      "keywords": [
+        "huggingface",
+        "arxiv",
+        "paper",
+        "metadata",
+        "ai-research",
+        "ml-papers"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/hugging-face-papers",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "ii-commons",
+      "title": "ii-commons",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1072,
+      "description": "Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs.",
+      "keywords": [
+        "arxiv",
+        "pubmed",
+        "pmc",
+        "policy",
+        "retrieval",
+        "deterministic-search",
+        "research"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/ii-commons",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "latex-paper-conversion",
+      "title": "latex-paper-conversion",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1103,
+      "description": "Convert academic papers in LaTeX from one format to another (Springer, IPOL, MDPI, IEEE, Nature). Automates extraction, injection, formatting, and compilation.",
+      "keywords": [
+        "latex",
+        "academic-paper",
+        "format-conversion",
+        "springer",
+        "ieee",
+        "nature",
+        "mdpi"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/latex-paper-conversion",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "literature-review",
       "title": "literature-review",
       "category": "academic-research",
@@ -211,6 +350,91 @@
       ]
     },
     {
+      "name": "literature-review-multidb",
+      "title": "literature-review-multidb",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 7180,
+      "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar) with citation verification, PDF rendering, and schematic generation.",
+      "keywords": [
+        "literature-review",
+        "systematic-review",
+        "multi-database",
+        "citations",
+        "academic",
+        "research"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/literature-review-multidb",
+      "artifacts": [
+        "assets",
+        "references",
+        "scripts",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "paper-lookup",
+      "title": "paper-lookup",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2457,
+      "description": "Search 10 academic paper databases via REST APIs (PubMed, arXiv, bioRxiv, Semantic Scholar, OpenAlex, CrossRef, PMC, medRxiv, CORE, and more) for research papers, preprints, and scholarly articles.",
+      "keywords": [
+        "academic",
+        "search",
+        "arxiv",
+        "pubmed",
+        "semantic-scholar",
+        "preprint",
+        "research"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/paper-lookup",
+      "artifacts": [
+        "references",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "presenting-conference-talks",
+      "title": "presenting-conference-talks",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2603,
+      "description": "Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and slide templates.",
+      "keywords": [
+        "conference",
+        "presentation",
+        "beamer",
+        "latex",
+        "pptx",
+        "slides",
+        "academic"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/presenting-conference-talks",
+      "artifacts": [
+        "references",
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "research-first-development",
       "title": "research-first-development",
       "category": "academic-research",
@@ -235,6 +459,62 @@
       "requires_plugins": [],
       "path": "plugins/academic-research/research-first-development",
       "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "research-summarizer",
+      "title": "research-summarizer",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2425,
+      "description": "Structured research summarization for non-dev users. Handles academic papers, web articles, reports, and documents with citation format support and summary templates.",
+      "keywords": [
+        "research",
+        "summarization",
+        "academic",
+        "non-technical",
+        "citations",
+        "reports"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/research-summarizer",
+      "artifacts": [
+        "references",
+        "scripts",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "scholar-evaluation",
+      "title": "scholar-evaluation",
+      "category": "academic-research",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 3139,
+      "description": "Systematically evaluate scholarly work using the ScholarEval framework, providing structured assessment across research quality dimensions.",
+      "keywords": [
+        "evaluation",
+        "scholarly",
+        "peer-review",
+        "assessment",
+        "research",
+        "quality"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/academic-research/scholar-evaluation",
+      "artifacts": [
+        "references",
+        "scripts",
         "SKILL.md"
       ]
     },
@@ -1133,6 +1413,35 @@
       "requires_plugins": [],
       "path": "plugins/architecture-patterns/workflow-orchestration-patterns",
       "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "biopython",
+      "title": "biopython",
+      "category": "bioinformatics",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 3567,
+      "description": "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, alignment, BLAST, and structure analysis with Biopython.",
+      "keywords": [
+        "biopython",
+        "bioinformatics",
+        "sequence",
+        "fasta",
+        "genbank",
+        "blast",
+        "phylogenetics",
+        "molecular-biology"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/bioinformatics/biopython",
+      "artifacts": [
+        "references",
         "SKILL.md"
       ]
     },

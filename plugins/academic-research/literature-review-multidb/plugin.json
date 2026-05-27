@@ -1,0 +1,36 @@
+{
+  "name": "literature-review-multidb",
+  "version": "1.0.0",
+  "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar) with citation verification, PDF rendering, and schematic generation.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "k-dense-scientific-agent-skills",
+    "path": "k-dense-scientific-agent-skills/scientific-skills/literature-review",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "literature-review",
+    "systematic-review",
+    "multi-database",
+    "citations",
+    "academic",
+    "research"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 7180,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/literature-review-multidb/SKILL.md"
+  }
+}

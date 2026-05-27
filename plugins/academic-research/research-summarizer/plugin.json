@@ -1,0 +1,36 @@
+{
+  "name": "research-summarizer",
+  "version": "1.0.0",
+  "description": "Structured research summarization for non-dev users. Handles academic papers, web articles, reports, and documents with citation format support and summary templates.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "alirezarezvani-claude-skills",
+    "path": "alirezarezvani-claude-skills/product-team/research-summarizer/skills/research-summarizer",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "research",
+    "summarization",
+    "academic",
+    "non-technical",
+    "citations",
+    "reports"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 2425,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/research-summarizer/SKILL.md"
+  }
+}

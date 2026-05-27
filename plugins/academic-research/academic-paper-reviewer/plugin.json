@@ -1,0 +1,36 @@
+{
+  "name": "academic-paper-reviewer",
+  "version": "1.0.0",
+  "description": "Multi-perspective academic paper review with dynamic reviewer personas. Simulates 5 independent reviewers (EIC + 3 peer reviewers + devil's advocate) for manuscript critique.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "imbad-academic-research-skills",
+    "path": "imbad-academic-research-skills/academic-paper-reviewer",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "peer-review",
+    "academic",
+    "manuscript",
+    "review",
+    "reviewer-personas",
+    "editorial"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 6205,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/academic-paper-reviewer/SKILL.md"
+  }
+}

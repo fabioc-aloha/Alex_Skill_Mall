@@ -1,0 +1,37 @@
+{
+  "name": "paper-lookup",
+  "version": "1.0.0",
+  "description": "Search 10 academic paper databases via REST APIs (PubMed, arXiv, bioRxiv, Semantic Scholar, OpenAlex, CrossRef, PMC, medRxiv, CORE, and more) for research papers, preprints, and scholarly articles.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "k-dense-scientific-agent-skills",
+    "path": "k-dense-scientific-agent-skills/scientific-skills/paper-lookup",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "academic",
+    "search",
+    "arxiv",
+    "pubmed",
+    "semantic-scholar",
+    "preprint",
+    "research"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 2457,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/paper-lookup/SKILL.md"
+  }
+}

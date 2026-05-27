@@ -1,0 +1,37 @@
+{
+  "name": "latex-paper-conversion",
+  "version": "1.0.0",
+  "description": "Convert academic papers in LaTeX from one format to another (Springer, IPOL, MDPI, IEEE, Nature). Automates extraction, injection, formatting, and compilation.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/latex-paper-conversion",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "latex",
+    "academic-paper",
+    "format-conversion",
+    "springer",
+    "ieee",
+    "nature",
+    "mdpi"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 1103,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/latex-paper-conversion/SKILL.md"
+  }
+}

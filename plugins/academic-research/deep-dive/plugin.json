@@ -1,0 +1,35 @@
+{
+  "name": "deep-dive",
+  "version": "1.0.0",
+  "description": "Claude-native deep research using DAG-based query planning, parallel subagent execution, and gap-driven iteration. No external dependencies.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "awesome-claude-code-toolkit",
+    "path": "awesome-claude-code-toolkit/skills/deep-dive",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "deep-research",
+    "dag-planning",
+    "parallel-subagents",
+    "iterative",
+    "synthesis"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 1559,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/deep-dive/SKILL.md"
+  }
+}

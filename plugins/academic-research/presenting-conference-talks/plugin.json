@@ -1,0 +1,37 @@
+{
+  "name": "presenting-conference-talks",
+  "version": "1.0.0",
+  "description": "Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and slide templates.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "ai-research-skills",
+    "path": "ai-research-skills/20-ml-paper-writing/presenting-conference-talks",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "conference",
+    "presentation",
+    "beamer",
+    "latex",
+    "pptx",
+    "slides",
+    "academic"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 2603,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/presenting-conference-talks/SKILL.md"
+  }
+}

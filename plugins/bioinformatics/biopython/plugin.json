@@ -1,0 +1,38 @@
+{
+  "name": "biopython",
+  "version": "1.0.0",
+  "description": "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, alignment, BLAST, and structure analysis with Biopython.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "k-dense-scientific-agent-skills",
+    "path": "k-dense-scientific-agent-skills/scientific-skills/biopython",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "biopython",
+    "bioinformatics",
+    "sequence",
+    "fasta",
+    "genbank",
+    "blast",
+    "phylogenetics",
+    "molecular-biology"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "bioinformatics",
+  "tier": "extended",
+  "token_cost": 3567,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/biopython/SKILL.md"
+  }
+}

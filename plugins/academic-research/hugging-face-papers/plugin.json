@@ -1,0 +1,36 @@
+{
+  "name": "hugging-face-papers",
+  "version": "1.0.0",
+  "description": "Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API metadata.",
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/hugging-face-papers",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "huggingface",
+    "arxiv",
+    "paper",
+    "metadata",
+    "ai-research",
+    "ml-papers"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "academic-research",
+  "tier": "extended",
+  "token_cost": 2447,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/hugging-face-papers/SKILL.md"
+  }
+}
