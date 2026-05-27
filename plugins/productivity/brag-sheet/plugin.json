@@ -1,0 +1,29 @@
+{
+  "name": "brag-sheet",
+  "version": "1.0.0",
+  "description": ">",
+  "author": "awesome-copilot",
+  "source": {
+    "store": "awesome-copilot",
+    "path": "skills/brag-sheet",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 2994,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/brag-sheet/SKILL.md"
+  }
+}

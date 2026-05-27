@@ -1,0 +1,29 @@
+{
+  "name": "meeting-insights-analyzer",
+  "version": "1.0.0",
+  "description": "Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for pr",
+  "author": "buildwithclaude",
+  "source": {
+    "store": "buildwithclaude",
+    "path": "plugins/all-skills/skills/meeting-insights-analyzer",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 2634,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/meeting-insights-analyzer/SKILL.md"
+  }
+}

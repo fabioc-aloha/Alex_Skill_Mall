@@ -1,0 +1,29 @@
+{
+  "name": "content-research-writer",
+  "version": "1.0.0",
+  "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+  "author": "buildwithclaude",
+  "source": {
+    "store": "buildwithclaude",
+    "path": "plugins/all-skills/skills/content-research-writer",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 3704,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/content-research-writer/SKILL.md"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
-  "generated_at": "2026-05-27T00:14:41.967Z",
-  "plugin_count": 332,
-  "category_count": 20,
+  "generated_at": "2026-05-27T00:21:16.190Z",
+  "plugin_count": 344,
+  "category_count": 21,
   "categories": [
     {
       "name": "media-graphics",
@@ -63,6 +63,10 @@
     {
       "name": "domain-expertise",
       "count": 13
+    },
+    {
+      "name": "productivity",
+      "count": 12
     },
     {
       "name": "communication-people",
@@ -7536,6 +7540,268 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/platform-tooling/vscode-extension-patterns",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "action-items-todoist",
+      "title": "action-items-todoist",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4275,
+      "description": "Extract action items from today's Granola/Grain meetings, create Todoist",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/action-items-todoist",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "agency-os",
+      "title": "agency-os",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 19737,
+      "description": "|",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/agency-os",
+      "artifacts": [
+        "references",
+        "scripts",
+        "SKILL.md",
+        "state"
+      ]
+    },
+    {
+      "name": "brag-sheet",
+      "title": "brag-sheet",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2994,
+      "description": ">",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/brag-sheet",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "bulletmind",
+      "title": "bulletmind",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1284,
+      "description": "Convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking.",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/bulletmind",
+      "artifacts": [
+        "EXAMPLES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "content-research-writer",
+      "title": "content-research-writer",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 3704,
+      "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/content-research-writer",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "title": "domain-name-brainstormer",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1485,
+      "description": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/domain-name-brainstormer",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "file-organizer",
+      "title": "file-organizer",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2945,
+      "description": "Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual ",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/file-organizer",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "internal-comms",
+      "title": "internal-comms",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 21349,
+      "description": "Use when a Head of People Ops, BizOps lead, or Internal Communications owner needs to draft and sequence an internal-only change-management communication — a re-org announcement, a tool rollout, a policy change, a benefit change, a leadership transit",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/internal-comms",
+      "artifacts": [
+        "assets",
+        "references",
+        "scripts",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "interview-coach",
+      "title": "interview-coach",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 780,
+      "description": "Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state.",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/interview-coach",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "knowledge-ops",
+      "title": "knowledge-ops",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 26147,
+      "description": "Use when a Head of Ops, Knowledge Manager, or TPM-Internal needs to author, validate, or clean up company SOPs and internal runbooks (procurement intake, vendor offboarding, incident-comms cascade, employee onboarding, expense reimbursement, system-a",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/knowledge-ops",
+      "artifacts": [
+        "assets",
+        "references",
+        "scripts",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "meeting-insights-analyzer",
+      "title": "meeting-insights-analyzer",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2634,
+      "description": "Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for pr",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/meeting-insights-analyzer",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "office-productivity",
+      "title": "office-productivity",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1291,
+      "description": "Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.",
+      "keywords": [
+        "productivity"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/office-productivity",
       "artifacts": [
         "SKILL.md"
       ]

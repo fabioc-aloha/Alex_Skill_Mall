@@ -1,0 +1,29 @@
+{
+  "name": "action-items-todoist",
+  "version": "1.0.0",
+  "description": "Extract action items from today's Granola/Grain meetings, create Todoist",
+  "author": "claude-code-plugins-plus-skills",
+  "source": {
+    "store": "claude-code-plugins-plus-skills",
+    "path": "plugins/business-tools/executive-assistant-skills/skills/action-items-todoist",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 4275,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/action-items-todoist/SKILL.md"
+  }
+}

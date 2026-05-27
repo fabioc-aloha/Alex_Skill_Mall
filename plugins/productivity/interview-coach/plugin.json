@@ -1,0 +1,29 @@
+{
+  "name": "interview-coach",
+  "version": "1.0.0",
+  "description": "Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state.",
+  "author": "antigravity-awesome-skills",
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "skills/interview-coach",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 780,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/interview-coach/SKILL.md"
+  }
+}

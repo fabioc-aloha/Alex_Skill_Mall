@@ -1,0 +1,29 @@
+{
+  "name": "internal-comms",
+  "version": "1.0.0",
+  "description": "Use when a Head of People Ops, BizOps lead, or Internal Communications owner needs to draft and sequence an internal-only change-management communication — a re-org announcement, a tool rollout, a policy change, a benefit change, a leadership transit",
+  "author": "alirezarezvani-claude-skills",
+  "source": {
+    "store": "alirezarezvani-claude-skills",
+    "path": "business-operations/skills/internal-comms",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 21349,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/internal-comms/SKILL.md"
+  }
+}

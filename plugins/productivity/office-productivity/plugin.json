@@ -1,0 +1,29 @@
+{
+  "name": "office-productivity",
+  "version": "1.0.0",
+  "description": "Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.",
+  "author": "antigravity-awesome-skills",
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "skills/office-productivity",
+    "imported": "2026-05-26"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 1291,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/office-productivity/SKILL.md"
+  }
+}
