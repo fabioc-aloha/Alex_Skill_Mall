@@ -1,0 +1,26 @@
+{
+  "name": "linkedin-post-formatter",
+  "version": "1.0.0",
+  "description": "Format LinkedIn posts with Unicode bold/italic typography that renders natively in the LinkedIn editor. No Markdown, no API.",
+  "author": "awesome-copilot",
+  "keywords": [
+    "productivity",
+    "linkedin",
+    "career"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 1411,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/linkedin-post-formatter/SKILL.md"
+  }
+}

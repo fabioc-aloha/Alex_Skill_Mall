@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
-  "generated_at": "2026-05-27T00:21:16.190Z",
-  "plugin_count": 344,
+  "generated_at": "2026-05-27T00:29:08.796Z",
+  "plugin_count": 347,
   "category_count": 21,
   "categories": [
     {
@@ -41,6 +41,10 @@
       "count": 17
     },
     {
+      "name": "productivity",
+      "count": 15
+    },
+    {
       "name": "reasoning-metacognition",
       "count": 15
     },
@@ -63,10 +67,6 @@
     {
       "name": "domain-expertise",
       "count": 13
-    },
-    {
-      "name": "productivity",
-      "count": 12
     },
     {
       "name": "communication-people",
@@ -7761,6 +7761,76 @@
         "assets",
         "references",
         "scripts",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "linkedin-automation",
+      "title": "linkedin-automation",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1745,
+      "description": "Automate LinkedIn posts, comments, profile, and image uploads via Rube MCP (https://rube.app/mcp). Free endpoint; requires LinkedIn OAuth.",
+      "keywords": [
+        "productivity",
+        "linkedin",
+        "career"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/linkedin-automation",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "linkedin-post-formatter",
+      "title": "linkedin-post-formatter",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1411,
+      "description": "Format LinkedIn posts with Unicode bold/italic typography that renders natively in the LinkedIn editor. No Markdown, no API.",
+      "keywords": [
+        "productivity",
+        "linkedin",
+        "career"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/linkedin-post-formatter",
+      "artifacts": [
+        "references",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "linkedin-profile-optimizer",
+      "title": "linkedin-profile-optimizer",
+      "category": "productivity",
+      "shape": ".S..",
+      "tier": "extended",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2631,
+      "description": "LinkedIn profile audit and rewrite -- headline, About, Experience optimized for top-1% positioning and global authority. Pure prompt, no API.",
+      "keywords": [
+        "productivity",
+        "linkedin",
+        "career"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/productivity/linkedin-profile-optimizer",
+      "artifacts": [
         "SKILL.md"
       ]
     },

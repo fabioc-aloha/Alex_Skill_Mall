@@ -1,0 +1,26 @@
+{
+  "name": "linkedin-automation",
+  "version": "1.0.0",
+  "description": "Automate LinkedIn posts, comments, profile, and image uploads via Rube MCP (https://rube.app/mcp). Free endpoint; requires LinkedIn OAuth.",
+  "author": "antigravity-awesome-skills",
+  "keywords": [
+    "productivity",
+    "linkedin",
+    "career"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 1745,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/linkedin-automation/SKILL.md"
+  }
+}

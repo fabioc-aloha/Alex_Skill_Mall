@@ -1,0 +1,26 @@
+{
+  "name": "linkedin-profile-optimizer",
+  "version": "1.0.0",
+  "description": "LinkedIn profile audit and rewrite -- headline, About, Experience optimized for top-1% positioning and global authority. Pure prompt, no API.",
+  "author": "antigravity-awesome-skills",
+  "keywords": [
+    "productivity",
+    "linkedin",
+    "career"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "category": "productivity",
+  "tier": "extended",
+  "token_cost": 2631,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/linkedin-profile-optimizer/SKILL.md"
+  }
+}
