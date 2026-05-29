@@ -4,15 +4,27 @@ All notable changes to Alex ACT Plugin Mall.
 
 ## [Unreleased]
 
-### Changed
-
-- README refreshed to match catalog reality: 360 plugins (was 301) across 21 categories (was 16), 19 knowledge packages across 9 categories (was 8)
-- Category table re-sorted by size descending; removed stale "diagrams" wording from documentation row now that `diagrams` is its own category
-
 ### Added
 
-- New categories surfaced in catalog: `productivity` (15), `image-generation` (4), `diagrams` (3), `3d-graphics` (2), `bioinformatics` (1)
-- Recent plugin additions: 13 fleet/agent-management skills, 3 free LinkedIn skills, 12 Tier-A productivity plugins, 24 media-graphics Tier-A picks, 11 academic-research/bioinformatics plugins
+- Mall brain: `copilot-instructions.md` (Mall identity, mission, duty stack, cardinal rules) + 7 always-on instructions (act-pass, critical-thinking, falsifiability-deadlines, lint-discipline, no-deferred-debt, problem-framing-audit, terminal-command-safety) + 2 skills (currency-audit, meditation) + 2 prompts (/add-source, /prune-source). Mall brain shape: 9 instructions + 6 skills + 2 prompts + 0 agents.
+- Storefront `README.md` (rendered by `render-catalog.cjs`): trust scoring section now self-contained; no longer links externally.
+- Source-registry skill rewritten as Mall-native: documents the `sources/supported-stores.json` schema, the `/add-source` and `/prune-source` flows, and the bootstrap-vs-scan rule for the `plugin-mall` self-entry.
+
+### Changed
+
+- Catalog pipeline ships as a unified scan (`scan-sources.cjs` → `normalize-frontmatter.cjs` → `list-refs.cjs` → `compute-trust.cjs` → `render-catalog.cjs`) with the `plugin-mall` self-entry scored alongside third-party stores via published trust signals (provenance +50, maintenance, adoption, license, frontmatter, README).
+- Storefront image swapped to `assets/banner.svg` hero (kept) after experimenting with a square icon variant.
+
+### Removed
+
+- `knowledge/` folder (58 files): 19 reference packages migrated to `Alex_ACT_Memory/knowledge/` where they live as the canonical home. Removal also closed an internal-repo leak in `source_store` fields.
+- `patterns/champion-challenger-cache.md`: single-file orphan migrated to `Alex_ACT_Memory/knowledge/champion-challenger-cache/`.
+- `scaffolds/vite-azure-swa/`: single-file orphan migrated to `Alex_ACT_Memory/knowledge/vite-azure-swa/`.
+- `assets/logo.svg`: unreferenced.
+- `act-aligned-plugins.md`: unreferenced and contained upstream-curator-specific framing.
+- `CATALOG.json` (root, v2.1 schema, 274 KB): superseded by `catalog/index.json` (v3.0).
+- 5 legacy migration scripts: `convert-to-plugins.cjs`, `upgrade-plugin-manifests.cjs`, `generate-catalog.cjs`, `fix-descriptions.cjs`, `fix-frontmatter.cjs` (one-shot data-cleanup and v1→v2 conversion scripts; no longer referenced by the active pipeline or workflow).
+- Stale brain-artifact references to upstream curator naming and architecture: rewritten across `copilot-instructions.md`, all instructions, all skills, prompts, scripts, and workflow comments so the Mall reads as a standalone marketplace.
 
 ---
 
