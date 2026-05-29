@@ -349,13 +349,25 @@ function main() {
     }
   }
 
-  // Trust audit summary
-  const audit = {
-    generated_at: new Date().toISOString(),
+  // Trust audit summary. Pin generated_at to prior value if nothing semantic
+  // changed — keeps the pipeline end-to-end idempotent so the weekly cron
+  // doesn't open a PR when upstream sources haven't moved.
+  const newAudit = {
     total_stores: auditStores.length,
     total_plugins: totalPlugins,
     score_distribution: scoreDistribution,
     stores_by_score: [...auditStores].sort((a, b) => b.store_score - a.store_score),
+  };
+  let priorAudit = null;
+  if (fs.existsSync(TRUST_AUDIT_PATH)) {
+    try { priorAudit = JSON.parse(fs.readFileSync(TRUST_AUDIT_PATH, 'utf-8')); } catch { /* invalid; will overwrite */ }
+  }
+  const semanticallyUnchanged = priorAudit
+    && JSON.stringify({ ...priorAudit, generated_at: undefined })
+       === JSON.stringify({ ...newAudit, generated_at: undefined });
+  const audit = {
+    generated_at: semanticallyUnchanged ? priorAudit.generated_at : new Date().toISOString(),
+    ...newAudit,
   };
 
   if (!DRY_RUN) {

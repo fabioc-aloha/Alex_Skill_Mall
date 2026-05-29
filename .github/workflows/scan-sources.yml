@@ -1,0 +1,145 @@
+name: Scan Sources
+
+on:
+  schedule:
+    - cron: '0 11 * * 1' # Every Monday at 11:00 UTC
+  workflow_dispatch:    # Manual trigger from Actions tab
+
+permissions:
+  contents: write       # Push branch + commit catalog refresh
+  pull-requests: write  # Open the catalog-refresh PR
+
+# Avoid two concurrent scans stomping on each other
+concurrency:
+  group: mall-scan-sources
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    name: Refresh catalog + trust scores
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      SOURCES_DIR: ${{ runner.temp }}/sources
+
+    steps:
+      - name: Checkout Mall repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Bootstrap source clones
+        # Shallow-clones every third-party source store into $SOURCES_DIR.
+        # plugin-mall self-entry is filtered (it's this repo, already checked out).
+        run: node scripts/bootstrap-sources.cjs
+
+      - name: Scan all 46 stores (skeleton catalog)
+        # Walks $SOURCES_DIR + this repo's plugins/ folder for self-scan.
+        # Writes catalog/stores/*.json with frontmatter.raw + readme_excerpt + shape.
+        run: node scripts/scan-sources.cjs
+
+      - name: Normalize frontmatter (3 layers per plugin)
+        # Adds standard + extended layers; never mutates raw.
+        run: node scripts/normalize-frontmatter.cjs
+
+      - name: List version refs per store
+        # Updates source_url from placeholder 'main' to actual SHA; populates
+        # available_refs (default branch + SHA + tags).
+        run: node scripts/list-refs.cjs
+
+      - name: Fetch GitHub stats (per-store stars / contributors / license)
+        # Uses GITHUB_TOKEN already in env to drive the trust signals.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch-github-stats.cjs
+
+      - name: Compute trust scores
+        # Six-signal formula: provenance + maintenance + adoption + license +
+        # frontmatter + readme. Writes scoring/trust-audit.json + per-plugin
+        # trust_score + trust_signals into catalog/stores/*.json.
+        run: node scripts/compute-trust.cjs
+
+      - name: Render markdown surface
+        # JSON -> MD: README.md (storefront), catalog/INDEX.md,
+        # catalog/stores/<store>.md, catalog/categories/<cat>.md,
+        # scoring/TRUST-AUDIT.md, sources/SOURCES.md.
+        # Footer timestamps pin to trust-audit.json's generated_at (idempotent).
+        run: node scripts/render-catalog.cjs
+
+      - name: Check for content changes
+        id: changes
+        # The workflow only writes to catalog/, scoring/, README.md, sources/SOURCES.md.
+        # If those are unchanged (timestamps already idempotent), skip the PR.
+        run: |
+          if git diff --quiet -- catalog/ scoring/ README.md sources/SOURCES.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No catalog/scoring/render changes detected."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Catalog or scoring or render changed. Will open PR."
+            git diff --stat -- catalog/ scoring/ README.md sources/SOURCES.md
+          fi
+
+      - name: Open catalog-refresh PR
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          BRANCH="catalog-refresh/$(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Use a unique branch suffix if the dated branch already exists
+          # (happens on manual_dispatch runs same-day after the Monday cron)
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            BRANCH="${BRANCH}-${{ github.run_id }}"
+          fi
+
+          git checkout -b "$BRANCH"
+          # Stage ONLY the workflow-owned paths. Anything else (e.g. plugins/)
+          # must never be modified by this workflow — that's editorial Supervisor
+          # territory per mall-self-curation/SKILL.md Hard Rule 1.
+          git add catalog/ scoring/ README.md sources/SOURCES.md
+          git commit -m "[behaviour] catalog refresh $(date -u +%Y-%m-%d)" \
+                     -m "Automated weekly Mall scan + trust refresh." \
+                     -m "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          git push origin "$BRANCH"
+
+          gh pr create \
+            --title "Catalog refresh $(date -u +%Y-%m-%d)" \
+            --body "$(cat <<EOF
+          Automated weekly Mall scan.
+
+          - Trust deltas, new plugins, staleness flags inside the diff.
+          - This PR only touches \`catalog/\`, \`scoring/\`, \`README.md\`, \`sources/SOURCES.md\`.
+          - Editorial \`plugins/\` content is never modified by this workflow.
+
+          Trigger: ${{ github.event_name }}
+          Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          EOF
+          )" \
+            --base main --head "$BRANCH"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Mall scan summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f catalog/index.json ]; then
+            PLUGIN_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('catalog/index.json','utf8')).plugin_count)")
+            STORE_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('catalog/index.json','utf8')).store_count)")
+            INDEX_BYTES=$(wc -c < catalog/index.json)
+            echo "- Plugins: $PLUGIN_COUNT" >> "$GITHUB_STEP_SUMMARY"
+            echo "- Stores: $STORE_COUNT" >> "$GITHUB_STEP_SUMMARY"
+            echo "- index.json size: $INDEX_BYTES bytes" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ "${{ steps.changes.outputs.changed }}" = "true" ]; then
+            echo "- Catalog refresh PR opened" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "- No content changes; no PR opened" >> "$GITHUB_STEP_SUMMARY"
+          fi

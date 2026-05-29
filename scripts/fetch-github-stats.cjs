@@ -132,7 +132,10 @@ function isCacheFresh(entry) {
 function main() {
   const supported = JSON.parse(fs.readFileSync(SUPPORTED_PATH, 'utf-8'));
   const cache = loadCache();
-  const stats = { generated_at: new Date().toISOString(), stores: {} };
+  // Pin top-level generated_at to prior value if nothing changed semantically
+  // (all stores cache-hit). Keeps the pipeline end-to-end idempotent so the
+  // weekly cron doesn't open a PR when upstream sources haven't moved.
+  const stats = { generated_at: null, stores: {} };
 
   let fetched = 0;
   let cached = 0;
@@ -173,6 +176,14 @@ function main() {
       fetched++;
     }
   }
+
+  // Top-level generated_at: bump only if any per-store record actually changed.
+  // Otherwise preserve prior to keep downstream files byte-stable.
+  const priorStores = cache.stores || {};
+  const semanticallyChanged = fetched > 0 || JSON.stringify(stats.stores) !== JSON.stringify(priorStores);
+  stats.generated_at = semanticallyChanged
+    ? new Date().toISOString()
+    : (cache.generated_at || new Date().toISOString());
 
   fs.writeFileSync(STATS_PATH, JSON.stringify(stats, null, 2) + '\n');
 

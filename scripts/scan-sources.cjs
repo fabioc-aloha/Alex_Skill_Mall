@@ -274,6 +274,45 @@ function scanStore(store) {
   return out;
 }
 
+// --- Idempotency: compare two store records on scan-owned fields only ---
+
+function projectScanOwned(record) {
+  // scan-sources writes: store, source_repo, provenance, tier, license,
+  // plugin_count, error (sometimes), and for each plugin: name, shape,
+  // source_path, readme_excerpt, frontmatter.kind, frontmatter.raw.
+  //
+  // Downstream phases overwrite or extend several scan-owned fields:
+  //   - list-refs.cjs:  scanned_ref (placeholder 'main' -> real SHA),
+  //                     plugins[*].source_url (placeholder ref -> real SHA),
+  //                     plugins[*].available_refs (new field)
+  //   - normalize-frontmatter.cjs: plugins[*].frontmatter.standard + extended
+  //   - compute-trust.cjs:         store_trust, plugins[*].trust_score + signals
+  //
+  // For idempotency, project away every field a downstream phase touches.
+  if (!record) return null;
+  return {
+    store: record.store,
+    source_repo: record.source_repo,
+    provenance: record.provenance,
+    tier: record.tier,
+    license: record.license,
+    plugin_count: record.plugin_count,
+    error: record.error || null,
+    plugins: (record.plugins || []).map((p) => ({
+      name: p.name,
+      shape: p.shape,
+      source_path: p.source_path,
+      readme_excerpt: p.readme_excerpt,
+      frontmatter_kind: p.frontmatter?.kind,
+      frontmatter_raw: p.frontmatter?.raw,
+    })),
+  };
+}
+
+function semanticallyEqual(prior, next) {
+  return JSON.stringify(projectScanOwned(prior)) === JSON.stringify(projectScanOwned(next));
+}
+
 // --- Main ---
 
 function main() {
@@ -297,6 +336,20 @@ function main() {
     process.stdout.write(`SCAN: ${store.name}... `);
     const result = scanStore(store);
     const outPath = path.join(CATALOG_STORES_DIR, `${store.name}.json`);
+
+    // Idempotency: if the prior file's scan-owned fields are identical to this
+    // run's output, preserve the prior generated_at timestamp. Downstream phases
+    // (normalize-frontmatter, list-refs, compute-trust) add fields scan-sources
+    // doesn't own — strip those before comparing.
+    if (fs.existsSync(outPath)) {
+      try {
+        const prior = JSON.parse(fs.readFileSync(outPath, 'utf-8'));
+        if (semanticallyEqual(prior, result)) {
+          result.generated_at = prior.generated_at;
+        }
+      } catch { /* prior was malformed; treat as fresh */ }
+    }
+
     fs.writeFileSync(outPath, JSON.stringify(result, null, 2) + '\n');
     if (result.error) {
       console.log(`ERROR: ${result.error}`);
