@@ -1,0 +1,1894 @@
+{
+  "store": "ai-research-skills",
+  "source_repo": "https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
+  "generated_at": "2026-05-29T18:48:06.052Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 100,
+  "plugins": [
+    {
+      "name": "0-autoresearch-skill",
+      "shape": "skill",
+      "source_path": "0-autoresearch-skill",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/0-autoresearch-skill",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "autoresearch",
+          "description": "Orchestrates end-to-end autonomous AI research projects using a two-loop architecture. The inner loop runs rapid experiment iterations with clear optimization targets. The outer loop synthesizes results, identifies patterns, and steers research direction. Routes to domain-specific skills for execution, supports continuous agent operation via Claude Code /loop and OpenClaw heartbeat, and produces research presentations and papers. Use when starting a research project, running autonomous experiments, or managing a multi-hypothesis research effort.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Autonomous Research, Two-Loop Architecture, Experiment Orchestration, Research Synthesis, Project Management]"
+        }
+      }
+    },
+    {
+      "name": "litgpt",
+      "shape": "skill",
+      "source_path": "01-model-architecture/litgpt",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/litgpt",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "implementing-llms-litgpt",
+          "description": "Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral). Use when need clean model implementations, educational understanding of architectures, or production fine-tuning with LoRA/QLoRA. Single-file implementations, no abstraction layers.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Model Architecture, LitGPT, Lightning AI, LLM Implementation, LoRA, QLoRA, Fine-Tuning, Llama, Gemma, Phi, Mistral, Educational]",
+          "dependencies": "[litgpt, torch, transformers]"
+        }
+      }
+    },
+    {
+      "name": "mamba",
+      "shape": "skill",
+      "source_path": "01-model-architecture/mamba",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/mamba",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mamba-architecture",
+          "description": "State-space model with O(n) complexity vs Transformers' O(n²). 5× faster inference, million-token sequences, no KV cache. Selective SSM with hardware-aware design. Mamba-1 (d_state=16) and Mamba-2 (d_state=128, multi-head). Models 130M-2.8B on HuggingFace.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Model Architecture, Mamba, State Space Models, SSM, Linear Complexity, Long Context, Efficient Inference, Hardware-Aware, Alternative To Transformers]",
+          "dependencies": "[mamba-ssm, torch, transformers, causal-conv1d]"
+        }
+      }
+    },
+    {
+      "name": "nanogpt",
+      "shape": "skill",
+      "source_path": "01-model-architecture/nanogpt",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/nanogpt",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "nanogpt",
+          "description": "Educational GPT implementation in ~300 lines. Reproduces GPT-2 (124M) on OpenWebText. Clean, hackable code for learning transformers. By Andrej Karpathy. Perfect for understanding GPT architecture from scratch. Train on Shakespeare (CPU) or OpenWebText (multi-GPU).",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Model Architecture, NanoGPT, GPT-2, Educational, Andrej Karpathy, Transformer, Minimalist, From Scratch, Training]",
+          "dependencies": "[torch, transformers, datasets, tiktoken, wandb]"
+        }
+      }
+    },
+    {
+      "name": "rwkv",
+      "shape": "skill",
+      "source_path": "01-model-architecture/rwkv",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/rwkv",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "rwkv-architecture",
+          "description": "RNN+Transformer hybrid with O(n) inference. Linear time, infinite context, no KV cache. Train like GPT (parallel), infer like RNN (sequential). Linux Foundation AI project. Production at Windows, Office, NeMo. RWKV-7 (March 2025). Models up to 14B parameters.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[RWKV, Model Architecture, RNN, Transformer Hybrid, Linear Complexity, Infinite Context, Efficient Inference, Linux Foundation, Alternative Architecture]",
+          "dependencies": "[rwkv, torch, transformers]"
+        }
+      }
+    },
+    {
+      "name": "torchtitan",
+      "shape": "skill",
+      "source_path": "01-model-architecture/torchtitan",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/torchtitan",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "distributed-llm-pretraining-torchtitan",
+          "description": "Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP). Use when pretraining Llama 3.1, DeepSeek V3, or custom models at scale from 8 to 512+ GPUs with Float8, torch.compile, and distributed checkpointing.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Model Architecture, Distributed Training, TorchTitan, FSDP2, Tensor Parallel, Pipeline Parallel, Context Parallel, Float8, Llama, Pretraining]",
+          "dependencies": "[torch>=2.6.0, torchtitan>=0.2.0, torchao>=0.5.0]"
+        }
+      }
+    },
+    {
+      "name": "huggingface-tokenizers",
+      "shape": "skill",
+      "source_path": "02-tokenization/huggingface-tokenizers",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/02-tokenization/huggingface-tokenizers",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-tokenizers",
+          "description": "Fast tokenizers optimized for research and production. Rust-based implementation tokenizes 1GB in <20 seconds. Supports BPE, WordPiece, and Unigram algorithms. Train custom vocabularies, track alignments, handle padding/truncation. Integrates seamlessly with transformers. Use when you need high-performance tokenization or custom tokenizer training.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Tokenization, HuggingFace, BPE, WordPiece, Unigram, Fast Tokenization, Rust, Custom Tokenizer, Alignment Tracking, Production]",
+          "dependencies": "[tokenizers, transformers, datasets]"
+        }
+      }
+    },
+    {
+      "name": "sentencepiece",
+      "shape": "skill",
+      "source_path": "02-tokenization/sentencepiece",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/02-tokenization/sentencepiece",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "sentencepiece",
+          "description": "Language-independent tokenizer treating text as raw Unicode. Supports BPE and Unigram algorithms. Fast (50k sentences/sec), lightweight (6MB memory), deterministic vocabulary. Used by T5, ALBERT, XLNet, mBART. Train on raw text without pre-tokenization. Use when you need multilingual support, CJK languages, or reproducible tokenization.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Tokenization, SentencePiece, Language-Independent, BPE, Unigram, Multilingual, CJK Languages, Unicode, Deterministic, Google]",
+          "dependencies": "[sentencepiece, transformers]"
+        }
+      }
+    },
+    {
+      "name": "axolotl",
+      "shape": "skill",
+      "source_path": "03-fine-tuning/axolotl",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/axolotl",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "axolotl",
+          "description": "Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Fine-Tuning, Axolotl, LLM, LoRA, QLoRA, DPO, KTO, ORPO, GRPO, YAML, HuggingFace, DeepSpeed, Multimodal]",
+          "dependencies": "[axolotl, torch, transformers, datasets, peft, accelerate, deepspeed]"
+        }
+      }
+    },
+    {
+      "name": "llama-factory",
+      "shape": "skill",
+      "source_path": "03-fine-tuning/llama-factory",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/llama-factory",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "llama-factory",
+          "description": "Expert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ models, 2/3/4/5/6/8-bit QLoRA, multimodal support",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Fine-Tuning, LLaMA Factory, LLM, WebUI, No-Code, QLoRA, LoRA, Multimodal, HuggingFace, Llama, Qwen, Gemma]",
+          "dependencies": "[llmtuner, torch, transformers, datasets, peft, accelerate, gradio]"
+        }
+      }
+    },
+    {
+      "name": "peft",
+      "shape": "skill",
+      "source_path": "03-fine-tuning/peft",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/peft",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "peft-fine-tuning",
+          "description": "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace's official library integrated with transformers ecosystem.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Fine-Tuning, PEFT, LoRA, QLoRA, Parameter-Efficient, Adapters, Low-Rank, Memory Optimization, Multi-Adapter]",
+          "dependencies": "[peft>=0.13.0, transformers>=4.45.0, torch>=2.0.0, bitsandbytes>=0.43.0]"
+        }
+      }
+    },
+    {
+      "name": "unsloth",
+      "shape": "skill",
+      "source_path": "03-fine-tuning/unsloth",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/unsloth",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "unsloth",
+          "description": "Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Fine-Tuning, Unsloth, Fast Training, LoRA, QLoRA, Memory-Efficient, Optimization, Llama, Mistral, Gemma, Qwen]",
+          "dependencies": "[unsloth, torch, transformers, trl, datasets, peft]"
+        }
+      }
+    },
+    {
+      "name": "nnsight",
+      "shape": "skill",
+      "source_path": "04-mechanistic-interpretability/nnsight",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/nnsight",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "nnsight-remote-interpretability",
+          "description": "Provides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution. Use when needing to run interpretability experiments on massive models (70B+) without local GPU resources, or when working with any PyTorch architecture.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[nnsight, NDIF, Remote Execution, Mechanistic Interpretability, Model Internals]",
+          "dependencies": "[nnsight>=0.5.0, torch>=2.0.0]"
+        }
+      }
+    },
+    {
+      "name": "pyvene",
+      "shape": "skill",
+      "source_path": "04-mechanistic-interpretability/pyvene",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/pyvene",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pyvene-interventions",
+          "description": "Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework. Use when conducting causal tracing, activation patching, interchange intervention training, or testing causal hypotheses about model behavior.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Causal Intervention, pyvene, Activation Patching, Causal Tracing, Interpretability]",
+          "dependencies": "[pyvene>=0.1.8, torch>=2.0.0, transformers>=4.30.0]"
+        }
+      }
+    },
+    {
+      "name": "saelens",
+      "shape": "skill",
+      "source_path": "04-mechanistic-interpretability/saelens",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/saelens",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "sparse-autoencoder-training",
+          "description": "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superposition, or studying monosemantic representations in language models.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Sparse Autoencoders, SAE, Mechanistic Interpretability, Feature Discovery, Superposition]",
+          "dependencies": "[sae-lens>=6.0.0, transformer-lens>=2.0.0, torch>=2.0.0]"
+        }
+      }
+    },
+    {
+      "name": "transformer-lens",
+      "shape": "skill",
+      "source_path": "04-mechanistic-interpretability/transformer-lens",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/transformer-lens",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "transformer-lens-interpretability",
+          "description": "Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching. Use when reverse-engineering model algorithms, studying attention patterns, or performing activation patching experiments.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Mechanistic Interpretability, TransformerLens, Activation Patching, Circuit Analysis]",
+          "dependencies": "[transformer-lens>=2.0.0, torch>=2.0.0]"
+        }
+      }
+    },
+    {
+      "name": "nemo-curator",
+      "shape": "skill",
+      "source_path": "05-data-processing/nemo-curator",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/05-data-processing/nemo-curator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "nemo-curator",
+          "description": "GPU-accelerated data curation for LLM training. Supports text/image/video/audio. Features fuzzy deduplication (16× faster), quality filtering (30+ heuristics), semantic deduplication, PII redaction, NSFW detection. Scales across GPUs with RAPIDS. Use for preparing high-quality training datasets, cleaning web data, or deduplicating large corpora.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Data Processing, NeMo Curator, Data Curation, GPU Acceleration, Deduplication, Quality Filtering, NVIDIA, RAPIDS, PII Redaction, Multimodal, LLM Training Data]",
+          "dependencies": "[nemo-curator, cudf, dask, rapids]"
+        }
+      }
+    },
+    {
+      "name": "ray-data",
+      "shape": "skill",
+      "source_path": "05-data-processing/ray-data",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/05-data-processing/ray-data",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ray-data",
+          "description": "Scalable data processing for ML workloads. Streaming execution across CPU/GPU, supports Parquet/CSV/JSON/images. Integrates with Ray Train, PyTorch, TensorFlow. Scales from single machine to 100s of nodes. Use for batch inference, data preprocessing, multi-modal data loading, or distributed ETL pipelines.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Data Processing, Ray Data, Distributed Computing, ML Pipelines, Batch Inference, ETL, Scalable, Ray, PyTorch, TensorFlow]",
+          "dependencies": "[\"ray[data]\", pyarrow, pandas]"
+        }
+      }
+    },
+    {
+      "name": "grpo-rl-training",
+      "shape": "skill",
+      "source_path": "06-post-training/grpo-rl-training",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/grpo-rl-training",
+      "readme_excerpt": "**Expert-level guidance for Group Relative Policy Optimization with TRL**",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "grpo-rl-training",
+          "description": "Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Post-Training, Reinforcement Learning, GRPO, TRL, RLHF, Reward Modeling, Reasoning, DPO, PPO, Structured Output]",
+          "dependencies": "[transformers>=4.47.0, trl>=0.14.0, datasets>=3.2.0, peft>=0.14.0, torch]"
+        }
+      }
+    },
+    {
+      "name": "miles",
+      "shape": "skill",
+      "source_path": "06-post-training/miles",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/miles",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "miles-rl-training",
+          "description": "Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime. Use when training large MoE models with FP8/INT4, needing train-inference alignment, or requiring speculative RL for maximum throughput.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Reinforcement Learning, MoE, FP8, INT4, Enterprise, SGLang, Megatron-LM]",
+          "dependencies": "[sglang-router>=0.2.3, ray, torch>=2.0.0, transformers>=4.40.0]"
+        }
+      }
+    },
+    {
+      "name": "openrlhf",
+      "shape": "skill",
+      "source_path": "06-post-training/openrlhf",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/openrlhf",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "openrlhf-training",
+          "description": "High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and GPU resource sharing.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Post-Training, OpenRLHF, RLHF, PPO, GRPO, RLOO, DPO, Ray, vLLM, Distributed Training, Large Models, ZeRO-3]",
+          "dependencies": "[openrlhf, ray, vllm, torch, transformers, deepspeed]"
+        }
+      }
+    },
+    {
+      "name": "simpo",
+      "shape": "skill",
+      "source_path": "06-post-training/simpo",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/simpo",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "simpo-training",
+          "description": "Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better performance (+6.4 points on AlpacaEval 2.0). No reference model needed, more efficient than DPO. Use for preference alignment when want simpler, faster training than DPO/PPO.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Post-Training, SimPO, Preference Optimization, Alignment, DPO Alternative, Reference-Free, LLM Alignment, Efficient Training]",
+          "dependencies": "[torch, transformers, datasets, trl, accelerate]"
+        }
+      }
+    },
+    {
+      "name": "slime",
+      "shape": "skill",
+      "source_path": "06-post-training/slime",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/slime",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "slime-rl-training",
+          "description": "Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework. Use when training GLM models, implementing custom data generation workflows, or needing tight Megatron-LM integration for RL scaling.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Reinforcement Learning, Megatron-LM, SGLang, GRPO, Post-Training, GLM]",
+          "dependencies": "[sglang-router>=0.2.3, ray, torch>=2.0.0, transformers>=4.40.0]"
+        }
+      }
+    },
+    {
+      "name": "torchforge",
+      "shape": "skill",
+      "source_path": "06-post-training/torchforge",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/torchforge",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "torchforge-rl-training",
+          "description": "Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use when you want clean RL abstractions, easy algorithm experimentation, or scalable training with Monarch and TorchTitan.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Reinforcement Learning, PyTorch, GRPO, SFT, Monarch, TorchTitan, Meta]",
+          "dependencies": "[torch>=2.9.0, torchtitan>=0.2.0, vllm, monarch]"
+        }
+      }
+    },
+    {
+      "name": "trl-fine-tuning",
+      "shape": "skill",
+      "source_path": "06-post-training/trl-fine-tuning",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/trl-fine-tuning",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "fine-tuning-with-trl",
+          "description": "Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training. Use when need RLHF, align model with preferences, or train from human feedback. Works with HuggingFace Transformers.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Post-Training, TRL, Reinforcement Learning, Fine-Tuning, SFT, DPO, PPO, GRPO, RLHF, Preference Alignment, HuggingFace]",
+          "dependencies": "[trl, transformers, datasets, peft, accelerate, torch]"
+        }
+      }
+    },
+    {
+      "name": "verl",
+      "shape": "skill",
+      "source_path": "06-post-training/verl",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/verl",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "verl-rl-training",
+          "description": "Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL). Use when implementing RLHF, GRPO, PPO, or other RL algorithms for LLM post-training at scale with flexible infrastructure backends.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Reinforcement Learning, RLHF, GRPO, PPO, Post-Training, Distributed Training]",
+          "dependencies": "[verl>=0.3.0, torch>=2.0.0, ray>=2.41.0, vllm>=0.8.2, transformers>=4.40.0]"
+        }
+      }
+    },
+    {
+      "name": "constitutional-ai",
+      "shape": "skill",
+      "source_path": "07-safety-alignment/constitutional-ai",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/constitutional-ai",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "constitutional-ai",
+          "description": "Anthropic's method for training harmless AI through self-improvement. Two-phase approach - supervised learning with self-critique/revision, then RLAIF (RL from AI Feedback). Use for safety alignment, reducing harmful outputs without human labels. Powers Claude's safety system.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Safety Alignment, Constitutional AI, RLAIF, Self-Critique, Harmlessness, Anthropic, AI Safety, RL From AI Feedback, Claude]",
+          "dependencies": "[transformers, torch, trl]"
+        }
+      }
+    },
+    {
+      "name": "llamaguard",
+      "shape": "skill",
+      "source_path": "07-safety-alignment/llamaguard",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/llamaguard",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "llamaguard",
+          "description": "Meta's 7-8B specialized moderation model for LLM input/output filtering. 6 safety categories - violence/hate, sexual content, weapons, substances, self-harm, criminal planning. 94-95% accuracy. Deploy with vLLM, HuggingFace, Sagemaker. Integrates with NeMo Guardrails.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Safety Alignment, LlamaGuard, Content Moderation, Meta, Guardrails, Safety Classification, Input Filtering, Output Filtering, AI Safety]",
+          "dependencies": "[transformers, torch, vllm]"
+        }
+      }
+    },
+    {
+      "name": "nemo-guardrails",
+      "shape": "skill",
+      "source_path": "07-safety-alignment/nemo-guardrails",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/nemo-guardrails",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "nemo-guardrails",
+          "description": "NVIDIA's runtime safety framework for LLM applications. Features jailbreak detection, input/output validation, fact-checking, hallucination detection, PII filtering, toxicity detection. Uses Colang 2.0 DSL for programmable rails. Production-ready, runs on T4 GPU.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Safety Alignment, NeMo Guardrails, NVIDIA, Jailbreak Detection, Guardrails, Colang, Runtime Safety, Hallucination Detection, PII Filtering, Production]",
+          "dependencies": "[nemoguardrails]"
+        }
+      }
+    },
+    {
+      "name": "prompt-guard",
+      "shape": "skill",
+      "source_path": "07-safety-alignment/prompt-guard",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/prompt-guard",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "prompt-guard",
+          "description": "Meta's 86M prompt injection and jailbreak detector. Filters malicious prompts and third-party data for LLM apps. 99%+ TPR, <1% FPR. Fast (<2ms GPU). Multilingual (8 languages). Deploy with HuggingFace or batch processing for RAG security.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Safety Alignment, Prompt Injection, Jailbreak Detection, Meta, Input Validation, Security, Content Filtering, Multilingual]",
+          "dependencies": "[transformers, torch]"
+        }
+      }
+    },
+    {
+      "name": "accelerate",
+      "shape": "skill",
+      "source_path": "08-distributed-training/accelerate",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/accelerate",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-accelerate",
+          "description": "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosystem standard.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Distributed Training, HuggingFace, Accelerate, DeepSpeed, FSDP, Mixed Precision, PyTorch, DDP, Unified API, Simple]",
+          "dependencies": "[accelerate, torch, transformers]"
+        }
+      }
+    },
+    {
+      "name": "deepspeed",
+      "shape": "skill",
+      "source_path": "08-distributed-training/deepspeed",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/deepspeed",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "deepspeed",
+          "description": "Expert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[DeepSpeed, Distributed Training, ZeRO, Pipeline Parallelism, Mixed Precision, Optimization, Microsoft, Large-Scale Training, FP16, FP8]",
+          "dependencies": "[deepspeed, torch, transformers, accelerate]"
+        }
+      }
+    },
+    {
+      "name": "megatron-core",
+      "shape": "skill",
+      "source_path": "08-distributed-training/megatron-core",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/megatron-core",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "training-llms-megatron",
+          "description": "Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies. Use when training models >1B parameters, need maximum GPU efficiency (47% MFU on H100), or require tensor/pipeline/sequence/context/expert parallelism. Production-ready framework used for Nemotron, LLaMA, DeepSeek.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Megatron-Core, Large-Scale Training, NVIDIA, Tensor Parallelism, Pipeline Parallelism, Model Parallelism, H100, Distributed Training, Production]",
+          "dependencies": "[megatron-core, torch, apex, transformer-engine]"
+        }
+      }
+    },
+    {
+      "name": "pytorch-fsdp2",
+      "shape": "skill",
+      "source_path": "08-distributed-training/pytorch-fsdp2",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/pytorch-fsdp2",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pytorch-fsdp2",
+          "description": "Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing. Use when models exceed single-GPU memory or when you need DTensor-based sharding with DeviceMesh.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[PyTorch, FSDP2, Fully Sharded Data Parallel, Distributed Training, DTensor, Device Mesh, Sharded Checkpointing, Mixed Precision, Offload, Torch Distributed]",
+          "dependencies": "[torch]"
+        }
+      }
+    },
+    {
+      "name": "pytorch-lightning",
+      "shape": "skill",
+      "source_path": "08-distributed-training/pytorch-lightning",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/pytorch-lightning",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pytorch-lightning",
+          "description": "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want clean training loops with built-in best practices.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[PyTorch Lightning, Training Framework, Distributed Training, DDP, FSDP, DeepSpeed, High-Level API, Callbacks, Best Practices, Scalable]",
+          "dependencies": "[lightning, torch, transformers]"
+        }
+      }
+    },
+    {
+      "name": "ray-train",
+      "shape": "skill",
+      "source_path": "08-distributed-training/ray-train",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/ray-train",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ray-train",
+          "description": "Distributed training orchestration across clusters. Scales PyTorch/TensorFlow/HuggingFace from laptop to 1000s of nodes. Built-in hyperparameter tuning with Ray Tune, fault tolerance, elastic scaling. Use when training massive models across multiple machines or running distributed hyperparameter sweeps.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Ray Train, Distributed Training, Orchestration, Ray, Hyperparameter Tuning, Fault Tolerance, Elastic Scaling, Multi-Node, PyTorch, TensorFlow]",
+          "dependencies": "[\"ray[train]\", torch, transformers]"
+        }
+      }
+    },
+    {
+      "name": "lambda-labs",
+      "shape": "skill",
+      "source_path": "09-infrastructure/lambda-labs",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/lambda-labs",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "lambda-labs-gpu-cloud",
+          "description": "Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Infrastructure, GPU Cloud, Training, Inference, Lambda Labs]",
+          "dependencies": "[lambda-cloud-client>=1.0.0]"
+        }
+      }
+    },
+    {
+      "name": "modal",
+      "shape": "skill",
+      "source_path": "09-infrastructure/modal",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/modal",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "modal-serverless-gpu",
+          "description": "Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Infrastructure, Serverless, GPU, Cloud, Deployment, Modal]",
+          "dependencies": "[modal>=0.64.0]"
+        }
+      }
+    },
+    {
+      "name": "skypilot",
+      "shape": "skill",
+      "source_path": "09-infrastructure/skypilot",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/skypilot",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "skypilot-multi-cloud-orchestration",
+          "description": "Multi-cloud orchestration for ML workloads with automatic cost optimization. Use when you need to run training or batch jobs across multiple clouds, leverage spot instances with auto-recovery, or optimize GPU costs across providers.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Infrastructure, Multi-Cloud, Orchestration, GPU, Cost Optimization, SkyPilot]",
+          "dependencies": "[skypilot>=0.7.0]"
+        }
+      }
+    },
+    {
+      "name": "awq",
+      "shape": "skill",
+      "source_path": "10-optimization/awq",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/awq",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "awq-quantization",
+          "description": "Activation-aware weight quantization for 4-bit LLM compression with 3x speedup and minimal accuracy loss. Use when deploying large models (7B-70B) on limited GPU memory, when you need faster inference than GPTQ with better accuracy preservation, or for instruction-tuned and multimodal models. MLSys 2024 Best Paper Award winner.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Optimization, AWQ, Quantization, 4-Bit, Activation-Aware, Memory Optimization, Fast Inference, vLLM Integration, Marlin Kernels]",
+          "dependencies": "[autoawq, transformers>=4.45.0, torch>=2.0.0]"
+        }
+      }
+    },
+    {
+      "name": "bitsandbytes",
+      "shape": "skill",
+      "source_path": "10-optimization/bitsandbytes",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/bitsandbytes",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "quantizing-models-bitsandbytes",
+          "description": "Quantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accuracy loss. Use when GPU memory is limited, need to fit larger models, or want faster inference. Supports INT8, NF4, FP4 formats, QLoRA training, and 8-bit optimizers. Works with HuggingFace Transformers.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Optimization, Bitsandbytes, Quantization, 8-Bit, 4-Bit, Memory Optimization, QLoRA, NF4, INT8, HuggingFace, Efficient Inference]",
+          "dependencies": "[bitsandbytes, transformers, accelerate, torch]"
+        }
+      }
+    },
+    {
+      "name": "flash-attention",
+      "shape": "skill",
+      "source_path": "10-optimization/flash-attention",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/flash-attention",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "optimizing-attention-flash",
+          "description": "Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction. Use when training/running transformers with long sequences (>512 tokens), encountering GPU memory issues with attention, or need faster inference. Supports PyTorch native SDPA, flash-attn library, H100 FP8, and sliding window attention.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Optimization, Flash Attention, Attention Optimization, Memory Efficiency, Speed Optimization, Long Context, PyTorch, SDPA, H100, FP8, Transformers]",
+          "dependencies": "[flash-attn, torch, transformers]"
+        }
+      }
+    },
+    {
+      "name": "gguf",
+      "shape": "skill",
+      "source_path": "10-optimization/gguf",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/gguf",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "gguf-quantization",
+          "description": "GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardware, Apple Silicon, or when needing flexible quantization from 2-8 bit without GPU requirements.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[GGUF, Quantization, llama.cpp, CPU Inference, Apple Silicon, Model Compression, Optimization]",
+          "dependencies": "[llama-cpp-python>=0.2.0]"
+        }
+      }
+    },
+    {
+      "name": "gptq",
+      "shape": "skill",
+      "source_path": "10-optimization/gptq",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/gptq",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "gptq",
+          "description": "Post-training 4-bit quantization for LLMs with minimal accuracy loss. Use for deploying large models (70B, 405B) on consumer GPUs, when you need 4× memory reduction with <2% perplexity degradation, or for faster inference (3-4× speedup) vs FP16. Integrates with transformers and PEFT for QLoRA fine-tuning.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Optimization, GPTQ, Quantization, 4-Bit, Post-Training, Memory Optimization, Consumer GPUs, Fast Inference, QLoRA, Group-Wise Quantization]",
+          "dependencies": "[auto-gptq, transformers, optimum, peft]"
+        }
+      }
+    },
+    {
+      "name": "hqq",
+      "shape": "skill",
+      "source_path": "10-optimization/hqq",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/hqq",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hqq-quantization",
+          "description": "Half-Quadratic Quantization for LLMs without calibration data. Use when quantizing models to 4/3/2-bit precision without needing calibration datasets, for fast quantization workflows, or when deploying with vLLM or HuggingFace Transformers.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Quantization, HQQ, Optimization, Memory Efficiency, Inference, Model Compression]",
+          "dependencies": "[hqq>=0.2.0, torch>=2.0.0]"
+        }
+      }
+    },
+    {
+      "name": "ml-training-recipes",
+      "shape": "skill",
+      "source_path": "10-optimization/ml-training-recipes",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/ml-training-recipes",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ml-training-recipes",
+          "description": "Battle-tested PyTorch training recipes for all domains — LLMs, vision, diffusion, medical imaging, protein/drug discovery, spatial omics, genomics. Covers training loops, optimizer selection (AdamW, Muon), LR scheduling, mixed precision, debugging, and systematic experimentation. Use when training or fine-tuning neural networks, debugging loss spikes or OOM, choosing architectures, or optimizing GPU throughput.",
+          "version": "1.0.0",
+          "author": "dailycafi",
+          "license": "MIT",
+          "tags": "[PyTorch, Training, Optimization, LLM, Vision, Diffusion, Biomedical, Muon, AdamW, Debugging]",
+          "dependencies": "[torch>=2.0.0]"
+        }
+      }
+    },
+    {
+      "name": "bigcode-evaluation-harness",
+      "shape": "skill",
+      "source_path": "11-evaluation/bigcode-evaluation-harness",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/bigcode-evaluation-harness",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "evaluating-code-models",
+          "description": "Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics. Use when benchmarking code models, comparing coding abilities, testing multi-language support, or measuring code generation quality. Industry standard from BigCode Project used by HuggingFace leaderboards.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Evaluation, Code Generation, HumanEval, MBPP, MultiPL-E, Pass@k, BigCode, Benchmarking, Code Models]",
+          "dependencies": "[bigcode-evaluation-harness, transformers>=4.25.1, accelerate>=0.13.2, datasets>=2.6.1]"
+        }
+      }
+    },
+    {
+      "name": "lm-evaluation-harness",
+      "shape": "skill",
+      "source_path": "11-evaluation/lm-evaluation-harness",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/lm-evaluation-harness",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "evaluating-llms-harness",
+          "description": "Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag). Use when benchmarking model quality, comparing models, reporting academic results, or tracking training progress. Industry standard used by EleutherAI, HuggingFace, and major labs. Supports HuggingFace, vLLM, APIs.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Evaluation, LM Evaluation Harness, Benchmarking, MMLU, HumanEval, GSM8K, EleutherAI, Model Quality, Academic Benchmarks, Industry Standard]",
+          "dependencies": "[lm-eval, transformers, vllm]"
+        }
+      }
+    },
+    {
+      "name": "nemo-evaluator",
+      "shape": "skill",
+      "source_path": "11-evaluation/nemo-evaluator",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/nemo-evaluator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "nemo-evaluator-sdk",
+          "description": "Evaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K, safety, VLM) with multi-backend execution. Use when needing scalable evaluation on local Docker, Slurm HPC, or cloud platforms. NVIDIA's enterprise-grade platform with container-first architecture for reproducible benchmarking.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Evaluation, NeMo, NVIDIA, Benchmarking, MMLU, HumanEval, Multi-Backend, Slurm, Docker, Reproducible, Enterprise]",
+          "dependencies": "[nemo-evaluator-launcher>=0.1.25, docker]"
+        }
+      }
+    },
+    {
+      "name": "llama-cpp",
+      "shape": "skill",
+      "source_path": "12-inference-serving/llama-cpp",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/llama-cpp",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "llama-cpp",
+          "description": "Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware. Use for edge deployment, M1/M2/M3 Macs, AMD/Intel GPUs, or when CUDA is unavailable. Supports GGUF quantization (1.5-8 bit) for reduced memory and 4-10× speedup vs PyTorch on CPU.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Inference Serving, Llama.cpp, CPU Inference, Apple Silicon, Edge Deployment, GGUF, Quantization, Non-NVIDIA, AMD GPUs, Intel GPUs, Embedded]",
+          "dependencies": "[llama-cpp-python]"
+        }
+      }
+    },
+    {
+      "name": "sglang",
+      "shape": "skill",
+      "source_path": "12-inference-serving/sglang",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/sglang",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "sglang",
+          "description": "Fast structured generation and serving for LLMs with RadixAttention prefix caching. Use for JSON/regex outputs, constrained decoding, agentic workflows with tool calls, or when you need 5× faster inference than vLLM with prefix sharing. Powers 300,000+ GPUs at xAI, AMD, NVIDIA, and LinkedIn.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Inference Serving, SGLang, Structured Generation, RadixAttention, Prefix Caching, Constrained Decoding, Agents, JSON Output, Fast Inference, Production Scale]",
+          "dependencies": "[sglang, torch, transformers]"
+        }
+      }
+    },
+    {
+      "name": "tensorrt-llm",
+      "shape": "skill",
+      "source_path": "12-inference-serving/tensorrt-llm",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/tensorrt-llm",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "tensorrt-llm",
+          "description": "Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency. Use for production deployment on NVIDIA GPUs (A100/H100), when you need 10-100x faster inference than PyTorch, or for serving models with quantization (FP8/INT4), in-flight batching, and multi-GPU scaling.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Inference Serving, TensorRT-LLM, NVIDIA, Inference Optimization, High Throughput, Low Latency, Production, FP8, INT4, In-Flight Batching, Multi-GPU]",
+          "dependencies": "[tensorrt-llm, torch]"
+        }
+      }
+    },
+    {
+      "name": "vllm",
+      "shape": "skill",
+      "source_path": "12-inference-serving/vllm",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/vllm",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "serving-llms-vllm",
+          "description": "Serves LLMs with high throughput using vLLM's PagedAttention and continuous batching. Use when deploying production LLM APIs, optimizing inference latency/throughput, or serving models with limited GPU memory. Supports OpenAI-compatible endpoints, quantization (GPTQ/AWQ/FP8), and tensor parallelism.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[vLLM, Inference Serving, PagedAttention, Continuous Batching, High Throughput, Production, OpenAI API, Quantization, Tensor Parallelism]",
+          "dependencies": "[vllm, torch, transformers]"
+        }
+      }
+    },
+    {
+      "name": "mlflow",
+      "shape": "skill",
+      "source_path": "13-mlops/mlflow",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/mlflow",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mlflow",
+          "description": "Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[MLOps, MLflow, Experiment Tracking, Model Registry, ML Lifecycle, Deployment, Model Versioning, PyTorch, TensorFlow, Scikit-Learn, HuggingFace]",
+          "dependencies": "[mlflow, sqlalchemy, boto3]"
+        }
+      }
+    },
+    {
+      "name": "swanlab",
+      "shape": "skill",
+      "source_path": "13-mlops/swanlab",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/swanlab",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "experiment-tracking-swanlab",
+          "description": "Provides guidance for experiment tracking with SwanLab. Use when you need open-source run tracking, local or self-hosted dashboards, and lightweight media logging for ML workflows.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[MLOps, SwanLab, Experiment Tracking, Open Source, Visualization, PyTorch, Transformers, PyTorch Lightning, Fastai, Self-Hosted]",
+          "dependencies": "[swanlab>=0.7.11, pillow>=9.0.0, soundfile>=0.12.0]"
+        }
+      }
+    },
+    {
+      "name": "tensorboard",
+      "shape": "skill",
+      "source_path": "13-mlops/tensorboard",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/tensorboard",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "tensorboard",
+          "description": "Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[MLOps, TensorBoard, Visualization, Training Metrics, Model Debugging, PyTorch, TensorFlow, Experiment Tracking, Performance Profiling]",
+          "dependencies": "[tensorboard, torch, tensorflow]"
+        }
+      }
+    },
+    {
+      "name": "weights-and-biases",
+      "shape": "skill",
+      "source_path": "13-mlops/weights-and-biases",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/weights-and-biases",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "weights-and-biases",
+          "description": "Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps platform",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[MLOps, Weights And Biases, WandB, Experiment Tracking, Hyperparameter Tuning, Model Registry, Collaboration, Real-Time Visualization, PyTorch, TensorFlow, HuggingFace]",
+          "dependencies": "[wandb]"
+        }
+      }
+    },
+    {
+      "name": "a-evolve",
+      "shape": "skill",
+      "source_path": "14-agents/a-evolve",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/a-evolve",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "evolving-ai-agents",
+          "description": "Provides guidance for automatically evolving and optimizing AI agents across any domain using LLM-driven evolution algorithms. Use when building self-improving agents, optimizing agent prompts and skills against benchmarks, or implementing automated agent evaluation loops.",
+          "version": "1.0.0",
+          "author": "A-EVO Lab",
+          "license": "MIT",
+          "tags": "[Agent Evolution, Self-Improving Agents, Prompt Optimization, LLM, Benchmark Evaluation, Skill Discovery, Agentic AI]",
+          "dependencies": "[a-evolve>=0.1.0, pyyaml>=6.0]"
+        }
+      }
+    },
+    {
+      "name": "autogpt",
+      "shape": "skill",
+      "source_path": "14-agents/autogpt",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/autogpt",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "autogpt-agents",
+          "description": "Autonomous AI agent platform for building and deploying continuous agents. Use when creating visual workflow agents, deploying persistent autonomous agents, or building complex multi-step AI automation systems.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Agents, AutoGPT, Autonomous Agents, Workflow Automation, Visual Builder, AI Platform]",
+          "dependencies": "[autogpt-platform>=0.4.0]"
+        }
+      }
+    },
+    {
+      "name": "crewai",
+      "shape": "skill",
+      "source_path": "14-agents/crewai",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/crewai",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "crewai-multi-agent",
+          "description": "Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents working together on complex tasks, when you need role-based agent collaboration with memory, or for production workflows requiring sequential/hierarchical execution. Built without LangChain dependencies for lean, fast execution.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Agents, CrewAI, Multi-Agent, Orchestration, Collaboration, Role-Based, Autonomous, Workflows, Memory, Production]",
+          "dependencies": "[crewai>=1.2.0, crewai-tools>=1.2.0]"
+        }
+      }
+    },
+    {
+      "name": "langchain",
+      "shape": "skill",
+      "source_path": "14-agents/langchain",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/langchain",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "langchain",
+          "description": "Framework for building LLM-powered applications with agents, chains, and RAG. Supports multiple providers (OpenAI, Anthropic, Google), 500+ integrations, ReAct agents, tool calling, memory management, and vector store retrieval. Use for building chatbots, question-answering systems, autonomous agents, or RAG applications. Best for rapid prototyping and production deployments.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Agents, LangChain, RAG, Tool Calling, ReAct, Memory Management, Vector Stores, LLM Applications, Chatbots, Production]",
+          "dependencies": "[langchain, langchain-core, langchain-openai, langchain-anthropic]"
+        }
+      }
+    },
+    {
+      "name": "llamaindex",
+      "shape": "skill",
+      "source_path": "14-agents/llamaindex",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/llamaindex",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "llamaindex",
+          "description": "Data framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying. Features vector indices, query engines, agents, and multi-modal support. Use for document Q&A, chatbots, knowledge retrieval, or building RAG pipelines. Best for data-centric LLM applications.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Agents, LlamaIndex, RAG, Document Ingestion, Vector Indices, Query Engines, Knowledge Retrieval, Data Framework, Multimodal, Private Data, Connectors]",
+          "dependencies": "[llama-index, openai, anthropic]"
+        }
+      }
+    },
+    {
+      "name": "chroma",
+      "shape": "skill",
+      "source_path": "15-rag/chroma",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/chroma",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "chroma",
+          "description": "Open-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to production clusters. Use for semantic search, RAG applications, or document retrieval. Best for local development and open-source projects.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[RAG, Chroma, Vector Database, Embeddings, Semantic Search, Open Source, Self-Hosted, Document Retrieval, Metadata Filtering]",
+          "dependencies": "[chromadb, sentence-transformers]"
+        }
+      }
+    },
+    {
+      "name": "faiss",
+      "shape": "skill",
+      "source_path": "15-rag/faiss",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/faiss",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "faiss",
+          "description": "Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vector retrieval, or when you need pure similarity search without metadata. Best for high-performance applications.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[RAG, FAISS, Similarity Search, Vector Search, Facebook AI, GPU Acceleration, Billion-Scale, K-NN, HNSW, High Performance, Large Scale]",
+          "dependencies": "[faiss-cpu, faiss-gpu, numpy]"
+        }
+      }
+    },
+    {
+      "name": "pinecone",
+      "shape": "skill",
+      "source_path": "15-rag/pinecone",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/pinecone",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pinecone",
+          "description": "Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed infrastructure.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[RAG, Pinecone, Vector Database, Managed Service, Serverless, Hybrid Search, Production, Auto-Scaling, Low Latency, Recommendations]",
+          "dependencies": "[pinecone-client]"
+        }
+      }
+    },
+    {
+      "name": "qdrant",
+      "shape": "skill",
+      "source_path": "15-rag/qdrant",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/qdrant",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-vector-search",
+          "description": "High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage with Rust-powered performance.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[RAG, Vector Search, Qdrant, Semantic Search, Embeddings, Similarity Search, HNSW, Production, Distributed]",
+          "dependencies": "[qdrant-client>=1.12.0]"
+        }
+      }
+    },
+    {
+      "name": "sentence-transformers",
+      "shape": "skill",
+      "source_path": "15-rag/sentence-transformers",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/sentence-transformers",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "sentence-transformers",
+          "description": "Framework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained models for semantic similarity, clustering, and retrieval. Supports multilingual, domain-specific, and multimodal models. Use for generating embeddings for RAG, semantic search, or similarity tasks. Best for production embedding generation.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Sentence Transformers, Embeddings, Semantic Similarity, RAG, Multilingual, Multimodal, Pre-Trained Models, Clustering, Semantic Search, Production]",
+          "dependencies": "[sentence-transformers, transformers, torch]"
+        }
+      }
+    },
+    {
+      "name": "dspy",
+      "shape": "skill",
+      "source_path": "16-prompt-engineering/dspy",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/dspy",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "dspy",
+          "description": "Build complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic LM programming",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Prompt Engineering, DSPy, Declarative Programming, RAG, Agents, Prompt Optimization, LM Programming, Stanford NLP, Automatic Optimization, Modular AI]",
+          "dependencies": "[dspy, openai, anthropic]"
+        }
+      }
+    },
+    {
+      "name": "guidance",
+      "shape": "skill",
+      "source_path": "16-prompt-engineering/guidance",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/guidance",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "guidance",
+          "description": "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Prompt Engineering, Guidance, Constrained Generation, Structured Output, JSON Validation, Grammar, Microsoft Research, Format Enforcement, Multi-Step Workflows]",
+          "dependencies": "[guidance, transformers]"
+        }
+      }
+    },
+    {
+      "name": "instructor",
+      "shape": "skill",
+      "source_path": "16-prompt-engineering/instructor",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/instructor",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "instructor",
+          "description": "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Prompt Engineering, Instructor, Structured Output, Pydantic, Data Extraction, JSON Parsing, Type Safety, Validation, Streaming, OpenAI, Anthropic]",
+          "dependencies": "[instructor, pydantic, openai, anthropic]"
+        }
+      }
+    },
+    {
+      "name": "outlines",
+      "shape": "skill",
+      "source_path": "16-prompt-engineering/outlines",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/outlines",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "outlines",
+          "description": "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Prompt Engineering, Outlines, Structured Generation, JSON Schema, Pydantic, Local Models, Grammar-Based Generation, vLLM, Transformers, Type Safety]",
+          "dependencies": "[outlines, transformers, vllm, pydantic]"
+        }
+      }
+    },
+    {
+      "name": "langsmith",
+      "shape": "skill",
+      "source_path": "17-observability/langsmith",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/17-observability/langsmith",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "langsmith-observability",
+          "description": "LLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelines for AI applications.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Observability, LangSmith, Tracing, Evaluation, Monitoring, Debugging, Testing, LLM Ops, Production]",
+          "dependencies": "[langsmith>=0.2.0]"
+        }
+      }
+    },
+    {
+      "name": "phoenix",
+      "shape": "skill",
+      "source_path": "17-observability/phoenix",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/17-observability/phoenix",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "phoenix-observability",
+          "description": "Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Observability, Phoenix, Arize, Tracing, Evaluation, Monitoring, LLM Ops, OpenTelemetry]",
+          "dependencies": "[arize-phoenix>=12.0.0]"
+        }
+      }
+    },
+    {
+      "name": "audiocraft",
+      "shape": "skill",
+      "source_path": "18-multimodal/audiocraft",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/audiocraft",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "audiocraft-audio-generation",
+          "description": "PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned music generation.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Multimodal, Audio Generation, Text-to-Music, Text-to-Audio, MusicGen]",
+          "dependencies": "[audiocraft, torch>=2.0.0, transformers>=4.30.0]"
+        }
+      }
+    },
+    {
+      "name": "blip-2",
+      "shape": "skill",
+      "source_path": "18-multimodal/blip-2",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/blip-2",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "blip-2-vision-language",
+          "description": "Vision-language pre-training framework bridging frozen image encoders and LLMs. Use when you need image captioning, visual question answering, image-text retrieval, or multimodal chat with state-of-the-art zero-shot performance.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Multimodal, Vision-Language, Image Captioning, VQA, Zero-Shot]",
+          "dependencies": "[transformers>=4.30.0, torch>=1.10.0, Pillow]"
+        }
+      }
+    },
+    {
+      "name": "clip",
+      "shape": "skill",
+      "source_path": "18-multimodal/clip",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/clip",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "clip",
+          "description": "OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image understanding.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Multimodal, CLIP, Vision-Language, Zero-Shot, Image Classification, OpenAI, Image Search, Cross-Modal Retrieval, Content Moderation]",
+          "dependencies": "[transformers, torch, pillow]"
+        }
+      }
+    },
+    {
+      "name": "cosmos-policy",
+      "shape": "skill",
+      "source_path": "18-multimodal/cosmos-policy",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/cosmos-policy",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "evaluating-cosmos-policy",
+          "description": "Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. Use when setting up cosmos-policy for robot manipulation evaluation, running headless GPU evaluations with EGL rendering, or profiling inference latency on cluster or local GPU machines.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Cosmos Policy, VLA, Robotics, LIBERO, RoboCasa, Simulation, Evaluation, Profiling, EGL Rendering]",
+          "dependencies": "[torch>=2.1.0, mujoco>=3.0.0, robosuite>=1.4.0, \"robocasa @ git+https://github.com/moojink/robocasa-cosmos-policy.git\", transformers>=4.40.0, \"cosmos-policy @ git+https://github.com/NVlabs/cosmos-policy.git\"]"
+        }
+      }
+    },
+    {
+      "name": "llava",
+      "shape": "skill",
+      "source_path": "18-multimodal/llava",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/llava",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "llava",
+          "description": "Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question answering, and instruction following. Use for vision-language chatbots or image understanding tasks. Best for conversational image analysis.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[LLaVA, Vision-Language, Multimodal, Visual Question Answering, Image Chat, CLIP, Vicuna, Conversational AI, Instruction Tuning, VQA]",
+          "dependencies": "[transformers, torch, pillow]"
+        }
+      }
+    },
+    {
+      "name": "openpi",
+      "shape": "skill",
+      "source_path": "18-multimodal/openpi",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/openpi",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "fine-tuning-serving-openpi",
+          "description": "Fine-tune and serve Physical Intelligence OpenPI models (pi0, pi0-fast, pi0.5) using JAX or PyTorch backends for robot policy inference across ALOHA, DROID, and LIBERO environments. Use when adapting pi0 models to custom datasets, converting JAX checkpoints to PyTorch, running policy inference servers, or debugging norm stats and GPU memory issues.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[OpenPI, Physical Intelligence, VLA, Robotics, JAX, PyTorch, Fine-Tuning, Policy Serving, ALOHA, DROID, LIBERO, pi0]",
+          "dependencies": "[uv>=0.4.0, jax>=0.4.30, torch>=2.1.0, transformers>=4.53.2]"
+        }
+      }
+    },
+    {
+      "name": "openvla-oft",
+      "shape": "skill",
+      "source_path": "18-multimodal/openvla-oft",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/openvla-oft",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "fine-tuning-openvla-oft",
+          "description": "Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO simulation and ALOHA real-world setups. Use when reproducing OpenVLA-OFT paper results, training custom VLA action heads (L1 or diffusion), deploying server-client inference for ALOHA, or debugging normalization, LoRA merge, and cross-GPU issues.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[OpenVLA, OpenVLA-OFT, VLA, Robotics, Fine-Tuning, LIBERO, ALOHA, LoRA, FiLM, Action Chunking, Deployment, Continuous Actions]",
+          "dependencies": "[torch==2.2.0, transformers>=4.40.0, peft==0.11.1, draccus==0.8.0, accelerate>=0.25.0, wandb>=0.16.0, fastapi>=0.100.0, uvicorn>=0.24.0, tensorflow==2.15.0, robosuite==1.4.0]  # Exact pins: OpenVLA-OFT paper results were validated on torch==2.2.0, peft==0.11.1, tensorflow==2.15.0; upgrading torch may require re-tuning the LoRA adapter merge step and re-validating action head outputs"
+        }
+      }
+    },
+    {
+      "name": "segment-anything",
+      "shape": "skill",
+      "source_path": "18-multimodal/segment-anything",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/segment-anything",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "segment-anything-model",
+          "description": "Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or automatically generate all object masks in an image.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Multimodal, Image Segmentation, Computer Vision, SAM, Zero-Shot]",
+          "dependencies": "[segment-anything, transformers>=4.30.0, torch>=1.7.0]"
+        }
+      }
+    },
+    {
+      "name": "stable-diffusion",
+      "shape": "skill",
+      "source_path": "18-multimodal/stable-diffusion",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/stable-diffusion",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "stable-diffusion-image-generation",
+          "description": "State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom diffusion pipelines.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Image Generation, Stable Diffusion, Diffusers, Text-to-Image, Multimodal, Computer Vision]",
+          "dependencies": "[diffusers>=0.30.0, transformers>=4.41.0, accelerate>=0.31.0, torch>=2.0.0]"
+        }
+      }
+    },
+    {
+      "name": "whisper",
+      "shape": "skill",
+      "source_path": "18-multimodal/whisper",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/whisper",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "whisper",
+          "description": "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for robust, multilingual ASR.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Whisper, Speech Recognition, ASR, Multimodal, Multilingual, OpenAI, Speech-To-Text, Transcription, Translation, Audio Processing]",
+          "dependencies": "[openai-whisper, transformers, torch]"
+        }
+      }
+    },
+    {
+      "name": "knowledge-distillation",
+      "shape": "skill",
+      "source_path": "19-emerging-techniques/knowledge-distillation",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/knowledge-distillation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "knowledge-distillation",
+          "description": "Compress large language models using knowledge distillation from teacher to student models. Use when deploying smaller models with retained performance, transferring GPT-4 capabilities to open-source models, or reducing inference costs. Covers temperature scaling, soft targets, reverse KLD, logit distillation, and MiniLLM training strategies.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Emerging Techniques, Knowledge Distillation, Model Compression, Teacher-Student, MiniLLM, Reverse KLD, Soft Targets, Temperature Scaling, Logit Distillation, Model Transfer]",
+          "dependencies": "[transformers, torch, datasets]"
+        }
+      }
+    },
+    {
+      "name": "long-context",
+      "shape": "skill",
+      "source_path": "19-emerging-techniques/long-context",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/long-context",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "long-context",
+          "description": "Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques. Use when processing long documents (32k-128k+ tokens), extending pre-trained models beyond original context limits, or implementing efficient positional encodings. Covers rotary embeddings, attention biases, interpolation methods, and extrapolation strategies for LLMs.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Emerging Techniques, Long Context, RoPE, YaRN, ALiBi, Position Interpolation, Extended Context, Rotary Embeddings, Attention Bias, Context Extension, Positional Encoding]",
+          "dependencies": "[transformers, torch, flash-attn]"
+        }
+      }
+    },
+    {
+      "name": "model-merging",
+      "shape": "skill",
+      "source_path": "19-emerging-techniques/model-merging",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/model-merging",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "model-merging",
+          "description": "Merge multiple fine-tuned models using mergekit to combine capabilities without retraining. Use when creating specialized models by blending domain-specific expertise (math + coding + chat), improving performance beyond single models, or experimenting rapidly with model variants. Covers SLERP, TIES-Merging, DARE, Task Arithmetic, linear merging, and production deployment strategies.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Emerging Techniques, Model Merging, Mergekit, SLERP, TIES, DARE, Task Arithmetic, Model Fusion, No Retraining, Multi-Capability, Arcee AI]",
+          "dependencies": "[mergekit, transformers, torch]"
+        }
+      }
+    },
+    {
+      "name": "model-pruning",
+      "shape": "skill",
+      "source_path": "19-emerging-techniques/model-pruning",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/model-pruning",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "model-pruning",
+          "description": "Reduce LLM size and accelerate inference using pruning techniques like Wanda and SparseGPT. Use when compressing models without retraining, achieving 50% sparsity with minimal accuracy loss, or enabling faster inference on hardware accelerators. Covers unstructured pruning, structured pruning, N:M sparsity, magnitude pruning, and one-shot methods.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Emerging Techniques, Model Pruning, Wanda, SparseGPT, Sparsity, Model Compression, N:M Sparsity, One-Shot Pruning, Structured Pruning, Unstructured Pruning, Fast Inference]",
+          "dependencies": "[transformers, torch]"
+        }
+      }
+    },
+    {
+      "name": "moe-training",
+      "shape": "skill",
+      "source_path": "19-emerging-techniques/moe-training",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/moe-training",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "moe-training",
+          "description": "Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace. Use when training large-scale models with limited compute (5× cost reduction vs dense models), implementing sparse architectures like Mixtral 8x7B or DeepSeek-V3, or scaling model capacity without proportional compute increase. Covers MoE architectures, routing mechanisms, load balancing, expert parallelism, and inference optimization.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Emerging Techniques, MoE, Mixture Of Experts, Sparse Models, DeepSpeed, Expert Parallelism, Mixtral, DeepSeek, Routing, Load Balancing, Efficient Training]",
+          "dependencies": "[deepspeed, transformers, torch, accelerate]"
+        }
+      }
+    },
+    {
+      "name": "speculative-decoding",
+      "shape": "skill",
+      "source_path": "19-emerging-techniques/speculative-decoding",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/speculative-decoding",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "speculative-decoding",
+          "description": "Accelerate LLM inference using speculative decoding, Medusa multiple heads, and lookahead decoding techniques. Use when optimizing inference speed (1.5-3.6× speedup), reducing latency for real-time applications, or deploying models with limited compute. Covers draft models, tree-based attention, Jacobi iteration, parallel token generation, and production deployment strategies.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Emerging Techniques, Speculative Decoding, Medusa, Lookahead Decoding, Fast Inference, Draft Models, Tree Attention, Parallel Generation, Latency Reduction, Inference Optimization]",
+          "dependencies": "[transformers, torch]"
+        }
+      }
+    },
+    {
+      "name": "academic-plotting",
+      "shape": "skill",
+      "source_path": "20-ml-paper-writing/academic-plotting",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/academic-plotting",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "academic-plotting",
+          "description": "Generates publication-quality figures for ML papers from research context. Given a paper section or description, extracts system components and relationships to generate architecture diagrams via Gemini. Given experiment results or data, auto-selects chart type and generates data-driven figures via matplotlib/seaborn. Use when creating any figure for a conference paper.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Academic Writing, Visualization, Matplotlib, Seaborn, Plotting, Figures, Diagrams, NeurIPS, ICML, ICLR, LaTeX]",
+          "dependencies": "[matplotlib>=3.8.0, seaborn>=0.13.0, numpy, google-genai>=1.0.0]"
+        }
+      }
+    },
+    {
+      "name": "ml-paper-writing",
+      "shape": "skill",
+      "source_path": "20-ml-paper-writing/ml-paper-writing",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/ml-paper-writing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ml-paper-writing",
+          "description": "Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. For systems venues (OSDI, NSDI, ASPLOS, SOSP), use systems-paper-writing instead.",
+          "version": "1.2.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Academic Writing, NeurIPS, ICML, ICLR, ACL, AAAI, COLM, LaTeX, Paper Writing, Citations, Research]",
+          "dependencies": "[semanticscholar, arxiv, habanero, requests]"
+        }
+      }
+    },
+    {
+      "name": "presenting-conference-talks",
+      "shape": "skill",
+      "source_path": "20-ml-paper-writing/presenting-conference-talks",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/presenting-conference-talks",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "presenting-conference-talks",
+          "description": "Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script. Use when preparing oral talks, spotlight presentations, or invited talks for ML and systems conferences.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Presenting Conference Talks, Beamer, PPTX, Slides, Speaker Notes, OSDI, SOSP, ASPLOS, NeurIPS, ICML]",
+          "dependencies": "[python-pptx>=0.6.21]"
+        }
+      }
+    },
+    {
+      "name": "systems-paper-writing",
+      "shape": "skill",
+      "source_path": "20-ml-paper-writing/systems-paper-writing",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/systems-paper-writing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "systems-paper-writing",
+          "description": "Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys. Provides paragraph-level structural blueprints, writing patterns, venue-specific checklists, reviewer guidelines, LaTeX templates, and conference deadlines. Use this skill for all systems conference paper writing.",
+          "version": "1.1.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Systems Paper Writing, OSDI, SOSP, ASPLOS, NSDI, EuroSys, Structural Blueprint, Academic Writing, LaTeX]"
+        }
+      }
+    },
+    {
+      "name": "brainstorming-research-ideas",
+      "shape": "skill",
+      "source_path": "21-research-ideation/brainstorming-research-ideas",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/21-research-ideation/brainstorming-research-ideas",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "brainstorming-research-ideas",
+          "description": "Guides researchers through structured ideation frameworks to discover high-impact research directions. Use when exploring new problem spaces, pivoting between projects, or seeking novel angles on existing work.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Research Ideation, Brainstorming, Problem Discovery, Creative Thinking, Research Strategy]",
+          "dependencies": "[]"
+        }
+      }
+    },
+    {
+      "name": "creative-thinking-for-research",
+      "shape": "skill",
+      "source_path": "21-research-ideation/creative-thinking-for-research",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/21-research-ideation/creative-thinking-for-research",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "creative-thinking-for-research",
+          "description": "Applies cognitive science frameworks for creative thinking to CS and AI research ideation. Use when seeking genuinely novel research directions by leveraging combinatorial creativity, analogical reasoning, constraint manipulation, and other empirically grounded creative strategies.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[Creative Thinking, Research Ideation, Analogical Reasoning, Problem Reformulation, Cognitive Science]",
+          "dependencies": "[]"
+        }
+      }
+    },
+    {
+      "name": "compiler",
+      "shape": "skill",
+      "source_path": "22-agent-native-research-artifact/compiler",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/compiler",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ara-compiler",
+          "description": "Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete Agent-Native Research Artifact (ARA) with cognitive layer (claims, concepts, heuristics), physical layer (configs, code stubs), exploration graph, and grounded evidence. Use when ingesting a paper or codebase into a structured, machine-executable knowledge package, building an ARA from scratch, or converting research outputs into a falsifiable, agent-traversable form.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[ARA, Research Artifacts, Knowledge Extraction, Paper Ingestion, Exploration Graph, Provenance, Research Tooling, Epistemic Compilation]",
+          "dependencies": "[]"
+        }
+      }
+    },
+    {
+      "name": "research-manager",
+      "shape": "skill",
+      "source_path": "22-agent-native-research-artifact/research-manager",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/research-manager",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ara-research-manager",
+          "description": "Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends, claims, heuristics, and pivots, and writing them into the ara/ directory with user-vs-AI provenance tags. Use as a session epilogue — never during execution — to maintain a faithful, auditable trace of how a research project actually evolved.",
+          "version": "1.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[ARA, Research Recording, Provenance, Session Logging, Knowledge Management, Exploration Tree, Research Tooling]",
+          "dependencies": "[]"
+        }
+      }
+    },
+    {
+      "name": "rigor-reviewer",
+      "shape": "skill",
+      "source_path": "22-agent-native-research-artifact/rigor-reviewer",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/rigor-reviewer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ara-rigor-reviewer",
+          "description": "Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring six dimensions (evidence relevance, falsifiability, scope calibration, argument coherence, exploration integrity, methodological rigor) and producing a constructive, severity-ranked report with a Strong Accept-to-Reject recommendation. Use after Level 1 structural validation passes, when an ARA needs an objective epistemic critique before publication or release.",
+          "version": "3.0.0",
+          "author": "Orchestra Research",
+          "license": "MIT",
+          "tags": "[ARA, Epistemic Review, Research Rigor, Peer Review, Scoring, Audit, Falsifiability, Research Tooling]",
+          "dependencies": "[]"
+        }
+      }
+    },
+    {
+      "name": "demos",
+      "shape": "unknown",
+      "source_path": "demos",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/demos",
+      "readme_excerpt": "> **Curated collection of demo repositories showcasing skills in action**",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "ai-research-skills",
+      "shape": "unknown",
+      "source_path": "packages/ai-research-skills",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/packages/ai-research-skills",
+      "readme_excerpt": "Install AI research engineering skills to your coding agents (Claude Code, Hermes Agent, OpenCode, Cursor, Gemini CLI, and more).",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "store": "superclaude-framework",
+  "source_repo": "https://github.com/SuperClaude-Org/SuperClaude_Framework.git",
+  "generated_at": "2026-05-29T18:48:06.015Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 1,
+  "plugins": [
+    {
+      "name": "confidence-check",
+      "shape": "skill",
+      "source_path": "skills/confidence-check",
+      "source_url": "https://github.com/SuperClaude-Org/SuperClaude_Framework/tree/main/skills/confidence-check",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "Confidence Check",
+          "description": "Pre-implementation confidence assessment (≥90% required). Use before starting any implementation to verify readiness with duplicate check, architecture compliance, official docs verification, OSS references, and root cause identification."
+        }
+      }
+    }
+  ]
+}

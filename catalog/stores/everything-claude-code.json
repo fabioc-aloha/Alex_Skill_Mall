@@ -1,0 +1,201 @@
+{
+  "store": "everything-claude-code",
+  "source_repo": "https://github.com/WorldFlowAI/everything-claude-code.git",
+  "generated_at": "2026-05-29T18:48:04.975Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community",
+  "license": null,
+  "plugin_count": 15,
+  "plugins": [
+    {
+      "name": "hooks",
+      "shape": "hook",
+      "source_path": "hooks",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/hooks",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "plugins",
+      "shape": "unknown",
+      "source_path": "plugins",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/plugins",
+      "readme_excerpt": "Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - see the [full article](https://x.com/affaanmustafa/status/2012378465664745795) for when and why to use",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "scripts",
+      "shape": "hook",
+      "source_path": "scripts",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/scripts",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "backend-patterns",
+      "shape": "skill",
+      "source_path": "skills/backend-patterns",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/backend-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "backend-patterns",
+          "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
+        }
+      }
+    },
+    {
+      "name": "clickhouse-io",
+      "shape": "skill",
+      "source_path": "skills/clickhouse-io",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/clickhouse-io",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "clickhouse-io",
+          "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads."
+        }
+      }
+    },
+    {
+      "name": "coding-standards",
+      "shape": "skill",
+      "source_path": "skills/coding-standards",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/coding-standards",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "coding-standards",
+          "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development."
+        }
+      }
+    },
+    {
+      "name": "continuous-learning",
+      "shape": "skill",
+      "source_path": "skills/continuous-learning",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/continuous-learning",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "continuous-learning",
+          "description": "Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use."
+        }
+      }
+    },
+    {
+      "name": "eval-harness",
+      "shape": "skill",
+      "source_path": "skills/eval-harness",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/eval-harness",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "frontend-patterns",
+      "shape": "skill",
+      "source_path": "skills/frontend-patterns",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/frontend-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "frontend-patterns",
+          "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices."
+        }
+      }
+    },
+    {
+      "name": "project-guidelines-example",
+      "shape": "skill",
+      "source_path": "skills/project-guidelines-example",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/project-guidelines-example",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "security-review",
+      "shape": "skill",
+      "source_path": "skills/security-review",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/security-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "security-review",
+          "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns."
+        }
+      }
+    },
+    {
+      "name": "strategic-compact",
+      "shape": "skill",
+      "source_path": "skills/strategic-compact",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/strategic-compact",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "strategic-compact",
+          "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction."
+        }
+      }
+    },
+    {
+      "name": "tdd-workflow",
+      "shape": "skill",
+      "source_path": "skills/tdd-workflow",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/tdd-workflow",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "tdd-workflow",
+          "description": "Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests."
+        }
+      }
+    },
+    {
+      "name": "verification-loop",
+      "shape": "skill",
+      "source_path": "skills/verification-loop",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/skills/verification-loop",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "tests",
+      "shape": "hook",
+      "source_path": "tests",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/main/tests",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    }
+  ]
+}

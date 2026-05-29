@@ -1,0 +1,272 @@
+{
+  "store": "antfu-skills",
+  "source_repo": "https://github.com/antfu/skills.git",
+  "generated_at": "2026-05-29T18:48:06.113Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 17,
+  "plugins": [
+    {
+      "name": "antfu",
+      "shape": "skill",
+      "source_path": "skills/antfu",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/antfu",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "antfu",
+          "description": "Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when the user mentions Anthony Fu's preferences.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "nuxt",
+      "shape": "skill",
+      "source_path": "skills/nuxt",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/nuxt",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "nuxt",
+          "description": "Nuxt full-stack Vue framework with SSR, auto-imports, and file-based routing. Use when working with Nuxt apps, server routes, useFetch, middleware, or hybrid rendering.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "pinia",
+      "shape": "skill",
+      "source_path": "skills/pinia",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/pinia",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pinia",
+          "description": "Pinia official Vue state management library, type-safe and extensible. Use when defining stores, working with state/getters/actions, or implementing store patterns in Vue apps.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "pnpm",
+      "shape": "skill",
+      "source_path": "skills/pnpm",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/pnpm",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pnpm",
+          "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces, or managing dependencies with catalogs, patches, or overrides.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "slidev",
+      "shape": "skill",
+      "source_path": "skills/slidev",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/slidev",
+      "readme_excerpt": "Agent skills that help Claude Code understand and work with [Slidev](https://sli.dev) presentations.",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "slidev",
+          "description": "Create and present web-based slidedecks for developers using Slidev with Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference talks, code walkthroughs, teaching materials, or developer decks."
+        }
+      }
+    },
+    {
+      "name": "tsdown",
+      "shape": "skill",
+      "source_path": "skills/tsdown",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/tsdown",
+      "readme_excerpt": "Agent skills that help Claude Code understand and work with [tsdown](https://tsdown.dev), the elegant library bundler.",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "tsdown",
+          "description": "Bundle TypeScript and JavaScript libraries with blazing-fast speed powered by Rolldown. Use when building libraries, generating type declarations, bundling for multiple formats, or migrating from tsup."
+        }
+      }
+    },
+    {
+      "name": "turborepo",
+      "shape": "skill",
+      "source_path": "skills/turborepo",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/turborepo",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "turborepo",
+          "description": "",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "unocss",
+      "shape": "skill",
+      "source_path": "skills/unocss",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/unocss",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "unocss",
+          "description": "UnoCSS instant atomic CSS engine, superset of Tailwind CSS. Use when configuring UnoCSS, writing utility rules, shortcuts, or working with presets like Wind, Icons, Attributify.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "vite",
+      "shape": "skill",
+      "source_path": "skills/vite",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/vite",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "vite",
+          "description": "Vite build tool configuration, plugin API, SSR, and Vite 8 Rolldown migration. Use when working with Vite projects, vite.config.ts, Vite plugins, or building libraries/SSR apps with Vite.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "vitepress",
+      "shape": "skill",
+      "source_path": "skills/vitepress",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/vitepress",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "vitepress",
+          "description": "VitePress static site generator powered by Vite and Vue. Use when building documentation sites, configuring themes, or writing Markdown with Vue components.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "vitest",
+      "shape": "skill",
+      "source_path": "skills/vitest",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/vitest",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "vitest",
+          "description": "Vitest fast unit testing framework powered by Vite with Jest-compatible API. Use when writing tests, mocking, configuring coverage, or working with test filtering and fixtures.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "vue",
+      "shape": "skill",
+      "source_path": "skills/vue",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/vue",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "vue",
+          "description": "Vue 3 Composition API, script setup macros, reactivity system, and built-in components. Use when writing Vue SFCs, defineProps/defineEmits/defineModel, watchers, or using Transition/Teleport/Suspense/KeepAlive.",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "vue-best-practices",
+      "shape": "skill",
+      "source_path": "skills/vue-best-practices",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/vue-best-practices",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "vue-best-practices",
+          "description": "MUST be used for Vue.js tasks. Strongly recommends Composition API with `<script setup>` and TypeScript as the standard approach. Covers Vue 3, SSR, Volar, vue-tsc. Load for any Vue, .vue files, Vue Router, Pinia, or Vite with Vue work. ALWAYS use Composition API unless the project explicitly requires Options API.",
+          "license": "MIT",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "vue-router-best-practices",
+      "shape": "skill",
+      "source_path": "skills/vue-router-best-practices",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/vue-router-best-practices",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "vue-router-best-practices",
+          "description": "Vue Router 4 patterns, navigation guards, route params, and route-component lifecycle interactions.",
+          "version": "1.0.0",
+          "license": "MIT",
+          "author": "github.com/vuejs-ai"
+        }
+      }
+    },
+    {
+      "name": "vue-testing-best-practices",
+      "shape": "skill",
+      "source_path": "skills/vue-testing-best-practices",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/vue-testing-best-practices",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "vue-testing-best-practices",
+          "version": "1.0.0",
+          "license": "MIT",
+          "author": "github.com/vuejs-ai",
+          "description": "Use for Vue.js testing. Covers Vitest, Vue Test Utils, component testing, mocking, testing patterns, and Playwright for E2E testing."
+        }
+      }
+    },
+    {
+      "name": "vueuse-functions",
+      "shape": "skill",
+      "source_path": "skills/vueuse-functions",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/vueuse-functions",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "vueuse-functions",
+          "description": "Apply VueUse composables where appropriate to build concise, maintainable Vue.js / Nuxt features.",
+          "license": "MIT",
+          "metadata": "",
+          "compatibility": "Requires Vue 3 (or above) or Nuxt 3 (or above) project"
+        }
+      }
+    },
+    {
+      "name": "web-design-guidelines",
+      "shape": "skill",
+      "source_path": "skills/web-design-guidelines",
+      "source_url": "https://github.com/antfu/skills/tree/main/skills/web-design-guidelines",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "web-design-guidelines",
+          "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+          "metadata": ""
+        }
+      }
+    }
+  ]
+}

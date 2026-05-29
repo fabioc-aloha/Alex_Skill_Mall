@@ -1,0 +1,254 @@
+{
+  "store": "claude-code-plugins-plus-skills",
+  "source_repo": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills.git",
+  "generated_at": "2026-05-29T18:48:06.176Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 22,
+  "plugins": [
+    {
+      "name": "freshie",
+      "shape": "unknown",
+      "source_path": "freshie",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/freshie",
+      "readme_excerpt": "Configuration Management Database (CMDB) for the claude-code-plugins ecosystem.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "analytics-daemon",
+      "shape": "unknown",
+      "source_path": "packages/analytics-daemon",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/packages/analytics-daemon",
+      "readme_excerpt": "Local analytics daemon that monitors Claude Code conversation files for real-time plugin usage tracking and dashboard integration.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "analytics-dashboard",
+      "shape": "unknown",
+      "source_path": "packages/analytics-dashboard",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/packages/analytics-dashboard",
+      "readme_excerpt": "Real-time analytics dashboard for Claude Code plugin usage, skill triggers, and API costs.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "cli",
+      "shape": "unknown",
+      "source_path": "packages/cli",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/packages/cli",
+      "readme_excerpt": "> Command-line tool for installing and managing Claude Code plugins from [tonsofskills.com](https://tonsofskills.com)",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "plugin-validator",
+      "shape": "unknown",
+      "source_path": "packages/plugin-validator",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/packages/plugin-validator",
+      "readme_excerpt": "**Validate Claude Code plugins for completeness and best practices before publishing.**",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "ai-agency",
+      "shape": "unknown",
+      "source_path": "plugins/ai-agency",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-agency",
+      "readme_excerpt": "**Professional tools for AI agencies building with Make.com, Zapier, n8n, OpenAI, Anthropic, and more.**",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "ai-ml",
+      "shape": "unknown",
+      "source_path": "plugins/ai-ml",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-ml",
+      "readme_excerpt": "This directory contains 25 specialized plugins for machine learning, data science, and AI development workflows.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "api-development",
+      "shape": "unknown",
+      "source_path": "plugins/api-development",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/api-development",
+      "readme_excerpt": "A comprehensive collection of 25 professional plugins for API development with Claude Code.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "database",
+      "shape": "unknown",
+      "source_path": "plugins/database",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/database",
+      "readme_excerpt": "A comprehensive collection of 25 database and backend plugins for Claude Code, covering migration management, performance optimization, security, monitoring, and advanced database operations.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "devops",
+      "shape": "unknown",
+      "source_path": "plugins/devops",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/devops",
+      "readme_excerpt": "A comprehensive collection of 25 DevOps infrastructure plugins for Claude Code, covering the entire DevOps lifecycle.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "performance",
+      "shape": "unknown",
+      "source_path": "plugins/performance",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/performance",
+      "readme_excerpt": "A comprehensive collection of 25 performance and monitoring plugins for Claude Code, covering profiling, optimization, observability, and SRE best practices.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "security",
+      "shape": "unknown",
+      "source_path": "plugins/security",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/security",
+      "readme_excerpt": "Comprehensive collection of 25 security and compliance plugins for Claude Code, covering vulnerability scanning, penetration testing, compliance auditing, and security best practices.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "testing",
+      "shape": "unknown",
+      "source_path": "plugins/testing",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/testing",
+      "readme_excerpt": "A comprehensive collection of 10 professional testing plugins covering all aspects of software quality assurance.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "skills",
+      "shape": "unknown",
+      "source_path": "skills",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills",
+      "readme_excerpt": "**500 production-ready Agent Skills** organized into 20 categories.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "agent-plugin",
+      "shape": "agent",
+      "source_path": "templates/agent-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/templates/agent-plugin",
+      "readme_excerpt": "Plugin with specialized subagent.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "command-plugin",
+      "shape": "unknown",
+      "source_path": "templates/command-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/templates/command-plugin",
+      "readme_excerpt": "Plugin with custom slash commands.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "full-plugin",
+      "shape": "hook",
+      "source_path": "templates/full-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/templates/full-plugin",
+      "readme_excerpt": "Full-featured plugin with commands, agents, and hooks.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "minimal-plugin",
+      "shape": "unknown",
+      "source_path": "templates/minimal-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/templates/minimal-plugin",
+      "readme_excerpt": "Brief description of your plugin.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "skill-plugin",
+      "shape": "skill",
+      "source_path": "templates/skill-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/templates/skill-plugin",
+      "readme_excerpt": "Brief description of what your skill plugin does.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "e2e",
+      "shape": "unknown",
+      "source_path": "tests/e2e",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/tests/e2e",
+      "readme_excerpt": "Comprehensive end-to-end testing for real-world plugin installation, activation, and usage scenarios.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "tutorials",
+      "shape": "skill",
+      "source_path": "tutorials",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/tutorials",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "lab",
+      "shape": "unknown",
+      "source_path": "workspace/lab",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/workspace/lab",
+      "readme_excerpt": "**Purpose:** Safe sandbox for learning and building phased workflow skills with strict validation.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    }
+  ]
+}

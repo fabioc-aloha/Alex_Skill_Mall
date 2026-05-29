@@ -1,0 +1,284 @@
+{
+  "store": "moiz-ai-agent-skills",
+  "source_repo": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills.git",
+  "generated_at": "2026-05-29T18:48:06.270Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 17,
+  "plugins": [
+    {
+      "name": "ask-questions-if-underspecified",
+      "shape": "skill",
+      "source_path": "skills/ask-questions-if-underspecified",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/ask-questions-if-underspecified",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ask-questions-if-underspecified",
+          "description": "Clarify requirements before implementing. Do not use automatically, only when invoked explicitly.",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "audit-library-health",
+      "shape": "skill",
+      "source_path": "skills/audit-library-health",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/audit-library-health",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "audit-library-health",
+          "description": "Use when checking the overall health of a skills library. Run doctor, validate, check for stale skills, and verify generated docs are in sync.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "backend-development",
+      "shape": "skill",
+      "source_path": "skills/backend-development",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/backend-development",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "backend-development",
+          "description": "Backend API design, database architecture, microservices patterns, and test-driven development. Use for designing APIs, database schemas, or backend system architecture.",
+          "source": "wshobson/agents",
+          "license": "MIT",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "best-practices",
+      "shape": "skill",
+      "source_path": "skills/best-practices",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/best-practices",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "best-practices",
+          "description": "",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "browse-and-evaluate",
+      "shape": "skill",
+      "source_path": "skills/browse-and-evaluate",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/browse-and-evaluate",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "browse-and-evaluate",
+          "description": "Use when exploring the ai-agent-skills catalog to find, compare, and evaluate skills before installing. Always use --fields to limit output size and --dry-run before committing to an install.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "build-workspace-docs",
+      "shape": "skill",
+      "source_path": "skills/build-workspace-docs",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/build-workspace-docs",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "build-workspace-docs",
+          "description": "Use when regenerating README.md and WORK_AREAS.md in a managed library workspace. Always dry-run first to preview changes.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "changelog-generator",
+      "shape": "skill",
+      "source_path": "skills/changelog-generator",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/changelog-generator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "changelog-generator",
+          "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "code-documentation",
+      "shape": "skill",
+      "source_path": "skills/code-documentation",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/code-documentation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "code-documentation",
+          "description": "Writing effective code documentation - API docs, README files, inline comments, and technical guides. Use for documenting codebases, APIs, or writing developer guides.",
+          "source": "wshobson/agents",
+          "license": "MIT",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "content-research-writer",
+      "shape": "skill",
+      "source_path": "skills/content-research-writer",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/content-research-writer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "content-research-writer",
+          "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "curate-a-team-library",
+      "shape": "skill",
+      "source_path": "skills/curate-a-team-library",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/curate-a-team-library",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "curate-a-team-library",
+          "description": "Use when building a managed team skills library for a real stack. Map work to shelves, browse before curating, write meaningful `whyHere` notes, and create a starter pack once the first pass is solid.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "database-design",
+      "shape": "skill",
+      "source_path": "skills/database-design",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/database-design",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "database-design",
+          "description": "Database schema design, optimization, and migration patterns for PostgreSQL, MySQL, and NoSQL databases. Use for designing schemas, writing migrations, or optimizing queries.",
+          "source": "wshobson/agents",
+          "license": "MIT",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "install-from-remote-library",
+      "shape": "skill",
+      "source_path": "skills/install-from-remote-library",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/install-from-remote-library",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "install-from-remote-library",
+          "description": "Use when installing skills from a shared ai-agent-skills library repo. Inspect with `--list` first, prefer `--collection`, and preview with `--dry-run` before installing.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "llm-application-dev",
+      "shape": "skill",
+      "source_path": "skills/llm-application-dev",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/llm-application-dev",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "llm-application-dev",
+          "description": "Building applications with Large Language Models - prompt engineering, RAG patterns, and LLM integration. Use for AI-powered features, chatbots, or LLM-based automation.",
+          "source": "wshobson/agents",
+          "license": "MIT",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "migrate-skills-between-libraries",
+      "shape": "skill",
+      "source_path": "skills/migrate-skills-between-libraries",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/migrate-skills-between-libraries",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "migrate-skills-between-libraries",
+          "description": "Use when moving skills between library workspaces or upgrading from a personal library to a team library. Export from one workspace, import into another.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "review-a-skill",
+      "shape": "skill",
+      "source_path": "skills/review-a-skill",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/review-a-skill",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "review-a-skill",
+          "description": "Use when evaluating whether a skill belongs in a library. Preview content, check frontmatter, validate structure, and decide whether to keep, curate, or remove.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "share-a-library",
+      "shape": "skill",
+      "source_path": "skills/share-a-library",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/share-a-library",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "share-a-library",
+          "description": "Use when a managed library is ready to publish to GitHub and hand to teammates as an install command. Run the GitHub publishing steps, then return the exact shareable install command.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    },
+    {
+      "name": "update-installed-skills",
+      "shape": "skill",
+      "source_path": "skills/update-installed-skills",
+      "source_url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/tree/main/skills/update-installed-skills",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "update-installed-skills",
+          "description": "Use when syncing or updating previously installed skills to their latest version. Always dry-run updates before applying, and check for breaking changes.",
+          "category": "workflow",
+          "version": "4.1.0"
+        }
+      }
+    }
+  ]
+}

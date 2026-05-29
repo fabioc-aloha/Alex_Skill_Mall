@@ -1,0 +1,45 @@
+{
+  "store": "awesome-claude-code",
+  "source_repo": "https://github.com/hesreallyhim/awesome-claude-code.git",
+  "generated_at": "2026-05-29T18:48:04.958Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 3,
+  "plugins": [
+    {
+      "name": "resources",
+      "shape": "unknown",
+      "source_path": "resources",
+      "source_url": "https://github.com/hesreallyhim/awesome-claude-code/tree/main/resources",
+      "readme_excerpt": "Historically, this was used to preserve copies of the resources included in the list, however the majority of resources now are libraries, plugins, projects, or other larger-scope artifacts, and so it",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "scripts",
+      "shape": "unknown",
+      "source_path": "scripts",
+      "source_url": "https://github.com/hesreallyhim/awesome-claude-code/tree/main/scripts",
+      "readme_excerpt": "This directory contains all automation scripts for managing the Awesome Claude Code repository. The scripts work together to provide a complete workflow for resource management, from addition to pull ",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "readme_tree",
+      "shape": "unknown",
+      "source_path": "tools/readme_tree",
+      "source_url": "https://github.com/hesreallyhim/awesome-claude-code/tree/main/tools/readme_tree",
+      "readme_excerpt": "This utility keeps the file tree in `docs/README-GENERATION.md` up to date using a",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    }
+  ]
+}

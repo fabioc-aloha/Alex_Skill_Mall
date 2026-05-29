@@ -1,0 +1,45 @@
+{
+  "store": "agency-agents",
+  "source_repo": "https://github.com/msitarzewski/agency-agents.git",
+  "generated_at": "2026-05-29T18:48:05.951Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community",
+  "license": null,
+  "plugin_count": 3,
+  "plugins": [
+    {
+      "name": "examples",
+      "shape": "unknown",
+      "source_path": "examples",
+      "source_url": "https://github.com/msitarzewski/agency-agents/tree/main/examples",
+      "readme_excerpt": "This directory contains example outputs demonstrating how the agency's agents can be orchestrated together to tackle real-world tasks.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "integrations",
+      "shape": "unknown",
+      "source_path": "integrations",
+      "source_url": "https://github.com/msitarzewski/agency-agents/tree/main/integrations",
+      "readme_excerpt": "This directory contains The Agency integrations and converted formats for",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "i18n",
+      "shape": "unknown",
+      "source_path": "scripts/i18n",
+      "source_url": "https://github.com/msitarzewski/agency-agents/tree/main/scripts/i18n",
+      "readme_excerpt": "Localize agent `name` and `description` fields in YAML frontmatter to Simplified Chinese. This makes agent names readable in Copilot Chat's agent picker for Chinese-speaking users.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    }
+  ]
+}

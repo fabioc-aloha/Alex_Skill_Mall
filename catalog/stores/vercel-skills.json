@@ -1,0 +1,26 @@
+{
+  "store": "vercel-skills",
+  "source_repo": "https://github.com/vercel-labs/skills.git",
+  "generated_at": "2026-05-29T18:48:06.323Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "vercel-official",
+  "license": null,
+  "plugin_count": 1,
+  "plugins": [
+    {
+      "name": "find-skills",
+      "shape": "skill",
+      "source_path": "skills/find-skills",
+      "source_url": "https://github.com/vercel-labs/skills/tree/main/skills/find-skills",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "find-skills",
+          "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
+        }
+      }
+    }
+  ]
+}

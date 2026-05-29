@@ -1,0 +1,208 @@
+{
+  "store": "obra-superpowers",
+  "source_repo": "https://github.com/obra/superpowers.git",
+  "generated_at": "2026-05-29T18:48:06.450Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 14,
+  "plugins": [
+    {
+      "name": "brainstorming",
+      "shape": "skill",
+      "source_path": "skills/brainstorming",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "brainstorming",
+          "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
+        }
+      }
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "shape": "skill",
+      "source_path": "skills/dispatching-parallel-agents",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "dispatching-parallel-agents",
+          "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
+        }
+      }
+    },
+    {
+      "name": "executing-plans",
+      "shape": "skill",
+      "source_path": "skills/executing-plans",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/executing-plans",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "executing-plans",
+          "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+        }
+      }
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "shape": "skill",
+      "source_path": "skills/finishing-a-development-branch",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "finishing-a-development-branch",
+          "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup"
+        }
+      }
+    },
+    {
+      "name": "receiving-code-review",
+      "shape": "skill",
+      "source_path": "skills/receiving-code-review",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/receiving-code-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "receiving-code-review",
+          "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation"
+        }
+      }
+    },
+    {
+      "name": "requesting-code-review",
+      "shape": "skill",
+      "source_path": "skills/requesting-code-review",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "requesting-code-review",
+          "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
+        }
+      }
+    },
+    {
+      "name": "subagent-driven-development",
+      "shape": "skill",
+      "source_path": "skills/subagent-driven-development",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "subagent-driven-development",
+          "description": "Use when executing implementation plans with independent tasks in the current session"
+        }
+      }
+    },
+    {
+      "name": "systematic-debugging",
+      "shape": "skill",
+      "source_path": "skills/systematic-debugging",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "systematic-debugging",
+          "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+        }
+      }
+    },
+    {
+      "name": "test-driven-development",
+      "shape": "skill",
+      "source_path": "skills/test-driven-development",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "test-driven-development",
+          "description": "Use when implementing any feature or bugfix, before writing implementation code"
+        }
+      }
+    },
+    {
+      "name": "using-git-worktrees",
+      "shape": "skill",
+      "source_path": "skills/using-git-worktrees",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "using-git-worktrees",
+          "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback"
+        }
+      }
+    },
+    {
+      "name": "using-superpowers",
+      "shape": "skill",
+      "source_path": "skills/using-superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "using-superpowers",
+          "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions"
+        }
+      }
+    },
+    {
+      "name": "verification-before-completion",
+      "shape": "skill",
+      "source_path": "skills/verification-before-completion",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "verification-before-completion",
+          "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
+        }
+      }
+    },
+    {
+      "name": "writing-plans",
+      "shape": "skill",
+      "source_path": "skills/writing-plans",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/writing-plans",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "writing-plans",
+          "description": "Use when you have a spec or requirements for a multi-step task, before touching code"
+        }
+      }
+    },
+    {
+      "name": "writing-skills",
+      "shape": "skill",
+      "source_path": "skills/writing-skills",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/writing-skills",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "writing-skills",
+          "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
+        }
+      }
+    }
+  ]
+}

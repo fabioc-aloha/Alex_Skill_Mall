@@ -1,0 +1,500 @@
+{
+  "store": "copilot-agents-dojo",
+  "source_repo": "https://github.com/andreaswasita/copilot-agents-dojo.git",
+  "generated_at": "2026-05-29T18:48:05.958Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "domain",
+  "license": null,
+  "plugin_count": 25,
+  "plugins": [
+    {
+      "name": "autonomous-bug-fix",
+      "shape": "skill",
+      "source_path": "skills/autonomous-bug-fix",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/autonomous-bug-fix",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "autonomous-bug-fix",
+          "description": "Reproduces, diagnoses, fixes, and verifies bugs unaided.",
+          "tier": "core",
+          "category": "discipline",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[debugging, autonomy, root-cause]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "brainstorming",
+      "shape": "skill",
+      "source_path": "skills/brainstorming",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/brainstorming",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "brainstorming",
+          "description": "Refines rough ideas into approved designs before code.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[design, socratic, discovery]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "code-review",
+      "shape": "skill",
+      "source_path": "skills/code-review",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/code-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "code-review",
+          "description": "Reviews diffs by severity to produce actionable feedback.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[review, quality, pr]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "codebase-onboarding",
+      "shape": "skill",
+      "source_path": "skills/codebase-onboarding",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/codebase-onboarding",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "codebase-onboarding",
+          "description": "Maps an unfamiliar repo before touching its code.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[onboarding, exploration, conventions]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "debugging",
+      "shape": "skill",
+      "source_path": "skills/debugging",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/debugging",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "debugging",
+          "description": "Systematic root-cause investigation for hard bugs.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[debugging, diagnostics, root-cause]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "demand-elegance",
+      "shape": "skill",
+      "source_path": "skills/demand-elegance",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/demand-elegance",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "demand-elegance",
+          "description": "Challenges hacky fixes on non-trivial changes.",
+          "tier": "core",
+          "category": "discipline",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[quality, design, simplicity]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "derive-nfr-from-driver",
+      "shape": "skill",
+      "source_path": "skills/derive-nfr-from-driver",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/derive-nfr-from-driver",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "derive-nfr-from-driver",
+          "description": "Derives measurable NFRs from a parent business driver.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[requirements, traceability, nfr, togaf]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "derive-security-from-risk",
+      "shape": "skill",
+      "source_path": "skills/derive-security-from-risk",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/derive-security-from-risk",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "derive-security-from-risk",
+          "description": "Derives security requirements from a named threat.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[security, requirements, traceability, togaf, threat-modelling]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "shape": "skill",
+      "source_path": "skills/dispatching-parallel-agents",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/dispatching-parallel-agents",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "dispatching-parallel-agents",
+          "description": "Runs independent subtasks concurrently via sub-agents.",
+          "tier": "practical",
+          "category": "delegation",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[delegation, parallel, sub-agents]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "durable-work",
+      "shape": "skill",
+      "source_path": "skills/durable-work",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/durable-work",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "durable-work",
+          "description": "Picks the board over sub-agents for cross-turn work.",
+          "tier": "core",
+          "category": "delegation",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[delegation, durable, board, persistence]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "executing-plans",
+      "shape": "skill",
+      "source_path": "skills/executing-plans",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/executing-plans",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "executing-plans",
+          "description": "Executes approved plans one task at a time, verified.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[execution, plan, todo]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "shape": "skill",
+      "source_path": "skills/finishing-a-development-branch",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/finishing-a-development-branch",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "finishing-a-development-branch",
+          "description": "Verifies, summarises, and closes a development branch.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[git, merge, lifecycle]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "plan-before-code",
+      "shape": "skill",
+      "source_path": "skills/plan-before-code",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/plan-before-code",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "plan-before-code",
+          "description": "Plans multi-step work before writing code.",
+          "tier": "core",
+          "category": "discipline",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[planning, workflow, discipline]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "pr-workflow",
+      "shape": "skill",
+      "source_path": "skills/pr-workflow",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/pr-workflow",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pr-workflow",
+          "description": "Prepares branches and PRs for clean, reviewable merges.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[git, pr, review]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "receiving-code-review",
+      "shape": "skill",
+      "source_path": "skills/receiving-code-review",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/receiving-code-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "receiving-code-review",
+          "description": "Processes review feedback until the change is approved.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[review, feedback, iteration]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "refactoring",
+      "shape": "skill",
+      "source_path": "skills/refactoring",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/refactoring",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "refactoring",
+          "description": "Safe, test-backed code restructuring in small steps.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[refactoring, quality, debt]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "requesting-code-review",
+      "shape": "skill",
+      "source_path": "skills/requesting-code-review",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/requesting-code-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "requesting-code-review",
+          "description": "Self-reviews work against the plan before sign-off.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[self-review, quality, gate]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "requirements-elicitation",
+      "shape": "skill",
+      "source_path": "skills/requirements-elicitation",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/requirements-elicitation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "requirements-elicitation",
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "self-improvement",
+      "shape": "skill",
+      "source_path": "skills/self-improvement",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/self-improvement",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "self-improvement",
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "subagent-strategy",
+      "shape": "skill",
+      "source_path": "skills/subagent-strategy",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/subagent-strategy",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "subagent-strategy",
+          "description": "Delegates research and parallel work to sub-agents.",
+          "tier": "core",
+          "category": "delegation",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[delegation, parallel, context-management]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "test-writing",
+      "shape": "skill",
+      "source_path": "skills/test-writing",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/test-writing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "test-writing",
+          "description": "Writes meaningful tests that actually catch bugs.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[testing, tdd, quality]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "traceability-gate",
+      "shape": "skill",
+      "source_path": "skills/traceability-gate",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/traceability-gate",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "traceability-gate",
+          "description": "Enforces parent-link lineage across requirement layers.",
+          "tier": "core",
+          "category": "discipline",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[traceability, governance, togaf, gate]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "using-git-worktrees",
+      "shape": "skill",
+      "source_path": "skills/using-git-worktrees",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/using-git-worktrees",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "using-git-worktrees",
+          "description": "Isolates each task in its own git worktree off main.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[git, worktree, isolation]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "using-superpowers",
+      "shape": "skill",
+      "source_path": "skills/using-superpowers",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/using-superpowers",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "using-superpowers",
+          "description": "Activates the dojo framework at the start of a session.",
+          "tier": "core",
+          "category": "activation",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[activation, framework, session]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    },
+    {
+      "name": "verify-before-done",
+      "shape": "skill",
+      "source_path": "skills/verify-before-done",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/main/skills/verify-before-done",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "verify-before-done",
+          "description": "Proves work with tests, diffs, and logs before sign-off.",
+          "tier": "core",
+          "category": "discipline",
+          "created_by": "human",
+          "platforms": "[windows, macos, linux]",
+          "tags": "[verification, testing, quality]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "store": "github-copilot-plugins",
+  "source_repo": "https://github.com/github/copilot-plugins.git",
+  "generated_at": "2026-05-29T18:48:06.325Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "github-official",
+  "license": null,
+  "plugin_count": 3,
+  "plugins": [
+    {
+      "name": "advanced-security",
+      "shape": "mcp",
+      "source_path": "plugins/advanced-security",
+      "source_url": "https://github.com/github/copilot-plugins/tree/main/plugins/advanced-security",
+      "readme_excerpt": "Security-focused plugin that brings GitHub Advanced Security capabilities into AI coding workflows through skills and MCP integrations.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "spark",
+      "shape": "skill",
+      "source_path": "plugins/spark",
+      "source_url": "https://github.com/github/copilot-plugins/tree/main/plugins/spark",
+      "readme_excerpt": "Comprehensive guidance for building modern web applications with opinionated defaults for tech stack, design system, and code standards.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "workiq",
+      "shape": "mcp",
+      "source_path": "plugins/workiq",
+      "source_url": "https://github.com/github/copilot-plugins/tree/main/plugins/workiq",
+      "readme_excerpt": "Workplace intelligence plugin that connects AI agents to Microsoft 365 Copilot, providing access to organizational data from Outlook, Teams, SharePoint, OneDrive, and Calendar.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    }
+  ]
+}

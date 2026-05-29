@@ -1,0 +1,461 @@
+{
+  "$schema": "./supported-stores.schema.json",
+  "version": "2.0.0",
+  "lastUpdated": "2026-05-29",
+  "purpose": "Single source of truth for Mall source registry. Canonical list of upstream stores that feed the Plugin Mall scan pipeline, plus the Mall itself (provenance=true) per PLAN-mall-automation.md v3 / ADR-008. Each entry maps a store name to its git remote, plugin layout, editorial tier, and provenance flag. Consumed by scripts/store-sync.cjs, scripts/mall-clone.cjs, scripts/mall-quality-audit.cjs, scripts/mall-non-coding-candidates.cjs.",
+  "mallRoot": "c:/Development/MALL",
+  "stores": [
+    {
+      "name": "awesome-copilot",
+      "remote": "https://github.com/github/awesome-copilot.git",
+      "pluginDir": ".",
+      "quality": "github-community",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "mcp-servers",
+      "remote": "https://github.com/modelcontextprotocol/servers.git",
+      "pluginDir": "src",
+      "quality": "anthropic-official",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "spec-kit",
+      "remote": "https://github.com/github/spec-kit.git",
+      "pluginDir": ".",
+      "quality": "github-official",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "remote": "https://github.com/punkpeye/awesome-mcp-servers.git",
+      "pluginDir": ".",
+      "quality": "community-registry",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "wshobson-agents",
+      "remote": "https://github.com/wshobson/agents.git",
+      "pluginDir": ".",
+      "quality": "community-quality",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "awesome-claude-code",
+      "remote": "https://github.com/hesreallyhim/awesome-claude-code.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "claude-skills",
+      "remote": "https://github.com/anthropics/skills.git",
+      "pluginDir": ".",
+      "quality": "community",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Anthropic-published example skills.",
+      "provenance": false
+    },
+    {
+      "name": "everything-claude-code",
+      "remote": "https://github.com/WorldFlowAI/everything-claude-code.git",
+      "pluginDir": ".",
+      "quality": "community",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Resolved 2026-05-25 by name search; multi-type plugin store (agents/, commands/, skills/, plugins/, rules/, hooks/, mcp-configs/).",
+      "provenance": false
+    },
+    {
+      "name": "karpathy-skills",
+      "remote": "https://github.com/multica-ai/andrej-karpathy-skills.git",
+      "pluginDir": ".",
+      "quality": "reference",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "local_dir_name": "andrej-karpathy-skills",
+      "provenance": false
+    },
+    {
+      "name": "game-studios",
+      "remote": "https://github.com/Donchitos/Claude-Code-Game-Studios.git",
+      "pluginDir": ".",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Contains `CCGS Skill Testing Framework/` matching STORE-INVENTORY.",
+      "provenance": false
+    },
+    {
+      "name": "marketingskills",
+      "remote": "https://github.com/coreyhaines31/marketingskills.git",
+      "pluginDir": ".",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "copilot-collections",
+      "remote": "https://github.com/canonical/copilot-collections.git",
+      "pluginDir": "skills",
+      "quality": "official",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Resolved 2026-05-25 by name search; Canonical/Ubuntu fork with skills/, groups/, assets/. TheSoftwareHouse/copilot-collections was ruled out (Next.js website, no plugins).",
+      "provenance": false
+    },
+    {
+      "name": "awesome-copilot-agents",
+      "remote": "https://github.com/Code-and-Sorts/awesome-copilot-agents.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Resolved 2026-05-25 by name search; multi-type store with agents/, instructions/, prompts/, skills/. pluginDir changed from 'skills' to '.' to match actual layout.",
+      "provenance": false
+    },
+    {
+      "name": "antigravity-awesome-skills",
+      "remote": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "claude-code-best-practice",
+      "remote": "https://github.com/shanraisshan/claude-code-best-practice.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "agency-agents",
+      "remote": "https://github.com/msitarzewski/agency-agents.git",
+      "pluginDir": ".",
+      "quality": "community",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Contains both `examples/` and `integrations/` matching STORE-INVENTORY.",
+      "provenance": false
+    },
+    {
+      "name": "copilot-agents-dojo",
+      "remote": "https://github.com/andreaswasita/copilot-agents-dojo.git",
+      "pluginDir": "skills",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "awesome-design-skills",
+      "remote": "https://github.com/bergside/awesome-design-skills.git",
+      "pluginDir": "skills",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "healthcare-agents",
+      "remote": "https://github.com/ajhcs/healthcare-agents.git",
+      "pluginDir": "agents",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Resolved 2026-05-25 by name search; portable prompt + SKILL.md pack with 51 US-healthcare specialist agents under agents/.",
+      "provenance": false
+    },
+    {
+      "name": "planning-with-files",
+      "remote": "https://github.com/OthmanAdi/planning-with-files.git",
+      "pluginDir": "skills",
+      "quality": "reference",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "provenance": false
+    },
+    {
+      "name": "vercel-agent-skills",
+      "remote": "https://github.com/vercel-labs/agent-skills.git",
+      "pluginDir": "skills",
+      "quality": "vercel-official",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 1 adoption 2026-05-25. Vercel-official agent skills.",
+      "provenance": false
+    },
+    {
+      "name": "superclaude-framework",
+      "remote": "https://github.com/SuperClaude-Org/SuperClaude_Framework.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 1 adoption 2026-05-25. Configuration framework with specialized commands.",
+      "provenance": false
+    },
+    {
+      "name": "alirezarezvani-claude-skills",
+      "remote": "https://github.com/alirezarezvani/claude-skills.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 1 adoption 2026-05-25. 329 skills + agents + commands. Top-level is multi-category.",
+      "provenance": false
+    },
+    {
+      "name": "agent-skills-context-engineering",
+      "remote": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 1 adoption 2026-05-25. Context engineering focused.",
+      "provenance": false
+    },
+    {
+      "name": "ai-research-skills",
+      "remote": "https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 1 adoption 2026-05-25. AI research / engineering skill library. Top-level NN-named skills.",
+      "provenance": false
+    },
+    {
+      "name": "garden-skills",
+      "remote": "https://github.com/ConardLi/garden-skills.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 1 adoption 2026-05-25. ConardLi's open-source skills.",
+      "provenance": false
+    },
+    {
+      "name": "antfu-skills",
+      "remote": "https://github.com/antfu/skills.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 1 adoption 2026-05-25. Anthony Fu's curated collection.",
+      "provenance": false
+    },
+    {
+      "name": "libukai-awesome-agent-skills",
+      "remote": "https://github.com/libukai/awesome-agent-skills.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25. Has both skills/ and plugins/ subdirs.",
+      "provenance": false
+    },
+    {
+      "name": "buildwithclaude",
+      "remote": "https://github.com/davepoon/buildwithclaude.git",
+      "pluginDir": "plugins",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25. Hub for Claude Skills/Agents/Commands/Hooks/Plugins.",
+      "provenance": false
+    },
+    {
+      "name": "claude-code-plugins-plus-skills",
+      "remote": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25. Has plugins/, skills/, marketplace/. Top-level scan.",
+      "provenance": false
+    },
+    {
+      "name": "awesome-claude-code-toolkit",
+      "remote": "https://github.com/rohitg00/awesome-claude-code-toolkit.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25. Multi-type: agents/, commands/, plugins/, skills/, hooks/.",
+      "provenance": false
+    },
+    {
+      "name": "composio-awesome-claude-plugins",
+      "remote": "https://github.com/ComposioHQ/awesome-claude-plugins.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25. Top-level is plugins themselves (bug-fix, code-review, etc.).",
+      "provenance": false
+    },
+    {
+      "name": "moiz-ai-agent-skills",
+      "remote": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25.",
+      "provenance": false
+    },
+    {
+      "name": "context-engineering-kit",
+      "remote": "https://github.com/NeoLabHQ/context-engineering-kit.git",
+      "pluginDir": "plugins",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25. Context engineering focused.",
+      "provenance": false
+    },
+    {
+      "name": "n-skills",
+      "remote": "https://github.com/numman-ali/n-skills.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25. Curated plugin marketplace for AI agents.",
+      "provenance": false
+    },
+    {
+      "name": "rust-skills",
+      "remote": "https://github.com/leonardomso/rust-skills.git",
+      "pluginDir": ".",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 3 domain adoption 2026-05-25. Single-skill repo: root is one Rust-coding skill with SKILL.md + AGENTS.md + CLAUDE.md + rules/.",
+      "provenance": false
+    },
+    {
+      "name": "hoodini-ai-agents-skills",
+      "remote": "https://github.com/hoodini/ai-agents-skills.git",
+      "pluginDir": "skills",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 3 domain adoption 2026-05-25. 33 skills covering AWS, cloud providers, AI frameworks, design systems.",
+      "provenance": false
+    },
+    {
+      "name": "vercel-skills",
+      "remote": "https://github.com/vercel-labs/skills.git",
+      "pluginDir": "skills",
+      "quality": "vercel-official",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier-1 sweep 2026-05-25. Official Vercel `npx skills` tool; skills/ payload.",
+      "provenance": false
+    },
+    {
+      "name": "github-copilot-plugins",
+      "remote": "https://github.com/github/copilot-plugins.git",
+      "pluginDir": "plugins",
+      "quality": "github-official",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier-1 sweep 2026-05-25. Official GitHub Copilot plugins collection (MCP servers, skills).",
+      "provenance": false
+    },
+    {
+      "name": "addyosmani-agent-skills",
+      "remote": "https://github.com/addyosmani/agent-skills.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier-1 sweep 2026-05-25. Addy Osmani (Google Chrome). Multi-type: agents/, skills/, hooks/.",
+      "provenance": false
+    },
+    {
+      "name": "k-dense-scientific-agent-skills",
+      "remote": "https://github.com/K-Dense-AI/scientific-agent-skills.git",
+      "pluginDir": "skills",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier-1 sweep 2026-05-25. Scientific/research domain skills.",
+      "provenance": false,
+      "notes": "Upstream renamed scientific-skills/ -> skills/ on 2026-05-29 (caught during Mall Phase 2 self-scan). Registry updated to match."
+    },
+    {
+      "name": "remotion-skills",
+      "remote": "https://github.com/remotion-dev/skills.git",
+      "pluginDir": "skills",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier-1 sweep 2026-05-25. Remotion (video) official skills.",
+      "provenance": false
+    },
+    {
+      "name": "obra-superpowers",
+      "remote": "https://github.com/obra/superpowers.git",
+      "pluginDir": "skills",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier-1 sweep 2026-05-25. Agentic skills framework + software-development methodology.",
+      "provenance": false
+    },
+    {
+      "name": "imbad-academic-research-skills",
+      "remote": "https://github.com/Imbad0202/academic-research-skills.git",
+      "pluginDir": ".",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier-1 sweep 2026-05-25. Academic research workflow: agents/, skills/, commands/, hooks/.",
+      "provenance": false
+    },
+    {
+      "name": "daymade-claude-code-skills",
+      "remote": "https://github.com/daymade/claude-code-skills.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier-1 sweep 2026-05-25. 40+ individual skill folders.",
+      "provenance": false
+    },
+    {
+      "name": "plugin-mall",
+      "remote": "https://github.com/fabioc-aloha/Alex_Skill_Mall.git",
+      "pluginDir": "plugins",
+      "quality": "first-party",
+      "provenance": true,
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "verified": true,
+      "verifiedDate": "2026-05-29",
+      "addedAt": "2026-05-29",
+      "notes": "The Mall itself, scanned for its own curated plugins. Provenance bonus +50 reflects Supervisor editorial adaptation. Mall-curated plugins ship with adapted_from field linking back to upstream they were derived from. Filtered out by Supervisor-side scripts (store-sync, mall-clone, mall-quality-audit) — those scan third-party MALL clones only. The Mall self-scan happens in the Mall repo in Phase 2+."
+    }
+  ],
+  "schema_version": "2.0"
+}

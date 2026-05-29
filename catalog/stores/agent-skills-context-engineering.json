@@ -1,0 +1,222 @@
+{
+  "store": "agent-skills-context-engineering",
+  "source_repo": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git",
+  "generated_at": "2026-05-29T18:48:06.043Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 15,
+  "plugins": [
+    {
+      "name": "advanced-evaluation",
+      "shape": "skill",
+      "source_path": "skills/advanced-evaluation",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/advanced-evaluation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "advanced-evaluation",
+          "description": "This skill should be used for advanced LLM evaluation: LLM-as-judge systems, direct scoring, pairwise comparison, rubric calibration, evaluator bias mitigation, confidence scoring, and automated quality assessment."
+        }
+      }
+    },
+    {
+      "name": "bdi-mental-states",
+      "shape": "skill",
+      "source_path": "skills/bdi-mental-states",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/bdi-mental-states",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "bdi-mental-states",
+          "description": "This skill should be used when modeling agent mental states with BDI concepts: beliefs, desires, intentions, RDF-to-belief transformations, rational agency traces, cognitive agents, BDI ontologies, and neuro-symbolic AI integration."
+        }
+      }
+    },
+    {
+      "name": "context-compression",
+      "shape": "skill",
+      "source_path": "skills/context-compression",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "context-compression",
+          "description": "This skill should be used when long-running agent sessions need context compression, structured summarization, compaction, token-per-task optimization, or durable handoff summaries that preserve decisions, files, risks, and next actions."
+        }
+      }
+    },
+    {
+      "name": "context-degradation",
+      "shape": "skill",
+      "source_path": "skills/context-degradation",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "context-degradation",
+          "description": "This skill should be used for diagnosing and mitigating context degradation: lost-in-middle failures, context poisoning, context clash, context confusion, attention-pattern issues, and agent performance degradation caused by accumulated or conflicting context."
+        }
+      }
+    },
+    {
+      "name": "context-fundamentals",
+      "shape": "skill",
+      "source_path": "skills/context-fundamentals",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "context-fundamentals",
+          "description": "This skill should be used to explain or reason about the foundational concepts of context engineering: what context is, the anatomy of a context window, how attention mechanics work, the U-shaped attention curve, why context quality matters more than quantity, and the mental models needed to interpret every other context-engineering decision. Use this for conceptual explanation, onboarding, and background reading. Route operational work to the specialized skills: debugging attention failures goes to context-degradation, token-efficiency work goes to context-optimization, conversation summarization goes to context-compression, and project-shape decisions go to project-development."
+        }
+      }
+    },
+    {
+      "name": "context-optimization",
+      "shape": "skill",
+      "source_path": "skills/context-optimization",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-optimization",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "context-optimization",
+          "description": "This skill should be used for improving context efficiency: context budgeting, observation masking, prefix or KV-cache strategy, partitioning, token-cost reduction, retrieval scoping, and extending effective context capacity without lowering answer quality."
+        }
+      }
+    },
+    {
+      "name": "evaluation",
+      "shape": "skill",
+      "source_path": "skills/evaluation",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "evaluation",
+          "description": "This skill should be used when building agent evaluation systems: deterministic checks, regression suites, multi-dimensional rubrics, quality gates, production monitoring, baseline comparison, and outcome measurement for agent pipelines."
+        }
+      }
+    },
+    {
+      "name": "filesystem-context",
+      "shape": "skill",
+      "source_path": "skills/filesystem-context",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/filesystem-context",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "filesystem-context",
+          "description": "This skill should be used when agent work needs file-backed context: durable scratchpads, tool-output offloading, just-in-time discovery, cross-agent handoff files, filesystem memory, or cleanup policies for context stored outside the prompt."
+        }
+      }
+    },
+    {
+      "name": "harness-engineering",
+      "shape": "skill",
+      "source_path": "skills/harness-engineering",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/harness-engineering",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "harness-engineering",
+          "description": "This skill should be used when designing autonomous agent harnesses: research loops, evaluation scaffolds, locked and editable surfaces, durable logs, novelty gates, pruning, rollback, PR preparation, and human approval boundaries."
+        }
+      }
+    },
+    {
+      "name": "hosted-agents",
+      "shape": "skill",
+      "source_path": "skills/hosted-agents",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/hosted-agents",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hosted-agents",
+          "description": "This skill should be used when designing hosted or background agent infrastructure: sandboxed execution, remote coding environments, warm pools, session persistence, multiplayer collaboration, self-spawning agents, or Modal-style sandboxes."
+        }
+      }
+    },
+    {
+      "name": "latent-briefing",
+      "shape": "skill",
+      "source_path": "skills/latent-briefing",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/latent-briefing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "latent-briefing",
+          "description": "This skill should be used when the user asks to \"share memory between agents\", \"KV cache compaction for multi-agent\", \"orchestrator worker context\", \"latent briefing\", \"reduce worker tokens\", \"cross-agent memory without summarization\", or discusses Attention Matching compaction, recursive language models with workers, or token explosion in hierarchical agents."
+        }
+      }
+    },
+    {
+      "name": "memory-systems",
+      "shape": "skill",
+      "source_path": "skills/memory-systems",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "memory-systems",
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "multi-agent-patterns",
+      "shape": "skill",
+      "source_path": "skills/multi-agent-patterns",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/multi-agent-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "multi-agent-patterns",
+          "description": "This skill should be used when designing multi-agent systems that need context isolation, supervisor or swarm coordination, explicit handoffs, parallel execution, or a decision on whether multiple agents are justified."
+        }
+      }
+    },
+    {
+      "name": "project-development",
+      "shape": "skill",
+      "source_path": "skills/project-development",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/project-development",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "project-development",
+          "description": "This skill should be used for project-level decisions about LLM-powered systems: whether an LLM is the right primitive for the task at hand, the shape of a multi-stage batch or agent pipeline, token and cost estimation, choosing between single-agent and multi-agent at the project level, structured output design for downstream parsing, and structuring agent-assisted iteration. Use this when the unit of work is a whole project or a multi-stage pipeline. Route individual tool design to tool-design and individual skill-loading or context-budget tactics to context-optimization."
+        }
+      }
+    },
+    {
+      "name": "tool-design",
+      "shape": "skill",
+      "source_path": "skills/tool-design",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "tool-design",
+          "description": "This skill should be used for the tool-interface layer of an agent system specifically: writing tool descriptions agents can route on, designing tool schemas and response formats, naming conventions, actionable error recovery messages, MCP server design, tool-set consolidation, and deciding when to add or remove an individual tool. Use this when the unit of work is a single tool or a set of tools. Route project-shape, pipeline architecture, and task-model-fit decisions to project-development; route deciding whether to introduce sub-agents to multi-agent-patterns."
+        }
+      }
+    }
+  ]
+}

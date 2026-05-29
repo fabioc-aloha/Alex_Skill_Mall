@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/fabioc-aloha/Alex_ACT_Supervisor/blob/main/mall/supported-stores.schema.json",
+  "title": "Mall Sources Registry (supported-stores)",
+  "description": "Single source of truth for the Mall source registry. Schema v2.0 (2026-05-29) extends v1.0 with provenance, license, local_dir_name, plugin-mall self-entry per PLAN-mall-automation.md v3 / ADR-008.",
+  "type": "object",
+  "required": ["schema_version", "stores"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "type": "string" },
+    "schema_version": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "lastUpdated": { "type": "string", "format": "date" },
+    "purpose": { "type": "string" },
+    "mallRoot": { "type": "string", "description": "Default local clone root used by mall-clone.cjs." },
+    "stores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "remote", "pluginDir", "quality"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*$",
+            "description": "Kebab-case identifier. Must be unique across the registry."
+          },
+          "remote": {
+            "type": ["string", "null"],
+            "description": "git clone URL. Null means upstream is lost; bootstrap skips with noRemote count."
+          },
+          "pluginDir": {
+            "type": "string",
+            "description": "Path within the source repo where plugins live. '.' = repo root. Each immediate subdirectory is scanned as a potential plugin."
+          },
+          "quality": {
+            "type": "string",
+            "description": "Editorial tier tag (legacy field name; in v3 catalog this surfaces as 'tier'). Informational; trust score is computed from signals, not from this tag."
+          },
+          "provenance": {
+            "type": "boolean",
+            "description": "True only for first-party stores (the Mall itself). Adds +50 to per-plugin trust score in v3 catalog. Encodes 'this plugin has been touched by Supervisor's editorial process'."
+          },
+          "license": {
+            "type": "string",
+            "description": "SPDX license identifier where known. Drives the license-clarity signal in v3 trust scoring."
+          },
+          "local_dir_name": {
+            "type": "string",
+            "description": "Optional override when the local clone directory name differs from the registry 'name' (e.g. karpathy-skills registered, andrej-karpathy-skills on disk to match upstream repo)."
+          },
+          "verified": {
+            "type": "boolean",
+            "description": "Whether the remote URL has been confirmed via git ls-remote."
+          },
+          "verifiedDate": { "type": "string", "format": "date" },
+          "addedAt": { "type": "string", "format": "date" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

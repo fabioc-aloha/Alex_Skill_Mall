@@ -1,0 +1,197 @@
+{
+  "store": "copilot-collections",
+  "source_repo": "https://github.com/canonical/copilot-collections.git",
+  "generated_at": "2026-05-29T18:48:05.029Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "official",
+  "license": null,
+  "plugin_count": 13,
+  "plugins": [
+    {
+      "name": "documentation-build",
+      "shape": "skill",
+      "source_path": "skills/documentation-build",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/documentation-build",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "documentation-build",
+          "description": "Validates documentation builds successfully. Use when checking Sphinx/RTD build integrity or diagnosing build failures. Reports errors, warnings, and build configuration issues."
+        }
+      }
+    },
+    {
+      "name": "documentation-diataxis",
+      "shape": "skill",
+      "source_path": "skills/documentation-diataxis",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/documentation-diataxis",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "documentation-diataxis",
+          "description": "Analyzes documentation against Diataxis framework (Tutorial, How-to, Reference, Explanation). Use when reviewing documentation structure or classifying content type. Identifies misalignments between declared category and actual content."
+        }
+      }
+    },
+    {
+      "name": "documentation-review",
+      "shape": "skill",
+      "source_path": "skills/documentation-review",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/documentation-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "documentation-review",
+          "description": "Performs comprehensive documentation review including build validation, Diataxis analysis, structure audit, accuracy verification, and style compliance. Use when reviewing documentation changes or auditing documentation quality."
+        }
+      }
+    },
+    {
+      "name": "documentation-structure",
+      "shape": "skill",
+      "source_path": "skills/documentation-structure",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/documentation-structure",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "documentation-structure",
+          "description": "Validates documentation structural integrity including heading hierarchy, metadata, file naming, navigation, and cross-references. Use when checking documentation organization or validating toctree structure."
+        }
+      }
+    },
+    {
+      "name": "documentation-style",
+      "shape": "skill",
+      "source_path": "skills/documentation-style",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/documentation-style",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "documentation-style",
+          "description": "Enforces project documentation style guide compliance for tone, voice, terminology, punctuation, and formatting. Use when checking documentation style or validating MyST/reST syntax. Cites specific style guide violations."
+        }
+      }
+    },
+    {
+      "name": "documentation-verify",
+      "shape": "skill",
+      "source_path": "skills/documentation-verify",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/documentation-verify",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "documentation-verify",
+          "description": "Verifies documentation accuracy by cross-referencing claims, CLI commands, API signatures, and configuration against source code. Use when validating documentation correctness or checking code-docs consistency. Flags unsupported or outdated claims."
+        }
+      }
+    },
+    {
+      "name": "generate-agent",
+      "shape": "skill",
+      "source_path": "skills/generate-agent",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/generate-agent",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "generate-agent",
+          "description": "Generates Custom Agent files (.github/agents/*.agent.md) with persona-based configurations, specialized tool sets, and role-specific cognitive architectures. Use when the user requests a specialized role or perspective (Security Auditor, Documentation Writer, Release Engineer, etc.). Creates agents with defined identity, constrained tools, and thinking processes aligned to their role. Not for general capabilities—use generate-agent-skills for those."
+        }
+      }
+    },
+    {
+      "name": "generate-agent-skills",
+      "shape": "skill",
+      "source_path": "skills/generate-agent-skills",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/generate-agent-skills",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "generate-agent-skills",
+          "description": "Architects, generates, and validates Agent Skills. Enforces specification and best practices. Used any time an agent skill must be created or updated.",
+          "compatibility": "python3",
+          "allowed-tools": "python3 ls grep cat mkdir",
+          "metadata": ""
+        }
+      }
+    },
+    {
+      "name": "generate-path-instructions",
+      "shape": "skill",
+      "source_path": "skills/generate-path-instructions",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/generate-path-instructions",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "generate-path-instructions",
+          "description": "Generates path-specific instruction files (.github/instructions/*.md) with JIT loading via applyTo glob patterns. Performs LLM-driven repository analysis to discover file patterns and extract scope-specific rules. Use when the user requests scoped, framework-specific, or directory-specific rules for testing, components, docs, config files, or language-specific files to prevent context pollution. Works for code, documentation, configuration, and data files."
+        }
+      }
+    },
+    {
+      "name": "generate-prompt",
+      "shape": "skill",
+      "source_path": "skills/generate-prompt",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/generate-prompt",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "generate-prompt",
+          "description": "Generates reusable Prompt Template files (.github/prompts/*.prompt.md) with variable substitution for ad-hoc, high-frequency tasks. Use when the user needs quick, repeatable prompts for common operations (explain code, fix bug, add tests, refactor, document). Creates templates with handlebars variables, optimized context structure, and strict output constraints. Not for complex workflows (use skills) or persistent roles (use agents)."
+        }
+      }
+    },
+    {
+      "name": "generate-repo-instructions",
+      "shape": "skill",
+      "source_path": "skills/generate-repo-instructions",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/generate-repo-instructions",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "generate-repo-instructions",
+          "description": "Generates the global repository constitution file (.github/copilot-instructions.md). Works for code repositories, documentation repositories, data repositories, and mixed repos. Performs LLM-driven deep repository analysis including docs, code patterns, build systems, documentation generators, and data schemas. Generates constitutional rules following context economics (under 1000 lines). Enforces positive constraints and no hardcoded secrets."
+        }
+      }
+    },
+    {
+      "name": "migrate-harness-tests-to-state-transition-test",
+      "shape": "skill",
+      "source_path": "skills/migrate-harness-tests-to-state-transition-test",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/migrate-harness-tests-to-state-transition-test",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "migrate-harness-tests-to-state-transition-test",
+          "description": "Migrates legacy ops.testing Harness suites to state-transition tests by enumerating Harness usages, defining explicit State objects, and recreating assertions per Juju event so charms stay compatible with modern ops releases."
+        }
+      }
+    },
+    {
+      "name": "retrospective-artifacts",
+      "shape": "skill",
+      "source_path": "skills/retrospective-artifacts",
+      "source_url": "https://github.com/canonical/copilot-collections/tree/main/skills/retrospective-artifacts",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "retrospective-artifacts",
+          "description": "Builds and parses structured retrospective artifact folders for troubleshooting, incident review, and delivery retros. Use this skill when capturing session context, synthesizing external context (GitHub, Jira, Mattermost, logs), querying prior retrospectives, or preparing downstream inputs for OKB entries, postmortems, and agent/skills/instruction improvements."
+        }
+      }
+    }
+  ]
+}

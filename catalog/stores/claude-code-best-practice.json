@@ -1,0 +1,34 @@
+{
+  "store": "claude-code-best-practice",
+  "source_repo": "https://github.com/shanraisshan/claude-code-best-practice.git",
+  "generated_at": "2026-05-29T18:48:05.939Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 2,
+  "plugins": [
+    {
+      "name": "day0",
+      "shape": "unknown",
+      "source_path": "tutorial/day0",
+      "source_url": "https://github.com/shanraisshan/claude-code-best-practice/tree/main/tutorial/day0",
+      "readme_excerpt": "This guide walks you through installing Claude Code on your machine and authenticating so you can start using it.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "day1",
+      "shape": "unknown",
+      "source_path": "tutorial/day1",
+      "source_url": "https://github.com/shanraisshan/claude-code-best-practice/tree/main/tutorial/day1",
+      "readme_excerpt": "[Back to Day 0 (Setup)](../day0/README.md)",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    }
+  ]
+}

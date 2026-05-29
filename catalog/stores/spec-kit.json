@@ -1,0 +1,78 @@
+{
+  "store": "spec-kit",
+  "source_repo": "https://github.com/github/spec-kit.git",
+  "generated_at": "2026-05-29T18:48:04.914Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "github-official",
+  "license": null,
+  "plugin_count": 6,
+  "plugins": [
+    {
+      "name": "docs",
+      "shape": "unknown",
+      "source_path": "docs",
+      "source_url": "https://github.com/github/spec-kit/tree/main/docs",
+      "readme_excerpt": "This folder contains the documentation source files for Spec Kit, built using [DocFX](https://dotnet.github.io/docfx/).",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "extensions",
+      "shape": "unknown",
+      "source_path": "extensions",
+      "source_url": "https://github.com/github/spec-kit/tree/main/extensions",
+      "readme_excerpt": "Extension system for [Spec Kit](https://github.com/github/spec-kit) - add new functionality without bloating the core framework.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "integrations",
+      "shape": "unknown",
+      "source_path": "integrations",
+      "source_url": "https://github.com/github/spec-kit/tree/main/integrations",
+      "readme_excerpt": "The integration catalog enables discovery, versioning, and distribution of AI agent integrations for Spec Kit.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "presets",
+      "shape": "unknown",
+      "source_path": "presets",
+      "source_url": "https://github.com/github/spec-kit/tree/main/presets",
+      "readme_excerpt": "Presets are stackable, priority-ordered collections of template and command overrides for Spec Kit. They let you customize both the artifacts produced by the Spec-Driven Development workflow (specs, p",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "tests",
+      "shape": "hook",
+      "source_path": "tests",
+      "source_url": "https://github.com/github/spec-kit/tree/main/tests",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "workflows",
+      "shape": "unknown",
+      "source_path": "workflows",
+      "source_url": "https://github.com/github/spec-kit/tree/main/workflows",
+      "readme_excerpt": "Workflows are multi-step, resumable automation pipelines defined in YAML. They orchestrate Spec Kit commands across integrations, evaluate control flow, and pause at human review gates — enabling end-",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    }
+  ]
+}

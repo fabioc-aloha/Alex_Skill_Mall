@@ -1,0 +1,611 @@
+{
+  "store": "awesome-claude-code-toolkit",
+  "source_repo": "https://github.com/rohitg00/awesome-claude-code-toolkit.git",
+  "generated_at": "2026-05-29T18:48:06.207Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 43,
+  "plugins": [
+    {
+      "name": "hooks",
+      "shape": "hook",
+      "source_path": "hooks",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/hooks",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "api-architect",
+      "shape": "agent",
+      "source_path": "plugins/api-architect",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/plugins/api-architect",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "code-guardian",
+      "shape": "agent",
+      "source_path": "plugins/code-guardian",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/plugins/code-guardian",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "accessibility-wcag",
+      "shape": "skill",
+      "source_path": "skills/accessibility-wcag",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/accessibility-wcag",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "accessibility-wcag",
+          "description": "Web accessibility patterns for WCAG 2.2 compliance including ARIA, keyboard navigation, screen readers, and testing"
+        }
+      }
+    },
+    {
+      "name": "agentkit-seo",
+      "shape": "skill",
+      "source_path": "skills/agentkit-seo",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/agentkit-seo",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "agentkit-seo",
+          "description": "Route broad or ambiguous AgentKit SEO work to the right module while keeping context scoped. Use when a request spans multiple surfaces, asks for overall digital-presence strategy, involves provider or install architecture, needs agent-context planning, or the correct platform skill is unclear.",
+          "user-invocable": "true",
+          "argument": "The specific SEO optimization task or platform to focus on (e.g., GitHub, LinkedIn, CV, etc.)"
+        }
+      }
+    },
+    {
+      "name": "api-design-patterns",
+      "shape": "skill",
+      "source_path": "skills/api-design-patterns",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/api-design-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "api-design-patterns",
+          "description": "REST API design with resource naming, pagination, versioning, and OpenAPI spec generation"
+        }
+      }
+    },
+    {
+      "name": "authentication-patterns",
+      "shape": "skill",
+      "source_path": "skills/authentication-patterns",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/authentication-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "authentication-patterns",
+          "description": "Authentication and authorization patterns including OAuth2, JWT, RBAC, session management, and PKCE flows"
+        }
+      }
+    },
+    {
+      "name": "aws-cloud-patterns",
+      "shape": "skill",
+      "source_path": "skills/aws-cloud-patterns",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/aws-cloud-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "aws-cloud-patterns",
+          "description": "AWS cloud patterns for Lambda, ECS, S3, DynamoDB, and Infrastructure as Code with CDK/Terraform"
+        }
+      }
+    },
+    {
+      "name": "ci-cd-pipelines",
+      "shape": "skill",
+      "source_path": "skills/ci-cd-pipelines",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/ci-cd-pipelines",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ci-cd-pipelines",
+          "description": "CI/CD pipeline patterns for GitHub Actions, GitLab CI, testing strategies, and deployment automation"
+        }
+      }
+    },
+    {
+      "name": "claude-memory-kit",
+      "shape": "skill",
+      "source_path": "skills/claude-memory-kit",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/claude-memory-kit",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "claude-memory-kit",
+          "description": "Persistent memory system for Claude Code. Two-layer architecture (hot cache + knowledge wiki), safety hooks, /close-day end-of-day synthesis. Zero external dependencies.",
+          "author": "awrshift",
+          "version": "3.2.0",
+          "tags": "[memory, context-management, productivity, agent-memory]",
+          "repository": "https://github.com/awrshift/claude-memory-kit",
+          "license": "MIT"
+        }
+      }
+    },
+    {
+      "name": "continuous-learning",
+      "shape": "skill",
+      "source_path": "skills/continuous-learning",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/continuous-learning",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "continuous-learning",
+          "description": "Auto-extract patterns from coding sessions, track corrections, and build reusable knowledge with confidence scoring"
+        }
+      }
+    },
+    {
+      "name": "data-engineering",
+      "shape": "skill",
+      "source_path": "skills/data-engineering",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/data-engineering",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "data-engineering",
+          "description": "Data engineering patterns for ETL pipelines, data warehousing, Apache Spark, and data quality validation"
+        }
+      }
+    },
+    {
+      "name": "database-optimization",
+      "shape": "skill",
+      "source_path": "skills/database-optimization",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/database-optimization",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "database-optimization",
+          "description": "Query optimization, indexing strategies, and database performance tuning for PostgreSQL and MySQL"
+        }
+      }
+    },
+    {
+      "name": "deep-dive",
+      "shape": "skill",
+      "source_path": "skills/deep-dive",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/deep-dive",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "deep-dive",
+          "description": "Claude-native deep research using DAG-based query planning, parallel subagent execution, and gap-driven iteration. No external API needed.",
+          "user-invocable": "true",
+          "argument": "The research question or topic to investigate deeply"
+        }
+      }
+    },
+    {
+      "name": "devops-automation",
+      "shape": "skill",
+      "source_path": "skills/devops-automation",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/devops-automation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "devops-automation",
+          "description": "CI/CD pipeline design with GitHub Actions, Docker, Kubernetes, Helm, and GitOps patterns"
+        }
+      }
+    },
+    {
+      "name": "django-patterns",
+      "shape": "skill",
+      "source_path": "skills/django-patterns",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/django-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "django-patterns",
+          "description": "Django architecture patterns including DRF, ORM optimization, signals, middleware, and project structure"
+        }
+      }
+    },
+    {
+      "name": "docker-best-practices",
+      "shape": "skill",
+      "source_path": "skills/docker-best-practices",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/docker-best-practices",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "docker-best-practices",
+          "description": "Docker best practices including multi-stage builds, compose patterns, image optimization, and security"
+        }
+      }
+    },
+    {
+      "name": "frontend-excellence",
+      "shape": "skill",
+      "source_path": "skills/frontend-excellence",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/frontend-excellence",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "frontend-excellence",
+          "description": "Modern frontend patterns for React Server Components, performance optimization, and Core Web Vitals"
+        }
+      }
+    },
+    {
+      "name": "git-advanced",
+      "shape": "skill",
+      "source_path": "skills/git-advanced",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/git-advanced",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "git-advanced",
+          "description": "Advanced git workflows including worktrees, bisect, interactive rebase, hooks, and recovery techniques"
+        }
+      }
+    },
+    {
+      "name": "golang-idioms",
+      "shape": "skill",
+      "source_path": "skills/golang-idioms",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/golang-idioms",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "golang-idioms",
+          "description": "Idiomatic Go patterns for error handling, interfaces, concurrency, testing, and module management"
+        }
+      }
+    },
+    {
+      "name": "graphql-design",
+      "shape": "skill",
+      "source_path": "skills/graphql-design",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/graphql-design",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "graphql-design",
+          "description": "GraphQL schema design, resolver patterns, subscriptions, DataLoader for N+1 prevention, and error handling"
+        }
+      }
+    },
+    {
+      "name": "kubernetes-operations",
+      "shape": "skill",
+      "source_path": "skills/kubernetes-operations",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/kubernetes-operations",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "kubernetes-operations",
+          "description": "Kubernetes operations including manifests, Helm charts, operators, troubleshooting, and resource management"
+        }
+      }
+    },
+    {
+      "name": "llm-integration",
+      "shape": "skill",
+      "source_path": "skills/llm-integration",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/llm-integration",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "llm-integration",
+          "description": "LLM integration patterns including API usage, streaming, function calling, RAG pipelines, and cost optimization"
+        }
+      }
+    },
+    {
+      "name": "manage-skills",
+      "shape": "skill",
+      "source_path": "skills/manage-skills",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/manage-skills",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "manage-skills",
+          "description": "Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)"
+        }
+      }
+    },
+    {
+      "name": "mcp-development",
+      "shape": "skill",
+      "source_path": "skills/mcp-development",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/mcp-development",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mcp-development",
+          "description": "MCP server development including tool design, resource endpoints, prompt templates, and transport configuration"
+        }
+      }
+    },
+    {
+      "name": "microservices-design",
+      "shape": "skill",
+      "source_path": "skills/microservices-design",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/microservices-design",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "microservices-design",
+          "description": "Microservices design patterns including service mesh, event-driven architecture, saga pattern, and API gateway"
+        }
+      }
+    },
+    {
+      "name": "mobile-development",
+      "shape": "skill",
+      "source_path": "skills/mobile-development",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/mobile-development",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mobile-development",
+          "description": "Mobile development patterns for React Native and Flutter including navigation, state management, and responsive design"
+        }
+      }
+    },
+    {
+      "name": "monitoring-observability",
+      "shape": "skill",
+      "source_path": "skills/monitoring-observability",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/monitoring-observability",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "monitoring-observability",
+          "description": "Monitoring and observability with OpenTelemetry, Prometheus, Grafana dashboards, and structured logging"
+        }
+      }
+    },
+    {
+      "name": "nextjs-mastery",
+      "shape": "skill",
+      "source_path": "skills/nextjs-mastery",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/nextjs-mastery",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "nextjs-mastery",
+          "description": "Next.js 14+ App Router patterns including RSC, ISR, middleware, parallel routes, and data fetching"
+        }
+      }
+    },
+    {
+      "name": "performance-optimization",
+      "shape": "skill",
+      "source_path": "skills/performance-optimization",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/performance-optimization",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "performance-optimization",
+          "description": "Web performance optimization including bundle analysis, lazy loading, caching strategies, and Core Web Vitals"
+        }
+      }
+    },
+    {
+      "name": "postgres-optimization",
+      "shape": "skill",
+      "source_path": "skills/postgres-optimization",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/postgres-optimization",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "postgres-optimization",
+          "description": "PostgreSQL optimization including indexes, query plans, partitioning, JSONB operations, and connection pooling"
+        }
+      }
+    },
+    {
+      "name": "prompt-engineering",
+      "shape": "skill",
+      "source_path": "skills/prompt-engineering",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/prompt-engineering",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "prompt-engineering",
+          "description": "Prompt engineering patterns including structured prompts, chain-of-thought, few-shot learning, and system prompt design"
+        }
+      }
+    },
+    {
+      "name": "python-best-practices",
+      "shape": "skill",
+      "source_path": "skills/python-best-practices",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/python-best-practices",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "python-best-practices",
+          "description": "Pythonic code with modern type hints, dataclasses, async patterns, packaging, and testing"
+        }
+      }
+    },
+    {
+      "name": "react-patterns",
+      "shape": "skill",
+      "source_path": "skills/react-patterns",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/react-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "react-patterns",
+          "description": "React 19 patterns including Server Components, Actions, Suspense, hooks, and component composition"
+        }
+      }
+    },
+    {
+      "name": "redis-patterns",
+      "shape": "skill",
+      "source_path": "skills/redis-patterns",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/redis-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "redis-patterns",
+          "description": "Redis patterns including caching strategies, pub/sub, streams for event processing, Lua scripts, and data structures"
+        }
+      }
+    },
+    {
+      "name": "rust-systems",
+      "shape": "skill",
+      "source_path": "skills/rust-systems",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/rust-systems",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "rust-systems",
+          "description": "Rust systems programming patterns including ownership, traits, async runtime, error handling, and unsafe guidelines"
+        }
+      }
+    },
+    {
+      "name": "security-hardening",
+      "shape": "skill",
+      "source_path": "skills/security-hardening",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/security-hardening",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "security-hardening",
+          "description": "Application security covering input validation, auth, headers, secrets management, and dependency auditing"
+        }
+      }
+    },
+    {
+      "name": "springboot-patterns",
+      "shape": "skill",
+      "source_path": "skills/springboot-patterns",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/springboot-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "springboot-patterns",
+          "description": "Spring Boot patterns including JPA repositories, REST controllers, layered services, and configuration"
+        }
+      }
+    },
+    {
+      "name": "styleseed",
+      "shape": "skill",
+      "source_path": "skills/styleseed",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/styleseed",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "tdd-mastery",
+      "shape": "skill",
+      "source_path": "skills/tdd-mastery",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/tdd-mastery",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "tdd-mastery",
+          "description": "Test-driven development workflow with Red-Green-Refactor cycle across languages"
+        }
+      }
+    },
+    {
+      "name": "testing-strategies",
+      "shape": "skill",
+      "source_path": "skills/testing-strategies",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/testing-strategies",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "testing-strategies",
+          "description": "Testing strategies including contract testing, snapshot testing, mutation testing, property-based testing, and test organization"
+        }
+      }
+    },
+    {
+      "name": "typescript-advanced",
+      "shape": "skill",
+      "source_path": "skills/typescript-advanced",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/typescript-advanced",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "typescript-advanced",
+          "description": "Advanced TypeScript patterns including generics, conditional types, mapped types, template literals, and type guards"
+        }
+      }
+    },
+    {
+      "name": "websocket-realtime",
+      "shape": "skill",
+      "source_path": "skills/websocket-realtime",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/main/skills/websocket-realtime",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "websocket-realtime",
+          "description": "Real-time communication patterns with WebSocket, Socket.io, Server-Sent Events, and scaling strategies"
+        }
+      }
+    }
+  ]
+}

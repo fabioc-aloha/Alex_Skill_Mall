@@ -1,0 +1,809 @@
+{
+  "store": "daymade-claude-code-skills",
+  "source_repo": "https://github.com/daymade/claude-code-skills.git",
+  "generated_at": "2026-05-29T18:48:06.472Z",
+  "scanned_ref": "main",
+  "provenance": false,
+  "tier": "community-curated",
+  "license": null,
+  "plugin_count": 56,
+  "plugins": [
+    {
+      "name": "capture-screen",
+      "shape": "skill",
+      "source_path": "capture-screen",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/capture-screen",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "capture-screen",
+          "description": "Programmatic screenshot capture on macOS. Find window IDs with Swift CGWindowListCopyWindowInfo, control application windows via AppleScript (zoom, scroll, select), and capture with screencapture. Use when automating screenshots, capturing application windows for documentation, or building multi-shot visual workflows."
+        }
+      }
+    },
+    {
+      "name": "cli-demo-generator",
+      "shape": "skill",
+      "source_path": "cli-demo-generator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/cli-demo-generator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "cli-demo-generator",
+          "description": "Generates professional animated CLI demos as GIFs using VHS terminal recordings. Handles tape file creation, self-bootstrapping demos with hidden setup, output noise filtering, post-processing speed-up, and frame-level verification. Use when users want to create terminal demos, record CLI workflows as GIFs, generate animated documentation, build demo tapes for README files, or need to showcase any command-line tool visually. Also triggers on \"record terminal\", \"VHS tape\", \"demo GIF\", \"animate my CLI\", or any request to visually demonstrate shell commands."
+        }
+      }
+    },
+    {
+      "name": "cloudflare-troubleshooting",
+      "shape": "skill",
+      "source_path": "cloudflare-troubleshooting",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/cloudflare-troubleshooting",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "cloudflare-troubleshooting",
+          "description": "Investigate and resolve Cloudflare configuration issues using API-driven evidence gathering. Use when troubleshooting ERR_TOO_MANY_REDIRECTS, SSL errors, DNS issues, or any Cloudflare-related problems. Focus on systematic investigation using Cloudflare API to examine actual configuration rather than making assumptions."
+        }
+      }
+    },
+    {
+      "name": "competitors-analysis",
+      "shape": "skill",
+      "source_path": "competitors-analysis",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/competitors-analysis",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "competitors-analysis",
+          "description": "Analyze competitor repositories with evidence-based approach. Use when tracking competitors, creating competitor profiles, or generating competitive analysis. CRITICAL - all analysis must be based on actual cloned code, never assumptions. Triggers include \"analyze competitor\", \"add competitor\", \"competitive analysis\", or \"竞品分析\".",
+          "context": "fork",
+          "agent": "general-purpose",
+          "argument-hint": "[product-name] [competitor-url]"
+        }
+      }
+    },
+    {
+      "name": "asr-transcribe-to-text",
+      "shape": "skill",
+      "source_path": "daymade-audio/asr-transcribe-to-text",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-audio/asr-transcribe-to-text",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "asr-transcribe-to-text",
+          "description": "Transcribes audio and video files to text using Qwen3-ASR. Supports two modes — local MLX inference on macOS Apple Silicon (no API key, 15-27x realtime) and remote API via vLLM/OpenAI-compatible endpoints. Auto-detects platform and recommends the best path. Triggers when the user wants to transcribe recordings, convert audio/video to text, do speech-to-text, or mentions ASR, Qwen ASR, 转录, 语音转文字, 录音转文字. Also triggers for meeting recordings, lectures, interviews, podcasts, screen recordings, or any audio/video file the user wants converted to text.",
+          "argument-hint": "[audio-or-video-file-path ...]"
+        }
+      }
+    },
+    {
+      "name": "meeting-minutes-taker",
+      "shape": "skill",
+      "source_path": "daymade-audio/meeting-minutes-taker",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-audio/meeting-minutes-taker",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "meeting-minutes-taker",
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "stepfun-asr",
+      "shape": "skill",
+      "source_path": "daymade-audio/stepfun-asr",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-audio/stepfun-asr",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "stepfun-asr",
+          "description": "Transcribe audio with StepFun's stepaudio-2.5-asr — an SSE endpoint (NOT /v1/audio/transcriptions) with 32K context, ~85-101x RTF on long audio, and a single-call ceiling around 30 minutes (no client-side chunking). Use when transcribing Chinese / English audio with StepFun, when long-form recordings (5-30 min) need to land in one request, when migrating from step-asr / step-asr-1.1, or when hitting the misleading `model stepaudio-2.5-asr not supported` error (which actually means wrong endpoint). Triggers on 阶跃 ASR, StepFun ASR, stepaudio-2.5-asr, 转录, 语音识别, 长音频转写, 语音转文字. For TTS with the sibling stepaudio-2.5-tts model, use the stepfun-tts skill instead."
+        }
+      }
+    },
+    {
+      "name": "stepfun-tts",
+      "shape": "skill",
+      "source_path": "daymade-audio/stepfun-tts",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-audio/stepfun-tts",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "stepfun-tts",
+          "description": "Generate Chinese / Japanese speech with StepFun's stepaudio-2.5-tts — Contextual TTS that replaces step-tts-2's `voice_label` with natural-language `instruction` (≤200 chars) plus inline `()` parentheses for句内 prosody. Use when the user wants emotional / prosody control over voice synthesis (whisper, pause, stress, mood pivot mid-sentence), batch-generates game / app voice lines, migrates from `step-tts-2` (the `voice_label → instruction` breaking change), or hits StepFun's stricter 2.5-era censorship (死/消失/political terms). Triggers on 阶跃 TTS, StepAudio 合成, 语音合成, 配音, 文本转语音, TTS 升级, 迁移 step-tts-2. For transcription with the sibling stepaudio-2.5-asr model, use the stepfun-asr skill instead."
+        }
+      }
+    },
+    {
+      "name": "transcript-fixer",
+      "shape": "skill",
+      "source_path": "daymade-audio/transcript-fixer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-audio/transcript-fixer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "transcript-fixer",
+          "description": "Corrects speech-to-text transcription errors using dictionary rules and AI-powered analysis. Builds personalized correction databases that learn from each fix. Triggers when working with ASR/STT output containing recognition errors, homophones, garbled technical terms, or Chinese/English mixed content. Also triggers on requests to clean up meeting notes, lecture transcripts, interview recordings, or any text produced by speech recognition. Use this skill even when the user just says \"fix this transcript\" or \"clean up these meeting notes\" without mentioning ASR specifically."
+        }
+      }
+    },
+    {
+      "name": "claude-code-history-files-finder",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/claude-code-history-files-finder",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-claude-code/claude-code-history-files-finder",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "claude-code-history-files-finder",
+          "description": "Finds and recovers content from Claude Code session history files. This skill should be used when searching for deleted files, tracking changes across sessions, analyzing conversation history, or recovering code from previous Claude interactions. Triggers include mentions of \"session history\", \"recover deleted\", \"find in history\", \"previous conversation\", or \".claude/projects\"."
+        }
+      }
+    },
+    {
+      "name": "claude-export-txt-better",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/claude-export-txt-better",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-claude-code/claude-export-txt-better",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "fixing-claude-export-conversations",
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "claude-md-progressive-disclosurer",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/claude-md-progressive-disclosurer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-claude-code/claude-md-progressive-disclosurer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "claude-md-progressive-disclosurer",
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "claude-skills-troubleshooting",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/claude-skills-troubleshooting",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-claude-code/claude-skills-troubleshooting",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "claude-skills-troubleshooting",
+          "description": "Diagnose and resolve Claude Code plugin and skill issues. This skill should be used when plugins are installed but not showing in available skills list, skills are not activating as expected, or when troubleshooting enabledPlugins configuration in settings.json. Triggers include \"plugin not working\", \"skill not showing\", \"installed but disabled\", or \"enabledPlugins\" issues."
+        }
+      }
+    },
+    {
+      "name": "continue-claude-work",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/continue-claude-work",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-claude-code/continue-claude-work",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "continue-claude-work",
+          "description": "Recover actionable context from local `.claude` session artifacts and continue interrupted work without running `claude --resume`. This skill should be used when the user provides a Claude session ID, asks to continue prior work from local history, or wants to inspect `.claude` files before resuming implementation.",
+          "argument-hint": "[session-id]"
+        }
+      }
+    },
+    {
+      "name": "marketplace-dev",
+      "shape": "hook",
+      "source_path": "daymade-claude-code/marketplace-dev",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-claude-code/marketplace-dev",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "marketplace-dev",
+          "description": "",
+          "argument-hint": "[repo-path]"
+        }
+      }
+    },
+    {
+      "name": "statusline-generator",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/statusline-generator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-claude-code/statusline-generator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "statusline-generator",
+          "description": "Install, configure, customize, or troubleshoot the Claude Code statusline (the line above the prompt with cwd, model, and token counts). Use when the user wants to set up or change the statusline, switch between minimal and full layouts, show absolute token counts (e.g. ctx 108K / 1M) instead of a percentage, add cost via ccusage or git status, or fix a statusline that is blank, silent, stuck, shows \"permission denied\", or stopped updating after a script edit (commonly a missing chmod +x). Also covers debug-dumping the stdin JSON Claude Code passes the script. Trigger phrases include \"configure statusline\", \"statusline blank\", \"status line not showing\", \"statusline broken\", \"show token count in statusline\", 状态栏, 状态栏不显示, 状态栏空白, 显示工作目录, 显示 token 数."
+        }
+      }
+    },
+    {
+      "name": "doc-to-markdown",
+      "shape": "skill",
+      "source_path": "daymade-docs/doc-to-markdown",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-docs/doc-to-markdown",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "doc-to-markdown",
+          "description": "Converts DOCX/PDF/PPTX to high-quality Markdown with automatic post-processing. Fixes pandoc grid tables, simple tables, image paths, CJK bold spacing, attribute noise, and code blocks. Benchmarked best-in-class (7.6/10) against Docling, MarkItDown, Pandoc raw, and Mammoth. Trigger on \"convert document\", \"docx to markdown\", \"parse word\", \"doc to markdown\", \"解析word\", \"转换文档\"."
+        }
+      }
+    },
+    {
+      "name": "docs-cleaner",
+      "shape": "skill",
+      "source_path": "daymade-docs/docs-cleaner",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-docs/docs-cleaner",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "docs-cleaner",
+          "description": "Consolidates redundant documentation while preserving all valuable content. This skill should be used when users want to clean up documentation bloat, merge redundant docs, reduce documentation sprawl, or consolidate multiple files covering the same topic. Triggers include \"clean up docs\", \"consolidate documentation\", \"too many doc files\", \"merge these docs\", or when documentation exceeds 500 lines across multiple files covering similar topics."
+        }
+      }
+    },
+    {
+      "name": "mermaid-tools",
+      "shape": "skill",
+      "source_path": "daymade-docs/mermaid-tools",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-docs/mermaid-tools",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mermaid-tools",
+          "description": "Extracts Mermaid diagrams from markdown files and generates high-quality PNG images using bundled scripts. Activates when working with Mermaid diagrams, converting diagrams to PNG, extracting diagrams from markdown, or processing markdown files with embedded Mermaid code."
+        }
+      }
+    },
+    {
+      "name": "pdf-creator",
+      "shape": "skill",
+      "source_path": "daymade-docs/pdf-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-docs/pdf-creator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pdf-creator",
+          "description": "Convert markdown files to professional PDF documents with proper Chinese font support, theme system, and visual self-check. Use whenever the user asks to create PDFs, convert markdown to PDF, generate printable documents, or needs documents formatted for print or mobile reading. This skill MUST be used instead of manual pandoc/Chrome invocations — it handles CJK typography, Chrome header/footer suppression, and mandatory visual verification that manual approaches miss. **Scope: markdown → PDF only.** For Word (.docx) output use `minimax-docx`; this skill does not produce docx and the two pipelines are intentionally orthogonal."
+        }
+      }
+    },
+    {
+      "name": "ppt-creator",
+      "shape": "skill",
+      "source_path": "daymade-docs/ppt-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-docs/ppt-creator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ppt-creator",
+          "description": "Create professional slide decks from topics or documents. Generates structured content with data-driven charts, speaker notes, and complete PPTX files. Applies persuasive storytelling principles (Pyramid Principle, assertion-evidence). Supports multiple formats (Marp, PowerPoint). Use for presentations, pitches, slide decks, or keynotes."
+        }
+      }
+    },
+    {
+      "name": "skill-creator",
+      "shape": "skill",
+      "source_path": "daymade-skill/skill-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-skill/skill-creator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "skill-creator",
+          "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+          "license": "Complete terms in LICENSE.txt"
+        }
+      }
+    },
+    {
+      "name": "skill-reviewer",
+      "shape": "skill",
+      "source_path": "daymade-skill/skill-reviewer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-skill/skill-reviewer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "skill-reviewer",
+          "description": "Reviews and improves Claude Code skills against official best practices. Supports three modes - self-review (validate your own skills), external review (evaluate others' skills), and auto-PR (fork, improve, submit). Use when checking skill quality, reviewing skill repositories, or contributing improvements to open-source skills."
+        }
+      }
+    },
+    {
+      "name": "skills-search",
+      "shape": "skill",
+      "source_path": "daymade-skill/skills-search",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-skill/skills-search",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "skills-search",
+          "description": "This skill should be used when users want to search, discover, install, or manage Claude Code skills from the CCPM registry. Triggers include requests like \"find skills for PDF\", \"search for code review skills\", \"install cloudflare-troubleshooting\", \"list my installed skills\", \"what does skill-creator do\", or any mention of finding/installing/managing Claude Code skills or plugins.",
+          "allowed-tools": "Bash, Read"
+        }
+      }
+    },
+    {
+      "name": "debugging-network-issues",
+      "shape": "skill",
+      "source_path": "debugging-network-issues",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/debugging-network-issues",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "debugging-network-issues",
+          "description": "Evidence-driven investigation for network, streaming, and protocol-layer bugs. Use when debugging connection resets (ECONNRESET, HTTP/2 RST_STREAM, INTERNAL_ERROR), SSE or long-polling stalls, fixed-time connection drops, CDN/proxy/CGNAT idle timeouts, or any incident where symptoms do not match the obvious cause. Applies falsification-first methodology — layered isolation experiments to pin down the responsible network layer, env-gated runtime instrumentation for non-invasive observation, and counter-review agent teams to challenge single-cause assumptions. Strongly trigger on \"socket closed unexpectedly\", \"stream interrupted\", \"ECONNRESET\", \"HTTP/2 INTERNAL_ERROR\", \"fails after N seconds\", \"works sometimes but not always\", \"upstream silent for X seconds\", or any scenario where the investigator might jump to conclusions before evidence. Generalizes to any multi-layer system investigation where assumption-first thinking is the failure mode."
+        }
+      }
+    },
+    {
+      "name": "deep-research",
+      "shape": "skill",
+      "source_path": "deep-research",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/deep-research",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "deep-research",
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "demos",
+      "shape": "unknown",
+      "source_path": "demos",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/demos",
+      "readme_excerpt": "This directory contains automated demonstrations of each skill using [VHS (Video Home System)](https://github.com/charmbracelet/vhs) by Charmbracelet.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {}
+      }
+    },
+    {
+      "name": "douban-skill",
+      "shape": "skill",
+      "source_path": "douban-skill",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/douban-skill",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "douban-skill",
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "excel-automation",
+      "shape": "skill",
+      "source_path": "excel-automation",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/excel-automation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "excel-automation",
+          "description": "Create, parse, and control Excel files on macOS. Professional formatting with openpyxl, complex xlsm parsing with stdlib zipfile+xml for investment bank financial models, and Excel window control via AppleScript. Use when creating formatted Excel reports, parsing financial models that openpyxl cannot handle, or automating Excel on macOS."
+        }
+      }
+    },
+    {
+      "name": "fact-checker",
+      "shape": "skill",
+      "source_path": "fact-checker",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/fact-checker",
+      "readme_excerpt": "Verify factual claims in documents using web search and official sources, then apply corrections with user confirmation.",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "fact-checker",
+          "description": "Verifies factual claims in documents using web search and official sources, then proposes corrections with user confirmation. Use when the user asks to fact-check, verify information, validate claims, check accuracy, or update outdated information in documents. Supports AI model specs, technical documentation, statistics, and general factual statements."
+        }
+      }
+    },
+    {
+      "name": "feishu-doc-scraper",
+      "shape": "skill",
+      "source_path": "feishu-doc-scraper",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/feishu-doc-scraper",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "feishu-doc-scraper",
+          "description": "Extract Feishu (Lark) Docs, Wiki pages, Wiki collections/hubs, spreadsheets, and Minutes (妙记) transcripts into clean high-fidelity local Markdown. The primary path is the lark-cli API — programmatic extraction with no LLM rewriting of the body — which recursively follows a collection's reference graph (mention-doc / sheet / cross-tenant links) and uses error codes to resolve permission boundaries precisely; a browser-DOM path is the fallback only when lark-cli cannot reach the content. Use this whenever the source is a Feishu/Lark URL and fidelity matters — including 导出飞书文档/合集/妙记转写, 把飞书 wiki/知识库转 markdown, scraping or archiving a Feishu collection, exporting a Feishu Minutes/妙记 transcript, or saving a Feishu page locally — even if the user only says clipping, archiving, converting, or \"save this\". Also covers the permission-denied path (owner-exported .docx → faithful Markdown with heading/highlight restoration).",
+          "compatibility": "Primary path needs the `lark-cli` binary (npm `@larksuite/cli`, verified 1.0.32, 2026-05) authenticated to the target tenant. Fallback path needs a browser automation surface with an authenticated session (Chrome DevTools MCP / Browser Use / Computer Use). docx path needs `python-docx` and a docx→md converter (the bundled doc-to-markdown skill or pandoc).",
+          "argument-hint": "[feishu-url-or-output-path]"
+        }
+      }
+    },
+    {
+      "name": "financial-data-collector",
+      "shape": "skill",
+      "source_path": "financial-data-collector",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/financial-data-collector",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "financial-data-collector",
+          "description": "Collect real financial data for any US publicly traded company from free public sources (yfinance). Output structured JSON consumable by downstream financial skills (DCF modeling, comps analysis, earnings review). Handles market data (price, shares, beta), historical financials (income statement, cash flow, balance sheet), WACC inputs, and analyst estimates. Use when users request collect data for ticker, get financials for company, pull market data, gather DCF inputs, or any task requiring structured financial data before analysis. Also triggers on financial data, company data, stock data."
+        }
+      }
+    },
+    {
+      "name": "gangtise-copilot",
+      "shape": "skill",
+      "source_path": "gangtise-copilot",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/gangtise-copilot",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "gangtise-copilot",
+          "description": "Gangtise (岗底斯投研) OpenAPI skill suite installer and diagnostic tool. One-click install 19 official skills (data, research, utility), configure accessKey/secretAccessKey, run health diagnostics. Trigger when user mentions Gangtise, 岗底斯, any gangtise-* skill, credential setup, or reports errors like 'token is invalid' / '接口地址错误'."
+        }
+      }
+    },
+    {
+      "name": "github-contributor",
+      "shape": "skill",
+      "source_path": "github-contributor",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/github-contributor",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "github-contributor",
+          "description": "End-to-end playbook for shipping high-quality pull requests to open-source projects you don't maintain. Use whenever the user is creating, editing, or pushing a PR to a third-party GitHub repo — even if they just say \"submit a PR\", \"open a PR\", \"fix this upstream\", \"rebase against main\", \"respond to the bot review\", or names a target repo in the form `owner/repo`. Covers project discovery, CONTRIBUTING.md compliance, PR-size sanity check, minimal-diff implementation, isolated GUI E2E verification, PR description writing with AI-assisted disclosure, conflict resolution with fixup + autosquash, and post-submission bot/maintainer interaction. Also triggers on Chinese phrases like \"提 PR\"、\"上游 PR\"、\"贡献代码\"、\"rebase 冲突\"、\"PR 描述写不好\"、\"回应维护者\"、\"AI 贡献声明\"."
+        }
+      }
+    },
+    {
+      "name": "github-ops",
+      "shape": "skill",
+      "source_path": "github-ops",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/github-ops",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "github-ops",
+          "description": "Provides comprehensive GitHub operations using gh CLI and GitHub API. Activates when working with pull requests, issues, repositories, workflows, or GitHub API operations including creating/viewing/merging PRs, managing issues, querying API endpoints, and handling GitHub workflows in enterprise or public GitHub environments."
+        }
+      }
+    },
+    {
+      "name": "i18n-expert",
+      "shape": "skill",
+      "source_path": "i18n-expert",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/i18n-expert",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "i18n-expert",
+          "description": "This skill should be used when setting up, auditing, or enforcing internationalization/localization in UI codebases (React/TS, i18next or similar, JSON locales), including installing/configuring the i18n framework, replacing hard-coded strings, ensuring en-US/zh-CN coverage, mapping error codes to localized messages, and validating key parity, pluralization, and formatting."
+        }
+      }
+    },
+    {
+      "name": "ima-copilot",
+      "shape": "skill",
+      "source_path": "ima-copilot",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/ima-copilot",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ima-copilot",
+          "description": "One-stop companion and installer for the official Tencent IMA skill (腾讯 IMA / ima.qq.com). Handles zero-config installation to Claude Code / Codex / OpenClaw via `npx skills add`, guides API key setup, detects and fixes known issues in the upstream package (including the missing-YAML-frontmatter bug in submodule SKILL.md files), and implements a personalized fan-out search strategy with priority-based knowledge base boosting. Use this skill whenever the user mentions IMA, 腾讯 IMA, ima.qq.com, ima-skill, installing or configuring ima-skill, searching across IMA knowledge bases, 知识库搜索, 笔记搜索, fan-out search with preferred KBs, or reports errors like \"Skipped loading skill(s) due to invalid SKILL.md\". Also trigger for any request to diagnose, repair, or personalize the behavior of an ima-skill installation. This is a wrapper layer around ima-skill — it installs and orchestrates ima-skill rather than replacing it."
+        }
+      }
+    },
+    {
+      "name": "iOS-APP-developer",
+      "shape": "skill",
+      "source_path": "iOS-APP-developer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/iOS-APP-developer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "developing-ios-apps",
+          "description": "Develops iOS/macOS applications with XcodeGen, SwiftUI, and SPM. Handles Apple Developer signing, notarization, and CI/CD pipelines. Triggers on XcodeGen project.yml, SPM dependency issues, device deployment, code signing errors (Error -25294, keychain mismatch, adhoc fallback, EMFILE, notarization credential conflict, continueOnError), camera/AVFoundation debugging, iOS version compatibility, \"Library not loaded @rpath\", Electron @electron/osx-sign/@electron/notarize config, notarytool, GitHub Actions secrets in conditionals, or certificate/provisioning problems. Use when building iOS/macOS apps, fixing Xcode build failures, deploying to real devices, or configuring CI/CD signing pipelines."
+        }
+      }
+    },
+    {
+      "name": "llm-icon-finder",
+      "shape": "skill",
+      "source_path": "llm-icon-finder",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/llm-icon-finder",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "llm-icon-finder",
+          "description": "Finding and accessing AI/LLM model brand icons from lobe-icons library. Use when users need icon URLs, want to download brand logos for AI models/providers/applications (Claude, GPT, Gemini, etc.), or request icons in SVG/PNG/WEBP formats."
+        }
+      }
+    },
+    {
+      "name": "macos-cleaner",
+      "shape": "skill",
+      "source_path": "macos-cleaner",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/macos-cleaner",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "macos-cleaner",
+          "description": "Analyze and reclaim macOS disk space through intelligent cleanup recommendations. This skill should be used when users report disk space issues, need to clean up their Mac, or want to understand what's consuming storage. Focus on safe, interactive analysis with user confirmation before any deletions."
+        }
+      }
+    },
+    {
+      "name": "product-analysis",
+      "shape": "skill",
+      "source_path": "product-analysis",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/product-analysis",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "product-analysis",
+          "description": "Multi-path parallel product analysis with cross-model test-time compute scaling. Spawns parallel agents (Claude Code agent teams + Codex CLI) to explore product from multiple perspectives, then synthesizes findings into actionable optimization plans. Can invoke competitors-analysis for competitive benchmarking. Use when \"product audit\", \"self-review\", \"发布前审查\", \"产品分析\", \"analyze our product\", \"UX audit\", or \"信息架构审计\".",
+          "argument-hint": "[scope: full|ux|api|arch|compare]"
+        }
+      }
+    },
+    {
+      "name": "prompt-optimizer",
+      "shape": "skill",
+      "source_path": "prompt-optimizer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/prompt-optimizer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "prompt-optimizer",
+          "description": "Transform vague prompts into precise, well-structured specifications using EARS (Easy Approach to Requirements Syntax) methodology. This skill should be used when users provide loose requirements, ambiguous feature descriptions, or need to enhance prompts for AI-generated code, products, or documents. Triggers include requests to \"optimize my prompt\", \"improve this requirement\", \"make this more specific\", or when raw requirements lack detail and structure."
+        }
+      }
+    },
+    {
+      "name": "promptfoo-evaluation",
+      "shape": "skill",
+      "source_path": "promptfoo-evaluation",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/promptfoo-evaluation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "promptfoo-evaluation",
+          "description": "Configures and runs LLM evaluation using Promptfoo framework. Use when setting up prompt testing, creating evaluation configs (promptfooconfig.yaml), writing Python custom assertions, implementing llm-rubric for LLM-as-judge, or managing few-shot examples in prompts. Triggers on keywords like \"promptfoo\", \"eval\", \"LLM evaluation\", \"prompt testing\", or \"model comparison\"."
+        }
+      }
+    },
+    {
+      "name": "qa-expert",
+      "shape": "skill",
+      "source_path": "qa-expert",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/qa-expert",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qa-expert",
+          "description": "This skill should be used when establishing comprehensive QA testing processes for any software project. Use when creating test strategies, writing test cases following Google Testing Standards, executing test plans, tracking bugs with P0-P4 classification, calculating quality metrics, or generating progress reports. Includes autonomous execution capability via master prompts and complete documentation templates for third-party QA team handoffs. Implements OWASP security testing and achieves 90% coverage targets.",
+          "keywords": "[qa, testing, test-cases, bug-tracking, google-standards, owasp, security, automation, quality-gates, metrics]"
+        }
+      }
+    },
+    {
+      "name": "repomix-safe-mixer",
+      "shape": "skill",
+      "source_path": "repomix-safe-mixer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/repomix-safe-mixer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "repomix-safe-mixer",
+          "description": "Safely package codebases with repomix by automatically detecting and removing hardcoded credentials before packing. Use when packaging code for distribution, creating reference packages, or when the user mentions security concerns about sharing code with repomix."
+        }
+      }
+    },
+    {
+      "name": "repomix-unmixer",
+      "shape": "skill",
+      "source_path": "repomix-unmixer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/repomix-unmixer",
+      "readme_excerpt": "A Claude Code skill for extracting files from repomix-packed repositories and restoring their original directory structure.",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "repomix-unmixer",
+          "description": "Extracts files from repomix-packed repositories, restoring original directory structures from XML/Markdown/JSON formats. Activates when users need to unmix repomix files, extract packed repositories, restore file structures from repomix output, or reverse the repomix packing process."
+        }
+      }
+    },
+    {
+      "name": "scrapling-skill",
+      "shape": "skill",
+      "source_path": "scrapling-skill",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/scrapling-skill",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "scrapling-skill",
+          "description": "Install, troubleshoot, and use Scrapling CLI to extract HTML, Markdown, or text from webpages. Use this skill whenever the user mentions Scrapling, `uv tool install scrapling`, `scrapling extract`, WeChat/mp.weixin articles, browser-backed page fetching, or needs help deciding between static and dynamic extraction."
+        }
+      }
+    },
+    {
+      "name": "slides-creator",
+      "shape": "skill",
+      "source_path": "slides-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/slides-creator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "slides-creator",
+          "description": "Narrative-first slide deck creation. Guides users through structured narrative design (ABCDEFG model), then delegates visual generation to baoyu-slide-deck. Triggers on \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", \"PPT\", or when user needs to turn content into visual slides.",
+          "context": "fork",
+          "agent": "general-purpose"
+        }
+      }
+    },
+    {
+      "name": "teams-channel-post-writer",
+      "shape": "skill",
+      "source_path": "teams-channel-post-writer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/teams-channel-post-writer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "teams-channel-post-writer",
+          "description": "Creates educational Teams channel posts for internal knowledge sharing about Claude Code features, tools, and best practices. Applies when writing posts, announcements, or documentation to teach colleagues effective Claude Code usage, announce new features, share productivity tips, or document lessons learned. Provides templates, writing guidelines, and structured approaches emphasizing concrete examples, underlying principles, and connections to best practices like context engineering. Activates for content involving Teams posts, channel announcements, feature documentation, or tip sharing."
+        }
+      }
+    },
+    {
+      "name": "terraform-skill",
+      "shape": "skill",
+      "source_path": "terraform-skill",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/terraform-skill",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "terraform-skill",
+          "description": "Operational traps for Terraform provisioners, multi-environment isolation, and zero-to-deployment reliability. Covers provisioner timing races, SSH connection conflicts, DNS record duplication, volume permissions, database bootstrap gaps, snapshot cross-contamination, Cloudflare credential format errors, hardcoded domains in Caddyfiles/compose, and init-data-only-on-first-boot pitfalls. Activate when writing null_resource provisioners, creating multi-environment Terraform setups, debugging containers that are Restarting/unhealthy after terraform apply, setting up fresh instances with cloud-init, or any IaC code that SSHs into remote hosts. Also activate when the user mentions terraform plan/apply errors, provisioner failures, infrastructure drift, TLS certificate errors, or Caddy/gateway configuration."
+        }
+      }
+    },
+    {
+      "name": "tunnel-doctor",
+      "shape": "skill",
+      "source_path": "tunnel-doctor",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/tunnel-doctor",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "tunnel-doctor",
+          "description": "Diagnoses and fixes conflicts between Tailscale and proxy/VPN tools (Shadowrocket, Clash, Surge) on macOS. Covers six conflict layers - (1) route hijacking, (2) HTTP proxy env var interception, (3) system proxy bypass, (4) SSH ProxyCommand double tunneling, (5) VM/container runtime proxy propagation (OrbStack/Docker), and (6) stalled DNS resolver in macOS getaddrinfo chain (dead VPN daemon leaving zombie utun + DNS injection). Includes SOP for remote development via SSH tunnels with proxy-safe Makefile patterns. Use when Tailscale ping works but SSH/HTTP times out, when browser returns 503 but curl works, when git push fails with \"failed to begin relaying via HTTP\", when Docker pull times out behind TUN/VPN, when setting up Tailscale SSH to WSL instances, when bootstrapping remote dev environments over Tailscale, when ssh/curl/git hang ~60 seconds before resolving a hostname while nslookup returns instantly, when ping to a resolver IP works but dig to the same IP times out, or when ssh -vvv freezes at \"debug2: resolving\" without ever reaching \"debug1: connect\".",
+          "allowed-tools": "Read, Grep, Edit, Bash"
+        }
+      }
+    },
+    {
+      "name": "twitter-reader",
+      "shape": "skill",
+      "source_path": "twitter-reader",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/twitter-reader",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "twitter-reader",
+          "description": "Fetch Twitter/X post content including long-form Articles with full images and metadata. Use when Claude needs to retrieve tweet/article content, author info, engagement metrics, and embedded media. Supports individual posts and X Articles (long-form content). Automatically downloads all images to local attachments folder and generates complete Markdown with proper image references. Preferred over Jina for X Articles with images."
+        }
+      }
+    },
+    {
+      "name": "ui-designer",
+      "shape": "skill",
+      "source_path": "ui-designer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/ui-designer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ui-designer",
+          "description": "Extract design systems from reference UI images and generate implementation-ready UI design prompts. Use when users provide UI screenshots/mockups and want to create consistent designs, generate design systems, or build MVP UIs matching reference aesthetics."
+        }
+      }
+    },
+    {
+      "name": "video-comparer",
+      "shape": "skill",
+      "source_path": "video-comparer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/video-comparer",
+      "readme_excerpt": "A professional video comparison tool that analyzes compression quality and generates interactive HTML reports. Compare original vs compressed videos with detailed metrics (PSNR, SSIM) and frame-by-fra",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "video-comparer",
+          "description": "This skill should be used when comparing two videos to analyze compression results or quality differences. Generates interactive HTML reports with quality metrics (PSNR, SSIM) and frame-by-frame visual comparisons. Triggers when users mention \"compare videos\", \"video quality\", \"compression analysis\", \"before/after compression\", or request quality assessment of compressed videos."
+        }
+      }
+    },
+    {
+      "name": "windows-remote-desktop-connection-doctor",
+      "shape": "skill",
+      "source_path": "windows-remote-desktop-connection-doctor",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/windows-remote-desktop-connection-doctor",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "windows-remote-desktop-connection-doctor",
+          "description": "Diagnose Windows App (Microsoft Remote Desktop / Azure Virtual Desktop / W365) connection quality issues on macOS. Analyze transport protocol selection (UDP Shortpath vs WebSocket), detect VPN/proxy interference with STUN/TURN negotiation, and parse Windows App logs for Shortpath failures. This skill should be used when VDI connections are slow, when transport shows WebSocket instead of UDP, when RDP Shortpath fails to establish, or when RTT is unexpectedly high.",
+          "allowed-tools": "Read, Grep, Bash"
+        }
+      }
+    },
+    {
+      "name": "youtube-downloader",
+      "shape": "skill",
+      "source_path": "youtube-downloader",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/main/youtube-downloader",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "youtube-downloader",
+          "description": "Download YouTube videos and HLS streams (m3u8) from platforms like Mux, Vimeo, etc. using yt-dlp and ffmpeg. Use this skill when users request downloading videos, extracting audio, handling protected streams with authentication headers, or troubleshooting download issues like nsig extraction failures, 403 errors, or cookie extraction problems."
+        }
+      }
+    }
+  ]
+}
