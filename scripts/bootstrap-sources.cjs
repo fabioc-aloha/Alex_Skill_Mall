@@ -88,6 +88,22 @@ for (const s of SUPPORTED.stores) {
   const cmd = `git clone ${depthFlag} "${s.remote}" "${target}"`;
   try {
     execSync(cmd, { stdio: ['ignore', 'pipe', 'pipe'], timeout: 120000 });
+    // Shallow clone (--depth N) does not fetch historic tags whose targets are
+    // outside the fetched history. Pull tag refs explicitly so list-refs.cjs
+    // sees them. --depth 1 on the fetch keeps each tag's commit shallow too.
+    if (depth > 0) {
+      try {
+        execSync(`git -C "${target}" fetch --tags --depth=1 --quiet`, {
+          stdio: ['ignore', 'pipe', 'pipe'],
+          timeout: 60000,
+        });
+      } catch (tagErr) {
+        // Tag fetch failure is non-fatal: the clone itself succeeded, and
+        // list-refs.cjs will just see an empty tag list for this store.
+        const tagMsg = tagErr.stderr ? tagErr.stderr.toString().trim().split('\n').pop() : tagErr.message;
+        console.log(`WARN:  ${s.name}: tag fetch skipped (${tagMsg})`);
+      }
+    }
     console.log(`CLONE: ${s.name} -> ${dirName}`);
     cloned++;
   } catch (err) {
