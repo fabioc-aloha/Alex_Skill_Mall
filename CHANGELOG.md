@@ -4,6 +4,12 @@ All notable changes to Alex ACT Plugin Mall.
 
 ## [Unreleased]
 
+---
+
+## [2.0.0] - 2026-05-29
+
+**Major release.** Constitutional reframe to self-curating marketplace (catalog `schema_version: 2.1` → `3.0`), Mall brain added, public surface fully cleaned of upstream-curator references and Edition-specific framing. Anyone consuming the v1.x layout will see breaking changes; consumers depending only on `catalog/index.json` and upstream-pinned plugin installs are unaffected.
+
 ### Added
 
 - Mall brain: `copilot-instructions.md` (Mall identity, mission, duty stack, cardinal rules) + 7 always-on instructions (act-pass, critical-thinking, falsifiability-deadlines, lint-discipline, no-deferred-debt, problem-framing-audit, terminal-command-safety) + 2 skills (currency-audit, meditation) + 2 prompts (/add-source, /prune-source). Mall brain shape: 9 instructions + 6 skills + 2 prompts + 0 agents.
