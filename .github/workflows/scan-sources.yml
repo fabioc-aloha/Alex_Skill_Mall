@@ -19,8 +19,6 @@ jobs:
     name: Refresh catalog + trust scores
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    env:
-      SOURCES_DIR: ${{ runner.temp }}/sources
 
     steps:
       - name: Checkout Mall repo
@@ -30,6 +28,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Export SOURCES_DIR for downstream steps
+        # The `runner` context is only available inside steps — not in job-level
+        # `env:` — so we publish SOURCES_DIR via $GITHUB_ENV here. All later
+        # `node scripts/*.cjs` steps then read it from process.env.
+        run: echo "SOURCES_DIR=${{ runner.temp }}/sources" >> "$GITHUB_ENV"
 
       - name: Bootstrap source clones
         # Shallow-clones every third-party source store into $SOURCES_DIR.
