@@ -16,7 +16,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "hooks",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -27,7 +44,24 @@
       "readme_excerpt": "Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - see the [full article](https://x.com/affaanmustafa/status/2012378465664745795) for when and why to use",
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "plugins",
+          "description": "Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - see the [full article](https://x.com/affaanmustafa/status/2012378465664745795) for when and why to use",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -38,7 +72,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "scripts",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -52,6 +103,23 @@
         "raw": {
           "name": "backend-patterns",
           "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
+        },
+        "standard": {
+          "name": "backend-patterns",
+          "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -66,6 +134,23 @@
         "raw": {
           "name": "clickhouse-io",
           "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads."
+        },
+        "standard": {
+          "name": "clickhouse-io",
+          "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -80,6 +165,23 @@
         "raw": {
           "name": "coding-standards",
           "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development."
+        },
+        "standard": {
+          "name": "coding-standards",
+          "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -94,6 +196,23 @@
         "raw": {
           "name": "continuous-learning",
           "description": "Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use."
+        },
+        "standard": {
+          "name": "continuous-learning",
+          "description": "Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -105,7 +224,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "eval-harness",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -119,6 +255,23 @@
         "raw": {
           "name": "frontend-patterns",
           "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices."
+        },
+        "standard": {
+          "name": "frontend-patterns",
+          "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -130,7 +283,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "project-guidelines-example",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -144,6 +314,23 @@
         "raw": {
           "name": "security-review",
           "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns."
+        },
+        "standard": {
+          "name": "security-review",
+          "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -158,6 +345,23 @@
         "raw": {
           "name": "strategic-compact",
           "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction."
+        },
+        "standard": {
+          "name": "strategic-compact",
+          "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -172,6 +376,23 @@
         "raw": {
           "name": "tdd-workflow",
           "description": "Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests."
+        },
+        "standard": {
+          "name": "tdd-workflow",
+          "description": "Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -183,7 +404,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "verification-loop",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -194,7 +432,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "tests",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     }
   ]

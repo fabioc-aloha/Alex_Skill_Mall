@@ -16,7 +16,24 @@
       "readme_excerpt": "**[Architecture](docs/architecture.md)",
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "everything",
+          "description": "**[Architecture](docs/architecture.md)",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "prompt"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -27,7 +44,24 @@
       "readme_excerpt": "A Model Context Protocol server that provides web content fetching capabilities. This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consump",
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "fetch",
+          "description": "A Model Context Protocol server that provides web content fetching capabilities. This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consump",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -38,7 +72,24 @@
       "readme_excerpt": "Node.js server implementing Model Context Protocol (MCP) for filesystem operations.",
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "filesystem",
+          "description": "Node.js server implementing Model Context Protocol (MCP) for filesystem operations.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -49,7 +100,24 @@
       "readme_excerpt": "A Model Context Protocol server for Git repository interaction and automation. This server provides tools to read, search, and manipulate Git repositories via Large Language Models.",
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "git",
+          "description": "A Model Context Protocol server for Git repository interaction and automation. This server provides tools to read, search, and manipulate Git repositories via Large Language Models.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -60,7 +128,24 @@
       "readme_excerpt": "A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats.",
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "memory",
+          "description": "A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -71,7 +156,24 @@
       "readme_excerpt": "An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.",
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "sequentialthinking",
+          "description": "An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -82,7 +184,24 @@
       "readme_excerpt": "A Model Context Protocol server that provides time and timezone conversion capabilities. This server enables LLMs to get current time information and perform timezone conversions using IANA timezone n",
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "time",
+          "description": "A Model Context Protocol server that provides time and timezone conversion capabilities. This server enables LLMs to get current time information and perform timezone conversions using IANA timezone n",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     }
   ]

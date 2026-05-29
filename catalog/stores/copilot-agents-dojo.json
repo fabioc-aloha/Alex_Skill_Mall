@@ -25,6 +25,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[debugging, autonomy, root-cause]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "autonomous-bug-fix",
+          "description": "Reproduces, diagnoses, fixes, and verifies bugs unaided.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "discipline",
+          "tags": [
+            "[debugging",
+            "autonomy",
+            "root-cause]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -44,6 +65,27 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[design, socratic, discovery]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "brainstorming",
+          "description": "Refines rough ideas into approved designs before code.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[design",
+            "socratic",
+            "discovery]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -65,6 +107,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[review, quality, pr]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "code-review",
+          "description": "Reviews diffs by severity to produce actionable feedback.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[review",
+            "quality",
+            "pr]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -84,6 +147,27 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[onboarding, exploration, conventions]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "codebase-onboarding",
+          "description": "Maps an unfamiliar repo before touching its code.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[onboarding",
+            "exploration",
+            "conventions]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -105,6 +189,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[debugging, diagnostics, root-cause]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "debugging",
+          "description": "Systematic root-cause investigation for hard bugs.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[debugging",
+            "diagnostics",
+            "root-cause]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -124,6 +229,27 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[quality, design, simplicity]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "demand-elegance",
+          "description": "Challenges hacky fixes on non-trivial changes.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "discipline",
+          "tags": [
+            "[quality",
+            "design",
+            "simplicity]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -145,6 +271,28 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[requirements, traceability, nfr, togaf]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "derive-nfr-from-driver",
+          "description": "Derives measurable NFRs from a parent business driver.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[requirements",
+            "traceability",
+            "nfr",
+            "togaf]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -164,6 +312,29 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[security, requirements, traceability, togaf, threat-modelling]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "derive-security-from-risk",
+          "description": "Derives security requirements from a named threat.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[security",
+            "requirements",
+            "traceability",
+            "togaf",
+            "threat-modelling]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -185,6 +356,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[delegation, parallel, sub-agents]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "dispatching-parallel-agents",
+          "description": "Runs independent subtasks concurrently via sub-agents.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "delegation",
+          "tags": [
+            "[delegation",
+            "parallel",
+            "sub-agents]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -204,6 +396,28 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[delegation, durable, board, persistence]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "durable-work",
+          "description": "Picks the board over sub-agents for cross-turn work.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "delegation",
+          "tags": [
+            "[delegation",
+            "durable",
+            "board",
+            "persistence]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -225,6 +439,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[execution, plan, todo]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "executing-plans",
+          "description": "Executes approved plans one task at a time, verified.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[execution",
+            "plan",
+            "todo]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -244,6 +479,27 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[git, merge, lifecycle]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "finishing-a-development-branch",
+          "description": "Verifies, summarises, and closes a development branch.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[git",
+            "merge",
+            "lifecycle]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -265,6 +521,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[planning, workflow, discipline]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "plan-before-code",
+          "description": "Plans multi-step work before writing code.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "discipline",
+          "tags": [
+            "[planning",
+            "workflow",
+            "discipline]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -284,6 +561,27 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[git, pr, review]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "pr-workflow",
+          "description": "Prepares branches and PRs for clean, reviewable merges.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[git",
+            "pr",
+            "review]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -305,6 +603,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[review, feedback, iteration]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "receiving-code-review",
+          "description": "Processes review feedback until the change is approved.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[review",
+            "feedback",
+            "iteration]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -324,6 +643,27 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[refactoring, quality, debt]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "refactoring",
+          "description": "Safe, test-backed code restructuring in small steps.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[refactoring",
+            "quality",
+            "debt]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -345,6 +685,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[self-review, quality, gate]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "requesting-code-review",
+          "description": "Self-reviews work against the plan before sign-off.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[self-review",
+            "quality",
+            "gate]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -359,6 +720,23 @@
         "raw": {
           "name": "requirements-elicitation",
           "description": ""
+        },
+        "standard": {
+          "name": "requirements-elicitation",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -373,6 +751,23 @@
         "raw": {
           "name": "self-improvement",
           "description": ""
+        },
+        "standard": {
+          "name": "self-improvement",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -392,6 +787,27 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[delegation, parallel, context-management]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "subagent-strategy",
+          "description": "Delegates research and parallel work to sub-agents.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "delegation",
+          "tags": [
+            "[delegation",
+            "parallel",
+            "context-management]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -413,6 +829,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[testing, tdd, quality]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "test-writing",
+          "description": "Writes meaningful tests that actually catch bugs.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[testing",
+            "tdd",
+            "quality]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -432,6 +869,28 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[traceability, governance, togaf, gate]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "traceability-gate",
+          "description": "Enforces parent-link lineage across requirement layers.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "discipline",
+          "tags": [
+            "[traceability",
+            "governance",
+            "togaf",
+            "gate]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }
@@ -453,6 +912,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[git, worktree, isolation]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "using-git-worktrees",
+          "description": "Isolates each task in its own git worktree off main.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "[git",
+            "worktree",
+            "isolation]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -473,6 +953,27 @@
           "platforms": "[windows, macos, linux]",
           "tags": "[activation, framework, session]",
           "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "using-superpowers",
+          "description": "Activates the dojo framework at the start of a session.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "activation",
+          "tags": [
+            "[activation",
+            "framework",
+            "session]"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
         }
       }
     },
@@ -492,6 +993,27 @@
           "created_by": "human",
           "platforms": "[windows, macos, linux]",
           "tags": "[verification, testing, quality]",
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "verify-before-done",
+          "description": "Proves work with tests, diffs, and logs before sign-off.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "discipline",
+          "tags": [
+            "[verification",
+            "testing",
+            "quality]"
+          ],
+          "license": null,
+          "requires": null,
           "author": "Andreas Wasita (@andreaswasita)"
         }
       }

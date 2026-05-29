@@ -20,6 +20,23 @@
           "name": "ask-questions-if-underspecified",
           "description": "Clarify requirements before implementing. Do not use automatically, only when invoked explicitly.",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "ask-questions-if-underspecified",
+          "description": "Clarify requirements before implementing. Do not use automatically, only when invoked explicitly.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -36,6 +53,23 @@
           "description": "Use when checking the overall health of a skills library. Run doctor, validate, check for stale skills, and verify generated docs are in sync.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "audit-library-health",
+          "description": "Use when checking the overall health of a skills library. Run doctor, validate, check for stale skills, and verify generated docs are in sync.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -53,6 +87,23 @@
           "source": "wshobson/agents",
           "license": "MIT",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "backend-development",
+          "description": "Backend API design, database architecture, microservices patterns, and test-driven development. Use for designing APIs, database schemas, or backend system architecture.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -68,6 +119,23 @@
           "name": "best-practices",
           "description": "",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "best-practices",
+          "description": null,
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -84,6 +152,23 @@
           "description": "Use when exploring the ai-agent-skills catalog to find, compare, and evaluate skills before installing. Always use --fields to limit output size and --dry-run before committing to an install.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "browse-and-evaluate",
+          "description": "Use when exploring the ai-agent-skills catalog to find, compare, and evaluate skills before installing. Always use --fields to limit output size and --dry-run before committing to an install.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -100,6 +185,23 @@
           "description": "Use when regenerating README.md and WORK_AREAS.md in a managed library workspace. Always dry-run first to preview changes.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "build-workspace-docs",
+          "description": "Use when regenerating README.md and WORK_AREAS.md in a managed library workspace. Always dry-run first to preview changes.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -115,6 +217,23 @@
           "name": "changelog-generator",
           "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "changelog-generator",
+          "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -132,6 +251,23 @@
           "source": "wshobson/agents",
           "license": "MIT",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "code-documentation",
+          "description": "Writing effective code documentation - API docs, README files, inline comments, and technical guides. Use for documenting codebases, APIs, or writing developer guides.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -147,6 +283,23 @@
           "name": "content-research-writer",
           "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "content-research-writer",
+          "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -163,6 +316,23 @@
           "description": "Use when building a managed team skills library for a real stack. Map work to shelves, browse before curating, write meaningful `whyHere` notes, and create a starter pack once the first pass is solid.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "curate-a-team-library",
+          "description": "Use when building a managed team skills library for a real stack. Map work to shelves, browse before curating, write meaningful `whyHere` notes, and create a starter pack once the first pass is solid.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -180,6 +350,23 @@
           "source": "wshobson/agents",
           "license": "MIT",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "database-design",
+          "description": "Database schema design, optimization, and migration patterns for PostgreSQL, MySQL, and NoSQL databases. Use for designing schemas, writing migrations, or optimizing queries.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -196,6 +383,23 @@
           "description": "Use when installing skills from a shared ai-agent-skills library repo. Inspect with `--list` first, prefer `--collection`, and preview with `--dry-run` before installing.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "install-from-remote-library",
+          "description": "Use when installing skills from a shared ai-agent-skills library repo. Inspect with `--list` first, prefer `--collection`, and preview with `--dry-run` before installing.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -213,6 +417,23 @@
           "source": "wshobson/agents",
           "license": "MIT",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "llm-application-dev",
+          "description": "Building applications with Large Language Models - prompt engineering, RAG patterns, and LLM integration. Use for AI-powered features, chatbots, or LLM-based automation.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -229,6 +450,23 @@
           "description": "Use when moving skills between library workspaces or upgrading from a personal library to a team library. Export from one workspace, import into another.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "migrate-skills-between-libraries",
+          "description": "Use when moving skills between library workspaces or upgrading from a personal library to a team library. Export from one workspace, import into another.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -245,6 +483,23 @@
           "description": "Use when evaluating whether a skill belongs in a library. Preview content, check frontmatter, validate structure, and decide whether to keep, curate, or remove.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "review-a-skill",
+          "description": "Use when evaluating whether a skill belongs in a library. Preview content, check frontmatter, validate structure, and decide whether to keep, curate, or remove.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -261,6 +516,23 @@
           "description": "Use when a managed library is ready to publish to GitHub and hand to teammates as an install command. Run the GitHub publishing steps, then return the exact shareable install command.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "share-a-library",
+          "description": "Use when a managed library is ready to publish to GitHub and hand to teammates as an install command. Run the GitHub publishing steps, then return the exact shareable install command.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -277,6 +549,23 @@
           "description": "Use when syncing or updating previously installed skills to their latest version. Always dry-run updates before applying, and check for breaking changes.",
           "category": "workflow",
           "version": "4.1.0"
+        },
+        "standard": {
+          "name": "update-installed-skills",
+          "description": "Use when syncing or updating previously installed skills to their latest version. Always dry-run updates before applying, and check for breaking changes.",
+          "version": "4.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     }

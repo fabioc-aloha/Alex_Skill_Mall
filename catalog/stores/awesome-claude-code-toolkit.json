@@ -16,7 +16,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "hooks",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -27,7 +44,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "api-architect",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "agent"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -38,7 +72,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "code-guardian",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "agent"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -52,6 +103,23 @@
         "raw": {
           "name": "accessibility-wcag",
           "description": "Web accessibility patterns for WCAG 2.2 compliance including ARIA, keyboard navigation, screen readers, and testing"
+        },
+        "standard": {
+          "name": "accessibility-wcag",
+          "description": "Web accessibility patterns for WCAG 2.2 compliance including ARIA, keyboard navigation, screen readers, and testing",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -68,6 +136,23 @@
           "description": "Route broad or ambiguous AgentKit SEO work to the right module while keeping context scoped. Use when a request spans multiple surfaces, asks for overall digital-presence strategy, involves provider or install architecture, needs agent-context planning, or the correct platform skill is unclear.",
           "user-invocable": "true",
           "argument": "The specific SEO optimization task or platform to focus on (e.g., GitHub, LinkedIn, CV, etc.)"
+        },
+        "standard": {
+          "name": "agentkit-seo",
+          "description": "Route broad or ambiguous AgentKit SEO work to the right module while keeping context scoped. Use when a request spans multiple surfaces, asks for overall digital-presence strategy, involves provider or install architecture, needs agent-context planning, or the correct platform skill is unclear.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -82,6 +167,23 @@
         "raw": {
           "name": "api-design-patterns",
           "description": "REST API design with resource naming, pagination, versioning, and OpenAPI spec generation"
+        },
+        "standard": {
+          "name": "api-design-patterns",
+          "description": "REST API design with resource naming, pagination, versioning, and OpenAPI spec generation",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -96,6 +198,23 @@
         "raw": {
           "name": "authentication-patterns",
           "description": "Authentication and authorization patterns including OAuth2, JWT, RBAC, session management, and PKCE flows"
+        },
+        "standard": {
+          "name": "authentication-patterns",
+          "description": "Authentication and authorization patterns including OAuth2, JWT, RBAC, session management, and PKCE flows",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -110,6 +229,23 @@
         "raw": {
           "name": "aws-cloud-patterns",
           "description": "AWS cloud patterns for Lambda, ECS, S3, DynamoDB, and Infrastructure as Code with CDK/Terraform"
+        },
+        "standard": {
+          "name": "aws-cloud-patterns",
+          "description": "AWS cloud patterns for Lambda, ECS, S3, DynamoDB, and Infrastructure as Code with CDK/Terraform",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -124,6 +260,23 @@
         "raw": {
           "name": "ci-cd-pipelines",
           "description": "CI/CD pipeline patterns for GitHub Actions, GitLab CI, testing strategies, and deployment automation"
+        },
+        "standard": {
+          "name": "ci-cd-pipelines",
+          "description": "CI/CD pipeline patterns for GitHub Actions, GitLab CI, testing strategies, and deployment automation",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -143,6 +296,28 @@
           "tags": "[memory, context-management, productivity, agent-memory]",
           "repository": "https://github.com/awrshift/claude-memory-kit",
           "license": "MIT"
+        },
+        "standard": {
+          "name": "claude-memory-kit",
+          "description": "Persistent memory system for Claude Code. Two-layer architecture (hot cache + knowledge wiki), safety hooks, /close-day end-of-day synthesis. Zero external dependencies.",
+          "version": "3.2.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": [
+            "[memory",
+            "context-management",
+            "productivity",
+            "agent-memory]"
+          ],
+          "license": "MIT",
+          "requires": null,
+          "author": "awrshift"
         }
       }
     },
@@ -157,6 +332,23 @@
         "raw": {
           "name": "continuous-learning",
           "description": "Auto-extract patterns from coding sessions, track corrections, and build reusable knowledge with confidence scoring"
+        },
+        "standard": {
+          "name": "continuous-learning",
+          "description": "Auto-extract patterns from coding sessions, track corrections, and build reusable knowledge with confidence scoring",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -171,6 +363,23 @@
         "raw": {
           "name": "data-engineering",
           "description": "Data engineering patterns for ETL pipelines, data warehousing, Apache Spark, and data quality validation"
+        },
+        "standard": {
+          "name": "data-engineering",
+          "description": "Data engineering patterns for ETL pipelines, data warehousing, Apache Spark, and data quality validation",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -185,6 +394,23 @@
         "raw": {
           "name": "database-optimization",
           "description": "Query optimization, indexing strategies, and database performance tuning for PostgreSQL and MySQL"
+        },
+        "standard": {
+          "name": "database-optimization",
+          "description": "Query optimization, indexing strategies, and database performance tuning for PostgreSQL and MySQL",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -201,6 +427,23 @@
           "description": "Claude-native deep research using DAG-based query planning, parallel subagent execution, and gap-driven iteration. No external API needed.",
           "user-invocable": "true",
           "argument": "The research question or topic to investigate deeply"
+        },
+        "standard": {
+          "name": "deep-dive",
+          "description": "Claude-native deep research using DAG-based query planning, parallel subagent execution, and gap-driven iteration. No external API needed.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -215,6 +458,23 @@
         "raw": {
           "name": "devops-automation",
           "description": "CI/CD pipeline design with GitHub Actions, Docker, Kubernetes, Helm, and GitOps patterns"
+        },
+        "standard": {
+          "name": "devops-automation",
+          "description": "CI/CD pipeline design with GitHub Actions, Docker, Kubernetes, Helm, and GitOps patterns",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -229,6 +489,23 @@
         "raw": {
           "name": "django-patterns",
           "description": "Django architecture patterns including DRF, ORM optimization, signals, middleware, and project structure"
+        },
+        "standard": {
+          "name": "django-patterns",
+          "description": "Django architecture patterns including DRF, ORM optimization, signals, middleware, and project structure",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -243,6 +520,23 @@
         "raw": {
           "name": "docker-best-practices",
           "description": "Docker best practices including multi-stage builds, compose patterns, image optimization, and security"
+        },
+        "standard": {
+          "name": "docker-best-practices",
+          "description": "Docker best practices including multi-stage builds, compose patterns, image optimization, and security",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -257,6 +551,23 @@
         "raw": {
           "name": "frontend-excellence",
           "description": "Modern frontend patterns for React Server Components, performance optimization, and Core Web Vitals"
+        },
+        "standard": {
+          "name": "frontend-excellence",
+          "description": "Modern frontend patterns for React Server Components, performance optimization, and Core Web Vitals",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -271,6 +582,23 @@
         "raw": {
           "name": "git-advanced",
           "description": "Advanced git workflows including worktrees, bisect, interactive rebase, hooks, and recovery techniques"
+        },
+        "standard": {
+          "name": "git-advanced",
+          "description": "Advanced git workflows including worktrees, bisect, interactive rebase, hooks, and recovery techniques",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -285,6 +613,23 @@
         "raw": {
           "name": "golang-idioms",
           "description": "Idiomatic Go patterns for error handling, interfaces, concurrency, testing, and module management"
+        },
+        "standard": {
+          "name": "golang-idioms",
+          "description": "Idiomatic Go patterns for error handling, interfaces, concurrency, testing, and module management",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -299,6 +644,23 @@
         "raw": {
           "name": "graphql-design",
           "description": "GraphQL schema design, resolver patterns, subscriptions, DataLoader for N+1 prevention, and error handling"
+        },
+        "standard": {
+          "name": "graphql-design",
+          "description": "GraphQL schema design, resolver patterns, subscriptions, DataLoader for N+1 prevention, and error handling",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -313,6 +675,23 @@
         "raw": {
           "name": "kubernetes-operations",
           "description": "Kubernetes operations including manifests, Helm charts, operators, troubleshooting, and resource management"
+        },
+        "standard": {
+          "name": "kubernetes-operations",
+          "description": "Kubernetes operations including manifests, Helm charts, operators, troubleshooting, and resource management",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -327,6 +706,23 @@
         "raw": {
           "name": "llm-integration",
           "description": "LLM integration patterns including API usage, streaming, function calling, RAG pipelines, and cost optimization"
+        },
+        "standard": {
+          "name": "llm-integration",
+          "description": "LLM integration patterns including API usage, streaming, function calling, RAG pipelines, and cost optimization",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -341,6 +737,23 @@
         "raw": {
           "name": "manage-skills",
           "description": "Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)"
+        },
+        "standard": {
+          "name": "manage-skills",
+          "description": "Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -355,6 +768,23 @@
         "raw": {
           "name": "mcp-development",
           "description": "MCP server development including tool design, resource endpoints, prompt templates, and transport configuration"
+        },
+        "standard": {
+          "name": "mcp-development",
+          "description": "MCP server development including tool design, resource endpoints, prompt templates, and transport configuration",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -369,6 +799,23 @@
         "raw": {
           "name": "microservices-design",
           "description": "Microservices design patterns including service mesh, event-driven architecture, saga pattern, and API gateway"
+        },
+        "standard": {
+          "name": "microservices-design",
+          "description": "Microservices design patterns including service mesh, event-driven architecture, saga pattern, and API gateway",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -383,6 +830,23 @@
         "raw": {
           "name": "mobile-development",
           "description": "Mobile development patterns for React Native and Flutter including navigation, state management, and responsive design"
+        },
+        "standard": {
+          "name": "mobile-development",
+          "description": "Mobile development patterns for React Native and Flutter including navigation, state management, and responsive design",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -397,6 +861,23 @@
         "raw": {
           "name": "monitoring-observability",
           "description": "Monitoring and observability with OpenTelemetry, Prometheus, Grafana dashboards, and structured logging"
+        },
+        "standard": {
+          "name": "monitoring-observability",
+          "description": "Monitoring and observability with OpenTelemetry, Prometheus, Grafana dashboards, and structured logging",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -411,6 +892,23 @@
         "raw": {
           "name": "nextjs-mastery",
           "description": "Next.js 14+ App Router patterns including RSC, ISR, middleware, parallel routes, and data fetching"
+        },
+        "standard": {
+          "name": "nextjs-mastery",
+          "description": "Next.js 14+ App Router patterns including RSC, ISR, middleware, parallel routes, and data fetching",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -425,6 +923,23 @@
         "raw": {
           "name": "performance-optimization",
           "description": "Web performance optimization including bundle analysis, lazy loading, caching strategies, and Core Web Vitals"
+        },
+        "standard": {
+          "name": "performance-optimization",
+          "description": "Web performance optimization including bundle analysis, lazy loading, caching strategies, and Core Web Vitals",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -439,6 +954,23 @@
         "raw": {
           "name": "postgres-optimization",
           "description": "PostgreSQL optimization including indexes, query plans, partitioning, JSONB operations, and connection pooling"
+        },
+        "standard": {
+          "name": "postgres-optimization",
+          "description": "PostgreSQL optimization including indexes, query plans, partitioning, JSONB operations, and connection pooling",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -453,6 +985,23 @@
         "raw": {
           "name": "prompt-engineering",
           "description": "Prompt engineering patterns including structured prompts, chain-of-thought, few-shot learning, and system prompt design"
+        },
+        "standard": {
+          "name": "prompt-engineering",
+          "description": "Prompt engineering patterns including structured prompts, chain-of-thought, few-shot learning, and system prompt design",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -467,6 +1016,23 @@
         "raw": {
           "name": "python-best-practices",
           "description": "Pythonic code with modern type hints, dataclasses, async patterns, packaging, and testing"
+        },
+        "standard": {
+          "name": "python-best-practices",
+          "description": "Pythonic code with modern type hints, dataclasses, async patterns, packaging, and testing",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -481,6 +1047,23 @@
         "raw": {
           "name": "react-patterns",
           "description": "React 19 patterns including Server Components, Actions, Suspense, hooks, and component composition"
+        },
+        "standard": {
+          "name": "react-patterns",
+          "description": "React 19 patterns including Server Components, Actions, Suspense, hooks, and component composition",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -495,6 +1078,23 @@
         "raw": {
           "name": "redis-patterns",
           "description": "Redis patterns including caching strategies, pub/sub, streams for event processing, Lua scripts, and data structures"
+        },
+        "standard": {
+          "name": "redis-patterns",
+          "description": "Redis patterns including caching strategies, pub/sub, streams for event processing, Lua scripts, and data structures",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -509,6 +1109,23 @@
         "raw": {
           "name": "rust-systems",
           "description": "Rust systems programming patterns including ownership, traits, async runtime, error handling, and unsafe guidelines"
+        },
+        "standard": {
+          "name": "rust-systems",
+          "description": "Rust systems programming patterns including ownership, traits, async runtime, error handling, and unsafe guidelines",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -523,6 +1140,23 @@
         "raw": {
           "name": "security-hardening",
           "description": "Application security covering input validation, auth, headers, secrets management, and dependency auditing"
+        },
+        "standard": {
+          "name": "security-hardening",
+          "description": "Application security covering input validation, auth, headers, secrets management, and dependency auditing",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -537,6 +1171,23 @@
         "raw": {
           "name": "springboot-patterns",
           "description": "Spring Boot patterns including JPA repositories, REST controllers, layered services, and configuration"
+        },
+        "standard": {
+          "name": "springboot-patterns",
+          "description": "Spring Boot patterns including JPA repositories, REST controllers, layered services, and configuration",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -548,7 +1199,24 @@
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
-        "raw": {}
+        "raw": {},
+        "standard": {
+          "name": "styleseed",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
       }
     },
     {
@@ -562,6 +1230,23 @@
         "raw": {
           "name": "tdd-mastery",
           "description": "Test-driven development workflow with Red-Green-Refactor cycle across languages"
+        },
+        "standard": {
+          "name": "tdd-mastery",
+          "description": "Test-driven development workflow with Red-Green-Refactor cycle across languages",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -576,6 +1261,23 @@
         "raw": {
           "name": "testing-strategies",
           "description": "Testing strategies including contract testing, snapshot testing, mutation testing, property-based testing, and test organization"
+        },
+        "standard": {
+          "name": "testing-strategies",
+          "description": "Testing strategies including contract testing, snapshot testing, mutation testing, property-based testing, and test organization",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -590,6 +1292,23 @@
         "raw": {
           "name": "typescript-advanced",
           "description": "Advanced TypeScript patterns including generics, conditional types, mapped types, template literals, and type guards"
+        },
+        "standard": {
+          "name": "typescript-advanced",
+          "description": "Advanced TypeScript patterns including generics, conditional types, mapped types, template literals, and type guards",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -604,6 +1323,23 @@
         "raw": {
           "name": "websocket-realtime",
           "description": "Real-time communication patterns with WebSocket, Socket.io, Server-Sent Events, and scaling strategies"
+        },
+        "standard": {
+          "name": "websocket-realtime",
+          "description": "Real-time communication patterns with WebSocket, Socket.io, Server-Sent Events, and scaling strategies",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     }

@@ -19,6 +19,23 @@
         "raw": {
           "name": "documentation-build",
           "description": "Validates documentation builds successfully. Use when checking Sphinx/RTD build integrity or diagnosing build failures. Reports errors, warnings, and build configuration issues."
+        },
+        "standard": {
+          "name": "documentation-build",
+          "description": "Validates documentation builds successfully. Use when checking Sphinx/RTD build integrity or diagnosing build failures. Reports errors, warnings, and build configuration issues.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -33,6 +50,23 @@
         "raw": {
           "name": "documentation-diataxis",
           "description": "Analyzes documentation against Diataxis framework (Tutorial, How-to, Reference, Explanation). Use when reviewing documentation structure or classifying content type. Identifies misalignments between declared category and actual content."
+        },
+        "standard": {
+          "name": "documentation-diataxis",
+          "description": "Analyzes documentation against Diataxis framework (Tutorial, How-to, Reference, Explanation). Use when reviewing documentation structure or classifying content type. Identifies misalignments between declared category and actual content.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -47,6 +81,23 @@
         "raw": {
           "name": "documentation-review",
           "description": "Performs comprehensive documentation review including build validation, Diataxis analysis, structure audit, accuracy verification, and style compliance. Use when reviewing documentation changes or auditing documentation quality."
+        },
+        "standard": {
+          "name": "documentation-review",
+          "description": "Performs comprehensive documentation review including build validation, Diataxis analysis, structure audit, accuracy verification, and style compliance. Use when reviewing documentation changes or auditing documentation quality.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -61,6 +112,23 @@
         "raw": {
           "name": "documentation-structure",
           "description": "Validates documentation structural integrity including heading hierarchy, metadata, file naming, navigation, and cross-references. Use when checking documentation organization or validating toctree structure."
+        },
+        "standard": {
+          "name": "documentation-structure",
+          "description": "Validates documentation structural integrity including heading hierarchy, metadata, file naming, navigation, and cross-references. Use when checking documentation organization or validating toctree structure.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -75,6 +143,23 @@
         "raw": {
           "name": "documentation-style",
           "description": "Enforces project documentation style guide compliance for tone, voice, terminology, punctuation, and formatting. Use when checking documentation style or validating MyST/reST syntax. Cites specific style guide violations."
+        },
+        "standard": {
+          "name": "documentation-style",
+          "description": "Enforces project documentation style guide compliance for tone, voice, terminology, punctuation, and formatting. Use when checking documentation style or validating MyST/reST syntax. Cites specific style guide violations.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -89,6 +174,23 @@
         "raw": {
           "name": "documentation-verify",
           "description": "Verifies documentation accuracy by cross-referencing claims, CLI commands, API signatures, and configuration against source code. Use when validating documentation correctness or checking code-docs consistency. Flags unsupported or outdated claims."
+        },
+        "standard": {
+          "name": "documentation-verify",
+          "description": "Verifies documentation accuracy by cross-referencing claims, CLI commands, API signatures, and configuration against source code. Use when validating documentation correctness or checking code-docs consistency. Flags unsupported or outdated claims.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -103,6 +205,23 @@
         "raw": {
           "name": "generate-agent",
           "description": "Generates Custom Agent files (.github/agents/*.agent.md) with persona-based configurations, specialized tool sets, and role-specific cognitive architectures. Use when the user requests a specialized role or perspective (Security Auditor, Documentation Writer, Release Engineer, etc.). Creates agents with defined identity, constrained tools, and thinking processes aligned to their role. Not for general capabilities—use generate-agent-skills for those."
+        },
+        "standard": {
+          "name": "generate-agent",
+          "description": "Generates Custom Agent files (.github/agents/*.agent.md) with persona-based configurations, specialized tool sets, and role-specific cognitive architectures. Use when the user requests a specialized role or perspective (Security Auditor, Documentation Writer, Release Engineer, etc.). Creates agents with defined identity, constrained tools, and thinking processes aligned to their role. Not for general capabilities—use generate-agent-skills for those.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -120,6 +239,25 @@
           "compatibility": "python3",
           "allowed-tools": "python3 ls grep cat mkdir",
           "metadata": ""
+        },
+        "standard": {
+          "name": "generate-agent-skills",
+          "description": "Architects, generates, and validates Agent Skills. Enforces specification and best practices. Used any time an agent skill must be created or updated.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": [
+            "python3 ls grep cat mkdir"
+          ],
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -134,6 +272,23 @@
         "raw": {
           "name": "generate-path-instructions",
           "description": "Generates path-specific instruction files (.github/instructions/*.md) with JIT loading via applyTo glob patterns. Performs LLM-driven repository analysis to discover file patterns and extract scope-specific rules. Use when the user requests scoped, framework-specific, or directory-specific rules for testing, components, docs, config files, or language-specific files to prevent context pollution. Works for code, documentation, configuration, and data files."
+        },
+        "standard": {
+          "name": "generate-path-instructions",
+          "description": "Generates path-specific instruction files (.github/instructions/*.md) with JIT loading via applyTo glob patterns. Performs LLM-driven repository analysis to discover file patterns and extract scope-specific rules. Use when the user requests scoped, framework-specific, or directory-specific rules for testing, components, docs, config files, or language-specific files to prevent context pollution. Works for code, documentation, configuration, and data files.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -148,6 +303,23 @@
         "raw": {
           "name": "generate-prompt",
           "description": "Generates reusable Prompt Template files (.github/prompts/*.prompt.md) with variable substitution for ad-hoc, high-frequency tasks. Use when the user needs quick, repeatable prompts for common operations (explain code, fix bug, add tests, refactor, document). Creates templates with handlebars variables, optimized context structure, and strict output constraints. Not for complex workflows (use skills) or persistent roles (use agents)."
+        },
+        "standard": {
+          "name": "generate-prompt",
+          "description": "Generates reusable Prompt Template files (.github/prompts/*.prompt.md) with variable substitution for ad-hoc, high-frequency tasks. Use when the user needs quick, repeatable prompts for common operations (explain code, fix bug, add tests, refactor, document). Creates templates with handlebars variables, optimized context structure, and strict output constraints. Not for complex workflows (use skills) or persistent roles (use agents).",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -162,6 +334,23 @@
         "raw": {
           "name": "generate-repo-instructions",
           "description": "Generates the global repository constitution file (.github/copilot-instructions.md). Works for code repositories, documentation repositories, data repositories, and mixed repos. Performs LLM-driven deep repository analysis including docs, code patterns, build systems, documentation generators, and data schemas. Generates constitutional rules following context economics (under 1000 lines). Enforces positive constraints and no hardcoded secrets."
+        },
+        "standard": {
+          "name": "generate-repo-instructions",
+          "description": "Generates the global repository constitution file (.github/copilot-instructions.md). Works for code repositories, documentation repositories, data repositories, and mixed repos. Performs LLM-driven deep repository analysis including docs, code patterns, build systems, documentation generators, and data schemas. Generates constitutional rules following context economics (under 1000 lines). Enforces positive constraints and no hardcoded secrets.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -176,6 +365,23 @@
         "raw": {
           "name": "migrate-harness-tests-to-state-transition-test",
           "description": "Migrates legacy ops.testing Harness suites to state-transition tests by enumerating Harness usages, defining explicit State objects, and recreating assertions per Juju event so charms stay compatible with modern ops releases."
+        },
+        "standard": {
+          "name": "migrate-harness-tests-to-state-transition-test",
+          "description": "Migrates legacy ops.testing Harness suites to state-transition tests by enumerating Harness usages, defining explicit State objects, and recreating assertions per Juju event so charms stay compatible with modern ops releases.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     },
@@ -190,6 +396,23 @@
         "raw": {
           "name": "retrospective-artifacts",
           "description": "Builds and parses structured retrospective artifact folders for troubleshooting, incident review, and delivery retros. Use this skill when capturing session context, synthesizing external context (GitHub, Jira, Mattermost, logs), querying prior retrospectives, or preparing downstream inputs for OKB entries, postmortems, and agent/skills/instruction improvements."
+        },
+        "standard": {
+          "name": "retrospective-artifacts",
+          "description": "Builds and parses structured retrospective artifact folders for troubleshooting, incident review, and delivery retros. Use this skill when capturing session context, synthesizing external context (GitHub, Jira, Mattermost, logs), querying prior retrospectives, or preparing downstream inputs for OKB entries, postmortems, and agent/skills/instruction improvements.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
         }
       }
     }
