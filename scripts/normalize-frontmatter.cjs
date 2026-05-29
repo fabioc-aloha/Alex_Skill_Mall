@@ -2,8 +2,6 @@
 /**
  * normalize-frontmatter.cjs
  *
- * Phase 3b of PLAN-mall-automation v3 / ADR-008.
- *
  * Reads catalog/stores/<store>.json (produced by scan-sources.cjs) and adds
  * a three-layer normalized view of each plugin's frontmatter:
  *

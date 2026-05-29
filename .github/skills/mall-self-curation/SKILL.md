@@ -6,9 +6,7 @@ lastReviewed: 2026-05-29
 
 # Mall Self-Curation
 
-The Plugin Mall is self-curating since 2026-05-29 (ADR-008 / PLAN-mall-automation v3). Day-to-day operations (inventory, scoring, catalog publishing, staleness pruning) run inside this repo's `.github/workflows/scan-sources.yml`. Supervisor retains editorial oversight (Edition-promotion decisions, Edition ↔ Mall coherence) but does not run the mechanical pipeline.
-
-This skill is the operational playbook for that pipeline.
+The Plugin Mall is self-curating. Day-to-day operations (inventory, scoring, catalog publishing, staleness pruning) run inside this repo's `.github/workflows/scan-sources.yml`. This skill is the operational playbook for that pipeline.
 
 ## When to Use
 
@@ -50,11 +48,11 @@ Two rules govern it:
 1. **Bootstrap MUST skip `plugin-mall`.** This repo is already checked out; cloning it from itself is wasteful and could cause race conditions during the workflow. `bootstrap-sources.cjs` filters by `name !== "plugin-mall"`.
 2. **Scan MUST include `plugin-mall`.** The scan walks `$REPO_ROOT/plugins/` (not `$SOURCES_DIR/plugin-mall/`) and produces `catalog/stores/plugin-mall.json` like any other store. `scan-sources.cjs` resolves the path conditionally: third-party stores use `$SOURCES_DIR/<name || local_dir_name>/<pluginDir>`; `plugin-mall` uses `$REPO_ROOT/<pluginDir>`.
 
-The Supervisor-side scripts (`store-sync.cjs` etc.) filter `plugin-mall` out everywhere because they scan third-party only. The Mall-side scripts (`scan-sources.cjs` etc.) include it in scan, exclude it in bootstrap. Crossing the boundary is the most common source of bugs in this pipeline.
+Crossing this boundary (cloning self in bootstrap, or skipping self in scan) is the most common source of bugs in this pipeline.
 
 ## Trust scoring formula
 
-Per ADR-008. Computed by `compute-trust.cjs`; signals published alongside score so heirs can audit *why* a score is what it is.
+Computed by `compute-trust.cjs`; signals published alongside score so readers can audit *why* a score is what it is.
 
 | Signal | Range | Source | Mall-as-store | Third-party typical |
 |---|---|---|---|---|
@@ -67,7 +65,7 @@ Per ADR-008. Computed by `compute-trust.cjs`; signals published alongside score 
 
 **Mall-as-store ceiling: 97/100.** Third-party stores cap at 50 by construction (no provenance). Per-plugin score adds up to +20 from plugin-specific signals on top of store score.
 
-If the formula drifts from this table, update both this skill and ADR-008. Changes to the weights or signals are `[behaviour]`-class commits.
+If the formula drifts from this table, update this skill in the same commit. Changes to the weights or signals are `[behaviour]`-class commits; changes that alter what the published-signal contract guarantees are `[constitutional]`.
 
 ## Workflow + cadence
 
@@ -76,28 +74,29 @@ If the formula drifts from this table, update both this skill and ADR-008. Chang
 - **Manual dispatch**: `workflow_dispatch` available for ad-hoc re-scans (e.g., after adding a store to `supported-stores.json`)
 - **Editorial review on PR**: each catalog-refresh PR is the human surface for any deltas — score changes, new plugins, staleness flags
 
-## Boundaries — Mall self-curation vs Supervisor oversight
+## What the Mall does vs out-of-scope
 
 | Concern | Owner |
 |---|---|
-| Add / remove a source store from `supported-stores.json` | Mall (this skill + source-inventory) |
-| Tune trust score weights | Mall (this skill + compute-trust.cjs); ADR amendment if structural |
-| Decide a plugin earns a slot in Edition baseline brain | **Supervisor** (`promotion-criterion` skill) |
-| Edition ↔ Mall coherence (does Edition reference a plugin that exists in Mall?) | **Supervisor** (`coherence-audit` skill) |
-| Reframe what counts as "curated" | **Supervisor** ADR (constitutional) |
-| Quarterly Mall-vs-Edition review | **Supervisor** (`quarterly-retraining-ADR` template) |
+| Add / remove a source store from `supported-stores.json` | **Mall** (this skill + source-inventory) |
+| Tune trust score weights | **Mall** (this skill + compute-trust.cjs) |
+| Scan / score / render / publish pipeline | **Mall** |
+| Decide a plugin earns a slot in any consumer project's baseline | **Out of scope** (consumer-owned decision) |
+| Coherence with a specific consumer project | **Out of scope** (consumer-owned audit) |
+| Reframe what counts as "curated" | **Out of scope** (editorial decision, not pipeline) |
+| Periodic review of how the catalog is consumed downstream | **Out of scope** (consumer-owned)  |
 
-If a question crosses the line, route to Supervisor. Don't self-modify cross-repo policy from inside Mall.
+If a question crosses the line into editorial or downstream policy, route it out of the workflow. Don't self-modify cross-repo policy from inside the Mall.
 
 ## Curation log
 
-Every editorial Mall decision lands in `docs/curation-log.md` in this repo (Mall's own append-only log). Supervisor mirrors cross-repo decisions in its own `docs/ledgers/curation-log.md`. Decisions ship with re-eval dates; routine refreshes do not need log entries unless they triggered a curation action.
+Every editorial Mall decision lands in `docs/curation-log.md` in this repo (Mall's own append-only log). Decisions ship with re-eval dates; routine refreshes do not need log entries unless they triggered a curation action.
 
 ## Anti-Patterns
 
 | Anti-pattern | Correction |
 |---|---|
-| Editing brain files (skills/instructions/prompts/agents) under `plugins/` during the workflow | The workflow MUST NOT modify `plugins/` — that's editorial Supervisor territory. The workflow only writes to `catalog/`, `scoring/`, `README.md`, `sources/SOURCES.md`. |
+| Editing brain files (skills/instructions/prompts/agents) under `plugins/` during the workflow | The workflow MUST NOT modify `plugins/` — editorial changes ship via PR review only. The workflow only writes to `catalog/`, `scoring/`, `README.md`, `sources/SOURCES.md`. |
 | Bootstrap re-cloning `plugin-mall` from itself | `bootstrap-sources.cjs` MUST filter `name !== "plugin-mall"`. |
 | Scan skipping `plugin-mall` | `scan-sources.cjs` MUST include `plugin-mall` (walks `$REPO_ROOT/plugins/`, not bootstrapped sources). |
 | Trust score without published signals | Every score MUST come with its signal breakdown in `catalog/stores/<store>.json` `trust_signals` field. |
@@ -112,7 +111,7 @@ This skill needs revision if any of the following occur by **2026-08-29** (90 da
 - Trust scores cluster oddly (e.g., third-party score consistently > 60 — provenance bonus undercalibrated)
 - Mall-curated plugins fail to rank #1 in `/mall-search` for the same name as a third-party entry (provenance signal not flowing)
 - A new source-shape (frontmatter convention) breaks `normalize-frontmatter.cjs` ≥2 times without surfacing in `scoring/trust-audit.md`
-- The boundary table (Mall vs Supervisor ownership) produces wrong-routing decisions ≥2 times in a quarter
+- The boundary table (what the Mall does vs out-of-scope) produces wrong-routing decisions ≥2 times in a quarter
 
 Track in `docs/curation-log.md` tagged `[MALL-SELF-CURATION]`.
 
@@ -122,5 +121,3 @@ Track in `docs/curation-log.md` tagged `[MALL-SELF-CURATION]`.
 - [store-evaluation/SKILL.md](../store-evaluation/SKILL.md) — scoring a candidate store before adding it
 - [staleness-discipline/SKILL.md](../staleness-discipline/SKILL.md) — pruning stale entries
 - [mall-maintenance-rules.instructions.md](../../instructions/mall-maintenance-rules.instructions.md) — always-on routing for this skill
-- `PLAN-mall-automation.md` v3 (in Supervisor `docs/plans/`) — full architecture
-- `ADR-008` (in Supervisor `docs/adrs/`) — constitutional source for this skill

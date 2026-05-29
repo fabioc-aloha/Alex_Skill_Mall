@@ -75,16 +75,16 @@ If you fail to catch yourself but the user does, that's not a graceful recovery 
 - **Repeated trivial requests in flow state** — the user is iterating fast on a known-good path; pass would create friction
 - **The pass would re-derive existing brain policy** — don't relitigate "should I sanitize input" every time; the answer is already encoded
 
-## Brain-edit scope (Supervisor curation work)
+## Brain-edit scope (Mall curation work)
 
-Brain editing has different materiality than user-request work because consequences propagate to heirs.
+Brain editing has different materiality than user-request work because consequences propagate downstream (the catalog, the trust formula, the scoring contract).
 
 | Brain-edit kind | Pass type | Rationale |
 |---|---|---|
 | `[typo]` — spelling, punctuation, broken link | **Skip** | Mechanical; no policy change |
 | `[clarification]` — rewording, prose tightening, falsifier addition without rule change | **Trimmed** | Low-stakes but visible; markers in the commit message suffice |
-| `[behaviour]` — new rule, modified rule, new artefact, content removal | **Full** | Propagates to heirs; required by `severity-tagged-commits.instructions.md` |
-| `[constitutional]` — ACT tenet / manifesto / claims registry / contract change | **Full + ADR** | Framework-level; precedent setting; needs ADR in `docs/adrs/` |
+| `[behaviour]` — new rule, modified rule, new artefact, content removal | **Full** | Propagates to consumers; required by `severity-tagged-commits.instructions.md` |
+| `[constitutional]` — change to the published-signal contract, the boundary between Mall and downstream, or the pipeline shape | **Full + log entry** | Framework-level; precedent setting; needs an entry in `docs/curation-log.md` |
 
 The routing applies before file content matters — a one-line edit to a `[behaviour]`-class file (like adding a load-bearing rule to an always-on instruction) earns the full pass even though the diff is small. The severity is in the *kind* of change, not the size.
 

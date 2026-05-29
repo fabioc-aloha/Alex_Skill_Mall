@@ -2,8 +2,6 @@
 /**
  * fetch-github-stats.cjs
  *
- * Phase 3d (prerequisite) of PLAN-mall-automation v3 / ADR-008.
- *
  * Fetches per-store GitHub metadata (stars, contributors, last_commit, license)
  * via `gh api` and writes scoring/github-stats.json. The trust scorer
  * (compute-trust.cjs) reads this file to drive the maintenance + adoption +

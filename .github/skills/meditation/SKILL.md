@@ -107,31 +107,18 @@ A meditation is complete when:
 
 ## Brain Retraining (longer cycles)
 
-The five-step protocol above is per-session. The Supervisor brain also retrains on a longer cadence against two evidence streams:
+The five-step protocol above is per-session. The Mall brain also retrains on a longer cadence against two evidence streams:
 
-1. **Mall reality.** New skills, retired stores, and updated patterns in `Alex_ACT_Plugin_Mall` mean Edition's references and bundled trifectas drift. Run `/audit-coherence` and review the Mall catalog for promotion candidates.
-2. **Supervisor self-audit.** The `brain-qa` semantic-review queue, ACT-pass markers that came out wrong, and dogfooding friction observed during curation are Supervisor's primary signal on baseline-brain quality. Heirs own their local and Mall-installed skills; baseline-brain bugs surface through Supervisor's own loops, not through an inbound feedback channel.
+1. **Catalog reality.** New sources added or retired, new plugin shapes encountered, and trust-score distribution shifts can render parts of the brain stale. Run [currency-audit](../currency-audit/SKILL.md) against `lastReviewed` dates and the weekly catalog-refresh PR signals.
+2. **Self-audit during PR review.** The catalog-refresh PR is the human surface; any friction observed there (wrong-routing, undocumented edge case, missing skill) is signal that a brain artifact needs evolution.
 
 | Cadence | Action |
 | --- | --- |
-| Weekly | Walk the `brain-qa` semantic-review queue. Hotfix any `critical` findings same-day. |
-| Monthly | `/audit-mall` for staleness, link rot, and new store proposals. `/audit-coherence` for cross-repo drift. |
-| Quarterly | Full retraining pass: walk the `brain-qa` semantic-review queue, review every Edition skill against its Mall counterpart, evolve the CT trifecta against accumulated audit signals, retire bundled trifectas that aren't earning their tokens. Lands as an ADR per [docs/templates/quarterly-retraining-ADR.md](../../../docs/templates/quarterly-retraining-ADR.md). |
-| Per release | `brain-qa` muscle pass clean (deterministic exit 0), CT instructions intact, changelog reflects retraining outcomes, announcement written to shared memory. |
+| Weekly | Review the catalog-refresh PR. Note any friction; if a brain artifact mis-routed or under-described, hotfix in the same PR. |
+| Monthly | Run currency-audit against any artifact with `lastReviewed` older than 90 days. Refresh or sunset. |
+| Quarterly | Walk every brain artifact. Confirm `falsifiability-deadlines` haven't fired without action. Sunset what no longer earns its tokens. |
 
-The `brain-qa` workflow itself is documented in [brain-curation-rules.instructions.md § brain-qa Workflow](../../instructions/brain-curation-rules.instructions.md). Edits to Edition (heir-operational artifacts) originate in Edition; edits to framework / always-on disciplines originate in Supervisor and mirror to Edition. Supervisor self-modification always waits on explicit approval.
-
-Retraining is critical thinking applied to the brain itself. Each cycle treats the current brain as a hypothesis and tests it against evidence from Supervisor's own audit loops and the Mall. Skipping a cycle is the same Cardinal Rule 3 violation as skipping `act-pass`.
-
-### Cardinal Rule 3 audit criteria
-
-When the quarterly pass runs, Cardinal Rule 3 ("apply critical thinking, and evolve it") is being honored if:
-
-- Every Edition release ships with the four CT instructions (`critical-thinking`, `act-pass`, `system-prompt-skepticism`, `problem-framing-audit`) intact and unweakened
-- The curation log records at least one CT-trifecta refinement per quarter driven by real evidence
-- `brain-qa` passes on the CT files before any release
-
-If a quarter passes with no CT evolution and no evidence that none was needed, that is a flag, not a feature.
+Retraining is critical thinking applied to the brain itself. Each cycle treats the current brain as a hypothesis and tests it against accumulated evidence. Skipping a cycle is the same discipline violation as skipping `act-pass` on a behaviour-class commit.
 
 ## Anti-Patterns
 

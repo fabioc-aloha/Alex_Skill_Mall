@@ -1,16 +1,12 @@
 ---
 description: "Every commit touching brain artefacts (instructions / skills / prompts / agents / config / docs/ledgers / HANDOFF) must carry a severity tag in the commit subject: [typo | clarification | behaviour | constitutional]. [behaviour] and [constitutional] require an ACT pass before commit."
-applyTo: "**/.github/**,**/ACT/**,**/docs/**,**/HANDOFF.md,**/CHANGELOG.md,**/VERSION,**/README.md"
+applyTo: "**/.github/**,**/docs/**,**/HANDOFF.md,**/CHANGELOG.md,**/VERSION,**/README.md"
 lastReviewed: 2026-05-27
 ---
-
-<!-- intentional divergence from Edition: Supervisor `applyTo` includes `ACT/**` (framework authorship territory only Supervisor owns); Supervisor's Brain-qa-changelog integration cross-refs `brain-curation-rules.instructions.md` (Supervisor-only artefact). Audited 2026-05-26, retained 2026-05-27. -->
 
 # Severity-tagged brain edits
 
 Every commit that touches a brain artefact must carry a severity tag. The tag determines the level of pre-commit scrutiny required and restores credit-assignment fidelity that flat commit lists destroy — without tags, a typo fix and a constitutional rule change have identical weight in `git log`.
-
-Lifted from Karpathy_Loop's heir-side discipline (Phase 3 deliverable, 2026-05-23) and adopted as Supervisor always-on per the brain-qa-2026-05-24-02 proposal (Supervisor-only artefact).
 
 ## The four tiers
 
@@ -62,7 +58,6 @@ Files that trigger this rule when touched:
 - `.github/agents/**`
 - `.github/config/**`
 - `.github/copilot-instructions.md`
-- `ACT/**` (Supervisor only — framework authorship territory)
 - `docs/adrs/**`, `docs/ledgers/**`, `docs/proposals/**`, `docs/plans/**`, `docs/templates/**`
 - `HANDOFF.md`, `CHANGELOG.md`, `VERSION`, `README.md`
 - Root-level identity / governance docs
@@ -85,13 +80,13 @@ Files exempt:
 | Hiding the tag in commit body instead of subject line | Subject line is what `git log --oneline` shows. Tags must be visible at log-scan speed. |
 | Skipping the tag on a `gh release create` body or `git tag -a` annotation | Release tags carry the highest-tier severity of any commit they collect. |
 
-## Brain-qa-changelog integration
+## Curation-log integration
 
-Where the repo maintains a brain-qa-changelog (Supervisor ships one at `docs/ledgers/brain-qa-changelog.md`), every row must include the severity tag of the shipping commit (in the Notes column or as a dedicated column). Enforced by [brain-curation-rules.instructions.md](brain-curation-rules.instructions.md) § Severity + Falsifiability Gate.
+Where the repo maintains a curation log (this Mall ships one at `docs/curation-log.md`), every row must include the severity tag of the shipping commit (in the Notes column or as a dedicated column).
 
 ## Falsification
 
-- **Event-based**: at 30 brain-touching Supervisor commits since adoption (2026-05-24), audit the tag distribution and consistency with an independent reader's classification. If correctness < 80% OR the `[typo]` tier still has 0 uses, downgrade `lifecycle: provisional → sinking`.
+- **Event-based**: at 30 brain-touching commits since adoption, audit the tag distribution and consistency with an independent reader's classification. If correctness < 80% OR the `[typo]` tier still has 0 uses, downgrade `lifecycle: provisional → sinking`.
 - **Date-based**: 2026-08-23 (90 days from adoption). If by then fewer than 30 tagged commits exist OR routine drift to untagged commits is observed, downgrade `lifecycle: provisional → sinking`.
 - **Sink to archived**: at next deadline check (2026-09-22), if still failing, transition `lifecycle: sinking → archived`. The convention sunsets unless the discipline holds.
 

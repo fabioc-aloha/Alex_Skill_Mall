@@ -2,12 +2,10 @@
 /**
  * compute-trust.cjs
  *
- * Phase 3d of PLAN-mall-automation v3 / ADR-008.
- *
  * Reads catalog/stores/<store>.json + scoring/github-stats.json and computes
  * a 0-100 trust score per plugin, with the signal breakdown ALWAYS published
- * alongside (per ADR-008 § Trust scoring formula — published signals are
- * load-bearing; trust without provenance is worse than no trust).
+ * alongside (published signals are load-bearing; trust without provenance is
+ * worse than no trust).
  *
  * Six-signal formula:
  *
@@ -64,7 +62,7 @@ const OSI_APPROVED = new Set([
   'AGPL-3.0', 'MPL-2.0', 'CDDL-1.0', 'EPL-2.0', 'Zlib', 'Unlicense', '0BSD',
 ]);
 
-// Clear but non-permissive licenses. Score 7. (Mall ships PolyForm-NC here per ADR-008.)
+// Clear but non-permissive licenses. Score 7. (Mall ships PolyForm-NC here.)
 const CLEAR_NON_PERMISSIVE = new Set([
   'PolyForm-Noncommercial-1.0.0',
   'PolyForm-Small-Business-1.0.0',
@@ -144,7 +142,7 @@ function computeStoreSignals(registryEntry, githubStats) {
     //   - provenance: +50 (the load-bearing first-party signal)
     //   - maintenance: 15 (curation flow updates continuously)
     //   - adoption: 10 (fleet's primary marketplace)
-    //   - license: scoreLicense(registry.license) — 7 for PolyForm-NC per ADR-008
+    //   - license: scoreLicense(registry.license) — 7 for PolyForm-NC
     return {
       provenance: 50,
       maintenance: 15,
@@ -155,7 +153,7 @@ function computeStoreSignals(registryEntry, githubStats) {
       contributors: null,
       last_commit: null,
       archived: false,
-      note: 'first-party (Mall self-entry); maintenance + adoption pinned per ADR-008 § Trust scoring formula',
+      note: 'first-party (Mall self-entry); maintenance + adoption pinned per published trust formula',
     };
   }
 

@@ -8,8 +8,6 @@ lastReviewed: 2026-05-26
 
 Every brain artefact must commit to a **specific falsification deadline** at creation time, not "after N passes" or "when conditions warrant." Vague kill-criteria let an artefact's falsification be indefinitely deferred while the artefact accumulates token cost and authority in the brain.
 
-Lifted from Karpathy_Loop's Phase 2b meditation diagnosis (2026-05-23) and adopted as Supervisor always-on per the brain-qa-2026-05-24-02 proposal (Supervisor-only artefact).
-
 ## The rule
 
 Every artefact's `## Falsifiability` or `## Would Revise If` section must include at least one of:
@@ -50,7 +48,7 @@ Long-lived artefacts that have already survived one full quarterly retraining pa
 
 ## Diversity audit (gate)
 
-Per Supervisor's four-repos comparison tracker (§0.1 row 2), after this instruction is active the first 5 new-or-edited artefacts that adopt a deadline are audited for diversity. If all 5 pick the same boilerplate date or all 5 use the same event template, the rule has degraded to ritual and we sharpen the requirement.
+After this instruction is active, the first 5 new-or-edited artefacts that adopt a deadline are audited for diversity. If all 5 pick the same boilerplate date or all 5 use the same event template, the rule has degraded to ritual and we sharpen the requirement.
 
 ## Anti-patterns
 

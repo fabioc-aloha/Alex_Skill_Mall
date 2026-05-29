@@ -2,8 +2,6 @@
 /**
  * list-refs.cjs
  *
- * Phase 3c of PLAN-mall-automation v3 / ADR-008.
- *
  * Reads catalog/stores/<store>.json (skeleton + normalized frontmatter produced
  * by scan-sources.cjs + normalize-frontmatter.cjs) and adds:
  *

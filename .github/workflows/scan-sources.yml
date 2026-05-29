@@ -102,8 +102,9 @@ jobs:
 
           git checkout -b "$BRANCH"
           # Stage ONLY the workflow-owned paths. Anything else (e.g. plugins/)
-          # must never be modified by this workflow — that's editorial Supervisor
-          # territory per mall-self-curation/SKILL.md Hard Rule 1.
+          # must never be modified by this workflow — editorial changes to curated
+          # plugins go through PR review, not the automated catalog refresh.
+          # See mall-self-curation/SKILL.md Hard Rule 1.
           git add catalog/ scoring/ README.md sources/SOURCES.md
           git commit -m "[behaviour] catalog refresh $(date -u +%Y-%m-%d)" \
                      -m "Automated weekly Mall scan + trust refresh." \

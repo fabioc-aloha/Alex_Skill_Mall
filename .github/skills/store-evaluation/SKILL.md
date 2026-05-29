@@ -6,11 +6,11 @@ lastReviewed: 2026-05-05
 
 # Store Evaluation
 
-Score a proposed store against five dimensions. Stores below the threshold are rejected. Stores above are added by [mall-curation](../mall-curation/SKILL.md).
+Score a proposed source store against five dimensions. Stores below the threshold are rejected. Stores above are added to `sources/supported-stores.json` via [source-inventory](../source-inventory/SKILL.md).
 
 ## When to Use
 
-- A user invokes `/add-store` with a candidate store
+- A user invokes `/add-source` with a candidate store
 - Periodic re-evaluation of borderline entries (every 6 months)
 
 ## The Five Dimensions
@@ -43,13 +43,13 @@ Score 0–2 per dimension. Maximum score is 10. **Threshold for inclusion: ≥ 7
 | 1 | Permissive license but with vendor-specific restrictions |
 | 2 | Clean OSI-approved license (MIT, Apache 2.0, BSD, ISC, etc.) |
 
-### 4. ACT-Edition Fit (0–2)
+### 4. Catalog Fit (0–2)
 
 | Score | Criterion |
 |---|---|
-| 0 | Off-topic — no clear use case for an ACT heir |
+| 0 | Off-topic — no clear use case for an AI agent that consumes plugins from this Mall |
 | 1 | Tangential — useful in narrow scenarios |
-| 2 | Direct fit — ACT heirs would use this in normal workflows |
+| 2 | Direct fit — agents that use this Mall would install plugins from this source in normal workflows |
 
 ### 5. Documentation Quality (0–2)
 
@@ -63,21 +63,12 @@ Score 0–2 per dimension. Maximum score is 10. **Threshold for inclusion: ≥ 7
 
 | Total score | Verdict |
 |---|---|
-| 9–10 | **Strong accept** -- adapt and add immediately |
-| 7–8 | **Accept** -- adapt and add with a note of any caveats |
-| 5–6 | **Defer** -- request more signal (stars, contributors, time) and re-evaluate in 90 days |
-| 0–4 | **Reject** -- document the rationale in `docs/` |
+| 9–10 | **Strong accept** — add to the registry |
+| 7–8 | **Accept** — add with a note of any caveats |
+| 5–6 | **Defer** — request more signal (stars, contributors, time) and re-evaluate in 90 days |
+| 0–4 | **Reject** — document the rationale in `docs/curation-log.md` |
 
-**On accept**: run the adaptation checklist before creating the Mall entry. Never copy upstream artifacts verbatim.
-
-### Adaptation Checklist (mandatory for every promotion)
-
-- [ ] Rewrite SKILL.md to Mall frontmatter conventions (name, version, description with triggers)
-- [ ] Generate fresh `plugin.json` with correct category, shape, token_cost, source_store
-- [ ] Generate `README.md` with description, source attribution, skill list, install command
-- [ ] Strip source-specific paths, references, and internal tooling assumptions
-- [ ] Verify token cost is reasonable for the value delivered
-- [ ] Confirm the skill reads as Mall-native (a heir installing it shouldn't see upstream repo artifacts)
+**On accept**: add the entry to `sources/supported-stores.json` per [source-inventory](../source-inventory/SKILL.md). The Mall does NOT clone or modify the upstream repo — it scores it and surfaces it in the catalog; agents install directly from upstream at a pinned ref.
 
 ## Output Template
 
@@ -86,7 +77,7 @@ Score 0–2 per dimension. Maximum score is 10. **Threshold for inclusion: ≥ 7
 
 **URL**: <repo URL>
 **Date**: YYYY-MM-DD
-**Evaluator**: Supervisor
+**Evaluator**: <name>
 
 ## Scores
 
@@ -95,7 +86,7 @@ Score 0–2 per dimension. Maximum score is 10. **Threshold for inclusion: ≥ 7
 | Maintenance Health | x/2 | ... |
 | Adoption Signal | x/2 | ... |
 | License Clarity | x/2 | ... |
-| ACT-Edition Fit | x/2 | ... |
+| Catalog Fit | x/2 | ... |
 | Documentation Quality | x/2 | ... |
 | **Total** | **x/10** | |
 
@@ -107,12 +98,19 @@ Strong accept | Accept | Defer | Reject
 
 <2-3 sentences>
 
-## Proposed Mall entries
+## Proposed registry entry (if accepted)
 
-(if accepted)
-
-- STORES.md: <one-line entry>
-- CATALOG.json: <one-line entry>
+```jsonc
+{
+  "name": "<kebab-name>",
+  "remote": "https://github.com/<org>/<repo>",
+  "pluginDir": "<plugins | skills | . | other>",
+  "quality": "<official | community-curated | community | domain | reference>",
+  "provenance": false,
+  "license": "<SPDX-id or null>",
+  "added_at": "YYYY-MM-DD"
+}
+```
 
 ## ACT Pass Trail
 
@@ -135,10 +133,10 @@ This scorecard needs revision if any of the following occur within 90 days:
 - Deferred stores (score 5-6) consistently pass later without new evidence, indicating scoring too strict
 - Reviewers produce materially different scores for the same store with no documented rationale
 
-Track these in `docs/ledgers/curation-log.md` tagged `[STORE-SCORING]`.
+Track these in `docs/curation-log.md` tagged `[STORE-SCORING]`.
 
 ## Related
 
-- [mall-curation](../mall-curation/SKILL.md)
-- [staleness-discipline](../staleness-discipline/SKILL.md)
-- `/add-store` prompt
+- [source-inventory](../source-inventory/SKILL.md) — adding accepted stores to the registry
+- [staleness-discipline](../staleness-discipline/SKILL.md) — pruning gates
+- `/add-source` prompt
