@@ -130,12 +130,14 @@ jobs:
           )" \
             --base main --head "$BRANCH"
 
-          # Auto-merge: with no required status checks on main, `--auto` resolves
-          # to an immediate squash-merge. The PR-opened email serves as the
-          # notification surface; revert via `git revert -m 1 <sha>` if needed.
-          # If branch protection with required checks is added later, `--auto`
-          # will start waiting for them automatically — no workflow change needed.
-          gh pr merge "$BRANCH" --auto --squash --delete-branch
+          # Immediate squash-merge. GitHub's `--auto` flag requires branch
+          # protection with required status checks to function (it's "wait for
+          # checks, then merge"); with no checks defined the API rejects it.
+          # The PR-opened email + PR-merged email arrive seconds apart and
+          # serve as the notification surface. To re-introduce a review gate,
+          # add branch protection on `main` with a required check, then
+          # restore `--auto` to this command.
+          gh pr merge "$BRANCH" --squash --delete-branch
 
       - name: Summary
         if: always()
