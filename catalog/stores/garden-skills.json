@@ -2,7 +2,7 @@
   "store": "garden-skills",
   "source_repo": "https://github.com/ConardLi/garden-skills.git",
   "generated_at": "2026-05-29T18:48:06.109Z",
-  "scanned_ref": "main",
+  "scanned_ref": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "gpt-image-2",
       "shape": "skill",
       "source_path": "skills/gpt-image-2",
-      "source_url": "https://github.com/ConardLi/garden-skills/tree/main/skills/gpt-image-2",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/e3e9ada877f47d984916d8169b7cf310ea0e2227/skills/gpt-image-2",
       "readme_excerpt": "**A focused image-generation / editing skill for GPT Image 2, with a single SKILL definition that adapts to three runtime modes — local generation, host-native delegation, and pure prompt advisor.**",
       "frontmatter": {
         "kind": "skill-md",
@@ -37,13 +37,18 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+        "tags": []
       }
     },
     {
       "name": "kb-retriever",
       "shape": "skill",
       "source_path": "skills/kb-retriever",
-      "source_url": "https://github.com/ConardLi/garden-skills/tree/main/skills/kb-retriever",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/e3e9ada877f47d984916d8169b7cf310ea0e2227/skills/kb-retriever",
       "readme_excerpt": "> A skill for AI agents to efficiently answer questions over a **local, multi-format knowledge directory** using hierarchical index navigation and progressive retrieval — without ever loading whole fi",
       "frontmatter": {
         "kind": "skill-md",
@@ -68,13 +73,18 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+        "tags": []
       }
     },
     {
       "name": "web-design-engineer",
       "shape": "skill",
       "source_path": "skills/web-design-engineer",
-      "source_url": "https://github.com/ConardLi/garden-skills/tree/main/skills/web-design-engineer",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/e3e9ada877f47d984916d8169b7cf310ea0e2227/skills/web-design-engineer",
       "readme_excerpt": "**An AI agent skill that transforms AI-generated web pages from \"functional\" to \"stunning.\"**",
       "frontmatter": {
         "kind": "skill-md",
@@ -99,13 +109,18 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+        "tags": []
       }
     },
     {
       "name": "web-video-presentation",
       "shape": "skill",
       "source_path": "skills/web-video-presentation",
-      "source_url": "https://github.com/ConardLi/garden-skills/tree/main/skills/web-video-presentation",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/e3e9ada877f47d984916d8169b7cf310ea0e2227/skills/web-video-presentation",
       "readme_excerpt": "**A method-driven agent skill for turning scripts and articles into click-driven 16:9 web presentations that can be screen-recorded as cinematic videos.**",
       "frontmatter": {
         "kind": "skill-md",
@@ -130,6 +145,11 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+        "tags": []
       }
     }
   ]

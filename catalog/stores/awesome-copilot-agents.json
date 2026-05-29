@@ -2,7 +2,7 @@
   "store": "awesome-copilot-agents",
   "source_repo": "https://github.com/Code-and-Sorts/awesome-copilot-agents.git",
   "generated_at": "2026-05-29T18:48:05.037Z",
-  "scanned_ref": "main",
+  "scanned_ref": "a26d912e4a42122e1f99cda61445fe5226aae541",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "calculator",
       "shape": "skill",
       "source_path": "skills/calculator",
-      "source_url": "https://github.com/Code-and-Sorts/awesome-copilot-agents/tree/main/skills/calculator",
+      "source_url": "https://github.com/Code-and-Sorts/awesome-copilot-agents/tree/a26d912e4a42122e1f99cda61445fe5226aae541/skills/calculator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -40,13 +40,18 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a26d912e4a42122e1f99cda61445fe5226aae541",
+        "tags": []
       }
     },
     {
       "name": "jira-cli",
       "shape": "skill",
       "source_path": "skills/jira-cli",
-      "source_url": "https://github.com/Code-and-Sorts/awesome-copilot-agents/tree/main/skills/jira-cli",
+      "source_url": "https://github.com/Code-and-Sorts/awesome-copilot-agents/tree/a26d912e4a42122e1f99cda61445fe5226aae541/skills/jira-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -74,6 +79,11 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a26d912e4a42122e1f99cda61445fe5226aae541",
+        "tags": []
       }
     }
   ]

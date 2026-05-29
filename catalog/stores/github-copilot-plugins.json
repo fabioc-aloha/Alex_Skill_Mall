@@ -2,7 +2,7 @@
   "store": "github-copilot-plugins",
   "source_repo": "https://github.com/github/copilot-plugins.git",
   "generated_at": "2026-05-29T18:48:06.325Z",
-  "scanned_ref": "main",
+  "scanned_ref": "3d8a5bffb4c5850c984388ca5f40e20543c6aad1",
   "provenance": false,
   "tier": "github-official",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "advanced-security",
       "shape": "mcp",
       "source_path": "plugins/advanced-security",
-      "source_url": "https://github.com/github/copilot-plugins/tree/main/plugins/advanced-security",
+      "source_url": "https://github.com/github/copilot-plugins/tree/3d8a5bffb4c5850c984388ca5f40e20543c6aad1/plugins/advanced-security",
       "readme_excerpt": "Security-focused plugin that brings GitHub Advanced Security capabilities into AI coding workflows through skills and MCP integrations.",
       "frontmatter": {
         "kind": "none",
@@ -34,13 +34,18 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "3d8a5bffb4c5850c984388ca5f40e20543c6aad1",
+        "tags": []
       }
     },
     {
       "name": "spark",
       "shape": "skill",
       "source_path": "plugins/spark",
-      "source_url": "https://github.com/github/copilot-plugins/tree/main/plugins/spark",
+      "source_url": "https://github.com/github/copilot-plugins/tree/3d8a5bffb4c5850c984388ca5f40e20543c6aad1/plugins/spark",
       "readme_excerpt": "Comprehensive guidance for building modern web applications with opinionated defaults for tech stack, design system, and code standards.",
       "frontmatter": {
         "kind": "none",
@@ -62,13 +67,18 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "3d8a5bffb4c5850c984388ca5f40e20543c6aad1",
+        "tags": []
       }
     },
     {
       "name": "workiq",
       "shape": "mcp",
       "source_path": "plugins/workiq",
-      "source_url": "https://github.com/github/copilot-plugins/tree/main/plugins/workiq",
+      "source_url": "https://github.com/github/copilot-plugins/tree/3d8a5bffb4c5850c984388ca5f40e20543c6aad1/plugins/workiq",
       "readme_excerpt": "Workplace intelligence plugin that connects AI agents to Microsoft 365 Copilot, providing access to organizational data from Outlook, Teams, SharePoint, OneDrive, and Calendar.",
       "frontmatter": {
         "kind": "none",
@@ -90,6 +100,11 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "3d8a5bffb4c5850c984388ca5f40e20543c6aad1",
+        "tags": []
       }
     }
   ]

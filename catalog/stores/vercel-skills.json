@@ -2,7 +2,7 @@
   "store": "vercel-skills",
   "source_repo": "https://github.com/vercel-labs/skills.git",
   "generated_at": "2026-05-29T18:48:06.323Z",
-  "scanned_ref": "main",
+  "scanned_ref": "b469d6954dd10be20d3e8d9bb59463584d42efbb",
   "provenance": false,
   "tier": "vercel-official",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "find-skills",
       "shape": "skill",
       "source_path": "skills/find-skills",
-      "source_url": "https://github.com/vercel-labs/skills/tree/main/skills/find-skills",
+      "source_url": "https://github.com/vercel-labs/skills/tree/b469d6954dd10be20d3e8d9bb59463584d42efbb/skills/find-skills",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -37,6 +37,14 @@
           "requires": null,
           "author": null
         }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b469d6954dd10be20d3e8d9bb59463584d42efbb",
+        "tags": [
+          "v1.5.9",
+          "v1.5.8"
+        ]
       }
     }
   ]
