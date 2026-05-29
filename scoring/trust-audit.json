@@ -1,0 +1,889 @@
+{
+  "generated_at": "2026-05-29T20:27:52.028Z",
+  "total_stores": 46,
+  "total_plugins": 3219,
+  "score_distribution": {
+    "0-19": 14,
+    "20-39": 470,
+    "40-59": 2371,
+    "60-79": 0,
+    "80-100": 364
+  },
+  "stores_by_score": [
+    {
+      "store": "plugin-mall",
+      "store_score": 82,
+      "plugin_count": 364,
+      "min_plugin_score": 82,
+      "max_plugin_score": 95,
+      "provenance": true,
+      "signals": {
+        "provenance": 50,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 7,
+        "license_name": "PolyForm-Noncommercial-1.0.0",
+        "stars": null,
+        "contributors": null,
+        "last_commit": null,
+        "archived": false,
+        "note": "first-party (Mall self-entry); maintenance + adoption pinned per ADR-008 § Trust scoring formula"
+      }
+    },
+    {
+      "store": "addyosmani-agent-skills",
+      "store_score": 35,
+      "plugin_count": 25,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 46871,
+        "contributors": 29,
+        "last_commit": "2026-05-28T06:47:30Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "agent-skills-context-engineering",
+      "store_score": 35,
+      "plugin_count": 15,
+      "min_plugin_score": 35,
+      "max_plugin_score": 40,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 16136,
+        "contributors": 9,
+        "last_commit": "2026-05-26T05:36:56Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "alirezarezvani-claude-skills",
+      "store_score": 35,
+      "plugin_count": 30,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 16527,
+        "contributors": 30,
+        "last_commit": "2026-05-29T15:33:08Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "antfu-skills",
+      "store_score": 35,
+      "plugin_count": 17,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 5101,
+        "contributors": 8,
+        "last_commit": "2026-05-01T16:46:24Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "antigravity-awesome-skills",
+      "store_score": 35,
+      "plugin_count": 1470,
+      "min_plugin_score": 35,
+      "max_plugin_score": 48,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 39117,
+        "contributors": 218,
+        "last_commit": "2026-05-29T07:22:27Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "awesome-claude-code-toolkit",
+      "store_score": 35,
+      "plugin_count": 43,
+      "min_plugin_score": 35,
+      "max_plugin_score": 43,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "Apache-2.0",
+        "stars": 1873,
+        "contributors": 208,
+        "last_commit": "2026-05-12T07:18:34Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "awesome-copilot",
+      "store_score": 35,
+      "plugin_count": 424,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 34104,
+        "contributors": 383,
+        "last_commit": "2026-05-29T19:23:08Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "awesome-mcp-servers",
+      "store_score": 35,
+      "plugin_count": 0,
+      "min_plugin_score": null,
+      "max_plugin_score": null,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 88155,
+        "contributors": 444,
+        "last_commit": "2026-05-27T05:34:55Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "buildwithclaude",
+      "store_score": 35,
+      "plugin_count": 86,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 2984,
+        "contributors": 63,
+        "last_commit": "2026-05-26T11:47:19Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "claude-code-best-practice",
+      "store_score": 35,
+      "plugin_count": 2,
+      "min_plugin_score": 43,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 55485,
+        "contributors": 5,
+        "last_commit": "2026-05-29T18:03:32Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "claude-code-plugins-plus-skills",
+      "store_score": 35,
+      "plugin_count": 22,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 2260,
+        "contributors": 42,
+        "last_commit": "2026-05-29T05:04:38Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "context-engineering-kit",
+      "store_score": 35,
+      "plugin_count": 13,
+      "min_plugin_score": 45,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "GPL-3.0",
+        "stars": 1054,
+        "contributors": 5,
+        "last_commit": "2026-05-28T19:24:47Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "k-dense-scientific-agent-skills",
+      "store_score": 35,
+      "plugin_count": 143,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 26537,
+        "contributors": 37,
+        "last_commit": "2026-05-28T22:52:15Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "marketingskills",
+      "store_score": 35,
+      "plugin_count": 44,
+      "min_plugin_score": 40,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 31056,
+        "contributors": 23,
+        "last_commit": "2026-05-29T20:24:53Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "obra-superpowers",
+      "store_score": 35,
+      "plugin_count": 14,
+      "min_plugin_score": 40,
+      "max_plugin_score": 40,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 212211,
+        "contributors": 27,
+        "last_commit": "2026-05-29T20:05:25Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "planning-with-files",
+      "store_score": 35,
+      "plugin_count": 6,
+      "min_plugin_score": 40,
+      "max_plugin_score": 40,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 22322,
+        "contributors": 35,
+        "last_commit": "2026-05-26T09:29:04Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "spec-kit",
+      "store_score": 35,
+      "plugin_count": 6,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 107009,
+        "contributors": 202,
+        "last_commit": "2026-05-29T19:37:49Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "wshobson-agents",
+      "store_score": 35,
+      "plugin_count": 81,
+      "min_plugin_score": 35,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 36130,
+        "contributors": 62,
+        "last_commit": "2026-05-29T19:12:02Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "agency-agents",
+      "store_score": 32,
+      "plugin_count": 3,
+      "min_plugin_score": 42,
+      "max_plugin_score": 42,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 105961,
+        "contributors": 66,
+        "last_commit": "2026-04-12T04:25:59Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "ai-research-skills",
+      "store_score": 32,
+      "plugin_count": 100,
+      "min_plugin_score": 40,
+      "max_plugin_score": 45,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 9079,
+        "contributors": 14,
+        "last_commit": "2026-04-28T05:09:27Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "daymade-claude-code-skills",
+      "store_score": 32,
+      "plugin_count": 56,
+      "min_plugin_score": 32,
+      "max_plugin_score": 42,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 7,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 1125,
+        "contributors": 3,
+        "last_commit": "2026-05-24T12:48:46Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "garden-skills",
+      "store_score": 32,
+      "plugin_count": 4,
+      "min_plugin_score": 42,
+      "max_plugin_score": 42,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 7,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 6657,
+        "contributors": 3,
+        "last_commit": "2026-05-27T08:01:37Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "github-copilot-plugins",
+      "store_score": 32,
+      "plugin_count": 3,
+      "min_plugin_score": 42,
+      "max_plugin_score": 42,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 7,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 278,
+        "contributors": 10,
+        "last_commit": "2026-05-27T23:21:33Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "moiz-ai-agent-skills",
+      "store_score": 32,
+      "plugin_count": 17,
+      "min_plugin_score": 35,
+      "max_plugin_score": 40,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 7,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 1063,
+        "contributors": 4,
+        "last_commit": "2026-05-05T09:57:12Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "n-skills",
+      "store_score": 32,
+      "plugin_count": 5,
+      "min_plugin_score": 32,
+      "max_plugin_score": 32,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 7,
+        "license": 10,
+        "license_name": "Apache-2.0",
+        "stars": 992,
+        "contributors": 3,
+        "last_commit": "2026-05-12T00:39:11Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "superclaude-framework",
+      "store_score": 32,
+      "plugin_count": 1,
+      "min_plugin_score": 37,
+      "max_plugin_score": 37,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 23061,
+        "contributors": 41,
+        "last_commit": "2026-04-27T03:08:57Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "awesome-design-skills",
+      "store_score": 28,
+      "plugin_count": 67,
+      "min_plugin_score": 33,
+      "max_plugin_score": 33,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 3,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 1026,
+        "contributors": null,
+        "last_commit": "2026-05-25T18:28:08Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "copilot-agents-dojo",
+      "store_score": 28,
+      "plugin_count": 25,
+      "min_plugin_score": 28,
+      "max_plugin_score": 33,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 3,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 41,
+        "contributors": 2,
+        "last_commit": "2026-05-26T14:34:51Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "copilot-collections",
+      "store_score": 28,
+      "plugin_count": 13,
+      "min_plugin_score": 33,
+      "max_plugin_score": 33,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 3,
+        "license": 10,
+        "license_name": "Apache-2.0",
+        "stars": 25,
+        "contributors": 17,
+        "last_commit": "2026-05-29T12:20:48Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "game-studios",
+      "store_score": 28,
+      "plugin_count": 3,
+      "min_plugin_score": 38,
+      "max_plugin_score": 38,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 3,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 20369,
+        "contributors": null,
+        "last_commit": "2026-05-21T23:33:07Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "healthcare-agents",
+      "store_score": 28,
+      "plugin_count": 0,
+      "min_plugin_score": null,
+      "max_plugin_score": null,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 3,
+        "license": 10,
+        "license_name": "Apache-2.0",
+        "stars": 34,
+        "contributors": null,
+        "last_commit": "2026-05-21T21:39:02Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "claude-skills",
+      "store_score": 25,
+      "plugin_count": 18,
+      "min_plugin_score": 30,
+      "max_plugin_score": 30,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 0,
+        "license_name": null,
+        "stars": 143531,
+        "contributors": 13,
+        "last_commit": "2026-05-29T02:02:28Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "composio-awesome-claude-plugins",
+      "store_score": 25,
+      "plugin_count": 16,
+      "min_plugin_score": 25,
+      "max_plugin_score": 35,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 0,
+        "license_name": null,
+        "stars": 1699,
+        "contributors": 13,
+        "last_commit": "2026-05-01T07:08:01Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "imbad-academic-research-skills",
+      "store_score": 25,
+      "plugin_count": 9,
+      "min_plugin_score": 25,
+      "max_plugin_score": 35,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 0,
+        "license_name": "NOASSERTION",
+        "stars": 23833,
+        "contributors": 9,
+        "last_commit": "2026-05-29T05:46:08Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "mcp-servers",
+      "store_score": 25,
+      "plugin_count": 7,
+      "min_plugin_score": 33,
+      "max_plugin_score": 35,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 0,
+        "license_name": "NOASSERTION",
+        "stars": 86459,
+        "contributors": 430,
+        "last_commit": "2026-05-28T16:05:35Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "rust-skills",
+      "store_score": 25,
+      "plugin_count": 0,
+      "min_plugin_score": null,
+      "max_plugin_score": null,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 3,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 222,
+        "contributors": null,
+        "last_commit": "2026-04-26T09:40:14Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "vercel-agent-skills",
+      "store_score": 25,
+      "plugin_count": 8,
+      "min_plugin_score": 30,
+      "max_plugin_score": 35,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 0,
+        "license_name": null,
+        "stars": 27300,
+        "contributors": 22,
+        "last_commit": "2026-05-29T13:20:55Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "vercel-skills",
+      "store_score": 25,
+      "plugin_count": 1,
+      "min_plugin_score": 30,
+      "max_plugin_score": 30,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 0,
+        "license_name": null,
+        "stars": 20610,
+        "contributors": 98,
+        "last_commit": "2026-05-28T22:26:14Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "awesome-copilot-agents",
+      "store_score": 24,
+      "plugin_count": 2,
+      "min_plugin_score": 29,
+      "max_plugin_score": 29,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 7,
+        "license": 5,
+        "license_name": "CC0-1.0",
+        "stars": 525,
+        "contributors": 3,
+        "last_commit": "2026-04-29T06:42:59Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "awesome-claude-code",
+      "store_score": 22,
+      "plugin_count": 3,
+      "min_plugin_score": 32,
+      "max_plugin_score": 32,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 10,
+        "license": 0,
+        "license_name": "NOASSERTION",
+        "stars": 45159,
+        "contributors": 14,
+        "last_commit": "2026-04-27T14:40:18Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "hoodini-ai-agents-skills",
+      "store_score": 22,
+      "plugin_count": 35,
+      "min_plugin_score": 27,
+      "max_plugin_score": 32,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 7,
+        "license": 0,
+        "license_name": null,
+        "stars": 215,
+        "contributors": 4,
+        "last_commit": "2026-05-27T09:00:54Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "karpathy-skills",
+      "store_score": 22,
+      "plugin_count": 1,
+      "min_plugin_score": 27,
+      "max_plugin_score": 27,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 10,
+        "license": 0,
+        "license_name": null,
+        "stars": 161535,
+        "contributors": 7,
+        "last_commit": "2026-04-20T10:05:04Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "remotion-skills",
+      "store_score": 18,
+      "plugin_count": 1,
+      "min_plugin_score": 23,
+      "max_plugin_score": 23,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 3,
+        "license": 0,
+        "license_name": null,
+        "stars": 3361,
+        "contributors": null,
+        "last_commit": "2026-05-07T10:40:03Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "libukai-awesome-agent-skills",
+      "store_score": 15,
+      "plugin_count": 1,
+      "min_plugin_score": 20,
+      "max_plugin_score": 20,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 3,
+        "license": 0,
+        "license_name": null,
+        "stars": 4537,
+        "contributors": null,
+        "last_commit": "2026-03-26T15:51:32Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "everything-claude-code",
+      "store_score": 14,
+      "plugin_count": 15,
+      "min_plugin_score": 14,
+      "max_plugin_score": 24,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 9,
+        "adoption": 5,
+        "license": 0,
+        "license_name": null,
+        "stars": 65,
+        "contributors": 4,
+        "last_commit": "2026-01-23T12:42:00Z",
+        "archived": false
+      }
+    }
+  ]
+}
