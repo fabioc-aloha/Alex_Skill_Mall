@@ -2,7 +2,7 @@
   "store": "agency-agents",
   "source_repo": "https://github.com/msitarzewski/agency-agents.git",
   "generated_at": "2026-05-29T18:48:05.951Z",
-  "scanned_ref": "783f6a72bfd7f3135700ac273c619d92821b419a",
+  "scanned_ref": "241dc5e68d1fe08538c659f2f40def5561e15045",
   "provenance": false,
   "tier": "community",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "examples",
       "shape": "unknown",
       "source_path": "examples",
-      "source_url": "https://github.com/msitarzewski/agency-agents/tree/783f6a72bfd7f3135700ac273c619d92821b419a/examples",
+      "source_url": "https://github.com/msitarzewski/agency-agents/tree/241dc5e68d1fe08538c659f2f40def5561e15045/examples",
       "readme_excerpt": "This directory contains example outputs demonstrating how the agency's agents can be orchestrated together to tackle real-world tasks.",
       "frontmatter": {
         "kind": "none",
@@ -37,23 +37,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "783f6a72bfd7f3135700ac273c619d92821b419a",
+        "default_sha": "241dc5e68d1fe08538c659f2f40def5561e15045",
         "tags": []
       },
-      "trust_score": 42,
+      "trust_score": 45,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 106590,
-          "contributors": 66,
-          "last_commit": "2026-04-12T04:25:59Z",
+          "stars": 107272,
+          "contributors": 74,
+          "last_commit": "2026-06-04T00:41:22Z",
           "archived": false
         }
       }
@@ -62,7 +62,7 @@
       "name": "integrations",
       "shape": "unknown",
       "source_path": "integrations",
-      "source_url": "https://github.com/msitarzewski/agency-agents/tree/783f6a72bfd7f3135700ac273c619d92821b419a/integrations",
+      "source_url": "https://github.com/msitarzewski/agency-agents/tree/241dc5e68d1fe08538c659f2f40def5561e15045/integrations",
       "readme_excerpt": "This directory contains The Agency integrations and converted formats for",
       "frontmatter": {
         "kind": "none",
@@ -87,23 +87,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "783f6a72bfd7f3135700ac273c619d92821b419a",
+        "default_sha": "241dc5e68d1fe08538c659f2f40def5561e15045",
         "tags": []
       },
-      "trust_score": 42,
+      "trust_score": 45,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 106590,
-          "contributors": 66,
-          "last_commit": "2026-04-12T04:25:59Z",
+          "stars": 107272,
+          "contributors": 74,
+          "last_commit": "2026-06-04T00:41:22Z",
           "archived": false
         }
       }
@@ -112,7 +112,7 @@
       "name": "i18n",
       "shape": "unknown",
       "source_path": "scripts/i18n",
-      "source_url": "https://github.com/msitarzewski/agency-agents/tree/783f6a72bfd7f3135700ac273c619d92821b419a/scripts/i18n",
+      "source_url": "https://github.com/msitarzewski/agency-agents/tree/241dc5e68d1fe08538c659f2f40def5561e15045/scripts/i18n",
       "readme_excerpt": "Localize agent `name` and `description` fields in YAML frontmatter to Simplified Chinese. This makes agent names readable in Copilot Chat's agent picker for Chinese-speaking users.",
       "frontmatter": {
         "kind": "none",
@@ -137,39 +137,39 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "783f6a72bfd7f3135700ac273c619d92821b419a",
+        "default_sha": "241dc5e68d1fe08538c659f2f40def5561e15045",
         "tags": []
       },
-      "trust_score": 42,
+      "trust_score": 45,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 106590,
-          "contributors": 66,
-          "last_commit": "2026-04-12T04:25:59Z",
+          "stars": 107272,
+          "contributors": 74,
+          "last_commit": "2026-06-04T00:41:22Z",
           "archived": false
         }
       }
     }
   ],
   "store_trust": {
-    "score": 32,
+    "score": 35,
     "signals": {
       "provenance": 0,
-      "maintenance": 12,
+      "maintenance": 15,
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 106590,
-      "contributors": 66,
-      "last_commit": "2026-04-12T04:25:59Z",
+      "stars": 107272,
+      "contributors": 74,
+      "last_commit": "2026-06-04T00:41:22Z",
       "archived": false
     }
   }
