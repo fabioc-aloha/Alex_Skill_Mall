@@ -1,8 +1,8 @@
 {
   "store": "k-dense-scientific-agent-skills",
   "source_repo": "https://github.com/K-Dense-AI/scientific-agent-skills.git",
-  "generated_at": "2026-05-29T18:48:06.346Z",
-  "scanned_ref": "93124850ef08487e423165554c54f0b333d5631d",
+  "generated_at": "2026-06-08T12:31:32.730Z",
+  "scanned_ref": "9881fe4690a3dfae92e081634068cb417880d924",
   "provenance": false,
   "tier": "domain",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "adaptyv",
       "shape": "skill",
       "source_path": "skills/adaptyv",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/adaptyv",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/adaptyv",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -44,8 +44,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -142,9 +143,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -153,7 +154,7 @@
       "name": "aeon",
       "shape": "skill",
       "source_path": "skills/aeon",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/aeon",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/aeon",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -187,8 +188,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -285,9 +287,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -296,7 +298,7 @@
       "name": "anndata",
       "shape": "skill",
       "source_path": "skills/anndata",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/anndata",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/anndata",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -304,6 +306,8 @@
           "name": "anndata",
           "description": "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census.",
           "license": "BSD-3-Clause license",
+          "allowed-tools": "Read Write Edit Bash",
+          "compatibility": "Requires Python 3.11+ and uv. Examples target AnnData 0.12.16, with experimental APIs clearly marked where used.",
           "metadata": ""
         },
         "standard": {
@@ -315,7 +319,9 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read Write Edit Bash"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -326,8 +332,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -424,9 +431,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -435,7 +442,7 @@
       "name": "arboreto",
       "shape": "skill",
       "source_path": "skills/arboreto",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/arboreto",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/arboreto",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -465,8 +472,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -563,9 +571,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -574,7 +582,7 @@
       "name": "astropy",
       "shape": "skill",
       "source_path": "skills/astropy",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/astropy",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/astropy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -604,8 +612,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -702,9 +711,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -713,7 +722,7 @@
       "name": "autoskill",
       "shape": "skill",
       "source_path": "skills/autoskill",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/autoskill",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/autoskill",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -746,8 +755,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -844,9 +854,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -855,7 +865,7 @@
       "name": "benchling-integration",
       "shape": "skill",
       "source_path": "skills/benchling-integration",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/benchling-integration",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/benchling-integration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -889,8 +899,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -987,9 +998,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -998,7 +1009,7 @@
       "name": "bgpt-paper-search",
       "shape": "skill",
       "source_path": "skills/bgpt-paper-search",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/bgpt-paper-search",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/bgpt-paper-search",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1029,8 +1040,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -1127,9 +1139,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -1138,7 +1150,7 @@
       "name": "bids",
       "shape": "skill",
       "source_path": "skills/bids",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/bids",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/bids",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1168,8 +1180,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -1266,9 +1279,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -1277,14 +1290,16 @@
       "name": "biopython",
       "shape": "skill",
       "source_path": "skills/biopython",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/biopython",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/biopython",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "biopython",
           "description": "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service integration use bioservices.",
-          "license": "Unknown",
+          "allowed-tools": "Read Write Edit Bash",
+          "compatibility": "Requires Python 3.10+, NumPy, and Biopython. Entrez and web BLAST examples require network access; local BLAST/MUSCLE examples require those command-line tools installed separately.",
+          "license": "Biopython License Agreement",
           "metadata": ""
         },
         "standard": {
@@ -1296,19 +1311,22 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read Write Edit Bash"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
-          "license": "Unknown",
+          "license": "Biopython License Agreement",
           "requires": null,
           "author": null
         }
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -1405,9 +1423,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -1416,7 +1434,7 @@
       "name": "bioservices",
       "shape": "skill",
       "source_path": "skills/bioservices",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/bioservices",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/bioservices",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1450,8 +1468,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -1548,9 +1567,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -1559,7 +1578,7 @@
       "name": "bulk-rnaseq",
       "shape": "skill",
       "source_path": "skills/bulk-rnaseq",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/bulk-rnaseq",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/bulk-rnaseq",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1589,8 +1608,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -1687,9 +1707,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -1698,38 +1718,43 @@
       "name": "cellxgene-census",
       "shape": "skill",
       "source_path": "skills/cellxgene-census",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/cellxgene-census",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/cellxgene-census",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "cellxgene-census",
-          "description": "Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data across tissues, diseases, or cell types from the largest curated single-cell atlas. Best for population-scale queries, reference atlas comparisons. For analyzing your own data use scanpy or scvi-tools.",
-          "license": "Unknown",
+          "description": "Query the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data. Use when you need population-scale cell metadata, gene expression slices, Census summary counts, source H5AD URIs/downloads, embeddings, spatial Census data, or reference atlas comparisons across organisms, tissues, diseases, assays, and cell types. For analyzing your own local single-cell data use scanpy, anndata, or scvi-tools.",
+          "allowed-tools": "Read Write Edit Bash",
+          "license": "MIT",
+          "compatibility": "Requires Python >=3.10,<3.13. Examples target cellxgene-census 1.17.x and the 2025-11-08 stable LTS Census; spatial workflows need the spatial extra and TileDB-SOMA >=1.15.5. No authentication is required for public Census data.",
           "metadata": ""
         },
         "standard": {
           "name": "cellxgene-census",
-          "description": "Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data across tissues, diseases, or cell types from the largest curated single-cell atlas. Best for population-scale queries, reference atlas comparisons. For analyzing your own data use scanpy or scvi-tools.",
+          "description": "Query the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data. Use when you need population-scale cell metadata, gene expression slices, Census summary counts, source H5AD URIs/downloads, embeddings, spatial Census data, or reference atlas comparisons across organisms, tissues, diseases, assays, and cell types. For analyzing your own local single-cell data use scanpy, anndata, or scvi-tools.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read Write Edit Bash"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
-          "license": "Unknown",
+          "license": "MIT",
           "requires": null,
           "author": null
         }
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -1826,9 +1851,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -1837,7 +1862,7 @@
       "name": "cirq",
       "shape": "skill",
       "source_path": "skills/cirq",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/cirq",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/cirq",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1870,8 +1895,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -1968,9 +1994,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -1979,7 +2005,7 @@
       "name": "citation-management",
       "shape": "skill",
       "source_path": "skills/citation-management",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/citation-management",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/citation-management",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2012,8 +2038,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -2110,9 +2137,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -2121,7 +2148,7 @@
       "name": "clinical-decision-support",
       "shape": "skill",
       "source_path": "skills/clinical-decision-support",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/clinical-decision-support",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/clinical-decision-support",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2154,8 +2181,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -2252,9 +2280,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -2263,7 +2291,7 @@
       "name": "clinical-reports",
       "shape": "skill",
       "source_path": "skills/clinical-reports",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/clinical-reports",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/clinical-reports",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2296,8 +2324,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -2394,9 +2423,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -2405,7 +2434,7 @@
       "name": "cobrapy",
       "shape": "skill",
       "source_path": "skills/cobrapy",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/cobrapy",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/cobrapy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2439,8 +2468,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -2537,9 +2567,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -2548,7 +2578,7 @@
       "name": "consciousness-council",
       "shape": "skill",
       "source_path": "skills/consciousness-council",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/consciousness-council",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/consciousness-council",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2581,8 +2611,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -2679,9 +2710,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -2690,7 +2721,7 @@
       "name": "dask",
       "shape": "skill",
       "source_path": "skills/dask",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/dask",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/dask",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2724,8 +2755,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -2822,9 +2854,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -2833,7 +2865,7 @@
       "name": "database-lookup",
       "shape": "skill",
       "source_path": "skills/database-lookup",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/database-lookup",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/database-lookup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2862,8 +2894,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -2960,9 +2993,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -2971,7 +3004,7 @@
       "name": "datamol",
       "shape": "skill",
       "source_path": "skills/datamol",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/datamol",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/datamol",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3005,8 +3038,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -3103,9 +3137,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -3114,7 +3148,7 @@
       "name": "deepchem",
       "shape": "skill",
       "source_path": "skills/deepchem",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/deepchem",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/deepchem",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3148,8 +3182,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -3246,9 +3281,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -3257,7 +3292,7 @@
       "name": "deeptools",
       "shape": "skill",
       "source_path": "skills/deeptools",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/deeptools",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/deeptools",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3265,6 +3300,8 @@
           "name": "deeptools",
           "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
           "license": "BSD license",
+          "allowed-tools": "",
+          "compatibility": "Requires Python >3.8 and deepTools 3.5.6-compatible dependencies. The upstream project recommends conda/bioconda for full dependency resolution; repo examples use uv with pinned PyPI installs for reproducible command-line workflows.",
           "metadata": ""
         },
         "standard": {
@@ -3287,8 +3324,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -3385,9 +3423,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -3396,7 +3434,7 @@
       "name": "depmap",
       "shape": "skill",
       "source_path": "skills/depmap",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/depmap",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/depmap",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3426,8 +3464,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -3524,9 +3563,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -3535,7 +3574,7 @@
       "name": "dhdna-profiler",
       "shape": "skill",
       "source_path": "skills/dhdna-profiler",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/dhdna-profiler",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/dhdna-profiler",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3568,8 +3607,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -3666,9 +3706,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -3677,19 +3717,21 @@
       "name": "diffdock",
       "shape": "skill",
       "source_path": "skills/diffdock",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/diffdock",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/diffdock",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "diffdock",
-          "description": "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.",
+          "description": "DiffDock and DiffDock-L molecular docking. Use for protein-small-molecule pose prediction from PDB or sequence plus SMILES/SDF/MOL2, batch docking, virtual screening, and pose-confidence interpretation. Not for binding affinity prediction.",
+          "allowed-tools": "",
+          "compatibility": "Requires the DiffDock repository, Python 3.9 environment from upstream environment.yml or the official Docker image, RDKit, PyTorch/PyG, and optional CUDA GPU acceleration. Current guidance targets DiffDock v1.1.3 / DiffDock-L.",
           "license": "MIT license",
           "metadata": ""
         },
         "standard": {
           "name": "diffdock",
-          "description": "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.",
+          "description": "DiffDock and DiffDock-L molecular docking. Use for protein-small-molecule pose prediction from PDB or sequence plus SMILES/SDF/MOL2, batch docking, virtual screening, and pose-confidence interpretation. Not for binding affinity prediction.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -3707,8 +3749,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -3805,9 +3848,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -3816,7 +3859,7 @@
       "name": "dnanexus-integration",
       "shape": "skill",
       "source_path": "skills/dnanexus-integration",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/dnanexus-integration",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/dnanexus-integration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3847,8 +3890,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -3945,9 +3989,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -3956,7 +4000,7 @@
       "name": "docx",
       "shape": "skill",
       "source_path": "skills/docx",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/docx",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/docx",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3986,8 +4030,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -4084,9 +4129,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -4095,19 +4140,19 @@
       "name": "esm",
       "shape": "skill",
       "source_path": "skills/esm",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/esm",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/esm",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "esm",
-          "description": "Comprehensive toolkit for EvolutionaryScale protein language models including ESM3 (generative multimodal design across sequence, structure, and function) and ESM C (efficient embeddings). Use for protein sequence/structure/function tasks, inverse folding, embeddings, variant design, and ESMFold2 structure prediction via Biohub. Supports local open weights (Python 3.12, esm on PyPI) and cloud Forge/Biohub APIs with ESM_API_KEY authentication.",
+          "description": "Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inference clients, or ESMFold2 folding workflows.",
           "license": "MIT license",
           "metadata": ""
         },
         "standard": {
           "name": "esm",
-          "description": "Comprehensive toolkit for EvolutionaryScale protein language models including ESM3 (generative multimodal design across sequence, structure, and function) and ESM C (efficient embeddings). Use for protein sequence/structure/function tasks, inverse folding, embeddings, variant design, and ESMFold2 structure prediction via Biohub. Supports local open weights (Python 3.12, esm on PyPI) and cloud Forge/Biohub APIs with ESM_API_KEY authentication.",
+          "description": "Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inference clients, or ESMFold2 folding workflows.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4125,8 +4170,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -4223,9 +4269,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -4234,7 +4280,7 @@
       "name": "etetoolkit",
       "shape": "skill",
       "source_path": "skills/etetoolkit",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/etetoolkit",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/etetoolkit",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4264,8 +4310,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -4362,9 +4409,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -4373,7 +4420,7 @@
       "name": "exa-search",
       "shape": "skill",
       "source_path": "skills/exa-search",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/exa-search",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/exa-search",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4404,8 +4451,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -4502,9 +4550,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -4513,7 +4561,7 @@
       "name": "exploratory-data-analysis",
       "shape": "skill",
       "source_path": "skills/exploratory-data-analysis",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/exploratory-data-analysis",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/exploratory-data-analysis",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4543,8 +4591,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -4641,9 +4690,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -4652,7 +4701,7 @@
       "name": "flowio",
       "shape": "skill",
       "source_path": "skills/flowio",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/flowio",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/flowio",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4682,8 +4731,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -4780,9 +4830,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -4791,7 +4841,7 @@
       "name": "fluidsim",
       "shape": "skill",
       "source_path": "skills/fluidsim",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/fluidsim",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/fluidsim",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4821,8 +4871,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -4919,9 +4970,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -4930,7 +4981,7 @@
       "name": "generate-image",
       "shape": "skill",
       "source_path": "skills/generate-image",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/generate-image",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/generate-image",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4961,8 +5012,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -5059,9 +5111,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -5070,7 +5122,7 @@
       "name": "geniml",
       "shape": "skill",
       "source_path": "skills/geniml",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/geniml",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/geniml",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5100,8 +5152,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -5198,9 +5251,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -5209,7 +5262,7 @@
       "name": "geomaster",
       "shape": "skill",
       "source_path": "skills/geomaster",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/geomaster",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/geomaster",
       "readme_excerpt": "GeoMaster is a comprehensive geospatial science skill covering:",
       "frontmatter": {
         "kind": "skill-md",
@@ -5239,8 +5292,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -5337,9 +5391,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -5348,7 +5402,7 @@
       "name": "geopandas",
       "shape": "skill",
       "source_path": "skills/geopandas",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/geopandas",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/geopandas",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5378,8 +5432,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -5476,9 +5531,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -5487,7 +5542,7 @@
       "name": "get-available-resources",
       "shape": "skill",
       "source_path": "skills/get-available-resources",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/get-available-resources",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/get-available-resources",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5517,8 +5572,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -5615,9 +5671,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -5626,19 +5682,21 @@
       "name": "gget",
       "shape": "skill",
       "source_path": "skills/gget",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/gget",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/gget",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "gget",
-          "description": "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures, enrichment analysis. Best for interactive exploration, simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.",
+          "description": "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST/BLAT, viral sequence downloads, AlphaFold structures, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.",
           "license": "BSD-2-Clause license",
+          "allowed-tools": "",
+          "compatibility": "Requires Python >=3.8 and gget 0.30.5-compatible APIs. Optional setup modules may install scientific dependencies that lag the newest Python releases; use Python 3.9 or 3.10 if `gget setup cellxgene` or `gget setup alphafold` fails.",
           "metadata": ""
         },
         "standard": {
           "name": "gget",
-          "description": "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures, enrichment analysis. Best for interactive exploration, simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.",
+          "description": "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST/BLAT, viral sequence downloads, AlphaFold structures, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -5656,8 +5714,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -5754,9 +5813,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -5765,7 +5824,7 @@
       "name": "ginkgo-cloud-lab",
       "shape": "skill",
       "source_path": "skills/ginkgo-cloud-lab",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/ginkgo-cloud-lab",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/ginkgo-cloud-lab",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5794,8 +5853,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -5892,9 +5952,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -5903,7 +5963,7 @@
       "name": "glycoengineering",
       "shape": "skill",
       "source_path": "skills/glycoengineering",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/glycoengineering",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/glycoengineering",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5933,8 +5993,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -6031,9 +6092,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -6042,7 +6103,7 @@
       "name": "gtars",
       "shape": "skill",
       "source_path": "skills/gtars",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/gtars",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/gtars",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6072,8 +6133,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -6170,9 +6232,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -6181,7 +6243,7 @@
       "name": "histolab",
       "shape": "skill",
       "source_path": "skills/histolab",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/histolab",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/histolab",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6212,8 +6274,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -6310,9 +6373,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -6321,7 +6384,7 @@
       "name": "hugging-science",
       "shape": "skill",
       "source_path": "skills/hugging-science",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/hugging-science",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/hugging-science",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6350,8 +6413,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -6448,9 +6512,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -6459,7 +6523,7 @@
       "name": "hypogenic",
       "shape": "skill",
       "source_path": "skills/hypogenic",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/hypogenic",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/hypogenic",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6489,8 +6553,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -6587,9 +6652,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -6598,7 +6663,7 @@
       "name": "hypothesis-generation",
       "shape": "skill",
       "source_path": "skills/hypothesis-generation",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/hypothesis-generation",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/hypothesis-generation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6631,8 +6696,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -6729,9 +6795,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -6740,7 +6806,7 @@
       "name": "imaging-data-commons",
       "shape": "skill",
       "source_path": "skills/imaging-data-commons",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/imaging-data-commons",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/imaging-data-commons",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6770,8 +6836,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -6868,9 +6935,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -6879,7 +6946,7 @@
       "name": "infographics",
       "shape": "skill",
       "source_path": "skills/infographics",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/infographics",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/infographics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6911,8 +6978,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -7009,9 +7077,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -7020,7 +7088,7 @@
       "name": "iso-13485-certification",
       "shape": "skill",
       "source_path": "skills/iso-13485-certification",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/iso-13485-certification",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/iso-13485-certification",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7050,8 +7118,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -7148,9 +7217,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -7159,7 +7228,7 @@
       "name": "labarchive-integration",
       "shape": "skill",
       "source_path": "skills/labarchive-integration",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/labarchive-integration",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/labarchive-integration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7189,8 +7258,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -7287,9 +7357,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -7298,19 +7368,19 @@
       "name": "lamindb",
       "shape": "skill",
       "source_path": "skills/lamindb",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/lamindb",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/lamindb",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "lamindb",
-          "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
+          "description": "Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models. Covers setup, artifact registration, query/search, lineage tracking, validation, ontology-backed annotation with Bionty, collections, branches, storage, and workflow integrations.",
           "license": "Apache-2.0 license",
           "metadata": ""
         },
         "standard": {
           "name": "lamindb",
-          "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
+          "description": "Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models. Covers setup, artifact registration, query/search, lineage tracking, validation, ontology-backed annotation with Bionty, collections, branches, storage, and workflow integrations.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -7328,8 +7398,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -7426,9 +7497,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -7437,7 +7508,7 @@
       "name": "latchbio-integration",
       "shape": "skill",
       "source_path": "skills/latchbio-integration",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/latchbio-integration",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/latchbio-integration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7467,8 +7538,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -7565,9 +7637,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -7576,7 +7648,7 @@
       "name": "latex-posters",
       "shape": "skill",
       "source_path": "skills/latex-posters",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/latex-posters",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/latex-posters",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7608,8 +7680,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -7706,9 +7779,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -7717,7 +7790,7 @@
       "name": "liteparse",
       "shape": "skill",
       "source_path": "skills/liteparse",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/liteparse",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/liteparse",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7751,8 +7824,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -7849,9 +7923,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -7860,7 +7934,7 @@
       "name": "literature-review",
       "shape": "skill",
       "source_path": "skills/literature-review",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/literature-review",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/literature-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7893,8 +7967,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -7991,9 +8066,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -8002,7 +8077,7 @@
       "name": "markdown-mermaid-writing",
       "shape": "skill",
       "source_path": "skills/markdown-mermaid-writing",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/markdown-mermaid-writing",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/markdown-mermaid-writing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8035,8 +8110,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -8133,9 +8209,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -8144,7 +8220,7 @@
       "name": "market-research-reports",
       "shape": "skill",
       "source_path": "skills/market-research-reports",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/market-research-reports",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/market-research-reports",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8177,8 +8253,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -8275,9 +8352,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -8286,7 +8363,7 @@
       "name": "markitdown",
       "shape": "skill",
       "source_path": "skills/markitdown",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/markitdown",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/markitdown",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8319,8 +8396,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -8417,9 +8495,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -8428,7 +8506,7 @@
       "name": "matchms",
       "shape": "skill",
       "source_path": "skills/matchms",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/matchms",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/matchms",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8458,8 +8536,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -8556,9 +8635,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -8567,7 +8646,7 @@
       "name": "matlab",
       "shape": "skill",
       "source_path": "skills/matlab",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/matlab",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/matlab",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8598,8 +8677,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -8696,9 +8776,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -8707,14 +8787,16 @@
       "name": "matplotlib",
       "shape": "skill",
       "source_path": "skills/matplotlib",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/matplotlib",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/matplotlib",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "matplotlib",
           "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
+          "allowed-tools": "",
           "license": "https://github.com/matplotlib/matplotlib/tree/main/LICENSE",
+          "compatibility": "Requires Python 3.10+ and Matplotlib 3.10.x. Use `uv add matplotlib` in projects; interactive Jupyter widgets require `ipympl`.",
           "metadata": ""
         },
         "standard": {
@@ -8737,8 +8819,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -8835,9 +8918,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -8846,7 +8929,7 @@
       "name": "medchem",
       "shape": "skill",
       "source_path": "skills/medchem",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/medchem",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/medchem",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8880,8 +8963,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -8978,9 +9062,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -8989,7 +9073,7 @@
       "name": "modal",
       "shape": "skill",
       "source_path": "skills/modal",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/modal",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/modal",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9019,8 +9103,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -9117,9 +9202,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -9128,7 +9213,7 @@
       "name": "molecular-dynamics",
       "shape": "skill",
       "source_path": "skills/molecular-dynamics",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/molecular-dynamics",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/molecular-dynamics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9158,8 +9243,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -9256,9 +9342,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -9267,7 +9353,7 @@
       "name": "molfeat",
       "shape": "skill",
       "source_path": "skills/molfeat",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/molfeat",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/molfeat",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9301,8 +9387,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -9399,9 +9486,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -9410,7 +9497,7 @@
       "name": "networkx",
       "shape": "skill",
       "source_path": "skills/networkx",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/networkx",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/networkx",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9440,8 +9527,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -9538,9 +9626,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -9549,7 +9637,7 @@
       "name": "neurokit2",
       "shape": "skill",
       "source_path": "skills/neurokit2",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/neurokit2",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/neurokit2",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9579,8 +9667,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -9677,9 +9766,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -9688,19 +9777,19 @@
       "name": "neuropixels-analysis",
       "shape": "skill",
       "source_path": "skills/neuropixels-analysis",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/neuropixels-analysis",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/neuropixels-analysis",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "neuropixels-analysis",
-          "description": "Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extracellular electrophysiology. Use when working with neural recordings, spike sorting, extracellular electrophysiology, or when the user mentions Neuropixels, SpikeGLX, Open Ephys, Kilosort, quality metrics, or unit curation.",
+          "description": "Analyze Neuropixels extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine, and AI-assisted visual review). Use when working with Neuropixels 1.0/2.0 recordings, spike sorting, or extracellular electrophysiology analysis.",
           "license": "MIT license",
           "metadata": ""
         },
         "standard": {
           "name": "neuropixels-analysis",
-          "description": "Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extracellular electrophysiology. Use when working with neural recordings, spike sorting, extracellular electrophysiology, or when the user mentions Neuropixels, SpikeGLX, Open Ephys, Kilosort, quality metrics, or unit curation.",
+          "description": "Analyze Neuropixels extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine, and AI-assisted visual review). Use when working with Neuropixels 1.0/2.0 recordings, spike sorting, or extracellular electrophysiology analysis.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -9718,8 +9807,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -9816,9 +9906,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -9827,7 +9917,7 @@
       "name": "nextflow",
       "shape": "skill",
       "source_path": "skills/nextflow",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/nextflow",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/nextflow",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9857,8 +9947,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -9955,9 +10046,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -9966,7 +10057,7 @@
       "name": "omero-integration",
       "shape": "skill",
       "source_path": "skills/omero-integration",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/omero-integration",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/omero-integration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9996,8 +10087,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -10094,9 +10186,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -10105,7 +10197,7 @@
       "name": "open-notebook",
       "shape": "skill",
       "source_path": "skills/open-notebook",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/open-notebook",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/open-notebook",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -10135,8 +10227,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -10233,9 +10326,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -10244,7 +10337,7 @@
       "name": "opentrons-integration",
       "shape": "skill",
       "source_path": "skills/opentrons-integration",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/opentrons-integration",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/opentrons-integration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -10274,8 +10367,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -10372,9 +10466,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -10383,7 +10477,7 @@
       "name": "optimize-for-gpu",
       "shape": "skill",
       "source_path": "skills/optimize-for-gpu",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/optimize-for-gpu",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/optimize-for-gpu",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -10412,8 +10506,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -10510,9 +10605,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -10521,7 +10616,7 @@
       "name": "pacsomatic",
       "shape": "skill",
       "source_path": "skills/pacsomatic",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pacsomatic",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pacsomatic",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -10551,8 +10646,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -10649,9 +10745,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -10660,7 +10756,7 @@
       "name": "paper-lookup",
       "shape": "skill",
       "source_path": "skills/paper-lookup",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/paper-lookup",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/paper-lookup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -10689,8 +10785,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -10787,9 +10884,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -10798,7 +10895,7 @@
       "name": "paperzilla",
       "shape": "skill",
       "source_path": "skills/paperzilla",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/paperzilla",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/paperzilla",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -10828,8 +10925,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -10926,9 +11024,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -10937,7 +11035,7 @@
       "name": "parallel-web",
       "shape": "skill",
       "source_path": "skills/parallel-web",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/parallel-web",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/parallel-web",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -10967,8 +11065,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -11065,9 +11164,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -11076,7 +11175,7 @@
       "name": "pathml",
       "shape": "skill",
       "source_path": "skills/pathml",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pathml",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pathml",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -11106,8 +11205,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -11204,9 +11304,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -11215,7 +11315,7 @@
       "name": "pathway-enrichment",
       "shape": "skill",
       "source_path": "skills/pathway-enrichment",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pathway-enrichment",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pathway-enrichment",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -11245,8 +11345,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -11343,9 +11444,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -11354,7 +11455,7 @@
       "name": "pdf",
       "shape": "skill",
       "source_path": "skills/pdf",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pdf",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pdf",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -11384,8 +11485,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -11482,9 +11584,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -11493,7 +11595,7 @@
       "name": "peer-review",
       "shape": "skill",
       "source_path": "skills/peer-review",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/peer-review",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/peer-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -11526,8 +11628,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -11624,9 +11727,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -11635,19 +11738,20 @@
       "name": "pennylane",
       "shape": "skill",
       "source_path": "skills/pennylane",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pennylane",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pennylane",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "pennylane",
-          "description": "Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch/JAX/TensorFlow. For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for open quantum systems use qutip.",
+          "description": "Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch or JAX. For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for open quantum systems use qutip.",
           "license": "Apache-2.0 license",
+          "allowed-tools": "",
           "metadata": ""
         },
         "standard": {
           "name": "pennylane",
-          "description": "Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch/JAX/TensorFlow. For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for open quantum systems use qutip.",
+          "description": "Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch or JAX. For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for open quantum systems use qutip.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -11665,8 +11769,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -11763,9 +11868,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -11774,7 +11879,7 @@
       "name": "phylogenetics",
       "shape": "skill",
       "source_path": "skills/phylogenetics",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/phylogenetics",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/phylogenetics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -11804,8 +11909,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -11902,9 +12008,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -11913,26 +12019,30 @@
       "name": "polars",
       "shape": "skill",
       "source_path": "skills/polars",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/polars",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/polars",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "polars",
-          "description": "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM data use dask or vaex.",
+          "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration. Use for expression-based data manipulation with lazy query optimization, parallel execution, streaming out-of-core processing, Arrow interoperability, and optional GPU execution.",
           "license": "https://github.com/pola-rs/polars/blob/main/LICENSE",
+          "allowed-tools": "Read",
+          "compatibility": "Requires Python 3.10+ for polars 1.41.x. Install with uv pip install; optional extras enable Excel, database, cloud, pandas/NumPy, and GPU integrations.",
           "metadata": ""
         },
         "standard": {
           "name": "polars",
-          "description": "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM data use dask or vaex.",
+          "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration. Use for expression-based data manipulation with lazy query optimization, parallel execution, streaming out-of-core processing, Arrow interoperability, and optional GPU execution.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -11943,8 +12053,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -12041,9 +12152,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -12052,7 +12163,7 @@
       "name": "polars-bio",
       "shape": "skill",
       "source_path": "skills/polars-bio",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/polars-bio",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/polars-bio",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -12086,8 +12197,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -12184,9 +12296,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -12195,7 +12307,7 @@
       "name": "pptx",
       "shape": "skill",
       "source_path": "skills/pptx",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pptx",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pptx",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -12225,8 +12337,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -12323,9 +12436,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -12334,7 +12447,7 @@
       "name": "pptx-posters",
       "shape": "skill",
       "source_path": "skills/pptx-posters",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pptx-posters",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pptx-posters",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -12367,8 +12480,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -12465,9 +12579,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -12476,7 +12590,7 @@
       "name": "primekg",
       "shape": "skill",
       "source_path": "skills/primekg",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/primekg",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/primekg",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -12506,8 +12620,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -12604,9 +12719,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -12615,7 +12730,7 @@
       "name": "protocolsio-integration",
       "shape": "skill",
       "source_path": "skills/protocolsio-integration",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/protocolsio-integration",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/protocolsio-integration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -12645,8 +12760,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -12743,9 +12859,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -12754,7 +12870,7 @@
       "name": "pufferlib",
       "shape": "skill",
       "source_path": "skills/pufferlib",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pufferlib",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pufferlib",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -12784,8 +12900,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -12882,9 +12999,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -12893,26 +13010,30 @@
       "name": "pydeseq2",
       "shape": "skill",
       "source_path": "skills/pydeseq2",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pydeseq2",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pydeseq2",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "pydeseq2",
-          "description": "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.",
+          "description": "Differential gene expression analysis for bulk RNA-seq with PyDESeq2, including formulaic designs, Wald tests, FDR correction, LFC shrinkage, and result visualization.",
+          "allowed-tools": "Read Write Edit Bash",
+          "compatibility": "Requires Python >=3.11 and PyDESeq2 0.5.4-compatible dependencies. Examples target PyDESeq2 0.5.x, formulaic design strings, explicit contrasts, and uv-based installs.",
           "license": "MIT license",
           "metadata": ""
         },
         "standard": {
           "name": "pydeseq2",
-          "description": "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.",
+          "description": "Differential gene expression analysis for bulk RNA-seq with PyDESeq2, including formulaic designs, Wald tests, FDR correction, LFC shrinkage, and result visualization.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read Write Edit Bash"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -12923,8 +13044,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -13021,9 +13143,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -13032,7 +13154,7 @@
       "name": "pydicom",
       "shape": "skill",
       "source_path": "skills/pydicom",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pydicom",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pydicom",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -13062,8 +13184,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -13160,9 +13283,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -13171,7 +13294,7 @@
       "name": "pyhealth",
       "shape": "skill",
       "source_path": "skills/pyhealth",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pyhealth",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pyhealth",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -13200,8 +13323,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -13298,9 +13422,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -13309,7 +13433,7 @@
       "name": "pylabrobot",
       "shape": "skill",
       "source_path": "skills/pylabrobot",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pylabrobot",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pylabrobot",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -13339,8 +13463,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -13437,9 +13562,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -13448,7 +13573,7 @@
       "name": "pymatgen",
       "shape": "skill",
       "source_path": "skills/pymatgen",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pymatgen",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pymatgen",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -13478,8 +13603,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -13576,9 +13702,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -13587,13 +13713,15 @@
       "name": "pymc",
       "shape": "skill",
       "source_path": "skills/pymc",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pymc",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pymc",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "pymc",
           "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
+          "allowed-tools": "Read Write Edit Bash",
+          "compatibility": "Requires Python 3.12+ and PyMC 6.0.1-compatible dependencies. Install reproducible environments with `uv pip install \"pymc[nutpie]==6.0.1\"`; optional NumPyro or BlackJAX samplers require separately pinned JAX-compatible dependencies.",
           "license": "Apache License, Version 2.0",
           "metadata": ""
         },
@@ -13606,7 +13734,9 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read Write Edit Bash"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -13617,8 +13747,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -13715,9 +13846,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -13726,7 +13857,7 @@
       "name": "pymoo",
       "shape": "skill",
       "source_path": "skills/pymoo",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pymoo",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pymoo",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -13760,8 +13891,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -13858,9 +13990,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -13869,7 +14001,7 @@
       "name": "pyopenms",
       "shape": "skill",
       "source_path": "skills/pyopenms",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pyopenms",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pyopenms",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -13899,8 +14031,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -13997,9 +14130,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -14008,7 +14141,7 @@
       "name": "pysam",
       "shape": "skill",
       "source_path": "skills/pysam",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pysam",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pysam",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -14038,8 +14171,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -14136,9 +14270,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -14147,7 +14281,7 @@
       "name": "pytdc",
       "shape": "skill",
       "source_path": "skills/pytdc",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pytdc",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pytdc",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -14177,8 +14311,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -14275,9 +14410,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -14286,7 +14421,7 @@
       "name": "pytorch-lightning",
       "shape": "skill",
       "source_path": "skills/pytorch-lightning",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pytorch-lightning",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pytorch-lightning",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -14320,8 +14455,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -14418,9 +14554,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -14429,7 +14565,7 @@
       "name": "pyzotero",
       "shape": "skill",
       "source_path": "skills/pyzotero",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/pyzotero",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/pyzotero",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -14463,8 +14599,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -14561,9 +14698,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -14572,7 +14709,7 @@
       "name": "qiskit",
       "shape": "skill",
       "source_path": "skills/qiskit",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/qiskit",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/qiskit",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -14602,8 +14739,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -14700,9 +14838,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -14711,7 +14849,7 @@
       "name": "qutip",
       "shape": "skill",
       "source_path": "skills/qutip",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/qutip",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/qutip",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -14741,8 +14879,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -14839,9 +14978,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -14850,7 +14989,7 @@
       "name": "rdkit",
       "shape": "skill",
       "source_path": "skills/rdkit",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/rdkit",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/rdkit",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -14858,6 +14997,8 @@
           "name": "rdkit",
           "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
           "license": "BSD-3-Clause license",
+          "allowed-tools": "",
+          "compatibility": "Examples target RDKit 2026.03.x. Use conda-forge for the broadest binary support or PyPI package `rdkit` for supported platform wheels; `rdkit-pypi` is the legacy PyPI name.",
           "metadata": ""
         },
         "standard": {
@@ -14880,8 +15021,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -14978,9 +15120,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -14989,7 +15131,7 @@
       "name": "research-grants",
       "shape": "skill",
       "source_path": "skills/research-grants",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/research-grants",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/research-grants",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -15023,8 +15165,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -15121,9 +15264,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -15132,7 +15275,7 @@
       "name": "research-lookup",
       "shape": "skill",
       "source_path": "skills/research-lookup",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/research-lookup",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/research-lookup",
       "readme_excerpt": "This skill provides real-time research information lookup using Perplexity's Sonar Pro Search model through OpenRouter.",
       "frontmatter": {
         "kind": "skill-md",
@@ -15166,8 +15309,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -15264,9 +15408,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -15275,7 +15419,7 @@
       "name": "rowan",
       "shape": "skill",
       "source_path": "skills/rowan",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/rowan",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/rowan",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -15306,8 +15450,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -15404,9 +15549,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -15415,19 +15560,19 @@
       "name": "scanpy",
       "shape": "skill",
       "source_path": "skills/scanpy",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scanpy",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scanpy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "scanpy",
-          "description": "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, and visualization. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata.",
+          "description": "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, visualization, and converting R-friendly single-cell formats such as Seurat or SingleCellExperiment RDS files into h5ad for Scanpy. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata.",
           "license": "BSD-3-Clause",
           "metadata": ""
         },
         "standard": {
           "name": "scanpy",
-          "description": "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, and visualization. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata.",
+          "description": "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, visualization, and converting R-friendly single-cell formats such as Seurat or SingleCellExperiment RDS files into h5ad for Scanpy. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -15445,8 +15590,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -15543,9 +15689,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -15554,7 +15700,7 @@
       "name": "scholar-evaluation",
       "shape": "skill",
       "source_path": "skills/scholar-evaluation",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scholar-evaluation",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scholar-evaluation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -15584,8 +15730,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -15682,9 +15829,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -15693,7 +15840,7 @@
       "name": "scientific-brainstorming",
       "shape": "skill",
       "source_path": "skills/scientific-brainstorming",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scientific-brainstorming",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scientific-brainstorming",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -15723,8 +15870,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -15821,9 +15969,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -15832,7 +15980,7 @@
       "name": "scientific-critical-thinking",
       "shape": "skill",
       "source_path": "skills/scientific-critical-thinking",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scientific-critical-thinking",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scientific-critical-thinking",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -15866,8 +16014,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -15964,9 +16113,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -15975,7 +16124,7 @@
       "name": "scientific-schematics",
       "shape": "skill",
       "source_path": "skills/scientific-schematics",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scientific-schematics",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scientific-schematics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -16008,8 +16157,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -16106,9 +16256,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -16117,7 +16267,7 @@
       "name": "scientific-slides",
       "shape": "skill",
       "source_path": "skills/scientific-slides",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scientific-slides",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scientific-slides",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -16150,8 +16300,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -16248,9 +16399,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -16259,7 +16410,7 @@
       "name": "scientific-visualization",
       "shape": "skill",
       "source_path": "skills/scientific-visualization",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scientific-visualization",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scientific-visualization",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -16289,8 +16440,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -16387,9 +16539,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -16398,7 +16550,7 @@
       "name": "scientific-writing",
       "shape": "skill",
       "source_path": "skills/scientific-writing",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scientific-writing",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scientific-writing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -16431,8 +16583,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -16529,9 +16682,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -16540,7 +16693,7 @@
       "name": "scikit-bio",
       "shape": "skill",
       "source_path": "skills/scikit-bio",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scikit-bio",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scikit-bio",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -16574,8 +16727,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -16672,9 +16826,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -16683,7 +16837,7 @@
       "name": "scikit-learn",
       "shape": "skill",
       "source_path": "skills/scikit-learn",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scikit-learn",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scikit-learn",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -16717,8 +16871,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -16815,9 +16970,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -16826,7 +16981,7 @@
       "name": "scikit-survival",
       "shape": "skill",
       "source_path": "skills/scikit-survival",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scikit-survival",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scikit-survival",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -16856,8 +17011,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -16954,9 +17110,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -16965,7 +17121,7 @@
       "name": "scvelo",
       "shape": "skill",
       "source_path": "skills/scvelo",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scvelo",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scvelo",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -16995,8 +17151,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -17093,9 +17250,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -17104,7 +17261,7 @@
       "name": "scvi-tools",
       "shape": "skill",
       "source_path": "skills/scvi-tools",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/scvi-tools",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/scvi-tools",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -17134,8 +17291,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -17232,9 +17390,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -17243,7 +17401,7 @@
       "name": "seaborn",
       "shape": "skill",
       "source_path": "skills/seaborn",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/seaborn",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/seaborn",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -17251,6 +17409,8 @@
           "name": "seaborn",
           "description": "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication styling use scientific-visualization.",
           "license": "BSD-3-Clause license",
+          "allowed-tools": "Read Write Edit Bash",
+          "compatibility": "Requires Python 3.8+ and seaborn 0.13.2-compatible dependencies. Install with uv pip install seaborn==0.13.2; use seaborn[stats]==0.13.2 when advanced regression or clustering examples need scipy/statsmodels.",
           "metadata": ""
         },
         "standard": {
@@ -17262,7 +17422,9 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read Write Edit Bash"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -17273,8 +17435,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -17371,9 +17534,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -17382,7 +17545,7 @@
       "name": "shap",
       "shape": "skill",
       "source_path": "skills/shap",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/shap",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/shap",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -17412,8 +17575,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -17510,9 +17674,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -17521,7 +17685,7 @@
       "name": "simpy",
       "shape": "skill",
       "source_path": "skills/simpy",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/simpy",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/simpy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -17551,8 +17715,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -17649,9 +17814,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -17660,7 +17825,7 @@
       "name": "stable-baselines3",
       "shape": "skill",
       "source_path": "skills/stable-baselines3",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/stable-baselines3",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/stable-baselines3",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -17694,8 +17859,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -17792,9 +17958,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -17803,7 +17969,7 @@
       "name": "statistical-analysis",
       "shape": "skill",
       "source_path": "skills/statistical-analysis",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/statistical-analysis",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/statistical-analysis",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -17833,8 +17999,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -17931,9 +18098,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -17942,13 +18109,15 @@
       "name": "statsmodels",
       "shape": "skill",
       "source_path": "skills/statsmodels",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/statsmodels",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/statsmodels",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "statsmodels",
           "description": "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA reporting use statistical-analysis.",
+          "allowed-tools": "Read Write Edit Bash",
+          "compatibility": "Requires Python 3.9+ and statsmodels 0.14.6-compatible dependencies. Use `uv pip install statsmodels==0.14.6`; optional predictive-metric examples also need scikit-learn.",
           "license": "BSD-3-Clause license",
           "metadata": ""
         },
@@ -17961,7 +18130,9 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read Write Edit Bash"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -17972,8 +18143,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -18070,9 +18242,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -18081,7 +18253,7 @@
       "name": "sympy",
       "shape": "skill",
       "source_path": "skills/sympy",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/sympy",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/sympy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -18115,8 +18287,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -18213,9 +18386,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -18224,7 +18397,7 @@
       "name": "tiledbvcf",
       "shape": "skill",
       "source_path": "skills/tiledbvcf",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/tiledbvcf",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/tiledbvcf",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -18254,8 +18427,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -18352,9 +18526,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -18363,7 +18537,7 @@
       "name": "timesfm-forecasting",
       "shape": "skill",
       "source_path": "skills/timesfm-forecasting",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/timesfm-forecasting",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/timesfm-forecasting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -18396,8 +18570,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -18494,9 +18669,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -18505,7 +18680,7 @@
       "name": "torch-geometric",
       "shape": "skill",
       "source_path": "skills/torch-geometric",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/torch-geometric",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/torch-geometric",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -18536,8 +18711,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -18634,9 +18810,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -18645,7 +18821,7 @@
       "name": "torchdrug",
       "shape": "skill",
       "source_path": "skills/torchdrug",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/torchdrug",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/torchdrug",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -18675,8 +18851,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -18773,9 +18950,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -18784,7 +18961,7 @@
       "name": "transformers",
       "shape": "skill",
       "source_path": "skills/transformers",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/transformers",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/transformers",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -18815,8 +18992,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -18913,9 +19091,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -18924,7 +19102,7 @@
       "name": "treatment-plans",
       "shape": "skill",
       "source_path": "skills/treatment-plans",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/treatment-plans",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/treatment-plans",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -18957,8 +19135,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -19055,9 +19234,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -19066,19 +19245,19 @@
       "name": "umap-learn",
       "shape": "skill",
       "source_path": "skills/umap-learn",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/umap-learn",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/umap-learn",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "umap-learn",
-          "description": "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.",
+          "description": "Use UMAP-learn for nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.",
           "license": "BSD-3-Clause license",
           "metadata": ""
         },
         "standard": {
           "name": "umap-learn",
-          "description": "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.",
+          "description": "Use UMAP-learn for nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -19096,8 +19275,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -19194,9 +19374,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -19205,7 +19385,7 @@
       "name": "usfiscaldata",
       "shape": "skill",
       "source_path": "skills/usfiscaldata",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/usfiscaldata",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/usfiscaldata",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -19238,8 +19418,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -19336,9 +19517,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -19347,7 +19528,7 @@
       "name": "vaex",
       "shape": "skill",
       "source_path": "skills/vaex",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/vaex",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/vaex",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -19381,8 +19562,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -19479,9 +19661,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -19490,7 +19672,7 @@
       "name": "venue-templates",
       "shape": "skill",
       "source_path": "skills/venue-templates",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/venue-templates",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/venue-templates",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -19523,8 +19705,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -19621,9 +19804,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -19632,7 +19815,7 @@
       "name": "what-if-oracle",
       "shape": "skill",
       "source_path": "skills/what-if-oracle",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/what-if-oracle",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/what-if-oracle",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -19662,8 +19845,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -19760,9 +19944,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -19771,7 +19955,7 @@
       "name": "xlsx",
       "shape": "skill",
       "source_path": "skills/xlsx",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/xlsx",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/xlsx",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -19805,8 +19989,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -19903,9 +20088,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -19914,7 +20099,7 @@
       "name": "zarr-python",
       "shape": "skill",
       "source_path": "skills/zarr-python",
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/93124850ef08487e423165554c54f0b333d5631d/skills/zarr-python",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9881fe4690a3dfae92e081634068cb417880d924/skills/zarr-python",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -19923,7 +20108,7 @@
           "description": "Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via fsspec, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.",
           "allowed-tools": "Read Write Edit Bash",
           "license": "MIT license",
-          "compatibility": "Requires Python 3.12+ and zarr 3.x. Cloud I/O needs zarr[remote] plus s3fs or gcsfs. Legacy Zarr v2 workflows use zarr==2.* on older Python.",
+          "compatibility": "Requires Python 3.12+ and zarr 3.x. Cloud I/O needs zarr[remote] plus pinned s3fs or gcsfs. Legacy Zarr v2 workflows need exact 2.x pins on older Python.",
           "metadata": ""
         },
         "standard": {
@@ -19948,8 +20133,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "93124850ef08487e423165554c54f0b333d5631d",
+        "default_sha": "9881fe4690a3dfae92e081634068cb417880d924",
         "tags": [
+          "v2.46.0",
           "v2.45.0",
           "v2.44.0",
           "v2.43.0",
@@ -20046,9 +20232,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27141,
+          "stars": 27567,
           "contributors": 37,
-          "last_commit": "2026-06-01T12:04:35Z",
+          "last_commit": "2026-06-08T11:52:59Z",
           "archived": false
         }
       }
@@ -20062,9 +20248,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 27141,
+      "stars": 27567,
       "contributors": 37,
-      "last_commit": "2026-06-01T12:04:35Z",
+      "last_commit": "2026-06-08T11:52:59Z",
       "archived": false
     }
   }
