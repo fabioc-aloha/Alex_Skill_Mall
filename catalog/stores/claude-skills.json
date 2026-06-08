@@ -1,8 +1,8 @@
 {
   "store": "claude-skills",
   "source_repo": "https://github.com/anthropics/skills.git",
-  "generated_at": "2026-05-29T18:48:04.964Z",
-  "scanned_ref": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+  "generated_at": "2026-06-08T12:31:32.404Z",
+  "scanned_ref": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
   "provenance": false,
   "tier": "community",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "algorithmic-art",
       "shape": "skill",
       "source_path": "skills/algorithmic-art",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/algorithmic-art",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/algorithmic-art",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -41,7 +41,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -55,9 +55,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -66,7 +66,7 @@
       "name": "brand-guidelines",
       "shape": "skill",
       "source_path": "skills/brand-guidelines",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/brand-guidelines",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/brand-guidelines",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -95,7 +95,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -109,9 +109,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -120,7 +120,7 @@
       "name": "canvas-design",
       "shape": "skill",
       "source_path": "skills/canvas-design",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/canvas-design",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/canvas-design",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -149,7 +149,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -163,9 +163,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -174,18 +174,18 @@
       "name": "claude-api",
       "shape": "skill",
       "source_path": "skills/claude-api",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/claude-api",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/claude-api",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "claude-api",
-          "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replacements). TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks for the Claude API, Anthropic SDK, or Managed Agents; user adds/modifies/tunes a Claude feature (caching, thinking, compaction, tool use, batch, files, citations, memory) or model (Opus/Sonnet/Haiku) in a file; questions about prompt caching / cache hit rate in an Anthropic SDK project. SKIP: file imports `openai`/other-provider SDK, filename like `*-openai.py`/`*-generic.py`, provider-neutral code, general programming/ML.",
+          "description": "",
           "license": "Complete terms in LICENSE.txt"
         },
         "standard": {
           "name": "claude-api",
-          "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replacements). TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks for the Claude API, Anthropic SDK, or Managed Agents; user adds/modifies/tunes a Claude feature (caching, thinking, compaction, tool use, batch, files, citations, memory) or model (Opus/Sonnet/Haiku) in a file; questions about prompt caching / cache hit rate in an Anthropic SDK project. SKIP: file imports `openai`/other-provider SDK, filename like `*-openai.py`/`*-generic.py`, provider-neutral code, general programming/ML.",
+          "description": null,
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -203,13 +203,13 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
-      "trust_score": 30,
+      "trust_score": 25,
       "trust_signals": {
         "store": 25,
-        "frontmatter": 5,
+        "frontmatter": 0,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -217,9 +217,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -228,7 +228,7 @@
       "name": "doc-coauthoring",
       "shape": "skill",
       "source_path": "skills/doc-coauthoring",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/doc-coauthoring",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/doc-coauthoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -256,7 +256,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -270,9 +270,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -281,7 +281,7 @@
       "name": "docx",
       "shape": "skill",
       "source_path": "skills/docx",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/docx",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/docx",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -310,7 +310,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -324,9 +324,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -335,7 +335,7 @@
       "name": "frontend-design",
       "shape": "skill",
       "source_path": "skills/frontend-design",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/frontend-design",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/frontend-design",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -364,7 +364,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -378,9 +378,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -389,7 +389,7 @@
       "name": "internal-comms",
       "shape": "skill",
       "source_path": "skills/internal-comms",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/internal-comms",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/internal-comms",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -418,7 +418,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -432,9 +432,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -443,7 +443,7 @@
       "name": "mcp-builder",
       "shape": "skill",
       "source_path": "skills/mcp-builder",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/mcp-builder",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/mcp-builder",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -472,7 +472,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -486,9 +486,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -497,7 +497,7 @@
       "name": "pdf",
       "shape": "skill",
       "source_path": "skills/pdf",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/pdf",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/pdf",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -526,7 +526,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -540,9 +540,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -551,7 +551,7 @@
       "name": "pptx",
       "shape": "skill",
       "source_path": "skills/pptx",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/pptx",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/pptx",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -580,7 +580,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -594,9 +594,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -605,7 +605,7 @@
       "name": "skill-creator",
       "shape": "skill",
       "source_path": "skills/skill-creator",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/skill-creator",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/skill-creator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -633,7 +633,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -647,9 +647,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -658,7 +658,7 @@
       "name": "slack-gif-creator",
       "shape": "skill",
       "source_path": "skills/slack-gif-creator",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/slack-gif-creator",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/slack-gif-creator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -687,7 +687,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -701,9 +701,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -712,7 +712,7 @@
       "name": "theme-factory",
       "shape": "skill",
       "source_path": "skills/theme-factory",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/theme-factory",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/theme-factory",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -741,7 +741,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -755,9 +755,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -766,7 +766,7 @@
       "name": "web-artifacts-builder",
       "shape": "skill",
       "source_path": "skills/web-artifacts-builder",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/web-artifacts-builder",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/web-artifacts-builder",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -795,7 +795,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -809,9 +809,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -820,7 +820,7 @@
       "name": "webapp-testing",
       "shape": "skill",
       "source_path": "skills/webapp-testing",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/webapp-testing",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/webapp-testing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -849,7 +849,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -863,9 +863,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -874,7 +874,7 @@
       "name": "xlsx",
       "shape": "skill",
       "source_path": "skills/xlsx",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/skills/xlsx",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/skills/xlsx",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -903,7 +903,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -917,9 +917,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -928,7 +928,7 @@
       "name": "template",
       "shape": "skill",
       "source_path": "template",
-      "source_url": "https://github.com/anthropics/skills/tree/da20c92503b2e8ff1cf28ca81a0df4673debdbf7/template",
+      "source_url": "https://github.com/anthropics/skills/tree/c30d329f5814647c1e2f071020c1e8c1c9893ef1/template",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -956,7 +956,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "da20c92503b2e8ff1cf28ca81a0df4673debdbf7",
+        "default_sha": "c30d329f5814647c1e2f071020c1e8c1c9893ef1",
         "tags": []
       },
       "trust_score": 30,
@@ -970,9 +970,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 146168,
+          "stars": 147854,
           "contributors": 13,
-          "last_commit": "2026-05-29T02:02:28Z",
+          "last_commit": "2026-06-07T20:21:35Z",
           "archived": false
         }
       }
@@ -986,9 +986,9 @@
       "adoption": 10,
       "license": 0,
       "license_name": null,
-      "stars": 146168,
+      "stars": 147854,
       "contributors": 13,
-      "last_commit": "2026-05-29T02:02:28Z",
+      "last_commit": "2026-06-07T20:21:35Z",
       "archived": false
     }
   }
