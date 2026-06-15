@@ -2,7 +2,7 @@
   "store": "claude-code-plugins-plus-skills",
   "source_repo": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills.git",
   "generated_at": "2026-06-08T12:31:32.693Z",
-  "scanned_ref": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+  "scanned_ref": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "freshie",
       "shape": "unknown",
       "source_path": "freshie",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/freshie",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/freshie",
       "readme_excerpt": "Configuration Management Database (CMDB) for the claude-code-plugins ecosystem.",
       "frontmatter": {
         "kind": "none",
@@ -37,7 +37,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -114,11 +114,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -138,9 +141,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -149,7 +152,7 @@
       "name": "analytics-daemon",
       "shape": "unknown",
       "source_path": "packages/analytics-daemon",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/packages/analytics-daemon",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/packages/analytics-daemon",
       "readme_excerpt": "Local analytics daemon that monitors Claude Code conversation files for real-time plugin usage tracking and dashboard integration.",
       "frontmatter": {
         "kind": "none",
@@ -174,7 +177,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -251,11 +254,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -275,9 +281,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -286,7 +292,7 @@
       "name": "analytics-dashboard",
       "shape": "unknown",
       "source_path": "packages/analytics-dashboard",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/packages/analytics-dashboard",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/packages/analytics-dashboard",
       "readme_excerpt": "Real-time analytics dashboard for Claude Code plugin usage, skill triggers, and API costs.",
       "frontmatter": {
         "kind": "none",
@@ -311,7 +317,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -388,11 +394,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -412,9 +421,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -423,7 +432,7 @@
       "name": "cli",
       "shape": "unknown",
       "source_path": "packages/cli",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/packages/cli",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/packages/cli",
       "readme_excerpt": "> Command-line tool for installing and managing Claude Code plugins from [tonsofskills.com](https://tonsofskills.com)",
       "frontmatter": {
         "kind": "none",
@@ -448,7 +457,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -525,11 +534,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -549,9 +561,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -560,7 +572,7 @@
       "name": "plugin-validator",
       "shape": "unknown",
       "source_path": "packages/plugin-validator",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/packages/plugin-validator",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/packages/plugin-validator",
       "readme_excerpt": "**Validate Claude Code plugins for completeness and best practices before publishing.**",
       "frontmatter": {
         "kind": "none",
@@ -585,7 +597,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -662,11 +674,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -686,9 +701,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -697,7 +712,7 @@
       "name": "ai-agency",
       "shape": "unknown",
       "source_path": "plugins/ai-agency",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/plugins/ai-agency",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/plugins/ai-agency",
       "readme_excerpt": "**Professional tools for AI agencies building with Make.com, Zapier, n8n, OpenAI, Anthropic, and more.**",
       "frontmatter": {
         "kind": "none",
@@ -722,7 +737,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -799,11 +814,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -823,9 +841,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -834,7 +852,7 @@
       "name": "ai-ml",
       "shape": "unknown",
       "source_path": "plugins/ai-ml",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/plugins/ai-ml",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/plugins/ai-ml",
       "readme_excerpt": "This directory contains 25 specialized plugins for machine learning, data science, and AI development workflows.",
       "frontmatter": {
         "kind": "none",
@@ -859,7 +877,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -936,11 +954,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -960,9 +981,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -971,7 +992,7 @@
       "name": "api-development",
       "shape": "unknown",
       "source_path": "plugins/api-development",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/plugins/api-development",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/plugins/api-development",
       "readme_excerpt": "A comprehensive collection of 25 professional plugins for API development with Claude Code.",
       "frontmatter": {
         "kind": "none",
@@ -996,7 +1017,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1073,11 +1094,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -1097,9 +1121,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -1108,7 +1132,7 @@
       "name": "database",
       "shape": "unknown",
       "source_path": "plugins/database",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/plugins/database",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/plugins/database",
       "readme_excerpt": "A comprehensive collection of 25 database and backend plugins for Claude Code, covering migration management, performance optimization, security, monitoring, and advanced database operations.",
       "frontmatter": {
         "kind": "none",
@@ -1133,7 +1157,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1210,11 +1234,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -1234,9 +1261,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -1245,7 +1272,7 @@
       "name": "devops",
       "shape": "unknown",
       "source_path": "plugins/devops",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/plugins/devops",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/plugins/devops",
       "readme_excerpt": "A comprehensive collection of 25 DevOps infrastructure plugins for Claude Code, covering the entire DevOps lifecycle.",
       "frontmatter": {
         "kind": "none",
@@ -1270,7 +1297,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1347,11 +1374,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -1371,9 +1401,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -1382,7 +1412,7 @@
       "name": "performance",
       "shape": "unknown",
       "source_path": "plugins/performance",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/plugins/performance",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/plugins/performance",
       "readme_excerpt": "A comprehensive collection of 25 performance and monitoring plugins for Claude Code, covering profiling, optimization, observability, and SRE best practices.",
       "frontmatter": {
         "kind": "none",
@@ -1407,7 +1437,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1484,11 +1514,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -1508,9 +1541,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -1519,7 +1552,7 @@
       "name": "security",
       "shape": "unknown",
       "source_path": "plugins/security",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/plugins/security",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/plugins/security",
       "readme_excerpt": "Comprehensive collection of 25 security and compliance plugins for Claude Code, covering vulnerability scanning, penetration testing, compliance auditing, and security best practices.",
       "frontmatter": {
         "kind": "none",
@@ -1544,7 +1577,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1621,11 +1654,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -1645,9 +1681,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -1656,7 +1692,7 @@
       "name": "testing",
       "shape": "unknown",
       "source_path": "plugins/testing",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/plugins/testing",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/plugins/testing",
       "readme_excerpt": "A comprehensive collection of 10 professional testing plugins covering all aspects of software quality assurance.",
       "frontmatter": {
         "kind": "none",
@@ -1681,7 +1717,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1758,11 +1794,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -1782,9 +1821,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -1793,7 +1832,7 @@
       "name": "pr-classifier",
       "shape": "unknown",
       "source_path": "scripts/pr-classifier",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/scripts/pr-classifier",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/scripts/pr-classifier",
       "readme_excerpt": "Given a list of files changed in a PR, emit a structured JSON object describing the contribution: which plugins, skills, agents, MCP servers, hooks, workflows, scripts, and docs are affected, plus any",
       "frontmatter": {
         "kind": "none",
@@ -1818,7 +1857,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1895,11 +1934,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -1919,9 +1961,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -1930,7 +1972,7 @@
       "name": "skills",
       "shape": "unknown",
       "source_path": "skills",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/skills",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/skills",
       "readme_excerpt": "**500 production-ready Agent Skills** organized into 20 categories.",
       "frontmatter": {
         "kind": "none",
@@ -1955,7 +1997,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2032,11 +2074,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -2056,9 +2101,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -2067,7 +2112,7 @@
       "name": "agent-plugin",
       "shape": "agent",
       "source_path": "templates/agent-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/templates/agent-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/templates/agent-plugin",
       "readme_excerpt": "Plugin with specialized subagent.",
       "frontmatter": {
         "kind": "none",
@@ -2092,7 +2137,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2169,11 +2214,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -2193,9 +2241,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -2204,7 +2252,7 @@
       "name": "command-plugin",
       "shape": "unknown",
       "source_path": "templates/command-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/templates/command-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/templates/command-plugin",
       "readme_excerpt": "Plugin with custom slash commands.",
       "frontmatter": {
         "kind": "none",
@@ -2229,7 +2277,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2306,11 +2354,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -2330,9 +2381,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -2341,7 +2392,7 @@
       "name": "full-plugin",
       "shape": "hook",
       "source_path": "templates/full-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/templates/full-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/templates/full-plugin",
       "readme_excerpt": "Full-featured plugin with commands, agents, and hooks.",
       "frontmatter": {
         "kind": "none",
@@ -2366,7 +2417,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2443,11 +2494,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -2467,9 +2521,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -2478,7 +2532,7 @@
       "name": "minimal-plugin",
       "shape": "unknown",
       "source_path": "templates/minimal-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/templates/minimal-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/templates/minimal-plugin",
       "readme_excerpt": "Brief description of your plugin.",
       "frontmatter": {
         "kind": "none",
@@ -2503,7 +2557,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2580,11 +2634,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -2604,9 +2661,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -2615,7 +2672,7 @@
       "name": "skill-plugin",
       "shape": "skill",
       "source_path": "templates/skill-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/templates/skill-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/templates/skill-plugin",
       "readme_excerpt": "Brief description of what your skill plugin does.",
       "frontmatter": {
         "kind": "none",
@@ -2640,7 +2697,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2717,11 +2774,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -2741,9 +2801,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -2752,7 +2812,7 @@
       "name": "e2e",
       "shape": "unknown",
       "source_path": "tests/e2e",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/tests/e2e",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/tests/e2e",
       "readme_excerpt": "Comprehensive end-to-end testing for real-world plugin installation, activation, and usage scenarios.",
       "frontmatter": {
         "kind": "none",
@@ -2777,7 +2837,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2854,11 +2914,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -2878,9 +2941,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -2889,7 +2952,7 @@
       "name": "tutorials",
       "shape": "skill",
       "source_path": "tutorials",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/tutorials",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/tutorials",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -2914,7 +2977,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2991,11 +3054,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -3015,9 +3081,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -3026,7 +3092,7 @@
       "name": "lab",
       "shape": "unknown",
       "source_path": "workspace/lab",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/83ac5c7637a53e89f36889bd27bad2c42e62e9bf/workspace/lab",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/57b5254bd3d6c39f2d15f3d9750db89b3801d8ab/workspace/lab",
       "readme_excerpt": "**Purpose:** Safe sandbox for learning and building phased workflow skills with strict validation.",
       "frontmatter": {
         "kind": "none",
@@ -3051,7 +3117,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "83ac5c7637a53e89f36889bd27bad2c42e62e9bf",
+        "default_sha": "57b5254bd3d6c39f2d15f3d9750db89b3801d8ab",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -3128,11 +3194,14 @@
           "@intentsolutionsio/pair-programmer@1.0.0",
           "@intentsolutionsio/over-50s-health@3.2.0",
           "@intentsolutionsio/obsidian-project-documentation@3.2.1",
+          "@intentsolutionsio/market-price-tracker@1.0.6",
+          "@intentsolutionsio/jeremy-plugin-tool@2.0.6",
           "@intentsolutionsio/hubspot-pack@2.0.0",
           "@intentsolutionsio/guidewire-pack@2.0.1",
           "@intentsolutionsio/guidewire-pack@1.0.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.1",
           "@intentsolutionsio/engineer-design-diagram@0.2.0",
+          "@intentsolutionsio/databricks-pack@1.0.9",
           "@intentsolutionsio/databricks-pack@1.0.8",
           "@intentsolutionsio/contributing-clanker@0.1.1",
           "@intentsolutionsio/cli-ux-tester@3.1.0",
@@ -3152,9 +3221,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2334,
+          "stars": 2379,
           "contributors": 43,
-          "last_commit": "2026-06-08T07:43:25Z",
+          "last_commit": "2026-06-15T07:59:30Z",
           "archived": false
         }
       }
@@ -3168,9 +3237,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 2334,
+      "stars": 2379,
       "contributors": 43,
-      "last_commit": "2026-06-08T07:43:25Z",
+      "last_commit": "2026-06-15T07:59:30Z",
       "archived": false
     }
   }

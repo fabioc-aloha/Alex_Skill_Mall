@@ -1,18 +1,91 @@
 {
   "store": "garden-skills",
   "source_repo": "https://github.com/ConardLi/garden-skills.git",
-  "generated_at": "2026-05-29T18:48:06.109Z",
-  "scanned_ref": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+  "generated_at": "2026-06-15T13:04:06.162Z",
+  "scanned_ref": "fbd6453c984e2a150c9553efe3075e1f62338df8",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
-  "plugin_count": 4,
+  "plugin_count": 5,
   "plugins": [
+    {
+      "name": "beautiful-article",
+      "shape": "skill",
+      "source_path": "skills/beautiful-article",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/fbd6453c984e2a150c9553efe3075e1f62338df8/skills/beautiful-article",
+      "readme_excerpt": "> A skill for AI agents to **edit and design** any source material (URL / PDF / DOCX / Markdown / plain text / screenshots / pasted notes) into a **beautiful, share-ready article** that is easier to r",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "beautiful-article",
+          "description": "把用户提供的素材（网页 URL / PDF / DOCX / Markdown / 纯文本 / 截图 / 粘贴材料）编辑、设计成一篇美丽的、可离线打开和分享的**单文件 HTML 网页文章**。基于 reacticle 组件协议：不手写裸 HTML/CSS，而用语义组件 + 受主题约束的 Raw 自由层；按 source→规划→双确认→生成→终审→修复的小型 harness 流程推进，默认 100% 信息保留的长文。触发场景：把 URL/PDF/DOCX/文章做成网页文章 / 长文 / briefing / 解释文 / 视觉文章 / 教程 / 审阅复盘 / 方案分析，'render this as a beautiful web article / 把这篇做成网页文章 / 生成一篇可分享的 HTML 长文 / reacticle 文章'。只生成文章，不生成后台、表单、dashboard、产品原型或通用 Web App。"
+        },
+        "standard": {
+          "name": "beautiful-article",
+          "description": "把用户提供的素材（网页 URL / PDF / DOCX / Markdown / 纯文本 / 截图 / 粘贴材料）编辑、设计成一篇美丽的、可离线打开和分享的**单文件 HTML 网页文章**。基于 reacticle 组件协议：不手写裸 HTML/CSS，而用语义组件 + 受主题约束的 Raw 自由层；按 source→规划→双确认→生成→终审→修复的小型 harness 流程推进，默认 100% 信息保留的长文。触发场景：把 URL/PDF/DOCX/文章做成网页文章 / 长文 / briefing / 解释文 / 视觉文章 / 教程 / 审阅复盘 / 方案分析，'render this as a beautiful web article / 把这篇做成网页文章 / 生成一篇可分享的 HTML 长文 / reacticle 文章'。只生成文章，不生成后台、表单、dashboard、产品原型或通用 Web App。",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "fbd6453c984e2a150c9553efe3075e1f62338df8",
+        "tags": [
+          "web-video-presentation-v1.2.2",
+          "web-video-presentation-v1.2.1",
+          "web-video-presentation-v1.2.0",
+          "web-video-presentation-v1.1.5",
+          "web-video-presentation-v1.1.3",
+          "web-video-presentation-v1.1.1",
+          "web-video-presentation-v1.1.0",
+          "web-video-presentation-v1.0.0",
+          "web-design-engineer-v1.2.2",
+          "web-design-engineer-v1.2.1",
+          "web-design-engineer-v1.2.0",
+          "web-design-engineer-v1.1.0",
+          "web-design-engineer-v1.0.0",
+          "kb-retriever-v1.0.1",
+          "kb-retriever-v1.0.0",
+          "gpt-image-2-v1.0.4",
+          "gpt-image-2-v1.0.3",
+          "gpt-image-2-v1.0.0",
+          "beautiful-article-v0.1.0"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 8000,
+          "contributors": 3,
+          "last_commit": "2026-06-10T13:43:52Z",
+          "archived": false
+        }
+      }
+    },
     {
       "name": "gpt-image-2",
       "shape": "skill",
       "source_path": "skills/gpt-image-2",
-      "source_url": "https://github.com/ConardLi/garden-skills/tree/e3e9ada877f47d984916d8169b7cf310ea0e2227/skills/gpt-image-2",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/fbd6453c984e2a150c9553efe3075e1f62338df8/skills/gpt-image-2",
       "readme_excerpt": "**A focused image-generation / editing skill for GPT Image 2, with a single SKILL definition that adapts to three runtime modes — local generation, host-native delegation, and pure prompt advisor.**",
       "frontmatter": {
         "kind": "skill-md",
@@ -40,8 +113,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+        "default_sha": "fbd6453c984e2a150c9553efe3075e1f62338df8",
         "tags": [
+          "web-video-presentation-v1.2.2",
           "web-video-presentation-v1.2.1",
           "web-video-presentation-v1.2.0",
           "web-video-presentation-v1.1.5",
@@ -49,13 +123,17 @@
           "web-video-presentation-v1.1.1",
           "web-video-presentation-v1.1.0",
           "web-video-presentation-v1.0.0",
+          "web-design-engineer-v1.2.2",
           "web-design-engineer-v1.2.1",
           "web-design-engineer-v1.2.0",
           "web-design-engineer-v1.1.0",
           "web-design-engineer-v1.0.0",
+          "kb-retriever-v1.0.1",
           "kb-retriever-v1.0.0",
+          "gpt-image-2-v1.0.4",
           "gpt-image-2-v1.0.3",
-          "gpt-image-2-v1.0.0"
+          "gpt-image-2-v1.0.0",
+          "beautiful-article-v0.1.0"
         ]
       },
       "trust_score": 42,
@@ -69,9 +147,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 7562,
+          "stars": 8000,
           "contributors": 3,
-          "last_commit": "2026-05-27T08:01:37Z",
+          "last_commit": "2026-06-10T13:43:52Z",
           "archived": false
         }
       }
@@ -80,7 +158,7 @@
       "name": "kb-retriever",
       "shape": "skill",
       "source_path": "skills/kb-retriever",
-      "source_url": "https://github.com/ConardLi/garden-skills/tree/e3e9ada877f47d984916d8169b7cf310ea0e2227/skills/kb-retriever",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/fbd6453c984e2a150c9553efe3075e1f62338df8/skills/kb-retriever",
       "readme_excerpt": "> A skill for AI agents to efficiently answer questions over a **local, multi-format knowledge directory** using hierarchical index navigation and progressive retrieval — without ever loading whole fi",
       "frontmatter": {
         "kind": "skill-md",
@@ -108,8 +186,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+        "default_sha": "fbd6453c984e2a150c9553efe3075e1f62338df8",
         "tags": [
+          "web-video-presentation-v1.2.2",
           "web-video-presentation-v1.2.1",
           "web-video-presentation-v1.2.0",
           "web-video-presentation-v1.1.5",
@@ -117,13 +196,17 @@
           "web-video-presentation-v1.1.1",
           "web-video-presentation-v1.1.0",
           "web-video-presentation-v1.0.0",
+          "web-design-engineer-v1.2.2",
           "web-design-engineer-v1.2.1",
           "web-design-engineer-v1.2.0",
           "web-design-engineer-v1.1.0",
           "web-design-engineer-v1.0.0",
+          "kb-retriever-v1.0.1",
           "kb-retriever-v1.0.0",
+          "gpt-image-2-v1.0.4",
           "gpt-image-2-v1.0.3",
-          "gpt-image-2-v1.0.0"
+          "gpt-image-2-v1.0.0",
+          "beautiful-article-v0.1.0"
         ]
       },
       "trust_score": 42,
@@ -137,9 +220,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 7562,
+          "stars": 8000,
           "contributors": 3,
-          "last_commit": "2026-05-27T08:01:37Z",
+          "last_commit": "2026-06-10T13:43:52Z",
           "archived": false
         }
       }
@@ -148,7 +231,7 @@
       "name": "web-design-engineer",
       "shape": "skill",
       "source_path": "skills/web-design-engineer",
-      "source_url": "https://github.com/ConardLi/garden-skills/tree/e3e9ada877f47d984916d8169b7cf310ea0e2227/skills/web-design-engineer",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/fbd6453c984e2a150c9553efe3075e1f62338df8/skills/web-design-engineer",
       "readme_excerpt": "**An AI agent skill that transforms AI-generated web pages from \"functional\" to \"stunning.\"**",
       "frontmatter": {
         "kind": "skill-md",
@@ -176,8 +259,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+        "default_sha": "fbd6453c984e2a150c9553efe3075e1f62338df8",
         "tags": [
+          "web-video-presentation-v1.2.2",
           "web-video-presentation-v1.2.1",
           "web-video-presentation-v1.2.0",
           "web-video-presentation-v1.1.5",
@@ -185,13 +269,17 @@
           "web-video-presentation-v1.1.1",
           "web-video-presentation-v1.1.0",
           "web-video-presentation-v1.0.0",
+          "web-design-engineer-v1.2.2",
           "web-design-engineer-v1.2.1",
           "web-design-engineer-v1.2.0",
           "web-design-engineer-v1.1.0",
           "web-design-engineer-v1.0.0",
+          "kb-retriever-v1.0.1",
           "kb-retriever-v1.0.0",
+          "gpt-image-2-v1.0.4",
           "gpt-image-2-v1.0.3",
-          "gpt-image-2-v1.0.0"
+          "gpt-image-2-v1.0.0",
+          "beautiful-article-v0.1.0"
         ]
       },
       "trust_score": 42,
@@ -205,9 +293,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 7562,
+          "stars": 8000,
           "contributors": 3,
-          "last_commit": "2026-05-27T08:01:37Z",
+          "last_commit": "2026-06-10T13:43:52Z",
           "archived": false
         }
       }
@@ -216,7 +304,7 @@
       "name": "web-video-presentation",
       "shape": "skill",
       "source_path": "skills/web-video-presentation",
-      "source_url": "https://github.com/ConardLi/garden-skills/tree/e3e9ada877f47d984916d8169b7cf310ea0e2227/skills/web-video-presentation",
+      "source_url": "https://github.com/ConardLi/garden-skills/tree/fbd6453c984e2a150c9553efe3075e1f62338df8/skills/web-video-presentation",
       "readme_excerpt": "**A method-driven agent skill for turning scripts and articles into click-driven 16:9 web presentations that can be screen-recorded as cinematic videos.**",
       "frontmatter": {
         "kind": "skill-md",
@@ -244,8 +332,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "e3e9ada877f47d984916d8169b7cf310ea0e2227",
+        "default_sha": "fbd6453c984e2a150c9553efe3075e1f62338df8",
         "tags": [
+          "web-video-presentation-v1.2.2",
           "web-video-presentation-v1.2.1",
           "web-video-presentation-v1.2.0",
           "web-video-presentation-v1.1.5",
@@ -253,13 +342,17 @@
           "web-video-presentation-v1.1.1",
           "web-video-presentation-v1.1.0",
           "web-video-presentation-v1.0.0",
+          "web-design-engineer-v1.2.2",
           "web-design-engineer-v1.2.1",
           "web-design-engineer-v1.2.0",
           "web-design-engineer-v1.1.0",
           "web-design-engineer-v1.0.0",
+          "kb-retriever-v1.0.1",
           "kb-retriever-v1.0.0",
+          "gpt-image-2-v1.0.4",
           "gpt-image-2-v1.0.3",
-          "gpt-image-2-v1.0.0"
+          "gpt-image-2-v1.0.0",
+          "beautiful-article-v0.1.0"
         ]
       },
       "trust_score": 42,
@@ -273,9 +366,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 7562,
+          "stars": 8000,
           "contributors": 3,
-          "last_commit": "2026-05-27T08:01:37Z",
+          "last_commit": "2026-06-10T13:43:52Z",
           "archived": false
         }
       }
@@ -289,9 +382,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 7562,
+      "stars": 8000,
       "contributors": 3,
-      "last_commit": "2026-05-27T08:01:37Z",
+      "last_commit": "2026-06-10T13:43:52Z",
       "archived": false
     }
   }

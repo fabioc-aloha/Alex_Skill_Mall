@@ -1,8 +1,8 @@
 {
   "store": "imbad-academic-research-skills",
   "source_repo": "https://github.com/Imbad0202/academic-research-skills.git",
-  "generated_at": "2026-05-29T18:48:06.460Z",
-  "scanned_ref": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+  "generated_at": "2026-06-15T13:04:06.250Z",
+  "scanned_ref": "e8ad78f43a57794408ae6aa6913acee12f523012",
   "provenance": false,
   "tier": "domain",
   "license": null,
@@ -12,18 +12,18 @@
       "name": "academic-paper",
       "shape": "skill",
       "source_path": "academic-paper",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/academic-paper",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/academic-paper",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "academic-paper",
-          "description": "12-agent academic paper writing pipeline. 10 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, AI disclosure, 寫論文, 學術論文, 引導我寫論文, 審查意見.",
+          "description": "12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, audit my rebuttal, check my response draft, AI disclosure, 寫論文, 學術論文, 引導我寫論文, 審查意見, 評估回覆.",
           "metadata": ""
         },
         "standard": {
           "name": "academic-paper",
-          "description": "12-agent academic paper writing pipeline. 10 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, AI disclosure, 寫論文, 學術論文, 引導我寫論文, 審查意見.",
+          "description": "12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, audit my rebuttal, check my response draft, AI disclosure, 寫論文, 學術論文, 引導我寫論文, 審查意見, 評估回覆.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -41,8 +41,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -86,9 +88,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -97,7 +99,7 @@
       "name": "academic-paper-reviewer",
       "shape": "skill",
       "source_path": "academic-paper-reviewer",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/academic-paper-reviewer",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/academic-paper-reviewer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -126,8 +128,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -171,9 +175,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -182,7 +186,7 @@
       "name": "academic-pipeline",
       "shape": "skill",
       "source_path": "academic-pipeline",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/academic-pipeline",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/academic-pipeline",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -211,8 +215,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -256,9 +262,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -267,18 +273,18 @@
       "name": "deep-research",
       "shape": "skill",
       "source_path": "deep-research",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/deep-research",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/deep-research",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "deep-research",
-          "description": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 7 modes: full research, quick brief, paper review, lit-review, fact-check, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題.",
+          "description": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-review, fact-check, three-way literature scan, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, WHY HOW WHAT papers, 3W literature scan, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 三段式文獻掃描, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題.",
           "metadata": ""
         },
         "standard": {
           "name": "deep-research",
-          "description": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 7 modes: full research, quick brief, paper review, lit-review, fact-check, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題.",
+          "description": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-review, fact-check, three-way literature scan, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, WHY HOW WHAT papers, 3W literature scan, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 三段式文獻掃描, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -296,8 +302,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -341,9 +349,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -352,7 +360,7 @@
       "name": "evals",
       "shape": "unknown",
       "source_path": "evals",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/evals",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/evals",
       "readme_excerpt": "This directory holds the v3.10 #184 generalized gold sets. Each subdirectory under `gold/` is a self-contained gold set for one measurement target. The structure mirrors the v3.8 `scripts/fixtures/cla",
       "frontmatter": {
         "kind": "none",
@@ -377,8 +385,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -422,9 +432,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -433,7 +443,7 @@
       "name": "showcase",
       "shape": "unknown",
       "source_path": "examples/showcase",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/examples/showcase",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/examples/showcase",
       "readme_excerpt": "Complete artifacts from a real 10-stage academic pipeline run, demonstrating the end-to-end quality assurance process.",
       "frontmatter": {
         "kind": "none",
@@ -458,8 +468,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -503,9 +515,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -514,7 +526,7 @@
       "name": "hooks",
       "shape": "hook",
       "source_path": "hooks",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/hooks",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/hooks",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -539,8 +551,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -584,9 +598,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -595,7 +609,7 @@
       "name": "adapters",
       "shape": "unknown",
       "source_path": "scripts/adapters",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/scripts/adapters",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/scripts/adapters",
       "readme_excerpt": "Reference adapters that produce `literature_corpus[]` entries for the ARS Material Passport. Defined by the adapter contract at [`academic-pipeline/references/adapters/overview.md`](../../academic-pip",
       "frontmatter": {
         "kind": "none",
@@ -620,8 +634,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -665,9 +681,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -676,7 +692,7 @@
       "name": "shared",
       "shape": "agent",
       "source_path": "shared",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/aa54bc9318cb7c0f087cffa32cdde603101fc77c/shared",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/e8ad78f43a57794408ae6aa6913acee12f523012/shared",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -701,8 +717,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "aa54bc9318cb7c0f087cffa32cdde603101fc77c",
+        "default_sha": "e8ad78f43a57794408ae6aa6913acee12f523012",
         "tags": [
+          "v3.12.1",
+          "v3.12.0",
           "v3.11.1",
           "v3.11.0",
           "v3.10.0",
@@ -746,9 +764,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 28823,
-          "contributors": 10,
-          "last_commit": "2026-06-08T06:37:09Z",
+          "stars": 31618,
+          "contributors": 11,
+          "last_commit": "2026-06-15T05:54:12Z",
           "archived": false
         }
       }
@@ -762,9 +780,9 @@
       "adoption": 10,
       "license": 0,
       "license_name": "NOASSERTION",
-      "stars": 28823,
-      "contributors": 10,
-      "last_commit": "2026-06-08T06:37:09Z",
+      "stars": 31618,
+      "contributors": 11,
+      "last_commit": "2026-06-15T05:54:12Z",
       "archived": false
     }
   }

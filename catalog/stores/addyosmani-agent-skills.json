@@ -1,18 +1,18 @@
 {
   "store": "addyosmani-agent-skills",
   "source_repo": "https://github.com/addyosmani/agent-skills.git",
-  "generated_at": "2026-05-29T18:48:06.329Z",
-  "scanned_ref": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+  "generated_at": "2026-06-15T13:04:06.220Z",
+  "scanned_ref": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
-  "plugin_count": 25,
+  "plugin_count": 26,
   "plugins": [
     {
       "name": "agents",
       "shape": "unknown",
       "source_path": "agents",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/agents",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/agents",
       "readme_excerpt": "Specialist personas that play a single role with a single perspective. Each persona is a Markdown file consumed as a system prompt by your harness (Claude Code, Cursor, Copilot, etc.).",
       "frontmatter": {
         "kind": "none",
@@ -37,8 +37,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -55,9 +56,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -66,7 +67,7 @@
       "name": "hooks",
       "shape": "hook",
       "source_path": "hooks",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/hooks",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/hooks",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -91,8 +92,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -109,9 +111,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -120,7 +122,7 @@
       "name": "api-and-interface-design",
       "shape": "skill",
       "source_path": "skills/api-and-interface-design",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/api-and-interface-design",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/api-and-interface-design",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -148,8 +150,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -166,9 +169,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -177,7 +180,7 @@
       "name": "browser-testing-with-devtools",
       "shape": "skill",
       "source_path": "skills/browser-testing-with-devtools",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/browser-testing-with-devtools",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/browser-testing-with-devtools",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -205,8 +208,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -223,9 +227,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -234,7 +238,7 @@
       "name": "ci-cd-and-automation",
       "shape": "skill",
       "source_path": "skills/ci-cd-and-automation",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/ci-cd-and-automation",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/ci-cd-and-automation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -262,8 +266,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -280,9 +285,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -291,7 +296,7 @@
       "name": "code-review-and-quality",
       "shape": "skill",
       "source_path": "skills/code-review-and-quality",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/code-review-and-quality",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/code-review-and-quality",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -319,8 +324,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -337,9 +343,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -348,7 +354,7 @@
       "name": "code-simplification",
       "shape": "skill",
       "source_path": "skills/code-simplification",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/code-simplification",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/code-simplification",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -376,8 +382,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -394,9 +401,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -405,7 +412,7 @@
       "name": "context-engineering",
       "shape": "skill",
       "source_path": "skills/context-engineering",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/context-engineering",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/context-engineering",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -433,8 +440,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -451,9 +459,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -462,7 +470,7 @@
       "name": "debugging-and-error-recovery",
       "shape": "skill",
       "source_path": "skills/debugging-and-error-recovery",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/debugging-and-error-recovery",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/debugging-and-error-recovery",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -490,8 +498,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -508,9 +517,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -519,7 +528,7 @@
       "name": "deprecation-and-migration",
       "shape": "skill",
       "source_path": "skills/deprecation-and-migration",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/deprecation-and-migration",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/deprecation-and-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -547,8 +556,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -565,9 +575,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -576,7 +586,7 @@
       "name": "documentation-and-adrs",
       "shape": "skill",
       "source_path": "skills/documentation-and-adrs",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/documentation-and-adrs",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/documentation-and-adrs",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -604,8 +614,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -622,9 +633,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -633,7 +644,7 @@
       "name": "doubt-driven-development",
       "shape": "skill",
       "source_path": "skills/doubt-driven-development",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/doubt-driven-development",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/doubt-driven-development",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -661,8 +672,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -679,9 +691,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -690,7 +702,7 @@
       "name": "frontend-ui-engineering",
       "shape": "skill",
       "source_path": "skills/frontend-ui-engineering",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/frontend-ui-engineering",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/frontend-ui-engineering",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -718,8 +730,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -736,9 +749,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -747,7 +760,7 @@
       "name": "git-workflow-and-versioning",
       "shape": "skill",
       "source_path": "skills/git-workflow-and-versioning",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/git-workflow-and-versioning",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/git-workflow-and-versioning",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -775,8 +788,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -793,9 +807,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -804,7 +818,7 @@
       "name": "idea-refine",
       "shape": "skill",
       "source_path": "skills/idea-refine",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/idea-refine",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/idea-refine",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -832,8 +846,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -850,9 +865,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -861,7 +876,7 @@
       "name": "incremental-implementation",
       "shape": "skill",
       "source_path": "skills/incremental-implementation",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/incremental-implementation",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/incremental-implementation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -889,8 +904,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -907,9 +923,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -918,7 +934,7 @@
       "name": "interview-me",
       "shape": "skill",
       "source_path": "skills/interview-me",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/interview-me",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/interview-me",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -946,8 +962,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -964,9 +981,67 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "observability-and-instrumentation",
+      "shape": "skill",
+      "source_path": "skills/observability-and-instrumentation",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/observability-and-instrumentation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "observability-and-instrumentation",
+          "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data."
+        },
+        "standard": {
+          "name": "observability-and-instrumentation",
+          "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
+        "tags": [
+          "0.6.2",
+          "0.6.1",
+          "0.6.0",
+          "0.5.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -975,7 +1050,7 @@
       "name": "performance-optimization",
       "shape": "skill",
       "source_path": "skills/performance-optimization",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/performance-optimization",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/performance-optimization",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1003,8 +1078,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -1021,9 +1097,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -1032,7 +1108,7 @@
       "name": "planning-and-task-breakdown",
       "shape": "skill",
       "source_path": "skills/planning-and-task-breakdown",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/planning-and-task-breakdown",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/planning-and-task-breakdown",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1060,8 +1136,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -1078,9 +1155,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -1089,7 +1166,7 @@
       "name": "security-and-hardening",
       "shape": "skill",
       "source_path": "skills/security-and-hardening",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/security-and-hardening",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/security-and-hardening",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1117,8 +1194,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -1135,9 +1213,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -1146,7 +1224,7 @@
       "name": "shipping-and-launch",
       "shape": "skill",
       "source_path": "skills/shipping-and-launch",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/shipping-and-launch",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/shipping-and-launch",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1174,8 +1252,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -1192,9 +1271,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -1203,7 +1282,7 @@
       "name": "source-driven-development",
       "shape": "skill",
       "source_path": "skills/source-driven-development",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/source-driven-development",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/source-driven-development",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1231,8 +1310,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -1249,9 +1329,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -1260,7 +1340,7 @@
       "name": "spec-driven-development",
       "shape": "skill",
       "source_path": "skills/spec-driven-development",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/spec-driven-development",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/spec-driven-development",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1288,8 +1368,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -1306,9 +1387,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -1317,7 +1398,7 @@
       "name": "test-driven-development",
       "shape": "skill",
       "source_path": "skills/test-driven-development",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/test-driven-development",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/test-driven-development",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1345,8 +1426,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -1363,9 +1445,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -1374,7 +1456,7 @@
       "name": "using-agent-skills",
       "shape": "skill",
       "source_path": "skills/using-agent-skills",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/c076972e2626fe2acc30b00a6c7240d4c5fb786a/skills/using-agent-skills",
+      "source_url": "https://github.com/addyosmani/agent-skills/tree/3a6fc6392823e31e2362091bd4e3cddf5b77af14/skills/using-agent-skills",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1402,8 +1484,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c076972e2626fe2acc30b00a6c7240d4c5fb786a",
+        "default_sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
         "tags": [
+          "0.6.2",
           "0.6.1",
           "0.6.0",
           "0.5.0"
@@ -1420,9 +1503,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 49073,
-          "contributors": 29,
-          "last_commit": "2026-06-07T22:33:29Z",
+          "stars": 60020,
+          "contributors": 34,
+          "last_commit": "2026-06-14T08:41:45Z",
           "archived": false
         }
       }
@@ -1436,9 +1519,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 49073,
-      "contributors": 29,
-      "last_commit": "2026-06-07T22:33:29Z",
+      "stars": 60020,
+      "contributors": 34,
+      "last_commit": "2026-06-14T08:41:45Z",
       "archived": false
     }
   }
