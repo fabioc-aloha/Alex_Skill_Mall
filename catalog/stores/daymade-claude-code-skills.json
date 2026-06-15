@@ -1,18 +1,18 @@
 {
   "store": "daymade-claude-code-skills",
   "source_repo": "https://github.com/daymade/claude-code-skills.git",
-  "generated_at": "2026-06-08T12:31:32.762Z",
-  "scanned_ref": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+  "generated_at": "2026-06-15T13:04:06.252Z",
+  "scanned_ref": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
-  "plugin_count": 62,
+  "plugin_count": 65,
   "plugins": [
     {
       "name": "auto-repo-setup",
       "shape": "skill",
       "source_path": "auto-repo-setup",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/auto-repo-setup",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/auto-repo-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -41,8 +41,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -78,9 +79,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -89,7 +90,7 @@
       "name": "benchmark-due-diligence",
       "shape": "skill",
       "source_path": "benchmark-due-diligence",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/benchmark-due-diligence",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/benchmark-due-diligence",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -117,8 +118,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -154,9 +156,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -165,7 +167,7 @@
       "name": "bigdata-skill",
       "shape": "skill",
       "source_path": "bigdata-skill",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/bigdata-skill",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/bigdata-skill",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -193,8 +195,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -230,9 +233,86 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "bilibili-source",
+      "shape": "skill",
+      "source_path": "bilibili-source",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/bilibili-source",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "bilibili-source",
+          "description": "Fetch comprehensive, login-free data for any Bilibili (B站) video — title, UP name and follower count, publish date, partition, tags, per-part cids, live stats (view, like, coin, favorite, share, reply, danmaku), and full danmaku (bullet-comment) text. Use this skill whenever working with a Bilibili video and needing real, citable numbers or metadata — ingesting a Bilibili source into a knowledge base, analyzing why a video performed, verifying a creator's claimed metrics, building a case study, or any time a Bilibili view/like/favorite count is about to be written into a document — fetch it, never hand-type or estimate it. Accepts BVID, av numbers, b23.tv short links, or full URLs. Subtitles are also covered but require the user's Bilibili login."
+        },
+        "standard": {
+          "name": "bilibili-source",
+          "description": "Fetch comprehensive, login-free data for any Bilibili (B站) video — title, UP name and follower count, publish date, partition, tags, per-part cids, live stats (view, like, coin, favorite, share, reply, danmaku), and full danmaku (bullet-comment) text. Use this skill whenever working with a Bilibili video and needing real, citable numbers or metadata — ingesting a Bilibili source into a knowledge base, analyzing why a video performed, verifying a creator's claimed metrics, building a case study, or any time a Bilibili view/like/favorite count is about to be written into a document — fetch it, never hand-type or estimate it. Accepts BVID, av numbers, b23.tv short links, or full URLs. Subtitles are also covered but require the user's Bilibili login.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -241,7 +321,7 @@
       "name": "capture-screen",
       "shape": "skill",
       "source_path": "capture-screen",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/capture-screen",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/capture-screen",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -269,8 +349,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -306,9 +387,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -317,7 +398,7 @@
       "name": "cli-demo-generator",
       "shape": "skill",
       "source_path": "cli-demo-generator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/cli-demo-generator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/cli-demo-generator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -345,8 +426,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -382,9 +464,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -393,7 +475,7 @@
       "name": "cloudflare-troubleshooting",
       "shape": "skill",
       "source_path": "cloudflare-troubleshooting",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/cloudflare-troubleshooting",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/cloudflare-troubleshooting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -421,8 +503,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -458,9 +541,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -469,7 +552,7 @@
       "name": "competitors-analysis",
       "shape": "skill",
       "source_path": "competitors-analysis",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/competitors-analysis",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/competitors-analysis",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -500,8 +583,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -537,9 +621,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -548,7 +632,7 @@
       "name": "asr-transcribe-to-text",
       "shape": "skill",
       "source_path": "daymade-audio/asr-transcribe-to-text",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-audio/asr-transcribe-to-text",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-audio/asr-transcribe-to-text",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -577,8 +661,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -614,9 +699,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -625,7 +710,7 @@
       "name": "meeting-minutes-taker",
       "shape": "skill",
       "source_path": "daymade-audio/meeting-minutes-taker",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-audio/meeting-minutes-taker",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-audio/meeting-minutes-taker",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -653,8 +738,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -690,9 +776,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -701,7 +787,7 @@
       "name": "stepfun-asr",
       "shape": "skill",
       "source_path": "daymade-audio/stepfun-asr",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-audio/stepfun-asr",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-audio/stepfun-asr",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -729,8 +815,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -766,9 +853,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -777,7 +864,7 @@
       "name": "stepfun-tts",
       "shape": "skill",
       "source_path": "daymade-audio/stepfun-tts",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-audio/stepfun-tts",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-audio/stepfun-tts",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -805,8 +892,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -842,9 +930,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -853,7 +941,7 @@
       "name": "transcript-fixer",
       "shape": "skill",
       "source_path": "daymade-audio/transcript-fixer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-audio/transcript-fixer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-audio/transcript-fixer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -881,8 +969,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -918,9 +1007,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -929,7 +1018,7 @@
       "name": "claude-code-history-files-finder",
       "shape": "skill",
       "source_path": "daymade-claude-code/claude-code-history-files-finder",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-claude-code/claude-code-history-files-finder",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/claude-code-history-files-finder",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -957,8 +1046,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -994,9 +1084,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1005,7 +1095,7 @@
       "name": "claude-export-txt-better",
       "shape": "skill",
       "source_path": "daymade-claude-code/claude-export-txt-better",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-claude-code/claude-export-txt-better",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/claude-export-txt-better",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1033,8 +1123,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1070,9 +1161,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1081,7 +1172,7 @@
       "name": "claude-md-progressive-disclosurer",
       "shape": "skill",
       "source_path": "daymade-claude-code/claude-md-progressive-disclosurer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-claude-code/claude-md-progressive-disclosurer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/claude-md-progressive-disclosurer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1109,8 +1200,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1146,9 +1238,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1157,7 +1249,7 @@
       "name": "claude-skills-troubleshooting",
       "shape": "skill",
       "source_path": "daymade-claude-code/claude-skills-troubleshooting",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-claude-code/claude-skills-troubleshooting",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/claude-skills-troubleshooting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1185,8 +1277,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1222,9 +1315,86 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "claude-usage-analyst",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/claude-usage-analyst",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/claude-usage-analyst",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "claude-usage-analyst",
+          "description": "Analyze Claude Code and Claude Desktop Code token usage, cost, quota burn, model mix, cache read/write, and 5-hour block consumption using ccusage evidence. Use when the user asks why Claude quota was exhausted, whether a model such as fable/opus/sonnet is unusually expensive, how many tokens were spent today or historically, or needs a human-friendly explanation of local Claude Code CLI/Desktop usage."
+        },
+        "standard": {
+          "name": "claude-usage-analyst",
+          "description": "Analyze Claude Code and Claude Desktop Code token usage, cost, quota burn, model mix, cache read/write, and 5-hour block consumption using ccusage evidence. Use when the user asks why Claude quota was exhausted, whether a model such as fable/opus/sonnet is unusually expensive, how many tokens were spent today or historically, or needs a human-friendly explanation of local Claude Code CLI/Desktop usage.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1233,7 +1403,7 @@
       "name": "continue-claude-work",
       "shape": "skill",
       "source_path": "daymade-claude-code/continue-claude-work",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-claude-code/continue-claude-work",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/continue-claude-work",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1262,8 +1432,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1299,9 +1470,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1310,7 +1481,7 @@
       "name": "marketplace-dev",
       "shape": "hook",
       "source_path": "daymade-claude-code/marketplace-dev",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-claude-code/marketplace-dev",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/marketplace-dev",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1339,8 +1510,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1376,9 +1548,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1387,7 +1559,7 @@
       "name": "statusline-generator",
       "shape": "skill",
       "source_path": "daymade-claude-code/statusline-generator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-claude-code/statusline-generator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/statusline-generator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1415,8 +1587,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1452,9 +1625,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1463,7 +1636,7 @@
       "name": "terminal-screenshot",
       "shape": "skill",
       "source_path": "daymade-claude-code/terminal-screenshot",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-claude-code/terminal-screenshot",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-claude-code/terminal-screenshot",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1491,8 +1664,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1528,9 +1702,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1539,7 +1713,7 @@
       "name": "doc-to-markdown",
       "shape": "skill",
       "source_path": "daymade-docs/doc-to-markdown",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-docs/doc-to-markdown",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-docs/doc-to-markdown",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1567,8 +1741,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1604,9 +1779,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1615,7 +1790,7 @@
       "name": "docs-cleaner",
       "shape": "skill",
       "source_path": "daymade-docs/docs-cleaner",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-docs/docs-cleaner",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-docs/docs-cleaner",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1643,8 +1818,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1680,9 +1856,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1691,7 +1867,7 @@
       "name": "mermaid-tools",
       "shape": "skill",
       "source_path": "daymade-docs/mermaid-tools",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-docs/mermaid-tools",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-docs/mermaid-tools",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1719,8 +1895,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1756,9 +1933,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1767,7 +1944,7 @@
       "name": "pdf-creator",
       "shape": "skill",
       "source_path": "daymade-docs/pdf-creator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-docs/pdf-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-docs/pdf-creator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1795,8 +1972,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1832,9 +2010,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1843,7 +2021,7 @@
       "name": "pdf-to-html",
       "shape": "skill",
       "source_path": "daymade-docs/pdf-to-html",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-docs/pdf-to-html",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-docs/pdf-to-html",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1871,8 +2049,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1908,9 +2087,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1919,7 +2098,7 @@
       "name": "ppt-creator",
       "shape": "skill",
       "source_path": "daymade-docs/ppt-creator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-docs/ppt-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-docs/ppt-creator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1947,8 +2126,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -1984,9 +2164,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -1995,7 +2175,7 @@
       "name": "skill-creator",
       "shape": "skill",
       "source_path": "daymade-skill/skill-creator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-skill/skill-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-skill/skill-creator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2024,8 +2204,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2061,9 +2242,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2072,7 +2253,7 @@
       "name": "skill-reviewer",
       "shape": "skill",
       "source_path": "daymade-skill/skill-reviewer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-skill/skill-reviewer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-skill/skill-reviewer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2100,8 +2281,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2137,9 +2319,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2148,7 +2330,7 @@
       "name": "skills-search",
       "shape": "skill",
       "source_path": "daymade-skill/skills-search",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/daymade-skill/skills-search",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/daymade-skill/skills-search",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2180,8 +2362,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2217,9 +2400,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2228,7 +2411,7 @@
       "name": "debugging-network-issues",
       "shape": "skill",
       "source_path": "debugging-network-issues",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/debugging-network-issues",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/debugging-network-issues",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2256,8 +2439,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2293,9 +2477,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2304,7 +2488,7 @@
       "name": "deep-research",
       "shape": "skill",
       "source_path": "deep-research",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/deep-research",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/deep-research",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2332,8 +2516,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2369,9 +2554,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2380,7 +2565,7 @@
       "name": "demos",
       "shape": "unknown",
       "source_path": "demos",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/demos",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/demos",
       "readme_excerpt": "This directory contains automated demonstrations of each skill using [VHS (Video Home System)](https://github.com/charmbracelet/vhs) by Charmbracelet.",
       "frontmatter": {
         "kind": "none",
@@ -2405,8 +2590,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2442,9 +2628,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2453,7 +2639,7 @@
       "name": "douban-skill",
       "shape": "skill",
       "source_path": "douban-skill",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/douban-skill",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/douban-skill",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2481,8 +2667,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2518,9 +2705,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2529,7 +2716,7 @@
       "name": "excel-automation",
       "shape": "skill",
       "source_path": "excel-automation",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/excel-automation",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/excel-automation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2557,8 +2744,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2594,9 +2782,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2605,7 +2793,7 @@
       "name": "fact-checker",
       "shape": "skill",
       "source_path": "fact-checker",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/fact-checker",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/fact-checker",
       "readme_excerpt": "Verify factual claims in documents using web search and official sources, then apply corrections with user confirmation.",
       "frontmatter": {
         "kind": "skill-md",
@@ -2633,8 +2821,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2670,9 +2859,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2681,7 +2870,7 @@
       "name": "feishu-doc-scraper",
       "shape": "skill",
       "source_path": "feishu-doc-scraper",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/feishu-doc-scraper",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/feishu-doc-scraper",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2711,8 +2900,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2748,9 +2938,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2759,7 +2949,7 @@
       "name": "financial-data-collector",
       "shape": "skill",
       "source_path": "financial-data-collector",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/financial-data-collector",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/financial-data-collector",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2787,8 +2977,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2824,9 +3015,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2835,7 +3026,7 @@
       "name": "gangtise-copilot",
       "shape": "skill",
       "source_path": "gangtise-copilot",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/gangtise-copilot",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/gangtise-copilot",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2863,8 +3054,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2900,9 +3092,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2911,7 +3103,7 @@
       "name": "github-contributor",
       "shape": "skill",
       "source_path": "github-contributor",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/github-contributor",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/github-contributor",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2939,8 +3131,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -2976,9 +3169,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -2987,7 +3180,7 @@
       "name": "github-ops",
       "shape": "skill",
       "source_path": "github-ops",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/github-ops",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/github-ops",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3015,8 +3208,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3052,9 +3246,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3063,7 +3257,7 @@
       "name": "i18n-expert",
       "shape": "skill",
       "source_path": "i18n-expert",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/i18n-expert",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/i18n-expert",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3091,8 +3285,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3128,9 +3323,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3139,7 +3334,7 @@
       "name": "iOS-APP-developer",
       "shape": "skill",
       "source_path": "iOS-APP-developer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/iOS-APP-developer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/iOS-APP-developer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3167,8 +3362,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3204,9 +3400,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3215,7 +3411,7 @@
       "name": "ima-copilot",
       "shape": "skill",
       "source_path": "ima-copilot",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/ima-copilot",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/ima-copilot",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3243,8 +3439,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3280,9 +3477,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3291,7 +3488,7 @@
       "name": "llm-icon-finder",
       "shape": "skill",
       "source_path": "llm-icon-finder",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/llm-icon-finder",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/llm-icon-finder",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3319,8 +3516,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3356,9 +3554,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3367,7 +3565,7 @@
       "name": "llm-wiki-setup",
       "shape": "skill",
       "source_path": "llm-wiki-setup",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/llm-wiki-setup",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/llm-wiki-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3395,8 +3593,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3432,9 +3631,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3443,7 +3642,7 @@
       "name": "macos-cleaner",
       "shape": "skill",
       "source_path": "macos-cleaner",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/macos-cleaner",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/macos-cleaner",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3471,8 +3670,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3508,9 +3708,86 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "marketplace-health-check",
+      "shape": "skill",
+      "source_path": "marketplace-health-check",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/marketplace-health-check",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "marketplace-health-check",
+          "description": ""
+        },
+        "standard": {
+          "name": "marketplace-health-check",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3519,7 +3796,7 @@
       "name": "product-analysis",
       "shape": "skill",
       "source_path": "product-analysis",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/product-analysis",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/product-analysis",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3548,8 +3825,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3585,9 +3863,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3596,7 +3874,7 @@
       "name": "prompt-optimizer",
       "shape": "skill",
       "source_path": "prompt-optimizer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/prompt-optimizer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/prompt-optimizer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3624,8 +3902,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3661,9 +3940,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3672,7 +3951,7 @@
       "name": "promptfoo-evaluation",
       "shape": "skill",
       "source_path": "promptfoo-evaluation",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/promptfoo-evaluation",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/promptfoo-evaluation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3700,8 +3979,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3737,9 +4017,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3748,7 +4028,7 @@
       "name": "qa-expert",
       "shape": "skill",
       "source_path": "qa-expert",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/qa-expert",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/qa-expert",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3788,8 +4068,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3825,9 +4106,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3836,7 +4117,7 @@
       "name": "repomix-safe-mixer",
       "shape": "skill",
       "source_path": "repomix-safe-mixer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/repomix-safe-mixer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/repomix-safe-mixer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3864,8 +4145,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3901,9 +4183,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3912,7 +4194,7 @@
       "name": "repomix-unmixer",
       "shape": "skill",
       "source_path": "repomix-unmixer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/repomix-unmixer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/repomix-unmixer",
       "readme_excerpt": "A Claude Code skill for extracting files from repomix-packed repositories and restoring their original directory structure.",
       "frontmatter": {
         "kind": "skill-md",
@@ -3940,8 +4222,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -3977,9 +4260,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -3988,7 +4271,7 @@
       "name": "scrapling-skill",
       "shape": "skill",
       "source_path": "scrapling-skill",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/scrapling-skill",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/scrapling-skill",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4016,8 +4299,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4053,9 +4337,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4064,7 +4348,7 @@
       "name": "slides-creator",
       "shape": "skill",
       "source_path": "slides-creator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/slides-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/slides-creator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4094,8 +4378,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4131,9 +4416,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4142,7 +4427,7 @@
       "name": "teams-channel-post-writer",
       "shape": "skill",
       "source_path": "teams-channel-post-writer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/teams-channel-post-writer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/teams-channel-post-writer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4170,8 +4455,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4207,9 +4493,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4218,7 +4504,7 @@
       "name": "terraform-skill",
       "shape": "skill",
       "source_path": "terraform-skill",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/terraform-skill",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/terraform-skill",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4246,8 +4532,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4283,9 +4570,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4294,7 +4581,7 @@
       "name": "tunnel-doctor",
       "shape": "skill",
       "source_path": "tunnel-doctor",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/tunnel-doctor",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/tunnel-doctor",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4328,8 +4615,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4365,9 +4653,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4376,7 +4664,7 @@
       "name": "twitter-reader",
       "shape": "skill",
       "source_path": "twitter-reader",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/twitter-reader",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/twitter-reader",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4404,8 +4692,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4441,9 +4730,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4452,7 +4741,7 @@
       "name": "ui-designer",
       "shape": "skill",
       "source_path": "ui-designer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/ui-designer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/ui-designer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4480,8 +4769,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4517,9 +4807,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4528,7 +4818,7 @@
       "name": "video-comparer",
       "shape": "skill",
       "source_path": "video-comparer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/video-comparer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/video-comparer",
       "readme_excerpt": "A professional video comparison tool that analyzes compression quality and generates interactive HTML reports. Compare original vs compressed videos with detailed metrics (PSNR, SSIM) and frame-by-fra",
       "frontmatter": {
         "kind": "skill-md",
@@ -4556,8 +4846,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4593,9 +4884,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4604,7 +4895,7 @@
       "name": "windows-remote-desktop-connection-doctor",
       "shape": "skill",
       "source_path": "windows-remote-desktop-connection-doctor",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/windows-remote-desktop-connection-doctor",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/windows-remote-desktop-connection-doctor",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4637,8 +4928,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4674,9 +4966,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4685,7 +4977,7 @@
       "name": "youtube-downloader",
       "shape": "skill",
       "source_path": "youtube-downloader",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/0f104eae6f90629f3a9df52c3ec332efbbdeb64f/youtube-downloader",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/dde45c2105516aa703667ea8d21dd85cd3b6ec1e/youtube-downloader",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4713,8 +5005,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0f104eae6f90629f3a9df52c3ec332efbbdeb64f",
+        "default_sha": "dde45c2105516aa703667ea8d21dd85cd3b6ec1e",
         "tags": [
+          "v1.64.0",
           "v1.60.1",
           "v1.37.0",
           "v1.33.0",
@@ -4750,9 +5043,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1161,
-          "contributors": 3,
-          "last_commit": "2026-06-06T19:54:25Z",
+          "stars": 1182,
+          "contributors": 4,
+          "last_commit": "2026-06-14T10:01:47Z",
           "archived": false
         }
       }
@@ -4766,9 +5059,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1161,
-      "contributors": 3,
-      "last_commit": "2026-06-06T19:54:25Z",
+      "stars": 1182,
+      "contributors": 4,
+      "last_commit": "2026-06-14T10:01:47Z",
       "archived": false
     }
   }

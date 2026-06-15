@@ -1,24 +1,75 @@
 {
   "store": "rust-skills",
   "source_repo": "https://github.com/leonardomso/rust-skills.git",
-  "generated_at": "2026-05-29T18:48:06.299Z",
-  "scanned_ref": "89910e8585331dabbecd400ae132b4070ecf24af",
+  "generated_at": "2026-06-15T13:04:06.213Z",
+  "scanned_ref": "fd2a861ab0406a4ac536a55274d14ea6fd1ca9c9",
   "provenance": false,
   "tier": "domain",
   "license": null,
-  "plugin_count": 0,
-  "plugins": [],
+  "plugin_count": 1,
+  "plugins": [
+    {
+      "name": "checks",
+      "shape": "unknown",
+      "source_path": "checks",
+      "source_url": "https://github.com/leonardomso/rust-skills/tree/fd2a861ab0406a4ac536a55274d14ea6fd1ca9c9/checks",
+      "readme_excerpt": "A dev tool that type-checks the ` ```rust ` code blocks in `../rules/*.md` so the",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "checks",
+          "description": "A dev tool that type-checks the ` ```rust ` code blocks in `../rules/*.md` so the",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "fd2a861ab0406a4ac536a55274d14ea6fd1ca9c9",
+        "tags": []
+      },
+      "trust_score": 38,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 258,
+          "contributors": null,
+          "last_commit": "2026-06-14T22:51:13Z",
+          "archived": false
+        }
+      }
+    }
+  ],
   "store_trust": {
-    "score": 25,
+    "score": 28,
     "signals": {
       "provenance": 0,
-      "maintenance": 12,
+      "maintenance": 15,
       "adoption": 3,
       "license": 10,
       "license_name": "MIT",
-      "stars": 241,
+      "stars": 258,
       "contributors": null,
-      "last_commit": "2026-04-26T09:40:14Z",
+      "last_commit": "2026-06-14T22:51:13Z",
       "archived": false
     }
   }
