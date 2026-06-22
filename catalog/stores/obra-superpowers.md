@@ -2,27 +2,27 @@
 
 **Source:** [obra/superpowers](https://github.com/obra/superpowers)
 **Store trust:** 35/100
-**Signals:** maintenance 15 · adoption 10 · license 10 (MIT) · 228471 stars · 27 contributors
-**Scanned ref:** `6fd450765978`
+**Signals:** maintenance 15 · adoption 10 · license 10 (MIT) · 235662 stars · 36 contributors
+**Scanned ref:** `896224c4b187`
 
 ## Plugins (14)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 40 | [`brainstorming`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/brainstorming) | skill | - | You MUST use this before any creative work - creating features, building components, adding functio… |
-| 40 | [`dispatching-parallel-agents`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/dispatching-parallel-agents) | skill | - | Use when facing 2+ independent tasks that can be worked on without shared state or sequential depen… |
-| 40 | [`executing-plans`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/executing-plans) | skill | - | Use when you have a written implementation plan to execute in a separate session with review checkp… |
-| 40 | [`finishing-a-development-branch`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/finishing-a-development-branch) | skill | - | Use when implementation is complete, all tests pass, and you need to decide how to integrate the wo… |
-| 40 | [`receiving-code-review`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/receiving-code-review) | skill | - | Use when receiving code review feedback, before implementing suggestions, especially if feedback se… |
-| 40 | [`requesting-code-review`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/requesting-code-review) | skill | - | Use when completing tasks, implementing major features, or before merging to verify work meets requ… |
-| 40 | [`subagent-driven-development`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/subagent-driven-development) | skill | - | Use when executing implementation plans with independent tasks in the current session |
-| 40 | [`systematic-debugging`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/systematic-debugging) | skill | - | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
-| 40 | [`test-driven-development`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/test-driven-development) | skill | - | Use when implementing any feature or bugfix, before writing implementation code |
-| 40 | [`using-git-worktrees`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/using-git-worktrees) | skill | - | Use when starting feature work that needs isolation from current workspace or before executing impl… |
-| 40 | [`using-superpowers`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/using-superpowers) | skill | - | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool i… |
-| 40 | [`verification-before-completion`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/verification-before-completion) | skill | - | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - re… |
-| 40 | [`writing-plans`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/writing-plans) | skill | - | Use when you have a spec or requirements for a multi-step task, before touching code |
-| 40 | [`writing-skills`](https://github.com/obra/superpowers/tree/6fd4507659784c351abbd2bc264c7162cfd386dc/skills/writing-skills) | skill | - | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
+| 40 | [`brainstorming`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/brainstorming) | skill | - | You MUST use this before any creative work - creating features, building components, adding functio… |
+| 40 | [`dispatching-parallel-agents`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/dispatching-parallel-agents) | skill | - | Use when facing 2+ independent tasks that can be worked on without shared state or sequential depen… |
+| 40 | [`executing-plans`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/executing-plans) | skill | - | Use when you have a written implementation plan to execute in a separate session with review checkp… |
+| 40 | [`finishing-a-development-branch`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/finishing-a-development-branch) | skill | - | Use when implementation is complete, all tests pass, and you need to decide how to integrate the wo… |
+| 40 | [`receiving-code-review`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/receiving-code-review) | skill | - | Use when receiving code review feedback, before implementing suggestions, especially if feedback se… |
+| 40 | [`requesting-code-review`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/requesting-code-review) | skill | - | Use when completing tasks, implementing major features, or before merging to verify work meets requ… |
+| 40 | [`subagent-driven-development`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/subagent-driven-development) | skill | - | Use when executing implementation plans with independent tasks in the current session |
+| 40 | [`systematic-debugging`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/systematic-debugging) | skill | - | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
+| 40 | [`test-driven-development`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/test-driven-development) | skill | - | Use when implementing any feature or bugfix, before writing implementation code |
+| 40 | [`using-git-worktrees`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-git-worktrees) | skill | - | Use when starting feature work that needs isolation from current workspace or before executing impl… |
+| 40 | [`using-superpowers`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-superpowers) | skill | - | Use when starting any conversation - establishes how to find and use skills, requiring skill invoca… |
+| 40 | [`verification-before-completion`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/verification-before-completion) | skill | - | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - re… |
+| 40 | [`writing-plans`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/writing-plans) | skill | - | Use when you have a spec or requirements for a multi-step task, before touching code |
+| 40 | [`writing-skills`](https://github.com/obra/superpowers/tree/896224c4b1879920ab573417e68fd51d2ccc9072/skills/writing-skills) | skill | - | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-06-15T13:04:30.292Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-06-22T13:00:18.838Z*
