@@ -1,29 +1,29 @@
 # everything-claude-code
 
 **Source:** [WorldFlowAI/everything-claude-code](https://github.com/WorldFlowAI/everything-claude-code)
-**Store trust:** 14/100
-**Signals:** maintenance 9 · adoption 5 · license 0 · 196 stars · 4 contributors
+**Store trust:** 16/100
+**Signals:** maintenance 9 · adoption 7 · license 0 · 241 stars · 4 contributors
 **Scanned ref:** `432485ba6b92`
 
 ## Plugins (15)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 24 | [`plugins`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/plugins) | unknown | - | Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - s… |
-| 19 | [`backend-patterns`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/backend-patterns) | skill | - | Backend architecture patterns, API design, database optimization, and server-side best practices fo… |
-| 19 | [`clickhouse-io`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/clickhouse-io) | skill | - | ClickHouse database patterns, query optimization, analytics, and data engineering best practices fo… |
-| 19 | [`coding-standards`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/coding-standards) | skill | - | Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Nod… |
-| 19 | [`continuous-learning`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/continuous-learning) | skill | - | Automatically extract reusable patterns from Claude Code sessions and save them as learned skills f… |
-| 19 | [`frontend-patterns`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/frontend-patterns) | skill | - | Frontend development patterns for React, Next.js, state management, performance optimization, and U… |
-| 19 | [`security-review`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/security-review) | skill | - | Use this skill when adding authentication, handling user input, working with secrets, creating API … |
-| 19 | [`strategic-compact`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/strategic-compact) | skill | - | Suggests manual context compaction at logical intervals to preserve context through task phases rat… |
-| 19 | [`tdd-workflow`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/tdd-workflow) | skill | - | Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven de… |
-| 14 | [`eval-harness`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/eval-harness) | skill | - |  |
-| 14 | [`hooks`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/hooks) | hook | - |  |
-| 14 | [`project-guidelines-example`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/project-guidelines-example) | skill | - |  |
-| 14 | [`scripts`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/scripts) | hook | - |  |
-| 14 | [`tests`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/tests) | hook | - |  |
-| 14 | [`verification-loop`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/verification-loop) | skill | - |  |
+| 26 | [`plugins`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/plugins) | unknown | - | Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - s… |
+| 21 | [`backend-patterns`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/backend-patterns) | skill | - | Backend architecture patterns, API design, database optimization, and server-side best practices fo… |
+| 21 | [`clickhouse-io`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/clickhouse-io) | skill | - | ClickHouse database patterns, query optimization, analytics, and data engineering best practices fo… |
+| 21 | [`coding-standards`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/coding-standards) | skill | - | Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Nod… |
+| 21 | [`continuous-learning`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/continuous-learning) | skill | - | Automatically extract reusable patterns from Claude Code sessions and save them as learned skills f… |
+| 21 | [`frontend-patterns`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/frontend-patterns) | skill | - | Frontend development patterns for React, Next.js, state management, performance optimization, and U… |
+| 21 | [`security-review`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/security-review) | skill | - | Use this skill when adding authentication, handling user input, working with secrets, creating API … |
+| 21 | [`strategic-compact`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/strategic-compact) | skill | - | Suggests manual context compaction at logical intervals to preserve context through task phases rat… |
+| 21 | [`tdd-workflow`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/tdd-workflow) | skill | - | Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven de… |
+| 16 | [`eval-harness`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/eval-harness) | skill | - |  |
+| 16 | [`hooks`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/hooks) | hook | - |  |
+| 16 | [`project-guidelines-example`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/project-guidelines-example) | skill | - |  |
+| 16 | [`scripts`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/scripts) | hook | - |  |
+| 16 | [`tests`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/tests) | hook | - |  |
+| 16 | [`verification-loop`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/verification-loop) | skill | - |  |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-06-15T13:04:30.292Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-06-22T13:00:18.838Z*

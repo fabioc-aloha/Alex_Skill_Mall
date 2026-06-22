@@ -1,8 +1,8 @@
 {
   "store": "planning-with-files",
   "source_repo": "https://github.com/OthmanAdi/planning-with-files.git",
-  "generated_at": "2026-05-29T18:48:06.005Z",
-  "scanned_ref": "c020bdd56569733df4017f4ccf76bd13245adcaa",
+  "generated_at": "2026-06-22T12:59:40.238Z",
+  "scanned_ref": "8f5a3c2e1c347635cf94debde033b3c1ac97e4ab",
   "provenance": false,
   "tier": "reference",
   "license": null,
@@ -12,13 +12,13 @@
       "name": "planning-with-files",
       "shape": "skill",
       "source_path": "skills/planning-with-files",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/c020bdd56569733df4017f4ccf76bd13245adcaa/skills/planning-with-files",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/8f5a3c2e1c347635cf94debde033b3c1ac97e4ab/skills/planning-with-files",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "planning-with-files",
-          "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
+          "description": "Manus-style persistent file-based planning for AI coding agents: keeps task_plan.md, findings.md, and progress.md on disk so work survives context loss and /clear. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
           "user-invocable": "true",
           "allowed-tools": "Read Write Edit Bash Glob Grep",
           "hooks": "",
@@ -26,7 +26,7 @@
         },
         "standard": {
           "name": "planning-with-files",
-          "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
+          "description": "Manus-style persistent file-based planning for AI coding agents: keeps task_plan.md, findings.md, and progress.md on disk so work survives context loss and /clear. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -46,8 +46,10 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "c020bdd56569733df4017f4ccf76bd13245adcaa",
+        "default_sha": "8f5a3c2e1c347635cf94debde033b3c1ac97e4ab",
         "tags": [
+          "v3.1.3",
+          "v3.1.2",
           "v3.1.1",
           "v3.1.0",
           "v3.0.0",
@@ -130,9 +132,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 23359,
-          "contributors": 38,
-          "last_commit": "2026-06-14T23:47:56Z",
+          "stars": 23749,
+          "contributors": 39,
+          "last_commit": "2026-06-16T15:16:19Z",
           "archived": false
         }
       }
@@ -141,7 +143,7 @@
       "name": "planning-with-files-ar",
       "shape": "skill",
       "source_path": "skills/planning-with-files-ar",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/c020bdd56569733df4017f4ccf76bd13245adcaa/skills/planning-with-files-ar",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/8f5a3c2e1c347635cf94debde033b3c1ac97e4ab/skills/planning-with-files-ar",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -175,8 +177,10 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "c020bdd56569733df4017f4ccf76bd13245adcaa",
+        "default_sha": "8f5a3c2e1c347635cf94debde033b3c1ac97e4ab",
         "tags": [
+          "v3.1.3",
+          "v3.1.2",
           "v3.1.1",
           "v3.1.0",
           "v3.0.0",
@@ -259,9 +263,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 23359,
-          "contributors": 38,
-          "last_commit": "2026-06-14T23:47:56Z",
+          "stars": 23749,
+          "contributors": 39,
+          "last_commit": "2026-06-16T15:16:19Z",
           "archived": false
         }
       }
@@ -270,7 +274,7 @@
       "name": "planning-with-files-de",
       "shape": "skill",
       "source_path": "skills/planning-with-files-de",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/c020bdd56569733df4017f4ccf76bd13245adcaa/skills/planning-with-files-de",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/8f5a3c2e1c347635cf94debde033b3c1ac97e4ab/skills/planning-with-files-de",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -304,8 +308,10 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "c020bdd56569733df4017f4ccf76bd13245adcaa",
+        "default_sha": "8f5a3c2e1c347635cf94debde033b3c1ac97e4ab",
         "tags": [
+          "v3.1.3",
+          "v3.1.2",
           "v3.1.1",
           "v3.1.0",
           "v3.0.0",
@@ -388,9 +394,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 23359,
-          "contributors": 38,
-          "last_commit": "2026-06-14T23:47:56Z",
+          "stars": 23749,
+          "contributors": 39,
+          "last_commit": "2026-06-16T15:16:19Z",
           "archived": false
         }
       }
@@ -399,7 +405,7 @@
       "name": "planning-with-files-es",
       "shape": "skill",
       "source_path": "skills/planning-with-files-es",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/c020bdd56569733df4017f4ccf76bd13245adcaa/skills/planning-with-files-es",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/8f5a3c2e1c347635cf94debde033b3c1ac97e4ab/skills/planning-with-files-es",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -433,8 +439,10 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "c020bdd56569733df4017f4ccf76bd13245adcaa",
+        "default_sha": "8f5a3c2e1c347635cf94debde033b3c1ac97e4ab",
         "tags": [
+          "v3.1.3",
+          "v3.1.2",
           "v3.1.1",
           "v3.1.0",
           "v3.0.0",
@@ -517,9 +525,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 23359,
-          "contributors": 38,
-          "last_commit": "2026-06-14T23:47:56Z",
+          "stars": 23749,
+          "contributors": 39,
+          "last_commit": "2026-06-16T15:16:19Z",
           "archived": false
         }
       }
@@ -528,7 +536,7 @@
       "name": "planning-with-files-zh",
       "shape": "skill",
       "source_path": "skills/planning-with-files-zh",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/c020bdd56569733df4017f4ccf76bd13245adcaa/skills/planning-with-files-zh",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/8f5a3c2e1c347635cf94debde033b3c1ac97e4ab/skills/planning-with-files-zh",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -562,8 +570,10 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "c020bdd56569733df4017f4ccf76bd13245adcaa",
+        "default_sha": "8f5a3c2e1c347635cf94debde033b3c1ac97e4ab",
         "tags": [
+          "v3.1.3",
+          "v3.1.2",
           "v3.1.1",
           "v3.1.0",
           "v3.0.0",
@@ -646,9 +656,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 23359,
-          "contributors": 38,
-          "last_commit": "2026-06-14T23:47:56Z",
+          "stars": 23749,
+          "contributors": 39,
+          "last_commit": "2026-06-16T15:16:19Z",
           "archived": false
         }
       }
@@ -657,7 +667,7 @@
       "name": "planning-with-files-zht",
       "shape": "skill",
       "source_path": "skills/planning-with-files-zht",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/c020bdd56569733df4017f4ccf76bd13245adcaa/skills/planning-with-files-zht",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/8f5a3c2e1c347635cf94debde033b3c1ac97e4ab/skills/planning-with-files-zht",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -691,8 +701,10 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "c020bdd56569733df4017f4ccf76bd13245adcaa",
+        "default_sha": "8f5a3c2e1c347635cf94debde033b3c1ac97e4ab",
         "tags": [
+          "v3.1.3",
+          "v3.1.2",
           "v3.1.1",
           "v3.1.0",
           "v3.0.0",
@@ -775,9 +787,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 23359,
-          "contributors": 38,
-          "last_commit": "2026-06-14T23:47:56Z",
+          "stars": 23749,
+          "contributors": 39,
+          "last_commit": "2026-06-16T15:16:19Z",
           "archived": false
         }
       }
@@ -791,9 +803,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 23359,
-      "contributors": 38,
-      "last_commit": "2026-06-14T23:47:56Z",
+      "stars": 23749,
+      "contributors": 39,
+      "last_commit": "2026-06-16T15:16:19Z",
       "archived": false
     }
   }

@@ -3,25 +3,25 @@
 **Source:** [canonical/copilot-collections](https://github.com/canonical/copilot-collections)
 **Store trust:** 28/100
 **Signals:** maintenance 15 · adoption 3 · license 10 (Apache-2.0) · 25 stars · 17 contributors
-**Scanned ref:** `80d6a48d95dd`
+**Scanned ref:** `d1b6440a9996`
 
 ## Plugins (13)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 33 | [`documentation-build`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/documentation-build) | skill | - | Validates documentation builds successfully. Use when checking Sphinx/RTD build integrity or diagno… |
-| 33 | [`documentation-diataxis`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/documentation-diataxis) | skill | - | Analyzes documentation against Diataxis framework (Tutorial, How-to, Reference, Explanation). Use w… |
-| 33 | [`documentation-review`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/documentation-review) | skill | - | Performs comprehensive documentation review including build validation, Diataxis analysis, structur… |
-| 33 | [`documentation-structure`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/documentation-structure) | skill | - | Validates documentation structural integrity including heading hierarchy, metadata, file naming, na… |
-| 33 | [`documentation-style`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/documentation-style) | skill | - | Enforces project documentation style guide compliance for tone, voice, terminology, punctuation, an… |
-| 33 | [`documentation-verify`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/documentation-verify) | skill | - | Verifies documentation accuracy by cross-referencing claims, CLI commands, API signatures, and conf… |
-| 33 | [`generate-agent`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/generate-agent) | skill | - | Generates Custom Agent files (.github/agents/*.agent.md) with persona-based configurations, special… |
-| 33 | [`generate-agent-skills`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/generate-agent-skills) | skill | - | Architects, generates, and validates Agent Skills. Enforces specification and best practices. Used … |
-| 33 | [`generate-path-instructions`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/generate-path-instructions) | skill | - | Generates path-specific instruction files (.github/instructions/*.md) with JIT loading via applyTo … |
-| 33 | [`generate-prompt`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/generate-prompt) | skill | - | Generates reusable Prompt Template files (.github/prompts/*.prompt.md) with variable substitution f… |
-| 33 | [`generate-repo-instructions`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/generate-repo-instructions) | skill | - | Generates the global repository constitution file (.github/copilot-instructions.md). Works for code… |
-| 33 | [`migrate-harness-tests-to-state-transition-test`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/migrate-harness-tests-to-state-transition-test) | skill | - | Migrates legacy ops.testing Harness suites to state-transition tests by enumerating Harness usages,… |
-| 33 | [`retrospective-artifacts`](https://github.com/canonical/copilot-collections/tree/80d6a48d95dddc78235c0149080c21fbe2ea39e8/skills/retrospective-artifacts) | skill | - | Builds and parses structured retrospective artifact folders for troubleshooting, incident review, a… |
+| 33 | [`documentation-build`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/documentation-build) | skill | - | Validates documentation builds successfully. Use when checking Sphinx/RTD build integrity or diagno… |
+| 33 | [`documentation-diataxis`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/documentation-diataxis) | skill | - | Analyzes documentation against Diataxis framework (Tutorial, How-to, Reference, Explanation). Use w… |
+| 33 | [`documentation-review`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/documentation-review) | skill | - | Performs comprehensive documentation review including build validation, Diataxis analysis, structur… |
+| 33 | [`documentation-structure`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/documentation-structure) | skill | - | Validates documentation structural integrity including heading hierarchy, metadata, file naming, na… |
+| 33 | [`documentation-style`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/documentation-style) | skill | - | Enforces project documentation style guide compliance for tone, voice, terminology, punctuation, an… |
+| 33 | [`documentation-verify`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/documentation-verify) | skill | - | Verifies documentation accuracy by cross-referencing claims, CLI commands, API signatures, and conf… |
+| 33 | [`generate-agent`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/generate-agent) | skill | - | Generates Custom Agent files (.github/agents/*.agent.md) with persona-based configurations, special… |
+| 33 | [`generate-agent-skills`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/generate-agent-skills) | skill | - | Architects, generates, and validates Agent Skills. Enforces specification and best practices. Used … |
+| 33 | [`generate-path-instructions`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/generate-path-instructions) | skill | - | Generates path-specific instruction files (.github/instructions/*.md) with JIT loading via applyTo … |
+| 33 | [`generate-prompt`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/generate-prompt) | skill | - | Generates reusable Prompt Template files (.github/prompts/*.prompt.md) with variable substitution f… |
+| 33 | [`generate-repo-instructions`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/generate-repo-instructions) | skill | - | Generates the global repository constitution file (.github/copilot-instructions.md). Works for code… |
+| 33 | [`migrate-harness-tests-to-state-transition-test`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/migrate-harness-tests-to-state-transition-test) | skill | - | Migrates legacy ops.testing Harness suites to state-transition tests by enumerating Harness usages,… |
+| 33 | [`retrospective-artifacts`](https://github.com/canonical/copilot-collections/tree/d1b6440a999640d2ca2bcf31f69fed29af8018dc/skills/retrospective-artifacts) | skill | - | Builds and parses structured retrospective artifact folders for troubleshooting, incident review, a… |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-06-15T13:04:30.292Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-06-22T13:00:18.838Z*
