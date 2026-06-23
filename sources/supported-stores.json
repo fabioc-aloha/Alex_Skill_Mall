@@ -457,6 +457,18 @@
       "notes": "Microsoft official Copilot Studio agent dev skills. 31 SKILL.md units at skills/<name>/SKILL.md with user-invocable/argument-hint/allowed-tools/context frontmatter. Score 9/10 (M:2 A:1 L:2 F:2 D:2). Verified by dry-run clone 2026-06-23."
     },
     {
+      "name": "microsoft-win-dev-skills",
+      "remote": "https://github.com/microsoft/win-dev-skills.git",
+      "pluginDir": "plugins/winui/skills",
+      "quality": "microsoft-official",
+      "verified": true,
+      "verifiedDate": "2026-06-23",
+      "addedAt": "2026-06-23",
+      "provenance": false,
+      "license": "MIT",
+      "notes": "Microsoft official Windows app dev skills (WinUI 3 + Windows App SDK). 8 SKILL.md units at plugins/winui/skills/<name>/SKILL.md (winui-setup, winui-design, winui-packaging, winui-code-review, etc.). pluginDir is scoped to winui because the repo has plugins/<area>/skills/<name>/ 3-level layout and the scanner walks 2 levels; if Microsoft adds non-WinUI areas later, repoint pluginDir or split entries. Score 9/10 (M:2 A:1 L:2 F:2 D:2). Verified by dry-run clone 2026-06-23."
+    },
+    {
       "name": "plugin-mall",
       "remote": "https://github.com/fabioc-aloha/Alex_Skill_Mall.git",
       "pluginDir": "plugins",
