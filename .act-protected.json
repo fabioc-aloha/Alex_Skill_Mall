@@ -2,7 +2,7 @@
   "spec_version": "1.0",
   "kind": "mall",
   "name": "Alex_ACT_Plugin_Mall",
-  "role": "Plugin marketplace consumed by ACT heirs. Supervisor-curated.",
+  "role": "Plugin marketplace consumed by ACT heirs. Self-curating via weekly cron + auto-merge per ADR-008.",
   "bootstrap_allowed": false,
-  "note": "Do not bootstrap a heir into the Mall. Mall edits go through Supervisor's mall-curation workflow."
+  "note": "Do not bootstrap a heir into the Mall. Catalog refreshes run automatically via .github/workflows/scan-sources.yml (Mondays 11:00 UTC). Source registry edits via /add-source or /prune-source prompts; see .github/copilot-instructions.md § Duty Stack. Supervisor's role per ADR-008 is editorial oversight (Edition-promotion + cross-repo coherence), not operational curation."
 }
