@@ -1,0 +1,476 @@
+{
+  "store": "microsoft-win-dev-skills",
+  "source_repo": "https://github.com/microsoft/win-dev-skills.git",
+  "generated_at": "2026-06-23T15:11:20.143Z",
+  "scanned_ref": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+  "provenance": false,
+  "tier": "microsoft-official",
+  "license": "MIT",
+  "plugin_count": 8,
+  "plugins": [
+    {
+      "name": "winui-code-review",
+      "shape": "skill",
+      "source_path": "plugins/winui/skills/winui-code-review",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-code-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "winui-code-review",
+          "description": "Code quality review for WinUI 3 apps — MVVM compliance, x:Bind correctness, accessibility, theming, security, and performance. Use before committing to catch issues that the compiler and UI tests won't find."
+        },
+        "standard": {
+          "name": "winui-code-review",
+          "description": "Code quality review for WinUI 3 apps — MVVM compliance, x:Bind correctness, accessibility, theming, security, and performance. Use before committing to catch issues that the compiler and UI tests won't find.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "tags": [
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 326,
+          "contributors": 12,
+          "last_commit": "2026-06-23T14:05:13Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "winui-design",
+      "shape": "skill",
+      "source_path": "plugins/winui/skills/winui-design",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-design",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "winui-design",
+          "description": "WinUI 3 UI design and XAML correctness — layout planning, control selection, Fluent Design, theming (Light/Dark/HighContrast), typography styles, spacing, brushes, accessibility, data binding review. Use when designing new pages, converting from WPF/Electron/web, reviewing XAML, fixing theme issues, or applying Fluent Design."
+        },
+        "standard": {
+          "name": "winui-design",
+          "description": "WinUI 3 UI design and XAML correctness — layout planning, control selection, Fluent Design, theming (Light/Dark/HighContrast), typography styles, spacing, brushes, accessibility, data binding review. Use when designing new pages, converting from WPF/Electron/web, reviewing XAML, fixing theme issues, or applying Fluent Design.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "tags": [
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 326,
+          "contributors": 12,
+          "last_commit": "2026-06-23T14:05:13Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "winui-dev-workflow",
+      "shape": "skill",
+      "source_path": "plugins/winui/skills/winui-dev-workflow",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-dev-workflow",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "winui-dev-workflow",
+          "description": "Build and run workflow for WinUI 3 apps — project creation, BuildAndRun.ps1 script, winapp run, error diagnosis, and prerequisites. Use when building, running, or fixing build errors in a WinUI 3 project."
+        },
+        "standard": {
+          "name": "winui-dev-workflow",
+          "description": "Build and run workflow for WinUI 3 apps — project creation, BuildAndRun.ps1 script, winapp run, error diagnosis, and prerequisites. Use when building, running, or fixing build errors in a WinUI 3 project.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "tags": [
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 326,
+          "contributors": 12,
+          "last_commit": "2026-06-23T14:05:13Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "winui-packaging",
+      "shape": "skill",
+      "source_path": "plugins/winui/skills/winui-packaging",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-packaging",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "winui-packaging",
+          "description": "MSIX packaging, code signing, and distribution for WinUI 3 apps — build for release, certificate generation (winapp cert generate), certificate trust, code signing (winapp sign), self-contained deployment, CI/CD with GitHub Actions, and Microsoft Store submission. Use when preparing for release, creating MSIX installers, managing certificates, setting up CI/CD packaging, or publishing to the Microsoft Store."
+        },
+        "standard": {
+          "name": "winui-packaging",
+          "description": "MSIX packaging, code signing, and distribution for WinUI 3 apps — build for release, certificate generation (winapp cert generate), certificate trust, code signing (winapp sign), self-contained deployment, CI/CD with GitHub Actions, and Microsoft Store submission. Use when preparing for release, creating MSIX installers, managing certificates, setting up CI/CD packaging, or publishing to the Microsoft Store.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "tags": [
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 326,
+          "contributors": 12,
+          "last_commit": "2026-06-23T14:05:13Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "winui-session-report",
+      "shape": "skill",
+      "source_path": "plugins/winui/skills/winui-session-report",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-session-report",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "winui-session-report",
+          "description": "Analyze the current or a recent agent session (GitHub Copilot CLI or Claude Code) and generate a diagnostic report. Use when asking for session feedback, debugging agent behavior, or reviewing what happened during a build session.",
+          "disable-model-invocation": "true"
+        },
+        "standard": {
+          "name": "winui-session-report",
+          "description": "Analyze the current or a recent agent session (GitHub Copilot CLI or Claude Code) and generate a diagnostic report. Use when asking for session feedback, debugging agent behavior, or reviewing what happened during a build session.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "tags": [
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 326,
+          "contributors": 12,
+          "last_commit": "2026-06-23T14:05:13Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "winui-setup",
+      "shape": "skill",
+      "source_path": "plugins/winui/skills/winui-setup",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-setup",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "winui-setup",
+          "description": "Install and verify the prerequisites the win-dev-skills WinUI 3 toolchain depends on — .NET SDK 10, the WinApp CLI, the WinUI 3 .NET templates, and Developer Mode. Use when setting up a new machine, after a Windows reset, or when another winui skill reports a missing prerequisite (e.g., `winapp` not found, `dotnet` not found, the WinUI 3 templates are missing, or Developer Mode is off).",
+          "disable-model-invocation": "true"
+        },
+        "standard": {
+          "name": "winui-setup",
+          "description": "Install and verify the prerequisites the win-dev-skills WinUI 3 toolchain depends on — .NET SDK 10, the WinApp CLI, the WinUI 3 .NET templates, and Developer Mode. Use when setting up a new machine, after a Windows reset, or when another winui skill reports a missing prerequisite (e.g., `winapp` not found, `dotnet` not found, the WinUI 3 templates are missing, or Developer Mode is off).",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "tags": [
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 326,
+          "contributors": 12,
+          "last_commit": "2026-06-23T14:05:13Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "winui-ui-testing",
+      "shape": "skill",
+      "source_path": "plugins/winui/skills/winui-ui-testing",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-ui-testing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "winui-ui-testing",
+          "description": "Automated UI testing for WinUI 3 apps — generate a batch test script, run all tests in one pass, read results. Covers element assertions, interactions, value checking (TextBox, ComboBox, ToggleSwitch), file pickers, flyouts, dialogs, persistence, and accessibility audits."
+        },
+        "standard": {
+          "name": "winui-ui-testing",
+          "description": "Automated UI testing for WinUI 3 apps — generate a batch test script, run all tests in one pass, read results. Covers element assertions, interactions, value checking (TextBox, ComboBox, ToggleSwitch), file pickers, flyouts, dialogs, persistence, and accessibility audits.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "tags": [
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 326,
+          "contributors": 12,
+          "last_commit": "2026-06-23T14:05:13Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "winui-wpf-migration",
+      "shape": "skill",
+      "source_path": "plugins/winui/skills/winui-wpf-migration",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-wpf-migration",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "winui-wpf-migration",
+          "description": "Migrate WPF applications to WinUI 3 — namespace replacement (System.Windows → Microsoft.UI.Xaml), control mapping (DataGrid→ListView, WrapPanel→ItemsRepeater, TabControl→TabView), threading (Dispatcher→DispatcherQueue), imaging (System.Drawing→BitmapImage), MVVM conversion to CommunityToolkit.Mvvm, and DynamicResource→ThemeResource. Use when converting WPF code, replacing WPF namespaces, or fixing migration build errors."
+        },
+        "standard": {
+          "name": "winui-wpf-migration",
+          "description": "Migrate WPF applications to WinUI 3 — namespace replacement (System.Windows → Microsoft.UI.Xaml), control mapping (DataGrid→ListView, WrapPanel→ItemsRepeater, TabControl→TabView), threading (Dispatcher→DispatcherQueue), imaging (System.Drawing→BitmapImage), MVVM conversion to CommunityToolkit.Mvvm, and DynamicResource→ThemeResource. Use when converting WPF code, replacing WPF namespaces, or fixing migration build errors.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "tags": [
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 326,
+          "contributors": 12,
+          "last_commit": "2026-06-23T14:05:13Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 32,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 7,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 326,
+      "contributors": 12,
+      "last_commit": "2026-06-23T14:05:13Z",
+      "archived": false
+    }
+  }
+}

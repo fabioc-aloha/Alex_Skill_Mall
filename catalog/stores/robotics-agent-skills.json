@@ -1,0 +1,556 @@
+{
+  "store": "robotics-agent-skills",
+  "source_repo": "https://github.com/arpitg1304/robotics-agent-skills.git",
+  "generated_at": "2026-06-23T15:11:20.147Z",
+  "scanned_ref": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+  "provenance": false,
+  "tier": "domain",
+  "license": "Apache-2.0",
+  "plugin_count": 10,
+  "plugins": [
+    {
+      "name": "docker-ros2-development",
+      "shape": "skill",
+      "source_path": "skills/docker-ros2-development",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/docker-ros2-development",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "docker-ros2-development",
+          "description": ""
+        },
+        "standard": {
+          "name": "docker-ros2-development",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "robot-bringup",
+      "shape": "skill",
+      "source_path": "skills/robot-bringup",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robot-bringup",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "robot-bringup",
+          "description": ""
+        },
+        "standard": {
+          "name": "robot-bringup",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "robot-perception",
+      "shape": "skill",
+      "source_path": "skills/robot-perception",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robot-perception",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "robot-perception",
+          "description": ""
+        },
+        "standard": {
+          "name": "robot-perception",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "robotics-design-patterns",
+      "shape": "skill",
+      "source_path": "skills/robotics-design-patterns",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-design-patterns",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "robotics-design-patterns",
+          "description": ""
+        },
+        "standard": {
+          "name": "robotics-design-patterns",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "robotics-security",
+      "shape": "skill",
+      "source_path": "skills/robotics-security",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-security",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "robotics-security",
+          "description": ""
+        },
+        "standard": {
+          "name": "robotics-security",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "robotics-software-principles",
+      "shape": "skill",
+      "source_path": "skills/robotics-software-principles",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-software-principles",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "robotics-software-principles",
+          "description": ""
+        },
+        "standard": {
+          "name": "robotics-software-principles",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "robotics-testing",
+      "shape": "skill",
+      "source_path": "skills/robotics-testing",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-testing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "robotics-testing",
+          "description": ""
+        },
+        "standard": {
+          "name": "robotics-testing",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "ros1",
+      "shape": "skill",
+      "source_path": "skills/ros1",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros1",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ros1-development",
+          "description": ""
+        },
+        "standard": {
+          "name": "ros1-development",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "ros2",
+      "shape": "skill",
+      "source_path": "skills/ros2",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros2",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ros2-development",
+          "description": ""
+        },
+        "standard": {
+          "name": "ros2-development",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "ros2-web-integration",
+      "shape": "skill",
+      "source_path": "skills/ros2-web-integration",
+      "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros2-web-integration",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ros2-web-integration",
+          "description": ""
+        },
+        "standard": {
+          "name": "ros2-web-integration",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "54f7b578f3dc269d29c0beb623b3f2611fd3a430",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 289,
+          "contributors": 2,
+          "last_commit": "2026-05-25T23:26:20Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 30,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 5,
+      "license": 10,
+      "license_name": "Apache-2.0",
+      "stars": 289,
+      "contributors": 2,
+      "last_commit": "2026-05-25T23:26:20Z",
+      "archived": false
+    }
+  }
+}
