@@ -1,18 +1,18 @@
 {
   "store": "antfu-skills",
   "source_repo": "https://github.com/antfu/skills.git",
-  "generated_at": "2026-05-29T18:48:06.113Z",
-  "scanned_ref": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+  "generated_at": "2026-06-23T15:11:20.049Z",
+  "scanned_ref": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
-  "plugin_count": 17,
+  "plugin_count": 19,
   "plugins": [
     {
       "name": "antfu",
       "shape": "skill",
       "source_path": "skills/antfu",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/antfu",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/antfu",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -41,23 +41,131 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "antfu-design",
+      "shape": "skill",
+      "source_path": "skills/antfu-design",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/antfu-design",
+      "readme_excerpt": "The antfu-style UnoCSS design skill: class-first semantic tokens with dual light/dark",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "antfu-design",
+          "description": "antfu-style design conventions, broadened. UnoCSS-first, class-based semantic tokens with dual light/dark for tooling and devtools UIs, plus design-read, anti-slop, and micro-interaction polish for landing pages and product surfaces. Use when building or refactoring any interface with UnoCSS.",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "antfu-design",
+          "description": "antfu-style design conventions, broadened. UnoCSS-first, class-based semantic tokens with dual light/dark for tooling and devtools UIs, plus design-read, anti-slop, and micro-interaction polish for landing pages and product surfaces. Use when building or refactoring any interface with UnoCSS.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
+        "tags": []
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "nitro",
+      "shape": "skill",
+      "source_path": "skills/nitro",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/nitro",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "nitro",
+          "description": "Nitro is the framework-agnostic server toolkit (powering Nuxt) for building and deploying web servers anywhere. Use when working with nitro.config, server routes/event handlers, route rules, caching, storage, tasks, websockets, or deploying to Node/Bun/Deno/Cloudflare/Vercel.",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "nitro",
+          "description": "Nitro is the framework-agnostic server toolkit (powering Nuxt) for building and deploying web servers anywhere. Use when working with nitro.config, server routes/event handlers, route rules, caching, storage, tasks, websockets, or deploying to Node/Bun/Deno/Cloudflare/Vercel.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -66,7 +174,7 @@
       "name": "nuxt",
       "shape": "skill",
       "source_path": "skills/nuxt",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/nuxt",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/nuxt",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -95,23 +203,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -120,7 +228,7 @@
       "name": "pinia",
       "shape": "skill",
       "source_path": "skills/pinia",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/pinia",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/pinia",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -149,23 +257,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -174,18 +282,18 @@
       "name": "pnpm",
       "shape": "skill",
       "source_path": "skills/pnpm",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/pnpm",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/pnpm",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "pnpm",
-          "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces, or managing dependencies with catalogs, patches, or overrides.",
+          "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces via pnpm-workspace.yaml, or managing dependencies with catalogs, patches, overrides, config dependencies, or the global virtual store.",
           "metadata": ""
         },
         "standard": {
           "name": "pnpm",
-          "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces, or managing dependencies with catalogs, patches, or overrides.",
+          "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces via pnpm-workspace.yaml, or managing dependencies with catalogs, patches, overrides, config dependencies, or the global virtual store.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -203,23 +311,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -228,7 +336,7 @@
       "name": "slidev",
       "shape": "skill",
       "source_path": "skills/slidev",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/slidev",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/slidev",
       "readme_excerpt": "Agent skills that help Claude Code understand and work with [Slidev](https://sli.dev) presentations.",
       "frontmatter": {
         "kind": "skill-md",
@@ -256,23 +364,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 42,
+      "trust_score": 45,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -281,8 +389,8 @@
       "name": "tsdown",
       "shape": "skill",
       "source_path": "skills/tsdown",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/tsdown",
-      "readme_excerpt": "Agent skills that help Claude Code understand and work with [tsdown](https://tsdown.dev), the elegant library bundler.",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/tsdown",
+      "readme_excerpt": "Agent skills that help AI coding agents understand and work with [tsdown](https://tsdown.dev), the elegant library bundler.",
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
@@ -309,23 +417,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 42,
+      "trust_score": 45,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -334,7 +442,7 @@
       "name": "turborepo",
       "shape": "skill",
       "source_path": "skills/turborepo",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/turborepo",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/turborepo",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -363,23 +471,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 0,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -388,7 +496,7 @@
       "name": "unocss",
       "shape": "skill",
       "source_path": "skills/unocss",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/unocss",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/unocss",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -417,23 +525,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -442,7 +550,7 @@
       "name": "vite",
       "shape": "skill",
       "source_path": "skills/vite",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/vite",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/vite",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -471,23 +579,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -496,7 +604,7 @@
       "name": "vitepress",
       "shape": "skill",
       "source_path": "skills/vitepress",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/vitepress",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/vitepress",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -525,23 +633,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -550,7 +658,7 @@
       "name": "vitest",
       "shape": "skill",
       "source_path": "skills/vitest",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/vitest",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/vitest",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -579,23 +687,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -604,7 +712,7 @@
       "name": "vue",
       "shape": "skill",
       "source_path": "skills/vue",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/vue",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/vue",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -633,23 +741,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -658,7 +766,7 @@
       "name": "vue-best-practices",
       "shape": "skill",
       "source_path": "skills/vue-best-practices",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/vue-best-practices",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/vue-best-practices",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -688,23 +796,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -713,7 +821,7 @@
       "name": "vue-router-best-practices",
       "shape": "skill",
       "source_path": "skills/vue-router-best-practices",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/vue-router-best-practices",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/vue-router-best-practices",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -744,23 +852,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 8,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -769,7 +877,7 @@
       "name": "vue-testing-best-practices",
       "shape": "skill",
       "source_path": "skills/vue-testing-best-practices",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/vue-testing-best-practices",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/vue-testing-best-practices",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -800,23 +908,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 8,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -825,7 +933,7 @@
       "name": "vueuse-functions",
       "shape": "skill",
       "source_path": "skills/vueuse-functions",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/vueuse-functions",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/vueuse-functions",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -856,23 +964,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
@@ -881,7 +989,7 @@
       "name": "web-design-guidelines",
       "shape": "skill",
       "source_path": "skills/web-design-guidelines",
-      "source_url": "https://github.com/antfu/skills/tree/50deaeb269d80d92db7a2c5a677290309ae307fc/skills/web-design-guidelines",
+      "source_url": "https://github.com/antfu/skills/tree/a74f281a27dadc02397bc1a174b0f2c97531b6ae/skills/web-design-guidelines",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -910,39 +1018,39 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "50deaeb269d80d92db7a2c5a677290309ae307fc",
+        "default_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
         "tags": []
       },
-      "trust_score": 37,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 32,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5365,
-          "contributors": 8,
-          "last_commit": "2026-05-01T16:46:24Z",
+          "stars": 5379,
+          "contributors": 11,
+          "last_commit": "2026-06-23T00:14:36Z",
           "archived": false
         }
       }
     }
   ],
   "store_trust": {
-    "score": 32,
+    "score": 35,
     "signals": {
       "provenance": 0,
-      "maintenance": 12,
+      "maintenance": 15,
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 5365,
-      "contributors": 8,
-      "last_commit": "2026-05-01T16:46:24Z",
+      "stars": 5379,
+      "contributors": 11,
+      "last_commit": "2026-06-23T00:14:36Z",
       "archived": false
     }
   }

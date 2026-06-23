@@ -1,0 +1,1563 @@
+{
+  "store": "flutter-ai-rules",
+  "source_repo": "https://github.com/evanca/flutter-ai-rules.git",
+  "generated_at": "2026-06-23T15:11:20.144Z",
+  "scanned_ref": "5ba7d2570e10b29791935757612bb3050a5b848c",
+  "provenance": false,
+  "tier": "domain",
+  "license": "MIT",
+  "plugin_count": 29,
+  "plugins": [
+    {
+      "name": "architecture-feature-first",
+      "shape": "skill",
+      "source_path": "skills/architecture-feature-first",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/architecture-feature-first",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "architecture-feature-first",
+          "description": "Structure Flutter apps using layered architecture (UI / Logic / Data) with feature-first file organization. Use when creating new features, designing the project folder structure, adding repositories, services, view models (or cubits/providers/notifiers), wiring dependency injection, or deciding which layer owns a piece of logic. State management agnostic."
+        },
+        "standard": {
+          "name": "architecture-feature-first",
+          "description": "Structure Flutter apps using layered architecture (UI / Logic / Data) with feature-first file organization. Use when creating new features, designing the project folder structure, adding repositories, services, view models (or cubits/providers/notifiers), wiring dependency injection, or deciding which layer owns a piece of logic. State management agnostic.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "bloc",
+      "shape": "skill",
+      "source_path": "skills/bloc",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/bloc",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "bloc",
+          "description": "Implement Flutter state management using the bloc and flutter_bloc libraries. Use when creating a new Cubit or Bloc, modeling state with sealed classes or status enums, wiring BlocBuilder/BlocListener/BlocProvider in widgets, writing bloc unit tests, refactoring state management, or deciding between Cubit and Bloc."
+        },
+        "standard": {
+          "name": "bloc",
+          "description": "Implement Flutter state management using the bloc and flutter_bloc libraries. Use when creating a new Cubit or Bloc, modeling state with sealed classes or status enums, wiring BlocBuilder/BlocListener/BlocProvider in widgets, writing bloc unit tests, refactoring state management, or deciding between Cubit and Bloc.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "code-review",
+      "shape": "skill",
+      "source_path": "skills/code-review",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/code-review",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "code-review",
+          "description": "Review Flutter/Dart pull requests and merge requests against a structured checklist. Use when asked to review a PR, review a MR, review a branch, audit changed files, check code quality, or evaluate a diff. Covers correctness, security, performance, style, testing, and documentation."
+        },
+        "standard": {
+          "name": "code-review",
+          "description": "Review Flutter/Dart pull requests and merge requests against a structured checklist. Use when asked to review a PR, review a MR, review a branch, audit changed files, check code quality, or evaluate a diff. Covers correctness, security, performance, style, testing, and documentation.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dart-3-updates",
+      "shape": "skill",
+      "source_path": "skills/dart-3-updates",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/dart-3-updates",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "dart-3-updates",
+          "description": "Apply Dart 3 language features including patterns, sealed classes, switch expressions, records, and if-case syntax. Use when writing switch statements, refactoring if-else chains, creating data classes, choosing between records and classes, destructuring values, or modernizing pre-Dart-3 code."
+        },
+        "standard": {
+          "name": "dart-3-updates",
+          "description": "Apply Dart 3 language features including patterns, sealed classes, switch expressions, records, and if-case syntax. Use when writing switch statements, refactoring if-else chains, creating data classes, choosing between records and classes, destructuring values, or modernizing pre-Dart-3 code.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "effective-dart",
+      "shape": "skill",
+      "source_path": "skills/effective-dart",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/effective-dart",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "effective-dart",
+          "description": "Apply Effective Dart guidelines to write idiomatic, high-quality Dart and Flutter code. Use when writing new Dart code, reviewing pull requests for style compliance, refactoring naming conventions, adding doc comments, structuring imports, enforcing type annotations, or running code review checks against Effective Dart standards."
+        },
+        "standard": {
+          "name": "effective-dart",
+          "description": "Apply Effective Dart guidelines to write idiomatic, high-quality Dart and Flutter code. Use when writing new Dart code, reviewing pull requests for style compliance, refactoring naming conventions, adding doc comments, structuring imports, enforcing type annotations, or running code review checks against Effective Dart standards.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-ai",
+      "shape": "skill",
+      "source_path": "skills/firebase-ai",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-ai",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-ai",
+          "description": "Integrate Firebase AI Logic into Flutter apps using the Gemini Developer API. Use when setting up the firebase_ai plugin, generating text or chat responses with Gemini models, streaming AI output, implementing multimodal prompts, handling AI service errors, or applying security and privacy considerations for AI features."
+        },
+        "standard": {
+          "name": "firebase-ai",
+          "description": "Integrate Firebase AI Logic into Flutter apps using the Gemini Developer API. Use when setting up the firebase_ai plugin, generating text or chat responses with Gemini models, streaming AI output, implementing multimodal prompts, handling AI service errors, or applying security and privacy considerations for AI features.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-analytics",
+      "shape": "skill",
+      "source_path": "skills/firebase-analytics",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-analytics",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-analytics",
+          "description": "Integrates Firebase Analytics into Flutter apps. Use when implementing event tracking, logging custom or predefined analytics events, setting user properties, configuring default event parameters, creating conversion funnels, or adding screen view tracking. Covers setup, event logging, parameter constraints, and privacy best practices."
+        },
+        "standard": {
+          "name": "firebase-analytics",
+          "description": "Integrates Firebase Analytics into Flutter apps. Use when implementing event tracking, logging custom or predefined analytics events, setting user properties, configuring default event parameters, creating conversion funnels, or adding screen view tracking. Covers setup, event logging, parameter constraints, and privacy best practices.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-app-check",
+      "shape": "skill",
+      "source_path": "skills/firebase-app-check",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-app-check",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-app-check",
+          "description": "Integrates Firebase App Check into Flutter apps. Use when implementing app attestation, configuring App Check providers per platform, setting up debug tokens for development and CI, enabling enforcement for backend resources, managing token refresh and TTL, or hardening app security against abuse."
+        },
+        "standard": {
+          "name": "firebase-app-check",
+          "description": "Integrates Firebase App Check into Flutter apps. Use when implementing app attestation, configuring App Check providers per platform, setting up debug tokens for development and CI, enabling enforcement for backend resources, managing token refresh and TTL, or hardening app security against abuse.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-auth",
+      "shape": "skill",
+      "source_path": "skills/firebase-auth",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-auth",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-auth",
+          "description": "Integrates Firebase Authentication into Flutter apps. Use when setting up auth, managing auth state, implementing email/password or social sign-in, handling auth errors, managing users, or applying security best practices."
+        },
+        "standard": {
+          "name": "firebase-auth",
+          "description": "Integrates Firebase Authentication into Flutter apps. Use when setting up auth, managing auth state, implementing email/password or social sign-in, handling auth errors, managing users, or applying security best practices.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-cloud-firestore",
+      "shape": "skill",
+      "source_path": "skills/firebase-cloud-firestore",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-cloud-firestore",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-cloud-firestore",
+          "description": "Integrates Cloud Firestore into Flutter apps. Use when implementing Firestore setup, designing document and collection schemas, performing CRUD operations, creating real-time listeners, building paginated queries, configuring indexes, implementing offline persistence, writing security rules, or optimizing for scale."
+        },
+        "standard": {
+          "name": "firebase-cloud-firestore",
+          "description": "Integrates Cloud Firestore into Flutter apps. Use when implementing Firestore setup, designing document and collection schemas, performing CRUD operations, creating real-time listeners, building paginated queries, configuring indexes, implementing offline persistence, writing security rules, or optimizing for scale.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-cloud-functions",
+      "shape": "skill",
+      "source_path": "skills/firebase-cloud-functions",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-cloud-functions",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-cloud-functions",
+          "description": "Calls Firebase Cloud Functions from Flutter apps. Use when implementing callable functions, passing structured data to server-side logic, handling function errors and timeouts, configuring region-specific deployments, or testing with the Firebase Emulator Suite. Trigger terms: cloud functions, httpsCallable, server-side logic, callable functions, Firebase functions, backend calls."
+        },
+        "standard": {
+          "name": "firebase-cloud-functions",
+          "description": "Calls Firebase Cloud Functions from Flutter apps. Use when implementing callable functions, passing structured data to server-side logic, handling function errors and timeouts, configuring region-specific deployments, or testing with the Firebase Emulator Suite. Trigger terms: cloud functions, httpsCallable, server-side logic, callable functions, Firebase functions, backend calls.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-crashlytics",
+      "shape": "skill",
+      "source_path": "skills/firebase-crashlytics",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-crashlytics",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-crashlytics",
+          "description": "Integrates Firebase Crashlytics into Flutter apps. Use when implementing crash reporting, capturing fatal and non-fatal errors, recording uncaught exceptions from isolates and async code, customizing crash reports with keys/logs/user identifiers, configuring opt-in reporting, or uploading obfuscated symbol files. Trigger terms: crash reporting, error tracking, Crashlytics, recordError, recordFlutterFatalError, stack traces, crash logs."
+        },
+        "standard": {
+          "name": "firebase-crashlytics",
+          "description": "Integrates Firebase Crashlytics into Flutter apps. Use when implementing crash reporting, capturing fatal and non-fatal errors, recording uncaught exceptions from isolates and async code, customizing crash reports with keys/logs/user identifiers, configuring opt-in reporting, or uploading obfuscated symbol files. Trigger terms: crash reporting, error tracking, Crashlytics, recordError, recordFlutterFatalError, stack traces, crash logs.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-data-connect",
+      "shape": "skill",
+      "source_path": "skills/firebase-data-connect",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-data-connect",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-data-connect",
+          "description": "Integrate Firebase Data Connect into Flutter apps with schema design, typed queries, mutations, and real-time listeners. Use when setting up Data Connect, implementing GraphQL-based queries and mutations, configuring generated SDKs, handling offline scenarios, or applying security rules and performance optimizations."
+        },
+        "standard": {
+          "name": "firebase-data-connect",
+          "description": "Integrate Firebase Data Connect into Flutter apps with schema design, typed queries, mutations, and real-time listeners. Use when setting up Data Connect, implementing GraphQL-based queries and mutations, configuring generated SDKs, handling offline scenarios, or applying security rules and performance optimizations.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-database",
+      "shape": "skill",
+      "source_path": "skills/firebase-database",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-database",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-database",
+          "description": "Integrates Firebase Realtime Database into Flutter apps. Use when implementing real-time data sync, structuring flattened JSON trees, performing read and write operations, creating real-time listeners, implementing offline persistence, managing presence detection, sharding across database instances, or writing security and validation rules."
+        },
+        "standard": {
+          "name": "firebase-database",
+          "description": "Integrates Firebase Realtime Database into Flutter apps. Use when implementing real-time data sync, structuring flattened JSON trees, performing read and write operations, creating real-time listeners, implementing offline persistence, managing presence detection, sharding across database instances, or writing security and validation rules.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-in-app-messaging",
+      "shape": "skill",
+      "source_path": "skills/firebase-in-app-messaging",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-in-app-messaging",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-in-app-messaging",
+          "description": "Integrates Firebase In-App Messaging into Flutter apps. Use when implementing in-app message campaigns, triggering or suppressing messages programmatically, configuring opt-in data collection for user privacy compliance, testing campaigns on specific devices, handling message interaction callbacks, or managing A/B tests for in-app messaging."
+        },
+        "standard": {
+          "name": "firebase-in-app-messaging",
+          "description": "Integrates Firebase In-App Messaging into Flutter apps. Use when implementing in-app message campaigns, triggering or suppressing messages programmatically, configuring opt-in data collection for user privacy compliance, testing campaigns on specific devices, handling message interaction callbacks, or managing A/B tests for in-app messaging.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-messaging",
+      "shape": "skill",
+      "source_path": "skills/firebase-messaging",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-messaging",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-messaging",
+          "description": "A complete end-to-end guide for Firebase Cloud Messaging in Flutter. Covers client setup in Flutter, managing permissions and tokens, handling background/foreground taps, and server-side HTTP v1 dispatch using Service Accounts."
+        },
+        "standard": {
+          "name": "firebase-messaging",
+          "description": "A complete end-to-end guide for Firebase Cloud Messaging in Flutter. Covers client setup in Flutter, managing permissions and tokens, handling background/foreground taps, and server-side HTTP v1 dispatch using Service Accounts.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-remote-config",
+      "shape": "skill",
+      "source_path": "skills/firebase-remote-config",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-remote-config",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-remote-config",
+          "description": "Integrates Firebase Remote Config into Flutter apps. Use when implementing feature flags, creating A/B tests, managing remote parameter defaults, fetching and activating config values, implementing real-time config updates, or configuring throttling intervals. Trigger terms: remote config, feature flags, A/B testing, fetchAndActivate, dynamic configuration, conditional targeting, kill switch."
+        },
+        "standard": {
+          "name": "firebase-remote-config",
+          "description": "Integrates Firebase Remote Config into Flutter apps. Use when implementing feature flags, creating A/B tests, managing remote parameter defaults, fetching and activating config values, implementing real-time config updates, or configuring throttling intervals. Trigger terms: remote config, feature flags, A/B testing, fetchAndActivate, dynamic configuration, conditional targeting, kill switch.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "firebase-storage",
+      "shape": "skill",
+      "source_path": "skills/firebase-storage",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-storage",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "firebase-storage",
+          "description": "Integrates Firebase Cloud Storage into Flutter apps. Use when setting up Storage, uploading or downloading files, managing metadata, handling errors, or applying security rules."
+        },
+        "standard": {
+          "name": "firebase-storage",
+          "description": "Integrates Firebase Cloud Storage into Flutter apps. Use when setting up Storage, uploading or downloading files, managing metadata, handling errors, or applying security rules.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "flutter-app-architecture",
+      "shape": "skill",
+      "source_path": "skills/flutter-app-architecture",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutter-app-architecture",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "flutter-app-architecture",
+          "description": "Implement layered Flutter app architecture with MVVM, repositories, services, and dependency injection. Use when scaffolding a new Flutter project, refactoring an existing app into layers, creating view models and repositories, configuring dependency injection, implementing unidirectional data flow, or adding a domain layer for complex business logic."
+        },
+        "standard": {
+          "name": "flutter-app-architecture",
+          "description": "Implement layered Flutter app architecture with MVVM, repositories, services, and dependency injection. Use when scaffolding a new Flutter project, refactoring an existing app into layers, creating view models and repositories, configuring dependency injection, implementing unidirectional data flow, or adding a domain layer for complex business logic.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "flutter-change-notifier",
+      "shape": "skill",
+      "source_path": "skills/flutter-change-notifier",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutter-change-notifier",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "flutter-change-notifier",
+          "description": "Implements state management with ChangeNotifier and Provider in Flutter. Use when setting up ChangeNotifier models, providing them to the widget tree, consuming state with Consumer or Provider.of, or optimizing rebuilds."
+        },
+        "standard": {
+          "name": "flutter-change-notifier",
+          "description": "Implements state management with ChangeNotifier and Provider in Flutter. Use when setting up ChangeNotifier models, providing them to the widget tree, consuming state with Consumer or Provider.of, or optimizing rebuilds.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "flutter-errors",
+      "shape": "skill",
+      "source_path": "skills/flutter-errors",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutter-errors",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "flutter-errors",
+          "description": "Diagnoses and fixes common Flutter errors. Use when encountering layout errors (RenderFlex overflow, unbounded constraints, RenderBox not laid out), scroll errors, or setState-during-build errors."
+        },
+        "standard": {
+          "name": "flutter-errors",
+          "description": "Diagnoses and fixes common Flutter errors. Use when encountering layout errors (RenderFlex overflow, unbounded constraints, RenderBox not laid out), scroll errors, or setState-during-build errors.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "flutter-pre-caching",
+      "shape": "skill",
+      "source_path": "skills/flutter-pre-caching",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutter-pre-caching",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "flutter-pre-caching",
+          "description": "Pre-caches assets, fonts, images, and startup data in Flutter and Flutter Web. Use when preloading Google Fonts, asset/network images, Lottie/Rive animations, local JSON/config files, warming up initial API data, or optimizing Flutter Web startup."
+        },
+        "standard": {
+          "name": "flutter-pre-caching",
+          "description": "Pre-caches assets, fonts, images, and startup data in Flutter and Flutter Web. Use when preloading Google Fonts, asset/network images, Lottie/Rive animations, local JSON/config files, warming up initial API data, or optimizing Flutter Web startup.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "flutterfire-configure",
+      "shape": "skill",
+      "source_path": "skills/flutterfire-configure",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutterfire-configure",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "flutterfire-configure",
+          "description": "Sets up Firebase for Flutter apps using FlutterFire CLI. Use when adding Firebase to a Flutter project for the first time, running flutterfire configure after adding new platforms or services, initializing Firebase in main.dart, or configuring separate Firebase projects for multiple app flavors. Trigger terms: flutterfire configure, Firebase setup, Firebase initialization, firebase_core, firebase_options.dart, app flavors, multi-environment Firebase."
+        },
+        "standard": {
+          "name": "flutterfire-configure",
+          "description": "Sets up Firebase for Flutter apps using FlutterFire CLI. Use when adding Firebase to a Flutter project for the first time, running flutterfire configure after adding new platforms or services, initializing Firebase in main.dart, or configuring separate Firebase projects for multiple app flavors. Trigger terms: flutterfire configure, Firebase setup, Firebase initialization, firebase_core, firebase_options.dart, app flavors, multi-environment Firebase.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mockito",
+      "shape": "skill",
+      "source_path": "skills/mockito",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/mockito",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mockito",
+          "description": "Uses the Mockito package for mocking in Flutter/Dart tests. Use when generating mocks, stubbing methods, verifying interactions, capturing arguments, or deciding between mocks, fakes, and real objects."
+        },
+        "standard": {
+          "name": "mockito",
+          "description": "Uses the Mockito package for mocking in Flutter/Dart tests. Use when generating mocks, stubbing methods, verifying interactions, capturing arguments, or deciding between mocks, fakes, and real objects.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mocktail",
+      "shape": "skill",
+      "source_path": "skills/mocktail",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/mocktail",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mocktail",
+          "description": "Uses the Mocktail package for mocking in Flutter/Dart tests. Use when creating mocks, stubbing methods, verifying interactions, registering fallback values, or deciding between mocks, fakes, and real objects."
+        },
+        "standard": {
+          "name": "mocktail",
+          "description": "Uses the Mocktail package for mocking in Flutter/Dart tests. Use when creating mocks, stubbing methods, verifying interactions, registering fallback values, or deciding between mocks, fakes, and real objects.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "patrol-e2e-testing",
+      "shape": "skill",
+      "source_path": "skills/patrol-e2e-testing",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/patrol-e2e-testing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "patrol-e2e-testing",
+          "description": "Create, maintain, and run end-to-end tests for Flutter apps using Patrol 4.x. Use when writing E2E tests, adding integration test coverage, testing native interactions like permissions or system dialogs, capturing UI bug regressions, or validating cross-platform behavior on Android, iOS, and Web."
+        },
+        "standard": {
+          "name": "patrol-e2e-testing",
+          "description": "Create, maintain, and run end-to-end tests for Flutter apps using Patrol 4.x. Use when writing E2E tests, adding integration test coverage, testing native interactions like permissions or system dialogs, capturing UI bug regressions, or validating cross-platform behavior on Android, iOS, and Web.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "provider",
+      "shape": "skill",
+      "source_path": "skills/provider",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/provider",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "provider",
+          "description": "Uses the Provider package for dependency injection and state management in Flutter. Use when setting up providers, consuming state, optimizing rebuilds, using ProxyProvider, or migrating from deprecated providers."
+        },
+        "standard": {
+          "name": "provider",
+          "description": "Uses the Provider package for dependency injection and state management in Flutter. Use when setting up providers, consuming state, optimizing rebuilds, using ProxyProvider, or migrating from deprecated providers.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "riverpod",
+      "shape": "skill",
+      "source_path": "skills/riverpod",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/riverpod",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "riverpod",
+          "description": "Uses Riverpod for state management in Flutter/Dart. Use when setting up providers, combining requests, managing state disposal, passing arguments, performing side effects, testing providers, or applying Riverpod best practices."
+        },
+        "standard": {
+          "name": "riverpod",
+          "description": "Uses Riverpod for state management in Flutter/Dart. Use when setting up providers, combining requests, managing state disposal, passing arguments, performing side effects, testing providers, or applying Riverpod best practices.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "testing",
+      "shape": "skill",
+      "source_path": "skills/testing",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/testing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "testing",
+          "description": "Write, review, and improve Flutter and Dart tests including unit tests, widget tests, and golden tests. Use when writing new tests, reviewing test quality, fixing flaky tests, adding test coverage, structuring test files, or choosing between unit and widget tests."
+        },
+        "standard": {
+          "name": "testing",
+          "description": "Write, review, and improve Flutter and Dart tests including unit tests, widget tests, and golden tests. Use when writing new tests, reviewing test quality, fixing flaky tests, adding test coverage, structuring test files, or choosing between unit and widget tests.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "tags": []
+      },
+      "trust_score": 33,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 578,
+          "contributors": null,
+          "last_commit": "2026-06-22T16:49:40Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 28,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 3,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 578,
+      "contributors": null,
+      "last_commit": "2026-06-22T16:49:40Z",
+      "archived": false
+    }
+  }
+}
