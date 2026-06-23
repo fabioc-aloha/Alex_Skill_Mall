@@ -493,6 +493,18 @@
       "notes": "Robotics/ROS AI agent skills. 10 SKILL.md units at skills/<name>/SKILL.md plus evals/ folder. Opens robotics domain (zero coverage in registry before this entry). Score 8/10 (M:2 A:1 L:2 F:2 D:1). Verified by dry-run clone 2026-06-23."
     },
     {
+      "name": "styleseed",
+      "remote": "https://github.com/bitjaru/styleseed.git",
+      "pluginDir": "engine/.claude/skills",
+      "quality": "domain",
+      "verified": true,
+      "verifiedDate": "2026-06-23",
+      "addedAt": "2026-06-23",
+      "provenance": false,
+      "license": "MIT",
+      "notes": "Design-system + UI judgment skills for Claude Code / Codex / Cursor. 15 SKILL.md units at engine/.claude/skills/ss-<name>/SKILL.md (ss-a11y, ss-audit, ss-component, ss-copy, ss-feedback, ss-flow, ss-lint, ss-motion, ss-page, ss-pattern, ss-review, ss-score, ss-setup, ss-tokens, ss-update). Unusual pluginDir is the upstream's project-local install path (.claude is a Claude Code convention, NOT a skip-pattern — the dot only suppresses dir iteration at the walker's root, not when explicitly named as pluginDir). 1 additional top-level showcase skill at skills/styleseed-design-review/ is intentionally not the canonical 15-skill set; pluginDir points at the design-system core. Opens design-system domain (zero coverage in registry before this entry). Score 9/10 (M:2 A:1 L:2 F:2 D:2). Verified by dry-run clone 2026-06-23."
+    },
+    {
       "name": "plugin-mall",
       "remote": "https://github.com/fabioc-aloha/Alex_Skill_Mall.git",
       "pluginDir": "plugins",
