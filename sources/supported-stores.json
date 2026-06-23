@@ -445,6 +445,18 @@
       "provenance": false
     },
     {
+      "name": "microsoft-copilot-studio-skills",
+      "remote": "https://github.com/microsoft/skills-for-copilot-studio.git",
+      "pluginDir": "skills",
+      "quality": "microsoft-official",
+      "verified": true,
+      "verifiedDate": "2026-06-23",
+      "addedAt": "2026-06-23",
+      "provenance": false,
+      "license": "MIT",
+      "notes": "Microsoft official Copilot Studio agent dev skills. 31 SKILL.md units at skills/<name>/SKILL.md with user-invocable/argument-hint/allowed-tools/context frontmatter. Score 9/10 (M:2 A:1 L:2 F:2 D:2). Verified by dry-run clone 2026-06-23."
+    },
+    {
       "name": "plugin-mall",
       "remote": "https://github.com/fabioc-aloha/Alex_Skill_Mall.git",
       "pluginDir": "plugins",
