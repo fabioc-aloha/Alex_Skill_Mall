@@ -1,8 +1,8 @@
 {
   "store": "microsoft-win-dev-skills",
   "source_repo": "https://github.com/microsoft/win-dev-skills.git",
-  "generated_at": "2026-06-23T15:11:20.143Z",
-  "scanned_ref": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+  "generated_at": "2026-06-29T12:32:52.560Z",
+  "scanned_ref": "7b7cfbfd97118bb477695354943ee94bb2203a52",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -12,7 +12,7 @@
       "name": "winui-code-review",
       "shape": "skill",
       "source_path": "plugins/winui/skills/winui-code-review",
-      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-code-review",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/7b7cfbfd97118bb477695354943ee94bb2203a52/plugins/winui/skills/winui-code-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -40,8 +40,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "default_sha": "7b7cfbfd97118bb477695354943ee94bb2203a52",
         "tags": [
+          "v0.4.0",
           "v0.3.1",
           "v0.3.0"
         ]
@@ -57,9 +58,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 326,
+          "stars": 333,
           "contributors": 12,
-          "last_commit": "2026-06-23T14:05:13Z",
+          "last_commit": "2026-06-29T09:47:10Z",
           "archived": false
         }
       }
@@ -68,17 +69,17 @@
       "name": "winui-design",
       "shape": "skill",
       "source_path": "plugins/winui/skills/winui-design",
-      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-design",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/7b7cfbfd97118bb477695354943ee94bb2203a52/plugins/winui/skills/winui-design",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "winui-design",
-          "description": "WinUI 3 UI design and XAML correctness — layout planning, control selection, Fluent Design, theming (Light/Dark/HighContrast), typography styles, spacing, brushes, accessibility, data binding review. Use when designing new pages, converting from WPF/Electron/web, reviewing XAML, fixing theme issues, or applying Fluent Design."
+          "description": "Use when designing, reviewing, or fixing WinUI 3: layout planning, control choice, Fluent Design alignment, Light/Dark/High Contrast theming, typography, spacing, brushes, accessibility, and XAML data-binding design. Load before authoring new XAML, reviewing UI PRs, migrating desktop UI to WinUI, or choosing between WinUI controls/patterns."
         },
         "standard": {
           "name": "winui-design",
-          "description": "WinUI 3 UI design and XAML correctness — layout planning, control selection, Fluent Design, theming (Light/Dark/HighContrast), typography styles, spacing, brushes, accessibility, data binding review. Use when designing new pages, converting from WPF/Electron/web, reviewing XAML, fixing theme issues, or applying Fluent Design.",
+          "description": "Use when designing, reviewing, or fixing WinUI 3: layout planning, control choice, Fluent Design alignment, Light/Dark/High Contrast theming, typography, spacing, brushes, accessibility, and XAML data-binding design. Load before authoring new XAML, reviewing UI PRs, migrating desktop UI to WinUI, or choosing between WinUI controls/patterns.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -96,8 +97,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "default_sha": "7b7cfbfd97118bb477695354943ee94bb2203a52",
         "tags": [
+          "v0.4.0",
           "v0.3.1",
           "v0.3.0"
         ]
@@ -113,9 +115,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 326,
+          "stars": 333,
           "contributors": 12,
-          "last_commit": "2026-06-23T14:05:13Z",
+          "last_commit": "2026-06-29T09:47:10Z",
           "archived": false
         }
       }
@@ -124,7 +126,7 @@
       "name": "winui-dev-workflow",
       "shape": "skill",
       "source_path": "plugins/winui/skills/winui-dev-workflow",
-      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-dev-workflow",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/7b7cfbfd97118bb477695354943ee94bb2203a52/plugins/winui/skills/winui-dev-workflow",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -152,8 +154,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "default_sha": "7b7cfbfd97118bb477695354943ee94bb2203a52",
         "tags": [
+          "v0.4.0",
           "v0.3.1",
           "v0.3.0"
         ]
@@ -169,9 +172,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 326,
+          "stars": 333,
           "contributors": 12,
-          "last_commit": "2026-06-23T14:05:13Z",
+          "last_commit": "2026-06-29T09:47:10Z",
           "archived": false
         }
       }
@@ -180,7 +183,7 @@
       "name": "winui-packaging",
       "shape": "skill",
       "source_path": "plugins/winui/skills/winui-packaging",
-      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-packaging",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/7b7cfbfd97118bb477695354943ee94bb2203a52/plugins/winui/skills/winui-packaging",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -208,8 +211,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "default_sha": "7b7cfbfd97118bb477695354943ee94bb2203a52",
         "tags": [
+          "v0.4.0",
           "v0.3.1",
           "v0.3.0"
         ]
@@ -225,9 +229,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 326,
+          "stars": 333,
           "contributors": 12,
-          "last_commit": "2026-06-23T14:05:13Z",
+          "last_commit": "2026-06-29T09:47:10Z",
           "archived": false
         }
       }
@@ -236,7 +240,7 @@
       "name": "winui-session-report",
       "shape": "skill",
       "source_path": "plugins/winui/skills/winui-session-report",
-      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-session-report",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/7b7cfbfd97118bb477695354943ee94bb2203a52/plugins/winui/skills/winui-session-report",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -265,8 +269,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "default_sha": "7b7cfbfd97118bb477695354943ee94bb2203a52",
         "tags": [
+          "v0.4.0",
           "v0.3.1",
           "v0.3.0"
         ]
@@ -282,9 +287,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 326,
+          "stars": 333,
           "contributors": 12,
-          "last_commit": "2026-06-23T14:05:13Z",
+          "last_commit": "2026-06-29T09:47:10Z",
           "archived": false
         }
       }
@@ -293,7 +298,7 @@
       "name": "winui-setup",
       "shape": "skill",
       "source_path": "plugins/winui/skills/winui-setup",
-      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-setup",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/7b7cfbfd97118bb477695354943ee94bb2203a52/plugins/winui/skills/winui-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -322,8 +327,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "default_sha": "7b7cfbfd97118bb477695354943ee94bb2203a52",
         "tags": [
+          "v0.4.0",
           "v0.3.1",
           "v0.3.0"
         ]
@@ -339,9 +345,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 326,
+          "stars": 333,
           "contributors": 12,
-          "last_commit": "2026-06-23T14:05:13Z",
+          "last_commit": "2026-06-29T09:47:10Z",
           "archived": false
         }
       }
@@ -350,7 +356,7 @@
       "name": "winui-ui-testing",
       "shape": "skill",
       "source_path": "plugins/winui/skills/winui-ui-testing",
-      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-ui-testing",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/7b7cfbfd97118bb477695354943ee94bb2203a52/plugins/winui/skills/winui-ui-testing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -378,8 +384,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "default_sha": "7b7cfbfd97118bb477695354943ee94bb2203a52",
         "tags": [
+          "v0.4.0",
           "v0.3.1",
           "v0.3.0"
         ]
@@ -395,9 +402,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 326,
+          "stars": 333,
           "contributors": 12,
-          "last_commit": "2026-06-23T14:05:13Z",
+          "last_commit": "2026-06-29T09:47:10Z",
           "archived": false
         }
       }
@@ -406,7 +413,7 @@
       "name": "winui-wpf-migration",
       "shape": "skill",
       "source_path": "plugins/winui/skills/winui-wpf-migration",
-      "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-wpf-migration",
+      "source_url": "https://github.com/microsoft/win-dev-skills/tree/7b7cfbfd97118bb477695354943ee94bb2203a52/plugins/winui/skills/winui-wpf-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -434,8 +441,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c98bc78c427910838e97c70bdcd7678a0331fad3",
+        "default_sha": "7b7cfbfd97118bb477695354943ee94bb2203a52",
         "tags": [
+          "v0.4.0",
           "v0.3.1",
           "v0.3.0"
         ]
@@ -451,9 +459,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 326,
+          "stars": 333,
           "contributors": 12,
-          "last_commit": "2026-06-23T14:05:13Z",
+          "last_commit": "2026-06-29T09:47:10Z",
           "archived": false
         }
       }
@@ -467,9 +475,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 326,
+      "stars": 333,
       "contributors": 12,
-      "last_commit": "2026-06-23T14:05:13Z",
+      "last_commit": "2026-06-29T09:47:10Z",
       "archived": false
     }
   }
