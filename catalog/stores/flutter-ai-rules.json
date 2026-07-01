@@ -1,18 +1,71 @@
 {
   "store": "flutter-ai-rules",
   "source_repo": "https://github.com/evanca/flutter-ai-rules.git",
-  "generated_at": "2026-06-23T15:11:20.144Z",
-  "scanned_ref": "5ba7d2570e10b29791935757612bb3050a5b848c",
+  "generated_at": "2026-07-01T17:56:47.398Z",
+  "scanned_ref": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
   "provenance": false,
   "tier": "domain",
   "license": "MIT",
-  "plugin_count": 29,
+  "plugin_count": 31,
   "plugins": [
+    {
+      "name": "accessibility",
+      "shape": "skill",
+      "source_path": "skills/accessibility",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/accessibility",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "accessibility",
+          "description": ""
+        },
+        "standard": {
+          "name": "accessibility",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
+        "tags": []
+      },
+      "trust_score": 28,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 584,
+          "contributors": null,
+          "last_commit": "2026-06-30T08:25:00Z",
+          "archived": false
+        }
+      }
+    },
     {
       "name": "architecture-feature-first",
       "shape": "skill",
       "source_path": "skills/architecture-feature-first",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/architecture-feature-first",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/architecture-feature-first",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -40,7 +93,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -54,9 +107,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -65,7 +118,7 @@
       "name": "bloc",
       "shape": "skill",
       "source_path": "skills/bloc",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/bloc",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/bloc",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -93,7 +146,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -107,9 +160,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -118,17 +171,18 @@
       "name": "code-review",
       "shape": "skill",
       "source_path": "skills/code-review",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/code-review",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/code-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "code-review",
-          "description": "Review Flutter/Dart pull requests and merge requests against a structured checklist. Use when asked to review a PR, review a MR, review a branch, audit changed files, check code quality, or evaluate a diff. Covers correctness, security, performance, style, testing, and documentation."
+          "description": "Review Flutter/Dart pull requests and merge requests against a structured checklist. Use when asked to review a PR, review a MR, review a branch, audit changed files, check code quality, or evaluate a diff. Covers correctness, code smells, security, performance, style, testing, and documentation.",
+          "hooks": ""
         },
         "standard": {
           "name": "code-review",
-          "description": "Review Flutter/Dart pull requests and merge requests against a structured checklist. Use when asked to review a PR, review a MR, review a branch, audit changed files, check code quality, or evaluate a diff. Covers correctness, security, performance, style, testing, and documentation.",
+          "description": "Review Flutter/Dart pull requests and merge requests against a structured checklist. Use when asked to review a PR, review a MR, review a branch, audit changed files, check code quality, or evaluate a diff. Covers correctness, code smells, security, performance, style, testing, and documentation.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -146,7 +200,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -160,9 +214,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -171,7 +225,7 @@
       "name": "dart-3-updates",
       "shape": "skill",
       "source_path": "skills/dart-3-updates",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/dart-3-updates",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/dart-3-updates",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -199,7 +253,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -213,9 +267,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -224,7 +278,7 @@
       "name": "effective-dart",
       "shape": "skill",
       "source_path": "skills/effective-dart",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/effective-dart",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/effective-dart",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -252,7 +306,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -266,9 +320,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -277,7 +331,7 @@
       "name": "firebase-ai",
       "shape": "skill",
       "source_path": "skills/firebase-ai",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-ai",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-ai",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -305,7 +359,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -319,9 +373,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -330,7 +384,7 @@
       "name": "firebase-analytics",
       "shape": "skill",
       "source_path": "skills/firebase-analytics",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-analytics",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-analytics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -358,7 +412,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -372,9 +426,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -383,7 +437,7 @@
       "name": "firebase-app-check",
       "shape": "skill",
       "source_path": "skills/firebase-app-check",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-app-check",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-app-check",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -411,7 +465,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -425,9 +479,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -436,7 +490,7 @@
       "name": "firebase-auth",
       "shape": "skill",
       "source_path": "skills/firebase-auth",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-auth",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-auth",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -464,7 +518,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -478,9 +532,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -489,7 +543,7 @@
       "name": "firebase-cloud-firestore",
       "shape": "skill",
       "source_path": "skills/firebase-cloud-firestore",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-cloud-firestore",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-cloud-firestore",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -517,7 +571,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -531,9 +585,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -542,7 +596,7 @@
       "name": "firebase-cloud-functions",
       "shape": "skill",
       "source_path": "skills/firebase-cloud-functions",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-cloud-functions",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-cloud-functions",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -570,7 +624,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -584,9 +638,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -595,7 +649,7 @@
       "name": "firebase-crashlytics",
       "shape": "skill",
       "source_path": "skills/firebase-crashlytics",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-crashlytics",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-crashlytics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -623,7 +677,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -637,9 +691,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -648,7 +702,7 @@
       "name": "firebase-data-connect",
       "shape": "skill",
       "source_path": "skills/firebase-data-connect",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-data-connect",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-data-connect",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -676,7 +730,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -690,9 +744,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -701,7 +755,7 @@
       "name": "firebase-database",
       "shape": "skill",
       "source_path": "skills/firebase-database",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-database",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-database",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -729,7 +783,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -743,9 +797,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -754,7 +808,7 @@
       "name": "firebase-in-app-messaging",
       "shape": "skill",
       "source_path": "skills/firebase-in-app-messaging",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-in-app-messaging",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-in-app-messaging",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -782,7 +836,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -796,9 +850,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -807,7 +861,7 @@
       "name": "firebase-messaging",
       "shape": "skill",
       "source_path": "skills/firebase-messaging",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-messaging",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-messaging",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -835,7 +889,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -849,9 +903,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -860,7 +914,7 @@
       "name": "firebase-remote-config",
       "shape": "skill",
       "source_path": "skills/firebase-remote-config",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-remote-config",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-remote-config",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -888,7 +942,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -902,9 +956,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -913,7 +967,7 @@
       "name": "firebase-storage",
       "shape": "skill",
       "source_path": "skills/firebase-storage",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/firebase-storage",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/firebase-storage",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -941,7 +995,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -955,9 +1009,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -966,7 +1020,7 @@
       "name": "flutter-app-architecture",
       "shape": "skill",
       "source_path": "skills/flutter-app-architecture",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutter-app-architecture",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/flutter-app-architecture",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -994,7 +1048,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1008,9 +1062,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1019,7 +1073,7 @@
       "name": "flutter-change-notifier",
       "shape": "skill",
       "source_path": "skills/flutter-change-notifier",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutter-change-notifier",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/flutter-change-notifier",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1047,7 +1101,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1061,9 +1115,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1072,7 +1126,7 @@
       "name": "flutter-errors",
       "shape": "skill",
       "source_path": "skills/flutter-errors",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutter-errors",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/flutter-errors",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1100,7 +1154,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1114,9 +1168,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1125,7 +1179,7 @@
       "name": "flutter-pre-caching",
       "shape": "skill",
       "source_path": "skills/flutter-pre-caching",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutter-pre-caching",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/flutter-pre-caching",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1153,7 +1207,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1167,9 +1221,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1178,7 +1232,7 @@
       "name": "flutterfire-configure",
       "shape": "skill",
       "source_path": "skills/flutterfire-configure",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/flutterfire-configure",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/flutterfire-configure",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1206,7 +1260,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1220,9 +1274,62 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "inclusive-design",
+      "shape": "skill",
+      "source_path": "skills/inclusive-design",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/inclusive-design",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "inclusive-design",
+          "description": ""
+        },
+        "standard": {
+          "name": "inclusive-design",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
+        "tags": []
+      },
+      "trust_score": 28,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 584,
+          "contributors": null,
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1231,7 +1338,7 @@
       "name": "mockito",
       "shape": "skill",
       "source_path": "skills/mockito",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/mockito",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/mockito",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1259,7 +1366,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1273,9 +1380,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1284,7 +1391,7 @@
       "name": "mocktail",
       "shape": "skill",
       "source_path": "skills/mocktail",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/mocktail",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/mocktail",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1312,7 +1419,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1326,9 +1433,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1337,7 +1444,7 @@
       "name": "patrol-e2e-testing",
       "shape": "skill",
       "source_path": "skills/patrol-e2e-testing",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/patrol-e2e-testing",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/patrol-e2e-testing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1365,7 +1472,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1379,9 +1486,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1390,7 +1497,7 @@
       "name": "provider",
       "shape": "skill",
       "source_path": "skills/provider",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/provider",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/provider",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1418,7 +1525,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1432,9 +1539,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1443,7 +1550,7 @@
       "name": "riverpod",
       "shape": "skill",
       "source_path": "skills/riverpod",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/riverpod",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/riverpod",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1471,7 +1578,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1485,9 +1592,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1496,7 +1603,7 @@
       "name": "testing",
       "shape": "skill",
       "source_path": "skills/testing",
-      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/5ba7d2570e10b29791935757612bb3050a5b848c/skills/testing",
+      "source_url": "https://github.com/evanca/flutter-ai-rules/tree/bc0cd22a0062525c20cf669c6233aaee7295b1ad/skills/testing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1524,7 +1631,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5ba7d2570e10b29791935757612bb3050a5b848c",
+        "default_sha": "bc0cd22a0062525c20cf669c6233aaee7295b1ad",
         "tags": []
       },
       "trust_score": 33,
@@ -1538,9 +1645,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 583,
+          "stars": 584,
           "contributors": null,
-          "last_commit": "2026-06-22T16:49:40Z",
+          "last_commit": "2026-06-30T08:25:00Z",
           "archived": false
         }
       }
@@ -1554,9 +1661,9 @@
       "adoption": 3,
       "license": 10,
       "license_name": "MIT",
-      "stars": 583,
+      "stars": 584,
       "contributors": null,
-      "last_commit": "2026-06-22T16:49:40Z",
+      "last_commit": "2026-06-30T08:25:00Z",
       "archived": false
     }
   }

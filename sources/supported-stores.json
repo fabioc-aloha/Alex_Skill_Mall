@@ -1,7 +1,7 @@
 {
   "$schema": "./supported-stores.schema.json",
   "version": "2.0.0",
-  "lastUpdated": "2026-05-29",
+  "lastUpdated": "2026-07-01",
   "purpose": "Single source of truth for Mall source registry. Canonical list of upstream stores that feed the Plugin Mall scan pipeline, plus the Mall itself (provenance=true) per PLAN-mall-automation.md v3 / ADR-008. Each entry maps a store name to its git remote, plugin layout, editorial tier, and provenance flag. Consumed by scripts/store-sync.cjs, scripts/mall-clone.cjs, scripts/mall-quality-audit.cjs, scripts/mall-non-coding-candidates.cjs.",
   "mallRoot": "c:/Development/MALL",
   "stores": [
@@ -403,26 +403,6 @@
       "note": "Tier-1 sweep 2026-05-25. Scientific/research domain skills.",
       "provenance": false,
       "notes": "Upstream renamed scientific-skills/ -> skills/ on 2026-05-29 (caught during Mall Phase 2 self-scan). Registry updated to match."
-    },
-    {
-      "name": "remotion-skills",
-      "remote": "https://github.com/remotion-dev/skills.git",
-      "pluginDir": "skills",
-      "quality": "domain",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Tier-1 sweep 2026-05-25. Remotion (video) official skills.",
-      "provenance": false
-    },
-    {
-      "name": "obra-superpowers",
-      "remote": "https://github.com/obra/superpowers.git",
-      "pluginDir": "skills",
-      "quality": "community-curated",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Tier-1 sweep 2026-05-25. Agentic skills framework + software-development methodology.",
-      "provenance": false
     },
     {
       "name": "imbad-academic-research-skills",

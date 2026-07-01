@@ -4,19 +4,19 @@
 
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
-| 94 | 🏆 [`converter-qa`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/converter-qa) | plugin-mall | skill | Test harness for validating converter outputs with 284 assertions across all co… |
-| 94 | 🏆 [`docpilot`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/docpilot) | plugin-mall | skill | Convert a Markdown file to a styled Word (.docx) document using docpilot — synt… |
-| 94 | 🏆 [`docx-to-md`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/docx-to-md) | plugin-mall | skill | Convert Word documents (.docx) to clean Markdown with image extraction and pand… |
-| 94 | 🏆 [`docx-to-pdf`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/docx-to-pdf) | plugin-mall | skill | Convert Word documents (.docx) to PDF. Preserves headings, paragraphs, lists, t… |
-| 94 | 🏆 [`md-to-eml`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/md-to-eml) | plugin-mall | skill | Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images |
-| 94 | 🏆 [`md-to-gamma`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/md-to-gamma) | plugin-mall | skill | Pre-process Markdown into a Gamma-import-ready version. |
-| 94 | 🏆 [`md-to-html`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/md-to-html) | plugin-mall | skill | Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermai… |
-| 94 | 🏆 [`md-to-pdf`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/md-to-pdf) | plugin-mall | skill | Convert Markdown to PDF via Pandoc with two rendering engines. |
-| 94 | 🏆 [`md-to-pptx`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/md-to-pptx) | plugin-mall | skill | Convert Markdown to PowerPoint presentations via Pandoc. |
-| 94 | 🏆 [`md-to-word`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/md-to-word) | plugin-mall | skill | Convert Markdown with Mermaid diagrams and SVG illustrations to professional Wo… |
-| 94 | 🏆 [`pptx-to-md`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/pptx-to-md) | plugin-mall | skill | Convert PowerPoint (.pptx) to Markdown via Pandoc. |
-| 92 | 🏆 [`md-to-epub`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/md-to-epub) | plugin-mall | skill | Convert Markdown to EPUB 3 e-books via Pandoc. |
-| 92 | 🏆 [`md-to-latex`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3bf9a81d7cce579916c831d88b6531cd3c81523e/plugins/converters/md-to-latex) | plugin-mall | skill | Convert Markdown to LaTeX source via Pandoc. |
+| 94 | 🏆 [`converter-qa`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/converter-qa) | plugin-mall | skill | Test harness for validating converter outputs with 284 assertions across all co… |
+| 94 | 🏆 [`docpilot`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/docpilot) | plugin-mall | skill | Convert a Markdown file to a styled Word (.docx) document using docpilot — synt… |
+| 94 | 🏆 [`docx-to-md`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/docx-to-md) | plugin-mall | skill | Convert Word documents (.docx) to clean Markdown with image extraction and pand… |
+| 94 | 🏆 [`docx-to-pdf`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/docx-to-pdf) | plugin-mall | skill | Convert Word documents (.docx) to PDF. Preserves headings, paragraphs, lists, t… |
+| 94 | 🏆 [`md-to-eml`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/md-to-eml) | plugin-mall | skill | Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images |
+| 94 | 🏆 [`md-to-gamma`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/md-to-gamma) | plugin-mall | skill | Pre-process Markdown into a Gamma-import-ready version. |
+| 94 | 🏆 [`md-to-html`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/md-to-html) | plugin-mall | skill | Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermai… |
+| 94 | 🏆 [`md-to-pdf`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/md-to-pdf) | plugin-mall | skill | Convert Markdown to PDF via Pandoc with two rendering engines. |
+| 94 | 🏆 [`md-to-pptx`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/md-to-pptx) | plugin-mall | skill | Convert Markdown to PowerPoint presentations via Pandoc. |
+| 94 | 🏆 [`md-to-word`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/md-to-word) | plugin-mall | skill | Convert Markdown with Mermaid diagrams and SVG illustrations to professional Wo… |
+| 94 | 🏆 [`pptx-to-md`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/pptx-to-md) | plugin-mall | skill | Convert PowerPoint (.pptx) to Markdown via Pandoc. |
+| 92 | 🏆 [`md-to-epub`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/md-to-epub) | plugin-mall | skill | Convert Markdown to EPUB 3 e-books via Pandoc. |
+| 92 | 🏆 [`md-to-latex`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/45357d0a6e54f0ba61000c0fd150740a389b004e/plugins/converters/md-to-latex) | plugin-mall | skill | Convert Markdown to LaTeX source via Pandoc. |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-06-29T12:33:34.042Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-07-01T18:08:34.042Z*
