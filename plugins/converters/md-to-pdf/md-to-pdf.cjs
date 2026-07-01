@@ -33,7 +33,7 @@
  *   --embed-images       Embed local images as base64 data URIs (default: true)
  *
  * Requirements:
- *   - Node.js 18+
+ *   - Node.js 24+
  *   - pandoc (Windows: winget install pandoc)
  *   - For html engine: wkhtmltopdf (winget install wkhtmltopdf)
  *   - For latex engine: MiKTeX or TeX Live (winget install MiKTeX.MiKTeX)

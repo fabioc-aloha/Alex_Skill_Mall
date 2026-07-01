@@ -25,7 +25,7 @@
  *   --debug               Save preprocessed markdown
  *
  * Requirements:
- *   - Node.js 18+
+ *   - Node.js 24+
  *   - pandoc 2.19+
  *   - mermaid-cli (optional, for diagram rendering)
  * @currency 2026-04-21
