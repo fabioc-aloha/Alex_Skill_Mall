@@ -1,18 +1,18 @@
 {
   "store": "styleseed",
   "source_repo": "https://github.com/bitjaru/styleseed.git",
-  "generated_at": "2026-06-23T15:11:20.148Z",
-  "scanned_ref": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+  "generated_at": "2026-07-06T12:18:38.650Z",
+  "scanned_ref": "b4fb002ba8841a04c423aafc61fca0483616a41a",
   "provenance": false,
   "tier": "domain",
   "license": "MIT",
-  "plugin_count": 15,
+  "plugin_count": 16,
   "plugins": [
     {
       "name": "ss-a11y",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-a11y",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-a11y",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-a11y",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -48,8 +48,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -70,9 +72,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -81,7 +83,7 @@
       "name": "ss-audit",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-audit",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-audit",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-audit",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -115,8 +117,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -137,9 +141,82 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "ss-build",
+      "shape": "skill",
+      "source_path": "engine/.claude/skills/ss-build",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-build",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ss-build",
+          "description": "Build a screen the way the StyleSeed reference demo was built — one command that ENFORCES the full loop (lock the look → build → score → fix to ≥80 → only then show). Use this instead of building UI free-hand; it closes the gap between \"knows the rules\" and \"actually followed them.\"",
+          "argument-hint": "[what to build] — e.g. \\\"inventory dashboard\\\" or \\\"pricing page for a DTC coffee brand\\\"",
+          "allowed-tools": "Read, Write, Edit, Grep, Glob, Bash, WebFetch"
+        },
+        "standard": {
+          "name": "ss-build",
+          "description": "Build a screen the way the StyleSeed reference demo was built — one command that ENFORCES the full loop (lock the look → build → score → fix to ≥80 → only then show). Use this instead of building UI free-hand; it closes the gap between \"knows the rules\" and \"actually followed them.\"",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": [
+            "Read",
+            "Write",
+            "Edit",
+            "Grep",
+            "Glob",
+            "Bash",
+            "WebFetch"
+          ],
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
+        "tags": [
+          "v2.7.0",
+          "v2.6.0",
+          "v2.5.0",
+          "v2.4.0",
+          "v2.3.0",
+          "v2.2.0",
+          "v2.1.1",
+          "v2.1.0",
+          "v2.0.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 653,
+          "contributors": 2,
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -148,7 +225,7 @@
       "name": "ss-component",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-component",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-component",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-component",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -185,8 +262,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -207,9 +286,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -218,7 +297,7 @@
       "name": "ss-copy",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-copy",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-copy",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-copy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -254,8 +333,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -276,9 +357,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -287,7 +368,7 @@
       "name": "ss-feedback",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-feedback",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-feedback",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-feedback",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -323,8 +404,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -345,9 +428,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -356,7 +439,7 @@
       "name": "ss-flow",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-flow",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-flow",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-flow",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -393,8 +476,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -415,9 +500,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -426,7 +511,7 @@
       "name": "ss-lint",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-lint",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-lint",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-lint",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -461,8 +546,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -483,9 +570,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -494,7 +581,7 @@
       "name": "ss-motion",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-motion",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-motion",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-motion",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -531,8 +618,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -553,9 +642,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -564,7 +653,7 @@
       "name": "ss-page",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-page",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-page",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-page",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -601,8 +690,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -623,9 +714,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -634,7 +725,7 @@
       "name": "ss-pattern",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-pattern",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-pattern",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-pattern",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -671,8 +762,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -693,9 +786,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -704,7 +797,7 @@
       "name": "ss-review",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-review",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-review",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -738,8 +831,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -760,9 +855,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -771,7 +866,7 @@
       "name": "ss-score",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-score",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-score",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-score",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -806,8 +901,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -828,9 +925,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -839,7 +936,7 @@
       "name": "ss-setup",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-setup",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-setup",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -877,8 +974,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -899,9 +998,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -910,7 +1009,7 @@
       "name": "ss-tokens",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-tokens",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-tokens",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-tokens",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -946,8 +1045,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -968,9 +1069,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -979,7 +1080,7 @@
       "name": "ss-update",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-update",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/c95040763fb3e9179f9ec27e558a5a0ef319f741/engine/.claude/skills/ss-update",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/b4fb002ba8841a04c423aafc61fca0483616a41a/engine/.claude/skills/ss-update",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1016,8 +1117,10 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c95040763fb3e9179f9ec27e558a5a0ef319f741",
+        "default_sha": "b4fb002ba8841a04c423aafc61fca0483616a41a",
         "tags": [
+          "v2.7.0",
+          "v2.6.0",
           "v2.5.0",
           "v2.4.0",
           "v2.3.0",
@@ -1038,9 +1141,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 631,
+          "stars": 653,
           "contributors": 2,
-          "last_commit": "2026-07-01T10:02:34Z",
+          "last_commit": "2026-07-06T09:41:53Z",
           "archived": false
         }
       }
@@ -1054,9 +1157,9 @@
       "adoption": 5,
       "license": 10,
       "license_name": "MIT",
-      "stars": 631,
+      "stars": 653,
       "contributors": 2,
-      "last_commit": "2026-07-01T10:02:34Z",
+      "last_commit": "2026-07-06T09:41:53Z",
       "archived": false
     }
   }
