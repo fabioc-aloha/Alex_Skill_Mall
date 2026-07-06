@@ -2,7 +2,7 @@
   "store": "mcp-servers",
   "source_repo": "https://github.com/modelcontextprotocol/servers.git",
   "generated_at": "2026-05-29T18:48:04.907Z",
-  "scanned_ref": "b2a94a21a53f99bee21cef9485ed50b0991c350c",
+  "scanned_ref": "7097923966fb760965654eedc0ee6455576f6d96",
   "provenance": false,
   "tier": "anthropic-official",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "everything",
       "shape": "prompt",
       "source_path": "src/everything",
-      "source_url": "https://github.com/modelcontextprotocol/servers/tree/b2a94a21a53f99bee21cef9485ed50b0991c350c/src/everything",
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/7097923966fb760965654eedc0ee6455576f6d96/src/everything",
       "readme_excerpt": "**[Architecture](docs/architecture.md)",
       "frontmatter": {
         "kind": "none",
@@ -37,13 +37,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b2a94a21a53f99bee21cef9485ed50b0991c350c",
+        "default_sha": "7097923966fb760965654eedc0ee6455576f6d96",
         "tags": [
           "typescript-servers-0.6.2",
           "typescript-servers-0.6.1",
           "typescript-servers-0.6.0",
           "python-servers-0.6.2",
           "python-servers-0.6.1",
+          "2026.7.4",
           "2026.6.16",
           "2026.6.3",
           "2026.1.26",
@@ -94,9 +95,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 87927,
-          "contributors": 428,
-          "last_commit": "2026-06-29T07:13:57Z",
+          "stars": 88110,
+          "contributors": 427,
+          "last_commit": "2026-07-04T23:04:27Z",
           "archived": false
         }
       }
@@ -105,7 +106,7 @@
       "name": "fetch",
       "shape": "unknown",
       "source_path": "src/fetch",
-      "source_url": "https://github.com/modelcontextprotocol/servers/tree/b2a94a21a53f99bee21cef9485ed50b0991c350c/src/fetch",
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/7097923966fb760965654eedc0ee6455576f6d96/src/fetch",
       "readme_excerpt": "A Model Context Protocol server that provides web content fetching capabilities. This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consump",
       "frontmatter": {
         "kind": "none",
@@ -130,13 +131,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b2a94a21a53f99bee21cef9485ed50b0991c350c",
+        "default_sha": "7097923966fb760965654eedc0ee6455576f6d96",
         "tags": [
           "typescript-servers-0.6.2",
           "typescript-servers-0.6.1",
           "typescript-servers-0.6.0",
           "python-servers-0.6.2",
           "python-servers-0.6.1",
+          "2026.7.4",
           "2026.6.16",
           "2026.6.3",
           "2026.1.26",
@@ -187,9 +189,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 87927,
-          "contributors": 428,
-          "last_commit": "2026-06-29T07:13:57Z",
+          "stars": 88110,
+          "contributors": 427,
+          "last_commit": "2026-07-04T23:04:27Z",
           "archived": false
         }
       }
@@ -198,7 +200,7 @@
       "name": "filesystem",
       "shape": "unknown",
       "source_path": "src/filesystem",
-      "source_url": "https://github.com/modelcontextprotocol/servers/tree/b2a94a21a53f99bee21cef9485ed50b0991c350c/src/filesystem",
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/7097923966fb760965654eedc0ee6455576f6d96/src/filesystem",
       "readme_excerpt": "Node.js server implementing Model Context Protocol (MCP) for filesystem operations.",
       "frontmatter": {
         "kind": "none",
@@ -223,13 +225,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b2a94a21a53f99bee21cef9485ed50b0991c350c",
+        "default_sha": "7097923966fb760965654eedc0ee6455576f6d96",
         "tags": [
           "typescript-servers-0.6.2",
           "typescript-servers-0.6.1",
           "typescript-servers-0.6.0",
           "python-servers-0.6.2",
           "python-servers-0.6.1",
+          "2026.7.4",
           "2026.6.16",
           "2026.6.3",
           "2026.1.26",
@@ -280,9 +283,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 87927,
-          "contributors": 428,
-          "last_commit": "2026-06-29T07:13:57Z",
+          "stars": 88110,
+          "contributors": 427,
+          "last_commit": "2026-07-04T23:04:27Z",
           "archived": false
         }
       }
@@ -291,7 +294,7 @@
       "name": "git",
       "shape": "unknown",
       "source_path": "src/git",
-      "source_url": "https://github.com/modelcontextprotocol/servers/tree/b2a94a21a53f99bee21cef9485ed50b0991c350c/src/git",
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/7097923966fb760965654eedc0ee6455576f6d96/src/git",
       "readme_excerpt": "A Model Context Protocol server for Git repository interaction and automation. This server provides tools to read, search, and manipulate Git repositories via Large Language Models.",
       "frontmatter": {
         "kind": "none",
@@ -316,13 +319,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b2a94a21a53f99bee21cef9485ed50b0991c350c",
+        "default_sha": "7097923966fb760965654eedc0ee6455576f6d96",
         "tags": [
           "typescript-servers-0.6.2",
           "typescript-servers-0.6.1",
           "typescript-servers-0.6.0",
           "python-servers-0.6.2",
           "python-servers-0.6.1",
+          "2026.7.4",
           "2026.6.16",
           "2026.6.3",
           "2026.1.26",
@@ -373,9 +377,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 87927,
-          "contributors": 428,
-          "last_commit": "2026-06-29T07:13:57Z",
+          "stars": 88110,
+          "contributors": 427,
+          "last_commit": "2026-07-04T23:04:27Z",
           "archived": false
         }
       }
@@ -384,7 +388,7 @@
       "name": "memory",
       "shape": "unknown",
       "source_path": "src/memory",
-      "source_url": "https://github.com/modelcontextprotocol/servers/tree/b2a94a21a53f99bee21cef9485ed50b0991c350c/src/memory",
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/7097923966fb760965654eedc0ee6455576f6d96/src/memory",
       "readme_excerpt": "A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats.",
       "frontmatter": {
         "kind": "none",
@@ -409,13 +413,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b2a94a21a53f99bee21cef9485ed50b0991c350c",
+        "default_sha": "7097923966fb760965654eedc0ee6455576f6d96",
         "tags": [
           "typescript-servers-0.6.2",
           "typescript-servers-0.6.1",
           "typescript-servers-0.6.0",
           "python-servers-0.6.2",
           "python-servers-0.6.1",
+          "2026.7.4",
           "2026.6.16",
           "2026.6.3",
           "2026.1.26",
@@ -466,9 +471,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 87927,
-          "contributors": 428,
-          "last_commit": "2026-06-29T07:13:57Z",
+          "stars": 88110,
+          "contributors": 427,
+          "last_commit": "2026-07-04T23:04:27Z",
           "archived": false
         }
       }
@@ -477,7 +482,7 @@
       "name": "sequentialthinking",
       "shape": "unknown",
       "source_path": "src/sequentialthinking",
-      "source_url": "https://github.com/modelcontextprotocol/servers/tree/b2a94a21a53f99bee21cef9485ed50b0991c350c/src/sequentialthinking",
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/7097923966fb760965654eedc0ee6455576f6d96/src/sequentialthinking",
       "readme_excerpt": "An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.",
       "frontmatter": {
         "kind": "none",
@@ -502,13 +507,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b2a94a21a53f99bee21cef9485ed50b0991c350c",
+        "default_sha": "7097923966fb760965654eedc0ee6455576f6d96",
         "tags": [
           "typescript-servers-0.6.2",
           "typescript-servers-0.6.1",
           "typescript-servers-0.6.0",
           "python-servers-0.6.2",
           "python-servers-0.6.1",
+          "2026.7.4",
           "2026.6.16",
           "2026.6.3",
           "2026.1.26",
@@ -559,9 +565,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 87927,
-          "contributors": 428,
-          "last_commit": "2026-06-29T07:13:57Z",
+          "stars": 88110,
+          "contributors": 427,
+          "last_commit": "2026-07-04T23:04:27Z",
           "archived": false
         }
       }
@@ -570,7 +576,7 @@
       "name": "time",
       "shape": "unknown",
       "source_path": "src/time",
-      "source_url": "https://github.com/modelcontextprotocol/servers/tree/b2a94a21a53f99bee21cef9485ed50b0991c350c/src/time",
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/7097923966fb760965654eedc0ee6455576f6d96/src/time",
       "readme_excerpt": "A Model Context Protocol server that provides time and timezone conversion capabilities. This server enables LLMs to get current time information and perform timezone conversions using IANA timezone n",
       "frontmatter": {
         "kind": "none",
@@ -595,13 +601,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b2a94a21a53f99bee21cef9485ed50b0991c350c",
+        "default_sha": "7097923966fb760965654eedc0ee6455576f6d96",
         "tags": [
           "typescript-servers-0.6.2",
           "typescript-servers-0.6.1",
           "typescript-servers-0.6.0",
           "python-servers-0.6.2",
           "python-servers-0.6.1",
+          "2026.7.4",
           "2026.6.16",
           "2026.6.3",
           "2026.1.26",
@@ -652,9 +659,9 @@
           "adoption": 10,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 87927,
-          "contributors": 428,
-          "last_commit": "2026-06-29T07:13:57Z",
+          "stars": 88110,
+          "contributors": 427,
+          "last_commit": "2026-07-04T23:04:27Z",
           "archived": false
         }
       }
@@ -668,9 +675,9 @@
       "adoption": 10,
       "license": 0,
       "license_name": "NOASSERTION",
-      "stars": 87927,
-      "contributors": 428,
-      "last_commit": "2026-06-29T07:13:57Z",
+      "stars": 88110,
+      "contributors": 427,
+      "last_commit": "2026-07-04T23:04:27Z",
       "archived": false
     }
   }
