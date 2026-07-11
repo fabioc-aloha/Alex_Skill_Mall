@@ -1,0 +1,126 @@
+'use strict';
+
+const { test } = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+
+const { validateCatalog } = require('../scripts/validate-catalog.cjs');
+const REPO_ROOT = path.resolve(__dirname, '..');
+
+function writeJson(filePath, value) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, JSON.stringify(value, null, 2) + '\n');
+}
+
+function fixture() {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-validator-'));
+  const stores = [
+    { name: 'plugin-mall', remote: 'https://example.invalid/mall.git', pluginDir: 'plugins', quality: 'first-party', provenance: true },
+    { name: 'upstream', remote: 'https://example.invalid/upstream.git', pluginDir: '.', quality: 'community', provenance: false },
+  ];
+  writeJson(path.join(root, 'sources', 'supported-stores.json'), { schema_version: '2.0', stores });
+  for (const store of stores) {
+    writeJson(path.join(root, 'catalog', 'stores', `${store.name}.json`), {
+      store: store.name,
+      store_trust: { score: store.provenance ? 82 : 35 },
+      plugins: [{
+        name: `${store.name}-skill`,
+        trust_score: store.provenance ? 82 : 45,
+        trust_signals: { store: store.provenance ? 82 : 35, frontmatter: 5, readme: 5, store_breakdown: { provenance: store.provenance ? 50 : 0 } },
+      }],
+    });
+    fs.mkdirSync(path.join(root, 'catalog', 'stores'), { recursive: true });
+    fs.writeFileSync(path.join(root, 'catalog', 'stores', `${store.name}.md`), `# ${store.name}\n`);
+  }
+  writeJson(path.join(root, 'catalog', 'index.json'), {
+    schema_version: '3.0', store_count: 2, plugin_count: 2,
+    plugins: stores.map((store) => ({ name: `${store.name}-skill`, store: store.name, trust_score: store.provenance ? 82 : 45 })),
+  });
+  fs.mkdirSync(path.join(root, 'sources'), { recursive: true });
+  fs.writeFileSync(path.join(root, 'sources', 'SOURCES.md'), '# Sources\n');
+  return root;
+}
+
+function cleanup(root) { fs.rmSync(root, { recursive: true, force: true }); }
+function codes(result) { return result.errors.map((entry) => entry.code); }
+
+test('valid generated catalog passes', () => {
+  const root = fixture();
+  try { assert.equal(validateCatalog(root).ok, true, JSON.stringify(validateCatalog(root))); }
+  finally { cleanup(root); }
+});
+
+test('duplicate registry names fail', () => {
+  const root = fixture();
+  try {
+    const p = path.join(root, 'sources', 'supported-stores.json');
+    const registry = JSON.parse(fs.readFileSync(p, 'utf8'));
+    registry.stores[1].name = 'plugin-mall';
+    writeJson(p, registry);
+    assert.ok(codes(validateCatalog(root)).includes('REGISTRY_NAME_DUPLICATE'));
+  } finally { cleanup(root); }
+});
+
+test('provenance must identify exactly plugin-mall', () => {
+  const root = fixture();
+  try {
+    const p = path.join(root, 'sources', 'supported-stores.json');
+    const registry = JSON.parse(fs.readFileSync(p, 'utf8'));
+    registry.stores[1].provenance = true;
+    writeJson(p, registry);
+    assert.ok(codes(validateCatalog(root)).includes('PROVENANCE_INVALID'));
+  } finally { cleanup(root); }
+});
+
+test('registry and store JSON sets must agree', () => {
+  const root = fixture();
+  try {
+    fs.rmSync(path.join(root, 'catalog', 'stores', 'upstream.json'));
+    assert.ok(codes(validateCatalog(root)).includes('STORE_SET_MISMATCH'));
+  } finally { cleanup(root); }
+});
+
+test('index counts must reconcile with store JSON', () => {
+  const root = fixture();
+  try {
+    const p = path.join(root, 'catalog', 'index.json');
+    const index = JSON.parse(fs.readFileSync(p, 'utf8'));
+    index.plugin_count = 99;
+    writeJson(p, index);
+    assert.ok(codes(validateCatalog(root)).includes('PLUGIN_COUNT_MISMATCH'));
+  } finally { cleanup(root); }
+});
+
+test('every store requires rendered markdown', () => {
+  const root = fixture();
+  try {
+    fs.rmSync(path.join(root, 'catalog', 'stores', 'upstream.md'));
+    assert.ok(codes(validateCatalog(root)).includes('STORE_MARKDOWN_MISSING'));
+  } finally { cleanup(root); }
+});
+
+test('trust scores and signals are bounded and present', () => {
+  const root = fixture();
+  try {
+    const p = path.join(root, 'catalog', 'stores', 'upstream.json');
+    const store = JSON.parse(fs.readFileSync(p, 'utf8'));
+    store.plugins[0].trust_score = 101;
+    delete store.plugins[0].trust_signals.readme;
+    writeJson(p, store);
+    const result = validateCatalog(root);
+    assert.ok(codes(result).includes('TRUST_SCORE_INVALID'));
+    assert.ok(codes(result).includes('TRUST_SIGNALS_MISSING'));
+  } finally { cleanup(root); }
+});
+
+test('workflow runs tests and validation before immediate merge', () => {
+  const workflow = fs.readFileSync(path.join(REPO_ROOT, '.github', 'workflows', 'scan-sources.yml'), 'utf8');
+  const testIndex = workflow.indexOf('run: npm test');
+  const validateIndex = workflow.indexOf('run: npm run validate');
+  const mergeIndex = workflow.indexOf('gh pr merge');
+  assert.ok(testIndex >= 0, 'workflow must run npm test');
+  assert.ok(validateIndex > testIndex, 'validation must run after tests');
+  assert.ok(mergeIndex > validateIndex, 'merge must occur only after tests and validation');
+});

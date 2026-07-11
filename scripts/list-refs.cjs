@@ -40,12 +40,17 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
-const SOURCES_DIR = process.env.SOURCES_DIR || path.join(REPO_ROOT, '..', 'MALL');
 const CATALOG_STORES_DIR = path.join(REPO_ROOT, 'catalog', 'stores');
 
 const STORE_ARG_IDX = process.argv.indexOf('--store');
 const SINGLE_STORE = STORE_ARG_IDX > -1 ? process.argv[STORE_ARG_IDX + 1] : null;
 const DRY_RUN = process.argv.includes('--dry-run');
+const SOURCES_DIR = process.env.SOURCES_DIR;
+
+if (!SOURCES_DIR && SINGLE_STORE !== 'plugin-mall') {
+  console.error('ERROR: SOURCES_DIR is required unless --store plugin-mall is used.');
+  process.exit(1);
+}
 
 // --- git helpers ---
 

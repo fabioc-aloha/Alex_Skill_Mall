@@ -1,17 +1,15 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/fabioc-aloha/Alex_ACT_Supervisor/blob/main/mall/supported-stores.schema.json",
+  "$id": "https://github.com/fabioc-aloha/Alex_Skill_Mall/blob/main/sources/supported-stores.schema.json",
   "title": "Mall Sources Registry (supported-stores)",
   "description": "Single source of truth for the Mall source registry. Schema v2.0 (2026-05-29) extends v1.0 with provenance, license, local_dir_name, plugin-mall self-entry per PLAN-mall-automation.md v3 / ADR-008.",
   "type": "object",
   "required": ["schema_version", "stores"],
   "properties": {
     "$schema": { "type": "string" },
-    "version": { "type": "string" },
     "schema_version": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
     "lastUpdated": { "type": "string", "format": "date" },
     "purpose": { "type": "string" },
-    "mallRoot": { "type": "string", "description": "Default local clone root used by mall-clone.cjs." },
     "stores": {
       "type": "array",
       "items": {
@@ -53,6 +51,7 @@
           },
           "verifiedDate": { "type": "string", "format": "date" },
           "addedAt": { "type": "string", "format": "date" },
+          "note": { "type": "string" },
           "notes": { "type": "string" }
         }
       }

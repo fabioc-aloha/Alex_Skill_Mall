@@ -1,9 +1,7 @@
 {
   "$schema": "./supported-stores.schema.json",
-  "version": "2.0.0",
   "lastUpdated": "2026-07-01",
-  "purpose": "Single source of truth for Mall source registry. Canonical list of upstream stores that feed the Plugin Mall scan pipeline, plus the Mall itself (provenance=true) per PLAN-mall-automation.md v3 / ADR-008. Each entry maps a store name to its git remote, plugin layout, editorial tier, and provenance flag. Consumed by scripts/store-sync.cjs, scripts/mall-clone.cjs, scripts/mall-quality-audit.cjs, scripts/mall-non-coding-candidates.cjs.",
-  "mallRoot": "c:/Development/MALL",
+  "purpose": "Single source of truth for Mall source discovery, scanning, trust scoring, rendering, and structural validation. Consumed by bootstrap-sources.cjs, scan-sources.cjs, list-refs.cjs, fetch-github-stats.cjs, compute-trust.cjs, render-catalog.cjs, and validate-catalog.cjs.",
   "stores": [
     {
       "name": "awesome-copilot",

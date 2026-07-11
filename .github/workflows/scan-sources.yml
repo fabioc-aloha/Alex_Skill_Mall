@@ -40,7 +40,7 @@ jobs:
         # plugin-mall self-entry is filtered (it's this repo, already checked out).
         run: node scripts/bootstrap-sources.cjs
 
-      - name: Scan all 46 stores (skeleton catalog)
+      - name: Scan registered stores (skeleton catalog)
         # Walks $SOURCES_DIR + this repo's plugins/ folder for self-scan.
         # Writes catalog/stores/*.json with frontmatter.raw + readme_excerpt + shape.
         run: node scripts/scan-sources.cjs
@@ -73,6 +73,12 @@ jobs:
         # scoring/TRUST-AUDIT.md, sources/SOURCES.md.
         # Footer timestamps pin to trust-audit.json's generated_at (idempotent).
         run: node scripts/render-catalog.cjs
+
+      - name: Test catalog validator
+        run: npm test
+
+      - name: Validate generated catalog
+        run: npm run validate
 
       - name: Check for content changes
         id: changes
@@ -130,7 +136,8 @@ jobs:
           )" \
             --base main --head "$BRANCH"
 
-          # Immediate squash-merge. GitHub's `--auto` flag requires branch
+          # Immediate squash-merge after the deterministic test + validation
+          # gates above pass. GitHub's `--auto` flag requires branch
           # protection with required status checks to function (it's "wait for
           # checks, then merge"); with no checks defined the API rejects it.
           # The PR-opened email + PR-merged email arrive seconds apart and
@@ -151,6 +158,7 @@ jobs:
             echo "- Plugins: $PLUGIN_COUNT" >> "$GITHUB_STEP_SUMMARY"
             echo "- Stores: $STORE_COUNT" >> "$GITHUB_STEP_SUMMARY"
             echo "- index.json size: $INDEX_BYTES bytes" >> "$GITHUB_STEP_SUMMARY"
+            echo "- Structural validation: passed before merge" >> "$GITHUB_STEP_SUMMARY"
           fi
           if [ "${{ steps.changes.outputs.changed }}" = "true" ]; then
             echo "- Catalog refresh PR opened" >> "$GITHUB_STEP_SUMMARY"

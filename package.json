@@ -1,0 +1,14 @@
+{
+  "name": "alex-act-plugin-mall",
+  "private": true,
+  "description": "Self-curating ACT plugin catalog and structural validation tooling.",
+  "scripts": {
+    "validate": "node scripts/validate-catalog.cjs",
+    "test": "node --test test/validate-catalog.test.cjs",
+    "check": "npm test && npm run validate"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0"
+}

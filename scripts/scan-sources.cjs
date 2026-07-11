@@ -21,7 +21,7 @@
  *
  * Usage:
  *   SOURCES_DIR=/tmp/sources node scripts/scan-sources.cjs
- *   node scripts/scan-sources.cjs                          # SOURCES_DIR defaults to ../MALL
+ *   node scripts/scan-sources.cjs --store plugin-mall      # self-scan needs no SOURCES_DIR
  *   node scripts/scan-sources.cjs --store plugin-mall      # single-store mode
  */
 
@@ -29,12 +29,17 @@ const fs = require('fs');
 const path = require('path');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
-const SOURCES_DIR = process.env.SOURCES_DIR || path.join(REPO_ROOT, '..', 'MALL');
 const SUPPORTED_PATH = path.join(REPO_ROOT, 'sources', 'supported-stores.json');
 const CATALOG_STORES_DIR = path.join(REPO_ROOT, 'catalog', 'stores');
 
 const STORE_ARG_IDX = process.argv.indexOf('--store');
 const SINGLE_STORE = STORE_ARG_IDX > -1 ? process.argv[STORE_ARG_IDX + 1] : null;
+const SOURCES_DIR = process.env.SOURCES_DIR;
+
+if (!SOURCES_DIR && SINGLE_STORE !== 'plugin-mall') {
+  console.error('ERROR: SOURCES_DIR is required unless --store plugin-mall is used.');
+  process.exit(1);
+}
 
 const SUPPORTED = JSON.parse(fs.readFileSync(SUPPORTED_PATH, 'utf-8'));
 

@@ -4,9 +4,8 @@
  *
  * Shallow-clones every third-party source store from sources/supported-stores.json
  * into $SOURCES_DIR. Used by the scan-sources.yml workflow to materialize source
- * repos in the runner workspace. Operators running locally can either run this
- * script (against an empty SOURCES_DIR) or point SOURCES_DIR at an existing
- * MALL layout (e.g. C:/Development/MALL).
+ * repos in the runner workspace. Local operators must set SOURCES_DIR to a
+ * disposable or explicitly managed clone directory.
  *
  * The 'plugin-mall' self-entry is filtered out: this repo is already checked out,
  * cloning it from itself would be wasteful and could race the workflow.
@@ -25,12 +24,17 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
-const SOURCES_DIR = process.env.SOURCES_DIR || path.join(REPO_ROOT, '..', 'MALL');
+const SOURCES_DIR = process.env.SOURCES_DIR;
 const SUPPORTED_PATH = path.join(REPO_ROOT, 'sources', 'supported-stores.json');
 
 const FORCE = process.argv.includes('--force');
 const depthIdx = process.argv.indexOf('--depth');
 const depth = depthIdx > -1 ? Number(process.argv[depthIdx + 1]) : 1;
+
+if (!SOURCES_DIR) {
+  console.error('ERROR: SOURCES_DIR is required. Point it at a disposable or explicitly managed source-clone directory.');
+  process.exit(1);
+}
 
 if (!fs.existsSync(SUPPORTED_PATH)) {
   console.error(`ERROR: ${SUPPORTED_PATH} not found.`);
