@@ -1,42 +1,42 @@
 # copilot-agents-dojo
 
 **Source:** [andreaswasita/copilot-agents-dojo](https://github.com/andreaswasita/copilot-agents-dojo)
-**Store trust:** 28/100
-**Signals:** maintenance 15 · adoption 3 · license 10 (MIT) · 49 stars · 3 contributors
+**Store trust:** 30/100
+**Signals:** maintenance 15 · adoption 5 · license 10 (MIT) · 50 stars · 3 contributors
 **Scanned ref:** `807fc5968987`
 
 ## Plugins (28)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 33 | [`autonomous-bug-fix`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/autonomous-bug-fix) | skill | - | Reproduces, diagnoses, fixes, and verifies bugs unaided. |
-| 33 | [`behavioral-foundation`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/behavioral-foundation) | skill | - | Surfaces the dojo's non-negotiable prime directives. |
-| 33 | [`brainstorming`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/brainstorming) | skill | - | Refines rough ideas into approved designs before code. |
-| 33 | [`code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/code-review) | skill | - | Reviews diffs by severity to produce actionable feedback. |
-| 33 | [`codebase-onboarding`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/codebase-onboarding) | skill | - | Maps an unfamiliar repo before touching its code. |
-| 33 | [`debugging`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/debugging) | skill | - | Systematic root-cause investigation for hard bugs. |
-| 33 | [`demand-elegance`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/demand-elegance) | skill | - | Challenges hacky fixes on non-trivial changes. |
-| 33 | [`derive-nfr-from-driver`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/derive-nfr-from-driver) | skill | - | Derives measurable NFRs from a parent business driver. |
-| 33 | [`derive-security-from-risk`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/derive-security-from-risk) | skill | - | Derives security requirements from a named threat. |
-| 33 | [`dispatching-parallel-agents`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/dispatching-parallel-agents) | skill | - | Runs independent subtasks concurrently via sub-agents. |
-| 33 | [`durable-work`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/durable-work) | skill | - | Picks the board over sub-agents for cross-turn work. |
-| 33 | [`executing-plans`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/executing-plans) | skill | - | Executes approved plans one task at a time, verified. |
-| 33 | [`finishing-a-development-branch`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/finishing-a-development-branch) | skill | - | Verifies, summarises, and closes a development branch. |
-| 33 | [`plan-before-code`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/plan-before-code) | skill | - | Plans multi-step work before writing code. |
-| 33 | [`pr-workflow`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/pr-workflow) | skill | - | Prepares branches and PRs for clean, reviewable merges. |
-| 33 | [`receiving-code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/receiving-code-review) | skill | - | Processes review feedback until the change is approved. |
-| 33 | [`refactoring`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/refactoring) | skill | - | Safe, test-backed code restructuring in small steps. |
-| 33 | [`requesting-code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/requesting-code-review) | skill | - | Self-reviews work against the plan before sign-off. |
-| 33 | [`requirements-elicitation`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/requirements-elicitation) | skill | - | Turns vague intent into testable requirements. |
-| 33 | [`safety-guardrails`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/safety-guardrails) | skill | - | Flags risky shell commands and unsafe tree ops. |
-| 33 | [`security-audit`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/security-audit) | skill | - | Detects high-confidence security risks in code. |
-| 33 | [`self-improvement`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/self-improvement) | skill | - | Captures lessons and promotes recurring patterns. |
-| 33 | [`subagent-strategy`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/subagent-strategy) | skill | - | Delegates research and parallel work to sub-agents. |
-| 33 | [`test-writing`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/test-writing) | skill | - | Writes meaningful tests that actually catch bugs. |
-| 33 | [`traceability-gate`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/traceability-gate) | skill | - | Enforces parent-link lineage across requirement layers. |
-| 33 | [`using-git-worktrees`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/using-git-worktrees) | skill | - | Isolates each task in its own git worktree off main. |
-| 33 | [`using-superpowers`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/using-superpowers) | skill | - | Activates the dojo framework at the start of a session. |
-| 33 | [`verify-before-done`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/verify-before-done) | skill | - | Proves work with tests, diffs, and logs before sign-off. |
+| 35 | [`autonomous-bug-fix`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/autonomous-bug-fix) | skill | - | Reproduces, diagnoses, fixes, and verifies bugs unaided. |
+| 35 | [`behavioral-foundation`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/behavioral-foundation) | skill | - | Surfaces the dojo's non-negotiable prime directives. |
+| 35 | [`brainstorming`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/brainstorming) | skill | - | Refines rough ideas into approved designs before code. |
+| 35 | [`code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/code-review) | skill | - | Reviews diffs by severity to produce actionable feedback. |
+| 35 | [`codebase-onboarding`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/codebase-onboarding) | skill | - | Maps an unfamiliar repo before touching its code. |
+| 35 | [`debugging`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/debugging) | skill | - | Systematic root-cause investigation for hard bugs. |
+| 35 | [`demand-elegance`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/demand-elegance) | skill | - | Challenges hacky fixes on non-trivial changes. |
+| 35 | [`derive-nfr-from-driver`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/derive-nfr-from-driver) | skill | - | Derives measurable NFRs from a parent business driver. |
+| 35 | [`derive-security-from-risk`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/derive-security-from-risk) | skill | - | Derives security requirements from a named threat. |
+| 35 | [`dispatching-parallel-agents`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/dispatching-parallel-agents) | skill | - | Runs independent subtasks concurrently via sub-agents. |
+| 35 | [`durable-work`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/durable-work) | skill | - | Picks the board over sub-agents for cross-turn work. |
+| 35 | [`executing-plans`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/executing-plans) | skill | - | Executes approved plans one task at a time, verified. |
+| 35 | [`finishing-a-development-branch`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/finishing-a-development-branch) | skill | - | Verifies, summarises, and closes a development branch. |
+| 35 | [`plan-before-code`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/plan-before-code) | skill | - | Plans multi-step work before writing code. |
+| 35 | [`pr-workflow`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/pr-workflow) | skill | - | Prepares branches and PRs for clean, reviewable merges. |
+| 35 | [`receiving-code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/receiving-code-review) | skill | - | Processes review feedback until the change is approved. |
+| 35 | [`refactoring`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/refactoring) | skill | - | Safe, test-backed code restructuring in small steps. |
+| 35 | [`requesting-code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/requesting-code-review) | skill | - | Self-reviews work against the plan before sign-off. |
+| 35 | [`requirements-elicitation`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/requirements-elicitation) | skill | - | Turns vague intent into testable requirements. |
+| 35 | [`safety-guardrails`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/safety-guardrails) | skill | - | Flags risky shell commands and unsafe tree ops. |
+| 35 | [`security-audit`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/security-audit) | skill | - | Detects high-confidence security risks in code. |
+| 35 | [`self-improvement`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/self-improvement) | skill | - | Captures lessons and promotes recurring patterns. |
+| 35 | [`subagent-strategy`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/subagent-strategy) | skill | - | Delegates research and parallel work to sub-agents. |
+| 35 | [`test-writing`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/test-writing) | skill | - | Writes meaningful tests that actually catch bugs. |
+| 35 | [`traceability-gate`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/traceability-gate) | skill | - | Enforces parent-link lineage across requirement layers. |
+| 35 | [`using-git-worktrees`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/using-git-worktrees) | skill | - | Isolates each task in its own git worktree off main. |
+| 35 | [`using-superpowers`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/using-superpowers) | skill | - | Activates the dojo framework at the start of a session. |
+| 35 | [`verify-before-done`](https://github.com/andreaswasita/copilot-agents-dojo/tree/807fc5968987b252de3444ea87d25f71e543b4aa/skills/verify-before-done) | skill | - | Proves work with tests, diffs, and logs before sign-off. |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-07-06T12:19:06.551Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-07-13T13:15:52.059Z*

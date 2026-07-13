@@ -2,23 +2,23 @@
 
 **Source:** [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)
 **Store trust:** 25/100
-**Signals:** maintenance 15 · adoption 10 · license 0 (NOASSERTION) · 36521 stars · 12 contributors
-**Scanned ref:** `f86d68a80a6f`
+**Signals:** maintenance 15 · adoption 10 · license 0 (NOASSERTION) · 37641 stars · 12 contributors
+**Scanned ref:** `2aabdf6d56ad`
 
 ## Plugins (10)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 35 | [`adapters`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/scripts/adapters) | unknown | - | Reference adapters that produce `literature_corpus[]` entries for the ARS Material Passport. Define… |
-| 35 | [`evals`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/evals) | unknown | - | This directory holds the v3.10 #184 generalized gold sets. Each subdirectory under `gold/` is a sel… |
-| 35 | [`release-discipline`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/tools/release-discipline) | unknown | - | vendored from release-discipline-toolkit@v0.3.2 on 2026-07-03 |
-| 35 | [`showcase`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/examples/showcase) | unknown | - | Complete artifacts from a real 10-stage academic pipeline run, demonstrating the end-to-end quality… |
-| 30 | [`academic-paper`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/academic-paper) | skill | - | 12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstr… |
-| 30 | [`academic-paper-reviewer`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/academic-paper-reviewer) | skill | - | Multi-perspective academic paper review with dynamic reviewer personas. Simulates 5 independent rev… |
-| 30 | [`academic-pipeline`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/academic-pipeline) | skill | - | Orchestrator for the full academic research pipeline: research -> write -> integrity check -> revie… |
-| 30 | [`deep-research`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/deep-research) | skill | - | Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. … |
-| 25 | [`hooks`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/hooks) | hook | - |  |
-| 25 | [`shared`](https://github.com/Imbad0202/academic-research-skills/tree/f86d68a80a6fd05bf51688ff39297ea603eda912/shared) | agent | - |  |
+| 35 | [`adapters`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/scripts/adapters) | unknown | - | Reference adapters that produce `literature_corpus[]` entries for the ARS Material Passport. Define… |
+| 35 | [`evals`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/evals) | unknown | - | This directory holds the v3.10 #184 generalized gold sets. Each subdirectory under `gold/` is a sel… |
+| 35 | [`release-discipline`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/tools/release-discipline) | unknown | - | vendored from release-discipline-toolkit@v0.3.2 on 2026-07-03 |
+| 35 | [`showcase`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/examples/showcase) | unknown | - | Complete artifacts from a real 10-stage academic pipeline run, demonstrating the end-to-end quality… |
+| 30 | [`academic-paper`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/academic-paper) | skill | - | 12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstr… |
+| 30 | [`academic-paper-reviewer`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/academic-paper-reviewer) | skill | - | Multi-perspective academic paper review with dynamic reviewer personas. Simulates 5 independent rev… |
+| 30 | [`academic-pipeline`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/academic-pipeline) | skill | - | Orchestrator for the full academic research pipeline: research -> write -> integrity check -> revie… |
+| 30 | [`deep-research`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/deep-research) | skill | - | Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. … |
+| 25 | [`hooks`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/hooks) | hook | - |  |
+| 25 | [`shared`](https://github.com/Imbad0202/academic-research-skills/tree/2aabdf6d56ade6e4e5e52eb468f9c6c4d392988d/shared) | agent | - |  |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-07-06T12:19:06.551Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-07-13T13:15:52.059Z*
