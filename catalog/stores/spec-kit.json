@@ -2,7 +2,7 @@
   "store": "spec-kit",
   "source_repo": "https://github.com/github/spec-kit.git",
   "generated_at": "2026-05-29T18:48:04.914Z",
-  "scanned_ref": "bba473c223dc298fb76ecf8f87f86d5d2b8ed11c",
+  "scanned_ref": "1be42992e64b08ff0dce3d7a914eaabf04284ffb",
   "provenance": false,
   "tier": "github-official",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "docs",
       "shape": "unknown",
       "source_path": "docs",
-      "source_url": "https://github.com/github/spec-kit/tree/bba473c223dc298fb76ecf8f87f86d5d2b8ed11c/docs",
+      "source_url": "https://github.com/github/spec-kit/tree/1be42992e64b08ff0dce3d7a914eaabf04284ffb/docs",
       "readme_excerpt": "This folder contains the documentation source files for Spec Kit, built using [DocFX](https://dotnet.github.io/docfx/).",
       "frontmatter": {
         "kind": "none",
@@ -37,8 +37,15 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "bba473c223dc298fb76ecf8f87f86d5d2b8ed11c",
+        "default_sha": "1be42992e64b08ff0dce3d7a914eaabf04284ffb",
         "tags": [
+          "v0.12.11",
+          "v0.12.10",
+          "v0.12.9",
+          "v0.12.8",
+          "v0.12.7",
+          "v0.12.6",
+          "v0.12.5",
           "v0.12.4",
           "v0.12.3",
           "v0.12.2",
@@ -234,9 +241,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 118314,
-          "contributors": 234,
-          "last_commit": "2026-07-02T21:53:31Z",
+          "stars": 120294,
+          "contributors": 237,
+          "last_commit": "2026-07-13T13:07:05Z",
           "archived": false
         }
       }
@@ -245,7 +252,7 @@
       "name": "extensions",
       "shape": "unknown",
       "source_path": "extensions",
-      "source_url": "https://github.com/github/spec-kit/tree/bba473c223dc298fb76ecf8f87f86d5d2b8ed11c/extensions",
+      "source_url": "https://github.com/github/spec-kit/tree/1be42992e64b08ff0dce3d7a914eaabf04284ffb/extensions",
       "readme_excerpt": "Extension system for [Spec Kit](https://github.com/github/spec-kit) - add new functionality without bloating the core framework.",
       "frontmatter": {
         "kind": "none",
@@ -270,8 +277,15 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "bba473c223dc298fb76ecf8f87f86d5d2b8ed11c",
+        "default_sha": "1be42992e64b08ff0dce3d7a914eaabf04284ffb",
         "tags": [
+          "v0.12.11",
+          "v0.12.10",
+          "v0.12.9",
+          "v0.12.8",
+          "v0.12.7",
+          "v0.12.6",
+          "v0.12.5",
           "v0.12.4",
           "v0.12.3",
           "v0.12.2",
@@ -467,9 +481,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 118314,
-          "contributors": 234,
-          "last_commit": "2026-07-02T21:53:31Z",
+          "stars": 120294,
+          "contributors": 237,
+          "last_commit": "2026-07-13T13:07:05Z",
           "archived": false
         }
       }
@@ -478,7 +492,7 @@
       "name": "integrations",
       "shape": "unknown",
       "source_path": "integrations",
-      "source_url": "https://github.com/github/spec-kit/tree/bba473c223dc298fb76ecf8f87f86d5d2b8ed11c/integrations",
+      "source_url": "https://github.com/github/spec-kit/tree/1be42992e64b08ff0dce3d7a914eaabf04284ffb/integrations",
       "readme_excerpt": "The integration catalog enables discovery, versioning, and distribution of AI agent integrations for Spec Kit.",
       "frontmatter": {
         "kind": "none",
@@ -503,8 +517,15 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "bba473c223dc298fb76ecf8f87f86d5d2b8ed11c",
+        "default_sha": "1be42992e64b08ff0dce3d7a914eaabf04284ffb",
         "tags": [
+          "v0.12.11",
+          "v0.12.10",
+          "v0.12.9",
+          "v0.12.8",
+          "v0.12.7",
+          "v0.12.6",
+          "v0.12.5",
           "v0.12.4",
           "v0.12.3",
           "v0.12.2",
@@ -700,9 +721,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 118314,
-          "contributors": 234,
-          "last_commit": "2026-07-02T21:53:31Z",
+          "stars": 120294,
+          "contributors": 237,
+          "last_commit": "2026-07-13T13:07:05Z",
           "archived": false
         }
       }
@@ -711,7 +732,7 @@
       "name": "presets",
       "shape": "unknown",
       "source_path": "presets",
-      "source_url": "https://github.com/github/spec-kit/tree/bba473c223dc298fb76ecf8f87f86d5d2b8ed11c/presets",
+      "source_url": "https://github.com/github/spec-kit/tree/1be42992e64b08ff0dce3d7a914eaabf04284ffb/presets",
       "readme_excerpt": "Presets are stackable, priority-ordered collections of template and command overrides for Spec Kit. They let you customize both the artifacts produced by the Spec-Driven Development workflow (specs, p",
       "frontmatter": {
         "kind": "none",
@@ -736,8 +757,15 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "bba473c223dc298fb76ecf8f87f86d5d2b8ed11c",
+        "default_sha": "1be42992e64b08ff0dce3d7a914eaabf04284ffb",
         "tags": [
+          "v0.12.11",
+          "v0.12.10",
+          "v0.12.9",
+          "v0.12.8",
+          "v0.12.7",
+          "v0.12.6",
+          "v0.12.5",
           "v0.12.4",
           "v0.12.3",
           "v0.12.2",
@@ -933,9 +961,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 118314,
-          "contributors": 234,
-          "last_commit": "2026-07-02T21:53:31Z",
+          "stars": 120294,
+          "contributors": 237,
+          "last_commit": "2026-07-13T13:07:05Z",
           "archived": false
         }
       }
@@ -944,7 +972,7 @@
       "name": "tests",
       "shape": "hook",
       "source_path": "tests",
-      "source_url": "https://github.com/github/spec-kit/tree/bba473c223dc298fb76ecf8f87f86d5d2b8ed11c/tests",
+      "source_url": "https://github.com/github/spec-kit/tree/1be42992e64b08ff0dce3d7a914eaabf04284ffb/tests",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -969,8 +997,15 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "bba473c223dc298fb76ecf8f87f86d5d2b8ed11c",
+        "default_sha": "1be42992e64b08ff0dce3d7a914eaabf04284ffb",
         "tags": [
+          "v0.12.11",
+          "v0.12.10",
+          "v0.12.9",
+          "v0.12.8",
+          "v0.12.7",
+          "v0.12.6",
+          "v0.12.5",
           "v0.12.4",
           "v0.12.3",
           "v0.12.2",
@@ -1166,9 +1201,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 118314,
-          "contributors": 234,
-          "last_commit": "2026-07-02T21:53:31Z",
+          "stars": 120294,
+          "contributors": 237,
+          "last_commit": "2026-07-13T13:07:05Z",
           "archived": false
         }
       }
@@ -1177,7 +1212,7 @@
       "name": "workflows",
       "shape": "unknown",
       "source_path": "workflows",
-      "source_url": "https://github.com/github/spec-kit/tree/bba473c223dc298fb76ecf8f87f86d5d2b8ed11c/workflows",
+      "source_url": "https://github.com/github/spec-kit/tree/1be42992e64b08ff0dce3d7a914eaabf04284ffb/workflows",
       "readme_excerpt": "Workflows are multi-step, resumable automation pipelines defined in YAML. They orchestrate Spec Kit commands across integrations, evaluate control flow, and pause at human review gates — enabling end-",
       "frontmatter": {
         "kind": "none",
@@ -1202,8 +1237,15 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "bba473c223dc298fb76ecf8f87f86d5d2b8ed11c",
+        "default_sha": "1be42992e64b08ff0dce3d7a914eaabf04284ffb",
         "tags": [
+          "v0.12.11",
+          "v0.12.10",
+          "v0.12.9",
+          "v0.12.8",
+          "v0.12.7",
+          "v0.12.6",
+          "v0.12.5",
           "v0.12.4",
           "v0.12.3",
           "v0.12.2",
@@ -1399,9 +1441,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 118314,
-          "contributors": 234,
-          "last_commit": "2026-07-02T21:53:31Z",
+          "stars": 120294,
+          "contributors": 237,
+          "last_commit": "2026-07-13T13:07:05Z",
           "archived": false
         }
       }
@@ -1415,9 +1457,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 118314,
-      "contributors": 234,
-      "last_commit": "2026-07-02T21:53:31Z",
+      "stars": 120294,
+      "contributors": 237,
+      "last_commit": "2026-07-13T13:07:05Z",
       "archived": false
     }
   }
