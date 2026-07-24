@@ -12,15 +12,24 @@ Three capabilities in one plugin:
 2. **Chart selection.** When you ask _"which chart should I use?"_, the `flint-chart` skill walks a compact question → family → chartType framework (Comparison / Trend / Distribution / Relationship / Proportion / Flow / KPI) distilled from Knaflic, Kirk, Few, and Wexler — constrained by the Brief. For deep per-chart design tips, it escalates to [_The Defensible Decision_ gallery](https://www.thedefensibledecision.com/gallery/chart-gallery.html) on demand.
 3. **Chart rendering.** When you're ready to draw, the skill authors a compact `ChartAssemblyInput` and the bundled MCP server renders it locally (PNG / SVG) or opens an interactive chart panel via `create_chart_view`. No data leaves the machine.
 
-### Demo — the heart chart
+### Demo — the heart chart, with meaning
 
-Rendered end-to-end via `/render-chart` from a 48-point parametric-heart dataset (`{x, y, hue}`), Vega-Lite backend, `Connected Scatter Plot` chartType with a `reds` color scheme:
+> **Big Idea** — _Love's iconic silhouette **is** the four-archetype map of love: the heart's two upper lobes sit in the high-passion quadrants (infatuation left, consummate right), and its two lower sides sit in the low-passion quadrants (indifference left, companionate right)._
+
+That one sentence — the load-bearing output of the [`chart-big-idea`](.github/skills/chart-big-idea/SKILL.md) skill — is what makes this a chart _with meaning_ instead of _decoration_. Everything downstream is a direct consequence of it: the story arc (Relationship with quadrant annotation), the audience read (Read / General / Persuasive), the TRADITIONAL-vs-INNOVATIVE stance (INNOVATIVE, because the heart-as-mnemonic argument is irreducibly geometric), the chartType (layered `scatter_plot`), the 12-layer composition (shaded quadrants → midpoint rules → parametric heart curve → archetype dots → axis subtitles), and the archetype placement (each of the heart's four lobes lands in its matching semantic quadrant).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fabioc-aloha/flint-chart-plugin/main/assets/heart-chart.svg" alt="A heart-shaped chart plotted as a connected scatter plot using Vega-Lite via the flint-chart MCP server. 48 points arranged along the parametric heart curve x = 16 sin³(t), y = 13 cos(t) − 5 cos(2t) − 2 cos(3t) − cos(4t), connected in order, coloured in a red scheme." width="480" />
+  <img src="https://raw.githubusercontent.com/fabioc-aloha/flint-chart-plugin/main/assets/heart-chart.svg" alt="A heart-shaped curve traced onto an Intimacy × Passion plane, rendered as a layered Vega-Lite chart via the flint-chart MCP server. The x-axis is Intimacy (subtitle: trust, vulnerability, shared meaning), the y-axis is Passion (subtitle: desire, chemistry, excitement). Both axes run from low to high. Dashed lines partition the plot into four quadrants labelled INFATUATION (top left), CONSUMMATE LOVE (top right, on a warm cream background), INDIFFERENCE (bottom left, on a cool grey background), and FRIENDSHIP (bottom right). A red heart curve fills the plane; four bold dots sit at the heart's lobes, each labelled with an archetype that matches its semantic quadrant." width="480" />
 </p>
 
-The full demo — dataset, `ChartAssemblyInput` JSON, and the interactive HTML report — lives under `.reports/2026-07-24-heart-chart/` in the [dogfood workspace](https://github.com/microsoft/flint-chart) where this plugin was developed. Any `flint-chart` chartType listed on the [canonical gallery](https://microsoft.github.io/flint-chart/#/gallery/vegalite) is fair game.
+**Skill-to-chart flow** — what the `chart-big-idea` skill did before the first line of the Vega-Lite spec was authored:
+
+1. **Step 0 — read context.** The Big Idea was distilled from a written essay on the orthogonality of intimacy and passion, not asked cold from the user.
+2. **Step 1 — draft the sentence.** Subject (heart silhouette) + verb (_is_) + implication (the four-archetype map). No 3-question elicitation ladder needed because Step 0 surfaced enough.
+3. **Steps 2–4 — story arc + audience + style stance.** Relationship-with-annotation, general-audience read, INNOVATIVE (justified because the argument itself is 2D-geometric).
+4. **Step 5 — emit the Chart Brief.** The brief is what `/render-chart` then handed to the [`flint-chart`](.github/skills/flint-chart/SKILL.md) skill for chartType selection and rendering.
+
+The rendered demo ships in [`demos/heart-with-axes/`](demos/heart-with-axes/) — an interactive `report.html` you can open in any browser, plus a folder README with the Chart Brief and layer breakdown. Design decisions and the plugin's own genesis live in [`docs/`](docs/).
 
 ## Architecture — two skills, one prompt
 
@@ -58,7 +67,7 @@ The Brief locks the framing; the selection skill handles the mechanical chartTyp
 
 ## Prerequisites
 
-- **Node.js ≥ 18** on your machine (required for `npx flint-chart-mcp`)
+- **Node.js ≥ 22** on your machine (required for `npx flint-chart-mcp`)
 - **MCP-capable host** — VS Code Copilot (1.118+), Claude Desktop, Cursor, or any MCP stdio client
 - **Alex — ACT Edition ≥ 3.x** with `.github/skills/local/` and `.github/prompts/local/` registered (default; older heirs see [`mall-installation.instructions.md`](https://github.com/fabioc-aloha/Alex_ACT_Edition/blob/main/.github/instructions/mall-installation.instructions.md) for the manual settings fallback)
 
@@ -207,6 +216,22 @@ Then update the fragment:
 - Handle Power BI, Tableau, or other BI tools — Flint targets Vega-Lite, ECharts, and Chart.js only
 - Ship the MCP server code — it downloads from npm on demand (bundling would be 80-120 MB per plugin across 6 OS/arch native-binary variants)
 
+## Publishing to the Mall
+
+This repo is the source-of-truth. The [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall) vendors a specific version at `plugins/data-analytics/flint-chart-plugin/`. To publish a new version — or refresh the Mall's vendored README after upstream doc edits — follow the step-by-step runbook in **[`docs/publishing-to-mall.md`](docs/publishing-to-mall.md)**.
+
+Short version: vendor the four installable payload files (2 skills + 1 prompt + `mcp.json`) byte-for-byte into the Mall's plugin folder, copy the README with image `src` rewritten to absolute `raw.githubusercontent.com` URLs, update the Mall's `plugin.json` version, append a curation-log entry, rebase on the Mall's `main`, commit with a severity tag, push. The runbook has the exact commands and a verification checklist.
+
+## Contributing
+
+Issues and PRs welcome. See [`.github/copilot-instructions.md`](.github/copilot-instructions.md) for the repo's conventions (commit-message severity tags, frontmatter rules, lint discipline, falsifiability) — those instructions load automatically for AI agents but are also useful for human contributors.
+
+This repo pairs with:
+
+- Upstream flint-chart (Microsoft): <https://github.com/microsoft/flint-chart>
+- Alex ACT Edition (host framework): <https://github.com/fabioc-aloha/Alex_ACT_Edition>
+- Alex ACT Plugin Mall (distribution): <https://github.com/fabioc-aloha/Alex_Skill_Mall>
+
 ## Attribution
 
 **Chart-selection framework** distilled from standard visualization literature:
@@ -231,10 +256,3 @@ For live examples of every Flint `chartType` across all backends, organized by s
 ## License
 
 MIT (dual-copyright — see [`LICENSE`](LICENSE)).
-
-## Contributing
-
-Issues and PRs welcome. This repo pairs with:
-
-- Upstream flint-chart: <https://github.com/microsoft/flint-chart>
-- Alex ACT Edition: <https://github.com/fabioc-aloha/Alex_ACT_Edition>
