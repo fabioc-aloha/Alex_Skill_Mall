@@ -2,7 +2,7 @@
   "store": "vercel-skills",
   "source_repo": "https://github.com/vercel-labs/skills.git",
   "generated_at": "2026-05-29T18:48:06.323Z",
-  "scanned_ref": "777599e1159e401b11ce4c8a57c20f09a8f1596e",
+  "scanned_ref": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
   "provenance": false,
   "tier": "vercel-official",
   "license": null,
@@ -12,7 +12,7 @@
       "name": "find-skills",
       "shape": "skill",
       "source_path": "skills/find-skills",
-      "source_url": "https://github.com/vercel-labs/skills/tree/777599e1159e401b11ce4c8a57c20f09a8f1596e/skills/find-skills",
+      "source_url": "https://github.com/vercel-labs/skills/tree/e173b8c88f2581cfdaa1b6767c6519a08155790e/skills/find-skills",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -40,8 +40,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "777599e1159e401b11ce4c8a57c20f09a8f1596e",
+        "default_sha": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
         "tags": [
+          "v1.5.20",
           "v1.5.19",
           "v1.5.18",
           "v1.5.17",
@@ -82,36 +83,36 @@
           "v1.2.0"
         ]
       },
-      "trust_score": 30,
+      "trust_score": 40,
       "trust_signals": {
-        "store": 25,
+        "store": 35,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
           "adoption": 10,
-          "license": 0,
-          "license_name": null,
-          "stars": 26681,
-          "contributors": 115,
-          "last_commit": "2026-07-16T17:53:59Z",
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 27144,
+          "contributors": 122,
+          "last_commit": "2026-07-22T21:14:21Z",
           "archived": false
         }
       }
     }
   ],
   "store_trust": {
-    "score": 25,
+    "score": 35,
     "signals": {
       "provenance": 0,
       "maintenance": 15,
       "adoption": 10,
-      "license": 0,
-      "license_name": null,
-      "stars": 26681,
-      "contributors": 115,
-      "last_commit": "2026-07-16T17:53:59Z",
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 27144,
+      "contributors": 122,
+      "last_commit": "2026-07-22T21:14:21Z",
       "archived": false
     }
   }
