@@ -17,7 +17,7 @@ Three capabilities in one plugin:
 Rendered end-to-end via `/render-chart` from a 48-point parametric-heart dataset (`{x, y, hue}`), Vega-Lite backend, `Connected Scatter Plot` chartType with a `reds` color scheme:
 
 <p align="center">
-  <img src=".github/assets/heart-chart.svg" alt="A heart-shaped chart plotted as a connected scatter plot using Vega-Lite via the flint-chart MCP server. 48 points arranged along the parametric heart curve x = 16 sin³(t), y = 13 cos(t) − 5 cos(2t) − 2 cos(3t) − cos(4t), connected in order, coloured in a red scheme." width="480" />
+  <img src="https://raw.githubusercontent.com/fabioc-aloha/flint-chart-plugin/main/assets/heart-chart.svg" alt="A heart-shaped chart plotted as a connected scatter plot using Vega-Lite via the flint-chart MCP server. 48 points arranged along the parametric heart curve x = 16 sin³(t), y = 13 cos(t) − 5 cos(2t) − 2 cos(3t) − cos(4t), connected in order, coloured in a red scheme." width="480" />
 </p>
 
 The full demo — dataset, `ChartAssemblyInput` JSON, and the interactive HTML report — lives under `.reports/2026-07-24-heart-chart/` in the [dogfood workspace](https://github.com/microsoft/flint-chart) where this plugin was developed. Any `flint-chart` chartType listed on the [canonical gallery](https://microsoft.github.io/flint-chart/#/gallery/vegalite) is fair game.
