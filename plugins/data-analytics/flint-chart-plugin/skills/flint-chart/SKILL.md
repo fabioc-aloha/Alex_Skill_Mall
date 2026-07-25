@@ -1,7 +1,7 @@
 ---
 name: flint-chart
 description: "Use when the user wants to visualize data — from 'which chart should I use?' to 'render this'. Helps pick the right chart from the analytical question (comparison / trend / distribution / relationship / proportion / flow / KPI), then authors a ChartAssemblyInput and renders via the flint-chart-mcp server (Vega-Lite / ECharts / Chart.js). Transform data before Flint; style tweaks after Flint."
-lastReviewed: 2026-07-24
+lastReviewed: 2026-07-25
 ---
 
 # flint-chart: pick, author, and render a chart
@@ -45,14 +45,28 @@ authoring a spec no one can render.
    and reachable — skip to step 4.
 
 2. **If the tools are missing, `flint-chart-mcp` is not registered.** Ask the
-   user to add it, or add it yourself if you can edit their workspace-root
-   `.mcp.json`:
+   user to add it, or add it yourself if you can edit their workspace config.
+
+   **Put the file in the right place — this is the single most common failure.**
+
+   | Host                         | Path                          |
+   | ---------------------------- | ----------------------------- |
+   | **VS Code** (workspace)      | `.vscode/mcp.json`            |
+   | Claude Code / Claude Desktop | `.mcp.json` at workspace root |
+   | Cursor                       | `.cursor/mcp.json`            |
+
+   The schema is identical across hosts, which is exactly why the wrong path
+   looks like it should work. **VS Code never reads a workspace-root
+   `.mcp.json`** — and it reports no error, because it isn't parsing a broken
+   file, it's reading no file at all. If a user says "I added the config and
+   nothing happened," check the path before anything else.
 
    ```jsonc
-   // .mcp.json at the workspace root — merge with any existing "servers" map
+   // .vscode/mcp.json (VS Code) — merge with any existing "servers" map
    {
      "servers": {
        "flint": {
+         "type": "stdio",
          "command": "npx",
          "args": ["-y", "flint-chart-mcp@^0.2.2"],
        },
@@ -60,6 +74,8 @@ authoring a spec no one can render.
    }
    ```
 
+   - `"type": "stdio"` is optional in some hosts but always declare it —
+     omitting it makes transport-related failures harder to diagnose.
    - `npx -y` fetches the package on first use and caches it (~5-10 MB in the
      npm cache; ~1-2 s cold start).
    - Bump the pin to `^0.3.0` (or higher) when the target version is published
@@ -76,13 +92,29 @@ authoring a spec no one can render.
    restart the app.
 
 4. **Verify.** Call `list_chart_types` with `{ "backend": "vegalite" }`. If it
-   returns the chart catalog, the server is up. If the call fails, re-check
-   the `.mcp.json` config and the host reload.
+   returns the chart catalog, the server is up.
 
-5. **For deeper MCP config** — HTTP transport, allowed-host lists, deployment
+5. **If the tools still do not appear, isolate which half is broken before
+   guessing.** The server and the client fail identically from chat, so probe
+   the server on its own — pipe a handshake plus a `tools/list` into the
+   binary over stdio and read the response. A `serverInfo` block followed by a
+   `tools` array proves the server is healthy and the fault is config, trust,
+   or session staleness. Then work down this list:
+   1. **Trust prompt.** VS Code will not start a local stdio server until you
+      approve it. `Ctrl+Shift+P` → **MCP: List Servers** → pick `flint` →
+      **Start**, and watch for the approval dialog.
+   2. **Server output.** Same menu → **Show Output**. Startup crashes surface
+      there and nowhere else.
+   3. **Restart the chat session.** A window reload is not always enough — the
+      agent's tool inventory can stay stale until the session itself restarts.
+   4. **HTTP transport only:** an HTTP server needs OAuth authorization after
+      starting, which is a separate step from trust. A server can be
+      configured and started yet still unauthorized.
+
+6. **For deeper MCP config** — HTTP transport, allowed-host lists, deployment
    patterns, full CLI reference — see the canonical MCP doc:
    <https://microsoft.github.io/flint-chart/#/mcp>. Point the user there for
-   anything beyond the stdio + `.mcp.json` install path documented above.
+   anything beyond the stdio install path documented above.
 
 ### For project code integration
 

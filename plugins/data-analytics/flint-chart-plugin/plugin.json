@@ -1,6 +1,6 @@
 {
   "name": "flint-chart-plugin",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Pick the right chart for the data and question, then render it locally via the microsoft/flint-chart MCP server. Combines a framing skill (Big Idea + story arc + audience + TRADITIONAL vs INNOVATIVE style stance) with a chart-selection + rendering skill (Comparison / Trend / Distribution / Relationship / Proportion / Flow / KPI) and a /render-chart prompt. Renders Vega-Lite / ECharts / Chart.js locally \u2014 no data leaves the machine.",
   "author": {
     "name": "Fabio Correa",
@@ -29,12 +29,12 @@
   "shape": ".SP.",
   "category": "data-analytics",
   "tier": "standard",
-  "token_cost": 16650,
+  "token_cost": 16959,
   "requires_edition": ">=3.0.0",
   "requires_plugins": [],
   "requires_runtime": {
     "node": ">=22",
-    "notes": "The bundled mcp.json invokes `npx -y flint-chart-mcp@^0.2.2` on first tool call; Node 22+ required. First cold start ~1-2s; cached thereafter."
+    "notes": "The bundled mcp.json invokes `npx -y flint-chart-mcp@^0.2.2` on first tool call; Node 22+ required. First cold start ~1-2s; cached thereafter. Install it to `.vscode/mcp.json` \u2014 VS Code does NOT read a workspace-root `.mcp.json`, which is the Claude Code convention; the `servers` schema is identical, and VS Code reports no error because it reads no file at all."
   },
   "upstream": {
     "repo": "https://github.com/fabioc-aloha/flint-chart-plugin",
@@ -61,11 +61,13 @@
       "render-chart": ".github/prompts/local/render-chart.prompt.md"
     },
     "mcp": {
-      "merge_target": "workspace-root .mcp.json",
+      "merge_target": ".vscode/mcp.json",
       "server_name": "flint",
-      "server_config": { "command": "npx", "args": ["-y", "flint-chart-mcp@^0.2.2"] }
+      "server_config": { "type": "stdio", "command": "npx", "args": ["-y", "flint-chart-mcp@^0.2.2"] },
+      "notes": "VS Code workspace path is `.vscode/mcp.json`. Root `.mcp.json` is the Claude Code convention and is never read by VS Code; Cursor uses `.cursor/mcp.json`. Merge the `flint` entry under `servers`."
     }
   },
+  "install_notes": "Skills and prompts install under `local/`, which VS Code does not discover by default. Alex ACT Edition heirs (>=3.0.0, per requires_edition) already register those roots, so no extra settings are needed for a Mall install. On a plain VS Code workspace, `chat.agentSkillsLocations` and `chat.promptFilesLocations` must additionally point at `.github/skills/local` and `.github/prompts/local` \u2014 see the upstream README.",
   "attribution": [
     { "component": "flint-chart skill body", "source": "microsoft/flint-chart (agent-skills/flint-chart-author/SKILL.md)", "license": "MIT", "role": "forked, §0 Chart Selection prepended" },
     { "component": "flint-chart-mcp server", "source": "https://www.npmjs.com/package/flint-chart-mcp (Microsoft)", "license": "MIT", "role": "invoked via npx on first tool call" },
