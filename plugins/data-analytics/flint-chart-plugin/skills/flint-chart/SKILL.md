@@ -49,17 +49,27 @@ authoring a spec no one can render.
 
    **Put the file in the right place — this is the single most common failure.**
 
-   | Host                         | Path                          |
-   | ---------------------------- | ----------------------------- |
-   | **VS Code** (workspace)      | `.vscode/mcp.json`            |
-   | Claude Code / Claude Desktop | `.mcp.json` at workspace root |
-   | Cursor                       | `.cursor/mcp.json`            |
+   | Host                         | Path                          | Top-level key |
+   | ---------------------------- | ----------------------------- | ------------- |
+   | **VS Code** (workspace)      | `.vscode/mcp.json`            | `servers`     |
+   | Claude Code / Claude Desktop | `.mcp.json` at workspace root | `servers`     |
+   | Cursor                       | `.cursor/mcp.json`            | `servers`     |
+   | GitHub Copilot CLI           | `~/.copilot/mcp-config.json`  | `mcpServers`  |
 
-   The schema is identical across hosts, which is exactly why the wrong path
-   looks like it should work. **VS Code never reads a workspace-root
+   The schema is identical across the first three, which is exactly why the
+   wrong path looks like it should work. **VS Code never reads a workspace-root
    `.mcp.json`** — and it reports no error, because it isn't parsing a broken
    file, it's reading no file at all. If a user says "I added the config and
    nothing happened," check the path before anything else.
+
+   **Copilot CLI differs twice over:** different path _and_ a different
+   top-level key (`mcpServers`, not `servers`). A `servers` block pasted there
+   fails just as silently. Prefer telling the user to run `/mcp add` inside a
+   CLI session and let it write the file. The path is overridable via
+   `$COPILOT_HOME`.
+
+   Always **merge** into any existing config rather than overwriting it —
+   clobbering the file destroys whatever other servers the user had.
 
    ```jsonc
    // .vscode/mcp.json (VS Code) — merge with any existing "servers" map
@@ -78,8 +88,12 @@ authoring a spec no one can render.
      omitting it makes transport-related failures harder to diagnose.
    - `npx -y` fetches the package on first use and caches it (~5-10 MB in the
      npm cache; ~1-2 s cold start).
-   - Bump the pin to `^0.3.0` (or higher) when the target version is published
-     to npm; `npm view flint-chart-mcp version` reports the current `latest`.
+   - The `^0.2.2` pin is held deliberately, not through neglect. Public npm
+     `latest` is 0.4.0, but it is unreachable from Microsoft corporate machines,
+     whose npm mirror stops at 0.2.2. Do not advise a user to bump the pin
+     without checking `npm config get registry` first — a corporate mirror can
+     report a stale `latest` that is not the public one, and on such a machine a
+     `^0.4.0` pin fails with `ETARGET`.
    - **Corporate / air-gapped:** if `npx` cannot reach the npm registry, ask
      the user to run `npm install -g flint-chart-mcp` once from a machine that
      can, then change `"command": "npx", "args": ["-y", "flint-chart-mcp"]` to
@@ -95,11 +109,13 @@ authoring a spec no one can render.
    returns the chart catalog, the server is up.
 
 5. **If the tools still do not appear, isolate which half is broken before
-   guessing.** The server and the client fail identically from chat, so probe
-   the server on its own — pipe a handshake plus a `tools/list` into the
-   binary over stdio and read the response. A `serverInfo` block followed by a
-   `tools` array proves the server is healthy and the fault is config, trust,
-   or session staleness. Then work down this list:
+   guessing.** The server and the client fail identically from chat. If the
+   user has the plugin repo checked out, `node scripts/verify-install.mjs`
+   does this in one step; otherwise probe the server yourself — pipe a
+   handshake plus a `tools/list` into the binary over stdio and read the
+   response. A `serverInfo` block followed by a `tools` array proves the server
+   is healthy and the fault is config, trust, or session staleness. Then work
+   down this list:
    1. **Trust prompt.** VS Code will not start a local stdio server until you
       approve it. `Ctrl+Shift+P` → **MCP: List Servers** → pick `flint` →
       **Start**, and watch for the approval dialog.
@@ -828,3 +844,5 @@ Revise this skill by 2026-10-22 (90 days) or sooner if any of the following fire
 - Any recommendation in §0.2 (question → family → chartType) is refuted by a source we trust (a case study, a Knaflic/Kirk/Few/Wexler update, or field feedback from ≥2 heir workspaces) — retire or rework that row.
 - The plugin gets ≥3 heir installs and none of them exercise §0.5 (deep-reference escalation) — that signals the compact table alone is sufficient and §0.5 is decorative; prune it.
 - The upstream fork base ([`microsoft/flint-chart/agent-skills/flint-chart-author/SKILL.md`](https://github.com/microsoft/flint-chart/blob/main/agent-skills/flint-chart-author/SKILL.md)) publishes a materially revised body — decide whether to rebase §1-N onto the new upstream or hold on the current fork point.
+- **Upstream absorbs chart selection itself.** `flint-chart` 0.3.0 shipped backend-neutral chart-type recommendations and transformations — the capability §0 exists to provide. If those recommendations become reachable through the MCP tools and match or beat §0.2 on the same question, §0 is redundant: call the upstream recommender and keep only the framing this plugin adds on top. Re-test when the pin moves past 0.2.2.
+- **The backend list changes.** §0.4 and the worked examples assume Vega-Lite / ECharts / Chart.js. 0.4.0 adds Plotly (38 chart types, including Funnel, Gauge, and Density Contour) and Excel (18 native Office.js templates), which expands what "Flint can't express this" means. Re-check the coverage rules whenever `list_chart_types` reports a backend this skill does not name.

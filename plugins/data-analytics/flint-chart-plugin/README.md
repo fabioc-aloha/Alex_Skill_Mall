@@ -69,7 +69,7 @@ The Brief locks the framing; the selection skill handles the mechanical chartTyp
 ## Prerequisites
 
 - **Node.js ≥ 22** on your machine (required for `npx flint-chart-mcp`)
-- **MCP-capable host** — VS Code Copilot (1.118+), Claude Desktop, Cursor, or any MCP stdio client
+- **MCP-capable host** — VS Code Copilot (1.118+), Claude Desktop, Cursor, GitHub Copilot CLI, or any MCP stdio client
 - **Alex — ACT Edition ≥ 3.x** with `.github/skills/local/` and `.github/prompts/local/` registered (default; older heirs see [`mall-installation.instructions.md`](https://github.com/fabioc-aloha/Alex_ACT_Edition/blob/main/.github/instructions/mall-installation.instructions.md) for the manual settings fallback)
 
 ## Install
@@ -95,19 +95,43 @@ cp -r /tmp/flint-chart-plugin/.github/skills/flint-chart .github/skills/local/
 mkdir -p .github/prompts/local
 cp /tmp/flint-chart-plugin/.github/prompts/render-chart.prompt.md .github/prompts/local/
 
-# Register the local/ roots with VS Code (see the note below — skip on an
-# Alex ACT Edition heir, which registers them for you)
-
-# Merge the MCP sidecar into your host's MCP config (create the file if absent)
-cat /tmp/flint-chart-plugin/.vscode/mcp.json  # inspect first
-# then merge the "flint" entry under "servers" into the right file for your host:
-#   VS Code                       -> .vscode/mcp.json  (copy as-is)
-#   Claude Code / Claude Desktop  -> .mcp.json  (workspace root)
-#   Cursor                        -> .cursor/mcp.json
-
-# Reload VS Code. The MCP server (`flint`) will spawn via `npx` on the first
-# tool call (~1-2s cold start; cached thereafter).
+# Then: register the local/ roots, and merge the MCP server entry (both below).
 ```
+
+#### PowerShell (Windows)
+
+```powershell
+# From your Alex ACT Edition workspace root:
+git clone https://github.com/fabioc-aloha/flint-chart-plugin.git $env:TEMP\flint-chart-plugin
+$src = "$env:TEMP\flint-chart-plugin"
+
+# Copy the two skills into your heir-local skill folder
+New-Item -ItemType Directory -Force -Path .github\skills\local | Out-Null
+Copy-Item "$src\.github\skills\chart-big-idea" -Destination .github\skills\local\ -Recurse -Force
+Copy-Item "$src\.github\skills\flint-chart"    -Destination .github\skills\local\ -Recurse -Force
+
+# Copy the prompt into your heir-local prompt folder
+New-Item -ItemType Directory -Force -Path .github\prompts\local | Out-Null
+Copy-Item "$src\.github\prompts\render-chart.prompt.md" -Destination .github\prompts\local\ -Force
+
+# Then: register the local/ roots, and merge the MCP server entry (both below).
+```
+
+### Registering the MCP server
+
+Inspect [`.vscode/mcp.json`](https://github.com/fabioc-aloha/flint-chart-plugin/blob/main/.vscode/mcp.json) first, then **merge** its `flint`
+entry into your host's config. Merge, don't overwrite — if the file already
+exists it almost certainly holds other servers you'd destroy.
+
+| Host                         | Config path                       | Top-level key |
+| ---------------------------- | --------------------------------- | ------------- |
+| VS Code (workspace)          | `.vscode/mcp.json`                | `servers`     |
+| Claude Code / Claude Desktop | `.mcp.json` (workspace root)      | `servers`     |
+| Cursor                       | `.cursor/mcp.json`                | `servers`     |
+| GitHub Copilot CLI           | `~/.copilot/mcp-config.json`      | `mcpServers`  |
+
+Then reload VS Code. The server (`flint`) spawns via `npx` on the first tool
+call (~1-2s cold start; cached thereafter).
 
 > [!IMPORTANT]
 > **VS Code reads `.vscode/mcp.json`, not a workspace-root `.mcp.json`.** Root
@@ -115,6 +139,16 @@ cat /tmp/flint-chart-plugin/.vscode/mcp.json  # inspect first
 > in both, which is exactly why the wrong path looks like it should work — and
 > VS Code shows no error, because it isn't parsing a broken file, it's reading
 > no file at all.
+
+The CLI is a step worse again:
+
+> [!WARNING]
+> **GitHub Copilot CLI fails harder: wrong path _and_ wrong schema.** Its config
+> lives at `~/.copilot/mcp-config.json` (or `$COPILOT_HOME/mcp-config.json`) and
+> the top-level key is **`mcpServers`**, not `servers`. Pasting the `servers`
+> block there produces the same silent nothing. Easiest route is to let the CLI
+> write the file for you: run `/mcp add` inside a session rather than editing
+> the JSON by hand.
 
 ### Registering the `local/` roots
 
@@ -152,14 +186,33 @@ If the `flint` tools are missing after a reload:
 Four checks, in this order. Each isolates a different half of the system, so the
 first one that fails tells you where the fault is.
 
-1. **Server.** Ask the agent to probe `npx -y flint-chart-mcp` over stdio with an
-   `initialize` handshake followed by `tools/list`. A `serverInfo` block plus a
-   `tools` array means the server is healthy and any remaining fault is on the
-   client side — config, trust, or a stale session. This one step rules out
-   "maybe the npm install is broken" without touching VS Code.
+1. **Server.** From a clone of this repo, run the bundled checker — no agent, no
+   host, and no MCP client needed:
+
+   ```bash
+   node scripts/verify-install.mjs
+   ```
+
+   It reads the pin from [`.vscode/mcp.json`](https://github.com/fabioc-aloha/flint-chart-plugin/blob/main/.vscode/mcp.json) so it verifies
+   the version your config actually requests, handshakes over stdio, and asserts
+   all five tools are advertised. Exit 0 means the server is healthy and any
+   remaining fault is on the client side — config path, trust, or a stale
+   session. This is the one check that must not depend on your agent, since your
+   agent may be the thing that's broken.
+
+   Two optional flags, useful when changing the pin: `--catalog` lists the
+   backends and per-backend chart-type counts, and `--compat` validates the
+   chart-property patterns this plugin documents. Both report version-dependent
+   facts that the docs would otherwise assert blindly.
+
+   Installed from the Alex Mall instead? That vendors only the skills, the
+   prompt, and `mcp.json` — no `scripts/`. Either clone this repo to run the
+   checker, or ask your agent to probe `npx -y flint-chart-mcp` over stdio with
+   an `initialize` handshake followed by `tools/list`; a `serverInfo` block plus
+   a `tools` array means the same thing.
 2. **Client.** Ask the agent whether it can see `render_chart`, `compile_chart`,
    `validate_chart`, `list_chart_types`, and `create_chart_view`. All five, or
-   `.vscode/mcp.json` isn't being read.
+   your host isn't reading the config you edited.
 3. **Skills and prompt.** Type `/` in chat. `chart-big-idea`, `flint-chart`, and
    `render-chart` should all appear. If the MCP tools work but these don't, the
    discovery roots above are missing.
@@ -273,9 +326,9 @@ Then update the fragment:
 { "servers": { "flint": { "command": "flint-chart-mcp", "args": [] } } }
 ```
 
-**Pinned version** — replace `^0.2.2` with an exact version (`0.2.2`) to lock out even patch updates. Bump to `^0.3.0` when it publishes to npm (as of 2026-07-24, npm `latest` is 0.2.2).
+**Pinned version** — the pin is `^0.2.2` **by decision, not by lag**. Caret on a `0.x` version means `>=0.2.2 <0.3.0`, so 0.3.x and 0.4.x are never picked up automatically. Public npm `latest` is already 0.4.0, but it is unreachable from Microsoft corporate machines (their npm mirror stops at 0.2.2), and most heirs of this plugin are corpnet repos — so bumping would break more adopters than it helps. See the Unreleased section of [`CHANGELOG.md`](https://github.com/fabioc-aloha/flint-chart-plugin/blob/main/CHANGELOG.md) for the full rationale and the conditions that would change it. If you check versions yourself, run `npm config get registry` first: a corporate mirror can report a stale `latest` that is not the public one.
 
-**Naming conflict** — if you already have a `flint` server registered, rename this one to `flint-chart` in your merged `.mcp.json`. The skill and prompt reference the server by tool inventory, not by name.
+**Naming conflict** — if you already have a `flint` server registered, rename this one to `flint-chart` in your merged config. The skill and prompt reference the server by tool inventory, not by name.
 
 ## What the plugin does NOT do
 

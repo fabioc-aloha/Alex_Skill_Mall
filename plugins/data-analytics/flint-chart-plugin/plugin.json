@@ -1,6 +1,6 @@
 {
   "name": "flint-chart-plugin",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Pick the right chart for the data and question, then render it locally via the microsoft/flint-chart MCP server. Combines a framing skill (Big Idea + story arc + audience + TRADITIONAL vs INNOVATIVE style stance) with a chart-selection + rendering skill (Comparison / Trend / Distribution / Relationship / Proportion / Flow / KPI) and a /render-chart prompt. Renders Vega-Lite / ECharts / Chart.js locally \u2014 no data leaves the machine.",
   "author": {
     "name": "Fabio Correa",
@@ -29,12 +29,12 @@
   "shape": ".SP.",
   "category": "data-analytics",
   "tier": "standard",
-  "token_cost": 16959,
+  "token_cost": 17231,
   "requires_edition": ">=3.0.0",
   "requires_plugins": [],
   "requires_runtime": {
     "node": ">=22",
-    "notes": "The bundled mcp.json invokes `npx -y flint-chart-mcp@^0.2.2` on first tool call; Node 22+ required. First cold start ~1-2s; cached thereafter. Install it to `.vscode/mcp.json` \u2014 VS Code does NOT read a workspace-root `.mcp.json`, which is the Claude Code convention; the `servers` schema is identical, and VS Code reports no error because it reads no file at all."
+    "notes": "The bundled mcp.json invokes `npx -y flint-chart-mcp@^0.2.2` on first tool call; Node 22+ required. First cold start ~1-2s; cached thereafter. Install it to `.vscode/mcp.json` \u2014 VS Code does NOT read a workspace-root `.mcp.json`, which is the Claude Code convention; the `servers` schema is identical, and VS Code reports no error because it reads no file at all. The ^0.2.2 pin is held deliberately: caret on 0.x means >=0.2.2 <0.3.0, and although public npm `latest` is 0.4.0, that version is unreachable from Microsoft corporate npm mirrors, which stop at 0.2.2."
   },
   "upstream": {
     "repo": "https://github.com/fabioc-aloha/flint-chart-plugin",
