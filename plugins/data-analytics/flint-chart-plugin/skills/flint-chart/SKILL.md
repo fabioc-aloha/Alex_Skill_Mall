@@ -30,6 +30,10 @@ or `assembleChartjs` to get a backend spec.
   presentation tweak Flint does not express (a reference line, annotation, or
   shaded band), use the Vega-Lite escape hatch — see "Post-Flint style
   customization". Never feed edited Vega-Lite JSON back to `render_chart`.
+- **Look at what you rendered.** A chart with a collapsed scale, a merged color
+  scale, or an empty data binding renders as a valid image that tells the wrong
+  story — `validate_chart` cannot catch that. Load the `render-verify` skill
+  after rendering, and always after a post-Flint Vega-Lite edit.
 
 ## Verify Flint is available before rendering
 
@@ -308,6 +312,12 @@ For a Vega-Lite-specific style tweak:
 This edited Vega-Lite spec is no longer a portable Flint spec. Do not send it to
 `render_chart`; use `render_chart` only for Flint `ChartAssemblyInput`.
 
+**Verification is mandatory here.** Once you leave the Flint level, the MCP
+server's validation no longer protects you — an edited spec can render a
+plausible-looking chart that is silently wrong. Load the `render-verify` skill:
+open the result, read its console errors, and check it against the failure
+catalog before declaring it done.
+
 ## Attribution
 
 Chart-selection framework (§0 below) distilled from standard visualization
@@ -335,9 +345,30 @@ editor).
 weight vs mpg"). Jump to Step 1 and author the spec. Otherwise, work down this
 list before choosing a `chartType`.
 
-### 0.1 One-sentence message
+### 0.1 One-sentence message — the Big Idea
 
-Before choosing a chart, write the message it should carry
+Before choosing a chart, establish the message it should carry. **Load the
+`chart-big-idea` skill and run it now** — look in
+`.github/skills/local/chart-big-idea/SKILL.md` first (heir-installed), then
+`.github/skills/chart-big-idea/SKILL.md` (baseline).
+
+It does four things this step cannot do inline:
+
+- **Reads the surrounding context first** — the prose next to the insertion
+  point, the ticket, the section heading, prior captions — so you do not ask the
+  user to re-articulate a claim they already wrote.
+- **Questions the intent** — whether the chart should exist at all, and whether
+  the stated purpose is the real one. If the intended message and the data
+  disagree, that surfaces here rather than after rendering.
+- **Elicits the Big Idea** with a three-question ladder, one question at a time,
+  when it is not written down anywhere.
+- **Asks the TRADITIONAL vs INNOVATIVE style stance**, which changes the
+  chartType you pick in §0.2.
+
+The output is a compact Chart Brief. Treat it as the constraint on everything
+below: §0.2 selection, §0.4 coverage, and the spec you author in Steps 1-3.
+
+**If that skill is not available**, do the compact version inline
 (Knaflic — _Storytelling with Data_):
 
 - What is your unique point of view?
@@ -414,7 +445,7 @@ Fetch the canonical [Flint gallery](https://microsoft.github.io/flint-chart/#/ga
 - You need a live example of a chart variant (e.g. a _faceted_ boxplot, a _dodge = local_ grouped bar, a _sparse_ streamgraph) — the gallery shows multiple named variants per `chartType`.
 - You want the canonical semantic grouping (Bar & Column / Line & Area / Scatter & Points / Distributions / Circular & Radial / Tables & Multi-Dimensional / Maps) that Flint itself uses to organize its chart registry.
 
-This is the authoritative reference for **what Flint actually does**; §0.2–0.4 above is the compact map, but the gallery is the source of truth for edge cases and backend-specific behaviour.
+This is the authoritative reference for **what Flint actually does**; §0.2–0.4 above is the compact map, but the gallery is the source of truth for edge cases and backend-specific behavior.
 
 **Rule of thumb**: Defensible Decision answers "should I use a bar or a boxplot?"; the Flint gallery answers "will Flint's `Bar Chart` on ECharts backend do what I need?"
 
@@ -465,7 +496,7 @@ properties"). Required channels are noted.
 | `"Area Chart"`             | x, y, color, opacity, column, row                     | props `interpolate`, `opacity`, `stackMode`                                                                                                                                   |
 | `"Range Area Chart"`       | x, y, y2, color, column, row                          | x + y + y2 required; translucent band from `y` (low) to `y2` (high), value axis fits the band (not zero)                                                                      |
 | `"Violin Plot"`            | x, y, color, row                                      | x (category) + y (measure) required; mirrored KDE density per category, prop `bandwidth`; **Vega-Lite only**; a genuine `color` subgroup splits two groups or grids 3+ groups |
-| `"Streamgraph"`            | x, y, color, column, row                              | centre-stacked areas                                                                                                                                                          |
+| `"Streamgraph"`            | x, y, color, column, row                              | center-stacked areas                                                                                                                                                          |
 | `"Density Plot"`           | x, color, column, row                                 | prop `bandwidth`                                                                                                                                                              |
 | `"Pie Chart"`              | size, color, column, row                              | `size` = slice value (→ angle), `color` = category; props `innerRadius`, `sortSlices`                                                                                         |
 | `"Rose Chart"`             | x, y, color, column, row                              | polar bars; props `alignment`, `padAngle`, `sortSlices`                                                                                                                       |
