@@ -2,29 +2,29 @@
 
 **Source:** [ComposioHQ/awesome-claude-plugins](https://github.com/ComposioHQ/awesome-claude-plugins)
 **Store trust:** 25/100
-**Signals:** maintenance 15 · adoption 10 · license 0 · 1842 stars · 13 contributors
-**Scanned ref:** `f1bf673b2dd5`
+**Signals:** maintenance 15 · adoption 10 · license 0 · 1845 stars · 15 contributors
+**Scanned ref:** `e521f7ada8d8`
 
 ## Plugins (16)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 35 | [`perf`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/perf) | hook | - | Rigorous performance investigation workflow. `/perf` enforces sequential benchmarks, minimum run du… |
-| 33 | [`skill-bus`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/skill-bus) | hook | - | **The skill for connecting skills.** |
-| 25 | [`agent-sdk-dev`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/agent-sdk-dev) | agent | - |  |
-| 25 | [`artifacts-builder`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/artifacts-builder) | skill | - |  |
-| 25 | [`backend-architect`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/backend-architect) | agent | - |  |
-| 25 | [`canvas-design`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/canvas-design) | skill | - |  |
-| 25 | [`changelog-generator`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/changelog-generator) | skill | - |  |
-| 25 | [`debugger`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/debugger) | agent | - |  |
-| 25 | [`developer-growth-analysis`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/developer-growth-analysis) | skill | - |  |
-| 25 | [`frontend-design`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/frontend-design) | skill | - |  |
-| 25 | [`frontend-developer`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/frontend-developer) | agent | - |  |
-| 25 | [`mcp-builder`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/mcp-builder) | skill | - |  |
-| 25 | [`security-guidance`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/security-guidance) | hook | - |  |
-| 25 | [`senior-frontend`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/senior-frontend) | skill | - |  |
-| 25 | [`test-writer-fixer`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/test-writer-fixer) | agent | - |  |
-| 25 | [`theme-factory`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/f1bf673b2dd56507c76cbaafb298658f3aa288eb/theme-factory) | skill | - |  |
+| 35 | [`perf`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/perf) | hook | - | Rigorous performance investigation workflow. `/perf` enforces sequential benchmarks, minimum run du… |
+| 33 | [`skill-bus`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/skill-bus) | hook | - | **The skill for connecting skills.** |
+| 25 | [`agent-sdk-dev`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/agent-sdk-dev) | agent | - |  |
+| 25 | [`artifacts-builder`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/artifacts-builder) | skill | - |  |
+| 25 | [`backend-architect`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/backend-architect) | agent | - |  |
+| 25 | [`canvas-design`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/canvas-design) | skill | - |  |
+| 25 | [`changelog-generator`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/changelog-generator) | skill | - |  |
+| 25 | [`debugger`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/debugger) | agent | - |  |
+| 25 | [`developer-growth-analysis`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/developer-growth-analysis) | skill | - |  |
+| 25 | [`frontend-design`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/frontend-design) | skill | - |  |
+| 25 | [`frontend-developer`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/frontend-developer) | agent | - |  |
+| 25 | [`mcp-builder`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/mcp-builder) | skill | - |  |
+| 25 | [`security-guidance`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/security-guidance) | hook | - |  |
+| 25 | [`senior-frontend`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/senior-frontend) | skill | - |  |
+| 25 | [`test-writer-fixer`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/test-writer-fixer) | agent | - |  |
+| 25 | [`theme-factory`](https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/theme-factory) | skill | - |  |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-07-25T22:37:52.745Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-07-27T13:35:22.283Z*
