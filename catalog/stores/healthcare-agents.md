@@ -2,7 +2,7 @@
 
 **Source:** [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents)
 **Store trust:** 28/100
-**Signals:** maintenance 15 · adoption 3 · license 10 (Apache-2.0) · 48 stars
+**Signals:** maintenance 15 · adoption 3 · license 10 (Apache-2.0) · 50 stars
 **Scanned ref:** `81b239763c06`
 
 _No plugins scanned in this store._
