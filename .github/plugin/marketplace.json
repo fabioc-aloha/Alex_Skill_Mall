@@ -1,0 +1,19 @@
+{
+  "name": "alex-mall",
+  "owner": {
+    "name": "fabioc-aloha"
+  },
+  "metadata": {
+    "description": "Alex ACT Plugin Mall curated local plugins",
+    "version": "3.0.0"
+  },
+  "plugins": [
+    {
+      "name": "threejs-animation",
+      "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.",
+      "version": "1.0.0",
+      "source": "plugins/3d-graphics/threejs-animation",
+      "strict": true
+    }
+  ]
+}

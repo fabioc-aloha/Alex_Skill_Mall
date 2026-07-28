@@ -28,7 +28,9 @@ function curatedPlugins(root) {
     const categoryPath = path.join(pluginsRoot, category.name);
     for (const plugin of fs.readdirSync(categoryPath, { withFileTypes: true })) {
       if (!plugin.isDirectory() || plugin.name.startsWith('.')) continue;
-      if (!fs.existsSync(path.join(categoryPath, plugin.name, 'plugin.json'))) continue;
+      const pluginRoot = path.join(categoryPath, plugin.name);
+      if (!fs.existsSync(path.join(pluginRoot, 'plugin.json'))
+        || !fs.existsSync(path.join(pluginRoot, '.mall-metadata.json'))) continue;
       plugins.push({
         name: plugin.name,
         source: `plugins/${category.name}/${plugin.name}`,

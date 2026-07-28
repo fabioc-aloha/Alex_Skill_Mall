@@ -46,6 +46,15 @@ function fixture() {
     description: 'Curated fixture skill.',
     author: { name: 'Fixture' },
   });
+  writeJson(path.join(root, 'plugins', 'test-category', 'curated-skill', '.mall-metadata.json'), {
+    source: { store: 'fixture' },
+  });
+  writeJson(path.join(root, 'plugins', 'test-category', 'legacy-unmigrated', 'plugin.json'), {
+    name: 'legacy-unmigrated',
+    version: '1.0.0',
+    description: 'Not migrated yet.',
+    author: 'legacy-author',
+  });
   writeJson(path.join(root, '.github', 'plugin', 'marketplace.json'), {
     name: 'alex-mall',
     owner: { name: 'fabioc-aloha' },

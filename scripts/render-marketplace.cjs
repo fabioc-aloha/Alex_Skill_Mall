@@ -33,7 +33,8 @@ function listCuratedPlugins(repoRoot) {
       if (!folder.isDirectory() || folder.name.startsWith('.')) continue;
       const pluginDir = path.join(categoryPath, folder.name);
       const manifestPath = path.join(pluginDir, 'plugin.json');
-      if (!fs.existsSync(manifestPath)) continue;
+      const metadataPath = path.join(pluginDir, '.mall-metadata.json');
+      if (!fs.existsSync(manifestPath) || !fs.existsSync(metadataPath)) continue;
       plugins.push({
         category: category.name,
         folder: folder.name,
@@ -89,7 +90,7 @@ function renderMarketplace({ repoRoot, outputPath = null } = {}) {
   const entries = listCuratedPlugins(repoRoot)
     .map(buildEntry)
     .sort((left, right) => left.name.localeCompare(right.name) || left.source.localeCompare(right.source));
-  if (entries.length === 0) throw new Error('no curated plugins found');
+  if (entries.length === 0) throw new Error('no migrated curated plugins found');
   validateEntries(entries);
 
   const output = {

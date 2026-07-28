@@ -25,6 +25,14 @@ function createFixtureRepo() {
     fs.mkdirSync(path.dirname(target), { recursive: true });
     fs.cpSync(path.join(POST, name), target, { recursive: true });
   }
+  const legacy = path.join(repoRoot, 'plugins', 'legacy-category', 'legacy-unmigrated');
+  fs.mkdirSync(legacy, { recursive: true });
+  fs.writeFileSync(path.join(legacy, 'plugin.json'), JSON.stringify({
+    name: 'legacy-unmigrated',
+    version: '1.0.0',
+    description: 'Legacy plugin that must not render before migration.',
+    author: 'legacy-author',
+  }, null, 2) + '\n');
   const external = path.join(repoRoot, 'catalog');
   fs.mkdirSync(external, { recursive: true });
   fs.writeFileSync(path.join(external, 'index.json'), JSON.stringify({
@@ -64,6 +72,7 @@ test('renderer emits deterministic strict curated-only marketplace output', (t) 
     [...FIXTURES.keys()].sort(),
   );
   assert.equal(marketplace.plugins.some((plugin) => plugin.name === 'must-not-leak'), false);
+  assert.equal(marketplace.plugins.some((plugin) => plugin.name === 'legacy-unmigrated'), false);
 
   for (const plugin of marketplace.plugins) {
     assert.deepEqual(Object.keys(plugin).filter((key) => !ENTRY_FIELDS.has(key)), []);
