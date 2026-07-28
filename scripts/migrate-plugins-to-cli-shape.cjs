@@ -52,6 +52,94 @@ function validateRelativeMarkdownLinks(pluginDir, pluginName) {
   }
 }
 
+function rewriteUnshippableMarkdownLinks(workDir, sourceDir) {
+  const rewrites = [];
+  for (const filePath of walkFiles(workDir).filter((file) => file.endsWith('.md'))) {
+    const relativeFile = path.relative(workDir, filePath);
+    const sourceFile = path.join(sourceDir, relativeFile);
+    let fenced = false;
+    const lines = fs.readFileSync(filePath, 'utf8').split(/(?<=\n)/);
+    const output = lines.map((line) => {
+      if (/^\s*```/.test(line)) {
+        fenced = !fenced;
+        return line;
+      }
+      if (fenced) return line;
+      const segments = line.split(/(`[^`\n]*`)/g);
+      return segments.map((segment, index) => {
+        if (index % 2 === 1) return segment;
+        return segment.replace(
+          /!?\[([^\]]+)\]\((?!https?:|mailto:|#)([^)#]+)(?:#[^)]+)?\)/g,
+          (match, label, targetPath) => {
+            const workTarget = path.resolve(path.dirname(filePath), targetPath);
+            if (workTarget.startsWith(path.resolve(workDir) + path.sep) && fs.existsSync(workTarget)) {
+              return match;
+            }
+            const sourceTarget = path.resolve(path.dirname(sourceFile), targetPath);
+            rewrites.push({
+              file: relativeFile.replaceAll('\\', '/'),
+              label,
+              target: targetPath,
+              reason: fs.existsSync(sourceTarget) ? 'cross-plugin' : 'missing-source',
+            });
+            return `\`${label.replaceAll('`', '')}\``;
+          },
+        );
+      }).join('');
+    });
+    fs.writeFileSync(filePath, output.join(''));
+  }
+  return rewrites;
+}
+
+function rewriteRootSkillRelocationLinks(workDir, pluginName) {
+  const excluded = new Set(['plugin.json', 'README.md', '.mall-metadata.json', 'skills', 'agents', 'commands']);
+  const relocate = (filePath) => {
+    const relative = path.relative(workDir, filePath);
+    if (relative === 'SKILL.md') return path.join(workDir, 'skills', pluginName, 'SKILL.md');
+    const topLevel = relative.split(path.sep)[0];
+    return excluded.has(topLevel) ? filePath : path.join(workDir, 'skills', pluginName, relative);
+  };
+  const rewrites = [];
+  for (const filePath of walkFiles(workDir).filter((file) => file.endsWith('.md'))) {
+    let fenced = false;
+    const lines = fs.readFileSync(filePath, 'utf8').split(/(?<=\n)/);
+    const output = lines.map((line) => {
+      if (/^\s*```/.test(line)) {
+        fenced = !fenced;
+        return line;
+      }
+      if (fenced) return line;
+      const segments = line.split(/(`[^`\n]*`)/g);
+      return segments.map((segment, index) => {
+        if (index % 2 === 1) return segment;
+        return segment.replace(
+          /(!?)\[([^\]]+)\]\((?!https?:|mailto:|#)([^)#]+)(#[^)]+)?\)/g,
+          (match, imagePrefix, label, targetPath, anchor = '') => {
+            const oldTarget = path.resolve(path.dirname(filePath), targetPath);
+            if (!oldTarget.startsWith(path.resolve(workDir) + path.sep) || !fs.existsSync(oldTarget)) {
+              return match;
+            }
+            const newSource = relocate(filePath);
+            const newTarget = relocate(oldTarget);
+            let newPath = path.relative(path.dirname(newSource), newTarget).replaceAll('\\', '/');
+            if (!newPath) newPath = path.basename(newTarget);
+            if (newPath === targetPath) return match;
+            rewrites.push({
+              file: path.relative(workDir, filePath).replaceAll('\\', '/'),
+              from: targetPath,
+              to: newPath,
+            });
+            return `${imagePrefix}[${label}](${newPath}${anchor})`;
+          },
+        );
+      }).join('');
+    });
+    fs.writeFileSync(filePath, output.join(''));
+  }
+  return rewrites;
+}
+
 function listPluginDirectories(repoRoot) {
   const pluginsRoot = path.join(repoRoot, 'plugins');
   if (!fs.existsSync(pluginsRoot)) throw new Error(`plugins directory missing: ${pluginsRoot}`);
@@ -293,6 +381,7 @@ function convertPlugin(repoRoot, plugin, dryRun) {
   const workDir = path.join(tempRoot, plugin.name);
   copyDirectory(plugin.path, workDir);
   try {
+    const linkRewrites = rewriteUnshippableMarkdownLinks(workDir, plugin.path);
     const artifacts = oldManifest.artifacts || {};
     const skillPaths = [
       ...(typeof artifacts.skill === 'string' ? [artifacts.skill] : []),
@@ -307,6 +396,7 @@ function convertPlugin(repoRoot, plugin, dryRun) {
       ...(Array.isArray(artifacts.prompts) ? artifacts.prompts : []),
     ];
     const frontmatterRecoveries = [];
+    let relocationLinkRewrites = [];
 
     for (const relative of agentPaths) moveAgent(workDir, plugin.name, relative);
     if (promptPaths.length) moveCommands(workDir, promptPaths);
@@ -321,6 +411,7 @@ function convertPlugin(repoRoot, plugin, dryRun) {
     }
 
     if (skillPaths.length === 1 && skillPaths[0] === 'SKILL.md') {
+      relocationLinkRewrites = rewriteRootSkillRelocationLinks(workDir, plugin.name);
       if (moveRootSkill(workDir, plugin.name, 'SKILL.md', oldManifest.description)) {
         frontmatterRecoveries.push(plugin.name);
       }
@@ -364,6 +455,8 @@ function convertPlugin(repoRoot, plugin, dryRun) {
     writeJson(path.join(workDir, 'plugin.json'), output);
     const mallMetadata = buildMallMetadata(oldManifest, authorExtensions, migration);
     if (upstreamSkillManifest) mallMetadata.upstream_skill_manifest = upstreamSkillManifest;
+    if (linkRewrites.length) mallMetadata.link_rewrites = linkRewrites;
+    if (relocationLinkRewrites.length) mallMetadata.relocation_link_rewrites = relocationLinkRewrites;
     writeJson(path.join(workDir, '.mall-metadata.json'), mallMetadata);
     validateRelativeMarkdownLinks(workDir, plugin.name);
 

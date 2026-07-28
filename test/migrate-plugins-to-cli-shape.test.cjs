@@ -308,26 +308,63 @@ test('missing declared artifact fails closed', () => {
   }
 });
 
-test('broken relative Markdown link fails closed before production swap', () => {
+test('unshippable relative Markdown links become audited inline references', () => {
   const root = fixtureRepo();
   try {
     const skillPath = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration', 'SKILL.md');
-    fs.appendFileSync(skillPath, '\n[Missing resource](references/missing.md)\n');
-    assert.throws(
-      () => migrateRepository({
-        repoRoot: root,
-        pluginNames: ['spline-3d-integration'],
-        dryRun: true,
-      }),
-      /broken relative link.*references\/missing\.md/i,
+    fs.appendFileSync(
+      skillPath,
+      '\n[Missing resource](references/missing.md)\n[Context agent](../../architecture-patterns/context-architect/AGENT.md)\n',
     );
-    assert.equal(fs.existsSync(path.join(
-      root,
-      'plugins',
-      '3d-graphics',
-      'spline-3d-integration',
-      '.mall-metadata.json',
-    )), false);
+    migrateRepository({ repoRoot: root, pluginNames: ['spline-3d-integration'] });
+    const pluginRoot = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration');
+    const migrated = fs.readFileSync(
+      path.join(pluginRoot, 'skills', 'spline-3d-integration', 'SKILL.md'),
+      'utf8',
+    );
+    assert.match(migrated, /`Missing resource`/);
+    assert.match(migrated, /`Context agent`/);
+    assert.deepEqual(json(path.join(pluginRoot, '.mall-metadata.json')).link_rewrites, [
+      {
+        file: 'SKILL.md',
+        label: 'Missing resource',
+        target: 'references/missing.md',
+        reason: 'missing-source',
+      },
+      {
+        file: 'SKILL.md',
+        label: 'Context agent',
+        target: '../../architecture-patterns/context-architect/AGENT.md',
+        reason: 'cross-plugin',
+      },
+    ]);
+  } finally {
+    cleanup(root);
+  }
+});
+
+test('root skill relocation rewrites links between moved and retained files', () => {
+  const root = fixtureRepo();
+  try {
+    const pluginRoot = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration');
+    fs.appendFileSync(path.join(pluginRoot, 'SKILL.md'), '\n[Overview](README.md)\n');
+    fs.appendFileSync(path.join(pluginRoot, 'README.md'), '\n[Skill](SKILL.md)\n');
+
+    migrateRepository({ repoRoot: root, pluginNames: ['spline-3d-integration'] });
+    const skill = fs.readFileSync(
+      path.join(pluginRoot, 'skills', 'spline-3d-integration', 'SKILL.md'),
+      'utf8',
+    );
+    const readme = fs.readFileSync(path.join(pluginRoot, 'README.md'), 'utf8');
+    assert.match(skill, /\[Overview\]\(\.\.\/\.\.\/README\.md\)/);
+    assert.match(readme, /\[Skill\]\(skills\/spline-3d-integration\/SKILL\.md\)/);
+    assert.deepEqual(
+      json(path.join(pluginRoot, '.mall-metadata.json')).relocation_link_rewrites,
+      [
+        { file: 'README.md', from: 'SKILL.md', to: 'skills/spline-3d-integration/SKILL.md' },
+        { file: 'SKILL.md', from: 'README.md', to: '../../README.md' },
+      ],
+    );
   } finally {
     cleanup(root);
   }
