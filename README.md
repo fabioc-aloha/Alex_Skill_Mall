@@ -25,13 +25,13 @@ This registers the `alex-mall` marketplace with the CLI. It reads `.github/plugi
 
 ```bash
 # Browse everything published by alex-mall
-copilot plugin browse --marketplace alex-mall
+copilot plugin marketplace browse alex-mall
 
-# Install a plugin by name
-copilot plugin install <plugin-name> --marketplace alex-mall
+# Install a plugin (plugin@marketplace format)
+copilot plugin install <plugin-name>@alex-mall
 
 # Example: install the visualization plugin
-copilot plugin install flint-chart-plugin --marketplace alex-mall
+copilot plugin install flint-chart-plugin@alex-mall
 ```
 
 Plugins install into `~/.copilot/installed-plugins/alex-mall/<plugin-name>/`.
@@ -39,10 +39,11 @@ Plugins install into `~/.copilot/installed-plugins/alex-mall/<plugin-name>/`.
 ### 3. Verify and manage
 
 ```bash
-copilot plugin list                    # what is installed
-copilot plugin uninstall <name>        # remove a plugin
-copilot plugin marketplace list        # registered marketplaces
-copilot plugin marketplace remove alex-mall  # unregister the marketplace
+copilot plugin list                              # what is installed
+copilot plugin update <plugin-name>@alex-mall    # pull the latest version
+copilot plugin uninstall <plugin-name>@alex-mall # remove a plugin
+copilot plugin marketplace list                  # registered marketplaces
+copilot plugin marketplace remove alex-mall      # unregister the marketplace
 ```
 
 ---
