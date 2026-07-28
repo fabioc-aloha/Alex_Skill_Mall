@@ -2,9 +2,6 @@
   "name": "md-to-word",
   "version": "1.0.0",
   "description": "Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "word",
     "convert",
@@ -15,19 +12,8 @@
     "professional",
     "documents"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "converters",
-  "tier": "standard",
-  "token_cost": 4010,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/md-to-word/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

@@ -46,6 +46,15 @@ function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
+function walkFiles(directory) {
+  let count = 0;
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    const fullPath = path.join(directory, entry.name);
+    count += entry.isDirectory() ? walkFiles(fullPath) : 1;
+  }
+  return count;
+}
+
 test('renderer emits deterministic strict curated-only marketplace output', (t) => {
   const repoRoot = createFixtureRepo();
   t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
@@ -110,5 +119,24 @@ test('renderer fails closed on duplicate manifest names', (t) => {
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
 
   assert.throws(() => renderMarketplace({ repoRoot }), /manifest name must match folder name/);
+  assert.equal(fs.existsSync(path.join(repoRoot, '.github', 'plugin', 'marketplace.json')), false);
+});
+
+test('renderer rejects payloads above the Copilot CLI Windows file limit', (t) => {
+  const repoRoot = createFixtureRepo();
+  t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
+  const { renderMarketplace } = require('../scripts/render-marketplace.cjs');
+  const pluginRoot = path.join(repoRoot, 'plugins', 'converters', 'md-to-pdf');
+  const resources = path.join(pluginRoot, 'skills', 'md-to-pdf', 'limit-fixtures');
+  fs.mkdirSync(resources, { recursive: true });
+  const currentFiles = walkFiles(pluginRoot);
+  for (let index = currentFiles; index <= 100; index++) {
+    fs.writeFileSync(path.join(resources, `${index}.txt`), 'fixture\n');
+  }
+
+  assert.throws(
+    () => renderMarketplace({ repoRoot }),
+    /101 files exceed the Copilot CLI 1\.0\.75 Windows payload limit of 100/,
+  );
   assert.equal(fs.existsSync(path.join(repoRoot, '.github', 'plugin', 'marketplace.json')), false);
 });

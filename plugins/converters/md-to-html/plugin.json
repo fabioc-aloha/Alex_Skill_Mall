@@ -2,9 +2,6 @@
   "name": "md-to-html",
   "version": "1.0.0",
   "description": "Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid diagrams",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "html",
     "convert",
@@ -15,19 +12,8 @@
     "images",
     "mermaid"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "converters",
-  "tier": "standard",
-  "token_cost": 2171,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/md-to-html/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

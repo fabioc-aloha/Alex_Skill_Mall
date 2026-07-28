@@ -25,6 +25,33 @@ function copyDirectory(source, target) {
   fs.cpSync(source, target, { recursive: true });
 }
 
+function walkFiles(directory) {
+  const files = [];
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    const fullPath = path.join(directory, entry.name);
+    if (entry.isDirectory()) files.push(...walkFiles(fullPath));
+    else files.push(fullPath);
+  }
+  return files;
+}
+
+function validateRelativeMarkdownLinks(pluginDir, pluginName) {
+  for (const filePath of walkFiles(pluginDir).filter((file) => file.endsWith('.md'))) {
+    const raw = fs.readFileSync(filePath, 'utf8')
+      .replace(/^\s*```[\s\S]*?^\s*```\s*$/gm, '')
+      .replace(/`[^`\n]*`/g, '');
+    const links = raw.matchAll(/\[[^\]]+\]\((?!https?:|mailto:|#)([^)#]+)(?:#[^)]+)?\)/g);
+    for (const match of links) {
+      const target = path.resolve(path.dirname(filePath), match[1]);
+      if (!target.startsWith(path.resolve(pluginDir) + path.sep) || !fs.existsSync(target)) {
+        throw new Error(
+          `${pluginName}: broken relative link in ${path.relative(pluginDir, filePath)}: ${match[1]}`,
+        );
+      }
+    }
+  }
+}
+
 function listPluginDirectories(repoRoot) {
   const pluginsRoot = path.join(repoRoot, 'plugins');
   if (!fs.existsSync(pluginsRoot)) throw new Error(`plugins directory missing: ${pluginsRoot}`);
@@ -245,6 +272,15 @@ function adaptVisualWrapper(filePath) {
   fs.writeFileSync(filePath, raw);
 }
 
+function extractDuplicateSkillManifest(workDir, pluginName) {
+  const manifestPath = path.join(workDir, 'skills', pluginName, 'manifest.json');
+  if (!fs.existsSync(manifestPath)) return null;
+  const manifest = readJson(manifestPath);
+  if (manifest.name !== pluginName) return null;
+  fs.rmSync(manifestPath);
+  return manifest;
+}
+
 function convertPlugin(repoRoot, plugin, dryRun) {
   const manifestPath = path.join(plugin.path, 'plugin.json');
   const oldManifest = readJson(manifestPath);
@@ -300,6 +336,7 @@ function convertPlugin(repoRoot, plugin, dryRun) {
       frontmatterRecoveries.push(...vendorBundleSkills(repoRoot, workDir, oldManifest.components));
       adaptVisualWrapper(path.join(workDir, 'skills', plugin.name, 'SKILL.md'));
     }
+    const upstreamSkillManifest = extractDuplicateSkillManifest(workDir, plugin.name);
 
     const components = {
       skills: skillPaths.length > 0 || oldManifest.bundle,
@@ -325,7 +362,10 @@ function convertPlugin(repoRoot, plugin, dryRun) {
     } : null;
     const { output, authorExtensions } = buildManifest(oldManifest, components);
     writeJson(path.join(workDir, 'plugin.json'), output);
-    writeJson(path.join(workDir, '.mall-metadata.json'), buildMallMetadata(oldManifest, authorExtensions, migration));
+    const mallMetadata = buildMallMetadata(oldManifest, authorExtensions, migration);
+    if (upstreamSkillManifest) mallMetadata.upstream_skill_manifest = upstreamSkillManifest;
+    writeJson(path.join(workDir, '.mall-metadata.json'), mallMetadata);
+    validateRelativeMarkdownLinks(workDir, plugin.name);
 
     if (dryRun) return { status: 'planned', name: plugin.name };
 

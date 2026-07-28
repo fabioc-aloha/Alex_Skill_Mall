@@ -1,0 +1,18 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S.M",
+  "tier": "standard",
+  "token_cost": 2142,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "muscle": "md-to-pptx.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/md-to-pptx.cjs",
+    "skill": ".github/skills/local/md-to-pptx/SKILL.md"
+  }
+}

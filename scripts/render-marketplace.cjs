@@ -13,6 +13,7 @@ const MARKETPLACE = Object.freeze({
   },
 });
 const NAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const COPILOT_WINDOWS_FILE_LIMIT = 100;
 
 function readJson(filePath) {
   try {
@@ -53,6 +54,15 @@ function requireString(manifest, field, pluginName) {
   return manifest[field];
 }
 
+function countFiles(directory) {
+  let count = 0;
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    const fullPath = path.join(directory, entry.name);
+    count += entry.isDirectory() ? countFiles(fullPath) : 1;
+  }
+  return count;
+}
+
 function buildEntry(plugin) {
   const manifest = readJson(plugin.manifestPath);
   const name = requireString(manifest, 'name', plugin.folder);
@@ -63,6 +73,12 @@ function buildEntry(plugin) {
   if (!manifest.author || typeof manifest.author !== 'object' || Array.isArray(manifest.author)
     || typeof manifest.author.name !== 'string' || !manifest.author.name.trim()) {
     throw new Error(`${name}: author must be an object with a non-empty name`);
+  }
+  const fileCount = countFiles(plugin.pluginDir);
+  if (fileCount > COPILOT_WINDOWS_FILE_LIMIT) {
+    throw new Error(
+      `${name}: ${fileCount} files exceed the Copilot CLI 1.0.75 Windows payload limit of ${COPILOT_WINDOWS_FILE_LIMIT}`,
+    );
   }
 
   return {

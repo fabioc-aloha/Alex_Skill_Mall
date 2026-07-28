@@ -253,6 +253,34 @@ test('malformed skill YAML recovers from plugin manifest and records the adaptat
   }
 });
 
+test('duplicate nested skill manifest is preserved as Mall metadata and not shipped', () => {
+  const root = fixtureRepo();
+  try {
+    const pluginRoot = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration');
+    const upstreamManifest = {
+      name: 'spline-3d-integration',
+      version: '9.9.9',
+      compatibility: ['upstream-runtime'],
+    };
+    fs.writeFileSync(
+      path.join(pluginRoot, 'manifest.json'),
+      JSON.stringify(upstreamManifest, null, 2) + '\n',
+    );
+
+    migrateRepository({ repoRoot: root, pluginNames: ['spline-3d-integration'] });
+    assert.equal(
+      fs.existsSync(path.join(pluginRoot, 'skills', 'spline-3d-integration', 'manifest.json')),
+      false,
+    );
+    assert.deepEqual(
+      json(path.join(pluginRoot, '.mall-metadata.json')).upstream_skill_manifest,
+      upstreamManifest,
+    );
+  } finally {
+    cleanup(root);
+  }
+});
+
 test('second migration is byte-idempotent', () => {
   const root = fixtureRepo();
   try {
@@ -275,6 +303,31 @@ test('missing declared artifact fails closed', () => {
       () => migrateRepository({ repoRoot: root, pluginNames: ['spline-3d-integration'] }),
       /declared artifact.*SKILL\.md/i,
     );
+  } finally {
+    cleanup(root);
+  }
+});
+
+test('broken relative Markdown link fails closed before production swap', () => {
+  const root = fixtureRepo();
+  try {
+    const skillPath = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration', 'SKILL.md');
+    fs.appendFileSync(skillPath, '\n[Missing resource](references/missing.md)\n');
+    assert.throws(
+      () => migrateRepository({
+        repoRoot: root,
+        pluginNames: ['spline-3d-integration'],
+        dryRun: true,
+      }),
+      /broken relative link.*references\/missing\.md/i,
+    );
+    assert.equal(fs.existsSync(path.join(
+      root,
+      'plugins',
+      '3d-graphics',
+      'spline-3d-integration',
+      '.mall-metadata.json',
+    )), false);
   } finally {
     cleanup(root);
   }

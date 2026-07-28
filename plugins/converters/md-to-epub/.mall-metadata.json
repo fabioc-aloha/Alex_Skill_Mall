@@ -1,0 +1,18 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S.M",
+  "tier": "standard",
+  "token_cost": 2244,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "muscle": "md-to-epub.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/md-to-epub.cjs",
+    "skill": ".github/skills/local/md-to-epub/SKILL.md"
+  }
+}

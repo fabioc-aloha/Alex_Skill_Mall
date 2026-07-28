@@ -9,6 +9,153 @@
   },
   "plugins": [
     {
+      "name": "biopython",
+      "description": "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, alignment, BLAST, and structure analysis with Biopython.",
+      "version": "1.0.0",
+      "source": "plugins/bioinformatics/biopython",
+      "strict": true
+    },
+    {
+      "name": "converter-qa",
+      "description": "Test harness for validating converter outputs with 284 assertions across all converter muscles",
+      "version": "1.0.0",
+      "source": "plugins/converters/converter-qa",
+      "strict": true
+    },
+    {
+      "name": "docpilot",
+      "description": "Convert Markdown specs to styled Word (.docx) or Microsoft Loop. Pure Python, no Pandoc. Syntax-highlighted code blocks, formatted tables, blue headers.",
+      "version": "1.0.1",
+      "source": "plugins/converters/docpilot",
+      "strict": true
+    },
+    {
+      "name": "docx-to-md",
+      "description": "Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup",
+      "version": "1.0.0",
+      "source": "plugins/converters/docx-to-md",
+      "strict": true
+    },
+    {
+      "name": "docx-to-pdf",
+      "description": "Convert Word documents to PDF without Word or LibreOffice. Python-based, single command, preserves formatting.",
+      "version": "1.0.1",
+      "source": "plugins/converters/docx-to-pdf",
+      "strict": true
+    },
+    {
+      "name": "draw-io-diagram-generator",
+      "description": "Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph XML authoring, shape libraries, style strings, flowcharts, system architecture, sequence diagrams, ER diagrams, UML class diagrams, network topology, layout strategy, the hediet.vscode-drawio VS Code extension, and the full agent workflow from request to a ready-to-open file.",
+      "version": "1.0.0",
+      "source": "plugins/diagrams/draw-io-diagram-generator",
+      "strict": true
+    },
+    {
+      "name": "excalidraw-diagram-generator",
+      "description": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or \"generate an Excalidraw file\". Supports flowcharts, relationship diagrams, mind maps, and system architecture diagrams. Outputs .excalidraw JSON files that can be opened directly in Excalidraw.",
+      "version": "1.0.0",
+      "source": "plugins/diagrams/excalidraw-diagram-generator",
+      "strict": true
+    },
+    {
+      "name": "fal-image-edit",
+      "description": "AI-powered image editing with style transfer and object removal",
+      "version": "1.0.0",
+      "source": "plugins/image-generation/fal-image-edit",
+      "strict": true
+    },
+    {
+      "name": "gpt-image-2",
+      "description": "面向 GPT Image 2 的图像生成 / 编辑技能。可在 3 种环境下使用：(A) Garden 本地模式，通过 OpenAI 兼容接口直接出图并落盘；(B) Host-Native 模式，把本 Skill 当作提示词工程指引，把渲染好的 prompt 交给宿主 Agent 自带的图像工具出图；(C) Advisor 模式，宿主无任何图像工具时退化为高质量 prompt 顾问。涵盖 18 大类、80+ 个结构化模板，覆盖海报 / UI / 产品 / 信息图 / 学术图 / 技术架构图 / 漫画 / 头像 / 流程板 / 电影分镜 / IP 周边 / 编辑工作流等场景。",
+      "version": "1.0.0",
+      "source": "plugins/image-generation/gpt-image-2",
+      "strict": true
+    },
+    {
+      "name": "image-studio",
+      "description": "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.",
+      "version": "1.0.0",
+      "source": "plugins/image-generation/image-studio",
+      "strict": true
+    },
+    {
+      "name": "imagen",
+      "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
+      "version": "1.0.0",
+      "source": "plugins/image-generation/imagen",
+      "strict": true
+    },
+    {
+      "name": "md-to-eml",
+      "description": "Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images",
+      "version": "1.0.0",
+      "source": "plugins/converters/md-to-eml",
+      "strict": true
+    },
+    {
+      "name": "md-to-epub",
+      "description": "Convert Markdown to EPUB 3 e-books via Pandoc.",
+      "version": "1.0.0",
+      "source": "plugins/converters/md-to-epub",
+      "strict": true
+    },
+    {
+      "name": "md-to-gamma",
+      "description": "Pre-process Markdown into a Gamma-import-ready version.",
+      "version": "1.0.0",
+      "source": "plugins/converters/md-to-gamma",
+      "strict": true
+    },
+    {
+      "name": "md-to-html",
+      "description": "Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid diagrams",
+      "version": "1.0.0",
+      "source": "plugins/converters/md-to-html",
+      "strict": true
+    },
+    {
+      "name": "md-to-latex",
+      "description": "Convert Markdown to LaTeX source via Pandoc.",
+      "version": "1.0.0",
+      "source": "plugins/converters/md-to-latex",
+      "strict": true
+    },
+    {
+      "name": "md-to-pdf",
+      "description": "Convert Markdown to PDF via Pandoc with two rendering engines.",
+      "version": "1.0.0",
+      "source": "plugins/converters/md-to-pdf",
+      "strict": true
+    },
+    {
+      "name": "md-to-pptx",
+      "description": "Convert Markdown to PowerPoint presentations via Pandoc.",
+      "version": "1.0.0",
+      "source": "plugins/converters/md-to-pptx",
+      "strict": true
+    },
+    {
+      "name": "md-to-word",
+      "description": "Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents",
+      "version": "1.0.0",
+      "source": "plugins/converters/md-to-word",
+      "strict": true
+    },
+    {
+      "name": "mermaid-expert",
+      "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.",
+      "version": "1.0.0",
+      "source": "plugins/diagrams/mermaid-expert",
+      "strict": true
+    },
+    {
+      "name": "pptx-to-md",
+      "description": "Convert PowerPoint (.pptx) to Markdown via Pandoc.",
+      "version": "1.0.0",
+      "source": "plugins/converters/pptx-to-md",
+      "strict": true
+    },
+    {
       "name": "threejs-animation",
       "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.",
       "version": "1.0.0",
