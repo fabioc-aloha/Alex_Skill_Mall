@@ -1,0 +1,34 @@
+{
+    "name": "delivery-svg-markdown",
+    "version": "1.0.0",
+    "description": "Render data dashboards as static SVG panels embeddable in Markdown. Uses D3.js v7 mental model for scales, shapes, and axes. No runtime JS; output is pure SVG with inline styles for GitHub compatibility.",
+    "author": {
+        "name": "ACT Plugin Mall"
+    },
+    "keywords": [
+        "svg",
+        "markdown",
+        "dashboard",
+        "d3",
+        "chart",
+        "visualization",
+        "github",
+        "static",
+        "responsive"
+    ],
+    "engines": [
+        "copilot"
+    ],
+    "shape": ".S..",
+    "category": "media-graphics",
+    "tier": "standard",
+    "token_cost": 4200,
+    "requires_edition": ">=1.0.0",
+    "requires_plugins": [],
+    "artifacts": {
+        "skill": "SKILL.md"
+    },
+    "install_paths": {
+        "skill": ".github/skills/local/delivery-svg-markdown/SKILL.md"
+    }
+}
