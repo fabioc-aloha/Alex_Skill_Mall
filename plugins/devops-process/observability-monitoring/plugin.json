@@ -2,9 +2,6 @@
   "name": "observability-monitoring",
   "version": "1.0.0",
   "description": "Production visibility through logs, metrics, traces, and alerting -- the three pillars of observability",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "observability",
     "monitoring",
@@ -15,19 +12,8 @@
     "metrics",
     "traces"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 2356,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/observability-monitoring/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

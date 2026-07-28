@@ -1,0 +1,86 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".SP.",
+  "tier": "standard",
+  "token_cost": 24513,
+  "requires_edition": ">=3.0.0",
+  "requires_plugins": [],
+  "requires_runtime": {
+    "node": ">=22",
+    "browser": "optional — only if the `playwright` MCP server is enabled. An installed Edge, Chrome, Firefox or WebKit; nothing is bundled. Not needed on hosts with built-in browser tools (VS Code Copilot).",
+    "notes": "The bundled mcp.json invokes `npx -y flint-chart-mcp@^0.2.2` on first tool call; Node 22+ required. First cold start ~1-2s; cached thereafter. Install it to `.vscode/mcp.json` — VS Code does NOT read a workspace-root `.mcp.json`, which is the Claude Code convention; the `servers` schema is identical, and VS Code reports no error because it reads no file at all. The ^0.2.2 pin is held deliberately: caret on 0.x means >=0.2.2 <0.3.0, and although public npm `latest` is 0.4.0, that version is unreachable from Microsoft corporate npm mirrors, which stop at 0.2.2. mcp.json also declares an OPTIONAL second server, `playwright`, used only by the render-verify skill on hosts with no browser of their own — chiefly GitHub Copilot CLI. VS Code heirs should omit that entry."
+  },
+  "upstream": {
+    "repo": "https://github.com/fabioc-aloha/flint-chart-plugin",
+    "ref": "main",
+    "license": "MIT",
+    "notes": "Source-of-truth is the upstream OSS repo. Mall vendors a specific version; when upstream tags a new release, Mall automation flags the mismatch."
+  },
+  "artifacts": {
+    "skills": [
+      "skills/chart-big-idea/SKILL.md",
+      "skills/flint-chart/SKILL.md",
+      "skills/render-verify/SKILL.md"
+    ],
+    "prompts": [
+      "prompts/render-chart.prompt.md"
+    ],
+    "mcp": "mcp.json"
+  },
+  "install_paths": {
+    "skills": {
+      "chart-big-idea": ".github/skills/local/chart-big-idea/SKILL.md",
+      "flint-chart": ".github/skills/local/flint-chart/SKILL.md",
+      "render-verify": ".github/skills/local/render-verify/SKILL.md"
+    },
+    "prompts": {
+      "render-chart": ".github/prompts/local/render-chart.prompt.md"
+    },
+    "mcp": {
+      "merge_target": ".vscode/mcp.json",
+      "servers": [
+        {
+          "server_name": "flint",
+          "required": true,
+          "server_config": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "flint-chart-mcp@^0.2.2"]
+          },
+          "role": "renders the chart"
+        },
+        {
+          "server_name": "playwright",
+          "required": false,
+          "server_config": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@playwright/mcp@0.0.78", "--headless", "--isolated", "--browser", "msedge", "--allow-unrestricted-file-access"]
+          },
+          "role": "satisfies the render-verify skill's browser capability on hosts with none of their own — chiefly GitHub Copilot CLI, a terminal agent with no browser",
+          "omit_when": "The host already has built-in browser/screenshot tools. VS Code Copilot does: it opens file:// with no flags and no browser download. Omit this entry there.",
+          "security": "--allow-unrestricted-file-access is REQUIRED for file:// navigation, which the server blocks by default. It grants the browser read access to any file the user can read — acceptable for verifying local artifacts, NOT safe combined with browsing untrusted web pages.",
+          "browser": "No bundled browser; Playwright drives an installed one by channel. msedge is shipped because it ships with Windows, where most heirs are; override with chrome/firefox/webkit elsewhere."
+        }
+      ],
+      "notes": "VS Code workspace path is `.vscode/mcp.json`. Root `.mcp.json` is the Claude Code convention and is never read by VS Code; Cursor uses `.cursor/mcp.json`; GitHub Copilot CLI uses `~/.copilot/mcp-config.json` with top-level key `mcpServers`, not `servers`. Merge entries into the existing server map — overwriting the file destroys the user's other servers."
+    }
+  },
+  "install_notes": "Skills and prompts install under `local/`, which VS Code does not discover by default. Alex ACT Edition heirs (>=3.0.0, per requires_edition) already register those roots, so no extra settings are needed for a Mall install. On a plain VS Code workspace, `chat.agentSkillsLocations` and `chat.promptFilesLocations` must additionally point at `.github/skills/local` and `.github/prompts/local` — see the upstream README.",
+  "attribution": [
+    { "component": "flint-chart skill body", "source": "microsoft/flint-chart (agent-skills/flint-chart-author/SKILL.md)", "license": "MIT", "role": "forked, §0 Chart Selection prepended" },
+    { "component": "flint-chart-mcp server", "source": "https://www.npmjs.com/package/flint-chart-mcp (Microsoft)", "license": "MIT", "role": "invoked via npx on first tool call" },
+    { "component": "chart-big-idea skill", "source": "new work in fabioc-aloha/flint-chart-plugin", "license": "MIT", "role": "original" },
+    { "component": "render-verify skill", "source": "new work in fabioc-aloha/flint-chart-plugin", "license": "MIT", "role": "original" },
+    { "component": "@playwright/mcp server", "source": "https://www.npmjs.com/package/@playwright/mcp (Microsoft)", "license": "Apache-2.0", "role": "optional; invoked via npx only when the playwright entry is enabled" },
+    { "component": "/render-chart prompt", "source": "new work in fabioc-aloha/flint-chart-plugin", "license": "MIT", "role": "original" }
+  ],
+  "schema_notes": "First Mall plugin with an MCP artifact. Shape code retained as .SP. (skill + prompt) since the current 4-position shape [I][S][P][M=muscle] does not have an MCP position. If Mall extends shape to 5 positions for MCP, bump this plugin to `.SPM.` (or agreed-upon convention).",
+  "migration": {
+    "prompt_to_command": "commands/render-chart.md",
+    "mcp_to_inline_manifest": true,
+    "evidence": "Copilot CLI 1.0.73 strict marketplace and invocation smoke tests"
+  }
+}

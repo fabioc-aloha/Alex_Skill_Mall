@@ -2,9 +2,6 @@
   "name": "create-associate-nsg",
   "version": "1.0.0",
   "description": "Creates a new Network Security Group and associates it with the specified subnets and/or NICs of a Virtual Network.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "create",
     "associate",
@@ -15,19 +12,8 @@
     "group",
     "associates"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "security-privacy",
-  "tier": "standard",
-  "token_cost": 1765,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/create-associate-nsg/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

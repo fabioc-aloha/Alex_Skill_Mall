@@ -1,0 +1,38 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 1669,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/azure-swa-gotchas/SKILL.md"
+  },
+  "migration": {
+    "frontmatter_recovery": {
+      "source": "plugin.json",
+      "skills": [
+        "azure-swa-gotchas"
+      ]
+    }
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "entra-redirect-uris",
+      "target": "../entra-redirect-uris/",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "vite-public-rebuild",
+      "target": "../../build/vite-public-rebuild/",
+      "reason": "missing-source"
+    }
+  ]
+}

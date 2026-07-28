@@ -2,9 +2,6 @@
   "name": "rubber-duck-debugging",
   "version": "1.0.0",
   "description": "Be a thinking partner. The answer often emerges when explaining the problem.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "rubber",
     "duck",
@@ -15,19 +12,8 @@
     "often",
     "emerges"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "reasoning-metacognition",
-  "tier": "core",
-  "token_cost": 1668,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/rubber-duck-debugging/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

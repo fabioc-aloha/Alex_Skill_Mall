@@ -5,6 +5,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const REQUIRED_NUMERIC_SIGNALS = ['store', 'frontmatter', 'readme'];
+const MARKETPLACE_PATH = '.github/plugin/marketplace.json';
 
 function finding(code, relativePath, message) {
   return { code, path: relativePath.replace(/\\/g, '/'), message };
@@ -15,6 +16,58 @@ function readJson(root, relativePath, errors) {
   catch {
     errors.push(finding('JSON_INVALID', relativePath, 'Required JSON is missing or malformed'));
     return null;
+  }
+}
+
+function curatedPlugins(root) {
+  const pluginsRoot = path.join(root, 'plugins');
+  if (!fs.existsSync(pluginsRoot)) return [];
+  const plugins = [];
+  for (const category of fs.readdirSync(pluginsRoot, { withFileTypes: true })) {
+    if (!category.isDirectory() || category.name.startsWith('.')) continue;
+    const categoryPath = path.join(pluginsRoot, category.name);
+    for (const plugin of fs.readdirSync(categoryPath, { withFileTypes: true })) {
+      if (!plugin.isDirectory() || plugin.name.startsWith('.')) continue;
+      const pluginRoot = path.join(categoryPath, plugin.name);
+      if (!fs.existsSync(path.join(pluginRoot, 'plugin.json'))
+        || !fs.existsSync(path.join(pluginRoot, '.mall-metadata.json'))) continue;
+      plugins.push({
+        name: plugin.name,
+        source: `plugins/${category.name}/${plugin.name}`,
+      });
+    }
+  }
+  return plugins;
+}
+
+function validateMarketplace(root, errors) {
+  if (!fs.existsSync(path.join(root, MARKETPLACE_PATH))) return;
+  const marketplace = readJson(root, MARKETPLACE_PATH, errors);
+  if (!marketplace) return;
+  if (marketplace.name !== 'alex-mall' || marketplace.owner?.name !== 'fabioc-aloha' || !Array.isArray(marketplace.plugins)) {
+    errors.push(finding('MARKETPLACE_SHAPE_INVALID', MARKETPLACE_PATH, 'Expected alex-mall, owner fabioc-aloha, and a plugins array'));
+    return;
+  }
+
+  const curated = curatedPlugins(root);
+  const expected = new Map(curated.map((plugin) => [plugin.name, plugin.source]));
+  const actual = new Map();
+  for (const plugin of marketplace.plugins) {
+    if (!plugin || typeof plugin.name !== 'string' || typeof plugin.source !== 'string' || plugin.strict !== true) {
+      errors.push(finding('MARKETPLACE_ENTRY_INVALID', MARKETPLACE_PATH, 'Every entry needs name, source, and strict=true'));
+      continue;
+    }
+    if (!/^plugins\/[a-z0-9-]+\/[a-z0-9-]+$/.test(plugin.source)) {
+      errors.push(finding('MARKETPLACE_SOURCE_INVALID', MARKETPLACE_PATH, `${plugin.name} source must stay inside plugins/<category>/<name>`));
+    }
+    if (actual.has(plugin.name)) {
+      errors.push(finding('MARKETPLACE_NAME_DUPLICATE', MARKETPLACE_PATH, `Duplicate marketplace name: ${plugin.name}`));
+    }
+    actual.set(plugin.name, plugin.source);
+  }
+
+  if (expected.size !== actual.size || [...expected].some(([name, source]) => actual.get(name) !== source)) {
+    errors.push(finding('MARKETPLACE_CURATED_SET_MISMATCH', MARKETPLACE_PATH, 'Marketplace names and sources must match curated plugin folders exactly'));
   }
 }
 
@@ -91,6 +144,7 @@ function validateCatalog(root = process.cwd()) {
   if (!fs.existsSync(path.join(absoluteRoot, 'sources', 'SOURCES.md'))) {
     errors.push(finding('SOURCES_MARKDOWN_MISSING', 'sources/SOURCES.md', 'Rendered source registry is missing'));
   }
+  validateMarketplace(absoluteRoot, errors);
 
   return result(errors, jsonFiles.length, pluginSum);
 }

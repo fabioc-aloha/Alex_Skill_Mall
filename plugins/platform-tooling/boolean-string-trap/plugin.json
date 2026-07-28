@@ -2,9 +2,6 @@
   "name": "boolean-string-trap",
   "version": "1.0.0",
   "description": "JavaScript boolean-string coercion trap -- \"false\" is truthy, JSON.parse or strict comparison required",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "boolean",
     "string",
@@ -15,19 +12,8 @@
     "false",
     "truthy"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "platform-tooling",
-  "tier": "standard",
-  "token_cost": 996,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/boolean-string-trap/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

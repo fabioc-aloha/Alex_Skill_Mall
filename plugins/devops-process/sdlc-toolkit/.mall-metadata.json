@@ -1,0 +1,58 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/sdlc-toolkit/SKILL.md"
+  },
+  "requires_plugins": [],
+  "shape": "S...",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 12013,
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 13,
+    "agents": 6,
+    "has_mcp": true,
+    "checked_at": "2026-05-13"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "ADR template reference",
+      "target": "references/adr-template.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "validation rules reference",
+      "target": "references/validation-rules.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "risk scoring reference",
+      "target": "references/risk-scoring.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "PII patterns reference",
+      "target": "references/pii-patterns.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "debt patterns reference",
+      "target": "references/debt-patterns.md",
+      "reason": "missing-source"
+    }
+  ]
+}

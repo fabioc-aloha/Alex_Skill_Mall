@@ -40,6 +40,30 @@ function fixture() {
   });
   fs.mkdirSync(path.join(root, 'sources'), { recursive: true });
   fs.writeFileSync(path.join(root, 'sources', 'SOURCES.md'), '# Sources\n');
+  writeJson(path.join(root, 'plugins', 'test-category', 'curated-skill', 'plugin.json'), {
+    name: 'curated-skill',
+    version: '1.0.0',
+    description: 'Curated fixture skill.',
+    author: { name: 'Fixture' },
+  });
+  writeJson(path.join(root, 'plugins', 'test-category', 'curated-skill', '.mall-metadata.json'), {
+    source: { store: 'fixture' },
+  });
+  writeJson(path.join(root, 'plugins', 'test-category', 'legacy-unmigrated', 'plugin.json'), {
+    name: 'legacy-unmigrated',
+    version: '1.0.0',
+    description: 'Not migrated yet.',
+    author: 'legacy-author',
+  });
+  writeJson(path.join(root, '.github', 'plugin', 'marketplace.json'), {
+    name: 'alex-mall',
+    owner: { name: 'fabioc-aloha' },
+    plugins: [{
+      name: 'curated-skill',
+      source: 'plugins/test-category/curated-skill',
+      strict: true,
+    }],
+  });
   return root;
 }
 
@@ -112,6 +136,28 @@ test('trust scores and signals are bounded and present', () => {
     const result = validateCatalog(root);
     assert.ok(codes(result).includes('TRUST_SCORE_INVALID'));
     assert.ok(codes(result).includes('TRUST_SIGNALS_MISSING'));
+  } finally { cleanup(root); }
+});
+
+test('marketplace entries must reconcile exactly with curated plugin folders', () => {
+  const root = fixture();
+  try {
+    const marketplacePath = path.join(root, '.github', 'plugin', 'marketplace.json');
+    const marketplace = JSON.parse(fs.readFileSync(marketplacePath, 'utf8'));
+    marketplace.plugins = [];
+    writeJson(marketplacePath, marketplace);
+    assert.ok(codes(validateCatalog(root)).includes('MARKETPLACE_CURATED_SET_MISMATCH'));
+  } finally { cleanup(root); }
+});
+
+test('marketplace sources must stay inside the curated plugins tree', () => {
+  const root = fixture();
+  try {
+    const marketplacePath = path.join(root, '.github', 'plugin', 'marketplace.json');
+    const marketplace = JSON.parse(fs.readFileSync(marketplacePath, 'utf8'));
+    marketplace.plugins[0].source = 'catalog/stores/upstream';
+    writeJson(marketplacePath, marketplace);
+    assert.ok(codes(validateCatalog(root)).includes('MARKETPLACE_SOURCE_INVALID'));
   } finally { cleanup(root); }
 });
 

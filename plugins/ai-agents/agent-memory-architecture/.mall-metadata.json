@@ -1,0 +1,30 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 4190,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/agent-memory-architecture/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "Implementation Reference",
+      "target": "./references/implementation.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "Implementation Reference",
+      "target": "./references/implementation.md",
+      "reason": "missing-source"
+    }
+  ]
+}

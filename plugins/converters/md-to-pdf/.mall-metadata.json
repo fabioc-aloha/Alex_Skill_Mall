@@ -1,0 +1,22 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S.M",
+  "tier": "standard",
+  "token_cost": 4012,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "muscle": "md-to-pdf.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/md-to-pdf.cjs",
+    "skill": ".github/skills/local/md-to-pdf/SKILL.md"
+  },
+  "migration": {
+    "strategy": "colocate-script-with-skill",
+    "reason": "The skill invokes the support script as a relative resource."
+  }
+}

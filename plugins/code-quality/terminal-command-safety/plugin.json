@@ -2,9 +2,6 @@
   "name": "terminal-command-safety",
   "version": "1.0.0",
   "description": "Safe terminal command patterns -- backtick escaping, output capture, and hang prevention",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "terminal",
     "command",
@@ -15,19 +12,8 @@
     "escaping",
     "output"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "code-quality",
-  "tier": "standard",
-  "token_cost": 1026,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/terminal-command-safety/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

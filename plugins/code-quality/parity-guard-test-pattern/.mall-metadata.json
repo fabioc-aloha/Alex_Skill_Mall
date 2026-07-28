@@ -1,0 +1,24 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 853,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/parity-guard-test-pattern/SKILL.md"
+  },
+  "migration": {
+    "frontmatter_recovery": {
+      "source": "plugin.json",
+      "skills": [
+        "parity-guard-test-pattern"
+      ]
+    }
+  }
+}

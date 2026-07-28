@@ -2,9 +2,6 @@
   "name": "dissertation-defense",
   "version": "1.0.0",
   "description": "Comprehensive preparation for doctoral dissertation defense including timeline management, presentation design, Q&A practice, mock sessions, and committee dynamics.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "dissertation",
     "defense",
@@ -15,19 +12,8 @@
     "timeline",
     "management"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "documentation",
-  "tier": "extended",
-  "token_cost": 4951,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/dissertation-defense/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

@@ -4,11 +4,14 @@
   "description": "Self-curating ACT plugin catalog and structural validation tooling.",
   "scripts": {
     "validate": "node scripts/validate-catalog.cjs",
-    "test": "node --test test/validate-catalog.test.cjs",
+    "test": "node --test test/*.test.cjs",
     "check": "npm test && npm run validate"
   },
   "engines": {
     "node": ">=24"
   },
-  "license": "PolyForm-Noncommercial-1.0.0"
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "dependencies": {
+    "yaml": "^2.9.0"
+  }
 }

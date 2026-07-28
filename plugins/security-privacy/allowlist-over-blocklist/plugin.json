@@ -2,9 +2,6 @@
   "name": "allowlist-over-blocklist",
   "version": "1.0.0",
   "description": "Validate input against an allowlist of permitted values -- reject everything else",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "allowlist",
     "over",
@@ -15,19 +12,8 @@
     "permitted",
     "values"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "security-privacy",
-  "tier": "standard",
-  "token_cost": 1211,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/allowlist-over-blocklist/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

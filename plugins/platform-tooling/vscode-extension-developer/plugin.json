@@ -2,10 +2,6 @@
   "name": "vscode-extension-developer",
   "version": "1.0.0",
   "description": "Agent for developing VS Code extensions with LSP, webviews, activation optimization, bundling, testing, and Marketplace publishing.",
-  "author": {
-    "name": "ACT Plugin Mall",
-    "source": "awesome-claude-code-toolkit/agents/developer-experience/vscode-extension.md"
-  },
   "keywords": [
     "vscode",
     "extension",
@@ -16,19 +12,8 @@
     "publishing",
     "bundling"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": "..A.",
   "category": "platform-tooling",
-  "tier": "standard",
-  "token_cost": 2100,
-  "requires_edition": ">=2.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "agent": "AGENT.md"
-  },
-  "install_paths": {
-    "agent": ".github/agents/vscode-extension-developer.agent.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

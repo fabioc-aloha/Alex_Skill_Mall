@@ -6,6 +6,49 @@ All notable changes to Alex ACT Plugin Mall.
 
 ---
 
+## [3.0.0] - 2026-07-28
+
+**Major release.** The 365 first-party curated plugins are now installable as a
+GitHub Copilot CLI marketplace. The external discovery and trust catalog stays
+unchanged at 3,912 plugins across 49 stores.
+
+### Added
+
+- Strict `.github/plugin/marketplace.json` with 365 unique curated plugin
+	entries and repository-relative sources.
+- Fixture-backed migration, rendering, catalog validation, link validation,
+	and payload-limit tests.
+- Mall-owned metadata sidecars that preserve provenance and legacy fields
+	without shipping those fields in strict plugin manifests.
+
+### Changed
+
+- Migrated every curated plugin to Copilot-native component directories for
+	skills, agents, commands, and MCP server declarations.
+- Normalized plugin authors and manifests to the strict Copilot schema.
+- Rewrote valid internal links for relocated files and converted unshippable
+	cross-plugin references to explicit inline provenance.
+- Limited each plugin payload to 100 files, matching the verified Copilot CLI
+	1.0.75 Windows installation ceiling.
+
+### Removed
+
+- Legacy `install_paths`, `artifacts`, shape, tier, and token-cost fields from
+	active `plugin.json` manifests. Historical values remain in Mall metadata.
+- Duplicate nested manifests from install payloads; their source metadata is
+	retained in the corresponding Mall metadata sidecar.
+
+### Compatibility
+
+- Edition v4.2.0 supports guided Mall 3 installation, exact installed-component
+	tracking, and Mall 2 fallback behavior.
+- Mall 3 installation is opt-in and does not modify existing consumers merely
+	because this release is published.
+- Edition 3.x and 4.1 consumers are outside the Mall 3 compatibility claim.
+- Annotated tag `v2.0.0` remains the rollback anchor for the prior layout.
+
+---
+
 ## [2.0.0] - 2026-05-29
 
 **Major release.** Constitutional reframe to self-curating marketplace (catalog `schema_version: 2.1` → `3.0`), Mall brain added, public surface fully cleaned of upstream-curator references and Edition-specific framing. Anyone consuming the v1.x layout will see breaking changes; consumers depending only on `catalog/index.json` and upstream-pinned plugin installs are unaffected.

@@ -2,9 +2,6 @@
   "name": "mermaid-mode-fragility",
   "version": "1.0.0",
   "description": "Mermaid diagram mode fragility -- timeline, gitGraph, and gantt break on colons, default to flowchart",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "mermaid",
     "mode",
@@ -15,19 +12,8 @@
     "gantt",
     "break"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "documentation",
-  "tier": "standard",
-  "token_cost": 1057,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/mermaid-mode-fragility/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

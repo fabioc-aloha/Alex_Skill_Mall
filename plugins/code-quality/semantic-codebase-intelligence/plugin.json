@@ -2,9 +2,6 @@
   "name": "semantic-codebase-intelligence",
   "version": "1.0.0",
   "description": "Deep structural analysis of a codebase--dependency mapping, architecture boundary detection, coupling/cohesion scoring, and dead code discovery. Use when asked to \"analyze codebase structure\", \"map dependencies\", \"find dead code\", \"architecture analysis\", \"coupling analysis\", \"trace dependencies\", or \"understand this system\". Produces a Context Map with actionable insights.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "semantic",
     "codebase",
@@ -15,19 +12,8 @@
     "codebase--dependency",
     "mapping"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "code-quality",
-  "tier": "standard",
-  "token_cost": 2534,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/semantic-codebase-intelligence/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

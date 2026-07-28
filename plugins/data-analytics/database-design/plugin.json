@@ -2,9 +2,6 @@
   "name": "database-design",
   "version": "1.0.0",
   "description": "Schema design, normalization, query optimization, and data modeling patterns",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "database",
     "design",
@@ -15,19 +12,8 @@
     "data",
     "modeling"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "data-analytics",
-  "tier": "standard",
-  "token_cost": 2826,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/database-design/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

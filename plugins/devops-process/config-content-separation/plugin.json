@@ -2,9 +2,6 @@
   "name": "config-content-separation",
   "version": "1.0.0",
   "description": "Mixing structure and content makes both hard to maintain:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "config",
     "content",
@@ -15,19 +12,8 @@
     "both",
     "hard"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 768,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/config-content-separation/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

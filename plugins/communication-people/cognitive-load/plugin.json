@@ -2,9 +2,6 @@
   "name": "cognitive-load",
   "version": "1.0.0",
   "description": "Don't overwhelm -- chunk, scaffold, summarize first.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "cognitive",
     "load",
@@ -15,19 +12,8 @@
     "summarize",
     "first"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "communication-people",
-  "tier": "extended",
-  "token_cost": 1656,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/cognitive-load/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

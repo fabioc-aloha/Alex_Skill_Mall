@@ -1,0 +1,21 @@
+{
+  "source": {
+    "store": "k-dense-scientific-agent-skills",
+    "path": "k-dense-scientific-agent-skills/scientific-skills/literature-review",
+    "imported": "2026-05-26"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 7180,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/literature-review-multidb/SKILL.md"
+  }
+}

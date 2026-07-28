@@ -2,9 +2,6 @@
   "name": "deep-work-optimization",
   "version": "1.0.0",
   "description": "Focus blocks, distraction management, and flow state triggers for cognitively demanding work",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "deep",
     "work",
@@ -15,19 +12,8 @@
     "management",
     "flow"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "extended",
-  "token_cost": 3013,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/deep-work-optimization/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

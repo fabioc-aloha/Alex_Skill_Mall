@@ -1,0 +1,18 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S.M",
+  "tier": "standard",
+  "token_cost": 3044,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "muscle": "md-to-gamma.cjs",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "muscle": ".github/muscles/local/md-to-gamma.cjs",
+    "skill": ".github/skills/local/md-to-gamma/SKILL.md"
+  }
+}

@@ -2,9 +2,6 @@
   "name": "api-design",
   "version": "1.0.0",
   "description": "Design APIs that developers love to use.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "api",
     "design",
@@ -12,19 +9,8 @@
     "developers",
     "love"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "architecture-patterns",
-  "tier": "standard",
-  "token_cost": 1515,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/api-design/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

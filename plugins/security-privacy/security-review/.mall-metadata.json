@@ -1,0 +1,24 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 2535,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/security-review/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "incident-response",
+      "target": "../incident-response/SKILL.md",
+      "reason": "missing-source"
+    }
+  ]
+}

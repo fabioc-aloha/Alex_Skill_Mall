@@ -2,9 +2,6 @@
   "name": "sales-enablement",
   "version": "1.0.0",
   "description": "Sales methodology, pipeline management, negotiation frameworks, and customer engagement patterns.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "sales",
     "enablement",
@@ -15,19 +12,8 @@
     "frameworks",
     "customer"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "domain-expertise",
-  "tier": "extended",
-  "token_cost": 2048,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/sales-enablement/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

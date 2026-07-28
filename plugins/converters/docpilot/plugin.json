@@ -1,21 +1,7 @@
 {
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "engines": [
-    "copilot",
-    "claude-code"
-  ],
-  "tier": "standard",
-  "requires_edition": ">=1.0.0",
-  "install_paths": {
-    "skill": ".github/skills/local/docpilot/SKILL.md"
-  },
-  "description": "Convert Markdown specs to styled Word (.docx) or Microsoft Loop. Pure Python, no Pandoc. Syntax-highlighted code blocks, formatted tables, blue headers.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
+  "name": "docpilot",
   "version": "1.0.1",
+  "description": "Convert Markdown specs to styled Word (.docx) or Microsoft Loop. Pure Python, no Pandoc. Syntax-highlighted code blocks, formatted tables, blue headers.",
   "keywords": [
     "word",
     "docx",
@@ -24,18 +10,8 @@
     "markdown",
     "no-pandoc"
   ],
-  "requires_plugins": [],
-  "shape": "S...",
-  "name": "docpilot",
-  "source_store": "agency-microsoft/playground",
-  "token_cost": 1522.0,
   "category": "converters",
-  "sync_mode": "curated-subset",
-  "upstream_snapshot": {
-    "store": "agency-microsoft/playground",
-    "skills": 2,
-    "agents": 2,
-    "has_mcp": false,
-    "checked_at": "2026-05-13"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

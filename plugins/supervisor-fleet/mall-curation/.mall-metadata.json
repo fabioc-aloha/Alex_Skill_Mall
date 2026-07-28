@@ -1,0 +1,48 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 1157,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/mall-curation/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "store-evaluation",
+      "target": "../store-evaluation/SKILL.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "staleness-discipline",
+      "target": "../staleness-discipline/SKILL.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "store-evaluation",
+      "target": "../store-evaluation/SKILL.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "staleness-discipline",
+      "target": "../staleness-discipline/SKILL.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "mall-maintenance-rules",
+      "target": "../../instructions/mall-maintenance-rules.instructions.md",
+      "reason": "missing-source"
+    }
+  ]
+}

@@ -2,9 +2,6 @@
   "name": "bootstrap-learning",
   "version": "1.0.0",
   "description": "Domain-agnostic knowledge acquisition -- from zero to structured expertise through conversational learning",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "bootstrap",
     "learning",
@@ -15,19 +12,8 @@
     "structured",
     "expertise"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "reasoning-metacognition",
-  "tier": "core",
-  "token_cost": 1374,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/bootstrap-learning/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

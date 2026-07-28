@@ -1,0 +1,26 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot",
+    "claude-code"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/marp-deck/SKILL.md"
+  },
+  "requires_plugins": [],
+  "shape": "S...",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 4610,
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 4,
+    "agents": 0,
+    "has_mcp": false,
+    "checked_at": "2026-05-13"
+  }
+}

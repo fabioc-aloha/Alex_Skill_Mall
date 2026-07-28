@@ -2,9 +2,6 @@
   "name": "rag-architecture",
   "version": "1.0.0",
   "description": "Build retrieval-augmented generation systems that ground LLMs in your data.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "rag",
     "architecture",
@@ -15,19 +12,8 @@
     "ground",
     "llms"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "ai-agents",
-  "tier": "standard",
-  "token_cost": 3579,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/rag-architecture/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

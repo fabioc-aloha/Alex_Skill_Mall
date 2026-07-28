@@ -2,27 +2,13 @@
   "name": "guide-cert-rehoming",
   "version": "1.0.0",
   "description": "End-to-end process of rehoming (moving or reissuing) certificates so every production Entra app credential lives in the same tenant and cloud as the app itself.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "guide",
     "cert",
     "rehoming"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "security-privacy",
-  "tier": "standard",
-  "token_cost": 3548,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/guide-cert-rehoming/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

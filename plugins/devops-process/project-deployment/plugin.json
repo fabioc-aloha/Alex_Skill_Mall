@@ -2,9 +2,6 @@
   "name": "project-deployment",
   "version": "1.0.0",
   "description": "Universal deployment patterns for any project type.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "project",
     "deployment",
@@ -12,19 +9,8 @@
     "patterns",
     "type"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 1642,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/project-deployment/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

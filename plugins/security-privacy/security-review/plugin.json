@@ -2,9 +2,6 @@
   "name": "security-review",
   "version": "1.0.0",
   "description": "Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "security",
     "review",
@@ -15,19 +12,8 @@
     "gaps",
     "owasp"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "security-privacy",
-  "tier": "standard",
-  "token_cost": 2535,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/security-review/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

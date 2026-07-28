@@ -2,9 +2,6 @@
   "name": "config-transcription-verification",
   "version": "1.0.0",
   "description": "When extracting hardcoded data to JSON, field values silently drift:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "config",
     "transcription",
@@ -15,19 +12,8 @@
     "json",
     "field"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 824,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/config-transcription-verification/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

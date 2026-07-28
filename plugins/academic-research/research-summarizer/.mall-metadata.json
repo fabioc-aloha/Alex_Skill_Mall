@@ -1,0 +1,21 @@
+{
+  "source": {
+    "store": "alirezarezvani-claude-skills",
+    "path": "alirezarezvani-claude-skills/product-team/research-summarizer/skills/research-summarizer",
+    "imported": "2026-05-26"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 2425,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/research-summarizer/SKILL.md"
+  }
+}

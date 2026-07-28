@@ -1,0 +1,32 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": "IS..",
+  "tier": "standard",
+  "token_cost": 20400,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "bundle": true,
+  "components": [
+    "data-analytics/storytelling-requirements",
+    "data-analytics/datasource-connectors",
+    "data-analytics/data-preparation",
+    "data-analytics/visual-vocabulary",
+    "data-analytics/delivery-ascii-dashboard",
+    "data-analytics/delivery-html-dashboard",
+    "media-graphics/delivery-svg-markdown"
+  ],
+  "artifacts": {
+    "skill": "SKILL.md",
+    "agent": "visual-storytelling.agent.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/visual-storytelling/SKILL.md",
+    "agent": ".github/agents/visual-storytelling.agent.md"
+  },
+  "migration": {
+    "strategy": "vendor-components",
+    "reason": "Copilot CLI has no plugin dependency field; the bundle must be self-contained."
+  }
+}

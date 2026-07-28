@@ -2,9 +2,6 @@
   "name": "md-to-pdf",
   "version": "1.0.0",
   "description": "Convert Markdown to PDF via Pandoc with two rendering engines.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "pdf",
     "convert",
@@ -13,21 +10,8 @@
     "rendering",
     "engines"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S.M",
   "category": "converters",
-  "tier": "standard",
-  "token_cost": 4012,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "muscle": "md-to-pdf.cjs",
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "muscle": ".github/muscles/local/md-to-pdf.cjs",
-    "skill": ".github/skills/local/md-to-pdf/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

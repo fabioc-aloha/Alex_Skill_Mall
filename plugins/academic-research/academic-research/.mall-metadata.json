@@ -1,0 +1,42 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 2347,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/academic-research/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "literature-review",
+      "target": "../literature-review/SKILL.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "citation-management",
+      "target": "../citation-management/SKILL.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "md-to-word",
+      "target": "../md-to-word/SKILL.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "dissertation-defense",
+      "target": "../dissertation-defense/SKILL.md",
+      "reason": "missing-source"
+    }
+  ]
+}

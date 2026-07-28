@@ -1,0 +1,32 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 4504,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/hosted-agents/SKILL.md"
+  },
+  "migration": {
+    "frontmatter_recovery": {
+      "source": "plugin.json",
+      "skills": [
+        "hosted-agents"
+      ]
+    }
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "Infrastructure Patterns",
+      "target": "./references/infrastructure-patterns.md",
+      "reason": "missing-source"
+    }
+  ]
+}

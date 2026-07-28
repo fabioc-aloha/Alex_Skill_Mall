@@ -2,9 +2,6 @@
   "name": "azure-openai-patterns",
   "version": "1.0.0",
   "description": "Azure OpenAI API patterns for rate limiting, function calling, error handling, and token optimization",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "azure",
     "openai",
@@ -15,19 +12,8 @@
     "calling",
     "error"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 2654,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/azure-openai-patterns/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

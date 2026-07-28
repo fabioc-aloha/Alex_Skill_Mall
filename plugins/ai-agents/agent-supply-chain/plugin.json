@@ -2,27 +2,13 @@
   "name": "agent-supply-chain",
   "version": "1.0.0",
   "description": "Generate and verify integrity manifests for AI agent plugins and tools -- detect tampering, enforce version pinning, and establish supply chain provenance (the SLSA/Sigstore gap for agent ecosystems).",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "agent",
     "supply",
     "chain"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "ai-agents",
-  "tier": "standard",
-  "token_cost": 2701,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/agent-supply-chain/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

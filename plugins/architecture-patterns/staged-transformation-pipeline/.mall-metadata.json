@@ -1,0 +1,24 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 873,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/staged-transformation-pipeline/SKILL.md"
+  },
+  "migration": {
+    "frontmatter_recovery": {
+      "source": "plugin.json",
+      "skills": [
+        "staged-transformation-pipeline"
+      ]
+    }
+  }
+}

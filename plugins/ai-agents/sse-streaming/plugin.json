@@ -2,9 +2,6 @@
   "name": "sse-streaming",
   "version": "1.0.0",
   "description": "POST-based Server-Sent Events streaming for Azure Functions -- HTTP streaming, chunked response parsing, reconnection",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "sse",
     "streaming",
@@ -15,19 +12,8 @@
     "functions",
     "http"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "ai-agents",
-  "tier": "standard",
-  "token_cost": 2009,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/sse-streaming/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

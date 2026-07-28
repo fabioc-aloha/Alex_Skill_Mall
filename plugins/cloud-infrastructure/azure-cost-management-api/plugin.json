@@ -2,9 +2,6 @@
   "name": "azure-cost-management-api",
   "version": "1.0.0",
   "description": "In PowerShell, inline JSON for Cost Management API causes \"Unsupported Media Type\" errors:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "azure",
     "cost",
@@ -15,19 +12,8 @@
     "json",
     "causes"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 746,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/azure-cost-management-api/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

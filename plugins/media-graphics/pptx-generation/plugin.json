@@ -2,9 +2,6 @@
   "name": "pptx-generation",
   "version": "1.0.0",
   "description": "Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Markdown conversion",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "pptx",
     "generation",
@@ -15,19 +12,8 @@
     "data-driven",
     "slides"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "media-graphics",
-  "tier": "extended",
-  "token_cost": 1230,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/pptx-generation/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

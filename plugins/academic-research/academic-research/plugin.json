@@ -2,9 +2,6 @@
   "name": "academic-research",
   "version": "1.0.0",
   "description": "Research project scaffolding, thesis/dissertation writing, literature reviews, publication workflows, and the AI assistant-assisted academic workflows",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "academic",
     "research",
@@ -15,19 +12,8 @@
     "literature",
     "reviews"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "academic-research",
-  "tier": "extended",
-  "token_cost": 2347,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/academic-research/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

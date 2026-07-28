@@ -2,9 +2,6 @@
   "name": "documentation-quality-assurance",
   "version": "1.0.0",
   "description": "Systematic documentation audit, drift detection, preflight validation, and multi-pass quality pipelines",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "documentation",
     "quality",
@@ -15,19 +12,8 @@
     "detection",
     "preflight"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "documentation",
-  "tier": "standard",
-  "token_cost": 3800,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/documentation-quality-assurance/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

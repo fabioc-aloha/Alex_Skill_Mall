@@ -1,0 +1,33 @@
+{
+  "name": "context-architect",
+  "version": "1.0.0",
+  "description": "Plans and executes multi-file changes by mapping context, tracing dependencies, identifying patterns, and sequencing modifications before touching code.",
+  "author": {
+    "name": "ACT Plugin Mall",
+    "source": "awesome-copilot/agents/context-architect.agent.md"
+  },
+  "keywords": [
+    "architecture",
+    "refactoring",
+    "multi-file",
+    "dependencies",
+    "context-mapping",
+    "planning",
+    "ripple-effects"
+  ],
+  "engines": [
+    "copilot"
+  ],
+  "shape": "..A.",
+  "category": "architecture-patterns",
+  "tier": "standard",
+  "token_cost": 1200,
+  "requires_edition": ">=2.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "agent": "AGENT.md"
+  },
+  "install_paths": {
+    "agent": ".github/agents/context-architect.agent.md"
+  }
+}

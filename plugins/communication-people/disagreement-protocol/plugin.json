@@ -2,9 +2,6 @@
   "name": "disagreement-protocol",
   "version": "1.0.0",
   "description": "Canonical phrasing for respectful disagreement without capitulation -- structural resistance to sycophancy",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "disagreement",
     "protocol",
@@ -15,19 +12,8 @@
     "capitulation",
     "structural"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "communication-people",
-  "tier": "standard",
-  "token_cost": 1254,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/disagreement-protocol/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

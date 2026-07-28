@@ -2,9 +2,6 @@
   "name": "scope-management",
   "version": "1.0.0",
   "description": "Recognize scope creep, suggest MVP cuts, and manage project boundaries",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "scope",
     "management",
@@ -15,19 +12,8 @@
     "manage",
     "project"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 2033,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/scope-management/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

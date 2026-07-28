@@ -1,0 +1,25 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".SP.",
+  "tier": "standard",
+  "token_cost": 9041,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "prompt": "review.prompt.md",
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "prompt": ".github/prompts/local/review.prompt.md",
+    "skill": ".github/skills/local/prompt-2-data/SKILL.md"
+  },
+  "relocation_link_rewrites": [
+    {
+      "file": "instructions/python-coding.instructions.md",
+      "from": "./general-coding.instructions.md",
+      "to": "general-coding.instructions.md"
+    }
+  ]
+}

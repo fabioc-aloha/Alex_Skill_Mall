@@ -1,0 +1,30 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 1575,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/music-generation/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "text-to-speech",
+      "target": "../text-to-speech/SKILL.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "video-generation",
+      "target": "../video-generation/SKILL.md",
+      "reason": "cross-plugin"
+    }
+  ]
+}

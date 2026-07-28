@@ -2,9 +2,6 @@
   "name": "release-ritual",
   "version": "1.0.0",
   "description": "Cut a release of Alex_ACT_Edition -- preflight, brain-qa, changelog, version bump, tag, push",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "release",
     "ritual",
@@ -15,19 +12,8 @@
     "version",
     "bump"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "supervisor-fleet",
-  "tier": "standard",
-  "token_cost": 1231,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/release-ritual/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

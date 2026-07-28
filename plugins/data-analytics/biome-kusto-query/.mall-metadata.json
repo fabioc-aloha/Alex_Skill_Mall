@@ -1,0 +1,36 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 2991,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/biome-kusto-query/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "access-prerequisites.md",
+      "target": "../../references/access-prerequisites.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "security-guardrails.md",
+      "target": "../../references/security-guardrails.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "access prerequisites",
+      "target": "../../references/access-prerequisites.md",
+      "reason": "missing-source"
+    }
+  ]
+}

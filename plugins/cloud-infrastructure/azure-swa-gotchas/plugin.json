@@ -2,9 +2,6 @@
   "name": "azure-swa-gotchas",
   "version": "1.0.0",
   "description": "Time saved: 2-4 hours per issue",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "azure",
     "swa",
@@ -14,19 +11,8 @@
     "hours",
     "issue"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 1669,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/azure-swa-gotchas/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

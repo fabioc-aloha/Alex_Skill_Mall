@@ -2,9 +2,6 @@
   "name": "privacy-responsible-ai",
   "version": "1.0.0",
   "description": "Privacy by design, data protection, and responsible AI principles.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "privacy",
     "responsible",
@@ -13,19 +10,8 @@
     "protection",
     "principles"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "security-privacy",
-  "tier": "standard",
-  "token_cost": 2436,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/privacy-responsible-ai/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }
