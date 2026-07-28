@@ -57,12 +57,20 @@ The Copilot CLI plugins integrate with **GitHub Copilot Chat** in VS Code once i
 3. **Reload VS Code** or run *Developer: Reload Window* so Copilot Chat re-scans the installed plugins.
 4. In Chat, invoke a plugin's commands with `/`, agents with `@`, or skills by describing the task the skill's frontmatter is scoped to.
 
-### Per-repo auto-install
+---
 
-To make a project always pull specific plugins on first Chat session, commit a `.github/copilot/settings.json`:
+## Per-repo auto-install
+
+To make a project auto-install specific plugins for every collaborator, commit a `.github/copilot/settings.json` that names the marketplace **and** the plugins:
 
 ```jsonc
 {
+  "extraKnownMarketplaces": {
+    "alex-mall": {
+      "type": "github",
+      "repository": "fabioc-aloha/Alex_Skill_Mall"
+    }
+  },
   "enabledPlugins": {
     "flint-chart-plugin@alex-mall": true,
     "document-banner-pastel@alex-mall": true
@@ -70,7 +78,20 @@ To make a project always pull specific plugins on first Chat session, commit a `
 }
 ```
 
-On first session in that repo, Copilot Chat auto-registers `alex-mall` and installs the enabled plugins. This works for cloud-run sessions too.
+- **`extraKnownMarketplaces`** registers the marketplace so the CLI knows where to fetch from. Without it, plugin specs referencing `@alex-mall` will not resolve unless the collaborator has already registered `alex-mall` at the user level.
+- **`enabledPlugins`** is the declarative auto-install list. Keys are plugin specs (`<name>@<marketplace>`); values are `true` (enabled) or `false` (disabled).
+- A plugin enabled only through the repository file is **scoped to that repository** — it auto-installs and activates there, but stays inactive in unrelated projects.
+- Both keys are read by the [GitHub Copilot CLI](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-config-dir-reference) **and** by **Copilot cloud agent**, so the same file drives both local sessions and cloud-run sessions.
+
+### Settings tiers (precedence order)
+
+| File | Scope | Commit? |
+| --- | --- | --- |
+| `~/.copilot/settings.json` | User (your defaults for every repo) | No — personal machine |
+| `.github/copilot/settings.json` | Repository (shared with collaborators) | **Yes** |
+| `.github/copilot/settings.local.json` | Local overrides for this checkout | No — add to `.gitignore` |
+
+The three files are merged in that order; later wins. For `enabledPlugins` and `extraKnownMarketplaces`, repository entries override user entries per key.
 
 ---
 
