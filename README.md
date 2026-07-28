@@ -2,7 +2,84 @@
 
 # Alex ACT Plugin Mall
 
-Search index + trust scorer for **3912 plugins** across **49 stores**. Heirs install directly from upstream at user-chosen versions.
+**365 curated plugins**, installable as a GitHub Copilot CLI marketplace. Plus a **trust-scored discovery index** across **3912 plugins** in **49 stores** so you can find and install directly from upstream at a version you pick.
+
+- Installation is **opt-in** and user-invoked. Publication does not mutate your projects.
+- Current release: **[v3.0.0](https://github.com/fabioc-aloha/Alex_Skill_Mall/releases/tag/v3.0.0)**. Rollback anchor: annotated tag `v2.0.0`.
+
+---
+
+## Quick install (GitHub Copilot CLI)
+
+**Prerequisite:** the [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/set-up/install-copilot-cli). Confirm with `copilot --version`.
+
+### 1. Register the marketplace (one-time)
+
+```bash
+copilot plugin marketplace add fabioc-aloha/Alex_Skill_Mall
+```
+
+This registers the `alex-mall` marketplace with the CLI. It reads `.github/plugin/marketplace.json` from this repo; no credentials required.
+
+### 2. Browse and install a plugin
+
+```bash
+# Browse everything published by alex-mall
+copilot plugin browse --marketplace alex-mall
+
+# Install a plugin by name
+copilot plugin install <plugin-name> --marketplace alex-mall
+
+# Example: install the visualization plugin
+copilot plugin install flint-chart-plugin --marketplace alex-mall
+```
+
+Plugins install into `~/.copilot/installed-plugins/alex-mall/<plugin-name>/`.
+
+### 3. Verify and manage
+
+```bash
+copilot plugin list                    # what is installed
+copilot plugin uninstall <name>        # remove a plugin
+copilot plugin marketplace list        # registered marketplaces
+copilot plugin marketplace remove alex-mall  # unregister the marketplace
+```
+
+---
+
+## Use in VS Code
+
+The Copilot CLI plugins integrate with **GitHub Copilot Chat** in VS Code once installed.
+
+1. **Install the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) and [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) extensions** in VS Code (1.117 or later).
+2. **Install plugins via the Copilot CLI** using the steps above. Copilot Chat picks up any plugin components (agents, skills, commands, MCP servers) that ship with it.
+3. **Reload VS Code** or run *Developer: Reload Window* so Copilot Chat re-scans the installed plugins.
+4. In Chat, invoke a plugin's commands with `/`, agents with `@`, or skills by describing the task the skill's frontmatter is scoped to.
+
+### Per-repo auto-install
+
+To make a project always pull specific plugins on first Chat session, commit a `.github/copilot/settings.json`:
+
+```jsonc
+{
+  "enabledPlugins": {
+    "flint-chart-plugin@alex-mall": true,
+    "document-banner-pastel@alex-mall": true
+  }
+}
+```
+
+On first session in that repo, Copilot Chat auto-registers `alex-mall` and installs the enabled plugins. This works for cloud-run sessions too.
+
+---
+
+## Browse the catalog
+
+- [Full catalog index](catalog/INDEX.md) — every plugin, sortable
+- [By category](catalog/categories/) — 21 categories
+- [By store](catalog/stores/) — per-source drilldown
+- [Trust audit](scoring/TRUST-AUDIT.md) — score distribution and top plugins
+- [Source registry](sources/SOURCES.md) — the 49 upstream stores the discovery catalog aggregates
 
 ## Top 10 stores by trust
 
@@ -29,22 +106,6 @@ Search index + trust scorer for **3912 plugins** across **49 stores**. Heirs ins
 | 60-79 | 0 | 0.0% |
 | 80-100 | 365 | 9.3% |
 
-## Browse
-
-- [Full catalog index](catalog/INDEX.md)
-- [By category](catalog/categories/)
-- [By store](catalog/stores/)
-- [Trust audit](scoring/TRUST-AUDIT.md)
-- [Source registry](sources/SOURCES.md)
-
-## Heir commands
-
-- `/mall-search <query>` — search the full catalog
-- `/mall-show <name>` — full metadata + signals for one plugin
-- `/mall-install <name>[@<version>]` — pin a version, install from upstream
-- `/mall-upgrade <name>` — compare installed SHA vs current default
-- `/mall-list` — list locally installed plugins with pinned versions
-
 ## How trust scoring works
 
 Every plugin gets a 0–100 score from six published signals:
@@ -58,7 +119,29 @@ Every plugin gets a 0–100 score from six published signals:
 | Frontmatter completeness | 0–10 | description + version + lastReviewed presence |
 | README presence | 0–5 | README excerpt ≥ 50 chars |
 
-First-party plugins (🏆) rank highest because they earn the +50 provenance bonus. Heirs can override with `--from-store <name>` for any third-party alternative.
+First-party plugins (🏆) rank highest because they earn the +50 provenance bonus. Third-party plugins remain installable — you pick.
+
+## Compatibility scope
+
+- **[Alex_ACT_Edition](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0** heirs install via the guided Mall 3 nested path with Mall 2 root-layout fallback and exact `.install.json` `component_paths`.
+- **Edition 3.x and 4.1** heirs are explicitly outside the Mall 3 compatibility claim. Upgrade to Edition v4.2.0 first.
+- **Standalone Copilot CLI / Copilot Chat users** (no Edition brain) use the plugin marketplace directly per the steps above.
+
+Governance references: [ADR-014](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/docs/adrs/ADR-014-mall-in-place-cli-native-3.0.0.md) (in-place migration), [ADR-015](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/docs/adrs/ADR-015-decouple-mall-ga-from-heir-rollout.md) (publication vs rollout).
+
+## For Edition heirs (advanced)
+
+If you use the Alex ACT Edition brain via Copilot Chat, these Edition prompts wrap the CLI for guided workflows:
+
+| Prompt | Purpose |
+| --- | --- |
+| `/mall-search <query>` | Search the full trust-scored catalog |
+| `/mall-show <name>` | Full metadata + signals for one plugin |
+| `/mall-install <name>[@<version>]` | Guided install with `.install.json` component_paths |
+| `/mall-refresh <name>` | Compare installed version against upstream default |
+| `/mall-contribute` | Propose a local skill for adoption into the Mall |
+
+The prompts live in Edition's `.github/prompts/` and route through `.github/instructions/mall-installation.instructions.md`.
 
 ---
 *Generated by `scripts/render-catalog.cjs` at 2026-07-27T13:35:22.283Z. Source of truth: `catalog/*.json`. Never hand-edit this README.*
