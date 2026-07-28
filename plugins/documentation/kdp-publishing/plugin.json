@@ -2,9 +2,6 @@
   "name": "kdp-publishing",
   "version": "1.0.0",
   "description": "Amazon KDP self-publishing specs -- cover requirements, interior formatting, spine formulas, ink options, and pricing tiers",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "kdp",
     "publishing",
@@ -15,19 +12,8 @@
     "requirements",
     "interior"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "documentation",
-  "tier": "extended",
-  "token_cost": 2658,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/kdp-publishing/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

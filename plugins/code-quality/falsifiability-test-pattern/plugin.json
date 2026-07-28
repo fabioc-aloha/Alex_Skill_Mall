@@ -2,9 +2,6 @@
   "name": "falsifiability-test-pattern",
   "version": "1.0.0",
   "description": "Plans without measurable success criteria drift into wishful thinking:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "falsifiability",
     "test",
@@ -15,19 +12,8 @@
     "success",
     "criteria"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "code-quality",
-  "tier": "standard",
-  "token_cost": 747,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/falsifiability-test-pattern/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

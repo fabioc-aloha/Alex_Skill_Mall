@@ -2,9 +2,6 @@
   "name": "status-reporting",
   "version": "1.0.0",
   "description": "Create stakeholder-friendly project status updates and progress reports",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "status",
     "reporting",
@@ -15,19 +12,8 @@
     "progress",
     "reports"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "communication-people",
-  "tier": "standard",
-  "token_cost": 1940,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/status-reporting/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

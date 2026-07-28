@@ -2,26 +2,12 @@
   "name": "agent-governance",
   "version": "1.0.0",
   "description": "Patterns for adding safety, trust, and policy enforcement to AI agent systems -- control which tools agents can call, what content they process, and maintain accountability through audit trails.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "agent",
     "governance"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "ai-agents",
-  "tier": "standard",
-  "token_cost": 4641,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/agent-governance/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

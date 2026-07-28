@@ -2,9 +2,6 @@
   "name": "fleet-announcement",
   "version": "1.0.0",
   "description": "Author fleet announcements for AI-Memory that heirs execute automatically on greeting check-in",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "fleet",
     "announcement",
@@ -15,19 +12,8 @@
     "execute",
     "automatically"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "supervisor-fleet",
-  "tier": "standard",
-  "token_cost": 1505,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/fleet-announcement/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

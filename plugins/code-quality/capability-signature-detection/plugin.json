@@ -2,9 +2,6 @@
   "name": "capability-signature-detection",
   "version": "1.0.0",
   "description": "Code-scanning regex that looks for literal strings misses real usage:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "capability",
     "signature",
@@ -15,19 +12,8 @@
     "literal",
     "strings"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "code-quality",
-  "tier": "standard",
-  "token_cost": 832,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/capability-signature-detection/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

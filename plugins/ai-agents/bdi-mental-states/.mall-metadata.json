@@ -1,0 +1,50 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 4525,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/bdi-mental-states/SKILL.md"
+  },
+  "migration": {
+    "frontmatter_recovery": {
+      "source": "plugin.json",
+      "skills": [
+        "bdi-mental-states"
+      ]
+    }
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "BDI Ontology Core",
+      "target": "./references/bdi-ontology-core.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "RDF Examples",
+      "target": "./references/rdf-examples.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "SPARQL Competency Queries",
+      "target": "./references/sparql-competency.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "Framework Integration",
+      "target": "./references/framework-integration.md",
+      "reason": "missing-source"
+    }
+  ]
+}

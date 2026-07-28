@@ -2,9 +2,6 @@
   "name": "defaults-plus-overrides",
   "version": "1.0.0",
   "description": "Provide sensible defaults with user-overridable configuration -- reduce boilerplate without limiting flexibility",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "defaults",
     "plus",
@@ -15,19 +12,8 @@
     "configuration",
     "reduce"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "architecture-patterns",
-  "tier": "standard",
-  "token_cost": 1485,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/defaults-plus-overrides/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

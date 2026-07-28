@@ -2,9 +2,6 @@
   "name": "vitepress-clean-urls",
   "version": "1.0.0",
   "description": "With `cleanUrls: true`, nav links must NOT have `.html` extensions:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "vitepress",
     "clean",
@@ -15,19 +12,8 @@
     "must",
     "html"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "documentation",
-  "tier": "extended",
-  "token_cost": 675,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/vitepress-clean-urls/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

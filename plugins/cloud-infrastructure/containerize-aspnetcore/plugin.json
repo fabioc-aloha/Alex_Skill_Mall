@@ -2,9 +2,6 @@
   "name": "containerize-aspnetcore",
   "version": "1.0.0",
   "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "containerize",
     "aspnetcore",
@@ -15,19 +12,8 @@
     "dockerfile",
     "files"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 4225,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/containerize-aspnetcore/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

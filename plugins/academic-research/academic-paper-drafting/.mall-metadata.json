@@ -1,0 +1,42 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 5019,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/academic-paper-drafting/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "academic-research",
+      "target": "../academic-research/SKILL.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "knowledge-synthesis",
+      "target": "../knowledge-synthesis/SKILL.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "dissertation-defense",
+      "target": "../dissertation-defense/SKILL.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "grant-writing",
+      "target": "../grant-writing/SKILL.md",
+      "reason": "missing-source"
+    }
+  ]
+}

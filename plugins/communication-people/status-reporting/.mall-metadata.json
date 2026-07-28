@@ -1,0 +1,42 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 1940,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/status-reporting/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "proactive-assistance",
+      "target": "..\\proactive-assistance/SKILL.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "scope-management",
+      "target": "..\\scope-management/SKILL.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "project-management",
+      "target": "..\\project-management/SKILL.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "executive-storytelling",
+      "target": "..\\executive-storytelling/SKILL.md",
+      "reason": "missing-source"
+    }
+  ]
+}

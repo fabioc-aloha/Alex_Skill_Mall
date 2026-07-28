@@ -2,9 +2,6 @@
   "name": "awareness",
   "version": "1.0.0",
   "description": "Proactive detection, self-correction, and epistemic vigilance",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "awareness",
     "proactive",
@@ -13,19 +10,8 @@
     "epistemic",
     "vigilance"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "reasoning-metacognition",
-  "tier": "core",
-  "token_cost": 3096,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/awareness/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

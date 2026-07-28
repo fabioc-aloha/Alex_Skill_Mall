@@ -2,9 +2,6 @@
   "name": "msal-authentication",
   "version": "1.0.0",
   "description": "Microsoft Authentication Library (MSAL) patterns for React/SPA applications with Entra ID",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "msal",
     "authentication",
@@ -15,19 +12,8 @@
     "applications",
     "entra"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 1979,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/msal-authentication/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

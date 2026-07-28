@@ -2,9 +2,6 @@
   "name": "azure-subscription-context",
   "version": "1.0.0",
   "description": "Time Saved: 30 minutes - 1 hour debugging",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "azure",
     "subscription",
@@ -15,19 +12,8 @@
     "hour",
     "debugging"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 1164,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/azure-subscription-context/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

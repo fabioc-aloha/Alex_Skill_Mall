@@ -2,9 +2,6 @@
   "name": "data-analysis",
   "version": "1.0.0",
   "description": "Exploratory data analysis patterns -- profiling, distributions, correlations, segmentation, anomaly detection, and translating statistics into narrative insights",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "data",
     "analysis",
@@ -15,19 +12,8 @@
     "correlations",
     "segmentation"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "data-analytics",
-  "tier": "standard",
-  "token_cost": 3024,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/data-analysis/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

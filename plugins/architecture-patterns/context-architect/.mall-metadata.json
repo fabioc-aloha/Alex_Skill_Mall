@@ -1,0 +1,19 @@
+{
+  "author_extensions": {
+    "source": "awesome-copilot/agents/context-architect.agent.md"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "shape": "..A.",
+  "tier": "standard",
+  "token_cost": 1200,
+  "requires_edition": ">=2.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "agent": "AGENT.md"
+  },
+  "install_paths": {
+    "agent": ".github/agents/context-architect.agent.md"
+  }
+}

@@ -2,9 +2,6 @@
   "name": "github-wiki-flat",
   "version": "1.0.0",
   "description": "GitHub Wiki has a flat namespace -- no real folders, sidebar ordering tricks, link gotchas",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "github",
     "wiki",
@@ -15,19 +12,8 @@
     "sidebar",
     "ordering"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 1067,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/github-wiki-flat/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

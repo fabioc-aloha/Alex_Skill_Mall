@@ -2,9 +2,6 @@
   "name": "research-first-development",
   "version": "1.0.0",
   "description": "Build knowledge bases that build software -- research before code, teach before execute",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "research",
     "first",
@@ -15,19 +12,8 @@
     "software",
     "before"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "academic-research",
-  "tier": "extended",
-  "token_cost": 4982,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/research-first-development/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

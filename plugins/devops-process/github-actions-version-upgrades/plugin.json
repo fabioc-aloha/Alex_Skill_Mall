@@ -2,9 +2,6 @@
   "name": "github-actions-version-upgrades",
   "version": "1.0.0",
   "description": "Older action versions trigger deprecation warnings and will eventually break:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "github",
     "actions",
@@ -15,19 +12,8 @@
     "versions",
     "trigger"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 683,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/github-actions-version-upgrades/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

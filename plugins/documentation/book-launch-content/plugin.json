@@ -2,9 +2,6 @@
   "name": "book-launch-content",
   "version": "1.0.0",
   "description": "Generate launch-companion content for books -- blog posts, author notes, and dogfooding angles that demonstrate the book's thesis through its own production. Use when a manuscript is approaching publication submission (KDP, agent query, prelaunch).",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "book",
     "launch",
@@ -15,19 +12,8 @@
     "blog",
     "posts"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "documentation",
-  "tier": "standard",
-  "token_cost": 1759,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/book-launch-content/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

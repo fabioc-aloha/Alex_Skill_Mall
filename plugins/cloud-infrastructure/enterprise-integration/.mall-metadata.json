@@ -1,0 +1,42 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 1807,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/enterprise-integration/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "EXTERNAL-API-REGISTRY.md",
+      "target": "../../EXTERNAL-API-REGISTRY.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "VS Code Extension Patterns",
+      "target": "..\\vscode-extension-patterns/SKILL.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "API Design",
+      "target": "..\\api-design/SKILL.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "Security Review",
+      "target": "..\\security-review/SKILL.md",
+      "reason": "missing-source"
+    }
+  ]
+}

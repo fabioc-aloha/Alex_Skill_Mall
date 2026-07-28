@@ -2,9 +2,6 @@
   "name": "power-bi-performance-troubleshooting",
   "version": "1.0.0",
   "description": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "power",
     "performance",
@@ -15,19 +12,8 @@
     "diagnosing",
     "resolving"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "data-analytics",
-  "tier": "standard",
-  "token_cost": 2861,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/power-bi-performance-troubleshooting/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

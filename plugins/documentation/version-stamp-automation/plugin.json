@@ -2,9 +2,6 @@
   "name": "version-stamp-automation",
   "version": "1.0.0",
   "description": "Version numbers in 5+ files WILL drift with manual edits:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "version",
     "stamp",
@@ -15,19 +12,8 @@
     "manual",
     "edits"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "documentation",
-  "tier": "standard",
-  "token_cost": 734,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/version-stamp-automation/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

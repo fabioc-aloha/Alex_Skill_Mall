@@ -2,9 +2,6 @@
   "name": "path-traversal-prevention",
   "version": "1.0.0",
   "description": "When copying files or serving content, user-controlled paths can escape the intended directory:",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "path",
     "traversal",
@@ -15,19 +12,8 @@
     "content",
     "user-controlled"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "security-privacy",
-  "tier": "standard",
-  "token_cost": 902,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/path-traversal-prevention/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "author_extensions": {
+    "source": "awesome-copilot/agents/debug.agent.md + awesome-claude-code-toolkit/plugins/bug-detective/"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "shape": "..A.",
+  "tier": "standard",
+  "token_cost": 1900,
+  "requires_edition": ">=2.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "agent": "AGENT.md"
+  },
+  "install_paths": {
+    "agent": ".github/agents/systematic-debugger.agent.md"
+  }
+}

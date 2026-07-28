@@ -2,9 +2,6 @@
   "name": "test-quality-analysis",
   "version": "1.0.0",
   "description": "Analyze test code quality to detect coverage-only tests, test smells, and low-value assertions. Use when asked to \"analyze test quality\", \"find coverage-only tests\", \"audit our tests\", \"are these tests valuable\", \"find test smells\", or \"which tests should we delete\". Scores tests 1-5 on real value and produces prioritized improvement reports.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "test",
     "quality",
@@ -15,19 +12,8 @@
     "coverage-only",
     "tests"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "code-quality",
-  "tier": "standard",
-  "token_cost": 2839,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/test-quality-analysis/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

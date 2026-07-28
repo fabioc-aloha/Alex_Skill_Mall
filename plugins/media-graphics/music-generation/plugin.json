@@ -2,9 +2,6 @@
   "name": "music-generation",
   "version": "1.0.0",
   "description": "AI music generation via Replicate -- 5 models for background tracks, lyrics, and sound design",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "music",
     "generation",
@@ -15,19 +12,8 @@
     "lyrics",
     "sound"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "media-graphics",
-  "tier": "extended",
-  "token_cost": 1575,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/music-generation/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

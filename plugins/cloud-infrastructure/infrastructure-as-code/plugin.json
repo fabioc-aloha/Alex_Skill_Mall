@@ -2,9 +2,6 @@
   "name": "infrastructure-as-code",
   "version": "1.0.0",
   "description": "Domain: DevOps & Cloud Engineering",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "infrastructure",
     "code",
@@ -13,19 +10,8 @@
     "cloud",
     "engineering"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 5781,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/infrastructure-as-code/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

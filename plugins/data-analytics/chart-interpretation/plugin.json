@@ -2,9 +2,6 @@
   "name": "chart-interpretation",
   "version": "1.0.0",
   "description": "Read any chart (image, HTML, screenshot) and extract insights, patterns, anomalies, bias, and narrative -- the reverse of visualization",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "chart",
     "interpretation",
@@ -15,19 +12,8 @@
     "extract",
     "insights"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "data-analytics",
-  "tier": "standard",
-  "token_cost": 3098,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/chart-interpretation/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

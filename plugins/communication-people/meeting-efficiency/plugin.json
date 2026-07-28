@@ -2,9 +2,6 @@
   "name": "meeting-efficiency",
   "version": "1.0.0",
   "description": "Agenda design, time boxing, decision capture, async alternatives, and productive facilitation",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "meeting",
     "efficiency",
@@ -15,19 +12,8 @@
     "decision",
     "capture"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "communication-people",
-  "tier": "standard",
-  "token_cost": 2711,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/meeting-efficiency/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

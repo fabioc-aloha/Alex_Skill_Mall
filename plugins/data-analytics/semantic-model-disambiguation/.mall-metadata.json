@@ -1,0 +1,89 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/semantic-model-disambiguation/SKILL.md"
+  },
+  "requires_plugins": [],
+  "shape": "S...",
+  "source_store": "agency-microsoft/playground",
+  "token_cost": 9407,
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "agency-microsoft/playground",
+    "skills": 2,
+    "agents": 0,
+    "has_mcp": true,
+    "checked_at": "2026-05-13"
+  },
+  "migration": {
+    "frontmatter_recovery": {
+      "source": "plugin.json",
+      "skills": [
+        "semantic-model-disambiguation"
+      ]
+    }
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "architecture-reference.md",
+      "target": "../semantic-overlap-detection/references/architecture-reference.md",
+      "reason": "cross-plugin"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "domain taxonomy",
+      "target": "./references/domain-taxonomy.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "domain taxonomy",
+      "target": "./references/domain-taxonomy.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "ambiguity classes",
+      "target": "./references/ambiguity-classes.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "Class E (Context-Resolvable Variants)",
+      "target": "./references/ambiguity-classes.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "5 structural ambiguity classes",
+      "target": "./references/ambiguity-classes.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "description templates",
+      "target": "./references/description-templates.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "architecture-reference.md",
+      "target": "./references/architecture-reference.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "architecture-reference.md",
+      "target": "./references/architecture-reference.md",
+      "reason": "missing-source"
+    }
+  ]
+}

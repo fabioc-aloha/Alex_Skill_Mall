@@ -2,9 +2,6 @@
   "name": "knowledge-synthesis",
   "version": "1.0.0",
   "description": "Cross-project pattern recognition -- abstract, generalize, connect, store at the highest true level",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "knowledge",
     "synthesis",
@@ -15,19 +12,8 @@
     "generalize",
     "connect"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "reasoning-metacognition",
-  "tier": "core",
-  "token_cost": 3206,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/knowledge-synthesis/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

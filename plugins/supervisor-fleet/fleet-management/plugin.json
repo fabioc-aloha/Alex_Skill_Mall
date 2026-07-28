@@ -2,26 +2,12 @@
   "name": "fleet-management",
   "version": "1.0.0",
   "description": "Keep heir projects synchronized with Master Alex brain updates -- audit drift, upgrade brains, verify deployments across the fleet.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "fleet",
     "management"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "supervisor-fleet",
-  "tier": "standard",
-  "token_cost": 1564,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/fleet-management/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

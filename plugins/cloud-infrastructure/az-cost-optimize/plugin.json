@@ -2,9 +2,6 @@
   "name": "az-cost-optimize",
   "version": "1.0.0",
   "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "cost",
     "optimize",
@@ -15,19 +12,8 @@
     "files",
     "andor"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 3466,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/az-cost-optimize/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

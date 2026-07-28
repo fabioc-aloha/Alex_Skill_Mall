@@ -1,0 +1,44 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 5096,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/agent-tool-design/SKILL.md"
+  },
+  "migration": {
+    "frontmatter_recovery": {
+      "source": "plugin.json",
+      "skills": [
+        "agent-tool-design"
+      ]
+    }
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "Architectural Reduction Case Study",
+      "target": "./references/architectural_reduction.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "Best Practices Reference",
+      "target": "./references/best_practices.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "Architectural Reduction Case Study",
+      "target": "./references/architectural_reduction.md",
+      "reason": "missing-source"
+    }
+  ]
+}

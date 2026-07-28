@@ -1,0 +1,30 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 1394,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/skill-review/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "brain-curation-rules",
+      "target": "../../instructions/brain-curation-rules.instructions.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "act-pass",
+      "target": "../../instructions/act-pass.instructions.md",
+      "reason": "missing-source"
+    }
+  ]
+}

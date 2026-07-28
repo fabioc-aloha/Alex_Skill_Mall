@@ -1,0 +1,21 @@
+{
+  "source": {
+    "store": "buildwithclaude",
+    "path": "plugins/all-skills/skills/file-organizer",
+    "imported": "2026-05-26"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 2945,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/file-organizer/SKILL.md"
+  }
+}

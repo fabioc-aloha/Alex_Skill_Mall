@@ -2,26 +2,12 @@
   "name": "agentic-eval",
   "version": "1.0.0",
   "description": "Patterns for agent self-improvement through iterative evaluation and refinement -- generate, evaluate, critique, refine loops that move beyond single-shot generation.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "agentic",
     "eval"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "ai-agents",
-  "tier": "standard",
-  "token_cost": 1519,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/agentic-eval/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

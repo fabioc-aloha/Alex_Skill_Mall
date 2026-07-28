@@ -2,9 +2,6 @@
   "name": "gamma-presentation",
   "version": "1.0.0",
   "description": "Author markdown files optimized for Gamma import -- card structure, layout hints, image directives, speaker notes, and chat-agent refinement workflow",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "gamma",
     "presentation",
@@ -15,19 +12,8 @@
     "import",
     "card"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "media-graphics",
-  "tier": "extended",
-  "token_cost": 3110,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/gamma-presentation/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

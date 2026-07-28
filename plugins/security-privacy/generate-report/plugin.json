@@ -2,26 +2,12 @@
   "name": "generate-report",
   "version": "1.0.0",
   "description": "Generate an interactive, self-contained HTML dashboard displaying SFI-TI3.2.2 tenant isolation violations for a service, org, or alias -- includes filtering, sorting, severity coding, TSG links, S360 deep links.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "generate",
     "report"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "security-privacy",
-  "tier": "standard",
-  "token_cost": 7525,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/generate-report/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

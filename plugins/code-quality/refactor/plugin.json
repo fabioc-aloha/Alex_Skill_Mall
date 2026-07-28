@@ -2,9 +2,6 @@
   "name": "refactor",
   "version": "1.0.0",
   "description": "Systematic code refactoring to improve maintainability without changing behavior. Use when asked to \"refactor this\", \"clean up this code\", \"improve code quality\", \"simplify this\", \"reduce complexity\", or \"eliminate code smells\". Always preserves existing behavior.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "refactor",
     "systematic",
@@ -15,19 +12,8 @@
     "without",
     "changing"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "code-quality",
-  "tier": "standard",
-  "token_cost": 2350,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/refactor/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

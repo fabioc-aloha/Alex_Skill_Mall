@@ -1,0 +1,68 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 7389,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/semantic-overlap-detection/SKILL.md"
+  },
+  "relocation_link_rewrites": [
+    {
+      "file": "references/description-templates.md",
+      "from": "./ambiguity-classes.md",
+      "to": "ambiguity-classes.md"
+    },
+    {
+      "file": "references/domain-taxonomy.md",
+      "from": "./ambiguity-classes.md",
+      "to": "ambiguity-classes.md"
+    },
+    {
+      "file": "SKILL.md",
+      "from": "./references/domain-taxonomy.md",
+      "to": "references/domain-taxonomy.md"
+    },
+    {
+      "file": "SKILL.md",
+      "from": "./references/domain-taxonomy.md",
+      "to": "references/domain-taxonomy.md"
+    },
+    {
+      "file": "SKILL.md",
+      "from": "./references/ambiguity-classes.md",
+      "to": "references/ambiguity-classes.md"
+    },
+    {
+      "file": "SKILL.md",
+      "from": "./references/ambiguity-classes.md",
+      "to": "references/ambiguity-classes.md"
+    },
+    {
+      "file": "SKILL.md",
+      "from": "./references/ambiguity-classes.md",
+      "to": "references/ambiguity-classes.md"
+    },
+    {
+      "file": "SKILL.md",
+      "from": "./references/description-templates.md",
+      "to": "references/description-templates.md"
+    },
+    {
+      "file": "SKILL.md",
+      "from": "./references/architecture-reference.md",
+      "to": "references/architecture-reference.md"
+    },
+    {
+      "file": "SKILL.md",
+      "from": "./references/architecture-reference.md",
+      "to": "references/architecture-reference.md"
+    }
+  ]
+}

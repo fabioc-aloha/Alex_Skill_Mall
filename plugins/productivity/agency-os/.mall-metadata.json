@@ -1,0 +1,131 @@
+{
+  "source": {
+    "store": "claude-code-plugins-plus-skills",
+    "path": "plugins/ai-agency/agency-os/skills/agency-os",
+    "imported": "2026-05-26"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 19737,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/agency-os/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "dep-title",
+      "target": "dep-url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "dep-title",
+      "target": "dep-url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "dep-title",
+      "target": "dep-url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/commands.md",
+      "label": "title",
+      "target": "url",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/corpus-template.md",
+      "label": "→ Hub",
+      "target": "{{HUB_URL}}",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/corpus-template.md",
+      "label": "→ General Guidance",
+      "target": "{{GUIDANCE_URL}}",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/task-page-template.md",
+      "label": "→ {{CORPUS_NAME}}",
+      "target": "{{CORPUS_URL}}",
+      "reason": "missing-source"
+    },
+    {
+      "file": "references/task-page-template.md",
+      "label": "→ Guidance",
+      "target": "{{GUIDANCE_URL}}",
+      "reason": "missing-source"
+    }
+  ]
+}

@@ -2,9 +2,6 @@
   "name": "incident-response",
   "version": "1.0.0",
   "description": "Calm, systematic crisis handling -- from detection through post-mortem to prevention",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "incident",
     "response",
@@ -15,19 +12,8 @@
     "detection",
     "through"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 1256,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/incident-response/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

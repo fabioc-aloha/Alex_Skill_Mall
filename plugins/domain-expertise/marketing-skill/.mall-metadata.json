@@ -1,0 +1,269 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "claude-code",
+    "copilot"
+  ],
+  "tier": "extended",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/marketing-skill/SKILL.md"
+  },
+  "requires_plugins": [],
+  "shape": "S...",
+  "source_store": "alirezarezvani/claude-skills",
+  "token_cost": 110346,
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "alirezarezvani/claude-skills",
+    "skills": 44,
+    "agents": 4,
+    "has_mcp": false,
+    "checked_at": "2026-05-13"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "references/sample-size-guide.md",
+      "target": "references/sample-size-guide.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/platform-specs.md",
+      "target": "references/platform-specs.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/content-patterns.md",
+      "target": "references/content-patterns.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/platform-requirements.md",
+      "target": "references/platform-requirements.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/aso-best-practices.md",
+      "target": "references/aso-best-practices.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/dunning-guide.md",
+      "target": "references/dunning-guide.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/templates.md",
+      "target": "references/templates.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "content-production",
+      "target": "../content-production/",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "content-strategy",
+      "target": "../content-strategy/",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "content-production",
+      "target": "../content-production/",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "content-production",
+      "target": "../content-production/",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "social-content",
+      "target": "../social-content/",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "Plain English Alternatives",
+      "target": "references/plain-english-alternatives.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/copy-frameworks.md",
+      "target": "references/copy-frameworks.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/natural-transitions.md",
+      "target": "references/natural-transitions.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/copy-frameworks.md",
+      "target": "references/copy-frameworks.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/tool-types-guide.md",
+      "target": "references/tool-types-guide.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "attribution-guide.md",
+      "target": "references/attribution-guide.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "hubspot-workflows.md",
+      "target": "references/hubspot-workflows.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "campaign-templates.md",
+      "target": "references/campaign-templates.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "international-playbooks.md",
+      "target": "references/international-playbooks.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "attribution-guide.md",
+      "target": "references/attribution-guide.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/experiments.md",
+      "target": "references/experiments.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/audience-targeting.md",
+      "target": "references/audience-targeting.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "tools registry",
+      "target": "../../tools/REGISTRY.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "google-ads.md",
+      "target": "../../tools/integrations/google-ads.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "meta-ads.md",
+      "target": "../../tools/integrations/meta-ads.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "linkedin-ads.md",
+      "target": "../../tools/integrations/linkedin-ads.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "tiktok-ads.md",
+      "target": "../../tools/integrations/tiktok-ads.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "ga4.md",
+      "target": "../../tools/integrations/ga4.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "segment.md",
+      "target": "../../tools/integrations/segment.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/playbooks.md",
+      "target": "references/playbooks.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/prompt-templates.md",
+      "target": "references/prompt-templates.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/technique-guide.md",
+      "target": "references/technique-guide.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/evaluation-rubric.md",
+      "target": "references/evaluation-rubric.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/measurement-framework.md",
+      "target": "references/measurement-framework.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "AI Writing Detection",
+      "target": "references/ai-writing-detection.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "AEO & GEO Patterns",
+      "target": "references/aeo-geo-patterns.md",
+      "reason": "missing-source"
+    },
+    {
+      "file": "SKILL.md",
+      "label": "references/reverse-engineering.md",
+      "target": "references/reverse-engineering.md",
+      "reason": "missing-source"
+    }
+  ],
+  "relocation_link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "from": "README.md",
+      "to": "../../README.md"
+    }
+  ]
+}

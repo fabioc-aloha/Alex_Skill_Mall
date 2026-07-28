@@ -1,0 +1,26 @@
+{
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "engines": [
+    "claude-code",
+    "copilot"
+  ],
+  "tier": "standard",
+  "requires_edition": ">=1.0.0",
+  "install_paths": {
+    "skill": ".github/skills/local/product-team/SKILL.md"
+  },
+  "requires_plugins": [],
+  "shape": "SA..",
+  "source_store": "alirezarezvani/claude-skills",
+  "token_cost": 24796,
+  "sync_mode": "curated-subset",
+  "upstream_snapshot": {
+    "store": "alirezarezvani/claude-skills",
+    "skills": 13,
+    "agents": 1,
+    "has_mcp": false,
+    "checked_at": "2026-05-13"
+  }
+}

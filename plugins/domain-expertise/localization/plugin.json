@@ -2,9 +2,6 @@
   "name": "localization",
   "version": "1.0.0",
   "description": "Software localization, internationalization, multilingual application development -- i18n architecture, RTL support, ICU MessageFormat, LQA, dialect inheritance",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "localization",
     "software",
@@ -15,19 +12,8 @@
     "i18n",
     "architecture"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "domain-expertise",
-  "tier": "extended",
-  "token_cost": 6060,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/localization/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

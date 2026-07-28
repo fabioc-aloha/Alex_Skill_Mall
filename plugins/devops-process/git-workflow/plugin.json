@@ -2,9 +2,6 @@
   "name": "git-workflow",
   "version": "1.0.0",
   "description": "Consistent git practices, recovery patterns, and safe operations.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "git",
     "workflow",
@@ -15,19 +12,8 @@
     "safe",
     "operations"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "devops-process",
-  "tier": "standard",
-  "token_cost": 1282,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/git-workflow/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

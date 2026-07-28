@@ -1,0 +1,24 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "standard",
+  "token_cost": 3027,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/local/bicep-avm-mastery/SKILL.md"
+  },
+  "link_rewrites": [
+    {
+      "file": "SKILL.md",
+      "label": "EXTERNAL-API-REGISTRY.md",
+      "target": "../../EXTERNAL-API-REGISTRY.md",
+      "reason": "missing-source"
+    }
+  ]
+}

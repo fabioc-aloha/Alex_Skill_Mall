@@ -2,9 +2,6 @@
   "name": "update-avm-modules-in-bicep",
   "version": "1.0.0",
   "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "update",
     "avm",
@@ -15,19 +12,8 @@
     "latest",
     "versions"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "cloud-infrastructure",
-  "tier": "standard",
-  "token_cost": 783,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/update-avm-modules-in-bicep/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

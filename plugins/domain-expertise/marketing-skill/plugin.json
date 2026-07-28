@@ -1,21 +1,7 @@
 {
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "engines": [
-    "claude-code",
-    "copilot"
-  ],
-  "tier": "extended",
-  "requires_edition": ">=1.0.0",
-  "install_paths": {
-    "skill": ".github/skills/local/marketing-skill/SKILL.md"
-  },
-  "description": "Complete marketing skill suite: 44 skills covering SEO, content strategy, campaign analytics, copywriting, social media, CRO, email sequences, pricing, and brand guidelines.",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
+  "name": "marketing-skill",
   "version": "1.0.1",
+  "description": "Complete marketing skill suite: 44 skills covering SEO, content strategy, campaign analytics, copywriting, social media, CRO, email sequences, pricing, and brand guidelines.",
   "keywords": [
     "marketing",
     "seo",
@@ -26,18 +12,8 @@
     "brand",
     "cro"
   ],
-  "requires_plugins": [],
-  "shape": "S...",
-  "name": "marketing-skill",
-  "source_store": "alirezarezvani/claude-skills",
-  "token_cost": 110346.0,
   "category": "domain-expertise",
-  "sync_mode": "curated-subset",
-  "upstream_snapshot": {
-    "store": "alirezarezvani/claude-skills",
-    "skills": 44,
-    "agents": 4,
-    "has_mcp": false,
-    "checked_at": "2026-05-13"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

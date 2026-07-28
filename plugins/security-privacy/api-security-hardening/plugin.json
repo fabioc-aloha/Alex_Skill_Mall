@@ -2,9 +2,6 @@
   "name": "api-security-hardening",
   "version": "1.0.0",
   "description": "API security hardening -- rate limiting, JWT validation, CORS, input validation (4-layer defense)",
-  "author": {
-    "name": "ACT Plugin Mall"
-  },
   "keywords": [
     "api",
     "security",
@@ -15,19 +12,8 @@
     "cors",
     "input"
   ],
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".S..",
   "category": "security-privacy",
-  "tier": "standard",
-  "token_cost": 1196,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
-  "artifacts": {
-    "skill": "SKILL.md"
-  },
-  "install_paths": {
-    "skill": ".github/skills/local/api-security-hardening/SKILL.md"
+  "author": {
+    "name": "ACT Plugin Mall"
   }
 }

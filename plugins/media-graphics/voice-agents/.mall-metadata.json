@@ -1,0 +1,21 @@
+{
+  "source": {
+    "store": "antigravity-awesome-skills",
+    "path": "skills/voice-agents",
+    "imported": "2026-05-26"
+  },
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".S..",
+  "tier": "extended",
+  "token_cost": 6768,
+  "requires_edition": ">=1.0.0",
+  "requires_plugins": [],
+  "artifacts": {
+    "skill": "SKILL.md"
+  },
+  "install_paths": {
+    "skill": ".github/skills/voice-agents/SKILL.md"
+  }
+}
