@@ -4,6 +4,7 @@
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
+const YAML = require('yaml');
 
 const STANDARD_PLUGIN_FIELDS = new Set([
   'name', 'version', 'description', 'author', 'homepage', 'repository',
@@ -34,8 +35,14 @@ function listPluginDirectories(repoRoot) {
     for (const plugin of fs.readdirSync(categoryPath, { withFileTypes: true })) {
       if (!plugin.isDirectory() || plugin.name.startsWith('.')) continue;
       const pluginPath = path.join(categoryPath, plugin.name);
-      if (fs.existsSync(path.join(pluginPath, 'plugin.json'))) {
-        plugins.push({ category: category.name, name: plugin.name, path: pluginPath });
+      const manifestPath = path.join(pluginPath, 'plugin.json');
+      if (fs.existsSync(manifestPath)) {
+        plugins.push({
+          category: category.name,
+          name: plugin.name,
+          path: pluginPath,
+          bundle: readJson(manifestPath).bundle === true,
+        });
       }
     }
   }
@@ -58,38 +65,52 @@ function validateDeclaredArtifacts(pluginDir, manifest) {
   }
 }
 
-function parseFrontmatter(raw) {
-  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
-  if (!match) throw new Error('expected YAML frontmatter');
-  const values = {};
-  for (const line of match[1].split(/\r?\n/)) {
-    const parsed = line.match(/^([A-Za-z][A-Za-z0-9_-]*)\s*:\s*(.*)$/);
-    if (!parsed) continue;
-    let value = parsed[2].trim();
-    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-      value = value.slice(1, -1);
+function parseFrontmatter(raw, source = 'artifact', fallback = null) {
+  const match = raw.match(/^---[ \t]*\r?\n([\s\S]*?)\r?\n---[ \t]*\r?\n/);
+  if (!match) throw new Error(`${source}: expected YAML frontmatter`);
+  let values;
+  let recovered = false;
+  try {
+    values = YAML.parse(match[1]);
+  } catch (error) {
+    if (!fallback?.name || !fallback?.description) {
+      throw new Error(`${source}: invalid YAML frontmatter: ${error.message}`);
     }
-    values[parsed[1]] = value;
+    values = { name: fallback.name, description: fallback.description };
+    const reviewed = match[1].match(/^(?:lastReviewed|currency|date_added):\s*([^\r\n]+)$/m);
+    if (reviewed) values.lastReviewed = reviewed[1].trim().replace(/^['"]|['"]$/g, '');
+    recovered = true;
   }
-  return { values, body: raw.slice(match[0].length) };
+  if (!values || typeof values !== 'object' || Array.isArray(values)) {
+    throw new Error(`${source}: frontmatter must be a mapping`);
+  }
+  return { values, body: raw.slice(match[0].length), recovered };
 }
 
 function yamlString(value) {
   return JSON.stringify(String(value));
 }
 
-function normalizeSkill(filePath) {
-  const { values, body } = parseFrontmatter(fs.readFileSync(filePath, 'utf8'));
-  if (!values.name || !values.description) throw new Error(`${filePath}: skill name and description required`);
-  const lines = ['---', `name: ${values.name}`, `description: ${yamlString(values.description)}`];
+function normalizeSkill(filePath, fallbackName, fallbackDescription = null) {
+  const { values, body, recovered } = parseFrontmatter(
+    fs.readFileSync(filePath, 'utf8'),
+    filePath,
+    { name: fallbackName, description: fallbackDescription },
+  );
+  const name = values.name || fallbackName;
+  if (!name || typeof values.description !== 'string' || !values.description.trim()) {
+    throw new Error(`${filePath}: skill name and description required`);
+  }
+  const lines = ['---', `name: ${name}`, `description: ${yamlString(values.description)}`];
   const reviewed = values.lastReviewed || values.currency || values.date_added;
   if (reviewed) lines.push(`lastReviewed: ${reviewed}`);
   lines.push('---', '');
   fs.writeFileSync(filePath, lines.join('\n') + body);
+  return recovered;
 }
 
 function normalizeAgent(filePath, pluginName) {
-  const { values, body } = parseFrontmatter(fs.readFileSync(filePath, 'utf8'));
+  const { values, body } = parseFrontmatter(fs.readFileSync(filePath, 'utf8'), filePath);
   const description = values.description || '';
   if (!description) throw new Error(`${filePath}: agent description required`);
   const normalized = description.endsWith('.') ? description : `${description}.`;
@@ -103,7 +124,7 @@ function normalizeAgent(filePath, pluginName) {
 }
 
 function normalizeCommand(filePath) {
-  const { values, body } = parseFrontmatter(fs.readFileSync(filePath, 'utf8'));
+  const { values, body } = parseFrontmatter(fs.readFileSync(filePath, 'utf8'), filePath);
   if (!values.description) throw new Error(`${filePath}: command description required`);
   fs.writeFileSync(filePath, [
     '---',
@@ -149,7 +170,7 @@ function buildMallMetadata(oldManifest, authorExtensions, migration) {
   return metadata;
 }
 
-function moveRootSkill(workDir, pluginName, artifactPath) {
+function moveRootSkill(workDir, pluginName, artifactPath, description) {
   const source = path.join(workDir, artifactPath);
   const skillDir = path.join(workDir, 'skills', pluginName);
   fs.mkdirSync(skillDir, { recursive: true });
@@ -160,7 +181,7 @@ function moveRootSkill(workDir, pluginName, artifactPath) {
     if (excluded.has(entry.name)) continue;
     fs.renameSync(path.join(workDir, entry.name), path.join(skillDir, entry.name));
   }
-  normalizeSkill(path.join(skillDir, 'SKILL.md'));
+  return normalizeSkill(path.join(skillDir, 'SKILL.md'), pluginName, description);
 }
 
 function moveAgent(workDir, pluginName, artifactPath) {
@@ -203,15 +224,19 @@ function moveCommands(workDir, promptPaths) {
 }
 
 function vendorBundleSkills(repoRoot, workDir, components) {
+  const recovered = [];
   for (const component of components || []) {
     const [category, name] = component.split('/');
-    const source = path.join(repoRoot, 'plugins', category, name, 'SKILL.md');
+    const componentRoot = path.join(repoRoot, 'plugins', category, name);
+    const source = path.join(componentRoot, 'SKILL.md');
     if (!fs.existsSync(source)) throw new Error(`bundle component missing: ${component}`);
+    const manifest = readJson(path.join(componentRoot, 'plugin.json'));
     const targetDir = path.join(workDir, 'skills', name);
     fs.mkdirSync(targetDir, { recursive: true });
     fs.copyFileSync(source, path.join(targetDir, 'SKILL.md'));
-    normalizeSkill(path.join(targetDir, 'SKILL.md'));
+    if (normalizeSkill(path.join(targetDir, 'SKILL.md'), name, manifest.description)) recovered.push(name);
   }
+  return recovered;
 }
 
 function adaptVisualWrapper(filePath) {
@@ -227,7 +252,6 @@ function convertPlugin(repoRoot, plugin, dryRun) {
     return { status: 'skipped', name: plugin.name };
   }
   validateDeclaredArtifacts(plugin.path, oldManifest);
-  if (dryRun) return { status: 'planned', name: plugin.name };
 
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-plugin-convert-'));
   const workDir = path.join(tempRoot, plugin.name);
@@ -246,6 +270,7 @@ function convertPlugin(repoRoot, plugin, dryRun) {
       ...(typeof artifacts.prompt === 'string' ? [artifacts.prompt] : []),
       ...(Array.isArray(artifacts.prompts) ? artifacts.prompts : []),
     ];
+    const frontmatterRecoveries = [];
 
     for (const relative of agentPaths) moveAgent(workDir, plugin.name, relative);
     if (promptPaths.length) moveCommands(workDir, promptPaths);
@@ -260,12 +285,19 @@ function convertPlugin(repoRoot, plugin, dryRun) {
     }
 
     if (skillPaths.length === 1 && skillPaths[0] === 'SKILL.md') {
-      moveRootSkill(workDir, plugin.name, 'SKILL.md');
+      if (moveRootSkill(workDir, plugin.name, 'SKILL.md', oldManifest.description)) {
+        frontmatterRecoveries.push(plugin.name);
+      }
     } else {
-      for (const relative of skillPaths) normalizeSkill(path.join(workDir, relative));
+      for (const relative of skillPaths) {
+        const fallbackName = path.basename(path.dirname(relative)) || plugin.name;
+        if (normalizeSkill(path.join(workDir, relative), fallbackName, oldManifest.description)) {
+          frontmatterRecoveries.push(fallbackName);
+        }
+      }
     }
     if (oldManifest.bundle) {
-      vendorBundleSkills(repoRoot, workDir, oldManifest.components);
+      frontmatterRecoveries.push(...vendorBundleSkills(repoRoot, workDir, oldManifest.components));
       adaptVisualWrapper(path.join(workDir, 'skills', plugin.name, 'SKILL.md'));
     }
 
@@ -275,16 +307,27 @@ function convertPlugin(repoRoot, plugin, dryRun) {
       commands: promptPaths.length > 0,
       mcpServers,
     };
-    const migration = oldManifest.bundle
+    const specializedMigration = oldManifest.bundle
       ? { strategy: 'vendor-components', reason: 'Copilot CLI has no plugin dependency field; the bundle must be self-contained.' }
       : plugin.name === 'flint-chart-plugin'
         ? { prompt_to_command: 'commands/render-chart.md', mcp_to_inline_manifest: true, evidence: 'Copilot CLI 1.0.73 strict marketplace and invocation smoke tests' }
         : plugin.name === 'md-to-pdf'
           ? { strategy: 'colocate-script-with-skill', reason: 'The skill invokes the support script as a relative resource.' }
           : null;
+    const migration = specializedMigration || frontmatterRecoveries.length ? {
+      ...(specializedMigration || {}),
+      ...(frontmatterRecoveries.length ? {
+        frontmatter_recovery: {
+          source: 'plugin.json',
+          skills: [...new Set(frontmatterRecoveries)].sort(),
+        },
+      } : {}),
+    } : null;
     const { output, authorExtensions } = buildManifest(oldManifest, components);
     writeJson(path.join(workDir, 'plugin.json'), output);
     writeJson(path.join(workDir, '.mall-metadata.json'), buildMallMetadata(oldManifest, authorExtensions, migration));
+
+    if (dryRun) return { status: 'planned', name: plugin.name };
 
     const backup = `${plugin.path}.migration-backup-${process.pid}`;
     fs.renameSync(plugin.path, backup);
@@ -309,7 +352,11 @@ function migrateRepository({ repoRoot, pluginNames = null, categories = null, dr
   const all = listPluginDirectories(repoRoot);
   const selected = all.filter((plugin) =>
     (!selectedNames || selectedNames.has(plugin.name))
-    && (!selectedCategories || selectedCategories.has(plugin.category)));
+    && (!selectedCategories || selectedCategories.has(plugin.category)))
+    .sort((left, right) =>
+      Number(right.bundle) - Number(left.bundle)
+      || left.category.localeCompare(right.category)
+      || left.name.localeCompare(right.name));
   if (selectedNames) {
     const found = new Set(selected.map((plugin) => plugin.name));
     const missing = [...selectedNames].filter((name) => !found.has(name));

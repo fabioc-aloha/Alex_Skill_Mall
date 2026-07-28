@@ -6,6 +6,7 @@ const crypto = require('node:crypto');
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
+const YAML = require('yaml');
 
 const { migrateRepository } = require('../scripts/migrate-plugins-to-cli-shape.cjs');
 
@@ -85,16 +86,7 @@ function normalizedArtifact(filePath) {
   const raw = fs.readFileSync(filePath, 'utf8').replaceAll('\r\n', '\n');
   const match = raw.match(/^---\n([\s\S]*?)\n---\n/);
   assert.ok(match, `${filePath}: expected frontmatter`);
-  const values = {};
-  for (const line of match[1].split('\n')) {
-    const parsed = line.match(/^([A-Za-z][A-Za-z0-9_-]*)\s*:\s*(.*)$/);
-    if (!parsed) continue;
-    let value = parsed[2].trim();
-    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-      value = value.slice(1, -1);
-    }
-    values[parsed[1]] = value;
-  }
+  const values = YAML.parse(match[1]);
   return { values, body: raw.slice(match[0].length) };
 }
 
@@ -143,6 +135,17 @@ test('converter output matches independently authored post fixtures', () => {
   }
 });
 
+test('full migration processes bundles before their component sources', () => {
+  const root = fixtureRepo();
+  try {
+    const summary = migrateRepository({ repoRoot: root });
+    assert.equal(summary.migrated, CASES.length + COMPONENTS.length);
+    assert.equal(summary.errors.length, 0);
+  } finally {
+    cleanup(root);
+  }
+});
+
 test('dry run reports selected migrations without writing', () => {
   const root = fixtureRepo();
   try {
@@ -155,6 +158,96 @@ test('dry run reports selected migrations without writing', () => {
     assert.equal(summary.planned, 1);
     assert.equal(summary.migrated, 0);
     assert.deepEqual(snapshot(root), before);
+  } finally {
+    cleanup(root);
+  }
+});
+
+test('dry run exercises conversion logic and fails on an invalid MCP declaration', () => {
+  const root = fixtureRepo();
+  try {
+    const mcpPath = path.join(root, 'plugins', 'data-analytics', 'flint-chart-plugin', 'mcp.json');
+    fs.writeFileSync(mcpPath, JSON.stringify({ unsupported: {} }, null, 2) + '\n');
+    assert.throws(
+      () => migrateRepository({ repoRoot: root, pluginNames: ['flint-chart-plugin'], dryRun: true }),
+      /unsupported MCP config/,
+    );
+    assert.equal(fs.existsSync(path.join(root, '.mall-metadata.json')), false);
+  } finally {
+    cleanup(root);
+  }
+});
+
+test('valid YAML block descriptions and missing skill names normalize from plugin identity', () => {
+  const root = fixtureRepo();
+  try {
+    const skillPath = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration', 'SKILL.md');
+    const raw = fs.readFileSync(skillPath, 'utf8');
+    const body = raw.slice(raw.indexOf('\n---\n', 4) + 5);
+    fs.writeFileSync(skillPath, [
+      '---',
+      'description: >',
+      '  Integrates Spline scenes into web projects.',
+      '  Use when adding interactive 3D content.',
+      '---',
+      body,
+    ].join('\n'));
+
+    const summary = migrateRepository({ repoRoot: root, pluginNames: ['spline-3d-integration'] });
+    assert.equal(summary.migrated, 1);
+    const normalized = normalizedArtifact(path.join(
+      root, 'plugins', '3d-graphics', 'spline-3d-integration',
+      'skills', 'spline-3d-integration', 'SKILL.md',
+    ));
+    assert.equal(normalized.values.name, 'spline-3d-integration');
+    assert.equal(
+      normalized.values.description,
+      'Integrates Spline scenes into web projects. Use when adding interactive 3D content.\n',
+    );
+  } finally {
+    cleanup(root);
+  }
+});
+
+test('frontmatter delimiters tolerate trailing horizontal whitespace', () => {
+  const root = fixtureRepo();
+  try {
+    const skillPath = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration', 'SKILL.md');
+    const raw = fs.readFileSync(skillPath, 'utf8');
+    fs.writeFileSync(skillPath, raw.replace(/^---/, '--- '));
+    const summary = migrateRepository({ repoRoot: root, pluginNames: ['spline-3d-integration'] });
+    assert.equal(summary.migrated, 1);
+  } finally {
+    cleanup(root);
+  }
+});
+
+test('malformed skill YAML recovers from plugin manifest and records the adaptation', () => {
+  const root = fixtureRepo();
+  try {
+    const skillPath = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration', 'SKILL.md');
+    const raw = fs.readFileSync(skillPath, 'utf8');
+    const frontmatterMatch = raw.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n/);
+    assert.ok(frontmatterMatch);
+    const body = raw.slice(frontmatterMatch[0].length);
+    fs.writeFileSync(skillPath, [
+      '---',
+      'name: spline-3d-integration',
+      'description: Invalid compact mapping: browser integration',
+      'lastReviewed: 2026-05-26',
+      '---',
+      body,
+    ].join('\n'));
+
+    migrateRepository({ repoRoot: root, pluginNames: ['spline-3d-integration'] });
+    const pluginRoot = path.join(root, 'plugins', '3d-graphics', 'spline-3d-integration');
+    const normalized = normalizedArtifact(path.join(pluginRoot, 'skills', 'spline-3d-integration', 'SKILL.md'));
+    assert.equal(normalized.values.description, json(path.join(pluginRoot, 'plugin.json')).description);
+    assert.equal(normalized.body, body.replaceAll('\r\n', '\n'));
+    assert.deepEqual(json(path.join(pluginRoot, '.mall-metadata.json')).migration.frontmatter_recovery, {
+      source: 'plugin.json',
+      skills: ['spline-3d-integration'],
+    });
   } finally {
     cleanup(root);
   }

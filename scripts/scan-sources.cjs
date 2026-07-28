@@ -36,11 +36,6 @@ const STORE_ARG_IDX = process.argv.indexOf('--store');
 const SINGLE_STORE = STORE_ARG_IDX > -1 ? process.argv[STORE_ARG_IDX + 1] : null;
 const SOURCES_DIR = process.env.SOURCES_DIR;
 
-if (!SOURCES_DIR && SINGLE_STORE !== 'plugin-mall') {
-  console.error('ERROR: SOURCES_DIR is required unless --store plugin-mall is used.');
-  process.exit(1);
-}
-
 const SUPPORTED = JSON.parse(fs.readFileSync(SUPPORTED_PATH, 'utf-8'));
 
 if (!fs.existsSync(CATALOG_STORES_DIR)) {
@@ -145,15 +140,16 @@ function classifyFrontmatter(pluginPath) {
 
 function inferShape(pluginPath, frontmatter) {
   // Shape: skill | agent | prompt | mcp | hook | mixed
-  if (frontmatter.kind === 'plugin-json' && frontmatter.raw.shape) return frontmatter.raw.shape;
-  if (fs.existsSync(path.join(pluginPath, '.mcp.json'))) return 'mcp';
-  if (fs.existsSync(path.join(pluginPath, 'hooks')) || fs.existsSync(path.join(pluginPath, 'hooks.json'))) return 'hook';
-  if (fs.existsSync(path.join(pluginPath, 'SKILL.md'))) return 'skill';
-  if (fs.existsSync(path.join(pluginPath, 'AGENT.md'))) return 'agent';
-  // Sub-folder hints (Mall layout uses skills/, agents/, prompts/ subdirs inside categories)
-  if (fs.existsSync(path.join(pluginPath, 'skills'))) return 'skill';
-  if (fs.existsSync(path.join(pluginPath, 'agents'))) return 'agent';
-  if (fs.existsSync(path.join(pluginPath, 'prompts'))) return 'prompt';
+  const raw = frontmatter.kind === 'plugin-json' ? frontmatter.raw : {};
+  const components = [];
+  if (fs.existsSync(path.join(pluginPath, 'SKILL.md')) || fs.existsSync(path.join(pluginPath, 'skills'))) components.push('skill');
+  if (fs.existsSync(path.join(pluginPath, 'AGENT.md')) || fs.existsSync(path.join(pluginPath, 'agents'))) components.push('agent');
+  if (fs.existsSync(path.join(pluginPath, 'prompts')) || fs.existsSync(path.join(pluginPath, 'commands'))) components.push('prompt');
+  if (fs.existsSync(path.join(pluginPath, '.mcp.json')) || fs.existsSync(path.join(pluginPath, 'mcp.json')) || raw.mcpServers) components.push('mcp');
+  if (fs.existsSync(path.join(pluginPath, 'hooks')) || fs.existsSync(path.join(pluginPath, 'hooks.json')) || raw.hooks) components.push('hook');
+  if (components.length > 1) return 'mixed';
+  if (components.length === 1) return components[0];
+  if (raw.shape) return raw.shape;
   return 'unknown';
 }
 
@@ -321,6 +317,10 @@ function semanticallyEqual(prior, next) {
 // --- Main ---
 
 function main() {
+  if (!SOURCES_DIR && SINGLE_STORE !== 'plugin-mall') {
+    console.error('ERROR: SOURCES_DIR is required unless --store plugin-mall is used.');
+    process.exit(1);
+  }
   const stores = SUPPORTED.stores.filter((s) => !SINGLE_STORE || s.name === SINGLE_STORE);
 
   if (stores.length === 0) {
@@ -384,4 +384,6 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { classifyFrontmatter, inferShape, listPluginCandidates, scanStore };
