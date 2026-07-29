@@ -37,6 +37,10 @@
             "type": "boolean",
             "description": "True only for first-party stores (the Mall itself). Adds +50 to per-plugin trust score in v3 catalog. Encodes 'this plugin has been touched by Supervisor's editorial process'."
           },
+          "reference_only": {
+            "type": "boolean",
+            "description": "True when the store is kept in the registry for cross-ecosystem reference but is NOT Copilot-CLI-installable (no marketplace.json at any canonical path AND no root plugin.json). Presentation surfaces (mall-search, README, etc.) should hide reference_only stores from install-focused views but may still surface them in discovery. Added 2026-07-28 per Steward meta-catalog plan Phase 2 (Option B: cut non-installable stores from the catalog, keep 5 first-party / high-signal repos as reference)."
+          },
           "license": {
             "type": "string",
             "description": "SPDX license identifier where known. Drives the license-clarity signal in v3 trust scoring."

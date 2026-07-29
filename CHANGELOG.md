@@ -4,6 +4,41 @@ All notable changes to Alex ACT Plugin Mall.
 
 ## [Unreleased]
 
+### Changed
+
+- Registry pruned from **49 → 33 active stores** and **3,912 → 3,548 aggregated
+	plugins** (external discovery catalog). The 16 removed stores had no
+	Copilot-CLI-installable path (no `marketplace.json` at any of the four
+	canonical paths and no root `plugin.json`) and belonged to adjacent
+	ecosystems (Claude skills, Cursor rules, MCP-server directories, other
+	editor-specific formats). Cut: `agency-agents`, `antfu-skills`,
+	`awesome-claude-code`, `awesome-design-skills`, `awesome-mcp-servers`,
+	`claude-code-best-practice`, `copilot-collections`, `flutter-ai-rules`,
+	`game-studios`, `healthcare-agents`, `hoodini-ai-agents-skills`,
+	`k-dense-scientific-agent-skills`, `moiz-ai-agent-skills`,
+	`robotics-agent-skills`, `rust-skills`, `superclaude-framework`.
+- Marked **5 stores as `reference_only: true`** in `sources/supported-stores.json`:
+	`mcp-servers` (`modelcontextprotocol/servers` — Anthropic-official MCP
+	directory), `spec-kit` (`github/spec-kit` — GitHub-official), and
+	`vercel-agent-skills`, `vercel-skills` (Vercel Labs), plus
+	`awesome-copilot-agents`. These first-party / high-signal repos are kept in
+	the catalog for cross-ecosystem discoverability but are not Copilot-CLI
+	installable. Presentation surfaces (mall-search, README storefront filters)
+	should hide `reference_only` stores from install-focused views;
+	implementation of that filter is Phase 6 of the meta-catalog plan.
+- Registry schema (`sources/supported-stores.schema.json`) extended to
+	document the `reference_only` field.
+
+### Rationale
+
+Executed per Steward's meta-catalog plan (`plan/mall/META-CATALOG.md`) Phase 2
+Option B: the 16 cut stores would never gain a `plugin marketplace add`-able
+surface without upstream restructuring, and keeping them in the aggregated
+catalog gives a false impression that they are installable via `/mall-install`.
+Registry becomes an honest map of what the Copilot CLI can reach today. The 5
+kept-as-reference stores are official / brand-tier and stay indexed for
+cross-ecosystem discovery.
+
 ---
 
 ## [3.0.0] - 2026-07-28
