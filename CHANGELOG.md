@@ -6,15 +6,35 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Changed
 
-- Registry pruned from **49 → 33 active stores** and **3,912 → 3,548 aggregated
-	plugins** (external discovery catalog). The 16 removed stores had no
-	Copilot-CLI-installable path (no `marketplace.json` at any of the four
-	canonical paths and no root `plugin.json`) and belonged to adjacent
-	ecosystems (Claude skills, Cursor rules, MCP-server directories, other
-	editor-specific formats). Cut: `agency-agents`, `antfu-skills`,
-	`awesome-claude-code`, `awesome-design-skills`, `awesome-mcp-servers`,
-	`claude-code-best-practice`, `copilot-collections`, `flutter-ai-rules`,
-	`game-studios`, `healthcare-agents`, `hoodini-ai-agents-skills`,
+- **Second-round curation pass (2026-07-28)**: registry pruned from 33 → **29
+	active stores** and 3,548 → **3,479 aggregated plugins**. Cut 4 low-uniqueness
+	community stores whose plugin sets were largely duplicated in higher-signal
+	stores (`plugin-mall`, `awesome-copilot`, `antigravity-awesome-skills`):
+	- `addyosmani-agent-skills` — 92% duplicated (24 of 26 already elsewhere)
+	- `agent-skills-context-engineering` — 82% duplicated, canonical
+	  context-engineering set covered by `plugin-mall` + `antigravity`
+	- `composio-awesome-claude-plugins` — 50% duplicated, lowest-trust store in
+	  catalog (trust 26), community-adjacent to a vendor product
+	- `imbad-academic-research-skills` — narrow-domain, `ai-research-skills`
+	  (100 plugins, higher trust) covers the same domain better; also had a
+	  `release-discipline` name-collision with Steward's own concept
+- **Classification fix**: `claude-skills` (upstream `github.com/anthropics/skills`)
+	reclassified `community` → `anthropic-official`. Same tier as `mcp-servers`;
+	the previous `community` label undercounted the Anthropic-first-party signal
+	in trust scoring.
+- Catalog fully regenerated. Strict CLI marketplace unchanged at 365 curated
+	plugin entries. Registry-wide duplication signal: 221 of 3,299 distinct
+	plugin names appear in 2+ stores (down from 221 of 3,299 pre-cut; further
+	dedupe belongs at the presentation-surface layer per Phase 6 mall-search).
+- **First-round curation pass (2026-07-28, earlier)**: registry pruned from
+	**49 → 33 active stores** and **3,912 → 3,548 aggregated plugins** by
+	removing 16 stores with no Copilot-CLI-installable path (no
+	`marketplace.json` at any of the four canonical paths and no root
+	`plugin.json`); they belonged to adjacent ecosystems (Claude skills, Cursor
+	rules, MCP-server directories, other editor-specific formats). Cut:
+	`agency-agents`, `antfu-skills`, `awesome-claude-code`, `awesome-design-skills`,
+	`awesome-mcp-servers`, `claude-code-best-practice`, `copilot-collections`,
+	`flutter-ai-rules`, `game-studios`, `healthcare-agents`, `hoodini-ai-agents-skills`,
 	`k-dense-scientific-agent-skills`, `moiz-ai-agent-skills`,
 	`robotics-agent-skills`, `rust-skills`, `superclaude-framework`.
 - Marked **5 stores as `reference_only: true`** in `sources/supported-stores.json`:
@@ -29,15 +49,26 @@ All notable changes to Alex ACT Plugin Mall.
 - Registry schema (`sources/supported-stores.schema.json`) extended to
 	document the `reference_only` field.
 
+### Known scanner issue (flagged for follow-up, not fixed here)
+
+- `awesome-copilot` (github/awesome-copilot) reports 485 plugin entries but
+	only 476 distinct plugin names. 9 plugins are indexed twice because the
+	upstream repo has both `plugins/<name>/` and `skills/<name>/` folders for
+	the same plugin; the scanner treats each folder as a separate plugin. Fix
+	belongs in `scripts/scan-sources.cjs` and requires a design decision on
+	which folder to prefer (probably `plugins/` when both exist).
+
 ### Rationale
 
 Executed per Steward's meta-catalog plan (`plan/mall/META-CATALOG.md`) Phase 2
-Option B: the 16 cut stores would never gain a `plugin marketplace add`-able
-surface without upstream restructuring, and keeping them in the aggregated
-catalog gives a false impression that they are installable via `/mall-install`.
-Registry becomes an honest map of what the Copilot CLI can reach today. The 5
-kept-as-reference stores are official / brand-tier and stay indexed for
-cross-ecosystem discovery.
+Option B (first round) plus a same-day continued-support + duplication review
+(second round). The 16 first-round-cut stores would never gain a
+`plugin marketplace add`-able surface without upstream restructuring; the 4
+second-round-cut stores had a real CLI-installable path but their plugin sets
+were mostly redundant with higher-signal stores already in the catalog.
+Registry becomes an honest map of what the Copilot CLI can reach today AND
+what heirs will actually get value from. The 5 kept-as-reference stores are
+official / brand-tier and stay indexed for cross-ecosystem discovery.
 
 ---
 

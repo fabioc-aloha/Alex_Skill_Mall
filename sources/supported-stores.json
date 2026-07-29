@@ -45,7 +45,7 @@
       "name": "claude-skills",
       "remote": "https://github.com/anthropics/skills.git",
       "pluginDir": ".",
-      "quality": "community",
+      "quality": "anthropic-official",
       "verified": true,
       "verifiedDate": "2026-05-25",
       "note": "Anthropic-published example skills.",
@@ -140,16 +140,6 @@
       "provenance": false
     },
     {
-      "name": "agent-skills-context-engineering",
-      "remote": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git",
-      "pluginDir": "skills",
-      "quality": "community-curated",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Tier 1 adoption 2026-05-25. Context engineering focused.",
-      "provenance": false
-    },
-    {
       "name": "ai-research-skills",
       "remote": "https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
       "pluginDir": ".",
@@ -210,16 +200,6 @@
       "provenance": false
     },
     {
-      "name": "composio-awesome-claude-plugins",
-      "remote": "https://github.com/ComposioHQ/awesome-claude-plugins.git",
-      "pluginDir": ".",
-      "quality": "community-curated",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Tier 2 adoption 2026-05-25. Top-level is plugins themselves (bug-fix, code-review, etc.).",
-      "provenance": false
-    },
-    {
       "name": "context-engineering-kit",
       "remote": "https://github.com/NeoLabHQ/context-engineering-kit.git",
       "pluginDir": "plugins",
@@ -258,26 +238,6 @@
       "verified": true,
       "verifiedDate": "2026-05-25",
       "note": "Tier-1 sweep 2026-05-25. Official GitHub Copilot plugins collection (MCP servers, skills).",
-      "provenance": false
-    },
-    {
-      "name": "addyosmani-agent-skills",
-      "remote": "https://github.com/addyosmani/agent-skills.git",
-      "pluginDir": ".",
-      "quality": "community-curated",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Tier-1 sweep 2026-05-25. Addy Osmani (Google Chrome). Multi-type: agents/, skills/, hooks/.",
-      "provenance": false
-    },
-    {
-      "name": "imbad-academic-research-skills",
-      "remote": "https://github.com/Imbad0202/academic-research-skills.git",
-      "pluginDir": ".",
-      "quality": "domain",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Tier-1 sweep 2026-05-25. Academic research workflow: agents/, skills/, commands/, hooks/.",
       "provenance": false
     },
     {

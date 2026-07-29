@@ -1,8 +1,8 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T00:11:54.520Z",
-  "store_count": 33,
-  "plugin_count": 3548,
+  "generated_at": "2026-07-29T00:23:34.118Z",
+  "store_count": 29,
+  "plugin_count": 3479,
   "plugins": [
     {
       "name": "context-architect",
@@ -5567,17 +5567,6 @@
       "version": null,
       "description_short": "Complete AI coding agent harness for React Native and Expo development.",
       "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/erne-universal",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "evals",
-      "store": "addyosmani-agent-skills",
-      "shape": "unknown",
-      "trust_score": 45,
-      "version": null,
-      "description_short": "How this repo measures whether its skills actually work: that they **trigger** when they should, **stay distinct** from each other, and **change agent behavior…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/evals",
       "provenance": false,
       "adapted_from": null
     },
@@ -25426,17 +25415,6 @@
       "adapted_from": null
     },
     {
-      "name": "advanced-evaluation",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used for advanced LLM evaluation: LLM-as-judge systems, direct scoring, pairwise comparison, rubric calibration, evaluator bias mitigation…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/advanced-evaluation",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "agent-skill-stack",
       "store": "awesome-copilot",
       "shape": "skill",
@@ -25554,17 +25532,6 @@
       "version": null,
       "description_short": "Stop Codex, GitHub Copilot, Claude Code, and Cursor from shipping generic UI. Use UIZZE’s public catalogue of 800,000+ real web and iOS screens to extract prod…",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/anti-ui-slop",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "api-and-interface-design",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defin…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/api-and-interface-design",
       "provenance": false,
       "adapted_from": null
     },
@@ -26175,17 +26142,6 @@
     },
     {
       "name": "bdi-mental-states",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when modeling agent mental states with BDI concepts: beliefs, desires, intentions, RDF-to-belief transformations, rational agency tra…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/bdi-mental-states",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "bdi-mental-states",
       "store": "antigravity-awesome-skills",
       "shape": "skill",
       "trust_score": 40,
@@ -26383,17 +26339,6 @@
       "adapted_from": null
     },
     {
-      "name": "browser-testing-with-devtools",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture c…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/browser-testing-with-devtools",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "build",
       "store": "antigravity-awesome-skills",
       "shape": "skill",
@@ -26478,17 +26423,6 @@
       "version": null,
       "description_short": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when th…",
       "source_url": "https://github.com/coreyhaines31/marketingskills/tree/c21a984a56da10fb6085e6334f6f60929220a4da/skills/churn-prevention",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "ci-cd-and-automation",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test ru…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/ci-cd-and-automation",
       "provenance": false,
       "adapted_from": null
     },
@@ -26643,28 +26577,6 @@
       "version": null,
       "description_short": "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple…",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/code-exemplars-blueprint-generator",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "code-review-and-quality",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to as…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/code-review-and-quality",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "code-simplification",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend th…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/code-simplification",
       "provenance": false,
       "adapted_from": null
     },
@@ -26890,17 +26802,6 @@
     },
     {
       "name": "context-compression",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when long-running agent sessions need context compression, structured summarization, compaction, token-per-task optimization, or dura…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/context-compression",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "context-compression",
       "store": "antigravity-awesome-skills",
       "shape": "skill",
       "trust_score": 40,
@@ -26912,45 +26813,12 @@
     },
     {
       "name": "context-degradation",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used for diagnosing and mitigating context degradation: lost-in-middle failures, context poisoning, context clash, context confusion, atte…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/context-degradation",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "context-degradation",
       "store": "antigravity-awesome-skills",
       "shape": "skill",
       "trust_score": 40,
       "version": null,
       "description_short": "Language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and des…",
       "source_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/f9073a13a65b0bd900068102843a3fd06c18834d/skills/context-degradation",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "context-engineering",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/context-engineering",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "context-fundamentals",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used to explain or reason about the foundational concepts of context engineering: what context is, the anatomy of a context window, how at…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/context-fundamentals",
       "provenance": false,
       "adapted_from": null
     },
@@ -26973,17 +26841,6 @@
       "version": null,
       "description_short": "Generate a map of all files relevant to a task before making changes",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/context-map",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "context-optimization",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used for improving context efficiency: context budgeting, observation masking, prefix or KV-cache strategy, partitioning, token-cost reduc…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/context-optimization",
       "provenance": false,
       "adapted_from": null
     },
@@ -27593,17 +27450,6 @@
       "adapted_from": null
     },
     {
-      "name": "debugging-and-error-recovery",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/debugging-and-error-recovery",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "declarative-agents",
       "store": "awesome-copilot",
       "shape": "skill",
@@ -27622,17 +27468,6 @@
       "version": "1.0.0",
       "description_short": "Expert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention",
       "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/deepspeed",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "deprecation-and-migration",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deci…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/deprecation-and-migration",
       "provenance": false,
       "adapted_from": null
     },
@@ -27758,17 +27593,6 @@
       "adapted_from": null
     },
     {
-      "name": "documentation-and-adrs",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that …",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/documentation-and-adrs",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "documentation-writer",
       "store": "awesome-copilot",
       "shape": "skill",
@@ -27842,17 +27666,6 @@
       "version": null,
       "description_short": "Three-layer verification pipeline for AI output. Extracts verifiable claims, finds supporting or contradicting sources via web search, runs adversarial review …",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/doublecheck",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "doubt-driven-development",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfam…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/doubt-driven-development",
       "provenance": false,
       "adapted_from": null
     },
@@ -28007,17 +27820,6 @@
       "version": null,
       "description_short": "Create Agent Users in Microsoft Entra ID from Agent Identities, enabling AI agents to act as digital workers with user identity capabilities in Microsoft 365 a…",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/entra-agent-user",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "evaluation",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when building agent evaluation systems: deterministic checks, regression suites, multi-dimensional rubrics, quality gates, production…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/evaluation",
       "provenance": false,
       "adapted_from": null
     },
@@ -28183,17 +27985,6 @@
       "version": null,
       "description_short": "Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis",
       "source_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/f9073a13a65b0bd900068102843a3fd06c18834d/skills/ffuf-web-fuzzing",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "filesystem-context",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when agent work needs file-backed context: durable scratchpads, tool-output offloading, just-in-time discovery, cross-agent handoff f…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/filesystem-context",
       "provenance": false,
       "adapted_from": null
     },
@@ -28407,17 +28198,6 @@
       "adapted_from": null
     },
     {
-      "name": "frontend-ui-engineering",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layou…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/frontend-ui-engineering",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "game-engine",
       "store": "awesome-copilot",
       "shape": "skill",
@@ -28524,17 +28304,6 @@
       "version": null,
       "description_short": "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/git-flow-branch-creator",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "git-workflow-and-versioning",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work acro…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/git-workflow-and-versioning",
       "provenance": false,
       "adapted_from": null
     },
@@ -28870,17 +28639,6 @@
     },
     {
       "name": "harness-engineering",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when designing autonomous agent harnesses: research loops, evaluation scaffolds, locked and editable surfaces, durable logs, novelty …",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/harness-engineering",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "harness-engineering",
       "store": "awesome-copilot",
       "shape": "skill",
       "trust_score": 40,
@@ -28898,17 +28656,6 @@
       "version": null,
       "description_short": "分析一段时间内健康数据的趋势和模式。关联药物、症状、生命体征、化验结果和其他健康指标的变化。识别令人担忧的趋势、改善情况，并提供数据驱动的洞察。当用户询问健康趋势、模式、随时间的变化或\"我的健康状况有什么变化？\"时使用。支持多维度分析（体重/BMI、症状、药物依从性、化验结果、情绪睡眠），相关性分析，变化检测，以及交…",
       "source_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/f9073a13a65b0bd900068102843a3fd06c18834d/skills/health-trend-analyzer",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "hosted-agents",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when designing hosted or background agent infrastructure: sandboxed execution, remote coding environments, warm pools, session persis…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/hosted-agents",
       "provenance": false,
       "adapted_from": null
     },
@@ -29001,17 +28748,6 @@
       "adapted_from": null
     },
     {
-      "name": "idea-refine",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stres…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/idea-refine",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "image",
       "store": "marketingskills",
       "shape": "skill",
@@ -29078,17 +28814,6 @@
       "adapted_from": null
     },
     {
-      "name": "incremental-implementation",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of c…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/incremental-implementation",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "influencer-marketing",
       "store": "marketingskills",
       "shape": "skill",
@@ -29118,17 +28843,6 @@
       "version": null,
       "description_short": "Discovers and integrates third-party APIs using the context-matic MCP server. Uses `fetch_api` to find available API SDKs, `ask` for integration guidance, `mod…",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/integrate-context-matic",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "interview-me",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/interview-me",
       "provenance": false,
       "adapted_from": null
     },
@@ -29364,17 +29078,6 @@
       "adapted_from": null
     },
     {
-      "name": "latent-briefing",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when the user asks to \\\"share memory between agents\\\", \\\"KV cache compaction for multi-agent\\\", \\\"orchestrator worker context\\\", \\\"la…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/latent-briefing",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "launch",
       "store": "marketingskills",
       "shape": "skill",
@@ -29536,17 +29239,6 @@
       "version": "1.0.0",
       "description_short": "Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques. Use when processing long documents (32k-128k+ toke…",
       "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/773a52944ba4747a18bd4ae9ade53fff041adcbc/19-emerging-techniques/long-context",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "long-horizon-prompting",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when writing, enhancing, or evaluating the launch prompt for a long-running autonomous agent or a parallel multi-agent orchestration …",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/long-horizon-prompting",
       "provenance": false,
       "adapted_from": null
     },
@@ -29815,17 +29507,6 @@
       "adapted_from": null
     },
     {
-      "name": "memory-systems",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used for persistent semantic memory in agent systems: cross-session knowledge retention, entity tracking, temporal validity, graph or vect…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/memory-systems",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "mental-health-analyzer",
       "store": "antigravity-awesome-skills",
       "shape": "skill",
@@ -30053,17 +29734,6 @@
       "version": null,
       "description_short": "Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.",
       "source_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/f9073a13a65b0bd900068102843a3fd06c18834d/skills/multi-agent-architect",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "multi-agent-patterns",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when designing multi-agent systems that need context isolation, supervisor or swarm coordination, explicit handoffs, parallel executi…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/multi-agent-patterns",
       "provenance": false,
       "adapted_from": null
     },
@@ -30361,17 +30031,6 @@
       "version": null,
       "description_short": "分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。",
       "source_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/f9073a13a65b0bd900068102843a3fd06c18834d/skills/nutrition-analyzer",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "observability-and-instrumentation",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that …",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/observability-and-instrumentation",
       "provenance": false,
       "adapted_from": null
     },
@@ -30838,17 +30497,6 @@
       "adapted_from": null
     },
     {
-      "name": "performance-optimization",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regre…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/performance-optimization",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "performance-review-writer",
       "store": "awesome-copilot",
       "shape": "skill",
@@ -30933,17 +30581,6 @@
       "version": "1.0.0",
       "description_short": "Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. L…",
       "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/773a52944ba4747a18bd4ae9ade53fff041adcbc/15-rag/pinecone",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "planning-and-task-breakdown",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/planning-and-task-breakdown",
       "provenance": false,
       "adapted_from": null
     },
@@ -31329,17 +30966,6 @@
       "version": null,
       "description_short": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages …",
       "source_url": "https://github.com/coreyhaines31/marketingskills/tree/c21a984a56da10fb6085e6334f6f60929220a4da/skills/programmatic-seo",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "project-development",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used for project-level decisions about LLM-powered systems: whether an LLM is the right primitive for the task at hand, the shape of a mul…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/project-development",
       "provenance": false,
       "adapted_from": null
     },
@@ -32257,17 +31883,6 @@
       "adapted_from": null
     },
     {
-      "name": "security-and-hardening",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that …",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/security-and-hardening",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "security-bluebook-builder",
       "store": "antigravity-awesome-skills",
       "shape": "skill",
@@ -32297,17 +31912,6 @@
       "version": "1.0.0",
       "description_short": "Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or…",
       "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/773a52944ba4747a18bd4ae9ade53fff041adcbc/18-multimodal/segment-anything",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "self-improvement-loops",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used when the harness, scaffold, workflow, or optimizer itself is the optimization target: recursive self-improvement (RSI) loops, meta-ha…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/self-improvement-loops",
       "provenance": false,
       "adapted_from": null
     },
@@ -32407,17 +32011,6 @@
       "version": null,
       "description_short": "sharp-edges",
       "source_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/f9073a13a65b0bd900068102843a3fd06c18834d/skills/sharp-edges",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "shipping-and-launch",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/shipping-and-launch",
       "provenance": false,
       "adapted_from": null
     },
@@ -32638,28 +32231,6 @@
       "version": null,
       "description_short": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or …",
       "source_url": "https://github.com/coreyhaines31/marketingskills/tree/c21a984a56da10fb6085e6334f6f60929220a4da/skills/social",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "source-driven-development",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when build…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/source-driven-development",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "spec-driven-development",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/spec-driven-development",
       "provenance": false,
       "adapted_from": null
     },
@@ -33060,17 +32631,6 @@
       "adapted_from": null
     },
     {
-      "name": "test-driven-development",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bu…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/test-driven-development",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "threat-model-analyst",
       "store": "awesome-copilot",
       "shape": "skill",
@@ -33221,17 +32781,6 @@
       "version": null,
       "description_short": "Creates valid Microsoft Threat Modeling Tool (.tm7) files compatible with the Microsoft Threat Modeling Tool v7.3+. Use this skill whenever asked to create, ge…",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/tm7-threat-model",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "tool-design",
-      "store": "agent-skills-context-engineering",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "This skill should be used for the tool-interface layer of an agent system specifically: writing tool descriptions agents can route on, designing tool schemas a…",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/c578e85e40fe2bda7c1fec91ff64cf5285434934/skills/tool-design",
       "provenance": false,
       "adapted_from": null
     },
@@ -33463,17 +33012,6 @@
       "version": null,
       "description_short": "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.",
       "source_url": "https://github.com/github/awesome-copilot/tree/329f2dcdaf02a59e88a0f55a8f51414fa3378966/skills/update-specification",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "using-agent-skills",
-      "store": "addyosmani-agent-skills",
-      "shape": "skill",
-      "trust_score": 40,
-      "version": null,
-      "description_short": "Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill th…",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/skills/using-agent-skills",
       "provenance": false,
       "adapted_from": null
     },
@@ -34787,17 +34325,6 @@
       "adapted_from": null
     },
     {
-      "name": "adapters",
-      "store": "imbad-academic-research-skills",
-      "shape": "unknown",
-      "trust_score": 35,
-      "version": null,
-      "description_short": "Reference adapters that produce `literature_corpus[]` entries for the ARS Material Passport. Defined by the adapter contract at [`academic-pipeline/references/…",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/scripts/adapters",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "ag2-agent-builder",
       "store": "buildwithclaude",
       "shape": "agent",
@@ -35931,17 +35458,6 @@
       "adapted_from": null
     },
     {
-      "name": "evals",
-      "store": "imbad-academic-research-skills",
-      "shape": "unknown",
-      "trust_score": 35,
-      "version": null,
-      "description_short": "This directory holds the v3.10 #184 generalized gold sets. Each subdirectory under `gold/` is a self-contained gold set for one measurement target. The structu…",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/evals",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "exam-ready",
       "store": "awesome-copilot",
       "shape": "skill",
@@ -36290,17 +35806,6 @@
       "version": null,
       "description_short": "",
       "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hookradar-creative-intelligence",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "hooks",
-      "store": "addyosmani-agent-skills",
-      "shape": "hook",
-      "trust_score": 35,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/addyosmani/agent-skills/tree/7829ffd90d973b6325f5f12f1b1226dcace74443/hooks",
       "provenance": false,
       "adapted_from": null
     },
@@ -37174,17 +36679,6 @@
       "adapted_from": null
     },
     {
-      "name": "perf",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "hook",
-      "trust_score": 35,
-      "version": null,
-      "description_short": "Rigorous performance investigation workflow. `/perf` enforces sequential benchmarks, minimum run durations, and evidence-backed decision-making.",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/perf",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "performance-testing-review",
       "store": "wshobson-agents",
       "shape": "agent",
@@ -37357,17 +36851,6 @@
       "version": null,
       "description_short": "Safe, test-backed code restructuring in small steps.",
       "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/refactoring",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "release-discipline",
-      "store": "imbad-academic-research-skills",
-      "shape": "unknown",
-      "trust_score": 35,
-      "version": null,
-      "description_short": "vendored from release-discipline-toolkit@v0.3.2 on 2026-07-03",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/tools/release-discipline",
       "provenance": false,
       "adapted_from": null
     },
@@ -37621,17 +37104,6 @@
       "version": null,
       "description_short": "",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/ship-mate",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "showcase",
-      "store": "imbad-academic-research-skills",
-      "shape": "unknown",
-      "trust_score": 35,
-      "version": null,
-      "description_short": "Complete artifacts from a real 10-stage academic pipeline run, demonstrating the end-to-end quality assurance process.",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/examples/showcase",
       "provenance": false,
       "adapted_from": null
     },
@@ -38186,17 +37658,6 @@
       "adapted_from": null
     },
     {
-      "name": "skill-bus",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "hook",
-      "trust_score": 33,
-      "version": null,
-      "description_short": "**The skill for connecting skills.**",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/skill-bus",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "analyze-evals",
       "store": "microsoft-copilot-studio-skills",
       "shape": "skill",
@@ -38362,39 +37823,6 @@
       "adapted_from": null
     },
     {
-      "name": "academic-paper",
-      "store": "imbad-academic-research-skills",
-      "shape": "skill",
-      "trust_score": 30,
-      "version": null,
-      "description_short": "12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebu…",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/academic-paper",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "academic-paper-reviewer",
-      "store": "imbad-academic-research-skills",
-      "shape": "skill",
-      "trust_score": 30,
-      "version": null,
-      "description_short": "Multi-perspective academic paper review with dynamic reviewer personas. Simulates 5 independent reviewers (EIC + 3 peer reviewers + Devil's Advocate) with fiel…",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/academic-paper-reviewer",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "academic-pipeline",
-      "store": "imbad-academic-research-skills",
-      "shape": "skill",
-      "trust_score": 30,
-      "version": null,
-      "description_short": "Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity che…",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/academic-pipeline",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "algorithmic-art",
       "store": "claude-skills",
       "shape": "skill",
@@ -38424,17 +37852,6 @@
       "version": null,
       "description_short": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, …",
       "source_url": "https://github.com/anthropics/skills/tree/b29e7cf65e5cb78a5ac33d582270551bc74a14eb/skills/canvas-design",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "deep-research",
-      "store": "imbad-academic-research-skills",
-      "shape": "skill",
-      "trust_score": 30,
-      "version": null,
-      "description_short": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-revie…",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/deep-research",
       "provenance": false,
       "adapted_from": null
     },
@@ -38659,61 +38076,6 @@
       "adapted_from": null
     },
     {
-      "name": "agent-sdk-dev",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "agent",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/agent-sdk-dev",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "artifacts-builder",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "skill",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/artifacts-builder",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "backend-architect",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "agent",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/backend-architect",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "canvas-design",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "skill",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/canvas-design",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "changelog-generator",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "skill",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/changelog-generator",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
       "name": "claude-api",
       "store": "claude-skills",
       "shape": "skill",
@@ -38721,127 +38083,6 @@
       "version": null,
       "description_short": "",
       "source_url": "https://github.com/anthropics/skills/tree/b29e7cf65e5cb78a5ac33d582270551bc74a14eb/skills/claude-api",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "debugger",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "agent",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/debugger",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "developer-growth-analysis",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "skill",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/developer-growth-analysis",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "frontend-design",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "skill",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/frontend-design",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "frontend-developer",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "agent",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/frontend-developer",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "hooks",
-      "store": "imbad-academic-research-skills",
-      "shape": "hook",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/hooks",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "mcp-builder",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "skill",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/mcp-builder",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "security-guidance",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "hook",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/security-guidance",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "senior-frontend",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "skill",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/senior-frontend",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "shared",
-      "store": "imbad-academic-research-skills",
-      "shape": "agent",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/Imbad0202/academic-research-skills/tree/c81633470925c10d2a41c25fb6d01bb132f6f125/shared",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "test-writer-fixer",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "agent",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/test-writer-fixer",
-      "provenance": false,
-      "adapted_from": null
-    },
-    {
-      "name": "theme-factory",
-      "store": "composio-awesome-claude-plugins",
-      "shape": "skill",
-      "trust_score": 25,
-      "version": null,
-      "description_short": "",
-      "source_url": "https://github.com/ComposioHQ/awesome-claude-plugins/tree/e521f7ada8d89abea888e67b93b4dcfbb977041f/theme-factory",
       "provenance": false,
       "adapted_from": null
     },
