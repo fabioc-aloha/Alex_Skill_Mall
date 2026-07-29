@@ -1,0 +1,772 @@
+{
+  "store": "mongodb-agent-skills",
+  "source_repo": "https://github.com/mongodb/agent-skills.git",
+  "generated_at": "2026-07-29T01:14:40.820Z",
+  "scanned_ref": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+  "provenance": false,
+  "tier": "mongodb-official",
+  "license": "Apache-2.0",
+  "plugin_count": 13,
+  "plugins": [
+    {
+      "name": "mongodb",
+      "shape": "mixed",
+      "source_path": "plugins/mongodb",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/plugins/mongodb",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "mongodb",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-atlas",
+      "shape": "skill",
+      "source_path": "plugins/mongodb-atlas",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/plugins/mongodb-atlas",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "mongodb-atlas",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-atlas-stream-processing",
+      "shape": "skill",
+      "source_path": "skills/mongodb-atlas-stream-processing",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/skills/mongodb-atlas-stream-processing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mongodb-atlas-stream-processing",
+          "description": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections, processor lifecycle operations, debugging diagnostics, and tier sizing. Supports Kafka, Atlas clusters, S3, HTTPS, and Lambda integrations for streaming data workloads and event processing. NOT for general MongoDB queries or Atlas cluster management. Requires MongoDB MCP Server with Atlas API credentials.",
+          "license": "Apache-2.0",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "mongodb-atlas-stream-processing",
+          "description": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections, processor lifecycle operations, debugging diagnostics, and tier sizing. Supports Kafka, Atlas clusters, S3, HTTPS, and Lambda integrations for streaming data workloads and event processing. NOT for general MongoDB queries or Atlas cluster management. Requires MongoDB MCP Server with Atlas API credentials.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-connection",
+      "shape": "skill",
+      "source_path": "skills/mongodb-connection",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/skills/mongodb-connection",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mongodb-connection",
+          "description": "Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driver language. Use this skill when working/updating/reviewing on functions that instantiate or configure a MongoDB client (eg, when calling `connect()`), configuring connection pools, troubleshooting connection errors (ECONNREFUSED, timeouts, pool exhaustion), optimizing performance issues related to connections. This includes scenarios like building serverless functions with MongoDB, creating API endpoints that use MongoDB, optimizing high-traffic MongoDB applications, creating long-running tasks and concurrency, or debugging connection-related failures.",
+          "license": "Apache-2.0",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "mongodb-connection",
+          "description": "Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driver language. Use this skill when working/updating/reviewing on functions that instantiate or configure a MongoDB client (eg, when calling `connect()`), configuring connection pools, troubleshooting connection errors (ECONNREFUSED, timeouts, pool exhaustion), optimizing performance issues related to connections. This includes scenarios like building serverless functions with MongoDB, creating API endpoints that use MongoDB, optimizing high-traffic MongoDB applications, creating long-running tasks and concurrency, or debugging connection-related failures.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-mcp-setup",
+      "shape": "skill",
+      "source_path": "skills/mongodb-mcp-setup",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/skills/mongodb-mcp-setup",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mongodb-mcp-setup",
+          "description": "Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the MongoDB MCP server installed but hasn't configured the required environment variables, or when they ask about connecting to MongoDB/Atlas and don't have the credentials set up.",
+          "license": "Apache-2.0",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "mongodb-mcp-setup",
+          "description": "Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the MongoDB MCP server installed but hasn't configured the required environment variables, or when they ask about connecting to MongoDB/Atlas and don't have the credentials set up.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-natural-language-querying",
+      "shape": "skill",
+      "source_path": "skills/mongodb-natural-language-querying",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/skills/mongodb-natural-language-querying",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mongodb-natural-language-querying",
+          "description": "Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with collection schema context and sample documents. Use this skill whenever the user asks to write, create, or generate MongoDB queries, wants to filter/query/aggregate data in MongoDB, asks \"how do I query...\", needs help with query syntax, or discusses finding/filtering/grouping MongoDB documents. Also use for translating SQL-like requests to MongoDB syntax. Does NOT handle Atlas Search ($search operator), vector/semantic search ($vectorSearch operator), fuzzy matching, autocomplete indexes, or relevance scoring - use search-and-ai for those. Does NOT analyze or optimize existing queries - use mongodb-query-optimizer for that. Does NOT handle aggregation pipelines that involve write operations. Requires MongoDB MCP server.",
+          "license": "Apache-2.0",
+          "metadata": "",
+          "allowed-tools": "mcp__mongodb__*"
+        },
+        "standard": {
+          "name": "mongodb-natural-language-querying",
+          "description": "Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with collection schema context and sample documents. Use this skill whenever the user asks to write, create, or generate MongoDB queries, wants to filter/query/aggregate data in MongoDB, asks \"how do I query...\", needs help with query syntax, or discusses finding/filtering/grouping MongoDB documents. Also use for translating SQL-like requests to MongoDB syntax. Does NOT handle Atlas Search ($search operator), vector/semantic search ($vectorSearch operator), fuzzy matching, autocomplete indexes, or relevance scoring - use search-and-ai for those. Does NOT analyze or optimize existing queries - use mongodb-query-optimizer for that. Does NOT handle aggregation pipelines that involve write operations. Requires MongoDB MCP server.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": [
+            "mcp__mongodb__*"
+          ],
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-query-optimizer",
+      "shape": "skill",
+      "source_path": "skills/mongodb-query-optimizer",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/skills/mongodb-query-optimizer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mongodb-query-optimizer",
+          "description": "",
+          "compatibility": "",
+          "license": "Apache-2.0",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "mongodb-query-optimizer",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-schema-design",
+      "shape": "skill",
+      "source_path": "skills/mongodb-schema-design",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/skills/mongodb-schema-design",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mongodb-schema-design",
+          "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL, or troubleshooting performance issues caused by schema problems. Triggers on \"design schema\", \"embed vs reference\", \"MongoDB data model\", \"schema review\", \"unbounded arrays\", \"one-to-many\", \"tree structure\", \"16MB limit\", \"schema validation\", \"JSON Schema\", \"time series\", \"schema migration\", \"polymorphic\", \"TTL\", \"data lifecycle\", \"archive\", \"index explosion\", \"unnecessary indexes\", \"approximation pattern\", \"document versioning\".",
+          "license": "Apache-2.0",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "mongodb-schema-design",
+          "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL, or troubleshooting performance issues caused by schema problems. Triggers on \"design schema\", \"embed vs reference\", \"MongoDB data model\", \"schema review\", \"unbounded arrays\", \"one-to-many\", \"tree structure\", \"16MB limit\", \"schema validation\", \"JSON Schema\", \"time series\", \"schema migration\", \"polymorphic\", \"TTL\", \"data lifecycle\", \"archive\", \"index explosion\", \"unnecessary indexes\", \"approximation pattern\", \"document versioning\".",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-search-and-ai",
+      "shape": "skill",
+      "source_path": "skills/mongodb-search-and-ai",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/skills/mongodb-search-and-ai",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mongodb-search-and-ai",
+          "description": "",
+          "license": "Apache-2.0",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "mongodb-search-and-ai",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-atlas-stream-processing",
+      "shape": "unknown",
+      "source_path": "testing/mongodb-atlas-stream-processing",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/testing/mongodb-atlas-stream-processing",
+      "readme_excerpt": "Automated test suite for the `mongodb-atlas-stream-processing` skill.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "mongodb-atlas-stream-processing",
+          "description": "Automated test suite for the `mongodb-atlas-stream-processing` skill.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mongodb-query-optimizer",
+      "shape": "unknown",
+      "source_path": "testing/mongodb-query-optimizer",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/testing/mongodb-query-optimizer",
+      "readme_excerpt": "Test data setup scripts, eval definitions, and configuration for testing the `mongodb-query-optimizer` skill.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "mongodb-query-optimizer",
+          "description": "Test data setup scripts, eval definitions, and configuration for testing the `mongodb-query-optimizer` skill.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "skills-boundaries",
+      "shape": "unknown",
+      "source_path": "testing/skills-boundaries",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/testing/skills-boundaries",
+      "readme_excerpt": "This directory contains evaluation tests to validate that skills are invoked at the correct times based on user prompts.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "skills-boundaries",
+          "description": "This directory contains evaluation tests to validate that skills are invoked at the correct times based on user prompts.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "review-skill",
+      "shape": "skill",
+      "source_path": "tools/review-skill",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/tools/review-skill",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "review-skill",
+          "description": "",
+          "compatibility": "Requires skill-validator CLI and claude CLI for LLM scoring. LLM scoring can be skipped for structural-only review.",
+          "metadata": ""
+        },
+        "standard": {
+          "name": "review-skill",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "tags": [
+          "v1.1.0",
+          "v1.0.0",
+          "v0.5.0"
+        ]
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 164,
+          "contributors": 14,
+          "last_commit": "2026-07-23T12:58:01Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 30,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 5,
+      "license": 10,
+      "license_name": "Apache-2.0",
+      "stars": 164,
+      "contributors": 14,
+      "last_commit": "2026-07-23T12:58:01Z",
+      "archived": false
+    }
+  }
+}

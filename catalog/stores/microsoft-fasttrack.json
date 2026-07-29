@@ -1,0 +1,2208 @@
+{
+  "store": "microsoft-fasttrack",
+  "source_repo": "https://github.com/microsoft/FastTrack.git",
+  "generated_at": "2026-07-29T01:14:40.358Z",
+  "scanned_ref": "af56292b58a7ca90e1277472611b443592081c0a",
+  "provenance": false,
+  "tier": "microsoft-official",
+  "license": "MIT",
+  "plugin_count": 40,
+  "plugins": [
+    {
+      "name": "copilot-agent-samples",
+      "shape": "unknown",
+      "source_path": "copilot-agent-samples",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/copilot-agent-samples",
+      "readme_excerpt": "Welcome to the official FastTrack repository for agent samples, skills, and templates. Whether you're building on **Copilot Studio**, **Agent Builder**, or **GitHub Copilot CLI** — start here.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "copilot-agent-samples",
+          "description": "Welcome to the official FastTrack repository for agent samples, skills, and templates. Whether you're building on **Copilot Studio**, **Agent Builder**, or **GitHub Copilot CLI** — start here.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "copilot-agent-strategy",
+      "shape": "unknown",
+      "source_path": "copilot-agent-strategy",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/copilot-agent-strategy",
+      "readme_excerpt": "A curated collection of strategic tools, templates, and guides to help you plan, design, and deploy the right Microsoft Copilot agents for your organization.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "copilot-agent-strategy",
+          "description": "A curated collection of strategic tools, templates, and guides to help you plan, design, and deploy the right Microsoft Copilot agents for your organization.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "copilot-analytics-samples",
+      "shape": "unknown",
+      "source_path": "copilot-analytics-samples",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/copilot-analytics-samples",
+      "readme_excerpt": "This directory contains distinct sample solutions to help organizations analyze the usage, adoption, and potential impact of Microsoft Copilot. Each sub-directory typically contains a specific Power B",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "copilot-analytics-samples",
+          "description": "This directory contains distinct sample solutions to help organizations analyze the usage, adoption, and potential impact of Microsoft Copilot. Each sub-directory typically contains a specific Power B",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "copilot-prompt-samples",
+      "shape": "unknown",
+      "source_path": "copilot-prompt-samples",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/copilot-prompt-samples",
+      "readme_excerpt": "This directory contains a collection of prompt samples designed for Microsoft's Frontier Program agents. These prompts have been tested and optimized to produce high-quality results when used with spe",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "copilot-prompt-samples",
+          "description": "This directory contains a collection of prompt samples designed for Microsoft's Frontier Program agents. These prompts have been tested and optimized to produce high-quality results when used with spe",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "teams-audioconferencing-snippets",
+      "shape": "unknown",
+      "source_path": "samples/teams-audioconferencing-snippets",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/samples/teams-audioconferencing-snippets",
+      "readme_excerpt": "Here are a few common Teams Audio Conferencing configuration PowerShell snippets that our customers rely on to update user settings for Audio Conferencing.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "teams-audioconferencing-snippets",
+          "description": "Here are a few common Teams Audio Conferencing configuration PowerShell snippets that our customers rely on to update user settings for Audio Conferencing.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "teams-phonesystem-snippets",
+      "shape": "unknown",
+      "source_path": "samples/teams-phonesystem-snippets",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/samples/teams-phonesystem-snippets",
+      "readme_excerpt": "Here are a few common Teams Phone System configuration PowerShell snippets for number configuration and other related tasks.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "teams-phonesystem-snippets",
+          "description": "Here are a few common Teams Phone System configuration PowerShell snippets for number configuration and other related tasks.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "teams-rooms-snippets",
+      "shape": "unknown",
+      "source_path": "samples/teams-rooms-snippets",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/samples/teams-rooms-snippets",
+      "readme_excerpt": "Microsoft Teams Rooms configuration snippets for single room creation and configuration as well as bulk.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "teams-rooms-snippets",
+          "description": "Microsoft Teams Rooms configuration snippets for single room creation and configuration as well as bulk.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "teams-upgrade-snippets",
+      "shape": "unknown",
+      "source_path": "samples/teams-upgrade-snippets",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/samples/teams-upgrade-snippets",
+      "readme_excerpt": "Here are a few common Teams Upgrade PowerShell snippets that our customers have found useful in their journey to Teams Only mode.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "teams-upgrade-snippets",
+          "description": "Here are a few common Teams Upgrade PowerShell snippets that our customers have found useful in their journey to Teams Only mode.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Viva-Engage-Community-Creation-App",
+      "shape": "unknown",
+      "source_path": "samples/Viva-Engage-Community-Creation-App",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/samples/Viva-Engage-Community-Creation-App",
+      "readme_excerpt": "This Power App import package is intended to be used as a sample that shows how to use the [Viva Engage Community Creation API](https://learn.microsoft.com/en-us/graph/api/employeeexperience-post-comm",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Viva-Engage-Community-Creation-App",
+          "description": "This Power App import package is intended to be used as a sample that shows how to use the [Viva Engage Community Creation API](https://learn.microsoft.com/en-us/graph/api/employeeexperience-post-comm",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Add-EngageGroupAdmins",
+      "shape": "unknown",
+      "source_path": "scripts/Add-EngageGroupAdmins",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Add-EngageGroupAdmins",
+      "readme_excerpt": "This sample script will allow an admin to bulk-add admins (owners) to Viva Engage communities using the Microsoft Graph API.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Add-EngageGroupAdmins",
+          "description": "This sample script will allow an admin to bulk-add admins (owners) to Viva Engage communities using the Microsoft Graph API.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Analyze-SharePointRisk",
+      "shape": "unknown",
+      "source_path": "scripts/Analyze-SharePointRisk",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Analyze-SharePointRisk",
+      "readme_excerpt": "title: Analyze-SharePointRisk",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Analyze-SharePointRisk",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "John Cummings",
+          "version": "1.0.0",
+          "published": "2025-10-16",
+          "updated": "2025-10-23",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Analyze-SharePointRisk",
+          "description": "title: Analyze-SharePointRisk",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "John Cummings"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "archive",
+      "shape": "unknown",
+      "source_path": "scripts/archive",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/archive",
+      "readme_excerpt": "This folder holds FastTrack scripts that are **no longer actively maintained**. They were moved here during a content review because they had not been updated in **3+ years** and, in many cases, targe",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "archive",
+          "description": "This folder holds FastTrack scripts that are **no longer actively maintained**. They were moved here during a content review because they had not been updated in **3+ years** and, in many cases, targe",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Create-EngageCommunities",
+      "shape": "unknown",
+      "source_path": "scripts/Create-EngageCommunities",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Create-EngageCommunities",
+      "readme_excerpt": "title: Create-EngageCommunities",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Create-EngageCommunities",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "Bulk-create up to 50 sample Viva Engage communities from JSON and assign a chosen or random owner.",
+          "author": "Dean Cron",
+          "version": "1.0.0",
+          "published": "2023-12-22",
+          "updated": "2025-10-02",
+          "tags": "",
+          "format": "ps1",
+          "status": "preview",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Create-EngageCommunities",
+          "description": "title: Create-EngageCommunities",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Dean Cron"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Delete-AllCommunityPosts",
+      "shape": "unknown",
+      "source_path": "scripts/Delete-AllCommunityPosts",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Delete-AllCommunityPosts",
+      "readme_excerpt": "This sample script will allow a Viva Engage admin to delete all messages in an existing Engage group.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Delete-AllCommunityPosts",
+          "description": "This sample script will allow a Viva Engage admin to delete all messages in an existing Engage group.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Delete-EngageGroups",
+      "shape": "unknown",
+      "source_path": "scripts/Delete-EngageGroups",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Delete-EngageGroups",
+      "readme_excerpt": "This sample script will allow an admin to bulk-delete Viva Engage communities using the Microsoft Graph API.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Delete-EngageGroups",
+          "description": "This sample script will allow an admin to bulk-delete Viva Engage communities using the Microsoft Graph API.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Delete-EngageUsers",
+      "shape": "unknown",
+      "source_path": "scripts/Delete-EngageUsers",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Delete-EngageUsers",
+      "readme_excerpt": "This sample script bulk-removes users from a specific Viva Engage community (Microsoft 365 group) using the Microsoft Graph API.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Delete-EngageUsers",
+          "description": "This sample script bulk-removes users from a specific Viva Engage community (Microsoft 365 group) using the Microsoft Graph API.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Disable-InsightsHeadSpace",
+      "shape": "unknown",
+      "source_path": "scripts/Disable-InsightsHeadSpace",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Disable-InsightsHeadSpace",
+      "readme_excerpt": "This sample script disables HeadSpace in Viva Insights for all users with a Personal Insights service plan",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Disable-InsightsHeadSpace",
+          "description": "This sample script disables HeadSpace in Viva Insights for all users with a Personal Insights service plan",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Export-CopilotInteractions",
+      "shape": "unknown",
+      "source_path": "scripts/Export-CopilotInteractions",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Export-CopilotInteractions",
+      "readme_excerpt": "title: Export-CopilotInteractions",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Export-CopilotInteractions",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Alejandro Lopez",
+          "version": "1.0.0",
+          "published": "2026-05-21",
+          "updated": "2026-05-21",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Export-CopilotInteractions",
+          "description": "title: Export-CopilotInteractions",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Alejandro Lopez"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Export-EngageFiles",
+      "shape": "unknown",
+      "source_path": "scripts/Export-EngageFiles",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Export-EngageFiles",
+      "readme_excerpt": "This sample script calls the Yammer Files Export API to export files from your Yammer network that were uploaded by users during the date range specified in the command.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Export-EngageFiles",
+          "description": "This sample script calls the Yammer Files Export API to export files from your Yammer network that were uploaded by users during the date range specified in the command.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Export-EngageNetworkData",
+      "shape": "unknown",
+      "source_path": "scripts/Export-EngageNetworkData",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Export-EngageNetworkData",
+      "readme_excerpt": "This sample script calls the Yammer Network Data Export API to export messages and (optionally) files from your Yammer network for the date range specified in the command.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Export-EngageNetworkData",
+          "description": "This sample script calls the Yammer Network Data Export API to export messages and (optionally) files from your Yammer network for the date range specified in the command.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Export-M365CopilotReports",
+      "shape": "unknown",
+      "source_path": "scripts/Export-M365CopilotReports",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Export-M365CopilotReports",
+      "readme_excerpt": "title: Export-M365CopilotReports",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Export-M365CopilotReports",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Alejandro Lopez",
+          "version": "1.0.0",
+          "published": "2025-03-11",
+          "updated": "2025-03-25",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Export-M365CopilotReports",
+          "description": "title: Export-M365CopilotReports",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Alejandro Lopez"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Export-SimplePlacesVIsual",
+      "shape": "unknown",
+      "source_path": "scripts/Export-SimplePlacesVIsual",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Export-SimplePlacesVIsual",
+      "readme_excerpt": "Exports a simple visual representation of the Places directory structure, showing the hierarchy of sections, rooms, spaces, and desks. The output is a text-based tree structure that is displayed in th",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Export-SimplePlacesVIsual",
+          "description": "Exports a simple visual representation of the Places directory structure, showing the hierarchy of sections, rooms, spaces, and desks. The output is a text-based tree structure that is displayed in th",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Find-MailboxDelegates",
+      "shape": "unknown",
+      "source_path": "scripts/Find-MailboxDelegates",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Find-MailboxDelegates",
+      "readme_excerpt": "Migrating to Exchange Online (EXO) using Exchange Hybrid? Make sure to migrate mailboxes with the same manager or delegate (associated delegates) in the same batch otherwise their access to each other",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Find-MailboxDelegates",
+          "description": "Migrating to Exchange Online (EXO) using Exchange Hybrid? Make sure to migrate mailboxes with the same manager or delegate (associated delegates) in the same batch otherwise their access to each other",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-AADAdminRoleMembers",
+      "shape": "unknown",
+      "source_path": "scripts/Get-AADAdminRoleMembers",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-AADAdminRoleMembers",
+      "readme_excerpt": "title: Get-AADAdminRoleMembers",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Get-AADAdminRoleMembers",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Brian Baldock",
+          "version": "1.0.0",
+          "published": "2020-01-14",
+          "updated": "2021-01-15",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Get-AADAdminRoleMembers",
+          "description": "title: Get-AADAdminRoleMembers",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Brian Baldock"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-AllInsightsLicensedUsers",
+      "shape": "unknown",
+      "source_path": "scripts/Get-AllInsightsLicensedUsers",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-AllInsightsLicensedUsers",
+      "readme_excerpt": "This sample script pulls users specifically assigned the WORKPLACE_ANALYTICS_INSIGHTS_USER service plan from Entra. This can be used to build the Organizational Data file which is later uploaded into ",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Get-AllInsightsLicensedUsers",
+          "description": "This sample script pulls users specifically assigned the WORKPLACE_ANALYTICS_INSIGHTS_USER service plan from Entra. This can be used to build the Organizational Data file which is later uploaded into ",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-EngageGroupInfo",
+      "shape": "unknown",
+      "source_path": "scripts/Get-EngageGroupInfo",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-EngageGroupInfo",
+      "readme_excerpt": "This sample script gets key information about every Viva Engage community in your tenant using the Microsoft Graph API, including community/group ID, name, member count, and community admins.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Get-EngageGroupInfo",
+          "description": "This sample script gets key information about every Viva Engage community in your tenant using the Microsoft Graph API, including community/group ID, name, member count, and community admins.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-GroupsMembersManagers",
+      "shape": "unknown",
+      "source_path": "scripts/Get-GroupsMembersManagers",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-GroupsMembersManagers",
+      "readme_excerpt": "This sample script generates a report of Microsoft Entra groups, their members, and their managers. It supports three input modes: all groups, a single group by display name, or users supplied from a ",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Get-GroupsMembersManagers",
+          "description": "This sample script generates a report of Microsoft Entra groups, their members, and their managers. It supports three input modes: all groups, a single group by display name, or users supplied from a ",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-LicenseUsage",
+      "shape": "unknown",
+      "source_path": "scripts/Get-LicenseUsage",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-LicenseUsage",
+      "readme_excerpt": "title: Get-LicenseUsage",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Get-LicenseUsage",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Brian Baldock",
+          "version": "1.0.0",
+          "published": "2022-01-19",
+          "updated": "2022-01-19",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Get-LicenseUsage",
+          "description": "title: Get-LicenseUsage",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Brian Baldock"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-M365CopilotReadiness",
+      "shape": "unknown",
+      "source_path": "scripts/Get-M365CopilotReadiness",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-M365CopilotReadiness",
+      "readme_excerpt": "title: Get-M365CopilotReadiness",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Get-M365CopilotReadiness",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "John Cummings",
+          "version": "1.0.0",
+          "published": "2025-08-20",
+          "updated": "2025-09-09",
+          "tags": "",
+          "format": "ps1",
+          "featured": "true",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Get-M365CopilotReadiness",
+          "description": "title: Get-M365CopilotReadiness",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "John Cummings"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-RecurringTeamsMeetings",
+      "shape": "unknown",
+      "source_path": "scripts/Get-RecurringTeamsMeetings",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-RecurringTeamsMeetings",
+      "readme_excerpt": "This PowerShell script scans user calendars in a Microsoft 365 tenant to find and report on all recurring Teams meetings. It can run against **all users** in the tenant or a **targeted list of users**",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Get-RecurringTeamsMeetings",
+          "description": "This PowerShell script scans user calendars in a Microsoft 365 tenant to find and report on all recurring Teams meetings. It can run against **all users** in the tenant or a **targeted list of users**",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "get-siteinventory",
+      "shape": "unknown",
+      "source_path": "scripts/get-siteinventory",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/get-siteinventory",
+      "readme_excerpt": "title: Get-SiteInventory",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Get-SiteInventory",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Patrick Rodgers",
+          "version": "1.0.0",
+          "published": "2018-06-22",
+          "updated": "2018-10-30",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "get-siteinventory",
+          "description": "title: Get-SiteInventory",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Patrick Rodgers"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-TeamsUserActivityReport",
+      "shape": "unknown",
+      "source_path": "scripts/Get-TeamsUserActivityReport",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-TeamsUserActivityReport",
+      "readme_excerpt": "title: Get-TeamsUserActivityReport",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Get-TeamsUserActivityReport",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Alejandro Lopez",
+          "version": "1.0.0",
+          "published": "2025-09-30",
+          "updated": "2025-09-30",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Get-TeamsUserActivityReport",
+          "description": "title: Get-TeamsUserActivityReport",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Alejandro Lopez"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Get-YammerSiteSize",
+      "shape": "unknown",
+      "source_path": "scripts/Get-YammerSiteSize",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Get-YammerSiteSize",
+      "readme_excerpt": "This sample script gets all SPO sites created through Yammer community creation and reports the current storage size used in each site.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Get-YammerSiteSize",
+          "description": "This sample script gets all SPO sites created through Yammer community creation and reports the current storage size used in each site.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Migrate-CopilotStudioAgents",
+      "shape": "unknown",
+      "source_path": "scripts/Migrate-CopilotStudioAgents",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Migrate-CopilotStudioAgents",
+      "readme_excerpt": "title: Migrate-CopilotStudioAgents",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Migrate-CopilotStudioAgents",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Dean Cron",
+          "version": "1.0.0",
+          "published": "2026-07-15",
+          "updated": "2026-07-15",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Migrate-CopilotStudioAgents",
+          "description": "title: Migrate-CopilotStudioAgents",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Dean Cron"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Preflight-OneDrive",
+      "shape": "unknown",
+      "source_path": "scripts/Preflight-OneDrive",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Preflight-OneDrive",
+      "readme_excerpt": "title: Preflight-OneDrive",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Preflight-OneDrive",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Alejandro Lopez",
+          "version": "1.0.0",
+          "published": "2019-08-02",
+          "updated": "2019-08-02",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Preflight-OneDrive",
+          "description": "title: Preflight-OneDrive",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Alejandro Lopez"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Teams Phone User Migration",
+      "shape": "unknown",
+      "source_path": "scripts/Teams Phone User Migration",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Teams Phone User Migration",
+      "readme_excerpt": "title: Teams Phone User Migration",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Teams Phone User Migration",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Laure Van der Hauwaert",
+          "version": "1.0.0",
+          "published": "2024-10-21",
+          "updated": "2024-10-21",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Teams Phone User Migration",
+          "description": "title: Teams Phone User Migration",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Laure Van der Hauwaert"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Update-VivaEngageLicensingToggle",
+      "shape": "unknown",
+      "source_path": "scripts/Update-VivaEngageLicensingToggle",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/scripts/Update-VivaEngageLicensingToggle",
+      "readme_excerpt": ">**IMPORTANT:** This script and readme are being published ahead of the availability of both the endpoint and additional documentation. This message will be removed when the underlying REST API is ava",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Update-VivaEngageLicensingToggle",
+          "description": ">**IMPORTANT:** This script and readme are being published ahead of the availability of both the endpoint and additional documentation. This message will be removed when the underlying REST API is ava",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "catalog-build",
+      "shape": "unknown",
+      "source_path": "tools/catalog-build",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/tools/catalog-build",
+      "readme_excerpt": "This package generates the static FastTrack catalog from YAML front matter in resource Markdown files.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "catalog-build",
+          "description": "This package generates the static FastTrack catalog from YAML front matter in resource Markdown files.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "SimpleGraph",
+      "shape": "unknown",
+      "source_path": "tools/SimpleGraph",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/tools/SimpleGraph",
+      "readme_excerpt": "This PowerShell module provides a generic but simplified way to access Microsoft Graph API resources with PowerShell. It relies on the Graph authentication provided with the [MSAL.PS PowerShell module",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "SimpleGraph",
+          "description": "This PowerShell module provides a generic but simplified way to access Microsoft Graph API resources with PowerShell. It relies on the Graph authentication provided with the [MSAL.PS PowerShell module",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "traffic-data",
+      "shape": "unknown",
+      "source_path": "traffic-data",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/af56292b58a7ca90e1277472611b443592081c0a/traffic-data",
+      "readme_excerpt": "This directory is automatically populated by the [traffic-stats workflow](../.github/workflows/traffic-stats.yml).",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "traffic-data",
+          "description": "This directory is automatically populated by the [traffic-stats workflow](../.github/workflows/traffic-stats.yml).",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "af56292b58a7ca90e1277472611b443592081c0a",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-07-27T19:56:39Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 32,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 7,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 219,
+      "contributors": 24,
+      "last_commit": "2026-07-27T19:56:39Z",
+      "archived": false
+    }
+  }
+}

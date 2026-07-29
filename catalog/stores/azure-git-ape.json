@@ -1,0 +1,200 @@
+{
+  "store": "azure-git-ape",
+  "source_repo": "https://github.com/Azure/git-ape.git",
+  "generated_at": "2026-07-29T01:14:39.516Z",
+  "scanned_ref": "dde02eeabeed0a3aa9024c5ee0ed48d29d063777",
+  "provenance": false,
+  "tier": "microsoft-official",
+  "license": "MIT",
+  "plugin_count": 3,
+  "plugins": [
+    {
+      "name": "extension",
+      "shape": "unknown",
+      "source_path": "extension",
+      "source_url": "https://github.com/Azure/git-ape/tree/dde02eeabeed0a3aa9024c5ee0ed48d29d063777/extension",
+      "readme_excerpt": "> **EXPERIMENTAL.** Git-Ape is in active development and is not production-ready.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "extension",
+          "description": "> **EXPERIMENTAL.** Git-Ape is in active development and is not production-ready.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "dde02eeabeed0a3aa9024c5ee0ed48d29d063777",
+        "tags": [
+          "v0.3.0",
+          "v0.2.0",
+          "v0.1.1",
+          "v0.1.0",
+          "v0.0.3",
+          "v0.0.2",
+          "v0.0.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 264,
+          "contributors": 9,
+          "last_commit": "2026-07-28T01:11:34Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "website",
+      "shape": "unknown",
+      "source_path": "website",
+      "source_url": "https://github.com/Azure/git-ape/tree/dde02eeabeed0a3aa9024c5ee0ed48d29d063777/website",
+      "readme_excerpt": "This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "website",
+          "description": "This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "dde02eeabeed0a3aa9024c5ee0ed48d29d063777",
+        "tags": [
+          "v0.3.0",
+          "v0.2.0",
+          "v0.1.1",
+          "v0.1.0",
+          "v0.0.3",
+          "v0.0.2",
+          "v0.0.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 264,
+          "contributors": 9,
+          "last_commit": "2026-07-28T01:11:34Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "workshops",
+      "shape": "unknown",
+      "source_path": "workshops",
+      "source_url": "https://github.com/Azure/git-ape/tree/dde02eeabeed0a3aa9024c5ee0ed48d29d063777/workshops",
+      "readme_excerpt": "> AI-Powered Cloud Deployment for Everyone",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "workshops",
+          "description": "> AI-Powered Cloud Deployment for Everyone",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "dde02eeabeed0a3aa9024c5ee0ed48d29d063777",
+        "tags": [
+          "v0.3.0",
+          "v0.2.0",
+          "v0.1.1",
+          "v0.1.0",
+          "v0.0.3",
+          "v0.0.2",
+          "v0.0.1"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 264,
+          "contributors": 9,
+          "last_commit": "2026-07-28T01:11:34Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 32,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 7,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 264,
+      "contributors": 9,
+      "last_commit": "2026-07-28T01:11:34Z",
+      "archived": false
+    }
+  }
+}

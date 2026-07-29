@@ -1,0 +1,636 @@
+{
+  "store": "qdrant-skills",
+  "source_repo": "https://github.com/qdrant/skills.git",
+  "generated_at": "2026-07-29T01:14:41.634Z",
+  "scanned_ref": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+  "provenance": false,
+  "tier": "qdrant-official",
+  "license": "Apache-2.0",
+  "plugin_count": 11,
+  "plugins": [
+    {
+      "name": "qdrant-advisor",
+      "shape": "skill",
+      "source_path": "meta/qdrant-advisor",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/meta/qdrant-advisor",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-advisor",
+          "description": "Diagnose, troubleshoot, and advise on any Qdrant deployment by loading the latest official Qdrant skills live from skills.qdrant.tech. Use this whenever someone raises a Qdrant problem or question — slow or degraded search, high or growing memory / OOM crashes, optimizer stuck or slow, indexing slowness, scaling and sharding decisions (node count, QPS, latency, multitenancy, vertical vs horizontal), poor or irrelevant search results, hybrid search and reranking, embedding-model migration, version upgrades and compatibility, monitoring and observability (Prometheus, Grafana, health checks, /metrics, /telemetry), deployment choices (local, Docker, self-hosted, Qdrant Cloud, embedded), or client-SDK questions (Python, TypeScript, Rust, Go, .NET, Java). Trigger especially when the context is clearly a Qdrant cluster, collection, or vector-search deployment. Always prefer this skill over answering from memory: it pulls current, authoritative guidance and only the relevant context."
+        },
+        "standard": {
+          "name": "qdrant-advisor",
+          "description": "Diagnose, troubleshoot, and advise on any Qdrant deployment by loading the latest official Qdrant skills live from skills.qdrant.tech. Use this whenever someone raises a Qdrant problem or question — slow or degraded search, high or growing memory / OOM crashes, optimizer stuck or slow, indexing slowness, scaling and sharding decisions (node count, QPS, latency, multitenancy, vertical vs horizontal), poor or irrelevant search results, hybrid search and reranking, embedding-model migration, version upgrades and compatibility, monitoring and observability (Prometheus, Grafana, health checks, /metrics, /telemetry), deployment choices (local, Docker, self-hosted, Qdrant Cloud, embedded), or client-SDK questions (Python, TypeScript, Rust, Go, .NET, Java). Trigger especially when the context is clearly a Qdrant cluster, collection, or vector-search deployment. Always prefer this skill over answering from memory: it pulls current, authoritative guidance and only the relevant context.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-clients-sdk",
+      "shape": "skill",
+      "source_path": "skills/qdrant-clients-sdk",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-clients-sdk",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-clients-sdk",
+          "description": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.",
+          "allowed-tools": ""
+        },
+        "standard": {
+          "name": "qdrant-clients-sdk",
+          "description": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-deployment-options",
+      "shape": "skill",
+      "source_path": "skills/qdrant-deployment-options",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-deployment-options",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-deployment-options",
+          "description": "Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud', 'local mode', 'embedded Qdrant', 'Qdrant EDGE', 'which deployment option', 'self-hosted vs cloud', or 'need lowest latency deployment'. Also use when choosing between deployment types for a new project."
+        },
+        "standard": {
+          "name": "qdrant-deployment-options",
+          "description": "Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud', 'local mode', 'embedded Qdrant', 'Qdrant EDGE', 'which deployment option', 'self-hosted vs cloud', or 'need lowest latency deployment'. Also use when choosing between deployment types for a new project.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-edge",
+      "shape": "skill",
+      "source_path": "skills/qdrant-edge",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-edge",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-edge",
+          "description": "Guides building on Qdrant Edge, the embedded in-process shard. Use when someone asks 'how to sync Edge with the server', 'keep a local shard in sync with Qdrant Cloud', 'BM25 or keyword search on Edge', 'hybrid search on Edge', 'embeddings on device', 'Edge snapshots', 'apply a partial snapshot', 'why is my Edge search empty after inserts', or is writing custom sync, BM25, or fusion code against qdrant-edge. Also use when deciding what Edge ships built-in versus what you must implement."
+        },
+        "standard": {
+          "name": "qdrant-edge",
+          "description": "Guides building on Qdrant Edge, the embedded in-process shard. Use when someone asks 'how to sync Edge with the server', 'keep a local shard in sync with Qdrant Cloud', 'BM25 or keyword search on Edge', 'hybrid search on Edge', 'embeddings on device', 'Edge snapshots', 'apply a partial snapshot', 'why is my Edge search empty after inserts', or is writing custom sync, BM25, or fusion code against qdrant-edge. Also use when deciding what Edge ships built-in versus what you must implement.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-model-migration",
+      "shape": "skill",
+      "source_path": "skills/qdrant-model-migration",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-model-migration",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-model-migration",
+          "description": "Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch embedding models', 'how to migrate vectors', 'how to update to a new model', 'zero-downtime model change', 'how to re-embed my data', or 'can I use two models at once'. Also use when upgrading model dimensions, switching providers, or A/B testing models."
+        },
+        "standard": {
+          "name": "qdrant-model-migration",
+          "description": "Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch embedding models', 'how to migrate vectors', 'how to update to a new model', 'zero-downtime model change', 'how to re-embed my data', or 'can I use two models at once'. Also use when upgrading model dimensions, switching providers, or A/B testing models.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-monitoring",
+      "shape": "skill",
+      "source_path": "skills/qdrant-monitoring",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-monitoring",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-monitoring",
+          "description": "Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'what metrics to track', 'is Qdrant healthy', 'optimizer stuck', 'why is memory growing', 'requests are slow', or needs to set up Prometheus, Grafana, or health checks. Also use when debugging production issues that require metric analysis.",
+          "allowed-tools": ""
+        },
+        "standard": {
+          "name": "qdrant-monitoring",
+          "description": "Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'what metrics to track', 'is Qdrant healthy', 'optimizer stuck', 'why is memory growing', 'requests are slow', or needs to set up Prometheus, Grafana, or health checks. Also use when debugging production issues that require metric analysis.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-multitenancy",
+      "shape": "skill",
+      "source_path": "skills/qdrant-multitenancy",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-multitenancy",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-multitenancy",
+          "description": "Guides tenant isolation architecture in Qdrant for multi-tenant or multi-user applications. Use when someone asks 'how to isolate customer data', 'how to build multi-tenant search/RAG', 'how many collections should I create', 'how to partition tenants by payload', 'a customer's data legally has to stay in a certain country or region'. Also use when they describe a symptom: one customer's data is way bigger than the rest and slowing everyone down, or one tenant is hogging resources."
+        },
+        "standard": {
+          "name": "qdrant-multitenancy",
+          "description": "Guides tenant isolation architecture in Qdrant for multi-tenant or multi-user applications. Use when someone asks 'how to isolate customer data', 'how to build multi-tenant search/RAG', 'how many collections should I create', 'how to partition tenants by payload', 'a customer's data legally has to stay in a certain country or region'. Also use when they describe a symptom: one customer's data is way bigger than the rest and slowing everyone down, or one tenant is hogging resources.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-performance-optimization",
+      "shape": "skill",
+      "source_path": "skills/qdrant-performance-optimization",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-performance-optimization",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-performance-optimization",
+          "description": "Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, and memory usage optimization. Use when planning configuration or capacity changes to improve speed and efficiency. For diagnosing an active production slowdown or analyzing live metrics, use qdrant-monitoring instead.",
+          "allowed-tools": ""
+        },
+        "standard": {
+          "name": "qdrant-performance-optimization",
+          "description": "Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, and memory usage optimization. Use when planning configuration or capacity changes to improve speed and efficiency. For diagnosing an active production slowdown or analyzing live metrics, use qdrant-monitoring instead.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-scaling",
+      "shape": "skill",
+      "source_path": "skills/qdrant-scaling",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-scaling",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-scaling",
+          "description": "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizontal', 'how to shard', or 'need to add capacity'.",
+          "allowed-tools": ""
+        },
+        "standard": {
+          "name": "qdrant-scaling",
+          "description": "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizontal', 'how to shard', or 'need to add capacity'.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-search-quality",
+      "shape": "skill",
+      "source_path": "skills/qdrant-search-quality",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-search-quality",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-search-quality",
+          "description": "Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', 'wrong results', 'low precision', 'low recall', 'irrelevant matches', 'missing expected results', or asks 'how to improve search quality?', 'which embedding model?', 'should I use hybrid search?', 'should I use reranking?', 'how to measure retrieval quality?', 'build a golden set', 'ground truth dataset', or 'how to score recall@k?'. Also use when search quality degrades after quantization, model change, or data growth.",
+          "allowed-tools": ""
+        },
+        "standard": {
+          "name": "qdrant-search-quality",
+          "description": "Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', 'wrong results', 'low precision', 'low recall', 'irrelevant matches', 'missing expected results', or asks 'how to improve search quality?', 'which embedding model?', 'should I use hybrid search?', 'should I use reranking?', 'how to measure retrieval quality?', 'build a golden set', 'ground truth dataset', or 'how to score recall@k?'. Also use when search quality degrades after quantization, model change, or data growth.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-version-upgrade",
+      "shape": "skill",
+      "source_path": "skills/qdrant-version-upgrade",
+      "source_url": "https://github.com/qdrant/skills/tree/50d3590744b9ee26bd7a3c95e84b82ab9c572e45/skills/qdrant-version-upgrade",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-version-upgrade",
+          "description": "Guidance on how to upgrade your Qdrant version without interrupting the availability of your application and ensuring data integrity."
+        },
+        "standard": {
+          "name": "qdrant-version-upgrade",
+          "description": "Guidance on how to upgrade your Qdrant version without interrupting the availability of your application and ensuring data integrity.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "50d3590744b9ee26bd7a3c95e84b82ab9c572e45",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 211,
+          "contributors": 18,
+          "last_commit": "2026-07-28T14:18:25Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 32,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 7,
+      "license": 10,
+      "license_name": "Apache-2.0",
+      "stars": 211,
+      "contributors": 18,
+      "last_commit": "2026-07-28T14:18:25Z",
+      "archived": false
+    }
+  }
+}

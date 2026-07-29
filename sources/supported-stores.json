@@ -63,6 +63,17 @@
       "reference_only": true
     },
     {
+      "name": "azure-git-ape",
+      "remote": "https://github.com/Azure/git-ape.git",
+      "pluginDir": ".",
+      "quality": "microsoft-official",
+      "license": "MIT",
+      "verified": true,
+      "verifiedDate": "2026-07-29",
+      "addedAt": "2026-07-29",
+      "note": "Azure git-ape — platform-engineering framework for the agentic age. 2 plugins declared (git-ape, ape-context). Discovered via Steward Phase 4 audit 2026-07-28."
+    },
+    {
       "name": "buildwithclaude",
       "remote": "https://github.com/davepoon/buildwithclaude.git",
       "pluginDir": "plugins",
@@ -131,6 +142,17 @@
       "verifiedDate": "2026-07-29",
       "addedAt": "2026-07-29",
       "note": "Design domain catalog (design-research, design-systems, ux-strategy, ui-design, interaction-design, ...). 33 plugins. Design coverage was zero after `awesome-design-skills` was cut round 1. Discovered via Steward Phase 3 audit 2026-07-28."
+    },
+    {
+      "name": "dotnet-maui-labs",
+      "remote": "https://github.com/dotnet/maui-labs.git",
+      "pluginDir": ".",
+      "quality": "dotnet-official",
+      "license": "MIT",
+      "verified": true,
+      "verifiedDate": "2026-07-29",
+      "addedAt": "2026-07-29",
+      "note": ".NET MAUI experimental / pre-release tools. First-party from the dotnet org. 1 plugin declared. Discovered via Steward Phase 4 audit 2026-07-28."
     },
     {
       "name": "dotnet-skills",
@@ -236,6 +258,17 @@
       "notes": "Microsoft official Copilot Studio agent dev skills. 31 SKILL.md units at skills/<name>/SKILL.md with user-invocable/argument-hint/allowed-tools/context frontmatter. Score 9/10 (M:2 A:1 L:2 F:2 D:2). Verified by dry-run clone 2026-06-23."
     },
     {
+      "name": "microsoft-dataverse-skills",
+      "remote": "https://github.com/microsoft/Dataverse-skills.git",
+      "pluginDir": ".",
+      "quality": "microsoft-official",
+      "license": "MIT",
+      "verified": true,
+      "verifiedDate": "2026-07-29",
+      "addedAt": "2026-07-29",
+      "note": "Microsoft Dataverse skills wrapping the Dataverse MCP server + CLI + Python SDK. 1 plugin declared. Discovered via Steward Phase 4 audit 2026-07-28."
+    },
+    {
       "name": "microsoft-fabric-skills",
       "remote": "https://github.com/microsoft/skills-for-fabric.git",
       "pluginDir": ".",
@@ -245,6 +278,17 @@
       "verifiedDate": "2026-07-29",
       "addedAt": "2026-07-29",
       "note": "Microsoft Fabric skills (fabric-authoring, fabric-consumption, fabric-operations, ...). 6 plugins. Fabric domain not covered elsewhere in the registry. Discovered via Steward Phase 3 audit 2026-07-28."
+    },
+    {
+      "name": "microsoft-fasttrack",
+      "remote": "https://github.com/microsoft/FastTrack.git",
+      "pluginDir": ".",
+      "quality": "microsoft-official",
+      "license": "MIT",
+      "verified": true,
+      "verifiedDate": "2026-07-29",
+      "addedAt": "2026-07-29",
+      "note": "Microsoft FastTrack. 1 plugin declared (council); scanner may find more. Discovered via Steward Phase 4 audit 2026-07-28."
     },
     {
       "name": "microsoft-hve-core",
@@ -292,6 +336,17 @@
       "note": "MicrosoftDocs Azure agent skills — content-focused. 1 plugin (azure-agent-skills). CC-BY-4.0 content license is unusual for code but valid for docs-first content. Discovered via Steward Phase 3 audit 2026-07-28."
     },
     {
+      "name": "mongodb-agent-skills",
+      "remote": "https://github.com/mongodb/agent-skills.git",
+      "pluginDir": ".",
+      "quality": "mongodb-official",
+      "license": "Apache-2.0",
+      "verified": true,
+      "verifiedDate": "2026-07-29",
+      "addedAt": "2026-07-29",
+      "note": "Official MongoDB Skills. 1 plugin declared (mongodb-atlas). First-party from MongoDB. Discovered via Steward Phase 4 audit 2026-07-28."
+    },
+    {
       "name": "n-skills",
       "remote": "https://github.com/numman-ali/n-skills.git",
       "pluginDir": "skills",
@@ -321,6 +376,17 @@
       "verifiedDate": "2026-05-29",
       "addedAt": "2026-05-29",
       "notes": "The Mall itself, scanned for its own curated plugins. Provenance bonus +50 reflects Supervisor editorial adaptation. Mall-curated plugins ship with adapted_from field linking back to upstream they were derived from. Filtered out by Supervisor-side scripts (store-sync, mall-clone, mall-quality-audit) — those scan third-party MALL clones only. The Mall self-scan happens in the Mall repo in Phase 2+."
+    },
+    {
+      "name": "qdrant-skills",
+      "remote": "https://github.com/qdrant/skills.git",
+      "pluginDir": ".",
+      "quality": "qdrant-official",
+      "license": "Apache-2.0",
+      "verified": true,
+      "verifiedDate": "2026-07-29",
+      "addedAt": "2026-07-29",
+      "note": "Qdrant vector-search skills (scaling, performance, quality, monitoring). First-party from Qdrant. Discovered via Steward Phase 4 audit 2026-07-28."
     },
     {
       "name": "spec-kit",

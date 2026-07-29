@@ -1,0 +1,78 @@
+{
+  "store": "microsoft-dataverse-skills",
+  "source_repo": "https://github.com/microsoft/Dataverse-skills.git",
+  "generated_at": "2026-07-29T01:14:40.297Z",
+  "scanned_ref": "ab56d1ad56783ffce1c671b55b4d964b2d09501d",
+  "provenance": false,
+  "tier": "microsoft-official",
+  "license": "MIT",
+  "plugin_count": 1,
+  "plugins": [
+    {
+      "name": "tests",
+      "shape": "unknown",
+      "source_path": "evals/tests",
+      "source_url": "https://github.com/microsoft/Dataverse-skills/tree/ab56d1ad56783ffce1c671b55b4d964b2d09501d/evals/tests",
+      "readme_excerpt": "Test files for the Dataverse Skills plugin eval system. Each `.biceval.json` contains one or more tests that are consumed by LocalEvalRunner to grade AI agent responses when the plugin is loaded.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "tests",
+          "description": "Test files for the Dataverse Skills plugin eval system. Each `.biceval.json` contains one or more tests that are consumed by LocalEvalRunner to grade AI agent responses when the plugin is loaded.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ab56d1ad56783ffce1c671b55b4d964b2d09501d",
+        "tags": [
+          "v0.1-full-skillset"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 185,
+          "contributors": 9,
+          "last_commit": "2026-07-29T00:21:31Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 30,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 5,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 185,
+      "contributors": 9,
+      "last_commit": "2026-07-29T00:21:31Z",
+      "archived": false
+    }
+  }
+}

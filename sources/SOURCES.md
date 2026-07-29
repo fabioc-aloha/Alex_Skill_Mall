@@ -1,6 +1,6 @@
 # Source Registry
 
-**36** stores in `sources/supported-stores.json`. The Mall scans each into `catalog/stores/<store>.json`.
+**42** stores in `sources/supported-stores.json`. The Mall scans each into `catalog/stores/<store>.json`.
 
 | Store | Remote | Plugin Dir | Tier | Provenance | License | Plugins |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -10,6 +10,7 @@
 | [awesome-claude-code-toolkit](../catalog/stores/awesome-claude-code-toolkit.md) | [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | `.` | community-curated | false | - | 43 |
 | [awesome-copilot](../catalog/stores/awesome-copilot.md) | [github/awesome-copilot](https://github.com/github/awesome-copilot) | `.` | github-community | false | - | 486 |
 | [awesome-copilot-agents](../catalog/stores/awesome-copilot-agents.md) | [Code-and-Sorts/awesome-copilot-agents](https://github.com/Code-and-Sorts/awesome-copilot-agents) | `.` | community-curated | false | - | 2 |
+| [azure-git-ape](../catalog/stores/azure-git-ape.md) | [Azure/git-ape](https://github.com/Azure/git-ape) | `.` | microsoft-official | false | MIT | 3 |
 | [buildwithclaude](../catalog/stores/buildwithclaude.md) | [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) | `plugins` | community-curated | false | - | 110 |
 | [claude-code-plugins-plus-skills](../catalog/stores/claude-code-plugins-plus-skills.md) | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | `.` | community-curated | false | - | 24 |
 | [claude-skills](../catalog/stores/claude-skills.md) | [anthropics/skills](https://github.com/anthropics/skills) | `.` | anthropic-official | false | - | 18 |
@@ -17,6 +18,7 @@
 | [copilot-agents-dojo](../catalog/stores/copilot-agents-dojo.md) | [andreaswasita/copilot-agents-dojo](https://github.com/andreaswasita/copilot-agents-dojo) | `skills` | domain | false | - | 28 |
 | [daymade-claude-code-skills](../catalog/stores/daymade-claude-code-skills.md) | [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills) | `.` | community-curated | false | - | 92 |
 | [designer-skills](../catalog/stores/designer-skills.md) | [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) | `.` | community-curated | false | MIT | 9 |
+| [dotnet-maui-labs](../catalog/stores/dotnet-maui-labs.md) | [dotnet/maui-labs](https://github.com/dotnet/maui-labs) | `.` | dotnet-official | false | MIT | 16 |
 | [dotnet-skills](../catalog/stores/dotnet-skills.md) | [dotnet/skills](https://github.com/dotnet/skills) | `.` | dotnet-official | false | MIT | 17 |
 | [everything-claude-code](../catalog/stores/everything-claude-code.md) | [WorldFlowAI/everything-claude-code](https://github.com/WorldFlowAI/everything-claude-code) | `.` | community | false | - | 15 |
 | [garden-skills](../catalog/stores/garden-skills.md) | [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) | `skills` | community-curated | false | - | 5 |
@@ -27,14 +29,18 @@
 | [mcp-servers](../catalog/stores/mcp-servers.md) | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | `src` | anthropic-official | false | - | 7 |
 | [microsoft-agentrc](../catalog/stores/microsoft-agentrc.md) | [microsoft/agentrc](https://github.com/microsoft/agentrc) | `.` | microsoft-official | false | MIT | 4 |
 | [microsoft-copilot-studio-skills](../catalog/stores/microsoft-copilot-studio-skills.md) | [microsoft/skills-for-copilot-studio](https://github.com/microsoft/skills-for-copilot-studio) | `skills` | microsoft-official | false | MIT | 31 |
+| [microsoft-dataverse-skills](../catalog/stores/microsoft-dataverse-skills.md) | [microsoft/Dataverse-skills](https://github.com/microsoft/Dataverse-skills) | `.` | microsoft-official | false | MIT | 1 |
 | [microsoft-fabric-skills](../catalog/stores/microsoft-fabric-skills.md) | [microsoft/skills-for-fabric](https://github.com/microsoft/skills-for-fabric) | `.` | microsoft-official | false | MIT | 42 |
+| [microsoft-fasttrack](../catalog/stores/microsoft-fasttrack.md) | [microsoft/FastTrack](https://github.com/microsoft/FastTrack) | `.` | microsoft-official | false | MIT | 40 |
 | [microsoft-hve-core](../catalog/stores/microsoft-hve-core.md) | [microsoft/hve-core](https://github.com/microsoft/hve-core) | `.` | microsoft-official | false | MIT | 17 |
 | [microsoft-skills](../catalog/stores/microsoft-skills.md) | [microsoft/skills](https://github.com/microsoft/skills) | `.` | microsoft-official | false | MIT | 3 |
 | [microsoft-win-dev-skills](../catalog/stores/microsoft-win-dev-skills.md) | [microsoft/win-dev-skills](https://github.com/microsoft/win-dev-skills) | `plugins/winui/skills` | microsoft-official | false | MIT | 8 |
 | [microsoftdocs-agent-skills](../catalog/stores/microsoftdocs-agent-skills.md) | [MicrosoftDocs/Agent-Skills](https://github.com/MicrosoftDocs/Agent-Skills) | `.` | microsoft-official | false | CC-BY-4.0 | 191 |
+| [mongodb-agent-skills](../catalog/stores/mongodb-agent-skills.md) | [mongodb/agent-skills](https://github.com/mongodb/agent-skills) | `.` | mongodb-official | false | Apache-2.0 | 13 |
 | [n-skills](../catalog/stores/n-skills.md) | [numman-ali/n-skills](https://github.com/numman-ali/n-skills) | `skills` | community-curated | false | - | 5 |
 | [planning-with-files](../catalog/stores/planning-with-files.md) | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | `skills` | reference | false | - | 6 |
 | 🏆 [plugin-mall](../catalog/stores/plugin-mall.md) | [fabioc-aloha/Alex_Skill_Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall) | `plugins` | first-party | true | PolyForm-Noncommercial-1.0.0 | 365 |
+| [qdrant-skills](../catalog/stores/qdrant-skills.md) | [qdrant/skills](https://github.com/qdrant/skills) | `.` | qdrant-official | false | Apache-2.0 | 11 |
 | [spec-kit](../catalog/stores/spec-kit.md) | [github/spec-kit](https://github.com/github/spec-kit) | `.` | github-official | false | - | 6 |
 | [styleseed](../catalog/stores/styleseed.md) | [bitjaru/styleseed](https://github.com/bitjaru/styleseed) | `engine/.claude/skills` | domain | false | MIT | 20 |
 | [vercel-agent-skills](../catalog/stores/vercel-agent-skills.md) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | `skills` | vercel-official | false | - | 9 |
@@ -42,4 +48,4 @@
 | [wshobson-agents](../catalog/stores/wshobson-agents.md) | [wshobson/agents](https://github.com/wshobson/agents) | `.` | community-quality | false | - | 91 |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-07-29T00:51:45.361Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-07-29T01:15:05.641Z*
