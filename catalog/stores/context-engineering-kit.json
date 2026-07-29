@@ -1,7 +1,7 @@
 {
   "store": "context-engineering-kit",
   "source_repo": "https://github.com/NeoLabHQ/context-engineering-kit.git",
-  "generated_at": "2026-05-29T18:48:06.282Z",
+  "generated_at": "2026-07-29T00:50:59.517Z",
   "scanned_ref": "555b95263ecf13d2ad9be14df676a1263d5a62b2",
   "provenance": false,
   "tier": "community-curated",
@@ -90,7 +90,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -179,7 +179,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -268,7 +268,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -277,7 +277,7 @@
     },
     {
       "name": "fpf",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/fpf",
       "source_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/555b95263ecf13d2ad9be14df676a1263d5a62b2/plugins/fpf",
       "readme_excerpt": "Structured reasoning plugin that makes AI decision-making transparent and auditable through hypothesis generation, logical verification, and evidence-based validation.",
@@ -289,7 +289,7 @@
           "description": "Structured reasoning plugin that makes AI decision-making transparent and auditable through hypothesis generation, logical verification, and evidence-based validation.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -357,7 +357,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -446,7 +446,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -535,7 +535,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -624,7 +624,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -633,7 +633,7 @@
     },
     {
       "name": "reflexion",
-      "shape": "hook",
+      "shape": "mixed",
       "source_path": "plugins/reflexion",
       "source_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/555b95263ecf13d2ad9be14df676a1263d5a62b2/plugins/reflexion",
       "readme_excerpt": "Self-refinement framework that introduces feedback and refinement loops to improve output quality through iterative improvement, complexity triage, and verification.",
@@ -645,7 +645,7 @@
           "description": "Self-refinement framework that introduces feedback and refinement loops to improve output quality through iterative improvement, complexity triage, and verification.",
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -713,7 +713,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -722,7 +722,7 @@
     },
     {
       "name": "review",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/review",
       "source_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/555b95263ecf13d2ad9be14df676a1263d5a62b2/plugins/review",
       "readme_excerpt": "Comprehensive multi-agent code review system that examines code from multiple specialized perspectives to catch bugs, security issues, and quality problems before they reach production.",
@@ -734,7 +734,7 @@
           "description": "Comprehensive multi-agent code review system that examines code from multiple specialized perspectives to catch bugs, security issues, and quality problems before they reach production.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -802,7 +802,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -811,7 +811,7 @@
     },
     {
       "name": "sadd",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/sadd",
       "source_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/555b95263ecf13d2ad9be14df676a1263d5a62b2/plugins/sadd",
       "readme_excerpt": "Execution framework that dispatches fresh subagents for each task with quality gates between iterations, enabling fast parallel development while maintaining code quality.",
@@ -823,7 +823,7 @@
           "description": "Execution framework that dispatches fresh subagents for each task with quality gates between iterations, enabling fast parallel development while maintaining code quality.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -891,7 +891,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -900,7 +900,7 @@
     },
     {
       "name": "sdd",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/sdd",
       "source_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/555b95263ecf13d2ad9be14df676a1263d5a62b2/plugins/sdd",
       "readme_excerpt": "Comprehensive specification-driven development workflow plugin that transforms prompts into production-ready implementations through structured planning, architecture design, and quality-gated executi",
@@ -912,7 +912,7 @@
           "description": "Comprehensive specification-driven development workflow plugin that transforms prompts into production-ready implementations through structured planning, architecture design, and quality-gated executi",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -980,7 +980,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -1069,7 +1069,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -1158,7 +1158,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "GPL-3.0",
-          "stars": 1282,
+          "stars": 1285,
           "contributors": 7,
           "last_commit": "2026-07-26T09:40:35Z",
           "archived": false
@@ -1174,7 +1174,7 @@
       "adoption": 10,
       "license": 10,
       "license_name": "GPL-3.0",
-      "stars": 1282,
+      "stars": 1285,
       "contributors": 7,
       "last_commit": "2026-07-26T09:40:35Z",
       "archived": false

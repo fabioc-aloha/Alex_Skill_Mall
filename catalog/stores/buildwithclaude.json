@@ -1,8 +1,8 @@
 {
   "store": "buildwithclaude",
   "source_repo": "https://github.com/davepoon/buildwithclaude.git",
-  "generated_at": "2026-07-20T13:02:14.587Z",
-  "scanned_ref": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+  "generated_at": "2026-07-29T00:50:59.174Z",
+  "scanned_ref": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
@@ -10,9 +10,9 @@
   "plugins": [
     {
       "name": "ag2-agent-builder",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/ag2-agent-builder",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/ag2-agent-builder",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/ag2-agent-builder",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -22,7 +22,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -37,7 +37,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -59,18 +59,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "agent-triforce",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/agent-triforce",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agent-triforce",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agent-triforce",
       "readme_excerpt": "A multi-agent development system with three specialized agents — Prometeo (PM), Forja (Dev), and Centinela (QA) — coordinated through a checklist methodology based on *The Checklist Manifesto* (Atul G",
       "frontmatter": {
         "kind": "none",
@@ -80,7 +80,7 @@
           "description": "A multi-agent development system with three specialized agents — Prometeo (PM), Forja (Dev), and Centinela (QA) — coordinated through a checklist methodology based on *The Checklist Manifesto* (Atul G",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -95,7 +95,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -117,9 +117,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -128,7 +128,7 @@
       "name": "agents-ai-agents",
       "shape": "agent",
       "source_path": "plugins/agents-ai-agents",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-ai-agents",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-ai-agents",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -153,7 +153,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -175,9 +175,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -186,7 +186,7 @@
       "name": "agents-blockchain-web3",
       "shape": "agent",
       "source_path": "plugins/agents-blockchain-web3",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-blockchain-web3",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-blockchain-web3",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -211,7 +211,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -233,9 +233,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -244,7 +244,7 @@
       "name": "agents-business-finance",
       "shape": "agent",
       "source_path": "plugins/agents-business-finance",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-business-finance",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-business-finance",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -269,7 +269,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -291,9 +291,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -302,7 +302,7 @@
       "name": "agents-crypto-trading",
       "shape": "agent",
       "source_path": "plugins/agents-crypto-trading",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-crypto-trading",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-crypto-trading",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -327,7 +327,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -349,9 +349,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -360,7 +360,7 @@
       "name": "agents-data-ai",
       "shape": "agent",
       "source_path": "plugins/agents-data-ai",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-data-ai",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-data-ai",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -385,7 +385,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -407,9 +407,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -418,7 +418,7 @@
       "name": "agents-design-experience",
       "shape": "agent",
       "source_path": "plugins/agents-design-experience",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-design-experience",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-design-experience",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -443,7 +443,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -465,9 +465,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -476,7 +476,7 @@
       "name": "agents-development-architecture",
       "shape": "agent",
       "source_path": "plugins/agents-development-architecture",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-development-architecture",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-development-architecture",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -501,7 +501,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -523,9 +523,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -534,7 +534,7 @@
       "name": "agents-documentation",
       "shape": "agent",
       "source_path": "plugins/agents-documentation",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-documentation",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-documentation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -559,7 +559,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -581,9 +581,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -592,7 +592,7 @@
       "name": "agents-infrastructure-operations",
       "shape": "agent",
       "source_path": "plugins/agents-infrastructure-operations",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-infrastructure-operations",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-infrastructure-operations",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -617,7 +617,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -639,9 +639,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -650,7 +650,7 @@
       "name": "agents-language-specialists",
       "shape": "agent",
       "source_path": "plugins/agents-language-specialists",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-language-specialists",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-language-specialists",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -675,7 +675,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -697,9 +697,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -708,7 +708,7 @@
       "name": "agents-media-content",
       "shape": "agent",
       "source_path": "plugins/agents-media-content",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-media-content",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-media-content",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -733,7 +733,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -755,9 +755,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -766,7 +766,7 @@
       "name": "agents-meta-orchestration",
       "shape": "agent",
       "source_path": "plugins/agents-meta-orchestration",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-meta-orchestration",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-meta-orchestration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -791,7 +791,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -813,9 +813,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -824,7 +824,7 @@
       "name": "agents-quality-security",
       "shape": "agent",
       "source_path": "plugins/agents-quality-security",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-quality-security",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-quality-security",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -849,7 +849,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -871,9 +871,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -882,7 +882,7 @@
       "name": "agents-research",
       "shape": "agent",
       "source_path": "plugins/agents-research",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-research",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-research",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -907,7 +907,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -929,9 +929,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -940,7 +940,7 @@
       "name": "agents-sales-marketing",
       "shape": "agent",
       "source_path": "plugins/agents-sales-marketing",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-sales-marketing",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-sales-marketing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -965,7 +965,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -987,9 +987,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -998,7 +998,7 @@
       "name": "agents-specialized-domains",
       "shape": "agent",
       "source_path": "plugins/agents-specialized-domains",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-specialized-domains",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-specialized-domains",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -1023,7 +1023,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1045,18 +1045,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "agents-uc-taskmanager",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/agents-uc-taskmanager",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/agents-uc-taskmanager",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/agents-uc-taskmanager",
       "readme_excerpt": "**Universal Claude Task Manager** — A WORK-PIPELINE Agent that executes SDD (Specification-Driven Development) for Claude Code.",
       "frontmatter": {
         "kind": "none",
@@ -1066,7 +1066,7 @@
           "description": "**Universal Claude Task Manager** — A WORK-PIPELINE Agent that executes SDD (Specification-Driven Development) for Claude Code.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1081,7 +1081,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1103,9 +1103,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1114,7 +1114,7 @@
       "name": "aiboarding",
       "shape": "unknown",
       "source_path": "plugins/aiboarding",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/aiboarding",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/aiboarding",
       "readme_excerpt": "**Onboard AI agents like fresh engineers.**",
       "frontmatter": {
         "kind": "none",
@@ -1139,7 +1139,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1161,9 +1161,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1172,7 +1172,7 @@
       "name": "aigent-os",
       "shape": "skill",
       "source_path": "plugins/aigent-os",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/aigent-os",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/aigent-os",
       "readme_excerpt": "Two commands from [aigent-OS](https://github.com/wrg32786/aigent-os), the open-source Claude Code operating system:",
       "frontmatter": {
         "kind": "none",
@@ -1197,7 +1197,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1219,9 +1219,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1230,7 +1230,7 @@
       "name": "all-agents",
       "shape": "agent",
       "source_path": "plugins/all-agents",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/all-agents",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/all-agents",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -1255,7 +1255,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1277,9 +1277,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1288,7 +1288,7 @@
       "name": "all-hooks",
       "shape": "hook",
       "source_path": "plugins/all-hooks",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/all-hooks",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/all-hooks",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -1313,7 +1313,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1335,9 +1335,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1346,7 +1346,7 @@
       "name": "all-skills",
       "shape": "skill",
       "source_path": "plugins/all-skills",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/all-skills",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/all-skills",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -1371,7 +1371,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1393,9 +1393,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1404,7 +1404,7 @@
       "name": "archcore",
       "shape": "unknown",
       "source_path": "plugins/archcore",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/archcore",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/archcore",
       "readme_excerpt": "**Make your AI code like it already knows your repo.**",
       "frontmatter": {
         "kind": "none",
@@ -1429,7 +1429,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1451,18 +1451,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "budgetclaw",
-      "shape": "hook",
+      "shape": "mixed",
       "source_path": "plugins/budgetclaw",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/budgetclaw",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/budgetclaw",
       "readme_excerpt": "Local spend monitor for Claude Code. Watches `~/.claude/projects/*.jsonl`, tracks cost per project and git branch, enforces budget caps via SIGTERM, and pushes phone alerts via ntfy.",
       "frontmatter": {
         "kind": "none",
@@ -1472,7 +1472,7 @@
           "description": "Local spend monitor for Claude Code. Watches `~/.claude/projects/*.jsonl`, tracks cost per project and git branch, enforces budget caps via SIGTERM, and pushes phone alerts via ntfy.",
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1487,7 +1487,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1509,18 +1509,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "cashflow",
-      "shape": "mcp",
+      "shape": "mixed",
       "source_path": "plugins/cashflow",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/cashflow",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/cashflow",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -1530,7 +1530,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "mcp"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1545,7 +1545,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1567,18 +1567,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "cc-best",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/cc-best",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/cc-best",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/cc-best",
       "readme_excerpt": "A role-based development workflow plugin that turns Claude Code into a full dev team with autonomous iteration capabilities.",
       "frontmatter": {
         "kind": "none",
@@ -1588,7 +1588,7 @@
           "description": "A role-based development workflow plugin that turns Claude Code into a full dev team with autonomous iteration capabilities.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1603,7 +1603,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1625,9 +1625,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1636,7 +1636,7 @@
       "name": "ciagent",
       "shape": "skill",
       "source_path": "plugins/ciagent",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/ciagent",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/ciagent",
       "readme_excerpt": "Lets a coding agent set up and operate [CIAgent](https://github.com/suniel12/ciagent)",
       "frontmatter": {
         "kind": "none",
@@ -1661,7 +1661,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1683,18 +1683,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "claude-code-audit-stack",
-      "shape": "hook",
+      "shape": "mixed",
       "source_path": "plugins/claude-code-audit-stack",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/claude-code-audit-stack",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/claude-code-audit-stack",
       "readme_excerpt": "Adversarial verification primitives for Claude Code. Three subagents that catch the silent failures the defaults miss:",
       "frontmatter": {
         "kind": "none",
@@ -1704,7 +1704,7 @@
           "description": "Adversarial verification primitives for Claude Code. Three subagents that catch the silent failures the defaults miss:",
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1719,7 +1719,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1741,18 +1741,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "claude-hud",
-      "shape": "unknown",
+      "shape": "prompt",
       "source_path": "plugins/claude-hud",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/claude-hud",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/claude-hud",
       "readme_excerpt": "Real-time statusline HUD for Claude Code that displays context usage, tool activity, agent tracking, and todo progress.",
       "frontmatter": {
         "kind": "none",
@@ -1762,7 +1762,7 @@
           "description": "Real-time statusline HUD for Claude Code that displays context usage, tool activity, agent tracking, and todo progress.",
           "version": null,
           "lastReviewed": null,
-          "shape": "unknown"
+          "shape": "prompt"
         },
         "extended": {
           "applyTo": null,
@@ -1777,7 +1777,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1799,18 +1799,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "claude-md-kit",
-      "shape": "unknown",
+      "shape": "prompt",
       "source_path": "plugins/claude-md-kit",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/claude-md-kit",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/claude-md-kit",
       "readme_excerpt": "> 🤖 **This repo is written and maintained by an autonomous AI agent.** It runs",
       "frontmatter": {
         "kind": "none",
@@ -1820,7 +1820,7 @@
           "description": "> 🤖 **This repo is written and maintained by an autonomous AI agent.** It runs",
           "version": null,
           "lastReviewed": null,
-          "shape": "unknown"
+          "shape": "prompt"
         },
         "extended": {
           "applyTo": null,
@@ -1835,7 +1835,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1857,18 +1857,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "claude-ops",
-      "shape": "hook",
+      "shape": "mixed",
       "source_path": "plugins/claude-ops",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/claude-ops",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/claude-ops",
       "readme_excerpt": "> **v1.7.0** — Smart Daemon · Deep Context Inbox · 30 Skills · 14 Agents · Full Plugin Feature Integration",
       "frontmatter": {
         "kind": "none",
@@ -1878,7 +1878,7 @@
           "description": "> **v1.7.0** — Smart Daemon · Deep Context Inbox · 30 Skills · 14 Agents · Full Plugin Feature Integration",
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1893,7 +1893,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1915,9 +1915,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1926,7 +1926,7 @@
       "name": "claude-pager",
       "shape": "hook",
       "source_path": "plugins/claude-pager",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/claude-pager",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/claude-pager",
       "readme_excerpt": "git clone https://github.com/bharat7gupta/claude-pager.git",
       "frontmatter": {
         "kind": "none",
@@ -1951,7 +1951,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -1973,9 +1973,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -1984,7 +1984,7 @@
       "name": "claude-snapshot",
       "shape": "unknown",
       "source_path": "plugins/claude-snapshot",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/claude-snapshot",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/claude-snapshot",
       "readme_excerpt": "Portable Claude Code setup snapshots. Export your config, plugins, hooks, and global instructions — apply on another machine in under 2 minutes.",
       "frontmatter": {
         "kind": "none",
@@ -2009,7 +2009,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2031,18 +2031,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "codex-hud",
-      "shape": "unknown",
+      "shape": "prompt",
       "source_path": "plugins/codex-hud",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/codex-hud",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/codex-hud",
       "readme_excerpt": "[![GitHub stars](https://img.shields.io/github/stars/haenara-shin/codex-hud?style=social)](https://github.com/haenara-shin/codex-hud/stargazers)",
       "frontmatter": {
         "kind": "none",
@@ -2052,7 +2052,7 @@
           "description": "[![GitHub stars](https://img.shields.io/github/stars/haenara-shin/codex-hud?style=social)](https://github.com/haenara-shin/codex-hud/stargazers)",
           "version": null,
           "lastReviewed": null,
-          "shape": "unknown"
+          "shape": "prompt"
         },
         "extended": {
           "applyTo": null,
@@ -2067,7 +2067,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2089,9 +2089,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2100,7 +2100,7 @@
       "name": "context-memory",
       "shape": "unknown",
       "source_path": "plugins/context-memory",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/context-memory",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/context-memory",
       "readme_excerpt": "Persistent memory for your coding agent. Claude Code is brilliant but amnesiac: every session starts cold, re-learns your codebase's quirks, re-litigates settled decisions, and re-walks ruled-out dead",
       "frontmatter": {
         "kind": "none",
@@ -2125,7 +2125,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2147,9 +2147,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2158,7 +2158,7 @@
       "name": "drill-me",
       "shape": "skill",
       "source_path": "plugins/drill-me",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/drill-me",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/drill-me",
       "readme_excerpt": "> **`/grill-me` taught Claude what you know. `/drill-me` teaches you what Claude knows.**",
       "frontmatter": {
         "kind": "none",
@@ -2183,7 +2183,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2205,9 +2205,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2216,7 +2216,7 @@
       "name": "envelope-team",
       "shape": "skill",
       "source_path": "plugins/envelope-team",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/envelope-team",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/envelope-team",
       "readme_excerpt": "Design and generate `.envelope.json` AI agent team definitions — the open standard for multi-agent AI teams.",
       "frontmatter": {
         "kind": "none",
@@ -2241,7 +2241,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2263,9 +2263,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2274,7 +2274,7 @@
       "name": "erne-universal",
       "shape": "unknown",
       "source_path": "plugins/erne-universal",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/erne-universal",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/erne-universal",
       "readme_excerpt": "Complete AI coding agent harness for React Native and Expo development.",
       "frontmatter": {
         "kind": "none",
@@ -2299,7 +2299,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2321,9 +2321,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2332,7 +2332,7 @@
       "name": "fabler-relay",
       "shape": "unknown",
       "source_path": "plugins/fabler-relay",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/fabler-relay",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/fabler-relay",
       "readme_excerpt": "[![CI](https://github.com/fablerlabs/relay/actions/workflows/ci.yml/badge.svg)](https://github.com/fablerlabs/relay/actions/workflows/ci.yml)",
       "frontmatter": {
         "kind": "none",
@@ -2357,7 +2357,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2379,18 +2379,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "feedoracle-compliance",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/feedoracle-compliance",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/feedoracle-compliance",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/feedoracle-compliance",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -2400,7 +2400,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2415,7 +2415,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2437,9 +2437,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2448,7 +2448,7 @@
       "name": "foresight-intelligence",
       "shape": "skill",
       "source_path": "plugins/foresight-intelligence",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/foresight-intelligence",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/foresight-intelligence",
       "readme_excerpt": "> Strategic foresight engine using IFTF methodology. Two modes: **Soft Predict Future** (Claude-native skill, instant, works on claude.ai) and **Hard Predict Future** (deterministic 12-step pipeline, ",
       "frontmatter": {
         "kind": "none",
@@ -2473,7 +2473,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2495,18 +2495,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "frontend-design-pro",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/frontend-design-pro",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/frontend-design-pro",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/frontend-design-pro",
       "readme_excerpt": "An advanced frontend design plugin for Claude Code with interactive wizard, trend research, moodboard creation, browser-based inspiration analysis, and color/typography selection.",
       "frontmatter": {
         "kind": "none",
@@ -2516,7 +2516,7 @@
           "description": "An advanced frontend design plugin for Claude Code with interactive wizard, trend research, moodboard creation, browser-based inspiration analysis, and color/typography selection.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2531,7 +2531,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2553,18 +2553,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "give-claude-eyes",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/give-claude-eyes",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/give-claude-eyes",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/give-claude-eyes",
       "readme_excerpt": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
       "frontmatter": {
         "kind": "none",
@@ -2574,7 +2574,7 @@
           "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2589,7 +2589,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2611,18 +2611,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "gsd",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/gsd",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/gsd",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/gsd",
       "readme_excerpt": "**Based on:** [GSD 1.41.0](https://github.com/gsd-build/get-shit-done/releases/tag/v1.41.0) base tree by **TACHES** (Lex Christopherson)",
       "frontmatter": {
         "kind": "none",
@@ -2632,7 +2632,7 @@
           "description": "**Based on:** [GSD 1.41.0](https://github.com/gsd-build/get-shit-done/releases/tag/v1.41.0) base tree by **TACHES** (Lex Christopherson)",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2647,7 +2647,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2669,9 +2669,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2680,7 +2680,7 @@
       "name": "hermes-tweet",
       "shape": "skill",
       "source_path": "plugins/hermes-tweet",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hermes-tweet",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hermes-tweet",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -2705,7 +2705,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2727,18 +2727,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "hookradar-creative-intelligence",
-      "shape": "mcp",
+      "shape": "mixed",
       "source_path": "plugins/hookradar-creative-intelligence",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hookradar-creative-intelligence",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hookradar-creative-intelligence",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -2748,7 +2748,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "mcp"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2763,7 +2763,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2785,9 +2785,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2796,7 +2796,7 @@
       "name": "hooks-automation",
       "shape": "hook",
       "source_path": "plugins/hooks-automation",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-automation",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-automation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -2821,7 +2821,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2843,9 +2843,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2854,7 +2854,7 @@
       "name": "hooks-development",
       "shape": "hook",
       "source_path": "plugins/hooks-development",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-development",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-development",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -2879,7 +2879,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2901,9 +2901,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2912,7 +2912,7 @@
       "name": "hooks-formatting",
       "shape": "hook",
       "source_path": "plugins/hooks-formatting",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-formatting",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-formatting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -2937,7 +2937,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -2959,9 +2959,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -2970,7 +2970,7 @@
       "name": "hooks-git",
       "shape": "hook",
       "source_path": "plugins/hooks-git",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-git",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-git",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -2995,7 +2995,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3017,9 +3017,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3028,7 +3028,7 @@
       "name": "hooks-notifications",
       "shape": "hook",
       "source_path": "plugins/hooks-notifications",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-notifications",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-notifications",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3053,7 +3053,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3075,9 +3075,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3086,7 +3086,7 @@
       "name": "hooks-performance",
       "shape": "hook",
       "source_path": "plugins/hooks-performance",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-performance",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-performance",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3111,7 +3111,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3133,9 +3133,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3144,7 +3144,7 @@
       "name": "hooks-safety",
       "shape": "hook",
       "source_path": "plugins/hooks-safety",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-safety",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-safety",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3169,7 +3169,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3191,9 +3191,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3202,7 +3202,7 @@
       "name": "hooks-security",
       "shape": "hook",
       "source_path": "plugins/hooks-security",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-security",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-security",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3227,7 +3227,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3249,9 +3249,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3260,7 +3260,7 @@
       "name": "hooks-testing",
       "shape": "hook",
       "source_path": "plugins/hooks-testing",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/hooks-testing",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/hooks-testing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3285,7 +3285,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3307,18 +3307,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "kegg-mcp-server",
-      "shape": "mcp",
+      "shape": "mixed",
       "source_path": "plugins/kegg-mcp-server",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/kegg-mcp-server",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/kegg-mcp-server",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3328,7 +3328,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "mcp"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3343,7 +3343,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3365,18 +3365,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "magic-cc-codex-worker",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/magic-cc-codex-worker",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/magic-cc-codex-worker",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/magic-cc-codex-worker",
       "readme_excerpt": "[![CI](https://github.com/wenqingyu/magic-cc-codex-worker/actions/workflows/ci.yml/badge.svg)](https://github.com/wenqingyu/magic-cc-codex-worker/actions/workflows/ci.yml)",
       "frontmatter": {
         "kind": "none",
@@ -3386,7 +3386,7 @@
           "description": "[![CI](https://github.com/wenqingyu/magic-cc-codex-worker/actions/workflows/ci.yml/badge.svg)](https://github.com/wenqingyu/magic-cc-codex-worker/actions/workflows/ci.yml)",
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3401,7 +3401,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3423,18 +3423,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "mcp-servers-creative",
-      "shape": "mcp",
+      "shape": "mixed",
       "source_path": "plugins/mcp-servers-creative",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/mcp-servers-creative",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/mcp-servers-creative",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3444,7 +3444,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "mcp"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3459,7 +3459,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3481,18 +3481,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "meeting-bots",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/meeting-bots",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/meeting-bots",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/meeting-bots",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3502,7 +3502,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3517,7 +3517,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3539,9 +3539,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3550,7 +3550,7 @@
       "name": "memstack",
       "shape": "skill",
       "source_path": "plugins/memstack",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/memstack",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/memstack",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3575,7 +3575,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3597,18 +3597,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "mortgage",
-      "shape": "mcp",
+      "shape": "mixed",
       "source_path": "plugins/mortgage",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/mortgage",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/mortgage",
       "readme_excerpt": "Mortgage refinance plugin by LendTrain for Claude Code. Real-time institutional pricing, state-specific closing costs, FHA Streamline/VA IRRRL detection, recommendation scoring, and regulatory complia",
       "frontmatter": {
         "kind": "none",
@@ -3618,7 +3618,7 @@
           "description": "Mortgage refinance plugin by LendTrain for Claude Code. Real-time institutional pricing, state-specific closing costs, FHA Streamline/VA IRRRL detection, recommendation scoring, and regulatory complia",
           "version": null,
           "lastReviewed": null,
-          "shape": "mcp"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3633,7 +3633,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3655,9 +3655,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3666,7 +3666,7 @@
       "name": "msapps-apify-scraper",
       "shape": "skill",
       "source_path": "plugins/msapps-apify-scraper",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-apify-scraper",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-apify-scraper",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3691,7 +3691,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3713,9 +3713,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3724,7 +3724,7 @@
       "name": "msapps-apollo",
       "shape": "skill",
       "source_path": "plugins/msapps-apollo",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-apollo",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-apollo",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3749,7 +3749,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3771,9 +3771,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3782,7 +3782,7 @@
       "name": "msapps-cowork-mem",
       "shape": "skill",
       "source_path": "plugins/msapps-cowork-mem",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-cowork-mem",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-cowork-mem",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3807,7 +3807,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3829,9 +3829,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3840,7 +3840,7 @@
       "name": "msapps-cowork-session-fixer",
       "shape": "skill",
       "source_path": "plugins/msapps-cowork-session-fixer",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-cowork-session-fixer",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-cowork-session-fixer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3865,7 +3865,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3887,9 +3887,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3898,7 +3898,7 @@
       "name": "msapps-digital-presence",
       "shape": "skill",
       "source_path": "plugins/msapps-digital-presence",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-digital-presence",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-digital-presence",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3923,7 +3923,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -3945,9 +3945,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -3956,7 +3956,7 @@
       "name": "msapps-fix-chrome-connection",
       "shape": "skill",
       "source_path": "plugins/msapps-fix-chrome-connection",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-fix-chrome-connection",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-fix-chrome-connection",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -3981,7 +3981,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4003,9 +4003,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4014,7 +4014,7 @@
       "name": "msapps-gcloud-health-check",
       "shape": "skill",
       "source_path": "plugins/msapps-gcloud-health-check",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-gcloud-health-check",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-gcloud-health-check",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4039,7 +4039,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4061,9 +4061,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4072,7 +4072,7 @@
       "name": "msapps-github-health-check",
       "shape": "skill",
       "source_path": "plugins/msapps-github-health-check",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-github-health-check",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-github-health-check",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4097,7 +4097,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4119,9 +4119,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4130,7 +4130,7 @@
       "name": "msapps-google-drive-upload",
       "shape": "skill",
       "source_path": "plugins/msapps-google-drive-upload",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-google-drive-upload",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-google-drive-upload",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4155,7 +4155,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4177,9 +4177,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4188,7 +4188,7 @@
       "name": "msapps-kotlin-lsp",
       "shape": "skill",
       "source_path": "plugins/msapps-kotlin-lsp",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-kotlin-lsp",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-kotlin-lsp",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4213,7 +4213,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4235,9 +4235,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4246,7 +4246,7 @@
       "name": "msapps-linkedin-scraper",
       "shape": "skill",
       "source_path": "plugins/msapps-linkedin-scraper",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-linkedin-scraper",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-linkedin-scraper",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4271,7 +4271,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4293,9 +4293,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4304,7 +4304,7 @@
       "name": "msapps-mac-disk-cleaner",
       "shape": "skill",
       "source_path": "plugins/msapps-mac-disk-cleaner",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-mac-disk-cleaner",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-mac-disk-cleaner",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4329,7 +4329,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4351,9 +4351,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4362,7 +4362,7 @@
       "name": "msapps-notion-memory",
       "shape": "skill",
       "source_path": "plugins/msapps-notion-memory",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-notion-memory",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-notion-memory",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4387,7 +4387,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4409,9 +4409,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4420,7 +4420,7 @@
       "name": "msapps-rtl-chat-fixer",
       "shape": "skill",
       "source_path": "plugins/msapps-rtl-chat-fixer",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-rtl-chat-fixer",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-rtl-chat-fixer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4445,7 +4445,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4467,9 +4467,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4478,7 +4478,7 @@
       "name": "msapps-session-backup",
       "shape": "skill",
       "source_path": "plugins/msapps-session-backup",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-session-backup",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-session-backup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4503,7 +4503,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4525,9 +4525,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4536,7 +4536,7 @@
       "name": "msapps-sosa-compliance",
       "shape": "skill",
       "source_path": "plugins/msapps-sosa-compliance",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-sosa-compliance",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-sosa-compliance",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4561,7 +4561,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4583,9 +4583,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4594,7 +4594,7 @@
       "name": "msapps-sosa-governor",
       "shape": "skill",
       "source_path": "plugins/msapps-sosa-governor",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-sosa-governor",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-sosa-governor",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4619,7 +4619,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4641,9 +4641,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4652,7 +4652,7 @@
       "name": "msapps-sosa-orchestrator",
       "shape": "skill",
       "source_path": "plugins/msapps-sosa-orchestrator",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-sosa-orchestrator",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-sosa-orchestrator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4677,7 +4677,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4699,9 +4699,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4710,7 +4710,7 @@
       "name": "msapps-swift-lsp",
       "shape": "skill",
       "source_path": "plugins/msapps-swift-lsp",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-swift-lsp",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-swift-lsp",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4735,7 +4735,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4757,9 +4757,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4768,7 +4768,7 @@
       "name": "msapps-toggl-time-tracker",
       "shape": "skill",
       "source_path": "plugins/msapps-toggl-time-tracker",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-toggl-time-tracker",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-toggl-time-tracker",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4793,7 +4793,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4815,9 +4815,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4826,7 +4826,7 @@
       "name": "msapps-token-efficiency-audit",
       "shape": "skill",
       "source_path": "plugins/msapps-token-efficiency-audit",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-token-efficiency-audit",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-token-efficiency-audit",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4851,7 +4851,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4873,9 +4873,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4884,7 +4884,7 @@
       "name": "msapps-vm-disk-cleanup",
       "shape": "skill",
       "source_path": "plugins/msapps-vm-disk-cleanup",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-vm-disk-cleanup",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-vm-disk-cleanup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4909,7 +4909,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4931,9 +4931,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -4942,7 +4942,7 @@
       "name": "msapps-whatsapp",
       "shape": "skill",
       "source_path": "plugins/msapps-whatsapp",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-whatsapp",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-whatsapp",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -4967,7 +4967,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -4989,9 +4989,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5000,7 +5000,7 @@
       "name": "msapps-wordpress",
       "shape": "skill",
       "source_path": "plugins/msapps-wordpress",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-wordpress",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-wordpress",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5025,7 +5025,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5047,9 +5047,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5058,7 +5058,7 @@
       "name": "msapps-x-content-intelligence",
       "shape": "skill",
       "source_path": "plugins/msapps-x-content-intelligence",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-x-content-intelligence",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-x-content-intelligence",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5083,7 +5083,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5105,9 +5105,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5116,7 +5116,7 @@
       "name": "msapps-youtube-transcriber",
       "shape": "skill",
       "source_path": "plugins/msapps-youtube-transcriber",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-youtube-transcriber",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-youtube-transcriber",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5141,7 +5141,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5163,9 +5163,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5174,7 +5174,7 @@
       "name": "msapps-zoho-mail-health",
       "shape": "skill",
       "source_path": "plugins/msapps-zoho-mail-health",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/msapps-zoho-mail-health",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/msapps-zoho-mail-health",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5199,7 +5199,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5221,18 +5221,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "nextjs-expert",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/nextjs-expert",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/nextjs-expert",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/nextjs-expert",
       "readme_excerpt": "A comprehensive Claude Code plugin providing Next.js development expertise with skills for App Router, Server Components, Route Handlers, Server Actions, and authentication patterns.",
       "frontmatter": {
         "kind": "none",
@@ -5242,7 +5242,7 @@
           "description": "A comprehensive Claude Code plugin providing Next.js development expertise with skills for App Router, Server Components, Route Handlers, Server Actions, and authentication patterns.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -5257,7 +5257,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5279,9 +5279,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5290,7 +5290,7 @@
       "name": "obsidian-skills",
       "shape": "skill",
       "source_path": "plugins/obsidian-skills",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/obsidian-skills",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/obsidian-skills",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5315,7 +5315,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5337,18 +5337,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "origin",
-      "shape": "hook",
+      "shape": "mixed",
       "source_path": "plugins/origin",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/origin",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/origin",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5358,7 +5358,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -5373,7 +5373,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5395,9 +5395,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5406,7 +5406,7 @@
       "name": "project-boundary",
       "shape": "hook",
       "source_path": "plugins/project-boundary",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/project-boundary",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/project-boundary",
       "readme_excerpt": "Allows destructive operations **within your project** but blocks them **outside** the project directory. Built for `--dangerously-skip-permissions` mode where Claude doesn't ask — this plugin is your ",
       "frontmatter": {
         "kind": "none",
@@ -5431,7 +5431,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5453,9 +5453,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5464,7 +5464,7 @@
       "name": "public-plugin-builder",
       "shape": "skill",
       "source_path": "plugins/public-plugin-builder",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/public-plugin-builder",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/public-plugin-builder",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5489,7 +5489,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5511,18 +5511,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "ralph-review-trio",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/ralph-review-trio",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/ralph-review-trio",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/ralph-review-trio",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5532,7 +5532,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -5547,7 +5547,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5569,9 +5569,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5580,7 +5580,7 @@
       "name": "runapi-mcp",
       "shape": "unknown",
       "source_path": "plugins/runapi-mcp",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/runapi-mcp",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/runapi-mcp",
       "readme_excerpt": "130+ AI models for image, video, music, audio, and LLM generation from 18 providers.",
       "frontmatter": {
         "kind": "none",
@@ -5605,7 +5605,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5627,18 +5627,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "shipwright",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/shipwright",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/shipwright",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/shipwright",
       "readme_excerpt": "Describe your app in plain English — Shipwright builds, tests, and deploys it autonomously. 9-phase pipeline, 4 stacks, enterprise-grade safety hooks.",
       "frontmatter": {
         "kind": "none",
@@ -5648,7 +5648,7 @@
           "description": "Describe your app in plain English — Shipwright builds, tests, and deploys it autonomously. 9-phase pipeline, 4 stacks, enterprise-grade safety hooks.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -5663,7 +5663,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5685,18 +5685,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "slopmop",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/slopmop",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/slopmop",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/slopmop",
       "readme_excerpt": "Slop-mop adds quality-gate rails for AI-assisted codebases. It gives Claude Code a skill and slash commands for the refit onboarding flow, the swab/scour/buff/sail maintenance loop, and barnacle frict",
       "frontmatter": {
         "kind": "none",
@@ -5706,7 +5706,7 @@
           "description": "Slop-mop adds quality-gate rails for AI-assisted codebases. It gives Claude Code a skill and slash commands for the refit onboarding flow, the swab/scour/buff/sail maintenance loop, and barnacle frict",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -5721,7 +5721,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5743,18 +5743,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "startup-superpowers",
-      "shape": "hook",
+      "shape": "mixed",
       "source_path": "plugins/startup-superpowers",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/startup-superpowers",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/startup-superpowers",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -5764,7 +5764,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -5779,7 +5779,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5801,9 +5801,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5812,7 +5812,7 @@
       "name": "superpipelines",
       "shape": "unknown",
       "source_path": "plugins/superpipelines",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/superpipelines",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/superpipelines",
       "readme_excerpt": "**Multi-agent orchestration across AI coding platforms.**",
       "frontmatter": {
         "kind": "none",
@@ -5837,7 +5837,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5859,9 +5859,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5870,7 +5870,7 @@
       "name": "thumbgate",
       "shape": "skill",
       "source_path": "plugins/thumbgate",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/thumbgate",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/thumbgate",
       "readme_excerpt": "Pre-action gates for AI coding agents. Catches destructive operations before they hit your codebase.",
       "frontmatter": {
         "kind": "none",
@@ -5895,7 +5895,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5917,18 +5917,18 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
     },
     {
       "name": "tlsradar",
-      "shape": "mcp",
+      "shape": "mixed",
       "source_path": "plugins/tlsradar",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/tlsradar",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/tlsradar",
       "readme_excerpt": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)",
       "frontmatter": {
         "kind": "none",
@@ -5938,7 +5938,7 @@
           "description": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)",
           "version": null,
           "lastReviewed": null,
-          "shape": "mcp"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -5953,7 +5953,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -5975,9 +5975,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -5986,7 +5986,7 @@
       "name": "travel-agent-skill",
       "shape": "skill",
       "source_path": "plugins/travel-agent-skill",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/travel-agent-skill",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/travel-agent-skill",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -6011,7 +6011,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -6033,9 +6033,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -6044,7 +6044,7 @@
       "name": "ultracost",
       "shape": "skill",
       "source_path": "plugins/ultracost",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/ultracost",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/ultracost",
       "readme_excerpt": "**Per-stage model routing for Claude Code `ultracode` dynamic workflows.**",
       "frontmatter": {
         "kind": "none",
@@ -6069,7 +6069,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -6091,9 +6091,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -6102,7 +6102,7 @@
       "name": "ultraship",
       "shape": "unknown",
       "source_path": "plugins/ultraship",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/ultraship",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/ultraship",
       "readme_excerpt": "Claude Code plugin — 32 expert-level skills for building, shipping, and scaling production software. 29 audit tools close the loop before deploy.",
       "frontmatter": {
         "kind": "none",
@@ -6127,7 +6127,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -6149,9 +6149,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -6160,7 +6160,7 @@
       "name": "venture-capital-intelligence",
       "shape": "skill",
       "source_path": "plugins/venture-capital-intelligence",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/venture-capital-intelligence",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/venture-capital-intelligence",
       "readme_excerpt": "> **Your complete intelligence layer for venture capital and startups.**",
       "frontmatter": {
         "kind": "none",
@@ -6185,7 +6185,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -6207,9 +6207,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -6218,7 +6218,7 @@
       "name": "vibe-prospecting",
       "shape": "unknown",
       "source_path": "plugins/vibe-prospecting",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/vibe-prospecting",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/vibe-prospecting",
       "readme_excerpt": "Power your chat with live B2B data — build lead lists, research companies, enrich contacts, personalize outreach, and inspect business signals, tech stacks, events, and website changes — all from insi",
       "frontmatter": {
         "kind": "none",
@@ -6243,7 +6243,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -6265,9 +6265,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -6276,7 +6276,7 @@
       "name": "vulnetix",
       "shape": "skill",
       "source_path": "plugins/vulnetix",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/vulnetix",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/vulnetix",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -6301,7 +6301,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -6323,9 +6323,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -6334,7 +6334,7 @@
       "name": "youtube-full",
       "shape": "skill",
       "source_path": "plugins/youtube-full",
-      "source_url": "https://github.com/davepoon/buildwithclaude/tree/b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6/plugins/youtube-full",
+      "source_url": "https://github.com/davepoon/buildwithclaude/tree/8cd972fd38d8ba29e71fda35657cd2f5695eccff/plugins/youtube-full",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -6359,7 +6359,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b394ba21f7b7f5264544bfe1394bdcd4f0fe26f6",
+        "default_sha": "8cd972fd38d8ba29e71fda35657cd2f5695eccff",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -6381,9 +6381,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 3224,
+          "stars": 3228,
           "contributors": 101,
-          "last_commit": "2026-07-26T01:33:16Z",
+          "last_commit": "2026-07-28T02:04:12Z",
           "archived": false
         }
       }
@@ -6397,9 +6397,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 3224,
+      "stars": 3228,
       "contributors": 101,
-      "last_commit": "2026-07-26T01:33:16Z",
+      "last_commit": "2026-07-28T02:04:12Z",
       "archived": false
     }
   }

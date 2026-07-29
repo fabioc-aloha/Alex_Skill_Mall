@@ -1,0 +1,1080 @@
+{
+  "store": "dotnet-skills",
+  "source_repo": "https://github.com/dotnet/skills.git",
+  "generated_at": "2026-07-29T00:50:59.833Z",
+  "scanned_ref": "7d5106946f95cc16948e372990a090b56d98a90b",
+  "provenance": false,
+  "tier": "dotnet-official",
+  "license": "MIT",
+  "plugin_count": 17,
+  "plugins": [
+    {
+      "name": "vally-adapter",
+      "shape": "unknown",
+      "source_path": "eng/vally-adapter",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/eng/vally-adapter",
+      "readme_excerpt": "`adapt.mjs` converts a Vally experiment's baseline and skilled `results.jsonl`",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "vally-adapter",
+          "description": "`adapt.mjs` converts a Vally experiment's baseline and skilled `results.jsonl`",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet",
+      "shape": "skill",
+      "source_path": "plugins/dotnet",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet",
+      "readme_excerpt": "Core .NET and C# skills for coding agents.",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet",
+          "version": "0.2.0",
+          "description": "C# language server (LSP) integration for coding agents and high-level .NET development skills.",
+          "skills": [
+            "./skills/"
+          ],
+          "lspServers": "./lsp.json"
+        },
+        "standard": {
+          "name": "dotnet",
+          "description": "C# language server (LSP) integration for coding agents and high-level .NET development skills.",
+          "version": "0.2.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 46,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-advanced",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-advanced",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-advanced",
+      "readme_excerpt": "Advanced .NET and C# skills for niche scenarios and coding agents.",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-advanced",
+          "version": "0.2.0",
+          "description": "Advanced .NET and C# skills for niche scenarios that are not part of the core dotnet plugin.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-advanced",
+          "description": "Advanced .NET and C# skills for niche scenarios that are not part of the core dotnet plugin.",
+          "version": "0.2.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 48,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-ai",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-ai",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-ai",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-ai",
+          "version": "0.1.0",
+          "description": "AI and ML skills for .NET: technology selection, LLM integration, agentic workflows, RAG pipelines, MCP, and classic ML with ML.NET.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-ai",
+          "description": "AI and ML skills for .NET: technology selection, LLM integration, agentic workflows, RAG pipelines, MCP, and classic ML with ML.NET.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-aspnetcore",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-aspnetcore",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-aspnetcore",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-aspnetcore",
+          "version": "0.1.0",
+          "description": "ASP.NET Core web development skills including middleware, endpoints, real-time communication, and API patterns.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-aspnetcore",
+          "description": "ASP.NET Core web development skills including middleware, endpoints, real-time communication, and API patterns.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-blazor",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-blazor",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-blazor",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-blazor",
+          "version": "0.1.0",
+          "description": "Skills for Blazor development: component authoring, interactivity, and web application patterns.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-blazor",
+          "description": "Skills for Blazor development: component authoring, interactivity, and web application patterns.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-data",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-data",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-data",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-data",
+          "version": "0.1.0",
+          "description": "Skills for .NET data access and Entity Framework related tasks.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-data",
+          "description": "Skills for .NET data access and Entity Framework related tasks.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-diag",
+      "shape": "mixed",
+      "source_path": "plugins/dotnet-diag",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-diag",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-diag",
+          "version": "0.1.0",
+          "description": "Skills for .NET performance investigations, debugging, and incident analysis.",
+          "skills": [
+            "./skills/"
+          ],
+          "agents": [
+            "./agents/optimizing-dotnet-performance.agent.md"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-diag",
+          "description": "Skills for .NET performance investigations, debugging, and incident analysis.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-experimental",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-experimental",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-experimental",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-experimental",
+          "version": "0.1.0",
+          "description": "Experimental skills under active evaluation that may change or graduate to stable plugins.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-experimental",
+          "description": "Experimental skills under active evaluation that may change or graduate to stable plugins.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-maui",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-maui",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-maui",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-maui",
+          "version": "0.1.0",
+          "description": "Skills for .NET MAUI development: environment setup, diagnostics, troubleshooting, navigation, data binding, dependency injection, layout, and theming.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-maui",
+          "description": "Skills for .NET MAUI development: environment setup, diagnostics, troubleshooting, navigation, data binding, dependency injection, layout, and theming.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-msbuild",
+      "shape": "mixed",
+      "source_path": "plugins/dotnet-msbuild",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-msbuild",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-msbuild",
+          "version": "0.1.0",
+          "description": "Comprehensive MSBuild and .NET build skills: failure diagnosis, performance optimization, code quality, and modernization.",
+          "skills": [
+            "./skills/"
+          ],
+          "agents": [
+            "./agents/build-perf.agent.md",
+            "./agents/msbuild-code-review.agent.md",
+            "./agents/msbuild.agent.md"
+          ],
+          "mcpServers": {
+            "binlog": {
+              "type": "stdio",
+              "command": "dotnet",
+              "args": [
+                "dnx",
+                "Microsoft.AITools.BinlogMcp",
+                "--yes"
+              ],
+              "tools": [
+                "*"
+              ]
+            }
+          }
+        },
+        "standard": {
+          "name": "dotnet-msbuild",
+          "description": "Comprehensive MSBuild and .NET build skills: failure diagnosis, performance optimization, code quality, and modernization.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-nuget",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-nuget",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-nuget",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-nuget",
+          "version": "0.1.0",
+          "description": "NuGet and .NET package management skills: dependency management and modernization.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-nuget",
+          "description": "NuGet and .NET package management skills: dependency management and modernization.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-template-engine",
+      "shape": "mixed",
+      "source_path": "plugins/dotnet-template-engine",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-template-engine",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-template-engine",
+          "version": "0.1.0",
+          "description": ".NET Template Engine skills for dotnet new: create projects (console app, class library, web API, Blazor, MAUI), discover and search templates, inspect template parameters and frameworks (net8.0, net9.0, net10.0), scaffold solutions, author and validate custom templates, install template packages from NuGet.",
+          "skills": [
+            "./skills/"
+          ],
+          "agents": [
+            "./agents/template-engine.agent.md"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-template-engine",
+          "description": ".NET Template Engine skills for dotnet new: create projects (console app, class library, web API, Blazor, MAUI), discover and search templates, inspect template parameters and frameworks (net8.0, net9.0, net10.0), scaffold solutions, author and validate custom templates, install template packages from NuGet.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-test",
+      "shape": "mixed",
+      "source_path": "plugins/dotnet-test",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-test",
+      "readme_excerpt": "Skills and agents for running, generating, analyzing, and improving tests. Originally built for .NET (MSTest, xUnit, NUnit, TUnit) and platforms (VSTest, Microsoft.Testing.Platform); the test-generati",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-test",
+          "version": "0.2.0",
+          "description": "Skills for running, generating, analyzing, and improving .NET tests: test execution, filtering, platform detection, coverage, testability, and MSTest workflows.",
+          "skills": [
+            "./skills/"
+          ],
+          "agents": [
+            "./agents/code-testing-generator.agent.md",
+            "./agents/code-testing-researcher.agent.md",
+            "./agents/code-testing-planner.agent.md",
+            "./agents/code-testing-implementer.agent.md",
+            "./agents/code-testing-builder.agent.md",
+            "./agents/code-testing-tester.agent.md",
+            "./agents/code-testing-fixer.agent.md",
+            "./agents/code-testing-linter.agent.md",
+            "./agents/testability-migration.agent.md",
+            "./agents/test-quality-auditor.agent.md"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-test",
+          "description": "Skills for running, generating, analyzing, and improving .NET tests: test execution, filtering, platform detection, coverage, testability, and MSTest workflows.",
+          "version": "0.2.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 48,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-test-migration",
+      "shape": "mixed",
+      "source_path": "plugins/dotnet-test-migration",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-test-migration",
+      "readme_excerpt": "Skills and an orchestrator agent for migrating .NET test frameworks and platforms. Covers framework version upgrades (MSTest, xUnit), cross-framework conversion (xUnit → MSTest), and test platform mig",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-test-migration",
+          "version": "0.1.0",
+          "description": "Skills and an orchestrator agent for migrating .NET test frameworks and platforms: MSTest and xUnit version upgrades, xUnit-to-MSTest conversion, and VSTest to Microsoft.Testing.Platform.",
+          "skills": [
+            "./skills/"
+          ],
+          "agents": [
+            "./agents/test-migration.agent.md"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-test-migration",
+          "description": "Skills and an orchestrator agent for migrating .NET test frameworks and platforms: MSTest and xUnit version upgrades, xUnit-to-MSTest conversion, and VSTest to Microsoft.Testing.Platform.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 48,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-upgrade",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-upgrade",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet-upgrade",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-upgrade",
+          "version": "0.1.0",
+          "description": "Skills for migrating and upgrading .NET projects across framework versions, language features, and compatibility targets.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-upgrade",
+          "description": "Skills for migrating and upgrading .NET projects across framework versions, language features, and compatibility targets.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet11",
+      "shape": "skill",
+      "source_path": "plugins/dotnet11",
+      "source_url": "https://github.com/dotnet/skills/tree/7d5106946f95cc16948e372990a090b56d98a90b/plugins/dotnet11",
+      "readme_excerpt": "Skills focused on new APIs and language features introduced in .NET 11.",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet11",
+          "version": "0.1.0",
+          "description": "Skills for .NET 11 APIs and language features.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet11",
+          "description": "Skills for .NET 11 APIs and language features.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "7d5106946f95cc16948e372990a090b56d98a90b",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 48,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4795,
+          "contributors": 56,
+          "last_commit": "2026-07-29T00:21:10Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 35,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 10,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 4795,
+      "contributors": 56,
+      "last_commit": "2026-07-29T00:21:10Z",
+      "archived": false
+    }
+  }
+}

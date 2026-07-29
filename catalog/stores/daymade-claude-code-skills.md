@@ -2,7 +2,7 @@
 
 **Source:** [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills)
 **Store trust:** 35/100
-**Signals:** maintenance 15 · adoption 10 · license 10 (MIT) · 1299 stars · 11 contributors
+**Signals:** maintenance 15 · adoption 10 · license 10 (MIT) · 1300 stars · 11 contributors
 **Scanned ref:** `17f608c138ea`
 
 ## Plugins (92)
@@ -17,15 +17,15 @@
 | 40 | [`bilibili-source`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/bilibili-source) | skill | - | Fetch comprehensive, login-free data for any Bilibili (B站) video — title, UP name and follower coun… |
 | 40 | [`capture-screen`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/capture-screen) | skill | - | Programmatic screenshot capture on macOS. Find window IDs with Swift CGWindowListCopyWindowInfo, co… |
 | 40 | [`claude-skills-troubleshooting`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/claude-skills-troubleshooting) | skill | - | Diagnose and resolve Claude Code plugin and skill issues. This skill should be used when plugins ar… |
-| 40 | [`claude-usage-analyst`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/claude-usage-analyst) | skill | - | Analyze Claude Code and Claude Desktop Code token usage, cost, quota burn, model mix, cache read/wr… |
+| 40 | [`claude-usage-analyst`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/claude-usage-analyst) | mixed | - | Analyze Claude Code and Claude Desktop Code token usage, cost, quota burn, model mix, cache read/wr… |
 | 40 | [`cli-demo-generator`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/cli-demo-generator) | skill | - | Generates professional animated CLI demos as GIFs using VHS terminal recordings. Handles tape file … |
 | 40 | [`cloudflare-troubleshooting`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/cloudflare-troubleshooting) | skill | - | Investigate and resolve Cloudflare configuration issues using API-driven evidence gathering. Use wh… |
-| 40 | [`codex-image-gallery`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/codex-image-gallery) | skill | - | Start or reuse a self-contained local web gallery for browsing Codex-generated images. Use when the… |
+| 40 | [`codex-image-gallery`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/codex-image-gallery) | mixed | - | Start or reuse a self-contained local web gallery for browsing Codex-generated images. Use when the… |
 | 40 | [`continue-claude-work`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/continue-claude-work) | skill | - | Recover actionable context from local `.claude` session artifacts and continue interrupted work wit… |
-| 40 | [`design-style-picker`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/design-style-picker) | skill | - | Batch-generate and compare visual design directions so a user can choose the style they actually wa… |
+| 40 | [`design-style-picker`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/design-style-picker) | mixed | - | Batch-generate and compare visual design directions so a user can choose the style they actually wa… |
 | 40 | [`doc-to-markdown`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-docs/doc-to-markdown) | skill | - | Converts DOCX/PDF/PPTX to high-quality Markdown with automatic post-processing. Fixes pandoc grid t… |
 | 40 | [`docs-cleaner`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-docs/docs-cleaner) | skill | - | Consolidates redundant documentation while preserving all valuable content. This skill should be us… |
-| 40 | [`download-gemini-images`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/download-gemini-images) | skill | - | Download, export, save, or package images from a Google Gemini conversation/chat/app page, especial… |
+| 40 | [`download-gemini-images`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/download-gemini-images) | mixed | - | Download, export, save, or package images from a Google Gemini conversation/chat/app page, especial… |
 | 40 | [`excel-automation`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/excel-automation) | skill | - | Create, parse, and control Excel files on macOS. Professional formatting with openpyxl, complex xls… |
 | 40 | [`feishu-doc-scraper`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/feishu-doc-scraper) | skill | - | Extract Feishu (Lark) Docs, Wiki pages/collections, spreadsheets, and Minutes (妙记) transcripts into… |
 | 40 | [`financial-data-collector`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-financial/financial-data-collector) | skill | - | Collect real financial data for any US publicly traded company from free public sources (yfinance).… |
@@ -57,7 +57,7 @@
 | 40 | [`teams-channel-post-writer`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/teams-channel-post-writer) | skill | - | Creates educational Teams channel posts for internal knowledge sharing about Claude Code features, … |
 | 40 | [`twitter-reader`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/twitter-reader) | skill | - | Fetch Twitter/X post content including long-form Articles with full images and metadata. Use when C… |
 | 40 | [`ui-designer`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/ui-designer) | skill | - | Extract design systems from reference UI images and generate implementation-ready UI design prompts… |
-| 40 | [`wps-doc-scraper`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/wps-doc-scraper) | skill | - | Faithfully archive public WPS/KDocs/金山文档 links, especially embedded ProcessOn .pof mind maps and ca… |
+| 40 | [`wps-doc-scraper`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/wps-doc-scraper) | mixed | - | Faithfully archive public WPS/KDocs/金山文档 links, especially embedded ProcessOn .pof mind maps and ca… |
 | 40 | [`youtube-downloader`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/youtube-downloader) | skill | - | Download YouTube videos and HLS streams (m3u8) from platforms like Mux, Vimeo, etc. using yt-dlp an… |
 | 35 | [`ashare-news-fetcher`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-financial/ashare-news-fetcher) | skill | - |  |
 | 35 | [`asr-transcribe-to-text`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-audio/asr-transcribe-to-text) | skill | - |  |
@@ -77,13 +77,13 @@
 | 35 | [`docx-creator`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-docs/docx-creator) | skill | - |  |
 | 35 | [`douban-skill`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/douban-skill) | skill | - |  |
 | 35 | [`frontend-visual-qa`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/frontend-visual-qa) | skill | - |  |
-| 35 | [`git-safety-net`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/git-safety-net) | skill | - |  |
+| 35 | [`git-safety-net`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/git-safety-net) | mixed | - |  |
 | 35 | [`github-review-pr`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/github-review-pr) | skill | - |  |
 | 35 | [`github-sensitive-data-cleanup`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/github-sensitive-data-cleanup) | skill | - |  |
 | 35 | [`ima-copilot`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/ima-copilot) | skill | - |  |
 | 35 | [`llm-eval-harness`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/llm-eval-harness) | skill | - |  |
 | 35 | [`local-conversation-history`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/local-conversation-history) | skill | - |  |
-| 35 | [`marketplace-dev`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/marketplace-dev) | hook | - |  |
+| 35 | [`marketplace-dev`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/marketplace-dev) | mixed | - |  |
 | 35 | [`marketplace-health-check`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/marketplace-health-check) | skill | - |  |
 | 35 | [`meeting-minutes-taker`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-audio/meeting-minutes-taker) | skill | - |  |
 | 35 | [`notify-wecom`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/notify-wecom) | skill | - |  |
@@ -93,7 +93,7 @@
 | 35 | [`photo-to-scanned-pdf`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-docs/photo-to-scanned-pdf) | skill | - |  |
 | 35 | [`read-claude-web-conversation`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/read-claude-web-conversation) | skill | - |  |
 | 35 | [`setup-notifications-via-wecom`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/setup-notifications-via-wecom) | skill | - |  |
-| 35 | [`skill-creator`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-skill/skill-creator) | skill | - |  |
+| 35 | [`skill-creator`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-skill/skill-creator) | mixed | - |  |
 | 35 | [`skill-governance`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-skill/skill-governance) | skill | - |  |
 | 35 | [`statusline-generator`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/statusline-generator) | skill | - |  |
 | 35 | [`terminal-screenshot`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/daymade-claude-code/terminal-screenshot) | skill | - |  |
@@ -103,4 +103,4 @@
 | 35 | [`windows-remote-desktop-connection-doctor`](https://github.com/daymade/claude-code-skills/tree/17f608c138ea2299cc208e52354b9636c3b5c0f1/windows-remote-desktop-connection-doctor) | skill | - |  |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-07-29T00:23:34.118Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-07-29T00:51:45.361Z*

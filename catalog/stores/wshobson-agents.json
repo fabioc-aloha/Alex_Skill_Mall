@@ -1,7 +1,7 @@
 {
   "store": "wshobson-agents",
   "source_repo": "https://github.com/wshobson/agents.git",
-  "generated_at": "2026-07-20T13:02:14.204Z",
+  "generated_at": "2026-07-29T00:51:01.949Z",
   "scanned_ref": "c4b82b0ad771190355eb8e204b1329732a18449a",
   "provenance": false,
   "tier": "community-quality",
@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "accessibility-compliance",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/accessibility-compliance",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/accessibility-compliance",
       "readme_excerpt": null,
@@ -22,7 +22,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -51,8 +51,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -60,7 +60,7 @@
     },
     {
       "name": "agent-orchestration",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/agent-orchestration",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/agent-orchestration",
       "readme_excerpt": null,
@@ -72,7 +72,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -101,8 +101,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -110,7 +110,7 @@
     },
     {
       "name": "agent-teams",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/agent-teams",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/agent-teams",
       "readme_excerpt": "Orchestrate multi-agent teams for parallel code review, hypothesis-driven debugging, and coordinated feature development using Claude Code's experimental [Agent Teams](https://code.claude.com/docs/en/",
@@ -122,7 +122,7 @@
           "description": "Orchestrate multi-agent teams for parallel code review, hypothesis-driven debugging, and coordinated feature development using Claude Code's experimental [Agent Teams](https://code.claude.com/docs/en/",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -151,8 +151,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -160,7 +160,7 @@
     },
     {
       "name": "api-scaffolding",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/api-scaffolding",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/api-scaffolding",
       "readme_excerpt": null,
@@ -172,7 +172,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -201,8 +201,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -210,7 +210,7 @@
     },
     {
       "name": "api-testing-observability",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/api-testing-observability",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/api-testing-observability",
       "readme_excerpt": null,
@@ -222,7 +222,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -251,8 +251,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -260,7 +260,7 @@
     },
     {
       "name": "application-performance",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/application-performance",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/application-performance",
       "readme_excerpt": null,
@@ -272,7 +272,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -301,8 +301,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -351,8 +351,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -401,8 +401,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -410,7 +410,7 @@
     },
     {
       "name": "backend-development",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/backend-development",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/backend-development",
       "readme_excerpt": null,
@@ -422,7 +422,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -451,8 +451,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -501,8 +501,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -510,7 +510,7 @@
     },
     {
       "name": "block-no-verify",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/block-no-verify",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/block-no-verify",
       "readme_excerpt": null,
@@ -522,7 +522,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -551,8 +551,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -560,7 +560,7 @@
     },
     {
       "name": "blockchain-web3",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/blockchain-web3",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/blockchain-web3",
       "readme_excerpt": null,
@@ -572,7 +572,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -601,8 +601,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -651,8 +651,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -660,7 +660,7 @@
     },
     {
       "name": "business-analytics",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/business-analytics",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/business-analytics",
       "readme_excerpt": null,
@@ -672,7 +672,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -701,8 +701,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -710,7 +710,7 @@
     },
     {
       "name": "c4-architecture",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/c4-architecture",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/c4-architecture",
       "readme_excerpt": null,
@@ -722,7 +722,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -751,8 +751,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -760,7 +760,7 @@
     },
     {
       "name": "cicd-automation",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/cicd-automation",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/cicd-automation",
       "readme_excerpt": null,
@@ -772,7 +772,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -801,8 +801,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -810,7 +810,7 @@
     },
     {
       "name": "cloud-infrastructure",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/cloud-infrastructure",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/cloud-infrastructure",
       "readme_excerpt": null,
@@ -822,7 +822,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -851,8 +851,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -860,7 +860,7 @@
     },
     {
       "name": "code-documentation",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/code-documentation",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/code-documentation",
       "readme_excerpt": null,
@@ -872,7 +872,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -901,8 +901,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -910,7 +910,7 @@
     },
     {
       "name": "code-refactoring",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/code-refactoring",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/code-refactoring",
       "readme_excerpt": null,
@@ -922,7 +922,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -951,8 +951,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -960,7 +960,7 @@
     },
     {
       "name": "codebase-cleanup",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/codebase-cleanup",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/codebase-cleanup",
       "readme_excerpt": null,
@@ -972,7 +972,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1001,8 +1001,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1010,7 +1010,7 @@
     },
     {
       "name": "comprehensive-review",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/comprehensive-review",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/comprehensive-review",
       "readme_excerpt": null,
@@ -1022,7 +1022,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1051,8 +1051,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1060,7 +1060,7 @@
     },
     {
       "name": "conductor",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/conductor",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/conductor",
       "readme_excerpt": "Conductor transforms Claude Code into a project management tool by implementing **Context-Driven Development**. It enforces a structured workflow: **Context → Spec & Plan → Implement**.",
@@ -1072,7 +1072,7 @@
           "description": "Conductor transforms Claude Code into a project management tool by implementing **Context-Driven Development**. It enforces a structured workflow: **Context → Spec & Plan → Implement**.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1101,8 +1101,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1151,8 +1151,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1160,7 +1160,7 @@
     },
     {
       "name": "context-management",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/context-management",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/context-management",
       "readme_excerpt": null,
@@ -1172,7 +1172,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1201,8 +1201,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1251,8 +1251,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1260,7 +1260,7 @@
     },
     {
       "name": "data-engineering",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/data-engineering",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/data-engineering",
       "readme_excerpt": null,
@@ -1272,7 +1272,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1301,8 +1301,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1351,8 +1351,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1360,7 +1360,7 @@
     },
     {
       "name": "database-cloud-optimization",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/database-cloud-optimization",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/database-cloud-optimization",
       "readme_excerpt": null,
@@ -1372,7 +1372,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1401,8 +1401,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1410,7 +1410,7 @@
     },
     {
       "name": "database-design",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/database-design",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/database-design",
       "readme_excerpt": null,
@@ -1422,7 +1422,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1451,8 +1451,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1460,7 +1460,7 @@
     },
     {
       "name": "database-migrations",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/database-migrations",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/database-migrations",
       "readme_excerpt": null,
@@ -1472,7 +1472,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1501,8 +1501,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1510,7 +1510,7 @@
     },
     {
       "name": "debugging-toolkit",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/debugging-toolkit",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/debugging-toolkit",
       "readme_excerpt": null,
@@ -1522,7 +1522,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1551,8 +1551,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1560,7 +1560,7 @@
     },
     {
       "name": "dependency-management",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/dependency-management",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/dependency-management",
       "readme_excerpt": null,
@@ -1572,7 +1572,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1601,8 +1601,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1651,8 +1651,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1660,7 +1660,7 @@
     },
     {
       "name": "deployment-validation",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/deployment-validation",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/deployment-validation",
       "readme_excerpt": null,
@@ -1672,7 +1672,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1701,8 +1701,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1710,7 +1710,7 @@
     },
     {
       "name": "developer-essentials",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/developer-essentials",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/developer-essentials",
       "readme_excerpt": null,
@@ -1722,7 +1722,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1751,8 +1751,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1760,7 +1760,7 @@
     },
     {
       "name": "dgx-spark-ops",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/dgx-spark-ops",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/dgx-spark-ops",
       "readme_excerpt": null,
@@ -1772,7 +1772,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1801,8 +1801,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1810,7 +1810,7 @@
     },
     {
       "name": "distributed-debugging",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/distributed-debugging",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/distributed-debugging",
       "readme_excerpt": null,
@@ -1822,7 +1822,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1851,8 +1851,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1860,7 +1860,7 @@
     },
     {
       "name": "documentation-generation",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/documentation-generation",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/documentation-generation",
       "readme_excerpt": null,
@@ -1872,7 +1872,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -1901,8 +1901,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1951,8 +1951,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -1960,7 +1960,7 @@
     },
     {
       "name": "dotnet-contribution",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/dotnet-contribution",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/dotnet-contribution",
       "readme_excerpt": "A comprehensive plugin for .NET backend development with C#, ASP.NET Core, Entity Framework Core, and Dapper.",
@@ -1972,7 +1972,7 @@
           "description": "A comprehensive plugin for .NET backend development with C#, ASP.NET Core, Entity Framework Core, and Dapper.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2001,8 +2001,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2010,7 +2010,7 @@
     },
     {
       "name": "error-debugging",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/error-debugging",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/error-debugging",
       "readme_excerpt": null,
@@ -2022,7 +2022,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2051,8 +2051,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2060,7 +2060,7 @@
     },
     {
       "name": "error-diagnostics",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/error-diagnostics",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/error-diagnostics",
       "readme_excerpt": null,
@@ -2072,7 +2072,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2101,8 +2101,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2151,8 +2151,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2160,7 +2160,7 @@
     },
     {
       "name": "framework-migration",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/framework-migration",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/framework-migration",
       "readme_excerpt": null,
@@ -2172,7 +2172,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2201,8 +2201,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2210,7 +2210,7 @@
     },
     {
       "name": "frontend-mobile-development",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/frontend-mobile-development",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/frontend-mobile-development",
       "readme_excerpt": null,
@@ -2222,7 +2222,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2251,8 +2251,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2260,7 +2260,7 @@
     },
     {
       "name": "frontend-mobile-security",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/frontend-mobile-security",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/frontend-mobile-security",
       "readme_excerpt": null,
@@ -2272,7 +2272,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2301,8 +2301,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2310,7 +2310,7 @@
     },
     {
       "name": "full-stack-orchestration",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/full-stack-orchestration",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/full-stack-orchestration",
       "readme_excerpt": null,
@@ -2322,7 +2322,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2351,8 +2351,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2401,8 +2401,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2410,7 +2410,7 @@
     },
     {
       "name": "game-development",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/game-development",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/game-development",
       "readme_excerpt": null,
@@ -2422,7 +2422,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2451,8 +2451,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2460,7 +2460,7 @@
     },
     {
       "name": "git-pr-workflows",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/git-pr-workflows",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/git-pr-workflows",
       "readme_excerpt": null,
@@ -2472,7 +2472,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2501,8 +2501,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2551,8 +2551,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2560,7 +2560,7 @@
     },
     {
       "name": "hr-legal-compliance",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/hr-legal-compliance",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/hr-legal-compliance",
       "readme_excerpt": null,
@@ -2572,7 +2572,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2601,8 +2601,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2610,7 +2610,7 @@
     },
     {
       "name": "incident-response",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/incident-response",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/incident-response",
       "readme_excerpt": null,
@@ -2622,7 +2622,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2651,8 +2651,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2660,7 +2660,7 @@
     },
     {
       "name": "javascript-typescript",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/javascript-typescript",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/javascript-typescript",
       "readme_excerpt": null,
@@ -2672,7 +2672,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2701,8 +2701,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2751,8 +2751,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2801,8 +2801,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2810,7 +2810,7 @@
     },
     {
       "name": "kubernetes-operations",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/kubernetes-operations",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/kubernetes-operations",
       "readme_excerpt": null,
@@ -2822,7 +2822,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2851,8 +2851,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2860,7 +2860,7 @@
     },
     {
       "name": "llm-application-dev",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/llm-application-dev",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/llm-application-dev",
       "readme_excerpt": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents with modern AI patterns.",
@@ -2872,7 +2872,7 @@
           "description": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents with modern AI patterns.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2901,8 +2901,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2910,7 +2910,7 @@
     },
     {
       "name": "llm-finetuning",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/llm-finetuning",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/llm-finetuning",
       "readme_excerpt": null,
@@ -2922,7 +2922,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2951,8 +2951,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -2960,7 +2960,7 @@
     },
     {
       "name": "machine-learning-ops",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/machine-learning-ops",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/machine-learning-ops",
       "readme_excerpt": null,
@@ -2972,7 +2972,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3001,8 +3001,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3010,7 +3010,7 @@
     },
     {
       "name": "meigen-ai-design",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/meigen-ai-design",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/meigen-ai-design",
       "readme_excerpt": "AI image generation plugin with creative workflow orchestration, parallel multi-direction output, prompt engineering, and a 1,300+ curated inspiration library.",
@@ -3022,7 +3022,7 @@
           "description": "AI image generation plugin with creative workflow orchestration, parallel multi-direction output, prompt engineering, and a 1,300+ curated inspiration library.",
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3051,8 +3051,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3060,7 +3060,7 @@
     },
     {
       "name": "multi-platform-apps",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/multi-platform-apps",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/multi-platform-apps",
       "readme_excerpt": null,
@@ -3072,7 +3072,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3101,8 +3101,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3110,7 +3110,7 @@
     },
     {
       "name": "observability-monitoring",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/observability-monitoring",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/observability-monitoring",
       "readme_excerpt": null,
@@ -3122,7 +3122,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3151,8 +3151,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3201,8 +3201,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3210,7 +3210,7 @@
     },
     {
       "name": "payment-processing",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/payment-processing",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/payment-processing",
       "readme_excerpt": null,
@@ -3222,7 +3222,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3251,8 +3251,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3260,7 +3260,7 @@
     },
     {
       "name": "performance-testing-review",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/performance-testing-review",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/performance-testing-review",
       "readme_excerpt": null,
@@ -3272,7 +3272,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3301,8 +3301,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3310,7 +3310,7 @@
     },
     {
       "name": "plugin-eval",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/plugin-eval",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/plugin-eval",
       "readme_excerpt": "Three-layer quality evaluation framework for Claude Code plugins.",
@@ -3322,7 +3322,7 @@
           "description": "Three-layer quality evaluation framework for Claude Code plugins.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3351,8 +3351,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3360,7 +3360,7 @@
     },
     {
       "name": "pptx-deck-creation",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/pptx-deck-creation",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/pptx-deck-creation",
       "readme_excerpt": "Create editable, production-ready PowerPoint decks from a brief and source material.",
@@ -3372,7 +3372,7 @@
           "description": "Create editable, production-ready PowerPoint decks from a brief and source material.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3401,8 +3401,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3410,7 +3410,7 @@
     },
     {
       "name": "protect-mcp",
-      "shape": "hook",
+      "shape": "mixed",
       "source_path": "plugins/protect-mcp",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/protect-mcp",
       "readme_excerpt": "Cedar policy enforcement + Ed25519 signed receipts for every Claude Code tool call.",
@@ -3422,7 +3422,7 @@
           "description": "Cedar policy enforcement + Ed25519 signed receipts for every Claude Code tool call.",
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3451,8 +3451,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3460,7 +3460,7 @@
     },
     {
       "name": "python-development",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/python-development",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/python-development",
       "readme_excerpt": null,
@@ -3472,7 +3472,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3501,8 +3501,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3510,7 +3510,7 @@
     },
     {
       "name": "quantitative-trading",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/quantitative-trading",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/quantitative-trading",
       "readme_excerpt": null,
@@ -3522,7 +3522,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3551,8 +3551,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3560,7 +3560,7 @@
     },
     {
       "name": "reverse-engineering",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/reverse-engineering",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/reverse-engineering",
       "readme_excerpt": null,
@@ -3572,7 +3572,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3601,8 +3601,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3610,7 +3610,7 @@
     },
     {
       "name": "review-agent-governance",
-      "shape": "hook",
+      "shape": "mixed",
       "source_path": "plugins/review-agent-governance",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/review-agent-governance",
       "readme_excerpt": "Require a human approval signal before an AI agent can post PR reviews,",
@@ -3622,7 +3622,7 @@
           "description": "Require a human approval signal before an AI agent can post PR reviews,",
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3651,8 +3651,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3660,7 +3660,7 @@
     },
     {
       "name": "runapi-mcp",
-      "shape": "mcp",
+      "shape": "mixed",
       "source_path": "plugins/runapi-mcp",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/runapi-mcp",
       "readme_excerpt": "AI image generation, video generation, music creation, text-to-speech, and LLM chat — 130+ models from Flux, Kling, Seedance, Veo, Suno, ElevenLabs, Claude, GPT, Gemini, and 18 providers in one MCP se",
@@ -3672,7 +3672,7 @@
           "description": "AI image generation, video generation, music creation, text-to-speech, and LLM chat — 130+ models from Flux, Kling, Seedance, Veo, Suno, ElevenLabs, Claude, GPT, Gemini, and 18 providers in one MCP se",
           "version": null,
           "lastReviewed": null,
-          "shape": "mcp"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3701,8 +3701,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3710,7 +3710,7 @@
     },
     {
       "name": "security-compliance",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/security-compliance",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/security-compliance",
       "readme_excerpt": null,
@@ -3722,7 +3722,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3751,8 +3751,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3760,7 +3760,7 @@
     },
     {
       "name": "security-scanning",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/security-scanning",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/security-scanning",
       "readme_excerpt": null,
@@ -3772,7 +3772,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -3801,8 +3801,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3851,8 +3851,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3901,8 +3901,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3951,8 +3951,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -3960,7 +3960,7 @@
     },
     {
       "name": "shell-scripting",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/shell-scripting",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/shell-scripting",
       "readme_excerpt": null,
@@ -3972,7 +3972,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4001,8 +4001,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4010,7 +4010,7 @@
     },
     {
       "name": "ship-mate",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/ship-mate",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/ship-mate",
       "readme_excerpt": null,
@@ -4022,7 +4022,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4051,8 +4051,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4101,8 +4101,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4151,8 +4151,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4160,7 +4160,7 @@
     },
     {
       "name": "social-publishing",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/social-publishing",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/social-publishing",
       "readme_excerpt": null,
@@ -4172,7 +4172,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4201,8 +4201,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4210,7 +4210,7 @@
     },
     {
       "name": "startup-business-analyst",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/startup-business-analyst",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/startup-business-analyst",
       "readme_excerpt": "Comprehensive business analysis plugin specialized for early-stage startups, providing market sizing, financial modeling, team planning, and strategic research capabilities.",
@@ -4222,7 +4222,7 @@
           "description": "Comprehensive business analysis plugin specialized for early-stage startups, providing market sizing, financial modeling, team planning, and strategic research capabilities.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4251,8 +4251,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4260,7 +4260,7 @@
     },
     {
       "name": "systems-programming",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/systems-programming",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/systems-programming",
       "readme_excerpt": null,
@@ -4272,7 +4272,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4301,8 +4301,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4310,7 +4310,7 @@
     },
     {
       "name": "tdd-workflows",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/tdd-workflows",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/tdd-workflows",
       "readme_excerpt": null,
@@ -4322,7 +4322,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4351,8 +4351,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4360,7 +4360,7 @@
     },
     {
       "name": "team-collaboration",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/team-collaboration",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/team-collaboration",
       "readme_excerpt": null,
@@ -4372,7 +4372,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4401,8 +4401,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4410,7 +4410,7 @@
     },
     {
       "name": "ui-design",
-      "shape": "skill",
+      "shape": "mixed",
       "source_path": "plugins/ui-design",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/ui-design",
       "readme_excerpt": "Comprehensive UI/UX design plugin covering mobile (iOS, Android, React Native) and web applications with modern design patterns, accessibility, and design systems.",
@@ -4422,7 +4422,7 @@
           "description": "Comprehensive UI/UX design plugin covering mobile (iOS, Android, React Native) and web applications with modern design patterns, accessibility, and design systems.",
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4451,8 +4451,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4460,7 +4460,7 @@
     },
     {
       "name": "unit-testing",
-      "shape": "agent",
+      "shape": "mixed",
       "source_path": "plugins/unit-testing",
       "source_url": "https://github.com/wshobson/agents/tree/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/unit-testing",
       "readme_excerpt": null,
@@ -4472,7 +4472,7 @@
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "agent"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -4501,8 +4501,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4551,8 +4551,8 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 38286,
-          "contributors": 74,
+          "stars": 38337,
+          "contributors": 73,
           "last_commit": "2026-07-22T15:32:23Z",
           "archived": false
         }
@@ -4567,8 +4567,8 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 38286,
-      "contributors": 74,
+      "stars": 38337,
+      "contributors": 73,
       "last_commit": "2026-07-22T15:32:23Z",
       "archived": false
     }

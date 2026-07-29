@@ -1,0 +1,186 @@
+{
+  "store": "microsoft-skills",
+  "source_repo": "https://github.com/microsoft/skills.git",
+  "generated_at": "2026-07-29T00:51:00.307Z",
+  "scanned_ref": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+  "provenance": false,
+  "tier": "microsoft-official",
+  "license": "MIT",
+  "plugin_count": 3,
+  "plugins": [
+    {
+      "name": "docs-site",
+      "shape": "unknown",
+      "source_path": "docs-site",
+      "source_url": "https://github.com/microsoft/skills/tree/4a2873faffc1b101a33a0b59c24713d4ed78142f/docs-site",
+      "readme_excerpt": "npm create astro@latest -- --template minimal",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "docs-site",
+          "description": "npm create astro@latest -- --template minimal",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 2833,
+          "contributors": 29,
+          "last_commit": "2026-07-28T23:00:54Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "continual-learning",
+      "shape": "hook",
+      "source_path": "hooks/continual-learning",
+      "source_url": "https://github.com/microsoft/skills/tree/4a2873faffc1b101a33a0b59c24713d4ed78142f/hooks/continual-learning",
+      "readme_excerpt": "name: 'Continual Learning'",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "name": "Continual Learning",
+          "description": "Hooks that enable AI coding agents to learn, reflect, and persist knowledge across sessions",
+          "tags": "['learning', 'memory', 'reflection', 'productivity', 'featured']"
+        },
+        "standard": {
+          "name": "Continual Learning",
+          "description": "Hooks that enable AI coding agents to learn, reflect, and persist knowledge across sessions",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": [
+            "['learning'",
+            "'memory'",
+            "'reflection'",
+            "'productivity'",
+            "'featured']"
+          ],
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 2833,
+          "contributors": 29,
+          "last_commit": "2026-07-28T23:00:54Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "tests",
+      "shape": "unknown",
+      "source_path": "tests",
+      "source_url": "https://github.com/microsoft/skills/tree/4a2873faffc1b101a33a0b59c24713d4ed78142f/tests",
+      "readme_excerpt": "pnpm install",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "tests",
+          "description": "pnpm install",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+        "tags": []
+      },
+      "trust_score": 41,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 1,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 2833,
+          "contributors": 29,
+          "last_commit": "2026-07-28T23:00:54Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 35,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 10,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 2833,
+      "contributors": 29,
+      "last_commit": "2026-07-28T23:00:54Z",
+      "archived": false
+    }
+  }
+}
