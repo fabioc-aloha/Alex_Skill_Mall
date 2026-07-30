@@ -1,6 +1,6 @@
 # Category: media-graphics
 
-**37** plugins across **1** stores.
+**36** plugins across **1** stores.
 
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
@@ -19,7 +19,6 @@
 | 95 | 🏆 [`pptx-generation`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/pptx-generation) | plugin-mall | skill | Programmatic PowerPoint creation via PptxGenJS with data-driven slides and Mark… |
 | 95 | 🏆 [`slide-design`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/slide-design) | plugin-mall | skill | Visual hierarchy, data visualization, and minimal text patterns for impactful p… |
 | 95 | 🏆 [`supervisor-banners`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/supervisor-banners) | plugin-mall | skill | Dark-slate SVG banner family -- 1200×320 hero + 1200×60 section dividers -- for… |
-| 95 | 🏆 [`svg-dashboard-composition`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/svg-dashboard-composition) | plugin-mall | skill | Compose one self-contained SVG from multiple visual fragments -- banner, treema… |
 | 95 | 🏆 [`terminal-image-rendering`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/terminal-image-rendering) | plugin-mall | skill | Render images inline in VS Code's integrated terminal using the Kitty graphics … |
 | 95 | 🏆 [`text-to-speech`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/text-to-speech) | plugin-mall | skill | Cloud TTS via Replicate -- 15 models, voice cloning, emotion control, and multi… |
 | 95 | 🏆 [`ui-ux-design`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/ui-ux-design) | plugin-mall | skill | User interface design, user experience optimization, accessibility compliance, … |

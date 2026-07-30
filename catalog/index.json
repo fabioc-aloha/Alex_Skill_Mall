@@ -2,7 +2,7 @@
   "schema_version": "3.0",
   "generated_at": "2026-07-29T01:15:05.641Z",
   "store_count": 42,
-  "plugin_count": 3850,
+  "plugin_count": 3846,
   "plugins": [
     {
       "name": "academic-editorial-judgment",
@@ -815,17 +815,6 @@
       "version": "1.0.0",
       "description_short": "End-to-end data narrative construction -- three-act structure, Knaflic/Duarte methodology, audience-first framing, and orchestration across analysis, visualiza…",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/data-storytelling",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
-      "name": "data-visualization",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "1.0.0",
-      "description_short": "Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the \"title = insight\" principle for data-driven visuals",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/data-visualization",
       "provenance": true,
       "adapted_from": null
     },
@@ -2777,17 +2766,6 @@
       "adapted_from": null
     },
     {
-      "name": "svg-dashboard-composition",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "1.0.0",
-      "description_short": "Compose one self-contained SVG from multiple visual fragments -- banner, treemap, bar charts, KPI strip, footer -- using a shared coordinate system and one pan…",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/svg-dashboard-composition",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
       "name": "symfix",
       "store": "plugin-mall",
       "shape": "skill",
@@ -3026,17 +3004,6 @@
       "version": "1.0.0",
       "description_short": "Turn raw data into visual stories. Full pipeline: structured brief, data ingestion, chart selection, and delivery to ASCII, SVG, or HTML dashboards. Installs 7…",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/visual-storytelling",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
-      "name": "visual-vocabulary",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "1.0.0",
-      "description_short": "Chart catalog organized by communication goal, CSAR evaluation loop for AI-generated charts, 5-visual rule, override decision framework, and living gallery ref…",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/visual-vocabulary",
       "provenance": true,
       "adapted_from": null
     },
@@ -3796,17 +3763,6 @@
       "version": "1.0.0",
       "description_short": "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao).…",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/image-generation/image-studio",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
-      "name": "imagen",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 90,
-      "version": "1.0.0",
-      "description_short": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/image-generation/imagen",
       "provenance": true,
       "adapted_from": null
     },

@@ -6,7 +6,7 @@
   "provenance": true,
   "tier": "first-party",
   "license": "PolyForm-Noncommercial-1.0.0",
-  "plugin_count": 365,
+  "plugin_count": 361,
   "plugins": [
     {
       "name": "spline-3d-integration",
@@ -11433,88 +11433,6 @@
       }
     },
     {
-      "name": "data-visualization",
-      "shape": "skill",
-      "source_path": "plugins/data-analytics/data-visualization",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/data-visualization",
-      "readme_excerpt": "Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the \"title = insight\" principle for data-driven visuals",
-      "frontmatter": {
-        "kind": "plugin-json",
-        "raw": {
-          "name": "data-visualization",
-          "version": "1.0.0",
-          "description": "Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the \"title = insight\" principle for data-driven visuals",
-          "keywords": [
-            "data",
-            "visualization",
-            "story-intent",
-            "chart",
-            "selection",
-            "color",
-            "theory",
-            "annotation"
-          ],
-          "category": "data-analytics",
-          "author": {
-            "name": "ACT Plugin Mall"
-          }
-        },
-        "standard": {
-          "name": "data-visualization",
-          "description": "Story-intent chart selection, color theory, annotation patterns, decluttering rules, and the \"title = insight\" principle for data-driven visuals",
-          "version": "1.0.0",
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": "data-analytics",
-          "tags": [
-            "data",
-            "visualization",
-            "story-intent",
-            "chart",
-            "selection",
-            "color",
-            "theory",
-            "annotation"
-          ],
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "34d639130a12094267bc000c33753ce5aac37d18",
-        "tags": [
-          "v3.0.0",
-          "v2.0.0",
-          "pre-plugin-refactor"
-        ]
-      },
-      "trust_score": 95,
-      "trust_signals": {
-        "store": 82,
-        "frontmatter": 8,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 50,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 7,
-          "license_name": "PolyForm-Noncommercial-1.0.0",
-          "stars": null,
-          "contributors": null,
-          "last_commit": null,
-          "archived": false,
-          "note": "first-party (Mall self-entry); maintenance + adoption pinned per published trust formula"
-        }
-      }
-    },
-    {
       "name": "database-design",
       "shape": "skill",
       "source_path": "plugins/data-analytics/database-design",
@@ -12850,94 +12768,6 @@
             "ascii",
             "pipeline",
             "bundle"
-          ],
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "34d639130a12094267bc000c33753ce5aac37d18",
-        "tags": [
-          "v3.0.0",
-          "v2.0.0",
-          "pre-plugin-refactor"
-        ]
-      },
-      "trust_score": 95,
-      "trust_signals": {
-        "store": 82,
-        "frontmatter": 8,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 50,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 7,
-          "license_name": "PolyForm-Noncommercial-1.0.0",
-          "stars": null,
-          "contributors": null,
-          "last_commit": null,
-          "archived": false,
-          "note": "first-party (Mall self-entry); maintenance + adoption pinned per published trust formula"
-        }
-      }
-    },
-    {
-      "name": "visual-vocabulary",
-      "shape": "skill",
-      "source_path": "plugins/data-analytics/visual-vocabulary",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/visual-vocabulary",
-      "readme_excerpt": "Chart catalog organized by communication goal, with an evaluation framework for AI-generated chart choices.",
-      "frontmatter": {
-        "kind": "plugin-json",
-        "raw": {
-          "name": "visual-vocabulary",
-          "version": "1.0.0",
-          "description": "Chart catalog organized by communication goal, CSAR evaluation loop for AI-generated charts, 5-visual rule, override decision framework, and living gallery references",
-          "keywords": [
-            "chart",
-            "visual",
-            "vocabulary",
-            "catalog",
-            "selection",
-            "CSAR",
-            "evaluation",
-            "override",
-            "dashboard",
-            "storytelling",
-            "gallery"
-          ],
-          "category": "data-analytics",
-          "author": {
-            "name": "ACT Plugin Mall"
-          }
-        },
-        "standard": {
-          "name": "visual-vocabulary",
-          "description": "Chart catalog organized by communication goal, CSAR evaluation loop for AI-generated charts, 5-visual rule, override decision framework, and living gallery references",
-          "version": "1.0.0",
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": "data-analytics",
-          "tags": [
-            "chart",
-            "visual",
-            "vocabulary",
-            "catalog",
-            "selection",
-            "CSAR",
-            "evaluation",
-            "override",
-            "dashboard",
-            "storytelling",
-            "gallery"
           ],
           "license": null,
           "requires": null,
@@ -19013,74 +18843,6 @@
       }
     },
     {
-      "name": "imagen",
-      "shape": "skill",
-      "source_path": "plugins/image-generation/imagen",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/image-generation/imagen",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "plugin-json",
-        "raw": {
-          "name": "imagen",
-          "version": "1.0.0",
-          "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
-          "keywords": [
-            "image-generation"
-          ],
-          "category": "image-generation",
-          "author": {
-            "name": "antigravity-awesome-skills"
-          }
-        },
-        "standard": {
-          "name": "imagen",
-          "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
-          "version": "1.0.0",
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": "image-generation",
-          "tags": [
-            "image-generation"
-          ],
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "34d639130a12094267bc000c33753ce5aac37d18",
-        "tags": [
-          "v3.0.0",
-          "v2.0.0",
-          "pre-plugin-refactor"
-        ]
-      },
-      "trust_score": 90,
-      "trust_signals": {
-        "store": 82,
-        "frontmatter": 8,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 50,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 7,
-          "license_name": "PolyForm-Noncommercial-1.0.0",
-          "stars": null,
-          "contributors": null,
-          "last_commit": null,
-          "archived": false,
-          "note": "first-party (Mall self-entry); maintenance + adoption pinned per published trust formula"
-        }
-      }
-    },
-    {
       "name": "adobe-illustrator-scripting",
       "shape": "skill",
       "source_path": "plugins/media-graphics/adobe-illustrator-scripting",
@@ -21240,88 +21002,6 @@
             "1200320",
             "hero",
             "120060"
-          ],
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "34d639130a12094267bc000c33753ce5aac37d18",
-        "tags": [
-          "v3.0.0",
-          "v2.0.0",
-          "pre-plugin-refactor"
-        ]
-      },
-      "trust_score": 95,
-      "trust_signals": {
-        "store": 82,
-        "frontmatter": 8,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 50,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 7,
-          "license_name": "PolyForm-Noncommercial-1.0.0",
-          "stars": null,
-          "contributors": null,
-          "last_commit": null,
-          "archived": false,
-          "note": "first-party (Mall self-entry); maintenance + adoption pinned per published trust formula"
-        }
-      }
-    },
-    {
-      "name": "svg-dashboard-composition",
-      "shape": "skill",
-      "source_path": "plugins/media-graphics/svg-dashboard-composition",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/media-graphics/svg-dashboard-composition",
-      "readme_excerpt": "Compose one self-contained SVG from multiple visual fragments -- banner, treemap, bar charts, KPI strip, footer -- using a shared coordinate system and one panel primitive.",
-      "frontmatter": {
-        "kind": "plugin-json",
-        "raw": {
-          "name": "svg-dashboard-composition",
-          "version": "1.0.0",
-          "description": "Compose one self-contained SVG from multiple visual fragments -- banner, treemap, bar charts, KPI strip, footer -- using a shared coordinate system and one panel primitive.",
-          "keywords": [
-            "svg",
-            "dashboard",
-            "composition",
-            "compose",
-            "self-contained",
-            "multiple",
-            "visual",
-            "fragments"
-          ],
-          "category": "media-graphics",
-          "author": {
-            "name": "ACT Plugin Mall"
-          }
-        },
-        "standard": {
-          "name": "svg-dashboard-composition",
-          "description": "Compose one self-contained SVG from multiple visual fragments -- banner, treemap, bar charts, KPI strip, footer -- using a shared coordinate system and one panel primitive.",
-          "version": "1.0.0",
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": "media-graphics",
-          "tags": [
-            "svg",
-            "dashboard",
-            "composition",
-            "compose",
-            "self-contained",
-            "multiple",
-            "visual",
-            "fragments"
           ],
           "license": null,
           "requires": null,

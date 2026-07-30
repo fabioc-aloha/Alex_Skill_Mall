@@ -1,6 +1,6 @@
 # Category: data-analytics
 
-**26** plugins across **1** stores.
+**24** plugins across **1** stores.
 
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
@@ -10,7 +10,6 @@
 | 95 | 🏆 [`data-preparation`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/data-preparation) | plugin-mall | skill | Data cleaning, profiling, transformation, and quality gates -- prepares raw dat… |
 | 95 | 🏆 [`data-quality-monitoring`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/data-quality-monitoring) | plugin-mall | skill | Data pipeline quality assurance -- anomaly detection, schema drift, null ratio … |
 | 95 | 🏆 [`data-storytelling`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/data-storytelling) | plugin-mall | skill | End-to-end data narrative construction -- three-act structure, Knaflic/Duarte m… |
-| 95 | 🏆 [`data-visualization`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/data-visualization) | plugin-mall | skill | Story-intent chart selection, color theory, annotation patterns, decluttering r… |
 | 95 | 🏆 [`database-design`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/database-design) | plugin-mall | skill | Schema design, normalization, query optimization, and data modeling patterns |
 | 95 | 🏆 [`datasource-connectors`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/datasource-connectors) | plugin-mall | skill | Ingestion patterns for CSV, JSON, REST API, SQL, Excel, and Parquet -- guides a… |
 | 95 | 🏆 [`delivery-ascii-dashboard`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/delivery-ascii-dashboard) | plugin-mall | skill | Render data dashboards as pure ASCII art in monospace text -- the cheapest, mos… |
@@ -27,7 +26,6 @@
 | 95 | 🏆 [`temp-file-python-analysis`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/temp-file-python-analysis) | plugin-mall | skill | Inline Python in shell scripts has quoting issues: |
 | 95 | 🏆 [`tmdl-linter-false-positives`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/tmdl-linter-false-positives) | plugin-mall | skill | VS Code's TMDL (Tabular Model Definition Language) linter reports valid syntax … |
 | 95 | 🏆 [`visual-storytelling`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/visual-storytelling) | plugin-mall | mixed | Turn raw data into visual stories. Full pipeline: structured brief, data ingest… |
-| 95 | 🏆 [`visual-vocabulary`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/visual-vocabulary) | plugin-mall | skill | Chart catalog organized by communication goal, CSAR evaluation loop for AI-gene… |
 | 91 | 🏆 [`biome-kusto-query`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/biome-kusto-query) | plugin-mall | skill | Execute read-only KQL queries against Kusto / Azure Data Explorer clusters via … |
 | 91 | 🏆 [`biome-powerbi-query`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/biome-powerbi-query) | plugin-mall | skill | Execute read-only DAX queries against Power BI semantic models via the Power BI… |
 
