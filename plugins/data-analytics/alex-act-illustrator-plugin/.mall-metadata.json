@@ -1,0 +1,59 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".SP.",
+  "tier": "standard",
+  "token_cost": 48000,
+  "requires_edition": ">=3.0.0",
+  "requires_plugins": [],
+  "requires_runtime": {
+    "node": ">=22",
+    "browser": "optional — only if the `playwright` MCP server is enabled. An installed Edge, Chrome, Firefox or WebKit; nothing is bundled. Not needed on hosts with built-in browser tools (VS Code Copilot).",
+    "notes": "The bundled mcp.json invokes `npx -y flint-chart-mcp@^0.3.0` on first tool call; Node 22+ required. First cold start ~1-2s; cached thereafter. Install it to `.vscode/mcp.json` — VS Code does NOT read a workspace-root `.mcp.json`, which is the Claude Code convention; the `servers` schema is identical, and VS Code reports no error because it reads no file at all. The ^0.3.0 pin (bumped from ^0.2.2 on 2026-07-29 when Microsoft corporate npm mirrors caught up) means >=0.3.0 <0.4.0; public npm `latest` is 0.4.0 but has not been verified against this plugin's documented spec patterns from an off-corpnet machine yet. mcp.json also declares two OPTIONAL servers: `replicate` (needed only by the replicate-imagery skill; auth via REPLICATE_API_TOKEN environment variable) and `playwright` (satisfies render-verify's browser capability on hosts with no built-in browser, primarily GitHub Copilot CLI — VS Code heirs omit it)."
+  },
+  "upstream": {
+    "repo": "https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin",
+    "ref": "main",
+    "license": "MIT",
+    "notes": "Source-of-truth is the upstream OSS repo. Mall vendors a specific version; when upstream tags a new release, Mall automation flags the mismatch. Renamed from flint-chart-plugin on 2026-07-29 and expanded from 3 skills to 8."
+  },
+  "artifacts": {
+    "skills": [
+      "skills/chart-big-idea/SKILL.md",
+      "skills/chart-vocabulary/SKILL.md",
+      "skills/docs-shell/SKILL.md",
+      "skills/docs-shell/starter/index.html",
+      "skills/docs-shell/starter/manifest.json",
+      "skills/docs-shell/starter/about.md",
+      "skills/figure-generator/SKILL.md",
+      "skills/flint-chart/SKILL.md",
+      "skills/print-svg-style-guide/SKILL.md",
+      "skills/render-verify/SKILL.md",
+      "skills/replicate-imagery/SKILL.md"
+    ],
+    "prompts": [
+      "commands/render-chart.md"
+    ],
+    "mcp": "plugin.json (mcpServers field)"
+  },
+  "install_paths": {
+    "skills": {
+      "chart-big-idea": ".github/skills/local/chart-big-idea/SKILL.md",
+      "chart-vocabulary": ".github/skills/local/chart-vocabulary/SKILL.md",
+      "docs-shell": ".github/skills/local/docs-shell/SKILL.md",
+      "docs-shell-starter-index": ".github/skills/local/docs-shell/starter/index.html",
+      "docs-shell-starter-manifest": ".github/skills/local/docs-shell/starter/manifest.json",
+      "docs-shell-starter-about": ".github/skills/local/docs-shell/starter/about.md",
+      "figure-generator": ".github/skills/local/figure-generator/SKILL.md",
+      "flint-chart": ".github/skills/local/flint-chart/SKILL.md",
+      "print-svg-style-guide": ".github/skills/local/print-svg-style-guide/SKILL.md",
+      "render-verify": ".github/skills/local/render-verify/SKILL.md",
+      "replicate-imagery": ".github/skills/local/replicate-imagery/SKILL.md"
+    },
+    "prompts": {
+      "render-chart": ".github/prompts/local/render-chart.prompt.md"
+    },
+    "mcp": ".vscode/mcp.json (VS Code) | ~/.copilot/mcp-config.json (GitHub Copilot CLI) | .cursor/mcp.json (Cursor) | workspace-root .mcp.json (Claude Code)"
+  }
+}

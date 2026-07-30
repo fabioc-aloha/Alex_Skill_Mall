@@ -4,6 +4,7 @@
 
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
+| 95 | 🏆 [`alex-act-illustrator-plugin`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/alex-act-illustrator-plugin) | plugin-mall | mixed | Visual-authoring bundle for AI agents. Eight skills across four feature areas: … |
 | 95 | 🏆 [`chart-interpretation`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/chart-interpretation) | plugin-mall | skill | Read any chart (image, HTML, screenshot) and extract insights, patterns, anomal… |
 | 95 | 🏆 [`dashboard-design`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/dashboard-design) | plugin-mall | skill | Dashboard layout patterns, KPI card design, filter architecture, narrative flow… |
 | 95 | 🏆 [`data-analysis`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/data-analysis) | plugin-mall | skill | Exploratory data analysis patterns -- profiling, distributions, correlations, s… |
@@ -15,7 +16,6 @@
 | 95 | 🏆 [`delivery-ascii-dashboard`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/delivery-ascii-dashboard) | plugin-mall | skill | Render data dashboards as pure ASCII art in monospace text -- the cheapest, mos… |
 | 95 | 🏆 [`delivery-html-dashboard`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/delivery-html-dashboard) | plugin-mall | skill | Render data dashboards as self-contained HTML files using Apache ECharts v6. Si… |
 | 95 | 🏆 [`fabric-lakehouse`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/fabric-lakehouse) | plugin-mall | skill | Use this skill to get context about Fabric Lakehouse and its features for softw… |
-| 95 | 🏆 [`flint-chart-plugin`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/flint-chart-plugin) | plugin-mall | mixed | Pick the right chart for the data and question, render it locally via the micro… |
 | 95 | 🏆 [`kql`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/kql) | plugin-mall | skill | KQL language expertise for writing correct, efficient Kusto Query Language quer… |
 | 95 | 🏆 [`power-bi-performance-troubleshooting`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/power-bi-performance-troubleshooting) | plugin-mall | skill | Systematic Power BI performance troubleshooting prompt for identifying, diagnos… |
 | 95 | 🏆 [`powerbi-modeling`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/powerbi-modeling) | plugin-mall | skill | Power BI semantic modeling assistant for building optimized data models. Use wh… |

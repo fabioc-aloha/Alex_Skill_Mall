@@ -142,6 +142,13 @@
       "strict": true
     },
     {
+      "name": "alex-act-illustrator-plugin",
+      "description": "Visual-authoring bundle for AI agents. Eight skills across four feature areas: Flint (statistical chart authoring via the local-first flint-chart-mcp server from microsoft/flint-chart), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures), Replicate (AI image generation over Replicate's HTTP API, opt-in via REPLICATE_API_TOKEN), and Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports). Shared framing gate (chart-big-idea Step 0.5) and verification pass (render-verify Prose-coupling) apply across all features. Alex ACT constellation plugin, maintained by Alex_ACT_Steward. Renamed from flint-chart-plugin on 2026-07-29 and expanded from 3 skills to 8. Absorbs the capability of the removed Mall plugins visual-vocabulary, data-visualization, svg-dashboard-composition, and imagen (per Mall commit e739dd6).",
+      "version": "0.5.1",
+      "source": "plugins/data-analytics/alex-act-illustrator-plugin",
+      "strict": true
+    },
+    {
       "name": "alex-banner-generation",
       "description": "Generate branded SVG banners for documents (READMEs, plans, changelogs, release artifacts) using a configurable Node.js muscle. Covers watermark selection, subtitle craft, and embedding. Requires the generate-banner.cjs muscle from Alex_ACT_Edition.",
       "version": "1.0.0",
@@ -1049,13 +1056,6 @@
       "description": "Keep heir projects synchronized with Master Alex brain updates -- audit drift, upgrade brains, verify deployments across the fleet.",
       "version": "1.0.0",
       "source": "plugins/supervisor-fleet/fleet-management",
-      "strict": true
-    },
-    {
-      "name": "flint-chart-plugin",
-      "description": "Pick the right chart for the data and question, render it locally via the microsoft/flint-chart MCP server, then verify the rendered artifact actually says what it was meant to say. Combines a framing skill (intent check + Big Idea + story arc + audience + TRADITIONAL vs INNOVATIVE style stance), a chart-selection + rendering skill (Comparison / Trend / Distribution / Relationship / Proportion / Flow / KPI), a verification skill (console errors + failure catalogs + claim check), and a /render-chart prompt. Renders Vega-Lite / ECharts / Chart.js locally — no data leaves the machine.",
-      "version": "0.5.1",
-      "source": "plugins/data-analytics/flint-chart-plugin",
       "strict": true
     },
     {

@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<!--
+  ===========================================================================
+  docs-shell STARTER  (byte-identical baseline of the root shell)
+  ---------------------------------------------------------------------------
+  This is the adopter-facing copy of the docs-shell pattern. Drop this
+  folder (index.html + manifest.json + about.md) into your project's docs
+  directory and open index.html. No build step, no server required for
+  Copilot's internal browser or VS Code Simple Browser.
+
+  QUICK ADOPTION
+    1. Copy the three starter files into your destination folder.
+    2. Edit manifest.json (change brand.label, add your docs[]).
+    3. Optionally drop a brand icon at assets/<name>.svg and uncomment the
+       <img class="topnav-brand-icon"> line in <body> below.
+    4. Open index.html.
+
+  Full field-by-field reference for the manifest schema, theme system,
+  path rewriting, optional features, and troubleshooting lives at:
+    https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin/blob/main/docs/shell/README.md
+
+  ARCHITECTURE (this file)
+    Load manifest → pick area+doc from URL (?area=X&doc=Y) → render topnav
+    (line 1 = areas, line 2 = docs of active area) → render page-title with
+    per-doc emoji → render hero → fetch + strip + concat source .md → parse
+    via marked → decorate (heading anchors, tables, alerts, code blocks,
+    mermaid) → build TOC.
+
+  MANIFEST SCHEMA (top-level keys the shell reads)
+    brand.{label, href}                    Brand slot label + link (line 1)
+    theme.{light, dark}                    Optional CSS-var overrides
+    defaultArea                            Fallback area id
+    areas[].{id, label, folder,            Line-1 area buttons
+            defaultDoc, docs[]}
+    areas[].docs[].{id, label,             Line-2 doc buttons
+                    icon?, title,          icon = optional emoji shown in
+                    verified?,             sticky page-title header
+                    sourceLink?,
+                    hero?, sources[]}
+
+  PER-DOC HERO FIELDS
+    hero.eyebrow                           Small uppercase tag above title
+    hero.title                             Big display heading
+    hero.subtitle                          One-sentence Big Idea (renders as
+                                           <span> under the title). Authored
+                                           via the big-idea skill.
+    hero.description                       Optional metadata: provenance,
+                                           cross-refs, methodology notes.
+                                           NOT rendered by default (retired
+                                           2026-07-28 once Big Idea took
+                                           over summary duty). Kept in
+                                           manifest for adopters who want
+                                           to re-enable, and for potential
+                                           future indexing / search use.
+
+  OPTIONAL FEATURES available to adopters
+    - Per-doc emoji icon: add `icon` to a doc entry.
+    - Manifest theme override: add `theme.{light|dark}` maps.
+    - Top-nav quick-jumps: keep manifest `quickJumps[]` and re-enable the
+      rendering block in renderTopnav() (currently commented out).
+    - Hero chips + CTAs: reserved CSS is present; add `hero.chips[]` /
+      `hero.actions[]` to a doc and extend renderHero().
+    - Brand icon: uncomment the <img class="topnav-brand-icon"> line in
+      the <body> topnav and drop an SVG at assets/<name>.svg.
+
+  LOCAL RENDERING
+    file:// works with Copilot's internal browser and VS Code Simple Browser.
+    External browsers need a local HTTP server (see error message in
+    showFileAccessError() below for exact commands).
+  ===========================================================================
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Docs Shell Starter</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css">
+  <style>
+    :root {
+      --fg: #1f2328;
+      --fg-muted: #59636e;
+      --fg-subtle: #818b98;
+      --bg: #ffffff;
+      --bg-subtle: #f6f8fa;
+      --bg-elevated: #ffffff;
+      --border: #d1d9e0;
+      --border-muted: #d1d9e0b3;
+      --accent: #0969da;
+      --accent-emphasis: #0550ae;
+      --accent-fg: #ffffff;
+      --success: #1a7f37;
+      --success-emphasis: #116329;
+      --success-bg: #dafbe1;
+      --success-border: #b7f0c2;
+      --attention: #9a6700;
+      --attention-emphasis: #7d4e00;
+      --attention-bg: #fff8c5;
+      --attention-border: #f1c40f80;
+      --danger: #d1242f;
+      --danger-emphasis: #a40e26;
+      --danger-bg: #ffebe9;
+      --danger-border: #ff818266;
+      --note-bg: #ddf4ff;
+      --note-border: #54aeff80;
+      --purple: #8250df;
+      --purple-bg: #fbefff;
+      --github-dark: #24292f;
+      --code-bg: #f6f8fa;
+      --mermaid-bg: #fbfcfd;
+      --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+      --shadow-md: 0 3px 12px rgba(15, 23, 42, 0.08);
+      --radius: 6px;
+      --radius-lg: 10px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #f0f6fc;
+        --fg-muted: #9198a1;
+        --fg-subtle: #6e7681;
+        --bg: #0d1117;
+        --bg-subtle: #151b23;
+        --bg-elevated: #161b22;
+        --border: #30363d;
+        --border-muted: #30363dcc;
+        --accent: #4493f8;
+        --accent-emphasis: #1f6feb;
+        --success: #3fb950;
+        --success-emphasis: #56d364;
+        --success-bg: #0b2a1a;
+        --success-border: #1f6c3555;
+        --attention: #d29922;
+        --attention-emphasis: #e6b644;
+        --attention-bg: #2e1f00;
+        --attention-border: #d2992255;
+        --danger: #f85149;
+        --danger-emphasis: #ff7b72;
+        --danger-bg: #2b0f10;
+        --danger-border: #f8514955;
+        --note-bg: #0d2f4f;
+        --note-border: #1f6feb55;
+        --purple: #a371f7;
+        --purple-bg: #211036;
+        --github-dark: #010409;
+        --code-bg: #151b23;
+        --mermaid-bg: #151b23;
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+        --shadow-md: 0 3px 12px rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      /* Offset anchor jumps by the actual measured two-row nav height (set via
+         --nav-height at bootstrap + on resize) plus a fixed page-header allowance.
+         Fallback covers the initial paint before JS runs. */
+      scroll-padding-top: calc(var(--nav-height, 78px) + 60px);
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI",
+                   "Noto Sans", Helvetica, Arial, sans-serif,
+                   "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--fg);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* ---------- Sticky page header ---------- */
+
+    /* ---------- Top nav bar (cross-document + quick-jumps) ---------- */
+
+    nav.topnav {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: #0d1117;
+      color: #f0f6fc;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 0.4rem 1.25rem;
+      font-size: 0.8125rem;
+    }
+    nav.topnav .topnav-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    nav.topnav .topnav-brand {
+      color: #f0f6fc;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 0.25rem 0.6rem 0.25rem 0;
+      border-right: 1px solid rgba(255, 255, 255, 0.12);
+      margin-right: 0.5rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    nav.topnav .topnav-brand:hover { color: #58a6ff; }
+    nav.topnav .topnav-brand-icon {
+      height: 22px;
+      width: 22px;
+      flex-shrink: 0;
+      display: block;
+    }
+    nav.topnav .topnav-list {
+      display: flex;
+      gap: 0.15rem;
+      row-gap: 0.3rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+    nav.topnav .topnav-jumps { margin-left: auto; opacity: 0.9; }
+    nav.topnav .topnav-sub {
+      max-width: 1400px;
+      margin: 0.35rem auto 0;
+      padding-top: 0.35rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    nav.topnav .topnav-areas a[data-nav] { font-weight: 600; }
+    nav.topnav .topnav-sub .topnav-docs a[data-nav] { font-size: 0.78125rem; }
+    nav.topnav a[data-nav] {
+      color: #9198a1;
+      text-decoration: none;
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
+      transition: background 0.15s, color 0.15s;
+    }
+    nav.topnav a[data-nav]:hover { background: rgba(255, 255, 255, 0.06); color: #f0f6fc; }
+    nav.topnav a[data-nav].active { background: rgba(88, 166, 255, 0.15); color: #58a6ff; font-weight: 600; }
+    /* OPTIONAL FEATURE: line-1 quick-jumps to specific doc sections.
+       Not currently rendered by this shell (see renderTopnav below), but the
+       manifest still declares `quickJumps` per area and the starter kit at
+       .github/skills/docs-shell/starter/ uses this styling. Kept so adopters
+       can re-enable rendering without also having to restore CSS. */
+    nav.topnav .topnav-jumps a[data-nav] { font-size: 0.78125rem; padding: 0.2rem 0.5rem; }
+
+    header.page {
+      position: sticky;
+      top: var(--nav-height, 78px);
+      z-index: 20;
+      background: linear-gradient(135deg, var(--github-dark) 0%, #1f2937 100%);
+      color: #f0f6fc;
+      padding: 0.9rem 1.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: saturate(140%);
+    }
+    header.page .inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    header.page h1 {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    header.page h1 .page-title-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      font-size: 1.15rem;
+      line-height: 1;
+      font-style: normal;
+      /* Emoji fonts render best with these hints */
+      font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+    }
+    header.page h1 .page-title-icon:empty { display: none; }
+    header.page .meta {
+      font-size: 0.8125rem;
+      color: #9198a1;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    header.page .meta a {
+      color: #58a6ff;
+      text-decoration: none;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: background 0.15s, border-color 0.15s;
+    }
+    header.page .meta a:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    header.page .verified {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    header.page .verified::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--success);
+      box-shadow: 0 0 0 3px rgba(63, 185, 80, 0.15);
+    }
+
+    /* ---------- Hero banner ---------- */
+
+    section.hero {
+      position: relative;
+      background:
+        radial-gradient(1200px 500px at 15% 0%, rgba(9, 105, 218, 0.14), transparent 60%),
+        radial-gradient(900px 400px at 90% 100%, rgba(130, 80, 223, 0.13), transparent 60%),
+        linear-gradient(180deg, #f6f8fa 0%, #ffffff 100%);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+    @media (prefers-color-scheme: dark) {
+      section.hero {
+        background:
+          radial-gradient(1200px 500px at 15% 0%, rgba(88, 166, 255, 0.16), transparent 60%),
+          radial-gradient(900px 400px at 90% 100%, rgba(163, 113, 247, 0.14), transparent 60%),
+          linear-gradient(180deg, #010409 0%, #0d1117 100%);
+      }
+    }
+    section.hero::before {
+      /* Subtle grid pattern overlay */
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(to right, var(--border-muted) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--border-muted) 1px, transparent 1px);
+      background-size: 32px 32px;
+      opacity: 0.35;
+      mask-image: radial-gradient(ellipse at center, black 50%, transparent 100%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 3rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 3rem;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; padding: 2.5rem 1.25rem 2rem; }
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent-emphasis);
+      background: color-mix(in srgb, var(--accent) 12%, transparent);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+      margin-bottom: 1.25rem;
+    }
+    .hero-eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.15); }
+    }
+    .hero-title {
+      font-size: clamp(1.75rem, 4vw, 2.75rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin: 0 0 0.75rem;
+      color: var(--fg);
+    }
+    .hero-title .hero-title-sub {
+      color: var(--fg-muted);
+      font-weight: 400;
+      display: block;
+      font-size: 0.7em;
+      margin-top: 0.25em;
+      letter-spacing: -0.01em;
+    }
+    .hero-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.75rem;
+    }
+    /* OPTIONAL FEATURE: hero meta-chips. Reserved CSS; not rendered by
+       renderHero() today. To enable per-doc, add `hero.chips[]` in the manifest
+       and extend renderHero() to inject `<div class="hero-chips">` + child
+       `<span class="chip">...</span>` elements. Useful for tags like read-time,
+       version, or status pills. */
+    .chip {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.4rem;
+      padding: 0.4rem 0.85rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: 0.8125rem;
+      color: var(--fg-muted);
+      box-shadow: var(--shadow-sm);
+    }
+    .chip strong {
+      color: var(--fg);
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+    /* OPTIONAL FEATURE: hero CTA buttons. Reserved CSS; not rendered by
+       renderHero() today. To enable per-doc, add `hero.actions[]` in the
+       manifest (each entry: {label, href, primary?}) and extend renderHero()
+       to inject `<div class="hero-actions">` + `<a class="btn">` / `.btn-primary`. */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.55rem 1rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--fg);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-decoration: none !important;
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.15s, background 0.15s, border-color 0.15s;
+      box-shadow: var(--shadow-sm);
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--fg-muted);
+    }
+    .btn:active { transform: translateY(0); }
+    .btn.btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+    }
+    .btn.btn-primary:hover {
+      background: var(--accent-emphasis);
+      border-color: var(--accent-emphasis);
+    }
+    .btn.btn-primary::after {
+      content: "→";
+      transition: transform 0.15s;
+    }
+    .btn.btn-primary:hover::after { transform: translateX(3px); }
+
+    /* ---------- Rendered markdown: typography ---------- */
+
+    .layout {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: 2.5rem;
+      padding: 2rem 1.5rem 4rem;
+      transition: grid-template-columns 0.2s ease, gap 0.2s ease;
+    }
+    .layout.toc-collapsed {
+      grid-template-columns: 44px minmax(0, 1fr);
+      gap: 1.25rem;
+    }
+    @media (max-width: 1100px) {
+      .layout, .layout.toc-collapsed { grid-template-columns: 1fr; gap: 1rem; }
+      nav.toc { position: static; max-height: none; }
+    }
+
+    /* ---------- TOC sidebar ---------- */
+
+    nav.toc {
+      position: sticky;
+      /* --sticky-offset is published by JS at bootstrap + on window resize as the combined
+         height of the sticky topnav and the sticky page-title header. Fallback covers first paint. */
+      top: calc(var(--sticky-offset, 8rem) + 0.5rem);
+      align-self: start;
+      max-height: calc(100vh - var(--sticky-offset, 8rem) - 1rem);
+      overflow-y: auto;
+      padding: 1rem 0.5rem;
+      font-size: 0.875rem;
+    }
+    .toc-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      margin: 0 0 0.75rem 0;
+      padding: 0 0.25rem 0 0.5rem;
+    }
+    nav.toc h2 {
+      margin: 0;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--fg-subtle);
+      border: none;
+      padding: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #toc-toggle {
+      flex: 0 0 auto;
+      width: 26px;
+      height: 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--fg-muted);
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 1;
+      padding: 0;
+      transition: background 0.1s, color 0.1s, border-color 0.1s;
+    }
+    #toc-toggle:hover { background: var(--bg-subtle); color: var(--accent); border-color: var(--accent); }
+    #toc-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .layout.toc-collapsed nav.toc { padding: 1rem 0.15rem; }
+    .layout.toc-collapsed nav.toc h2,
+    .layout.toc-collapsed nav.toc ol { display: none; }
+    .layout.toc-collapsed .toc-header { justify-content: center; margin-bottom: 0; padding: 0; }
+    nav.toc ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav.toc li { margin: 1px 0; }
+    nav.toc li.h3 a { padding-left: 1.6rem; font-size: 0.8125rem; color: var(--fg-muted); }
+    nav.toc a {
+      color: var(--fg);
+      text-decoration: none;
+      display: block;
+      padding: 0.3rem 0.75rem;
+      border-radius: 6px;
+      border-left: 2px solid transparent;
+      transition: background 0.1s, color 0.1s, border-color 0.1s;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    nav.toc a:hover {
+      background: var(--bg-subtle);
+      color: var(--accent);
+    }
+    nav.toc a.active {
+      background: var(--bg-subtle);
+      color: var(--accent-emphasis);
+      border-left-color: var(--accent);
+      font-weight: 600;
+    }
+
+    main { min-width: 0; }
+
+    /* ---------- Rendered markdown: typography ---------- */
+
+    #content {
+      line-height: 1.65;
+    }
+
+    #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      scroll-margin-top: 5rem;
+    }
+    #content h1 { display: none; }
+
+    #content h2 {
+      font-size: 1.65rem;
+      margin: 3rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+    }
+    /* First h2 gets less top margin */
+    #content > h2:first-of-type { margin-top: 0.5rem; }
+
+    #content h3 {
+      font-size: 1.25rem;
+      margin: 2rem 0 0.75rem;
+      color: var(--fg);
+    }
+    #content h4 { font-size: 1rem; margin: 1.5rem 0 0.5rem; }
+
+    #content p { margin: 0 0 1rem; }
+
+    #content a { color: var(--accent); text-decoration: none; }
+    #content a:hover { text-decoration: underline; }
+    #content a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+    #content ul, #content ol {
+      padding-left: 1.75rem;
+      margin: 0 0 1rem;
+    }
+    #content li { margin: 0.25rem 0; }
+    #content li > p { margin: 0 0 0.5rem; }
+    #content li > p:last-child { margin: 0; }
+
+    #content strong { font-weight: 600; }
+
+    /* ---------- Inline code + code blocks ---------- */
+
+    #content code {
+      font-family: "Cascadia Code", "SF Mono", "Menlo", Consolas, "Liberation Mono", monospace;
+      font-size: 0.85em;
+      padding: 0.15em 0.4em;
+      background: var(--code-bg);
+      border-radius: 4px;
+      color: var(--fg);
+      border: 1px solid var(--border-muted);
+    }
+    #content pre {
+      position: relative;
+      background: var(--code-bg);
+      border-radius: var(--radius);
+      padding: 1rem;
+      overflow-x: auto;
+      line-height: 1.5;
+      border: 1px solid var(--border-muted);
+      margin: 0 0 1rem;
+    }
+    #content pre code {
+      background: transparent;
+      padding: 0;
+      border: none;
+      font-size: 0.8125rem;
+      color: inherit;
+    }
+    /* Copy button on hover */
+    #content pre .copy-btn {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+      font-family: inherit;
+      color: var(--fg-muted);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.15s, color 0.15s;
+    }
+    #content pre:hover .copy-btn { opacity: 1; }
+    #content pre .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
+    #content pre .copy-btn.copied { color: var(--success); border-color: var(--success); }
+
+    /* ---------- Blockquotes and GFM alerts ---------- */
+
+    #content blockquote {
+      margin: 0 0 1rem;
+      padding: 0.75rem 1rem;
+      color: var(--fg-muted);
+      border-left: 4px solid var(--border);
+      background: var(--bg-subtle);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    #content blockquote > p:first-child { margin-top: 0; }
+    #content blockquote > p:last-child { margin-bottom: 0; }
+
+    /* Alert callouts — detected by starting emoji/keyword in JS */
+    #content blockquote.alert {
+      padding-left: 1.25rem;
+      border-left-width: 4px;
+    }
+    #content blockquote.alert-warning {
+      border-left-color: var(--attention);
+      background: var(--attention-bg);
+      color: var(--attention-emphasis);
+    }
+    #content blockquote.alert-note {
+      border-left-color: var(--accent);
+      background: var(--note-bg);
+      color: var(--accent-emphasis);
+    }
+    #content blockquote.alert-tip {
+      border-left-color: var(--success);
+      background: var(--success-bg);
+      color: var(--success-emphasis);
+    }
+    #content blockquote.alert-danger {
+      border-left-color: var(--danger);
+      background: var(--danger-bg);
+      color: var(--danger-emphasis);
+    }
+
+    /* ---------- Tables ---------- */
+
+    #content .table-wrap {
+      overflow-x: auto;
+      margin: 1rem 0 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+    }
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    #content thead {
+      background: var(--bg-subtle);
+      position: sticky;
+      top: 0;
+    }
+    #content th, #content td {
+      padding: 0.55rem 0.9rem;
+      border-bottom: 1px solid var(--border-muted);
+      text-align: left;
+      vertical-align: top;
+    }
+    #content tbody tr:last-child td { border-bottom: none; }
+    #content th {
+      font-weight: 600;
+      color: var(--fg);
+      border-bottom: 2px solid var(--border);
+      white-space: nowrap;
+    }
+    #content tbody tr:hover { background: var(--bg-subtle); }
+    #content tbody td[align="center"], #content th[align="center"] { text-align: center; }
+    #content td { transition: background 0.1s; }
+
+    /* Grid cell decorations — style the ★ / ✓ / ✓* symbols */
+    #content td.grid-primary {
+      background: color-mix(in srgb, var(--success) 12%, transparent);
+      color: var(--success-emphasis);
+      font-weight: 700;
+    }
+    #content td.grid-uses {
+      color: var(--accent-emphasis);
+      font-weight: 600;
+    }
+    #content td.grid-conditional {
+      color: var(--attention-emphasis);
+      font-weight: 500;
+    }
+    #content td.grid-empty {
+      background: color-mix(in srgb, var(--fg-subtle) 4%, transparent);
+    }
+
+    /* Horizontal rule */
+    #content hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 3rem 0 1rem;
+    }
+
+    /* ---------- Mermaid diagrams ---------- */
+
+    .mermaid {
+      background: var(--mermaid-bg);
+      border: 1px solid var(--border-muted);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem;
+      margin: 1.5rem 0 2rem;
+      text-align: center;
+      overflow-x: auto;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+    }
+    .mermaid::before {
+      content: "Diagram";
+      position: absolute;
+      top: 0.5rem;
+      left: 0.75rem;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--fg-subtle);
+    }
+    .mermaid svg { max-width: 100%; height: auto; }
+
+    /* ---------- Loading and error states ---------- */
+
+    #content .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 4rem;
+      color: var(--fg-muted);
+    }
+    #content .loading::before {
+      content: "";
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    #content .error {
+      background: var(--note-bg);
+      border: 1px solid var(--accent);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem 1.75rem;
+      margin: 2rem 0;
+    }
+    #content .error h2 {
+      margin-top: 0;
+      border: none;
+      color: var(--danger);
+      padding: 0;
+      font-size: 1.25rem;
+    }
+    #content .error code {
+      background: var(--bg);
+      padding: 0.1rem 0.3rem;
+    }
+
+    /* ---------- Heading anchors ---------- */
+
+    .anchor {
+      float: left;
+      margin-left: -1.25rem;
+      padding-right: 0.5rem;
+      opacity: 0;
+      transition: opacity 0.15s;
+      color: var(--fg-subtle);
+      text-decoration: none !important;
+      font-weight: 400;
+    }
+    h2:hover > .anchor,
+    h3:hover > .anchor,
+    h4:hover > .anchor { opacity: 1; }
+    .anchor:hover { color: var(--accent); }
+
+    /* ---------- Print ---------- */
+
+    @media print {
+      nav.topnav { display: none; }
+      header.page { position: static; box-shadow: none; }
+      section.hero { display: none; }
+      nav.toc { display: none; }
+      .layout { display: block; max-width: none; padding: 0; }
+      #content h2, #content h3 { page-break-after: avoid; }
+      #content table, #content .mermaid, #content pre { page-break-inside: avoid; }
+      #content thead { display: table-header-group; }
+      #content pre .copy-btn { display: none; }
+      .mermaid { box-shadow: none; border-color: var(--border); }
+      a { color: var(--fg) !important; text-decoration: underline; }
+    }
+
+    /* ---------- Utility ---------- */
+
+    ::selection {
+      background: color-mix(in srgb, var(--accent) 25%, transparent);
+    }
+
+    /* Smoother scrollbar on the TOC */
+    nav.toc::-webkit-scrollbar { width: 6px; }
+    nav.toc::-webkit-scrollbar-track { background: transparent; }
+    nav.toc::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    nav.toc::-webkit-scrollbar-thumb:hover { background: var(--fg-subtle); }
+  </style>
+</head>
+<body>
+  <nav class="topnav" aria-label="Primary navigation">
+    <div class="topnav-inner">
+      <a class="topnav-brand" id="topnav-brand" href="README.md">
+        <!-- OPTIONAL BRAND ICON. Uncomment to add an SVG (or PNG) next to the label.
+             Drop the file at assets/<name>.svg first, then adjust src. The .topnav-brand-icon
+             CSS class sizes it at 22x22 with a small right-side gap.
+        <img class="topnav-brand-icon" src="assets/brand.svg" alt="" aria-hidden="true" />
+        -->
+        <span class="topnav-brand-label">Docs Shell Starter</span>
+      </a>
+      <ul class="topnav-list topnav-areas" id="topnav-areas" aria-label="Sections"></ul>
+    </div>
+    <div class="topnav-sub">
+      <ul class="topnav-list topnav-docs" id="topnav-docs" aria-label="Documents"></ul>
+    </div>
+  </nav>
+
+  <header class="page">
+    <div class="inner">
+      <h1 id="page-title">
+        <span class="page-title-icon" id="page-title-icon" aria-hidden="true"></span>
+        <span class="page-title-label">Docs Shell Starter</span>
+      </h1>
+      <div class="meta">
+        <span class="verified" id="page-verified"></span>
+        <a id="page-source-link" href="#" target="_blank" rel="noopener"></a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Document overview" id="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-eyebrow" id="hero-eyebrow"></div>
+        <h1 class="hero-title" id="hero-title"></h1>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <nav class="toc" aria-label="Table of contents">
+      <div class="toc-header">
+        <h2>On this page</h2>
+        <button id="toc-toggle" type="button" aria-label="Collapse table of contents" aria-expanded="true" title="Collapse sidebar (press [ to toggle)">&#x2039;&#x2039;</button>
+      </div>
+      <ol id="toc-list"></ol>
+    </nav>
+    <main>
+      <article id="content">
+        <div class="loading">Loading…</div>
+      </article>
+    </main>
+  </div>
+
+  <!-- Third-party libraries (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<script>
+    // ---------------- Load and render markdown ----------------
+
+    async function loadMarkdown(doc) {
+      try {
+        const parts = await Promise.all(doc.sources.map(async src => {
+          const res = await fetch(src);
+          if (!res.ok) throw new Error(`HTTP ${res.status} loading ${src}`);
+          const text = await res.text();
+          // Compute source's base dir (relative to the shell) so relative links inside
+          // the fetched markdown resolve correctly when the source lives in another folder.
+          const lastSlash = src.lastIndexOf('/');
+          const baseDir = lastSlash >= 0 ? src.substring(0, lastSlash + 1) : '';
+          // Strip per-file nav strips + banner strips — both would duplicate in the concat view.
+          const stripped = text
+            .replace(/<!-- nav-strip -->[\s\S]*?<!-- \/nav-strip -->\s*/g, '')
+            .replace(/<!-- banner-strip -->[\s\S]*?<!-- \/banner-strip -->\s*/g, '');
+          return baseDir ? rewriteRelativeLinks(stripped, baseDir) : stripped;
+        }));
+        return parts.join('\n\n');
+      } catch (err) {
+        showFileAccessError(err);
+        throw err;
+      }
+    }
+
+    // Rewrite relative links in a markdown chunk so they resolve from the shell's location,
+    // not from the source file's own folder. Applied to any source loaded from a subfolder
+    // (e.g. `../README.md`, `act/README.md`). Absolute URLs, anchors, and root-relative paths are
+    // left alone. Also rewrites known-shell folder README.md links to their index.html shells so
+    // clicks route to a rendered shell instead of showing raw markdown.
+    function rewriteRelativeLinks(text, baseDir) {
+      const shouldRewrite = url => {
+        if (!url) return false;
+        if (/^(https?:|mailto:|tel:|data:|javascript:)/i.test(url)) return false;
+        if (url.startsWith('#') || url.startsWith('/')) return false;
+        return true;
+      };
+      // Route <path>/(plan|docs|operations)/README.md → <path>/(plan|docs|operations)/index.html.
+      // Under the ROOT shell we DON'T rewrite these — body links to `plan/mall/README.md` or
+      // `operations/ledgers/curation-log.md` should load as raw markdown (fallback) rather than
+      // jumping into a folder-level shell and losing the root shell context. In-shell navigation
+      // is via the two-line nav (?area=X&doc=Y). Set to identity function.
+      const shellRoute = url => url;
+      // Markdown [text](url) and ![alt](url) — url may have an optional "title".
+      text = text.replace(/(!?\[[^\]]*\])\(([^)\s]+)(\s+"[^"]*")?\)/g, (m, prefix, url, title) => {
+        if (!shouldRewrite(url)) return m;
+        return `${prefix}(${shellRoute(baseDir + url)}${title || ''})`;
+      });
+      // Inline HTML href="..." and src="..." (double or single quoted).
+      text = text.replace(/\b(href|src)=(["'])([^"']+)\2/gi, (m, attr, quote, url) => {
+        if (!shouldRewrite(url)) return m;
+        return `${attr}=${quote}${shellRoute(baseDir + url)}${quote}`;
+      });
+      return text;
+    }
+
+    function showFileAccessError(err) {
+      document.getElementById('content').innerHTML = `
+        <div class="error">
+          <h2>Could not load document</h2>
+          <p>Browsers block <code>fetch()</code> from <code>file://</code> URLs. Serve this folder over HTTP instead:</p>
+          <ul>
+            <li><strong>VS Code</strong>: install the <em>Live Preview</em> extension (Microsoft), right-click <code>index.html</code> → <em>Show Preview</em>.</li>
+            <li><strong>PowerShell</strong>: <code>python -m http.server 8080</code> in this folder, then open <a href="http://localhost:8080/index.html">http://localhost:8080/index.html</a>.</li>
+            <li><strong>Node</strong>: <code>npx http-server -p 8080</code> in this folder, then open the same URL.</li>
+          </ul>
+          <p>Error: <code>${err.message}</code></p>
+        </div>`;
+    }
+
+    // ---------------- Marked configuration ----------------
+
+    function configureMarked() {
+      const renderer = new marked.Renderer();
+
+      // Handle both marked v11 (positional args) and v12 (token object) signatures.
+      renderer.code = function(codeOrToken, langArg) {
+        let text, lang;
+        if (typeof codeOrToken === 'string') {
+          text = codeOrToken;
+          lang = langArg || '';
+        } else if (codeOrToken && typeof codeOrToken === 'object') {
+          text = codeOrToken.text ?? codeOrToken.raw ?? '';
+          lang = codeOrToken.lang ?? '';
+        } else {
+          text = String(codeOrToken ?? '');
+          lang = '';
+        }
+
+        if (lang === 'mermaid') {
+          return `<div class="mermaid">${escapeHtml(text)}</div>`;
+        }
+        if (lang && window.hljs?.getLanguage?.(lang)) {
+          const highlighted = hljs.highlight(text, { language: lang, ignoreIllegals: true }).value;
+          return `<pre><code class="hljs language-${lang}">${highlighted}</code></pre>`;
+        }
+        return `<pre><code>${escapeHtml(text)}</code></pre>`;
+      };
+
+      marked.setOptions({
+        renderer,
+        gfm: true,
+        breaks: false,
+        pedantic: false,
+      });
+    }
+
+    // Suppress a leading `<div align="center">...</div>` in the parsed article. This is the
+    // idiomatic repo-README banner (title / subtitle / action-links) which is already covered by
+    // the shell's hero when a README-like doc is rendered here — leaving it in place would show a
+    // duplicate title. GitHub's raw-README view still shows the div normally.
+    function suppressLeadingCenteredDiv(root) {
+      const first = root.firstElementChild;
+      if (first && first.tagName === 'DIV' && (first.getAttribute('align') || '').toLowerCase() === 'center') {
+        first.remove();
+      }
+    }
+
+    // Add id + anchor link to each heading after render (simpler than a renderer override).
+    function addHeadingAnchors(root) {
+      const seen = new Map();
+      const slug = (text) => {
+        const base = text.toLowerCase()
+          .replace(/[^\w\s-]/g, '')
+          .trim()
+          .replace(/\s+/g, '-');
+        const n = seen.get(base) || 0;
+        seen.set(base, n + 1);
+        return n === 0 ? base : `${base}-${n}`;
+      };
+      root.querySelectorAll('h2, h3, h4, h5, h6').forEach(h => {
+        const id = slug(h.textContent);
+        h.id = id;
+        const a = document.createElement('a');
+        a.className = 'anchor';
+        a.href = `#${id}`;
+        a.setAttribute('aria-hidden', 'true');
+        a.textContent = '#';
+        h.insertBefore(a, h.firstChild);
+      });
+    }
+
+    function escapeHtml(str) {
+      return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    // ---------------- Build the sidebar TOC ----------------
+
+    function buildTOC() {
+      const list = document.getElementById('toc-list');
+      list.innerHTML = '';
+      document.querySelectorAll('#content h2, #content h3').forEach(h => {
+        const li = document.createElement('li');
+        li.className = h.tagName.toLowerCase();
+        const a = document.createElement('a');
+        a.href = `#${h.id}`;
+        a.textContent = h.textContent.replace(/^#\s*/, '').trim();
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+
+      // Highlight the current section on scroll.
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const id = entry.target.id;
+          document.querySelectorAll('nav.toc a').forEach(a => {
+            a.classList.toggle('active', a.getAttribute('href') === `#${id}`);
+          });
+        });
+      }, { rootMargin: '-40% 0px -55% 0px' });
+      document.querySelectorAll('#content h2, #content h3').forEach(h => observer.observe(h));
+    }
+
+    // ---------------- TOC collapse toggle (persisted in localStorage) ----------------
+
+    function setupTocToggle() {
+      const layout = document.querySelector('.layout');
+      const btn = document.getElementById('toc-toggle');
+      if (!layout || !btn) return;
+
+      const KEY = 'alex-act-fundamentals:toc-collapsed';
+      const apply = (collapsed) => {
+        layout.classList.toggle('toc-collapsed', collapsed);
+        btn.setAttribute('aria-expanded', String(!collapsed));
+        btn.setAttribute('aria-label', collapsed ? 'Expand table of contents' : 'Collapse table of contents');
+        btn.setAttribute('title', collapsed ? 'Expand sidebar (press [ to toggle)' : 'Collapse sidebar (press [ to toggle)');
+        btn.innerHTML = collapsed ? '&#x203A;&#x203A;' : '&#x2039;&#x2039;';
+      };
+
+      let initial = false;
+      try { initial = localStorage.getItem(KEY) === '1'; } catch (_) {}
+      apply(initial);
+
+      const toggle = () => {
+        const next = !layout.classList.contains('toc-collapsed');
+        apply(next);
+        try { localStorage.setItem(KEY, next ? '1' : '0'); } catch (_) {}
+      };
+
+      btn.addEventListener('click', toggle);
+      document.addEventListener('keydown', (e) => {
+        if (e.key !== '[') return;
+        const tag = (e.target && e.target.tagName || '').toLowerCase();
+        if (tag === 'input' || tag === 'textarea' || (e.target && e.target.isContentEditable)) return;
+        e.preventDefault();
+        toggle();
+      });
+    }
+
+    // ---------------- Wrap every table in a horizontal-scroll container ----------------
+
+    function wrapTables(root) {
+      root.querySelectorAll('table').forEach(t => {
+        if (t.parentElement?.classList.contains('table-wrap')) return;
+        const wrap = document.createElement('div');
+        wrap.className = 'table-wrap';
+        t.parentNode.insertBefore(wrap, t);
+        wrap.appendChild(t);
+      });
+    }
+
+    // ---------------- Color-code checkmark cells in grid tables ----------------
+
+    // Grid tables use "★" / "✓" / "✓*" / blank in centered columns. Tag every checkmark cell
+    // and (in rows that contain at least one checkmark) tag the empty cells too so long rows
+    // stay easy to scan.
+    function decorateGridCells(root) {
+      root.querySelectorAll('table tbody tr').forEach(row => {
+        const cells = [...row.children];
+        const hasCheckmark = cells.some(c => /^[★✓]\*?$/.test(c.textContent.trim()));
+        if (!hasCheckmark) return;
+        cells.forEach(c => {
+          const t = c.textContent.trim();
+          if (t === '★') c.classList.add('grid-primary');
+          else if (t === '✓') c.classList.add('grid-uses');
+          else if (t === '✓*' || t === '✓\\*') c.classList.add('grid-conditional');
+          else if (t === '') c.classList.add('grid-empty');
+        });
+      });
+    }
+
+    // ---------------- Blockquote alert callouts ----------------
+
+    // Detect GitHub-flavoured alert syntax (> [!NOTE], > [!WARNING], etc.) and legacy emoji
+    // prefixes (⚠️, ℹ️, ✅, ❌) and apply matching styles.
+    const ALERT_MAP = [
+      { pattern: /^\s*\[!WARNING\]\s*/i, kind: 'warning' },
+      { pattern: /^\s*\[!CAUTION\]\s*/i, kind: 'danger' },
+      { pattern: /^\s*\[!IMPORTANT\]\s*/i, kind: 'warning' },
+      { pattern: /^\s*\[!NOTE\]\s*/i, kind: 'note' },
+      { pattern: /^\s*\[!TIP\]\s*/i, kind: 'tip' },
+      { pattern: /^\s*⚠️?\s*/,  kind: 'warning' },
+      { pattern: /^\s*ℹ️?\s*/,  kind: 'note' },
+      { pattern: /^\s*✅\s*/,   kind: 'tip' },
+      { pattern: /^\s*❌\s*/,   kind: 'danger' },
+    ];
+
+    function styleAlertBlockquotes(root) {
+      root.querySelectorAll('blockquote').forEach(bq => {
+        const firstP = bq.querySelector('p');
+        if (!firstP) return;
+        const html = firstP.innerHTML;
+        for (const { pattern, kind } of ALERT_MAP) {
+          if (pattern.test(firstP.textContent)) {
+            firstP.innerHTML = html.replace(pattern, '');
+            bq.classList.add('alert', `alert-${kind}`);
+            return;
+          }
+        }
+      });
+    }
+
+    // ---------------- Copy-to-clipboard on <pre> ----------------
+
+    function addCopyButtons(root) {
+      root.querySelectorAll('pre').forEach(pre => {
+        if (pre.querySelector('.copy-btn')) return;
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'copy-btn';
+        btn.textContent = 'Copy';
+        btn.setAttribute('aria-label', 'Copy code to clipboard');
+        btn.addEventListener('click', async () => {
+          const code = pre.querySelector('code');
+          const text = code ? code.textContent : pre.textContent;
+          try {
+            await navigator.clipboard.writeText(text);
+            btn.textContent = 'Copied';
+            btn.classList.add('copied');
+            setTimeout(() => {
+              btn.textContent = 'Copy';
+              btn.classList.remove('copied');
+            }, 1500);
+          } catch (err) {
+            btn.textContent = 'Failed';
+            setTimeout(() => { btn.textContent = 'Copy'; }, 1500);
+          }
+        });
+        pre.appendChild(btn);
+      });
+    }
+
+    // ---------------- Main ----------------
+
+    // ---------------- Manifest + doc resolution ----------------
+
+    let MANIFEST = null;
+
+    async function loadManifest() {
+      const res = await fetch('manifest.json');
+      if (!res.ok) throw new Error(`HTTP ${res.status} loading manifest.json`);
+      return await res.json();
+    }
+
+    function getCurrentContext(manifest) {
+      const params = new URLSearchParams(location.search);
+      const areaId = params.get('area');
+      const docId = params.get('doc');
+      // 1. Explicit area + doc
+      if (areaId && docId) {
+        const area = manifest.areas.find(a => a.id === areaId);
+        const doc = area && area.docs.find(d => d.id === docId);
+        if (area && doc) return { area, doc };
+      }
+      // 2. Area only
+      if (areaId && !docId) {
+        const area = manifest.areas.find(a => a.id === areaId);
+        if (area) {
+          const doc = area.docs.find(d => d.id === area.defaultDoc) || area.docs[0];
+          return { area, doc };
+        }
+      }
+      // 3. Doc only — search all areas (back-compat with old ?doc=X URLs)
+      if (!areaId && docId) {
+        for (const area of manifest.areas) {
+          const doc = area.docs.find(d => d.id === docId);
+          if (doc) return { area, doc };
+        }
+      }
+      // 4. Nothing — defaults
+      const area = manifest.areas.find(a => a.id === manifest.defaultArea) || manifest.areas[0];
+      const doc = area.docs.find(d => d.id === area.defaultDoc) || area.docs[0];
+      return { area, doc };
+    }
+
+    // ---------------- Theme injection ----------------
+
+    // Reads `manifest.theme.light` / `manifest.theme.dark` (both optional) and injects them
+    // as CSS custom properties. Overrides the hardcoded :root defaults in this file.
+    // Absent or malformed = no-op; the defaults win. Only keys prefixed with `--` are accepted
+    // and only hex / rgb / rgba / hsl / hsla / color-name values pass the value guard, so an
+    // untrusted manifest cannot smuggle arbitrary CSS through this path.
+    function applyManifestTheme(manifest) {
+      const theme = manifest && manifest.theme;
+      if (!theme || typeof theme !== 'object') return;
+      const VALUE_RE = /^(?:#[0-9a-fA-F]{3,8}|rgba?\([\d.,\s%/]+\)|hsla?\([\d.,\s%/]+\)|[a-zA-Z]+(?:\s*,\s*[\d.]+)?)$/;
+      const KEY_RE = /^--[a-zA-Z0-9-]+$/;
+      const toRules = obj => {
+        if (!obj || typeof obj !== 'object') return '';
+        return Object.entries(obj)
+          .filter(([k, v]) => KEY_RE.test(k) && typeof v === 'string' && VALUE_RE.test(v.trim()))
+          .map(([k, v]) => `  ${k}: ${v.trim()};`)
+          .join('\n');
+      };
+      const lightRules = toRules(theme.light);
+      const darkRules = toRules(theme.dark);
+      if (!lightRules && !darkRules) return;
+      const styleEl = document.createElement('style');
+      styleEl.id = 'manifest-theme';
+      let css = '';
+      if (lightRules) css += `:root {\n${lightRules}\n}\n`;
+      if (darkRules) css += `@media (prefers-color-scheme: dark) {\n  :root {\n${darkRules.split('\n').map(l => '  ' + l).join('\n')}\n  }\n}\n`;
+      styleEl.textContent = css;
+      // Append LAST in <head> so it overrides the earlier :root block.
+      document.head.appendChild(styleEl);
+    }
+
+    // ---------------- Top nav + header + hero rendering ----------------
+
+    function renderTopnav(manifest, ctx) {
+      const brand = document.getElementById('topnav-brand');
+      const brandLabel = brand.querySelector('.topnav-brand-label');
+      if (brandLabel) brandLabel.textContent = manifest.brand.label;
+      brand.href = manifest.brand.href;
+
+      // Line 1: area buttons (sections)
+      const areasEl = document.getElementById('topnav-areas');
+      areasEl.innerHTML = manifest.areas.map(a =>
+        `<li><a href="?area=${encodeURIComponent(a.id)}" data-nav data-area="${escapeHtml(a.id)}"${a.id === ctx.area.id ? ' class="active"' : ''}>${escapeHtml(a.label)}</a></li>`
+      ).join('');
+
+      // Line 2: documents of the currently active area.
+      // Docs sourced from standalone .html files link DIRECTLY to the file; those reports
+      // carry their own cover / hero / typography and don't need the shell wrapper.
+      const docsEl = document.getElementById('topnav-docs');
+      docsEl.innerHTML = ctx.area.docs.map(d => {
+        const htmlOnly = Array.isArray(d.sources) && d.sources.length > 0 && d.sources.every(s => s.toLowerCase().endsWith('.html'));
+        const href = htmlOnly ? d.sources[0] : `?area=${encodeURIComponent(ctx.area.id)}&doc=${encodeURIComponent(d.id)}`;
+        return `<li><a href="${escapeHtml(href)}" data-nav data-doc="${escapeHtml(d.id)}"${d.id === ctx.doc.id ? ' class="active"' : ''}>${escapeHtml(d.label)}</a></li>`;
+      }).join('');
+
+      // No quick-jumps row: root shell keeps line 1 = areas only, line 2 = docs only.
+      // Per-area quickJumps still live in the manifest (used by ?area=X quick links from README)
+      // but are not rendered in the top nav to keep it super straightforward.
+    }
+
+    // Publishes the actual measured heights of the sticky topnav AND page-title header
+    // as CSS custom properties so `header.page { top: var(--nav-height) }`, the anchor-scroll
+    // offset, and the sidebar TOC's sticky `top` all stay accurate for the two-row nav across
+    // viewport widths / wrapping. --sticky-offset is the sum used by the TOC.
+    function updateNavHeightCssVar() {
+      const nav = document.querySelector('nav.topnav');
+      const header = document.querySelector('header.page');
+      const root = document.documentElement.style;
+      const navH = nav ? Math.round(nav.getBoundingClientRect().height) : 0;
+      const headerH = header ? Math.round(header.getBoundingClientRect().height) : 0;
+      if (navH) root.setProperty('--nav-height', navH + 'px');
+      if (headerH) root.setProperty('--page-header-height', headerH + 'px');
+      if (navH || headerH) root.setProperty('--sticky-offset', (navH + headerH) + 'px');
+    }
+
+    function renderPageHeader(doc) {
+      document.title = doc.title || doc.label;
+      const titleEl = document.getElementById('page-title');
+      const labelEl = titleEl.querySelector('.page-title-label');
+      const iconEl = titleEl.querySelector('.page-title-icon');
+      if (labelEl) labelEl.textContent = doc.title || doc.label;
+      if (iconEl) iconEl.textContent = doc.icon || '';
+      document.getElementById('page-verified').textContent = doc.verified || '';
+      const link = document.getElementById('page-source-link');
+      if (doc.sourceLink) {
+        link.href = doc.sourceLink.href;
+        link.textContent = doc.sourceLink.label;
+        link.style.display = '';
+      } else {
+        link.style.display = 'none';
+      }
+    }
+
+    function renderHero(doc) {
+      const hero = doc.hero;
+      const heroEl = document.getElementById('hero');
+      if (!hero) { heroEl.style.display = 'none'; return; }
+      document.getElementById('hero-eyebrow').textContent = hero.eyebrow || '';
+      const titleEl = document.getElementById('hero-title');
+      titleEl.innerHTML = escapeHtml(hero.title || '') +
+        (hero.subtitle ? `<span class="hero-title-sub">${escapeHtml(hero.subtitle)}</span>` : '');
+      // hero.description is preserved in the manifest as metadata (provenance /
+      // cross-references / methodology notes) but no longer rendered here. The
+      // Big Idea in hero.subtitle now carries the summary weight; body prose is
+      // in the source .md itself. To re-render descriptions, uncomment:
+      //   document.getElementById('hero-subtitle').innerHTML = hero.description || '';
+      // and restore the corresponding <p id="hero-subtitle"> element + CSS block.
+      // OPTIONAL: hero.chips[] and hero.actions[] can be rendered here.
+      // The CSS blocks .hero-chips / .chip / .hero-actions / .btn are already
+      // present in <style> above. To enable, add manifest fields per doc and
+      // append the corresponding markup to `.hero-content` before returning.
+    }
+
+    // Marked's slug (matches addHeadingAnchors) so cross-doc fragments land on real IDs.
+    function slugOf(text) {
+      return String(text).toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-');
+    }
+
+    // Wire cross-doc anchor jumps for top-nav quick-jumps.
+    //
+    // OPTIONAL FEATURE: this shell doesn't render quick-jumps today (see
+    // renderTopnav comment). The function is kept because the manifest still
+    // declares `quickJumps[]` per area (used by cross-doc links from prose
+    // via ?area=X&doc=Y#slug). If quick-jumps are re-enabled in renderTopnav,
+    // this handler wires them without any additional work.
+    function wireDynamicAnchors(currentDocId, currentAreaId) {
+      const headings = [...document.querySelectorAll('#content h1, #content h2, #content h3, #content h4')];
+      const matchToId = (needle) => {
+        const n = String(needle).toLowerCase();
+        const h = headings.find(x => x.textContent.trim().toLowerCase().includes(n));
+        return h && h.id ? '#' + h.id : null;
+      };
+      // Top-nav quick jumps.
+      document.querySelectorAll('#topnav-jumps a[data-jump-doc]').forEach(a => {
+        const targetArea = a.dataset.jumpArea || currentAreaId;
+        if (a.dataset.jumpDoc === currentDocId && targetArea === currentAreaId) {
+          // Same doc + same area — rewrite to fragment only, no reload.
+          const id = matchToId(a.dataset.match);
+          if (id) a.setAttribute('href', id);
+        } else {
+          // Cross-doc or cross-area — keep ?area=&doc= plus fragment computed from the match slug.
+          const guess = slugOf(a.dataset.match);
+          a.setAttribute('href', `?area=${encodeURIComponent(targetArea)}&doc=${encodeURIComponent(a.dataset.jumpDoc)}#${guess}`);
+        }
+      });
+    }
+
+    function scrollToHash() {
+      if (!location.hash) return;
+      const hashText = decodeURIComponent(location.hash.slice(1));
+      // 1. Exact ID match first (fast path when the hash matches a real heading id).
+      let el = document.getElementById(hashText);
+      // 2. Fuzzy fallback for cross-doc jumps where the URL fragment is a prefix/substring
+      //    of the actual heading id (topnav quickJumps use slugified `match` strings
+      //    that are only the last chunk of the target heading id, e.g. `act-the-ten-tenet`
+      //    → `part-v-act-the-ten-tenet-epistemic-discipline`).
+      if (!el && hashText) {
+        const needle = hashText.toLowerCase();
+        const headings = document.querySelectorAll('#content h1[id], #content h2[id], #content h3[id], #content h4[id]');
+        for (const h of headings) {
+          if (h.id.includes(needle)) { el = h; break; }
+        }
+      }
+      if (el) {
+        try { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); } catch (_) {}
+      }
+    }
+
+    // Note: Mermaid diagrams are authored inline in the .md chapter files as fenced ```mermaid blocks.
+    // The custom code renderer in configureMarked() converts them to <div class="mermaid"> during
+    // parsing, and mermaid.run() renders them at the end.
+    (async () => {
+      MANIFEST = await loadManifest();
+      try { applyManifestTheme(MANIFEST); } catch (e) { console.error('applyManifestTheme', e); }
+      const ctx = getCurrentContext(MANIFEST);
+      const doc = ctx.doc;
+      // Standalone HTML reports own their entire page (cover, hero, styles) and don't
+      // benefit from the shell wrapper. If a bookmark or external link lands on the shell
+      // URL for such a doc, redirect straight to the file. location.replace so back-button
+      // skips the shell hop.
+      if (doc && Array.isArray(doc.sources) && doc.sources.length > 0 && doc.sources.every(s => s.toLowerCase().endsWith('.html'))) {
+        window.location.replace(doc.sources[0]);
+        return;
+      }
+      renderTopnav(MANIFEST, ctx);
+      renderPageHeader(doc);
+      renderHero(doc);
+      // Measure sticky heights AFTER header renders so --sticky-offset is accurate on first paint.
+      try { updateNavHeightCssVar(); } catch (e) { console.error('updateNavHeightCssVar', e); }
+      window.addEventListener('resize', () => {
+        try { updateNavHeightCssVar(); } catch (_) {}
+      });
+
+      const md = await loadMarkdown(doc);
+      try { configureMarked(); } catch (e) { console.error('configureMarked', e); }
+      const content = document.getElementById('content');
+      try { content.innerHTML = marked.parse(md); } catch (e) { console.error('parse', e); }
+      try { suppressLeadingCenteredDiv(content); } catch (e) { console.error('suppressLeadingCenteredDiv', e); }
+      try { addHeadingAnchors(content); } catch (e) { console.error('addHeadingAnchors', e); }
+      try { wrapTables(content); } catch (e) { console.error('wrapTables', e); }
+      try { decorateGridCells(content); } catch (e) { console.error('decorateGridCells', e); }
+      try { styleAlertBlockquotes(content); } catch (e) { console.error('alerts', e); }
+      try { addCopyButtons(content); } catch (e) { console.error('copyButtons', e); }
+      try { buildTOC(); } catch (e) { console.error('buildTOC', e); }
+      try { setupTocToggle(); } catch (e) { console.error('setupTocToggle', e); }
+      try { wireDynamicAnchors(doc.id, ctx.area.id); } catch (e) { console.error('wireDynamicAnchors', e); }
+
+      // Initialize Mermaid last so a rendering failure never blocks the TOC.
+      const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      try {
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: dark ? 'dark' : 'default',
+          themeVariables: { fontFamily: 'inherit' },
+          flowchart: { curve: 'basis', htmlLabels: true },
+          securityLevel: 'loose',
+        });
+        await mermaid.run({ querySelector: '.mermaid' });
+      } catch (e) {
+        console.error('mermaid', e);
+      }
+
+      scrollToHash();
+    })().catch(err => console.error(err));
+  </script>
+</body>
+</html>

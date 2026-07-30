@@ -115,6 +115,17 @@
       "adapted_from": null
     },
     {
+      "name": "alex-act-illustrator-plugin",
+      "store": "plugin-mall",
+      "shape": "mixed",
+      "trust_score": 95,
+      "version": "0.5.1",
+      "description_short": "Visual-authoring bundle for AI agents. Eight skills across four feature areas: Flint (statistical chart authoring via the local-first flint-chart-mcp server fr…",
+      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/alex-act-illustrator-plugin",
+      "provenance": true,
+      "adapted_from": null
+    },
+    {
       "name": "alex-banner-generation",
       "store": "plugin-mall",
       "shape": "skill",
@@ -1244,17 +1255,6 @@
       "version": "1.0.0",
       "description_short": "Author fleet announcements for AI-Memory that heirs execute automatically on greeting check-in",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/supervisor-fleet/fleet-announcement",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
-      "name": "flint-chart-plugin",
-      "store": "plugin-mall",
-      "shape": "mixed",
-      "trust_score": 95,
-      "version": "0.5.1",
-      "description_short": "Pick the right chart for the data and question, render it locally via the microsoft/flint-chart MCP server, then verify the rendered artifact actually says wha…",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/data-analytics/flint-chart-plugin",
       "provenance": true,
       "adapted_from": null
     },

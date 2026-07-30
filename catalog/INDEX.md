@@ -21,6 +21,7 @@ Search index across **3846 plugins** in **42 stores**. Plugins are ranked by tru
 | 95 | 🏆 `ai-agent-design` | plugin-mall | skill | Design autonomous AI agents that reason, plan, and execute tasks |
 | 95 | 🏆 `ai-memory-setup` | plugin-mall | skill | Detect, create, and manage the AI-Memory fleet communication channel across One… |
 | 95 | 🏆 `ai-writing-avoidance` | plugin-mall | skill | Help writers produce content that sounds genuinely human by avoiding telltale A… |
+| 95 | 🏆 `alex-act-illustrator-plugin` | plugin-mall | mixed | Visual-authoring bundle for AI agents. Eight skills across four feature areas: … |
 | 95 | 🏆 `alex-banner-generation` | plugin-mall | skill | Generate branded SVG banners for documents (READMEs, plans, changelogs, release… |
 | 95 | 🏆 `allowlist-over-blocklist` | plugin-mall | skill | Validate input against an allowlist of permitted values -- reject everything el… |
 | 95 | 🏆 `anti-hallucination` | plugin-mall | skill | Recognize and prevent confabulation -- when you don't know, say so. |
@@ -60,7 +61,6 @@ Search index across **3846 plugins** in **42 stores**. Plugins are ranked by tru
 | 95 | 🏆 `cloud-solution-architect` | plugin-mall | skill | Design well-architected Azure cloud systems -- 10 design principles, 6 architec… |
 | 95 | 🏆 `cloud-storage-paths` | plugin-mall | skill | Cross-platform cloud storage path resolution -- OneDrive, iCloud, Dropbox path … |
 | 95 | 🏆 `coaching-techniques` | plugin-mall | skill | GROW model, active listening, developmental feedback, and team growth approaches |
-| 95 | 🏆 `code-review` | plugin-mall | skill | Systematic code review for correctness, security, and growth -- not just style … |
 
 ## All stores by trust
 

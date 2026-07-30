@@ -1,0 +1,83 @@
+{
+  "name": "alex-act-illustrator-plugin",
+  "version": "0.5.1",
+  "description": "Visual-authoring bundle for AI agents. Eight skills across four feature areas: Flint (statistical chart authoring via the local-first flint-chart-mcp server from microsoft/flint-chart), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures), Replicate (AI image generation over Replicate's HTTP API, opt-in via REPLICATE_API_TOKEN), and Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports). Shared framing gate (chart-big-idea Step 0.5) and verification pass (render-verify Prose-coupling) apply across all features. Alex ACT constellation plugin, maintained by Alex_ACT_Steward. Renamed from flint-chart-plugin on 2026-07-29 and expanded from 3 skills to 8. Absorbs the capability of the removed Mall plugins visual-vocabulary, data-visualization, svg-dashboard-composition, and imagen (per Mall commit e739dd6).",
+  "keywords": [
+    "chart",
+    "visualization",
+    "vega-lite",
+    "echarts",
+    "chart-js",
+    "mcp",
+    "mcp-server",
+    "flint-chart",
+    "storytelling",
+    "big-idea",
+    "chart-selection",
+    "chart-vocabulary",
+    "render",
+    "svg",
+    "print-svg",
+    "figure-generator",
+    "book-figure",
+    "report-figure",
+    "framing",
+    "traditional-vs-innovative",
+    "verification",
+    "visual-qa",
+    "playwright",
+    "replicate",
+    "image-generation",
+    "ai-imagery",
+    "flux",
+    "ideogram",
+    "recraft",
+    "imagen",
+    "docs-shell",
+    "single-page-html",
+    "gallery",
+    "catalog",
+    "illustrator",
+    "visual-authoring"
+  ],
+  "category": "data-analytics",
+  "author": {
+    "name": "Fabio Correa",
+    "url": "https://github.com/fabioc-aloha"
+  },
+  "commands": "commands/",
+  "mcpServers": {
+    "flint": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "flint-chart-mcp@^0.3.0"
+      ]
+    },
+    "replicate": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "replicate-mcp"
+      ],
+      "env": {
+        "REPLICATE_API_TOKEN": "${env:REPLICATE_API_TOKEN}"
+      }
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.78",
+        "--headless",
+        "--isolated",
+        "--browser",
+        "msedge",
+        "--allow-unrestricted-file-access"
+      ]
+    }
+  }
+}

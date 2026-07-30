@@ -1,16 +1,17 @@
 ---
 description: "Pick the right chart for the user's data + question, then author, render, and verify it via the flint-chart-mcp server. Loads the chart-big-idea skill for framing, the flint-chart skill for selection and rendering, and the render-verify skill to confirm the render actually says what it was meant to say."
+lastReviewed: 2026-07-25
 ---
 
 # /render-chart
 
 Follow these steps in order. Skip any step that the user's request has already answered.
 
-1. **Load the installed `chart-big-idea` skill** and produce a Chart Brief. Follow its numbered steps: **Step 0** (read the surrounding docs / prose / ticket / section heading for an existing Big Idea before asking the user anything), Step 1 (draft or elicit the Big Idea — use the 3-question ladder one question at a time if Step 0 didn't surface it), Steps 2–5 (story arc, audience, style stance, Brief). **Ask the user the TRADITIONAL vs INNOVATIVE style-stance question explicitly** unless they've already stated a preference. The output is the compact Chart Brief block that Steps 3-5 below consume as their constraint.
+1. **Load the `chart-big-idea` skill** and produce a Chart Brief. Look in `.github/skills/local/chart-big-idea/SKILL.md` first (heir-installed), then `.github/skills/chart-big-idea/SKILL.md` (baseline). Follow its numbered steps: **Step 0** (read the surrounding docs / prose / ticket / section heading for an existing Big Idea before asking the user anything), Step 1 (draft or elicit the Big Idea — use the 3-question ladder one question at a time if Step 0 didn't surface it), Steps 2–5 (story arc, audience, style stance, Brief). **Ask the user the TRADITIONAL vs INNOVATIVE style-stance question explicitly** unless they've already stated a preference. The output is the compact Chart Brief block that Steps 3-5 below consume as their constraint.
 
    Skip only if the user provided a fully-formed spec, is iterating style/color on an already-chosen chart, or is doing purely exploratory data profiling — see the skill's "When to invoke" section.
 
-2. **Load the installed `flint-chart` skill.** If it is unavailable, tell the user to reinstall or enable the plugin and stop.
+2. **Load the `flint-chart` skill.** Look in `.github/skills/local/flint-chart/SKILL.md` first (heir-installed), then `.github/skills/flint-chart/SKILL.md` (baseline). If neither is present, tell the user to install the plugin and stop.
 
 3. **Understand the data.** If the user attached a file, read the first ~20 rows to see column names, types, and cardinality. If not, ask for a sample, file path, or paste. Do not chart blind — the skill's "Sanity-read the values first" rule applies.
 
@@ -22,7 +23,7 @@ Follow these steps in order. Skip any step that the user's request has already a
 
 7. **Render.** Default to `create_chart_view` (interactive panel with customization sidebar) when the host supports MCP App UI. Fall back to `render_chart` (PNG or SVG) when it doesn't. Use `validate_chart` first if you're unsure the spec is well-formed. Use `compile_chart` when the user wants the backend-native JSON to embed in their own app instead of a rendered image.
 
-8. **Verify — look at what you rendered.** Load the installed `render-verify` skill. Use the host's built-in browser tools if it has them; otherwise the optional `playwright` MCP server. Read console errors _before_ judging the picture, then walk the skill's chart failure catalog — empty binding, collapsed scale, merged color scale, undefined category, double-scaled units. Check the picture against the Brief's Big Idea, not just against the spec.
+8. **Verify — look at what you rendered.** Load the `render-verify` skill (`.github/skills/local/render-verify/SKILL.md` first, then `.github/skills/render-verify/SKILL.md`). Use the host's built-in browser tools if it has them; otherwise the optional `playwright` MCP server. Read console errors _before_ judging the picture, then walk the skill's chart failure catalog — empty binding, collapsed scale, merged color scale, undefined category, double-scaled units. Check the picture against the Brief's Big Idea, not just against the spec.
 
    **Mandatory** after any post-Flint Vega-Lite edit and before committing generated HTML/SVG/PNG. If you have no way to look at the result, say so in Step 9 rather than implying it was checked.
 

@@ -82,6 +82,38 @@ render without error, and a screenshot alone can look plausible.
 | **Below-the-fold content never checked** | Everything visible looks fine                                         | Only the viewport was captured. Scroll or capture full-page                                                      |
 | **Stale render**                         | Your change is not there                                              | Viewing a cached copy, an old build output, or a different file than you edited                                  |
 | **Placeholder survived**                 | Literal `TODO`, `Lorem ipsum`, `{{value}}`, `undefined`, `NaN`        | A template slot never filled. Search the rendered text, not just the source                                      |
+| **SVG XML invalid**                      | Chart title shows, chart body missing; screenshot looks like a fragment | An SVG injected as inline HTML during a PDF build parses lenient; `<img src>` is strict and drops the document at the first parser error. Two common causes: `--` inside an XML comment (prose punctuation habit — `(kept in AFTER -- helps read data)`) and a bare `&` outside a comment. **Fix in the generator, never in the SVG** — regen clobbers manual SVG patches |
+| **Prose contradicts figure**             | Numbers in the surrounding paragraph do not match the chart's data     | The dataset moved forward, the prose did not. Five surfaces drift: Big Idea sentence, caption / alt text, anchoring paragraph, numeric claims, and figure text that belongs in prose. See "Prose-coupling check" below |
+| **Lazy-load blindness**                  | Coverage page reports "62 figures" but only 7 fetched                  | `<img loading="lazy">` on a proofing or coverage surface. Only images in the viewport fire the request; a screenshot or scroll-through verifies exactly the images that happened to be visible. The rest could all be 404 and no one would know. Fix: strip `loading="lazy"` on any coverage / review page |
+
+## Prose-coupling check (before shipping a published figure)
+
+The failure catalogs pin what the figure SHOWS. This check pins what the surrounding PROSE CLAIMS about the figure. Numbers drift silently between them, and the reader reads both.
+
+Before declaring a figure done in a document / chapter / report / worked solution, sweep these five surfaces:
+
+| Surface                                     | Check                                                                                                                    |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Big Idea sentence**                       | The chapter or section's one-line takeaway still holds against the data, and it matches the figure's own subtitle       |
+| **Caption / alt text**                      | Describes what the figure now shows. Alt text IS the caption in most publication workflows                              |
+| **Anchoring paragraph**                     | Introduces the figure with the correct panels in the correct order (BEFORE-left, AFTER-right for paired panels)         |
+| **Numeric claims**                          | Every number the prose cites (`$4.2M`, `2.18×`, `78%`) appears in the dataset. Include category names and sort order, not just values |
+| **Figure text that belongs in the chapter** | Sentence-length exposition inside the SVG is a smell — propose relocation to the chapter body                             |
+
+### Look for the non-data lever first
+
+When numbers drift, the fix that preserves the argument is usually a NARRATIVE lever — a threshold, a target, or a round-number goal — that lives only in prose. Moving it does not break the dataset OR the contract test.
+
+Example: prose says "the channel needs to clear a $2.00 target" but `channel-romi.json` contains no `2.00`. Raising the target to `$2.50` corrects the wrong-figure references and leaves the beat, the Big Idea, the dataset, and the contract test all untouched. Rewriting the numbers to match the prose is more expensive and touches more surfaces.
+
+Priority order when the prose is wrong:
+
+1. **Number wrong in prose, right in data**: fix the prose. Do not ask.
+2. **Two valid fixes, one preserves the rhetorical shape**: take that one, even if the diff is larger.
+3. **Only correct fix changes what the passage argues**: stop and ask.
+4. **Wording awkward but numbers right**: out of scope for this skill.
+
+Adapted from _The Defensible Decision_ (Fabio Correa) via the `dd-book-illustrator` skill in Alex_DDA.
 
 ## Step 1 — pick a verification capability
 
@@ -282,6 +314,14 @@ path inside that folder. Verified 2026-07-25: a bare filename leaked into
   only shows the symptom.
 - **Fixing a data or chart-type problem with a style tweak.** Recoloring a mark
   that is wrong because two scales merged hides the bug instead of fixing it.
+
+## Related skills
+
+- [`chart-big-idea`](../chart-big-idea/SKILL.md) — Step 0.5 earn-a-figure gate + Step 4.5 focus discipline. Framing side of the same discipline.
+- [`chart-vocabulary`](../chart-vocabulary/SKILL.md) — Module 2 CSAR evaluation loop asks *did the AI pick the right chart family*. This skill's Prose-coupling check asks *did the render match the message*. Both fire on an AI-generated chart; different failure modes.
+- [`flint-chart`](../flint-chart/SKILL.md) — spec authoring + Publication config preset. Verification runs against what this skill produces.
+- [`print-svg-style-guide`](../print-svg-style-guide/SKILL.md) — the visual grammar the shipped SVG obeys. The failure-catalog entries in this skill fire when that grammar is violated.
+- [`figure-generator`](../figure-generator/SKILL.md) — where the "fix in the generator, never in the SVG" rule for the SVG XML invalid catalog entry lives.
 
 ## Would Revise If
 
