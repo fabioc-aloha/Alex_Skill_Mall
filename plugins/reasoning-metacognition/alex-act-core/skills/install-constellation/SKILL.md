@@ -119,6 +119,24 @@ Core's remaining instructions stay plugin-resident and therefore inactive. Behav
 
 The `alex-act-` prefix is mandatory. A heir may already have their own `~/.copilot/instructions/act-pass.instructions.md`, and a collision would silently replace their file.
 
+#### Source — where the files come from
+
+The seven files ship **inside this skill** at `bootstrap/`, already carrying their `alex-act-` target names. The copy is a straight file copy; no renaming, no fetching, no network.
+
+Resolve the source in this order:
+
+| Order | Location | When it applies |
+|---|---|---|
+| 1 | `<this-skill>/bootstrap/alex-act-*.instructions.md` | Always. Present in every install path, Mall and direct alike. |
+| 2 | `<plugin-root>/.github/instructions/*.instructions.md` | Direct GitHub installs only, which clone the whole repo. Rename to the `alex-act-` form when copying from here. |
+| 3 | — | Nothing found. **Stop and say so.** |
+
+If neither location resolves, do not continue silently and do not invent a fallback that fetches from the network. Report:
+
+> "The discipline bootstrap cannot run: this Core install carries no bootstrap source. Expected `bootstrap/` inside the install-constellation skill. This is a packaging defect — please report it against Alex_ACT_Core with your Core version and how you installed it."
+
+Source 1 exists because a Mall install vendors a component-shape subset (skills, commands, scripts, config) and deliberately does **not** vendor `.github/instructions/` — instructions are not a `plugin.json` component type, so there is nothing for the platform to load. Bundling them as skill resources is what makes them available to *copy* without asking the platform to *load* them. Core v0.2.0 shipped without source 1 and the bootstrap was inert on Mall installs; v0.2.1 fixed it.
+
 #### Overlap scan, before writing anything
 
 Compare the seven target names against the current workspace's `.github/instructions/`. Instruction scopes **compose rather than replace**: user-scope and workspace-scope files both load into the same context, with no documented dedup. A heir whose workspace already carries `act-pass` would load it twice after the bootstrap, paying the tokens twice and risking two copies drifting apart.
@@ -144,8 +162,8 @@ After writing, record exactly what was placed at `~/.copilot/instructions/.alex-
 ```json
 {
   "bootstrappedBy": "alex-act-core",
-  "coreVersion": "0.2.0",
-  "timestamp": "2026-07-30T00:00:00Z",
+  "coreVersion": "<the installed Core version, read from the plugin's own manifest — not copied from this example>",
+  "timestamp": "<ISO 8601 UTC at write time>",
   "files": [
     "alex-act-act-pass.instructions.md",
     "alex-act-problem-framing-audit.instructions.md",
@@ -209,6 +227,8 @@ The skill is safe to re-run. On subsequent runs:
 | Skip the overlap scan because the workspace "probably" has no brain | Scopes compose. Scan, then report the real number. |
 | Uninstall by globbing `~/.copilot/instructions/*` | Read the receipt. The heir's own instructions live in that folder too. |
 | Bootstrap all of Core's unconditional instructions | Seven only. All 17 costs roughly 20.5K tokens in every workspace, which inverts the minimal-user-scope principle. |
+| Assume the instruction files are somewhere on disk without checking | Resolve the source explicitly per the Source table. A Mall install vendors no `.github/instructions/`; only the skill-bundled `bootstrap/` is guaranteed. This shipped broken in v0.2.0. |
+| Fetch the instruction files from GitHub when the local source is missing | Never. A missing source is a packaging defect and must be reported as one, not papered over with a network call that can fail, hang, or pull an unpinned version. |
 
 ## Composes with
 
@@ -230,6 +250,7 @@ Sunset or revise this skill by **2027-01-30** (6 months) if:
 - **Heirs report ACT discipline firing where they did not want it, twice or more.** The seven-file set is still too broad; cut to the five-file epistemic spine and drop the safety rails.
 - The install order proves wrong (dependency inversion surfaces) — the order needs adjustment.
 - ≥2 heirs report the idempotent re-run pattern doing damage (deleting pre-existing entries, re-installing when already current) — merge algorithm needs a regression fix.
+- **The bundled `bootstrap/` drifts from `.github/instructions/`.** The seven files are copies, and copies rot. If a source instruction is edited without the bundled copy following, heirs bootstrap a stale rule. Either add a release check that diffs the two sets, or replace the copies with a build step that generates them.
 
 Track outcomes in the maintaining repo's curation log.
 

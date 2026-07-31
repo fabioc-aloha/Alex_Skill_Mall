@@ -13,13 +13,13 @@
   },
   "upstream": {
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Core",
-    "ref": "v0.2.0",
+    "ref": "v0.2.1",
     "license": "MIT",
     "notes": "Source-of-truth is the upstream repo. Mall vendors a specific tag; when upstream tags a new release, Mall automation flags the mismatch. Core is the plugin-native successor to Alex_ACT_Edition v4.2.0."
   },
   "instruction_scope": {
     "shipped": false,
-    "reason": "Core authors 34 always-on instructions, but plugin.json has no instructions component field, so a plugin install cannot deliver them. This is a platform boundary shared by Copilot CLI, Claude Code, and Open Plugin Spec v1.0 rather than a packaging omission. Core closes the gap at install time: install-constellation Step 6 copies seven of them to ~/.copilot/instructions/ under an alex-act- prefix, consent-gated and receipt-backed. Verified 2026-07-30 on Copilot CLI 1.0.77 and VS Code Chat 1.131."
+    "reason": "Core authors 34 always-on instructions, but plugin.json has no instructions component field, so a plugin install cannot deliver them. This is a platform boundary shared by Copilot CLI, Claude Code, and Open Plugin Spec v1.0 rather than a packaging omission. Core closes the gap at install time: install-constellation Step 6 copies seven of them to ~/.copilot/instructions/ under an alex-act- prefix, consent-gated and receipt-backed. Those seven ship as skill resources at skills/install-constellation/bootstrap/ so the copy works on Mall installs, which vendor no .github/instructions/. They are inert here: only <name>/SKILL.md reifies as a skill, and the platform does not load instructions from plugin paths at all. v0.2.0 omitted them and the bootstrap could not run; v0.2.1 fixed it. Verified 2026-07-30 on Copilot CLI 1.0.77 and VS Code Chat 1.131."
   },
   "artifacts": {
     "skills": [
@@ -74,6 +74,15 @@
     "bundled": [
       "scripts/shared/ (converter runtime)",
       "config/ (brand palette + banner brand)"
+    ],
+    "bootstrap_instructions": [
+      "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-epistemic-calibration.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-pii-memory-filter.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-system-prompt-skepticism.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-terminal-command-safety.instructions.md"
     ]
   },
   "install_paths": {
