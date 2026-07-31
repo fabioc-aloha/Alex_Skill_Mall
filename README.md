@@ -2,7 +2,7 @@
 
 # Alex ACT Plugin Mall
 
-**362 curated plugins**, installable as a GitHub Copilot CLI marketplace. Plus a **trust-scored discovery index** across **3847 plugins** in **42 stores** so you can find and install directly from upstream at a version you pick.
+**362 curated plugins**, installable as a GitHub Copilot CLI marketplace. Plus a **trust-scored discovery index** across **3848 plugins** in **42 stores** so you can find and install directly from upstream at a version you pick.
 
 - Installation is **opt-in** and user-invoked. Publication does not mutate your projects.
 - Current release: **[v3.0.0](https://github.com/fabioc-aloha/Alex_Skill_Mall/releases/tag/v3.0.0)**. Rollback anchor: annotated tag `v2.0.0`.

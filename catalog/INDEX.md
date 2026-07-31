@@ -1,6 +1,6 @@
 # Plugin Mall Catalog
 
-Search index across **3847 plugins** in **42 stores**. Plugins are ranked by trust score; first-party Mall-curated entries (🏆) rank highest because they earn the highest signals — provenance (+50 for editorial adaptation) plus maintenance, adoption, license clarity, frontmatter completeness, and README presence.
+Search index across **3848 plugins** in **42 stores**. Plugins are ranked by trust score; first-party Mall-curated entries (🏆) rank highest because they earn the highest signals — provenance (+50 for editorial adaptation) plus maintenance, adoption, license clarity, frontmatter completeness, and README presence.
 
 - See [README.md](../README.md) for the storefront and store rankings.
 - See [categories/](categories/) for per-category browse.
@@ -22,6 +22,7 @@ Search index across **3847 plugins** in **42 stores**. Plugins are ranked by tru
 | 95 | 🏆 `ai-memory-setup` | plugin-mall | skill | Detect, create, and manage the AI-Memory fleet communication channel across One… |
 | 95 | 🏆 `ai-writing-avoidance` | plugin-mall | skill | Help writers produce content that sounds genuinely human by avoiding telltale A… |
 | 95 | 🏆 `alex-act-core` | plugin-mall | mixed | The Alex ACT baseline plugin. Installs 33 reusable framework skills and 12 slas… |
+| 95 | 🏆 `alex-act-enterprise` | plugin-mall | .SP. | Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the s… |
 | 95 | 🏆 `alex-act-illustrator-plugin` | plugin-mall | mixed | Visual-authoring bundle for AI agents. Eight skills across four feature areas: … |
 | 95 | 🏆 `alex-banner-generation` | plugin-mall | skill | Generate branded SVG banners for documents (READMEs, plans, changelogs, release… |
 | 95 | 🏆 `allowlist-over-blocklist` | plugin-mall | skill | Validate input against an allowlist of permitted values -- reject everything el… |
@@ -60,7 +61,6 @@ Search index across **3847 plugins** in **42 stores**. Plugins are ranked by tru
 | 95 | 🏆 `chart-interpretation` | plugin-mall | skill | Read any chart (image, HTML, screenshot) and extract insights, patterns, anomal… |
 | 95 | 🏆 `citation-management` | plugin-mall | skill | APA 7th formatting, citation integration, reference validation, and bibliograph… |
 | 95 | 🏆 `cloud-solution-architect` | plugin-mall | skill | Design well-architected Azure cloud systems -- 10 design principles, 6 architec… |
-| 95 | 🏆 `cloud-storage-paths` | plugin-mall | skill | Cross-platform cloud storage path resolution -- OneDrive, iCloud, Dropbox path … |
 
 ## All stores by trust
 

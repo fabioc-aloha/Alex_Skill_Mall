@@ -1,9 +1,10 @@
 # Category: cloud-infrastructure
 
-**24** plugins across **1** stores.
+**25** plugins across **1** stores.
 
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
+| 95 | 🏆 [`alex-act-enterprise`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/cloud-infrastructure/alex-act-enterprise) | plugin-mall | .SP. | Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the s… |
 | 95 | 🏆 [`az-cost-optimize`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/cloud-infrastructure/az-cost-optimize) | plugin-mall | skill | Analyze Azure resources used in the app (IaC files and/or resources in a target… |
 | 95 | 🏆 [`azure-architecture-patterns`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/cloud-infrastructure/azure-architecture-patterns) | plugin-mall | skill | Well-Architected Framework principles and Azure best practices |
 | 95 | 🏆 [`azure-cost-management-api`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/cloud-infrastructure/azure-cost-management-api) | plugin-mall | skill | In PowerShell, inline JSON for Cost Management API causes "Unsupported Media Ty… |

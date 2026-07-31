@@ -149,6 +149,13 @@
       "strict": true
     },
     {
+      "name": "alex-act-enterprise",
+      "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /setup-enterprise slash command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of alex-act-core. Not internal-only (that's alex-act-msft). Maintained by Alex_ACT_Steward.",
+      "version": "0.1.0",
+      "source": "plugins/cloud-infrastructure/alex-act-enterprise",
+      "strict": true
+    },
+    {
       "name": "alex-act-illustrator-plugin",
       "description": "Visual-authoring bundle for AI agents. Eight skills across four feature areas: Flint (statistical chart authoring via the local-first flint-chart-mcp server from microsoft/flint-chart), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures), Replicate (AI image generation over Replicate's HTTP API, opt-in via REPLICATE_API_TOKEN), and Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports). Shared framing gate (chart-big-idea Step 0.5) and verification pass (render-verify Prose-coupling) apply across all features. Alex ACT constellation plugin, maintained by Alex_ACT_Steward. Renamed from flint-chart-plugin on 2026-07-29 and expanded from 3 skills to 8. Absorbs the capability of the removed Mall plugins visual-vocabulary, data-visualization, svg-dashboard-composition, and imagen (per Mall commit e739dd6).",
       "version": "0.5.1",

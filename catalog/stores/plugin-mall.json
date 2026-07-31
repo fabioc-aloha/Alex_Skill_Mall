@@ -28895,6 +28895,101 @@
           "note": "first-party (Mall self-entry); maintenance + adoption pinned per published trust formula"
         }
       }
+    },
+    {
+      "name": "alex-act-enterprise",
+      "shape": ".SP.",
+      "source_path": "plugins/cloud-infrastructure/alex-act-enterprise",
+      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/cloud-infrastructure/alex-act-enterprise",
+      "readme_excerpt": "Alex ACT config-template plugin for the **public Microsoft ecosystem**. Ships a single scaffolding skill (`setup-enterprise-stack`) that generates the `~/.copilot/settings.json` block for 7 Microsoft plugins any tenant can use.",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "alex-act-enterprise",
+          "version": "0.1.0",
+          "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /setup-enterprise slash command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of alex-act-core. Not internal-only (that's alex-act-msft). Maintained by Alex_ACT_Steward.",
+          "keywords": [
+            "alex-act",
+            "microsoft-ecosystem",
+            "azure",
+            "fabric",
+            "power-bi",
+            "microsoft-365",
+            "m365",
+            "config-template",
+            "setup-enterprise",
+            "enterprise-stack"
+          ],
+          "category": "cloud-infrastructure",
+          "author": {
+            "name": "Fabio Correa",
+            "url": "https://github.com/fabioc-aloha"
+          },
+          "license": "MIT",
+          "homepage": "https://github.com/fabioc-aloha/alex-act-enterprise",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/fabioc-aloha/alex-act-enterprise.git"
+          },
+          "skills": "skills/",
+          "commands": "commands/"
+        },
+        "standard": {
+          "name": "alex-act-enterprise",
+          "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /setup-enterprise slash command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of alex-act-core. Not internal-only (that's alex-act-msft). Maintained by Alex_ACT_Steward.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "cloud-infrastructure",
+          "tags": [
+            "alex-act",
+            "microsoft-ecosystem",
+            "azure",
+            "fabric",
+            "power-bi",
+            "microsoft-365",
+            "m365",
+            "config-template",
+            "setup-enterprise",
+            "enterprise-stack"
+          ],
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "34d639130a12094267bc000c33753ce5aac37d18",
+        "tags": [
+          "v3.0.0",
+          "v2.0.0",
+          "pre-plugin-refactor"
+        ]
+      },
+      "trust_score": 95,
+      "trust_signals": {
+        "store": 82,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 50,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 7,
+          "license_name": "PolyForm-Noncommercial-1.0.0",
+          "stars": null,
+          "contributors": null,
+          "last_commit": null,
+          "archived": false,
+          "note": "first-party (Mall self-entry); maintenance + adoption pinned per published trust formula"
+        }
+      }
     }
   ],
   "store_trust": {
