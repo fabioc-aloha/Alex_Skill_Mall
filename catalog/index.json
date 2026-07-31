@@ -2,7 +2,7 @@
   "schema_version": "3.0",
   "generated_at": "2026-07-29T01:15:05.641Z",
   "store_count": 42,
-  "plugin_count": 3846,
+  "plugin_count": 3847,
   "plugins": [
     {
       "name": "academic-editorial-judgment",
@@ -111,6 +111,17 @@
       "version": "1.0.0",
       "description_short": "Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/documentation/ai-writing-avoidance",
+      "provenance": true,
+      "adapted_from": null
+    },
+    {
+      "name": "alex-act-core",
+      "store": "plugin-mall",
+      "shape": "mixed",
+      "trust_score": 95,
+      "version": "0.2.0",
+      "description_short": "The Alex ACT baseline plugin. Installs 33 reusable framework skills and 12 slash-command prompts covering epistemic discipline (critical thinking, problem-fram…",
+      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/reasoning-metacognition/alex-act-core",
       "provenance": true,
       "adapted_from": null
     },

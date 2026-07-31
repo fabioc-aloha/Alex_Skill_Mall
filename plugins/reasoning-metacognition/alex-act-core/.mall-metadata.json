@@ -1,0 +1,131 @@
+{
+  "engines": [
+    "copilot"
+  ],
+  "shape": ".SP.",
+  "tier": "core",
+  "token_cost": 42000,
+  "requires_edition": ">=3.0.0",
+  "requires_plugins": [],
+  "requires_runtime": {
+    "node": ">=22",
+    "notes": "Skills and prompts need no runtime. The six document converters (docx-to-md, html-to-md, md-to-eml, md-to-html, md-to-txt, md-to-word) shell out through scripts/shared/tool-runner.cjs and additionally require pandoc on PATH; md-to-html and md-to-word require mermaid-cli on PATH only when the source contains Mermaid blocks. jszip is an optional faster path for md-to-word. Converter scripts resolve the shared runtime by relative depth (../../../scripts/shared), which is why scripts/shared/ sits at the payload root."
+  },
+  "upstream": {
+    "repo": "https://github.com/fabioc-aloha/Alex_ACT_Core",
+    "ref": "v0.2.0",
+    "license": "MIT",
+    "notes": "Source-of-truth is the upstream repo. Mall vendors a specific tag; when upstream tags a new release, Mall automation flags the mismatch. Core is the plugin-native successor to Alex_ACT_Edition v4.2.0."
+  },
+  "instruction_scope": {
+    "shipped": false,
+    "reason": "Core authors 34 always-on instructions, but plugin.json has no instructions component field, so a plugin install cannot deliver them. This is a platform boundary shared by Copilot CLI, Claude Code, and Open Plugin Spec v1.0 rather than a packaging omission. Core closes the gap at install time: install-constellation Step 6 copies seven of them to ~/.copilot/instructions/ under an alex-act- prefix, consent-gated and receipt-backed. Verified 2026-07-30 on Copilot CLI 1.0.77 and VS Code Chat 1.131."
+  },
+  "artifacts": {
+    "skills": [
+      "skills/ai-memory-setup/SKILL.md",
+      "skills/anti-hallucination/SKILL.md",
+      "skills/big-idea/SKILL.md",
+      "skills/browser-tools/SKILL.md",
+      "skills/code-review/SKILL.md",
+      "skills/critical-thinking/SKILL.md",
+      "skills/deep-review/SKILL.md",
+      "skills/doc-hygiene/SKILL.md",
+      "skills/docx-to-md/SKILL.md",
+      "skills/git-workflow/SKILL.md",
+      "skills/html-to-md/SKILL.md",
+      "skills/humanizer/SKILL.md",
+      "skills/install-constellation/SKILL.md",
+      "skills/lint-clean-markdown/SKILL.md",
+      "skills/markdown-mermaid/SKILL.md",
+      "skills/markdown-sanitization-chain/SKILL.md",
+      "skills/mcp-builder/SKILL.md",
+      "skills/md-to-eml/SKILL.md",
+      "skills/md-to-html/SKILL.md",
+      "skills/md-to-txt/SKILL.md",
+      "skills/md-to-word/SKILL.md",
+      "skills/meditation/SKILL.md",
+      "skills/mutation-testing/SKILL.md",
+      "skills/plan/SKILL.md",
+      "skills/plugin-management/SKILL.md",
+      "skills/problem-framing-audit/SKILL.md",
+      "skills/security-and-hardening/SKILL.md",
+      "skills/spike/SKILL.md",
+      "skills/status-reporting/SKILL.md",
+      "skills/systematic-debugging/SKILL.md",
+      "skills/test-driven-development/SKILL.md",
+      "skills/token-waste-elimination/SKILL.md",
+      "skills/update-plugins/SKILL.md"
+    ],
+    "prompts": [
+      "commands/configure-vscode.md",
+      "commands/configure-vscode-verify.md",
+      "commands/convert.md",
+      "commands/critical-thinking.md",
+      "commands/install-constellation.md",
+      "commands/meditate.md",
+      "commands/note.md",
+      "commands/plugin-status.md",
+      "commands/problem-framing-audit.md",
+      "commands/save-session-note.md",
+      "commands/status.md",
+      "commands/update-plugins.md"
+    ],
+    "bundled": [
+      "scripts/shared/ (converter runtime)",
+      "config/ (brand palette + banner brand)"
+    ]
+  },
+  "install_paths": {
+    "skills": {
+      "ai-memory-setup": ".github/skills/ai-memory-setup/SKILL.md",
+      "anti-hallucination": ".github/skills/anti-hallucination/SKILL.md",
+      "big-idea": ".github/skills/big-idea/SKILL.md",
+      "browser-tools": ".github/skills/browser-tools/SKILL.md",
+      "code-review": ".github/skills/code-review/SKILL.md",
+      "critical-thinking": ".github/skills/critical-thinking/SKILL.md",
+      "deep-review": ".github/skills/deep-review/SKILL.md",
+      "doc-hygiene": ".github/skills/doc-hygiene/SKILL.md",
+      "docx-to-md": ".github/skills/docx-to-md/SKILL.md",
+      "git-workflow": ".github/skills/git-workflow/SKILL.md",
+      "html-to-md": ".github/skills/html-to-md/SKILL.md",
+      "humanizer": ".github/skills/humanizer/SKILL.md",
+      "install-constellation": ".github/skills/install-constellation/SKILL.md",
+      "lint-clean-markdown": ".github/skills/lint-clean-markdown/SKILL.md",
+      "markdown-mermaid": ".github/skills/markdown-mermaid/SKILL.md",
+      "markdown-sanitization-chain": ".github/skills/markdown-sanitization-chain/SKILL.md",
+      "mcp-builder": ".github/skills/mcp-builder/SKILL.md",
+      "md-to-eml": ".github/skills/md-to-eml/SKILL.md",
+      "md-to-html": ".github/skills/md-to-html/SKILL.md",
+      "md-to-txt": ".github/skills/md-to-txt/SKILL.md",
+      "md-to-word": ".github/skills/md-to-word/SKILL.md",
+      "meditation": ".github/skills/meditation/SKILL.md",
+      "mutation-testing": ".github/skills/mutation-testing/SKILL.md",
+      "plan": ".github/skills/plan/SKILL.md",
+      "plugin-management": ".github/skills/plugin-management/SKILL.md",
+      "problem-framing-audit": ".github/skills/problem-framing-audit/SKILL.md",
+      "security-and-hardening": ".github/skills/security-and-hardening/SKILL.md",
+      "spike": ".github/skills/spike/SKILL.md",
+      "status-reporting": ".github/skills/status-reporting/SKILL.md",
+      "systematic-debugging": ".github/skills/systematic-debugging/SKILL.md",
+      "test-driven-development": ".github/skills/test-driven-development/SKILL.md",
+      "token-waste-elimination": ".github/skills/token-waste-elimination/SKILL.md",
+      "update-plugins": ".github/skills/update-plugins/SKILL.md"
+    },
+    "prompts": {
+      "configure-vscode": ".github/prompts/configure-vscode.prompt.md",
+      "configure-vscode-verify": ".github/prompts/configure-vscode-verify.prompt.md",
+      "convert": ".github/prompts/convert.prompt.md",
+      "critical-thinking": ".github/prompts/critical-thinking.prompt.md",
+      "install-constellation": ".github/prompts/install-constellation.prompt.md",
+      "meditate": ".github/prompts/meditate.prompt.md",
+      "note": ".github/prompts/note.prompt.md",
+      "plugin-status": ".github/prompts/plugin-status.prompt.md",
+      "problem-framing-audit": ".github/prompts/problem-framing-audit.prompt.md",
+      "save-session-note": ".github/prompts/save-session-note.prompt.md",
+      "status": ".github/prompts/status.prompt.md",
+      "update-plugins": ".github/prompts/update-plugins.prompt.md"
+    },
+    "note": "Core is baseline, not a local specialization, so its artefacts install to the baseline .github/skills and .github/prompts paths rather than the local/ namespace used by specialization plugins."
+  }
+}

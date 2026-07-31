@@ -6,7 +6,7 @@
   "provenance": true,
   "tier": "first-party",
   "license": "PolyForm-Noncommercial-1.0.0",
-  "plugin_count": 361,
+  "plugin_count": 362,
   "plugins": [
     {
       "name": "academic-editorial-judgment",
@@ -1418,6 +1418,109 @@
             "genuinely"
           ],
           "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "34d639130a12094267bc000c33753ce5aac37d18",
+        "tags": [
+          "v3.0.0",
+          "v2.0.0",
+          "pre-plugin-refactor"
+        ]
+      },
+      "trust_score": 95,
+      "trust_signals": {
+        "store": 82,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 50,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 7,
+          "license_name": "PolyForm-Noncommercial-1.0.0",
+          "stars": null,
+          "contributors": null,
+          "last_commit": null,
+          "archived": false,
+          "note": "first-party (Mall self-entry); maintenance + adoption pinned per published trust formula"
+        }
+      }
+    },
+    {
+      "name": "alex-act-core",
+      "shape": "mixed",
+      "source_path": "plugins/reasoning-metacognition/alex-act-core",
+      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/34d639130a12094267bc000c33753ce5aac37d18/plugins/reasoning-metacognition/alex-act-core",
+      "readme_excerpt": "The Alex ACT baseline plugin. Ships the reusable framework skills and slash-command prompts that every Alex ACT heir needs regardless of domain.",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "alex-act-core",
+          "version": "0.2.0",
+          "description": "The Alex ACT baseline plugin. Installs 33 reusable framework skills and 12 slash-command prompts covering epistemic discipline (critical thinking, problem-framing audit, anti-hallucination, deep review), document converters, security and privacy, tooling awareness, git/lint/mcp, authoring and engineering craft, and the plugin-management operational surface. Composes with the Alex ACT constellation (illustrator, enterprise, msft plugins). Core also authors 34 always-on ACT instructions, which a plugin install cannot deliver because plugin.json has no instructions component field; run /install-constellation after installing to bootstrap the seven load-bearing ones to ~/.copilot/instructions/, read by both the Copilot CLI and VS Code Chat. Content ships through evidence-gated Steward proposals per Alex_ACT_Steward/constellation/act/CURATION-RULES.md. Maintained by Alex_ACT_Steward.",
+          "keywords": [
+            "alex-act",
+            "epistemic-discipline",
+            "critical-thinking",
+            "problem-framing-audit",
+            "meditation",
+            "converters",
+            "docx-to-md",
+            "md-to-word",
+            "md-to-html",
+            "md-to-eml",
+            "security-and-hardening",
+            "systematic-debugging",
+            "test-driven-development",
+            "plugin-management"
+          ],
+          "category": "reasoning-metacognition",
+          "author": {
+            "name": "Fabio Correa",
+            "url": "https://github.com/fabioc-aloha"
+          },
+          "license": "MIT",
+          "homepage": "https://github.com/fabioc-aloha/Alex_ACT_Core",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/fabioc-aloha/Alex_ACT_Core.git"
+          },
+          "skills": "skills/",
+          "commands": "commands/"
+        },
+        "standard": {
+          "name": "alex-act-core",
+          "description": "The Alex ACT baseline plugin. Installs 33 reusable framework skills and 12 slash-command prompts covering epistemic discipline (critical thinking, problem-framing audit, anti-hallucination, deep review), document converters, security and privacy, tooling awareness, git/lint/mcp, authoring and engineering craft, and the plugin-management operational surface. Composes with the Alex ACT constellation (illustrator, enterprise, msft plugins). Core also authors 34 always-on ACT instructions, which a plugin install cannot deliver because plugin.json has no instructions component field; run /install-constellation after installing to bootstrap the seven load-bearing ones to ~/.copilot/instructions/, read by both the Copilot CLI and VS Code Chat. Content ships through evidence-gated Steward proposals per Alex_ACT_Steward/constellation/act/CURATION-RULES.md. Maintained by Alex_ACT_Steward.",
+          "version": "0.2.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "reasoning-metacognition",
+          "tags": [
+            "alex-act",
+            "epistemic-discipline",
+            "critical-thinking",
+            "problem-framing-audit",
+            "meditation",
+            "converters",
+            "docx-to-md",
+            "md-to-word",
+            "md-to-html",
+            "md-to-eml",
+            "security-and-hardening",
+            "systematic-debugging",
+            "test-driven-development",
+            "plugin-management"
+          ],
+          "license": "MIT",
           "requires": null,
           "author": null
         }

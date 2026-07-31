@@ -1,0 +1,34 @@
+{
+  "name": "alex-act-core",
+  "version": "0.2.0",
+  "description": "The Alex ACT baseline plugin. Installs 33 reusable framework skills and 12 slash-command prompts covering epistemic discipline (critical thinking, problem-framing audit, anti-hallucination, deep review), document converters, security and privacy, tooling awareness, git/lint/mcp, authoring and engineering craft, and the plugin-management operational surface. Composes with the Alex ACT constellation (illustrator, enterprise, msft plugins). Core also authors 34 always-on ACT instructions, which a plugin install cannot deliver because plugin.json has no instructions component field; run /install-constellation after installing to bootstrap the seven load-bearing ones to ~/.copilot/instructions/, read by both the Copilot CLI and VS Code Chat. Content ships through evidence-gated Steward proposals per Alex_ACT_Steward/constellation/act/CURATION-RULES.md. Maintained by Alex_ACT_Steward.",
+  "keywords": [
+    "alex-act",
+    "epistemic-discipline",
+    "critical-thinking",
+    "problem-framing-audit",
+    "meditation",
+    "converters",
+    "docx-to-md",
+    "md-to-word",
+    "md-to-html",
+    "md-to-eml",
+    "security-and-hardening",
+    "systematic-debugging",
+    "test-driven-development",
+    "plugin-management"
+  ],
+  "category": "reasoning-metacognition",
+  "author": {
+    "name": "Fabio Correa",
+    "url": "https://github.com/fabioc-aloha"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fabioc-aloha/Alex_ACT_Core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabioc-aloha/Alex_ACT_Core.git"
+  },
+  "skills": "skills/",
+  "commands": "commands/"
+}
