@@ -29,6 +29,9 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Install dependencies
+        run: npm install --ignore-scripts
+
       - name: Export SOURCES_DIR for downstream steps
         # The `runner` context is only available inside steps — not in job-level
         # `env:` — so we publish SOURCES_DIR via $GITHUB_ENV here. All later

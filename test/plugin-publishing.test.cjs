@@ -192,6 +192,10 @@ test('contributor PR workflow validates without auto-merging', () => {
   assert.doesNotMatch(workflow, /gh pr merge|--auto/);
   assert.match(codeowners, /\/plugins\/\s+@fabioc-aloha/);
   const scanWorkflow = fs.readFileSync(path.join(ROOT, '.github', 'workflows', 'scan-sources.yml'), 'utf8');
+  const installIndex = scanWorkflow.indexOf('npm install --ignore-scripts');
+  const bootstrapIndex = scanWorkflow.indexOf('node scripts/bootstrap-sources.cjs');
+  assert.ok(installIndex >= 0, 'scan workflow must install declared dependencies');
+  assert.ok(installIndex < bootstrapIndex, 'dependency installation must precede Mall scripts');
   assert.match(scanWorkflow, /gh pr merge[^\n]+--auto/);
 });
 
