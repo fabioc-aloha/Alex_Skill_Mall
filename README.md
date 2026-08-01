@@ -2,7 +2,7 @@
 
 # Alex ACT Plugin Mall
 
-**362 curated plugins**, installable as a GitHub Copilot CLI marketplace. Plus a **trust-scored discovery index** across **3848 plugins** in **42 stores** so you can find and install directly from upstream at a version you pick.
+**363 curated plugins**, installable as a GitHub Copilot CLI marketplace. Plus a **trust-scored discovery index** across **3848 plugins** in **42 stores** so you can find and install directly from upstream at a version you pick.
 
 - Installation is **opt-in** and user-invoked. Publication does not mutate your projects.
 - Current release: **[v3.0.0](https://github.com/fabioc-aloha/Alex_Skill_Mall/releases/tag/v3.0.0)**. Rollback anchor: annotated tag `v2.0.0`.
@@ -31,7 +31,7 @@ copilot plugin marketplace browse alex-mall
 copilot plugin install <plugin-name>@alex-mall
 
 # Example: install the visualization plugin
-copilot plugin install flint-chart-plugin@alex-mall
+copilot plugin install alex-act-illustrator-plugin@alex-mall
 ```
 
 Plugins install into `~/.copilot/installed-plugins/alex-mall/<plugin-name>/`.
@@ -53,7 +53,7 @@ copilot plugin marketplace remove alex-mall      # unregister the marketplace
 The Copilot CLI plugins integrate with **GitHub Copilot Chat** in VS Code once installed.
 
 1. **Install the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) and [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) extensions** in VS Code (1.117 or later).
-2. **Install plugins via the Copilot CLI** using the steps above. Copilot Chat picks up any plugin components (agents, skills, commands, MCP servers) that ship with it.
+2. **Install plugins via the Copilot CLI** using the steps above. Namespaced commands and agents are the most reliable VS Code surfaces; generic skill-tool exposure depends on the current Copilot Chat runtime.
 3. **Reload VS Code** or run *Developer: Reload Window* so Copilot Chat re-scans the installed plugins.
 4. In Chat, invoke a plugin's commands with `/`, agents with `@`, or skills by describing the task the skill's frontmatter is scoped to.
 
@@ -72,7 +72,7 @@ To make a project auto-install specific plugins for every collaborator, commit a
     }
   },
   "enabledPlugins": {
-    "flint-chart-plugin@alex-mall": true,
+    "alex-act-illustrator-plugin@alex-mall": true,
     "document-banner-pastel@alex-mall": true
   }
 }
@@ -95,19 +95,56 @@ The three files are merged in that order; later wins. For `enabledPlugins` and `
 
 ---
 
+## Publish a plugin
+
+Contributors prepare a normalized plugin payload in their fork; automation validates it; the Mall CODEOWNER reviews and approves it. Contributor scripts never commit, push, merge, or publish on their own.
+
+```bash
+npm ci
+npm run submit:prepare -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project" --apply
+npm run submit:validate -- --plugin productivity/my-plugin
+npm test
+npm run validate
+```
+
+Open a pull request using the plugin-submission template. Passing checks means the payload is structurally eligible for review; it does not mean acceptance. See [CONTRIBUTING.md](CONTRIBUTING.md) for evidence, licensing, and review requirements.
+Repository admins must configure `main` branch protection to require the **Validate proposed plugins** check and CODEOWNER approval. CODEOWNERS requests review; branch protection enforces it.
+
+## Maintainer operations
+
+Maintainer commands default to dry-run where they write curated payloads:
+
+```bash
+# Import a new plugin or preview an upstream refresh
+npm run vendor -- --source ../my-plugin --category productivity --repository https://github.com/owner/my-plugin --ref v1.0.0
+
+# Apply after reviewing the dry-run; add --replace for an existing plugin
+npm run vendor -- --source ../my-plugin --category productivity --repository https://github.com/owner/my-plugin --ref v1.0.0 --apply
+
+# Refresh first-party catalog, trust, marketplace, README, and gates
+npm run maintain -- --curated
+
+# Full 42-store network refresh (requires SOURCES_DIR plus GH_TOKEN or GITHUB_TOKEN)
+npm run maintain -- --full
+```
+
+Review `git diff` before committing. `vendor` never commits or pushes; `maintain` never approves contributor PRs.
+
+---
+
 ## Browse the catalog
 
 - [Full catalog index](catalog/INDEX.md) — every plugin, sortable
-- [By category](catalog/categories/) — 21 categories
+- [By category](catalog/categories/) — 21 canonical categories plus uncategorized
 - [By store](catalog/stores/) — per-source drilldown
 - [Trust audit](scoring/TRUST-AUDIT.md) — score distribution and top plugins
-- [Source registry](sources/SOURCES.md) — the 49 upstream stores the discovery catalog aggregates
+- [Source registry](sources/SOURCES.md) — the 42 stores the discovery catalog aggregates
 
 ## Top 10 stores by trust
 
 | Rank | Store | Trust | Plugins | Provenance |
 | ---: | --- | ---: | ---: | --- |
-| 1 | 🏆 [plugin-mall](catalog/stores/plugin-mall.md) | 82 | 362 | 🏆 first-party |
+| 1 | 🏆 [plugin-mall](catalog/stores/plugin-mall.md) | 82 | 363 | 🏆 first-party |
 | 2 | [alirezarezvani-claude-skills](catalog/stores/alirezarezvani-claude-skills.md) | 35 | 38 | third-party |
 | 3 | [antigravity-awesome-skills](catalog/stores/antigravity-awesome-skills.md) | 35 | 1906 | third-party |
 | 4 | [awesome-copilot](catalog/stores/awesome-copilot.md) | 35 | 486 | third-party |
@@ -124,9 +161,9 @@ The three files are merged in that order; later wins. For `enabledPlugins` and `
 | --- | ---: | ---: |
 | 0-19 | 15 | 0.4% |
 | 20-39 | 689 | 17.9% |
-| 40-59 | 2781 | 72.2% |
+| 40-59 | 2781 | 72.3% |
 | 60-79 | 0 | 0.0% |
-| 80-100 | 365 | 9.5% |
+| 80-100 | 363 | 9.4% |
 
 ## How trust scoring works
 
@@ -166,4 +203,4 @@ If you use the Alex ACT Edition brain via Copilot Chat, these Edition prompts wr
 The prompts live in Edition's `.github/prompts/` and route through `.github/instructions/mall-installation.instructions.md`.
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-07-29T01:15:05.641Z. Source of truth: `catalog/*.json`. Never hand-edit this README.*
+*Generated by `scripts/render-catalog.cjs` at 2026-08-01T20:06:22.357Z. Source of truth: `catalog/*.json`. Never hand-edit this README.*
