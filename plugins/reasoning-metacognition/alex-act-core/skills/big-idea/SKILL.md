@@ -157,7 +157,7 @@ From the 2026-07-28 hero-copy sweep on this repo. Note the shape: before is enum
 
 - `chart-big-idea` in the [flint-chart-plugin](https://github.com/fabioc-aloha/flint-chart-plugin) — chart specialization. Both skills share the same six-step arc with offset numbering: chart-big-idea Step 0 (read context) → this skill's Step 1; chart-big-idea Steps 1-4 → this skill's Steps 2-5; chart-big-idea Step 5 emits a Chart Brief while this skill's Step 6 emits prose.
 - Skill descriptions ARE Big Ideas — the frontmatter `description` field's "what + when" is the thesis + trigger of the skill's Big Idea.
-- [communication-craft](../../instructions/communication-craft.instructions.md) — sibling always-on discipline for feedback, audience, and elicitation. Communication craft frames the whole message; Big Idea frames only the headline.
+- [communication-craft](../communication-craft/SKILL.md) — sibling skill for feedback, audience, and elicitation. Communication craft frames the whole message; Big Idea frames only the headline.
 - [humanizer](../humanizer/SKILL.md) — the 29-pattern AI-tell catalog and voice replacements. Big Idea authoring routes through humanizer for the AI-tell check before emit.
 - [problem-framing-audit](../problem-framing-audit/SKILL.md) — different discipline: audit the frame BEFORE solving. Big Idea distills the claim AFTER solving. Both cite the same _"is this the right thing?"_ test but at different phases.
 

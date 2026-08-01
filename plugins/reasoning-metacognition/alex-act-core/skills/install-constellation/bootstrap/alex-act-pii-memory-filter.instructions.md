@@ -40,6 +40,9 @@ Before writing to ANY persistent tier, verify the content does NOT contain:
 | **Credentials** | API keys, tokens, passwords, connection strings | L4 — use SecretStorage only |
 | **File paths with usernames** | `C:\Users\username\...` | L2 identity leakage |
 | **Client names** | Employer clients, project clients in fleet context | L3 confidential business data |
+| **Biometric / location / behavioral** | Fingerprints, precise GPS, browsing patterns | L3–L4 depending on tier — treat as sensitive |
+
+> **Design-time complement**: for systems that touch user data at architectural boundaries (not just memory-write boundaries), consult the [ethical-reasoning skill](../skills/ethical-reasoning/SKILL.md) § Privacy by Design (minimize / purpose-limit / anonymize / encrypt / expire) and § Responsible AI (fairness / transparency / human oversight / safety) principles. This instruction fires on every persistent-storage write; the skill fires when you are designing the system that produces the writes.
 
 ## Allowed Content Per Tier
 

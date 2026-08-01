@@ -35,8 +35,8 @@ Full framework in [`.github/skills/critical-thinking/SKILL.md`](../skills/critic
 
 - [`act-pass.instructions.md`](act-pass.instructions.md) — the *procedural* gate that this *content-oriented* protocol plugs into. Overlap on Step 1 (alternatives) and Steps 6-7 (falsifiability, adversarial) is by design: act-pass owns *when and how intensely* to fire (materiality → commit marker); this file owns *what to check inside the analysis*
 - [`problem-framing-audit.instructions.md`](problem-framing-audit.instructions.md) — Discipline -1 frame audit fires BEFORE this protocol on non-trivial requests (already cited above)
-- [`adversarial-review.instructions.md`](adversarial-review.instructions.md) — specializes Step 7 with cross-model routing (rubber-duck for code, general-purpose for prose/decisions)
-- [`act-foundations.instructions.md`](act-foundations.instructions.md) § Tenets I, II, III, VIII — this file operationalizes these four tenets
+- [`adversarial-review` skill](../skills/adversarial-review/SKILL.md) — specializes Step 7 with cross-model routing (rubber-duck for code, general-purpose for prose/decisions)
+- [act-tenets skill](../skills/act-tenets/SKILL.md) § Tenets I, II, III, VIII — this file operationalizes these four tenets
 
 ## Would Revise If
 

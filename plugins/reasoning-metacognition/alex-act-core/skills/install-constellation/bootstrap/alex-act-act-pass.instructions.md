@@ -89,7 +89,7 @@ If you fail to catch yourself but the user does, that's not a graceful recovery 
 
 ## Related
 
-This pass is the runtime procedure over the 10 tenets defined in [`act-foundations.instructions.md`](act-foundations.instructions.md). Each step operationalizes one or more tenets:
+This pass is the runtime procedure over the 10 tenets defined in the [act-tenets skill](../skills/act-tenets/SKILL.md). Each step operationalizes one or more tenets:
 
 | Step | Tenet(s) operationalized |
 |---|---|
@@ -103,7 +103,7 @@ This pass is the runtime procedure over the 10 tenets defined in [`act-foundatio
 | Self-application section | X (Discipline Applies to Itself) |
 | Pre-check via [`problem-framing-audit`](problem-framing-audit.instructions.md) | VII (Frame Before Solve) — fires before the pass |
 
-The 7-step shape is one legitimate procedure over the 10 tenets, not a second canon. Reordering steps or inventing a 5-step or 8-step variant is allowed; the tenets stay stable. See [`act-foundations` § Canon Contract](act-foundations.instructions.md#canon-contract).
+The 7-step shape is one legitimate procedure over the 10 tenets, not a second canon. Reordering steps or inventing a 5-step or 8-step variant is allowed; the tenets stay stable. See the [act-tenets skill § Canon Contract](../skills/act-tenets/SKILL.md#canon-contract).
 
 ### Composition with content-oriented protocols
 

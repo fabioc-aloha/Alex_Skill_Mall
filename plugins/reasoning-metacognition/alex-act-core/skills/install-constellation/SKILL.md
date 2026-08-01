@@ -37,6 +37,51 @@ Always in the order shown above. Rationale:
 
 If a plugin is already installed at the target version, skip it and continue with the next one. Report what was skipped alongside what was installed.
 
+## Optional: visual workflow companions
+
+Beyond the four constellation plugins, 9 marketplace plugins compose to deliver visual-authoring workflows (chart rendering, screenshot verification, whiteboard iteration, PR annotation). **None are part of the baseline install** — heirs opt in per workload, one at a time. Discovered and verified via the [Steward GH-APP-SUPPORT feedback loop](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/GH-APP-SUPPORT.md) (4-round A/B test on user's brain, 2026-07-31; ledger row `[GH-APP-FEEDBACK]` closure).
+
+| Plugin | Marketplace | Purpose | Round-4 verified? |
+|---|---|---|---|
+| `chromium-control-canvas` | `awesome-copilot` | Browser preview + screenshot | ✅ (see caveats) |
+| `eyeball` | `awesome-copilot` | Screenshot audit with claim-proof output doc | ✅ (see caveats) |
+| `diagram-viewer` | `awesome-copilot` | SVG / diagram drill-down preview | ✅ clean install |
+| `napkin` | `awesome-copilot` | Whiteboard for iterative chart design | ⚪ Untested |
+| `image-annotations` | `alex-mall` | PIL callouts + labels on screenshots | ✅ |
+| `chart-interpretation` | `alex-mall` | Read charts, extract insights (reverse of authoring) | ✅ |
+| `visual-artifact-qa` | `alex-mall` | Render-time verification (visual output that passes static checks can still fail to render) | ✅ |
+| `visual-pr` | `awesome-copilot` | PR screenshot + annotation embed workflow | ⚪ Skills-only, needs real PR to exercise |
+| `storytelling-requirements` | `alex-mall` | Guided Big Idea → chart discipline | ✅ |
+
+**Vision loop composition** (discovered via GH-APP-SUPPORT Round 3): `storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball` composes end-to-end with zero conflicts. Closes what looks like a runtime-capability gap (multimodal vision on agent output) via composition, not net-new authorship.
+
+**When to offer these companions**: after the main constellation install succeeds, if the heir's workload involves any of:
+
+- Chart authoring, data storytelling, or dashboard rendering
+- Report / document generation that needs visual verification
+- PR review workflows with screenshots or annotations
+- Iterative chart design where seeing the render matters
+
+**When to skip**: pure-code work, non-visual data pipelines, backend / infra without UI. The companions add zero cost when not installed but non-trivial install-time friction (see caveats) when installed.
+
+**Install command shape** (per-plugin, opt-in — never bundle without explicit consent):
+
+```pwsh
+copilot plugin install <name>@<marketplace>
+```
+
+Heirs may install any subset; the plugins compose but don't require each other. `storytelling-requirements` + `visual-artifact-qa` + `chart-interpretation` + `eyeball` is the vision-loop bundle; the others fill adjacent gaps.
+
+**Install-time caveats** (documented from Round 2 + Round 4 feedback):
+
+- `chromium-control-canvas` needs 3 manual steps after `copilot plugin install`: `cd` to extension dir + `npm install`, then `npx playwright install chromium` (~112 MiB), then a `python -m http.server` workaround for `file://` URLs. Playwright is required.
+- `eyeball` needs 2 manual steps: `pip install playwright` + `python -m playwright install chromium` (Python Playwright is independent from Node Playwright — installing one does not satisfy the other, per upstream recommendation 5 in GH-APP-SUPPORT).
+- `eyeball` default output path is `~/Desktop` which is OneDrive-redirected on many Windows setups. Override the output path if data-syncing audit artifacts to corporate OneDrive is a concern.
+- `napkin` and `visual-pr` are also Playwright-based and may hit the same first-launch friction pattern.
+- Both browser-based plugins re-download Chromium (~100 MiB each) rather than sharing a common install (upstream recommendation 6).
+
+**Verify existence before install** (anti-hallucination discipline per `plugin-management` skill): marketplaces evolve. Before installing any of these, run `copilot plugin marketplace browse <marketplace>` and confirm the plugin is still present. Verified state above is as of 2026-07-31.
+
 ## Consent flow
 
 ### Step 1 — Confirm the target list
@@ -46,6 +91,8 @@ Print the four-plugin table above. Ask the heir:
 > "Install the Alex ACT constellation? I will install these four plugins at user scope. Reply 'all four', 'just Core + Illustrator', or name specific plugins."
 
 Default to "all four" if the heir just says "yes". Never install `alex-act-msft` without an explicit tenant confirmation in Step 2.
+
+**Do not** offer visual-workflow companions in Step 1 — they are a Step 7 follow-up, offered only if the heir's declared workload points that way. Bundling them here dilutes the consent flow.
 
 ### Step 2 — Tenant check for `alex-act-msft`
 
@@ -103,7 +150,7 @@ The close is to copy a scoped subset of Core's unconditional instructions to `~/
 
 #### What gets copied
 
-Seven files, roughly 37 KB, about 9.4K always-on tokens. Not all of Core's instructions — only those whose value depends on firing unconditionally:
+Fifteen files, roughly 65 KB, about 16.7K always-on tokens. Not all of Core's instructions — only those whose value depends on firing unconditionally. Three groups: the epistemic spine plus safety rails (the original seven-file set from v0.2.1), the six per-turn disciplines added in D5 (2026-07-31), and two more added in D6 (2026-07-31: memory-triggers routes ledger writes, worldview carries harm-refusal and Tenet-IV ethics check that must fire before the first message; a third D6 candidate `tool-awareness` was tried and then reclassified D6→D3 mid-execution after audit — its three rules were absorbed into `platform-awareness` skill because description-match discovery covered the trigger vocabulary):
 
 | Source in Core | Written as | Why it must be unconditional |
 |---|---|---|
@@ -114,14 +161,22 @@ Seven files, roughly 37 KB, about 9.4K always-on tokens. Not all of Core's instr
 | `critical-thinking` | `alex-act-critical-thinking.instructions.md` | The content protocol act-pass plugs into |
 | `terminal-command-safety` | `alex-act-terminal-command-safety.instructions.md` | Harm prevention |
 | `pii-memory-filter` | `alex-act-pii-memory-filter.instructions.md` | Leak prevention at write boundaries |
+| `lint-discipline` | `alex-act-lint-discipline.instructions.md` | Fires on mid-turn `get_errors` output; no request-shape equivalent |
+| `no-deferred-debt` | `alex-act-no-deferred-debt.instructions.md` | Fires on side-effect debt detection; no request-shape equivalent |
+| `emotional-intelligence` | `alex-act-emotional-intelligence.instructions.md` | Reads user *feeling state* on every message; tone-mismatch cannot be recovered post-hoc |
+| `reliance-nudges` | `alex-act-reliance-nudges.instructions.md` | Reads user *epistemic behavior* (verbatim acceptance, zero verification) on every message |
+| `session-health-monitoring` | `alex-act-session-health-monitoring.instructions.md` | Continuous context-capacity monitoring; per-conversation, not per-file |
+| `proactive-awareness` | `alex-act-proactive-awareness.instructions.md` | Session-boundary discipline; must fire *before* the user's first message |
+| `memory-triggers` | `alex-act-memory-triggers.instructions.md` | Detects correction / preference / handoff / decision triggers on every message; routing decisions cannot be recovered post-hoc |
+| `worldview` | `alex-act-worldview.instructions.md` | Harm-refusal and Tenet-IV ethics check must fire on every request regardless of file scope |
 
-Core's remaining instructions stay plugin-resident and therefore inactive. Behavioral and craft instructions degrade gracefully when absent; these seven do not.
+Core's remaining instructions stay plugin-resident and therefore inactive. Behavioral and craft instructions degrade gracefully when absent; these fifteen do not.
 
 The `alex-act-` prefix is mandatory. A heir may already have their own `~/.copilot/instructions/act-pass.instructions.md`, and a collision would silently replace their file.
 
 #### Source — where the files come from
 
-The seven files ship **inside this skill** at `bootstrap/`, already carrying their `alex-act-` target names. The copy is a straight file copy; no renaming, no fetching, no network.
+The fifteen files ship **inside this skill** at `bootstrap/`, already carrying their `alex-act-` target names. The copy is a straight file copy; no renaming, no fetching, no network.
 
 Resolve the source in this order:
 
@@ -139,7 +194,7 @@ Source 1 exists because a Mall install vendors a component-shape subset (skills,
 
 #### Overlap scan, before writing anything
 
-Compare the seven target names against the current workspace's `.github/instructions/`. Instruction scopes **compose rather than replace**: user-scope and workspace-scope files both load into the same context, with no documented dedup. A heir whose workspace already carries `act-pass` would load it twice after the bootstrap, paying the tokens twice and risking two copies drifting apart.
+Compare the fifteen target names against the current workspace's `.github/instructions/`. Instruction scopes **compose rather than replace**: user-scope and workspace-scope files both load into the same context, with no documented dedup. A heir whose workspace already carries `act-pass` would load it twice after the bootstrap, paying the tokens twice and risking two copies drifting apart.
 
 If overlap is found, report it and recommend declining:
 
@@ -151,7 +206,7 @@ Report and recommend. Do not hard-block, because the heir may legitimately want 
 
 Print the exact file list, the byte total, and the token estimate. Then ask:
 
-> "Copy these 7 instruction files to `~/.copilot/instructions/`? They will apply in **every** workspace on this machine, not only where Core is enabled. Roughly 9.4K tokens per session. Reply yes, no, or 'list' to see the contents first."
+> "Copy these fifteen instruction files to `~/.copilot/instructions/`? They will apply in **every** workspace on this machine, not only where Core is enabled. Roughly 16.7K tokens per session. Reply yes, no, or 'list' to see the contents first."
 
 Never bootstrap as a silent side effect of the install. Default is no.
 
@@ -171,7 +226,15 @@ After writing, record exactly what was placed at `~/.copilot/instructions/.alex-
     "alex-act-system-prompt-skepticism.instructions.md",
     "alex-act-critical-thinking.instructions.md",
     "alex-act-terminal-command-safety.instructions.md",
-    "alex-act-pii-memory-filter.instructions.md"
+    "alex-act-pii-memory-filter.instructions.md",
+    "alex-act-lint-discipline.instructions.md",
+    "alex-act-no-deferred-debt.instructions.md",
+    "alex-act-emotional-intelligence.instructions.md",
+    "alex-act-reliance-nudges.instructions.md",
+    "alex-act-session-health-monitoring.instructions.md",
+    "alex-act-proactive-awareness.instructions.md",
+    "alex-act-memory-triggers.instructions.md",
+    "alex-act-worldview.instructions.md"
   ]
 }
 ```
@@ -180,7 +243,7 @@ Uninstall reads this receipt. It never globs and deletes, because the heir's own
 
 #### Idempotency
 
-On re-run, compare the receipt's `coreVersion` against the installed Core version. Equal means skip and report "discipline bootstrap is current". Different means rewrite the seven files and update the receipt. Missing receipt with files present means a hand-edited state; report it and ask before touching anything.
+On re-run, compare the receipt's `coreVersion` against the installed Core version. Equal means skip and report "discipline bootstrap is current". Different means rewrite the fifteen files and update the receipt. Missing receipt with files present means a hand-edited state; report it and ask before touching anything.
 
 #### Verify
 
@@ -201,6 +264,7 @@ Print a summary:
 - Discipline bootstrap: applied, declined, or skipped-as-current — and if applied, the file count and the overlap-scan result
 - Files modified: `~/.copilot/settings.json` — show a diff of what changed. If the bootstrap ran, also `~/.copilot/instructions/` plus its receipt
 - Next steps: enabling Microsoft ecosystem plugins per project → `/setup-enterprise` in that project's workspace; enabling Microsoft-internal signals → `/setup-msft` (if MSFT installed)
+- **Visual-workflow companions** (see § "Optional: visual workflow companions" above): if the heir mentioned chart authoring, dashboards, reports with visuals, PR screenshots, or any workload involving visual verification, name the specific companion plugins that fit (do not list all 9). For each, print the exact install command and the install-time caveats. Never install without explicit per-plugin consent — offering is not installing.
 - If the bootstrap was declined, say plainly that Core's skills are available but the ACT discipline layer is not, and that `/install-constellation` can be re-run later to add it
 
 ## Idempotency
@@ -226,7 +290,7 @@ The skill is safe to re-run. On subsequent runs:
 | Write bootstrap files without the `alex-act-` prefix | A bare `act-pass.instructions.md` can clobber the heir's own file. Prefix always. |
 | Skip the overlap scan because the workspace "probably" has no brain | Scopes compose. Scan, then report the real number. |
 | Uninstall by globbing `~/.copilot/instructions/*` | Read the receipt. The heir's own instructions live in that folder too. |
-| Bootstrap all of Core's unconditional instructions | Seven only. All 17 costs roughly 20.5K tokens in every workspace, which inverts the minimal-user-scope principle. |
+| Bootstrap all of Core's unconditional instructions | Fifteen only. All 17 costs roughly 19K tokens in every workspace, which inverts the minimal-user-scope principle. |
 | Assume the instruction files are somewhere on disk without checking | Resolve the source explicitly per the Source table. A Mall install vendors no `.github/instructions/`; only the skill-bundled `bootstrap/` is guaranteed. This shipped broken in v0.2.0. |
 | Fetch the instruction files from GitHub when the local source is missing | Never. A missing source is a packaging defect and must be reported as one, not papered over with a network call that can fail, hang, or pull an unpinned version. |
 
@@ -247,10 +311,10 @@ Sunset or revise this skill by **2027-01-30** (6 months) if:
 - The tenant check for MSFT proves inadequate (heirs off-network complete the install and hit failures) — the check needs tightening.
 - **Copilot CLI or VS Code ships plugin-scope instruction discovery.** Step 6 becomes dead weight; delete it and the receipt machinery outright.
 - **The overlap scan reports a conflict on more than half of observed installs.** User scope is the wrong target for heirs who already run a repo brain; make the bootstrap opt-in per workspace instead.
-- **Heirs report ACT discipline firing where they did not want it, twice or more.** The seven-file set is still too broad; cut to the five-file epistemic spine and drop the safety rails.
+- **Heirs report ACT discipline firing where they did not want it, twice or more.** The fifteen-file set is still too broad; cut back toward the original seven-file epistemic spine plus safety rails and hold the D5/D6 additions for opt-in.
 - The install order proves wrong (dependency inversion surfaces) — the order needs adjustment.
 - ≥2 heirs report the idempotent re-run pattern doing damage (deleting pre-existing entries, re-installing when already current) — merge algorithm needs a regression fix.
-- **The bundled `bootstrap/` drifts from `.github/instructions/`.** The seven files are copies, and copies rot. If a source instruction is edited without the bundled copy following, heirs bootstrap a stale rule. Either add a release check that diffs the two sets, or replace the copies with a build step that generates them.
+- **The bundled `bootstrap/` drifts from `.github/instructions/`.** The fifteen files are copies, and copies rot. If a source instruction is edited without the bundled copy following, heirs bootstrap a stale rule. Either add a release check that diffs the two sets, or replace the copies with a build step that generates them.
 
 Track outcomes in the maintaining repo's curation log.
 

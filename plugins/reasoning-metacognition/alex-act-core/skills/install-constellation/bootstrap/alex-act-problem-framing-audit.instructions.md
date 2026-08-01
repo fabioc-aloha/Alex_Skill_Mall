@@ -67,7 +67,7 @@ Full step-back protocol (8 checks: restate, generalise, specialise, invert, why,
 
 ## Related
 
-- [`act-foundations.instructions.md`](act-foundations.instructions.md) § Tenet VII (Frame Before Solve) — this file operationalizes it
+- [act-tenets skill](../skills/act-tenets/SKILL.md) § Tenet VII (Frame Before Solve) — this file operationalizes it
 - [`act-pass.instructions.md`](act-pass.instructions.md) — the 7-step pass expects the frame audit to have already fired (pre-check)
 - [`critical-thinking.instructions.md`](critical-thinking.instructions.md) — explicitly names "Frame audit comes first" and routes here on non-trivial requests
 

@@ -120,6 +120,10 @@ Bulk content lives in `references/` — loaded on demand:
 - [`references/diagram-reference.md`](references/diagram-reference.md) — diagram types, node shapes, edge styles, per-diagram theming
 - [`references/markdown-best-practices.md`](references/markdown-best-practices.md) — document structure, figure/table conventions, Shields.io
 
+## Related
+
+- [`lint-clean-markdown`](../lint-clean-markdown/SKILL.md) — writing markdown that passes `markdownlint` on the first attempt. Reach for it when the concern is lint compliance rather than diagram rendering.
+
 ## Falsifiability
 
 Revisit by **2026-10-30** (90 days) or sooner if any of the following fires:
