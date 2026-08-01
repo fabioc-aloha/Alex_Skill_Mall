@@ -2,7 +2,7 @@
 
 The plugin-native successor to [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0. Distributes the always-on epistemic discipline and reusable framework skills that heirs install via the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall).
 
-**Version**: 0.4.0, available in the Alex Mall but **not yet publicly announced** — the constellation is still being finalized by [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/goto/Alex_ACT_Steward) before the initial announcement to heirs.
+**Version**: 0.4.1, available in the Alex Mall but **not yet publicly announced** — the constellation is still being finalized by [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/goto/Alex_ACT_Steward) before the initial announcement to heirs.
 
 **Current shape**: 41 skills, 18 instructions (16 always-on bootstrapped to `~/.copilot/instructions/` + 2 pattern-applied), 13 slash-command prompts, plus a shared runtime for the bundled document converters.
 
