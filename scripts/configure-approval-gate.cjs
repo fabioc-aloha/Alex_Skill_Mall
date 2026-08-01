@@ -10,9 +10,8 @@ function protectionPayload() {
       strict: true,
       contexts: ['Validate proposed plugins'],
     },
-    enforce_admins: true,
+    enforce_admins: false,
     required_pull_request_reviews: {
-      dismissal_restrictions: {},
       dismiss_stale_reviews: true,
       require_code_owner_reviews: true,
       required_approving_review_count: 0,
@@ -49,7 +48,10 @@ function main() {
     encoding: 'utf8',
     shell: false,
   });
-  if (result.status !== 0) throw new Error(result.stderr.trim() || 'gh api branch protection update failed');
+  if (result.status !== 0) {
+    const details = [result.stderr, result.stdout].map((value) => value.trim()).filter(Boolean).join('\n');
+    throw new Error(details || 'gh api branch protection update failed');
+  }
   console.log('Branch protection applied. Contributor PRs now require the validation check and CODEOWNER approval.');
 }
 

@@ -18,7 +18,8 @@ All notable changes to Alex ACT Plugin Mall.
 	retains editorial approval.
 - Dry-run-first `npm run admin:configure-approval` command for enforcing the
 	contributor validation check, CODEOWNER approval on governed paths,
-	conversation resolution, and protected admin behavior on `main`. The check
+	conversation resolution, and an explicit maintainer bypass on `main` to avoid
+	sole-CODEOWNER self-approval deadlock. The check
 	runs on every PR; generated catalog refreshes remain zero-review auto-merges,
 	while plugin, script, marketplace, and registry paths require CODEOWNER review.
 - Fixture-backed publication tests covering dry-run/apply behavior, source-path

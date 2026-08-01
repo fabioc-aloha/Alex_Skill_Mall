@@ -173,9 +173,12 @@ test('admin approval payload requires the plugin check and CODEOWNER review', ()
   const { protectionPayload } = require('../scripts/configure-approval-gate.cjs');
   const payload = protectionPayload();
   assert.deepEqual(payload.required_status_checks.contexts, ['Validate proposed plugins']);
+  assert.equal(payload.enforce_admins, false);
   assert.equal(payload.required_pull_request_reviews.require_code_owner_reviews, true);
   assert.equal(payload.required_pull_request_reviews.required_approving_review_count, 0);
   assert.equal(payload.required_pull_request_reviews.require_last_push_approval, false);
+  assert.equal(payload.restrictions, null);
+  assert.equal(Object.hasOwn(payload.required_pull_request_reviews, 'dismissal_restrictions'), false);
   assert.equal(payload.required_conversation_resolution, true);
 });
 
