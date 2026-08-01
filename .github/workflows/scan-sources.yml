@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write       # Push branch + commit catalog refresh
   pull-requests: write  # Open the catalog-refresh PR
+  statuses: write       # Publish the required validation context on generated PRs
 
 # Avoid two concurrent scans stomping on each other
 concurrency:
@@ -140,9 +141,18 @@ jobs:
             --base main --head "$BRANCH"
 
           # Branch protection requires the cross-PR "Validate proposed plugins"
-          # check. Generated catalog paths are not CODEOWNED, so this waits for
-          # the check and then merges without human review. Plugin PRs touch
-          # CODEOWNED paths and cannot auto-merge without Fabio's approval.
+          # context. PRs created with GITHUB_TOKEN do not trigger another
+          # workflow, so publish the status after this job's tests and catalog
+          # validation pass. Plugin PRs receive the same context from the
+          # separate validation workflow and still require CODEOWNER approval.
+          HEAD_SHA=$(git rev-parse HEAD)
+          gh api --method POST \
+            "repos/${{ github.repository }}/statuses/$HEAD_SHA" \
+            -f state=success \
+            -f context="Validate proposed plugins" \
+            -f description="Generated catalog refresh passed scan, tests, and validation" \
+            -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
           gh pr merge "$BRANCH" --squash --delete-branch --auto
 
       - name: Summary

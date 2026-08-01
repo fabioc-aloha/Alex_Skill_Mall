@@ -22,10 +22,9 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: '24'
-          cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install --ignore-scripts
 
       - name: Validate changed plugin payloads
         run: npm run submit:validate -- --changed --base "${{ github.event.pull_request.base.sha }}" --allow-none

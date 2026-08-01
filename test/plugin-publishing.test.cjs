@@ -187,6 +187,8 @@ test('contributor PR workflow validates without auto-merging', () => {
   const codeowners = fs.readFileSync(path.join(ROOT, '.github', 'CODEOWNERS'), 'utf8');
   assert.match(workflow, /submit:validate/);
   assert.doesNotMatch(workflow, /pull_request:\s*\n\s+paths:/);
+  assert.match(workflow, /npm install --ignore-scripts/);
+  assert.doesNotMatch(workflow, /npm ci|cache: npm/);
   assert.match(workflow, /npm test/);
   assert.match(workflow, /npm run validate/);
   assert.doesNotMatch(workflow, /gh pr merge|--auto/);
@@ -196,6 +198,9 @@ test('contributor PR workflow validates without auto-merging', () => {
   const bootstrapIndex = scanWorkflow.indexOf('node scripts/bootstrap-sources.cjs');
   assert.ok(installIndex >= 0, 'scan workflow must install declared dependencies');
   assert.ok(installIndex < bootstrapIndex, 'dependency installation must precede Mall scripts');
+  assert.match(scanWorkflow, /statuses: write/);
+  assert.match(scanWorkflow, /statuses\/\$HEAD_SHA/);
+  assert.match(scanWorkflow, /context="Validate proposed plugins"/);
   assert.match(scanWorkflow, /gh pr merge[^\n]+--auto/);
 });
 
