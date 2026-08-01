@@ -121,6 +121,13 @@ Repository administrators must configure `main` branch protection to require
 the **Validate proposed plugins** status check and CODEOWNER approval.
 CODEOWNERS requests the review; branch protection makes it mandatory.
 
+Preview and apply the canonical protection payload:
+
+```bash
+npm run admin:configure-approval
+npm run admin:configure-approval -- --apply
+```
+
 ## Editorial Review
 
 Even with green checks, maintainers review:
@@ -159,6 +166,7 @@ npm run vendor -- --source ../my-plugin --category productivity --repository htt
 npm run vendor -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project" --apply
 npm run vendor -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project" --replace --apply
 npm run maintain -- --curated
+npm run admin:configure-approval
 ```
 
 Full network maintenance mode:

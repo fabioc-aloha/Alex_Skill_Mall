@@ -6,6 +6,7 @@
     "validate": "node scripts/validate-catalog.cjs",
     "test": "node --test test/*.test.cjs",
     "check": "npm test && npm run validate",
+    "admin:configure-approval": "node scripts/configure-approval-gate.cjs",
     "vendor": "node scripts/vendor-plugin.cjs",
     "maintain": "node scripts/maintain-mall.cjs",
     "submit:prepare": "node scripts/prepare-plugin-submission.cjs",

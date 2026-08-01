@@ -450,6 +450,10 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('# Refresh first-party catalog, trust, marketplace, README, and gates');
   lines.push('npm run maintain -- --curated');
   lines.push('');
+  lines.push('# Preview, then enforce validation + CODEOWNER approval on main');
+  lines.push('npm run admin:configure-approval');
+  lines.push('npm run admin:configure-approval -- --apply');
+  lines.push('');
   lines.push('# Full 42-store network refresh (requires SOURCES_DIR plus GH_TOKEN or GITHUB_TOKEN)');
   lines.push('npm run maintain -- --full');
   lines.push('```');

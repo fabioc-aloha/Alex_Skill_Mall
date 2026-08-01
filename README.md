@@ -124,6 +124,10 @@ npm run vendor -- --source ../my-plugin --category productivity --repository htt
 # Refresh first-party catalog, trust, marketplace, README, and gates
 npm run maintain -- --curated
 
+# Preview, then enforce validation + CODEOWNER approval on main
+npm run admin:configure-approval
+npm run admin:configure-approval -- --apply
+
 # Full 42-store network refresh (requires SOURCES_DIR plus GH_TOKEN or GITHUB_TOKEN)
 npm run maintain -- --full
 ```

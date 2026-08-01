@@ -164,8 +164,18 @@ test('package scripts expose maintainer and contributor commands', () => {
   const pkg = JSON.parse(fs.readFileSync(path.join(ROOT, 'package.json'), 'utf8'));
   assert.equal(pkg.scripts.vendor, 'node scripts/vendor-plugin.cjs');
   assert.equal(pkg.scripts.maintain, 'node scripts/maintain-mall.cjs');
+  assert.equal(pkg.scripts['admin:configure-approval'], 'node scripts/configure-approval-gate.cjs');
   assert.equal(pkg.scripts['submit:prepare'], 'node scripts/prepare-plugin-submission.cjs');
   assert.equal(pkg.scripts['submit:validate'], 'node scripts/validate-plugin-submission.cjs');
+});
+
+test('admin approval payload requires the plugin check and CODEOWNER review', () => {
+  const { protectionPayload } = require('../scripts/configure-approval-gate.cjs');
+  const payload = protectionPayload();
+  assert.deepEqual(payload.required_status_checks.contexts, ['Validate proposed plugins']);
+  assert.equal(payload.required_pull_request_reviews.require_code_owner_reviews, true);
+  assert.equal(payload.required_pull_request_reviews.required_approving_review_count, 1);
+  assert.equal(payload.required_conversation_resolution, true);
 });
 
 test('contributor PR workflow validates without auto-merging', () => {
