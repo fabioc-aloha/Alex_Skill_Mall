@@ -2,7 +2,7 @@
   "store": "microsoft-dataverse-skills",
   "source_repo": "https://github.com/microsoft/Dataverse-skills.git",
   "generated_at": "2026-07-29T01:14:40.297Z",
-  "scanned_ref": "ab56d1ad56783ffce1c671b55b4d964b2d09501d",
+  "scanned_ref": "e61db16db018b10807e6e270a34bd9a5275f5285",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -12,7 +12,7 @@
       "name": "tests",
       "shape": "unknown",
       "source_path": "evals/tests",
-      "source_url": "https://github.com/microsoft/Dataverse-skills/tree/ab56d1ad56783ffce1c671b55b4d964b2d09501d/evals/tests",
+      "source_url": "https://github.com/microsoft/Dataverse-skills/tree/e61db16db018b10807e6e270a34bd9a5275f5285/evals/tests",
       "readme_excerpt": "Test files for the Dataverse Skills plugin eval system. Each `.biceval.json` contains one or more tests that are consumed by LocalEvalRunner to grade AI agent responses when the plugin is loaded.",
       "frontmatter": {
         "kind": "none",
@@ -37,7 +37,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ab56d1ad56783ffce1c671b55b4d964b2d09501d",
+        "default_sha": "e61db16db018b10807e6e270a34bd9a5275f5285",
         "tags": [
           "v0.1-full-skillset"
         ]
@@ -53,9 +53,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 185,
+          "stars": 188,
           "contributors": 9,
-          "last_commit": "2026-07-29T00:21:31Z",
+          "last_commit": "2026-07-31T21:30:25Z",
           "archived": false
         }
       }
@@ -69,9 +69,9 @@
       "adoption": 5,
       "license": 10,
       "license_name": "MIT",
-      "stars": 185,
+      "stars": 188,
       "contributors": 9,
-      "last_commit": "2026-07-29T00:21:31Z",
+      "last_commit": "2026-07-31T21:30:25Z",
       "archived": false
     }
   }

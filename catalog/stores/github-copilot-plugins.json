@@ -1,18 +1,102 @@
 {
   "store": "github-copilot-plugins",
   "source_repo": "https://github.com/github/copilot-plugins.git",
-  "generated_at": "2026-06-15T13:04:06.219Z",
-  "scanned_ref": "be363b5f3cc8add1d90f940b9ac23951be2d734f",
+  "generated_at": "2026-08-01T20:41:14.598Z",
+  "scanned_ref": "04d7d960289e78f8d98509bdacc368e85069170d",
   "provenance": false,
   "tier": "github-official",
   "license": null,
-  "plugin_count": 1,
+  "plugin_count": 2,
   "plugins": [
+    {
+      "name": "build-perf-cpp",
+      "shape": "mixed",
+      "source_path": "plugins/build-perf-cpp",
+      "source_url": "https://github.com/github/copilot-plugins/tree/04d7d960289e78f8d98509bdacc368e85069170d/plugins/build-perf-cpp",
+      "readme_excerpt": "Analyze MSVC build performance with `vcperf.exe` and ETL traces from GitHub",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "build-perf-cpp",
+          "description": "Analyze C++ build performance using vcperf.exe and ETL traces. Profiles MSVC builds, identifies expensive headers and templates, generates JSON analysis reports, and recommends measurable remediation.",
+          "version": "1.0.0",
+          "author": {
+            "name": "Ion Todirel and Eve Silfanus",
+            "email": "evesilfanus@microsoft.com"
+          },
+          "homepage": "https://github.com/github/copilot-plugins/tree/main/plugins/build-perf-cpp",
+          "repository": "https://github.com/github/copilot-plugins",
+          "license": "MIT",
+          "keywords": [
+            "cpp",
+            "c++",
+            "msvc",
+            "vcperf",
+            "build-performance",
+            "build-insights",
+            "compile-time",
+            "copilot-cli"
+          ],
+          "skills": [
+            "skills/"
+          ],
+          "hooks": "hooks/hooks.json"
+        },
+        "standard": {
+          "name": "build-perf-cpp",
+          "description": "Analyze C++ build performance using vcperf.exe and ETL traces. Profiles MSVC builds, identifies expensive headers and templates, generates JSON analysis reports, and recommends measurable remediation.",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": [
+            "cpp",
+            "c++",
+            "msvc",
+            "vcperf",
+            "build-performance",
+            "build-insights",
+            "compile-time",
+            "copilot-cli"
+          ],
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "04d7d960289e78f8d98509bdacc368e85069170d",
+        "tags": []
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 335,
+          "contributors": 15,
+          "last_commit": "2026-07-31T19:32:16Z",
+          "archived": false
+        }
+      }
+    },
     {
       "name": "spark",
       "shape": "skill",
       "source_path": "plugins/spark",
-      "source_url": "https://github.com/github/copilot-plugins/tree/be363b5f3cc8add1d90f940b9ac23951be2d734f/plugins/spark",
+      "source_url": "https://github.com/github/copilot-plugins/tree/04d7d960289e78f8d98509bdacc368e85069170d/plugins/spark",
       "readme_excerpt": "Comprehensive guidance for building modern web applications with opinionated defaults for tech stack, design system, and code standards.",
       "frontmatter": {
         "kind": "none",
@@ -37,7 +121,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "be363b5f3cc8add1d90f940b9ac23951be2d734f",
+        "default_sha": "04d7d960289e78f8d98509bdacc368e85069170d",
         "tags": []
       },
       "trust_score": 42,
@@ -51,9 +135,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 333,
-          "contributors": 13,
-          "last_commit": "2026-07-28T19:14:00Z",
+          "stars": 335,
+          "contributors": 15,
+          "last_commit": "2026-07-31T19:32:16Z",
           "archived": false
         }
       }
@@ -67,9 +151,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 333,
-      "contributors": 13,
-      "last_commit": "2026-07-28T19:14:00Z",
+      "stars": 335,
+      "contributors": 15,
+      "last_commit": "2026-07-31T19:32:16Z",
       "archived": false
     }
   }

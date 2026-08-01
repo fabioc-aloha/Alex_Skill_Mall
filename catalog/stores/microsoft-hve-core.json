@@ -1,8 +1,8 @@
 {
   "store": "microsoft-hve-core",
   "source_repo": "https://github.com/microsoft/hve-core.git",
-  "generated_at": "2026-07-29T00:51:00.254Z",
-  "scanned_ref": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+  "generated_at": "2026-08-01T20:41:14.640Z",
+  "scanned_ref": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -12,7 +12,7 @@
       "name": "docs",
       "shape": "agent",
       "source_path": "docs",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/docs",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/docs",
       "readme_excerpt": "title: HVE Core Documentation",
       "frontmatter": {
         "kind": "agent-md",
@@ -46,8 +46,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -90,9 +96,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -101,7 +107,7 @@
       "name": "evals",
       "shape": "unknown",
       "source_path": "evals",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/evals",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/evals",
       "readme_excerpt": "title: Evaluations",
       "frontmatter": {
         "kind": "agent-md",
@@ -109,7 +115,7 @@
           "title": "Evaluations",
           "description": "Architecture overview and contributor guide for Vally evaluation specs",
           "author": "HVE Core Team",
-          "ms.date": "2026-07-16"
+          "ms.date": "2026-07-28"
         },
         "standard": {
           "name": "evals",
@@ -131,8 +137,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -175,9 +187,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -186,7 +198,7 @@
       "name": "ado",
       "shape": "mixed",
       "source_path": "plugins/ado",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/ado",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/ado",
       "readme_excerpt": "Azure DevOps work item management, build monitoring, and pull request creation",
       "frontmatter": {
         "kind": "none",
@@ -211,8 +223,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -255,9 +273,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -266,7 +284,7 @@
       "name": "coding-standards",
       "shape": "mixed",
       "source_path": "plugins/coding-standards",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/coding-standards",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/coding-standards",
       "readme_excerpt": "Language-specific coding instructions and pre-PR code review agents for bash, Bicep, C#, PowerShell, Python, Rust, and Terraform projects",
       "frontmatter": {
         "kind": "none",
@@ -291,8 +309,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -335,9 +359,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -346,7 +370,7 @@
       "name": "data-science",
       "shape": "mixed",
       "source_path": "plugins/data-science",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/data-science",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/data-science",
       "readme_excerpt": "Evaluation dataset creation, data specification generation, Jupyter notebooks, and Streamlit dashboards",
       "frontmatter": {
         "kind": "none",
@@ -371,8 +395,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -415,9 +445,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -426,7 +456,7 @@
       "name": "design-thinking",
       "shape": "mixed",
       "source_path": "plugins/design-thinking",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/design-thinking",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/design-thinking",
       "readme_excerpt": "Design Thinking coaching identity, quality constraints, and methodology skills for AI-enhanced design thinking across nine methods",
       "frontmatter": {
         "kind": "none",
@@ -451,8 +481,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -495,9 +531,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -506,7 +542,7 @@
       "name": "experimental",
       "shape": "mixed",
       "source_path": "plugins/experimental",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/experimental",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/experimental",
       "readme_excerpt": "Experimental and preview artifacts not yet promoted to stable collections",
       "frontmatter": {
         "kind": "none",
@@ -531,8 +567,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -575,9 +617,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -586,7 +628,7 @@
       "name": "github",
       "shape": "mixed",
       "source_path": "plugins/github",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/github",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/github",
       "readme_excerpt": "GitHub issue discovery, triage, sprint planning, and backlog execution agents and prompts",
       "frontmatter": {
         "kind": "none",
@@ -611,8 +653,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -655,9 +703,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -666,7 +714,7 @@
       "name": "gitlab",
       "shape": "skill",
       "source_path": "plugins/gitlab",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/gitlab",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/gitlab",
       "readme_excerpt": "GitLab merge request and pipeline workflows through a Python skill",
       "frontmatter": {
         "kind": "none",
@@ -691,8 +739,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -735,9 +789,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -746,7 +800,7 @@
       "name": "hve-core",
       "shape": "mixed",
       "source_path": "plugins/hve-core",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/hve-core",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/hve-core",
       "readme_excerpt": "Opinionated, rapidly evolving agentic SDLC patterns for RPI workflows, HVE Builder, and Git operations",
       "frontmatter": {
         "kind": "none",
@@ -771,8 +825,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -815,9 +875,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -826,7 +886,7 @@
       "name": "hve-core-all",
       "shape": "mixed",
       "source_path": "plugins/hve-core-all",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/hve-core-all",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/hve-core-all",
       "readme_excerpt": "Full bundle of opinionated, rapidly evolving HVE Core agentic SDLC patterns and tools",
       "frontmatter": {
         "kind": "none",
@@ -851,8 +911,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -895,9 +961,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -906,7 +972,7 @@
       "name": "installer",
       "shape": "skill",
       "source_path": "plugins/installer",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/installer",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/installer",
       "readme_excerpt": "Decision-driven installer skill for deploying HVE Core artifacts across workspace configurations",
       "frontmatter": {
         "kind": "none",
@@ -931,8 +997,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -975,9 +1047,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -986,7 +1058,7 @@
       "name": "jira",
       "shape": "mixed",
       "source_path": "plugins/jira",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/jira",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/jira",
       "readme_excerpt": "Jira backlog management, PRD issue planning, and issue operations through agents, prompts, instructions, and a Python skill",
       "frontmatter": {
         "kind": "none",
@@ -1011,8 +1083,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -1055,9 +1133,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -1066,7 +1144,7 @@
       "name": "project-planning",
       "shape": "mixed",
       "source_path": "plugins/project-planning",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/project-planning",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/project-planning",
       "readme_excerpt": "PRDs, BRDs, ADRs, and architecture diagrams",
       "frontmatter": {
         "kind": "none",
@@ -1091,8 +1169,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -1135,9 +1219,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -1146,7 +1230,7 @@
       "name": "rpi",
       "shape": "mixed",
       "source_path": "plugins/rpi",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/rpi",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/rpi",
       "readme_excerpt": "Skill-forward Research, Plan, Implement, Review, and Follow-up entry points with bounded planning and critique support.",
       "frontmatter": {
         "kind": "none",
@@ -1171,8 +1255,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -1215,9 +1305,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -1226,7 +1316,7 @@
       "name": "security",
       "shape": "mixed",
       "source_path": "plugins/security",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/plugins/security",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/plugins/security",
       "readme_excerpt": "Security review, planning, incident response, risk assessment, and vulnerability analysis",
       "frontmatter": {
         "kind": "none",
@@ -1251,8 +1341,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -1295,9 +1391,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -1306,7 +1402,7 @@
       "name": "scripts",
       "shape": "agent",
       "source_path": "scripts",
-      "source_url": "https://github.com/microsoft/hve-core/tree/0a0a26eb433acfa0e4fdeccb23fbe97885367e0a/scripts",
+      "source_url": "https://github.com/microsoft/hve-core/tree/53072127205f08c43cfef4918f6e6b2c88fcddb8/scripts",
       "readme_excerpt": "title: Scripts",
       "frontmatter": {
         "kind": "agent-md",
@@ -1339,8 +1435,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "0a0a26eb433acfa0e4fdeccb23fbe97885367e0a",
+        "default_sha": "53072127205f08c43cfef4918f6e6b2c88fcddb8",
         "tags": [
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
           "hve-core-v3.3.101",
           "hve-core-v3.3.41",
           "hve-core-v3.3.27",
@@ -1383,9 +1485,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1303,
-          "contributors": 71,
-          "last_commit": "2026-07-28T23:26:37Z",
+          "stars": 1308,
+          "contributors": 72,
+          "last_commit": "2026-08-01T20:29:49Z",
           "archived": false
         }
       }
@@ -1399,9 +1501,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1303,
-      "contributors": 71,
-      "last_commit": "2026-07-28T23:26:37Z",
+      "stars": 1308,
+      "contributors": 72,
+      "last_commit": "2026-08-01T20:29:49Z",
       "archived": false
     }
   }
