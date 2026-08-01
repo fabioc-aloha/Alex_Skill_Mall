@@ -7,6 +7,10 @@ lastReviewed: 2026-07-30
 
 Load the `plugin-management` skill and run its audit-only mode against the user's Copilot CLI configuration and both settings files.
 
+If the generic skill tool is unavailable for a plugin-shipped skill, execute
+the numbered audit steps directly. Do not report `plugin-management` as missing
+when its installed folder exists.
+
 Steps:
 
 1. Load skill: [plugin-management](../skills/plugin-management/SKILL.md).

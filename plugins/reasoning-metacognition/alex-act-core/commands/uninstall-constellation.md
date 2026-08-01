@@ -1,11 +1,15 @@
 ---
-description: "Generate a machine-tailored PowerShell script that cleanly uninstalls the Alex ACT constellation (Core, Illustrator, Enterprise, MSFT), the fifteen user-scope discipline instructions, and the four enabledPlugins entries. Writes to the workspace root as `.act-uninstall.ps1` (fallback ~/.copilot/tmp/); auto-appends to .gitignore if the workspace is git-tracked. Requires closing VS Code to run because Windows locks plugin trees. Preserves marketplace registrations; backs up settings.json."
+description: "Generate a machine-tailored PowerShell script that cleanly uninstalls the Alex ACT constellation, the receipt-owned user-scope discipline instructions, and enabledPlugins entries. Writes to the workspace root with a temporary-directory fallback. Requires closing VS Code to run."
 lastReviewed: 2026-08-01
 ---
 
 # /uninstall-constellation
 
 Load the `uninstall-constellation` skill and run its detect-generate-guide flow.
+
+If the generic skill tool is unavailable for a plugin-shipped skill, execute
+the numbered detect-generate-guide steps directly. Do not claim uninstall is
+unavailable when the prompt and installed skill files are present.
 
 Steps:
 

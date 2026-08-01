@@ -7,6 +7,13 @@ applyTo: "**"
 
 Session-start orientation for the Alex ACT constellation. On short greetings that signal a fresh interaction, silently verify constellation health (bootstrap present + plugins current) and surface any actionable state through a consolidated consent gate. When everything is healthy, stay quiet.
 
+## Fresh-install boundary
+
+This instruction cannot run before the first bootstrap because it is itself one
+of the sixteen files copied by `install-constellation` Step 6. A truly fresh
+Core install must invoke `/alex-act-core install-constellation` manually once.
+After that, this instruction owns greeting-time repair, drift, and update checks.
+
 ## When to fire
 
 Match if the user's message is BOTH:
@@ -49,7 +56,7 @@ Read all four dimensions before deciding what to say:
 | **enabledPlugins entries** | Read `~/.copilot/settings.json` `enabledPlugins` map | Contains `alex-act-core@alex-mall: true` (other constellation plugins optional; user chose Core-only if only Core is installed) |
 | **Mall update availability** | Only if all above are healthy: fetch Mall catalog at `https://raw.githubusercontent.com/fabioc-aloha/Alex_Skill_Mall/main/catalog/index.json`. For each installed constellation plugin, compare local version against catalog `latest_version`. Skip fetch if offline — treat as "no update info available" (silent) | No installed plugin is older than its Mall entry |
 
-Installed Core version: read from `copilot plugin info alex-act-core` output OR `~/.copilot/installed-plugins/alex-mall/alex-act-core/plugin.json` version field.
+Installed Core version: read from `copilot plugin list`, with `~/.copilot/installed-plugins/alex-mall/alex-act-core/plugin.json` as the filesystem fallback.
 
 ### 3. Classify state
 
@@ -140,7 +147,7 @@ Respond to the user's message normally. Do not mention setup, updates, or anythi
 
 ## Mall catalog fetch — implementation notes
 
-Use the `web_fetch` tool or equivalent to GET `https://raw.githubusercontent.com/fabioc-aloha/Alex_Skill_Mall/main/catalog/index.json` (approximately 2 MB). Parse as JSON. For each installed constellation plugin, look up the entry (typically under `plugins[<name>]`) and compare `latest_version` against the installed version from `copilot plugin info <name>`.
+Use the `web_fetch` tool or equivalent to GET `https://raw.githubusercontent.com/fabioc-aloha/Alex_Skill_Mall/main/catalog/index.json` (approximately 2 MB). Parse as JSON. For each installed constellation plugin, look up the entry by name and compare its catalog version against the installed version from `copilot plugin list` or the installed `plugin.json` fallback.
 
 Timeout: 5 seconds. On timeout, network failure, or non-2xx response: treat as "no update info available" and skip Response C entirely (silent). Do NOT tell the user "couldn't check updates" — that's noise.
 
@@ -166,7 +173,7 @@ Fields:
 
 - `lastCheckAt` (ISO 8601 UTC): timestamp of last full state check. Used as the 60-min cache boundary.
 - `state`: `healthy` | `incomplete` | `drifted` | `updates-available`. Highest-severity classification.
-- `installedCoreVersion`: value read from `copilot plugin info alex-act-core` at check time.
+- `installedCoreVersion`: value read from `copilot plugin list` or the installed `plugin.json` fallback at check time.
 - `installedPlugins`: array of `<plugin>@<marketplace>` identifiers as they appear in `enabledPlugins`.
 - `updatesAvailable`: array of pending updates (empty when healthy).
 

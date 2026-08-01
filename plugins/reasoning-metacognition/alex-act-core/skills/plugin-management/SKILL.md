@@ -29,12 +29,19 @@ Every command below is a `copilot plugin ...` subcommand. Ordered by frequency o
 | `install <owner>/<repo>` | Direct install from GitHub (no marketplace) | `copilot plugin install fabioc-aloha/org-report` |
 | `update <name>` | Update one plugin to its latest stable version | `copilot plugin update alex-act-core` |
 | `update --all` | Update every installed plugin | `copilot plugin update --all` |
-| `remove <name>` | Uninstall a plugin (removes files + drops from `enabledPlugins`) | `copilot plugin remove alex-act-msft` |
+| `uninstall <name>` | Uninstall a plugin (removes files + drops marketplace entries from `enabledPlugins`) | `copilot plugin uninstall alex-act-msft` |
 | `marketplace add <owner>/<repo>` | Register a marketplace so `<plugin>@<marketplace>` resolves | `copilot plugin marketplace add fabioc-aloha/Alex_Skill_Mall` |
 | `marketplace list` | Show registered marketplaces | `copilot plugin marketplace list` |
+| `marketplace browse <name>` | List plugins published by a registered marketplace | `copilot plugin marketplace browse alex-mall` |
 | `marketplace remove <name>` | Deregister a marketplace | `copilot plugin marketplace remove alex-mall` |
-| `search <query> [--marketplace <name>]` | Search a marketplace catalog for plugins matching a query | `copilot plugin search chart --marketplace alex-mall` |
-| `info <name>` | Show a plugin's manifest, current version, install location | `copilot plugin info alex-act-core` |
+
+Copilot CLI 1.0.77 has no `info`, `remove`, or `search` plugin subcommands. Use
+`list` for installed versions and status, `marketplace browse` for discovery,
+and `uninstall` for removal. When `list` is insufficient, read the installed
+plugin's `plugin.json` as a filesystem fallback:
+
+- Marketplace install: `~/.copilot/installed-plugins/<marketplace>/<plugin>/plugin.json`
+- Direct install: find the plugin under `~/.copilot/installed-plugins/_direct/`
 
 ## Scope precedence
 
@@ -84,7 +91,7 @@ Key shape rules:
 
 - `enabledPlugins` is a map from `<plugin>@<marketplace>` to `true` / `false`. Setting a plugin to `false` disables it without uninstalling.
 - `extraKnownMarketplaces` is a map from marketplace nickname to `{ source: { source: "github", repo: "<owner>/<repo>" } }`. The two default marketplaces (`copilot-plugins`, `awesome-copilot`) do not need registration.
-- Direct-installed plugins (from `<owner>/<repo>` with no marketplace) live in `~/.copilot/installed-plugins/_direct/<source-id>/` — they do not appear in `enabledPlugins` and are managed directly via `install` / `remove`.
+- Direct-installed plugins (from `<owner>/<repo>` with no marketplace) live in `~/.copilot/installed-plugins/_direct/<source-id>/`. On Copilot CLI 1.0.77, install does not add an `enabledPlugins` entry. After explicit consent, merge the plugin's bare manifest name (for example, `"alex-act-msft": true`) into user settings, then verify settings, `plugin list`, and the direct-install tree.
 
 ## Safe settings edits
 
@@ -214,7 +221,7 @@ Added 2026-08-01 to support the `greeting-checkin` instruction's proactive sessi
 |---|---|
 | `lastCheckAt` | ISO 8601 UTC timestamp of last full state check. If read + within 60 min of current time, treat as cache hit — skip the check. |
 | `state` | One of `healthy` \| `incomplete` \| `drifted` \| `updates-available`. Highest-severity classification wins if multiple apply. |
-| `installedCoreVersion` | Value from `copilot plugin info alex-act-core` at check time. Used to detect drift on subsequent checks. |
+| `installedCoreVersion` | Version from `copilot plugin list`, with the installed `plugin.json` as fallback. Used to detect drift on subsequent checks. |
 | `installedPlugins` | Array of `<plugin>@<marketplace>` identifiers currently in `enabledPlugins`. |
 | `updatesAvailable` | Array of pending updates. Empty when healthy. |
 

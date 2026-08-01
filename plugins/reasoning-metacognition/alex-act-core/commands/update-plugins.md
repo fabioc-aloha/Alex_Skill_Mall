@@ -7,6 +7,10 @@ lastReviewed: 2026-07-30
 
 Load the `update-plugins` skill and run its diff-summary + consent-gated update flow.
 
+If the generic skill tool is unavailable for a plugin-shipped skill, execute
+the numbered steps directly and consult the installed SKILL.md when deeper
+detail is needed. Do not claim the plugin skill is absent from the tool result alone.
+
 Steps:
 
 1. Load skill: [update-plugins](../skills/update-plugins/SKILL.md).

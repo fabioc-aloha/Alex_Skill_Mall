@@ -12,7 +12,7 @@ Install the Alex ACT constellation plugins at their correct default scope, in th
 
 - Heir asks "install Alex ACT" / "set up the constellation" / "install the Alex plugins"
 - Heir invokes `/install-constellation`
-- First-run of a fresh Alex ACT install on a new machine
+- First run after a fresh Core install on a new machine. The heir must invoke `/alex-act-core install-constellation` explicitly because `greeting-checkin` is not available until Step 6 has run once.
 - Repairing a partial install (some constellation plugins present, others missing)
 - **Auto-invoked from `greeting-checkin` instruction** on session start when constellation state is incomplete (added 2026-08-01)
 
@@ -27,6 +27,10 @@ The skill runs in one of three modes depending on how it was invoked:
 | **Repair** | Heir invoked manually AND state check finds partial residue (bootstrap files without matching plugin, orphan receipt) | Confirm intent to complete partial install; skip installs of plugins already present at target version. |
 
 The three modes converge on the same underlying steps. What differs is which consent gates fire and how the report frames the outcome.
+
+`greeting-checkin` is a post-bootstrap convenience, not a first-install entry
+point. It is one of the sixteen files copied by Step 6, so a machine with no
+prior bootstrap cannot route a greeting through this skill.
 
 For the greeting-checkin auto-invocation path specifically, the user has already answered ONE question ("Complete setup? Y/N/details"). Do not re-prompt for plugin selection, bootstrap consent, or marketplace registration — the greeting Y is treated as consent for the default full-setup path. Only the MSFT tenant check remains (if MSFT is in scope), because tenant-check is a factual eligibility question, not a preference.
 
@@ -104,7 +108,10 @@ copilot plugin install alex-act-enterprise@alex-mall
 copilot plugin install fabioc-aloha/alex-act-msft
 ```
 
-After each install, run `copilot plugin info <name>` and verify the plugin registered at user scope. If any install fails, report the failure and stop — do not attempt to continue past a broken install.
+After each install, run `copilot plugin list` and verify the plugin name, version,
+and status. If the output is ambiguous, read the installed `plugin.json` from
+the marketplace tree or `_direct` tree. If any install fails, report the failure
+and stop. Do not attempt to continue past a broken install.
 
 ### Step 5 — Settings merge
 
@@ -115,10 +122,15 @@ For each installed plugin, add an entry to `~/.copilot/settings.json` `enabledPl
   "enabledPlugins": {
     "alex-act-core@alex-mall": true,
     "alex-act-illustrator-plugin@alex-mall": true,
-    "alex-act-enterprise@alex-mall": true
+    "alex-act-enterprise@alex-mall": true,
+    "alex-act-msft": true
   }
 }
 ```
+
+The bare `alex-act-msft` key is required on Copilot CLI 1.0.77 because direct
+installs do not populate `enabledPlugins` automatically. Verify it after the
+merge; an on-disk direct install without this key can go dark on restart.
 
 Delegate to [`plugin-management`](../plugin-management/SKILL.md) § Safe settings edits for the merge algorithm — preserve any pre-existing `enabledPlugins` or `extraKnownMarketplaces` entries the heir has.
 
@@ -151,7 +163,7 @@ Sixteen files, roughly 78 KB, about 20K always-on tokens. Not all of Core's inst
 | `worldview` | `alex-act-worldview.instructions.md` | Harm-refusal and Tenet-IV ethics check must fire on every request regardless of file scope |
 | `greeting-checkin` | `alex-act-greeting-checkin.instructions.md` | Session-start orientation — verifies constellation health on greeting patterns and offers setup / drift refresh / update reminders through one consolidated consent gate; must fire before the user's first substantive turn |
 
-Core's remaining instructions stay plugin-resident and therefore inactive. Behavioral and craft instructions degrade gracefully when absent; these fifteen do not.
+Core's remaining instructions stay plugin-resident and therefore inactive. Behavioral and craft instructions degrade gracefully when absent; these sixteen do not.
 
 The `alex-act-` prefix is mandatory. A heir may already have their own `~/.copilot/instructions/act-pass.instructions.md`, and a collision would silently replace their file.
 
@@ -267,12 +279,12 @@ The skill is safe to re-run. On subsequent runs:
 | Skip Core and install Illustrator standalone | Core is the baseline; Illustrator and the setup skills reference `plugin-management` which ships in Core. Do not skip Core. |
 | Install MSFT on a public tenant | MSFT is Microsoft-internal only. Fail closed on the tenant check. |
 | Overwrite pre-existing `enabledPlugins` entries | Merge, preserve. Delegate to `plugin-management` for the algorithm. |
-| Report "installed successfully" without running `copilot plugin info` verify | Verify at user scope after each install. |
+| Report "installed successfully" without checking `copilot plugin list`, settings, and the install tree | Verify all three signals after each install. |
 | Bootstrap the instructions silently as part of the install | Step 6 is separately consent-gated. User scope affects every workspace on the machine; that needs its own yes. |
 | Write bootstrap files without the `alex-act-` prefix | A bare `act-pass.instructions.md` can clobber the heir's own file. Prefix always. |
 | Skip the overlap scan because the workspace "probably" has no brain | Scopes compose. Scan, then report the real number. |
 | Uninstall by globbing `~/.copilot/instructions/*` | Read the receipt. The heir's own instructions live in that folder too. |
-| Bootstrap all of Core's unconditional instructions | Fifteen only. All 17 costs roughly 19K tokens in every workspace, which inverts the minimal-user-scope principle. |
+| Bootstrap all of Core's unconditional instructions | Sixteen only. The remaining instructions do not earn unconditional user-scope cost. |
 | Assume the instruction files are somewhere on disk without checking | Resolve the source explicitly per the Source table. A Mall install vendors no `.github/instructions/`; only the skill-bundled `bootstrap/` is guaranteed. This shipped broken in v0.2.0. |
 | Fetch the instruction files from GitHub when the local source is missing | Never. A missing source is a packaging defect and must be reported as one, not papered over with a network call that can fail, hang, or pull an unpinned version. |
 
@@ -297,6 +309,7 @@ Sunset or revise this skill by **2027-01-30** (6 months) if:
 - The install order proves wrong (dependency inversion surfaces) — the order needs adjustment.
 - ≥2 heirs report the idempotent re-run pattern doing damage (deleting pre-existing entries, re-installing when already current) — merge algorithm needs a regression fix.
 - **The bundled `bootstrap/` drifts from `.github/instructions/`.** The fifteen files are copies, and copies rot. If a source instruction is edited without the bundled copy following, heirs bootstrap a stale rule. Either add a release check that diffs the two sets, or replace the copies with a build step that generates them.
+- **Direct GitHub installs stop working or are removed by Copilot CLI.** The interim MSFT distribution path must move before the breaking release; do not wait for users to discover it during setup.
 
 Track outcomes in the maintaining repo's curation log.
 

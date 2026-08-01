@@ -2,7 +2,7 @@
 
 The plugin-native successor to [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0. Distributes the always-on epistemic discipline and reusable framework skills that heirs install via the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall).
 
-**Version**: 0.4.1, available in the Alex Mall but **not yet publicly announced** — the constellation is still being finalized by [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/goto/Alex_ACT_Steward) before the initial announcement to heirs.
+**Version**: 0.4.1, available in the Alex Mall but **not yet publicly announced** — the constellation is still being finalized by [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/Alex_ACT_Steward) before the initial announcement to heirs.
 
 **Current shape**: 41 skills, 18 instructions (16 always-on bootstrapped to `~/.copilot/instructions/` + 2 pattern-applied), 13 slash-command prompts, plus a shared runtime for the bundled document converters.
 
@@ -26,13 +26,20 @@ For a fresh install on any machine:
    copilot plugin install alex-act-core@alex-mall
    ```
 
-3. **Reload VS Code** (or restart if using CLI standalone) so Core's discipline layer activates.
+3. **Reload VS Code** (or restart if using CLI standalone) so Core's prompts and skills activate.
 
-4. **Open Copilot Chat and greet Core** with any of `hi`, `hello`, `hey`, `getting started`, etc. Core detects that setup isn't complete and offers to bootstrap the ACT discipline files + install the rest of the constellation (Illustrator, Enterprise, and MSFT if you're Microsoft-internal) through one consolidated consent gate.
+4. **Open Copilot Chat and run**:
 
-After step 4, everything is guided — answer one `Y` for full setup, `b` for bootstrap only, or `n` to defer. No slash commands to memorize; the greeting is the trigger.
+   ```text
+   /alex-act-core install-constellation
+   ```
 
-**Manual escape hatch**: if you'd rather run the install flow explicitly, invoke `/alex-act-core install-constellation` at any time. The greeting flow is a proactive convenience, not a requirement.
+Step 4 installs the selected constellation plugins, activates the direct MSFT
+install when applicable, and separately asks whether to bootstrap the sixteen
+always-on ACT instructions. After that first bootstrap, short greetings can use
+`greeting-checkin` for repair, drift, and update reminders. A greeting cannot
+start first-time setup because the greeting instruction is delivered by the
+bootstrap itself.
 
 **Full walkthrough**: [`USER-EXPERIENCE.md` § Stage 1](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md) in Steward.
 
@@ -147,7 +154,7 @@ copilot plugin install alex-act-core@alex-mall
 
 Installs at user scope — Core becomes active in every workspace on the machine. That's the correct behavior; Core is an identity plugin per [`PLUGIN-INTEGRATION.md` § 2](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/PLUGIN-INTEGRATION.md).
 
-> **Publication status.** The Mall itself is live (v3.0.0 GA, 2026-07-28). Core's Mall entry lands in a coordinated Steward + Mall publication turn; until it's live, `copilot plugin install alex-act-core@alex-mall` returns "plugin not found." Watch [Alex_Skill_Mall's catalog](https://github.com/fabioc-aloha/Alex_Skill_Mall/blob/main/catalog/plugins.json) or the [Steward curation log](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/operations/ledgers/curation-log.md) for the publication commit.
+> **Publication status.** The Mall and Core entry are live. The constellation has not yet been publicly announced to heirs while fresh-install validation continues.
 
 ### Verify the install
 
@@ -161,9 +168,9 @@ You should see `alex-act-core@alex-mall` with the current version.
 
 Once Core is in, invoke one of Core's plugin-management prompts from Copilot Chat:
 
-- **`/install-constellation`** — installs the four-plugin constellation flow (Core + Illustrator + Enterprise + MSFT with tenant-check)
-- **`/plugin-status`** — read-only inventory of what's installed at user + repo scope
-- **`/update-plugins`** — safe update workflow with per-plugin CHANGELOG reading and consent for breaking changes
+- **`/alex-act-core install-constellation`** — installs the four-plugin constellation flow (Core + Illustrator + Enterprise + MSFT with tenant-check)
+- **`/alex-act-core plugin-status`** — read-only inventory of what's installed at user + repo scope
+- **`/alex-act-core update-plugins`** — safe update workflow with per-plugin CHANGELOG reading and consent for breaking changes
 
 Full walkthrough with slash-command examples: [USER-EXPERIENCE Stages 3–5](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md).
 
@@ -175,7 +182,7 @@ Copilot CLI does not auto-update plugins — updates are manual and version-pinn
 copilot plugin update alex-act-core
 ```
 
-Read the [CHANGELOG](CHANGELOG.md) before applying a version that carries breaking changes. The safer path is to invoke Core's own `/update-plugins` prompt, which reads the CHANGELOG for you and consents-gate breaking updates.
+Read the [CHANGELOG](CHANGELOG.md) before applying a version that carries breaking changes. The safer path is to invoke `/alex-act-core update-plugins`, which reads the CHANGELOG for you and consent-gates breaking updates.
 
 ## Uninstall
 

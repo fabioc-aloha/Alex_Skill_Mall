@@ -7,6 +7,11 @@ lastReviewed: 2026-07-28
 
 Produce a terse, read-only orientation report for the current project.
 
+This prompt is self-contained. Do not invoke the generic skill tool for
+`status-reporting`; execute the numbered steps directly. A skill-tool inventory
+that omits plugin skills is not evidence that Core or its status capability is
+missing.
+
 ## Steps
 
 1. **Identity**: Confirm which project this is and read the active branch (`git branch --show-current`).

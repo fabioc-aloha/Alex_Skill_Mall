@@ -7,6 +7,10 @@ lastReviewed: 2026-05-26
 
 Run the meditation protocol. Transform working memory into permanent architecture.
 
+If the generic skill tool is unavailable for the plugin-shipped `meditation`
+skill, execute the numbered steps below directly. Do not claim the workflow is
+missing based only on the skill tool's inventory.
+
 ## Steps
 
 1. Load skill: [meditation](../skills/meditation/SKILL.md)
