@@ -17,8 +17,10 @@ All notable changes to Alex ACT Plugin Mall.
 	gate. Automation never auto-merges a plugin contribution; `@fabioc-aloha`
 	retains editorial approval.
 - Dry-run-first `npm run admin:configure-approval` command for enforcing the
-	contributor validation check, one CODEOWNER approval, stale-review dismissal,
-	conversation resolution, and protected admin behavior on `main`.
+	contributor validation check, CODEOWNER approval on governed paths,
+	conversation resolution, and protected admin behavior on `main`. The check
+	runs on every PR; generated catalog refreshes remain zero-review auto-merges,
+	while plugin, script, marketplace, and registry paths require CODEOWNER review.
 - Fixture-backed publication tests covering dry-run/apply behavior, source-path
 	normalization, prompt renaming, metadata generation, secret rejection,
 	payload limit, maintenance sequencing, and the PR approval boundary.

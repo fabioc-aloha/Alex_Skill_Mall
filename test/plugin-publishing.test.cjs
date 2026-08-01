@@ -174,7 +174,8 @@ test('admin approval payload requires the plugin check and CODEOWNER review', ()
   const payload = protectionPayload();
   assert.deepEqual(payload.required_status_checks.contexts, ['Validate proposed plugins']);
   assert.equal(payload.required_pull_request_reviews.require_code_owner_reviews, true);
-  assert.equal(payload.required_pull_request_reviews.required_approving_review_count, 1);
+  assert.equal(payload.required_pull_request_reviews.required_approving_review_count, 0);
+  assert.equal(payload.required_pull_request_reviews.require_last_push_approval, false);
   assert.equal(payload.required_conversation_resolution, true);
 });
 
@@ -182,10 +183,13 @@ test('contributor PR workflow validates without auto-merging', () => {
   const workflow = fs.readFileSync(path.join(ROOT, '.github', 'workflows', 'validate-plugin-pr.yml'), 'utf8');
   const codeowners = fs.readFileSync(path.join(ROOT, '.github', 'CODEOWNERS'), 'utf8');
   assert.match(workflow, /submit:validate/);
+  assert.doesNotMatch(workflow, /pull_request:\s*\n\s+paths:/);
   assert.match(workflow, /npm test/);
   assert.match(workflow, /npm run validate/);
-  assert.doesNotMatch(workflow, /gh pr merge|auto-merge/i);
+  assert.doesNotMatch(workflow, /gh pr merge|--auto/);
   assert.match(codeowners, /\/plugins\/\s+@fabioc-aloha/);
+  const scanWorkflow = fs.readFileSync(path.join(ROOT, '.github', 'workflows', 'scan-sources.yml'), 'utf8');
+  assert.match(scanWorkflow, /gh pr merge[^\n]+--auto/);
 });
 
 test('generated storefront advertises canonical admin and contributor flows', () => {

@@ -136,15 +136,11 @@ jobs:
           )" \
             --base main --head "$BRANCH"
 
-          # Immediate squash-merge after the deterministic test + validation
-          # gates above pass. GitHub's `--auto` flag requires branch
-          # protection with required status checks to function (it's "wait for
-          # checks, then merge"); with no checks defined the API rejects it.
-          # The PR-opened email + PR-merged email arrive seconds apart and
-          # serve as the notification surface. To re-introduce a review gate,
-          # add branch protection on `main` with a required check, then
-          # restore `--auto` to this command.
-          gh pr merge "$BRANCH" --squash --delete-branch
+          # Branch protection requires the cross-PR "Validate proposed plugins"
+          # check. Generated catalog paths are not CODEOWNED, so this waits for
+          # the check and then merges without human review. Plugin PRs touch
+          # CODEOWNED paths and cannot auto-merge without Fabio's approval.
+          gh pr merge "$BRANCH" --squash --delete-branch --auto
 
       - name: Summary
         if: always()

@@ -120,6 +120,9 @@ The workflow never auto-merges. CODEOWNER approval is required.
 Repository administrators must configure `main` branch protection to require
 the **Validate proposed plugins** status check and CODEOWNER approval.
 CODEOWNERS requests the review; branch protection makes it mandatory.
+The validation workflow runs on every PR. Generated catalog refresh paths are
+not CODEOWNED and may auto-merge after the check; plugin-related paths are
+CODEOWNED and wait for maintainer approval.
 
 Preview and apply the canonical protection payload:
 

@@ -2,13 +2,6 @@ name: Validate Plugin Contribution
 
 on:
   pull_request:
-    paths:
-      - 'plugins/**'
-      - '.github/plugin/marketplace.json'
-      - 'scripts/**'
-      - 'test/**'
-      - 'package.json'
-      - 'package-lock.json'
 
 permissions:
   contents: read
@@ -49,4 +42,4 @@ jobs:
         run: npm run validate
 
       - name: Approval reminder
-        run: echo "Automated checks passed. A CODEOWNER must still review and approve this plugin."
+        run: echo "Automated checks passed. Plugin-related paths still require CODEOWNER approval; generated catalog refreshes may auto-merge."
