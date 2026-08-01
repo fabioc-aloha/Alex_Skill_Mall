@@ -144,7 +144,7 @@
     {
       "name": "alex-act-core",
       "description": "The Alex ACT baseline plugin. Installs 40 reusable framework skills and 12 slash-command prompts covering epistemic discipline (critical thinking, problem-framing audit, anti-hallucination, deep review), document converters, security and privacy, tooling awareness, git/lint/mcp, authoring and engineering craft, and the plugin-management operational surface. Composes with the Alex ACT constellation (illustrator, enterprise, msft plugins). Core also authors 17 ACT instructions (15 always-on, 2 pattern-applied), which a plugin install cannot deliver because plugin.json has no instructions component field; run /install-constellation after installing to bootstrap the fifteen load-bearing ones to ~/.copilot/instructions/, read by both the Copilot CLI and VS Code Chat. Content ships through evidence-gated Steward proposals per Alex_ACT_Steward/constellation/act/CURATION-RULES.md. Maintained by Alex_ACT_Steward.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "source": "plugins/reasoning-metacognition/alex-act-core",
       "strict": true
     },
@@ -157,8 +157,8 @@
     },
     {
       "name": "alex-act-illustrator-plugin",
-      "description": "Visual-authoring bundle for AI agents. Eight skills across four feature areas: Flint (statistical chart authoring via the local-first flint-chart-mcp server from microsoft/flint-chart), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures), Replicate (AI image generation over Replicate's HTTP API, opt-in via REPLICATE_API_TOKEN), and Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports). Shared framing gate (chart-big-idea Step 0.5) and verification pass (render-verify Prose-coupling) apply across all features. Alex ACT constellation plugin, maintained by Alex_ACT_Steward. Renamed from flint-chart-plugin on 2026-07-29 and expanded from 3 skills to 8. Absorbs the capability of the removed Mall plugins visual-vocabulary, data-visualization, svg-dashboard-composition, and imagen (per Mall commit e739dd6).",
-      "version": "0.5.1",
+      "description": "Visual-authoring bundle for AI agents. Ten skills across five feature areas plus install composition: Flint (statistical chart authoring via the local-first flint-chart-mcp server from microsoft/flint-chart), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures), Replicate (AI image generation over Replicate's HTTP API, opt-in via REPLICATE_API_TOKEN), Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports), Banner (1200×320 SVG brand banners with pluggable brand config), and the install-visual-companions skill that owns the offer for 9 marketplace companion plugins forming the vision loop (storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball). Shared framing gate (chart-big-idea Step 0.5) and verification pass (render-verify Prose-coupling) apply across all authoring features. Alex ACT constellation plugin, maintained by Alex_ACT_Steward.",
+      "version": "0.6.0",
       "source": "plugins/data-analytics/alex-act-illustrator-plugin",
       "strict": true
     },

@@ -14,9 +14,9 @@
   },
   "upstream": {
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin",
-    "ref": "main",
+    "ref": "v0.6.0",
     "license": "MIT",
-    "notes": "Source-of-truth is the upstream OSS repo. Mall vendors a specific version; when upstream tags a new release, Mall automation flags the mismatch. Renamed from flint-chart-plugin on 2026-07-29 and expanded from 3 skills to 8."
+    "notes": "Source-of-truth is the upstream OSS repo. Mall vendors a specific version; when upstream tags a new release, Mall automation flags the mismatch. Renamed from flint-chart-plugin on 2026-07-29 and expanded from 3 skills to 10 (added install-visual-companions on 2026-08-01 to bundle the 9-plugin visual-workflow shelf offer, moved from alex-act-core's install-constellation Step 7 per Fabio directive)."
   },
   "artifacts": {
     "skills": [

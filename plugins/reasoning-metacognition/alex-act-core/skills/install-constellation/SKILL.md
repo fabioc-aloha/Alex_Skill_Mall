@@ -39,48 +39,13 @@ If a plugin is already installed at the target version, skip it and continue wit
 
 ## Optional: visual workflow companions
 
-Beyond the four constellation plugins, 9 marketplace plugins compose to deliver visual-authoring workflows (chart rendering, screenshot verification, whiteboard iteration, PR annotation). **None are part of the baseline install** — heirs opt in per workload, one at a time. Discovered and verified via the [Steward GH-APP-SUPPORT feedback loop](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/GH-APP-SUPPORT.md) (4-round A/B test on user's brain, 2026-07-31; ledger row `[GH-APP-FEEDBACK]` closure).
+Nine marketplace plugins compose to deliver visual-authoring workflows (chart rendering, screenshot verification, whiteboard iteration, PR annotation). **Ownership of the install offer for these companions moved from this skill to `alex-act-illustrator-plugin`'s `install-visual-companions` skill in Illustrator v0.6.0 (2026-08-01)** — the visual-workflow shelf now lives with the visual-authoring plugin that anchors it, per Fabio directive ("The visual companions should be bundled with the illustrator"). This reverses the 2026-07-31 Option A (route-only) decision recorded in [Steward's illustrator/plan.md](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/illustrator/plan.md).
 
-| Plugin | Marketplace | Purpose | Round-4 verified? |
-|---|---|---|---|
-| `chromium-control-canvas` | `awesome-copilot` | Browser preview + screenshot | ✅ (see caveats) |
-| `eyeball` | `awesome-copilot` | Screenshot audit with claim-proof output doc | ✅ (see caveats) |
-| `diagram-viewer` | `awesome-copilot` | SVG / diagram drill-down preview | ✅ clean install |
-| `napkin` | `awesome-copilot` | Whiteboard for iterative chart design | ⚪ Untested |
-| `image-annotations` | `alex-mall` | PIL callouts + labels on screenshots | ✅ |
-| `chart-interpretation` | `alex-mall` | Read charts, extract insights (reverse of authoring) | ✅ |
-| `visual-artifact-qa` | `alex-mall` | Render-time verification (visual output that passes static checks can still fail to render) | ✅ |
-| `visual-pr` | `awesome-copilot` | PR screenshot + annotation embed workflow | ⚪ Skills-only, needs real PR to exercise |
-| `storytelling-requirements` | `alex-mall` | Guided Big Idea → chart discipline | ✅ |
+**How to offer them now**: after `install-constellation` completes and Illustrator is installed, invoke `/install-visual-companions` (Illustrator prompt) or ask Illustrator's `install-visual-companions` skill directly. That skill carries the 9-plugin catalog, the vision-loop composition pattern (`storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball`), the install-time caveats (Playwright downloads, Python-vs-Node independence, OneDrive-redirect on Windows), and the consent flow.
 
-**Vision loop composition** (discovered via GH-APP-SUPPORT Round 3): `storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball` composes end-to-end with zero conflicts. Closes what looks like a runtime-capability gap (multimodal vision on agent output) via composition, not net-new authorship.
+**Do not** attempt to offer the companions from this skill — the catalog + caveats + verified-status list are maintained in one place (Illustrator) to avoid drift.
 
-**When to offer these companions**: after the main constellation install succeeds, if the heir's workload involves any of:
-
-- Chart authoring, data storytelling, or dashboard rendering
-- Report / document generation that needs visual verification
-- PR review workflows with screenshots or annotations
-- Iterative chart design where seeing the render matters
-
-**When to skip**: pure-code work, non-visual data pipelines, backend / infra without UI. The companions add zero cost when not installed but non-trivial install-time friction (see caveats) when installed.
-
-**Install command shape** (per-plugin, opt-in — never bundle without explicit consent):
-
-```pwsh
-copilot plugin install <name>@<marketplace>
-```
-
-Heirs may install any subset; the plugins compose but don't require each other. `storytelling-requirements` + `visual-artifact-qa` + `chart-interpretation` + `eyeball` is the vision-loop bundle; the others fill adjacent gaps.
-
-**Install-time caveats** (documented from Round 2 + Round 4 feedback):
-
-- `chromium-control-canvas` needs 3 manual steps after `copilot plugin install`: `cd` to extension dir + `npm install`, then `npx playwright install chromium` (~112 MiB), then a `python -m http.server` workaround for `file://` URLs. Playwright is required.
-- `eyeball` needs 2 manual steps: `pip install playwright` + `python -m playwright install chromium` (Python Playwright is independent from Node Playwright — installing one does not satisfy the other, per upstream recommendation 5 in GH-APP-SUPPORT).
-- `eyeball` default output path is `~/Desktop` which is OneDrive-redirected on many Windows setups. Override the output path if data-syncing audit artifacts to corporate OneDrive is a concern.
-- `napkin` and `visual-pr` are also Playwright-based and may hit the same first-launch friction pattern.
-- Both browser-based plugins re-download Chromium (~100 MiB each) rather than sharing a common install (upstream recommendation 6).
-
-**Verify existence before install** (anti-hallucination discipline per `plugin-management` skill): marketplaces evolve. Before installing any of these, run `copilot plugin marketplace browse <marketplace>` and confirm the plugin is still present. Verified state above is as of 2026-07-31.
+**Discovery + verification history**: the 9-plugin catalog + vision-loop composition were discovered and Round-4 verified via the [Steward GH-APP-SUPPORT feedback loop](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/GH-APP-SUPPORT.md) on 2026-07-31 (ledger row `[GH-APP-FEEDBACK]` closure). This skill originally shipped the catalog in Core v0.3.0 (via commit `a2de9d4`); Illustrator v0.6.0 took ownership 2026-08-01.
 
 ## Consent flow
 
@@ -92,7 +57,7 @@ Print the four-plugin table above. Ask the heir:
 
 Default to "all four" if the heir just says "yes". Never install `alex-act-msft` without an explicit tenant confirmation in Step 2.
 
-**Do not** offer visual-workflow companions in Step 1 — they are a Step 7 follow-up, offered only if the heir's declared workload points that way. Bundling them here dilutes the consent flow.
+**Do not** offer visual-workflow companions in Step 1 — they are a Step 7 follow-up **via Illustrator's `/install-visual-companions` skill (owner: `alex-act-illustrator-plugin` v0.6.0+)**. Bundling them into the constellation install dilutes the consent flow.
 
 ### Step 2 — Tenant check for `alex-act-msft`
 
@@ -264,7 +229,7 @@ Print a summary:
 - Discipline bootstrap: applied, declined, or skipped-as-current — and if applied, the file count and the overlap-scan result
 - Files modified: `~/.copilot/settings.json` — show a diff of what changed. If the bootstrap ran, also `~/.copilot/instructions/` plus its receipt
 - Next steps: enabling Microsoft ecosystem plugins per project → `/setup-enterprise` in that project's workspace; enabling Microsoft-internal signals → `/setup-msft` (if MSFT installed)
-- **Visual-workflow companions** (see § "Optional: visual workflow companions" above): if the heir mentioned chart authoring, dashboards, reports with visuals, PR screenshots, or any workload involving visual verification, name the specific companion plugins that fit (do not list all 9). For each, print the exact install command and the install-time caveats. Never install without explicit per-plugin consent — offering is not installing.
+- **Visual-workflow companions** (see § "Optional: visual workflow companions" above for ownership + rationale): if the heir mentioned chart authoring, dashboards, reports with visuals, PR screenshots, or any workload involving visual verification, tell them to invoke `/install-visual-companions` (Illustrator prompt) after this install completes. Do NOT list the 9 plugins from here — the catalog + install-time caveats + verified-status list live in Illustrator's `install-visual-companions` skill to keep them from drifting across two plugins.
 - If the bootstrap was declined, say plainly that Core's skills are available but the ACT discipline layer is not, and that `/install-constellation` can be re-run later to add it
 
 ## Idempotency
