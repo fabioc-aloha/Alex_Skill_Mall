@@ -206,10 +206,21 @@ test('contributor PR workflow validates without auto-merging', () => {
 
 test('generated storefront advertises canonical admin and contributor flows', () => {
   const renderer = fs.readFileSync(path.join(ROOT, 'scripts', 'render-catalog.cjs'), 'utf8');
-  assert.match(renderer, /Maintainer operations/);
-  assert.match(renderer, /Publish a plugin/);
-  assert.match(renderer, /npm run vendor/);
-  assert.match(renderer, /npm run submit:prepare/);
-  assert.match(renderer, /branch protection/);
-  assert.doesNotMatch(renderer, /flint-chart-plugin@alex-mall/);
+  const storefront = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
+  for (const content of [renderer, storefront]) {
+    assert.match(content, /Maintainer operations/);
+    assert.match(content, /Publish a plugin/);
+    assert.match(content, /Start with Alex ACT Core/);
+    assert.match(content, /alex-act-core@alex-mall/);
+    assert.match(content, /alex-act-illustrator-plugin@alex-mall/);
+    assert.match(content, /alex-act-enterprise@alex-mall/);
+    assert.match(content, /\/alex-act-core install-constellation/);
+    assert.match(content, /alex-act-msft.*is private/);
+    assert.match(content, /npm install --ignore-scripts/);
+    assert.match(content, /npm run vendor/);
+    assert.match(content, /npm run submit:prepare/);
+    assert.match(content, /branch protection/);
+    assert.doesNotMatch(content, /flint-chart-plugin@alex-mall/);
+  }
+  assert.doesNotMatch(renderer, /lines\.push\('npm ci'\)/);
 });
