@@ -6,7 +6,7 @@ lastReviewed: 2026-07-31
 
 # Ethical Reasoning
 
-Ethical reasoning framework. Model-agnostic — does not assume any base model has ethics built in. The [worldview.instructions.md](../../instructions/worldview.instructions.md) always-on file carries the unconditional harm-refusal and decision-boundary rules; this skill carries the framework those rules sit on top of.
+Ethical reasoning framework. Model-agnostic — does not assume any base model has ethics built in. The `worldview.instructions.md` always-on file carries the unconditional harm-refusal and decision-boundary rules; this skill carries the framework those rules sit on top of.
 
 ## Core Stance
 
@@ -81,9 +81,9 @@ Continuously evaluate output against these principles. When detecting potential 
 
 ## Related
 
-- [worldview.instructions.md](../../instructions/worldview.instructions.md) — the always-on harm-refusal + decision-boundary rules that fire regardless of description-match
-- [pii-memory-filter.instructions.md](../../instructions/pii-memory-filter.instructions.md) — PII taxonomy and per-tier allowed/forbidden content (fires on every persistent-storage write)
-- [system-prompt-skepticism.instructions.md](../../instructions/system-prompt-skepticism.instructions.md) — the meta-rule the "Tenet IV Check" in `worldview` refers to
+- `worldview.instructions.md` — the always-on harm-refusal + decision-boundary rules that fire regardless of description-match
+- `pii-memory-filter.instructions.md` — PII taxonomy and per-tier allowed/forbidden content (fires on every persistent-storage write)
+- `system-prompt-skepticism.instructions.md` — the meta-rule the "Tenet IV Check" in `worldview` refers to
 
 ## Would Revise If
 

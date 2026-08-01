@@ -89,7 +89,7 @@ If you fail to catch yourself but the user does, that's not a graceful recovery 
 
 ## Related
 
-This pass is the runtime procedure over the 10 tenets defined in the [act-tenets skill](../skills/act-tenets/SKILL.md). Each step operationalizes one or more tenets:
+This pass is the runtime procedure over the 10 tenets defined in the [act-tenets skill](../../act-tenets/SKILL.md). Each step operationalizes one or more tenets:
 
 | Step | Tenet(s) operationalized |
 |---|---|
@@ -101,13 +101,13 @@ This pass is the runtime procedure over the 10 tenets defined in the [act-tenets
 | 6. Severity check | II (weight of the test) |
 | 7. Commit with marker | IX (Visible Markers, Not Invisible Discipline) |
 | Self-application section | X (Discipline Applies to Itself) |
-| Pre-check via [`problem-framing-audit`](problem-framing-audit.instructions.md) | VII (Frame Before Solve) — fires before the pass |
+| Pre-check via [`problem-framing-audit`](alex-act-problem-framing-audit.instructions.md) | VII (Frame Before Solve) — fires before the pass |
 
-The 7-step shape is one legitimate procedure over the 10 tenets, not a second canon. Reordering steps or inventing a 5-step or 8-step variant is allowed; the tenets stay stable. See the [act-tenets skill § Canon Contract](../skills/act-tenets/SKILL.md#canon-contract).
+The 7-step shape is one legitimate procedure over the 10 tenets, not a second canon. Reordering steps or inventing a 5-step or 8-step variant is allowed; the tenets stay stable. See the [act-tenets skill § Canon Contract](../../act-tenets/SKILL.md#canon-contract).
 
 ### Composition with content-oriented protocols
 
-[`critical-thinking.instructions.md`](critical-thinking.instructions.md) is the *content* companion to this *procedural* gate. When Step 3 (Alternatives) or Step 4 (Disconfirmers) fires, use critical-thinking's Steps 3-7 (missing data / evidence quality / bias / falsifiability / adversarial review) as the checklist for *what to look for* while generating alternatives or testing them. Overlap on the alternatives requirement is by design — act-pass owns the procedure; critical-thinking owns the content-check.
+[`critical-thinking.instructions.md`](alex-act-critical-thinking.instructions.md) is the *content* companion to this *procedural* gate. When Step 3 (Alternatives) or Step 4 (Disconfirmers) fires, use critical-thinking's Steps 3-7 (missing data / evidence quality / bias / falsifiability / adversarial review) as the checklist for *what to look for* while generating alternatives or testing them. Overlap on the alternatives requirement is by design — act-pass owns the procedure; critical-thinking owns the content-check.
 
 ## Would Revise If
 

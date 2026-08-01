@@ -94,9 +94,9 @@ Track the next 20 non-trivial sessions in which this skill activates. In what pe
 | Surface | How frame-audit attaches |
 |---|---|
 | [`critical-thinking/SKILL.md`](../critical-thinking/SKILL.md) | Inserted as **Discipline -1** before the Materiality Gate; this skill is its detailed body |
-| [`critical-thinking.instructions.md`](../../instructions/critical-thinking.instructions.md) | Adds the L1 always-on line: *"Before solving non-trivially, restate the problem in one sentence; if user's framing differs from yours, flag it before proceeding."* |
-| [`act-pass.instructions.md`](../../instructions/act-pass.instructions.md) | Step 1 of the 7-step pass *is* the frame audit |
-| [`/problem-framing-audit.prompt.md`](../../prompts/problem-framing-audit.prompt.md) | User-invokable trigger to force this skill on a stuck problem |
+| `critical-thinking.instructions.md` | Adds the L1 always-on line: *"Before solving non-trivially, restate the problem in one sentence; if user's framing differs from yours, flag it before proceeding."* |
+| `act-pass.instructions.md` | Step 1 of the 7-step pass *is* the frame audit |
+| `/problem-framing-audit.prompt.md` | User-invokable trigger to force this skill on a stuck problem |
 
 ## Background Reading
 

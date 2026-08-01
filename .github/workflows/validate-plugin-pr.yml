@@ -1,0 +1,52 @@
+name: Validate Plugin Contribution
+
+on:
+  pull_request:
+    paths:
+      - 'plugins/**'
+      - '.github/plugin/marketplace.json'
+      - 'scripts/**'
+      - 'test/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate proposed plugins
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout contribution
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate changed plugin payloads
+        run: npm run submit:validate -- --changed --base "${{ github.event.pull_request.base.sha }}" --allow-none
+
+      - name: Run Mall tests
+        run: npm test
+
+      - name: Verify generated marketplace is current
+        run: |
+          node scripts/render-marketplace.cjs
+          git diff --exit-code -- .github/plugin/marketplace.json
+
+      - name: Validate catalog contracts
+        run: npm run validate
+
+      - name: Approval reminder
+        run: echo "Automated checks passed. A CODEOWNER must still review and approve this plugin."

@@ -196,7 +196,7 @@ Track outcomes in the maintaining repo's curation log.
 
 ## Related
 
-- [`/update-plugins`](../../prompts/update-plugins.prompt.md) — slash-command entry point
+- `/update-plugins` — slash-command entry point
 - [`plugin-management`](../plugin-management/SKILL.md) — general Copilot CLI plugin operations
 - [`install-constellation`](../install-constellation/SKILL.md) — install-time sibling
 - `constellation/PLUGIN-INTEGRATION.md` § 3 in Steward — the update model that grounds this skill

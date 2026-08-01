@@ -205,8 +205,8 @@ Track outcomes in Steward `operations/ledgers/curation-log.md` tagged `[GREETING
 
 ## Related
 
-- [`install-constellation`](../skills/install-constellation/SKILL.md) skill — the target of Response A's setup offer; has an "auto-invoked from greeting-checkin" mode
-- [`update-plugins`](../skills/update-plugins/SKILL.md) skill — the target of Response C's update mention; owns the Mall catalog fetch helper
-- [`plugin-management`](../skills/plugin-management/SKILL.md) skill — canonical documentation of the session-state hint file schema
+- [`install-constellation`](../../install-constellation/SKILL.md) skill — the target of Response A's setup offer; has an "auto-invoked from greeting-checkin" mode
+- [`update-plugins`](../../update-plugins/SKILL.md) skill — the target of Response C's update mention; owns the Mall catalog fetch helper
+- [`plugin-management`](../../plugin-management/SKILL.md) skill — canonical documentation of the session-state hint file schema
 - Steward [`USER-EXPERIENCE.md` § Stage 1](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md) — user-facing 4-step install flow this instruction operationalizes
 - Steward [`PLUGIN-INTEGRATION.md` § 3](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/PLUGIN-INTEGRATION.md) — the greeting-checkin discovery pattern in the update model

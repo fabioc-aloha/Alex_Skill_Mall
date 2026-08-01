@@ -35,19 +35,47 @@
       "skills/deep-review/SKILL.md",
       "skills/doc-hygiene/SKILL.md",
       "skills/docx-to-md/SKILL.md",
+      "skills/docx-to-md/scripts/docx-to-md.cjs",
       "skills/ethical-reasoning/SKILL.md",
       "skills/git-workflow/SKILL.md",
       "skills/html-to-md/SKILL.md",
+      "skills/html-to-md/scripts/html-to-md.cjs",
       "skills/humanizer/SKILL.md",
+      "skills/humanizer/examples/full-example.md",
       "skills/install-constellation/SKILL.md",
+      "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-emotional-intelligence.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-epistemic-calibration.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-lint-discipline.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-no-deferred-debt.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-pii-memory-filter.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-proactive-awareness.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-reliance-nudges.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-session-health-monitoring.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-system-prompt-skepticism.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-terminal-command-safety.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
       "skills/lint-clean-markdown/SKILL.md",
       "skills/markdown-mermaid/SKILL.md",
+      "skills/markdown-mermaid/markdown-light.css",
+      "skills/markdown-mermaid/references/diagram-reference.md",
+      "skills/markdown-mermaid/references/markdown-best-practices.md",
+      "skills/markdown-mermaid/references/pitfalls.md",
+      "skills/markdown-mermaid/references/tool-ecosystem.md",
       "skills/markdown-sanitization-chain/SKILL.md",
       "skills/mcp-builder/SKILL.md",
       "skills/md-to-eml/SKILL.md",
+      "skills/md-to-eml/scripts/md-to-eml.cjs",
       "skills/md-to-html/SKILL.md",
+      "skills/md-to-html/scripts/md-to-html.cjs",
       "skills/md-to-txt/SKILL.md",
+      "skills/md-to-txt/scripts/md-to-txt.cjs",
       "skills/md-to-word/SKILL.md",
+      "skills/md-to-word/scripts/md-to-word.cjs",
       "skills/meditation/SKILL.md",
       "skills/memory-management/SKILL.md",
       "skills/mutation-testing/SKILL.md",
@@ -60,11 +88,15 @@
       "skills/spike/SKILL.md",
       "skills/status-reporting/SKILL.md",
       "skills/systematic-debugging/SKILL.md",
+      "skills/systematic-debugging/references/condition-based-waiting.md",
+      "skills/systematic-debugging/references/defense-in-depth.md",
+      "skills/systematic-debugging/references/root-cause-tracing.md",
       "skills/test-driven-development/SKILL.md",
       "skills/token-waste-elimination/SKILL.md",
       "skills/uninstall-constellation/SKILL.md",
       "skills/update-plugins/SKILL.md"
     ],
+    "agents": [],
     "prompts": [
       "commands/configure-vscode-verify.md",
       "commands/configure-vscode.md",
@@ -81,26 +113,8 @@
       "commands/update-plugins.md"
     ],
     "bundled": [
-      "scripts/shared/ (converter runtime)",
-      "config/ (brand palette + banner brand)"
-    ],
-    "bootstrap_instructions": [
-      "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-emotional-intelligence.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-epistemic-calibration.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-lint-discipline.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-no-deferred-debt.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-pii-memory-filter.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-proactive-awareness.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-reliance-nudges.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-session-health-monitoring.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-system-prompt-skepticism.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-terminal-command-safety.instructions.md",
-      "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md"
+      "config",
+      "scripts/shared"
     ]
   },
   "install_paths": {
@@ -163,5 +177,450 @@
       "md-to-word": ".github/skills/md-to-word/SKILL.md",
       "uninstall-constellation": ".github/skills/uninstall-constellation/SKILL.md"
     }
-  }
+  },
+  "submission": {
+    "schema_version": "1.0",
+    "submitted_by": "mall-admin",
+    "evidence": null
+  },
+  "link_rewrites": [
+    {
+      "file": "CHANGELOG.md",
+      "label": "svg-banner",
+      "target": "../svg-banner/SKILL.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "commands/critical-thinking.md",
+      "label": "critical-thinking.instructions.md",
+      "target": "../instructions/critical-thinking.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "commands/critical-thinking.md",
+      "label": "critical-thinking.instructions.md",
+      "target": "../instructions/critical-thinking.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "commands/note.md",
+      "from": "save-session-note.prompt.md",
+      "to": "save-session-note.md",
+      "reason": "prompt-renamed"
+    },
+    {
+      "file": "commands/note.md",
+      "from": "save-session-note.prompt.md",
+      "to": "save-session-note.md",
+      "reason": "prompt-renamed"
+    },
+    {
+      "file": "commands/problem-framing-audit.md",
+      "label": "problem-framing-audit.instructions.md",
+      "target": "../instructions/problem-framing-audit.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "commands/problem-framing-audit.md",
+      "label": "problem-framing-audit.instructions.md",
+      "target": "../instructions/problem-framing-audit.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/act-tenets/SKILL.md",
+      "label": "act-pass.instructions.md",
+      "target": "../../instructions/act-pass.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/act-tenets/SKILL.md",
+      "label": "problem-framing-audit",
+      "target": "../../instructions/problem-framing-audit.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/act-tenets/SKILL.md",
+      "label": "critical-thinking",
+      "target": "../../instructions/critical-thinking.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/act-tenets/SKILL.md",
+      "label": "system-prompt-skepticism",
+      "target": "../../instructions/system-prompt-skepticism.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/act-tenets/SKILL.md",
+      "label": "epistemic-calibration",
+      "target": "../../instructions/epistemic-calibration.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/anti-hallucination/SKILL.md",
+      "label": "epistemic-calibration",
+      "target": "../../instructions/epistemic-calibration.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/anti-hallucination/SKILL.md",
+      "label": "system-prompt-skepticism",
+      "target": "../../instructions/system-prompt-skepticism.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/anti-hallucination/SKILL.md",
+      "label": "epistemic-calibration",
+      "target": "../../instructions/epistemic-calibration.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/big-idea/SKILL.md",
+      "label": "copilot-instructions.md",
+      "target": "../../copilot-instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/browser-tools/SKILL.md",
+      "label": "system-prompt-skepticism.instructions.md",
+      "target": "../../instructions/system-prompt-skepticism.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/browser-tools/SKILL.md",
+      "label": "terminal-command-safety.instructions.md",
+      "target": "../../instructions/terminal-command-safety.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/communication-craft/SKILL.md",
+      "label": "emotional-intelligence.instructions.md",
+      "target": "../../instructions/emotional-intelligence.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/communication-craft/SKILL.md",
+      "label": "emotional-intelligence.instructions.md",
+      "target": "../../instructions/emotional-intelligence.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/critical-thinking/SKILL.md",
+      "label": "epistemic-calibration.instructions.md",
+      "target": "../../instructions/epistemic-calibration.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/critical-thinking/SKILL.md",
+      "label": "act-pass.instructions.md",
+      "target": "../../instructions/act-pass.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/critical-thinking/SKILL.md",
+      "label": "problem-framing-audit.instructions.md",
+      "target": "../../instructions/problem-framing-audit.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/critical-thinking/SKILL.md",
+      "label": "/problem-framing-audit.prompt.md",
+      "target": "../../prompts/problem-framing-audit.prompt.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/ethical-reasoning/SKILL.md",
+      "label": "worldview.instructions.md",
+      "target": "../../instructions/worldview.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/ethical-reasoning/SKILL.md",
+      "label": "worldview.instructions.md",
+      "target": "../../instructions/worldview.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/ethical-reasoning/SKILL.md",
+      "label": "pii-memory-filter.instructions.md",
+      "target": "../../instructions/pii-memory-filter.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/ethical-reasoning/SKILL.md",
+      "label": "system-prompt-skepticism.instructions.md",
+      "target": "../../instructions/system-prompt-skepticism.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
+      "from": "../skills/act-tenets/SKILL.md",
+      "to": "../../act-tenets/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
+      "from": "problem-framing-audit.instructions.md",
+      "to": "alex-act-problem-framing-audit.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
+      "from": "../skills/act-tenets/SKILL.md",
+      "to": "../../act-tenets/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
+      "from": "critical-thinking.instructions.md",
+      "to": "alex-act-critical-thinking.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
+      "from": "problem-framing-audit.instructions.md",
+      "to": "alex-act-problem-framing-audit.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
+      "from": "../skills/critical-thinking/SKILL.md",
+      "to": "../../critical-thinking/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
+      "from": "act-pass.instructions.md",
+      "to": "alex-act-act-pass.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
+      "from": "problem-framing-audit.instructions.md",
+      "to": "alex-act-problem-framing-audit.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
+      "from": "../skills/act-tenets/SKILL.md",
+      "to": "../../act-tenets/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-emotional-intelligence.instructions.md",
+      "from": "reliance-nudges.instructions.md",
+      "to": "alex-act-reliance-nudges.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
+      "from": "../skills/install-constellation/SKILL.md",
+      "to": "../../install-constellation/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
+      "from": "../skills/update-plugins/SKILL.md",
+      "to": "../../update-plugins/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
+      "from": "../skills/plugin-management/SKILL.md",
+      "to": "../../plugin-management/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
+      "from": "../skills/memory-management/SKILL.md",
+      "to": "../../memory-management/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
+      "from": "../skills/memory-management/SKILL.md",
+      "to": "../../memory-management/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
+      "from": "../skills/memory-management/SKILL.md",
+      "to": "../../memory-management/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
+      "from": "pii-memory-filter.instructions.md",
+      "to": "alex-act-pii-memory-filter.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-pii-memory-filter.instructions.md",
+      "from": "memory-triggers.instructions.md",
+      "to": "alex-act-memory-triggers.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-pii-memory-filter.instructions.md",
+      "from": "../skills/ethical-reasoning/SKILL.md",
+      "to": "../../ethical-reasoning/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-proactive-awareness.instructions.md",
+      "from": "memory-triggers.instructions.md",
+      "to": "alex-act-memory-triggers.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
+      "from": "../skills/problem-framing-audit/SKILL.md",
+      "to": "../../problem-framing-audit/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
+      "from": "../skills/act-tenets/SKILL.md",
+      "to": "../../act-tenets/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
+      "from": "act-pass.instructions.md",
+      "to": "alex-act-act-pass.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
+      "from": "critical-thinking.instructions.md",
+      "to": "alex-act-critical-thinking.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-reliance-nudges.instructions.md",
+      "from": "emotional-intelligence.instructions.md",
+      "to": "alex-act-emotional-intelligence.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-session-health-monitoring.instructions.md",
+      "from": "../skills/platform-awareness/SKILL.md",
+      "to": "../../platform-awareness/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-system-prompt-skepticism.instructions.md",
+      "from": "worldview.instructions.md",
+      "to": "alex-act-worldview.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
+      "from": "../skills/ethical-reasoning/SKILL.md",
+      "to": "../../ethical-reasoning/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
+      "from": "system-prompt-skepticism.instructions.md",
+      "to": "alex-act-system-prompt-skepticism.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
+      "from": "../skills/ethical-reasoning/SKILL.md",
+      "to": "../../ethical-reasoning/SKILL.md",
+      "reason": "skill-root-normalized"
+    },
+    {
+      "file": "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
+      "from": "system-prompt-skepticism.instructions.md",
+      "to": "alex-act-system-prompt-skepticism.instructions.md",
+      "reason": "bootstrap-prefixed"
+    },
+    {
+      "file": "skills/install-constellation/SKILL.md",
+      "label": "/install-constellation",
+      "target": "../../prompts/install-constellation.prompt.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/meditation/SKILL.md",
+      "label": "/meditate prompt",
+      "target": "../../prompts/meditate.prompt.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/meditation/SKILL.md",
+      "label": "memory-triggers.instructions.md",
+      "target": "../../instructions/memory-triggers.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/memory-management/SKILL.md",
+      "label": "memory-triggers.instructions.md",
+      "target": "../../instructions/memory-triggers.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/memory-management/SKILL.md",
+      "label": "Handoff routing",
+      "target": "../../instructions/memory-triggers.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/memory-management/SKILL.md",
+      "label": "memory-triggers.instructions.md",
+      "target": "../../instructions/memory-triggers.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/memory-management/SKILL.md",
+      "label": "pii-memory-filter.instructions.md",
+      "target": "../../instructions/pii-memory-filter.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/platform-awareness/SKILL.md",
+      "label": "skill-review / skill-creator",
+      "target": "../skill-review/SKILL.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/problem-framing-audit/SKILL.md",
+      "label": "critical-thinking.instructions.md",
+      "target": "../../instructions/critical-thinking.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/problem-framing-audit/SKILL.md",
+      "label": "act-pass.instructions.md",
+      "target": "../../instructions/act-pass.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/problem-framing-audit/SKILL.md",
+      "label": "/problem-framing-audit.prompt.md",
+      "target": "../../prompts/problem-framing-audit.prompt.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/test-driven-development/SKILL.md",
+      "label": "agent-delegation",
+      "target": "../../instructions/agent-delegation.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/test-driven-development/SKILL.md",
+      "label": "agent-delegation",
+      "target": "../../instructions/agent-delegation.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/update-plugins/SKILL.md",
+      "label": "/update-plugins",
+      "target": "../../prompts/update-plugins.prompt.md",
+      "reason": "not-vendored"
+    }
+  ]
 }

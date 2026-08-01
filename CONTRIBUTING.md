@@ -1,224 +1,179 @@
 # Contributing to Alex ACT Plugin Mall
 
-Thank you for sharing your hard-won knowledge. This guide explains how to contribute plugins that meet our quality standards.
+Contributions are welcome.
 
----
+Contract: you prepare the plugin payload in your fork, automation validates it, CODEOWNER `@fabioc-aloha` reviews and approves, and merge publishes the accepted change. Passing checks is required but is not acceptance.
 
-## Before You Contribute
+## What Is Accepted
 
-### Quality Gates
+Submissions must be:
 
-Every skill must pass ALL of these:
+- Battle-tested in real project use.
+- Specific and actionable.
+- Current with upstream behavior.
+- Licensed with clear provenance.
+- Non-overlapping with existing Mall entries, unless you provide a clear rationale.
+- Free of PII, client-private data, private business data, or credentials.
 
-| Gate | Question | If No |
-|------|----------|-------|
-| **Time savings** | Would this save someone >30 min of debugging? | Too shallow |
-| **Non-obvious** | Is this NOT the first result on Google/Stack Overflow? | Too common |
-| **Battle-tested** | Has this been used in a real project? | Unverified |
-| **Specific** | Does this solve a concrete problem, not a vague concern? | Too abstract |
-| **Current** | Is this still relevant (not fixed in a newer version)? | Outdated |
+## Prerequisites
 
-### What We Don't Accept
+- Node.js 24 or newer.
+- `npm ci` completed in the Mall repo.
+- A fork of this repo and a feature branch.
 
-- Generic best practices ("use meaningful variable names")
-- Documentation summaries ("here's how Azure Functions work")
-- Shallow checklists ("don't forget to test")
-- Anything easily found with a basic search
-- Theoretical patterns without real-world validation
-- Content with PII or client-specific details
+## Source Plugin Requirements
 
----
+Your source plugin must meet these requirements before preparation:
 
-## Skill Format
+- `plugin.json` is present and valid.
+- `plugin.json` uses a kebab-case `name`.
+- `plugin.json` has `version`.
+- `plugin.json` has `description`.
+- `plugin.json` has an `author` object.
+- `plugin.json` declares at least one component path such as `skills`, `agents`, `commands`, `hooks`, `mcpServers`, or `lspServers`.
+- Every skill has `SKILL.md` with frontmatter that includes `name` and `description`.
+- Every command markdown file has a `description` field in frontmatter.
+- `README.md` is recommended.
+- `LICENSE` is recommended.
+- Total vendored payload size stays at or below the platform limit of 100 files.
+- No secrets, credential files, or symlinks.
 
-### Directory Structure
+Forbidden content examples include `.env`, private keys, OAuth secrets, token exports, and symlinked files.
 
-```
-skills/category/skill-name/
-├── SKILL.md              # Required: The knowledge itself
-├── skill-name.instructions.md  # Optional: Auto-load trigger
-└── examples/             # Optional: Code examples
-    └── ...
-```
+## Canonical Contributor Flow
 
-### SKILL.md Template
+Run from your fork of the Mall repo.
 
-```markdown
-# Skill Name
-
-**Tags**: `tag1` `tag2` `tag3`
-**Currency**: 2026-04-27
-**Time saved**: X hours
-
----
-
-## The Problem
-
-[Describe the specific problem this skill solves. Be concrete.]
-
-## Why This Is Hard to Find
-
-[Explain why Google/Stack Overflow/LLMs don't easily surface this.]
-
-## The Solution
-
-[The actual knowledge. Be specific and actionable.]
-
-### Code Example (if applicable)
-
-\`\`\`language
-// Concrete example
-\`\`\`
-
-## Evidence
-
-- [Link to issue where this was discovered]
-- [Link to project where this was used]
-- [Other validation]
-
-## Related
-
-- [Links to related skills]
-- [Links to official docs that are incomplete]
-```
-
-### Optional: Instructions File
-
-If the skill should auto-load in certain contexts, add an instructions file:
-
-```markdown
----
-type: instruction
-lifecycle: stable
-inheritance: inheritable
-description: "One-line description of when this loads"
-applyTo: "**/*.ts"  # Glob pattern for auto-loading
-currency: 2026-04-27
----
-
-# Skill Name
-
-[Brief trigger content that tells the AI to read the full SKILL.md]
-
-See `.github/skills/skill-name/SKILL.md` for full details.
-```
-
----
-
-## Scaffold Format
-
-### Directory Structure
-
-```
-scaffolds/scaffold-name/
-├── README.md             # What this scaffold provides
-├── .github/              # Pre-configured brain
-│   └── ...
-├── src/                  # Starter code
-│   └── ...
-├── package.json          # Dependencies (if applicable)
-└── ...                   # Other project files
-```
-
-### README Requirements
-
-Every scaffold README must include:
-
-1. **What you get** — List of pre-configured features
-2. **Prerequisites** — Required tools and accounts
-3. **Quick start** — Copy, configure, deploy
-4. **What's pre-configured** — Explain each decision
-5. **Customization points** — What to change for your needs
-6. **Known limitations** — Be honest about what's not covered
-
----
-
-## Submitting a Skill
-
-### 1. Fork and Branch
+Dry run first:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Alex_ACT_KB.git
-git checkout -b skill/your-skill-name
+npm run submit:prepare -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project"
 ```
 
-### 2. Create the Skill
+Apply after dry-run output looks correct:
 
-Follow the format above. Include:
-
-- Concrete problem description
-- Why it's hard to find
-- Actionable solution
-- Evidence links
-
-### 3. Regenerate CATALOG.json
-
-Run `node scripts/generate-catalog.cjs` to update the machine-readable catalog.
-
-### 4. Submit PR
-
-Use this PR template:
-
-```markdown
-## Skill: [Name]
-
-### Quality Gate Checklist
-
-- [ ] Time savings: >30 min
-- [ ] Non-obvious: Not first Google result
-- [ ] Battle-tested: Used in real project
-- [ ] Specific: Solves concrete problem
-- [ ] Current: Still relevant
-
-### Evidence
-
-- Issue where discovered: [link]
-- Project where used: [link]
-
-### Description
-
-[Brief description of what this skill solves]
+```bash
+npm run submit:prepare -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project" --apply
 ```
 
----
+Optional include mappings:
 
-## Review Process
+```bash
+npm run submit:prepare -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project" --include .github/config=config,.github/scripts/shared=scripts/shared --apply
+```
 
-1. **Automated checks** — Format validation, required files
-2. **Value review** — Does it pass the quality gates?
-3. **Technical review** — Is the solution correct and complete?
-4. **Merge** — Added to catalog
+Validate and run checks:
 
-Reviews typically complete within 1 week.
+```bash
+npm run submit:validate -- --plugin productivity/my-plugin
+npm test
+npm run validate
+```
 
----
+### What `submit:prepare` Does
 
-## Updating Existing Skills
+`submit:prepare`:
 
-Skills can become outdated. To update:
+- Normalizes source component paths into Mall-root component paths such as `skills/`, `agents/`, and `commands/`.
+- Renames `*.prompt.md` command files to `*.md` in the vendored payload.
+- Writes `.mall-metadata.json`.
+- Regenerates `.github/plugin/marketplace.json` deterministically.
 
-1. Check if the issue is still relevant in current versions
-2. Update the solution if platform behavior changed
-3. Update the `currency` date
-4. Note what changed in your PR
+`submit:prepare` never commits, never pushes, and never merges.
 
-To deprecate a skill:
+## Branch, Commit, and PR Steps
 
-1. Add `**Status**: Deprecated as of [version]` to SKILL.md
-2. Explain what changed (e.g., "Fixed in Azure SWA v2.0")
-3. Skill will be removed after 6 months
+1. Create and switch to your feature branch.
+2. Run the canonical flow above.
+3. Review only intended changes.
+4. Commit with severity tag `[behaviour]` in the commit subject.
+5. Open a PR using `.github/PULL_REQUEST_TEMPLATE/plugin-submission.md`.
 
----
+Your PR should include:
 
-## Code of Conduct
+- The plugin payload folder under `plugins/<category>/<name>/`.
+- The generated `.github/plugin/marketplace.json` update.
 
-- Be respectful and constructive in reviews
-- Credit original discoverers when known
-- No PII or client-specific content
-- Keep skills focused and actionable
+Your PR should not include:
 
----
+- Catalog outputs.
+- Scoring outputs.
+- README refresh outputs.
 
-## Questions?
+Maintainer refresh owns those outputs.
 
-Open an issue with the `question` label.
+## Automated Review
+
+Automation checks:
+
+- Changed plugin path and payload integrity.
+- 100-file platform limit.
+- Secret and symlink rejection.
+- Required frontmatter and component declarations.
+- Relative Markdown links remain inside the payload and resolve.
+- Marketplace determinism.
+- `npm test` pass.
+- `npm run validate` pass.
+
+The workflow never auto-merges. CODEOWNER approval is required.
+
+Repository administrators must configure `main` branch protection to require
+the **Validate proposed plugins** status check and CODEOWNER approval.
+CODEOWNERS requests the review; branch protection makes it mandatory.
+
+## Editorial Review
+
+Even with green checks, maintainers review:
+
+- Value and practical usefulness.
+- Overlap with existing entries.
+- Evidence quality.
+- License and provenance clarity.
+- Safety and data handling.
+- Maintenance burden.
+- Category fit.
+
+Admin review can request revisions or decline despite passing checks.
+
+## Updating an Existing Plugin
+
+Contributors can open a normal PR to update an existing plugin they own, but `submit:prepare` intentionally refuses overwrite behavior.
+
+If overwrite is needed:
+
+- Ask an admin, or
+- Manually update only your owned plugin payload with a clear upstream ref in metadata and PR notes.
+
+Canonical vendored refreshes are admin-owned:
+
+```bash
+npm run vendor -- --replace --apply
+```
+
+## Maintainer Commands (Concise)
+
+Vendor refresh, review, and maintenance:
+
+```bash
+npm run vendor -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project"
+npm run vendor -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project" --apply
+npm run vendor -- --source ../my-plugin --category productivity --repository https://github.com/you/my-plugin --ref v1.0.0 --submitted-by @you --evidence "Used in a real project" --replace --apply
+npm run maintain -- --curated
+```
+
+Full network maintenance mode:
+
+```bash
+npm run maintain -- --full
+```
+
+`--full` requires `SOURCES_DIR` and either `GH_TOKEN` or `GITHUB_TOKEN`.
+Review diffs before commit.
+
+## Security Disclosure
+
+Report security issues using `SECURITY.md`. Never submit secrets in a PR.
+
+## Would Revise If
+
+Revise this guide if the GitHub Copilot CLI plugin schema changes, if the 100-file platform limit changes, or if the approval model changes. Re-evaluate on 2026-11-01.

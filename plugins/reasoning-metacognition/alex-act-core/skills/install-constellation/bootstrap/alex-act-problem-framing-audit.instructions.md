@@ -63,13 +63,13 @@ Silent passes need no marker — only fire markers when the audit produced somet
 
 ## Skill Reference
 
-Full step-back protocol (8 checks: restate, generalise, specialise, invert, why, pre-mortem, stakeholder, frame audit) in [`.github/skills/problem-framing-audit/SKILL.md`](../skills/problem-framing-audit/SKILL.md) (ships in a later Core batch). This instruction is the always-on gate; the skill is the detailed body.
+Full step-back protocol (8 checks: restate, generalise, specialise, invert, why, pre-mortem, stakeholder, frame audit) in [`.github/skills/problem-framing-audit/SKILL.md`](../../problem-framing-audit/SKILL.md) (ships in a later Core batch). This instruction is the always-on gate; the skill is the detailed body.
 
 ## Related
 
-- [act-tenets skill](../skills/act-tenets/SKILL.md) § Tenet VII (Frame Before Solve) — this file operationalizes it
-- [`act-pass.instructions.md`](act-pass.instructions.md) — the 7-step pass expects the frame audit to have already fired (pre-check)
-- [`critical-thinking.instructions.md`](critical-thinking.instructions.md) — explicitly names "Frame audit comes first" and routes here on non-trivial requests
+- [act-tenets skill](../../act-tenets/SKILL.md) § Tenet VII (Frame Before Solve) — this file operationalizes it
+- [`act-pass.instructions.md`](alex-act-act-pass.instructions.md) — the 7-step pass expects the frame audit to have already fired (pre-check)
+- [`critical-thinking.instructions.md`](alex-act-critical-thinking.instructions.md) — explicitly names "Frame audit comes first" and routes here on non-trivial requests
 
 ## Would Revise If
 

@@ -5,7 +5,11 @@
   "scripts": {
     "validate": "node scripts/validate-catalog.cjs",
     "test": "node --test test/*.test.cjs",
-    "check": "npm test && npm run validate"
+    "check": "npm test && npm run validate",
+    "vendor": "node scripts/vendor-plugin.cjs",
+    "maintain": "node scripts/maintain-mall.cjs",
+    "submit:prepare": "node scripts/prepare-plugin-submission.cjs",
+    "submit:validate": "node scripts/validate-plugin-submission.cjs"
   },
   "engines": {
     "node": ">=24"

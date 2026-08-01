@@ -18,7 +18,7 @@ Challenge what you think is right through structured skepticism.
 6. **Falsifiability** — What would prove this wrong? If nothing could, the claim is unfalsifiable
 7. **Adversarial review** — Argue the opposite position. If you can't steelman the counter-argument, you don't understand the problem
 
-> **Frame audit comes first.** Before this protocol fires, run the Discipline -1 frame audit per [`problem-framing-audit.instructions.md`](problem-framing-audit.instructions.md) on any non-trivial request. Solving the wrong problem precisely is the most expensive class of error.
+> **Frame audit comes first.** Before this protocol fires, run the Discipline -1 frame audit per [`problem-framing-audit.instructions.md`](alex-act-problem-framing-audit.instructions.md) on any non-trivial request. Solving the wrong problem precisely is the most expensive class of error.
 
 ## When to Apply
 
@@ -29,14 +29,14 @@ Challenge what you think is right through structured skepticism.
 
 ## Skill Reference
 
-Full framework in [`.github/skills/critical-thinking/SKILL.md`](../skills/critical-thinking/SKILL.md) (ships in a later Core batch alongside `deep-review` and related framework skills).
+Full framework in [`.github/skills/critical-thinking/SKILL.md`](../../critical-thinking/SKILL.md) (ships in a later Core batch alongside `deep-review` and related framework skills).
 
 ## Related
 
-- [`act-pass.instructions.md`](act-pass.instructions.md) — the *procedural* gate that this *content-oriented* protocol plugs into. Overlap on Step 1 (alternatives) and Steps 6-7 (falsifiability, adversarial) is by design: act-pass owns *when and how intensely* to fire (materiality → commit marker); this file owns *what to check inside the analysis*
-- [`problem-framing-audit.instructions.md`](problem-framing-audit.instructions.md) — Discipline -1 frame audit fires BEFORE this protocol on non-trivial requests (already cited above)
+- [`act-pass.instructions.md`](alex-act-act-pass.instructions.md) — the *procedural* gate that this *content-oriented* protocol plugs into. Overlap on Step 1 (alternatives) and Steps 6-7 (falsifiability, adversarial) is by design: act-pass owns *when and how intensely* to fire (materiality → commit marker); this file owns *what to check inside the analysis*
+- [`problem-framing-audit.instructions.md`](alex-act-problem-framing-audit.instructions.md) — Discipline -1 frame audit fires BEFORE this protocol on non-trivial requests (already cited above)
 - [`adversarial-review` skill](../skills/adversarial-review/SKILL.md) — specializes Step 7 with cross-model routing (rubber-duck for code, general-purpose for prose/decisions)
-- [act-tenets skill](../skills/act-tenets/SKILL.md) § Tenets I, II, III, VIII — this file operationalizes these four tenets
+- [act-tenets skill](../../act-tenets/SKILL.md) § Tenets I, II, III, VIII — this file operationalizes these four tenets
 
 ## Would Revise If
 

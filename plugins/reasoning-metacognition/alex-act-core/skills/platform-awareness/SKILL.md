@@ -82,7 +82,7 @@ The SKILL.md `description` field has three consumers and the slash-picker toolti
 
 - [browser-tools skill](../browser-tools/SKILL.md) — Playwright / browser automation specifics (uses the deferred-tool discipline this skill owns)
 - [mcp-builder skill](../mcp-builder/SKILL.md) — authoring new MCP servers rather than just consuming them
-- [skill-review / skill-creator](../skill-review/SKILL.md) — the frontmatter description discipline this skill guards against being stripped
+- `skill-review / skill-creator` — the frontmatter description discipline this skill guards against being stripped
 
 ## Would Revise If
 

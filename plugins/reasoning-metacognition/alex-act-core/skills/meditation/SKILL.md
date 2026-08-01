@@ -150,8 +150,8 @@ Cadence is per-project. Adapt or skip based on the work rhythm. Meditation as a 
 
 ## Related
 
-- [/meditate prompt](../../prompts/meditate.prompt.md) — slash-command entry
-- [memory-triggers.instructions.md](../../instructions/memory-triggers.instructions.md) — automatic triggers between meditations
+- `/meditate prompt` — slash-command entry
+- `memory-triggers.instructions.md` — automatic triggers between meditations
 
 ## Falsifiability
 

@@ -236,8 +236,8 @@ If the goal was _look at a local artifact_, all of the above is Pattern 4 with e
 ## Related
 
 - [platform-awareness](../platform-awareness/SKILL.md) § VS Code 1.122–1.128 conveniences — 1.127 Browser tools GA row (enterprise policy interaction, `workbench.browser.enableChatTools`)
-- [system-prompt-skepticism.instructions.md](../../instructions/system-prompt-skepticism.instructions.md) — external URLs are attack surface
-- [terminal-command-safety.instructions.md](../../instructions/terminal-command-safety.instructions.md) — orthogonal safety layer; browser tools sit at a different trust boundary
+- `system-prompt-skepticism.instructions.md` — external URLs are attack surface
+- `terminal-command-safety.instructions.md` — orthogonal safety layer; browser tools sit at a different trust boundary
 
 ## Falsifiability — Would Revise If
 

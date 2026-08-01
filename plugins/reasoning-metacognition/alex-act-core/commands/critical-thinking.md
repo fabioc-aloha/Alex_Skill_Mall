@@ -5,9 +5,9 @@ lastReviewed: 2026-05-26
 
 # Critical Thinking Pass
 
-Apply the 7-discipline critical-thinking protocol to a specific decision, claim, or recommendation. The always-on [`critical-thinking.instructions.md`](../instructions/critical-thinking.instructions.md) keeps this discipline running in the background; this prompt forces a deliberate, visible pass for high-stakes work.
+Apply the 7-discipline critical-thinking protocol to a specific decision, claim, or recommendation. The always-on `critical-thinking.instructions.md` keeps this discipline running in the background; this prompt forces a deliberate, visible pass for high-stakes work.
 
-Skill: [critical-thinking](../skills/critical-thinking/SKILL.md). Always-on rule: [critical-thinking.instructions.md](../instructions/critical-thinking.instructions.md).
+Skill: [critical-thinking](../skills/critical-thinking/SKILL.md). Always-on rule: `critical-thinking.instructions.md`.
 
 ## When to Use
 

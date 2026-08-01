@@ -6,7 +6,7 @@ lastReviewed: 2026-07-31
 
 # Communication Craft
 
-Patterns for feedback, audience, and elicitation. Inherited LLM behaviors (clear prose, jargon-defining, signposting) are assumed and not re-stated. Fires on description-match when the request is *about how to communicate* — for the always-on tone/attunement rules that fire on every user message, see [emotional-intelligence.instructions.md](../../instructions/emotional-intelligence.instructions.md).
+Patterns for feedback, audience, and elicitation. Inherited LLM behaviors (clear prose, jargon-defining, signposting) are assumed and not re-stated. Fires on description-match when the request is *about how to communicate* — for the always-on tone/attunement rules that fire on every user message, see `emotional-intelligence.instructions.md`.
 
 ## 1. Giving Feedback
 
@@ -65,7 +65,7 @@ Validate the need before committing to a solution. One sharp question beats five
 
 ## Related
 
-- [emotional-intelligence.instructions.md](../../instructions/emotional-intelligence.instructions.md) — the always-on tone/attunement rules that read every user message; this skill fires when the user's request is *about how to communicate* (feedback, audience, elicitation)
+- `emotional-intelligence.instructions.md` — the always-on tone/attunement rules that read every user message; this skill fires when the user's request is *about how to communicate* (feedback, audience, elicitation)
 - [big-idea skill](../big-idea/SKILL.md) — the compression discipline that distills the "So-What" that this skill's audience-lead pattern requires
 - [status-reporting skill](../status-reporting/SKILL.md) — a specific application of the audience-lead pattern for status updates
 

@@ -4,7 +4,34 @@ All notable changes to Alex ACT Plugin Mall.
 
 ## [Unreleased]
 
+### Added
+
+- Canonical maintainer tooling: `npm run vendor` for dry-run-first upstream
+	imports and refreshes, and `npm run maintain` for curated or full catalog
+	maintenance.
+- Canonical contributor tooling: `npm run submit:prepare` normalizes a source
+	plugin into the Mall shape, while `npm run submit:validate` checks component
+	paths, frontmatter, secret-like files, symlinks, the 100-file limit, and the
+	generated marketplace entry.
+- Contributor PR validation workflow, plugin-submission template, and CODEOWNERS
+	gate. Automation never auto-merges a plugin contribution; `@fabioc-aloha`
+	retains editorial approval.
+- Fixture-backed publication tests covering dry-run/apply behavior, source-path
+	normalization, prompt renaming, metadata generation, secret rejection,
+	payload limit, maintenance sequencing, and the PR approval boundary.
+
 ### Changed
+
+- Storefront and contribution documentation now describe the CLI-native plugin
+	shape and the separate maintainer and contributor workflows.
+- Curated maintenance reconciled the generated storefront and trust surfaces to
+	363 first-party plugins, 3,848 catalog entries, and 42 stores.
+- The vendored `alex-act-core` manifest now points at its actual root `skills/`
+	and `commands/` paths instead of source-repo `.github/` paths.
+- Canonical vendoring was dogfooded against Core v0.4.2: the atomic refresh
+	preserved Mall metadata, produced a valid 96-file payload, and recorded 73
+	link rewrites (40 non-vendored references, 2 prompt renames, 16 skill-root
+	remaps, and 15 bootstrap-prefix remaps).
 
 - **Second-round curation pass (2026-07-28)**: registry pruned from 33 → **29
 	active stores** and 3,548 → **3,479 aggregated plugins**. Cut 4 low-uniqueness

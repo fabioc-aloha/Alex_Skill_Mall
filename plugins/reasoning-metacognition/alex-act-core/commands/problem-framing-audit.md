@@ -5,9 +5,9 @@ lastReviewed: 2026-05-26
 
 # Problem Framing Audit
 
-Run the step-back protocol on a non-trivial problem before committing to a solution. The most expensive class of error is solving the wrong problem precisely (Type III error). The always-on [`problem-framing-audit.instructions.md`](../instructions/problem-framing-audit.instructions.md) keeps a passive frame check active; this prompt forces a deliberate audit when the work earns it.
+Run the step-back protocol on a non-trivial problem before committing to a solution. The most expensive class of error is solving the wrong problem precisely (Type III error). The always-on `problem-framing-audit.instructions.md` keeps a passive frame check active; this prompt forces a deliberate audit when the work earns it.
 
-Skill: [problem-framing-audit](../skills/problem-framing-audit/SKILL.md). Always-on rule: [problem-framing-audit.instructions.md](../instructions/problem-framing-audit.instructions.md).
+Skill: [problem-framing-audit](../skills/problem-framing-audit/SKILL.md). Always-on rule: `problem-framing-audit.instructions.md`.
 
 ## When to Use
 

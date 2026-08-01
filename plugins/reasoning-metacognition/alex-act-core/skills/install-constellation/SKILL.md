@@ -315,7 +315,7 @@ Track outcomes in the maintaining repo's curation log.
 
 ## Related
 
-- [`/install-constellation`](../../prompts/install-constellation.prompt.md) — slash-command entry point
+- `/install-constellation` — slash-command entry point
 - [`plugin-management`](../plugin-management/SKILL.md) — general Copilot CLI plugin operations
 - [`update-plugins`](../update-plugins/SKILL.md) — keep the constellation current after install
 - Constellation doc: `constellation/PLUGIN-INTEGRATION.md` in Steward — the scope + install-order decisions that ground this skill

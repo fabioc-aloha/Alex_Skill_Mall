@@ -6,7 +6,7 @@ lastReviewed: 2026-07-31
 
 # Memory Management
 
-Companion to [memory-triggers.instructions.md](../../instructions/memory-triggers.instructions.md). The always-on trigger-detection rules live in that file; this skill carries the tier-selection detail and cross-session-continuity mechanics that the triggers hand off to.
+Companion to `memory-triggers.instructions.md`. The always-on trigger-detection rules live in that file; this skill carries the tier-selection detail and cross-session-continuity mechanics that the triggers hand off to.
 
 ## Memory Tier Selection
 
@@ -116,12 +116,12 @@ For failure analysis, write to `.github/episodic/postmortem-YYYY-MM-DD-<topic>.m
 - **[Meditation](../meditation/SKILL.md)** — triggers skill extraction and chronicle writing
 - **[Anti-hallucination](../anti-hallucination/SKILL.md)** — triggers verification-scope logging
 - **Post-mortem** — triggers failure analysis
-- **[Handoff routing](../../instructions/memory-triggers.instructions.md)** — the always-on rule that fires this skill
+- **`Handoff routing`** — the always-on rule that fires this skill
 
 ## Related
 
-- [memory-triggers.instructions.md](../../instructions/memory-triggers.instructions.md) — the always-on trigger-detection rules that hand off to this skill
-- [pii-memory-filter.instructions.md](../../instructions/pii-memory-filter.instructions.md) — the write-boundary filter that applies to every tier above
+- `memory-triggers.instructions.md` — the always-on trigger-detection rules that hand off to this skill
+- `pii-memory-filter.instructions.md` — the write-boundary filter that applies to every tier above
 - [meditation skill](../meditation/SKILL.md) — the discipline that populates episodic memory
 
 ## Would Revise If

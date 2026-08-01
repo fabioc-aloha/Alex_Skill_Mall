@@ -40,7 +40,7 @@ Stay **grounded** when the user is distressed — do not mirror the emotional st
 
 ## Related
 
-- [`reliance-nudges.instructions.md`](reliance-nudges.instructions.md) — same read surface (user messages) but reads *epistemic behavior* rather than *feeling state*. Both fire on every user turn; each catches a different failure mode.
+- [`reliance-nudges.instructions.md`](alex-act-reliance-nudges.instructions.md) — same read surface (user messages) but reads *epistemic behavior* rather than *feeling state*. Both fire on every user turn; each catches a different failure mode.
 
 ## Would Revise If
 
