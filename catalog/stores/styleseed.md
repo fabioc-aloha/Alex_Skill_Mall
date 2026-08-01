@@ -2,33 +2,34 @@
 
 **Source:** [bitjaru/styleseed](https://github.com/bitjaru/styleseed)
 **Store trust:** 30/100
-**Signals:** maintenance 15 · adoption 5 · license 10 (MIT) · 852 stars · 2 contributors
-**Scanned ref:** `356ac3aa1845`
+**Signals:** maintenance 15 · adoption 5 · license 10 (MIT) · 862 stars · 2 contributors
+**Scanned ref:** `0e2cb9a6f61c`
 
-## Plugins (20)
+## Plugins (21)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 35 | [`ss-a11y`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-a11y) | skill | - | Audit a component or page for accessibility issues and fix them |
-| 35 | [`ss-audit`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-audit) | skill | - | Audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices |
-| 35 | [`ss-build`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-build) | skill | - | Build a screen with StyleSeed's composed design method — choose or compile an output grammar, apply… |
-| 35 | [`ss-component`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-component) | skill | - | Generate a new UI component following the StyleSeed design conventions |
-| 35 | [`ss-copy`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-copy) | skill | - | Generate UX microcopy (button labels, error messages, empty states, toasts) following a casual-but-… |
-| 35 | [`ss-dial`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-dial) | skill | - | Turn ONE design axis up or down as a coordinated, deterministic transform — "denser", "sharper corn… |
-| 35 | [`ss-feedback`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-feedback) | skill | - | Add appropriate user feedback states (loading, success, error, empty) to a component or page |
-| 35 | [`ss-flow`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-flow) | skill | - | Design user flows and navigation structure following proven UX patterns |
-| 35 | [`ss-lint`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-lint) | skill | - | Quick automated lint — detects common design system violations in seconds |
-| 35 | [`ss-motion`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-motion) | skill | - | Apply a named StyleSeed motion to a component — either one of the 5 personality seeds (Spring/Silk/… |
-| 35 | [`ss-page`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-page) | skill | - | Scaffold a new mobile page/screen using the StyleSeed layout patterns |
-| 35 | [`ss-pattern`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-pattern) | skill | - | Generate a composed UI pattern (card layout, list, form section, grid, etc.) using design system pr… |
-| 35 | [`ss-reference`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-reference) | skill | - | Compile screenshots, URLs, Figma exports, or an existing UI into a project-local StyleSeed output g… |
-| 35 | [`ss-restyle`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-restyle) | skill | - | Apply one optional StyleSeed aesthetic profile without changing the selected output grammar, produc… |
-| 35 | [`ss-review`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-review) | skill | - | Review UI code for design system compliance, accessibility, and best practices |
-| 35 | [`ss-score`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-score) | skill | - | Score a visual artifact's implementation quality 0-100 against its composed StyleSeed rule set — ca… |
-| 35 | [`ss-setup`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-setup) | skill | - | Configure StyleSeed by selecting the output grammar, domain, page type, optional aesthetic profile,… |
-| 35 | [`ss-tokens`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-tokens) | skill | - | View, add, or modify design tokens in the StyleSeed design system |
-| 35 | [`ss-update`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-update) | skill | - | Update StyleSeed engine in your project — analyzes what's outdated and updates safely |
-| 35 | [`ss-verify`](https://github.com/bitjaru/styleseed/tree/356ac3aa184595525da3a4e1d9f1c7fe92812da6/engine/.claude/skills/ss-verify) | skill | - | The VISUAL gate — render a UI or visual artifact through its surface adapter, inspect the actual pi… |
+| 35 | [`ss-a11y`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-a11y) | skill | - | Audit a component or page for accessibility issues and fix them |
+| 35 | [`ss-audit`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-audit) | skill | - | Audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices |
+| 35 | [`ss-build`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-build) | skill | - | Build a screen with StyleSeed's composed design method — choose or compile an output grammar, apply… |
+| 35 | [`ss-component`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-component) | skill | - | Generate a new UI component following the StyleSeed design conventions |
+| 35 | [`ss-copy`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-copy) | skill | - | Generate UX microcopy (button labels, error messages, empty states, toasts) following a casual-but-… |
+| 35 | [`ss-dial`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-dial) | skill | - | Turn ONE design axis up or down as a coordinated, deterministic transform — "denser", "sharper corn… |
+| 35 | [`ss-feedback`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-feedback) | skill | - | Add appropriate user feedback states (loading, success, error, empty) to a component or page |
+| 35 | [`ss-flow`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-flow) | skill | - | Design user flows and navigation structure following proven UX patterns |
+| 35 | [`ss-lint`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-lint) | skill | - | Quick automated lint — detects common design system violations in seconds |
+| 35 | [`ss-motion`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-motion) | skill | - | Apply a named StyleSeed motion to a component — either one of the 5 personality seeds (Spring/Silk/… |
+| 35 | [`ss-page`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-page) | skill | - | Scaffold a new mobile page/screen using the StyleSeed layout patterns |
+| 35 | [`ss-pattern`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-pattern) | skill | - | Generate a composed UI pattern (card layout, list, form section, grid, etc.) using design system pr… |
+| 35 | [`ss-reference`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-reference) | skill | - | Compile screenshots, URLs, Figma exports, or an existing UI into a project-local StyleSeed output g… |
+| 35 | [`ss-resolve`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-resolve) | skill | - | Compile a small, deterministic StyleSeed rule bundle for one agent, output grammar, surface adapter… |
+| 35 | [`ss-restyle`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-restyle) | skill | - | Apply one optional StyleSeed aesthetic profile without changing the selected output grammar, produc… |
+| 35 | [`ss-review`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-review) | skill | - | Review UI code for design system compliance, accessibility, and best practices |
+| 35 | [`ss-score`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-score) | skill | - | Score a visual artifact's implementation quality 0-100 against its composed StyleSeed rule set — ca… |
+| 35 | [`ss-setup`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-setup) | skill | - | Configure StyleSeed by selecting the output grammar, domain, page type, optional aesthetic profile,… |
+| 35 | [`ss-tokens`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-tokens) | skill | - | View, add, or modify design tokens in the StyleSeed design system |
+| 35 | [`ss-update`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-update) | skill | - | Update StyleSeed engine in your project — analyzes what's outdated and updates safely |
+| 35 | [`ss-verify`](https://github.com/bitjaru/styleseed/tree/0e2cb9a6f61c30b11e648fa92987cc0aebcf1b52/engine/.claude/skills/ss-verify) | skill | - | The VISUAL gate — render a UI or visual artifact through its surface adapter, inspect the actual pi… |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-08-01T20:06:22.357Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-08-01T20:41:40.548Z*

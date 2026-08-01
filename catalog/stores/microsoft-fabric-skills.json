@@ -1,18 +1,18 @@
 {
   "store": "microsoft-fabric-skills",
   "source_repo": "https://github.com/microsoft/skills-for-fabric.git",
-  "generated_at": "2026-07-29T00:51:00.173Z",
-  "scanned_ref": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+  "generated_at": "2026-08-01T20:41:14.619Z",
+  "scanned_ref": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
-  "plugin_count": 42,
+  "plugin_count": 43,
   "plugins": [
     {
       "name": "mcp-setup",
       "shape": "unknown",
       "source_path": "mcp-setup",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/mcp-setup",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/mcp-setup",
       "readme_excerpt": "This folder contains scripts to register external Fabric MCP (Model Context Protocol) servers with your local AI coding tools.",
       "frontmatter": {
         "kind": "none",
@@ -37,8 +37,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -62,9 +63,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -73,7 +74,7 @@
       "name": "fabric-authoring",
       "shape": "mixed",
       "source_path": "plugins/fabric-authoring",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/plugins/fabric-authoring",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-authoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -98,8 +99,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -123,9 +125,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -134,7 +136,7 @@
       "name": "fabric-consumption",
       "shape": "mixed",
       "source_path": "plugins/fabric-consumption",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/plugins/fabric-consumption",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-consumption",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -159,8 +161,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -184,9 +187,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -195,7 +198,7 @@
       "name": "fabric-operations",
       "shape": "mixed",
       "source_path": "plugins/fabric-operations",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/plugins/fabric-operations",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-operations",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -220,8 +223,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -245,9 +249,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -256,7 +260,7 @@
       "name": "fabric-skills",
       "shape": "mixed",
       "source_path": "plugins/fabric-skills",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/plugins/fabric-skills",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-skills",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -281,8 +285,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -306,9 +311,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -317,7 +322,7 @@
       "name": "powerbi-authoring",
       "shape": "mixed",
       "source_path": "plugins/powerbi-authoring",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/plugins/powerbi-authoring",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/powerbi-authoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -342,8 +347,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -367,9 +373,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -378,7 +384,7 @@
       "name": "activator-authoring-cli",
       "shape": "skill",
       "source_path": "skills/activator-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/activator-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/activator-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -406,8 +412,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -431,9 +438,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -442,7 +449,7 @@
       "name": "activator-consumption-cli",
       "shape": "skill",
       "source_path": "skills/activator-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/activator-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/activator-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -470,8 +477,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -495,9 +503,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -506,17 +514,17 @@
       "name": "azmon-mirroredcatalogs-operations-cli",
       "shape": "skill",
       "source_path": "skills/azmon-mirroredcatalogs-operations-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/azmon-mirroredcatalogs-operations-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/azmon-mirroredcatalogs-operations-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "azmon-mirroredcatalogs-operations-cli",
-          "description": "Onboard Log Analytics, Application Insights, and Azure Monitor telemetry into Microsoft Fabric as a Mirrored Catalog, then turn it into business-impact insights by correlating telemetry with business data via Eventhouse shortcuts, verified schemas, and ready-to-use Operations Agent instructions. Triggers: onboard Log Analytics telemetry, connect Application Insights to a Mirrored Catalog, correlate App Insights telemetry with business data, build an Operations Agent for business-impact alerting, determine if availability or latency impacted bookings orders or revenue."
+          "description": "Onboard Azure Monitor / Application Insights observability data into Microsoft Fabric and guide business-impact insights by correlating telemetry with business data, Eventhouse external delta tables, verified schemas, an optional Real-Time (KQL) dashboard, and opt-in Operations Agent instructions. Triggers: onboard Azure Monitor into Fabric, correlate App Insights telemetry with business data, build a Real-Time KQL dashboard over telemetry, build an Operations Agent for business-impact alerting, determine if availability or latency impacted bookings orders or revenue, connect a Log Analytics workspace to Fabric."
         },
         "standard": {
           "name": "azmon-mirroredcatalogs-operations-cli",
-          "description": "Onboard Log Analytics, Application Insights, and Azure Monitor telemetry into Microsoft Fabric as a Mirrored Catalog, then turn it into business-impact insights by correlating telemetry with business data via Eventhouse shortcuts, verified schemas, and ready-to-use Operations Agent instructions. Triggers: onboard Log Analytics telemetry, connect Application Insights to a Mirrored Catalog, correlate App Insights telemetry with business data, build an Operations Agent for business-impact alerting, determine if availability or latency impacted bookings orders or revenue.",
+          "description": "Onboard Azure Monitor / Application Insights observability data into Microsoft Fabric and guide business-impact insights by correlating telemetry with business data, Eventhouse external delta tables, verified schemas, an optional Real-Time (KQL) dashboard, and opt-in Operations Agent instructions. Triggers: onboard Azure Monitor into Fabric, correlate App Insights telemetry with business data, build a Real-Time KQL dashboard over telemetry, build an Operations Agent for business-impact alerting, determine if availability or latency impacted bookings orders or revenue, connect a Log Analytics workspace to Fabric.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -534,8 +542,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -559,9 +568,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -570,7 +579,7 @@
       "name": "check-updates",
       "shape": "skill",
       "source_path": "skills/check-updates",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/check-updates",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/check-updates",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -598,8 +607,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -623,9 +633,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -634,7 +644,7 @@
       "name": "databricks-migration",
       "shape": "skill",
       "source_path": "skills/databricks-migration",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/databricks-migration",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/databricks-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -662,8 +672,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -687,9 +698,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -698,7 +709,7 @@
       "name": "dataflows-authoring-cli",
       "shape": "skill",
       "source_path": "skills/dataflows-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/dataflows-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/dataflows-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -726,8 +737,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -751,9 +763,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -762,7 +774,7 @@
       "name": "dataflows-consumption-cli",
       "shape": "skill",
       "source_path": "skills/dataflows-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/dataflows-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/dataflows-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -790,8 +802,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -815,9 +828,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -826,7 +839,7 @@
       "name": "dataflows-save-as-authoring-cli",
       "shape": "skill",
       "source_path": "skills/dataflows-save-as-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/dataflows-save-as-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/dataflows-save-as-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -854,8 +867,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -879,9 +893,74 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "e2e-fabric-cost-estimation",
+      "shape": "skill",
+      "source_path": "skills/e2e-fabric-cost-estimation",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/e2e-fabric-cost-estimation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "e2e-fabric-cost-estimation",
+          "description": ""
+        },
+        "standard": {
+          "name": "e2e-fabric-cost-estimation",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
+        "tags": [
+          "v0.3.10",
+          "v0.3.9",
+          "v0.3.8",
+          "v0.3.7",
+          "v0.3.6",
+          "v0.3.5",
+          "v0.3.4",
+          "v0.3.3",
+          "v0.3.2",
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 912,
+          "contributors": 6,
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -890,7 +969,7 @@
       "name": "e2e-medallion-architecture",
       "shape": "skill",
       "source_path": "skills/e2e-medallion-architecture",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/e2e-medallion-architecture",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/e2e-medallion-architecture",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -918,8 +997,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -943,9 +1023,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -954,7 +1034,7 @@
       "name": "eventhouse-authoring-cli",
       "shape": "skill",
       "source_path": "skills/eventhouse-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/eventhouse-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/eventhouse-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -982,8 +1062,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1007,9 +1088,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1018,7 +1099,7 @@
       "name": "eventhouse-consumption-cli",
       "shape": "skill",
       "source_path": "skills/eventhouse-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/eventhouse-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/eventhouse-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1046,8 +1127,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1071,9 +1153,74 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "eventschemaset-consumption-cli",
+      "shape": "skill",
+      "source_path": "skills/eventschemaset-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/eventschemaset-consumption-cli",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "eventschemaset-consumption-cli",
+          "description": ""
+        },
+        "standard": {
+          "name": "eventschemaset-consumption-cli",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
+        "tags": [
+          "v0.3.10",
+          "v0.3.9",
+          "v0.3.8",
+          "v0.3.7",
+          "v0.3.6",
+          "v0.3.5",
+          "v0.3.4",
+          "v0.3.3",
+          "v0.3.2",
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 912,
+          "contributors": 6,
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1082,7 +1229,7 @@
       "name": "eventstream-authoring-cli",
       "shape": "skill",
       "source_path": "skills/eventstream-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/eventstream-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/eventstream-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1110,8 +1257,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1135,9 +1283,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1146,7 +1294,7 @@
       "name": "eventstream-consumption-cli",
       "shape": "skill",
       "source_path": "skills/eventstream-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/eventstream-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/eventstream-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1174,8 +1322,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1199,9 +1348,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1210,7 +1359,7 @@
       "name": "fabriciq",
       "shape": "skill",
       "source_path": "skills/fabriciq",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/fabriciq",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/fabriciq",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1238,8 +1387,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1263,9 +1413,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1274,7 +1424,7 @@
       "name": "fabriciq-ontology-authoring-cli",
       "shape": "skill",
       "source_path": "skills/fabriciq-ontology-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/fabriciq-ontology-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/fabriciq-ontology-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1302,8 +1452,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1327,9 +1478,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1338,7 +1489,7 @@
       "name": "fabriciq-ontology-consumption-cli",
       "shape": "skill",
       "source_path": "skills/fabriciq-ontology-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/fabriciq-ontology-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/fabriciq-ontology-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1366,8 +1517,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1391,9 +1543,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1402,7 +1554,7 @@
       "name": "hdinsight-migration",
       "shape": "skill",
       "source_path": "skills/hdinsight-migration",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/hdinsight-migration",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/hdinsight-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1430,8 +1582,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1455,9 +1608,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1466,7 +1619,7 @@
       "name": "mlv-operations-cli",
       "shape": "skill",
       "source_path": "skills/mlv-operations-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/mlv-operations-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/mlv-operations-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1494,8 +1647,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1519,9 +1673,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1530,7 +1684,7 @@
       "name": "pipeline-migration",
       "shape": "skill",
       "source_path": "skills/pipeline-migration",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/pipeline-migration",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/pipeline-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1558,8 +1712,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1583,9 +1738,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1594,7 +1749,7 @@
       "name": "powerbi-report-authoring",
       "shape": "skill",
       "source_path": "skills/powerbi-report-authoring",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/powerbi-report-authoring",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/powerbi-report-authoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1623,8 +1778,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1648,9 +1804,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1659,7 +1815,7 @@
       "name": "powerbi-report-design",
       "shape": "skill",
       "source_path": "skills/powerbi-report-design",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/powerbi-report-design",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/powerbi-report-design",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1688,8 +1844,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1713,9 +1870,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1724,7 +1881,7 @@
       "name": "powerbi-report-management",
       "shape": "skill",
       "source_path": "skills/powerbi-report-management",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/powerbi-report-management",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/powerbi-report-management",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1753,8 +1910,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1778,9 +1936,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1789,7 +1947,7 @@
       "name": "powerbi-report-planning",
       "shape": "skill",
       "source_path": "skills/powerbi-report-planning",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/powerbi-report-planning",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/powerbi-report-planning",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1818,8 +1976,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1843,9 +2002,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1854,7 +2013,7 @@
       "name": "search-consumption-cli",
       "shape": "skill",
       "source_path": "skills/search-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/search-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/search-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1882,8 +2041,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1907,9 +2067,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -1918,7 +2078,7 @@
       "name": "semantic-model-authoring",
       "shape": "skill",
       "source_path": "skills/semantic-model-authoring",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/semantic-model-authoring",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/semantic-model-authoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1946,8 +2106,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -1971,73 +2132,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "semantic-model-consumption",
-      "shape": "skill",
-      "source_path": "skills/semantic-model-consumption",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/semantic-model-consumption",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "semantic-model-consumption",
-          "description": ""
-        },
-        "standard": {
-          "name": "semantic-model-consumption",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
-        "tags": [
-          "v0.3.9",
-          "v0.3.8",
-          "v0.3.7",
-          "v0.3.6",
-          "v0.3.5",
-          "v0.3.4",
-          "v0.3.3",
-          "v0.3.2",
-          "v0.3.1",
-          "v0.3.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 893,
-          "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2046,7 +2143,7 @@
       "name": "spark-authoring-cli",
       "shape": "skill",
       "source_path": "skills/spark-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/spark-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/spark-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2074,8 +2171,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2099,9 +2197,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2110,7 +2208,7 @@
       "name": "spark-consumption-cli",
       "shape": "skill",
       "source_path": "skills/spark-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/spark-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/spark-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2138,8 +2236,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2163,9 +2262,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2174,7 +2273,7 @@
       "name": "spark-operations-cli",
       "shape": "skill",
       "source_path": "skills/spark-operations-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/spark-operations-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/spark-operations-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2202,8 +2301,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2227,9 +2327,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2238,7 +2338,7 @@
       "name": "sqldb-authoring-cli",
       "shape": "skill",
       "source_path": "skills/sqldb-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/sqldb-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/sqldb-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2266,8 +2366,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2291,9 +2392,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2302,7 +2403,7 @@
       "name": "sqldb-consumption-cli",
       "shape": "skill",
       "source_path": "skills/sqldb-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/sqldb-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/sqldb-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2330,8 +2431,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2355,9 +2457,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2366,7 +2468,7 @@
       "name": "sqldb-operations-cli",
       "shape": "skill",
       "source_path": "skills/sqldb-operations-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/sqldb-operations-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/sqldb-operations-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2394,8 +2496,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2419,9 +2522,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2430,7 +2533,7 @@
       "name": "sqldw-authoring-cli",
       "shape": "skill",
       "source_path": "skills/sqldw-authoring-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/sqldw-authoring-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/sqldw-authoring-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2458,8 +2561,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2483,9 +2587,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2494,7 +2598,7 @@
       "name": "sqldw-consumption-cli",
       "shape": "skill",
       "source_path": "skills/sqldw-consumption-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/sqldw-consumption-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/sqldw-consumption-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2522,8 +2626,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2547,9 +2652,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2558,7 +2663,7 @@
       "name": "sqldw-operations-cli",
       "shape": "skill",
       "source_path": "skills/sqldw-operations-cli",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/sqldw-operations-cli",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/sqldw-operations-cli",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2586,8 +2691,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2611,9 +2717,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2622,7 +2728,7 @@
       "name": "synapse-migration",
       "shape": "skill",
       "source_path": "skills/synapse-migration",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/d79f3393cab658d0b12d7215b7df1a069a2463a5/skills/synapse-migration",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/skills/synapse-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2650,8 +2756,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d79f3393cab658d0b12d7215b7df1a069a2463a5",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
         "tags": [
+          "v0.3.10",
           "v0.3.9",
           "v0.3.8",
           "v0.3.7",
@@ -2675,9 +2782,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 893,
+          "stars": 912,
           "contributors": 6,
-          "last_commit": "2026-07-23T10:07:18Z",
+          "last_commit": "2026-07-30T17:15:57Z",
           "archived": false
         }
       }
@@ -2691,9 +2798,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 893,
+      "stars": 912,
       "contributors": 6,
-      "last_commit": "2026-07-23T10:07:18Z",
+      "last_commit": "2026-07-30T17:15:57Z",
       "archived": false
     }
   }
