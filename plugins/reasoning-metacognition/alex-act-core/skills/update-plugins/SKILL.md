@@ -30,6 +30,27 @@ For each installed plugin, in order:
 9. Re-verify installed versions after update.
 10. Report what changed.
 
+## Mall catalog fetch (reusable helper)
+
+Exposed for the `greeting-checkin` instruction (added 2026-08-01) to run its silent update-availability check on session greetings. Also used internally by this skill for the pre-update version diff.
+
+**Endpoint**: `https://raw.githubusercontent.com/fabioc-aloha/Alex_Skill_Mall/main/catalog/index.json` (approximately 2 MB, refreshed weekly by the Mall's cron per ADR-008).
+
+**Fetch pattern**:
+
+```powershell
+# PowerShell example — the actual invocation delegates to the LLM tool of choice (web_fetch, curl, etc.)
+$catalog = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/fabioc-aloha/Alex_Skill_Mall/main/catalog/index.json" -TimeoutSec 5 | Select-Object -ExpandProperty Content | ConvertFrom-Json
+```
+
+**Parse pattern**: the catalog's top-level structure is `{ "schema_version": ..., "plugin_count": ..., "plugins": [...] }`. Each `plugins[]` entry carries `{ name, store, version, ... }`. Look up the entry for each installed constellation plugin by name; the catalog's `version` field is the current latest.
+
+**Timeout**: 5 seconds. If the fetch fails (network error, timeout, non-2xx response), treat as "no update info available" and skip the update-diff step entirely. Do NOT tell the user "couldn't check updates" — that's noise for a check they never asked for.
+
+**Caching**: for the `greeting-checkin` use case, cache the result via the session-state hint file (see `plugin-management` skill § Session-state hint file). One fetch per hour per session tops.
+
+**Fallback**: for the interactive `/update-plugins` case, if the catalog fetch fails, fall back to per-plugin `copilot plugin info <name>` queries. Slower but per-plugin so failures are localized.
+
 ## Version resolution
 
 "Latest stable" means the highest release tag on the plugin's repo default branch that is:

@@ -14,6 +14,21 @@ Install the Alex ACT constellation plugins at their correct default scope, in th
 - Heir invokes `/install-constellation`
 - First-run of a fresh Alex ACT install on a new machine
 - Repairing a partial install (some constellation plugins present, others missing)
+- **Auto-invoked from `greeting-checkin` instruction** on session start when constellation state is incomplete (added 2026-08-01)
+
+## Invocation modes
+
+The skill runs in one of three modes depending on how it was invoked:
+
+| Mode | Trigger | Behavior |
+|---|---|---|
+| **Manual** (default) | Heir types `/install-constellation` explicitly | Full consent flow: print 4-plugin table, ask which to install, tenant-check MSFT, bootstrap discipline, verify. All Steps 1-7 fire. |
+| **Auto-invoked from greeting-checkin** | `greeting-checkin` instruction detected incomplete state on a session greeting and user replied Y to the consolidated consent gate | Single Y already covers Steps 1-2. Skip re-asking. Go directly to Step 3 (marketplace) → Step 4 (installs) → Step 5 (settings) → Step 6 (bootstrap) → Step 7 (report). Streamlined but same actions. Report at Step 7 also confirms "Setup complete — reload VS Code to activate all skills" if any new plugins landed. |
+| **Repair** | Heir invoked manually AND state check finds partial residue (bootstrap files without matching plugin, orphan receipt) | Confirm intent to complete partial install; skip installs of plugins already present at target version. |
+
+The three modes converge on the same underlying steps. What differs is which consent gates fire and how the report frames the outcome.
+
+For the greeting-checkin auto-invocation path specifically, the user has already answered ONE question ("Complete setup? Y/N/details"). Do not re-prompt for plugin selection, bootstrap consent, or marketplace registration — the greeting Y is treated as consent for the default full-setup path. Only the MSFT tenant check remains (if MSFT is in scope), because tenant-check is a factual eligibility question, not a preference.
 
 ## The four constellation plugins
 
@@ -115,7 +130,7 @@ The close is to copy a scoped subset of Core's unconditional instructions to `~/
 
 #### What gets copied
 
-Fifteen files, roughly 65 KB, about 16.7K always-on tokens. Not all of Core's instructions — only those whose value depends on firing unconditionally. Three groups: the epistemic spine plus safety rails (the original seven-file set from v0.2.1), the six per-turn disciplines added in D5 (2026-07-31), and two more added in D6 (2026-07-31: memory-triggers routes ledger writes, worldview carries harm-refusal and Tenet-IV ethics check that must fire before the first message; a third D6 candidate `tool-awareness` was tried and then reclassified D6→D3 mid-execution after audit — its three rules were absorbed into `platform-awareness` skill because description-match discovery covered the trigger vocabulary):
+Sixteen files, roughly 78 KB, about 20K always-on tokens. Not all of Core's instructions — only those whose value depends on firing unconditionally. Four groups: the epistemic spine plus safety rails (the original seven-file set from v0.2.1), the six per-turn disciplines added in D5 (2026-07-31), the two added in D6 (2026-07-31: memory-triggers routes ledger writes, worldview carries harm-refusal and Tenet-IV ethics check that must fire before the first message), and greeting-checkin added in the install-experience overhaul (2026-08-01: session-start orientation that verifies constellation health on greeting patterns and offers setup / drift refresh / update reminders through one consolidated consent gate):
 
 | Source in Core | Written as | Why it must be unconditional |
 |---|---|---|
@@ -134,6 +149,7 @@ Fifteen files, roughly 65 KB, about 16.7K always-on tokens. Not all of Core's in
 | `proactive-awareness` | `alex-act-proactive-awareness.instructions.md` | Session-boundary discipline; must fire *before* the user's first message |
 | `memory-triggers` | `alex-act-memory-triggers.instructions.md` | Detects correction / preference / handoff / decision triggers on every message; routing decisions cannot be recovered post-hoc |
 | `worldview` | `alex-act-worldview.instructions.md` | Harm-refusal and Tenet-IV ethics check must fire on every request regardless of file scope |
+| `greeting-checkin` | `alex-act-greeting-checkin.instructions.md` | Session-start orientation — verifies constellation health on greeting patterns and offers setup / drift refresh / update reminders through one consolidated consent gate; must fire before the user's first substantive turn |
 
 Core's remaining instructions stay plugin-resident and therefore inactive. Behavioral and craft instructions degrade gracefully when absent; these fifteen do not.
 
@@ -141,7 +157,7 @@ The `alex-act-` prefix is mandatory. A heir may already have their own `~/.copil
 
 #### Source — where the files come from
 
-The fifteen files ship **inside this skill** at `bootstrap/`, already carrying their `alex-act-` target names. The copy is a straight file copy; no renaming, no fetching, no network.
+The sixteen files ship **inside this skill** at `bootstrap/`, already carrying their `alex-act-` target names. The copy is a straight file copy; no renaming, no fetching, no network.
 
 Resolve the source in this order:
 
@@ -159,7 +175,7 @@ Source 1 exists because a Mall install vendors a component-shape subset (skills,
 
 #### Overlap scan, before writing anything
 
-Compare the fifteen target names against the current workspace's `.github/instructions/`. Instruction scopes **compose rather than replace**: user-scope and workspace-scope files both load into the same context, with no documented dedup. A heir whose workspace already carries `act-pass` would load it twice after the bootstrap, paying the tokens twice and risking two copies drifting apart.
+Compare the sixteen target names against the current workspace's `.github/instructions/`. Instruction scopes **compose rather than replace**: user-scope and workspace-scope files both load into the same context, with no documented dedup. A heir whose workspace already carries `act-pass` would load it twice after the bootstrap, paying the tokens twice and risking two copies drifting apart.
 
 If overlap is found, report it and recommend declining:
 
@@ -171,7 +187,7 @@ Report and recommend. Do not hard-block, because the heir may legitimately want 
 
 Print the exact file list, the byte total, and the token estimate. Then ask:
 
-> "Copy these fifteen instruction files to `~/.copilot/instructions/`? They will apply in **every** workspace on this machine, not only where Core is enabled. Roughly 16.7K tokens per session. Reply yes, no, or 'list' to see the contents first."
+> "Copy these sixteen instruction files to `~/.copilot/instructions/`? They will apply in **every** workspace on this machine, not only where Core is enabled. Roughly 20K tokens per session. Reply yes, no, or 'list' to see the contents first."
 
 Never bootstrap as a silent side effect of the install. Default is no.
 
@@ -199,7 +215,8 @@ After writing, record exactly what was placed at `~/.copilot/instructions/.alex-
     "alex-act-session-health-monitoring.instructions.md",
     "alex-act-proactive-awareness.instructions.md",
     "alex-act-memory-triggers.instructions.md",
-    "alex-act-worldview.instructions.md"
+    "alex-act-worldview.instructions.md",
+    "alex-act-greeting-checkin.instructions.md"
   ]
 }
 ```

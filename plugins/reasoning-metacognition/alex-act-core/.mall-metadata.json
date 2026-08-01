@@ -4,7 +4,7 @@
   ],
   "shape": ".SP.",
   "tier": "core",
-  "token_cost": 65000,
+  "token_cost": 72000,
   "requires_edition": ">=3.0.0",
   "requires_plugins": [],
   "requires_runtime": {
@@ -15,11 +15,11 @@
     "notes": "Source-of-truth is the upstream repo. Mall vendors a specific tag; when upstream tags a new release, Mall automation flags the mismatch. Core is the plugin-native successor to Alex_ACT_Edition v4.2.0.",
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Core",
     "license": "MIT",
-    "ref": "v0.3.1"
+    "ref": "v0.4.0"
   },
   "instruction_scope": {
     "shipped": false,
-    "reason": "Core authors 17 ACT instructions (15 always-on + 2 pattern-applied), but plugin.json has no instructions component field, so a plugin install cannot deliver them. This is a platform boundary shared by Copilot CLI, Claude Code, and Open Plugin Spec v1.0 rather than a packaging omission. Core closes the gap at install time: install-constellation Step 6 copies the fifteen always-on ones to ~/.copilot/instructions/ under an alex-act- prefix, consent-gated and receipt-backed. Those fifteen ship as skill resources at skills/install-constellation/bootstrap/ so the copy works on Mall installs. Also in v0.3.1 (2026-08-01): install-constellation Step 7 visual-workflow-companions catalog moved to Illustrator's install-visual-companions skill (v0.6.0). Verified 2026-07-30 on Copilot CLI 1.0.77 and VS Code Chat 1.131."
+    "reason": "Core authors 18 ACT instructions (16 always-on + 2 pattern-applied), but plugin.json has no instructions component field, so a plugin install cannot deliver them. This is a platform boundary shared by Copilot CLI, Claude Code, and Open Plugin Spec v1.0 rather than a packaging omission. Core closes the gap at install time: install-constellation Step 6 copies the sixteen always-on ones to ~/.copilot/instructions/ under an alex-act- prefix, consent-gated and receipt-backed. Those sixteen ship as skill resources at skills/install-constellation/bootstrap/ so the copy works on Mall installs. v0.4.0 (2026-08-01) adds greeting-checkin (session-start orientation instruction that offers setup / drift refresh / update reminders on greeting patterns) to the bootstrap payload, and adds /uninstall-constellation (detect-generate-guide flow that writes a machine-tailored PowerShell script for the Windows os error 5 workaround). Verified 2026-07-30 on Copilot CLI 1.0.77 and VS Code Chat 1.131."
   },
   "artifacts": {
     "skills": [
@@ -62,6 +62,7 @@
       "skills/systematic-debugging/SKILL.md",
       "skills/test-driven-development/SKILL.md",
       "skills/token-waste-elimination/SKILL.md",
+      "skills/uninstall-constellation/SKILL.md",
       "skills/update-plugins/SKILL.md"
     ],
     "prompts": [
@@ -76,6 +77,7 @@
       "commands/problem-framing-audit.md",
       "commands/save-session-note.md",
       "commands/status.md",
+      "commands/uninstall-constellation.md",
       "commands/update-plugins.md"
     ],
     "bundled": [
@@ -87,6 +89,7 @@
       "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-emotional-intelligence.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-epistemic-calibration.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-lint-discipline.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-no-deferred-debt.instructions.md",
@@ -114,7 +117,8 @@
       "meditate": ".github/prompts/meditate.prompt.md",
       "save-session-note": ".github/prompts/save-session-note.prompt.md",
       "status": ".github/prompts/status.prompt.md",
-      "configure-vscode-verify": ".github/prompts/configure-vscode-verify.prompt.md"
+      "configure-vscode-verify": ".github/prompts/configure-vscode-verify.prompt.md",
+      "uninstall-constellation": ".github/prompts/uninstall-constellation.prompt.md"
     },
     "skills": {
       "md-to-txt": ".github/skills/md-to-txt/SKILL.md",
@@ -156,7 +160,8 @@
       "lint-clean-markdown": ".github/skills/lint-clean-markdown/SKILL.md",
       "platform-awareness": ".github/skills/platform-awareness/SKILL.md",
       "mcp-builder": ".github/skills/mcp-builder/SKILL.md",
-      "md-to-word": ".github/skills/md-to-word/SKILL.md"
+      "md-to-word": ".github/skills/md-to-word/SKILL.md",
+      "uninstall-constellation": ".github/skills/uninstall-constellation/SKILL.md"
     }
   }
 }

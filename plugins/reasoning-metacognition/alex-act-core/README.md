@@ -2,9 +2,79 @@
 
 The plugin-native successor to [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0. Distributes the always-on epistemic discipline and reusable framework skills that heirs install via the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall).
 
-**Status**: v0.1.0 (unreleased). 70 baseline items ship as of 2026-07-31: 22 always-on instructions, 36 skills, 12 slash-command prompts, plus a shared runtime for the bundled document converters. Content lands through evidence-gated Steward proposals per [`Alex_ACT_Steward/architecture/act/CURATION-RULES.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/act/CURATION-RULES.md).
+**Version**: 0.4.0, available in the Alex Mall but **not yet publicly announced** — the constellation is still being finalized by [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/goto/Alex_ACT_Steward) before the initial announcement to heirs.
+
+**Current shape**: 41 skills, 18 instructions (16 always-on bootstrapped to `~/.copilot/instructions/` + 2 pattern-applied), 13 slash-command prompts, plus a shared runtime for the bundled document converters.
+
+**Content pipeline**: every skill, instruction, and prompt lands through evidence-gated Steward proposals per [`Alex_ACT_Steward/architecture/act/CURATION-RULES.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/act/CURATION-RULES.md). No content ships without an approved proposal.
 
 **Maintainer**: [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/Alex_ACT_Steward) (top-of-chain in the plugin-architecture lineage since 2026-07-26 fork-and-freeze).
+
+## Quick install (4 steps)
+
+For a fresh install on any machine:
+
+1. **Register the Alex Mall marketplace**:
+
+   ```powershell
+   copilot plugin marketplace add fabioc-aloha/Alex_Skill_Mall
+   ```
+
+2. **Install Core**:
+
+   ```powershell
+   copilot plugin install alex-act-core@alex-mall
+   ```
+
+3. **Reload VS Code** (or restart if using CLI standalone) so Core's discipline layer activates.
+
+4. **Open Copilot Chat and greet Core** with any of `hi`, `hello`, `hey`, `getting started`, etc. Core detects that setup isn't complete and offers to bootstrap the ACT discipline files + install the rest of the constellation (Illustrator, Enterprise, and MSFT if you're Microsoft-internal) through one consolidated consent gate.
+
+After step 4, everything is guided — answer one `Y` for full setup, `b` for bootstrap only, or `n` to defer. No slash commands to memorize; the greeting is the trigger.
+
+**Manual escape hatch**: if you'd rather run the install flow explicitly, invoke `/alex-act-core install-constellation` at any time. The greeting flow is a proactive convenience, not a requirement.
+
+**Full walkthrough**: [`USER-EXPERIENCE.md` § Stage 1](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md) in Steward.
+
+## Managing the Alex Mall marketplace
+
+The Alex Mall is where Core, Illustrator, and Enterprise install from. Four commands cover its lifecycle (all user-scope; work from any workspace):
+
+| Command | What it does |
+| --- | --- |
+| `copilot plugin marketplace add fabioc-aloha/Alex_Skill_Mall` | **Register** the Mall as `alex-mall`. Needed once per machine before any `<plugin>@alex-mall` install works. (Step 1 of Quick install above.) |
+| `copilot plugin marketplace update alex-mall` | **Refresh** the local catalog cache from GitHub. The Mall self-curates weekly; the local cache doesn't auto-refresh. Run this when a new plugin was added to the Mall since your last install. Omit the name to update all registered marketplaces at once. |
+| `copilot plugin marketplace browse alex-mall` | **List** every plugin available in the Mall with descriptions. Read-only. |
+| `copilot plugin marketplace remove alex-mall` | **Unregister** the Mall. Refuses if any of its plugins are currently installed; add `--force` to also uninstall those plugins in one command. |
+
+Also: `copilot plugin marketplace list` shows every registered marketplace, including the two built-in defaults (`copilot-plugins`, `awesome-copilot`) that don't need registration.
+
+### Removing when plugins are installed
+
+Two paths:
+
+**Safe path** — uninstall plugins first, then unregister:
+
+```powershell
+# Option 1: uninstall the whole constellation cleanly (uses uninstall-constellation skill from Chat)
+# From Copilot Chat: /alex-act-core uninstall-constellation
+
+# Option 2: uninstall individual plugins manually
+copilot plugin uninstall alex-act-core@alex-mall
+copilot plugin uninstall alex-act-illustrator-plugin@alex-mall
+# ... and so on
+
+# Then unregister the marketplace
+copilot plugin marketplace remove alex-mall
+```
+
+**One-command teardown** — removes the marketplace AND uninstalls its plugins:
+
+```powershell
+copilot plugin marketplace remove alex-mall --force
+```
+
+> **Windows only**: if VS Code is running when you invoke either path, the CLI will hit `os error 5` on the plugin uninstalls because VS Code holds file handles on the installed plugin trees. Close all VS Code windows first (File → Exit), open a fresh PowerShell terminal (NOT VS Code's integrated terminal), and run the commands there. The `uninstall-constellation` skill's generated script bakes this guard in automatically.
 
 ## What this is
 
@@ -43,9 +113,9 @@ Alex_ACT_Core/
 │   ├── copilot-instructions.md
 │   ├── config/                 # brand-palette.json, welcome-baseline.json
 │   ├── scripts/shared/         # runtime helpers used by the converter skills
-│   ├── skills/                 # 30 skills (framework + craft + converters)
-│   ├── instructions/           # 33 always-on instructions
-│   ├── prompts/                # 9 slash-command prompts
+│   ├── skills/                 # 41 skills (framework + craft + converters + plugin lifecycle)
+│   ├── instructions/           # 18 instructions (16 always-on bootstrapped + 2 pattern-applied)
+│   ├── prompts/                # 13 slash-command prompts
 │   └── agents/                 # (empty; agents ship through heir workspaces or specialization plugins)
 └── .vscode/                    # workspace settings for self-dogfooding
 ```

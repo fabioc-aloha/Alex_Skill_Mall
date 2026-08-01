@@ -183,6 +183,45 @@ copilot -p "Do you have an instruction named act-pass available in this session?
 
 A "no" means the removal took. Running that check inside a workspace that has its own brain proves nothing, because a repo-scope file can answer.
 
+## Session-state hint file
+
+Added 2026-08-01 to support the `greeting-checkin` instruction's proactive session-start orientation. Not a bootstrap file — it lives in the same folder for co-location convenience but is not managed by the bootstrap receipt.
+
+**Location**: `~/.copilot/instructions/.alex-act-session-hint.json`
+
+**Purpose**: cache the last constellation health-check result so the `greeting-checkin` instruction can avoid nagging within a session (60-minute cache window). Also records the last-known state classification so subsequent greetings can use the cached verdict without re-running the full check.
+
+**Schema**:
+
+```json
+{
+  "lastCheckAt": "2026-08-01T14:23:00Z",
+  "state": "healthy",
+  "installedCoreVersion": "0.3.1",
+  "installedPlugins": [
+    "alex-act-core@alex-mall",
+    "alex-act-illustrator-plugin@alex-mall"
+  ],
+  "updatesAvailable": [
+    { "plugin": "alex-act-illustrator-plugin", "installed": "0.6.0", "latest": "0.6.1" }
+  ]
+}
+```
+
+**Field semantics**:
+
+| Field | Meaning |
+|---|---|
+| `lastCheckAt` | ISO 8601 UTC timestamp of last full state check. If read + within 60 min of current time, treat as cache hit — skip the check. |
+| `state` | One of `healthy` \| `incomplete` \| `drifted` \| `updates-available`. Highest-severity classification wins if multiple apply. |
+| `installedCoreVersion` | Value from `copilot plugin info alex-act-core` at check time. Used to detect drift on subsequent checks. |
+| `installedPlugins` | Array of `<plugin>@<marketplace>` identifiers currently in `enabledPlugins`. |
+| `updatesAvailable` | Array of pending updates. Empty when healthy. |
+
+**Write pattern**: atomic — write to `.tmp` sibling then rename. This prevents partial reads when the check-in fires mid-write on a slow disk.
+
+**Not touched by uninstall.** The `uninstall-constellation` skill removes the bootstrap receipt (`.alex-act-bootstrap.json`) as part of its sweep, but leaves the hint file. Reason: after uninstall, on next greeting the hint file's stale `installedCoreVersion` triggers a re-check that correctly classifies state as `incomplete` and offers reinstall. Removing the hint file would leave no evidence for that discrimination.
+
 ## Safety rules
 
 - **Emit before apply.** Print the target settings block and the exact command list *before* running anything. Filesystem writes and CLI invocations happen only after explicit heir consent. Applying first and reporting after is a P0 violation, not a shortcut.
