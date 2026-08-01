@@ -6,9 +6,9 @@ lastReviewed: 2026-07-29
 
 # docs-shell skill
 
-Load-on-demand pointer for the parent agent. Full technical reference lives at [`../../../docs/shell/README.md`](../../../docs/shell/README.md); this file carries the essentials so the agent can reason about the shell without re-reading the reference every time.
+Load-on-demand pointer for the parent agent. Full technical reference lives at `../../../docs/shell/README.md`; this file carries the essentials so the agent can reason about the shell without re-reading the reference every time.
 
-> **Adopting the shell in another project?** Go straight to [`../../../docs/shell/README.md § Adopting the shell in another project`](../../../docs/shell/README.md#adopting-the-shell-in-another-project). The starter kit at [`starter/`](starter/) alongside this file is the copy-paste bundle.
+> **Adopting the shell in another project?** Go straight to `../../../docs/shell/README.md § Adopting the shell in another project`. The starter kit at [`starter/`](starter/) alongside this file is the copy-paste bundle.
 
 ## When to invoke
 
@@ -75,7 +75,7 @@ Per-doc `hero.subtitle` is the Big Idea (one-sentence thesis). `hero.description
 
 Source paths are relative to the manifest (repo root for the root shell).
 
-Full field-by-field walkthrough (types, required flags, purpose): [`../../../docs/shell/README.md § Manifest schema`](../../../docs/shell/README.md#manifest-schema).
+Full field-by-field walkthrough (types, required flags, purpose): `../../../docs/shell/README.md § Manifest schema`.
 
 ## What the shell auto-strips from source markdown
 
@@ -91,7 +91,7 @@ Content docs may (and often should) keep frontmatter and nav-strips. GitHub hono
 
 `manifest.theme.light` and `manifest.theme.dark` are optional maps of CSS custom properties. Absent = shell uses hardcoded defaults. Present = shell injects a `<style>` block with the declared vars, overriding the defaults. The injector accepts only `--`-prefixed keys with hex / rgb / hsl / named-color values so an untrusted manifest cannot smuggle arbitrary CSS.
 
-Full override list at [`../../../docs/shell/README.md § Every property you can override`](../../../docs/shell/README.md#every-property-you-can-override).
+Full override list at `../../../docs/shell/README.md § Every property you can override`.
 
 ## Common tasks
 
@@ -168,7 +168,7 @@ Full rationale + design notes: `docs/shell/README.md` § HTML-source docs.
 | Hero description paragraph (`hero.description`) | Preserved in manifest, not rendered by default. Uncomment the description line in `renderHero()` to re-enable.             |
 | QuickJumps in topnav (`quickJumps[]`)           | Reserved CSS. Some root shells keep line 1 minimal (areas only); the starter kit renders quickJumps for adopters who want them. |
 
-See [`../../../docs/shell/README.md § Optional features`](../../../docs/shell/README.md#optional-features-css-ready-renderer-opt-in) for enable steps.
+See `../../../docs/shell/README.md § Optional features` for enable steps.
 
 ## Starter kit for adopters
 
@@ -181,7 +181,7 @@ starter/
 └── about.md        Working demo content with alerts, mermaid, syntax-highlighted code samples, and quickJump examples.
 ```
 
-To adopt: copy the three files into the destination project, edit `manifest.json` (change `brand.label`, add or remove theme overrides, add `docs[]` entries), and open `index.html` in a browser. Full walkthrough at [`../../../docs/shell/README.md § Adopting the shell in another project`](../../../docs/shell/README.md#adopting-the-shell-in-another-project).
+To adopt: copy the three files into the destination project, edit `manifest.json` (change `brand.label`, add or remove theme overrides, add `docs[]` entries), and open `index.html` in a browser. Full walkthrough at `../../../docs/shell/README.md § Adopting the shell in another project`.
 
 ## Falsifiability
 
@@ -198,7 +198,7 @@ Authored 2026-07-26 in the [Alex_ACT_Steward](https://github.com/fabioc-aloha/Al
 
 ## Cross-links
 
-- [`../../../docs/shell/README.md`](../../../docs/shell/README.md) — canonical technical reference (manifest schema, theme, path rewriting, optional features, adoption, local rendering, troubleshooting)
+- `../../../docs/shell/README.md` — canonical technical reference (manifest schema, theme, path rewriting, optional features, adoption, local rendering, troubleshooting)
 - [`starter/`](starter/) — the adopter-facing starter kit
 - **Related skills (external, sourced from Steward baseline)**:
   - [big-idea](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/.github/skills/big-idea/SKILL.md) — how to author `hero.subtitle` copy

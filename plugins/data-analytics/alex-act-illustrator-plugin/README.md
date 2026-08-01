@@ -1,25 +1,28 @@
 # Alex ACT Illustrator Plugin
 
-**Visual authoring for AI-driven workflows — pick the right chart, render it locally, and verify it says what it was meant to say.**
+**One plugin frames, authors, verifies, and extends visual workflows, so heirs choose the right visual surface without stitching together competing guidance.**
 
-An [Alex ACT constellation](https://github.com/fabioc-aloha/Alex_ACT_Steward) plugin bundling visual-authoring skills for AI agents. Maintained by [Alex_ACT_Steward](https://github.com/fabioc-aloha/Alex_ACT_Steward), distributed via the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall). Eight skills organized into **four feature areas** — Flint (statistical chart authoring via the local-first [`flint-chart-mcp`](https://www.npmjs.com/package/flint-chart-mcp) MCP server from [microsoft/flint-chart](https://github.com/microsoft/flint-chart)), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures in *The Defensible Decision*), Replicate (AI image generation over Replicate's HTTP API), and Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports) — with the framing (`chart-big-idea`) and verification (`render-verify`) skills shared across all four. Data stays on the machine for the Flint and Print features; the Replicate feature is HTTP-based and opt-in via `REPLICATE_API_TOKEN`. See the [Steward Illustrator Plan](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/illustrator/plan.md) for feature docs, roadmap, and provenance.
+An [Alex ACT constellation](https://github.com/fabioc-aloha/Alex_ACT_Steward) plugin for five visual-authoring areas: Flint charts, deterministic print SVG, Replicate imagery, browsable shells, and branded SVG banners. Shared `chart-big-idea` framing and `render-verify` verification hold those paths to one communication standard. `install-visual-companions` separately offers nine independently maintained runtime inspection and annotation plugins, consent-gated one at a time. Maintained by [Alex_ACT_Steward](https://github.com/fabioc-aloha/Alex_ACT_Steward) and distributed as [`alex-act-illustrator-plugin@alex-mall`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/main/plugins/data-analytics/alex-act-illustrator-plugin).
 
-> **Renamed 2026-07-29.** This plugin was previously named `flint-chart-plugin`. Existing installations via `copilot plugin install flint-chart-plugin@alex-mall` continue to work; the Copilot plugin ID will rename at the first illustrator-scoped release. See the [Steward Illustrator Plan](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/illustrator/plan.md) for the rename rationale.
+> **Renamed and released.** The repository was renamed from `flint-chart-plugin` on 2026-07-29; v0.6.0 ships under `alex-act-illustrator-plugin@alex-mall`. A legacy install remains pinned under its old ID and does not migrate automatically: install the current ID, verify it, then remove the old entry.
 
 ## What it does
 
-Four feature areas share the same framing gate (`chart-big-idea` Step 0.5) and the same verification pass (`render-verify` Prose-coupling check):
+Five authoring areas share the same framing gate (`chart-big-idea` Step 0.5) and verification pass (`render-verify` Prose-coupling check):
 
 1. **Flint — statistical chart authoring.** `chart-big-idea` → `chart-vocabulary` (7-goal catalog + CSAR loop) → `flint-chart` (§0 selection router + `ChartAssemblyInput` spec) → render via `flint-chart-mcp` (Vega-Lite / ECharts / Chart.js, local) → `render-verify`. Data never leaves the machine. Entry point: the `/render-chart` slash command.
 2. **Print figures — hand-authored SVG for books and reports.** `chart-big-idea` (Step 0.5 earn-a-figure gate) → `print-svg-style-guide` (canvas + typography grammar, print-legibility floor with math, Tailwind semantic palette, four composition idioms) → `figure-generator` (`.mjs` generator + `data/<slug>.json` + `data-sha256` audit hash + contract tests + dataset inversion). Book-tested across 53 figures in *The Defensible Decision* (Fabio Correa).
 3. **Replicate — AI image generation.** `chart-big-idea` → `replicate-imagery` (model routing + brand alignment + cost awareness) → upstream `replicate/skills` for prompting → `replicate` MCP calls the Replicate HTTP API. FLUX / Ideogram / Recraft / Imagen + editing / inpaint / upscale / background-removal. Requires `REPLICATE_API_TOKEN`; nothing spins up until you use it.
 4. **Shell — browsable / gallery / catalog surface.** `docs-shell` skill + `starter/` bundle (index.html + manifest.json + about.md) render concatenated markdown as a single-page HTML shell with two-line topnav, sticky page header, and sidebar TOC. HTML-source docs (pre-built Flint reports, exported dashboards) bypass the shell wrapper.
+5. **Banner — deterministic brand identity.** `svg-banner` reads the active palette and brand structure, then generates a reproducible 1200×320 SVG for READMEs, plans, notes, and release artifacts. Entry point: the `banner` prompt.
+
+**Install composition** is adjacent rather than a sixth authoring area: `install-visual-companions` offers the visual runtime shelf per plugin, with explicit consent and marketplace verification before installation.
 
 ### Demo — the heart chart, with meaning (Flint feature walkthrough)
 
 > **Big Idea** — _Love's iconic silhouette **is** the four-archetype map of love: the heart's two upper lobes sit in the high-passion quadrants (infatuation left, consummate right), and its two lower sides sit in the low-passion quadrants (indifference left, companionate right)._
 
-That one sentence — the load-bearing output of the [`chart-big-idea`](.github/skills/chart-big-idea/SKILL.md) skill — is what makes this a chart _with meaning_ instead of _decoration_. Everything downstream is a direct consequence of it: the story arc (Relationship with quadrant annotation), the audience read (Read / General / Persuasive), the TRADITIONAL-vs-INNOVATIVE stance (INNOVATIVE, because the heart-as-mnemonic argument is irreducibly geometric), the chartType (layered `scatter_plot`), the 12-layer composition (shaded quadrants → midpoint rules → parametric heart curve → archetype dots → axis subtitles), and the archetype placement (each of the heart's four lobes lands in its matching semantic quadrant).
+That one sentence — the load-bearing output of the `chart-big-idea` skill — is what makes this a chart _with meaning_ instead of _decoration_. Everything downstream is a direct consequence of it: the story arc (Relationship with quadrant annotation), the audience read (Read / General / Persuasive), the TRADITIONAL-vs-INNOVATIVE stance (INNOVATIVE, because the heart-as-mnemonic argument is irreducibly geometric), the chartType (layered `scatter_plot`), the 12-layer composition (shaded quadrants → midpoint rules → parametric heart curve → archetype dots → axis subtitles), and the archetype placement (each of the heart's four lobes lands in its matching semantic quadrant).
 
 <p align="center">
   <img src="assets/heart-chart.svg" alt="A heart-shaped curve traced onto an Intimacy × Passion plane, rendered as a layered Vega-Lite chart via the flint-chart MCP server. The x-axis is Intimacy (subtitle: trust, vulnerability, shared meaning), the y-axis is Passion (subtitle: desire, chemistry, excitement). Both axes run from low to high. Dashed lines partition the plot into four quadrants labeled INFATUATION (top left), CONSUMMATE LOVE (top right, on a warm cream background), INDIFFERENCE (bottom left, on a cool gray background), and FRIENDSHIP (bottom right). A red heart curve fills the plane; four bold dots sit at the heart's lobes, each labeled with an archetype that matches its semantic quadrant." width="480" />
@@ -30,48 +33,37 @@ That one sentence — the load-bearing output of the [`chart-big-idea`](.github/
 1. **Step 0 — read context.** The Big Idea was distilled from a written essay on the orthogonality of intimacy and passion, not asked cold from the user.
 2. **Step 1 — draft the sentence.** Subject (heart silhouette) + verb (_is_) + implication (the four-archetype map). No 3-question elicitation ladder needed because Step 0 surfaced enough.
 3. **Steps 2–4 — story arc + audience + style stance.** Relationship-with-annotation, general-audience read, INNOVATIVE (justified because the argument itself is 2D-geometric).
-4. **Step 5 — emit the Chart Brief.** The brief is what `/render-chart` then handed to the [`flint-chart`](.github/skills/flint-chart/SKILL.md) skill for chartType selection and rendering.
+4. **Step 5 — emit the Chart Brief.** The brief is what `/render-chart` then handed to the `flint-chart` skill for chartType selection and rendering.
 
-The rendered demo ships in [`demos/heart-with-axes/`](demos/heart-with-axes/) — an interactive `report.html` you can open in any browser, plus a folder README with the Chart Brief and layer breakdown. Design decisions and the plugin's own genesis live in [`docs/`](docs/).
+The rendered demo ships in `demos/heart-with-axes/` — an interactive `report.html` you can open in any browser, plus a folder README with the Chart Brief and layer breakdown. Design decisions and the plugin's own genesis live in `docs/`.
 
-## Architecture — eight skills, one prompt, four features
+## Architecture — one framing gate, five authoring routes
 
-The Flint feature (chart authoring) is the most orchestrated flow and the only one with a slash-command prompt (`/render-chart`). The other three features compose skills directly when the intent surfaces:
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"edgeLabelBackground":"#ffffff","lineColor":"#57606a","primaryColor":"#ddf4ff"}}}%%
+flowchart TB
+    A["Visual request"]:::blue
+    B["Shared Big Idea<br/>framing"]:::purple
+  C["Choose authoring route<br/>Flint · Print SVG · Replicate<br/>Shell · Banner"]:::gold
+    G["Visual artifact"]:::neutral
+    H["Render verification"]:::gold
+    I["Verified output"]:::green
+    J["Optional companions<br/>inspect + annotate"]:::neutral
 
-```text
-/render-chart <request>            (Flint feature only)
-      │
-      ├─▶ chart-big-idea skill  ─────────────▶  Chart Brief          (shared across all features)
-      │     Step 0: read surrounding context
-      │     Step 0.5: earn-a-figure gate
-      │     Step 1: Big Idea (or 3-Q ladder)
-      │     Steps 2-4: arc + audience + style stance
-      │     Step 4.5: focus discipline
-      │     Step 5: emit Chart Brief
-      │
-      ├─▶ chart-vocabulary skill  ──────────▶  chart family + type
-      │     7-goal catalog + CSAR evaluation loop
-      │     override decision table + 5-visual rule
-      │
-      ├─▶ flint-chart skill  ───────────────▶  rendered chart
-      │     §0.2 selection (constrained by Brief)
-      │     Steps 1-N: author ChartAssemblyInput
-      │     MCP call: create_chart_view / render_chart
-      │
-      └─▶ render-verify skill  ────────────▶  verified artifact    (shared across all features)
-            open + read console errors + failure catalogs + Prose-coupling
+  A --> B --> C --> G --> H --> I
+    J -.-> H
 
-Print figures feature (no MCP; hand-authored)
-      chart-big-idea → print-svg-style-guide → figure-generator → render-verify
-
-Replicate feature (AI image generation)
-      chart-big-idea → replicate-imagery → replicate MCP + upstream replicate/skills → render-verify
-
-Shell feature (browsable / gallery / catalog surface)
-      docs-shell skill + starter/ bundle (index.html + manifest.json + about.md)
+    classDef blue fill:#ddf4ff,stroke:#80ccff,color:#0550ae
+    classDef green fill:#d3f5db,stroke:#6fdd8b,color:#1a7f37
+    classDef purple fill:#d8b9ff,stroke:#bf8aff,color:#6639ba
+    classDef gold fill:#fff8c5,stroke:#d4a72c,color:#9a6700
+    classDef neutral fill:#eaeef2,stroke:#d0d7de,color:#24292f
+    linkStyle default stroke:#57606a,stroke-width:1.5px
 ```
 
-The Brief locks the framing across all four features. Each feature's rendering / authoring / generation stage is independent, but every rendered artifact goes through `render-verify` before it ships. Any skill can be invoked standalone if you already have the other parts of the picture.
+**Figure 1:** *Every visual request earns its artifact through shared framing, follows the appropriate authoring route, and returns through verification; optional companions extend inspection without changing source ownership.*
+
+Each authoring skill can still run independently when the framing or verification work already exists. The shared gates are the default because they prevent technically valid but rhetorically empty visuals.
 
 ## What ships
 
@@ -86,8 +78,10 @@ The Brief locks the framing across all four features. Each feature's rendering /
 | `.github/skills/docs-shell/SKILL.md`            | Single-page HTML shell for browsable documentation, chart galleries, and illustration catalogs. HTML-source docs supported for pre-built reports.                                |
 | `.github/skills/replicate-imagery/SKILL.md`     | Route AI image generation and editing to Replicate (FLUX, Ideogram, Recraft, imagen) via the bundled `replicate` MCP server. Delegates prompting to Replicate's upstream skills. |
 | `.github/skills/svg-banner/SKILL.md`            | 1200×320 SVG brand banner generator with pluggable brand config (default: Alex ACT). For READMEs, plans, notes, release artifacts. Absorbed from `Alex_ACT_Steward` 2026-07-30.  |
+| `.github/skills/install-visual-companions/SKILL.md` | Consent-gated installer for nine independently maintained visual-workflow companion plugins; verifies marketplace identity before offering each install. |
 | `.github/prompts/render-chart.prompt.md`        | `/render-chart <request>` slash-command entry point (loads the three chart skills)                                                                                               |
 | `.github/prompts/banner.prompt.md`              | `/banner` slash-command entry point (invokes the svg-banner skill)                                                                                                               |
+| `.github/prompts/install-visual-companions.prompt.md` | Entry point for choosing and installing visual companions one at a time. |
 | `.vscode/mcp.json`                              | MCP server registration — `flint` (required) + `replicate` (optional, needs `REPLICATE_API_TOKEN`) + `playwright` (optional; see Install)                                        |
 | `.vscode/settings.json`                         | Registers the `local/` skill + prompt discovery roots                                                                                                                            |
 | `manifest.json`                                 | Plugin manifest — declares all shipping assets, install paths, prerequisites                                                                                                     |
@@ -138,7 +132,8 @@ The plugin follows the Alex ACT constellation brand palette. Canonical machine-r
 
 ## Prerequisites
 
-- **Node.js ≥ 22** on your machine (required for `npx flint-chart-mcp`)
+- **Node.js ≥ 22** on your machine (required for the pinned MCP sidecars)
+- **An approved npm registry configured in npm**. Illustrator never overrides the configured registry, probes the public registry, or checks for newer package versions. Its MCP sidecars use exact versions with `--prefer-offline`.
 - **MCP-capable host.** Actively supported and verified: **VS Code Copilot**
   (1.118+), **GitHub Copilot CLI**, and the **GitHub Copilot app**. Other MCP
   stdio clients (Claude Desktop, Cursor, …) should work and their config paths
@@ -168,12 +163,12 @@ copilot plugin marketplace add fabioc-aloha/Alex_Skill_Mall
 Then install the illustrator plugin:
 
 ```powershell
-copilot plugin install flint-chart-plugin@alex-mall
+copilot plugin install alex-act-illustrator-plugin@alex-mall
 ```
 
-Installs at user scope — the eight skills and two prompts become available in every workspace on the machine. After the install you still need to **register the MCP servers** for your host (see [Registering the MCP servers](#registering-the-mcp-servers) below); the plugin content is installed, but its `flint` / `replicate` / `playwright` MCP servers only spawn when your host reads a config that references them.
+Installs at user scope. After installation, register only the MCP servers your host needs (see [Registering the MCP servers](#registering-the-mcp-servers)); the plugin content is present immediately, while `flint`, `replicate`, and `playwright` spawn only from host configuration.
 
-> **Rename note.** The Mall entry currently publishes under the legacy ID `flint-chart-plugin` (from before the 2026-07-29 rename). Post-0.1.0 release the ID renames to `alex-act-illustrator-plugin`. Installations under the old ID keep working until `copilot plugin update` picks up the new ID.
+> **Legacy ID migration.** If `flint-chart-plugin@alex-mall` is still installed, install and verify the current ID first, then uninstall the legacy entry. Plugin IDs do not rename in place.
 
 ### Verify the install
 
@@ -181,7 +176,7 @@ Installs at user scope — the eight skills and two prompts become available in 
 copilot plugin list
 ```
 
-You should see either `flint-chart-plugin@alex-mall` (marketplace) or the plugin under `_direct` (Method A direct-install). From Copilot Chat, `/render-chart` and `/banner` should appear in the slash-command picker; `chart-big-idea`, `chart-vocabulary`, `flint-chart`, `render-verify`, `print-svg-style-guide`, `figure-generator`, `replicate-imagery`, and `docs-shell` should appear in the skill dropdown.
+You should see `alex-act-illustrator-plugin@alex-mall`. In Copilot Chat, the plugin prompt surface is namespaced: `/alex-act-illustrator-plugin render-chart`, `/alex-act-illustrator-plugin banner`, and `/alex-act-illustrator-plugin install-visual-companions`. The skill surface includes the five authoring areas, shared framing and verification, and install composition declared in [`plugin.json`](plugin.json).
 
 Then continue with [Registering the MCP servers](#registering-the-mcp-servers) below for the host-specific MCP wiring, and use the bundled checker to verify each capability end-to-end (see [Verify your install](#verify-your-install) further down).
 
@@ -193,21 +188,13 @@ Pre-plugin-era Alex ACT Edition heirs (before the plugin-native lineage establis
 # From your Alex ACT workspace root:
 git clone https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin.git /tmp/alex-act-illustrator-plugin
 
-# Copy all eight skills into your heir-local skill folder
+# Copy the current skill set into your heir-local skill folder
 mkdir -p .github/skills/local
-cp -r /tmp/alex-act-illustrator-plugin/.github/skills/chart-big-idea        .github/skills/local/
-cp -r /tmp/alex-act-illustrator-plugin/.github/skills/chart-vocabulary      .github/skills/local/
-cp -r /tmp/alex-act-illustrator-plugin/.github/skills/flint-chart           .github/skills/local/
-cp -r /tmp/alex-act-illustrator-plugin/.github/skills/render-verify         .github/skills/local/
-cp -r /tmp/alex-act-illustrator-plugin/.github/skills/print-svg-style-guide .github/skills/local/
-cp -r /tmp/alex-act-illustrator-plugin/.github/skills/figure-generator      .github/skills/local/
-cp -r /tmp/alex-act-illustrator-plugin/.github/skills/replicate-imagery     .github/skills/local/
-cp -r /tmp/alex-act-illustrator-plugin/.github/skills/docs-shell            .github/skills/local/
+cp -r /tmp/alex-act-illustrator-plugin/.github/skills/* .github/skills/local/
 
 # Copy the prompts into your heir-local prompt folder
 mkdir -p .github/prompts/local
-cp /tmp/alex-act-illustrator-plugin/.github/prompts/render-chart.prompt.md .github/prompts/local/
-cp /tmp/alex-act-illustrator-plugin/.github/prompts/banner.prompt.md      .github/prompts/local/
+cp /tmp/alex-act-illustrator-plugin/.github/prompts/* .github/prompts/local/
 
 # Then: register the local/ roots, and merge the MCP server entry (both below).
 ```
@@ -219,27 +206,20 @@ cp /tmp/alex-act-illustrator-plugin/.github/prompts/banner.prompt.md      .githu
 git clone https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin.git $env:TEMP\Alex_ACT_Illustrator_Plugin
 $src = "$env:TEMP\Alex_ACT_Illustrator_Plugin"
 
-# Copy all eight skills into your heir-local skill folder
+# Copy the current skill set into your heir-local skill folder
 New-Item -ItemType Directory -Force -Path .github\skills\local | Out-Null
-Copy-Item "$src\.github\skills\chart-big-idea"        -Destination .github\skills\local\ -Recurse -Force
-Copy-Item "$src\.github\skills\chart-vocabulary"      -Destination .github\skills\local\ -Recurse -Force
-Copy-Item "$src\.github\skills\flint-chart"           -Destination .github\skills\local\ -Recurse -Force
-Copy-Item "$src\.github\skills\render-verify"         -Destination .github\skills\local\ -Recurse -Force
-Copy-Item "$src\.github\skills\print-svg-style-guide" -Destination .github\skills\local\ -Recurse -Force
-Copy-Item "$src\.github\skills\figure-generator"      -Destination .github\skills\local\ -Recurse -Force
-Copy-Item "$src\.github\skills\replicate-imagery"     -Destination .github\skills\local\ -Recurse -Force
-Copy-Item "$src\.github\skills\docs-shell"            -Destination .github\skills\local\ -Recurse -Force
+Copy-Item "$src\.github\skills\*" -Destination .github\skills\local\ -Recurse -Force
 
-# Copy the prompt into your heir-local prompt folder
+# Copy the current prompts into your heir-local prompt folder
 New-Item -ItemType Directory -Force -Path .github\prompts\local | Out-Null
-Copy-Item "$src\.github\prompts\render-chart.prompt.md" -Destination .github\prompts\local\ -Force
+Copy-Item "$src\.github\prompts\*" -Destination .github\prompts\local\ -Force
 
 # Then: register the local/ roots, and merge the MCP server entry (both below).
 ```
 
 ### Registering the MCP servers
 
-Inspect [`.vscode/mcp.json`](.vscode/mcp.json) first, then **merge** its entries
+Inspect `.vscode/mcp.json` first, then **merge** its entries
 into your host's config. Merge, don't overwrite — if the file already exists it
 almost certainly holds other servers you'd destroy.
 
@@ -256,8 +236,8 @@ almost certainly holds other servers you'd destroy.
 | Cursor                       | `.cursor/mcp.json`                | `servers`     |
 | GitHub Copilot CLI           | `~/.copilot/mcp-config.json`      | `mcpServers`  |
 
-Then reload VS Code. Each server spawns via `npx` on the first tool call (~1-2s
-cold start; cached thereafter).
+Then reload VS Code. Each server uses the local npm cache first and contacts only
+the configured npm registry when its exact package version is absent.
 
 #### The optional `playwright` server — omit it on VS Code
 
@@ -328,11 +308,11 @@ already registered; on a plain VS Code workspace, add them to
 
 Keep these **additive** — don't disable the defaults. Your own skills and prompts
 stay in the default roots; installed plugins live under `local/`, and the two
-sets coexist. (Each skill's `name` must match its parent directory name, which
-all three of this plugin's skills satisfy.)
+sets coexist. Each skill's `name` must match its parent directory name, which
+every shipped skill satisfies.
 
-This repo dogfoods the same wiring — see [`.vscode/settings.json`](.vscode/settings.json)
-and [`.vscode/mcp.json`](.vscode/mcp.json).
+This repo dogfoods the same wiring — see `.vscode/settings.json`
+and `.vscode/mcp.json`.
 
 ### If the tools still don't appear
 
@@ -354,7 +334,7 @@ first one that fails tells you where the fault is.
    node scripts/verify-install.mjs
    ```
 
-   It reads the pin from [`.vscode/mcp.json`](.vscode/mcp.json) so it verifies
+   It reads the pin from `.vscode/mcp.json` so it verifies
    the version your config actually requests, handshakes over stdio, and asserts
    all five tools are advertised. Exit 0 means the server is healthy and any
    remaining fault is on the client side — config path, trust, or a stale
@@ -371,21 +351,22 @@ first one that fails tells you where the fault is.
    Replicate SKIPs if `REPLICATE_API_TOKEN` is unset; Playwright reports FAIL
    (non-fatal) if the browser can't launch. Only the flint check gates exit code.
 
-   Installed from the Alex Mall instead? That vendors only the skills, the
-   prompt, and `mcp.json` — no `scripts/`. Either clone this repo to run the
-   checker, or ask your agent to probe `npx -y flint-chart-mcp` over stdio with
+  Installed from the Alex Mall instead? The Mall payload does not include this
+  repository's verification script. Either clone this repo to run the
+  checker, or ask your agent to probe `npx -y --prefer-offline flint-chart-mcp@0.3.0` over stdio with
    an `initialize` handshake followed by `tools/list`; a `serverInfo` block plus
    a `tools` array means the same thing.
 2. **Client.** Ask the agent whether it can see `render_chart`, `compile_chart`,
    `validate_chart`, `list_chart_types`, and `create_chart_view`. All five, or
    your host isn't reading the config you edited.
-3. **Skills and prompt.** Type `/` in chat. `chart-big-idea`, `flint-chart`,
-   `render-verify`, and `render-chart` should all appear. If the MCP tools work
-   but these don't, the discovery roots above are missing.
+3. **Skills and prompts.** Type `/` in chat. The three namespaced prompts should
+  appear under `alex-act-illustrator-plugin`; describe a chart, print figure,
+  image, shell, or banner task to verify skill discovery. If MCP tools work but
+  plugin prompts and skills do not, the plugin or discovery roots are missing.
 4. **Render.** Ask for any chart. `list_chart_types` should return 34 Vega-Lite
    chart types, and a render should produce an image.
 
-This repo runs the same four checks against its own [`.vscode/`](.vscode/) config —
+This repo runs the same four checks against its own `.vscode/` config —
 last verified 2026-07-29 against `flint-chart-mcp` 0.3.0 (MCP protocol
 `2024-11-05`).
 
@@ -396,8 +377,7 @@ For deep MCP config (HTTP transport, allowed hosts, deployment, full CLI referen
 Copilot CLI does not auto-update plugins — updates are manual.
 
 ```powershell
-copilot plugin update flint-chart-plugin       # if installed via mall
-copilot plugin update alex-act-illustrator-plugin  # once the mall entry renames post-0.1.0
+copilot plugin update alex-act-illustrator-plugin
 ```
 
 Read the [CHANGELOG](CHANGELOG.md) before applying breaking changes. If you have `alex-act-core` installed, its `/update-plugins` prompt reads CHANGELOGs for you and consent-gates breaking updates across the whole constellation.
@@ -405,11 +385,10 @@ Read the [CHANGELOG](CHANGELOG.md) before applying breaking changes. If you have
 ### Uninstall
 
 ```powershell
-copilot plugin uninstall flint-chart-plugin       # if installed via mall
-copilot plugin uninstall alex-act-illustrator-plugin  # once the mall entry renames
+copilot plugin uninstall alex-act-illustrator-plugin
 ```
 
-Uninstalling the plugin removes the eight skills and two prompts but does **not** touch the MCP server registrations you added to `.vscode/mcp.json` or `~/.copilot/mcp-config.json` — those are your host's config, not the plugin's. Remove the `flint`, `replicate`, and `playwright` entries manually if you want a fully clean slate.
+Uninstalling the plugin removes its skills and prompts but does **not** touch the MCP server registrations you added to `.vscode/mcp.json` or `~/.copilot/mcp-config.json` — those are your host's config, not the plugin's. Remove the `flint`, `replicate`, and `playwright` entries manually if you want a fully clean slate. Remove a legacy `flint-chart-plugin` installation separately if it is still present.
 
 **Troubleshooting.** If uninstall fails with `Access is denied` on Windows (close every VS Code window first — Copilot Chat holds file handles on plugin binaries) or `Plugin "..." is not installed` while the plugin still shows in `plugin list` as `[disabled]` (zombie entry in `~/.copilot/config.json`'s `installedPlugins` array), see [`USER-EXPERIENCE.md § Optional — start from a clean slate`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md) for the working two-file config cleanup pattern.
 
@@ -429,7 +408,7 @@ Agent: [loads chart-big-idea → Step 0 finds no doc context → asks "what surp
 ### Explicit slash command
 
 ```text
-User: /render-chart render a scatter of weight vs mpg colored by origin
+User: /alex-act-illustrator-plugin render-chart render a scatter of weight vs mpg colored by origin
 Agent: [Big Idea preflight → authors ChartAssemblyInput → calls create_chart_view]
 ```
 
@@ -498,7 +477,7 @@ The bundled `mcp.json` fragment is minimal:
   "servers": {
     "flint": {
       "command": "npx",
-      "args": ["-y", "flint-chart-mcp@^0.3.0"],
+      "args": ["-y", "--prefer-offline", "flint-chart-mcp@0.3.0"],
     },
   },
 }
@@ -513,7 +492,7 @@ The bundled `mcp.json` fragment is minimal:
   "servers": {
     "flint": {
       "command": "npx",
-      "args": ["-y", "flint-chart-mcp@^0.3.0", "--disable-file-reference"],
+      "args": ["-y", "--prefer-offline", "flint-chart-mcp@0.3.0", "--disable-file-reference"],
     },
   },
 }
@@ -528,7 +507,8 @@ The bundled `mcp.json` fragment is minimal:
       "command": "npx",
       "args": [
         "-y",
-        "flint-chart-mcp@^0.3.0",
+        "--prefer-offline",
+        "flint-chart-mcp@0.3.0",
         "--backends",
         "vegalite,echarts",
       ],
@@ -549,7 +529,7 @@ Then update the fragment:
 { "servers": { "flint": { "command": "flint-chart-mcp", "args": [] } } }
 ```
 
-**Pinned version** — the pin is `^0.3.0` as of 2026-07-29, bumped from `^0.2.2` after the Microsoft corporate npm mirror caught up to 0.3.0. Caret on a `0.x` version means `>=0.3.0 <0.4.0`, so 0.4.x is never picked up automatically. Public npm `latest` is 0.4.0, but has not been verified against this plugin's documented spec patterns from an off-corpnet machine — see [`HANDOFF.md`](HANDOFF.md) if that verification is worth doing. See the Unreleased section of [`CHANGELOG.md`](CHANGELOG.md) for the 0.3.0 bump details and the conditions for a further move. When checking versions yourself, run `npm config get registry` first: a corporate mirror can report a different `latest` than public npm.
+**Registry and version policy** — the plugin pins `flint-chart-mcp@0.3.0`, `replicate-mcp@0.9.0`, and `@playwright/mcp@0.0.78` exactly. `--prefer-offline` uses cached packages first. Missing packages resolve only through npm's configured registry; there is no public-registry fallback and no automatic version-discovery request. Version changes are explicit release decisions backed by the compatibility verifier.
 
 **Naming conflict** — if you already have a `flint` server registered, rename this one to `flint-chart` in your merged config. The skill and prompt reference the server by tool inventory, not by name.
 
@@ -582,13 +562,13 @@ Then update the fragment:
 
 ## Publishing to the Mall
 
-This repo is the source-of-truth. The [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall) vendors a specific version at `plugins/data-analytics/flint-chart-plugin/` (Mall directory retained under the old name during transition; will rename with the Copilot plugin ID at the first illustrator-scoped release). To publish a new version — or refresh the Mall's vendored README after upstream doc edits — follow the step-by-step runbook in **[`docs/publishing-to-mall.md`](docs/publishing-to-mall.md)**.
+This repo is the source of truth. The [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall) owns packaging, normalized component layout, approval, validation, marketplace rendering, and catalog refresh for the published snapshot at `plugins/data-analytics/alex-act-illustrator-plugin/`.
 
-Short version: vendor the ten installable payload files (8 skills + 1 prompt + `mcp.json`) byte-for-byte into the Mall's plugin folder, copy the README with image `src` rewritten to absolute `raw.githubusercontent.com` URLs, update the Mall's `plugin.json` version, append a curation-log entry, rebase on the Mall's `main`, commit with a severity tag, push. The runbook has the exact commands and a verification checklist.
+Use the Mall's dry-run-first `npm run vendor` command with `--replace`, then apply only after Fabio reviews the plan. Run curated maintenance and the full Mall check before committing. The current commands and ownership boundaries live in **`docs/publishing-to-mall.md`**; do not hand-copy payload files.
 
 ## Contributing
 
-Issues and PRs welcome. See [`.github/copilot-instructions.md`](.github/copilot-instructions.md) for the repo's conventions (commit-message severity tags, frontmatter rules, lint discipline, falsifiability) — those instructions load automatically for AI agents but are also useful for human contributors.
+Issues and PRs welcome. See `.github/copilot-instructions.md` for the repo's conventions (commit-message severity tags, frontmatter rules, lint discipline, falsifiability) — those instructions load automatically for AI agents but are also useful for human contributors.
 
 This repo pairs with:
 

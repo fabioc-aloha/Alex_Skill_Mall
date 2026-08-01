@@ -158,7 +158,7 @@
     {
       "name": "alex-act-illustrator-plugin",
       "description": "Visual-authoring bundle for AI agents. Ten skills across five feature areas plus install composition: Flint (statistical chart authoring via the local-first flint-chart-mcp server from microsoft/flint-chart), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures), Replicate (AI image generation over Replicate's HTTP API, opt-in via REPLICATE_API_TOKEN), Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports), Banner (1200×320 SVG brand banners with pluggable brand config), and the install-visual-companions skill that owns the offer for 9 marketplace companion plugins forming the vision loop (storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball). Shared framing gate (chart-big-idea Step 0.5) and verification pass (render-verify Prose-coupling) apply across all authoring features. Alex ACT constellation plugin, maintained by Alex_ACT_Steward.",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "source": "plugins/data-analytics/alex-act-illustrator-plugin",
       "strict": true
     },

@@ -20,7 +20,7 @@ Renamed on 2026-07-29 from `alex-banner-generation` — same design, same script
 
 ## The design (fixed across brands)
 
-Every banner obeys this layout. Only the brand config (colours, mark, labels, watermarks) varies.
+Every banner obeys this layout. Only the brand config (colors, mark, labels, watermarks) varies.
 
 | Element     | Value                                                                                                                     |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -95,7 +95,7 @@ Two paths:
 
 Brand config rules:
 
-- **Palette semantics carry**: `accent1/accent2/accent3` form a left-to-right gradient. Pick three colours from your brand's accent family in a natural progression (deep → medium → light, or cool → warm). Avoid a red/green pairing without a redundant cue (deuteranopia — see the plugin's `print-svg-style-guide` § Redundant encoding).
+- **Palette semantics carry**: `accent1/accent2/accent3` form a left-to-right gradient. Pick three colors from your brand's accent family in a natural progression (deep → medium → light, or cool → warm). Avoid a red/green pairing without a redundant cue (deuteranopia — see the plugin's `print-svg-style-guide` § Redundant encoding).
 - **Watermark whitelist is the discipline signal**: pick 4-8 watermark categories that map to your project's document classes. Small vocabulary keeps banners readable across the repo; large vocabulary devolves into decoration.
 - **Font stack**: leave `Segoe UI, Helvetica, Arial, sans-serif` unless your brand requires otherwise (currently not overridable — fork the script if you need a different family). System-first fonts render without a web-font fetch (fast, offline-safe).
 - **Mark path**: relative to the repository root. PNG or JPG; SVG not currently supported (base64-embed of raster is simpler and self-contained in the output).
@@ -146,7 +146,7 @@ The script takes whatever subtitle you pass — quality is your job. Good subtit
 
 If you're not sure the subtitle is right, show two options to the user before generating.
 
-The [`big-idea`](../big-idea/SKILL.md) skill's Big Idea distillation is a strong upstream for subtitle authoring: the Big Idea of the doc IS the subtitle of its banner.
+The `big-idea` skill's Big Idea distillation is a strong upstream for subtitle authoring: the Big Idea of the doc IS the subtitle of its banner.
 
 ## Validation Checklist
 
