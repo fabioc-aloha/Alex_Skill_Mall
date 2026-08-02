@@ -1,14 +1,16 @@
 # Alex ACT Core
 
-The plugin-native successor to [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0. Distributes the always-on epistemic discipline and reusable framework skills that heirs install via the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall).
+Alex Finch is the runtime identity and relational center of the constellation. Core is Alex's baseline runtime body: the plugin-native successor to [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0, distributing the shared identity contract, always-on ACT discipline, and reusable framework skills through the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall).
 
-**Version**: 0.4.1, available in the Alex Mall but **not yet publicly announced** — the constellation is still being finalized by [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/Alex_ACT_Steward) before the initial announcement to heirs.
+**Version**: 0.5.0, prepared for publication in the Alex Mall as `alex-act-core@alex-mall`.
 
-**Current shape**: 41 skills, 18 instructions (16 always-on bootstrapped to `~/.copilot/instructions/` + 2 pattern-applied), 13 slash-command prompts, plus a shared runtime for the bundled document converters.
+**Current source shape**: 41 skills, 19 instructions (17 always-on bootstrapped to `~/.copilot/instructions/` + 2 pattern-applied), 13 slash-command prompts, plus a shared runtime for the bundled document converters.
 
 **Content pipeline**: every skill, instruction, and prompt lands through evidence-gated Steward proposals per [`Alex_ACT_Steward/architecture/act/CURATION-RULES.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/act/CURATION-RULES.md). No content ships without an approved proposal.
 
 **Maintainer**: [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/Alex_ACT_Steward) (top-of-chain in the plugin-architecture lineage since 2026-07-26 fork-and-freeze).
+
+**Personality and voice reference**: `ALEX-FINCH.md` is Core's stable pointer to the canonical, self-contained [`Alex_ACT_Steward/brain/alex-finch.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/brain/alex-finch.md). Neither document is an automatically loaded plugin component.
 
 ## Quick install (4 steps)
 
@@ -35,7 +37,7 @@ For a fresh install on any machine:
    ```
 
 Step 4 installs the selected constellation plugins, activates the direct MSFT
-install when applicable, and separately asks whether to bootstrap the sixteen
+install when applicable, and separately asks whether to bootstrap the seventeen
 always-on ACT instructions. After that first bootstrap, short greetings can use
 `greeting-checkin` for repair, drift, and update reminders. A greeting cannot
 start first-time setup because the greeting instruction is delivered by the
@@ -121,9 +123,8 @@ Alex_ACT_Core/
 │   ├── config/                 # brand-palette.json, welcome-baseline.json
 │   ├── scripts/shared/         # runtime helpers used by the converter skills
 │   ├── skills/                 # 41 skills (framework + craft + converters + plugin lifecycle)
-│   ├── instructions/           # 18 instructions (16 always-on bootstrapped + 2 pattern-applied)
-│   ├── prompts/                # 13 slash-command prompts
-│   └── agents/                 # (empty; agents ship through heir workspaces or specialization plugins)
+│   ├── instructions/           # 19 instructions (17 always-on bootstrapped + 2 pattern-applied)
+│   └── prompts/                # 13 slash-command prompts
 └── .vscode/                    # workspace settings for self-dogfooding
 ```
 
@@ -136,7 +137,7 @@ Same layout as [`alex-act-illustrator-plugin`](https://github.com/fabioc-aloha/A
 - **Copilot CLI ≥ 1.0.75** — [install docs](https://docs.github.com/copilot/how-tos/set-up/install-copilot-cli). Verify with `copilot --version`. If already installed, update with `winget upgrade --id GitHub.CopilotCLI` (Windows).
 - **GitHub CLI authenticated** — `gh auth login` and confirm with `gh auth status`.
 
-Full brand-new-user walkthrough (four personas, five install stages, anti-patterns): see [`Alex_ACT_Steward/constellation/USER-EXPERIENCE.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md).
+Full brand-new-user walkthrough (four personas, six install stages, anti-patterns): see [`Alex_ACT_Steward/constellation/USER-EXPERIENCE.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md).
 
 ### Install from the Alex ACT Mall
 
@@ -154,7 +155,7 @@ copilot plugin install alex-act-core@alex-mall
 
 Installs at user scope — Core becomes active in every workspace on the machine. That's the correct behavior; Core is an identity plugin per [`PLUGIN-INTEGRATION.md` § 2](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/PLUGIN-INTEGRATION.md).
 
-> **Publication status.** The Mall and Core entry are live. The constellation has not yet been publicly announced to heirs while fresh-install validation continues.
+> **Publication status.** The Mall and Core entry are live and publicly available as `alex-act-core@alex-mall`.
 
 ### Verify the install
 

@@ -1,7 +1,7 @@
 ---
 name: memory-management
 description: "Memory-tier selection and writing mechanics — where content goes based on type (user preference → user memory, project convention → repo memory, cross-session state → repo-root HANDOFF.md not session memory, failure analysis → episodic, reusable domain knowledge → skill). Use when writing to persistent storage, deciding between memory tiers, preparing a cross-session handoff, choosing where a lesson learned should live, or looking up why HANDOFF.md is the right target rather than /memories/session/."
-lastReviewed: 2026-07-31
+lastReviewed: 2026-08-01
 ---
 
 # Memory Management
@@ -23,6 +23,7 @@ Once a trigger has fired and the decision to persist has been made, this table d
 | Failure analysis | Episodic | `.github/episodic/postmortem-*.md` |
 | Session chronicle | Episodic | `.github/episodic/meditation-*.md` |
 | Reusable domain knowledge | Skill | `.github/skills/*/SKILL.md` |
+| Shared project-agnostic collaboration artifact | Shared Memory bus | `Alex_ACT_Memory/{announcements,feedback,knowledge,insights}/` through [`ai-memory-setup`](../ai-memory-setup/SKILL.md) |
 
 ## Cross-Session Continuity — repo files, not session memory
 
@@ -37,6 +38,15 @@ The natural phrase "session handoff" reads like exactly what `/memories/session/
 **Rule**: when the user asks for a "session handoff," "wrap up cleanly," or "prepare for next session," reach for the repo file first. Use session memory only for in-conversation scratch.
 
 Keep `HANDOFF.md` current with the last session's state, replace or delete if too much has changed, never let it lie — stale handoffs are worse than no handoffs.
+
+## Shared Memory Bus
+
+Use `Alex_ACT_Memory` only when content must be project-agnostic and shared
+across repositories, machines, or authorized users. Route the operation through
+[`ai-memory-setup`](../ai-memory-setup/SKILL.md), which owns filesystem
+discovery, channel rules, atomic writes, the `npm run check` gate, and separate
+Git consent. Do not use the shared bus for ordinary project handoffs, personal
+workflow preferences, or in-conversation scratch.
 
 ## Handoff template
 

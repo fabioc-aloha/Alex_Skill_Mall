@@ -18,7 +18,7 @@ Steps:
 4. Register `alex-mall` if needed, then install approved plugins in order: Core, Illustrator, Enterprise, MSFT.
 5. Merge `enabledPlugins` without replacing existing entries. Marketplace keys use `<plugin>@alex-mall`; direct MSFT uses the bare key `alex-act-msft`.
 6. Verify each install through `copilot plugin list`, settings, and the corresponding installed `plugin.json` tree.
-7. Run the skill's **Step 6 — ACT discipline bootstrap** as a separate consent gate. Show the sixteen files, machine-wide scope, byte total, token estimate, and overlap scan before writing anything.
+7. Run the skill's **Step 6 — ACT discipline bootstrap** as a separate consent gate. Show the seventeen files, machine-wide scope, byte total, token estimate, and overlap scan before writing anything.
 8. Write the bootstrap receipt only after a successful copy; verify from an empty directory as defined by the skill.
 9. Run **Step 7 — Report** with installed, skipped, failed, activation, and bootstrap status. If bootstrap was declined, say the skills are available but the always-on discipline layer is not.
 10. Point at namespaced next steps: `/alex-act-enterprise setup-enterprise-stack`, `/alex-act-msft setup-msft-stack`, and `/alex-act-illustrator-plugin install-visual-companions` when applicable.

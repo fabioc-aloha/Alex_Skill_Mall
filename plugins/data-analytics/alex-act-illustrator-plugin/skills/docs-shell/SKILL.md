@@ -1,7 +1,7 @@
 ---
 name: docs-shell
 description: "The single-page HTML shell (index.html + manifest.json at repo root) that renders concatenated markdown as browsable, GitHub-styled documentation with a two-line topnav, per-doc emoji icons, sticky page header, and sidebar TOC. Use when the user says 'shell', 'add a doc', 'add a chapter', 'landing page', 'sidebar', 'manifest', 'hero', 'nav-strip', 'shell theme', 'color scheme', 'polish the pages', 'render preview', 'add an area', or when authoring/editing content that appears in the root manifest. Also invoke when the shell misrenders (raw frontmatter visible, links broken across folders, missing hero, doc button not switching content, sticky header overlap)."
-lastReviewed: 2026-07-29
+lastReviewed: 2026-08-01
 ---
 
 # docs-shell skill
@@ -35,6 +35,8 @@ Do NOT fire when:
 
 **Two-line topnav.** Line 1 = brand slot + area buttons. Line 2 = documents of the active area. URL scheme is `?area=<id>&doc=<slug>` with cascading fallbacks (see reference for the full table).
 
+**Rendered reading surface.** The shell does not expose raw Markdown controls. Relative links to sources already registered in the manifest route to their rendered shell pages; source files remain authoritative for authors. Parsed Markdown passes through DOMPurify before insertion, and Mermaid runs afterward in strict mode. CDN assets are exact-version and SHA-384 pinned. On narrow screens, both nav rows scroll horizontally instead of growing into multiple rows; the TOC becomes static, defaults collapsed unless the reader saved a preference, and caps expanded height at 360px so it cannot overlap content. Keyboard users get a skip link, accessible heading permalinks, visible focus states, and `aria-current` on active navigation. Touch users can always reach live copy feedback, and reduced-motion preferences disable animation and smooth scrolling. After Mermaid renders, the shell crops once to graph bounds, derives a natural width from the cropped viewBox and source font size, and shrink-wraps compact diagrams instead of stretching every SVG to page width. Contained scrolling is reserved for diagrams that cannot preserve a 13px desktop or 11px mobile label floor inside the available width.
+
 ## Manifest schema, essential fields
 
 ```json
@@ -55,7 +57,6 @@ Do NOT fire when:
           "icon": "🛒",
           "title": "Mall Plan — role + modernization",
           "verified": "Phase 0 closed 2026-07-27",
-          "sourceLink": { "label": "source", "href": "plan/mall/README.md" },
           "hero": {
             "eyebrow": "Ch 05 · Mall Plan",
             "title": "Mall Plan",
@@ -104,7 +105,7 @@ Full override list at `../../../docs/shell/README.md § Every property you can o
 ### Add a new doc
 
 1. Create the `.md` file(s).
-2. Append a `docs[]` entry to the target area with `id`, `label`, optional `icon`, `title`, optional `verified`, optional `sourceLink`, optional `hero`, and `sources[]`.
+2. Append a `docs[]` entry to the target area with `id`, `label`, optional `icon`, `title`, optional `verified`, optional `hero`, and `sources[]`.
 3. Reload.
 
 ### Add a new area
@@ -190,6 +191,10 @@ Revise this skill by **2026-10-29** (90 days) or sooner if any of the following 
 - A live root shell diverges from the starter's `index.html` such that copying the starter into another project no longer produces a working shell (byte-identity assumption broken).
 - A new adopter reports the starter's `$comment` fields do not surface a schema question they hit (the comments are meant to be self-documenting).
 - The two-line topnav or per-doc icon rendering changes shape without this skill being updated (drift between skill and shell).
+- Raw Markdown controls return, narrow-screen navigation wraps into tall rows, or the mobile TOC opens by default without an explicit saved preference.
+- A TOC remains sticky below 1100px, overlaps article content, or expands beyond 360px in the single-column layout.
+- A Markdown event-handler payload executes, DOMPurify failure falls back to unsanitized HTML, Mermaid leaves strict mode, or a CDN asset loses its integrity pin.
+- A Mermaid graph renders below 13px on desktop or 11px on mobile without contained scrolling, occupies less than half of its cropped SVG viewport, clips content after fitting, exceeds a 4:1 graph aspect ratio without a clear reason, or causes page-level horizontal overflow.
 - Zero adopters copy the starter in the observation window (skill is decorative for its intended audience).
 
 ## Origin
@@ -203,4 +208,4 @@ Authored 2026-07-26 in the [Alex_ACT_Steward](https://github.com/fabioc-aloha/Al
 - **Related skills (external, sourced from Steward baseline)**:
   - [big-idea](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/.github/skills/big-idea/SKILL.md) — how to author `hero.subtitle` copy
   - [markdown-mermaid](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/.github/skills/markdown-mermaid/SKILL.md) — Mermaid diagram authoring rules that fire when a doc contains a `mermaid` code block
-  - [alex-banner-generation](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/.github/skills/alex-banner-generation/SKILL.md) — SVG banner authoring for hero sections
+  - [svg-banner](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/.github/skills/svg-banner/SKILL.md) — routes branded SVG banner authoring to this plugin

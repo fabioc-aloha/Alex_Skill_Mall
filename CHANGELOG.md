@@ -28,16 +28,27 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Changed
 
+- Published immutable payload refreshes for `alex-act-core` v0.5.0,
+	`alex-act-illustrator-plugin` v0.6.2, and `alex-act-enterprise` v0.1.1.
+	The private `alex-act-msft` plugin remains absent from the public Mall.
 - Storefront and contribution documentation now describe the CLI-native plugin
 	shape and the separate maintainer and contributor workflows.
 - Curated maintenance reconciled the generated storefront and trust surfaces to
-	363 first-party plugins, 3,848 catalog entries, and 42 stores.
+	363 first-party plugins, 3,862 catalog entries, and 42 stores.
 - The vendored `alex-act-core` manifest now points at its actual root `skills/`
 	and `commands/` paths instead of source-repo `.github/` paths.
 - Canonical vendoring was dogfooded against Core v0.4.2: the atomic refresh
 	preserved Mall metadata, produced a valid 96-file payload, and recorded 73
 	link rewrites (40 non-vendored references, 2 prompt renames, 16 skill-root
 	remaps, and 15 bootstrap-prefix remaps).
+
+### Fixed
+
+- Made `maintain-mall.cjs --help` side-effect free and made direct Windows
+	invocations run npm through `node.exe` plus `npm-cli.js` without a shell.
+- Added a copy/remove fallback for temporary plugin-content moves when Windows
+	returns `EPERM` or `EACCES`, while retaining atomic rename for release backup
+	and rollback operations.
 
 - **Second-round curation pass (2026-07-28)**: registry pruned from 33 → **29
 	active stores** and 3,548 → **3,479 aggregated plugins**. Cut 4 low-uniqueness

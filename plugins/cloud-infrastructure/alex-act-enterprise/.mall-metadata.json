@@ -15,7 +15,7 @@
   },
   "upstream": {
     "repo": "https://github.com/fabioc-aloha/alex-act-enterprise",
-    "ref": "v0.1.0",
+    "ref": "v0.1.1",
     "license": "MIT",
     "notes": "Source-of-truth is the upstream repo. Mall vendors a snapshot; when upstream tags a new release, Mall automation flags the mismatch."
   },
@@ -27,8 +27,35 @@
     "skills": [
       "skills/setup-enterprise-stack/SKILL.md"
     ],
-    "commands": [
+    "agents": [],
+    "prompts": [
       "commands/setup-enterprise.md"
-    ]
-  }
+    ],
+    "bundled": []
+  },
+  "submission": {
+    "schema_version": "1.0",
+    "submitted_by": "mall-admin",
+    "evidence": null
+  },
+  "link_rewrites": [
+    {
+      "file": "README.md",
+      "label": "alex-act-msft",
+      "target": "../alex-act-msft",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "README.md",
+      "label": "alex-act-msft",
+      "target": "../alex-act-msft",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/setup-enterprise-stack/SKILL.md",
+      "label": "/setup-enterprise",
+      "target": "../../prompts/setup-enterprise.prompt.md",
+      "reason": "not-vendored"
+    }
+  ]
 }

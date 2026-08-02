@@ -72,7 +72,7 @@ Either way: reload the browser. No build, no restart.
 ## Mermaid diagram
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[Author markdown] --> B[Reference in manifest]
   B --> C[Load shell]
   C --> D[Render + decorate]

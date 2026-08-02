@@ -15,7 +15,7 @@
     "notes": "Source-of-truth is the upstream repo. Mall vendors a specific tag; when upstream tags a new release, Mall automation flags the mismatch. Core is the plugin-native successor to Alex_ACT_Edition v4.2.0.",
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Core",
     "license": "MIT",
-    "ref": "v0.4.2"
+    "ref": "v0.5.0"
   },
   "instruction_scope": {
     "shipped": false,
@@ -44,6 +44,7 @@
       "skills/humanizer/examples/full-example.md",
       "skills/install-constellation/SKILL.md",
       "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-alex-finch-personality.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-emotional-intelligence.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-epistemic-calibration.instructions.md",
@@ -112,10 +113,7 @@
       "commands/uninstall-constellation.md",
       "commands/update-plugins.md"
     ],
-    "bundled": [
-      "config",
-      "scripts/shared"
-    ]
+    "bundled": []
   },
   "install_paths": {
     "note": "Core is baseline, not a local specialization, so its artefacts install to the baseline .github/skills and .github/prompts paths rather than the local/ namespace used by specialization plugins.",
@@ -224,6 +222,12 @@
       "file": "commands/problem-framing-audit.md",
       "label": "problem-framing-audit.instructions.md",
       "target": "../instructions/problem-framing-audit.instructions.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "README.md",
+      "label": "ALEX-FINCH.md",
+      "target": "ALEX-FINCH.md",
       "reason": "not-vendored"
     },
     {

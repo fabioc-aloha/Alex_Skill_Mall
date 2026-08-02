@@ -160,6 +160,23 @@ test('maintainer curated plan refreshes first-party state before rendering and c
   ]);
 });
 
+test('maintenance CLI help is side-effect free and npm runs through Node', () => {
+  const { parseMode, resolveNpmInvocation } = require('../scripts/maintain-mall.cjs');
+  assert.deepEqual(parseMode(['--help']), { help: true, mode: null });
+  assert.deepEqual(parseMode(['--check']), { help: false, mode: 'check' });
+  assert.deepEqual(
+    resolveNpmInvocation(['test'], {
+      npmExecPath: 'C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js',
+      nodeExecPath: 'C:/Program Files/nodejs/node.exe',
+      fileExists: () => true,
+    }),
+    {
+      executable: 'C:/Program Files/nodejs/node.exe',
+      args: ['C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js', 'test'],
+    },
+  );
+});
+
 test('package scripts expose maintainer and contributor commands', () => {
   const pkg = JSON.parse(fs.readFileSync(path.join(ROOT, 'package.json'), 'utf8'));
   assert.equal(pkg.scripts.vendor, 'node scripts/vendor-plugin.cjs');

@@ -285,16 +285,26 @@ function buildMallMetadata(oldManifest, authorExtensions, migration) {
   return metadata;
 }
 
+function moveContent(source, target) {
+  try {
+    fs.renameSync(source, target);
+  } catch (error) {
+    if (!['EACCES', 'EPERM', 'EXDEV'].includes(error.code)) throw error;
+    fs.cpSync(source, target, { recursive: true, errorOnExist: true, force: false });
+    fs.rmSync(source, { recursive: true, force: true, maxRetries: 3, retryDelay: 50 });
+  }
+}
+
 function moveRootSkill(workDir, pluginName, artifactPath, description) {
   const source = path.join(workDir, artifactPath);
   const skillDir = path.join(workDir, 'skills', pluginName);
   fs.mkdirSync(skillDir, { recursive: true });
-  fs.renameSync(source, path.join(skillDir, 'SKILL.md'));
+  moveContent(source, path.join(skillDir, 'SKILL.md'));
 
   const excluded = new Set(['plugin.json', 'README.md', '.mall-metadata.json', 'skills', 'agents', 'commands']);
   for (const entry of fs.readdirSync(workDir, { withFileTypes: true })) {
     if (excluded.has(entry.name)) continue;
-    fs.renameSync(path.join(workDir, entry.name), path.join(skillDir, entry.name));
+    moveContent(path.join(workDir, entry.name), path.join(skillDir, entry.name));
   }
   return normalizeSkill(path.join(skillDir, 'SKILL.md'), pluginName, description);
 }
@@ -303,7 +313,7 @@ function moveAgent(workDir, pluginName, artifactPath) {
   const agentsDir = path.join(workDir, 'agents');
   fs.mkdirSync(agentsDir, { recursive: true });
   const target = path.join(agentsDir, `${pluginName}.agent.md`);
-  fs.renameSync(path.join(workDir, artifactPath), target);
+  moveContent(path.join(workDir, artifactPath), target);
   normalizeAgent(target, pluginName);
 }
 
@@ -330,7 +340,7 @@ function moveCommands(workDir, promptPaths) {
     const source = path.join(workDir, relative);
     const base = path.basename(relative).replace(/\.prompt\.md$/, '.md');
     const target = path.join(commandsDir, base);
-    fs.renameSync(source, target);
+    moveContent(source, target);
     normalizeCommand(target);
     fs.writeFileSync(target, adaptCommandBody(fs.readFileSync(target, 'utf8')));
   }

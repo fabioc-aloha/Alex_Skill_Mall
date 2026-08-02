@@ -1,7 +1,7 @@
 ---
 name: plugin-management
 description: "General Copilot CLI plugin operations: install / list / update / remove / marketplace add + remove, scope precedence (user vs repo), the enabledPlugins + extraKnownMarketplaces settings shape, and safe merge-not-overwrite settings edits. Use when a heir asks to install / update / remove any plugin from any Mall, or when auditing what plugins are installed at what scope. Generic — the install-constellation and update-plugins skills delegate to this one for the mechanical commands."
-lastReviewed: 2026-07-30
+lastReviewed: 2026-08-01
 ---
 
 # Plugin Management
@@ -155,7 +155,7 @@ If a heir is unsure, ask: "Is this plugin about you or about this project?"
 
 Plugins deliver skills, prompts, and agents. They do **not** deliver instructions: `plugin.json` has no `instructions` component field, and the CLI's loading-order model covers only agents, skills, and MCP servers. Claude Code and the Open Plugin Spec draw the same boundary, so treat it as architecture rather than a bug.
 
-The workaround is to copy instruction files into `~/.copilot/instructions/`, which the Copilot CLI and VS Code Chat both read at user scope. `install-constellation` § Step 6 does this for Core's seven always-on files. This section owns the shared rules any plugin bootstrap must follow.
+The workaround is to copy instruction files into `~/.copilot/instructions/`, which the Copilot CLI and VS Code Chat both read at user scope. `install-constellation` § Step 6 does this for Core's seventeen load-bearing always-on files. This section owns the shared rules any plugin bootstrap must follow.
 
 ### Rules
 

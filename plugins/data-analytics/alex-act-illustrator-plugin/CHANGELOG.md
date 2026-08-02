@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.2] - 2026-08-01
+
+### Changed
+
+- Replaced Mermaid's stale-layout viewBox expansion loop with deterministic single-pass graph-bound cropping and readable-width sizing. Compact diagrams now shrink-wrap their frame; only genuinely dense diagrams use contained horizontal scrolling.
+- Removed raw Markdown source controls from the docs shell and starter manifest. Links to manifest-registered Markdown now stay rendered in the shell; authors open source files through their editor or repository tree.
+- Reworked narrow-screen navigation into compact horizontal scrollers and made the TOC default collapsed on compact layouts unless the reader saved a preference.
+- Fixed narrow-layout TOC overlap by making it static below 1100px and capping the expanded list at 360px with internal scrolling.
+- Added DOMPurify 3.2.6 and enforced marked → sanitize → insert → strict Mermaid ordering. Active-content tags, event attributes, and fake form controls are removed; sanitizer failure blocks rendering.
+- Added SHA-384 Subresource Integrity and anonymous CORS to every pinned CDN asset.
+- Replaced hidden focusable heading anchors with labeled permalinks and added polite live status to code-copy controls.
+- Added keyboard skip navigation, `aria-current` state, visible keyboard/touch copy controls, reduced-motion support, hidden empty provenance, fixed responsive typography, and per-shell TOC persistence.
+- Unified proven behavior across implementations: Steward gained standalone HTML-report routing; the canonical starter gained long-content overflow protection.
+- Cropped Mermaid SVG viewBoxes once to actual graph bounds and sized the resulting SVG from source font metrics. Desktop labels preserve a 13px floor and mobile labels preserve an 11px floor through contained per-diagram scrolling when source simplification is insufficient.
+- Refactored five live `LR` diagrams and the starter exemplar to `TD`; simplified the bootstrap journey, Goal Architecture context map, and Core runtime loop. The validated Steward shell now has labels in the 13–22px band and no diagram wider than 4:1.
+
 ## [0.6.1] - 2026-08-01
 
 ### Documentation

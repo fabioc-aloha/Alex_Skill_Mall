@@ -1,6 +1,6 @@
 ---
 name: uninstall-constellation
-description: "Cleanly uninstalls the four Alex ACT constellation plugins (alex-act-core, alex-act-illustrator-plugin, alex-act-enterprise, alex-act-msft), the fifteen user-scope discipline instructions Core bootstrapped, and the four enabledPlugins entries — by detecting current state, generating a machine-tailored PowerShell script at the workspace root (fallback ~/.copilot/tmp/), and guiding the heir to run it after closing VS Code. Sidesteps the Windows os error 5 problem (VS Code holds plugin-tree handles) rather than trying to force through it. Preserves marketplace registrations and takes a settings.json backup. Use when a heir wants to fully remove the constellation, reset before troubleshooting, migrate to a different setup, or start clean before a major upgrade."
+description: "Cleanly uninstalls the four Alex ACT constellation plugins (alex-act-core, alex-act-illustrator-plugin, alex-act-enterprise, alex-act-msft), the seventeen user-scope discipline instructions Core bootstrapped, and the four enabledPlugins entries — by detecting current state, generating a machine-tailored PowerShell script at the workspace root (fallback ~/.copilot/tmp/), and guiding the heir to run it after closing VS Code. Sidesteps the Windows os error 5 problem (VS Code holds plugin-tree handles) rather than trying to force through it. Preserves marketplace registrations and takes a settings.json backup. Use when a heir wants to fully remove the constellation, reset before troubleshooting, migrate to a different setup, or start clean before a major upgrade."
 lastReviewed: 2026-08-01
 ---
 
@@ -62,7 +62,7 @@ Report to the heir:
 | Item | Count | Fate |
 |---|---|---|
 | Constellation plugins | N (up to 4) | Uninstalled |
-| Bootstrap discipline files at `~/.copilot/instructions/` | N (up to 15) | Removed |
+| Bootstrap discipline files at `~/.copilot/instructions/` | N (up to 17) | Removed |
 | Bootstrap receipt (`.alex-act-bootstrap.json`) | 1 if present | Removed |
 | `enabledPlugins` entries in `~/.copilot/settings.json` | N (up to 4) | Removed (usually by CLI during uninstall) |
 | Marketplace registrations (`alex-mall`, others) | Preserved | Kept for one-command reinstall |
@@ -122,7 +122,7 @@ foreach ($p in $plugins) {
 $bootstrapFiles = @(
     'alex-act-act-pass.instructions.md',
     'alex-act-critical-thinking.instructions.md',
-    # ... 13 more, exact list from the receipt at time of generation
+    # ... 15 more, exact list from the receipt at time of generation
 )
 foreach ($f in $bootstrapFiles) {
     $path = Join-Path $env:USERPROFILE ".copilot\instructions\$f"
@@ -209,7 +209,7 @@ The heir will see the following on their PowerShell terminal:
      Plugin "alex-act-core@alex-mall" uninstalled successfully.
      ... (× 4)
 [2/4] Sweeping bootstrap files...
-     Removed 15 / 15 bootstrap files
+    Removed 17 / 17 bootstrap files
      Removed receipt
 [3/4] Pruning enabledPlugins (safety net) ...
      0 stale entries found — CLI uninstall already cleaned them

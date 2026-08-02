@@ -35,7 +35,6 @@
     areas[].docs[].{id, label,             Line-2 doc buttons
                     icon?, title,          icon = optional emoji shown in
                     verified?,             sticky page-title header
-                    sourceLink?,
                     hero?, sources[]}
 
   PER-DOC HERO FIELDS
@@ -74,7 +73,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Docs Shell Starter</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css" integrity="sha384-eFTL69TLRZTkNfYZOLM+G04821K1qZao/4QLJbet1pP4tcF+fdXq/9CdqAbWRl/L" crossorigin="anonymous">
   <style>
     :root {
       --fg: #1f2328;
@@ -172,6 +172,22 @@
       text-rendering: optimizeLegibility;
     }
 
+    .skip-link {
+      position: fixed;
+      top: 0.5rem;
+      left: 0.75rem;
+      z-index: 100;
+      padding: 0.5rem 0.75rem;
+      color: #0d1117;
+      background: #f0f6fc;
+      border-radius: var(--radius);
+      font-weight: 600;
+      text-decoration: none;
+      transform: translateY(-200%);
+      transition: transform 0.15s ease;
+    }
+    .skip-link:focus { transform: translateY(0); }
+
     /* ---------- Sticky page header ---------- */
 
     /* ---------- Top nav bar (cross-document + quick-jumps) ---------- */
@@ -242,6 +258,11 @@
     }
     nav.topnav a[data-nav]:hover { background: rgba(255, 255, 255, 0.06); color: #f0f6fc; }
     nav.topnav a[data-nav].active { background: rgba(88, 166, 255, 0.15); color: #58a6ff; font-weight: 600; }
+    nav.topnav a:focus-visible,
+    header.page a:focus-visible {
+      outline: 2px solid #58a6ff;
+      outline-offset: 2px;
+    }
     /* OPTIONAL FEATURE: line-1 quick-jumps to specific doc sections.
        Not currently rendered by this shell (see renderTopnav below), but the
        manifest still declares `quickJumps` per area and the starter kit at
@@ -273,7 +294,7 @@
       margin: 0;
       font-size: 1.05rem;
       font-weight: 600;
-      letter-spacing: -0.01em;
+      letter-spacing: 0;
       display: flex;
       align-items: center;
       gap: 0.6rem;
@@ -296,19 +317,6 @@
       display: flex;
       align-items: center;
       gap: 0.75rem;
-    }
-    header.page .meta a {
-      color: #58a6ff;
-      text-decoration: none;
-      padding: 0.15rem 0.5rem;
-      border-radius: 4px;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      transition: background 0.15s, border-color 0.15s;
-    }
-    header.page .meta a:hover {
-      background: rgba(255, 255, 255, 0.12);
-      border-color: rgba(255, 255, 255, 0.2);
     }
     header.page .verified {
       display: inline-flex;
@@ -398,9 +406,9 @@
       50% { opacity: 0.5; transform: scale(1.15); }
     }
     .hero-title {
-      font-size: clamp(1.75rem, 4vw, 2.75rem);
+      font-size: 2.75rem;
       font-weight: 700;
-      letter-spacing: -0.02em;
+      letter-spacing: 0;
       line-height: 1.1;
       margin: 0 0 0.75rem;
       color: var(--fg);
@@ -411,7 +419,7 @@
       display: block;
       font-size: 0.7em;
       margin-top: 0.25em;
-      letter-spacing: -0.01em;
+      letter-spacing: 0;
     }
     .hero-chips {
       display: flex;
@@ -502,11 +510,6 @@
       grid-template-columns: 44px minmax(0, 1fr);
       gap: 1.25rem;
     }
-    @media (max-width: 1100px) {
-      .layout, .layout.toc-collapsed { grid-template-columns: 1fr; gap: 1rem; }
-      nav.toc { position: static; max-height: none; }
-    }
-
     /* ---------- TOC sidebar ---------- */
 
     nav.toc {
@@ -594,18 +597,35 @@
       font-weight: 600;
     }
 
+    @media (max-width: 1100px) {
+      .layout, .layout.toc-collapsed { grid-template-columns: 1fr; gap: 1rem; }
+      nav.toc {
+        position: static;
+        top: auto;
+        align-self: stretch;
+        max-height: 360px;
+        overflow-y: auto;
+      }
+      .layout.toc-collapsed nav.toc {
+        max-height: none;
+        overflow: visible;
+      }
+    }
+
     main { min-width: 0; }
 
     /* ---------- Rendered markdown: typography ---------- */
 
     #content {
       line-height: 1.65;
+      min-width: 0;
+      overflow-wrap: anywhere;
     }
 
     #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
       font-weight: 600;
       line-height: 1.25;
-      letter-spacing: -0.01em;
+      letter-spacing: 0;
       scroll-margin-top: 5rem;
     }
     #content h1 { display: none; }
@@ -655,6 +675,8 @@
       border-radius: 4px;
       color: var(--fg);
       border: 1px solid var(--border-muted);
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
     #content pre {
       position: relative;
@@ -672,6 +694,8 @@
       border: none;
       font-size: 0.8125rem;
       color: inherit;
+      overflow-wrap: normal;
+      word-break: normal;
     }
     /* Copy button on hover */
     #content pre .copy-btn {
@@ -690,6 +714,7 @@
       transition: opacity 0.15s, color 0.15s;
     }
     #content pre:hover .copy-btn { opacity: 1; }
+    #content pre:focus-within .copy-btn { opacity: 1; }
     #content pre .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
     #content pre .copy-btn.copied { color: var(--success); border-color: var(--success); }
 
@@ -800,11 +825,13 @@
       border: 1px solid var(--border-muted);
       border-radius: var(--radius-lg);
       padding: 1.25rem;
-      margin: 1.5rem 0 2rem;
+      margin: 1.5rem auto 2rem;
       text-align: center;
       overflow-x: auto;
       box-shadow: var(--shadow-sm);
       position: relative;
+      box-sizing: border-box;
+      max-width: 100%;
     }
     .mermaid::before {
       content: "Diagram";
@@ -817,8 +844,14 @@
       text-transform: uppercase;
       color: var(--fg-subtle);
     }
-    .mermaid svg { max-width: 100%; height: auto; }
-
+    .mermaid svg {
+      display: block;
+      width: auto;
+      max-width: 100% !important;
+      max-height: none;
+      height: auto;
+      margin: 0 auto;
+    }
     /* ---------- Loading and error states ---------- */
 
     #content .loading {
@@ -876,8 +909,51 @@
     }
     h2:hover > .anchor,
     h3:hover > .anchor,
-    h4:hover > .anchor { opacity: 1; }
+    h4:hover > .anchor,
+    h2:focus-within > .anchor,
+    h3:focus-within > .anchor,
+    h4:focus-within > .anchor { opacity: 1; }
     .anchor:hover { color: var(--accent); }
+
+    @media (hover: none) {
+      #content pre .copy-btn { opacity: 1; }
+    }
+
+    @media (max-width: 700px) {
+      nav.topnav { padding: 0.4rem 0.75rem; }
+      nav.topnav .topnav-inner { flex-wrap: nowrap; gap: 0.5rem; }
+      nav.topnav .topnav-brand { flex: 0 0 auto; margin-right: 0; padding-right: 0.65rem; }
+      nav.topnav .topnav-areas,
+      nav.topnav .topnav-docs {
+        min-width: 0;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+      }
+      nav.topnav .topnav-areas { flex: 1 1 auto; }
+      nav.topnav .topnav-docs { width: 100%; }
+      nav.topnav .topnav-areas::-webkit-scrollbar,
+      nav.topnav .topnav-docs::-webkit-scrollbar { display: none; }
+      nav.topnav a[data-nav] { white-space: nowrap; }
+      header.page { padding: 0.7rem 0.9rem; }
+      header.page .inner { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.35rem; }
+      header.page .meta { font-size: 0.75rem; }
+      .hero-inner { padding: 1.5rem 0.9rem 1.25rem; }
+      .hero-title { font-size: 1.9rem; }
+      .layout, .layout.toc-collapsed { padding: 1.25rem 0.9rem 3rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
 
     /* ---------- Print ---------- */
 
@@ -909,6 +985,7 @@
   </style>
 </head>
 <body>
+  <a class="skip-link" href="#content">Skip to content</a>
   <nav class="topnav" aria-label="Primary navigation">
     <div class="topnav-inner">
       <a class="topnav-brand" id="topnav-brand" href="README.md">
@@ -934,7 +1011,6 @@
       </h1>
       <div class="meta">
         <span class="verified" id="page-verified"></span>
-        <a id="page-source-link" href="#" target="_blank" rel="noopener"></a>
       </div>
     </div>
   </header>
@@ -957,16 +1033,17 @@
       <ol id="toc-list"></ol>
     </nav>
     <main>
-      <article id="content">
+      <article id="content" tabindex="-1">
         <div class="loading">Loading…</div>
       </article>
     </main>
   </div>
 
   <!-- Third-party libraries (CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js" integrity="sha384-NNQgBjjuhtXzPmmy4gurS5X7P4uTt1DThyevz4Ua0IVK5+kazYQI1W27JHjbbxQz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js" integrity="sha384-JEyTNhjM6R1ElGoJns4U2Ln4ofPcqzSsynQkmEc/KGy6336qAZl70tDLufbkla+3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js" integrity="sha384-Wm9qzEgq4j1jEnuFK2FxKTlwuhbV2QqtGhcchvjDoKxeJ7WWAW7fysBq+1s6myfX" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" integrity="sha384-F/bZzf7p3Joyp5psL90p/p89AZJsndkSoGwRpXcZhleCWhd8SnRuoYo4d0yirjJp" crossorigin="anonymous"></script>
 
 <script>
     // ---------------- Load and render markdown ----------------
@@ -1006,12 +1083,23 @@
         if (url.startsWith('#') || url.startsWith('/')) return false;
         return true;
       };
-      // Route <path>/(plan|docs|operations)/README.md → <path>/(plan|docs|operations)/index.html.
-      // Under the ROOT shell we DON'T rewrite these — body links to `plan/mall/README.md` or
-      // `operations/ledgers/curation-log.md` should load as raw markdown (fallback) rather than
-      // jumping into a folder-level shell and losing the root shell context. In-shell navigation
-      // is via the two-line nav (?area=X&doc=Y). Set to identity function.
-      const shellRoute = url => url;
+      // Keep readers in the rendered shell when a relative Markdown link points at a source
+      // already registered in the manifest. Unregistered files retain normal relative fallback.
+      const shellRoute = url => {
+        const target = new URL(url, location.href);
+        if (!/\.md$/i.test(target.pathname)) return url;
+        for (const area of MANIFEST?.areas || []) {
+          for (const doc of area.docs || []) {
+            const matched = (doc.sources || []).some(source =>
+              new URL(source, location.href).pathname === target.pathname
+            );
+            if (matched) {
+              return `?area=${encodeURIComponent(area.id)}&doc=${encodeURIComponent(doc.id)}${target.hash}`;
+            }
+          }
+        }
+        return url;
+      };
       // Markdown [text](url) and ![alt](url) — url may have an optional "title".
       text = text.replace(/(!?\[[^\]]*\])\(([^)\s]+)(\s+"[^"]*")?\)/g, (m, prefix, url, title) => {
         if (!shouldRewrite(url)) return m;
@@ -1100,12 +1188,14 @@
         return n === 0 ? base : `${base}-${n}`;
       };
       root.querySelectorAll('h2, h3, h4, h5, h6').forEach(h => {
-        const id = slug(h.textContent);
+        const headingText = h.textContent.trim();
+        const id = slug(headingText);
         h.id = id;
         const a = document.createElement('a');
         a.className = 'anchor';
         a.href = `#${id}`;
-        a.setAttribute('aria-hidden', 'true');
+        a.setAttribute('aria-label', `Link to ${headingText}`);
+        a.title = `Link to ${headingText}`;
         a.textContent = '#';
         h.insertBefore(a, h.firstChild);
       });
@@ -1155,7 +1245,7 @@
       const btn = document.getElementById('toc-toggle');
       if (!layout || !btn) return;
 
-      const KEY = 'alex-act-fundamentals:toc-collapsed';
+      const KEY = `docs-shell:${location.pathname}:toc-collapsed`;
       const apply = (collapsed) => {
         layout.classList.toggle('toc-collapsed', collapsed);
         btn.setAttribute('aria-expanded', String(!collapsed));
@@ -1164,8 +1254,11 @@
         btn.innerHTML = collapsed ? '&#x203A;&#x203A;' : '&#x2039;&#x2039;';
       };
 
-      let initial = false;
-      try { initial = localStorage.getItem(KEY) === '1'; } catch (_) {}
+      let initial = window.matchMedia('(max-width: 1100px)').matches;
+      try {
+        const saved = localStorage.getItem(KEY);
+        if (saved !== null) initial = saved === '1';
+      } catch (_) {}
       apply(initial);
 
       const toggle = () => {
@@ -1182,6 +1275,13 @@
         e.preventDefault();
         toggle();
       });
+    }
+
+    function setupSkipLink() {
+      const link = document.querySelector('.skip-link');
+      const content = document.getElementById('content');
+      if (!link || !content) return;
+      link.addEventListener('click', () => requestAnimationFrame(() => content.focus()));
     }
 
     // ---------------- Wrap every table in a horizontal-scroll container ----------------
@@ -1257,6 +1357,7 @@
         btn.className = 'copy-btn';
         btn.textContent = 'Copy';
         btn.setAttribute('aria-label', 'Copy code to clipboard');
+        btn.setAttribute('aria-live', 'polite');
         btn.addEventListener('click', async () => {
           const code = pre.querySelector('code');
           const text = code ? code.textContent : pre.textContent;
@@ -1320,6 +1421,32 @@
       return { area, doc };
     }
 
+    function parseAndSanitizeMarkdown(markdown) {
+      if (!window.DOMPurify) throw new Error('DOMPurify failed to load; refusing to render unsanitized Markdown.');
+      return window.DOMPurify.sanitize(marked.parse(markdown), {
+        FORBID_TAGS: ['script', 'style', 'iframe', 'object', 'embed', 'form', 'input', 'button', 'select', 'textarea', 'option'],
+        FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover', 'onfocus'],
+      });
+    }
+
+    function hardenRenderedLinks(root) {
+      root.querySelectorAll('a[target="_blank"]').forEach(link => {
+        link.setAttribute('rel', 'noopener noreferrer');
+      });
+    }
+
+    function showRenderError(root, error) {
+      root.replaceChildren();
+      const box = document.createElement('div');
+      box.className = 'error';
+      const heading = document.createElement('h2');
+      heading.textContent = 'Could not render document';
+      const detail = document.createElement('p');
+      detail.textContent = error && error.message ? error.message : 'Unknown rendering error.';
+      box.append(heading, detail);
+      root.appendChild(box);
+    }
+
     // ---------------- Theme injection ----------------
 
     // Reads `manifest.theme.light` / `manifest.theme.dark` (both optional) and injects them
@@ -1352,6 +1479,11 @@
       document.head.appendChild(styleEl);
     }
 
+    function isStandaloneHtmlDoc(doc) {
+      return Boolean(doc && Array.isArray(doc.sources) && doc.sources.length > 0 &&
+        doc.sources.every(source => source.toLowerCase().endsWith('.html')));
+    }
+
     // ---------------- Top nav + header + hero rendering ----------------
 
     function renderTopnav(manifest, ctx) {
@@ -1363,7 +1495,7 @@
       // Line 1: area buttons (sections)
       const areasEl = document.getElementById('topnav-areas');
       areasEl.innerHTML = manifest.areas.map(a =>
-        `<li><a href="?area=${encodeURIComponent(a.id)}" data-nav data-area="${escapeHtml(a.id)}"${a.id === ctx.area.id ? ' class="active"' : ''}>${escapeHtml(a.label)}</a></li>`
+        `<li><a href="?area=${encodeURIComponent(a.id)}" data-nav data-area="${escapeHtml(a.id)}"${a.id === ctx.area.id ? ' class="active" aria-current="page"' : ''}>${escapeHtml(a.label)}</a></li>`
       ).join('');
 
       // Line 2: documents of the currently active area.
@@ -1371,10 +1503,14 @@
       // carry their own cover / hero / typography and don't need the shell wrapper.
       const docsEl = document.getElementById('topnav-docs');
       docsEl.innerHTML = ctx.area.docs.map(d => {
-        const htmlOnly = Array.isArray(d.sources) && d.sources.length > 0 && d.sources.every(s => s.toLowerCase().endsWith('.html'));
-        const href = htmlOnly ? d.sources[0] : `?area=${encodeURIComponent(ctx.area.id)}&doc=${encodeURIComponent(d.id)}`;
-        return `<li><a href="${escapeHtml(href)}" data-nav data-doc="${escapeHtml(d.id)}"${d.id === ctx.doc.id ? ' class="active"' : ''}>${escapeHtml(d.label)}</a></li>`;
+        const href = isStandaloneHtmlDoc(d) ? d.sources[0] : `?area=${encodeURIComponent(ctx.area.id)}&doc=${encodeURIComponent(d.id)}`;
+        return `<li><a href="${escapeHtml(href)}" data-nav data-doc="${escapeHtml(d.id)}"${d.id === ctx.doc.id ? ' class="active" aria-current="page"' : ''}>${escapeHtml(d.label)}</a></li>`;
       }).join('');
+
+      requestAnimationFrame(() => {
+        document.querySelector('#topnav-areas .active')?.scrollIntoView({ block: 'nearest', inline: 'center' });
+        document.querySelector('#topnav-docs .active')?.scrollIntoView({ block: 'nearest', inline: 'center' });
+      });
 
       // No quick-jumps row: root shell keeps line 1 = areas only, line 2 = docs only.
       // Per-area quickJumps still live in the manifest (used by ?area=X quick links from README)
@@ -1403,15 +1539,10 @@
       const iconEl = titleEl.querySelector('.page-title-icon');
       if (labelEl) labelEl.textContent = doc.title || doc.label;
       if (iconEl) iconEl.textContent = doc.icon || '';
-      document.getElementById('page-verified').textContent = doc.verified || '';
-      const link = document.getElementById('page-source-link');
-      if (doc.sourceLink) {
-        link.href = doc.sourceLink.href;
-        link.textContent = doc.sourceLink.label;
-        link.style.display = '';
-      } else {
-        link.style.display = 'none';
-      }
+      const verified = document.getElementById('page-verified');
+      verified.textContent = doc.verified || '';
+      verified.hidden = !doc.verified;
+      verified.parentElement.hidden = !doc.verified;
     }
 
     function renderHero(doc) {
@@ -1495,6 +1626,49 @@
     // Note: Mermaid diagrams are authored inline in the .md chapter files as fenced ```mermaid blocks.
     // The custom code renderer in configureMarked() converts them to <div class="mermaid"> during
     // parsing, and mermaid.run() renders them at the end.
+    function fitMermaidDiagrams() {
+      document.querySelectorAll('.mermaid svg').forEach(svg => {
+        const frame = svg.closest('.mermaid');
+        if (!frame) return;
+        let box;
+        try { box = svg.getBBox(); } catch (_) { return; }
+        if (!box.width || !box.height) return;
+        const padding = Math.max(16, Math.min(32, Math.max(box.width, box.height) * 0.025));
+        const viewWidth = box.width + padding * 2;
+        const viewHeight = box.height + padding * 2;
+        svg.setAttribute('viewBox', `${box.x - padding} ${box.y - padding} ${viewWidth} ${viewHeight}`);
+        svg.removeAttribute('width');
+        svg.removeAttribute('height');
+        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        const labels = [...svg.querySelectorAll('text, foreignObject span, foreignObject div')];
+        const sourceFontSizes = labels
+          .map(label => Number.parseFloat(getComputedStyle(label).fontSize))
+          .filter(size => Number.isFinite(size) && size > 0);
+        const sourceFontSize = sourceFontSizes.length ? Math.min(...sourceFontSizes) : 16;
+        const targetFontSize = 16;
+        const labelFloor = window.innerWidth <= 700 ? 11 : 13;
+        const idealWidth = viewWidth * (targetFontSize / sourceFontSize);
+        const readableWidth = viewWidth * (labelFloor / sourceFontSize);
+        const frameStyle = getComputedStyle(frame);
+        const horizontalChrome = Number.parseFloat(frameStyle.paddingLeft) +
+          Number.parseFloat(frameStyle.paddingRight) +
+          Number.parseFloat(frameStyle.borderLeftWidth) +
+          Number.parseFloat(frameStyle.borderRightWidth);
+        const parentWidth = frame.parentElement?.clientWidth || frame.clientWidth;
+        const availableWidth = Math.max(1, parentWidth - horizontalChrome);
+        const needsScroll = readableWidth > availableWidth;
+
+        frame.style.width = `${Math.ceil(Math.min(parentWidth, idealWidth + horizontalChrome))}px`;
+        svg.style.width = `${Math.ceil(idealWidth)}px`;
+        svg.style.maxWidth = needsScroll ? 'none' : '100%';
+        svg.style.minWidth = needsScroll ? `${Math.ceil(readableWidth)}px` : '';
+        svg.style.maxHeight = 'none';
+        svg.style.height = 'auto';
+        svg.dataset.mermaidShape = box.width / box.height < 1 ? 'portrait' : 'landscape';
+        svg.dataset.mermaidDensity = needsScroll ? 'dense' : 'readable';
+      });
+    }
+
     (async () => {
       MANIFEST = await loadManifest();
       try { applyManifestTheme(MANIFEST); } catch (e) { console.error('applyManifestTheme', e); }
@@ -1504,13 +1678,14 @@
       // benefit from the shell wrapper. If a bookmark or external link lands on the shell
       // URL for such a doc, redirect straight to the file. location.replace so back-button
       // skips the shell hop.
-      if (doc && Array.isArray(doc.sources) && doc.sources.length > 0 && doc.sources.every(s => s.toLowerCase().endsWith('.html'))) {
+      if (isStandaloneHtmlDoc(doc)) {
         window.location.replace(doc.sources[0]);
         return;
       }
       renderTopnav(MANIFEST, ctx);
       renderPageHeader(doc);
       renderHero(doc);
+      setupSkipLink();
       // Measure sticky heights AFTER header renders so --sticky-offset is accurate on first paint.
       try { updateNavHeightCssVar(); } catch (e) { console.error('updateNavHeightCssVar', e); }
       window.addEventListener('resize', () => {
@@ -1520,7 +1695,13 @@
       const md = await loadMarkdown(doc);
       try { configureMarked(); } catch (e) { console.error('configureMarked', e); }
       const content = document.getElementById('content');
-      try { content.innerHTML = marked.parse(md); } catch (e) { console.error('parse', e); }
+      try {
+        content.innerHTML = parseAndSanitizeMarkdown(md);
+        hardenRenderedLinks(content);
+      } catch (e) {
+        showRenderError(content, e);
+        throw e;
+      }
       try { suppressLeadingCenteredDiv(content); } catch (e) { console.error('suppressLeadingCenteredDiv', e); }
       try { addHeadingAnchors(content); } catch (e) { console.error('addHeadingAnchors', e); }
       try { wrapTables(content); } catch (e) { console.error('wrapTables', e); }
@@ -1539,9 +1720,10 @@
           theme: dark ? 'dark' : 'default',
           themeVariables: { fontFamily: 'inherit' },
           flowchart: { curve: 'basis', htmlLabels: true },
-          securityLevel: 'loose',
+          securityLevel: 'strict',
         });
         await mermaid.run({ querySelector: '.mermaid' });
+        fitMermaidDiagrams();
       } catch (e) {
         console.error('mermaid', e);
       }

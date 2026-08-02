@@ -10,7 +10,7 @@ Session-start orientation for the Alex ACT constellation. On short greetings tha
 ## Fresh-install boundary
 
 This instruction cannot run before the first bootstrap because it is itself one
-of the sixteen files copied by `install-constellation` Step 6. A truly fresh
+of the seventeen files copied by `install-constellation` Step 6. A truly fresh
 Core install must invoke `/alex-act-core install-constellation` manually once.
 After that, this instruction owns greeting-time repair, drift, and update checks.
 
@@ -51,7 +51,7 @@ Read all four dimensions before deciding what to say:
 
 | Dimension | How to read | Complete criterion |
 |---|---|---|
-| **Bootstrap receipt** | Read `~/.copilot/instructions/.alex-act-bootstrap.json` if present | File exists; `coreVersion` matches installed Core version (see below); `files` array lists 16 filenames all present at `~/.copilot/instructions/alex-act-*.instructions.md` |
+| **Bootstrap receipt** | Read `~/.copilot/instructions/.alex-act-bootstrap.json` if present | File exists; `coreVersion` matches installed Core version (see below); `files` array lists 17 filenames all present at `~/.copilot/instructions/alex-act-*.instructions.md` |
 | **Installed plugins** | Run `copilot plugin list` and parse output | At minimum, Core is present |
 | **enabledPlugins entries** | Read `~/.copilot/settings.json` `enabledPlugins` map | Contains `alex-act-core@alex-mall: true` (other constellation plugins optional; user chose Core-only if only Core is installed) |
 | **Mall update availability** | Only if all above are healthy: fetch Mall catalog at `https://raw.githubusercontent.com/fabioc-aloha/Alex_Skill_Mall/main/catalog/index.json`. For each installed constellation plugin, compare local version against catalog `latest_version`. Skip fetch if offline — treat as "no update info available" (silent) | No installed plugin is older than its Mall entry |
@@ -64,8 +64,8 @@ Determine which of these applies (evaluate in order):
 
 | State | Trigger | Response |
 |---|---|---|
-| **Setup incomplete** | Bootstrap receipt missing, OR any of the 16 bootstrap files missing, OR Core not in `enabledPlugins` | Offer full setup consent gate (see Response A) |
-| **Setup drifted** | Bootstrap present but `receipt.coreVersion` < installed Core version, OR bootstrap files count mismatch (14 out of 16 present) | Offer bootstrap refresh (see Response B) |
+| **Setup incomplete** | Bootstrap receipt missing, OR any of the 17 bootstrap files missing, OR Core not in `enabledPlugins` | Offer full setup consent gate (see Response A) |
+| **Setup drifted** | Bootstrap present but `receipt.coreVersion` < installed Core version, OR bootstrap files count mismatch (15 out of 17 present) | Offer bootstrap refresh (see Response B) |
 | **Updates available** | Setup complete, but Mall catalog shows a newer version for at least one installed constellation plugin | Print one-line update mention (see Response C) |
 | **Healthy** | All four dimensions complete + no updates | Silent — respond to user's message normally |
 
@@ -94,7 +94,7 @@ Print BEFORE responding to the user's actual greeting:
 ```markdown
 👋 Welcome. Core is installed but setup isn't finished yet:
 
-- ❌ Bootstrap discipline files (16 always-on instructions) not yet at `~/.copilot/instructions/`
+- ❌ Bootstrap discipline files (17 always-on instructions, including Alex Finch personality) not yet at `~/.copilot/instructions/`
 - ❌ Other constellation plugins not installed: `alex-act-illustrator-plugin`, `alex-act-enterprise`, `alex-act-msft` (if Microsoft-internal)
 
 **Complete setup?**

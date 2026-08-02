@@ -4,6 +4,29 @@ All notable changes to `alex-act-core` will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [0.5.0] - 2026-08-01
+
+### Added
+
+- Added `ALEX-FINCH.md` as a stable Core entry point for Alex Finch personality and voice. The file is explicitly non-runtime and does not change bootstrap or plugin assets.
+- Added a focused personality-reference regression test covering the canonical Steward link, current Core counts, and the non-activation boundary.
+- Added `alex-finch-personality.instructions.md`, a concise always-on runtime contract derived from the canonical Steward profile, plus its byte-identical bootstrap resource.
+
+### Changed
+
+- Updated `markdown-mermaid` guidance and both bundled preview styles to use one frame owner, shrink-wrap compact diagrams, and reserve horizontal scrolling for graphs that cannot preserve the documented label floor.
+- Consolidated the complete Alex Finch source of truth into `Alex_ACT_Steward/brain/alex-finch.md`; Core now keeps a short pointer instead of a second editable copy.
+- Expanded the separately consented instruction bootstrap from 16 to 17 files so installed heirs receive Alex Finch's stable personality and voice contract.
+
+### Fixed
+
+- Aligned install, plugin-management, uninstall, and manifest guidance with the current 18-instruction contract: 16 bootstrap resources and 2 pattern-applied instructions.
+- Qualified cross-plugin follow-up commands with their installed plugin namespace.
+- Removed the empty `agents` component declaration from `plugin.json`; Core intentionally ships zero agents.
+- Replaced stale v0.1.0 counts in `.github/copilot-instructions.md` with the live v0.4.2 composition.
+
 ## [0.4.2] - 2026-08-01
 
 ### Fixed - fresh-install and plugin CLI contracts
