@@ -51,6 +51,7 @@ function createSourcePlugin() {
     '',
   ].join('\n'));
   writeJson(path.join(source, '.github', 'config', 'fixture.json'), { enabled: true });
+  write(path.join(source, '.github', 'scripts', 'shared', 'runtime.cjs'), "'use strict';\n");
   return source;
 }
 
@@ -123,7 +124,16 @@ test('replacement fails closed when existing bundled resources are omitted', (t)
   const repoRoot = createMallRoot();
   t.after(() => fs.rmSync(sourceRoot, { recursive: true, force: true }));
   t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
-  const { packagePlugin } = require('../scripts/lib/plugin-package.cjs');
+  const { packagePlugin, parseArgs, parseIncludes } = require('../scripts/lib/plugin-package.cjs');
+
+  const parsed = parseArgs([
+    '--include', '.github/config=config',
+    '--include', '.github/scripts/shared=scripts/shared',
+  ]);
+  assert.deepEqual(parseIncludes(parsed.include), [
+    { source: '.github/config', target: 'config' },
+    { source: '.github/scripts/shared', target: 'scripts/shared' },
+  ]);
 
   packagePlugin({
     repoRoot,
@@ -131,7 +141,10 @@ test('replacement fails closed when existing bundled resources are omitted', (t)
     category: 'productivity',
     repository: 'https://github.com/example/fixture-plugin',
     ref: 'v1.2.3',
-    includes: [{ source: '.github/config', target: 'config' }],
+    includes: [
+      { source: '.github/config', target: 'config' },
+      { source: '.github/scripts/shared', target: 'scripts/shared' },
+    ],
     apply: true,
   });
 
@@ -143,6 +156,16 @@ test('replacement fails closed when existing bundled resources are omitted', (t)
     ref: 'v1.2.4',
     replace: true,
   }), /existing bundled resources require explicit --include mappings/);
+
+  assert.throws(() => packagePlugin({
+    repoRoot,
+    sourceRoot,
+    category: 'productivity',
+    repository: 'https://github.com/example/fixture-plugin',
+    ref: 'v1.2.4',
+    includes: [{ source: '.github/config', target: 'config' }],
+    replace: true,
+  }), /existing bundled resources require explicit --include mappings: scripts\/shared/);
 });
 
 test('submission validation rejects secrets and payloads above 100 files', (t) => {

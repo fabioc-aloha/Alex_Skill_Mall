@@ -7,6 +7,8 @@ lastReviewed: 2026-06-30
 
 Use this to verify fleet policy compliance on a machine without changing any settings.
 
+This prompt is self-contained. If the generic skill tool is unavailable, continue with the read-only steps; do not report Core as missing.
+
 This prompt audits user-scope settings only. Review workspace settings directly from the current repository.
 
 ## Objective
@@ -84,6 +86,8 @@ if ($missing.Count) { Write-Host ("Missing keys: {0}" -f ($missing -join ', ')) 
 ```
 
 Both commands are read-only — they never write to `settings.json`.
+
+If user settings contain an absolute local path in `markdown.styles`, report it as unsupported guidance. Recommend an HTTPS stylesheet for user scope or `/alex-act-core bootstrap-workspace` for workspace-relative local CSS.
 
 ## Output Format
 

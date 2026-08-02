@@ -43,6 +43,34 @@ plugin's `plugin.json` as a filesystem fallback:
 - Marketplace install: `~/.copilot/installed-plugins/<marketplace>/<plugin>/plugin.json`
 - Direct install: find the plugin under `~/.copilot/installed-plugins/_direct/`
 
+## Plugin-skill file fallback
+
+Installed plugin skills can appear in session inventory while the generic skill tool still rejects their names. Treat that as a host/runtime bridge limitation, not proof that the package is missing.
+
+For a namespaced plugin command:
+
+1. Resolve the installed plugin root from its `plugin.json` under the marketplace or direct-install tree.
+2. Follow the command's linked skill path under that root.
+3. Read the installed `SKILL.md` directly and continue the command's numbered fallback.
+4. Report generic skill-tool status as `host-limited` when direct reading works. Do not call it `missing`.
+
+Self-contained prompts do not need a skill read; they continue their numbered steps and state that the generic tool was not required.
+
+## Deterministic marketplace versions
+
+`copilot plugin marketplace browse` is a discovery surface. Its flattened output does not reliably expose versions. Use the exact plugin records in `alex-mall`'s `.github/plugin/marketplace.json` for current-version checks.
+
+The bundled resolver returns only requested records:
+
+```powershell
+node <plugin-management-skill>/scripts/core-operations.cjs marketplace-versions `
+  --plugins alex-act-core,alex-act-illustrator-plugin,alex-act-enterprise
+```
+
+By default it reads the immutable raw path for the current `alex-mall` manifest. `--file <path>` provides an offline or test input. Missing, duplicate, or incomplete records fail closed. Compare those exact versions with `copilot plugin list` and installed `plugin.json` files.
+
+For private direct-installed MSFT, use authenticated source metadata through `gh api repos/fabioc-aloha/alex-act-msft/contents/plugin.json`; do not expect a public Mall record.
+
 ## Scope precedence
 
 Copilot CLI reads settings from two locations. Both can define `enabledPlugins` and `extraKnownMarketplaces`; the CLI merges them and applies precedence per the [official spec](https://docs.github.com/copilot/reference/copilot-cli-reference).

@@ -9,6 +9,8 @@ Apply the 7-discipline critical-thinking protocol to a specific decision, claim,
 
 Skill: [critical-thinking](../skills/critical-thinking/SKILL.md). Always-on rule: `critical-thinking.instructions.md`.
 
+If the generic skill tool is unavailable for the plugin-shipped skill, read the linked installed `critical-thinking/SKILL.md` directly and continue with the steps below. Do not report the skill as missing from tool inventory alone.
+
 ## When to Use
 
 - Before committing to a technical approach with material consequences

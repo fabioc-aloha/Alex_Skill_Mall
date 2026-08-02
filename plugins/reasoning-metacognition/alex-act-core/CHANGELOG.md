@@ -6,6 +6,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.6.2] - 2026-08-02
+
+### Fixed
+
+- Consolidated workspace bootstrap and marketplace-version resolution into one deterministic Core operations runtime, preserving both features while keeping the full Mall payload within the 100-file Windows limit.
+
+## [0.6.1] - 2026-08-02
+
+### Fixed
+
+- Consolidated workspace settings parsing into the bootstrap runtime so the complete Mall payload stays within the 100-file Windows limit without removing capability.
+
+## [0.6.0] - 2026-08-02
+
+### Added
+
+- Added `/alex-act-core bootstrap-workspace`, a preview-first deterministic repository setup flow for workspace-relative Markdown Preview CSS, JSONC-safe set-if-absent settings, and selective `.gitignore` tracking.
+- Added exact `alex-mall` marketplace-record version resolution through `plugin-management/scripts/marketplace-versions.cjs`.
+
+### Changed
+
+- Generalized installed-file fallback across every Core namespaced command when the host's generic skill tool rejects a plugin-shipped skill.
+- Added compact bootstrap-only repair, deterministic receipt/hash verification by default, separately consented AI smoke testing, and four-plane activation reporting to `install-constellation`.
+- Corrected CSS scope guidance: local stylesheets are workspace-relative; user-scope `markdown.styles` guidance uses HTTPS rather than an absolute local path.
+
+- Moved the shared-Memory project-isolation boundary to its enforcement points: the always-on `memory-triggers` instruction now routes every shared write through `ai-memory-setup`, and that skill owns the detailed stripping, direct-write, refusal, validation, and local-fallback procedure.
+
+### Removed
+
+- Removed the standalone pattern-applied `cross-project-isolation.instructions.md`. Its workspace-relative `applyTo` paths could fail open when a shared-Memory write originated from another repository, while duplicating policy already required by `ai-memory-setup`.
+
 ## [0.5.1] - 2026-08-01
 
 ### Fixed

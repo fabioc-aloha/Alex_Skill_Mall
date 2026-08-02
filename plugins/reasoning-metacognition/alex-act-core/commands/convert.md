@@ -9,6 +9,8 @@ lastReviewed: 2026-05-26
 
 Convert a document to another format.
 
+If the generic skill tool is unavailable for a plugin-shipped converter, resolve the installed Core root and read the matching `skills/<format>/SKILL.md` directly. Do not declare the converter absent when its installed file exists.
+
 ## Steps
 
 1. **Detect formats**: Identify the source file and target format from the user's request. If ambiguous, ask.

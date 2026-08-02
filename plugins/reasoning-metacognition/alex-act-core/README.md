@@ -2,9 +2,9 @@
 
 Alex Finch is the runtime identity and relational center of the constellation. Core is Alex's baseline runtime body: the plugin-native successor to [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0, distributing the shared identity contract, always-on ACT discipline, and reusable framework skills through the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall).
 
-**Version**: 0.5.1, published in the Alex Mall as `alex-act-core@alex-mall`.
+**Version**: 0.6.2. Install from the Alex Mall as `alex-act-core@alex-mall`.
 
-**Current source shape**: 41 skills, 19 instructions (17 always-on bootstrapped to `~/.copilot/instructions/` + 2 pattern-applied), 13 slash-command prompts, plus a shared runtime for the bundled document converters.
+**Current source shape**: 42 skills, 18 instructions (17 always-on bootstrapped to `~/.copilot/instructions/` + 1 pattern-applied), 14 slash-command prompts, plus a shared runtime for the bundled document converters.
 
 **Content pipeline**: every skill, instruction, and prompt lands through evidence-gated Steward proposals per [`Alex_ACT_Steward/architecture/act/CURATION-RULES.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/act/CURATION-RULES.md). No content ships without an approved proposal.
 
@@ -122,9 +122,9 @@ Alex_ACT_Core/
 │   ├── copilot-instructions.md
 │   ├── config/                 # brand-palette.json, welcome-baseline.json
 │   ├── scripts/shared/         # runtime helpers used by the converter skills
-│   ├── skills/                 # 41 skills (framework + craft + converters + plugin lifecycle)
-│   ├── instructions/           # 19 instructions (17 always-on bootstrapped + 2 pattern-applied)
-│   └── prompts/                # 13 slash-command prompts
+│   ├── skills/                 # 42 skills (framework + workspace bootstrap + craft + converters + plugin lifecycle)
+│   ├── instructions/           # 18 instructions (17 always-on bootstrapped + 1 pattern-applied)
+│   └── prompts/                # 14 slash-command prompts
 └── .vscode/                    # workspace settings for self-dogfooding
 ```
 
@@ -170,6 +170,7 @@ You should see `alex-act-core@alex-mall` with the current version.
 Once Core is in, invoke one of Core's plugin-management prompts from Copilot Chat:
 
 - **`/alex-act-core install-constellation`** — installs the four-plugin constellation flow (Core + Illustrator + Enterprise + MSFT with tenant-check)
+- **`/alex-act-core bootstrap-workspace`** — previews and consent-gates repository-scoped Markdown Preview CSS, workspace settings, and selective `.gitignore` tracking
 - **`/alex-act-core plugin-status`** — read-only inventory of what's installed at user + repo scope
 - **`/alex-act-core update-plugins`** — safe update workflow with per-plugin CHANGELOG reading and consent for breaking changes
 

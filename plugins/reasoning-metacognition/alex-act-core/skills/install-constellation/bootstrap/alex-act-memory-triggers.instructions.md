@@ -1,7 +1,7 @@
 ---
-description: "Automatic memory-formation triggers — detect user corrections, preference statements, session-ending state, significant decisions, and repeated patterns; hand off to memory-management skill for tier selection and writing mechanics"
+description: "Automatic memory-formation triggers and shared-Memory routing boundary — detect corrections, preferences, handoffs, decisions, and repeated patterns; route shared writes through the governed filesystem client"
 applyTo: "**"
-lastReviewed: 2026-07-31
+lastReviewed: 2026-08-02
 ---
 
 # Memory Triggers
@@ -19,6 +19,15 @@ Automatic prompts to form memories. Don't wait to be asked — recognize trigger
 | **Session ending with unfinished or load-bearing state** | **Repo file** (`HANDOFF.md`), **not** session memory | Write/refresh repo-level `HANDOFF.md` so the next session can pick up. See § Cross-Session Continuity below. |
 | **Significant decision** | Chronicle | Record in episodic with rationale |
 | **New project convention** | Repo memory | Write to `/memories/repo/` |
+
+## Shared Memory Boundary
+
+Every shared Memory write must route through the
+[`ai-memory-setup` skill](../skills/ai-memory-setup/SKILL.md), including a direct
+request to create a file under `../Alex_ACT_Memory/`. Before writing, strip
+project-specific names, paths, identifiers, and stack details. Never bypass this
+boundary because the user requested raw project context; use a project-local
+file instead when stripping would destroy the value.
 
 ## Trigger Detection
 
@@ -82,6 +91,7 @@ The natural phrase "session handoff" reads like exactly what `/memories/session/
 ## Related
 
 - [memory-management skill](../../memory-management/SKILL.md) — tier selection, writing templates (handoff / chronicle / post-mortem), and cross-session continuity mechanics
+- [ai-memory-setup skill](../../ai-memory-setup/SKILL.md) — governed filesystem client and project-boundary stripping for every shared Memory write
 - [pii-memory-filter.instructions.md](alex-act-pii-memory-filter.instructions.md) — the write-boundary filter that applies to every write this instruction triggers
 
 ## Would Revise If

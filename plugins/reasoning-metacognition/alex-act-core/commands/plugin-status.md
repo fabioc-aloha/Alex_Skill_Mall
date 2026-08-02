@@ -18,13 +18,15 @@ Steps:
 3. Run `copilot plugin list` and capture the output.
 4. Read `~/.copilot/settings.json` (user scope) if present.
 5. Read `.github/copilot/settings.json` in the current workspace if present.
-6. Cross-reference to produce a report with these sections:
+6. Read exact public versions from `alex-mall`'s `.github/plugin/marketplace.json` through `plugin-management/scripts/marketplace-versions.cjs`. Use `marketplace browse` for discovery only, not version conclusions.
+7. Cross-reference to produce a report with these sections:
    - **User-scope plugins**: from `~/.copilot/settings.json` `enabledPlugins`
    - **Repo-scope plugins**: from `.github/copilot/settings.json` `enabledPlugins`
    - **Direct-installed plugins**: from `~/.copilot/installed-plugins/_direct/`
    - **Registered marketplaces**: from `extraKnownMarketplaces` in both files
    - **Alex ACT constellation status**: which of the four constellation plugins (`alex-act-core`, `alex-act-illustrator-plugin`, `alex-act-enterprise`, `alex-act-msft`) are installed vs missing
-   - **Updates available**: any plugin where installed version < latest available (best-effort — offers to run `/update-plugins` for the detail)
-7. Do not modify anything. Do not run install / update / remove commands.
+   - **Updates available**: any plugin where installed version < the exact marketplace record
+   - **Activation planes**: separate `installed`, `enabled`, `instruction-loaded`, and `skill-invokable` status; use `host-limited` when generic skill registration fails but installed files and namespaced fallback exist
+8. Do not modify anything. Do not run install / update / remove commands.
 
 Fires only when the user explicitly asks — `/plugin-status` is not auto-invoked. The audit is safe on any workspace, online or off.

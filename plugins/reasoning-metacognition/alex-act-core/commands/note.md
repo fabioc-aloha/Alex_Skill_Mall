@@ -7,6 +7,8 @@ lastReviewed: 2026-07-30
 
 Alias for `/save-session-note`. Follow the same protocol — capture a short note to repo-root `HANDOFF.md` so pending actions remain visible on the project root.
 
+This prompt is self-contained. If the generic skill tool is unavailable, read the linked installed `save-session-note` prompt directly and continue; do not report Core as missing.
+
 See [`save-session-note.prompt.md`](save-session-note.md) for the full steps.
 
 ## Quick Form

@@ -9,6 +9,8 @@ Run the step-back protocol on a non-trivial problem before committing to a solut
 
 Skill: [problem-framing-audit](../skills/problem-framing-audit/SKILL.md). Always-on rule: `problem-framing-audit.instructions.md`.
 
+If the generic skill tool is unavailable for the plugin-shipped skill, read the linked installed `problem-framing-audit/SKILL.md` directly and continue with the steps below. Do not report the skill as missing from tool inventory alone.
+
 ## When to Use
 
 - Before solving any non-trivial problem (3+ files, architectural choice, > 15 minutes of work)

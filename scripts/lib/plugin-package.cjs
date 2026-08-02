@@ -315,9 +315,11 @@ function packagePlugin({
     catch { /* malformed metadata is replaced and validated below */ }
   }
   const existingBundled = existingMetadata.artifacts?.bundled || [];
-  if (replace && existingBundled.length && !includes.length) {
+  const includedTargets = new Set(includes.map((include) => include.target));
+  const missingBundled = existingBundled.filter((targetName) => !includedTargets.has(targetName));
+  if (replace && missingBundled.length) {
     throw new Error(
-      `existing bundled resources require explicit --include mappings: ${existingBundled.join(', ')}`,
+      `existing bundled resources require explicit --include mappings: ${missingBundled.join(', ')}`,
     );
   }
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-package-'));
@@ -424,7 +426,12 @@ function parseArgs(argv) {
     const key = token.slice(2);
     const next = argv[index + 1];
     if (!next || next.startsWith('--')) args[key] = true;
-    else { args[key] = next; index++; }
+    else {
+      args[key] = key === 'include' && typeof args[key] === 'string'
+        ? `${args[key]},${next}`
+        : next;
+      index++;
+    }
   }
   return args;
 }

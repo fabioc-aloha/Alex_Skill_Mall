@@ -7,7 +7,9 @@ lastReviewed: 2026-06-30
 
 Use this on first session setup (or when moving to a new machine) to apply a stable user-level VS Code policy.
 
-This prompt owns user-scope settings only. Workspace settings remain project-owned and are reviewed directly from `.vscode/settings.json`.
+This prompt is self-contained. If the generic skill tool is unavailable, continue with the numbered steps; do not report Core as missing. For repository-scoped Markdown CSS and settings, use `/alex-act-core bootstrap-workspace` instead.
+
+This prompt owns user-scope settings only. Workspace settings remain project-owned and are provisioned through `/alex-act-core bootstrap-workspace`.
 
 ## Objective
 
@@ -72,6 +74,7 @@ All three are non-destructive merges — unrelated user-scope keys are preserved
 ## Guardrails
 
 - User-scope only. Do not write these keys to workspace `.vscode/settings.json`.
+- Do not write an absolute local path to user-scope `markdown.styles`. Use an HTTPS stylesheet at user scope, or route local CSS to `/alex-act-core bootstrap-workspace` for workspace-relative setup.
 - Stable settings only — the baseline file is the source of truth; do not inline payload here.
 - Preserve all unrelated existing user settings.
 

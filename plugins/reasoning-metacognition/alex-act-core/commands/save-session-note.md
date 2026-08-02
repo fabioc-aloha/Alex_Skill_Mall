@@ -7,6 +7,8 @@ lastReviewed: 2026-07-30
 
 Capture a short observation, reminder, or open thread in repo-root `HANDOFF.md` so pending actions stay visible to the user across sessions.
 
+This prompt is self-contained. If the generic skill tool is unavailable, continue with the numbered steps; do not report Core as missing.
+
 ## Steps
 
 1. **Get the note from the user** — one or two sentences. If they didn't include one in the request, ask: "What should I capture?"
