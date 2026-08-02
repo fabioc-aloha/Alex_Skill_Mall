@@ -56,7 +56,7 @@ The educational content remains available as Mall skills for users who want the 
 
 ## Related
 
-- [`emotional-intelligence.instructions.md`](alex-act-emotional-intelligence.instructions.md) — same read surface (user messages) but reads *feeling state* rather than *epistemic behavior*. Both fire on every user turn; each catches a different failure mode.
+- `emotional-intelligence` instruction — same read surface (user messages) but reads *feeling state* rather than *epistemic behavior*. Both fire on every user turn; each catches a different failure mode.
 
 ## Would Revise If
 

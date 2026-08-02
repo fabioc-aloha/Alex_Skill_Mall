@@ -1,11 +1,11 @@
 ---
-description: "Short alias for /save-session-note — write a quick pending-action note to repo-root HANDOFF.md"
+description: "Short alias for /alex-act-core save-session-note — write a quick pending-action note to repo-root HANDOFF.md"
 lastReviewed: 2026-07-30
 ---
 
 # Note
 
-Alias for `/save-session-note`. Follow the same protocol — capture a short note to repo-root `HANDOFF.md` so pending actions remain visible on the project root.
+Alias for `/alex-act-core save-session-note`. Follow the same protocol — capture a short note to repo-root `HANDOFF.md` so pending actions remain visible on the project root.
 
 This prompt is self-contained. If the generic skill tool is unavailable, read the linked installed `save-session-note` prompt directly and continue; do not report Core as missing.
 

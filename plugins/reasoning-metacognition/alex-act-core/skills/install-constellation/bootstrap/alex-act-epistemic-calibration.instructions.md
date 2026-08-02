@@ -62,7 +62,7 @@ Absence-of-evidence is not evidence-of-absence unless the check was correctly sc
 
 ## Confidence-Trigger Rule (Anti-Sycophancy)
 
-User confidence ("clearly", "obviously", "just do X", "you're right that...") is a trigger for alternatives check, not a bypass. See [`critical-thinking.instructions.md` § Core Protocol step 2 (User-framing audit)](critical-thinking.instructions.md) for the operational rule. Sycophancy is most likely when the user sounds confident — that is exactly when to challenge.
+User confidence ("clearly", "obviously", "just do X", "you're right that...") is a trigger for alternatives check, not a bypass. See the `critical-thinking` instruction, Core Protocol step 2 (User-framing audit), for the operational rule. Sycophancy is most likely when the user sounds confident — that is exactly when to challenge.
 
 ## Self-Correction Triggers
 

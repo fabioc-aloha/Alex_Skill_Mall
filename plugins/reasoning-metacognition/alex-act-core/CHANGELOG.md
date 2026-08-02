@@ -6,6 +6,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.6.6] - 2026-08-02
+
+### Changed
+
+- Synchronized the shared constellation install guide with the coordinated Core, Illustrator, Enterprise, and MSFT patch versions.
+
+## [0.6.5] - 2026-08-02
+
+### Fixed
+
+- Replaced source-relative instruction links with stable artifact identifiers so all 17 user-scope bootstrap files resolve in their deployed flat directory.
+- Namespaced 33 copyable Core command references while preserving prompt declarations and Markdown link labels.
+- Removed stale forward-shipment claims for capabilities already present in Core.
+
+### Validation
+
+- Preserved source-to-bootstrap byte parity across all 17 bootstrapped instructions and passed the full 25-test Core suite.
+
 ## [0.6.4] - 2026-08-02
 
 ### Added

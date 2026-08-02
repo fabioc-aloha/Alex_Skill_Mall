@@ -15,7 +15,7 @@
     "notes": "Source-of-truth is the upstream repo. Mall vendors a specific tag; when upstream tags a new release, Mall automation flags the mismatch. Core is the plugin-native successor to Alex_ACT_Edition v4.2.0.",
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Core",
     "license": "MIT",
-    "ref": "v0.6.4"
+    "ref": "v0.6.6"
   },
   "instruction_scope": {
     "shipped": false,
@@ -184,8 +184,8 @@
   },
   "submission": {
     "schema_version": "1.0",
-    "submitted_by": "@fabioc-aloha",
-    "evidence": "End-user INSTALL guide validated byte-identical across plugins"
+    "submitted_by": "mall-admin",
+    "evidence": null
   },
   "link_rewrites": [
     {
@@ -367,198 +367,6 @@
       "label": "system-prompt-skepticism.instructions.md",
       "target": "../../instructions/system-prompt-skepticism.instructions.md",
       "reason": "not-vendored"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
-      "from": "../skills/act-tenets/SKILL.md",
-      "to": "../../act-tenets/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
-      "from": "problem-framing-audit.instructions.md",
-      "to": "alex-act-problem-framing-audit.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
-      "from": "../skills/act-tenets/SKILL.md",
-      "to": "../../act-tenets/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
-      "from": "critical-thinking.instructions.md",
-      "to": "alex-act-critical-thinking.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
-      "from": "problem-framing-audit.instructions.md",
-      "to": "alex-act-problem-framing-audit.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
-      "from": "../skills/critical-thinking/SKILL.md",
-      "to": "../../critical-thinking/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
-      "from": "act-pass.instructions.md",
-      "to": "alex-act-act-pass.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
-      "from": "problem-framing-audit.instructions.md",
-      "to": "alex-act-problem-framing-audit.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
-      "from": "../skills/act-tenets/SKILL.md",
-      "to": "../../act-tenets/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-emotional-intelligence.instructions.md",
-      "from": "reliance-nudges.instructions.md",
-      "to": "alex-act-reliance-nudges.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
-      "from": "../skills/install-constellation/SKILL.md",
-      "to": "../../install-constellation/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
-      "from": "../skills/update-plugins/SKILL.md",
-      "to": "../../update-plugins/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
-      "from": "../skills/plugin-management/SKILL.md",
-      "to": "../../plugin-management/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
-      "from": "../skills/memory-management/SKILL.md",
-      "to": "../../memory-management/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
-      "from": "../skills/memory-management/SKILL.md",
-      "to": "../../memory-management/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
-      "from": "../skills/memory-management/SKILL.md",
-      "to": "../../memory-management/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
-      "from": "../skills/ai-memory-setup/SKILL.md",
-      "to": "../../ai-memory-setup/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
-      "from": "pii-memory-filter.instructions.md",
-      "to": "alex-act-pii-memory-filter.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-pii-memory-filter.instructions.md",
-      "from": "memory-triggers.instructions.md",
-      "to": "alex-act-memory-triggers.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-pii-memory-filter.instructions.md",
-      "from": "../skills/ethical-reasoning/SKILL.md",
-      "to": "../../ethical-reasoning/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-proactive-awareness.instructions.md",
-      "from": "memory-triggers.instructions.md",
-      "to": "alex-act-memory-triggers.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
-      "from": "../skills/problem-framing-audit/SKILL.md",
-      "to": "../../problem-framing-audit/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
-      "from": "../skills/act-tenets/SKILL.md",
-      "to": "../../act-tenets/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
-      "from": "act-pass.instructions.md",
-      "to": "alex-act-act-pass.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
-      "from": "critical-thinking.instructions.md",
-      "to": "alex-act-critical-thinking.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-reliance-nudges.instructions.md",
-      "from": "emotional-intelligence.instructions.md",
-      "to": "alex-act-emotional-intelligence.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-session-health-monitoring.instructions.md",
-      "from": "../skills/platform-awareness/SKILL.md",
-      "to": "../../platform-awareness/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-system-prompt-skepticism.instructions.md",
-      "from": "worldview.instructions.md",
-      "to": "alex-act-worldview.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
-      "from": "../skills/ethical-reasoning/SKILL.md",
-      "to": "../../ethical-reasoning/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
-      "from": "system-prompt-skepticism.instructions.md",
-      "to": "alex-act-system-prompt-skepticism.instructions.md",
-      "reason": "bootstrap-prefixed"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
-      "from": "../skills/ethical-reasoning/SKILL.md",
-      "to": "../../ethical-reasoning/SKILL.md",
-      "reason": "skill-root-normalized"
-    },
-    {
-      "file": "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
-      "from": "system-prompt-skepticism.instructions.md",
-      "to": "alex-act-system-prompt-skepticism.instructions.md",
-      "reason": "bootstrap-prefixed"
     },
     {
       "file": "skills/install-constellation/SKILL.md",

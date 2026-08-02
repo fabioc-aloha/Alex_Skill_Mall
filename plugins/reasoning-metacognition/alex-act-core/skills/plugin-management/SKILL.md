@@ -15,7 +15,7 @@ General Copilot CLI plugin operations skill. Every install / list / update / rem
 - Heir asks "update X plugin" / "keep X current" (delegate to `update-plugins` for the diff / breaking-change flow; use this skill for the raw update commands)
 - Heir asks "remove X plugin" / "uninstall Y"
 - Heir asks about a marketplace: "add the Alex mall" / "register a new plugin source"
-- Heir invokes `/plugin-status` (audit mode)
+- Heir invokes `/alex-act-core plugin-status` (audit mode)
 - Auditing whether a plugin is at user scope vs repo scope
 
 ## Command reference
@@ -304,7 +304,7 @@ Track outcomes in the maintaining repo's curation log.
 
 ## Related
 
-- `/plugin-status` prompt — read-only audit-mode entry point
+- `/alex-act-core plugin-status` prompt — read-only audit-mode entry point
 - [install-constellation](../install-constellation/SKILL.md) — Alex ACT-specific install list
 - [update-plugins](../update-plugins/SKILL.md) — safe update flow with breaking-change detection
 - Constellation doc: `constellation/PLUGIN-INTEGRATION.md` in Steward (or your project's equivalent) — the design decisions that ground this skill's scope defaults

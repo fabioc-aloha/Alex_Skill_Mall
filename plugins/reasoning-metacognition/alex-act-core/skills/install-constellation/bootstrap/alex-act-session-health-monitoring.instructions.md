@@ -8,7 +8,7 @@ lastReviewed: 2026-08-01
 
 **Always-on rationale**: context capacity is a per-conversation property, not a per-file one. Tracking proxy heuristics, warning signs, and checkpoints must fire continuously across every turn; a scoped glob would silence the monitoring exactly when sessions extend across many file types.
 
-Monitor context usage and ensure graceful session transitions. Token-cost details for specific operations live in the [platform-awareness skill](../../platform-awareness/SKILL.md) and in skill bodies; this file owns session-level signals.
+Monitor context usage and ensure graceful session transitions. Token-cost details for specific operations live in the `platform-awareness` skill and in skill bodies; this file owns session-level signals.
 
 ## Proxy Heuristics
 

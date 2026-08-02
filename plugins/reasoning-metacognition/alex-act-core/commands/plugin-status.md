@@ -29,4 +29,4 @@ Steps:
    - **Activation planes**: separate `installed`, `enabled`, `instruction-loaded`, and `skill-invokable` status; use `host-limited` when generic skill registration fails but installed files and namespaced fallback exist
 8. Do not modify anything. Do not run install / update / remove commands.
 
-Fires only when the user explicitly asks — `/plugin-status` is not auto-invoked. The audit is safe on any workspace, online or off.
+Fires only when the user explicitly asks — `/alex-act-core plugin-status` is not auto-invoked. The audit is safe on any workspace, online or off.

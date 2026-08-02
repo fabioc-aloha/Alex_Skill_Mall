@@ -17,7 +17,7 @@ Audit user-scope VS Code settings against the central baseline and report drift.
 
 ## Source of truth
 
-The baseline lives in `.github/config/welcome-baseline.json` (`settings` object). Both `/configure-vscode` (apply) and `/configure-vscode-verify` (this audit) load from the same file — update once.
+The baseline lives in `.github/config/welcome-baseline.json` (`settings` object). Both `/alex-act-core configure-vscode` (apply) and `/alex-act-core configure-vscode-verify` (this audit) load from the same file — update once.
 
 ## Read-Only Steps
 
@@ -33,7 +33,7 @@ The baseline lives in `.github/config/welcome-baseline.json` (`settings` object)
    - `drift` (key exists but value differs)
    - `missing` (key absent)
 6. Report compliance summary and drift table.
-7. Recommend running `/configure-vscode` only if drift or missing keys are found.
+7. Recommend running `/alex-act-core configure-vscode` only if drift or missing keys are found.
 
 ## Reference Commands (read-only audit)
 
@@ -103,7 +103,7 @@ Missing keys:
 - key: expected=<...>
 
 Recommendation:
-- No action required | Run /configure-vscode to apply baseline
+- No action required | Run `/alex-act-core configure-vscode` to apply baseline
 ```
 
 ## Guardrails

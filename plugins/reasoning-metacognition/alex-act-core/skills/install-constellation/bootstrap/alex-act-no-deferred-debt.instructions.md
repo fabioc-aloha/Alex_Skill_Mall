@@ -47,7 +47,7 @@ When any of the following appears in a turn's output:
 
 ## Composition
 
-Composes with `lint-discipline.instructions.md` (when it ships in a later Core batch): lint-discipline covers files I touched; this rule covers debt I surfaced regardless of whether I touched its file.
+Composes with the `lint-discipline` instruction: lint-discipline covers files I touched; this rule covers debt I surfaced regardless of whether I touched its file.
 
 ## Would Revise If
 

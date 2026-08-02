@@ -17,7 +17,7 @@ Produce and apply a portable settings payload at user scope so workspace setting
 
 ## Source of truth
 
-The baseline payload lives in `.github/config/welcome-baseline.json` (`settings` object). Both `/configure-vscode` (apply) and `/configure-vscode-verify` (audit) load from the same file — update once.
+The baseline payload lives in `.github/config/welcome-baseline.json` (`settings` object). Both `/alex-act-core configure-vscode` (apply) and `/alex-act-core configure-vscode-verify` (audit) load from the same file — update once.
 
 ## Apply Steps
 

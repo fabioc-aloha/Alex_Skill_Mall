@@ -6,7 +6,7 @@ lastReviewed: 2026-08-02
 
 # Memory Triggers
 
-Automatic prompts to form memories. Don't wait to be asked — recognize trigger conditions and hand off to the [memory-management skill](../../memory-management/SKILL.md) for tier selection and writing mechanics.
+Automatic prompts to form memories. Don't wait to be asked — recognize trigger conditions and hand off to the `memory-management` skill for tier selection and writing mechanics.
 
 ## Trigger Conditions
 
@@ -23,7 +23,7 @@ Automatic prompts to form memories. Don't wait to be asked — recognize trigger
 ## Shared Memory Boundary
 
 Every shared Memory write must route through the
-[`ai-memory-setup` skill](../skills/ai-memory-setup/SKILL.md), including a direct
+`ai-memory-setup` skill, including a direct
 request to create a file under `../Alex_ACT_Memory/`. Before writing, strip
 project-specific names, paths, identifiers, and stack details. Never bypass this
 boundary because the user requested raw project context; use a project-local
@@ -77,7 +77,7 @@ After extended work with state the next session must recover:
 
 ## Cross-Session Continuity — handoffs go to repo files, not session memory
 
-The natural phrase "session handoff" reads like exactly what `/memories/session/` is for. It is not. The tier that carries handoff content is the **repo-root `HANDOFF.md` file**, because session memory clears at conversation end by design. The [memory-management skill](../../memory-management/SKILL.md) carries the tier-selection detail and templates; the rule this instruction owns is *"reach for the repo file first, not `/memories/session/`, when the user asks for a session handoff."*
+The natural phrase "session handoff" reads like exactly what `/memories/session/` is for. It is not. The tier that carries handoff content is the **repo-root `HANDOFF.md` file**, because session memory clears at conversation end by design. The `memory-management` skill carries the tier-selection detail and templates; the rule this instruction owns is *"reach for the repo file first, not `/memories/session/`, when the user asks for a session handoff."*
 
 ## Anti-Patterns
 
@@ -90,9 +90,9 @@ The natural phrase "session handoff" reads like exactly what `/memories/session/
 
 ## Related
 
-- [memory-management skill](../../memory-management/SKILL.md) — tier selection, writing templates (handoff / chronicle / post-mortem), and cross-session continuity mechanics
-- [ai-memory-setup skill](../../ai-memory-setup/SKILL.md) — governed filesystem client and project-boundary stripping for every shared Memory write
-- [pii-memory-filter.instructions.md](alex-act-pii-memory-filter.instructions.md) — the write-boundary filter that applies to every write this instruction triggers
+- `memory-management` skill — tier selection, writing templates (handoff / chronicle / post-mortem), and cross-session continuity mechanics
+- `ai-memory-setup` skill — governed filesystem client and project-boundary stripping for every shared Memory write
+- `pii-memory-filter` instruction — the write-boundary filter that applies to every write this instruction triggers
 
 ## Would Revise If
 

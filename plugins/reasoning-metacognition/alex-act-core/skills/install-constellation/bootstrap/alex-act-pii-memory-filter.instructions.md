@@ -25,7 +25,7 @@ This filter applies whenever you write to ANY persistent tier:
 | Shared Memory — insights | File creation in `../Alex_ACT_Memory/insights/` | No |
 | Shared Memory — profile (encrypted) | Envelope write to `../Alex_ACT_Memory/profile/<user>/*.encrypted.json` | No |
 
-For tier *selection* (where content goes), see [memory-triggers.instructions.md § Memory Tier Selection](alex-act-memory-triggers.instructions.md). This filter constrains *what* may be written; MT constrains *where*. Only the five channels above are approved on the shared bus; ad-hoc paths (for example a shared `notes.md`) fail Memory's strict validator.
+For tier *selection* (where content goes), see the `memory-triggers` instruction. This filter constrains *what* may be written; MT constrains *where*. Only the five channels above are approved on the shared bus; ad-hoc paths (for example a shared `notes.md`) fail Memory's strict validator.
 
 ## Never Write These Categories
 
@@ -42,7 +42,7 @@ Before writing to ANY persistent tier, verify the content does NOT contain:
 | **Client names** | Employer clients, project clients in fleet context | L3 confidential business data |
 | **Biometric / location / behavioral** | Fingerprints, precise GPS, browsing patterns | L3–L4 depending on tier — treat as sensitive |
 
-> **Design-time complement**: for systems that touch user data at architectural boundaries (not just memory-write boundaries), consult the [ethical-reasoning skill](../../ethical-reasoning/SKILL.md) § Privacy by Design (minimize / purpose-limit / anonymize / encrypt / expire) and § Responsible AI (fairness / transparency / human oversight / safety) principles. This instruction fires on every persistent-storage write; the skill fires when you are designing the system that produces the writes.
+> **Design-time complement**: for systems that touch user data at architectural boundaries (not just memory-write boundaries), consult the `ethical-reasoning` skill's Privacy by Design (minimize / purpose-limit / anonymize / encrypt / expire) and Responsible AI (fairness / transparency / human oversight / safety) principles. This instruction fires on every persistent-storage write; the skill fires when you are designing the system that produces the writes.
 
 ## Allowed Content Per Tier
 

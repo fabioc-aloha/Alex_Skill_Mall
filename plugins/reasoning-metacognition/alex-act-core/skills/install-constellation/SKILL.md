@@ -11,7 +11,7 @@ Install the Alex ACT constellation plugins at their correct default scope, in th
 ## When to fire
 
 - Heir asks "install Alex ACT" / "set up the constellation" / "install the Alex plugins"
-- Heir invokes `/install-constellation`
+- Heir invokes `/alex-act-core install-constellation`
 - First run after a fresh Core install on a new machine. The heir must invoke `/alex-act-core install-constellation` explicitly because `greeting-checkin` is not available until Step 6 has run once.
 - Repairing a partial install (some constellation plugins present, others missing)
 - **Auto-invoked from `greeting-checkin` instruction** on session start when constellation state is incomplete (added 2026-08-01)
@@ -22,7 +22,7 @@ The skill runs in one of three modes depending on how it was invoked:
 
 | Mode | Trigger | Behavior |
 |---|---|---|
-| **Manual** (default) | Heir types `/install-constellation` explicitly | Full consent flow: print 4-plugin table, ask which to install, tenant-check MSFT, bootstrap discipline, verify. All Steps 1-7 fire. |
+| **Manual** (default) | Heir types `/alex-act-core install-constellation` explicitly | Full consent flow: print 4-plugin table, ask which to install, tenant-check MSFT, bootstrap discipline, verify. All Steps 1-7 fire. |
 | **Auto-invoked from greeting-checkin** | `greeting-checkin` instruction detected incomplete state on a session greeting and user replied Y to the consolidated consent gate | Single Y already covers Steps 1-2. Skip re-asking. Go directly to Step 3 (marketplace) → Step 4 (installs) → Step 5 (settings) → Step 6 (bootstrap) → Step 7 (report). Streamlined but same actions. Report at Step 7 also confirms "Setup complete — reload VS Code to activate all skills" if any new plugins landed. |
 | **Repair** | Heir invoked manually AND state check finds partial residue (bootstrap files without matching plugin, orphan receipt) | Confirm intent to complete partial install; skip installs of plugins already present at target version. |
 | **Bootstrap-only repair** | All plugin versions, enabled keys, and manifests match, but the receipt or one of its seventeen files is missing, stale, or hash-mismatched | Skip plugin selection, marketplace registration, installation, and settings merge. Show the bootstrap delta and go directly to the separate Step 6 consent gate. |
@@ -287,7 +287,7 @@ Then report:
 - Files modified: `~/.copilot/settings.json` — show a diff of what changed. If the bootstrap ran, also `~/.copilot/instructions/` plus its receipt
 - Next steps: enabling Microsoft ecosystem plugins per project → `/alex-act-enterprise setup-enterprise` in that project's workspace; enabling Microsoft-internal signals → `/alex-act-msft setup-msft` (if MSFT installed)
 - **Visual-workflow companions** (see § "Optional: visual workflow companions" above for ownership + rationale): if the heir mentioned chart authoring, dashboards, reports with visuals, PR screenshots, or any workload involving visual verification, tell them to invoke `/alex-act-illustrator-plugin install-visual-companions` after this install completes. Do NOT list the 9 plugins from here — the catalog + install-time caveats + verified-status list live in Illustrator's `install-visual-companions` skill to keep them from drifting across two plugins.
-- If the bootstrap was declined, say plainly that Core's skills are available but the ACT discipline layer is not, and that `/install-constellation` can be re-run later to add it
+- If the bootstrap was declined, say plainly that Core's skills are available but the ACT discipline layer is not, and that `/alex-act-core install-constellation` can be re-run later to add it
 - If all plugin and settings checks passed before Step 6, label the run `bootstrap-only repair`; do not replay or narrate skipped installation work as if it ran
 
 ## Idempotency

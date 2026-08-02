@@ -187,7 +187,7 @@ Write with 2-space indentation and a trailing newline, atomic (write to `.tmp` t
 | Chatter when state is healthy ("Everything's fine!") | Silence is the right response. Only speak when there's a state to act on. |
 | Running the update-check fetch on every greeting even if cache is fresh | Respect the 60-min cache. Skip fetch entirely when cache is fresh. |
 | Auto-invoking install without explicit Y | Every setup action requires consent. Never assume. |
-| Verbose multi-line explanations for the update notice | One line, one CTA. Users invoke `/update-plugins` when they're ready. |
+| Verbose multi-line explanations for the update notice | One line, one CTA. Users invoke `/alex-act-core update-plugins` when they're ready. |
 | Blocking the user's actual message while doing the check | Do the check silently; if state is healthy, respond to the message normally without any preamble. Only interrupt if there's actual action to offer. |
 | Prompting again immediately after decline within same session | Wait until cache expires (60 min). Trust the user's answer. |
 
@@ -198,15 +198,15 @@ Sunset or restructure by **2026-11-01** (90 days) if:
 - Users report the check-in fires too often (nagging) — cache window is too short OR trigger patterns too broad
 - Users report the check-in never fires when it should — greeting patterns too narrow OR the 40-char filter is wrong
 - The Mall catalog fetch fails > 20% of check-ins — swap to per-plugin polls (heavier but more reliable)
-- Users hit the response D silent path but still don't discover Alex ACT features — add a lightweight "type `/plugin-status` to see what Core offers" hint on healthy responses (test change)
+- Users hit the response D silent path but still don't discover Alex ACT features — add a lightweight "type `/alex-act-core plugin-status` to see what Core offers" hint on healthy responses (test change)
 - Setup incomplete state doesn't correctly detect a heir who ran a partial install and quit halfway — need more granular state classification
 
 Track outcomes in Steward `operations/ledgers/curation-log.md` tagged `[GREETING-CHECKIN]`.
 
 ## Related
 
-- [`install-constellation`](../../install-constellation/SKILL.md) skill — the target of Response A's setup offer; has an "auto-invoked from greeting-checkin" mode
-- [`update-plugins`](../../update-plugins/SKILL.md) skill — the target of Response C's update mention; owns the Mall catalog fetch helper
-- [`plugin-management`](../../plugin-management/SKILL.md) skill — canonical documentation of the session-state hint file schema
+- `install-constellation` skill — the target of Response A's setup offer; has an "auto-invoked from greeting-checkin" mode
+- `update-plugins` skill — the target of Response C's update mention; owns the Mall catalog fetch helper
+- `plugin-management` skill — canonical documentation of the session-state hint file schema
 - Steward [`USER-EXPERIENCE.md` § Stage 1](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md) — user-facing 4-step install flow this instruction operationalizes
 - Steward [`PLUGIN-INTEGRATION.md` § 3](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/PLUGIN-INTEGRATION.md) — the greeting-checkin discovery pattern in the update model
