@@ -28,8 +28,8 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Changed
 
-- Published immutable payload refreshes for `alex-act-core` v0.5.0,
-	`alex-act-illustrator-plugin` v0.6.2, and `alex-act-enterprise` v0.1.1.
+- Published immutable payload refreshes for `alex-act-core` v0.5.1,
+	`alex-act-illustrator-plugin` v0.6.2, and `alex-act-enterprise` v0.1.2.
 	The private `alex-act-msft` plugin remains absent from the public Mall.
 - Storefront and contribution documentation now describe the CLI-native plugin
 	shape and the separate maintainer and contributor workflows.
@@ -49,6 +49,8 @@ All notable changes to Alex ACT Plugin Mall.
 - Added a copy/remove fallback for temporary plugin-content moves when Windows
 	returns `EPERM` or `EACCES`, while retaining atomic rename for release backup
 	and rollback operations.
+- Made replacement vendoring fail closed when an existing payload declares
+	bundled resources but the refresh omits explicit `--include` mappings.
 
 - **Second-round curation pass (2026-07-28)**: registry pruned from 33 → **29
 	active stores** and 3,548 → **3,479 aggregated plugins**. Cut 4 low-uniqueness

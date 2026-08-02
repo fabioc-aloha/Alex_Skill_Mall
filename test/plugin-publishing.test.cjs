@@ -118,6 +118,33 @@ test('packagePlugin defaults to dry-run and does not write the destination', (t)
   assert.equal(fs.existsSync(path.join(repoRoot, 'plugins', 'productivity', 'fixture-plugin')), false);
 });
 
+test('replacement fails closed when existing bundled resources are omitted', (t) => {
+  const sourceRoot = createSourcePlugin();
+  const repoRoot = createMallRoot();
+  t.after(() => fs.rmSync(sourceRoot, { recursive: true, force: true }));
+  t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
+  const { packagePlugin } = require('../scripts/lib/plugin-package.cjs');
+
+  packagePlugin({
+    repoRoot,
+    sourceRoot,
+    category: 'productivity',
+    repository: 'https://github.com/example/fixture-plugin',
+    ref: 'v1.2.3',
+    includes: [{ source: '.github/config', target: 'config' }],
+    apply: true,
+  });
+
+  assert.throws(() => packagePlugin({
+    repoRoot,
+    sourceRoot,
+    category: 'productivity',
+    repository: 'https://github.com/example/fixture-plugin',
+    ref: 'v1.2.4',
+    replace: true,
+  }), /existing bundled resources require explicit --include mappings/);
+});
+
 test('submission validation rejects secrets and payloads above 100 files', (t) => {
   const sourceRoot = createSourcePlugin();
   const repoRoot = createMallRoot();

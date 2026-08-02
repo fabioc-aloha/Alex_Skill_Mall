@@ -2,7 +2,7 @@
 
 Alex Finch is the runtime identity and relational center of the constellation. Core is Alex's baseline runtime body: the plugin-native successor to [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0, distributing the shared identity contract, always-on ACT discipline, and reusable framework skills through the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall).
 
-**Version**: 0.5.0, prepared for publication in the Alex Mall as `alex-act-core@alex-mall`.
+**Version**: 0.5.1, published in the Alex Mall as `alex-act-core@alex-mall`.
 
 **Current source shape**: 41 skills, 19 instructions (17 always-on bootstrapped to `~/.copilot/instructions/` + 2 pattern-applied), 13 slash-command prompts, plus a shared runtime for the bundled document converters.
 

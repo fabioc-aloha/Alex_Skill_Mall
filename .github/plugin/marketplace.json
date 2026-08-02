@@ -144,14 +144,14 @@
     {
       "name": "alex-act-core",
       "description": "The Alex ACT baseline plugin. Installs 41 reusable framework skills and 13 slash-command prompts covering epistemic discipline, document converters, security and privacy, tooling awareness, engineering craft, and plugin lifecycle management. Core also authors 19 instructions (17 always-on, 2 pattern-applied), including the Alex Finch runtime personality contract. Run /alex-act-core install-constellation after installing to bootstrap the seventeen load-bearing instructions to ~/.copilot/instructions/. Maintained by Alex_ACT_Steward through evidence-gated proposals.",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "source": "plugins/reasoning-metacognition/alex-act-core",
       "strict": true
     },
     {
       "name": "alex-act-enterprise",
       "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /setup-enterprise slash command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of alex-act-core. Not internal-only (that's alex-act-msft). Maintained by Alex_ACT_Steward.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "source": "plugins/cloud-infrastructure/alex-act-enterprise",
       "strict": true
     },

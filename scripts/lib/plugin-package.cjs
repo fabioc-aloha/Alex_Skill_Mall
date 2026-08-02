@@ -308,6 +308,18 @@ function packagePlugin({
   if (!NAME_PATTERN.test(sourceManifest.name || '')) throw new Error('plugin manifest name must be kebab-case');
 
   const target = path.join(path.resolve(repoRoot), 'plugins', category, sourceManifest.name);
+  const existingMetadataPath = path.join(target, '.mall-metadata.json');
+  let existingMetadata = {};
+  if (fs.existsSync(existingMetadataPath)) {
+    try { existingMetadata = readJson(existingMetadataPath); }
+    catch { /* malformed metadata is replaced and validated below */ }
+  }
+  const existingBundled = existingMetadata.artifacts?.bundled || [];
+  if (replace && existingBundled.length && !includes.length) {
+    throw new Error(
+      `existing bundled resources require explicit --include mappings: ${existingBundled.join(', ')}`,
+    );
+  }
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-package-'));
   const workRoot = path.join(tempRoot, sourceManifest.name);
   fs.mkdirSync(workRoot, { recursive: true });
@@ -338,12 +350,6 @@ function packagePlugin({
     }
     writeJson(path.join(workRoot, 'plugin.json'), outputManifest);
     const linkRewrites = rewriteUnshippableMarkdownLinks(workRoot);
-    let existingMetadata = {};
-    const existingMetadataPath = path.join(target, '.mall-metadata.json');
-    if (fs.existsSync(existingMetadataPath)) {
-      try { existingMetadata = readJson(existingMetadataPath); }
-      catch { /* malformed metadata is replaced and validated below */ }
-    }
     writeJson(path.join(workRoot, '.mall-metadata.json'), {
       ...existingMetadata,
       upstream: {

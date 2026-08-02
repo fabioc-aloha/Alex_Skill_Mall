@@ -1,0 +1,38 @@
+{
+  "$comment": "Master brand palette for the Alex ACT constellation. Single source of truth for colors, gradients, semantic role coding, chart palettes, and typography across all visual layers (svg-banner, markdown-mermaid diagrams, illustrator agent, flint-chart plugin). Heirs override by editing this file. Per-tool configs (banner-brand.json, etc.) reference this file for color values and keep only tool-specific structure (watermark whitelists, mark paths, etc.).",
+  "$version": "1.0",
+  "$lastReviewed": "2026-07-30",
+
+  "brand": {
+    "primary": "#10b981",
+    "primaryDark": "#0f172a",
+    "primaryLight": "#f1f5f9",
+    "muted": "#94a3b8"
+  },
+
+  "gradient": ["#10b981", "#14b8a6", "#06b6d4"],
+
+  "semantic": {
+    "blue":    { "fill": "#ddf4ff", "stroke": "#80ccff", "text": "#0550ae", "role": "Input, source, start" },
+    "green":   { "fill": "#d3f5db", "stroke": "#6fdd8b", "text": "#1a7f37", "role": "Output, result, success" },
+    "purple":  { "fill": "#d8b9ff", "stroke": "#bf8aff", "text": "#6639ba", "role": "Processing, model, transformation, ops" },
+    "gold":    { "fill": "#fff8c5", "stroke": "#d4a72c", "text": "#9a6700", "role": "Decision, condition, gate, user action" },
+    "red":     { "fill": "#ffebe9", "stroke": "#f5a3a3", "text": "#cf222e", "role": "Error, warning, failure, instruction" },
+    "neutral": { "fill": "#eaeef2", "stroke": "#d0d7de", "text": "#24292f", "role": "Context, optional, out-of-scope" }
+  },
+
+  "chart": {
+    "categorical": ["#10b981", "#0ea5e9", "#f59e0b", "#8b5cf6", "#ef4444"],
+    "sequential": { "min": "#f0fdf4", "max": "#064e3b" },
+    "divergent": { "negative": "#dc2626", "midpoint": "#f5f5f5", "positive": "#059669" },
+    "textOnColor": "#1f2937"
+  },
+
+  "typography": {
+    "fontStack": "Segoe UI, Helvetica, Arial, sans-serif",
+    "textOnDark": "#f1f5f9",
+    "textOnLight": "#1f2937",
+    "linkStroke": "#57606a",
+    "linkStrokeWidth": "1.5px"
+  }
+}

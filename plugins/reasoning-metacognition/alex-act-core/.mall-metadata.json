@@ -15,7 +15,7 @@
     "notes": "Source-of-truth is the upstream repo. Mall vendors a specific tag; when upstream tags a new release, Mall automation flags the mismatch. Core is the plugin-native successor to Alex_ACT_Edition v4.2.0.",
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Core",
     "license": "MIT",
-    "ref": "v0.5.0"
+    "ref": "v0.5.1"
   },
   "instruction_scope": {
     "shipped": false,
@@ -113,7 +113,10 @@
       "commands/uninstall-constellation.md",
       "commands/update-plugins.md"
     ],
-    "bundled": []
+    "bundled": [
+      "config",
+      "scripts/shared"
+    ]
   },
   "install_paths": {
     "note": "Core is baseline, not a local specialization, so its artefacts install to the baseline .github/skills and .github/prompts paths rather than the local/ namespace used by specialization plugins.",
