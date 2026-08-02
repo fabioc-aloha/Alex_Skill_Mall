@@ -144,21 +144,21 @@
     {
       "name": "alex-act-core",
       "description": "The Alex ACT baseline plugin. Installs 42 reusable framework skills and 14 slash-command prompts covering epistemic discipline, repository workspace bootstrap, document converters, security and privacy, tooling awareness, engineering craft, and plugin lifecycle management. Core also authors 18 instructions (17 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Run /alex-act-core install-constellation after installing to bootstrap the seventeen load-bearing instructions to ~/.copilot/instructions/. Maintained by Alex_ACT_Steward through evidence-gated proposals.",
-      "version": "0.6.3",
+      "version": "0.6.4",
       "source": "plugins/reasoning-metacognition/alex-act-core",
       "strict": true
     },
     {
       "name": "alex-act-enterprise",
       "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /alex-act-enterprise setup-enterprise command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of alex-act-core. Not internal-only (that's alex-act-msft). Maintained by Alex_ACT_Steward.",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "source": "plugins/cloud-infrastructure/alex-act-enterprise",
       "strict": true
     },
     {
       "name": "alex-act-illustrator-plugin",
       "description": "Visual-authoring bundle for AI agents. Ten skills across five feature areas plus install composition: Flint (statistical chart authoring via the local-first flint-chart-mcp server from microsoft/flint-chart), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures), Replicate (AI image generation over Replicate's HTTP API, opt-in via REPLICATE_API_TOKEN), Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports), Banner (1200×320 SVG brand banners with pluggable brand config), and the install-visual-companions skill that owns the offer for 9 marketplace companion plugins forming the vision loop (storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball). Shared framing gate (chart-big-idea Step 0.5) and verification pass (render-verify Prose-coupling) apply across all authoring features. Alex ACT constellation plugin, maintained by Alex_ACT_Steward.",
-      "version": "0.6.3",
+      "version": "0.6.4",
       "source": "plugins/data-analytics/alex-act-illustrator-plugin",
       "strict": true
     },

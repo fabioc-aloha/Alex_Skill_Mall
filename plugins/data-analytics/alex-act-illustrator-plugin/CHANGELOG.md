@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.4] - 2026-08-02
+
+### Added
+
+- Added a reset-free end-user `INSTALL.md` covering full constellation setup, Core instruction bootstrap, activation verification, optional workloads, and updates.
+
 ## [0.6.3] - 2026-08-02
 
 ### Fixed
