@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.3] - 2026-08-02
+
+### Fixed
+
+- Reconciled repository Copilot guidance with the live five-area, ten-skill, three-prompt plugin identity and current Mall path.
+- Made the README demo image and source-only demo/documentation references resolve from both the source repository and the vendored Mall payload.
+- Qualified active chart and banner entry points with the installed plugin namespace.
+
 ## [0.6.2] - 2026-08-01
 
 ### Changed

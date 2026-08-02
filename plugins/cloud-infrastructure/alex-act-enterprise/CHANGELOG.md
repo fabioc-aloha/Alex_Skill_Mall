@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.1.3] - 2026-08-02
+
+### Fixed
+
+- Replaced the unsupported `copilot plugin install --all` guidance with the seven explicit marketplace-qualified install commands.
+- Qualified the installed setup command as `/alex-act-enterprise setup-enterprise` throughout active guidance.
+- Replaced stale placeholder verification metadata with the live Steward integration contract.
+
 ## [0.1.2] - 2026-08-01
 
 ### Fixed

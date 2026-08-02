@@ -2,7 +2,7 @@
 
 Alex ACT config-template plugin for the **public Microsoft ecosystem**. Ships a single scaffolding skill (`setup-enterprise-stack`) that generates a repo-scoped `.github/copilot/settings.json` block for 7 Microsoft plugins any tenant can use, with an explicit `--user` opt-in.
 
-**Status**: v0.1.2, published through `alex-mall`. Repository created 2026-07-30. Content lands through evidence-gated Steward proposals per [`Alex_ACT_Steward/architecture/act/CURATION-RULES.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/act/CURATION-RULES.md).
+**Status**: v0.1.3, published through `alex-mall`. Repository created 2026-07-30. Content lands through evidence-gated Steward proposals per [`Alex_ACT_Steward/architecture/act/CURATION-RULES.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/act/CURATION-RULES.md).
 
 **Maintainer**: [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/Alex_ACT_Steward) (top-of-chain in the plugin-architecture lineage since 2026-07-26 fork-and-freeze).
 

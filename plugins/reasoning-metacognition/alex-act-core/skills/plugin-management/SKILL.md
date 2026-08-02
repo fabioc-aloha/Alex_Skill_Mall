@@ -1,7 +1,7 @@
 ---
 name: plugin-management
 description: "General Copilot CLI plugin operations: install / list / update / remove / marketplace add + remove, scope precedence (user vs repo), the enabledPlugins + extraKnownMarketplaces settings shape, and safe merge-not-overwrite settings edits. Use when a heir asks to install / update / remove any plugin from any Mall, or when auditing what plugins are installed at what scope. Generic — the install-constellation and update-plugins skills delegate to this one for the mechanical commands."
-lastReviewed: 2026-08-01
+lastReviewed: 2026-08-02
 ---
 
 # Plugin Management
@@ -149,8 +149,8 @@ Use when: the heir wants a preview, or is off-network, or wants to review before
 Only after explicit "yes, apply it" from the heir:
 
 1. Merge the target block into the destination `settings.json` (user or repo scope, per the heir's choice or the caller's default).
-2. Run `copilot plugin install` for each newly-enabled plugin.
-3. Run `copilot plugin marketplace add` for any new marketplace.
+2. Run `copilot plugin marketplace add` for any new marketplace.
+3. Run `copilot plugin install` for each newly-enabled plugin.
 4. Report what was added and what pre-existing entries were preserved.
 
 Use when: the heir has reviewed and approved the target state.
