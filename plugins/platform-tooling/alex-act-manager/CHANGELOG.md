@@ -7,6 +7,14 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-08-03
+
+### Fixed
+
+- Kept Agent Skills enabled while disabling VS Code's experimental generic
+  skill resolver, which cannot invoke plugin-contributed skills in VS Code
+  1.131 (`microsoft/vscode#314772`).
+
 ## [0.1.0] - 2026-08-03
 
 ### Added

@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.6.7] - 2026-08-03
+
+### Fixed
+
+- Kept Agent Skills enabled while disabling VS Code's experimental generic
+  skill resolver, which cannot invoke plugin-contributed skills in VS Code
+  1.131 (`microsoft/vscode#314772`).
+
 ## [0.6.6] - 2026-08-02
 
 ### Changed
