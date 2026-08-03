@@ -1,0 +1,28 @@
+{
+  "name": "alex-act-document-tools",
+  "version": "0.1.0",
+  "description": "Document conversion bundle for AI agents. Converts among Markdown, Word, HTML, RFC 5322 email, and plain text through six tested skills, one /convert workflow, and a shared Pandoc-based runtime. Use when a project needs repeatable document import or export without loading converter implementation into the Alex ACT Core reasoning brain.",
+  "keywords": [
+    "document-conversion",
+    "markdown",
+    "docx",
+    "html",
+    "email",
+    "plain-text",
+    "pandoc",
+    "mermaid"
+  ],
+  "category": "converters",
+  "author": {
+    "name": "Fabio Correa",
+    "url": "https://github.com/fabioc-aloha"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools.git"
+  },
+  "skills": "skills/",
+  "commands": "commands/"
+}

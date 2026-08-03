@@ -1,0 +1,72 @@
+{
+  "upstream": {
+    "repo": "https://github.com/fabioc-aloha/Alex_ACT_Manager.git",
+    "ref": "v0.1.0",
+    "license": "MIT"
+  },
+  "submission": {
+    "schema_version": "1.0",
+    "submitted_by": "fabioc-aloha",
+    "evidence": "Manager v0.1.0 source tests 10/10 and integration package validation"
+  },
+  "artifacts": {
+    "skills": [
+      "skills/bootstrap-workspace/SKILL.md",
+      "skills/bootstrap-workspace/resources/markdown-light.css",
+      "skills/install-constellation/SKILL.md",
+      "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-alex-finch-personality.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-critical-thinking.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-emotional-intelligence.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-epistemic-calibration.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-greeting-checkin.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-lint-discipline.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-memory-triggers.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-no-deferred-debt.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-pii-memory-filter.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-proactive-awareness.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-problem-framing-audit.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-reliance-nudges.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-session-health-monitoring.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-system-prompt-skepticism.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-terminal-command-safety.instructions.md",
+      "skills/install-constellation/bootstrap/alex-act-worldview.instructions.md",
+      "skills/plugin-management/SKILL.md",
+      "skills/plugin-management/resources/welcome-baseline.json",
+      "skills/plugin-management/scripts/manager-operations.cjs",
+      "skills/uninstall-constellation/SKILL.md",
+      "skills/update-plugins/SKILL.md"
+    ],
+    "agents": [],
+    "prompts": [
+      "commands/bootstrap-workspace.md",
+      "commands/configure-vscode-verify.md",
+      "commands/configure-vscode.md",
+      "commands/install-constellation.md",
+      "commands/plugin-status.md",
+      "commands/uninstall-constellation.md",
+      "commands/update-plugins.md"
+    ],
+    "bundled": []
+  },
+  "link_rewrites": [
+    {
+      "file": "skills/bootstrap-workspace/SKILL.md",
+      "label": "configure-vscode.prompt.md",
+      "target": "../../prompts/configure-vscode.prompt.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/install-constellation/SKILL.md",
+      "label": "/install-constellation",
+      "target": "../../prompts/install-constellation.prompt.md",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "skills/update-plugins/SKILL.md",
+      "label": "/update-plugins",
+      "target": "../../prompts/update-plugins.prompt.md",
+      "reason": "not-vendored"
+    }
+  ]
+}

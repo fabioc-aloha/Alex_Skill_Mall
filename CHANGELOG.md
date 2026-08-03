@@ -6,6 +6,13 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Added
 
+- Published `alex-act-manager` v0.1.0 from the immutable
+	`fabioc-aloha/Alex_ACT_Manager` tag. The 37-file payload provides five
+	lifecycle skills, seven commands, Core-owned bootstrap resources, and
+	deterministic version/workspace operations.
+- Published `alex-act-document-tools` v0.1.0 from the immutable
+	`fabioc-aloha/Alex_ACT_Document_Tools` tag. The 22-file payload provides six
+	document converters, `/convert`, and the explicitly bundled shared runtime.
 - Canonical maintainer tooling: `npm run vendor` for dry-run-first upstream
 	imports and refreshes, and `npm run maintain` for curated or full catalog
 	maintenance.
