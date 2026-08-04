@@ -132,6 +132,22 @@ The plugin follows the Alex ACT constellation brand palette. Canonical machine-r
 | 3 | `#8b5cf6` | Quaternary |
 | 4 | `#ef4444` | Quinary / warning |
 
+### Accessible categorical candidate (evaluation)
+
+This candidate does **not** replace `chart.categorical[]` yet. It uses five colors from Okabe and Ito's [Color Universal Design palette](https://jfly.uni-koeln.de/color/) and adds a distinct symbol and direct label to every series. Color is never the only signal: charts using this candidate must preserve the circle, triangle, square, diamond, and cross through marks, line styles, direct labels, or hatching.
+
+![Accessible categorical palette candidate](https://raw.githubusercontent.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin/main/assets/swatches-accessible.svg)
+
+| Series | Color | Redundant symbol |
+| --- | --- | --- |
+| 0 | Sky blue `#56B4E9` | Circle |
+| 1 | Bluish green `#009E73` | Triangle |
+| 2 | Yellow `#F0E442` | Square |
+| 3 | Vermilion `#D55E00` | Diamond |
+| 4 | Reddish purple `#CC79A7` | Cross |
+
+The swatch has an opaque white backing so its captions remain readable in light and dark GitHub themes. Its black symbols exceed WCAG AA contrast against all five fills. Approximate protanopia, deuteranopia, and tritanopia simulations are screening evidence, not certification; final adoption still requires human evaluation and color-independent chart encoding.
+
 ### Print variants ship in the plugin
 
 `print-svg-style-guide` (Tailwind-grounded semantic palette) and `flint-chart` (publication preset categorical range) ship darker print-quality variants of these palettes for book / report / exec-facing figures where the render surface is white paper or high-DPI screens. Those are **print variants of the same brand identity**, not a separate palette — same semantic role coding, deeper contrast for print legibility. Deltas documented in each skill.
