@@ -44,7 +44,7 @@ Per [`PLUGIN-INTEGRATION.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/b
 | 1 | `alex-act-core` | `alex-mall` marketplace | None | Always-on epistemic discipline — every heir installs Core first |
 | 2 | `alex-act-illustrator-plugin` | `alex-mall` marketplace | None | Visual authoring: charts, docs shells, SVG banners, print figures, AI imagery |
 | 3 | `alex-act-enterprise` | `alex-mall` marketplace | None | Config-template plugin for the public Microsoft ecosystem (Azure, Fabric, Power BI, M365) |
-| 4 | `alex-act-msft` | **Direct install** from private GitHub (`fabioc-aloha/alex-act-msft`), gated by `gh auth` | **Microsoft-internal only** | Agency framework + config template for internal Microsoft plugins (WorkIQ, org-report). Never published to any mall. |
+| 4 | `alex-act-msft` | **Direct install** from private GitHub (`fabioc_microsoft/alex-act-msft`), gated by `gh auth` | **Microsoft-internal only** | Agency framework + config template for internal Microsoft plugins (WorkIQ, org-report). Never published to any mall. |
 
 ## Install order
 
@@ -102,7 +102,7 @@ Register the `alex-mall` marketplace in `~/.copilot/settings.json` `extraKnownMa
 
 - `alex-mall` → `copilot plugin marketplace add fabioc-aloha/Alex_Skill_Mall`
 
-`alex-act-msft` does **not** need a marketplace — it installs directly from its private GitHub repo, gated by the heir's `gh auth` session. Verify with `gh auth status` that the heir is authenticated before including MSFT in the install.
+`alex-act-msft` does **not** need a marketplace — it installs directly from the private `fabioc_microsoft` managed-user repository. Verify with `gh auth status` that the active account is the heir's Microsoft-managed identity, then require `gh api repos/fabioc_microsoft/alex-act-msft` to succeed before including MSFT. If another account is active, use `gh auth switch -u <managed-login>`; never fall back to an external personal account.
 
 If the heir has never installed anything from `alex-mall`, run `copilot plugin marketplace list` first to confirm — do not re-register.
 
@@ -115,7 +115,7 @@ copilot plugin install alex-act-core@alex-mall
 copilot plugin install alex-act-illustrator-plugin@alex-mall
 copilot plugin install alex-act-enterprise@alex-mall
 # Only if MSFT check passed both (Microsoft employee AND on corp network):
-copilot plugin install fabioc-aloha/alex-act-msft
+copilot plugin install fabioc_microsoft/alex-act-msft
 ```
 
 After each install, run `copilot plugin list` and verify the plugin name, version,

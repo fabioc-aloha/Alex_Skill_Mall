@@ -7,6 +7,17 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-08-03
+
+### Security
+
+- Changed the private MSFT direct-install and metadata source to
+  `fabioc_microsoft/alex-act-msft`, owned by a Microsoft enterprise-managed
+  account.
+- Required the active GitHub CLI identity to read the managed repository
+  before MSFT installation; external personal-account fallback now fails
+  closed.
+
 ## [0.2.1] - 2026-08-03
 
 ### Fixed

@@ -7,7 +7,7 @@ VS Code, and provisions repository workspace files.
 
 ## Status
 
-**Released as `v0.2.1`.** Source:
+**Released as `v0.2.2`.** Source:
 [`fabioc-aloha/Alex_ACT_Manager`](https://github.com/fabioc-aloha/Alex_ACT_Manager).
 Install from the Alex ACT Mall as `alex-act-manager@alex-mall`.
 
