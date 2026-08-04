@@ -32,7 +32,7 @@ copilot plugin marketplace browse alex-mall
 # Install a plugin (plugin@marketplace format)
 copilot plugin install <plugin-name>@alex-mall
 
-# Recommended full lifecycle install: Alex ACT Manager, then Core
+# Recommended lifecycle install: Manager, then Core
 copilot plugin install alex-act-manager@alex-mall
 copilot plugin install alex-act-core@alex-mall
 ```
@@ -53,19 +53,19 @@ copilot plugin marketplace remove alex-mall      # unregister the marketplace
 
 ## Start with Alex ACT Core
 
-Core remains the baseline every Alex ACT installation needs. For the full lifecycle, install **Manager and Core**: Manager owns lifecycle operations, while Core provides the working baseline for reasoning, planning, safety, documents, and plugins. The other Alex ACT constellation plugins build on that foundation.
+Core is the baseline every Alex ACT installation needs. Install **Manager and Core** for the full lifecycle: Manager owns setup, repair, update, and removal, while Core provides the working baseline for reasoning, planning, safety, documents, and plugins. The other Alex ACT constellation plugins build on that foundation.
 
-| What you want to do | Plugin | Current version | What it adds |
-| --- | --- | --- | --- |
-| Run the Alex ACT lifecycle across projects | `alex-act-manager` | 0.1.1 | Lifecycle operations and constellation management |
-| Give Copilot a reliable baseline across projects | [`alex-act-core`](plugins/reasoning-metacognition/alex-act-core/) | 0.6.7 | Critical thinking, planning, security and privacy guidance, document workflows, engineering practices, and plugin management |
-| Create charts, print figures, banners, AI images, or browsable documentation | [`alex-act-illustrator-plugin`](plugins/data-analytics/alex-act-illustrator-plugin/) | 0.6.5 | Visual framing, authoring, generation, and verification workflows |
-| Set up public Microsoft tools for a project | [`alex-act-enterprise`](plugins/cloud-infrastructure/alex-act-enterprise/) | 0.1.5 | Guided setup for Azure, Fabric, Power BI, and Microsoft 365 Agents Toolkit |
+| What you want to do | Plugin | What it adds |
+| --- | --- | --- |
+| Run the Alex ACT lifecycle across projects | `alex-act-manager` | Lifecycle setup, repair, update, removal, user settings, and workspace bootstrap |
+| Give Copilot a reliable baseline across projects | [`alex-act-core`](plugins/reasoning-metacognition/alex-act-core/) | Critical thinking, planning, security and privacy guidance, document workflows, engineering practices, and plugin management |
+| Create charts, print figures, banners, AI images, or browsable documentation | [`alex-act-illustrator-plugin`](plugins/data-analytics/alex-act-illustrator-plugin/) | Visual framing, authoring, generation, and verification workflows |
+| Set up public Microsoft tools for a project | [`alex-act-enterprise`](plugins/cloud-infrastructure/alex-act-enterprise/) | Guided setup for Azure, Fabric, Power BI, and Microsoft 365 Agents Toolkit |
 
 ### Recommended path
 
 1. Install Manager with `copilot plugin install alex-act-manager@alex-mall`, then install Core with `copilot plugin install alex-act-core@alex-mall`.
-2. Reload VS Code, open Copilot Chat, and run `/alex-act-manager install-constellation`. This is the preferred lifecycle command. `/alex-act-core install-constellation` remains available for compatibility.
+2. Reload VS Code, open Copilot Chat, and run `/alex-act-manager install-constellation`. This is the preferred lifecycle command; `/alex-act-core install-constellation` remains available for compatibility.
 3. Add an optional plugin directly if you already know what you need:
    - Visual work: `copilot plugin install alex-act-illustrator-plugin@alex-mall`
    - Public Microsoft tools: `copilot plugin install alex-act-enterprise@alex-mall`
@@ -79,14 +79,15 @@ Core remains the baseline every Alex ACT installation needs. For the full lifecy
 The Copilot CLI plugins integrate with **GitHub Copilot Chat** in VS Code once installed.
 
 1. **Install the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) and [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) extensions** in VS Code (1.117 or later).
-2. **Install plugins via the Copilot CLI** using the steps above. In VS Code 1.131, keep Agent Skills enabled and disable the broken generic skill resolver pending [microsoft/vscode#314772](https://github.com/microsoft/vscode/issues/314772):
+2. **Install plugins via the Copilot CLI** using the steps above. In VS Code 1.131, keep Agent Skills enabled, disable the broken generic plugin-skill resolver, and disable automatic next-change reveal to avoid editor conflicts:
 
-  ```jsonc
-  "chat.useAgentSkills": true,
-  "github.copilot.chat.skillTool.enabled": false
-  ```
+   ```jsonc
+   "chat.useAgentSkills": true,
+   "github.copilot.chat.skillTool.enabled": false,
+   "chat.editing.revealNextChangeOnResolve": false
+   ```
 
-  Namespaced commands and agents remain available while this workaround is active.
+   Namespaced commands and agents remain available while the resolver workaround is active.
 3. **Reload VS Code** or run *Developer: Reload Window* so Copilot Chat re-scans the installed plugins.
 4. In Chat, invoke a plugin's commands with `/`, agents with `@`, or skills by describing the task the skill's frontmatter is scoped to.
 
