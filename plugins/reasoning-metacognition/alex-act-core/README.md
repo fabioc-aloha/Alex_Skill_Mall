@@ -6,11 +6,11 @@ Alex Finch is the runtime identity and relational center of the constellation. C
 
 **Current source shape**: 42 skills, 18 instructions (17 always-on bootstrapped to `~/.copilot/instructions/` + 1 pattern-applied), 14 slash-command prompts, plus a shared runtime for the bundled document converters.
 
-**Content pipeline**: every skill, instruction, and prompt lands through evidence-gated Steward proposals per [`Alex_ACT_Steward/architecture/act/CURATION-RULES.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/act/CURATION-RULES.md). No content ships without an approved proposal.
+**Public runtime source**: [Alex ACT Core](https://github.com/fabioc-aloha/Alex_ACT_Core) contains the shipped skills, prompts, instruction sources, release history, and installation contract. Changes remain evidence-gated before release.
 
-**Maintainer**: [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/Alex_ACT_Steward) (top-of-chain in the plugin-architecture lineage since 2026-07-26 fork-and-freeze).
+**Public project home**: [Alex_ACT_Core](https://github.com/fabioc-aloha/Alex_ACT_Core).
 
-**Personality and voice reference**: `ALEX-FINCH.md` is Core's stable pointer to the canonical, self-contained [`Alex_ACT_Steward/brain/alex-finch.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/brain/alex-finch.md). Neither document is an automatically loaded plugin component.
+**Personality and voice reference**: Core's public [`ALEX-FINCH.md`](https://github.com/fabioc-aloha/Alex_ACT_Core/blob/main/ALEX-FINCH.md) carries the identity reference. The separately bootstrapped personality instruction carries the runtime contract.
 
 **Complete end-user installation**: [`INSTALL.md`](https://github.com/fabioc-aloha/Alex_ACT_Core/blob/main/INSTALL.md).
 
@@ -45,7 +45,7 @@ always-on ACT instructions. After that first bootstrap, short greetings can use
 start first-time setup because the greeting instruction is delivered by the
 bootstrap itself.
 
-**Full walkthrough**: [`USER-EXPERIENCE.md` § Stage 1](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md) in Steward.
+**Full walkthrough**: [`USER-EXPERIENCE.md` § Stage 1](https://github.com/fabioc-aloha/Alex_ACT_Core/blob/main/INSTALL.md) in Steward.
 
 ## Managing the Alex Mall marketplace
 
@@ -108,7 +108,7 @@ Alex ACT Core is the **baseline plugin** — the minimal always-on brain that ev
 
 Under the v1 heir-template model, [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) was a template each heir bootstrapped into its own `.github/`. Upgrading meant N-heir manual bootstraps. Under the plugin-native model, Core lives in one place (this repo → Mall) and every heir picks it up on next session via `copilot plugin update alex-act-core`. Fork-and-freeze on 2026-07-26 established that the plugin-native lineage runs alongside the frozen v1 compatibility line rather than replacing it in place.
 
-Full reasoning in the [Steward Plan](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/steward-plan.md) (twelve chapters: overview → distribution mechanism → topology → migration strategy → nomenclature).
+Full reasoning in the Steward Plan (private governance record) (twelve chapters: overview → distribution mechanism → topology → migration strategy → nomenclature).
 
 ## Layout
 
@@ -139,7 +139,7 @@ Same layout as [`alex-act-illustrator-plugin`](https://github.com/fabioc-aloha/A
 - **Copilot CLI ≥ 1.0.75** — [install docs](https://docs.github.com/copilot/how-tos/set-up/install-copilot-cli). Verify with `copilot --version`. If already installed, update with `winget upgrade --id GitHub.CopilotCLI` (Windows).
 - **GitHub CLI authenticated** — `gh auth login` and confirm with `gh auth status`.
 
-Full brand-new-user walkthrough (four personas, six install stages, anti-patterns): see [`Alex_ACT_Steward/constellation/USER-EXPERIENCE.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md).
+Full brand-new-user walkthrough (four personas, six install stages, anti-patterns): see [Alex ACT Core install guide](https://github.com/fabioc-aloha/Alex_ACT_Core/blob/main/INSTALL.md).
 
 ### Install from the Alex ACT Mall
 
@@ -155,7 +155,7 @@ Then install Core:
 copilot plugin install alex-act-core@alex-mall
 ```
 
-Installs at user scope — Core becomes active in every workspace on the machine. That's the correct behavior; Core is an identity plugin per [`PLUGIN-INTEGRATION.md` § 2](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/PLUGIN-INTEGRATION.md).
+Installs at user scope — Core becomes active in every workspace on the machine. That's the correct behavior; Core is an identity plugin per [`PLUGIN-INTEGRATION.md` § 2](https://github.com/fabioc-aloha/Alex_ACT_Core/blob/main/INSTALL.md).
 
 > **Publication status.** The Mall and Core entry are live and publicly available as `alex-act-core@alex-mall`.
 
@@ -191,7 +191,7 @@ lifecycle work. Core retains these compatibility copies:
 - **`/alex-act-core plugin-status`** — read-only inventory of what's installed at user + repo scope
 - **`/alex-act-core update-plugins`** — safe update workflow with per-plugin CHANGELOG reading and consent for breaking changes
 
-Full walkthrough with slash-command examples: [USER-EXPERIENCE Stages 3–5](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md).
+Full walkthrough with slash-command examples: [USER-EXPERIENCE Stages 3–5](https://github.com/fabioc-aloha/Alex_ACT_Core/blob/main/INSTALL.md).
 
 ## Update Core
 
@@ -216,7 +216,7 @@ Prefer Manager for constellation removal; Core's `/alex-act-core uninstall-const
 - `Access is denied (os error 5)` on Windows — close every VS Code window first. Copilot Chat's active MCP servers hold file handles on plugin binaries.
 - `Plugin "alex-act-core" is not installed` with the plugin still showing in `copilot plugin list [disabled]` — you have a zombie entry in `~/.copilot/config.json`'s `installedPlugins` array.
 
-Both failure modes and their fixes (including a working two-file cleanup pattern) are documented in [`USER-EXPERIENCE.md § Optional — start from a clean slate`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/USER-EXPERIENCE.md).
+Both failure modes and their fixes (including a working two-file cleanup pattern) are documented in [`USER-EXPERIENCE.md § Optional — start from a clean slate`](https://github.com/fabioc-aloha/Alex_ACT_Core/blob/main/INSTALL.md).
 
 ## Runtime prerequisites for bundled converters
 
@@ -228,17 +228,17 @@ The document-conversion skills (`docx-to-md`, `html-to-md`, `md-to-word`, `md-to
 
 ## Roadmap
 
-Growth continues through evidence-gated proposals per [`Alex_ACT_Steward/architecture/act/CURATION-RULES.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/act/CURATION-RULES.md). The Both-classified inventory (framework baseline shipped to Core) is complete as of Batch 10 (2026-07-30). Future additions come from Steward's brain plan Part II under **Both** classification or as new proposals. See Steward's [brain plan](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/brain/plan.md) Part II for the current candidate pipeline.
+Growth continues through evidence-gated proposals per [Alex ACT Core](https://github.com/fabioc-aloha/Alex_ACT_Core). The Both-classified inventory (framework baseline shipped to Core) is complete as of Batch 10 (2026-07-30). Future additions come from Steward's brain plan Part II under **Both** classification or as new proposals. See Steward's [brain plan](https://github.com/fabioc-aloha/Alex_ACT_Core) Part II for the current candidate pipeline.
 
 ## Related
 
-- [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/Alex_ACT_Steward) — top-of-chain, author + curator of every shipped artefact
+- [Alex_ACT_Core](https://github.com/fabioc-aloha/Alex_ACT_Core) — top-of-chain, author + curator of every shipped artefact
 - [`Alex_ACT_Illustrator_Plugin`](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin) — first shipped Steward CLI plugin; proves the transport
 - [`Alex_ACT_Manager`](https://github.com/fabioc-aloha/Alex_ACT_Manager) — preferred lifecycle management for installation, status, updates, uninstallation, and configuration
 - [`Alex_ACT_Plugin_Mall`](https://github.com/fabioc-aloha/Alex_Skill_Mall) — CLI-native plugin marketplace v3.0.0 GA (2026-07-28)
 - [`Alex_ACT_Memory`](https://github.com/fabioc-aloha/Alex_ACT_Memory) — shared Git-backed memory bus (sibling, not a plugin)
 - [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) — frozen v1 heir-template compatibility surface (v4.2.0, 2026-07-28)
-- Steward Plan Phase 3: [gap #1](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/steward-plan.md) — this repo's creation is the partial resolution
+- Steward Plan Phase 3: [gap #1](https://github.com/fabioc-aloha/Alex_ACT_Core) — this repo's creation is the partial resolution
 
 ## License
 

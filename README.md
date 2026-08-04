@@ -1,8 +1,8 @@
-<img src="assets/banner.svg" alt="Alex ACT Plugin Mall" width="100%"/>
-
 # Alex ACT Plugin Mall
 
-Alex ACT Plugin Mall helps you add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable working baseline, then add only the specializations that match your work.
+![Alex ACT Plugin Mall](assets/banner.svg)
+
+Alex ACT Plugin Mall lets users add trusted capabilities without copying a whole AI setup into every project. Start with Core, then install only the specializations the work actually earns.
 
 The Mall publishes **365 curated plugins** for direct installation and maintains a **trust-scored discovery index** across **3868 plugins** in **42 stores**.
 
@@ -224,7 +224,7 @@ First-party plugins (🏆) rank highest because they earn the +50 provenance bon
 - **Edition 3.x and 4.1** heirs are explicitly outside the Mall 3 compatibility claim. Upgrade to Edition v4.2.0 first.
 - **Standalone Copilot CLI / Copilot Chat users** (no Edition brain) use the plugin marketplace directly per the steps above.
 
-Governance references: [ADR-014](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/docs/adrs/ADR-014-mall-in-place-cli-native-3.0.0.md) (in-place migration), [ADR-015](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/docs/adrs/ADR-015-decouple-mall-ga-from-heir-rollout.md) (publication vs rollout).
+Public runtime and installation reference: [Alex ACT Core](https://github.com/fabioc-aloha/Alex_ACT_Core). Historical Mall governance records are maintained privately.
 
 ## For Edition heirs (advanced)
 

@@ -61,7 +61,7 @@
           "verified": "Scaffolded 2026-07-28",
 
           "hero": {
-            "$comment": "HERO BLOCK — sits between the sticky page-title header and the body content. `eyebrow` is a small uppercase pill above the title (chapter numbers, breadcrumbs, status tags). `title` is the big display heading, often mirrors doc.title but can be shorter. `subtitle` is the Big Idea (one-sentence thesis authored per the big-idea skill — https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/.github/skills/big-idea/SKILL.md). `description` is optional metadata (provenance, cross-refs, methodology notes) that IS preserved in the manifest but NOT rendered by default since 2026-07-28 — the Big Idea in subtitle carries the summary duty. Uncomment the description-render line in renderHero() to re-enable rendering.",
+            "$comment": "HERO BLOCK — sits between the sticky page-title header and the body content. `eyebrow` is a small uppercase pill above the title (chapter numbers, breadcrumbs, status tags). `title` is the big display heading, often mirrors doc.title but can be shorter. `subtitle` is the Big Idea (one-sentence thesis authored per the big-idea skill — https://github.com/fabioc-aloha/Alex_ACT_Core). `description` is optional metadata (provenance, cross-refs, methodology notes) that IS preserved in the manifest but NOT rendered by default since 2026-07-28 — the Big Idea in subtitle carries the summary duty. Uncomment the description-render line in renderHero() to re-enable rendering.",
 
             "eyebrow": "Getting started",
             "title": "About My Project",

@@ -27,7 +27,7 @@ Either way: reload the browser. No build, no restart.
   ```
 
 - **Per-doc emoji icon** — add `"icon": "🏠"` (single emoji character) to a doc entry in the manifest. Rendered at 22px in the sticky page-title header. Empty or absent collapses cleanly.
-- **Big Idea in the hero** — `hero.subtitle` is the doc's one-sentence thesis. Authored per the [big-idea skill](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/.github/skills/big-idea/SKILL.md). The optional `hero.description` is metadata preserved in the manifest but not rendered by default.
+- **Big Idea in the hero** — `hero.subtitle` is the doc's one-sentence thesis. Authored per the [big-idea skill](https://github.com/fabioc-aloha/Alex_ACT_Core). The optional `hero.description` is metadata preserved in the manifest but not rendered by default.
 - **QuickJumps** — add entries to `areas[N].quickJumps[]` to surface shortcuts in the topnav-right. Two shapes:
 
   ```json

@@ -37,7 +37,7 @@ For the greeting-checkin auto-invocation path specifically, the user has already
 
 ## The four constellation plugins
 
-Per [`PLUGIN-INTEGRATION.md`](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/constellation/PLUGIN-INTEGRATION.md) § 2, all four install at **user scope** (they describe *who the heir is*, not *what any single project needs*):
+Per [`PLUGIN-INTEGRATION.md`](https://github.com/fabioc-aloha/Alex_ACT_Core/blob/main/INSTALL.md) § 2, all four install at **user scope** (they describe *who the heir is*, not *what any single project needs*):
 
 | Order | Plugin | Distribution | Tenant check | Purpose |
 |---|---|---|---|---|
@@ -68,13 +68,13 @@ This reads exact records from `alex-mall`'s `.github/plugin/marketplace.json`. `
 
 ## Optional: visual workflow companions
 
-Nine marketplace plugins compose to deliver visual-authoring workflows (chart rendering, screenshot verification, whiteboard iteration, PR annotation). **Ownership of the install offer for these companions moved from this skill to `alex-act-illustrator-plugin`'s `install-visual-companions` skill in Illustrator v0.6.0 (2026-08-01)** — the visual-workflow shelf now lives with the visual-authoring plugin that anchors it, per Fabio directive ("The visual companions should be bundled with the illustrator"). This reverses the 2026-07-31 Option A (route-only) decision recorded in [Steward's illustrator/plan.md](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/illustrator/plan.md).
+Nine marketplace plugins compose to deliver visual-authoring workflows (chart rendering, screenshot verification, whiteboard iteration, PR annotation). **Ownership of the install offer for these companions moved from this skill to `alex-act-illustrator-plugin`'s `install-visual-companions` skill in Illustrator v0.6.0 (2026-08-01)** — the visual-workflow shelf now lives with the visual-authoring plugin that anchors it, per Fabio directive ("The visual companions should be bundled with the illustrator"). This reverses the 2026-07-31 Option A (route-only) decision recorded in Steward's illustrator/plan.md (private governance record).
 
 **How to offer them now**: after `install-constellation` completes and Illustrator is installed, invoke `/alex-act-illustrator-plugin install-visual-companions` or ask Illustrator's `install-visual-companions` skill directly. That skill carries the 9-plugin catalog, the vision-loop composition pattern (`storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball`), the install-time caveats (Playwright downloads, Python-vs-Node independence, OneDrive-redirect on Windows), and the consent flow.
 
 **Do not** attempt to offer the companions from this skill — the catalog + caveats + verified-status list are maintained in one place (Illustrator) to avoid drift.
 
-**Discovery + verification history**: the 9-plugin catalog + vision-loop composition were discovered and Round-4 verified via the [Steward GH-APP-SUPPORT feedback loop](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/GH-APP-SUPPORT.md) on 2026-07-31 (ledger row `[GH-APP-FEEDBACK]` closure). This skill originally shipped the catalog in Core v0.3.0 (via commit `a2de9d4`); Illustrator v0.6.0 took ownership 2026-08-01.
+**Discovery + verification history**: the 9-plugin catalog + vision-loop composition were discovered and Round-4 verified via the Steward GH-APP-SUPPORT feedback loop (private governance record) on 2026-07-31 (ledger row `[GH-APP-FEEDBACK]` closure). This skill originally shipped the catalog in Core v0.3.0 (via commit `a2de9d4`); Illustrator v0.6.0 took ownership 2026-08-01.
 
 ## Consent flow
 

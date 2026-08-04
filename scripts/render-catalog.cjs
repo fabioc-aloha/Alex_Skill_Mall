@@ -545,7 +545,7 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('- **Edition 3.x and 4.1** heirs are explicitly outside the Mall 3 compatibility claim. Upgrade to Edition v4.2.0 first.');
   lines.push('- **Standalone Copilot CLI / Copilot Chat users** (no Edition brain) use the plugin marketplace directly per the steps above.');
   lines.push('');
-  lines.push('Governance references: [ADR-014](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/docs/adrs/ADR-014-mall-in-place-cli-native-3.0.0.md) (in-place migration), [ADR-015](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/docs/adrs/ADR-015-decouple-mall-ga-from-heir-rollout.md) (publication vs rollout).');
+  lines.push('Public runtime and installation reference: [Alex ACT Core](https://github.com/fabioc-aloha/Alex_ACT_Core). Historical Mall governance records are maintained privately.');
   lines.push('');
   lines.push('## For Edition heirs (advanced)');
   lines.push('');

@@ -75,7 +75,7 @@ Manifest updated:
 - `assets.skills[]`: `[]` → `[".github/skills/setup-enterprise-stack/SKILL.md"]`
 - `assets.prompts[]`: `[]` → `[".github/prompts/setup-enterprise.prompt.md"]`
 
-Content sourced directly from Steward's [`brain/user-brain-inventory.md` § 184](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/brain/user-brain-inventory.md) — no upstream heir to port from (this plugin is 100% Steward-authored).
+Content sourced directly from Steward's `brain/user-brain-inventory.md` § 184 — no upstream heir to port from (this plugin is 100% Steward-authored).
 
 ### Scaffold (2026-07-30)
 

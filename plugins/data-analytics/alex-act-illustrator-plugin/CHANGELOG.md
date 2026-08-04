@@ -60,13 +60,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### install-visual-companions bundling (2026-08-01)
 
-Absorbed the 9-plugin visual-workflow-companions install offer from `alex-act-core`'s `install-constellation` Step 7 per Fabio directive ("The visual companions should be bundled with the illustrator"). Reverses the 2026-07-31 Option A (route-only) decision recorded in [Steward's illustrator/plan.md](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/illustrator/plan.md) — "visual-workflow ownership belongs with the visual-authoring plugin that anchors it" is a stronger architectural fit than "constellation-installer offers all downstream companions".
+Absorbed the 9-plugin visual-workflow-companions install offer from `alex-act-core`'s `install-constellation` Step 7 per Fabio directive ("The visual companions should be bundled with the illustrator"). Reverses the 2026-07-31 Option A (route-only) decision recorded in Steward's illustrator/plan.md — "visual-workflow ownership belongs with the visual-authoring plugin that anchors it" is a stronger architectural fit than "constellation-installer offers all downstream companions".
 
 - **New skill: `install-visual-companions`** — offers to install 9 marketplace companion plugins (`chromium-control-canvas`, `eyeball`, `diagram-viewer`, `napkin`, `image-annotations`, `chart-interpretation`, `visual-artifact-qa`, `visual-pr`, `storytelling-requirements`) with vision-loop composition pattern (`storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball`). Consent-gated, per-plugin — never bundled without explicit heir approval. Delegates to Core's `plugin-management` skill for mechanical commands + Safety rules (including anti-hallucination verify-marketplace-browse check per Core's `df8b676`).
 - **New prompt: `/install-visual-companions`** — verb-prompt workflow entry point.
 - **Manifest shape**: `nine-skill + two-prompt + three-mcp-sidecars + vscode-settings` → `ten-skill + three-prompt + three-mcp-sidecars + vscode-settings`.
 - **plugin.json**: version `0.5.1` → `0.6.0` (minor, additive); description updated for 10 skills + install-composition surface.
-- **Discovery + verification**: the 9-plugin catalog + vision-loop composition were discovered and Round-4 verified via the [Steward GH-APP-SUPPORT feedback loop](https://github.com/fabioc-aloha/Alex_ACT_Steward/blob/main/architecture/GH-APP-SUPPORT.md) on 2026-07-31 (ledger row `[GH-APP-FEEDBACK]` closure).
+- **Discovery + verification**: the 9-plugin catalog + vision-loop composition were discovered and Round-4 verified via the Steward GH-APP-SUPPORT feedback loop on 2026-07-31 (ledger row `[GH-APP-FEEDBACK]` closure).
 
 Companion Core release: `alex-act-core` v0.3.1 (2026-08-01) simplifies `install-constellation` Step 7 to a routing pointer at this skill.
 
