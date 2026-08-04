@@ -132,6 +132,19 @@ The plugin follows the Alex ACT constellation brand palette. Canonical machine-r
 | 3 | `#8b5cf6` | Quaternary |
 | 4 | `#ef4444` | Quinary / warning |
 
+### Default palette options (evaluation)
+
+![Default categorical palette options](https://raw.githubusercontent.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin/main/assets/swatches-palette-options.svg)
+
+| Option | Approx. weakest CVD separation | Minimum contrast on white | Recommendation |
+| --- | ---: | ---: | --- |
+| Current canonical | 4.7 | 2.15:1 | Legacy comparison; do not retain as the default |
+| **Brand Accessible** | **20.5** | 1.32:1 | **Recommended default** for filled marks with black outlines plus symbols or labels |
+| Universal Balanced | 21.0 | 1.32:1 | Strongest simulated separation; use when neutral color-universal identity matters more than Alex emerald |
+| Contrast First | 7.3 | **3.06:1** | Use for thin lines, small marks, print, or strict white-background contrast |
+
+The separation values are approximate screening measurements across normal vision plus protanopia, deuteranopia, and tritanopia simulations; higher is better. They are not certification. Brand Accessible is the recommended default because it preserves Alex emerald while giving up only `0.5` separation versus Universal Balanced. Yellow and sky blue still require dark outlines and redundant symbols on white. Contrast First is the safer alternate where outlines or large filled areas are unavailable.
+
 ### Accessible categorical candidate (evaluation)
 
 This candidate does **not** replace `chart.categorical[]` yet. It uses five colors from Okabe and Ito's [Color Universal Design palette](https://jfly.uni-koeln.de/color/) and adds a distinct symbol and direct label to every series. Color is never the only signal: charts using this candidate must preserve the circle, triangle, square, diamond, and cross through marks, line styles, direct labels, or hatching.
