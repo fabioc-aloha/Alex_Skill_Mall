@@ -28,48 +28,24 @@ The baseline payload lives in `.github/config/welcome-baseline.json` (`settings`
    - macOS: `~/Library/Application Support/Code/User/settings.json`
    - Linux: `~/.config/Code/User/settings.json`
 
-3. Merge each baseline key/value into existing user settings (do not overwrite unrelated keys).
+3. Preview with the deterministic Core compatibility runtime:
 
-4. Verify applied keys by reading back values.
+  ```text
+  node <plugin-management-skill>/scripts/core-operations.cjs configure-vscode
+  ```
 
-5. Report exactly which keys changed and which were already compliant.
+4. Review `changes`, `unsupportedLocalMarkdownStyles`, and `hadComments`.
+  - Object-valued location maps merge recursively; user-owned entries survive.
+  - Absolute local `markdown.styles` is reported and remains unchanged unless the user separately requests removal.
+  - Comment-rich JSONC fails closed on apply; merge the reported keys in VS Code's JSONC editor so comments survive.
 
-## Reference Commands
+5. With explicit consent and a comment-free settings file, apply:
 
-Three shells, one payload. Pick the one for your OS.
+  ```text
+  node <plugin-management-skill>/scripts/core-operations.cjs configure-vscode --apply
+  ```
 
-### macOS / Linux (bash, zsh)
-
-```bash
-baseline_file=.github/config/welcome-baseline.json
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  user_settings="$HOME/Library/Application Support/Code/User/settings.json"
-else
-  user_settings="$HOME/.config/Code/User/settings.json"
-fi
-mkdir -p "$(dirname "$user_settings")"
-[ -f "$user_settings" ] || echo '{}' > "$user_settings"
-node -e "
-const fs = require('fs');
-const b = JSON.parse(fs.readFileSync('$baseline_file', 'utf8')).settings;
-const c = JSON.parse(fs.readFileSync('$user_settings', 'utf8'));
-for (const k of Object.keys(b)) c[k] = b[k];
-fs.writeFileSync('$user_settings', JSON.stringify(c, null, 2));
-"
-```
-
-### Windows (PowerShell)
-
-```powershell
-$baseline = Get-Content '.github\config\welcome-baseline.json' -Raw | ConvertFrom-Json -AsHashtable
-$userSettings = Join-Path $env:APPDATA 'Code\User\settings.json'
-if (-not (Test-Path $userSettings)) { '{}' | Set-Content -Path $userSettings -Encoding UTF8 }
-$current = Get-Content -Path $userSettings -Raw | ConvertFrom-Json -AsHashtable
-foreach ($k in $baseline.settings.Keys) { $current[$k] = $baseline.settings[$k] }
-$current | ConvertTo-Json -Depth 30 | Set-Content -Path $userSettings -Encoding UTF8
-```
-
-All three are non-destructive merges — unrelated user-scope keys are preserved.
+6. Verify applied keys by rerunning preview and report exactly which keys changed and which were already compliant.
 
 ## Guardrails
 
@@ -77,6 +53,7 @@ All three are non-destructive merges — unrelated user-scope keys are preserved
 - Do not write an absolute local path to user-scope `markdown.styles`. Use an HTTPS stylesheet at user scope, or route local CSS to `/alex-act-core bootstrap-workspace` for workspace-relative setup.
 - Stable settings only — the baseline file is the source of truth; do not inline payload here.
 - Preserve all unrelated existing user settings.
+- Never round-trip comment-rich JSONC through `JSON.stringify` or `ConvertTo-Json`.
 
 ## Would Revise If
 

@@ -30,19 +30,13 @@ body,
 body {
     background-color: #ffffff !important;
     color: #1f2328 !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif !important;
     font-size: 16px !important;
     line-height: 1.6 !important;
     max-width: var(--preview-max-width) !important;
     margin: 0 auto !important;
     padding: 32px 45px !important;
     word-wrap: break-word !important;
-}
-
-/* Allow images to display at full width */
-img {
-    max-width: 100% !important;
-    height: auto !important;
 }
 
 /* ============================================
@@ -59,6 +53,7 @@ h6 {
     margin-top: 24px !important;
     margin-bottom: 16px !important;
     line-height: 1.25 !important;
+    text-wrap: balance !important;
 }
 
 h1 {
@@ -351,6 +346,7 @@ hr {
    ============================================ */
 img {
     max-width: 100% !important;
+    height: auto !important;
     border-radius: 6px !important;
     box-sizing: border-box !important;
 }
@@ -426,7 +422,7 @@ svg.mermaid {
 .mermaid p {
     fill: #1f2328 !important;
     color: #1f2328 !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI", Helvetica, Arial, sans-serif !important;
     font-size: 14px !important;
 }
 

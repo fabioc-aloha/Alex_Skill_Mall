@@ -144,7 +144,7 @@
     {
       "name": "alex-act-core",
       "description": "The Alex ACT baseline plugin. Installs 42 reusable framework skills and 14 slash-command prompts covering epistemic discipline, repository workspace bootstrap, document converters, security and privacy, tooling awareness, engineering craft, and plugin lifecycle management. Core also authors 18 instructions (17 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Run /alex-act-core install-constellation after installing to bootstrap the seventeen load-bearing instructions to ~/.copilot/instructions/. Maintained by Alex_ACT_Steward through evidence-gated proposals.",
-      "version": "0.6.7",
+      "version": "0.7.0",
       "source": "plugins/reasoning-metacognition/alex-act-core",
       "strict": true
     },
@@ -172,7 +172,7 @@
     {
       "name": "alex-act-manager",
       "description": "Lifecycle control plane for the Alex ACT constellation. Installs and repairs Core and optional plugins, bootstraps Core-owned instructions, audits exact versions, updates and removes plugins with explicit consent, configures VS Code, and bootstraps repository workspace files. Use for setup, status, repair, update, or teardown rather than ordinary reasoning work.",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "source": "plugins/platform-tooling/alex-act-manager",
       "strict": true
     },

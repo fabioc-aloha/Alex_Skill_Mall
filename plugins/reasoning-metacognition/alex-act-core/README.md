@@ -2,7 +2,7 @@
 
 Alex Finch is the runtime identity and relational center of the constellation. Core is Alex's baseline runtime body: the plugin-native successor to [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) v4.2.0, distributing the shared identity contract, always-on ACT discipline, and reusable framework skills through the [Alex ACT Plugin Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall).
 
-**Version**: 0.6.7. Install from the Alex Mall as `alex-act-core@alex-mall`.
+**Version**: 0.7.0. Install from the Alex Mall as `alex-act-core@alex-mall`.
 
 **Current source shape**: 42 skills, 18 instructions (17 always-on bootstrapped to `~/.copilot/instructions/` + 1 pattern-applied), 14 slash-command prompts, plus a shared runtime for the bundled document converters.
 
@@ -167,9 +167,24 @@ copilot plugin list
 
 You should see `alex-act-core@alex-mall` with the current version.
 
+### VS Code 1.131 compatibility
+
+Keep `chat.useAgentSkills` set to `true`, and set
+`github.copilot.chat.skillTool.enabled` to `false`. This works around
+[`microsoft/vscode#314772`](https://github.com/microsoft/vscode/issues/314772): it
+disables only the experimental generic skill resolver, not Agent Skills. Start a
+new Agent chat or reload VS Code after changing the setting.
+
+## Lifecycle management
+
+Use [`alex-act-manager@alex-mall`](https://github.com/fabioc-aloha/Alex_ACT_Manager)
+for installation, status, updates, uninstallation, and configuration. Core's
+namespaced lifecycle commands remain available as compatibility copies.
+
 ## Configure specializations (optional)
 
-Once Core is in, invoke one of Core's plugin-management prompts from Copilot Chat:
+Use Manager's lifecycle commands from Copilot Chat for configuration and other
+lifecycle work. Core retains these compatibility copies:
 
 - **`/alex-act-core install-constellation`** — installs the four-plugin constellation flow (Core + Illustrator + Enterprise + MSFT with tenant-check)
 - **`/alex-act-core bootstrap-workspace`** — previews and consent-gates repository-scoped Markdown Preview CSS, workspace settings, and selective `.gitignore` tracking
@@ -186,13 +201,15 @@ Copilot CLI does not auto-update plugins — updates are manual and version-pinn
 copilot plugin update alex-act-core
 ```
 
-Read the [CHANGELOG](CHANGELOG.md) before applying a version that carries breaking changes. The safer path is to invoke `/alex-act-core update-plugins`, which reads the CHANGELOG for you and consent-gates breaking updates.
+Read the [CHANGELOG](CHANGELOG.md) before applying a version that carries breaking changes. Prefer Manager for the safer update workflow; `/alex-act-core update-plugins` remains a compatibility copy that reads the CHANGELOG and consent-gates breaking updates.
 
 ## Uninstall
 
 ```powershell
 copilot plugin uninstall alex-act-core
 ```
+
+Prefer Manager for constellation removal; Core's `/alex-act-core uninstall-constellation` remains a compatibility copy.
 
 **Troubleshooting.** If the uninstall fails with either:
 
@@ -217,6 +234,7 @@ Growth continues through evidence-gated proposals per [`Alex_ACT_Steward/archite
 
 - [`Alex_ACT_Steward`](https://github.com/fabioc-aloha/Alex_ACT_Steward) — top-of-chain, author + curator of every shipped artefact
 - [`Alex_ACT_Illustrator_Plugin`](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin) — first shipped Steward CLI plugin; proves the transport
+- [`Alex_ACT_Manager`](https://github.com/fabioc-aloha/Alex_ACT_Manager) — preferred lifecycle management for installation, status, updates, uninstallation, and configuration
 - [`Alex_ACT_Plugin_Mall`](https://github.com/fabioc-aloha/Alex_Skill_Mall) — CLI-native plugin marketplace v3.0.0 GA (2026-07-28)
 - [`Alex_ACT_Memory`](https://github.com/fabioc-aloha/Alex_ACT_Memory) — shared Git-backed memory bus (sibling, not a plugin)
 - [`Alex_ACT_Edition`](https://github.com/fabioc-aloha/Alex_ACT_Edition) — frozen v1 heir-template compatibility surface (v4.2.0, 2026-07-28)

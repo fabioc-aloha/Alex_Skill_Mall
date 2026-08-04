@@ -7,9 +7,14 @@ VS Code, and provisions repository workspace files.
 
 ## Status
 
-**Released as `v0.1.1`.** Source:
+**Released as `v0.2.0`.** Source:
 [`fabioc-aloha/Alex_ACT_Manager`](https://github.com/fabioc-aloha/Alex_ACT_Manager).
 Install from the Alex ACT Mall as `alex-act-manager@alex-mall`.
+
+This release preserves the VS Code skill-resolver mitigation and adds separate,
+preview-first setup planes for portable user settings and repository workspace
+CSS/settings. Reload VS Code or start a new Agent chat after installation so
+the host loads the updated plugin contracts.
 
 Core still owns and ships the compatibility lifecycle copies. Their removal is
 a separate Core release after the Manager route has adoption evidence.
@@ -21,8 +26,8 @@ copilot plugin marketplace add fabioc-aloha/Alex_Skill_Mall
 copilot plugin install alex-act-manager@alex-mall
 ```
 
-Reload the host, then use a namespaced command such as
-`/alex-act-manager plugin-status`.
+Reload the host or start a new Agent chat, then use a namespaced command such
+as `/alex-act-manager plugin-status`.
 
 ## Why Manager Exists
 

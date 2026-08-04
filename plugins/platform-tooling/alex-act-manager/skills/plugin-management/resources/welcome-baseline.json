@@ -28,6 +28,23 @@
         "extensions.autoCheckUpdates": true,
         "extensions.autoUpdateOnlyEnabledExtensions": false,
         "chat.agent.enabled": true,
+        "chat.agentSkillsLocations": {
+            ".github/skills": true,
+            ".github/skills/local": true,
+            "~/.copilot/skills": true
+        },
+        "chat.promptFilesLocations": {
+            ".github/prompts": true,
+            ".github/prompts/local": true
+        },
+        "chat.agentFilesLocations": {
+            ".github/agents": true,
+            ".github/agents/local": true
+        },
+        "chat.hookFilesLocations": {
+            ".github/hooks": true,
+            "~/.copilot/hooks": true
+        },
         "chat.useAgentSkills": true,
         "chat.includeReferencedInstructions": true,
         "chat.commandCenter.enabled": true,
