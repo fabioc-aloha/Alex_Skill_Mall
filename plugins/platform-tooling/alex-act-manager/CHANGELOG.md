@@ -7,6 +7,13 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-08-03
+
+### Fixed
+
+- Disabled VS Code's automatic next-change reveal in the managed user baseline
+  so resolving a chat edit does not unexpectedly open another changed file.
+
 ## [0.2.0] - 2026-08-03
 
 ### Added

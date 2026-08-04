@@ -278,10 +278,13 @@ test('generated storefront advertises canonical admin and contributor flows', ()
     assert.match(content, /Maintainer operations/);
     assert.match(content, /Publish a plugin/);
     assert.match(content, /Start with Alex ACT Core/);
+    assert.match(content, /alex-act-manager@alex-mall/);
     assert.match(content, /alex-act-core@alex-mall/);
     assert.match(content, /alex-act-illustrator-plugin@alex-mall/);
     assert.match(content, /alex-act-enterprise@alex-mall/);
-    assert.match(content, /\/alex-act-core install-constellation/);
+    assert.match(content, /\/alex-act-manager install-constellation/);
+    assert.match(content, /github\.copilot\.chat\.skillTool\.enabled/);
+    assert.match(content, /chat\.editing\.revealNextChangeOnResolve/);
     assert.match(content, /alex-act-msft.*is private/);
     assert.match(content, /npm install --ignore-scripts/);
     assert.match(content, /npm run vendor/);
