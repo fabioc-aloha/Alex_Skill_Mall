@@ -324,11 +324,11 @@ function renderTrustAuditMd(auditJson) {
 function renderStorefrontReadme(stores, index, auditJson) {
   const curatedCount = stores.find((s) => s.store === 'plugin-mall')?.plugin_count || 365;
   const lines = [];
-  lines.push('<img src="assets/banner.svg" alt="Alex ACT Plugin Mall" width="100%"/>');
-  lines.push('');
   lines.push('# Alex ACT Plugin Mall');
   lines.push('');
-  lines.push('Alex ACT Plugin Mall helps you add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable working baseline, then add only the specializations that match your work.');
+  lines.push('![Alex ACT Plugin Mall](assets/banner.svg)');
+  lines.push('');
+  lines.push('Alex ACT Plugin Mall lets users add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable working baseline, then add only the specializations that match your work.');
   lines.push('');
   lines.push(`The Mall publishes **${curatedCount} curated plugins** for direct installation and maintains a **trust-scored discovery index** across **${index.plugin_count} plugins** in **${index.store_count} stores**.`);
   lines.push('');

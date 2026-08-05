@@ -54,7 +54,7 @@ If the file does not exist, is malformed, or `lastCheckAt` is > 60 minutes old, 
 
 ### 2. State check (five dimensions)
 
-Read all four dimensions before deciding what to say:
+Read all five dimensions before deciding what to say:
 
 | Dimension | How to read | Complete criterion |
 |---|---|---|

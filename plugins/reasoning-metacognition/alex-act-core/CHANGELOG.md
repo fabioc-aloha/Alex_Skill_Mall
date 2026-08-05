@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.8.1] - 2026-08-04
+
+### Fixed
+
+- Corrected the greeting state-check dimension count and kept the source and
+  bundled bootstrap copy byte-identical.
+
 ## [0.8.0] - 2026-08-04
 
 ### Changed

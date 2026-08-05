@@ -6,7 +6,7 @@
 
 Alex ACT Core gives every workspace the same reasoning floor: Alex Finch's identity, ACT's critical-thinking discipline, and reusable skills arrive as one plugin-native baseline. Projects add specialized capability without rebuilding the brain.
 
-**Version**: 0.8.0. Install from the Alex Mall as `alex-act-core@alex-mall`.
+**Version**: 0.8.1. Install from the Alex Mall as `alex-act-core@alex-mall`.
 
 **Current source shape**: 42 skills, 18 instructions (17 always-on bootstrapped to `~/.copilot/instructions/` + 1 pattern-applied), 14 slash-command prompts, plus a shared runtime for the bundled document converters.
 

@@ -8,7 +8,7 @@ Alex ACT Manager keeps lifecycle work out of the reasoning runtime. Setup, repai
 
 ## Status
 
-**Released as `v0.3.0`.** Source:
+**Released as `v0.3.1`.** Source:
 [`fabioc-aloha/Alex_ACT_Manager`](https://github.com/fabioc-aloha/Alex_ACT_Manager).
 Install from the Alex ACT Mall as `alex-act-manager@alex-mall`.
 
