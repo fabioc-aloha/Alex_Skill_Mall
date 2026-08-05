@@ -1,5 +1,5 @@
 ---
-description: "Install the four Alex ACT constellation plugins at user scope, activate direct installs, and separately bootstrap Core's always-on instructions. Use for first setup or partial-install repair. Consent-gated and idempotent."
+description: "Install or repair the Alex ACT brain spine and optional plugins, bootstrap Core instructions, and configure optional capabilities per workspace. Use for first setup or partial-install repair. Consent-gated and idempotent."
 lastReviewed: 2026-08-01
 ---
 
@@ -22,7 +22,9 @@ Steps:
 8. Run the skill's **Step 7 — ACT discipline bootstrap** as a separate consent gate. Show the seventeen files, machine-wide scope, byte total, token estimate, and overlap scan before writing anything.
 9. Write the bootstrap receipt only after a successful copy. Deterministic receipt, count, and SHA-256 checks are the default verification. Offer the clean-directory AI smoke only after separate consent and a warning that it starts a model session and may consume material time, tokens, and credits.
 10. Preview `/alex-act-manager bootstrap-workspace` for the current repository. Show the JSON plan and ask for separate workspace consent before copying `.vscode/markdown-light.css`, setting relative `markdown.styles` when absent, or narrowing `.gitignore`. Preserve differing CSS unless the user explicitly approves refresh from the bundled canonical copy.
-11. Run **Step 9 — Report** with six explicit activation rows: `installed`, `enabled`, `instruction-loaded`, `skill-invokable`, `user-settings`, and `workspace`. A generic skill-tool rejection is `host-limited`, not a package-missing verdict, when the installed file exists and the namespaced command fallback works.
-12. Point at namespaced next steps: `/alex-act-enterprise setup-enterprise`, `/alex-act-msft setup-msft`, and `/alex-act-illustrator-plugin install-visual-companions` when applicable.
+11. Preview `/alex-act-manager configure-workspace-capabilities`. Keep Manager and Core `true`, ask which optional plugins should be enabled, disabled, or inherited, and warn before including private/internal identifiers. Ask for separate workspace capabilities consent before applying `.github/copilot/settings.json`.
+12. Rerun the workspace capability preview and require `action: preserve`. Report the Agent Plugins and MCP workspace controls needed to reconcile VS Code's separately stored runtime state.
+13. Run **Step 10 — Report** with seven activation rows: `installed`, `enabled`, `instruction-loaded`, `skill-invokable`, `user-settings`, `workspace`, and `workspace-capabilities`. A generic skill-tool rejection is `host-limited`, not a package-missing verdict, when the installed file exists and the namespaced command fallback works.
+14. Point at namespaced next steps: `/alex-act-enterprise setup-enterprise`, `/alex-act-msft setup-msft`, and `/alex-act-illustrator-plugin install-visual-companions` when applicable.
 
 Fires only when the user explicitly asks. Idempotent — safe to re-run; skips plugins already at latest.

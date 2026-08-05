@@ -1,18 +1,19 @@
 {
   "upstream": {
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Manager",
-    "ref": "v0.2.2",
+    "ref": "v0.3.0",
     "license": "MIT"
   },
   "submission": {
     "schema_version": "1.0",
     "submitted_by": "mall-admin",
-    "evidence": "Manager v0.2.2 tests 16/16; managed MSFT source contract PASS"
+    "evidence": "Manager 0.3.0 workspace capability profiles; 19/19 tests"
   },
   "artifacts": {
     "skills": [
       "skills/bootstrap-workspace/SKILL.md",
       "skills/bootstrap-workspace/resources/markdown-light.css",
+      "skills/configure-workspace-capabilities/SKILL.md",
       "skills/install-constellation/SKILL.md",
       "skills/install-constellation/bootstrap/alex-act-act-pass.instructions.md",
       "skills/install-constellation/bootstrap/alex-act-alex-finch-personality.instructions.md",
@@ -42,6 +43,7 @@
       "commands/bootstrap-workspace.md",
       "commands/configure-vscode-verify.md",
       "commands/configure-vscode.md",
+      "commands/configure-workspace-capabilities.md",
       "commands/install-constellation.md",
       "commands/plugin-status.md",
       "commands/uninstall-constellation.md",

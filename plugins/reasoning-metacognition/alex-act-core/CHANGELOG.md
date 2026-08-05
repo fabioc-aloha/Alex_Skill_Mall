@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-08-04
+
+### Changed
+
+- Made Manager, Core, and the seventeen-file user instruction bootstrap the
+  non-optional brain spine.
+- Routed fresh installation and Core compatibility commands through Manager's
+  lifecycle flow.
+- Updated greeting setup to treat every other plugin as an optional workspace
+  capability and to cache workspace setup state per repository.
+
 ## [0.7.2] - 2026-08-03
 
 ### Security

@@ -17,6 +17,7 @@ General Copilot CLI plugin operations skill. Every install / list / update / rem
 - Heir asks about a marketplace: "add the Alex mall" / "register a new plugin source"
 - Heir invokes `/alex-act-manager plugin-status` (audit mode)
 - Auditing whether a plugin is at user scope vs repo scope
+- Greeting or user asks to configure optional plugins for one workspace
 
 ## Command reference
 
@@ -80,7 +81,16 @@ Copilot CLI reads settings from two locations. Both can define `enabledPlugins` 
 | `~/.copilot/settings.json` | User (every workspace on this machine) | No — user's home | No |
 | `.github/copilot/settings.json` | Repo (only this workspace) | Yes — belongs in source control | Yes — Copilot cloud agent reads it |
 
-When the same plugin appears in both files, **repo wins** — a project can override user-scope defaults for its own workspace. That is the intended behavior: user scope declares "who the heir is", repo scope declares "what this project needs".
+For Copilot CLI and cloud-agent project defaults, repository settings provide
+the project activation plane. In VS Code, `.github/copilot/settings.json`
+provides workspace recommendations/defaults, while actual workspace plugin and
+MCP enablement is stored separately by the host. Always report the supported
+Agent Plugins and MCP reconciliation controls rather than claiming the file
+alone forces VS Code state.
+
+Manager and Core are exceptions to ordinary project selection. They are the
+brain spine and must remain enabled. Every other plugin is optional at workspace
+scope.
 
 Skill precedence within a workspace (first-loaded wins, dedup by skill name):
 
@@ -120,6 +130,25 @@ Key shape rules:
 - `enabledPlugins` is a map from `<plugin>@<marketplace>` to `true` / `false`. Setting a plugin to `false` disables it without uninstalling.
 - `extraKnownMarketplaces` is a map from marketplace nickname to `{ source: { source: "github", repo: "<owner>/<repo>" } }`. The two default marketplaces (`copilot-plugins`, `awesome-copilot`) do not need registration.
 - Direct-installed plugins (from `<owner>/<repo>` with no marketplace) live in `~/.copilot/installed-plugins/_direct/<source-id>/`. On Copilot CLI 1.0.77, install does not add an `enabledPlugins` entry. After explicit consent, merge the plugin's bare manifest name (for example, `"alex-act-msft": true`) into user settings, then verify settings, `plugin list`, and the direct-install tree.
+
+### Workspace capability profile
+
+Use `/alex-act-manager configure-workspace-capabilities` to preview and apply a
+repository profile. The deterministic runtime command is:
+
+```text
+node <plugin-management-skill>/scripts/manager-operations.cjs configure-workspace-capabilities [options]
+```
+
+It always writes Manager and Core as `true`, rejects attempts to disable either,
+deep-merges selected optional values, fails closed on comment-rich JSONC, and
+requires `--include-private` before writing private/internal identifiers.
+Preview is the default. Apply requires `--apply` after explicit consent.
+
+The output `vscodeRuntimeState: reconcile-in-workspace-ui` is deliberate: use
+Agent Plugins - Installed for workspace plugin state and MCP: List Servers for
+separately stored workspace MCP state. Disabling a plugin in VS Code also stops
+that plugin's MCP servers, hooks, commands, skills, and agents.
 
 ## Safe settings edits
 
@@ -171,9 +200,10 @@ Concrete calls:
 
 | Plugin type | Default scope | Reasoning |
 |---|---|---|
-| Alex ACT constellation (Core, Illustrator, Enterprise, MSFT) | **User** | Identity-scoped; the heir wants these in every workspace |
+| Manager and Core | **User, always enabled** | Lifecycle controller and runtime body; the brain spine |
+| Illustrator, Enterprise, Document Tools, MSFT, and companions | **Installed at user; selected per workspace** | Optional capabilities, not identity or brain health |
 | Microsoft ecosystem plugins (azure, fabric-*, powerbi-authoring, m365-agents-toolkit) | **Repo** | Project-specific; only Azure workspaces need Azure skills loaded |
-| Microsoft-internal signal plugins (workiq, workiq-productivity, org-report) | **User** | Heir-scoped signals; apply across every internal workspace |
+| Microsoft-internal signal plugins (workiq, workiq-productivity, org-report) | **Workspace** | Internal capabilities should not load in unrelated repositories |
 | Domain-specific tooling (any Fabric / Azure / Power BI / GraphQL / language-specific plugin) | **Repo** | Same rule as Microsoft ecosystem — project-specific tools |
 | Personal preference plugins (spellcheckers, style enforcers) | **User** | Heir preference, not project policy |
 
@@ -233,6 +263,9 @@ Added 2026-08-01 to support the `greeting-checkin` instruction's proactive sessi
   "lastCheckAt": "2026-08-01T14:23:00Z",
   "state": "healthy",
   "installedCoreVersion": "0.3.1",
+  "installedManagerVersion": "0.2.2",
+  "workspaceRoot": "C:/path/to/current-repository",
+  "workspaceProfileState": "configured",
   "installedPlugins": [
     "alex-act-core@alex-mall",
     "alex-act-illustrator-plugin@alex-mall"
@@ -248,8 +281,11 @@ Added 2026-08-01 to support the `greeting-checkin` instruction's proactive sessi
 | Field | Meaning |
 |---|---|
 | `lastCheckAt` | ISO 8601 UTC timestamp of last full state check. If read + within 60 min of current time, treat as cache hit — skip the check. |
-| `state` | One of `healthy` \| `incomplete` \| `drifted` \| `updates-available`. Highest-severity classification wins if multiple apply. |
+| `state` | One of `healthy` \| `incomplete` \| `drifted` \| `workspace-unconfigured` \| `updates-available`. |
 | `installedCoreVersion` | Version from `copilot plugin list`, with the installed `plugin.json` as fallback. Used to detect drift on subsequent checks. |
+| `installedManagerVersion` | Manager version from list or installed manifest. |
+| `workspaceRoot` | Repository root that owns this cached result. Cache hits require the same workspace. |
+| `workspaceProfileState` | `configured`, `unconfigured`, `declined`, or `not-a-repository`. |
 | `installedPlugins` | Array of `<plugin>@<marketplace>` identifiers currently in `enabledPlugins`. |
 | `updatesAvailable` | Array of pending updates. Empty when healthy. |
 
@@ -266,6 +302,9 @@ Added 2026-08-01 to support the `greeting-checkin` instruction's proactive sessi
 - **Never** write into `~/.copilot/instructions/` without the owning plugin's name as a filename prefix and a matching receipt.
 - **Never** remove bootstrap files by globbing the folder — read the receipt.
 - **Never** modify `.github/copilot/settings.json` in a heir's workspace without also telling them the file gets committed (it belongs in source control; teammates will pull the change).
+- **Never** set `alex-act-manager@alex-mall` or `alex-act-core@alex-mall` to `false` in a repository profile.
+- **Never** write private/internal plugin identifiers to a repository without explicit acknowledgement and a visibility warning.
+- **Never** claim repository settings alone changed VS Code's separately stored workspace plugin or MCP state.
 - **Do** verify the CLI version (`copilot --version` >= 1.0.75) before offering any install / update / marketplace command that depends on newer syntax.
 - **Do** run `copilot plugin list` before install operations to detect duplicates (installing the same plugin from two marketplaces).
 - **Do** verify that a plugin actually exists in its claimed marketplace before running `copilot plugin install` — especially when the plugin name came from an external agent (LLM, sub-agent, another AI, or an untrusted doc). Use `copilot plugin marketplace browse <marketplace>` and grep for the plugin name. Cheap check; catches CLI-authored install commands pointing at hallucinated plugins. Same anti-hallucination discipline as verifying CLI command syntax before running.
@@ -280,6 +319,8 @@ Added 2026-08-01 to support the `greeting-checkin` instruction's proactive sessi
 | Assume user scope by default for every plugin | Apply the "am I this? vs. am I working on this?" heuristic. |
 | Install `alex-act-msft` on a machine off Microsoft's corporate network | Fail closed. WorkIQ endpoints will fail every invocation. |
 | Install a plugin at user scope when the heir asked "for this project only" | Repo scope. Read the request. |
+| Treat Manager or Core as optional workspace plugins | Reject the configuration; they are the brain spine. |
+| Create an empty `.vscode/mcp.json` to represent disabled plugin MCPs | Disable the owning plugin or use MCP workspace controls. Create a file only for real standalone server definitions. |
 | Skip the CLI-version check | Older CLIs miss `marketplace add`; install commands silently fail. |
 | Uninstall a plugin without confirming it is not referenced by another installed plugin's SKILL body | Composition breakage. Check first. |
 | Run `copilot plugin install <name>@<marketplace>` on an external-agent-recommended plugin without verifying it exists in the marketplace | External agents can hallucinate plugin names. Verify with `marketplace browse` first; install-time failures are noisier than a 2-second pre-check. |
@@ -289,6 +330,7 @@ Added 2026-08-01 to support the `greeting-checkin` instruction's proactive sessi
 - `install-constellation` — Alex ACT-specific install list; delegates to this skill for the mechanical commands.
 - `update-plugins` — safe `copilot plugin update --all` wrap; delegates to this skill for the raw update commands.
 - `configure-vscode` (Batch 10) — VS Code user settings; complementary but distinct — this skill covers CLI plugins, that skill covers VS Code settings.
+- `configure-workspace-capabilities` — repository defaults plus explicit VS Code reconciliation for optional plugins.
 - `ai-memory-setup` (Batch 10) — Alex_ACT_Memory sibling repo; independent of plugin management (Memory is a Git repo, not a plugin).
 
 ## Falsifiability

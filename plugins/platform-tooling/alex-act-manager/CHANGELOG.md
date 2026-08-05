@@ -7,6 +7,15 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-08-04
+
+### Added
+
+- Added preview-first workspace capability profiles that always pin Manager and
+  Core enabled while allowing explicit repository defaults for optional plugins.
+- Added private/internal identifier acknowledgement, atomic deep-merge apply,
+  idempotency checks, and supported VS Code plugin/MCP reconciliation guidance.
+
 ## [0.2.2] - 2026-08-03
 
 ### Security

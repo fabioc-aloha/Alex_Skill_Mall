@@ -1,28 +1,24 @@
 ---
-description: "Install the four Alex ACT constellation plugins at user scope, activate direct installs, and separately bootstrap Core's always-on instructions. Use for first setup or partial-install repair. Consent-gated and idempotent."
-lastReviewed: 2026-08-01
+description: "Routes legacy Core setup requests to Manager's canonical constellation and workspace-capability workflow. Use when an older caller invokes Core's compatibility command."
+lastReviewed: 2026-08-04
 ---
 
 # /install-constellation
 
-Use the linked [`install-constellation`](../skills/install-constellation/SKILL.md)
-skill as the detailed contract. If the generic skill tool is unavailable for a
-plugin-shipped skill, continue with the numbered steps below. Do not claim the
-skill or plugin is missing based only on the skill tool's inventory.
+This is a compatibility command. Manager owns constellation lifecycle and
+workspace capability selection. Route the user to
+`/alex-act-manager install-constellation`; do not run a second Core-owned
+lifecycle flow.
+
+If the generic skill tool is unavailable, continue with the numbered redirect
+below. The redirect is self-contained and does not require Core's legacy skill.
 
 Steps:
 
-1. Verify Copilot CLI version (`copilot --version` >= 1.0.75); if missing or too old, stop.
-2. Run `copilot plugin list` to detect installed versions. Resolve the exact current public versions from `alex-mall`'s `.github/plugin/marketplace.json` through the plugin-management version script; do not infer versions from flattened `marketplace browse` output.
-3. Ask which plugins to install and tenant-check MSFT (Microsoft employee and on corporate network) before including it.
-4. Register `alex-mall` if needed, then install approved plugins in order: Core, Illustrator, Enterprise, MSFT.
-5. Merge `enabledPlugins` without replacing existing entries. Marketplace keys use `<plugin>@alex-mall`; direct MSFT uses the bare key `alex-act-msft`.
-6. Verify each install through `copilot plugin list`, settings, and the corresponding installed `plugin.json` tree.
-7. Audit the portable VS Code user baseline. Show missing and drifted keys, then ask for separate user-settings consent before invoking `/alex-act-core configure-vscode`. Do not copy Fabio-specific editor preferences. If user `markdown.styles` contains a local absolute path, report it and separately offer removal.
-8. Run the skill's **Step 7 — ACT discipline bootstrap** as a separate consent gate. Show the seventeen files, machine-wide scope, byte total, token estimate, and overlap scan before writing anything.
-9. Write the bootstrap receipt only after a successful copy. Deterministic receipt, count, and SHA-256 checks are the default verification. Offer the clean-directory AI smoke only after separate consent and a warning that it starts a model session and may consume material time, tokens, and credits.
-10. Preview `/alex-act-core bootstrap-workspace` for the current repository. Show the JSON plan and ask for separate workspace consent before copying `.vscode/markdown-light.css`, setting relative `markdown.styles` when absent, or narrowing `.gitignore`. Preserve differing CSS unless the user explicitly approves refresh.
-11. Run **Step 9 — Report** with six explicit activation rows: `installed`, `enabled`, `instruction-loaded`, `skill-invokable`, `user-settings`, and `workspace`.
-12. Point at namespaced next steps: `/alex-act-enterprise setup-enterprise`, `/alex-act-msft setup-msft`, and `/alex-act-illustrator-plugin install-visual-companions` when applicable.
+1. Run `copilot plugin list` and verify `alex-act-manager@alex-mall` is installed.
+2. If Manager is absent, explain that Manager, Core, and the seventeen-file bootstrap are the non-optional brain spine. Provide `copilot plugin install alex-act-manager@alex-mall`, then stop until Manager is loaded.
+3. Invoke `/alex-act-manager install-constellation`.
+4. Preserve Manager's separate consent gates for user settings, instruction bootstrap, workspace files, optional workspace capabilities, and private identifiers.
+5. Report that the Core command routed successfully; Manager owns the resulting activation report.
 
 Fires only when the user explicitly asks. Idempotent — safe to re-run; skips plugins already at latest.
