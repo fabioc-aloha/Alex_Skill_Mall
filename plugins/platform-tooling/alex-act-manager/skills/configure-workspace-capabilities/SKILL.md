@@ -65,6 +65,9 @@ Manager and Core are inserted automatically and cannot be disabled.
     - Agent Plugins - Installed for plugin state
     - MCP: List Servers for separately stored MCP state
     - Configure Tools for per-request tools
+11. Report local Copilot CLI separately. On CLI 1.0.78, repository `true` does
+    not override user `false`; workspace-only CLI loading requires explicit
+    `--plugin-dir <installed-plugin-root>` arguments.
 
 ## Output Contract
 
@@ -78,11 +81,23 @@ The plan reports:
 - complete desired `enabledPlugins` map
 - private identifiers and visibility warning
 - whether comments prevent automatic apply
+- `cliRuntimeState` and local CLI loading instructions
 - `reconcile-in-workspace-ui` when VS Code state remains to be aligned
 
 ## Scope Semantics
 
-The repository file is authoritative for Copilot CLI and cloud-agent project defaults. In VS Code it is a workspace recommendation/default. VS Code stores actual workspace plugin and MCP enablement separately, so this skill reports the supported reconciliation actions instead of claiming the file can force hidden state.
+The repository file is authoritative for cloud-agent project defaults and is a
+declarative plugin-install source for Copilot CLI. It is not a verified local
+CLI activation override: on CLI 1.0.78, user `false` suppresses an installed
+marketplace plugin even when repository `enabledPlugins` says `true`.
+Workspace-only CLI loading therefore requires explicit `--plugin-dir` arguments
+or user-scope activation. Direct-installed plugins also ignore a bare
+`enabledPlugins: false` key in this CLI version.
+
+In VS Code the repository file is a workspace recommendation/default. VS Code
+stores actual workspace plugin and MCP enablement separately, so this skill
+reports supported reconciliation actions instead of claiming the file can
+force hidden state.
 
 Disabling an optional plugin through VS Code also stops that plugin's MCP servers, hooks, commands, skills, and agents. Standalone workspace MCP definitions remain owned by `.vscode/mcp.json` and are never fabricated by this workflow.
 
@@ -109,6 +124,7 @@ Repository settings are ordinary versioned configuration. Restore the prior `.gi
 | Commit MSFT or Agency identifiers silently | Require private acknowledgement and visibility warning. |
 | Apply before showing the complete plan | Preview, show, consent, apply. |
 | Claim repository settings force VS Code workspace state | Report the supported Agent Plugins and MCP reconciliation controls. |
+| Claim repository `true` overrides user `false` in local CLI | Report the CLI 1.0.78 limit and use `--plugin-dir` for workspace-only loading. |
 | Create an empty `.vscode/mcp.json` | Do nothing unless a real standalone workspace server is configured. |
 | Replace `enabledPlugins` or marketplace maps wholesale | Deep-merge and preserve unrelated keys. |
 

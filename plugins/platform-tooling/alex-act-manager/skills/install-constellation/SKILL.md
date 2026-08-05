@@ -340,6 +340,8 @@ The workflow must:
   into a repository file
 - deep-merge `.github/copilot/settings.json` and preserve unrelated settings
 - explain that VS Code stores actual workspace plugin and MCP state separately
+- explain that local CLI 1.0.78 does not let repository `true` override user
+  `false`; workspace-only CLI loading requires `--plugin-dir`
 
 Show the exact JSON preview, then ask for workspace capabilities consent. Apply
 only after a second explicit yes. Rerun preview and require `action: preserve`.

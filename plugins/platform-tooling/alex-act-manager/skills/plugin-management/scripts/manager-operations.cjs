@@ -239,6 +239,12 @@ function buildWorkspaceCapabilityPlan(target, apply, enable = [], disable = [], 
     visibilityWarning: includePrivate && privatePlugins.length
       ? 'Private or internal plugin identifiers will be committed to this repository settings file.'
       : null,
+    cliRuntimeState: 'repository-true-does-not-override-user-false',
+    cliInstructions: [
+      'Copilot CLI 1.0.78 keeps an installed marketplace plugin disabled when user enabledPlugins is false, even if repository enabledPlugins is true.',
+      'For local CLI workspace-only loading, start copilot with --plugin-dir <installed-plugin-root> for each optional plugin, or enable that plugin at user scope.',
+      'Direct-installed plugins do not honor a bare enabledPlugins false key in Copilot CLI 1.0.78.',
+    ],
     vscodeRuntimeState: 'reconcile-in-workspace-ui',
     vscodeInstructions: [
       'Use Agent Plugins - Installed to enable or disable optional plugins for this workspace.',

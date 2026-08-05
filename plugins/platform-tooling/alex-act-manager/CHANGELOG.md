@@ -7,6 +7,16 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.3.3] - 2026-08-04
+
+### Fixed
+
+- Reported the verified Copilot CLI 1.0.78 scope boundary: repository
+  `enabledPlugins: true` does not override user `false`, and direct-installed
+  plugins ignore the bare false key. Workspace-only CLI loading now points to
+  explicit `--plugin-dir` arguments while VS Code keeps its separate Agent
+  Plugins and MCP reconciliation path.
+
 ## [0.3.2] - 2026-08-04
 
 ### Fixed
