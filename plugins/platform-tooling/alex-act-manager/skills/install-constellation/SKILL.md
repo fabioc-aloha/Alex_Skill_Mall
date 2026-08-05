@@ -128,22 +128,29 @@ and stop. Do not attempt to continue past a broken install.
 
 ### Step 5 — Settings merge
 
-For each installed plugin, add an entry to `~/.copilot/settings.json` `enabledPlugins`:
+Keep the brain spine enabled at user scope and installed optional constellation
+plugins disabled there. Workspace profiles own optional activation:
 
 ```json
 {
   "enabledPlugins": {
+    "alex-act-manager@alex-mall": true,
     "alex-act-core@alex-mall": true,
-    "alex-act-illustrator-plugin@alex-mall": true,
-    "alex-act-enterprise@alex-mall": true,
-    "alex-act-msft": true
+    "alex-act-illustrator-plugin@alex-mall": false,
+    "alex-act-enterprise@alex-mall": false,
+    "alex-act-document-tools@alex-mall": false,
+    "alex-act-msft": false
   }
 }
 ```
 
 The bare `alex-act-msft` key is required on Copilot CLI 1.0.77 because direct
-installs do not populate `enabledPlugins` automatically. Verify it after the
-merge; an on-disk direct install without this key can go dark on restart.
+installs do not populate `enabledPlugins` automatically. Verify the explicit
+`false` after the merge so MSFT remains installed but inactive until a
+workspace selects it with private-identifier acknowledgement.
+
+Do not set an optional plugin `true` at user scope merely because it is
+installed. Step 8 configures the current workspace after separate consent.
 
 Delegate to [`plugin-management`](../plugin-management/SKILL.md) § Safe settings edits for the merge algorithm — preserve any pre-existing `enabledPlugins` or `extraKnownMarketplaces` entries the heir has.
 

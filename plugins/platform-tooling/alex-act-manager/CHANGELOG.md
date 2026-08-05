@@ -7,6 +7,14 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-08-04
+
+### Fixed
+
+- Kept only Manager and Core enabled at user scope during constellation setup;
+  installed optional plugins now remain disabled globally until a separately
+  consented workspace capability profile activates them.
+
 ## [0.3.1] - 2026-08-04
 
 ### Fixed

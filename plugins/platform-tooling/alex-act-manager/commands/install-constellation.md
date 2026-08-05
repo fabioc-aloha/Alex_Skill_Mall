@@ -16,7 +16,7 @@ Steps:
 2. Run `copilot plugin list` to detect installed versions. Resolve the exact current public versions from `alex-mall`'s `.github/plugin/marketplace.json` through the plugin-management version script; do not infer versions from flattened `marketplace browse` output.
 3. Ask which plugins to install and tenant-check MSFT (Microsoft employee and on corporate network) before including it.
 4. Register `alex-mall` if needed, then install approved plugins in order: Core, Illustrator, Enterprise, MSFT.
-5. Merge `enabledPlugins` without replacing existing entries. Marketplace keys use `<plugin>@alex-mall`; direct MSFT uses the bare key `alex-act-msft`.
+5. Merge `enabledPlugins` without replacing existing entries. Keep Manager and Core `true` at user scope; set installed optional constellation plugins `false` there so `/alex-act-manager configure-workspace-capabilities` owns activation. Marketplace keys use `<plugin>@alex-mall`; direct MSFT uses the bare key `alex-act-msft`.
 6. Verify each install through `copilot plugin list`, settings, and the corresponding installed `plugin.json` tree.
 7. Audit the portable VS Code user baseline. Show missing and drifted keys, then ask for separate user-settings consent before invoking `/alex-act-manager configure-vscode`. Do not copy Fabio-specific editor preferences. If user `markdown.styles` contains a local absolute path, report it and separately offer removal; never substitute another local absolute path.
 8. Run the skill's **Step 7 — ACT discipline bootstrap** as a separate consent gate. Show the seventeen files, machine-wide scope, byte total, token estimate, and overlap scan before writing anything.
