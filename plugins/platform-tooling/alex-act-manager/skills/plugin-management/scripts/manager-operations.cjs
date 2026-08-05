@@ -15,20 +15,6 @@ const WORKSPACE_BASELINE = Object.freeze({
     'markdown.styles': 'set-if-absent',
   },
 });
-const BRAIN_SPINE_PLUGINS = Object.freeze([
-  'alex-act-manager@alex-mall',
-  'alex-act-core@alex-mall',
-]);
-const PRIVATE_PLUGIN_IDENTIFIERS = Object.freeze([
-  'alex-act-msft',
-  'org-report',
-  's360-breeze-toolkit@agency',
-  '1es-runtime-evals@agency',
-  'dependabot@agency',
-  'workiq@copilot-plugins',
-  'workiq-productivity@copilot-plugins',
-]);
-
 function parseWorkspaceArgs(args) {
   const parsed = { apply: false, refreshCss: false, target: process.cwd() };
   for (let index = 0; index < args.length; index++) {
@@ -39,43 +25,6 @@ function parseWorkspaceArgs(args) {
       if (!args[index + 1] || args[index + 1].startsWith('--')) throw new Error('--target requires a path');
       parsed.target = args[++index];
     } else throw new Error(`unknown argument: ${value}`);
-  }
-  return parsed;
-}
-
-function parseWorkspaceCapabilityArgs(args) {
-  const parsed = {
-    apply: false,
-    disable: [],
-    enable: [],
-    includePrivate: false,
-    target: process.cwd(),
-  };
-  for (let index = 0; index < args.length; index++) {
-    const value = args[index];
-    if (value === '--apply') parsed.apply = true;
-    else if (value === '--include-private') parsed.includePrivate = true;
-    else if (value === '--target' || value === '--enable' || value === '--disable') {
-      if (!args[index + 1] || args[index + 1].startsWith('--')) {
-        throw new Error(`${value} requires a value`);
-      }
-      const next = args[++index];
-      if (value === '--target') parsed.target = next;
-      else parsed[value.slice(2)].push(...next.split(',').map((entry) => entry.trim()).filter(Boolean));
-    } else throw new Error(`unknown argument: ${value}`);
-  }
-  parsed.enable = [...new Set(parsed.enable)];
-  parsed.disable = [...new Set(parsed.disable)];
-  const conflicting = parsed.enable.filter((plugin) => parsed.disable.includes(plugin));
-  if (conflicting.length) throw new Error(`plugins cannot be both enabled and disabled: ${conflicting.join(', ')}`);
-  const disabledSpine = parsed.disable.filter((plugin) => BRAIN_SPINE_PLUGINS.includes(plugin));
-  if (disabledSpine.length) {
-    throw new Error(`brain spine plugins cannot be disabled: ${disabledSpine.join(', ')}`);
-  }
-  const privatePlugins = [...parsed.enable, ...parsed.disable]
-    .filter((plugin) => PRIVATE_PLUGIN_IDENTIFIERS.includes(plugin) || plugin.endsWith('@agency'));
-  if (privatePlugins.length && !parsed.includePrivate) {
-    throw new Error(`private plugin identifiers require --include-private: ${privatePlugins.join(', ')}`);
   }
   return parsed;
 }
@@ -190,81 +139,6 @@ function mergeBaselineValue(current, desired) {
     entries.push([key, merged]);
     return entries;
   }, Object.entries(current)));
-}
-
-function readJsoncObject(file) {
-  if (!fs.existsSync(file)) return { existed: false, hadComments: false, value: {} };
-  const raw = fs.readFileSync(file, 'utf8');
-  const hadComments = /\/\/|\/\*/.test(raw);
-  try {
-    return { existed: true, hadComments, value: JSON.parse(stripJsonc(raw)) || {} };
-  } catch (error) {
-    throw new Error(`${file} is not valid JSON/JSONC: ${error.message}`);
-  }
-}
-
-function buildWorkspaceCapabilityPlan(target, apply, enable = [], disable = [], includePrivate = false) {
-  const workspace = path.resolve(target);
-  if (!fs.existsSync(workspace) || !fs.statSync(workspace).isDirectory()) {
-    throw new Error(`workspace target is not a directory: ${workspace}`);
-  }
-  const settingsFile = path.join(workspace, '.github', 'copilot', 'settings.json');
-  const current = readJsoncObject(settingsFile);
-  const existingPlugins = isPlainObject(current.value.enabledPlugins)
-    ? current.value.enabledPlugins
-    : {};
-  const desiredPlugins = { ...existingPlugins };
-  for (const plugin of BRAIN_SPINE_PLUGINS) desiredPlugins[plugin] = true;
-  for (const plugin of enable) desiredPlugins[plugin] = true;
-  for (const plugin of disable) desiredPlugins[plugin] = false;
-
-  const changes = Object.entries(desiredPlugins).reduce((result, [plugin, value]) => {
-    if (existingPlugins[plugin] !== value) {
-      result.push({ plugin, from: existingPlugins[plugin], to: value });
-    }
-    return result;
-  }, []);
-  const merged = { ...current.value, enabledPlugins: desiredPlugins };
-  const privatePlugins = [...enable, ...disable]
-    .filter((plugin) => PRIVATE_PLUGIN_IDENTIFIERS.includes(plugin) || plugin.endsWith('@agency'));
-  return {
-    target: workspace,
-    settingsFile,
-    apply,
-    action: !current.existed ? 'create' : changes.length ? 'merge' : 'preserve',
-    changes,
-    desired: { enabledPlugins: desiredPlugins },
-    hadComments: current.hadComments,
-    privatePlugins,
-    visibilityWarning: includePrivate && privatePlugins.length
-      ? 'Private or internal plugin identifiers will be committed to this repository settings file.'
-      : null,
-    cliRuntimeState: 'repository-true-does-not-override-user-false',
-    cliInstructions: [
-      'Copilot CLI 1.0.78 keeps an installed marketplace plugin disabled when user enabledPlugins is false, even if repository enabledPlugins is true.',
-      'For local CLI workspace-only loading, start copilot with --plugin-dir <installed-plugin-root> for each optional plugin, or enable that plugin at user scope.',
-      'Direct-installed plugins do not honor a bare enabledPlugins false key in Copilot CLI 1.0.78.',
-    ],
-    vscodeRuntimeState: 'reconcile-in-workspace-ui',
-    vscodeInstructions: [
-      'Use Agent Plugins - Installed to enable or disable optional plugins for this workspace.',
-      'Use MCP: List Servers to reconcile separately stored workspace MCP state.',
-      'Manager, Core, and the seventeen-file user bootstrap remain active.',
-    ],
-    _merged: merged,
-  };
-}
-
-function applyWorkspaceCapabilityPlan(plan) {
-  if (plan.hadComments && plan.action !== 'preserve') {
-    throw new Error('workspace Copilot settings contain comments; merge the reported keys in the JSONC editor to preserve them');
-  }
-  if (plan.action !== 'preserve') writeAtomic(plan.settingsFile, `${JSON.stringify(plan._merged, null, 2)}\n`);
-}
-
-function publicWorkspaceCapabilityPlan(plan) {
-  const { _merged, ...output } = plan;
-  return output;
 }
 
 function buildUserSettingsPlan(targetSettings, apply, removeLocalCss = false) {
@@ -490,19 +364,6 @@ async function main() {
     process.stdout.write(`${JSON.stringify(publicWorkspacePlan(plan), null, 2)}\n`);
     return;
   }
-  if (command === 'configure-workspace-capabilities') {
-    const parsed = parseWorkspaceCapabilityArgs(args);
-    const plan = buildWorkspaceCapabilityPlan(
-      parsed.target,
-      parsed.apply,
-      parsed.enable,
-      parsed.disable,
-      parsed.includePrivate,
-    );
-    if (parsed.apply) applyWorkspaceCapabilityPlan(plan);
-    process.stdout.write(`${JSON.stringify(publicWorkspaceCapabilityPlan(plan), null, 2)}\n`);
-    return;
-  }
   if (command === 'marketplace-versions') {
     const parsed = parseMarketplaceArgs(args);
     const marketplace = await loadMarketplace(parsed);
@@ -520,11 +381,6 @@ if (require.main === module) {
 }
 
 module.exports = {
-  BRAIN_SPINE_PLUGINS,
-    applyWorkspaceCapabilityPlan,
-    buildWorkspaceCapabilityPlan,
-    parseWorkspaceCapabilityArgs,
-    publicWorkspaceCapabilityPlan,
   DEFAULT_MARKETPLACE_URL,
   WORKSPACE_BASELINE,
   applyUserSettingsPlan,

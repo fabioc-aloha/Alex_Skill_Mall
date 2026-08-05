@@ -143,8 +143,8 @@
     },
     {
       "name": "alex-act-core",
-      "description": "The Alex ACT baseline runtime plugin. Installs 42 reusable framework skills and 14 slash-command prompts covering epistemic discipline, repository workspace bootstrap, document converters, security and privacy, tooling awareness, and engineering craft. Core authors 18 instructions (17 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Install Manager with Core, then run /alex-act-manager install-constellation to bootstrap the seventeen load-bearing instructions and configure optional capabilities per workspace. Public source is Alex_ACT_Core; changes remain evidence-gated before release.",
-      "version": "0.8.1",
+      "description": "The Alex ACT baseline runtime plugin. Installs 42 reusable framework skills and 14 slash-command prompts covering epistemic discipline, repository workspace bootstrap, document converters, security and privacy, tooling awareness, and engineering craft. Core authors 18 instructions (17 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Install Manager with Core, then run /alex-act-manager install-constellation to bootstrap the seventeen load-bearing instructions. Public source is Alex_ACT_Core; changes remain evidence-gated before release.",
+      "version": "0.9.0",
       "source": "plugins/reasoning-metacognition/alex-act-core",
       "strict": true
     },
@@ -171,8 +171,8 @@
     },
     {
       "name": "alex-act-manager",
-      "description": "Lifecycle control plane for the Alex ACT constellation. Installs and repairs Core and optional plugins, bootstraps Core-owned instructions, configures workspace-scoped optional capabilities, audits exact versions, updates and removes plugins with explicit consent, configures VS Code, and bootstraps repository workspace files. Use for setup, status, repair, workspace capability selection, update, or teardown rather than ordinary reasoning work.",
-      "version": "0.3.3",
+      "description": "Lifecycle control plane for the Alex ACT constellation. Installs and globally enables selected plugins, repairs Core, bootstraps Core-owned instructions, audits exact versions, updates and removes plugins with explicit consent, configures VS Code, and bootstraps repository workspace files. Use for setup, status, repair, update, or teardown rather than ordinary reasoning work.",
+      "version": "0.4.0",
       "source": "plugins/platform-tooling/alex-act-manager",
       "strict": true
     },

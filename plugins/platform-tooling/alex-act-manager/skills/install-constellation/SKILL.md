@@ -22,8 +22,8 @@ The skill runs in one of three modes depending on how it was invoked:
 
 | Mode | Trigger | Behavior |
 |---|---|---|
-| **Manual** (default) | Heir types `/alex-act-manager install-constellation` explicitly | Full consent flow: install selection, tenant check, user settings, bootstrap, repository CSS, workspace capability profile, and verification. All Steps 1-10 fire. |
-| **Auto-invoked from greeting-checkin** | Greeting detected incomplete brain state and user approved repair | Greeting Y covers brain-spine repair only. User settings, bootstrap, repository files, and workspace capabilities retain separate consent gates because they affect different scopes. |
+| **Manual** (default) | Heir types `/alex-act-manager install-constellation` explicitly | Full consent flow: install selection, tenant check, user settings, bootstrap, repository CSS, and verification. All Steps 1-9 fire. |
+| **Auto-invoked from greeting-checkin** | Greeting detected incomplete brain state and user approved repair | Greeting Y covers brain-spine repair only. User settings, bootstrap, and repository files retain separate consent gates because they affect different scopes. |
 | **Repair** | Heir invoked manually AND state check finds partial residue (bootstrap files without matching plugin, orphan receipt) | Confirm intent to complete partial install; skip installs of plugins already present at target version. |
 | **Bootstrap-only repair** | All plugin versions, enabled keys, manifests, stable user settings, and current-workspace files match, but the receipt or one of its seventeen files is missing, stale, or hash-mismatched | Skip plugin selection, marketplace registration, installation, user-settings audit, and workspace bootstrap. Show the bootstrap delta and go directly to the separate Step 7 consent gate. |
 
@@ -35,8 +35,8 @@ prior bootstrap cannot route a greeting through this skill.
 
 For greeting-time brain repair, do not treat optional plugins as missing brain
 components. Manager, Core, and the seventeen-file bootstrap are the spine.
-Optional plugins remain installed at user scope when selected but are enabled
-or disabled per workspace through Step 9.
+Optional plugins selected by the user remain installed and enabled at user
+scope. Alex ACT does not manage per-workspace plugin activation.
 
 ## The four constellation plugins
 
@@ -128,29 +128,24 @@ and stop. Do not attempt to continue past a broken install.
 
 ### Step 5 — Settings merge
 
-Keep the brain spine enabled at user scope and installed optional constellation
-plugins disabled there. Workspace profiles own optional activation:
+Enable every selected installed constellation plugin at user scope:
 
 ```json
 {
   "enabledPlugins": {
     "alex-act-manager@alex-mall": true,
     "alex-act-core@alex-mall": true,
-    "alex-act-illustrator-plugin@alex-mall": false,
-    "alex-act-enterprise@alex-mall": false,
-    "alex-act-document-tools@alex-mall": false,
-    "alex-act-msft": false
+    "alex-act-illustrator-plugin@alex-mall": true,
+    "alex-act-enterprise@alex-mall": true,
+    "alex-act-document-tools@alex-mall": true,
+    "alex-act-msft": true
   }
 }
 ```
 
 The bare `alex-act-msft` key is required on Copilot CLI 1.0.77 because direct
 installs do not populate `enabledPlugins` automatically. Verify the explicit
-`false` after the merge so MSFT remains installed but inactive until a
-workspace selects it with private-identifier acknowledgement.
-
-Do not set an optional plugin `true` at user scope merely because it is
-installed. Step 8 configures the current workspace after separate consent.
+`true` after the merge so MSFT remains active after restart.
 
 Delegate to [`plugin-management`](../plugin-management/SKILL.md) § Safe settings edits for the merge algorithm — preserve any pre-existing `enabledPlugins` or `extraKnownMarketplaces` entries the heir has.
 
@@ -325,32 +320,9 @@ Apply only after a separate workspace consent, then verify the destination CSS
 hash, settings value, and idempotent second preview. If the current directory is
 not the intended project, ask for the target path instead of guessing.
 
-### Step 9 — Workspace capabilities consent
+### Step 9 — Report
 
-Run `/alex-act-manager configure-workspace-capabilities` in preview mode for the
-current repository. This is distinct from workspace CSS/settings setup.
-
-The workflow must:
-
-- pin `alex-act-manager@alex-mall` and `alex-act-core@alex-mall` to `true`
-- reject any attempt to disable Manager or Core
-- inventory installed optional plugins and ask which should be enabled,
-  disabled, or inherited
-- require explicit acknowledgement before writing private/internal plugin IDs
-  into a repository file
-- deep-merge `.github/copilot/settings.json` and preserve unrelated settings
-- explain that VS Code stores actual workspace plugin and MCP state separately
-- explain that local CLI 1.0.78 does not let repository `true` override user
-  `false`; workspace-only CLI loading requires `--plugin-dir`
-
-Show the exact JSON preview, then ask for workspace capabilities consent. Apply
-only after a second explicit yes. Rerun preview and require `action: preserve`.
-Do not create `.vscode/mcp.json` unless a real standalone workspace MCP server
-definition exists.
-
-### Step 10 — Report
-
-Print a summary with seven activation planes:
+Print a summary with six activation planes:
 
 | Plane | Evidence | Status vocabulary |
 |---|---|---|
@@ -360,7 +332,6 @@ Print a summary with seven activation planes:
 | **skill-invokable** | namespaced command executes; generic skill tool is probed only when available | pass / host-limited / fail |
 | **user-settings** | stable baseline comparison and read-back | pass / declined / drift / fail |
 | **workspace** | CSS hash, relative `markdown.styles`, and idempotent preview | pass / declined / custom-preserved / fail |
-| **workspace-capabilities** | Manager/Core pinned true, optional plugin choices, private-ID warning, idempotent repository profile, and VS Code reconciliation status | pass / declined / drift / fail |
 
 Then report:
 
@@ -372,7 +343,6 @@ Then report:
 - **Visual-workflow companions** (see § "Optional: visual workflow companions" above for ownership + rationale): if the heir mentioned chart authoring, dashboards, reports with visuals, PR screenshots, or any workload involving visual verification, tell them to invoke `/alex-act-illustrator-plugin install-visual-companions` after this install completes. Do NOT list the 9 plugins from here — the catalog + install-time caveats + verified-status list live in Illustrator's `install-visual-companions` skill to keep them from drifting across two plugins.
 - If the bootstrap was declined, say plainly that Core's skills are available but the ACT discipline layer is not, and that `/alex-act-manager install-constellation` can be re-run later to add it
 - If user settings or workspace bootstrap were declined, name the corresponding namespaced repair command instead of calling setup fully complete
-- If workspace capabilities were declined, name `/alex-act-manager configure-workspace-capabilities` and do not call optional capability setup complete
 - If all plugin, user-settings, and workspace checks passed before Step 7, label the run `bootstrap-only repair`; do not replay or narrate skipped installation work as if it ran
 
 ## Idempotency
@@ -384,7 +354,6 @@ The skill is safe to re-run. On subsequent runs:
 - If any are at a lower version than what the marketplace currently ships, defer to `update-plugins` — this skill installs, it does not update.
 - The discipline bootstrap has its own idempotency check, keyed on the receipt's `coreVersion`. A current constellation with a stale bootstrap receipt still warrants re-running Step 7.
 - The VS Code user baseline and current-workspace bootstrap have independent idempotency checks. A current plugin set does not imply either settings scope is current.
-- Workspace capability profiles are independently idempotent. A current brain spine does not imply optional capabilities are configured for this repository.
 
 ## Anti-patterns
 
@@ -406,8 +375,6 @@ The skill is safe to re-run. On subsequent runs:
 | Copy Steward's entire `.vscode/settings.json` into every user's profile | Apply only the portable baseline. Fabio-specific editor preferences and extension paths are not constellation policy. |
 | Put a local absolute CSS path in user `markdown.styles` | Remove it with consent or leave it user-owned. Copy local CSS into each repository and use the workspace-relative path instead. |
 | Call setup complete after plugin installation alone | Report user-settings and workspace scopes independently; offer the namespaced repair commands when either is declined. |
-| Allow a workspace profile to disable Manager or Core | Reject it. The lifecycle controller and runtime body are the non-optional brain spine. |
-| Treat repository plugin defaults as VS Code's complete runtime state | Report the supported workspace Agent Plugins and MCP reconciliation steps. |
 
 ## Composes with
 
@@ -417,7 +384,6 @@ The skill is safe to re-run. On subsequent runs:
 - `setup-msft-stack` (in `alex-act-msft`) — invoked after this skill inside Microsoft-internal work
 - `configure-vscode` — Step 6 applies the portable VS Code user baseline after separate consent
 - `bootstrap-workspace` — Step 8 provisions repository-relative CSS and Markdown settings after separate consent
-- `configure-workspace-capabilities` — Step 9 pins the brain spine and configures optional plugins per repository
 
 ## Falsifiability
 

@@ -8,13 +8,12 @@ Alex ACT Manager keeps lifecycle work out of the reasoning runtime. Setup, repai
 
 ## Status
 
-**Released as `v0.3.3`.** Source:
+**Released as `v0.4.0`.** Source:
 [`fabioc-aloha/Alex_ACT_Manager`](https://github.com/fabioc-aloha/Alex_ACT_Manager).
 Install from the Alex ACT Mall as `alex-act-manager@alex-mall`.
 
-Manager and Core remain the mandatory brain spine. Preview-first workspace
-capability profiles select optional plugins per repository without writing VS
-Code's separately stored workspace state.
+Manager and Core remain the mandatory brain spine. Every optional plugin the
+user selects is installed and enabled at user scope across workspaces.
 
 Core still owns and ships the compatibility lifecycle copies. Their removal is
 a separate Core release after the Manager route has adoption evidence.
@@ -41,7 +40,7 @@ those concerns without becoming a second brain.
 | Safety, privacy, communication, and memory routing | Exact version resolution and status |
 | Frequent reasoning and engineering skills | Plugin update and uninstall |
 | Drift signals and a compact Manager route | Core instruction bootstrap |
-| Canonical source instructions | VS Code, repository setup, and optional workspace capabilities |
+| Canonical source instructions | VS Code and repository workspace setup |
 
 ## What Ships
 
@@ -52,9 +51,8 @@ those concerns without becoming a second brain.
 | `update-plugins` | Preview and apply consented updates |
 | `uninstall-constellation` | Preview and perform clean removal |
 | `bootstrap-workspace` | Provision repository-scoped VS Code files |
-| `configure-workspace-capabilities` | Pin Manager/Core and select optional plugins per repository |
 
-Eight namespaced commands expose those skills plus user-scope VS Code apply and
+Seven namespaced commands expose those skills plus user-scope VS Code apply and
 verify flows. `manager-operations.cjs` provides deterministic marketplace and
 workspace behavior.
 

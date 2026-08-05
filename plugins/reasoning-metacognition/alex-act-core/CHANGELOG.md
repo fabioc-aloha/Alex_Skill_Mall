@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-08-04
+
+### Removed
+
+- Removed greeting-time workspace capability profile detection,
+  `workspace-unconfigured`, Response E, and the compatibility route to the
+  retired Manager workspace capability command.
+
+### Changed
+
+- Greeting now checks only Manager, Core, bootstrap integrity, and available
+  updates. User-selected installed plugins remain active across workspaces.
+
 ## [0.8.1] - 2026-08-04
 
 ### Fixed

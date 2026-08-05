@@ -15,7 +15,7 @@
     "notes": "Source-of-truth is the upstream repo. Mall vendors a specific tag; when upstream tags a new release, Mall automation flags the mismatch. Core is the plugin-native successor to Alex_ACT_Edition v4.2.0.",
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Core",
     "license": "MIT",
-    "ref": "v0.8.1"
+    "ref": "v0.9.0"
   },
   "instruction_scope": {
     "shipped": false,
@@ -185,7 +185,7 @@
   "submission": {
     "schema_version": "1.0",
     "submitted_by": "mall-admin",
-    "evidence": "Core 0.8.1 greeting wording parity; 31/31 tests"
+    "evidence": "Core 0.9.0 removes workspace capability orientation; 31/31 tests"
   },
   "link_rewrites": [
     {

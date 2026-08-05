@@ -6,7 +6,7 @@
 
 Alex ACT Core gives every workspace the same reasoning floor: Alex Finch's identity, ACT's critical-thinking discipline, and reusable skills arrive as one plugin-native baseline. Projects add specialized capability without rebuilding the brain.
 
-**Version**: 0.8.1. Install from the Alex Mall as `alex-act-core@alex-mall`.
+**Version**: 0.9.0. Install from the Alex Mall as `alex-act-core@alex-mall`.
 
 **Current source shape**: 42 skills, 18 instructions (17 always-on bootstrapped to `~/.copilot/instructions/` + 1 pattern-applied), 14 slash-command prompts, plus a shared runtime for the bundled document converters.
 
@@ -43,10 +43,9 @@ For a fresh install on any machine:
    /alex-act-manager install-constellation
    ```
 
-Step 4 keeps Manager and Core enabled, separately asks whether to bootstrap the
-seventeen always-on ACT instructions, and offers optional capabilities for the
-current workspace. After that first bootstrap, short greetings can use
-`greeting-checkin` for repair, drift, updates, and workspace setup. A greeting
+Step 4 keeps every selected plugin enabled and separately asks whether to
+bootstrap the seventeen always-on ACT instructions. After that first bootstrap,
+short greetings can use `greeting-checkin` for repair, drift, and updates. A greeting
 cannot start first-time setup because the greeting instruction is delivered by
 the bootstrap itself.
 
@@ -191,7 +190,7 @@ namespaced lifecycle commands remain available as compatibility copies.
 Use Manager's lifecycle commands from Copilot Chat for configuration and other
 lifecycle work. Core retains these compatibility copies:
 
-- **`/alex-act-manager install-constellation`** — installs and repairs the brain spine, then offers optional capabilities for the current workspace
+- **`/alex-act-manager install-constellation`** — installs selected plugins, repairs the brain spine, and enables installed plugins at user scope
 - **`/alex-act-core bootstrap-workspace`** — previews and consent-gates repository-scoped Markdown Preview CSS, workspace settings, and selective `.gitignore` tracking
 - **`/alex-act-core plugin-status`** — read-only inventory of what's installed at user + repo scope
 - **`/alex-act-core update-plugins`** — safe update workflow with per-plugin CHANGELOG reading and consent for breaking changes

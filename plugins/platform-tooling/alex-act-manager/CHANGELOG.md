@@ -7,6 +7,18 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-08-04
+
+### Removed
+
+- Removed the `configure-workspace-capabilities` skill, prompt, deterministic
+  runtime command, repository profile, and workspace capability report plane.
+
+### Changed
+
+- Installation now keeps every user-selected constellation plugin enabled at
+  user scope. Alex ACT no longer manages per-workspace plugin activation.
+
 ## [0.3.3] - 2026-08-04
 
 ### Fixed

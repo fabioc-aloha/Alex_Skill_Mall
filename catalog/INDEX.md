@@ -25,7 +25,7 @@ Search index across **3868 plugins** in **42 stores**. Plugins are ranked by tru
 | 95 | 🏆 `alex-act-document-tools` | plugin-mall | mixed | Document conversion bundle for AI agents. Converts among Markdown, Word, HTML, … |
 | 95 | 🏆 `alex-act-enterprise` | plugin-mall | mixed | Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the s… |
 | 95 | 🏆 `alex-act-illustrator-plugin` | plugin-mall | mixed | Visual-authoring bundle for AI agents. Ten skills across five feature areas plu… |
-| 95 | 🏆 `alex-act-manager` | plugin-mall | mixed | Lifecycle control plane for the Alex ACT constellation. Installs and repairs Co… |
+| 95 | 🏆 `alex-act-manager` | plugin-mall | mixed | Lifecycle control plane for the Alex ACT constellation. Installs and globally e… |
 | 95 | 🏆 `alex-banner-generation` | plugin-mall | skill | Generate branded SVG banners for documents (READMEs, plans, changelogs, release… |
 | 95 | 🏆 `allowlist-over-blocklist` | plugin-mall | skill | Validate input against an allowlist of permitted values -- reject everything el… |
 | 95 | 🏆 `anti-hallucination` | plugin-mall | skill | Recognize and prevent confabulation -- when you don't know, say so. |
