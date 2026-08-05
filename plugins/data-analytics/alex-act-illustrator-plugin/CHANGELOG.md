@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.6] - 2026-08-05
+
+### Changed
+
+- Moved the Flint MCP pin from `flint-chart-mcp@0.3.0` to `0.4.1` across `plugin.json`, `manifest.json`, `.vscode/mcp.json`, the verifier fallback, `README.md`, and the `flint-chart` skill. Adopted after the compatibility suite passed against 0.4.1: `2024-11-05` handshake, all five expected tools present, and 6/6 documented spec patterns valid. All five MCP tool input schemas are byte-identical to 0.3.0, so no authored spec needs rewriting.
+- Repointed the `flint-chart` skill's upstream deep-reference URLs from the `0.3.0` tag to `0.4.1`.
+
+### Added
+
+- Taught the `flint-chart` skill the 0.4.1 chart-type additions. Vega-Lite gains a first-class `"Donut Chart"` (channels `size`, `color`, `column`, `row`), and Chart.js gains `"Bump Chart"`, so rank-over-time is now available on every backend. Vega-Lite goes 34 → 35 chart types and Chart.js 20 → 21; ECharts is unchanged at 37, and nothing was removed.
+- Documented the donut route per backend, which is not uniform: Vega-Lite `"Donut Chart"`, Chart.js `"Doughnut Chart"` (different spelling, pre-existing), and ECharts `"Pie Chart"` + `innerRadius` because it registers no donut type at all. Also recorded that Vega-Lite's `Donut Chart` defaults `innerRadius` to 0 and compiles to a hole-less `arc` mark unless the property is set explicitly, whereas Chart.js `Doughnut Chart` defaults to 55.
+- Replaced the Chart.js backend-coverage list with the verified 21 registered types; the previous list omitted Strip Plot, Waterfall Chart, Gantt Chart, and ECDF Plot.
+- Corrected two `chartProperties` ranges inherited from the upstream fork base against the generated `reference-vegalite.md`: `binCount` defaults to `Auto` (not `10`), and `polyOrder` accepts `2–10` (not `1–5`).
+- Warned in the falsifier that upstream's own `flint-chart-author` skill is currently behind its generated references — it still teaches the Pie + `innerRadius` donut idiom and omits `Donut Chart` entirely — so a straight rebase onto it would regress this skill. Future syncs should diff against the generated `reference-*.md` files instead.
+- Added stale-packument guidance to the verifier and the README registry policy. When `--prefer-offline` serves cached metadata that predates a newly pinned version, npm reports `ETARGET` for a version the registry does carry; the failure path now names that cause and prescribes one refresh run without `--prefer-offline` instead of inviting an unapproved `--registry` override.
+
+### Fixed
+
+- Corrected the skill's claim that the library's Plotly and Excel backends were unreachable only because of the `^0.3.0` pin. Verified against 0.4.1: `list_chart_types` still accepts only `vegalite`, `echarts`, and `chartjs`, and rejects `plotly` and `excel` with an enum validation error. Bumping the pin does not expose them.
+- Repointed the skill's upstream deep-reference URLs to the `0.4.0` tag. The `flint-chart` library tags releases independently of the `flint-chart-mcp` npm package and has no `0.4.1` tag, so `/blob/0.4.1/` URLs 404. The `0.4.0` generated references report 35/37/21 chart types, matching the pinned server exactly.
+
 ## [0.6.5] - 2026-08-02
 
 ### Fixed
