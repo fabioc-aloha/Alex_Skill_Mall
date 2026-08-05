@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "name": "org-report",
+  "version": "1.4.1",
+  "description": "Generate executive organization briefs (leadership chain, direct reports, extended teams, and vendor partners) from a directory MCP source. Produces a polished Word + PDF report and displays it in a Copilot canvas. Tenant-specific byline, cover copy, and vendor rules are configurable via config.json.",
+  "author": {
+    "name": "Fabio Correa",
+    "url": "https://github.com/fabioc-aloha"
+  },
+  "homepage": "https://github.com/fabioc-aloha/org-report",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabioc-aloha/org-report.git"
+  },
+  "license": "MIT",
+  "category": "communication-people",
+  "keywords": [
+    "org-chart",
+    "organization",
+    "directory",
+    "reporting",
+    "docx",
+    "canvas",
+    "people",
+    "mcp"
+  ],
+  "skills": "skills/"
+}

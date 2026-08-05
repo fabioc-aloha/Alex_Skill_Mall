@@ -1,0 +1,58 @@
+{
+  "byline": {
+    "prepared_by": "Jane Doe",
+    "prepared_by_org": "Executive Insights · Contoso"
+  },
+  "cover_copy": {
+    "methodology": "This brief profiles the leadership chain, direct reports, extended teams, and vendor partners in the target executive's organization. The reporting structure comes from your corporate directory service, and each profile is synthesized by an AI agent from accessible communication signals (mail, calendar, chat, and documents) using a directory MCP connector, then typeset through a Python export pipeline. Treat it as a point-in-time working snapshot, not an authoritative HR record.",
+    "disclosure": "Disclosure: Profiles draw only on the communication signals the author is authorized to see. Anything protected by information barriers, sensitivity labels, or data-loss-prevention policies is invisible to this report, so collaborations and areas of ownership may be under-represented. Summaries are AI-generated and can contain errors or misattributed activity, so verify before acting on any specific claim. This document contains confidential organizational information; handle it accordingly and do not redistribute."
+  },
+  "typography": {
+    "base_font": "Aptos"
+  },
+  "vendor_detection": {
+    "email_prefixes": ["v-", "ext-"],
+    "display_name_paren_excludes": ["NON EA"]
+  },
+  "labels": {
+    "no_profile_available": "No enriched profile available."
+  },
+  "photos": {
+    "enabled": true,
+    "directory": "~/.copilot/extensions/org-directory/artifacts/photos",
+    "key_by": "email",
+    "size_inches": 0.7
+  },
+  "tenure": {
+    "enabled": true,
+    "suffix": " at Contoso"
+  },
+  "signal_density": {
+    "enabled": true,
+    "colors": {
+      "high": "059669",
+      "medium": "D97706",
+      "low": "DC2626",
+      "none": "9CA3AF"
+    }
+  },
+  "deep_dive": {
+    "enabled": true,
+    "label": "DEEP DIVE"
+  },
+  "attribution": {
+    "enabled": true,
+    "prefix": "Grounded in "
+  },
+  "team_stats": {
+    "enabled": true,
+    "show_total": true,
+    "show_depth": true
+  },
+  "cross_team": {
+    "enabled": true,
+    "title": "Cross-team collaboration",
+    "top_n": 15,
+    "min_edges": 2
+  }
+}
