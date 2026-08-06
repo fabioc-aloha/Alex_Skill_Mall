@@ -703,7 +703,7 @@
     {
       "name": "data-preparation",
       "description": "Data cleaning, profiling, transformation, and quality gates -- prepares raw data for visualization and analysis",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "plugins/data-analytics/data-preparation",
       "strict": true
     },
@@ -731,7 +731,7 @@
     {
       "name": "datasource-connectors",
       "description": "Ingestion patterns for CSV, JSON, REST API, SQL, Excel, and Parquet -- guides an LLM through loading data from any common source",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "plugins/data-analytics/datasource-connectors",
       "strict": true
     },
@@ -794,21 +794,21 @@
     {
       "name": "delivery-ascii-dashboard",
       "description": "Render data dashboards as pure ASCII art in monospace text -- the cheapest, most portable delivery method. No rendering engine, no SVG, no browser. LLM-native output with predictable character geometry.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "plugins/data-analytics/delivery-ascii-dashboard",
       "strict": true
     },
     {
       "name": "delivery-html-dashboard",
       "description": "Render data dashboards as self-contained HTML files using Apache ECharts v6. Single file, zero build step, interactive charts with tooltips and data zoom. Declarative JSON option config optimized for AI generation.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "plugins/data-analytics/delivery-html-dashboard",
       "strict": true
     },
     {
       "name": "delivery-svg-markdown",
       "description": "Render data dashboards as static SVG panels embeddable in Markdown. Uses D3.js v7 mental model for scales, shapes, and axes. No runtime JS; output is pure SVG with inline styles for GitHub compatibility.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "plugins/media-graphics/delivery-svg-markdown",
       "strict": true
     },
@@ -2257,7 +2257,7 @@
     {
       "name": "storytelling-requirements",
       "description": "Guided requirements template for data storytelling projects -- walks users through audience, Big Idea, questions, data sources, and delivery target before any chart is created",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "plugins/data-analytics/storytelling-requirements",
       "strict": true
     },
@@ -2467,7 +2467,7 @@
     {
       "name": "visual-storytelling",
       "description": "Turn raw data into visual stories. Full pipeline: structured brief, data ingestion, chart selection, and delivery to ASCII, SVG, or HTML dashboards. Installs 7 component plugins and an orchestrator agent.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "plugins/data-analytics/visual-storytelling",
       "strict": true
     },
