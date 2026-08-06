@@ -79,13 +79,13 @@ layer; the real specs live in the components:
 
 | Component                   | SKILL Path                                                |
 | --------------------------- | --------------------------------------------------------- |
-| `storytelling-requirements` | `.github/skills/local/storytelling-requirements/SKILL.md` |
-| `datasource-connectors`     | `.github/skills/local/datasource-connectors/SKILL.md`     |
-| `data-preparation`          | `.github/skills/local/data-preparation/SKILL.md`          |
-| `visual-vocabulary`         | `.github/skills/local/visual-vocabulary/SKILL.md`         |
-| `delivery-ascii-dashboard`  | `.github/skills/local/delivery-ascii-dashboard/SKILL.md`  |
-| `delivery-svg-markdown`     | `.github/skills/local/delivery-svg-markdown/SKILL.md`     |
-| `delivery-html-dashboard`   | `.github/skills/local/delivery-html-dashboard/SKILL.md`   |
+| `storytelling-requirements` | `skills/storytelling-requirements/SKILL.md` |
+| `datasource-connectors`     | `skills/datasource-connectors/SKILL.md`     |
+| `data-preparation`          | `skills/data-preparation/SKILL.md`          |
+| `visual-vocabulary`         | `skills/visual-vocabulary/SKILL.md`         |
+| `delivery-ascii-dashboard`  | `skills/delivery-ascii-dashboard/SKILL.md`  |
+| `delivery-svg-markdown`     | `skills/delivery-svg-markdown/SKILL.md`     |
+| `delivery-html-dashboard`   | `skills/delivery-html-dashboard/SKILL.md`   |
 
 ## When to Use Which Delivery
 
