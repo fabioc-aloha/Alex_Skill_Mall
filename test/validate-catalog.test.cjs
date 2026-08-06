@@ -24,9 +24,12 @@ function fixture() {
   for (const store of stores) {
     writeJson(path.join(root, 'catalog', 'stores', `${store.name}.json`), {
       store: store.name,
+      scanned_ref: 'a'.repeat(40),
+      plugin_count: 1,
       store_trust: { score: store.provenance ? 82 : 35 },
       plugins: [{
         name: `${store.name}-skill`,
+        source_url: `https://example.invalid/tree/${'a'.repeat(40)}/${store.name}-skill`,
         trust_score: store.provenance ? 82 : 45,
         trust_signals: { store: store.provenance ? 82 : 35, frontmatter: 5, readme: 5, store_breakdown: { provenance: store.provenance ? 50 : 0 } },
       }],
@@ -36,7 +39,11 @@ function fixture() {
   }
   writeJson(path.join(root, 'catalog', 'index.json'), {
     schema_version: '3.0', store_count: 2, plugin_count: 2,
-    plugins: stores.map((store) => ({ name: `${store.name}-skill`, store: store.name, trust_score: store.provenance ? 82 : 45 })),
+    plugins: stores.map((store) => ({
+      name: `${store.name}-skill`, store: store.name,
+      trust_score: store.provenance ? 82 : 45,
+      installable: !store.reference_only,
+    })),
   });
   fs.mkdirSync(path.join(root, 'sources'), { recursive: true });
   fs.writeFileSync(path.join(root, 'sources', 'SOURCES.md'), '# Sources\n');
@@ -114,6 +121,55 @@ test('index counts must reconcile with store JSON', () => {
     index.plugin_count = 99;
     writeJson(p, index);
     assert.ok(codes(validateCatalog(root)).includes('PLUGIN_COUNT_MISMATCH'));
+  } finally { cleanup(root); }
+});
+
+test('marketplace is mandatory', () => {
+  const root = fixture();
+  try {
+    fs.rmSync(path.join(root, '.github', 'plugin', 'marketplace.json'));
+    assert.ok(codes(validateCatalog(root)).includes('MARKETPLACE_MISSING'));
+  } finally { cleanup(root); }
+});
+
+test('store count, names, and refs must be publication-safe', () => {
+  const root = fixture();
+  try {
+    const p = path.join(root, 'catalog', 'stores', 'upstream.json');
+    const store = JSON.parse(fs.readFileSync(p, 'utf8'));
+    store.plugin_count = 99;
+    store.refs_error = 'broken';
+    store.scanned_ref = 'main';
+    store.plugins.push({ ...store.plugins[0] });
+    store.plugins[0].source_url = 'https://example.invalid/tree/main/skill';
+    writeJson(p, store);
+    const found = codes(validateCatalog(root));
+    for (const code of [
+      'STORE_PLUGIN_COUNT_MISMATCH', 'STORE_REFS_ERROR', 'STORE_REF_INVALID',
+      'STORE_PLUGIN_DUPLICATE', 'PLUGIN_SOURCE_REF_INVALID',
+    ]) assert.ok(found.includes(code), code);
+  } finally { cleanup(root); }
+});
+
+test('plugin source URLs are mandatory', () => {
+  const root = fixture();
+  try {
+    const p = path.join(root, 'catalog', 'stores', 'upstream.json');
+    const store = JSON.parse(fs.readFileSync(p, 'utf8'));
+    delete store.plugins[0].source_url;
+    writeJson(p, store);
+    assert.ok(codes(validateCatalog(root)).includes('PLUGIN_SOURCE_URL_MISSING'));
+  } finally { cleanup(root); }
+});
+
+test('index installability must match reference-only registry state', () => {
+  const root = fixture();
+  try {
+    const registryPath = path.join(root, 'sources', 'supported-stores.json');
+    const registry = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
+    registry.stores[1].reference_only = true;
+    writeJson(registryPath, registry);
+    assert.ok(codes(validateCatalog(root)).includes('PLUGIN_INSTALLABILITY_INVALID'));
   } finally { cleanup(root); }
 });
 

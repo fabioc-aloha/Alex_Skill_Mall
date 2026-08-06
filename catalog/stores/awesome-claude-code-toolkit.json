@@ -9,174 +9,6 @@
   "plugin_count": 43,
   "plugins": [
     {
-      "name": "hooks",
-      "shape": "hook",
-      "source_path": "hooks",
-      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/hooks",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "hooks",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "hook"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9",
-        "tags": [
-          "v0.5.0",
-          "v0.4.0",
-          "v0.3.0",
-          "v0.2.0",
-          "v0.1.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 12,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "Apache-2.0",
-          "stars": 2434,
-          "contributors": 206,
-          "last_commit": "2026-05-12T07:18:34Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "api-architect",
-      "shape": "mixed",
-      "source_path": "plugins/api-architect",
-      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/plugins/api-architect",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "api-architect",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9",
-        "tags": [
-          "v0.5.0",
-          "v0.4.0",
-          "v0.3.0",
-          "v0.2.0",
-          "v0.1.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 12,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "Apache-2.0",
-          "stars": 2434,
-          "contributors": 206,
-          "last_commit": "2026-05-12T07:18:34Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "code-guardian",
-      "shape": "mixed",
-      "source_path": "plugins/code-guardian",
-      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/plugins/code-guardian",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "code-guardian",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9",
-        "tags": [
-          "v0.5.0",
-          "v0.4.0",
-          "v0.3.0",
-          "v0.2.0",
-          "v0.1.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 12,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "Apache-2.0",
-          "stars": 2434,
-          "contributors": 206,
-          "last_commit": "2026-05-12T07:18:34Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "accessibility-wcag",
       "shape": "skill",
       "source_path": "skills/accessibility-wcag",
@@ -282,6 +114,62 @@
       "trust_signals": {
         "store": 32,
         "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 12,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 2434,
+          "contributors": 206,
+          "last_commit": "2026-05-12T07:18:34Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "api-architect",
+      "shape": "mixed",
+      "source_path": "plugins/api-architect",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/plugins/api-architect",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "api-architect",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9",
+        "tags": [
+          "v0.5.0",
+          "v0.4.0",
+          "v0.3.0",
+          "v0.2.0",
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -587,6 +475,62 @@
       "trust_signals": {
         "store": 32,
         "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 12,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 2434,
+          "contributors": 206,
+          "last_commit": "2026-05-12T07:18:34Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "code-guardian",
+      "shape": "mixed",
+      "source_path": "plugins/code-guardian",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/plugins/code-guardian",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "code-guardian",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9",
+        "tags": [
+          "v0.5.0",
+          "v0.4.0",
+          "v0.3.0",
+          "v0.2.0",
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1238,6 +1182,62 @@
       "trust_signals": {
         "store": 32,
         "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 12,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 2434,
+          "contributors": 206,
+          "last_commit": "2026-05-12T07:18:34Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hooks",
+      "shape": "hook",
+      "source_path": "hooks",
+      "source_url": "https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/hooks",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "hooks",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9",
+        "tags": [
+          "v0.5.0",
+          "v0.4.0",
+          "v0.3.0",
+          "v0.2.0",
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2561,5 +2561,6 @@
       "last_commit": "2026-05-12T07:18:34Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

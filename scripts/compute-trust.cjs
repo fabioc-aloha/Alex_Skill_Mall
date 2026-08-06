@@ -153,7 +153,7 @@ function computeStoreSignals(registryEntry, githubStats) {
       contributors: null,
       last_commit: null,
       archived: false,
-      note: 'first-party (Mall self-entry); maintenance + adoption pinned per published trust formula',
+      note: 'first-party editorial prior: maintenance pinned to 15 and adoption pinned to 10; these are not measured GitHub signals',
     };
   }
 

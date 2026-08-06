@@ -6,7 +6,7 @@
   "provenance": false,
   "tier": "mongodb-official",
   "license": "Apache-2.0",
-  "plugin_count": 13,
+  "plugin_count": 11,
   "plugins": [
     {
       "name": "mongodb",
@@ -534,20 +534,25 @@
       }
     },
     {
-      "name": "mongodb-atlas-stream-processing",
-      "shape": "unknown",
-      "source_path": "testing/mongodb-atlas-stream-processing",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/testing/mongodb-atlas-stream-processing",
-      "readme_excerpt": "Automated test suite for the `mongodb-atlas-stream-processing` skill.",
+      "name": "review-skill",
+      "shape": "skill",
+      "source_path": "tools/review-skill",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/tools/review-skill",
+      "readme_excerpt": null,
       "frontmatter": {
-        "kind": "none",
-        "raw": {},
+        "kind": "skill-md",
+        "raw": {
+          "name": "review-skill",
+          "description": "",
+          "compatibility": "Requires skill-validator CLI and claude CLI for LLM scoring. LLM scoring can be skipped for structural-only review.",
+          "metadata": ""
+        },
         "standard": {
-          "name": "mongodb-atlas-stream-processing",
-          "description": "Automated test suite for the `mongodb-atlas-stream-processing` skill.",
+          "name": "review-skill",
+          "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "unknown"
+          "shape": "skill"
         },
         "extended": {
           "applyTo": null,
@@ -569,65 +574,11 @@
           "v0.5.0"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 30,
       "trust_signals": {
         "store": 30,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 5,
-          "license": 10,
-          "license_name": "Apache-2.0",
-          "stars": 165,
-          "contributors": 14,
-          "last_commit": "2026-08-02T22:40:55Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "mongodb-query-optimizer",
-      "shape": "unknown",
-      "source_path": "testing/mongodb-query-optimizer",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/testing/mongodb-query-optimizer",
-      "readme_excerpt": "Test data setup scripts, eval definitions, and configuration for testing the `mongodb-query-optimizer` skill.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "mongodb-query-optimizer",
-          "description": "Test data setup scripts, eval definitions, and configuration for testing the `mongodb-query-optimizer` skill.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-        "tags": [
-          "v1.1.0",
-          "v1.0.0",
-          "v0.5.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 30,
-        "frontmatter": 5,
-        "readme": 5,
+        "frontmatter": 0,
+        "readme": 0,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
@@ -694,65 +645,6 @@
           "archived": false
         }
       }
-    },
-    {
-      "name": "review-skill",
-      "shape": "skill",
-      "source_path": "tools/review-skill",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/tools/review-skill",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "review-skill",
-          "description": "",
-          "compatibility": "Requires skill-validator CLI and claude CLI for LLM scoring. LLM scoring can be skipped for structural-only review.",
-          "metadata": ""
-        },
-        "standard": {
-          "name": "review-skill",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-        "tags": [
-          "v1.1.0",
-          "v1.0.0",
-          "v0.5.0"
-        ]
-      },
-      "trust_score": 30,
-      "trust_signals": {
-        "store": 30,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 5,
-          "license": 10,
-          "license_name": "Apache-2.0",
-          "stars": 165,
-          "contributors": 14,
-          "last_commit": "2026-08-02T22:40:55Z",
-          "archived": false
-        }
-      }
     }
   ],
   "store_trust": {
@@ -768,5 +660,6 @@
       "last_commit": "2026-08-02T22:40:55Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

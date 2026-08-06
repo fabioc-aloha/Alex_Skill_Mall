@@ -99,6 +99,7 @@ function buildIndex(stores) {
         description_short: truncate(p.frontmatter?.standard?.description || '', 160),
         source_url: p.source_url,
         provenance: store.store === 'plugin-mall',
+        installable: !store.reference_only,
         adapted_from: p.adapted_from || null,
       });
     }
@@ -531,13 +532,13 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('| Signal | Range | Source |');
   lines.push('| --- | ---: | --- |');
   lines.push('| Provenance | +50 | First-party `plugin-mall` entry |');
-  lines.push('| Store maintenance | 0–15 | Last upstream commit recency |');
-  lines.push('| Store adoption | 0–10 | GitHub stars + contributors |');
+  lines.push('| Store maintenance | 0–15 | Last upstream commit recency; first-party Mall is pinned to 15 as an editorial prior |');
+  lines.push('| Store adoption | 0–10 | GitHub stars + contributors; first-party Mall is pinned to 10 as an editorial prior |');
   lines.push('| License clarity | 0–10 | OSI-approved=10, clear non-permissive=7 |');
   lines.push('| Frontmatter completeness | 0–10 | description + version + lastReviewed presence |');
   lines.push('| README presence | 0–5 | README excerpt ≥ 50 chars |');
   lines.push('');
-  lines.push('First-party plugins (🏆) rank highest because they earn the +50 provenance bonus. Third-party plugins remain installable — you pick.');
+  lines.push('First-party plugins (🏆) rank highest because they earn the +50 provenance bonus. Third-party entries with `installable: true` retain an installation route; reference-only entries are discovery evidence, not install targets.');
   lines.push('');
   lines.push('## Compatibility scope');
   lines.push('');

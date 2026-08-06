@@ -9,6 +9,162 @@
   "plugin_count": 92,
   "plugins": [
     {
+      "name": "ashare-news-fetcher",
+      "shape": "skill",
+      "source_path": "daymade-financial/ashare-news-fetcher",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/ashare-news-fetcher",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ashare-news-fetcher",
+          "description": "",
+          "argument-hint": "[--sources <groups>] [--symbols <codes>] [--limit <n>]"
+        },
+        "standard": {
+          "name": "ashare-news-fetcher",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "asr-transcribe-to-text",
+      "shape": "skill",
+      "source_path": "daymade-audio/asr-transcribe-to-text",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/asr-transcribe-to-text",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "asr-transcribe-to-text",
+          "description": "",
+          "argument-hint": "[audio-or-video-file-path-or-url ...]"
+        },
+        "standard": {
+          "name": "asr-transcribe-to-text",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "auto-repo-setup",
       "shape": "skill",
       "source_path": "auto-repo-setup",
@@ -100,6 +256,83 @@
         },
         "standard": {
           "name": "benchmark-due-diligence",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "bigdata-skill",
+      "shape": "skill",
+      "source_path": "daymade-financial/bigdata-skill",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/bigdata-skill",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "bigdata-skill",
+          "description": ""
+        },
+        "standard": {
+          "name": "bigdata-skill",
           "description": null,
           "version": null,
           "lastReviewed": null,
@@ -303,703 +536,6 @@
       "trust_signals": {
         "store": 35,
         "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "cli-demo-generator",
-      "shape": "skill",
-      "source_path": "cli-demo-generator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/cli-demo-generator",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "cli-demo-generator",
-          "description": "Generates professional animated CLI demos as GIFs using VHS terminal recordings. Handles tape file creation, self-bootstrapping demos with hidden setup, output noise filtering, post-processing speed-up, and frame-level verification. Use when users want to create terminal demos, record CLI workflows as GIFs, generate animated documentation, build demo tapes for README files, or need to showcase any command-line tool visually. Also triggers on \"record terminal\", \"VHS tape\", \"demo GIF\", \"animate my CLI\", or any request to visually demonstrate shell commands."
-        },
-        "standard": {
-          "name": "cli-demo-generator",
-          "description": "Generates professional animated CLI demos as GIFs using VHS terminal recordings. Handles tape file creation, self-bootstrapping demos with hidden setup, output noise filtering, post-processing speed-up, and frame-level verification. Use when users want to create terminal demos, record CLI workflows as GIFs, generate animated documentation, build demo tapes for README files, or need to showcase any command-line tool visually. Also triggers on \"record terminal\", \"VHS tape\", \"demo GIF\", \"animate my CLI\", or any request to visually demonstrate shell commands.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "cloudflare-troubleshooting",
-      "shape": "skill",
-      "source_path": "cloudflare-troubleshooting",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/cloudflare-troubleshooting",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "cloudflare-troubleshooting",
-          "description": "Investigate and resolve Cloudflare configuration issues using API-driven evidence gathering. Use when troubleshooting ERR_TOO_MANY_REDIRECTS, SSL errors, DNS issues, or any Cloudflare-related problems. Focus on systematic investigation using Cloudflare API to examine actual configuration rather than making assumptions."
-        },
-        "standard": {
-          "name": "cloudflare-troubleshooting",
-          "description": "Investigate and resolve Cloudflare configuration issues using API-driven evidence gathering. Use when troubleshooting ERR_TOO_MANY_REDIRECTS, SSL errors, DNS issues, or any Cloudflare-related problems. Focus on systematic investigation using Cloudflare API to examine actual configuration rather than making assumptions.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "codex-image-gallery",
-      "shape": "mixed",
-      "source_path": "codex-image-gallery",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/codex-image-gallery",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "codex-image-gallery",
-          "description": "Start or reuse a self-contained local web gallery for browsing Codex-generated images. Use when the user asks to browse Codex generated images, open a local image gallery, inspect ~/.codex/generated_images, view a Codex image output folder, or browse image files produced by Codex."
-        },
-        "standard": {
-          "name": "codex-image-gallery",
-          "description": "Start or reuse a self-contained local web gallery for browsing Codex-generated images. Use when the user asks to browse Codex generated images, open a local image gallery, inspect ~/.codex/generated_images, view a Codex image output folder, or browse image files produced by Codex.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "competitors-analysis",
-      "shape": "skill",
-      "source_path": "competitors-analysis",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/competitors-analysis",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "competitors-analysis",
-          "description": "",
-          "context": "fork",
-          "agent": "general-purpose",
-          "argument-hint": "[product-name] [competitor-url-or-search-query]"
-        },
-        "standard": {
-          "name": "competitors-analysis",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "asr-transcribe-to-text",
-      "shape": "skill",
-      "source_path": "daymade-audio/asr-transcribe-to-text",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/asr-transcribe-to-text",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "asr-transcribe-to-text",
-          "description": "",
-          "argument-hint": "[audio-or-video-file-path-or-url ...]"
-        },
-        "standard": {
-          "name": "asr-transcribe-to-text",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "meeting-minutes-taker",
-      "shape": "skill",
-      "source_path": "daymade-audio/meeting-minutes-taker",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/meeting-minutes-taker",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "meeting-minutes-taker",
-          "description": ""
-        },
-        "standard": {
-          "name": "meeting-minutes-taker",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "stepfun-asr",
-      "shape": "skill",
-      "source_path": "daymade-audio/stepfun-asr",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/stepfun-asr",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "stepfun-asr",
-          "description": "Transcribe audio with StepFun's stepaudio-2.5-asr — an SSE endpoint (NOT /v1/audio/transcriptions) with 32K context, ~85-101x RTF on long audio, and a single-call ceiling around 30 minutes (no client-side chunking). Use when transcribing Chinese / English audio with StepFun, when long-form recordings (5-30 min) need to land in one request, when migrating from step-asr / step-asr-1.1, or when hitting the misleading `model stepaudio-2.5-asr not supported` error (which actually means wrong endpoint). Triggers on 阶跃 ASR, StepFun ASR, stepaudio-2.5-asr, 转录, 语音识别, 长音频转写, 语音转文字. For TTS with the sibling stepaudio-2.5-tts model, use the stepfun-tts skill instead."
-        },
-        "standard": {
-          "name": "stepfun-asr",
-          "description": "Transcribe audio with StepFun's stepaudio-2.5-asr — an SSE endpoint (NOT /v1/audio/transcriptions) with 32K context, ~85-101x RTF on long audio, and a single-call ceiling around 30 minutes (no client-side chunking). Use when transcribing Chinese / English audio with StepFun, when long-form recordings (5-30 min) need to land in one request, when migrating from step-asr / step-asr-1.1, or when hitting the misleading `model stepaudio-2.5-asr not supported` error (which actually means wrong endpoint). Triggers on 阶跃 ASR, StepFun ASR, stepaudio-2.5-asr, 转录, 语音识别, 长音频转写, 语音转文字. For TTS with the sibling stepaudio-2.5-tts model, use the stepfun-tts skill instead.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "stepfun-tts",
-      "shape": "skill",
-      "source_path": "daymade-audio/stepfun-tts",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/stepfun-tts",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "stepfun-tts",
-          "description": "Generate Chinese / Japanese speech with StepFun's stepaudio-2.5-tts — Contextual TTS that replaces step-tts-2's `voice_label` with natural-language `instruction` (≤200 chars) plus inline `()` parentheses for句内 prosody. Use when the user wants emotional / prosody control over voice synthesis (whisper, pause, stress, mood pivot mid-sentence), batch-generates game / app voice lines, migrates from `step-tts-2` (the `voice_label → instruction` breaking change), or hits StepFun's stricter 2.5-era censorship (死/消失/political terms). Triggers on 阶跃 TTS, StepAudio 合成, 语音合成, 配音, 文本转语音, TTS 升级, 迁移 step-tts-2. For transcription with the sibling stepaudio-2.5-asr model, use the stepfun-asr skill instead."
-        },
-        "standard": {
-          "name": "stepfun-tts",
-          "description": "Generate Chinese / Japanese speech with StepFun's stepaudio-2.5-tts — Contextual TTS that replaces step-tts-2's `voice_label` with natural-language `instruction` (≤200 chars) plus inline `()` parentheses for句内 prosody. Use when the user wants emotional / prosody control over voice synthesis (whisper, pause, stress, mood pivot mid-sentence), batch-generates game / app voice lines, migrates from `step-tts-2` (the `voice_label → instruction` breaking change), or hits StepFun's stricter 2.5-era censorship (死/消失/political terms). Triggers on 阶跃 TTS, StepAudio 合成, 语音合成, 配音, 文本转语音, TTS 升级, 迁移 step-tts-2. For transcription with the sibling stepaudio-2.5-asr model, use the stepfun-asr skill instead.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "transcript-fixer",
-      "shape": "skill",
-      "source_path": "daymade-audio/transcript-fixer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/transcript-fixer",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "transcript-fixer",
-          "description": ""
-        },
-        "standard": {
-          "name": "transcript-fixer",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1631,6 +1167,317 @@
       }
     },
     {
+      "name": "cli-demo-generator",
+      "shape": "skill",
+      "source_path": "cli-demo-generator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/cli-demo-generator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "cli-demo-generator",
+          "description": "Generates professional animated CLI demos as GIFs using VHS terminal recordings. Handles tape file creation, self-bootstrapping demos with hidden setup, output noise filtering, post-processing speed-up, and frame-level verification. Use when users want to create terminal demos, record CLI workflows as GIFs, generate animated documentation, build demo tapes for README files, or need to showcase any command-line tool visually. Also triggers on \"record terminal\", \"VHS tape\", \"demo GIF\", \"animate my CLI\", or any request to visually demonstrate shell commands."
+        },
+        "standard": {
+          "name": "cli-demo-generator",
+          "description": "Generates professional animated CLI demos as GIFs using VHS terminal recordings. Handles tape file creation, self-bootstrapping demos with hidden setup, output noise filtering, post-processing speed-up, and frame-level verification. Use when users want to create terminal demos, record CLI workflows as GIFs, generate animated documentation, build demo tapes for README files, or need to showcase any command-line tool visually. Also triggers on \"record terminal\", \"VHS tape\", \"demo GIF\", \"animate my CLI\", or any request to visually demonstrate shell commands.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "cloudflare-troubleshooting",
+      "shape": "skill",
+      "source_path": "cloudflare-troubleshooting",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/cloudflare-troubleshooting",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "cloudflare-troubleshooting",
+          "description": "Investigate and resolve Cloudflare configuration issues using API-driven evidence gathering. Use when troubleshooting ERR_TOO_MANY_REDIRECTS, SSL errors, DNS issues, or any Cloudflare-related problems. Focus on systematic investigation using Cloudflare API to examine actual configuration rather than making assumptions."
+        },
+        "standard": {
+          "name": "cloudflare-troubleshooting",
+          "description": "Investigate and resolve Cloudflare configuration issues using API-driven evidence gathering. Use when troubleshooting ERR_TOO_MANY_REDIRECTS, SSL errors, DNS issues, or any Cloudflare-related problems. Focus on systematic investigation using Cloudflare API to examine actual configuration rather than making assumptions.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "codex-image-gallery",
+      "shape": "mixed",
+      "source_path": "codex-image-gallery",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/codex-image-gallery",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "codex-image-gallery",
+          "description": "Start or reuse a self-contained local web gallery for browsing Codex-generated images. Use when the user asks to browse Codex generated images, open a local image gallery, inspect ~/.codex/generated_images, view a Codex image output folder, or browse image files produced by Codex."
+        },
+        "standard": {
+          "name": "codex-image-gallery",
+          "description": "Start or reuse a self-contained local web gallery for browsing Codex-generated images. Use when the user asks to browse Codex generated images, open a local image gallery, inspect ~/.codex/generated_images, view a Codex image output folder, or browse image files produced by Codex.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "competitors-analysis",
+      "shape": "skill",
+      "source_path": "competitors-analysis",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/competitors-analysis",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "competitors-analysis",
+          "description": "",
+          "context": "fork",
+          "agent": "general-purpose",
+          "argument-hint": "[product-name] [competitor-url-or-search-query]"
+        },
+        "standard": {
+          "name": "competitors-analysis",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "continue-claude-work",
       "shape": "skill",
       "source_path": "daymade-claude-code/continue-claude-work",
@@ -1772,1708 +1619,6 @@
       "trust_signals": {
         "store": 35,
         "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "local-conversation-history",
-      "shape": "skill",
-      "source_path": "daymade-claude-code/local-conversation-history",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/local-conversation-history",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "local-conversation-history",
-          "description": "",
-          "argument-hint": "[workspace-path]"
-        },
-        "standard": {
-          "name": "local-conversation-history",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "marketplace-dev",
-      "shape": "mixed",
-      "source_path": "daymade-claude-code/marketplace-dev",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/marketplace-dev",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "marketplace-dev",
-          "description": "",
-          "argument-hint": "[repo-path]"
-        },
-        "standard": {
-          "name": "marketplace-dev",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "read-claude-web-conversation",
-      "shape": "skill",
-      "source_path": "daymade-claude-code/read-claude-web-conversation",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/read-claude-web-conversation",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "read-claude-web-conversation",
-          "description": ""
-        },
-        "standard": {
-          "name": "read-claude-web-conversation",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "statusline-generator",
-      "shape": "skill",
-      "source_path": "daymade-claude-code/statusline-generator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/statusline-generator",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "statusline-generator",
-          "description": ""
-        },
-        "standard": {
-          "name": "statusline-generator",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "terminal-screenshot",
-      "shape": "skill",
-      "source_path": "daymade-claude-code/terminal-screenshot",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/terminal-screenshot",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "terminal-screenshot",
-          "description": ""
-        },
-        "standard": {
-          "name": "terminal-screenshot",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "doc-to-markdown",
-      "shape": "skill",
-      "source_path": "daymade-docs/doc-to-markdown",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/doc-to-markdown",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "doc-to-markdown",
-          "description": "Converts DOCX/PDF/PPTX to high-quality Markdown with automatic post-processing. Fixes pandoc grid tables, simple tables, image paths, CJK bold spacing, attribute noise, and code blocks. Benchmarked best-in-class (7.6/10) against Docling, MarkItDown, Pandoc raw, and Mammoth. Trigger on \"convert document\", \"docx to markdown\", \"parse word\", \"doc to markdown\", \"解析word\", \"转换文档\"."
-        },
-        "standard": {
-          "name": "doc-to-markdown",
-          "description": "Converts DOCX/PDF/PPTX to high-quality Markdown with automatic post-processing. Fixes pandoc grid tables, simple tables, image paths, CJK bold spacing, attribute noise, and code blocks. Benchmarked best-in-class (7.6/10) against Docling, MarkItDown, Pandoc raw, and Mammoth. Trigger on \"convert document\", \"docx to markdown\", \"parse word\", \"doc to markdown\", \"解析word\", \"转换文档\".",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "docs-cleaner",
-      "shape": "skill",
-      "source_path": "daymade-docs/docs-cleaner",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/docs-cleaner",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "docs-cleaner",
-          "description": "Consolidates redundant documentation while preserving all valuable content. This skill should be used when users want to clean up documentation bloat, merge redundant docs, reduce documentation sprawl, or consolidate multiple files covering the same topic. Triggers include \"clean up docs\", \"consolidate documentation\", \"too many doc files\", \"merge these docs\", or when documentation exceeds 500 lines across multiple files covering similar topics."
-        },
-        "standard": {
-          "name": "docs-cleaner",
-          "description": "Consolidates redundant documentation while preserving all valuable content. This skill should be used when users want to clean up documentation bloat, merge redundant docs, reduce documentation sprawl, or consolidate multiple files covering the same topic. Triggers include \"clean up docs\", \"consolidate documentation\", \"too many doc files\", \"merge these docs\", or when documentation exceeds 500 lines across multiple files covering similar topics.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "docx-creator",
-      "shape": "skill",
-      "source_path": "daymade-docs/docx-creator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/docx-creator",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "docx-creator",
-          "description": ""
-        },
-        "standard": {
-          "name": "docx-creator",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "mermaid-tools",
-      "shape": "skill",
-      "source_path": "daymade-docs/mermaid-tools",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/mermaid-tools",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "mermaid-tools",
-          "description": "Extracts Mermaid diagrams from markdown files and generates high-quality PNG images using bundled scripts. Activates when working with Mermaid diagrams, converting diagrams to PNG, extracting diagrams from markdown, or processing markdown files with embedded Mermaid code."
-        },
-        "standard": {
-          "name": "mermaid-tools",
-          "description": "Extracts Mermaid diagrams from markdown files and generates high-quality PNG images using bundled scripts. Activates when working with Mermaid diagrams, converting diagrams to PNG, extracting diagrams from markdown, or processing markdown files with embedded Mermaid code.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "pdf-creator",
-      "shape": "skill",
-      "source_path": "daymade-docs/pdf-creator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/pdf-creator",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "pdf-creator",
-          "description": "Convert markdown files to professional PDF documents with proper Chinese font support, theme system, and visual self-check. Use whenever the user asks to create PDFs, convert markdown to PDF, generate printable documents, or needs documents formatted for print or mobile reading. This skill MUST be used instead of manual pandoc/Chrome invocations — it handles CJK typography, Chrome header/footer suppression, and mandatory visual verification that manual approaches miss. **Scope — markdown → PDF only.** For Word (.docx) output use `daymade-docs:docx-creator`; this skill does not produce docx and the two pipelines are intentionally orthogonal."
-        },
-        "standard": {
-          "name": "pdf-creator",
-          "description": "Convert markdown files to professional PDF documents with proper Chinese font support, theme system, and visual self-check. Use whenever the user asks to create PDFs, convert markdown to PDF, generate printable documents, or needs documents formatted for print or mobile reading. This skill MUST be used instead of manual pandoc/Chrome invocations — it handles CJK typography, Chrome header/footer suppression, and mandatory visual verification that manual approaches miss. **Scope — markdown → PDF only.** For Word (.docx) output use `daymade-docs:docx-creator`; this skill does not produce docx and the two pipelines are intentionally orthogonal.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "pdf-to-html",
-      "shape": "skill",
-      "source_path": "daymade-docs/pdf-to-html",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/pdf-to-html",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "pdf-to-html",
-          "description": "Converts a PDF into one self-contained, readable HTML file that preserves images, tables, charts and reading order — optionally translating it into another language while keeping every figure. Uses structured extraction (PyMuPDF), font-size-driven layout, compressed base64-inlined images (a single portable file), and mandatory headless-Chrome visual verification. Use whenever someone wants to READ a PDF as a web page or clean document, turn a PDF into HTML, or translate a PDF into another language while keeping its images/tables/charts intact — e.g. \"PDF 转 HTML\", \"把这个 PDF 转成中文网页版\", \"make this report readable\", \"translate this PDF but don't lose the charts\", \"I just want to read this PDF on my phone\". Distinct from doc-to-markdown (plain Markdown text) and pdf-creator (Markdown→PDF) — this one produces a styled, image-faithful HTML reading experience."
-        },
-        "standard": {
-          "name": "pdf-to-html",
-          "description": "Converts a PDF into one self-contained, readable HTML file that preserves images, tables, charts and reading order — optionally translating it into another language while keeping every figure. Uses structured extraction (PyMuPDF), font-size-driven layout, compressed base64-inlined images (a single portable file), and mandatory headless-Chrome visual verification. Use whenever someone wants to READ a PDF as a web page or clean document, turn a PDF into HTML, or translate a PDF into another language while keeping its images/tables/charts intact — e.g. \"PDF 转 HTML\", \"把这个 PDF 转成中文网页版\", \"make this report readable\", \"translate this PDF but don't lose the charts\", \"I just want to read this PDF on my phone\". Distinct from doc-to-markdown (plain Markdown text) and pdf-creator (Markdown→PDF) — this one produces a styled, image-faithful HTML reading experience.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "photo-to-scanned-pdf",
-      "shape": "skill",
-      "source_path": "daymade-docs/photo-to-scanned-pdf",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/photo-to-scanned-pdf",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "photo-to-scanned-pdf",
-          "description": ""
-        },
-        "standard": {
-          "name": "photo-to-scanned-pdf",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "ppt-creator",
-      "shape": "skill",
-      "source_path": "daymade-docs/ppt-creator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/ppt-creator",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "ppt-creator",
-          "description": "Create professional slide decks from topics or documents. Generates structured content with data-driven charts, speaker notes, and complete PPTX files. Applies persuasive storytelling principles (Pyramid Principle, assertion-evidence). Supports multiple formats (Marp, PowerPoint). Use for presentations, pitches, slide decks, or keynotes."
-        },
-        "standard": {
-          "name": "ppt-creator",
-          "description": "Create professional slide decks from topics or documents. Generates structured content with data-driven charts, speaker notes, and complete PPTX files. Applies persuasive storytelling principles (Pyramid Principle, assertion-evidence). Supports multiple formats (Marp, PowerPoint). Use for presentations, pitches, slide decks, or keynotes.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "ashare-news-fetcher",
-      "shape": "skill",
-      "source_path": "daymade-financial/ashare-news-fetcher",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/ashare-news-fetcher",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "ashare-news-fetcher",
-          "description": "",
-          "argument-hint": "[--sources <groups>] [--symbols <codes>] [--limit <n>]"
-        },
-        "standard": {
-          "name": "ashare-news-fetcher",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "bigdata-skill",
-      "shape": "skill",
-      "source_path": "daymade-financial/bigdata-skill",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/bigdata-skill",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "bigdata-skill",
-          "description": ""
-        },
-        "standard": {
-          "name": "bigdata-skill",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "financial-data-collector",
-      "shape": "skill",
-      "source_path": "daymade-financial/financial-data-collector",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/financial-data-collector",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "financial-data-collector",
-          "description": "Collect real financial data for any US publicly traded company from free public sources (yfinance). Output structured JSON consumable by downstream financial skills (DCF modeling, comps analysis, earnings review). Handles market data (price, shares, beta), historical financials (income statement, cash flow, balance sheet), WACC inputs, and analyst estimates. Use when users request collect data for ticker, get financials for company, pull market data, gather DCF inputs, or any task requiring structured financial data before analysis. Also triggers on financial data, company data, stock data."
-        },
-        "standard": {
-          "name": "financial-data-collector",
-          "description": "Collect real financial data for any US publicly traded company from free public sources (yfinance). Output structured JSON consumable by downstream financial skills (DCF modeling, comps analysis, earnings review). Handles market data (price, shares, beta), historical financials (income statement, cash flow, balance sheet), WACC inputs, and analyst estimates. Use when users request collect data for ticker, get financials for company, pull market data, gather DCF inputs, or any task requiring structured financial data before analysis. Also triggers on financial data, company data, stock data.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "gangtise-copilot",
-      "shape": "skill",
-      "source_path": "daymade-financial/gangtise-copilot",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/gangtise-copilot",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "gangtise-copilot",
-          "description": "Gangtise (岗底斯投研) OpenAPI skill suite installer and diagnostic tool. One-click install 19 official skills (data, research, utility), configure accessKey/secretAccessKey, run health diagnostics. Trigger when user mentions Gangtise, 岗底斯, any gangtise-* skill, credential setup, or reports errors like 'token is invalid' / '接口地址错误'."
-        },
-        "standard": {
-          "name": "gangtise-copilot",
-          "description": "Gangtise (岗底斯投研) OpenAPI skill suite installer and diagnostic tool. One-click install 19 official skills (data, research, utility), configure accessKey/secretAccessKey, run health diagnostics. Trigger when user mentions Gangtise, 岗底斯, any gangtise-* skill, credential setup, or reports errors like 'token is invalid' / '接口地址错误'.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "pharma-daily-report",
-      "shape": "skill",
-      "source_path": "daymade-financial/pharma-daily-report",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/pharma-daily-report",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "pharma-daily-report",
-          "description": ""
-        },
-        "standard": {
-          "name": "pharma-daily-report",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "skill-creator",
-      "shape": "mixed",
-      "source_path": "daymade-skill/skill-creator",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-skill/skill-creator",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "skill-creator",
-          "description": "",
-          "license": "Complete terms in LICENSE.txt"
-        },
-        "standard": {
-          "name": "skill-creator",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": "Complete terms in LICENSE.txt",
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "skill-governance",
-      "shape": "skill",
-      "source_path": "daymade-skill/skill-governance",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-skill/skill-governance",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "skill-governance",
-          "description": ""
-        },
-        "standard": {
-          "name": "skill-governance",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 35,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "skill-reviewer",
-      "shape": "skill",
-      "source_path": "daymade-skill/skill-reviewer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-skill/skill-reviewer",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "skill-reviewer",
-          "description": "Reviews and improves Claude Code skills against official best practices. Supports three modes - self-review (validate your own skills), external review (evaluate others' skills), and auto-PR (fork, improve, submit). Use when checking skill quality, reviewing skill repositories, or contributing improvements to open-source skills."
-        },
-        "standard": {
-          "name": "skill-reviewer",
-          "description": "Reviews and improves Claude Code skills against official best practices. Supports three modes - self-review (validate your own skills), external review (evaluate others' skills), and auto-PR (fork, improve, submit). Use when checking skill quality, reviewing skill repositories, or contributing improvements to open-source skills.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "skills-search",
-      "shape": "skill",
-      "source_path": "daymade-skill/skills-search",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-skill/skills-search",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "skills-search",
-          "description": "This skill should be used when users want to search, discover, install, or manage Claude Code skills from the CCPM registry. Triggers include requests like \"find skills for PDF\", \"search for code review skills\", \"install cloudflare-troubleshooting\", \"list my installed skills\", \"what does skill-creator do\", or any mention of finding/installing/managing Claude Code skills or plugins.",
-          "allowed-tools": "Bash, Read"
-        },
-        "standard": {
-          "name": "skills-search",
-          "description": "This skill should be used when users want to search, discover, install, or manage Claude Code skills from the CCPM registry. Triggers include requests like \"find skills for PDF\", \"search for code review skills\", \"install cloudflare-troubleshooting\", \"list my installed skills\", \"what does skill-creator do\", or any mention of finding/installing/managing Claude Code skills or plugins.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": [
-            "Bash",
-            "Read"
-          ],
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -3779,6 +1924,237 @@
       "trust_signals": {
         "store": 35,
         "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "doc-to-markdown",
+      "shape": "skill",
+      "source_path": "daymade-docs/doc-to-markdown",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/doc-to-markdown",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "doc-to-markdown",
+          "description": "Converts DOCX/PDF/PPTX to high-quality Markdown with automatic post-processing. Fixes pandoc grid tables, simple tables, image paths, CJK bold spacing, attribute noise, and code blocks. Benchmarked best-in-class (7.6/10) against Docling, MarkItDown, Pandoc raw, and Mammoth. Trigger on \"convert document\", \"docx to markdown\", \"parse word\", \"doc to markdown\", \"解析word\", \"转换文档\"."
+        },
+        "standard": {
+          "name": "doc-to-markdown",
+          "description": "Converts DOCX/PDF/PPTX to high-quality Markdown with automatic post-processing. Fixes pandoc grid tables, simple tables, image paths, CJK bold spacing, attribute noise, and code blocks. Benchmarked best-in-class (7.6/10) against Docling, MarkItDown, Pandoc raw, and Mammoth. Trigger on \"convert document\", \"docx to markdown\", \"parse word\", \"doc to markdown\", \"解析word\", \"转换文档\".",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "docs-cleaner",
+      "shape": "skill",
+      "source_path": "daymade-docs/docs-cleaner",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/docs-cleaner",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "docs-cleaner",
+          "description": "Consolidates redundant documentation while preserving all valuable content. This skill should be used when users want to clean up documentation bloat, merge redundant docs, reduce documentation sprawl, or consolidate multiple files covering the same topic. Triggers include \"clean up docs\", \"consolidate documentation\", \"too many doc files\", \"merge these docs\", or when documentation exceeds 500 lines across multiple files covering similar topics."
+        },
+        "standard": {
+          "name": "docs-cleaner",
+          "description": "Consolidates redundant documentation while preserving all valuable content. This skill should be used when users want to clean up documentation bloat, merge redundant docs, reduce documentation sprawl, or consolidate multiple files covering the same topic. Triggers include \"clean up docs\", \"consolidate documentation\", \"too many doc files\", \"merge these docs\", or when documentation exceeds 500 lines across multiple files covering similar topics.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "docx-creator",
+      "shape": "skill",
+      "source_path": "daymade-docs/docx-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/docx-creator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "docx-creator",
+          "description": ""
+        },
+        "standard": {
+          "name": "docx-creator",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4181,6 +2557,83 @@
       }
     },
     {
+      "name": "financial-data-collector",
+      "shape": "skill",
+      "source_path": "daymade-financial/financial-data-collector",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/financial-data-collector",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "financial-data-collector",
+          "description": "Collect real financial data for any US publicly traded company from free public sources (yfinance). Output structured JSON consumable by downstream financial skills (DCF modeling, comps analysis, earnings review). Handles market data (price, shares, beta), historical financials (income statement, cash flow, balance sheet), WACC inputs, and analyst estimates. Use when users request collect data for ticker, get financials for company, pull market data, gather DCF inputs, or any task requiring structured financial data before analysis. Also triggers on financial data, company data, stock data."
+        },
+        "standard": {
+          "name": "financial-data-collector",
+          "description": "Collect real financial data for any US publicly traded company from free public sources (yfinance). Output structured JSON consumable by downstream financial skills (DCF modeling, comps analysis, earnings review). Handles market data (price, shares, beta), historical financials (income statement, cash flow, balance sheet), WACC inputs, and analyst estimates. Use when users request collect data for ticker, get financials for company, pull market data, gather DCF inputs, or any task requiring structured financial data before analysis. Also triggers on financial data, company data, stock data.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "frontend-visual-qa",
       "shape": "skill",
       "source_path": "frontend-visual-qa",
@@ -4243,6 +2696,83 @@
       "trust_signals": {
         "store": 35,
         "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "gangtise-copilot",
+      "shape": "skill",
+      "source_path": "daymade-financial/gangtise-copilot",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/gangtise-copilot",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "gangtise-copilot",
+          "description": "Gangtise (岗底斯投研) OpenAPI skill suite installer and diagnostic tool. One-click install 19 official skills (data, research, utility), configure accessKey/secretAccessKey, run health diagnostics. Trigger when user mentions Gangtise, 岗底斯, any gangtise-* skill, credential setup, or reports errors like 'token is invalid' / '接口地址错误'."
+        },
+        "standard": {
+          "name": "gangtise-copilot",
+          "description": "Gangtise (岗底斯投研) OpenAPI skill suite installer and diagnostic tool. One-click install 19 official skills (data, research, utility), configure accessKey/secretAccessKey, run health diagnostics. Trigger when user mentions Gangtise, 岗底斯, any gangtise-* skill, credential setup, or reports errors like 'token is invalid' / '接口地址错误'.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4799,83 +3329,6 @@
       }
     },
     {
-      "name": "iOS-APP-developer",
-      "shape": "skill",
-      "source_path": "iOS-APP-developer",
-      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/iOS-APP-developer",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "developing-ios-apps",
-          "description": "Develops iOS/macOS apps with XcodeGen, SwiftUI, and SPM, including Apple Developer signing, notarization, and CI/CD pipelines. Use when building iOS/macOS apps, fixing Xcode build failures, deploying to real devices, or configuring CI/CD signing. Triggers on XcodeGen project.yml, SPM dependency issues, code signing errors (Error -25294, keychain mismatch, adhoc fallback, EMFILE, notarization credential conflict), \"Library not loaded @rpath\", Electron @electron/osx-sign / @electron/notarize, notarytool, or certificate/provisioning problems."
-        },
-        "standard": {
-          "name": "developing-ios-apps",
-          "description": "Develops iOS/macOS apps with XcodeGen, SwiftUI, and SPM, including Apple Developer signing, notarization, and CI/CD pipelines. Use when building iOS/macOS apps, fixing Xcode build failures, deploying to real devices, or configuring CI/CD signing. Triggers on XcodeGen project.yml, SPM dependency issues, code signing errors (Error -25294, keychain mismatch, adhoc fallback, EMFILE, notarization credential conflict), \"Library not loaded @rpath\", Electron @electron/osx-sign / @electron/notarize, notarytool, or certificate/provisioning problems.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
-        "tags": [
-          "v1.64.0",
-          "v1.60.1",
-          "v1.37.0",
-          "v1.33.0",
-          "v1.32.1",
-          "v1.30.0",
-          "v1.29.0",
-          "v1.28.0",
-          "v1.27.0",
-          "v1.26.0",
-          "v1.25.0",
-          "v1.24.0",
-          "v1.21.1",
-          "v1.19.0",
-          "v1.10.0",
-          "v1.9.0",
-          "v1.7.0",
-          "v1.6.0",
-          "v1.5.0",
-          "v1.4.0",
-          "v1.3.0",
-          "pdf-creator-v1.3.1",
-          "pdf-creator-v1.3.0"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1314,
-          "contributors": 11,
-          "last_commit": "2026-08-03T08:11:42Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "ima-copilot",
       "shape": "skill",
       "source_path": "ima-copilot",
@@ -4938,6 +3391,83 @@
       "trust_signals": {
         "store": 35,
         "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "iOS-APP-developer",
+      "shape": "skill",
+      "source_path": "iOS-APP-developer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/iOS-APP-developer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "developing-ios-apps",
+          "description": "Develops iOS/macOS apps with XcodeGen, SwiftUI, and SPM, including Apple Developer signing, notarization, and CI/CD pipelines. Use when building iOS/macOS apps, fixing Xcode build failures, deploying to real devices, or configuring CI/CD signing. Triggers on XcodeGen project.yml, SPM dependency issues, code signing errors (Error -25294, keychain mismatch, adhoc fallback, EMFILE, notarization credential conflict), \"Library not loaded @rpath\", Electron @electron/osx-sign / @electron/notarize, notarytool, or certificate/provisioning problems."
+        },
+        "standard": {
+          "name": "developing-ios-apps",
+          "description": "Develops iOS/macOS apps with XcodeGen, SwiftUI, and SPM, including Apple Developer signing, notarization, and CI/CD pipelines. Use when building iOS/macOS apps, fixing Xcode build failures, deploying to real devices, or configuring CI/CD signing. Triggers on XcodeGen project.yml, SPM dependency issues, code signing errors (Error -25294, keychain mismatch, adhoc fallback, EMFILE, notarization credential conflict), \"Library not loaded @rpath\", Electron @electron/osx-sign / @electron/notarize, notarytool, or certificate/provisioning problems.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -5261,6 +3791,84 @@
       }
     },
     {
+      "name": "local-conversation-history",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/local-conversation-history",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/local-conversation-history",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "local-conversation-history",
+          "description": "",
+          "argument-hint": "[workspace-path]"
+        },
+        "standard": {
+          "name": "local-conversation-history",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "macos-cleaner",
       "shape": "skill",
       "source_path": "macos-cleaner",
@@ -5338,6 +3946,84 @@
       }
     },
     {
+      "name": "marketplace-dev",
+      "shape": "mixed",
+      "source_path": "daymade-claude-code/marketplace-dev",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/marketplace-dev",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "marketplace-dev",
+          "description": "",
+          "argument-hint": "[repo-path]"
+        },
+        "standard": {
+          "name": "marketplace-dev",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "marketplace-health-check",
       "shape": "skill",
       "source_path": "marketplace-health-check",
@@ -5400,6 +4086,160 @@
       "trust_signals": {
         "store": 35,
         "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "meeting-minutes-taker",
+      "shape": "skill",
+      "source_path": "daymade-audio/meeting-minutes-taker",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/meeting-minutes-taker",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "meeting-minutes-taker",
+          "description": ""
+        },
+        "standard": {
+          "name": "meeting-minutes-taker",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "mermaid-tools",
+      "shape": "skill",
+      "source_path": "daymade-docs/mermaid-tools",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/mermaid-tools",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "mermaid-tools",
+          "description": "Extracts Mermaid diagrams from markdown files and generates high-quality PNG images using bundled scripts. Activates when working with Mermaid diagrams, converting diagrams to PNG, extracting diagrams from markdown, or processing markdown files with embedded Mermaid code."
+        },
+        "standard": {
+          "name": "mermaid-tools",
+          "description": "Extracts Mermaid diagrams from markdown files and generates high-quality PNG images using bundled scripts. Activates when working with Mermaid diagrams, converting diagrams to PNG, extracting diagrams from markdown, or processing markdown files with embedded Mermaid code.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -5633,6 +4473,391 @@
       "trust_signals": {
         "store": 35,
         "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "pdf-creator",
+      "shape": "skill",
+      "source_path": "daymade-docs/pdf-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/pdf-creator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pdf-creator",
+          "description": "Convert markdown files to professional PDF documents with proper Chinese font support, theme system, and visual self-check. Use whenever the user asks to create PDFs, convert markdown to PDF, generate printable documents, or needs documents formatted for print or mobile reading. This skill MUST be used instead of manual pandoc/Chrome invocations — it handles CJK typography, Chrome header/footer suppression, and mandatory visual verification that manual approaches miss. **Scope — markdown → PDF only.** For Word (.docx) output use `daymade-docs:docx-creator`; this skill does not produce docx and the two pipelines are intentionally orthogonal."
+        },
+        "standard": {
+          "name": "pdf-creator",
+          "description": "Convert markdown files to professional PDF documents with proper Chinese font support, theme system, and visual self-check. Use whenever the user asks to create PDFs, convert markdown to PDF, generate printable documents, or needs documents formatted for print or mobile reading. This skill MUST be used instead of manual pandoc/Chrome invocations — it handles CJK typography, Chrome header/footer suppression, and mandatory visual verification that manual approaches miss. **Scope — markdown → PDF only.** For Word (.docx) output use `daymade-docs:docx-creator`; this skill does not produce docx and the two pipelines are intentionally orthogonal.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "pdf-to-html",
+      "shape": "skill",
+      "source_path": "daymade-docs/pdf-to-html",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/pdf-to-html",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pdf-to-html",
+          "description": "Converts a PDF into one self-contained, readable HTML file that preserves images, tables, charts and reading order — optionally translating it into another language while keeping every figure. Uses structured extraction (PyMuPDF), font-size-driven layout, compressed base64-inlined images (a single portable file), and mandatory headless-Chrome visual verification. Use whenever someone wants to READ a PDF as a web page or clean document, turn a PDF into HTML, or translate a PDF into another language while keeping its images/tables/charts intact — e.g. \"PDF 转 HTML\", \"把这个 PDF 转成中文网页版\", \"make this report readable\", \"translate this PDF but don't lose the charts\", \"I just want to read this PDF on my phone\". Distinct from doc-to-markdown (plain Markdown text) and pdf-creator (Markdown→PDF) — this one produces a styled, image-faithful HTML reading experience."
+        },
+        "standard": {
+          "name": "pdf-to-html",
+          "description": "Converts a PDF into one self-contained, readable HTML file that preserves images, tables, charts and reading order — optionally translating it into another language while keeping every figure. Uses structured extraction (PyMuPDF), font-size-driven layout, compressed base64-inlined images (a single portable file), and mandatory headless-Chrome visual verification. Use whenever someone wants to READ a PDF as a web page or clean document, turn a PDF into HTML, or translate a PDF into another language while keeping its images/tables/charts intact — e.g. \"PDF 转 HTML\", \"把这个 PDF 转成中文网页版\", \"make this report readable\", \"translate this PDF but don't lose the charts\", \"I just want to read this PDF on my phone\". Distinct from doc-to-markdown (plain Markdown text) and pdf-creator (Markdown→PDF) — this one produces a styled, image-faithful HTML reading experience.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "pharma-daily-report",
+      "shape": "skill",
+      "source_path": "daymade-financial/pharma-daily-report",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-financial/pharma-daily-report",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "pharma-daily-report",
+          "description": ""
+        },
+        "standard": {
+          "name": "pharma-daily-report",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "photo-to-scanned-pdf",
+      "shape": "skill",
+      "source_path": "daymade-docs/photo-to-scanned-pdf",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/photo-to-scanned-pdf",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "photo-to-scanned-pdf",
+          "description": ""
+        },
+        "standard": {
+          "name": "photo-to-scanned-pdf",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "ppt-creator",
+      "shape": "skill",
+      "source_path": "daymade-docs/ppt-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-docs/ppt-creator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ppt-creator",
+          "description": "Create professional slide decks from topics or documents. Generates structured content with data-driven charts, speaker notes, and complete PPTX files. Applies persuasive storytelling principles (Pyramid Principle, assertion-evidence). Supports multiple formats (Marp, PowerPoint). Use for presentations, pitches, slide decks, or keynotes."
+        },
+        "standard": {
+          "name": "ppt-creator",
+          "description": "Create professional slide decks from topics or documents. Generates structured content with data-driven charts, speaker notes, and complete PPTX files. Applies persuasive storytelling principles (Pyramid Principle, assertion-evidence). Supports multiple formats (Marp, PowerPoint). Use for presentations, pitches, slide decks, or keynotes.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -5957,6 +5182,83 @@
       }
     },
     {
+      "name": "read-claude-web-conversation",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/read-claude-web-conversation",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/read-claude-web-conversation",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "read-claude-web-conversation",
+          "description": ""
+        },
+        "standard": {
+          "name": "read-claude-web-conversation",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "repomix-safe-mixer",
       "shape": "skill",
       "source_path": "repomix-safe-mixer",
@@ -6265,6 +5567,319 @@
       }
     },
     {
+      "name": "skill-creator",
+      "shape": "mixed",
+      "source_path": "daymade-skill/skill-creator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-skill/skill-creator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "skill-creator",
+          "description": "",
+          "license": "Complete terms in LICENSE.txt"
+        },
+        "standard": {
+          "name": "skill-creator",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Complete terms in LICENSE.txt",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "skill-governance",
+      "shape": "skill",
+      "source_path": "daymade-skill/skill-governance",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-skill/skill-governance",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "skill-governance",
+          "description": ""
+        },
+        "standard": {
+          "name": "skill-governance",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "skill-reviewer",
+      "shape": "skill",
+      "source_path": "daymade-skill/skill-reviewer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-skill/skill-reviewer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "skill-reviewer",
+          "description": "Reviews and improves Claude Code skills against official best practices. Supports three modes - self-review (validate your own skills), external review (evaluate others' skills), and auto-PR (fork, improve, submit). Use when checking skill quality, reviewing skill repositories, or contributing improvements to open-source skills."
+        },
+        "standard": {
+          "name": "skill-reviewer",
+          "description": "Reviews and improves Claude Code skills against official best practices. Supports three modes - self-review (validate your own skills), external review (evaluate others' skills), and auto-PR (fork, improve, submit). Use when checking skill quality, reviewing skill repositories, or contributing improvements to open-source skills.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "skills-search",
+      "shape": "skill",
+      "source_path": "daymade-skill/skills-search",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-skill/skills-search",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "skills-search",
+          "description": "This skill should be used when users want to search, discover, install, or manage Claude Code skills from the CCPM registry. Triggers include requests like \"find skills for PDF\", \"search for code review skills\", \"install cloudflare-troubleshooting\", \"list my installed skills\", \"what does skill-creator do\", or any mention of finding/installing/managing Claude Code skills or plugins.",
+          "allowed-tools": "Bash, Read"
+        },
+        "standard": {
+          "name": "skills-search",
+          "description": "This skill should be used when users want to search, discover, install, or manage Claude Code skills from the CCPM registry. Triggers include requests like \"find skills for PDF\", \"search for code review skills\", \"install cloudflare-troubleshooting\", \"list my installed skills\", \"what does skill-creator do\", or any mention of finding/installing/managing Claude Code skills or plugins.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": [
+            "Bash",
+            "Read"
+          ],
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "slides-creator",
       "shape": "skill",
       "source_path": "slides-creator",
@@ -6281,6 +5896,237 @@
         "standard": {
           "name": "slides-creator",
           "description": "Narrative-first slide deck creation. Guides users through structured narrative design (ABCDEFG model), then delegates visual generation to baoyu-slide-deck. Triggers on \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", \"PPT\", or when user needs to turn content into visual slides.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "statusline-generator",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/statusline-generator",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/statusline-generator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "statusline-generator",
+          "description": ""
+        },
+        "standard": {
+          "name": "statusline-generator",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "stepfun-asr",
+      "shape": "skill",
+      "source_path": "daymade-audio/stepfun-asr",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/stepfun-asr",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "stepfun-asr",
+          "description": "Transcribe audio with StepFun's stepaudio-2.5-asr — an SSE endpoint (NOT /v1/audio/transcriptions) with 32K context, ~85-101x RTF on long audio, and a single-call ceiling around 30 minutes (no client-side chunking). Use when transcribing Chinese / English audio with StepFun, when long-form recordings (5-30 min) need to land in one request, when migrating from step-asr / step-asr-1.1, or when hitting the misleading `model stepaudio-2.5-asr not supported` error (which actually means wrong endpoint). Triggers on 阶跃 ASR, StepFun ASR, stepaudio-2.5-asr, 转录, 语音识别, 长音频转写, 语音转文字. For TTS with the sibling stepaudio-2.5-tts model, use the stepfun-tts skill instead."
+        },
+        "standard": {
+          "name": "stepfun-asr",
+          "description": "Transcribe audio with StepFun's stepaudio-2.5-asr — an SSE endpoint (NOT /v1/audio/transcriptions) with 32K context, ~85-101x RTF on long audio, and a single-call ceiling around 30 minutes (no client-side chunking). Use when transcribing Chinese / English audio with StepFun, when long-form recordings (5-30 min) need to land in one request, when migrating from step-asr / step-asr-1.1, or when hitting the misleading `model stepaudio-2.5-asr not supported` error (which actually means wrong endpoint). Triggers on 阶跃 ASR, StepFun ASR, stepaudio-2.5-asr, 转录, 语音识别, 长音频转写, 语音转文字. For TTS with the sibling stepaudio-2.5-tts model, use the stepfun-tts skill instead.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "stepfun-tts",
+      "shape": "skill",
+      "source_path": "daymade-audio/stepfun-tts",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/stepfun-tts",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "stepfun-tts",
+          "description": "Generate Chinese / Japanese speech with StepFun's stepaudio-2.5-tts — Contextual TTS that replaces step-tts-2's `voice_label` with natural-language `instruction` (≤200 chars) plus inline `()` parentheses for句内 prosody. Use when the user wants emotional / prosody control over voice synthesis (whisper, pause, stress, mood pivot mid-sentence), batch-generates game / app voice lines, migrates from `step-tts-2` (the `voice_label → instruction` breaking change), or hits StepFun's stricter 2.5-era censorship (死/消失/political terms). Triggers on 阶跃 TTS, StepAudio 合成, 语音合成, 配音, 文本转语音, TTS 升级, 迁移 step-tts-2. For transcription with the sibling stepaudio-2.5-asr model, use the stepfun-asr skill instead."
+        },
+        "standard": {
+          "name": "stepfun-tts",
+          "description": "Generate Chinese / Japanese speech with StepFun's stepaudio-2.5-tts — Contextual TTS that replaces step-tts-2's `voice_label` with natural-language `instruction` (≤200 chars) plus inline `()` parentheses for句内 prosody. Use when the user wants emotional / prosody control over voice synthesis (whisper, pause, stress, mood pivot mid-sentence), batch-generates game / app voice lines, migrates from `step-tts-2` (the `voice_label → instruction` breaking change), or hits StepFun's stricter 2.5-era censorship (死/消失/political terms). Triggers on 阶跃 TTS, StepAudio 合成, 语音合成, 配音, 文本转语音, TTS 升级, 迁移 step-tts-2. For transcription with the sibling stepaudio-2.5-asr model, use the stepfun-asr skill instead.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -6406,6 +6252,83 @@
       "trust_signals": {
         "store": 35,
         "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "terminal-screenshot",
+      "shape": "skill",
+      "source_path": "daymade-claude-code/terminal-screenshot",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-claude-code/terminal-screenshot",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "terminal-screenshot",
+          "description": ""
+        },
+        "standard": {
+          "name": "terminal-screenshot",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -6558,6 +6481,83 @@
         "store": 35,
         "frontmatter": 5,
         "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1314,
+          "contributors": 11,
+          "last_commit": "2026-08-03T08:11:42Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "transcript-fixer",
+      "shape": "skill",
+      "source_path": "daymade-audio/transcript-fixer",
+      "source_url": "https://github.com/daymade/claude-code-skills/tree/01ab71d271cad38e1f88a9bbea83925393c3c8f7/daymade-audio/transcript-fixer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "transcript-fixer",
+          "description": ""
+        },
+        "standard": {
+          "name": "transcript-fixer",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "01ab71d271cad38e1f88a9bbea83925393c3c8f7",
+        "tags": [
+          "v1.64.0",
+          "v1.60.1",
+          "v1.37.0",
+          "v1.33.0",
+          "v1.32.1",
+          "v1.30.0",
+          "v1.29.0",
+          "v1.28.0",
+          "v1.27.0",
+          "v1.26.0",
+          "v1.25.0",
+          "v1.24.0",
+          "v1.21.1",
+          "v1.19.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "pdf-creator-v1.3.1",
+          "pdf-creator-v1.3.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
@@ -7135,5 +7135,6 @@
       "last_commit": "2026-08-03T08:11:42Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

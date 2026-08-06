@@ -131,67 +131,6 @@
       }
     },
     {
-      "name": "zai-cli",
-      "shape": "skill",
-      "source_path": "skills/tools/zai-cli",
-      "source_url": "https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/tools/zai-cli",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "zai-cli",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "b1c6173aa7f83c569248996e1db1b9ae7afdb76f",
-        "tags": [
-          "v1.3.2",
-          "v1.2.0",
-          "v1.1.0",
-          "v1.0.0",
-          "v0.4.0",
-          "v0.3.1",
-          "v0.3.0",
-          "v0.2.1",
-          "v0.2.0",
-          "v0.1.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "Apache-2.0",
-          "stars": 1034,
-          "contributors": 3,
-          "last_commit": "2026-07-16T00:31:47Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "open-source-maintainer",
       "shape": "skill",
       "source_path": "skills/workflow/open-source-maintainer",
@@ -312,6 +251,67 @@
           "archived": false
         }
       }
+    },
+    {
+      "name": "zai-cli",
+      "shape": "skill",
+      "source_path": "skills/tools/zai-cli",
+      "source_url": "https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/tools/zai-cli",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "zai-cli",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b1c6173aa7f83c569248996e1db1b9ae7afdb76f",
+        "tags": [
+          "v1.3.2",
+          "v1.2.0",
+          "v1.1.0",
+          "v1.0.0",
+          "v0.4.0",
+          "v0.3.1",
+          "v0.3.0",
+          "v0.2.1",
+          "v0.2.0",
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 1034,
+          "contributors": 3,
+          "last_commit": "2026-07-16T00:31:47Z",
+          "archived": false
+        }
+      }
     }
   ],
   "store_trust": {
@@ -327,5 +327,6 @@
       "last_commit": "2026-07-16T00:31:47Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

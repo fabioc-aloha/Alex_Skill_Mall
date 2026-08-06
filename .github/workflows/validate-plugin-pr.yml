@@ -14,17 +14,17 @@ jobs:
 
     steps:
       - name: Checkout contribution
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           fetch-depth: 0
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version: '24'
 
       - name: Install dependencies
-        run: npm install --ignore-scripts
+        run: npm ci --ignore-scripts
 
       - name: Validate changed plugin payloads
         run: npm run submit:validate -- --changed --base "${{ github.event.pull_request.base.sha }}" --allow-none

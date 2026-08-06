@@ -9,20 +9,20 @@
   "plugin_count": 38,
   "plugins": [
     {
-      "name": "personas",
-      "shape": "unknown",
-      "source_path": "agents/personas",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/agents/personas",
-      "readme_excerpt": "Pre-configured agent personas with curated skill loadouts, workflows, and distinct personalities.",
+      "name": "andreessen",
+      "shape": "mixed",
+      "source_path": "productivity/andreessen",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/andreessen",
+      "readme_excerpt": "A productivity plugin that makes Claude operate like **Marc Andreessen** pressure-testing a pitch:",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "personas",
-          "description": "Pre-configured agent personas with curated skill loadouts, workflows, and distinct personalities.",
+          "name": "andreessen",
+          "description": "A productivity plugin that makes Claude operate like **Marc Andreessen** pressure-testing a pitch:",
           "version": null,
           "lastReviewed": null,
-          "shape": "unknown"
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -237,6 +237,63 @@
       }
     },
     {
+      "name": "capture",
+      "shape": "mixed",
+      "source_path": "productivity/capture",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/capture",
+      "readme_excerpt": "Brain-dump organizer. Catches an unstructured stream of mixed thoughts, tasks, and ideas and transforms it into a clean four-section actionable system with zero information loss.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "capture",
+          "description": "Brain-dump organizer. Catches an unstructured stream of mixed thoughts, tasks, and ideas and transforms it into a clean four-section actionable system with zero information loss.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "commercial",
       "shape": "mixed",
       "source_path": "commercial",
@@ -408,6 +465,120 @@
       }
     },
     {
+      "name": "deep-research",
+      "shape": "mixed",
+      "source_path": "research/deep-research",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research/deep-research",
+      "readme_excerpt": "> The heavyweight end of the research domain: an auditable, reusable, triangulated investigation — for when a wrong answer costs more than the tokens spent getting it right.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "deep-research",
+          "description": "> The heavyweight end of the research domain: an auditable, reusable, triangulated investigation — for when a wrong answer costs more than the tokens spent getting it right.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "deep-work",
+      "shape": "mixed",
+      "source_path": "productivity/deep-work",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/deep-work",
+      "readme_excerpt": "> Plan a deep work day the Cal Newport way. Attention is the protected resource, not time.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "deep-work",
+          "description": "> Plan a deep work day the Cal Newport way. Attention is the protected resource, not time.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "docs",
       "shape": "mixed",
       "source_path": "docs",
@@ -451,6 +622,120 @@
         "store": 35,
         "frontmatter": 0,
         "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dossier",
+      "shape": "mixed",
+      "source_path": "research/dossier",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research/dossier",
+      "readme_excerpt": "Decision-grade entity research. Produces a **hypothesis-tested dossier** on a specific company, person, nonprofit, or government org — built around hypothesis-testing rather than encyclopedic summary.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "dossier",
+          "description": "Decision-grade entity research. Produces a **hypothesis-tested dossier** on a specific company, person, nonprofit, or government org — built around hypothesis-testing rather than encyclopedic summary.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "email",
+      "shape": "mixed",
+      "source_path": "productivity/email",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/email",
+      "readme_excerpt": "**Workflow-pair plugin.** Two paired skills (`inbox-setup` + `inbox-triage`) that together implement a personalized recurring email triage system.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "email",
+          "description": "**Workflow-pair plugin.** Two paired skills (`inbox-setup` + `inbox-triage`) that together implement a personalized recurring email triage system.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
@@ -579,6 +864,63 @@
       }
     },
     {
+      "name": "fable-goal",
+      "shape": "mixed",
+      "source_path": "productivity/fable-goal",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/fable-goal",
+      "readme_excerpt": "Turn a ramble about something you want made into **one polished, autonomous /goal prompt** — copy-paste ready for a fresh session. The skill writes the prompt, never the build.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "fable-goal",
+          "description": "Turn a ramble about something you want made into **one polished, autonomous /goal prompt** — copy-paste ready for a fresh session. The skill writes the prompt, never the build.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "finance",
       "shape": "skill",
       "source_path": "finance",
@@ -622,6 +964,234 @@
         "store": 35,
         "frontmatter": 0,
         "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "grants",
+      "shape": "mixed",
+      "source_path": "research/grants",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research/grants",
+      "readme_excerpt": "NIH grant research skill for clinical researchers. Produces a strategic NIH funding overview as an editable `.docx`:",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "grants",
+          "description": "NIH grant research skill for clinical researchers. Produces a strategic NIH funding overview as an editable `.docx`:",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "handoff",
+      "shape": "mixed",
+      "source_path": "productivity/handoff",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/handoff",
+      "readme_excerpt": "> Compact the current conversation into a handoff document for another agent to pick up.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "handoff",
+          "description": "> Compact the current conversation into a handoff document for another agent to pick up.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "landing",
+      "shape": "mixed",
+      "source_path": "marketing/landing",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/marketing/landing",
+      "readme_excerpt": "Premium single-file HTML landing page generator. Outputs one polished `.html` file with GSAP 3D animations, scroll-triggered reveals, and mouse-parallax depth — all CSS inline, all JS inline, only ext",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "landing",
+          "description": "Premium single-file HTML landing page generator. Outputs one polished `.html` file with GSAP 3D animations, scroll-triggered reveals, and mouse-parallax depth — all CSS inline, all JS inline, only ext",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "litreview",
+      "shape": "mixed",
+      "source_path": "research/litreview",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research/litreview",
+      "readme_excerpt": "Academic literature orientation skill. Turns a research question into a strategically planned mini literature review, delivered as a researcher-friendly Word document (`.docx`).",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "litreview",
+          "description": "Academic literature orientation skill. Turns a research question into a strategically planned mini literature review, delivered as a researcher-friendly Word document (`.docx`).",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
@@ -753,63 +1323,6 @@
       }
     },
     {
-      "name": "landing",
-      "shape": "mixed",
-      "source_path": "marketing/landing",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/marketing/landing",
-      "readme_excerpt": "Premium single-file HTML landing page generator. Outputs one polished `.html` file with GSAP 3D animations, scroll-triggered reveals, and mouse-parallax depth — all CSS inline, all JS inline, only ext",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "landing",
-          "description": "Premium single-file HTML landing page generator. Outputs one polished `.html` file with GSAP 3D animations, scroll-triggered reveals, and mouse-parallax depth — all CSS inline, all JS inline, only ext",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "marketing-skill",
       "shape": "skill",
       "source_path": "marketing-skill",
@@ -867,405 +1380,6 @@
       }
     },
     {
-      "name": "product-team",
-      "shape": "mixed",
-      "source_path": "product-team",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/product-team",
-      "readme_excerpt": "**17 production-ready product skills** covering product management, agile delivery, strategy, UX research, design systems, competitive intelligence, landing pages, and SaaS scaffolding.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "product-team",
-          "description": "**17 production-ready product skills** covering product management, agile delivery, strategy, UX research, design systems, competitive intelligence, landing pages, and SaaS scaffolding.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "andreessen",
-      "shape": "mixed",
-      "source_path": "productivity/andreessen",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/andreessen",
-      "readme_excerpt": "A productivity plugin that makes Claude operate like **Marc Andreessen** pressure-testing a pitch:",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "andreessen",
-          "description": "A productivity plugin that makes Claude operate like **Marc Andreessen** pressure-testing a pitch:",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "capture",
-      "shape": "mixed",
-      "source_path": "productivity/capture",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/capture",
-      "readme_excerpt": "Brain-dump organizer. Catches an unstructured stream of mixed thoughts, tasks, and ideas and transforms it into a clean four-section actionable system with zero information loss.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "capture",
-          "description": "Brain-dump organizer. Catches an unstructured stream of mixed thoughts, tasks, and ideas and transforms it into a clean four-section actionable system with zero information loss.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "deep-work",
-      "shape": "mixed",
-      "source_path": "productivity/deep-work",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/deep-work",
-      "readme_excerpt": "> Plan a deep work day the Cal Newport way. Attention is the protected resource, not time.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "deep-work",
-          "description": "> Plan a deep work day the Cal Newport way. Attention is the protected resource, not time.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "email",
-      "shape": "mixed",
-      "source_path": "productivity/email",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/email",
-      "readme_excerpt": "**Workflow-pair plugin.** Two paired skills (`inbox-setup` + `inbox-triage`) that together implement a personalized recurring email triage system.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "email",
-          "description": "**Workflow-pair plugin.** Two paired skills (`inbox-setup` + `inbox-triage`) that together implement a personalized recurring email triage system.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "fable-goal",
-      "shape": "mixed",
-      "source_path": "productivity/fable-goal",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/fable-goal",
-      "readme_excerpt": "Turn a ramble about something you want made into **one polished, autonomous /goal prompt** — copy-paste ready for a fresh session. The skill writes the prompt, never the build.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "fable-goal",
-          "description": "Turn a ramble about something you want made into **one polished, autonomous /goal prompt** — copy-paste ready for a fresh session. The skill writes the prompt, never the build.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "handoff",
-      "shape": "mixed",
-      "source_path": "productivity/handoff",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/handoff",
-      "readme_excerpt": "> Compact the current conversation into a handoff document for another agent to pick up.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "handoff",
-          "description": "> Compact the current conversation into a handoff document for another agent to pick up.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "meetings",
       "shape": "mixed",
       "source_path": "productivity/meetings",
@@ -1277,519 +1391,6 @@
         "standard": {
           "name": "meetings",
           "description": "> Most meetings should be an email. This plugin makes that a testable claim instead of a complaint.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "reflect",
-      "shape": "mixed",
-      "source_path": "productivity/reflect",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/reflect",
-      "readme_excerpt": "Mid-conversation reflection skill. Pauses execution and **zooms out from detail-mode** to honestly reassess direction, assumptions, and bias.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "reflect",
-          "description": "Mid-conversation reflection skill. Pauses execution and **zooms out from detail-mode** to honestly reassess direction, assumptions, and bias.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "roast",
-      "shape": "mixed",
-      "source_path": "productivity/roast",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/roast",
-      "readme_excerpt": "> Pressure-test a business idea before you build it. The opposite of Claude's default agreeableness.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "roast",
-          "description": "> Pressure-test a business idea before you build it. The opposite of Claude's default agreeableness.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "weekly-review",
-      "shape": "mixed",
-      "source_path": "productivity/weekly-review",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/weekly-review",
-      "readme_excerpt": "> Close every open loop once a week. David Allen called the weekly review the \"critical success",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "weekly-review",
-          "description": "> Close every open loop once a week. David Allen called the weekly review the \"critical success",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "project-management",
-      "shape": "mixed",
-      "source_path": "project-management",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/project-management",
-      "readme_excerpt": "**Complete suite of 6 world-class Atlassian expert skills** for project and agile delivery teams using Jira and Confluence.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "project-management",
-          "description": "**Complete suite of 6 world-class Atlassian expert skills** for project and agile delivery teams using Jira and Confluence.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "ra-qm-team",
-      "shape": "skill",
-      "source_path": "ra-qm-team",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/ra-qm-team",
-      "readme_excerpt": "**Complete suite of 12 world-class expert skills** for HealthTech and MedTech organizations covering regulatory compliance, quality management, risk management, security, and audit excellence.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "ra-qm-team",
-          "description": "**Complete suite of 12 world-class expert skills** for HealthTech and MedTech organizations covering regulatory compliance, quality management, risk management, security, and audit excellence.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "deep-research",
-      "shape": "mixed",
-      "source_path": "research/deep-research",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research/deep-research",
-      "readme_excerpt": "> The heavyweight end of the research domain: an auditable, reusable, triangulated investigation — for when a wrong answer costs more than the tokens spent getting it right.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "deep-research",
-          "description": "> The heavyweight end of the research domain: an auditable, reusable, triangulated investigation — for when a wrong answer costs more than the tokens spent getting it right.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "dossier",
-      "shape": "mixed",
-      "source_path": "research/dossier",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research/dossier",
-      "readme_excerpt": "Decision-grade entity research. Produces a **hypothesis-tested dossier** on a specific company, person, nonprofit, or government org — built around hypothesis-testing rather than encyclopedic summary.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "dossier",
-          "description": "Decision-grade entity research. Produces a **hypothesis-tested dossier** on a specific company, person, nonprofit, or government org — built around hypothesis-testing rather than encyclopedic summary.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "grants",
-      "shape": "mixed",
-      "source_path": "research/grants",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research/grants",
-      "readme_excerpt": "NIH grant research skill for clinical researchers. Produces a strategic NIH funding overview as an editable `.docx`:",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "grants",
-          "description": "NIH grant research skill for clinical researchers. Produces a strategic NIH funding overview as an editable `.docx`:",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
-        "tags": [
-          "v2.9.0",
-          "v2.8.2",
-          "v2.8.1",
-          "v2.8.0",
-          "v2.0.0",
-          "v1.0.2"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 23699,
-          "contributors": 37,
-          "last_commit": "2026-07-17T13:02:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "litreview",
-      "shape": "mixed",
-      "source_path": "research/litreview",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research/litreview",
-      "readme_excerpt": "Academic literature orientation skill. Turns a research question into a strategically planned mini literature review, delivered as a researcher-friendly Word document (`.docx`).",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "litreview",
-          "description": "Academic literature orientation skill. Turns a research question into a strategically planned mini literature review, delivered as a researcher-friendly Word document (`.docx`).",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -1950,6 +1551,177 @@
       }
     },
     {
+      "name": "personas",
+      "shape": "unknown",
+      "source_path": "agents/personas",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/agents/personas",
+      "readme_excerpt": "Pre-configured agent personas with curated skill loadouts, workflows, and distinct personalities.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "personas",
+          "description": "Pre-configured agent personas with curated skill loadouts, workflows, and distinct personalities.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "product-team",
+      "shape": "mixed",
+      "source_path": "product-team",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/product-team",
+      "readme_excerpt": "**17 production-ready product skills** covering product management, agile delivery, strategy, UX research, design systems, competitive intelligence, landing pages, and SaaS scaffolding.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "product-team",
+          "description": "**17 production-ready product skills** covering product management, agile delivery, strategy, UX research, design systems, competitive intelligence, landing pages, and SaaS scaffolding.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "project-management",
+      "shape": "mixed",
+      "source_path": "project-management",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/project-management",
+      "readme_excerpt": "**Complete suite of 6 world-class Atlassian expert skills** for project and agile delivery teams using Jira and Confluence.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "project-management",
+          "description": "**Complete suite of 6 world-class Atlassian expert skills** for project and agile delivery teams using Jira and Confluence.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "pulse",
       "shape": "mixed",
       "source_path": "research/pulse",
@@ -1961,6 +1733,120 @@
         "standard": {
           "name": "pulse",
           "description": "Multi-source recency research skill. Takes the pulse of any topic across Reddit, Hacker News, the open web, and (optionally) X/Twitter within a configurable recent window — synthesizing what people ar",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "ra-qm-team",
+      "shape": "skill",
+      "source_path": "ra-qm-team",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/ra-qm-team",
+      "readme_excerpt": "**Complete suite of 12 world-class expert skills** for HealthTech and MedTech organizations covering regulatory compliance, quality management, risk management, security, and audit excellence.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "ra-qm-team",
+          "description": "**Complete suite of 12 world-class expert skills** for HealthTech and MedTech organizations covering regulatory compliance, quality management, risk management, security, and audit excellence.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "reflect",
+      "shape": "mixed",
+      "source_path": "productivity/reflect",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/reflect",
+      "readme_excerpt": "Mid-conversation reflection skill. Pauses execution and **zooms out from detail-mode** to honestly reassess direction, assumptions, and bias.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "reflect",
+          "description": "Mid-conversation reflection skill. Pauses execution and **zooms out from detail-mode** to honestly reassess direction, assumptions, and bias.",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -2064,6 +1950,120 @@
       }
     },
     {
+      "name": "research-ops",
+      "shape": "mixed",
+      "source_path": "research-ops",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research-ops",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "research-ops",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "roast",
+      "shape": "mixed",
+      "source_path": "productivity/roast",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/roast",
+      "readme_excerpt": "> Pressure-test a business idea before you build it. The opposite of Claude's default agreeableness.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "roast",
+          "description": "> Pressure-test a business idea before you build it. The opposite of Claude's default agreeableness.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+        "tags": [
+          "v2.9.0",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.0.0",
+          "v1.0.2"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 23699,
+          "contributors": 37,
+          "last_commit": "2026-07-17T13:02:50Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "syllabus",
       "shape": "mixed",
       "source_path": "research/syllabus",
@@ -2121,17 +2121,17 @@
       }
     },
     {
-      "name": "research-ops",
+      "name": "weekly-review",
       "shape": "mixed",
-      "source_path": "research-ops",
-      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research-ops",
-      "readme_excerpt": null,
+      "source_path": "productivity/weekly-review",
+      "source_url": "https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/productivity/weekly-review",
+      "readme_excerpt": "> Close every open loop once a week. David Allen called the weekly review the \"critical success",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "research-ops",
-          "description": null,
+          "name": "weekly-review",
+          "description": "> Close every open loop once a week. David Allen called the weekly review the \"critical success",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -2159,11 +2159,11 @@
           "v1.0.2"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 45,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
-        "readme": 0,
+        "frontmatter": 5,
+        "readme": 5,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
@@ -2191,5 +2191,6 @@
       "last_commit": "2026-07-17T13:02:50Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

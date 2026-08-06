@@ -9,6 +9,221 @@
   "plugin_count": 40,
   "plugins": [
     {
+      "name": "Add-EngageGroupAdmins",
+      "shape": "unknown",
+      "source_path": "scripts/Add-EngageGroupAdmins",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/Add-EngageGroupAdmins",
+      "readme_excerpt": "This sample script will allow an admin to bulk-add admins (owners) to Viva Engage communities using the Microsoft Graph API.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Add-EngageGroupAdmins",
+          "description": "This sample script will allow an admin to bulk-add admins (owners) to Viva Engage communities using the Microsoft Graph API.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-08-03T08:10:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Analyze-SharePointRisk",
+      "shape": "unknown",
+      "source_path": "scripts/Analyze-SharePointRisk",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/Analyze-SharePointRisk",
+      "readme_excerpt": "title: Analyze-SharePointRisk",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Analyze-SharePointRisk",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "John Cummings",
+          "version": "1.0.0",
+          "published": "2025-10-16",
+          "updated": "2025-10-23",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "Analyze-SharePointRisk",
+          "description": "title: Analyze-SharePointRisk",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "John Cummings"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-08-03T08:10:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "archive",
+      "shape": "unknown",
+      "source_path": "scripts/archive",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/archive",
+      "readme_excerpt": "This folder holds FastTrack scripts that are **no longer actively maintained**. They were moved here during a content review because they had not been updated in **3+ years** and, in many cases, targe",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "archive",
+          "description": "This folder holds FastTrack scripts that are **no longer actively maintained**. They were moved here during a content review because they had not been updated in **3+ years** and, in many cases, targe",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-08-03T08:10:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "catalog-build",
+      "shape": "unknown",
+      "source_path": "tools/catalog-build",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/tools/catalog-build",
+      "readme_excerpt": "This package generates the static FastTrack catalog from YAML front matter in resource Markdown files.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "catalog-build",
+          "description": "This package generates the static FastTrack catalog from YAML front matter in resource Markdown files.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-08-03T08:10:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "copilot-agent-samples",
       "shape": "unknown",
       "source_path": "copilot-agent-samples",
@@ -195,371 +410,6 @@
         "store": 32,
         "frontmatter": 5,
         "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 219,
-          "contributors": 24,
-          "last_commit": "2026-08-03T08:10:02Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "Viva-Engage-Community-Creation-App",
-      "shape": "unknown",
-      "source_path": "samples/Viva-Engage-Community-Creation-App",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/Viva-Engage-Community-Creation-App",
-      "readme_excerpt": "This Power App import package is intended to be used as a sample that shows how to use the [Viva Engage Community Creation API](https://learn.microsoft.com/en-us/graph/api/employeeexperience-post-comm",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "Viva-Engage-Community-Creation-App",
-          "description": "This Power App import package is intended to be used as a sample that shows how to use the [Viva Engage Community Creation API](https://learn.microsoft.com/en-us/graph/api/employeeexperience-post-comm",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "master",
-        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
-        "tags": []
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 219,
-          "contributors": 24,
-          "last_commit": "2026-08-03T08:10:02Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "teams-audioconferencing-snippets",
-      "shape": "unknown",
-      "source_path": "samples/teams-audioconferencing-snippets",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/teams-audioconferencing-snippets",
-      "readme_excerpt": "Here are a few common Teams Audio Conferencing configuration PowerShell snippets that our customers rely on to update user settings for Audio Conferencing.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "teams-audioconferencing-snippets",
-          "description": "Here are a few common Teams Audio Conferencing configuration PowerShell snippets that our customers rely on to update user settings for Audio Conferencing.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "master",
-        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
-        "tags": []
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 219,
-          "contributors": 24,
-          "last_commit": "2026-08-03T08:10:02Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "teams-phonesystem-snippets",
-      "shape": "unknown",
-      "source_path": "samples/teams-phonesystem-snippets",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/teams-phonesystem-snippets",
-      "readme_excerpt": "Here are a few common Teams Phone System configuration PowerShell snippets for number configuration and other related tasks.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "teams-phonesystem-snippets",
-          "description": "Here are a few common Teams Phone System configuration PowerShell snippets for number configuration and other related tasks.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "master",
-        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
-        "tags": []
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 219,
-          "contributors": 24,
-          "last_commit": "2026-08-03T08:10:02Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "teams-rooms-snippets",
-      "shape": "unknown",
-      "source_path": "samples/teams-rooms-snippets",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/teams-rooms-snippets",
-      "readme_excerpt": "Microsoft Teams Rooms configuration snippets for single room creation and configuration as well as bulk.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "teams-rooms-snippets",
-          "description": "Microsoft Teams Rooms configuration snippets for single room creation and configuration as well as bulk.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "master",
-        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
-        "tags": []
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 219,
-          "contributors": 24,
-          "last_commit": "2026-08-03T08:10:02Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "teams-upgrade-snippets",
-      "shape": "unknown",
-      "source_path": "samples/teams-upgrade-snippets",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/teams-upgrade-snippets",
-      "readme_excerpt": "Here are a few common Teams Upgrade PowerShell snippets that our customers have found useful in their journey to Teams Only mode.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "teams-upgrade-snippets",
-          "description": "Here are a few common Teams Upgrade PowerShell snippets that our customers have found useful in their journey to Teams Only mode.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "master",
-        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
-        "tags": []
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 219,
-          "contributors": 24,
-          "last_commit": "2026-08-03T08:10:02Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "Add-EngageGroupAdmins",
-      "shape": "unknown",
-      "source_path": "scripts/Add-EngageGroupAdmins",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/Add-EngageGroupAdmins",
-      "readme_excerpt": "This sample script will allow an admin to bulk-add admins (owners) to Viva Engage communities using the Microsoft Graph API.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "Add-EngageGroupAdmins",
-          "description": "This sample script will allow an admin to bulk-add admins (owners) to Viva Engage communities using the Microsoft Graph API.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "master",
-        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
-        "tags": []
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 219,
-          "contributors": 24,
-          "last_commit": "2026-08-03T08:10:02Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "Analyze-SharePointRisk",
-      "shape": "unknown",
-      "source_path": "scripts/Analyze-SharePointRisk",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/Analyze-SharePointRisk",
-      "readme_excerpt": "title: Analyze-SharePointRisk",
-      "frontmatter": {
-        "kind": "agent-md",
-        "raw": {
-          "title": "Analyze-SharePointRisk",
-          "type": "script",
-          "category": "PowerShell",
-          "summary": "",
-          "author": "John Cummings",
-          "version": "1.0.0",
-          "published": "2025-10-16",
-          "updated": "2025-10-23",
-          "tags": "",
-          "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
-        },
-        "standard": {
-          "name": "Analyze-SharePointRisk",
-          "description": "title: Analyze-SharePointRisk",
-          "version": "1.0.0",
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": "PowerShell",
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": "John Cummings"
-        }
-      },
-      "available_refs": {
-        "default": "master",
-        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
-        "tags": []
-      },
-      "trust_score": 43,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 8,
-        "readme": 3,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
@@ -1566,6 +1416,71 @@
       }
     },
     {
+      "name": "get-siteinventory",
+      "shape": "unknown",
+      "source_path": "scripts/get-siteinventory",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/get-siteinventory",
+      "readme_excerpt": "title: Get-SiteInventory",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Get-SiteInventory",
+          "type": "script",
+          "category": "PowerShell",
+          "summary": "",
+          "author": "Patrick Rodgers",
+          "version": "1.0.0",
+          "published": "2018-06-22",
+          "updated": "2018-10-30",
+          "tags": "",
+          "format": "ps1",
+          "whatItIs": "",
+          "whyUseIt": "",
+          "howToUse": "",
+          "prerequisites": ""
+        },
+        "standard": {
+          "name": "get-siteinventory",
+          "description": "title: Get-SiteInventory",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "PowerShell",
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Patrick Rodgers"
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 8,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-08-03T08:10:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "Get-TeamsUserActivityReport",
       "shape": "unknown",
       "source_path": "scripts/Get-TeamsUserActivityReport",
@@ -1811,6 +1726,56 @@
       }
     },
     {
+      "name": "SimpleGraph",
+      "shape": "unknown",
+      "source_path": "tools/SimpleGraph",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/tools/SimpleGraph",
+      "readme_excerpt": "This PowerShell module provides a generic but simplified way to access Microsoft Graph API resources with PowerShell. It relies on the Graph authentication provided with the [MSAL.PS PowerShell module",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "SimpleGraph",
+          "description": "This PowerShell module provides a generic but simplified way to access Microsoft Graph API resources with PowerShell. It relies on the Graph authentication provided with the [MSAL.PS PowerShell module",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-08-03T08:10:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "Teams Phone User Migration",
       "shape": "unknown",
       "source_path": "scripts/Teams Phone User Migration",
@@ -1876,17 +1841,17 @@
       }
     },
     {
-      "name": "Update-VivaEngageLicensingToggle",
+      "name": "teams-audioconferencing-snippets",
       "shape": "unknown",
-      "source_path": "scripts/Update-VivaEngageLicensingToggle",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/Update-VivaEngageLicensingToggle",
-      "readme_excerpt": ">**IMPORTANT:** This script and readme are being published ahead of the availability of both the endpoint and additional documentation. This message will be removed when the underlying REST API is ava",
+      "source_path": "samples/teams-audioconferencing-snippets",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/teams-audioconferencing-snippets",
+      "readme_excerpt": "Here are a few common Teams Audio Conferencing configuration PowerShell snippets that our customers rely on to update user settings for Audio Conferencing.",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "Update-VivaEngageLicensingToggle",
-          "description": ">**IMPORTANT:** This script and readme are being published ahead of the availability of both the endpoint and additional documentation. This message will be removed when the underlying REST API is ava",
+          "name": "teams-audioconferencing-snippets",
+          "description": "Here are a few common Teams Audio Conferencing configuration PowerShell snippets that our customers rely on to update user settings for Audio Conferencing.",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -1926,17 +1891,17 @@
       }
     },
     {
-      "name": "archive",
+      "name": "teams-phonesystem-snippets",
       "shape": "unknown",
-      "source_path": "scripts/archive",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/archive",
-      "readme_excerpt": "This folder holds FastTrack scripts that are **no longer actively maintained**. They were moved here during a content review because they had not been updated in **3+ years** and, in many cases, targe",
+      "source_path": "samples/teams-phonesystem-snippets",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/teams-phonesystem-snippets",
+      "readme_excerpt": "Here are a few common Teams Phone System configuration PowerShell snippets for number configuration and other related tasks.",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "archive",
-          "description": "This folder holds FastTrack scripts that are **no longer actively maintained**. They were moved here during a content review because they had not been updated in **3+ years** and, in many cases, targe",
+          "name": "teams-phonesystem-snippets",
+          "description": "Here are a few common Teams Phone System configuration PowerShell snippets for number configuration and other related tasks.",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -1976,82 +1941,17 @@
       }
     },
     {
-      "name": "get-siteinventory",
+      "name": "teams-rooms-snippets",
       "shape": "unknown",
-      "source_path": "scripts/get-siteinventory",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/get-siteinventory",
-      "readme_excerpt": "title: Get-SiteInventory",
-      "frontmatter": {
-        "kind": "agent-md",
-        "raw": {
-          "title": "Get-SiteInventory",
-          "type": "script",
-          "category": "PowerShell",
-          "summary": "",
-          "author": "Patrick Rodgers",
-          "version": "1.0.0",
-          "published": "2018-06-22",
-          "updated": "2018-10-30",
-          "tags": "",
-          "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
-        },
-        "standard": {
-          "name": "get-siteinventory",
-          "description": "title: Get-SiteInventory",
-          "version": "1.0.0",
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": "PowerShell",
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": "Patrick Rodgers"
-        }
-      },
-      "available_refs": {
-        "default": "master",
-        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
-        "tags": []
-      },
-      "trust_score": 43,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 8,
-        "readme": 3,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 219,
-          "contributors": 24,
-          "last_commit": "2026-08-03T08:10:02Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "SimpleGraph",
-      "shape": "unknown",
-      "source_path": "tools/SimpleGraph",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/tools/SimpleGraph",
-      "readme_excerpt": "This PowerShell module provides a generic but simplified way to access Microsoft Graph API resources with PowerShell. It relies on the Graph authentication provided with the [MSAL.PS PowerShell module",
+      "source_path": "samples/teams-rooms-snippets",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/teams-rooms-snippets",
+      "readme_excerpt": "Microsoft Teams Rooms configuration snippets for single room creation and configuration as well as bulk.",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "SimpleGraph",
-          "description": "This PowerShell module provides a generic but simplified way to access Microsoft Graph API resources with PowerShell. It relies on the Graph authentication provided with the [MSAL.PS PowerShell module",
+          "name": "teams-rooms-snippets",
+          "description": "Microsoft Teams Rooms configuration snippets for single room creation and configuration as well as bulk.",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -2091,17 +1991,17 @@
       }
     },
     {
-      "name": "catalog-build",
+      "name": "teams-upgrade-snippets",
       "shape": "unknown",
-      "source_path": "tools/catalog-build",
-      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/tools/catalog-build",
-      "readme_excerpt": "This package generates the static FastTrack catalog from YAML front matter in resource Markdown files.",
+      "source_path": "samples/teams-upgrade-snippets",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/teams-upgrade-snippets",
+      "readme_excerpt": "Here are a few common Teams Upgrade PowerShell snippets that our customers have found useful in their journey to Teams Only mode.",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "catalog-build",
-          "description": "This package generates the static FastTrack catalog from YAML front matter in resource Markdown files.",
+          "name": "teams-upgrade-snippets",
+          "description": "Here are a few common Teams Upgrade PowerShell snippets that our customers have found useful in their journey to Teams Only mode.",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -2189,6 +2089,106 @@
           "archived": false
         }
       }
+    },
+    {
+      "name": "Update-VivaEngageLicensingToggle",
+      "shape": "unknown",
+      "source_path": "scripts/Update-VivaEngageLicensingToggle",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/scripts/Update-VivaEngageLicensingToggle",
+      "readme_excerpt": ">**IMPORTANT:** This script and readme are being published ahead of the availability of both the endpoint and additional documentation. This message will be removed when the underlying REST API is ava",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Update-VivaEngageLicensingToggle",
+          "description": ">**IMPORTANT:** This script and readme are being published ahead of the availability of both the endpoint and additional documentation. This message will be removed when the underlying REST API is ava",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-08-03T08:10:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Viva-Engage-Community-Creation-App",
+      "shape": "unknown",
+      "source_path": "samples/Viva-Engage-Community-Creation-App",
+      "source_url": "https://github.com/microsoft/FastTrack/tree/116bdcbba726e51563a28785dc382f73b3a766e4/samples/Viva-Engage-Community-Creation-App",
+      "readme_excerpt": "This Power App import package is intended to be used as a sample that shows how to use the [Viva Engage Community Creation API](https://learn.microsoft.com/en-us/graph/api/employeeexperience-post-comm",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Viva-Engage-Community-Creation-App",
+          "description": "This Power App import package is intended to be used as a sample that shows how to use the [Viva Engage Community Creation API](https://learn.microsoft.com/en-us/graph/api/employeeexperience-post-comm",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "master",
+        "default_sha": "116bdcbba726e51563a28785dc382f73b3a766e4",
+        "tags": []
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 219,
+          "contributors": 24,
+          "last_commit": "2026-08-03T08:10:02Z",
+          "archived": false
+        }
+      }
     }
   ],
   "store_trust": {
@@ -2204,5 +2204,6 @@
       "last_commit": "2026-08-03T08:10:02Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

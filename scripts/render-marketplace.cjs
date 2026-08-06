@@ -55,6 +55,15 @@ function requireString(manifest, field, pluginName) {
   return manifest[field];
 }
 
+function requireDescription(manifest, pluginName) {
+  const description = requireString(manifest, 'description', pluginName).trim();
+  if (/^[>|]$/.test(description) || !/[A-Za-z0-9]/.test(description)
+    || /,$/.test(description)) {
+    throw new Error(`${pluginName}: description is a YAML marker, punctuation-only, or visibly truncated`);
+  }
+  return description;
+}
+
 function countFiles(directory) {
   let count = 0;
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
@@ -117,7 +126,7 @@ function buildEntry(plugin) {
 
   return {
     name,
-    description: requireString(manifest, 'description', name),
+    description: requireDescription(manifest, name),
     version: requireString(manifest, 'version', name),
     source: fromSource
       ? requireSourceSpec(delivery.source, name)

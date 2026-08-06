@@ -56,7 +56,10 @@ function curatedPlugins(root) {
 }
 
 function validateMarketplace(root, errors) {
-  if (!fs.existsSync(path.join(root, MARKETPLACE_PATH))) return;
+  if (!fs.existsSync(path.join(root, MARKETPLACE_PATH))) {
+    errors.push(finding('MARKETPLACE_MISSING', MARKETPLACE_PATH, 'Required install marketplace is missing'));
+    return;
+  }
   const marketplace = readJson(root, MARKETPLACE_PATH, errors);
   if (!marketplace) return;
   if (marketplace.name !== 'alex-mall' || marketplace.owner?.name !== 'fabioc-aloha' || !Array.isArray(marketplace.plugins)) {
@@ -141,6 +144,21 @@ function validateCatalog(root = process.cwd()) {
       errors.push(finding('STORE_SHAPE_INVALID', relativePath, 'Store name must match the filename and plugins must be an array'));
       continue;
     }
+    if (store.plugin_count !== store.plugins.length) {
+      errors.push(finding('STORE_PLUGIN_COUNT_MISMATCH', relativePath,
+        'plugin_count must equal plugins.length'));
+    }
+    if (store.refs_error) {
+      errors.push(finding('STORE_REFS_ERROR', relativePath, store.refs_error));
+    }
+    if (!/^[0-9a-f]{40}$/i.test(store.scanned_ref || '')) {
+      errors.push(finding('STORE_REF_INVALID', relativePath, 'scanned_ref must be a 40-character SHA'));
+    }
+    const pluginNames = store.plugins.map((plugin) => plugin.name);
+    if (new Set(pluginNames).size !== pluginNames.length) {
+      errors.push(finding('STORE_PLUGIN_DUPLICATE', relativePath,
+        'Plugin names must be unique within a store'));
+    }
     pluginSum += store.plugins.length;
     if (!fs.existsSync(path.join(storesDir, `${expectedName}.md`))) {
       errors.push(finding('STORE_MARKDOWN_MISSING', `catalog/stores/${expectedName}.md`, 'Every store JSON requires rendered Markdown'));
@@ -154,6 +172,13 @@ function validateCatalog(root = process.cwd()) {
           !signals.store_breakdown || typeof signals.store_breakdown !== 'object') {
         errors.push(finding('TRUST_SIGNALS_MISSING', relativePath, 'Plugin trust_signals must contain store, frontmatter, readme, and store_breakdown'));
       }
+      if (typeof plugin.source_url !== 'string' || plugin.source_url.trim() === '') {
+        errors.push(finding('PLUGIN_SOURCE_URL_MISSING', relativePath,
+          `${plugin.name} source_url is required`));
+      } else if (!/\/tree\/[0-9a-f]{40}\//i.test(plugin.source_url)) {
+        errors.push(finding('PLUGIN_SOURCE_REF_INVALID', relativePath,
+          `${plugin.name} source_url must use a commit SHA`));
+      }
     }
   }
 
@@ -162,6 +187,16 @@ function validateCatalog(root = process.cwd()) {
   }
   if (index.plugin_count !== pluginSum || !Array.isArray(index.plugins) || index.plugins.length !== pluginSum) {
     errors.push(finding('PLUGIN_COUNT_MISMATCH', 'catalog/index.json', 'plugin_count and index plugins must equal summed store plugins'));
+  }
+  if (Array.isArray(index.plugins)) {
+    const installability = new Map(registry.stores.map((store) =>
+      [store.name, !store.reference_only]));
+    for (const plugin of index.plugins) {
+      if (plugin.installable !== installability.get(plugin.store)) {
+        errors.push(finding('PLUGIN_INSTALLABILITY_INVALID', 'catalog/index.json',
+          `${plugin.store}/${plugin.name} has incorrect installable state`));
+      }
+    }
   }
   if (!fs.existsSync(path.join(absoluteRoot, 'sources', 'SOURCES.md'))) {
     errors.push(finding('SOURCES_MARKDOWN_MISSING', 'sources/SOURCES.md', 'Rendered source registry is missing'));

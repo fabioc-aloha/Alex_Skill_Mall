@@ -122,6 +122,19 @@ test('renderer fails closed on duplicate manifest names', (t) => {
   assert.equal(fs.existsSync(path.join(repoRoot, '.github', 'plugin', 'marketplace.json')), false);
 });
 
+test('renderer rejects unusable or visibly truncated descriptions', (t) => {
+  const repoRoot = createFixtureRepo();
+  t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
+  const { renderMarketplace } = require('../scripts/render-marketplace.cjs');
+  const manifestPath = path.join(repoRoot, 'plugins', 'converters', 'md-to-pdf', 'plugin.json');
+  const manifest = readJson(manifestPath);
+  for (const description of ['>', '|', 'behavioral testing,']) {
+    manifest.description = description;
+    fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
+    assert.throws(() => renderMarketplace({ repoRoot }), /description is a YAML marker/);
+  }
+});
+
 test('renderer rejects payloads above the Copilot CLI Windows file limit', (t) => {
   const repoRoot = createFixtureRepo();
   t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));

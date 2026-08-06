@@ -9,156 +9,6 @@
   "plugin_count": 15,
   "plugins": [
     {
-      "name": "hooks",
-      "shape": "hook",
-      "source_path": "hooks",
-      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/hooks",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "hooks",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "hook"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "432485ba6b92c14fb357276a98957f348bcff9ee",
-        "tags": []
-      },
-      "trust_score": 13,
-      "trust_signals": {
-        "store": 13,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 6,
-          "adoption": 7,
-          "license": 0,
-          "license_name": null,
-          "stars": 918,
-          "contributors": 4,
-          "last_commit": "2026-01-23T12:42:00Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "plugins",
-      "shape": "unknown",
-      "source_path": "plugins",
-      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/plugins",
-      "readme_excerpt": "Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - see the [full article](https://x.com/affaanmustafa/status/2012378465664745795) for when and why to use",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "plugins",
-          "description": "Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - see the [full article](https://x.com/affaanmustafa/status/2012378465664745795) for when and why to use",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "432485ba6b92c14fb357276a98957f348bcff9ee",
-        "tags": []
-      },
-      "trust_score": 23,
-      "trust_signals": {
-        "store": 13,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 6,
-          "adoption": 7,
-          "license": 0,
-          "license_name": null,
-          "stars": 918,
-          "contributors": 4,
-          "last_commit": "2026-01-23T12:42:00Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "scripts",
-      "shape": "hook",
-      "source_path": "scripts",
-      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/scripts",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "scripts",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "hook"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "432485ba6b92c14fb357276a98957f348bcff9ee",
-        "tags": []
-      },
-      "trust_score": 13,
-      "trust_signals": {
-        "store": 13,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 6,
-          "adoption": 7,
-          "license": 0,
-          "license_name": null,
-          "stars": 918,
-          "contributors": 4,
-          "last_commit": "2026-01-23T12:42:00Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "backend-patterns",
       "shape": "skill",
       "source_path": "skills/backend-patterns",
@@ -474,6 +324,106 @@
       }
     },
     {
+      "name": "hooks",
+      "shape": "hook",
+      "source_path": "hooks",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/hooks",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "hooks",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "432485ba6b92c14fb357276a98957f348bcff9ee",
+        "tags": []
+      },
+      "trust_score": 13,
+      "trust_signals": {
+        "store": 13,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 6,
+          "adoption": 7,
+          "license": 0,
+          "license_name": null,
+          "stars": 918,
+          "contributors": 4,
+          "last_commit": "2026-01-23T12:42:00Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "plugins",
+      "shape": "unknown",
+      "source_path": "plugins",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/plugins",
+      "readme_excerpt": "Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - see the [full article](https://x.com/affaanmustafa/status/2012378465664745795) for when and why to use",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "plugins",
+          "description": "Plugins extend Claude Code with new tools and capabilities. This guide covers installation only - see the [full article](https://x.com/affaanmustafa/status/2012378465664745795) for when and why to use",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "432485ba6b92c14fb357276a98957f348bcff9ee",
+        "tags": []
+      },
+      "trust_score": 23,
+      "trust_signals": {
+        "store": 13,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 6,
+          "adoption": 7,
+          "license": 0,
+          "license_name": null,
+          "stars": 918,
+          "contributors": 4,
+          "last_commit": "2026-01-23T12:42:00Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "project-guidelines-example",
       "shape": "skill",
       "source_path": "skills/project-guidelines-example",
@@ -488,6 +438,56 @@
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "432485ba6b92c14fb357276a98957f348bcff9ee",
+        "tags": []
+      },
+      "trust_score": 13,
+      "trust_signals": {
+        "store": 13,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 6,
+          "adoption": 7,
+          "license": 0,
+          "license_name": null,
+          "stars": 918,
+          "contributors": 4,
+          "last_commit": "2026-01-23T12:42:00Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "scripts",
+      "shape": "hook",
+      "source_path": "scripts",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/scripts",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "scripts",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
         },
         "extended": {
           "applyTo": null,
@@ -683,20 +683,20 @@
       }
     },
     {
-      "name": "verification-loop",
-      "shape": "skill",
-      "source_path": "skills/verification-loop",
-      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/verification-loop",
+      "name": "tests",
+      "shape": "hook",
+      "source_path": "tests",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/tests",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "verification-loop",
+          "name": "tests",
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "skill"
+          "shape": "hook"
         },
         "extended": {
           "applyTo": null,
@@ -733,20 +733,20 @@
       }
     },
     {
-      "name": "tests",
-      "shape": "hook",
-      "source_path": "tests",
-      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/tests",
+      "name": "verification-loop",
+      "shape": "skill",
+      "source_path": "skills/verification-loop",
+      "source_url": "https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/verification-loop",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "tests",
+          "name": "verification-loop",
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "hook"
+          "shape": "skill"
         },
         "extended": {
           "applyTo": null,
@@ -796,5 +796,6 @@
       "last_commit": "2026-01-23T12:42:00Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

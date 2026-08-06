@@ -9,112 +9,6 @@
   "plugin_count": 18,
   "plugins": [
     {
-      "name": "eval-quality",
-      "shape": "unknown",
-      "source_path": "eng/eval-quality",
-      "source_url": "https://github.com/dotnet/skills/tree/2124a6e3518b2120cda1c076d62ed79491b00693/eng/eval-quality",
-      "readme_excerpt": "`check_eval_quality.py` blocks defect classes that have each already cost a real",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "eval-quality",
-          "description": "`check_eval_quality.py` blocks defect classes that have each already cost a real",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "2124a6e3518b2120cda1c076d62ed79491b00693",
-        "tags": [
-          "v1.0.0",
-          "skill-validator-nightly"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 4888,
-          "contributors": 57,
-          "last_commit": "2026-08-03T10:19:30Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "vally-adapter",
-      "shape": "unknown",
-      "source_path": "eng/vally-adapter",
-      "source_url": "https://github.com/dotnet/skills/tree/2124a6e3518b2120cda1c076d62ed79491b00693/eng/vally-adapter",
-      "readme_excerpt": "`adapt.mjs` converts a Vally experiment's baseline and skilled `results.jsonl`",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "vally-adapter",
-          "description": "`adapt.mjs` converts a Vally experiment's baseline and skilled `results.jsonl`",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "2124a6e3518b2120cda1c076d62ed79491b00693",
-        "tags": [
-          "v1.0.0",
-          "skill-validator-nightly"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 4888,
-          "contributors": 57,
-          "last_commit": "2026-08-03T10:19:30Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "dotnet",
       "shape": "skill",
       "source_path": "plugins/dotnet",
@@ -1114,6 +1008,112 @@
           "archived": false
         }
       }
+    },
+    {
+      "name": "eval-quality",
+      "shape": "unknown",
+      "source_path": "eng/eval-quality",
+      "source_url": "https://github.com/dotnet/skills/tree/2124a6e3518b2120cda1c076d62ed79491b00693/eng/eval-quality",
+      "readme_excerpt": "`check_eval_quality.py` blocks defect classes that have each already cost a real",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "eval-quality",
+          "description": "`check_eval_quality.py` blocks defect classes that have each already cost a real",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "2124a6e3518b2120cda1c076d62ed79491b00693",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4888,
+          "contributors": 57,
+          "last_commit": "2026-08-03T10:19:30Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "vally-adapter",
+      "shape": "unknown",
+      "source_path": "eng/vally-adapter",
+      "source_url": "https://github.com/dotnet/skills/tree/2124a6e3518b2120cda1c076d62ed79491b00693/eng/vally-adapter",
+      "readme_excerpt": "`adapt.mjs` converts a Vally experiment's baseline and skilled `results.jsonl`",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "vally-adapter",
+          "description": "`adapt.mjs` converts a Vally experiment's baseline and skilled `results.jsonl`",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "2124a6e3518b2120cda1c076d62ed79491b00693",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 4888,
+          "contributors": 57,
+          "last_commit": "2026-08-03T10:19:30Z",
+          "archived": false
+        }
+      }
     }
   ],
   "store_trust": {
@@ -1129,5 +1129,6 @@
       "last_commit": "2026-08-03T10:19:30Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

@@ -9,194 +9,6 @@
   "plugin_count": 17,
   "plugins": [
     {
-      "name": "docs",
-      "shape": "agent",
-      "source_path": "docs",
-      "source_url": "https://github.com/microsoft/hve-core/tree/1ca367ae1796dc35595348807ea40eee67c8d36d/docs",
-      "readme_excerpt": "title: HVE Core Documentation",
-      "frontmatter": {
-        "kind": "agent-md",
-        "raw": {
-          "title": "HVE Core Documentation",
-          "description": "Documentation hub for HVE Core, a prompt engineering framework that brings AI-powered agents, prompts, instructions, and skills to your GitHub Copilot workflow",
-          "sidebar_position": "1",
-          "author": "Microsoft",
-          "ms.date": "2026-07-15",
-          "ms.topic": "overview",
-          "keywords": "",
-          "estimated_reading_time": "3"
-        },
-        "standard": {
-          "name": "docs",
-          "description": "Documentation hub for HVE Core, a prompt engineering framework that brings AI-powered agents, prompts, instructions, and skills to your GitHub Copilot workflow",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "agent"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": "Microsoft"
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "1ca367ae1796dc35595348807ea40eee67c8d36d",
-        "tags": [
-          "plugins-v3.3.106",
-          "plugins-v3.3.105",
-          "plugins-v3.3.104",
-          "plugins-v3.3.103",
-          "plugins-v3.3.102",
-          "plugins-v3.3.101",
-          "plugins-test-20260730-b7a3dce6",
-          "hve-core-v3.3.101",
-          "hve-core-v3.3.41",
-          "hve-core-v3.3.27",
-          "hve-core-v3.3.10",
-          "hve-core-v3.3.1",
-          "hve-core-v3.2.2",
-          "hve-core-v3.2.1",
-          "hve-core-v3.2.0",
-          "hve-core-v3.1.46",
-          "hve-core-v3.1.44",
-          "hve-core-v3.0.2",
-          "hve-core-v3.0.1",
-          "hve-core-v3.0.0",
-          "hve-core-v2.3.10",
-          "hve-core-v2.3.9",
-          "hve-core-v2.3.8",
-          "hve-core-v2.3.7",
-          "hve-core-v2.3.6",
-          "hve-core-v2.3.5",
-          "hve-core-v2.3.4",
-          "hve-core-v2.3.3",
-          "hve-core-v2.3.2",
-          "hve-core-v2.3.1",
-          "hve-core-v2.3.0",
-          "hve-core-v2.2.0",
-          "hve-core-v2.1.0",
-          "hve-core-v2.0.1",
-          "hve-core-v2.0.0",
-          "hve-core-v1.1.0"
-        ]
-      },
-      "trust_score": 43,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 3,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1309,
-          "contributors": 72,
-          "last_commit": "2026-08-03T06:59:39Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "evals",
-      "shape": "unknown",
-      "source_path": "evals",
-      "source_url": "https://github.com/microsoft/hve-core/tree/1ca367ae1796dc35595348807ea40eee67c8d36d/evals",
-      "readme_excerpt": "title: Evaluations",
-      "frontmatter": {
-        "kind": "agent-md",
-        "raw": {
-          "title": "Evaluations",
-          "description": "Architecture overview and contributor guide for Vally evaluation specs",
-          "author": "HVE Core Team",
-          "ms.date": "2026-07-28"
-        },
-        "standard": {
-          "name": "evals",
-          "description": "Architecture overview and contributor guide for Vally evaluation specs",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": "HVE Core Team"
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "1ca367ae1796dc35595348807ea40eee67c8d36d",
-        "tags": [
-          "plugins-v3.3.106",
-          "plugins-v3.3.105",
-          "plugins-v3.3.104",
-          "plugins-v3.3.103",
-          "plugins-v3.3.102",
-          "plugins-v3.3.101",
-          "plugins-test-20260730-b7a3dce6",
-          "hve-core-v3.3.101",
-          "hve-core-v3.3.41",
-          "hve-core-v3.3.27",
-          "hve-core-v3.3.10",
-          "hve-core-v3.3.1",
-          "hve-core-v3.2.2",
-          "hve-core-v3.2.1",
-          "hve-core-v3.2.0",
-          "hve-core-v3.1.46",
-          "hve-core-v3.1.44",
-          "hve-core-v3.0.2",
-          "hve-core-v3.0.1",
-          "hve-core-v3.0.0",
-          "hve-core-v2.3.10",
-          "hve-core-v2.3.9",
-          "hve-core-v2.3.8",
-          "hve-core-v2.3.7",
-          "hve-core-v2.3.6",
-          "hve-core-v2.3.5",
-          "hve-core-v2.3.4",
-          "hve-core-v2.3.3",
-          "hve-core-v2.3.2",
-          "hve-core-v2.3.1",
-          "hve-core-v2.3.0",
-          "hve-core-v2.2.0",
-          "hve-core-v2.1.0",
-          "hve-core-v2.0.1",
-          "hve-core-v2.0.0",
-          "hve-core-v1.1.0"
-        ]
-      },
-      "trust_score": 41,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 1,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1309,
-          "contributors": 72,
-          "last_commit": "2026-08-03T06:59:39Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "ado",
       "shape": "mixed",
       "source_path": "plugins/ado",
@@ -531,6 +343,194 @@
         "store": 35,
         "frontmatter": 5,
         "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1309,
+          "contributors": 72,
+          "last_commit": "2026-08-03T06:59:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "docs",
+      "shape": "agent",
+      "source_path": "docs",
+      "source_url": "https://github.com/microsoft/hve-core/tree/1ca367ae1796dc35595348807ea40eee67c8d36d/docs",
+      "readme_excerpt": "title: HVE Core Documentation",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "HVE Core Documentation",
+          "description": "Documentation hub for HVE Core, a prompt engineering framework that brings AI-powered agents, prompts, instructions, and skills to your GitHub Copilot workflow",
+          "sidebar_position": "1",
+          "author": "Microsoft",
+          "ms.date": "2026-07-15",
+          "ms.topic": "overview",
+          "keywords": "",
+          "estimated_reading_time": "3"
+        },
+        "standard": {
+          "name": "docs",
+          "description": "Documentation hub for HVE Core, a prompt engineering framework that brings AI-powered agents, prompts, instructions, and skills to your GitHub Copilot workflow",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "agent"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "Microsoft"
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "1ca367ae1796dc35595348807ea40eee67c8d36d",
+        "tags": [
+          "plugins-v3.3.106",
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
+          "hve-core-v3.3.101",
+          "hve-core-v3.3.41",
+          "hve-core-v3.3.27",
+          "hve-core-v3.3.10",
+          "hve-core-v3.3.1",
+          "hve-core-v3.2.2",
+          "hve-core-v3.2.1",
+          "hve-core-v3.2.0",
+          "hve-core-v3.1.46",
+          "hve-core-v3.1.44",
+          "hve-core-v3.0.2",
+          "hve-core-v3.0.1",
+          "hve-core-v3.0.0",
+          "hve-core-v2.3.10",
+          "hve-core-v2.3.9",
+          "hve-core-v2.3.8",
+          "hve-core-v2.3.7",
+          "hve-core-v2.3.6",
+          "hve-core-v2.3.5",
+          "hve-core-v2.3.4",
+          "hve-core-v2.3.3",
+          "hve-core-v2.3.2",
+          "hve-core-v2.3.1",
+          "hve-core-v2.3.0",
+          "hve-core-v2.2.0",
+          "hve-core-v2.1.0",
+          "hve-core-v2.0.1",
+          "hve-core-v2.0.0",
+          "hve-core-v1.1.0"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1309,
+          "contributors": 72,
+          "last_commit": "2026-08-03T06:59:39Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "evals",
+      "shape": "unknown",
+      "source_path": "evals",
+      "source_url": "https://github.com/microsoft/hve-core/tree/1ca367ae1796dc35595348807ea40eee67c8d36d/evals",
+      "readme_excerpt": "title: Evaluations",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "Evaluations",
+          "description": "Architecture overview and contributor guide for Vally evaluation specs",
+          "author": "HVE Core Team",
+          "ms.date": "2026-07-28"
+        },
+        "standard": {
+          "name": "evals",
+          "description": "Architecture overview and contributor guide for Vally evaluation specs",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": "HVE Core Team"
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "1ca367ae1796dc35595348807ea40eee67c8d36d",
+        "tags": [
+          "plugins-v3.3.106",
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
+          "hve-core-v3.3.101",
+          "hve-core-v3.3.41",
+          "hve-core-v3.3.27",
+          "hve-core-v3.3.10",
+          "hve-core-v3.3.1",
+          "hve-core-v3.2.2",
+          "hve-core-v3.2.1",
+          "hve-core-v3.2.0",
+          "hve-core-v3.1.46",
+          "hve-core-v3.1.44",
+          "hve-core-v3.0.2",
+          "hve-core-v3.0.1",
+          "hve-core-v3.0.0",
+          "hve-core-v2.3.10",
+          "hve-core-v2.3.9",
+          "hve-core-v2.3.8",
+          "hve-core-v2.3.7",
+          "hve-core-v2.3.6",
+          "hve-core-v2.3.5",
+          "hve-core-v2.3.4",
+          "hve-core-v2.3.3",
+          "hve-core-v2.3.2",
+          "hve-core-v2.3.1",
+          "hve-core-v2.3.0",
+          "hve-core-v2.2.0",
+          "hve-core-v2.1.0",
+          "hve-core-v2.0.1",
+          "hve-core-v2.0.0",
+          "hve-core-v1.1.0"
+        ]
+      },
+      "trust_score": 41,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 1,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
@@ -1328,93 +1328,6 @@
       }
     },
     {
-      "name": "security",
-      "shape": "mixed",
-      "source_path": "plugins/security",
-      "source_url": "https://github.com/microsoft/hve-core/tree/1ca367ae1796dc35595348807ea40eee67c8d36d/plugins/security",
-      "readme_excerpt": "Security review, planning, incident response, risk assessment, and vulnerability analysis",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "security",
-          "description": "Security review, planning, incident response, risk assessment, and vulnerability analysis",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "1ca367ae1796dc35595348807ea40eee67c8d36d",
-        "tags": [
-          "plugins-v3.3.106",
-          "plugins-v3.3.105",
-          "plugins-v3.3.104",
-          "plugins-v3.3.103",
-          "plugins-v3.3.102",
-          "plugins-v3.3.101",
-          "plugins-test-20260730-b7a3dce6",
-          "hve-core-v3.3.101",
-          "hve-core-v3.3.41",
-          "hve-core-v3.3.27",
-          "hve-core-v3.3.10",
-          "hve-core-v3.3.1",
-          "hve-core-v3.2.2",
-          "hve-core-v3.2.1",
-          "hve-core-v3.2.0",
-          "hve-core-v3.1.46",
-          "hve-core-v3.1.44",
-          "hve-core-v3.0.2",
-          "hve-core-v3.0.1",
-          "hve-core-v3.0.0",
-          "hve-core-v2.3.10",
-          "hve-core-v2.3.9",
-          "hve-core-v2.3.8",
-          "hve-core-v2.3.7",
-          "hve-core-v2.3.6",
-          "hve-core-v2.3.5",
-          "hve-core-v2.3.4",
-          "hve-core-v2.3.3",
-          "hve-core-v2.3.2",
-          "hve-core-v2.3.1",
-          "hve-core-v2.3.0",
-          "hve-core-v2.2.0",
-          "hve-core-v2.1.0",
-          "hve-core-v2.0.1",
-          "hve-core-v2.0.0",
-          "hve-core-v1.1.0"
-        ]
-      },
-      "trust_score": 45,
-      "trust_signals": {
-        "store": 35,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 1309,
-          "contributors": 72,
-          "last_commit": "2026-08-03T06:59:39Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "scripts",
       "shape": "agent",
       "source_path": "scripts",
@@ -1508,6 +1421,93 @@
           "archived": false
         }
       }
+    },
+    {
+      "name": "security",
+      "shape": "mixed",
+      "source_path": "plugins/security",
+      "source_url": "https://github.com/microsoft/hve-core/tree/1ca367ae1796dc35595348807ea40eee67c8d36d/plugins/security",
+      "readme_excerpt": "Security review, planning, incident response, risk assessment, and vulnerability analysis",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "security",
+          "description": "Security review, planning, incident response, risk assessment, and vulnerability analysis",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "1ca367ae1796dc35595348807ea40eee67c8d36d",
+        "tags": [
+          "plugins-v3.3.106",
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
+          "hve-core-v3.3.101",
+          "hve-core-v3.3.41",
+          "hve-core-v3.3.27",
+          "hve-core-v3.3.10",
+          "hve-core-v3.3.1",
+          "hve-core-v3.2.2",
+          "hve-core-v3.2.1",
+          "hve-core-v3.2.0",
+          "hve-core-v3.1.46",
+          "hve-core-v3.1.44",
+          "hve-core-v3.0.2",
+          "hve-core-v3.0.1",
+          "hve-core-v3.0.0",
+          "hve-core-v2.3.10",
+          "hve-core-v2.3.9",
+          "hve-core-v2.3.8",
+          "hve-core-v2.3.7",
+          "hve-core-v2.3.6",
+          "hve-core-v2.3.5",
+          "hve-core-v2.3.4",
+          "hve-core-v2.3.3",
+          "hve-core-v2.3.2",
+          "hve-core-v2.3.1",
+          "hve-core-v2.3.0",
+          "hve-core-v2.2.0",
+          "hve-core-v2.1.0",
+          "hve-core-v2.0.1",
+          "hve-core-v2.0.0",
+          "hve-core-v1.1.0"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1309,
+          "contributors": 72,
+          "last_commit": "2026-08-03T06:59:39Z",
+          "archived": false
+        }
+      }
     }
   ],
   "store_trust": {
@@ -1523,5 +1523,6 @@
       "last_commit": "2026-08-03T06:59:39Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

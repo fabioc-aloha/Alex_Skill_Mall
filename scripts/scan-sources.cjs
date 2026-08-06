@@ -223,6 +223,28 @@ function listPluginCandidates(pluginsRoot) {
   return candidates;
 }
 
+function candidatePriority(candidate) {
+  const parts = candidate.relPath.split('/');
+  if (parts.includes('testing') || parts.includes('test')) return 0;
+  if (parts.includes('plugins')) return 3;
+  if (parts.includes('skills')) return 2;
+  return 1;
+}
+
+function dedupeCandidates(candidates) {
+  const selected = new Map();
+  for (const candidate of candidates) {
+    const current = selected.get(candidate.name);
+    if (!current
+      || candidatePriority(candidate) > candidatePriority(current)
+      || (candidatePriority(candidate) === candidatePriority(current)
+        && candidate.relPath.localeCompare(current.relPath) < 0)) {
+      selected.set(candidate.name, candidate);
+    }
+  }
+  return [...selected.values()].sort((left, right) => left.name.localeCompare(right.name));
+}
+
 function scanStore(store) {
   const storeRoot = resolveStoreRoot(store);
   const pluginsRoot = path.join(storeRoot, store.pluginDir);
@@ -235,6 +257,7 @@ function scanStore(store) {
     provenance: !!store.provenance,
     tier: store.quality,
     license: store.license || null,
+    reference_only: Boolean(store.reference_only),
     plugin_count: 0,
     plugins: [],
   };
@@ -244,7 +267,7 @@ function scanStore(store) {
     return out;
   }
 
-  const candidates = listPluginCandidates(pluginsRoot);
+  const candidates = dedupeCandidates(listPluginCandidates(pluginsRoot));
 
   for (const c of candidates) {
     const frontmatter = classifyFrontmatter(c.absPath);
@@ -386,4 +409,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { classifyFrontmatter, inferShape, listPluginCandidates, scanStore };
+module.exports = { classifyFrontmatter, dedupeCandidates, inferShape, listPluginCandidates, scanStore };

@@ -9,78 +9,17 @@
   "plugin_count": 16,
   "plugins": [
     {
-      "name": "common",
+      "name": "AI",
       "shape": "unknown",
-      "source_path": "eng/common",
-      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/eng/common",
-      "readme_excerpt": "uuuuuuuuuuuuuuuuuuuu",
+      "source_path": "src/AI",
+      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/src/AI",
+      "readme_excerpt": "On-device AI capabilities for .NET MAUI via [`Microsoft.Extensions.AI`](https://www.nuget.org/packages/Microsoft.Extensions.AI.Abstractions) abstractions.",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "common",
-          "description": "uuuuuuuuuuuuuuuuuuuu",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
-        "tags": [
-          "v0.1.0-preview.10",
-          "v0.1.0-preview.9",
-          "v0.1.0-preview.8",
-          "v0.1.0-preview.7",
-          "v0.1.0-preview.6",
-          "v0.1.0-preview.5",
-          "v0.1.0-preview.4",
-          "v0.1.0-preview.3",
-          "v0.1.0-preview.2",
-          "v0.1.0-preview.1"
-        ]
-      },
-      "trust_score": 40,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 3,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 209,
-          "contributors": 19,
-          "last_commit": "2026-08-03T10:43:27Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "Linux.Gtk4",
-      "shape": "unknown",
-      "source_path": "platforms/Linux.Gtk4",
-      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/platforms/Linux.Gtk4",
-      "readme_excerpt": "A .NET MAUI backend for Linux, powered by **GTK4**. Run your .NET MAUI applications natively on Linux desktops with GTK4 rendering via [GirCore](https://github.com/gircore/gir.core) bindings.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "Linux.Gtk4",
-          "description": "A .NET MAUI backend for Linux, powered by **GTK4**. Run your .NET MAUI applications natively on Linux desktops with GTK4 rendering via [GirCore](https://github.com/gircore/gir.core) bindings.",
+          "name": "AI",
+          "description": "On-device AI capabilities for .NET MAUI via [`Microsoft.Extensions.AI`](https://www.nuget.org/packages/Microsoft.Extensions.AI.Abstractions) abstractions.",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -131,139 +70,17 @@
       }
     },
     {
-      "name": "MacOS",
+      "name": "AIExtensions",
       "shape": "unknown",
-      "source_path": "platforms/MacOS",
-      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/platforms/MacOS",
-      "readme_excerpt": "A native [.NET MAUI](https://dot.net/maui) backend for macOS using AppKit — not Mac Catalyst.",
+      "source_path": "src/AIExtensions",
+      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/src/AIExtensions",
+      "readme_excerpt": "AI integration packages for .NET MAUI, built on [`Microsoft.Extensions.AI`](https://learn.microsoft.com/dotnet/ai/ai-extensions) abstractions.",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "MacOS",
-          "description": "A native [.NET MAUI](https://dot.net/maui) backend for macOS using AppKit — not Mac Catalyst.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
-        "tags": [
-          "v0.1.0-preview.10",
-          "v0.1.0-preview.9",
-          "v0.1.0-preview.8",
-          "v0.1.0-preview.7",
-          "v0.1.0-preview.6",
-          "v0.1.0-preview.5",
-          "v0.1.0-preview.4",
-          "v0.1.0-preview.3",
-          "v0.1.0-preview.2",
-          "v0.1.0-preview.1"
-        ]
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 209,
-          "contributors": 19,
-          "last_commit": "2026-08-03T10:43:27Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "Windows.WPF",
-      "shape": "unknown",
-      "source_path": "platforms/Windows.WPF",
-      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/platforms/Windows.WPF",
-      "readme_excerpt": "[![NuGet](https://img.shields.io/nuget/v/Microsoft.Maui.Platforms.Windows.WPF.svg?label=Microsoft.Maui.Platforms.Windows.WPF)](https://www.nuget.org/packages/Microsoft.Maui.Platforms.Windows.WPF/)",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "Windows.WPF",
-          "description": "[![NuGet](https://img.shields.io/nuget/v/Microsoft.Maui.Platforms.Windows.WPF.svg?label=Microsoft.Maui.Platforms.Windows.WPF)](https://www.nuget.org/packages/Microsoft.Maui.Platforms.Windows.WPF/)",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
-        "tags": [
-          "v0.1.0-preview.10",
-          "v0.1.0-preview.9",
-          "v0.1.0-preview.8",
-          "v0.1.0-preview.7",
-          "v0.1.0-preview.6",
-          "v0.1.0-preview.5",
-          "v0.1.0-preview.4",
-          "v0.1.0-preview.3",
-          "v0.1.0-preview.2",
-          "v0.1.0-preview.1"
-        ]
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 209,
-          "contributors": 19,
-          "last_commit": "2026-08-03T10:43:27Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "plugins",
-      "shape": "unknown",
-      "source_path": "plugins",
-      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/plugins",
-      "readme_excerpt": "Distributable agent skills for .NET MAUI development. Installable via the Copilot CLI, Claude Code, or VS Code plugin system.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "plugins",
-          "description": "Distributable agent skills for .NET MAUI development. Installable via the Copilot CLI, Claude Code, or VS Code plugin system.",
+          "name": "AIExtensions",
+          "description": "AI integration packages for .NET MAUI, built on [`Microsoft.Extensions.AI`](https://learn.microsoft.com/dotnet/ai/ai-extensions) abstractions.",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -497,189 +314,6 @@
       }
     },
     {
-      "name": "EssentialsAISample",
-      "shape": "unknown",
-      "source_path": "samples/EssentialsAISample",
-      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/samples/EssentialsAISample",
-      "readme_excerpt": "AI-powered travel itinerary generator using Microsoft.Extensions.AI and Microsoft.Agents.AI in .NET MAUI.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "EssentialsAISample",
-          "description": "AI-powered travel itinerary generator using Microsoft.Extensions.AI and Microsoft.Agents.AI in .NET MAUI.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
-        "tags": [
-          "v0.1.0-preview.10",
-          "v0.1.0-preview.9",
-          "v0.1.0-preview.8",
-          "v0.1.0-preview.7",
-          "v0.1.0-preview.6",
-          "v0.1.0-preview.5",
-          "v0.1.0-preview.4",
-          "v0.1.0-preview.3",
-          "v0.1.0-preview.2",
-          "v0.1.0-preview.1"
-        ]
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 209,
-          "contributors": 19,
-          "last_commit": "2026-08-03T10:43:27Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "AI",
-      "shape": "unknown",
-      "source_path": "src/AI",
-      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/src/AI",
-      "readme_excerpt": "On-device AI capabilities for .NET MAUI via [`Microsoft.Extensions.AI`](https://www.nuget.org/packages/Microsoft.Extensions.AI.Abstractions) abstractions.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "AI",
-          "description": "On-device AI capabilities for .NET MAUI via [`Microsoft.Extensions.AI`](https://www.nuget.org/packages/Microsoft.Extensions.AI.Abstractions) abstractions.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
-        "tags": [
-          "v0.1.0-preview.10",
-          "v0.1.0-preview.9",
-          "v0.1.0-preview.8",
-          "v0.1.0-preview.7",
-          "v0.1.0-preview.6",
-          "v0.1.0-preview.5",
-          "v0.1.0-preview.4",
-          "v0.1.0-preview.3",
-          "v0.1.0-preview.2",
-          "v0.1.0-preview.1"
-        ]
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 209,
-          "contributors": 19,
-          "last_commit": "2026-08-03T10:43:27Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "AIExtensions",
-      "shape": "unknown",
-      "source_path": "src/AIExtensions",
-      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/src/AIExtensions",
-      "readme_excerpt": "AI integration packages for .NET MAUI, built on [`Microsoft.Extensions.AI`](https://learn.microsoft.com/dotnet/ai/ai-extensions) abstractions.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "AIExtensions",
-          "description": "AI integration packages for .NET MAUI, built on [`Microsoft.Extensions.AI`](https://learn.microsoft.com/dotnet/ai/ai-extensions) abstractions.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
-        "tags": [
-          "v0.1.0-preview.10",
-          "v0.1.0-preview.9",
-          "v0.1.0-preview.8",
-          "v0.1.0-preview.7",
-          "v0.1.0-preview.6",
-          "v0.1.0-preview.5",
-          "v0.1.0-preview.4",
-          "v0.1.0-preview.3",
-          "v0.1.0-preview.2",
-          "v0.1.0-preview.1"
-        ]
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 209,
-          "contributors": 19,
-          "last_commit": "2026-08-03T10:43:27Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "AppProjectReference",
       "shape": "unknown",
       "source_path": "src/AppProjectReference",
@@ -863,6 +497,67 @@
       }
     },
     {
+      "name": "common",
+      "shape": "unknown",
+      "source_path": "eng/common",
+      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/eng/common",
+      "readme_excerpt": "uuuuuuuuuuuuuuuuuuuu",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "common",
+          "description": "uuuuuuuuuuuuuuuuuuuu",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
+        "tags": [
+          "v0.1.0-preview.10",
+          "v0.1.0-preview.9",
+          "v0.1.0-preview.8",
+          "v0.1.0-preview.7",
+          "v0.1.0-preview.6",
+          "v0.1.0-preview.5",
+          "v0.1.0-preview.4",
+          "v0.1.0-preview.3",
+          "v0.1.0-preview.2",
+          "v0.1.0-preview.1"
+        ]
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 209,
+          "contributors": 19,
+          "last_commit": "2026-08-03T10:43:27Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "DevFlow",
       "shape": "unknown",
       "source_path": "src/DevFlow",
@@ -874,6 +569,67 @@
         "standard": {
           "name": "DevFlow",
           "description": "A comprehensive testing, automation, and debugging toolkit for .NET MAUI applications.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
+        "tags": [
+          "v0.1.0-preview.10",
+          "v0.1.0-preview.9",
+          "v0.1.0-preview.8",
+          "v0.1.0-preview.7",
+          "v0.1.0-preview.6",
+          "v0.1.0-preview.5",
+          "v0.1.0-preview.4",
+          "v0.1.0-preview.3",
+          "v0.1.0-preview.2",
+          "v0.1.0-preview.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 209,
+          "contributors": 19,
+          "last_commit": "2026-08-03T10:43:27Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "EssentialsAISample",
+      "shape": "unknown",
+      "source_path": "samples/EssentialsAISample",
+      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/samples/EssentialsAISample",
+      "readme_excerpt": "AI-powered travel itinerary generator using Microsoft.Extensions.AI and Microsoft.Agents.AI in .NET MAUI.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "EssentialsAISample",
+          "description": "AI-powered travel itinerary generator using Microsoft.Extensions.AI and Microsoft.Agents.AI in .NET MAUI.",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -983,6 +739,250 @@
           "archived": false
         }
       }
+    },
+    {
+      "name": "Linux.Gtk4",
+      "shape": "unknown",
+      "source_path": "platforms/Linux.Gtk4",
+      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/platforms/Linux.Gtk4",
+      "readme_excerpt": "A .NET MAUI backend for Linux, powered by **GTK4**. Run your .NET MAUI applications natively on Linux desktops with GTK4 rendering via [GirCore](https://github.com/gircore/gir.core) bindings.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Linux.Gtk4",
+          "description": "A .NET MAUI backend for Linux, powered by **GTK4**. Run your .NET MAUI applications natively on Linux desktops with GTK4 rendering via [GirCore](https://github.com/gircore/gir.core) bindings.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
+        "tags": [
+          "v0.1.0-preview.10",
+          "v0.1.0-preview.9",
+          "v0.1.0-preview.8",
+          "v0.1.0-preview.7",
+          "v0.1.0-preview.6",
+          "v0.1.0-preview.5",
+          "v0.1.0-preview.4",
+          "v0.1.0-preview.3",
+          "v0.1.0-preview.2",
+          "v0.1.0-preview.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 209,
+          "contributors": 19,
+          "last_commit": "2026-08-03T10:43:27Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "MacOS",
+      "shape": "unknown",
+      "source_path": "platforms/MacOS",
+      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/platforms/MacOS",
+      "readme_excerpt": "A native [.NET MAUI](https://dot.net/maui) backend for macOS using AppKit — not Mac Catalyst.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "MacOS",
+          "description": "A native [.NET MAUI](https://dot.net/maui) backend for macOS using AppKit — not Mac Catalyst.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
+        "tags": [
+          "v0.1.0-preview.10",
+          "v0.1.0-preview.9",
+          "v0.1.0-preview.8",
+          "v0.1.0-preview.7",
+          "v0.1.0-preview.6",
+          "v0.1.0-preview.5",
+          "v0.1.0-preview.4",
+          "v0.1.0-preview.3",
+          "v0.1.0-preview.2",
+          "v0.1.0-preview.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 209,
+          "contributors": 19,
+          "last_commit": "2026-08-03T10:43:27Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "plugins",
+      "shape": "unknown",
+      "source_path": "plugins",
+      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/plugins",
+      "readme_excerpt": "Distributable agent skills for .NET MAUI development. Installable via the Copilot CLI, Claude Code, or VS Code plugin system.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "plugins",
+          "description": "Distributable agent skills for .NET MAUI development. Installable via the Copilot CLI, Claude Code, or VS Code plugin system.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
+        "tags": [
+          "v0.1.0-preview.10",
+          "v0.1.0-preview.9",
+          "v0.1.0-preview.8",
+          "v0.1.0-preview.7",
+          "v0.1.0-preview.6",
+          "v0.1.0-preview.5",
+          "v0.1.0-preview.4",
+          "v0.1.0-preview.3",
+          "v0.1.0-preview.2",
+          "v0.1.0-preview.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 209,
+          "contributors": 19,
+          "last_commit": "2026-08-03T10:43:27Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "Windows.WPF",
+      "shape": "unknown",
+      "source_path": "platforms/Windows.WPF",
+      "source_url": "https://github.com/dotnet/maui-labs/tree/ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5/platforms/Windows.WPF",
+      "readme_excerpt": "[![NuGet](https://img.shields.io/nuget/v/Microsoft.Maui.Platforms.Windows.WPF.svg?label=Microsoft.Maui.Platforms.Windows.WPF)](https://www.nuget.org/packages/Microsoft.Maui.Platforms.Windows.WPF/)",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "Windows.WPF",
+          "description": "[![NuGet](https://img.shields.io/nuget/v/Microsoft.Maui.Platforms.Windows.WPF.svg?label=Microsoft.Maui.Platforms.Windows.WPF)](https://www.nuget.org/packages/Microsoft.Maui.Platforms.Windows.WPF/)",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ff1742cb337f8b2c8cf7a8cfc1809c5c315823f5",
+        "tags": [
+          "v0.1.0-preview.10",
+          "v0.1.0-preview.9",
+          "v0.1.0-preview.8",
+          "v0.1.0-preview.7",
+          "v0.1.0-preview.6",
+          "v0.1.0-preview.5",
+          "v0.1.0-preview.4",
+          "v0.1.0-preview.3",
+          "v0.1.0-preview.2",
+          "v0.1.0-preview.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 209,
+          "contributors": 19,
+          "last_commit": "2026-08-03T10:43:27Z",
+          "archived": false
+        }
+      }
     }
   ],
   "store_trust": {
@@ -998,5 +998,6 @@
       "last_commit": "2026-08-03T10:43:27Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

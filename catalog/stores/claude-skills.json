@@ -709,6 +709,59 @@
       }
     },
     {
+      "name": "template",
+      "shape": "skill",
+      "source_path": "template",
+      "source_url": "https://github.com/anthropics/skills/tree/b29e7cf65e5cb78a5ac33d582270551bc74a14eb/template",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "template-skill",
+          "description": "Replace with description of the skill and when Claude should use it."
+        },
+        "standard": {
+          "name": "template-skill",
+          "description": "Replace with description of the skill and when Claude should use it.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
+        "tags": []
+      },
+      "trust_score": 30,
+      "trust_signals": {
+        "store": 25,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 0,
+          "license_name": null,
+          "stars": 165948,
+          "contributors": 13,
+          "last_commit": "2026-07-24T20:12:36Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "theme-factory",
       "shape": "skill",
       "source_path": "skills/theme-factory",
@@ -923,59 +976,6 @@
           "archived": false
         }
       }
-    },
-    {
-      "name": "template",
-      "shape": "skill",
-      "source_path": "template",
-      "source_url": "https://github.com/anthropics/skills/tree/b29e7cf65e5cb78a5ac33d582270551bc74a14eb/template",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "skill-md",
-        "raw": {
-          "name": "template-skill",
-          "description": "Replace with description of the skill and when Claude should use it."
-        },
-        "standard": {
-          "name": "template-skill",
-          "description": "Replace with description of the skill and when Claude should use it.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "skill"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
-        "tags": []
-      },
-      "trust_score": 30,
-      "trust_signals": {
-        "store": 25,
-        "frontmatter": 5,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 10,
-          "license": 0,
-          "license_name": null,
-          "stars": 165948,
-          "contributors": 13,
-          "last_commit": "2026-07-24T20:12:36Z",
-          "archived": false
-        }
-      }
     }
   ],
   "store_trust": {
@@ -991,5 +991,6 @@
       "last_commit": "2026-07-24T20:12:36Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

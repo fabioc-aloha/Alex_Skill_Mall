@@ -64,58 +64,6 @@
       }
     },
     {
-      "name": "skill-test",
-      "shape": "prompt",
-      "source_path": "skill-test",
-      "source_url": "https://github.com/qdrant/skills/tree/aa2355fcf06b805110fb8cecbd1aa4d64c15eb73/skill-test",
-      "readme_excerpt": "This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "skill-test",
-          "description": "This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "prompt"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "aa2355fcf06b805110fb8cecbd1aa4d64c15eb73",
-        "tags": [
-          "v0.1.0"
-        ]
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "Apache-2.0",
-          "stars": 216,
-          "contributors": 18,
-          "last_commit": "2026-07-30T08:54:54Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "qdrant-clients-sdk",
       "shape": "skill",
       "source_path": "skills/qdrant-clients-sdk",
@@ -669,6 +617,58 @@
           "archived": false
         }
       }
+    },
+    {
+      "name": "skill-test",
+      "shape": "prompt",
+      "source_path": "skill-test",
+      "source_url": "https://github.com/qdrant/skills/tree/aa2355fcf06b805110fb8cecbd1aa4d64c15eb73/skill-test",
+      "readme_excerpt": "This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "skill-test",
+          "description": "This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "prompt"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "aa2355fcf06b805110fb8cecbd1aa4d64c15eb73",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 216,
+          "contributors": 18,
+          "last_commit": "2026-07-30T08:54:54Z",
+          "archived": false
+        }
+      }
     }
   ],
   "store_trust": {
@@ -684,5 +684,6 @@
       "last_commit": "2026-07-30T08:54:54Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

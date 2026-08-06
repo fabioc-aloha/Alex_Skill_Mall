@@ -59,14 +59,14 @@
     },
     {
       "name": "agency-os",
-      "description": "|",
+      "description": "Run a Notion-backed AI agency dispatch board with task states, dependencies, recurring cadences, templates, and parallel agent execution.",
       "version": "1.0.0",
       "source": "plugins/productivity/agency-os",
       "strict": true
     },
     {
       "name": "agent-evaluation",
-      "description": "Testing and benchmarking LLM agents including behavioral testing,",
+      "description": "Test and benchmark LLM agents through behavioral evaluation, capability assessment, reliability metrics, regression testing, and production monitoring.",
       "version": "1.0.0",
       "source": "plugins/ai-agents/agent-evaluation",
       "strict": true
@@ -87,7 +87,7 @@
     },
     {
       "name": "agent-memory-architecture",
-      "description": ">",
+      "description": "Design persistent semantic memory for agent systems, including cross-session retention, entity tracking, temporal validity, retrieval, consolidation, and benchmark selection.",
       "version": "1.0.0",
       "source": "plugins/ai-agents/agent-memory-architecture",
       "strict": true
@@ -108,7 +108,7 @@
     },
     {
       "name": "agentic-actions-auditor",
-      "description": ">",
+      "description": "Audit GitHub Actions workflows for security vulnerabilities where attacker-controlled input can reach AI agents running in CI/CD pipelines.",
       "version": "1.0.0",
       "source": "plugins/ai-agents/agentic-actions-auditor",
       "strict": true
@@ -422,7 +422,7 @@
     },
     {
       "name": "brag-sheet",
-      "description": ">",
+      "description": "Turn engineering work into evidence-backed impact statements by mining Copilot sessions, git commits, and pull requests for reviews and promotion packets.",
       "version": "1.0.0",
       "source": "plugins/productivity/brag-sheet",
       "strict": true
@@ -1052,7 +1052,7 @@
     },
     {
       "name": "file-organizer",
-      "description": "Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual ",
+      "description": "Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual",
       "version": "1.0.0",
       "source": "plugins/productivity/file-organizer",
       "strict": true

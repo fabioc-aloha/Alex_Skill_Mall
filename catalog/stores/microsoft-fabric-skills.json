@@ -9,378 +9,6 @@
   "plugin_count": 43,
   "plugins": [
     {
-      "name": "mcp-setup",
-      "shape": "unknown",
-      "source_path": "mcp-setup",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/mcp-setup",
-      "readme_excerpt": "This folder contains scripts to register external Fabric MCP (Model Context Protocol) servers with your local AI coding tools.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "mcp-setup",
-          "description": "This folder contains scripts to register external Fabric MCP (Model Context Protocol) servers with your local AI coding tools.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
-        "tags": [
-          "v0.3.10",
-          "v0.3.9",
-          "v0.3.8",
-          "v0.3.7",
-          "v0.3.6",
-          "v0.3.5",
-          "v0.3.4",
-          "v0.3.3",
-          "v0.3.2",
-          "v0.3.1",
-          "v0.3.0"
-        ]
-      },
-      "trust_score": 42,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 918,
-          "contributors": 6,
-          "last_commit": "2026-07-30T17:15:57Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "fabric-authoring",
-      "shape": "mixed",
-      "source_path": "plugins/fabric-authoring",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-authoring",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "fabric-authoring",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
-        "tags": [
-          "v0.3.10",
-          "v0.3.9",
-          "v0.3.8",
-          "v0.3.7",
-          "v0.3.6",
-          "v0.3.5",
-          "v0.3.4",
-          "v0.3.3",
-          "v0.3.2",
-          "v0.3.1",
-          "v0.3.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 918,
-          "contributors": 6,
-          "last_commit": "2026-07-30T17:15:57Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "fabric-consumption",
-      "shape": "mixed",
-      "source_path": "plugins/fabric-consumption",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-consumption",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "fabric-consumption",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
-        "tags": [
-          "v0.3.10",
-          "v0.3.9",
-          "v0.3.8",
-          "v0.3.7",
-          "v0.3.6",
-          "v0.3.5",
-          "v0.3.4",
-          "v0.3.3",
-          "v0.3.2",
-          "v0.3.1",
-          "v0.3.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 918,
-          "contributors": 6,
-          "last_commit": "2026-07-30T17:15:57Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "fabric-operations",
-      "shape": "mixed",
-      "source_path": "plugins/fabric-operations",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-operations",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "fabric-operations",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
-        "tags": [
-          "v0.3.10",
-          "v0.3.9",
-          "v0.3.8",
-          "v0.3.7",
-          "v0.3.6",
-          "v0.3.5",
-          "v0.3.4",
-          "v0.3.3",
-          "v0.3.2",
-          "v0.3.1",
-          "v0.3.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 918,
-          "contributors": 6,
-          "last_commit": "2026-07-30T17:15:57Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "fabric-skills",
-      "shape": "mixed",
-      "source_path": "plugins/fabric-skills",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-skills",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "fabric-skills",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
-        "tags": [
-          "v0.3.10",
-          "v0.3.9",
-          "v0.3.8",
-          "v0.3.7",
-          "v0.3.6",
-          "v0.3.5",
-          "v0.3.4",
-          "v0.3.3",
-          "v0.3.2",
-          "v0.3.1",
-          "v0.3.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 918,
-          "contributors": 6,
-          "last_commit": "2026-07-30T17:15:57Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "powerbi-authoring",
-      "shape": "mixed",
-      "source_path": "plugins/powerbi-authoring",
-      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/powerbi-authoring",
-      "readme_excerpt": null,
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "powerbi-authoring",
-          "description": null,
-          "version": null,
-          "lastReviewed": null,
-          "shape": "mixed"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
-        "tags": [
-          "v0.3.10",
-          "v0.3.9",
-          "v0.3.8",
-          "v0.3.7",
-          "v0.3.6",
-          "v0.3.5",
-          "v0.3.4",
-          "v0.3.3",
-          "v0.3.2",
-          "v0.3.1",
-          "v0.3.0"
-        ]
-      },
-      "trust_score": 32,
-      "trust_signals": {
-        "store": 32,
-        "frontmatter": 0,
-        "readme": 0,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 7,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 918,
-          "contributors": 6,
-          "last_commit": "2026-07-30T17:15:57Z",
-          "archived": false
-        }
-      }
-    },
-    {
       "name": "activator-authoring-cli",
       "shape": "skill",
       "source_path": "skills/activator-authoring-cli",
@@ -1356,6 +984,254 @@
       }
     },
     {
+      "name": "fabric-authoring",
+      "shape": "mixed",
+      "source_path": "plugins/fabric-authoring",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-authoring",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "fabric-authoring",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
+        "tags": [
+          "v0.3.10",
+          "v0.3.9",
+          "v0.3.8",
+          "v0.3.7",
+          "v0.3.6",
+          "v0.3.5",
+          "v0.3.4",
+          "v0.3.3",
+          "v0.3.2",
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 918,
+          "contributors": 6,
+          "last_commit": "2026-07-30T17:15:57Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "fabric-consumption",
+      "shape": "mixed",
+      "source_path": "plugins/fabric-consumption",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-consumption",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "fabric-consumption",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
+        "tags": [
+          "v0.3.10",
+          "v0.3.9",
+          "v0.3.8",
+          "v0.3.7",
+          "v0.3.6",
+          "v0.3.5",
+          "v0.3.4",
+          "v0.3.3",
+          "v0.3.2",
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 918,
+          "contributors": 6,
+          "last_commit": "2026-07-30T17:15:57Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "fabric-operations",
+      "shape": "mixed",
+      "source_path": "plugins/fabric-operations",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-operations",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "fabric-operations",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
+        "tags": [
+          "v0.3.10",
+          "v0.3.9",
+          "v0.3.8",
+          "v0.3.7",
+          "v0.3.6",
+          "v0.3.5",
+          "v0.3.4",
+          "v0.3.3",
+          "v0.3.2",
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 918,
+          "contributors": 6,
+          "last_commit": "2026-07-30T17:15:57Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "fabric-skills",
+      "shape": "mixed",
+      "source_path": "plugins/fabric-skills",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/fabric-skills",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "fabric-skills",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
+        "tags": [
+          "v0.3.10",
+          "v0.3.9",
+          "v0.3.8",
+          "v0.3.7",
+          "v0.3.6",
+          "v0.3.5",
+          "v0.3.4",
+          "v0.3.3",
+          "v0.3.2",
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 918,
+          "contributors": 6,
+          "last_commit": "2026-07-30T17:15:57Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "fabriciq",
       "shape": "skill",
       "source_path": "skills/fabriciq",
@@ -1616,6 +1492,68 @@
       }
     },
     {
+      "name": "mcp-setup",
+      "shape": "unknown",
+      "source_path": "mcp-setup",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/mcp-setup",
+      "readme_excerpt": "This folder contains scripts to register external Fabric MCP (Model Context Protocol) servers with your local AI coding tools.",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "mcp-setup",
+          "description": "This folder contains scripts to register external Fabric MCP (Model Context Protocol) servers with your local AI coding tools.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
+        "tags": [
+          "v0.3.10",
+          "v0.3.9",
+          "v0.3.8",
+          "v0.3.7",
+          "v0.3.6",
+          "v0.3.5",
+          "v0.3.4",
+          "v0.3.3",
+          "v0.3.2",
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 918,
+          "contributors": 6,
+          "last_commit": "2026-07-30T17:15:57Z",
+          "archived": false
+        }
+      }
+    },
+    {
       "name": "mlv-operations-cli",
       "shape": "skill",
       "source_path": "skills/mlv-operations-cli",
@@ -1698,6 +1636,68 @@
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "28f29abf3838e13f63a38e8664042b7d9f7cd69c",
+        "tags": [
+          "v0.3.10",
+          "v0.3.9",
+          "v0.3.8",
+          "v0.3.7",
+          "v0.3.6",
+          "v0.3.5",
+          "v0.3.4",
+          "v0.3.3",
+          "v0.3.2",
+          "v0.3.1",
+          "v0.3.0"
+        ]
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 918,
+          "contributors": 6,
+          "last_commit": "2026-07-30T17:15:57Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "powerbi-authoring",
+      "shape": "mixed",
+      "source_path": "plugins/powerbi-authoring",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/28f29abf3838e13f63a38e8664042b7d9f7cd69c/plugins/powerbi-authoring",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "powerbi-authoring",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
         },
         "extended": {
           "applyTo": null,
@@ -2803,5 +2803,6 @@
       "last_commit": "2026-07-30T17:15:57Z",
       "archived": false
     }
-  }
+  },
+  "reference_only": false
 }

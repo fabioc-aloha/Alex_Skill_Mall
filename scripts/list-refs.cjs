@@ -37,7 +37,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 const CATALOG_STORES_DIR = path.join(REPO_ROOT, 'catalog', 'stores');
@@ -47,16 +47,16 @@ const SINGLE_STORE = STORE_ARG_IDX > -1 ? process.argv[STORE_ARG_IDX + 1] : null
 const DRY_RUN = process.argv.includes('--dry-run');
 const SOURCES_DIR = process.env.SOURCES_DIR;
 
-if (!SOURCES_DIR && SINGLE_STORE !== 'plugin-mall') {
-  console.error('ERROR: SOURCES_DIR is required unless --store plugin-mall is used.');
-  process.exit(1);
-}
-
 // --- git helpers ---
 
 function gitCapture(repoPath, args) {
   try {
-    return execSync(`git ${args}`, { cwd: repoPath, encoding: 'utf-8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
+    return execFileSync('git', args, {
+      cwd: repoPath,
+      encoding: 'utf-8',
+      stdio: ['ignore', 'pipe', 'pipe'],
+      shell: false,
+    }).trim();
   } catch {
     return null;
   }
@@ -70,36 +70,36 @@ function resolveStoreRepoPath(store) {
 
 function getDefaultBranch(repoPath) {
   // Try in order: symbolic-ref origin/HEAD; then HEAD; then 'main' or 'master' presence.
-  const sym = gitCapture(repoPath, 'symbolic-ref --short refs/remotes/origin/HEAD');
+  const sym = gitCapture(repoPath, ['symbolic-ref', '--short', 'refs/remotes/origin/HEAD']);
   if (sym) return sym.replace(/^origin\//, '');
-  const head = gitCapture(repoPath, 'symbolic-ref --short HEAD');
+  const head = gitCapture(repoPath, ['symbolic-ref', '--short', 'HEAD']);
   if (head) return head;
   // Fallback probes
   for (const candidate of ['main', 'master']) {
-    if (gitCapture(repoPath, `rev-parse --verify refs/heads/${candidate}`)) return candidate;
+    if (gitCapture(repoPath, ['rev-parse', '--verify', `refs/heads/${candidate}`])) return candidate;
   }
   return null;
 }
 
-function getRefSha(repoPath, ref) {
-  return gitCapture(repoPath, `rev-parse --verify ${ref}`);
+function getRefSha(repoPath) {
+  return gitCapture(repoPath, ['rev-parse', '--verify', 'HEAD']);
 }
 
 function listTags(repoPath) {
-  const out = gitCapture(repoPath, 'tag --sort=-v:refname');
+  const out = gitCapture(repoPath, ['tag', '--sort=-v:refname']);
   if (!out) return [];
   return out.split('\n').map((t) => t.trim()).filter(Boolean);
 }
 
 // --- Per-store driver ---
 
-function discoverStoreRefs(storeName, registryEntry) {
+function discoverStoreRefs(storeName, registryEntry, sourcesDir = SOURCES_DIR) {
   // Resolve the actual on-disk path. For third-party, the registry's
   // local_dir_name overrides the store name.
   const dirName = storeName === 'plugin-mall'
     ? null
     : (registryEntry?.local_dir_name || storeName);
-  const repoPath = storeName === 'plugin-mall' ? REPO_ROOT : path.join(SOURCES_DIR, dirName);
+  const repoPath = storeName === 'plugin-mall' ? REPO_ROOT : path.join(sourcesDir, dirName);
 
   if (!fs.existsSync(path.join(repoPath, '.git'))) {
     return { error: `not a git repo: ${repoPath}` };
@@ -109,7 +109,7 @@ function discoverStoreRefs(storeName, registryEntry) {
   if (!defaultBranch) {
     return { error: 'cannot determine default branch' };
   }
-  const defaultSha = getRefSha(repoPath, defaultBranch);
+  const defaultSha = getRefSha(repoPath);
   const tags = listTags(repoPath);
 
   return { defaultBranch, defaultSha, tags, repoPath };
@@ -163,6 +163,10 @@ function applyRefsToStore(filePath, registry) {
 // --- Main ---
 
 function main() {
+  if (!SOURCES_DIR && SINGLE_STORE !== 'plugin-mall') {
+    console.error('ERROR: SOURCES_DIR is required unless --store plugin-mall is used.');
+    process.exit(1);
+  }
   if (!fs.existsSync(CATALOG_STORES_DIR)) {
     console.error(`ERROR: ${CATALOG_STORES_DIR} not found. Run scan-sources.cjs first.`);
     process.exit(1);
@@ -216,6 +220,9 @@ function main() {
   console.log(`Stores with errors:  ${errors}`);
   console.log(`Total tags surfaced: ${totalTags}`);
   console.log(`Total plugins:       ${totalPlugins}`);
+  if (errors > 0) process.exitCode = 1;
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { applyRefsToStore, discoverStoreRefs, getDefaultBranch, getRefSha, gitCapture, listTags };

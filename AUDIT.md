@@ -4,6 +4,21 @@
 **Audited commit:** `81405a0` (`main`)
 **Scope:** catalog ingestion, trust scoring, rendering, validation, plugin packaging, CI governance, generated state, and public documentation
 **Overall risk:** **High**
+**Remediation update:** 2026-08-06; all reported source and generated-state findings are resolved locally. No 42-store network refresh was run.
+
+## Remediation Status
+
+| Finding | Status | Evidence |
+| --- | --- | --- |
+| F-01 branch-name shell injection | Resolved | Git argv arrays, constant `HEAD`, and metacharacter-branch regression |
+| F-02 ref errors fail open | Resolved | Nonzero exit plus validator rejection of `refs_error`, mutable refs, and mutable URLs |
+| F-03 11 duplicate rows | Resolved | Deterministic precedence and hard uniqueness validation; generated count 3,854 |
+| F-04 reference-only state lost | Resolved | Per-store `reference_only` and index `installable`; 25 entries marked false |
+| F-05 first-party trust wording | Resolved | Public formula names maintenance/adoption pins as editorial priors |
+| F-06 omitted invariants | Resolved | Marketplace, counts, names, refs, URLs, signals, and installability are validated |
+| F-07 unusable descriptions | Resolved | Five manifests repaired; corpus generation rejects the observed defect classes |
+| F-08 current metrics drift | Resolved | Unreleased state records 362 curated entries and 3,854 unique catalog identities |
+| F-09 CI reproducibility | Resolved | `npm ci` and immutable action commit pins |
 
 ## Executive Summary
 
