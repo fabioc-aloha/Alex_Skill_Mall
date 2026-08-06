@@ -1,6 +1,6 @@
 # Plugin Mall Catalog
 
-Search index across **3869 plugins** in **42 stores**. Plugins are ranked by trust score; first-party Mall-curated entries (🏆) rank highest because they earn the highest signals — provenance (+50 for editorial adaptation) plus maintenance, adoption, license clarity, frontmatter completeness, and README presence.
+Search index across **3865 plugins** in **42 stores**. Plugins are ranked by trust score; first-party Mall-curated entries (🏆) rank highest because they earn the highest signals — provenance (+50 for editorial adaptation) plus maintenance, adoption, license clarity, frontmatter completeness, and README presence.
 
 - See [README.md](../README.md) for the storefront and store rankings.
 - See [categories/](categories/) for per-category browse.
@@ -19,7 +19,6 @@ Search index across **3869 plugins** in **42 stores**. Plugins are ranked by tru
 | 95 | 🏆 `agent-evaluation-rubrics` | plugin-mall | skill | This skill should be used when building agent evaluation systems: deterministic… |
 | 95 | 🏆 `agent-tool-design` | plugin-mall | skill | This skill should be used for the tool-interface layer of an agent system speci… |
 | 95 | 🏆 `ai-agent-design` | plugin-mall | skill | Design autonomous AI agents that reason, plan, and execute tasks |
-| 95 | 🏆 `ai-memory-setup` | plugin-mall | skill | Detect, create, and manage the AI-Memory fleet communication channel across One… |
 | 95 | 🏆 `ai-writing-avoidance` | plugin-mall | skill | Help writers produce content that sounds genuinely human by avoiding telltale A… |
 | 95 | 🏆 `alex-act-core` | plugin-mall | mixed | The Alex ACT baseline runtime plugin. Installs 29 reusable framework skills and… |
 | 95 | 🏆 `alex-act-document-tools` | plugin-mall | mixed | Document conversion bundle for AI agents. Converts among Markdown, Word, HTML, … |
@@ -61,12 +60,13 @@ Search index across **3869 plugins** in **42 stores**. Plugins are ranked by tru
 | 95 | 🏆 `career-development` | plugin-mall | skill | Resume crafting, interview preparation, job search strategy, and professional g… |
 | 95 | 🏆 `change-management` | plugin-mall | skill | Patterns for organizational change, ADKAR methodology, stakeholder engagement, … |
 | 95 | 🏆 `chart-interpretation` | plugin-mall | skill | Read any chart (image, HTML, screenshot) and extract insights, patterns, anomal… |
+| 95 | 🏆 `citation-management` | plugin-mall | skill | APA 7th formatting, citation integration, reference validation, and bibliograph… |
 
 ## All stores by trust
 
 | Trust | Store | Plugins | Provenance |
 | ---: | --- | ---: | --- |
-| 82 | 🏆 [plugin-mall](stores/plugin-mall.md) | 366 | 🏆 first-party |
+| 82 | 🏆 [plugin-mall](stores/plugin-mall.md) | 362 | 🏆 first-party |
 | 35 | [alirezarezvani-claude-skills](stores/alirezarezvani-claude-skills.md) | 38 | third-party |
 | 35 | [antigravity-awesome-skills](stores/antigravity-awesome-skills.md) | 1914 | third-party |
 | 35 | [awesome-copilot](stores/awesome-copilot.md) | 490 | third-party |

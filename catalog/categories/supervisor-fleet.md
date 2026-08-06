@@ -1,14 +1,10 @@
 # Category: supervisor-fleet
 
-**16** plugins across **1** stores.
+**12** plugins across **1** stores.
 
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
-| 95 | 🏆 [`ai-memory-setup`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/ai-memory-setup) | plugin-mall | skill | Detect, create, and manage the AI-Memory fleet communication channel across One… |
 | 95 | 🏆 [`coherence-audit`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/coherence-audit) | plugin-mall | skill | Detect coherence violations between Alex_ACT_Edition (brain) and Alex_Skill_Mal… |
-| 95 | 🏆 [`escalation-routing`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/escalation-routing) | plugin-mall | skill | Decide whether a feedback item is in-scope for the Supervisor or must be escala… |
-| 95 | 🏆 [`feedback-triage`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/feedback-triage) | plugin-mall | skill | Categorize, deduplicate, and route fleet feedback to Edition fix, Mall change, … |
-| 95 | 🏆 [`fleet-announcement`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/fleet-announcement) | plugin-mall | skill | Author fleet announcements for AI-Memory that heirs execute automatically on gr… |
 | 95 | 🏆 [`mall-curation`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/mall-curation) | plugin-mall | skill | Curate Alex_Skill_Mall -- decide when to add, keep, refresh, or prune stores an… |
 | 95 | 🏆 [`on-call-handoff-patterns`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/on-call-handoff-patterns) | plugin-mall | skill | Effective patterns for on-call shift transitions, ensuring continuity, context … |
 | 95 | 🏆 [`release-ritual`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/release-ritual) | plugin-mall | skill | Cut a release of Alex_ACT_Edition -- preflight, brain-qa, changelog, version bu… |

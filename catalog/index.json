@@ -2,7 +2,7 @@
   "schema_version": "3.0",
   "generated_at": "2026-08-05T20:18:38.275Z",
   "store_count": 42,
-  "plugin_count": 3869,
+  "plugin_count": 3865,
   "plugins": [
     {
       "name": "academic-editorial-judgment",
@@ -89,17 +89,6 @@
       "version": "1.0.0",
       "description_short": "Design autonomous AI agents that reason, plan, and execute tasks",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/ai-agents/ai-agent-design",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
-      "name": "ai-memory-setup",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "1.1.0",
-      "description_short": "Detect, create, and manage the AI-Memory fleet communication channel across OneDrive, iCloud, Dropbox, Google Drive, Box, MEGA, pCloud, and Nextcloud",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/ai-memory-setup",
       "provenance": true,
       "adapted_from": null
     },
@@ -1193,17 +1182,6 @@
       "adapted_from": null
     },
     {
-      "name": "escalation-routing",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "1.0.0",
-      "description_short": "Decide whether a feedback item is in-scope for the Supervisor or must be escalated to AlexMaster (framework-level)",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/escalation-routing",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
       "name": "evaluate-plugin",
       "store": "plugin-mall",
       "shape": "skill",
@@ -1259,17 +1237,6 @@
       "adapted_from": null
     },
     {
-      "name": "feedback-triage",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "1.0.0",
-      "description_short": "Categorize, deduplicate, and route fleet feedback to Edition fix, Mall change, or AlexMaster escalation",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/feedback-triage",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
       "name": "fetch-violations",
       "store": "plugin-mall",
       "shape": "skill",
@@ -1288,17 +1255,6 @@
       "version": "1.0.0",
       "description_short": "Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals.",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/domain-expertise/financial-analysis",
-      "provenance": true,
-      "adapted_from": null
-    },
-    {
-      "name": "fleet-announcement",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "1.0.0",
-      "description_short": "Author fleet announcements for AI-Memory that heirs execute automatically on greeting check-in",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/fleet-announcement",
       "provenance": true,
       "adapted_from": null
     },

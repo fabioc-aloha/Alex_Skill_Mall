@@ -128,13 +128,6 @@
       "strict": true
     },
     {
-      "name": "ai-memory-setup",
-      "description": "Detect, create, and manage the AI-Memory fleet communication channel across OneDrive, iCloud, Dropbox, Google Drive, Box, MEGA, pCloud, and Nextcloud",
-      "version": "1.1.0",
-      "source": "plugins/supervisor-fleet/ai-memory-setup",
-      "strict": true
-    },
-    {
       "name": "ai-writing-avoidance",
       "description": "Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text patterns",
       "version": "1.0.0",
@@ -966,13 +959,6 @@
       "strict": true
     },
     {
-      "name": "escalation-routing",
-      "description": "Decide whether a feedback item is in-scope for the Supervisor or must be escalated to AlexMaster (framework-level)",
-      "version": "1.0.0",
-      "source": "plugins/supervisor-fleet/escalation-routing",
-      "strict": true
-    },
-    {
       "name": "evaluate-plugin",
       "description": "Evaluate plugin quality. Use when user says \"evaluate plugin\", \"review plugin quality\", \"score my plugin\", \"check plugin\", \"rate plugin\".",
       "version": "1.0.0",
@@ -1043,13 +1029,6 @@
       "strict": true
     },
     {
-      "name": "feedback-triage",
-      "description": "Categorize, deduplicate, and route fleet feedback to Edition fix, Mall change, or AlexMaster escalation",
-      "version": "1.0.0",
-      "source": "plugins/supervisor-fleet/feedback-triage",
-      "strict": true
-    },
-    {
       "name": "fetch-violations",
       "description": "Query S360 Kusto for SFI-TI3.2.2 tenant isolation violations, classify by ViolationTitle, flag autofix-eligible items for downstream remediation",
       "version": "1.0.0",
@@ -1082,13 +1061,6 @@
       "description": "One-time fixes get repeated manually:",
       "version": "1.0.0",
       "source": "plugins/devops-process/fix-once-auto-inject",
-      "strict": true
-    },
-    {
-      "name": "fleet-announcement",
-      "description": "Author fleet announcements for AI-Memory that heirs execute automatically on greeting check-in",
-      "version": "1.0.0",
-      "source": "plugins/supervisor-fleet/fleet-announcement",
       "strict": true
     },
     {

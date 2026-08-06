@@ -5,7 +5,7 @@
 **Signals:** provenance 50 · maintenance 15 · adoption 10 · license 7 (PolyForm-Noncommercial-1.0.0)
 **Scanned ref:** `d0cde6716056`
 
-## Plugins (366)
+## Plugins (362)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 95 | [`agent-evaluation-rubrics`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/ai-agents/agent-evaluation-rubrics) | skill | 1.0.0 | This skill should be used when building agent evaluation systems: deterministic checks, regression … |
 | 95 | [`agent-tool-design`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/ai-agents/agent-tool-design) | skill | 1.0.0 | This skill should be used for the tool-interface layer of an agent system specifically: writing too… |
 | 95 | [`ai-agent-design`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/ai-agents/ai-agent-design) | skill | 1.0.0 | Design autonomous AI agents that reason, plan, and execute tasks |
-| 95 | [`ai-memory-setup`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/ai-memory-setup) | skill | 1.1.0 | Detect, create, and manage the AI-Memory fleet communication channel across OneDrive, iCloud, Dropb… |
 | 95 | [`ai-writing-avoidance`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/documentation/ai-writing-avoidance) | skill | 1.0.0 | Help writers produce content that sounds genuinely human by avoiding telltale AI-generated text pat… |
 | 95 | [`alex-act-core`](https://github.com/fabioc-aloha/Alex_ACT_Core/tree/v1.0.0) | mixed | 1.0.0 | The Alex ACT baseline runtime plugin. Installs 29 reusable framework skills and 14 slash-command pr… |
 | 95 | [`alex-act-document-tools`](https://github.com/fabioc-aloha/Alex_ACT_Document_Tools/tree/v1.0.0) | mixed | 1.0.0 | Document conversion bundle for AI agents. Converts among Markdown, Word, HTML, RFC 5322 email, and … |
@@ -117,16 +116,13 @@
 | 95 | [`enterprise-integration`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/cloud-infrastructure/enterprise-integration) | skill | 1.0.0 | Patterns for Microsoft Graph, Microsoft Entra ID, and enterprise feature integration in VS Code ext… |
 | 95 | [`entra-agent-id`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/cloud-infrastructure/entra-agent-id) | skill | 1.0.0 | Microsoft Entra Agent ID (preview) -- create OAuth2-capable AI agent identities via Microsoft Graph… |
 | 95 | [`error-message-sanitization`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/security-privacy/error-message-sanitization) | skill | 1.0.0 | Raw error messages leak internal information to users: |
-| 95 | [`escalation-routing`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/escalation-routing) | skill | 1.0.0 | Decide whether a feedback item is in-scope for the Supervisor or must be escalated to AlexMaster (f… |
 | 95 | [`evaluate-plugin`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/ai-agents/evaluate-plugin) | skill | 1.0.0 | Evaluate plugin quality. Use when user says "evaluate plugin", "review plugin quality", "score my p… |
 | 95 | [`executive-storytelling`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/communication-people/executive-storytelling) | skill | 1.0.0 | Data-driven narrative construction, stakeholder management, and influencing senior leadership decis… |
 | 95 | [`extension-audit-methodology`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/code-quality/extension-audit-methodology) | skill | 1.0.0 | Systematic 5-dimension audit framework for VS Code extensions -- debug hygiene, dead code, performa… |
 | 95 | [`fabric-lakehouse`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/data-analytics/fabric-lakehouse) | skill | 1.0.0 | Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-p… |
 | 95 | [`falsifiability-test-pattern`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/code-quality/falsifiability-test-pattern) | skill | 1.0.0 | Plans without measurable success criteria drift into wishful thinking: |
-| 95 | [`feedback-triage`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/feedback-triage) | skill | 1.0.0 | Categorize, deduplicate, and route fleet feedback to Edition fix, Mall change, or AlexMaster escala… |
 | 95 | [`fetch-violations`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/security-privacy/fetch-violations) | skill | 1.0.0 | Query S360 Kusto for SFI-TI3.2.2 tenant isolation violations, classify by ViolationTitle, flag auto… |
 | 95 | [`financial-analysis`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/domain-expertise/financial-analysis) | skill | 1.0.0 | Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals. |
-| 95 | [`fleet-announcement`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/supervisor-fleet/fleet-announcement) | skill | 1.0.0 | Author fleet announcements for AI-Memory that heirs execute automatically on greeting check-in |
 | 95 | [`foundry-agent-platform`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/ai-agents/foundry-agent-platform) | skill | 1.0.0 | Microsoft Foundry agent deployment, orchestration, and cloud-native AI service patterns |
 | 95 | [`frontend-design-review`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/platform-tooling/frontend-design-review) | skill | 1.0.0 | Review and create distinctive frontend interfaces -- design system compliance, three quality pillar… |
 | 95 | [`game-design`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/domain-expertise/game-design) | skill | 1.0.0 | Game mechanics, level design, player psychology, systems balancing, and narrative design for game d… |

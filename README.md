@@ -4,7 +4,7 @@
 
 Alex ACT Plugin Mall lets users add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable working baseline, then add only the specializations that match your work.
 
-The Mall publishes **366 curated plugins** for direct installation and maintains a **trust-scored discovery index** across **3869 plugins** in **42 stores**.
+The Mall publishes **362 curated plugins** for direct installation and maintains a **trust-scored discovery index** across **3865 plugins** in **42 stores**.
 
 - Installation is **opt-in** and user-invoked. Publication does not mutate your projects.
 - Current release: **[v3.0.0](https://github.com/fabioc-aloha/Alex_Skill_Mall/releases/tag/v3.0.0)**. Rollback anchor: annotated tag `v2.0.0`.
@@ -182,7 +182,7 @@ Review `git diff` before committing. `vendor` never commits or pushes; `maintain
 
 | Rank | Store | Trust | Plugins | Provenance |
 | ---: | --- | ---: | ---: | --- |
-| 1 | 🏆 [plugin-mall](catalog/stores/plugin-mall.md) | 82 | 366 | 🏆 first-party |
+| 1 | 🏆 [plugin-mall](catalog/stores/plugin-mall.md) | 82 | 362 | 🏆 first-party |
 | 2 | [alirezarezvani-claude-skills](catalog/stores/alirezarezvani-claude-skills.md) | 35 | 38 | third-party |
 | 3 | [antigravity-awesome-skills](catalog/stores/antigravity-awesome-skills.md) | 35 | 1914 | third-party |
 | 4 | [awesome-copilot](catalog/stores/awesome-copilot.md) | 35 | 490 | third-party |
