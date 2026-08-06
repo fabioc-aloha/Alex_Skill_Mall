@@ -1,7 +1,7 @@
 {
   "name": "alex-act-enterprise",
-  "version": "0.1.5",
-  "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /alex-act-enterprise setup-enterprise command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of the public alex-act-core runtime. Not internal-only (that's alex-act-msft).",
+  "version": "1.0.0",
+  "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and namespaced setup command for Azure, Fabric, Power BI, and Microsoft 365 Agents Toolkit, with repo scope by default and an explicit user-scope opt-in.",
   "keywords": [
     "alex-act",
     "microsoft-ecosystem",
@@ -9,10 +9,7 @@
     "fabric",
     "power-bi",
     "microsoft-365",
-    "m365",
-    "config-template",
-    "setup-enterprise",
-    "enterprise-stack"
+    "config-template"
   ],
   "category": "cloud-infrastructure",
   "author": {
@@ -25,6 +22,5 @@
     "type": "git",
     "url": "https://github.com/fabioc-aloha/alex-act-enterprise.git"
   },
-  "skills": "skills/",
-  "commands": "commands/"
+  "shape": "mixed"
 }

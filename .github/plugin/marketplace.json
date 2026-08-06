@@ -158,16 +158,24 @@
     },
     {
       "name": "alex-act-enterprise",
-      "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /alex-act-enterprise setup-enterprise command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of the public alex-act-core runtime. Not internal-only (that's alex-act-msft).",
-      "version": "0.1.5",
-      "source": "plugins/cloud-infrastructure/alex-act-enterprise",
+      "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and namespaced setup command for Azure, Fabric, Power BI, and Microsoft 365 Agents Toolkit, with repo scope by default and an explicit user-scope opt-in.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "fabioc-aloha/alex-act-enterprise",
+        "ref": "v1.0.0"
+      },
       "strict": true
     },
     {
       "name": "alex-act-illustrator-plugin",
-      "description": "Visual-authoring bundle for AI agents. Ten skills across five feature areas plus install composition: Flint (statistical chart authoring via the local-first flint-chart-mcp server from microsoft/flint-chart), Print figures (hand-authored print-quality SVG for books and reports, book-tested across 53 figures), Replicate (AI image generation over Replicate's HTTP API, opt-in via REPLICATE_API_TOKEN), Shell (browsable single-page HTML surface for galleries, catalogs, and generated reports), Banner (1200×320 SVG brand banners with pluggable brand config), and the install-visual-companions skill that owns the offer for 9 marketplace companion plugins forming the vision loop (storytelling-requirements → visual-artifact-qa → chart-interpretation → eyeball). Shared framing gate (chart-big-idea Step 0.5) and verification pass (render-verify Prose-coupling) apply across all authoring features. Alex ACT constellation plugin, maintained by Alex_ACT_Steward.",
-      "version": "0.6.6",
-      "source": "plugins/data-analytics/alex-act-illustrator-plugin",
+      "description": "Visual-authoring bundle for AI agents. Eleven skills across five feature areas plus install composition: Flint charts, print-quality SVG figures, Replicate imagery, browsable documentation shells, branded SVG banners, corpus-scale QA, and consent-gated visual companions. Shared framing and verification apply across all authoring paths.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "fabioc-aloha/Alex_ACT_Illustrator_Plugin",
+        "ref": "v1.0.0"
+      },
       "strict": true
     },
     {

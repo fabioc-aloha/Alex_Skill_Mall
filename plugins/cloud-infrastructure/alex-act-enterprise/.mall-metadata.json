@@ -1,61 +1,19 @@
 {
-  "engines": [
-    "copilot"
-  ],
-  "shape": ".SP.",
-  "tier": "extended",
-  "token_cost": 4000,
-  "requires_edition": ">=3.0.0",
-  "requires_plugins": [
-    "alex-act-core"
-  ],
-  "requires_runtime": {
-    "node": null,
-    "notes": "No runtime. The skill emits or merges settings.json blocks; it installs no code."
+  "schema": "mall-plugin-metadata/2.0",
+  "provenance": "first-party",
+  "delivery": {
+    "mode": "source",
+    "adr": "ADR-023",
+    "reason": "Delivered from the origin repository at a release tag, so the Mall keeps no vendored copy that can drift from source.",
+    "source": {
+      "source": "github",
+      "repo": "fabioc-aloha/alex-act-enterprise",
+      "ref": "v1.0.0"
+    }
   },
   "upstream": {
     "repo": "https://github.com/fabioc-aloha/alex-act-enterprise",
-    "ref": "v0.1.5",
     "license": "MIT",
-    "notes": "Source-of-truth is the upstream repo. Mall vendors a snapshot; when upstream tags a new release, Mall automation flags the mismatch."
-  },
-  "scope_note": {
-    "default_scope": "repo",
-    "reason": "setup-enterprise-stack writes enabledPlugins to .github/copilot/settings.json by default, not user scope. Azure, Fabric, Power BI, and M365 are project-specific tools; loading them at user scope makes every unrelated workspace pay for skills it will never invoke. The skill supports a --user opt-in."
-  },
-  "artifacts": {
-    "skills": [
-      "skills/setup-enterprise-stack/SKILL.md"
-    ],
-    "agents": [],
-    "prompts": [
-      "commands/setup-enterprise.md"
-    ],
-    "bundled": []
-  },
-  "submission": {
-    "schema_version": "1.0",
-    "submitted_by": "mall-admin",
-    "evidence": null
-  },
-  "link_rewrites": [
-    {
-      "file": "README.md",
-      "label": "alex-act-msft",
-      "target": "../alex-act-msft",
-      "reason": "not-vendored"
-    },
-    {
-      "file": "README.md",
-      "label": "alex-act-msft",
-      "target": "../alex-act-msft",
-      "reason": "not-vendored"
-    },
-    {
-      "file": "skills/setup-enterprise-stack/SKILL.md",
-      "label": "/alex-act-enterprise setup-enterprise",
-      "target": "../../prompts/setup-enterprise.prompt.md",
-      "reason": "not-vendored"
-    }
-  ]
+    "ref": "v1.0.0"
+  }
 }
