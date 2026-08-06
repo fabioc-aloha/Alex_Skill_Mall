@@ -4,7 +4,7 @@
 
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
-| 95 | 🏆 [`alex-act-document-tools`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/converters/alex-act-document-tools) | plugin-mall | mixed | Document conversion bundle for AI agents. Converts among Markdown, Word, HTML, … |
+| 95 | 🏆 [`alex-act-document-tools`](https://github.com/fabioc-aloha/Alex_ACT_Document_Tools/tree/v1.0.0) | plugin-mall | mixed | Document conversion bundle for AI agents. Converts among Markdown, Word, HTML, … |
 | 95 | 🏆 [`converter-qa`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/converters/converter-qa) | plugin-mall | skill | Test harness for validating converter outputs with 284 assertions across all co… |
 | 95 | 🏆 [`docpilot`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/converters/docpilot) | plugin-mall | skill | Convert Markdown specs to styled Word (.docx) or Microsoft Loop. Pure Python, n… |
 | 95 | 🏆 [`docx-to-md`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/converters/docx-to-md) | plugin-mall | skill | Convert Word documents (.docx) to clean Markdown with image extraction and pand… |

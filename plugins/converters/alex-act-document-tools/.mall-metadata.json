@@ -1,36 +1,19 @@
 {
+  "schema": "mall-plugin-metadata/2.0",
+  "provenance": "first-party",
+  "delivery": {
+    "mode": "source",
+    "adr": "ADR-023",
+    "reason": "Delivered from the origin repository at a release tag, so the Mall keeps no vendored copy that can drift from source.",
+    "source": {
+      "source": "github",
+      "repo": "fabioc-aloha/Alex_ACT_Document_Tools",
+      "ref": "v1.0.0"
+    }
+  },
   "upstream": {
-    "repo": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools.git",
-    "ref": "v0.1.0",
-    "license": "MIT"
-  },
-  "submission": {
-    "schema_version": "1.0",
-    "submitted_by": "fabioc-aloha",
-    "evidence": "Document Tools v0.1.0 source tests 12/12 and packaged runtime validation"
-  },
-  "artifacts": {
-    "skills": [
-      "skills/docx-to-md/SKILL.md",
-      "skills/docx-to-md/scripts/docx-to-md.cjs",
-      "skills/html-to-md/SKILL.md",
-      "skills/html-to-md/scripts/html-to-md.cjs",
-      "skills/md-to-eml/SKILL.md",
-      "skills/md-to-eml/scripts/md-to-eml.cjs",
-      "skills/md-to-html/SKILL.md",
-      "skills/md-to-html/scripts/md-to-html.cjs",
-      "skills/md-to-txt/SKILL.md",
-      "skills/md-to-txt/scripts/md-to-txt.cjs",
-      "skills/md-to-word/SKILL.md",
-      "skills/md-to-word/scripts/md-to-word.cjs"
-    ],
-    "agents": [],
-    "prompts": [
-      "commands/convert.md"
-    ],
-    "bundled": [
-      "scripts/shared"
-    ]
-  },
-  "link_rewrites": []
+    "repo": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools",
+    "license": "MIT",
+    "ref": "v1.0.0"
+  }
 }

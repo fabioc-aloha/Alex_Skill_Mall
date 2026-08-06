@@ -4,7 +4,7 @@
 
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
-| 95 | 🏆 [`alex-act-manager`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/platform-tooling/alex-act-manager) | plugin-mall | mixed | Lifecycle control plane for the Alex ACT constellation. Installs and globally e… |
+| 95 | 🏆 [`alex-act-manager`](https://github.com/fabioc-aloha/Alex_ACT_Manager/tree/v1.0.0) | plugin-mall | mixed | Lifecycle control plane for the Alex ACT constellation. Installs and globally e… |
 | 95 | 🏆 [`boolean-string-trap`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/platform-tooling/boolean-string-trap) | plugin-mall | skill | JavaScript boolean-string coercion trap -- "false" is truthy, JSON.parse or str… |
 | 95 | 🏆 [`cloud-storage-paths`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/platform-tooling/cloud-storage-paths) | plugin-mall | skill | Cross-platform cloud storage path resolution -- OneDrive, iCloud, Dropbox path … |
 | 95 | 🏆 [`frontend-design-review`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/platform-tooling/frontend-design-review) | plugin-mall | skill | Review and create distinctive frontend interfaces -- design system compliance, … |

@@ -10082,13 +10082,13 @@
       "name": "alex-act-document-tools",
       "shape": "mixed",
       "source_path": "plugins/converters/alex-act-document-tools",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/converters/alex-act-document-tools",
+      "source_url": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools/tree/v1.0.0",
       "readme_excerpt": "Optional document conversion plugin for the Alex ACT constellation. It converts",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "alex-act-document-tools",
-          "version": "0.1.0",
+          "version": "1.0.0",
           "description": "Document conversion bundle for AI agents. Converts among Markdown, Word, HTML, RFC 5322 email, and plain text through six tested skills, one /convert workflow, and a shared Pandoc-based runtime. Use when a project needs repeatable document import or export without loading converter implementation into the Alex ACT Core reasoning brain.",
           "keywords": [
             "document-conversion",
@@ -10111,13 +10111,12 @@
             "type": "git",
             "url": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools.git"
           },
-          "skills": "skills/",
-          "commands": "commands/"
+          "shape": "mixed"
         },
         "standard": {
           "name": "alex-act-document-tools",
           "description": "Document conversion bundle for AI agents. Converts among Markdown, Word, HTML, RFC 5322 email, and plain text through six tested skills, one /convert workflow, and a shared Pandoc-based runtime. Use when a project needs repeatable document import or export without loading converter implementation into the Alex ACT Core reasoning brain.",
-          "version": "0.1.0",
+          "version": "1.0.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -22187,13 +22186,13 @@
       "name": "alex-act-manager",
       "shape": "mixed",
       "source_path": "plugins/platform-tooling/alex-act-manager",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/platform-tooling/alex-act-manager",
+      "source_url": "https://github.com/fabioc-aloha/Alex_ACT_Manager/tree/v1.0.0",
       "readme_excerpt": "[Core](https://github.com/fabioc-aloha/Alex_ACT_Core) · [Manager](https://github.com/fabioc-aloha/Alex_ACT_Manager) · [Illustrator](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin) · [Docu",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "alex-act-manager",
-          "version": "0.4.0",
+          "version": "1.0.0",
           "description": "Lifecycle control plane for the Alex ACT constellation. Installs and globally enables selected plugins, repairs Core, bootstraps Core-owned instructions, audits exact versions, updates and removes plugins with explicit consent, configures VS Code, and bootstraps repository workspace files. Use for setup, status, repair, update, or teardown rather than ordinary reasoning work.",
           "keywords": [
             "alex-act",
@@ -22217,13 +22216,12 @@
             "type": "git",
             "url": "https://github.com/fabioc-aloha/Alex_ACT_Manager.git"
           },
-          "skills": "skills/",
-          "commands": "commands/"
+          "shape": "mixed"
         },
         "standard": {
           "name": "alex-act-manager",
           "description": "Lifecycle control plane for the Alex ACT constellation. Installs and globally enables selected plugins, repairs Core, bootstraps Core-owned instructions, audits exact versions, updates and removes plugins with explicit consent, configures VS Code, and bootstraps repository workspace files. Use for setup, status, repair, update, or teardown rather than ordinary reasoning work.",
-          "version": "0.4.0",
+          "version": "1.0.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -24648,29 +24646,25 @@
       "name": "alex-act-core",
       "shape": "mixed",
       "source_path": "plugins/reasoning-metacognition/alex-act-core",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/reasoning-metacognition/alex-act-core",
+      "source_url": "https://github.com/fabioc-aloha/Alex_ACT_Core/tree/v1.0.0",
       "readme_excerpt": "[Core](https://github.com/fabioc-aloha/Alex_ACT_Core) · [Manager](https://github.com/fabioc-aloha/Alex_ACT_Manager) · [Illustrator](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin) · [Docu",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "alex-act-core",
-          "version": "0.9.0",
-          "description": "The Alex ACT baseline runtime plugin. Installs 42 reusable framework skills and 14 slash-command prompts covering epistemic discipline, repository workspace bootstrap, document converters, security and privacy, tooling awareness, and engineering craft. Core authors 18 instructions (17 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Install Manager with Core, then run /alex-act-manager install-constellation to bootstrap the seventeen load-bearing instructions. Public source is Alex_ACT_Core; changes remain evidence-gated before release.",
+          "version": "1.0.0",
+          "description": "The Alex ACT baseline runtime plugin. Installs 29 reusable framework skills and 14 slash-command prompts covering epistemic discipline, security and privacy, tooling awareness, and engineering craft. Core authors 17 instructions (16 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Manager owns lifecycle and the instruction bootstrap; Document Tools owns conversion. Eight Core commands remain temporary namespaced redirects.",
           "keywords": [
             "alex-act",
             "epistemic-discipline",
             "critical-thinking",
             "problem-framing-audit",
             "meditation",
-            "converters",
-            "docx-to-md",
-            "md-to-word",
-            "md-to-html",
-            "md-to-eml",
+            "alex-act-manager",
+            "alex-act-document-tools",
             "security-and-hardening",
             "systematic-debugging",
-            "test-driven-development",
-            "plugin-management"
+            "test-driven-development"
           ],
           "category": "foundation",
           "author": {
@@ -24683,13 +24677,12 @@
             "type": "git",
             "url": "https://github.com/fabioc-aloha/Alex_ACT_Core.git"
           },
-          "skills": "skills/",
-          "commands": "commands/"
+          "shape": "mixed"
         },
         "standard": {
           "name": "alex-act-core",
-          "description": "The Alex ACT baseline runtime plugin. Installs 42 reusable framework skills and 14 slash-command prompts covering epistemic discipline, repository workspace bootstrap, document converters, security and privacy, tooling awareness, and engineering craft. Core authors 18 instructions (17 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Install Manager with Core, then run /alex-act-manager install-constellation to bootstrap the seventeen load-bearing instructions. Public source is Alex_ACT_Core; changes remain evidence-gated before release.",
-          "version": "0.9.0",
+          "description": "The Alex ACT baseline runtime plugin. Installs 29 reusable framework skills and 14 slash-command prompts covering epistemic discipline, security and privacy, tooling awareness, and engineering craft. Core authors 17 instructions (16 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Manager owns lifecycle and the instruction bootstrap; Document Tools owns conversion. Eight Core commands remain temporary namespaced redirects.",
+          "version": "1.0.0",
           "lastReviewed": null,
           "shape": "mixed"
         },

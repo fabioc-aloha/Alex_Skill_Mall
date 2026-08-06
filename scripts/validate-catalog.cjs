@@ -19,6 +19,12 @@ function readJson(root, relativePath, errors) {
   }
 }
 
+// Object sources have no natural ordering, so compare them as a stable string.
+function sourceKey(source) {
+  if (typeof source === 'string') return source;
+  return `${source.repo}@${source.ref}${source.path ? `/${source.path}` : ''}`;
+}
+
 function curatedPlugins(root) {
   const pluginsRoot = path.join(root, 'plugins');
   if (!fs.existsSync(pluginsRoot)) return [];
@@ -29,11 +35,20 @@ function curatedPlugins(root) {
     for (const plugin of fs.readdirSync(categoryPath, { withFileTypes: true })) {
       if (!plugin.isDirectory() || plugin.name.startsWith('.')) continue;
       const pluginRoot = path.join(categoryPath, plugin.name);
+      const metadataPath = path.join(pluginRoot, '.mall-metadata.json');
       if (!fs.existsSync(path.join(pluginRoot, 'plugin.json'))
-        || !fs.existsSync(path.join(pluginRoot, '.mall-metadata.json'))) continue;
+        || !fs.existsSync(metadataPath)) continue;
+      let delivery = null;
+      try {
+        delivery = JSON.parse(fs.readFileSync(metadataPath, 'utf8')).delivery;
+      } catch {
+        delivery = null;
+      }
       plugins.push({
         name: plugin.name,
-        source: `plugins/${category.name}/${plugin.name}`,
+        source: delivery && delivery.mode === 'source' && delivery.source
+          ? sourceKey(delivery.source)
+          : `plugins/${category.name}/${plugin.name}`,
       });
     }
   }
@@ -53,17 +68,24 @@ function validateMarketplace(root, errors) {
   const expected = new Map(curated.map((plugin) => [plugin.name, plugin.source]));
   const actual = new Map();
   for (const plugin of marketplace.plugins) {
-    if (!plugin || typeof plugin.name !== 'string' || typeof plugin.source !== 'string' || plugin.strict !== true) {
+    const spec = plugin && plugin.source;
+    const sourceIsPath = typeof spec === 'string';
+    const sourceIsOrigin = Boolean(spec) && typeof spec === 'object' && !Array.isArray(spec);
+    if (!plugin || typeof plugin.name !== 'string' || (!sourceIsPath && !sourceIsOrigin) || plugin.strict !== true) {
       errors.push(finding('MARKETPLACE_ENTRY_INVALID', MARKETPLACE_PATH, 'Every entry needs name, source, and strict=true'));
       continue;
     }
-    if (!/^plugins\/[a-z0-9-]+\/[a-z0-9-]+$/.test(plugin.source)) {
-      errors.push(finding('MARKETPLACE_SOURCE_INVALID', MARKETPLACE_PATH, `${plugin.name} source must stay inside plugins/<category>/<name>`));
+    if (sourceIsPath) {
+      if (!/^plugins\/[a-z0-9-]+\/[a-z0-9-]+$/.test(spec)) {
+        errors.push(finding('MARKETPLACE_SOURCE_INVALID', MARKETPLACE_PATH, `${plugin.name} source must stay inside plugins/<category>/<name>`));
+      }
+    } else if (spec.source !== 'github' || typeof spec.repo !== 'string' || typeof spec.ref !== 'string') {
+      errors.push(finding('MARKETPLACE_SOURCE_INVALID', MARKETPLACE_PATH, `${plugin.name} origin source needs source=github plus repo and ref`));
     }
     if (actual.has(plugin.name)) {
       errors.push(finding('MARKETPLACE_NAME_DUPLICATE', MARKETPLACE_PATH, `Duplicate marketplace name: ${plugin.name}`));
     }
-    actual.set(plugin.name, plugin.source);
+    actual.set(plugin.name, sourceKey(spec));
   }
 
   if (expected.size !== actual.size || [...expected].some(([name, source]) => actual.get(name) !== source)) {

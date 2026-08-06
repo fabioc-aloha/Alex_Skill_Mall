@@ -5,7 +5,7 @@
 | Trust | Plugin | Store | Shape | Description |
 | ---: | --- | --- | --- | --- |
 | 95 | 🏆 [`act-pass`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/reasoning-metacognition/act-pass) | plugin-mall | skill | Run the 7-step Artificial Critical Thinking pass -- Materiality → Hypothesise →… |
-| 95 | 🏆 [`alex-act-core`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/reasoning-metacognition/alex-act-core) | plugin-mall | mixed | The Alex ACT baseline runtime plugin. Installs 42 reusable framework skills and… |
+| 95 | 🏆 [`alex-act-core`](https://github.com/fabioc-aloha/Alex_ACT_Core/tree/v1.0.0) | plugin-mall | mixed | The Alex ACT baseline runtime plugin. Installs 29 reusable framework skills and… |
 | 95 | 🏆 [`anti-hallucination`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/reasoning-metacognition/anti-hallucination) | plugin-mall | skill | Recognize and prevent confabulation -- when you don't know, say so. |
 | 95 | 🏆 [`appropriate-reliance`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/reasoning-metacognition/appropriate-reliance) | plugin-mall | skill | Calibrated human-AI collaboration with creative latitude -- trust calibrated to… |
 | 95 | 🏆 [`awareness`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/d0cde671605687f78cb77a3507a801d7c0bec3c9/plugins/reasoning-metacognition/awareness) | plugin-mall | skill | Proactive detection, self-correction, and epistemic vigilance |

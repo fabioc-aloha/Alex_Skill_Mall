@@ -41,6 +41,7 @@ function listCuratedPlugins(repoRoot) {
         folder: folder.name,
         pluginDir,
         manifestPath,
+        metadataPath,
       });
     }
   }
@@ -63,6 +64,34 @@ function countFiles(directory) {
   return count;
 }
 
+function requireSourceSpec(spec, pluginName) {
+  if (!spec || typeof spec !== 'object' || Array.isArray(spec)) {
+    throw new Error(`${pluginName}: delivery.source must be an object`);
+  }
+  if (spec.source !== 'github') {
+    throw new Error(`${pluginName}: delivery.source.source must be "github"`);
+  }
+  for (const field of ['repo', 'ref']) {
+    if (typeof spec[field] !== 'string' || !spec[field].trim()) {
+      throw new Error(`${pluginName}: delivery.source.${field} must be a non-empty string`);
+    }
+  }
+  const entry = { source: spec.source, repo: spec.repo, ref: spec.ref };
+  if (spec.path !== undefined) {
+    if (typeof spec.path !== 'string' || !spec.path.trim()) {
+      throw new Error(`${pluginName}: delivery.source.path must be a non-empty string`);
+    }
+    entry.path = spec.path;
+  }
+  return entry;
+}
+
+// Object sources have no natural ordering, so dedup and sort on a stable string.
+function sourceKey(source) {
+  if (typeof source === 'string') return source;
+  return `${source.repo}@${source.ref}${source.path ? `/${source.path}` : ''}`;
+}
+
 function buildEntry(plugin) {
   const manifest = readJson(plugin.manifestPath);
   const name = requireString(manifest, 'name', plugin.folder);
@@ -74,18 +103,25 @@ function buildEntry(plugin) {
     || typeof manifest.author.name !== 'string' || !manifest.author.name.trim()) {
     throw new Error(`${name}: author must be an object with a non-empty name`);
   }
-  const fileCount = countFiles(plugin.pluginDir);
-  if (fileCount > COPILOT_WINDOWS_FILE_LIMIT) {
-    throw new Error(
-      `${name}: ${fileCount} files exceed the Copilot CLI 1.0.75 Windows payload limit of ${COPILOT_WINDOWS_FILE_LIMIT}`,
-    );
+  const delivery = readJson(plugin.metadataPath).delivery;
+  const fromSource = Boolean(delivery) && delivery.mode === 'source';
+  if (!fromSource) {
+    // The limit binds only payloads the Mall vendors and installs from disk.
+    const fileCount = countFiles(plugin.pluginDir);
+    if (fileCount > COPILOT_WINDOWS_FILE_LIMIT) {
+      throw new Error(
+        `${name}: ${fileCount} files exceed the Copilot CLI 1.0.75 Windows payload limit of ${COPILOT_WINDOWS_FILE_LIMIT}`,
+      );
+    }
   }
 
   return {
     name,
     description: requireString(manifest, 'description', name),
     version: requireString(manifest, 'version', name),
-    source: ['plugins', plugin.category, plugin.folder].join('/'),
+    source: fromSource
+      ? requireSourceSpec(delivery.source, name)
+      : ['plugins', plugin.category, plugin.folder].join('/'),
     strict: true,
   };
 }
@@ -94,10 +130,11 @@ function validateEntries(entries) {
   const names = new Set();
   const sources = new Set();
   for (const entry of entries) {
+    const key = sourceKey(entry.source);
     if (names.has(entry.name)) throw new Error(`duplicate plugin name: ${entry.name}`);
-    if (sources.has(entry.source)) throw new Error(`duplicate plugin source: ${entry.source}`);
+    if (sources.has(key)) throw new Error(`duplicate plugin source: ${key}`);
     names.add(entry.name);
-    sources.add(entry.source);
+    sources.add(key);
   }
 }
 
@@ -105,7 +142,7 @@ function renderMarketplace({ repoRoot, outputPath = null } = {}) {
   if (!repoRoot) throw new Error('repoRoot is required');
   const entries = listCuratedPlugins(repoRoot)
     .map(buildEntry)
-    .sort((left, right) => left.name.localeCompare(right.name) || left.source.localeCompare(right.source));
+    .sort((left, right) => left.name.localeCompare(right.name) || sourceKey(left.source).localeCompare(sourceKey(right.source)));
   if (entries.length === 0) throw new Error('no migrated curated plugins found');
   validateEntries(entries);
 

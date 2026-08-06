@@ -1,22 +1,18 @@
 {
   "name": "alex-act-core",
-  "version": "0.9.0",
-  "description": "The Alex ACT baseline runtime plugin. Installs 42 reusable framework skills and 14 slash-command prompts covering epistemic discipline, repository workspace bootstrap, document converters, security and privacy, tooling awareness, and engineering craft. Core authors 18 instructions (17 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Install Manager with Core, then run /alex-act-manager install-constellation to bootstrap the seventeen load-bearing instructions. Public source is Alex_ACT_Core; changes remain evidence-gated before release.",
+  "version": "1.0.0",
+  "description": "The Alex ACT baseline runtime plugin. Installs 29 reusable framework skills and 14 slash-command prompts covering epistemic discipline, security and privacy, tooling awareness, and engineering craft. Core authors 17 instructions (16 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Manager owns lifecycle and the instruction bootstrap; Document Tools owns conversion. Eight Core commands remain temporary namespaced redirects.",
   "keywords": [
     "alex-act",
     "epistemic-discipline",
     "critical-thinking",
     "problem-framing-audit",
     "meditation",
-    "converters",
-    "docx-to-md",
-    "md-to-word",
-    "md-to-html",
-    "md-to-eml",
+    "alex-act-manager",
+    "alex-act-document-tools",
     "security-and-hardening",
     "systematic-debugging",
-    "test-driven-development",
-    "plugin-management"
+    "test-driven-development"
   ],
   "category": "foundation",
   "author": {
@@ -29,6 +25,5 @@
     "type": "git",
     "url": "https://github.com/fabioc-aloha/Alex_ACT_Core.git"
   },
-  "skills": "skills/",
-  "commands": "commands/"
+  "shape": "mixed"
 }

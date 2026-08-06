@@ -140,3 +140,46 @@ test('renderer rejects payloads above the Copilot CLI Windows file limit', (t) =
   );
   assert.equal(fs.existsSync(path.join(repoRoot, '.github', 'plugin', 'marketplace.json')), false);
 });
+
+function addOriginPlugin(repoRoot, delivery, name = 'origin-delivered') {
+  const target = path.join(repoRoot, 'plugins', 'platform-tooling', name);
+  fs.mkdirSync(target, { recursive: true });
+  fs.writeFileSync(path.join(target, 'plugin.json'), `${JSON.stringify({
+    name,
+    version: '1.0.0',
+    description: 'Plugin delivered from its origin repository rather than a vendored payload.',
+    author: { name: 'Fabio Correa' },
+  }, null, 2)}\n`);
+  fs.writeFileSync(path.join(target, '.mall-metadata.json'), `${JSON.stringify({ delivery }, null, 2)}\n`);
+  return target;
+}
+
+test('origin-delivered entries render an object source and skip the vendored payload limit', (t) => {
+  const repoRoot = createFixtureRepo();
+  t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
+  const { renderMarketplace } = require('../scripts/render-marketplace.cjs');
+  const source = { source: 'github', repo: 'fabioc-aloha/Alex_ACT_Core', ref: 'v1.0.0' };
+  const target = addOriginPlugin(repoRoot, { mode: 'source', source });
+  // A vendored payload this size would breach the Windows file limit; origin delivery is exempt.
+  for (let index = 0; index <= 100; index++) {
+    fs.writeFileSync(path.join(target, `${index}.txt`), 'fixture\n');
+  }
+
+  renderMarketplace({ repoRoot });
+
+  const marketplace = readJson(path.join(repoRoot, '.github', 'plugin', 'marketplace.json'));
+  const entry = marketplace.plugins.find((plugin) => plugin.name === 'origin-delivered');
+  assert.deepEqual(entry.source, source);
+  assert.equal(entry.strict, true);
+  assert.deepEqual(Object.keys(entry).filter((key) => !ENTRY_FIELDS.has(key)), []);
+});
+
+test('renderer fails closed on an incomplete origin source', (t) => {
+  const repoRoot = createFixtureRepo();
+  t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
+  const { renderMarketplace } = require('../scripts/render-marketplace.cjs');
+  addOriginPlugin(repoRoot, { mode: 'source', source: { source: 'github', repo: 'fabioc-aloha/Alex_ACT_Core' } });
+
+  assert.throws(() => renderMarketplace({ repoRoot }), /delivery\.source\.ref must be a non-empty string/);
+  assert.equal(fs.existsSync(path.join(repoRoot, '.github', 'plugin', 'marketplace.json')), false);
+});
