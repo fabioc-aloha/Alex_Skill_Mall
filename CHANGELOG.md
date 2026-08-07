@@ -8,6 +8,9 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Published
 
+- Moved Core and Illustrator origin delivery records to their verified
+  `v1.1.0` release tags. Manager, Document Tools, Enterprise, and private MSFT
+  remain at `1.0.1`; Visual Storytelling remains vendored at `1.0.1`.
 - Moved Core, Manager, Illustrator, Document Tools, and Enterprise origin
   delivery records to their verified `v1.0.1` release tags. Visual Storytelling
   remains vendored at `1.0.1`; MSFT remains private and absent from the Mall.
