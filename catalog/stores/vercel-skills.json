@@ -2,17 +2,18 @@
   "store": "vercel-skills",
   "source_repo": "https://github.com/vercel-labs/skills.git",
   "generated_at": "2026-05-29T18:48:06.323Z",
-  "scanned_ref": "1164afa5f0e21ebd01e6fc11249759353f494ad1",
+  "scanned_ref": "941a7bcfeca4bf07913b9fb6f8ed81f20ff5297c",
   "provenance": false,
   "tier": "vercel-official",
   "license": null,
+  "reference_only": true,
   "plugin_count": 1,
   "plugins": [
     {
       "name": "find-skills",
       "shape": "skill",
       "source_path": "skills/find-skills",
-      "source_url": "https://github.com/vercel-labs/skills/tree/1164afa5f0e21ebd01e6fc11249759353f494ad1/skills/find-skills",
+      "source_url": "https://github.com/vercel-labs/skills/tree/941a7bcfeca4bf07913b9fb6f8ed81f20ff5297c/skills/find-skills",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -40,8 +41,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1164afa5f0e21ebd01e6fc11249759353f494ad1",
+        "default_sha": "941a7bcfeca4bf07913b9fb6f8ed81f20ff5297c",
         "tags": [
+          "v1.5.22",
           "v1.5.21",
           "v1.5.20",
           "v1.5.19",
@@ -95,9 +97,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 27893,
-          "contributors": 124,
-          "last_commit": "2026-07-31T06:43:56Z",
+          "stars": 28543,
+          "contributors": 127,
+          "last_commit": "2026-08-09T01:58:18Z",
           "archived": false
         }
       }
@@ -111,11 +113,10 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 27893,
-      "contributors": 124,
-      "last_commit": "2026-07-31T06:43:56Z",
+      "stars": 28543,
+      "contributors": 127,
+      "last_commit": "2026-08-09T01:58:18Z",
       "archived": false
     }
-  },
-  "reference_only": true
+  }
 }
