@@ -2,17 +2,18 @@
   "store": "microsoft-skills",
   "source_repo": "https://github.com/microsoft/skills.git",
   "generated_at": "2026-07-29T00:51:00.307Z",
-  "scanned_ref": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+  "scanned_ref": "757d0aaa5d6cfc020ebf43b778095ba047eba0b6",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
+  "reference_only": false,
   "plugin_count": 3,
   "plugins": [
     {
       "name": "continual-learning",
       "shape": "hook",
       "source_path": "hooks/continual-learning",
-      "source_url": "https://github.com/microsoft/skills/tree/4a2873faffc1b101a33a0b59c24713d4ed78142f/hooks/continual-learning",
+      "source_url": "https://github.com/microsoft/skills/tree/757d0aaa5d6cfc020ebf43b778095ba047eba0b6/hooks/continual-learning",
       "readme_excerpt": "name: 'Continual Learning'",
       "frontmatter": {
         "kind": "agent-md",
@@ -47,7 +48,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+        "default_sha": "757d0aaa5d6cfc020ebf43b778095ba047eba0b6",
         "tags": []
       },
       "trust_score": 43,
@@ -61,9 +62,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2855,
-          "contributors": 29,
-          "last_commit": "2026-08-03T12:04:09Z",
+          "stars": 2873,
+          "contributors": 30,
+          "last_commit": "2026-08-10T11:22:46Z",
           "archived": false
         }
       }
@@ -72,7 +73,7 @@
       "name": "docs-site",
       "shape": "unknown",
       "source_path": "docs-site",
-      "source_url": "https://github.com/microsoft/skills/tree/4a2873faffc1b101a33a0b59c24713d4ed78142f/docs-site",
+      "source_url": "https://github.com/microsoft/skills/tree/757d0aaa5d6cfc020ebf43b778095ba047eba0b6/docs-site",
       "readme_excerpt": "npm create astro@latest -- --template minimal",
       "frontmatter": {
         "kind": "none",
@@ -97,7 +98,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+        "default_sha": "757d0aaa5d6cfc020ebf43b778095ba047eba0b6",
         "tags": []
       },
       "trust_score": 43,
@@ -111,9 +112,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2855,
-          "contributors": 29,
-          "last_commit": "2026-08-03T12:04:09Z",
+          "stars": 2873,
+          "contributors": 30,
+          "last_commit": "2026-08-10T11:22:46Z",
           "archived": false
         }
       }
@@ -122,7 +123,7 @@
       "name": "tests",
       "shape": "unknown",
       "source_path": "tests",
-      "source_url": "https://github.com/microsoft/skills/tree/4a2873faffc1b101a33a0b59c24713d4ed78142f/tests",
+      "source_url": "https://github.com/microsoft/skills/tree/757d0aaa5d6cfc020ebf43b778095ba047eba0b6/tests",
       "readme_excerpt": "pnpm install",
       "frontmatter": {
         "kind": "none",
@@ -147,7 +148,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+        "default_sha": "757d0aaa5d6cfc020ebf43b778095ba047eba0b6",
         "tags": []
       },
       "trust_score": 41,
@@ -161,9 +162,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2855,
-          "contributors": 29,
-          "last_commit": "2026-08-03T12:04:09Z",
+          "stars": 2873,
+          "contributors": 30,
+          "last_commit": "2026-08-10T11:22:46Z",
           "archived": false
         }
       }
@@ -177,11 +178,10 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 2855,
-      "contributors": 29,
-      "last_commit": "2026-08-03T12:04:09Z",
+      "stars": 2873,
+      "contributors": 30,
+      "last_commit": "2026-08-10T11:22:46Z",
       "archived": false
     }
-  },
-  "reference_only": false
+  }
 }

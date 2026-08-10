@@ -2,17 +2,18 @@
   "store": "azure-git-ape",
   "source_repo": "https://github.com/Azure/git-ape.git",
   "generated_at": "2026-07-29T01:14:39.516Z",
-  "scanned_ref": "dde02eeabeed0a3aa9024c5ee0ed48d29d063777",
+  "scanned_ref": "a5384a290ce78079e8123694620c8eb2c6371f0f",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
+  "reference_only": false,
   "plugin_count": 3,
   "plugins": [
     {
       "name": "extension",
       "shape": "unknown",
       "source_path": "extension",
-      "source_url": "https://github.com/Azure/git-ape/tree/dde02eeabeed0a3aa9024c5ee0ed48d29d063777/extension",
+      "source_url": "https://github.com/Azure/git-ape/tree/a5384a290ce78079e8123694620c8eb2c6371f0f/extension",
       "readme_excerpt": "> **EXPERIMENTAL.** Git-Ape is in active development and is not production-ready.",
       "frontmatter": {
         "kind": "none",
@@ -37,7 +38,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "dde02eeabeed0a3aa9024c5ee0ed48d29d063777",
+        "default_sha": "a5384a290ce78079e8123694620c8eb2c6371f0f",
         "tags": [
           "v0.3.0",
           "v0.2.0",
@@ -59,9 +60,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 265,
+          "stars": 267,
           "contributors": 9,
-          "last_commit": "2026-08-02T01:30:19Z",
+          "last_commit": "2026-08-10T06:13:29Z",
           "archived": false
         }
       }
@@ -70,7 +71,7 @@
       "name": "website",
       "shape": "unknown",
       "source_path": "website",
-      "source_url": "https://github.com/Azure/git-ape/tree/dde02eeabeed0a3aa9024c5ee0ed48d29d063777/website",
+      "source_url": "https://github.com/Azure/git-ape/tree/a5384a290ce78079e8123694620c8eb2c6371f0f/website",
       "readme_excerpt": "This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.",
       "frontmatter": {
         "kind": "none",
@@ -95,7 +96,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "dde02eeabeed0a3aa9024c5ee0ed48d29d063777",
+        "default_sha": "a5384a290ce78079e8123694620c8eb2c6371f0f",
         "tags": [
           "v0.3.0",
           "v0.2.0",
@@ -117,9 +118,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 265,
+          "stars": 267,
           "contributors": 9,
-          "last_commit": "2026-08-02T01:30:19Z",
+          "last_commit": "2026-08-10T06:13:29Z",
           "archived": false
         }
       }
@@ -128,7 +129,7 @@
       "name": "workshops",
       "shape": "unknown",
       "source_path": "workshops",
-      "source_url": "https://github.com/Azure/git-ape/tree/dde02eeabeed0a3aa9024c5ee0ed48d29d063777/workshops",
+      "source_url": "https://github.com/Azure/git-ape/tree/a5384a290ce78079e8123694620c8eb2c6371f0f/workshops",
       "readme_excerpt": "> AI-Powered Cloud Deployment for Everyone",
       "frontmatter": {
         "kind": "none",
@@ -153,7 +154,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "dde02eeabeed0a3aa9024c5ee0ed48d29d063777",
+        "default_sha": "a5384a290ce78079e8123694620c8eb2c6371f0f",
         "tags": [
           "v0.3.0",
           "v0.2.0",
@@ -175,9 +176,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 265,
+          "stars": 267,
           "contributors": 9,
-          "last_commit": "2026-08-02T01:30:19Z",
+          "last_commit": "2026-08-10T06:13:29Z",
           "archived": false
         }
       }
@@ -191,11 +192,10 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 265,
+      "stars": 267,
       "contributors": 9,
-      "last_commit": "2026-08-02T01:30:19Z",
+      "last_commit": "2026-08-10T06:13:29Z",
       "archived": false
     }
-  },
-  "reference_only": false
+  }
 }
