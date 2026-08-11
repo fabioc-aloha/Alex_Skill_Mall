@@ -1,29 +1,51 @@
 {
-    "name": "alex-act-ai-operations",
-    "version": "0.1.0",
-    "description": "Optional AI provider operations plugin for model discovery, explainable task planning, explicit consent, and execution through Foundry, Replicate, Hugging Face, and ElevenLabs. Installs separately from the Alex ACT brain spine.",
-    "keywords": [
-        "alex-act",
-        "ai-operations",
-        "model-router",
-        "model-selection",
-        "provider-routing",
-        "foundry",
-        "replicate",
-        "hugging-face",
-        "elevenlabs",
-        "mcp"
-    ],
-    "category": "ai-agents",
-    "author": {
-        "name": "Fabio Correa",
-        "url": "https://github.com/fabioc-aloha"
+  "name": "alex-act-ai-operations",
+  "version": "0.2.0",
+  "description": "Optional AI provider operations plugin for model discovery, explainable task planning, explicit consent, and execution through Foundry, Hugging Face, and ElevenLabs. Installs separately from the Alex ACT brain spine.",
+  "keywords": [
+    "alex-act",
+    "ai-operations",
+    "model-router",
+    "model-selection",
+    "provider-routing",
+    "hugging-face",
+    "elevenlabs",
+    "foundry",
+    "mcp"
+  ],
+  "category": "ai-agents",
+  "author": {
+    "name": "Fabio Correa",
+    "url": "https://github.com/fabioc-aloha"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fabioc-aloha/Alex_ACT_AI_Operations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabioc-aloha/Alex_ACT_AI_Operations.git"
+  },
+  "skills": "skills/",
+  "commands": "commands/",
+  "mcpServers": {
+    "aiops-huggingface": {
+      "type": "http",
+      "url": "https://huggingface.co/mcp?login"
     },
-    "license": "MIT",
-    "homepage": "https://github.com/fabioc-aloha/Alex_ACT_AI_Operations",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/fabioc-aloha/Alex_ACT_AI_Operations.git"
+    "aiops-elevenlabs": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        ".github/skills/setup-ai-operations/scripts/runtime-launcher.mjs",
+        "elevenlabs"
+      ],
+      "env": {
+        "ELEVENLABS_API_KEY": "${env:ELEVENLABS_API_KEY}",
+        "ELEVENLABS_MCP_OUTPUT_MODE": "resources"
+      }
     },
-    "shape": "mixed"
+    "aiops-foundry": {
+      "type": "http",
+      "url": "https://mcp.ai.azure.com"
+    }
+  }
 }
