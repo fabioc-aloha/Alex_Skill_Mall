@@ -135,6 +135,17 @@
       "strict": true
     },
     {
+      "name": "alex-act-ai-operations",
+      "description": "Optional AI provider operations plugin for model discovery, explainable task planning, explicit consent, and execution through Foundry, Replicate, Hugging Face, and ElevenLabs. Installs separately from the Alex ACT brain spine.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "fabioc-aloha/Alex_ACT_AI_Operations",
+        "ref": "v0.1.0"
+      },
+      "strict": true
+    },
+    {
       "name": "alex-act-core",
       "description": "The Alex ACT baseline runtime plugin. Installs 29 reusable framework skills and 14 slash-command prompts covering epistemic discipline, security and privacy, tooling awareness, and engineering craft. Core authors 17 instructions (16 always-on, 1 pattern-applied), including the Alex Finch runtime personality contract. Manager owns lifecycle and the instruction bootstrap; Document Tools owns conversion. Eight Core commands remain temporary namespaced redirects.",
       "version": "1.1.0",

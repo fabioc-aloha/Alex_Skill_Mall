@@ -8,6 +8,10 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Published
 
+- Published `alex-act-ai-operations` v0.1.0 from the immutable
+  `fabioc-aloha/Alex_ACT_AI_Operations` tag. The optional plugin provides
+  provider-neutral planning and consent-gated execution across Microsoft
+  Foundry, Replicate, Hugging Face, and ElevenLabs.
 - Moved Core and Illustrator origin delivery records to their verified
   `v1.1.0` release tags. Manager, Document Tools, Enterprise, and private MSFT
   remain at `1.0.1`; Visual Storytelling remains vendored at `1.0.1`.

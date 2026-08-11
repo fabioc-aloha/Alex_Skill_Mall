@@ -1,0 +1,19 @@
+{
+    "schema": "mall-plugin-metadata/2.0",
+    "provenance": "first-party",
+    "delivery": {
+        "mode": "source",
+        "adr": "ADR-023",
+        "reason": "Delivered from the origin repository at a release tag, so the Mall keeps no vendored copy that can drift from source.",
+        "source": {
+            "source": "github",
+            "repo": "fabioc-aloha/Alex_ACT_AI_Operations",
+            "ref": "v0.1.0"
+        }
+    },
+    "upstream": {
+        "repo": "https://github.com/fabioc-aloha/Alex_ACT_AI_Operations",
+        "license": "MIT",
+        "ref": "v0.1.0"
+    }
+}
