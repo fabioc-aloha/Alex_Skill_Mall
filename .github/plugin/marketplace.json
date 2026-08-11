@@ -169,23 +169,23 @@
     },
     {
       "name": "alex-act-illustrator-plugin",
-      "description": "Visual-authoring bundle for AI agents. Eleven skills across five feature areas plus install composition: Flint charts, print-quality SVG figures, Replicate imagery, browsable documentation shells, branded SVG banners, corpus-scale QA, and consent-gated visual companions. Shared framing and verification apply across all authoring paths.",
-      "version": "1.1.0",
+      "description": "Visual-authoring bundle for AI agents. Twelve skills across five feature areas plus install composition and runtime setup: Flint charts, print-quality SVG figures, Replicate imagery, browsable documentation shells, branded SVG banners, corpus-scale QA, consent-gated visual companions, and configured-registry MCP provisioning.",
+      "version": "2.0.0",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/Alex_ACT_Illustrator_Plugin",
-        "ref": "v1.1.0"
+        "ref": "v2.0.0"
       },
       "strict": true
     },
     {
       "name": "alex-act-manager",
       "description": "Lifecycle control plane for the Alex ACT constellation. Installs and globally enables selected plugins, repairs Core, bootstraps Core-owned instructions, audits exact versions, updates and removes plugins with explicit consent, configures VS Code, and bootstraps repository workspace files. Use for setup, status, repair, update, or teardown rather than ordinary reasoning work.",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/Alex_ACT_Manager",
-        "ref": "v1.0.1"
+        "ref": "v1.1.0"
       },
       "strict": true
     },
