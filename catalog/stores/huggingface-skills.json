@@ -1,0 +1,1370 @@
+{
+  "store": "huggingface-skills",
+  "source_repo": "https://github.com/huggingface/skills.git",
+  "generated_at": "2026-08-11T13:29:09.945Z",
+  "scanned_ref": "ec0108293521ef698e451ec044e8b4feba6b732b",
+  "provenance": false,
+  "tier": "huggingface-official",
+  "license": "Apache-2.0",
+  "reference_only": false,
+  "plugin_count": 25,
+  "plugins": [
+    {
+      "name": "hf-cli",
+      "shape": "skill",
+      "source_path": "skills/hf-cli",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/hf-cli",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hf-cli",
+          "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging Face infrastructure; managing Hugging Face repos; discussions and pull requests; browsing models, datasets and spaces; reading, searching, or browsing academic papers; managing collections; querying datasets; configuring spaces; setting up webhooks; or deploying and managing HF Inference Endpoints. Make sure to use this skill whenever the user mentions 'hf', 'huggingface', 'Hugging Face', 'huggingface-cli', or 'hugging face cli', or wants to do anything related to the Hugging Face ecosystem and to AI and ML in general. Also use for cloud storage needs like training checkpoints, data pipelines, or agent traces. Use even if the user doesn't explicitly ask for a CLI command. Replaces the deprecated `huggingface-cli`."
+        },
+        "standard": {
+          "name": "hf-cli",
+          "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging Face infrastructure; managing Hugging Face repos; discussions and pull requests; browsing models, datasets and spaces; reading, searching, or browsing academic papers; managing collections; querying datasets; configuring spaces; setting up webhooks; or deploying and managing HF Inference Endpoints. Make sure to use this skill whenever the user mentions 'hf', 'huggingface', 'Hugging Face', 'huggingface-cli', or 'hugging face cli', or wants to do anything related to the Hugging Face ecosystem and to AI and ML in general. Also use for cloud storage needs like training checkpoints, data pipelines, or agent traces. Use even if the user doesn't explicitly ask for a CLI command. Replaces the deprecated `huggingface-cli`.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hf-cloud-aws-context-discovery",
+      "shape": "skill",
+      "source_path": "skills/hf-cloud-aws-context-discovery",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/hf-cloud-aws-context-discovery",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hf-cloud-aws-context-discovery",
+          "description": "Discover the user's local AWS context (active profile, region, account ID, caller identity) at the start of any AWS task. Use this skill before any other AWS work — deploying to SageMaker, creating resources, calling AWS APIs, or anything that touches an AWS account. Use it especially when the user has not specified a region or profile explicitly, when they say things like \"use my AWS account\", \"deploy to AWS\", \"use my profile\", or when about to make any AWS CLI or SDK call. Never guess the region or account ID — always use this skill to read it from the local configuration first."
+        },
+        "standard": {
+          "name": "hf-cloud-aws-context-discovery",
+          "description": "Discover the user's local AWS context (active profile, region, account ID, caller identity) at the start of any AWS task. Use this skill before any other AWS work — deploying to SageMaker, creating resources, calling AWS APIs, or anything that touches an AWS account. Use it especially when the user has not specified a region or profile explicitly, when they say things like \"use my AWS account\", \"deploy to AWS\", \"use my profile\", or when about to make any AWS CLI or SDK call. Never guess the region or account ID — always use this skill to read it from the local configuration first.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hf-cloud-python-env-setup",
+      "shape": "skill",
+      "source_path": "skills/hf-cloud-python-env-setup",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/hf-cloud-python-env-setup",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hf-cloud-python-env-setup",
+          "description": "Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for a SageMaker deployment, training job, or any AWS automation — including when about to run `pip install`, when about to invoke `boto3`, when creating or activating a virtualenv, or when the user asks to \"set up the environment\". Never use system Python and never `pip install` into it. Always isolate. This skill prevents the most common failure modes: wrong Python version, dependency conflicts, and stale SDKs."
+        },
+        "standard": {
+          "name": "hf-cloud-python-env-setup",
+          "description": "Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for a SageMaker deployment, training job, or any AWS automation — including when about to run `pip install`, when about to invoke `boto3`, when creating or activating a virtualenv, or when the user asks to \"set up the environment\". Never use system Python and never `pip install` into it. Always isolate. This skill prevents the most common failure modes: wrong Python version, dependency conflicts, and stale SDKs.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hf-cloud-sagemaker-deployment-planner",
+      "shape": "skill",
+      "source_path": "skills/hf-cloud-sagemaker-deployment-planner",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/hf-cloud-sagemaker-deployment-planner",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hf-cloud-sagemaker-deployment-planner",
+          "description": "Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model on SageMaker or AWS — including phrases like \"deploy a model\", \"host this LLM on AWS\", \"serve this embedding model\", \"deploy a reranker\", \"deploy a text-to-image / diffusion model\", \"host this for async inference\", \"create an endpoint\", \"serve my fine-tuned model\", or any request that involves making a model available for inference on AWS. Use this even when the user is vague (e.g. \"I just want to get this running on AWS, you figure it out\"). Works for text-generation LLMs, embedding models, rerankers, classifiers, text-to-image / diffusion models — picks the right serving stack and chooses between real-time and async inference. This is the entry-point skill for SageMaker deployment work — it asks clarifying questions, picks a deployment pathway, and coordinates the other deployment skills."
+        },
+        "standard": {
+          "name": "hf-cloud-sagemaker-deployment-planner",
+          "description": "Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model on SageMaker or AWS — including phrases like \"deploy a model\", \"host this LLM on AWS\", \"serve this embedding model\", \"deploy a reranker\", \"deploy a text-to-image / diffusion model\", \"host this for async inference\", \"create an endpoint\", \"serve my fine-tuned model\", or any request that involves making a model available for inference on AWS. Use this even when the user is vague (e.g. \"I just want to get this running on AWS, you figure it out\"). Works for text-generation LLMs, embedding models, rerankers, classifiers, text-to-image / diffusion models — picks the right serving stack and chooses between real-time and async inference. This is the entry-point skill for SageMaker deployment work — it asks clarifying questions, picks a deployment pathway, and coordinates the other deployment skills.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hf-cloud-sagemaker-iam-preflight",
+      "shape": "skill",
+      "source_path": "skills/hf-cloud-sagemaker-iam-preflight",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/hf-cloud-sagemaker-iam-preflight",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hf-cloud-sagemaker-iam-preflight",
+          "description": "Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, training job, or any resource that requires an execution role. Use it especially when the user has not provided a role ARN explicitly, when scripts are about to call `iam:CreateRole`, or when an AccessDenied error mentions an IAM action. Never blindly call `iam:CreateRole` — always check for existing roles first. This skill prevents the most common SageMaker deployment failure: trying to create IAM resources from an SSO principal that has no IAM write permissions."
+        },
+        "standard": {
+          "name": "hf-cloud-sagemaker-iam-preflight",
+          "description": "Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, training job, or any resource that requires an execution role. Use it especially when the user has not provided a role ARN explicitly, when scripts are about to call `iam:CreateRole`, or when an AccessDenied error mentions an IAM action. Never blindly call `iam:CreateRole` — always check for existing roles first. This skill prevents the most common SageMaker deployment failure: trying to create IAM resources from an SSO principal that has no IAM write permissions.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hf-cloud-sagemaker-production-defaults",
+      "shape": "skill",
+      "source_path": "skills/hf-cloud-sagemaker-production-defaults",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/hf-cloud-sagemaker-production-defaults",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hf-cloud-sagemaker-production-defaults",
+          "description": "Create a SageMaker endpoint (real-time, real-time scale-to-zero, or async) with autoscaling, CloudWatch alarms, and tagging enabled by default. Use this skill whenever about to create a SageMaker endpoint, write deployment code that calls `create_endpoint`, or finalize a deployment after the image URI and IAM role are known. Provides deploy.py for real-time endpoints, deploy_ic.py for real-time endpoints that scale to zero instances via inference components, and deploy_async.py for async endpoints (also scale-to-zero). This is the last step in the SageMaker deployment workflow. Never generate a bare `create_endpoint` call without these defaults — endpoints without autoscaling or alarms are demos, not deployments."
+        },
+        "standard": {
+          "name": "hf-cloud-sagemaker-production-defaults",
+          "description": "Create a SageMaker endpoint (real-time, real-time scale-to-zero, or async) with autoscaling, CloudWatch alarms, and tagging enabled by default. Use this skill whenever about to create a SageMaker endpoint, write deployment code that calls `create_endpoint`, or finalize a deployment after the image URI and IAM role are known. Provides deploy.py for real-time endpoints, deploy_ic.py for real-time endpoints that scale to zero instances via inference components, and deploy_async.py for async endpoints (also scale-to-zero). This is the last step in the SageMaker deployment workflow. Never generate a bare `create_endpoint` call without these defaults — endpoints without autoscaling or alarms are demos, not deployments.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hf-cloud-serving-image-selection",
+      "shape": "skill",
+      "source_path": "skills/hf-cloud-serving-image-selection",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/hf-cloud-serving-image-selection",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hf-cloud-serving-image-selection",
+          "description": "Pick the right serving container for a SageMaker model deployment and find its current image URI. Use this skill whenever about to deploy a model to a SageMaker endpoint and an image URI needs to be chosen — including when the user says \"deploy this LLM\", \"host this HuggingFace model\", \"serve this fine-tuned model\", \"deploy this embedding model\", \"host a reranker\", \"serve a sentence-transformers model\", or when about to hardcode any container URI in deployment code. HuggingFace-curated Deep Learning Containers are ALWAYS preferred: HuggingFace vLLM (LLMs and generative rerankers), HuggingFace vLLM-Omni (multimodal), TEI (embeddings/cross-encoder rerankers), HF Inference Toolkit (other transformers). Generic images (AWS vLLM, DJL-LMI, SGLang) are used only when no HuggingFace image is compatible — never merely because they carry a newer version. Never hardcode a container URI from memory and never default to TGI. Prevents stale-image failures and wrong-region URIs."
+        },
+        "standard": {
+          "name": "hf-cloud-serving-image-selection",
+          "description": "Pick the right serving container for a SageMaker model deployment and find its current image URI. Use this skill whenever about to deploy a model to a SageMaker endpoint and an image URI needs to be chosen — including when the user says \"deploy this LLM\", \"host this HuggingFace model\", \"serve this fine-tuned model\", \"deploy this embedding model\", \"host a reranker\", \"serve a sentence-transformers model\", or when about to hardcode any container URI in deployment code. HuggingFace-curated Deep Learning Containers are ALWAYS preferred: HuggingFace vLLM (LLMs and generative rerankers), HuggingFace vLLM-Omni (multimodal), TEI (embeddings/cross-encoder rerankers), HF Inference Toolkit (other transformers). Generic images (AWS vLLM, DJL-LMI, SGLang) are used only when no HuggingFace image is compatible — never merely because they carry a newer version. Never hardcode a container URI from memory and never default to TGI. Prevents stale-image failures and wrong-region URIs.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hf-mem",
+      "shape": "skill",
+      "source_path": "skills/hf-mem",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/hf-mem",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "hf-mem",
+          "description": "Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub"
+        },
+        "standard": {
+          "name": "hf-mem",
+          "description": "Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-best",
+      "shape": "skill",
+      "source_path": "skills/huggingface-best",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-best",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-best",
+          "description": "Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores. Triggers on: \"best model for X\", \"what model should I use for\", \"top models for [task]\", \"which model runs on my laptop/machine/device\", \"recommend a model for\", \"what LLM should I use for\", \"compare models for\", \"what's state of the art for\", or any question about choosing an AI model for a specific use case. Always use this skill when the user wants model recommendations or comparisons, even if they don't explicitly mention HuggingFace or benchmarks."
+        },
+        "standard": {
+          "name": "huggingface-best",
+          "description": "Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores. Triggers on: \"best model for X\", \"what model should I use for\", \"top models for [task]\", \"which model runs on my laptop/machine/device\", \"recommend a model for\", \"what LLM should I use for\", \"compare models for\", \"what's state of the art for\", or any question about choosing an AI model for a specific use case. Always use this skill when the user wants model recommendations or comparisons, even if they don't explicitly mention HuggingFace or benchmarks.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-community-evals",
+      "shape": "skill",
+      "source_path": "skills/huggingface-community-evals",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-community-evals",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-community-evals",
+          "description": "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation."
+        },
+        "standard": {
+          "name": "huggingface-community-evals",
+          "description": "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-datasets",
+      "shape": "skill",
+      "source_path": "skills/huggingface-datasets",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-datasets",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-datasets",
+          "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics."
+        },
+        "standard": {
+          "name": "huggingface-datasets",
+          "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-gradio",
+      "shape": "skill",
+      "source_path": "skills/huggingface-gradio",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-gradio",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-gradio",
+          "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots."
+        },
+        "standard": {
+          "name": "huggingface-gradio",
+          "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-llm-trainer",
+      "shape": "skill",
+      "source_path": "skills/huggingface-llm-trainer",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-llm-trainer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-llm-trainer",
+          "description": "Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.",
+          "license": "Complete terms in LICENSE.txt"
+        },
+        "standard": {
+          "name": "huggingface-llm-trainer",
+          "description": "Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Complete terms in LICENSE.txt",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-local-models",
+      "shape": "skill",
+      "source_path": "skills/huggingface-local-models",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-local-models",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-local-models",
+          "description": "Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving."
+        },
+        "standard": {
+          "name": "huggingface-local-models",
+          "description": "Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-lora-space-builder",
+      "shape": "skill",
+      "source_path": "skills/huggingface-lora-space-builder",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-lora-space-builder",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-lora-space-builder",
+          "description": "Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks to create, generate, ship, or publish a Space, demo, Gradio app, or playground for a LoRA — including LoRAs for Qwen-Image, Qwen-Image-Edit, LTX-Video, Wan, FLUX, SDXL, or other diffusion base models. Also triggers when someone describes a LoRA they trained or hosts on the Hub and wants to share it. Covers picking the right base pipeline and `diffusers` inference recipe, designing a UI tailored to the LoRA's task and inputs (Union/multi-task control, edit, video, image, etc.), respecting model-card recommendations (trigger words, steps, guidance, LoRA scale, example inputs), and shipping to ZeroGPU hardware as a private Space by default."
+        },
+        "standard": {
+          "name": "huggingface-lora-space-builder",
+          "description": "Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks to create, generate, ship, or publish a Space, demo, Gradio app, or playground for a LoRA — including LoRAs for Qwen-Image, Qwen-Image-Edit, LTX-Video, Wan, FLUX, SDXL, or other diffusion base models. Also triggers when someone describes a LoRA they trained or hosts on the Hub and wants to share it. Covers picking the right base pipeline and `diffusers` inference recipe, designing a UI tailored to the LoRA's task and inputs (Union/multi-task control, edit, video, image, etc.), respecting model-card recommendations (trigger words, steps, guidance, LoRA scale, example inputs), and shipping to ZeroGPU hardware as a private Space by default.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-paper-publisher",
+      "shape": "skill",
+      "source_path": "skills/huggingface-paper-publisher",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-paper-publisher",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-paper-publisher",
+          "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles."
+        },
+        "standard": {
+          "name": "huggingface-paper-publisher",
+          "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-papers",
+      "shape": "skill",
+      "source_path": "skills/huggingface-papers",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-papers",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-papers",
+          "description": "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper."
+        },
+        "standard": {
+          "name": "huggingface-papers",
+          "description": "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-spaces",
+      "shape": "skill",
+      "source_path": "skills/huggingface-spaces",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-spaces",
+      "readme_excerpt": "To add the Hugging Face Space creation skill for your agent, [Install the hf CLI](https://huggingface.co/docs/huggingface_hub/guides/cli#getting-started), login with `hf auth login` and run",
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-spaces",
+          "description": "Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants. Use whenever the user asks to create or host an app on Hugging Face, port code onto ZeroGPU, fix a Space that won't build or run, or otherwise work with `hf spaces …`, `@spaces.GPU`, Space README frontmatter, or the `spaces` Python package."
+        },
+        "standard": {
+          "name": "huggingface-spaces",
+          "description": "Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants. Use whenever the user asks to create or host an app on Hugging Face, port code onto ZeroGPU, fix a Space that won't build or run, or otherwise work with `hf spaces …`, `@spaces.GPU`, Space README frontmatter, or the `spaces` Python package.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-tool-builder",
+      "shape": "skill",
+      "source_path": "skills/huggingface-tool-builder",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-tool-builder",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-tool-builder",
+          "description": "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data."
+        },
+        "standard": {
+          "name": "huggingface-tool-builder",
+          "description": "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-trackio",
+      "shape": "skill",
+      "source_path": "skills/huggingface-trackio",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-trackio",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-trackio",
+          "description": "Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation."
+        },
+        "standard": {
+          "name": "huggingface-trackio",
+          "description": "Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-vision-trainer",
+      "shape": "skill",
+      "source_path": "skills/huggingface-vision-trainer",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-vision-trainer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-vision-trainer",
+          "description": "Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs."
+        },
+        "standard": {
+          "name": "huggingface-vision-trainer",
+          "description": "Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "huggingface-zerogpu",
+      "shape": "skill",
+      "source_path": "skills/huggingface-zerogpu",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/huggingface-zerogpu",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "huggingface-zerogpu",
+          "description": "AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or reviewing code that uses `@spaces.GPU`, configuring `python_version` or `requirements.txt` for a ZeroGPU Space, or handling ZeroGPU-specific code constraints — pickle-based process isolation, `gr.State` semantics across the worker boundary, no `torch.compile` (use AoTI instead), CUDA wheel-only builds (no `nvcc` at build or runtime), large vs xlarge sizing, and dynamic duration callables. Make sure to use this skill whenever the user mentions ZeroGPU, `@spaces.GPU`, or the `spaces` Python package, or hits ZeroGPU-specific code errors like `PicklingError` across the worker boundary, `illegal duration`, or `flash-attn` wheel-build failures — even when the user does not explicitly ask for ZeroGPU coding guidance. Trigger on `import spaces` or `@spaces.GPU` in code."
+        },
+        "standard": {
+          "name": "huggingface-zerogpu",
+          "description": "AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or reviewing code that uses `@spaces.GPU`, configuring `python_version` or `requirements.txt` for a ZeroGPU Space, or handling ZeroGPU-specific code constraints — pickle-based process isolation, `gr.State` semantics across the worker boundary, no `torch.compile` (use AoTI instead), CUDA wheel-only builds (no `nvcc` at build or runtime), large vs xlarge sizing, and dynamic duration callables. Make sure to use this skill whenever the user mentions ZeroGPU, `@spaces.GPU`, or the `spaces` Python package, or hits ZeroGPU-specific code errors like `PicklingError` across the worker boundary, `illegal duration`, or `flash-attn` wheel-build failures — even when the user does not explicitly ask for ZeroGPU coding guidance. Trigger on `import spaces` or `@spaces.GPU` in code.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "train-sentence-transformers",
+      "shape": "skill",
+      "source_path": "skills/train-sentence-transformers",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/train-sentence-transformers",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "train-sentence-transformers",
+          "description": "Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder; dense or static embedding model; for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal), `CrossEncoder` (reranker; pair scoring for two-stage retrieval / pair classification), and `SparseEncoder` (SPLADE, sparse embedding model; for learned-sparse retrieval). Covers loss selection, hard-negative mining, evaluators, distillation, LoRA, Matryoshka, and Hugging Face Hub publishing. Use for any sentence-transformers training task."
+        },
+        "standard": {
+          "name": "train-sentence-transformers",
+          "description": "Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder; dense or static embedding model; for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal), `CrossEncoder` (reranker; pair scoring for two-stage retrieval / pair classification), and `SparseEncoder` (SPLADE, sparse embedding model; for learned-sparse retrieval). Covers loss selection, hard-negative mining, evaluators, distillation, LoRA, Matryoshka, and Hugging Face Hub publishing. Use for any sentence-transformers training task.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "transformers-js",
+      "shape": "skill",
+      "source_path": "skills/transformers-js",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/transformers-js",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "transformers-js",
+          "description": "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and multimodal tasks. Works in browsers and server-side runtimes (Node.js, Bun, Deno) with WebGPU/WASM using pre-trained models from Hugging Face Hub.",
+          "license": "Apache-2.0",
+          "metadata": {
+            "author": "huggingface",
+            "version": "4.x",
+            "category": "machine-learning",
+            "repository": "https://github.com/huggingface/transformers.js"
+          },
+          "compatibility": "Requires Node.js 18+ (or compatible Bun/Deno runtime) or modern browser with ES modules support. WebGPU requires runtime and hardware support; WASM is the broad fallback. Internet access is needed for downloading models from Hugging Face Hub (optional if using local models)."
+        },
+        "standard": {
+          "name": "transformers-js",
+          "description": "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and multimodal tasks. Works in browsers and server-side runtimes (Node.js, Bun, Deno) with WebGPU/WASM using pre-trained models from Hugging Face Hub.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "trl-training",
+      "shape": "skill",
+      "source_path": "skills/trl-training",
+      "source_url": "https://github.com/huggingface/skills/tree/ec0108293521ef698e451ec044e8b4feba6b732b/skills/trl-training",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "trl-training",
+          "description": "Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training via CLI commands.",
+          "license": "Apache-2.0",
+          "metadata": {
+            "version": "1.0.0",
+            "author": "huggingface",
+            "commands": "trl sft, trl dpo, trl grpo, trl kto, trl rloo, trl reward",
+            "categories": "machine-learning, llm-training, reinforcement-learning",
+            "tags": "rlhf, supervised-fine-tuning, dpo, grpo, huggingface, transformers",
+            "documentation": "https://huggingface.co/docs/trl/en/clis"
+          }
+        },
+        "standard": {
+          "name": "trl-training",
+          "description": "Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training via CLI commands.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "ec0108293521ef698e451ec044e8b4feba6b732b",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 10913,
+          "contributors": 43,
+          "last_commit": "2026-08-11T10:44:02Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 35,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 10,
+      "license": 10,
+      "license_name": "Apache-2.0",
+      "stars": 10913,
+      "contributors": 43,
+      "last_commit": "2026-08-11T10:44:02Z",
+      "archived": false
+    }
+  }
+}

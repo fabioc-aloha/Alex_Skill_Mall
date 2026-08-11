@@ -1,7 +1,7 @@
 {
   "store": "mongodb-agent-skills",
   "source_repo": "https://github.com/mongodb/agent-skills.git",
-  "generated_at": "2026-07-29T01:14:40.820Z",
+  "generated_at": "2026-08-11T13:29:10.916Z",
   "scanned_ref": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
   "provenance": false,
   "tier": "mongodb-official",
@@ -58,7 +58,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -112,7 +112,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -129,7 +129,10 @@
           "name": "mongodb-atlas-stream-processing",
           "description": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections, processor lifecycle operations, debugging diagnostics, and tier sizing. Supports Kafka, Atlas clusters, S3, HTTPS, and Lambda integrations for streaming data workloads and event processing. NOT for general MongoDB queries or Atlas cluster management. Requires MongoDB MCP Server with Atlas API credentials.",
           "license": "Apache-2.0",
-          "metadata": ""
+          "metadata": {
+            "version": "1.0.0",
+            "user-invocable": "true"
+          }
         },
         "standard": {
           "name": "mongodb-atlas-stream-processing",
@@ -171,7 +174,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -188,7 +191,9 @@
           "name": "mongodb-connection",
           "description": "Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driver language. Use this skill when working/updating/reviewing on functions that instantiate or configure a MongoDB client (eg, when calling `connect()`), configuring connection pools, troubleshooting connection errors (ECONNREFUSED, timeouts, pool exhaustion), optimizing performance issues related to connections. This includes scenarios like building serverless functions with MongoDB, creating API endpoints that use MongoDB, optimizing high-traffic MongoDB applications, creating long-running tasks and concurrency, or debugging connection-related failures.",
           "license": "Apache-2.0",
-          "metadata": ""
+          "metadata": {
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "mongodb-connection",
@@ -230,7 +235,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -247,7 +252,9 @@
           "name": "mongodb-mcp-setup",
           "description": "Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the MongoDB MCP server installed but hasn't configured the required environment variables, or when they ask about connecting to MongoDB/Atlas and don't have the credentials set up.",
           "license": "Apache-2.0",
-          "metadata": ""
+          "metadata": {
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "mongodb-mcp-setup",
@@ -289,7 +296,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -306,7 +313,9 @@
           "name": "mongodb-natural-language-querying",
           "description": "Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with collection schema context and sample documents. Use this skill whenever the user asks to write, create, or generate MongoDB queries, wants to filter/query/aggregate data in MongoDB, asks \"how do I query...\", needs help with query syntax, or discusses finding/filtering/grouping MongoDB documents. Also use for translating SQL-like requests to MongoDB syntax. Does NOT handle Atlas Search ($search operator), vector/semantic search ($vectorSearch operator), fuzzy matching, autocomplete indexes, or relevance scoring - use search-and-ai for those. Does NOT analyze or optimize existing queries - use mongodb-query-optimizer for that. Does NOT handle aggregation pipelines that involve write operations. Requires MongoDB MCP server.",
           "license": "Apache-2.0",
-          "metadata": "",
+          "metadata": {
+            "version": "1.0.0"
+          },
           "allowed-tools": "mcp__mongodb__*"
         },
         "standard": {
@@ -351,7 +360,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -366,14 +375,16 @@
         "kind": "skill-md",
         "raw": {
           "name": "mongodb-query-optimizer",
-          "description": "",
-          "compatibility": "",
+          "description": "Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do I optimize this query?\", \"How do I index this?\", \"Why is this query slow?\", \"Can you fix my slow queries?\", \"What are the slow queries on my cluster?\", etc. Do not invoke for general MongoDB query writing unless user asks for performance or index help. Prefer indexing as optimization strategy. Use MongoDB MCP when available.",
+          "compatibility": "Best with MongoDB MCP server. Uses collection-indexes and explain when the connection string works; uses Atlas Performance Advisor when Atlas API is configured. Without either, suggest indexes from query shape only. User creates indexes in Atlas or migrations unless tooling allows otherwise.",
           "license": "Apache-2.0",
-          "metadata": ""
+          "metadata": {
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "mongodb-query-optimizer",
-          "description": null,
+          "description": "Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do I optimize this query?\", \"How do I index this?\", \"Why is this query slow?\", \"Can you fix my slow queries?\", \"What are the slow queries on my cluster?\", etc. Do not invoke for general MongoDB query writing unless user asks for performance or index help. Prefer indexing as optimization strategy. Use MongoDB MCP when available.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -398,10 +409,10 @@
           "v0.5.0"
         ]
       },
-      "trust_score": 30,
+      "trust_score": 35,
       "trust_signals": {
         "store": 30,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -411,7 +422,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -428,7 +439,9 @@
           "name": "mongodb-schema-design",
           "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL, or troubleshooting performance issues caused by schema problems. Triggers on \"design schema\", \"embed vs reference\", \"MongoDB data model\", \"schema review\", \"unbounded arrays\", \"one-to-many\", \"tree structure\", \"16MB limit\", \"schema validation\", \"JSON Schema\", \"time series\", \"schema migration\", \"polymorphic\", \"TTL\", \"data lifecycle\", \"archive\", \"index explosion\", \"unnecessary indexes\", \"approximation pattern\", \"document versioning\".",
           "license": "Apache-2.0",
-          "metadata": ""
+          "metadata": {
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "mongodb-schema-design",
@@ -470,7 +483,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -485,13 +498,15 @@
         "kind": "skill-md",
         "raw": {
           "name": "mongodb-search-and-ai",
-          "description": "",
+          "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid Search solutions. Use this skill when users need to build search functionality for text-based queries (autocomplete, fuzzy matching, faceted search), semantic similarity (embeddings, RAG applications), or combined approaches. Also use when users need text containment, substring matching ('contains', 'includes', 'appears in'), case-insensitive or multi-field text search, or filtering across many fields with variable combinations. Provides workflows for selecting the right search type, creating indexes, constructing queries, and optimizing performance using the MongoDB MCP server.\n",
           "license": "Apache-2.0",
-          "metadata": ""
+          "metadata": {
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "mongodb-search-and-ai",
-          "description": null,
+          "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid Search solutions. Use this skill when users need to build search functionality for text-based queries (autocomplete, fuzzy matching, faceted search), semantic similarity (embeddings, RAG applications), or combined approaches. Also use when users need text containment, substring matching ('contains', 'includes', 'appears in'), case-insensitive or multi-field text search, or filtering across many fields with variable combinations. Provides workflows for selecting the right search type, creating indexes, constructing queries, and optimizing performance using the MongoDB MCP server.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -516,10 +531,10 @@
           "v0.5.0"
         ]
       },
-      "trust_score": 30,
+      "trust_score": 35,
       "trust_signals": {
         "store": 30,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -529,7 +544,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -544,13 +559,16 @@
         "kind": "skill-md",
         "raw": {
           "name": "review-skill",
-          "description": "",
+          "description": "Review a proposed Agent Skill for structural validity and content quality before publishing. Runs the skill-validator CLI to check for structural issues, scores the skill with an LLM judge, and interprets results to advise SMEs on what to address. Use when a user wants to review, validate, or quality-check an Agent Skill.",
           "compatibility": "Requires skill-validator CLI and claude CLI for LLM scoring. LLM scoring can be skipped for structural-only review.",
-          "metadata": ""
+          "metadata": {
+            "author": "mongodb",
+            "version": "1.0"
+          }
         },
         "standard": {
           "name": "review-skill",
-          "description": null,
+          "description": "Review a proposed Agent Skill for structural validity and content quality before publishing. Runs the skill-validator CLI to check for structural issues, scores the skill with an LLM judge, and interprets results to advise SMEs on what to address. Use when a user wants to review, validate, or quality-check an Agent Skill.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -575,10 +593,10 @@
           "v0.5.0"
         ]
       },
-      "trust_score": 30,
+      "trust_score": 35,
       "trust_signals": {
         "store": 30,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -588,7 +606,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -642,7 +660,7 @@
           "license_name": "Apache-2.0",
           "stars": 166,
           "contributors": 14,
-          "last_commit": "2026-08-07T21:16:26Z",
+          "last_commit": "2026-08-10T15:09:29Z",
           "archived": false
         }
       }
@@ -658,7 +676,7 @@
       "license_name": "Apache-2.0",
       "stars": 166,
       "contributors": 14,
-      "last_commit": "2026-08-07T21:16:26Z",
+      "last_commit": "2026-08-10T15:09:29Z",
       "archived": false
     }
   }

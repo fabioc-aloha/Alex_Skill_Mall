@@ -1,7 +1,7 @@
 {
   "store": "microsoft-copilot-studio-skills",
   "source_repo": "https://github.com/microsoft/skills-for-copilot-studio.git",
-  "generated_at": "2026-06-23T15:11:20.140Z",
+  "generated_at": "2026-08-11T13:29:10.155Z",
   "scanned_ref": "f7b65888c47e9b3f18c050b15f20cd8dd500b2c5",
   "provenance": false,
   "tier": "microsoft-official",
@@ -18,7 +18,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Guide users through adding a new connector action to a Copilot Studio agent. Connector actions require UI-based connection setup, so this skill walks users through the Copilot Studio portal steps, then delegates to edit-action for YAML modifications.",
           "argument-hint": "<action description, e.g. \"post a Teams message\">",
           "allowed-tools": "Bash(node *connector-lookup.bundle.js *), Read",
@@ -67,7 +67,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -83,7 +83,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Generate and insert an Adaptive Card into a Copilot Studio topic using AdaptiveCardPrompt. Use when the user asks to add an adaptive card, rich card, form card, info card, confirmation card, or interactive card to a topic.",
           "argument-hint": "<card-type> in <topic-name>",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *), Read, Write, Edit, Glob",
@@ -135,7 +135,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -151,7 +151,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Add generative answer nodes (SearchAndSummarizeContent or AnswerQuestionWithAI) to a Copilot Studio topic. Use this instead of /add-node when the user asks to add grounded answers, knowledge search, generative answers, or AI-powered responses — these nodes require specific patterns (ConditionGroup follow-up, knowledge source references, autoSend, responseCaptureType) that /add-node does not cover.",
           "argument-hint": "<topic-name or \"new\">",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *), Read, Write, Edit, Glob",
@@ -203,7 +203,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -219,7 +219,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Add a global variable to a Copilot Studio agent. Use when the user needs a variable that persists across topics in the same conversation and can optionally be visible to the AI orchestrator.",
           "argument-hint": "<variable name and purpose>",
           "allowed-tools": "Read, Write, Glob, Grep",
@@ -270,7 +270,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -286,7 +286,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Add a knowledge source (public website or SharePoint) to a Copilot Studio agent. Use when the user asks to add a knowledge source, documentation URL, website, or SharePoint site for the agent to search.",
           "argument-hint": "<url>",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *), Read, Write, Glob",
@@ -337,7 +337,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -353,7 +353,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Add or modify a node in an existing Copilot Studio topic. Use when the user asks to add a question, message, condition, variable, or other node to a topic. Do NOT use this for generative answers or knowledge search — use /add-generative-answers instead.",
           "argument-hint": "<node-type> to <topic-name>",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *), Read, Write, Edit, Glob",
@@ -405,7 +405,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -421,7 +421,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Add child agents, connected agents, or other multi-agent patterns to a Copilot Studio agent. Use when the user asks to create a sub-agent, child agent, connected agent, or call another agent.",
           "argument-hint": "<agent description>",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *), Read, Write, Glob",
@@ -472,7 +472,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -488,15 +488,15 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
-          "description": "",
+          "user-invocable": false,
+          "description": "Analyze exported evaluation results from Copilot Studio's Evaluate tab. The user provides a CSV file exported from the Copilot Studio UI; this skill parses it, identifies failures, and proposes YAML fixes. No API access or published agent required — just the exported CSV.\n",
           "allowed-tools": "Read, Glob, Grep, Edit",
           "context": "fork",
           "agent": "copilot-studio-test"
         },
         "standard": {
           "name": "analyze-evals",
-          "description": null,
+          "description": "Analyze exported evaluation results from Copilot Studio's Evaluate tab. The user provides a CSV file exported from the Copilot Studio UI; this skill parses it, identifies failures, and proposes YAML fixes. No API access or published agent required — just the exported CSV.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -527,10 +527,10 @@
           "v1.0.7"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -538,7 +538,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -554,7 +554,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Send a message to a Copilot Studio agent via DirectLine v3. Use for agents with no auth or manual auth. Requires a token endpoint URL or DirectLine secret.",
           "argument-hint": "<utterance>",
           "allowed-tools": "Bash(node *chat-with-agent.bundle.js *), Read, Glob",
@@ -603,7 +603,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -619,7 +619,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Send a message to a Copilot Studio agent via the Copilot Studio Client SDK (M365). Use for agents with integrated auth (Entra ID SSO). Requires an App Registration Client ID.",
           "argument-hint": "<utterance>",
           "allowed-tools": "Bash(node *chat-with-agent.bundle.js *), Read, Glob",
@@ -668,7 +668,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -684,7 +684,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "DEPRECATED: Use /copilot-studio:detect-mode then /copilot-studio:chat-directline or /copilot-studio:chat-sdk instead.",
           "argument-hint": "<utterance to send>",
           "allowed-tools": "Bash(node *chat-with-agent.bundle.js *), Read, Glob, Grep",
@@ -734,7 +734,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -750,9 +750,11 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Clone a Copilot Studio agent from the cloud. Guides through environment selection, agent selection, and downloads agent YAML files.",
-          "argument-hint": "[agent name or environment hint]",
+          "argument-hint": [
+            "agent name or environment hint"
+          ],
           "allowed-tools": "Bash(node *manage-agent.bundle.js *), Read, Glob, Grep",
           "context": "fork",
           "agent": "copilot-studio-manage"
@@ -801,7 +803,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -817,7 +819,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "true",
+          "user-invocable": true,
           "description": "Create plugin development eval scenarios (JSON files with natural prompts and deterministic checks for testing plugin skills). NOT for Copilot Studio in-product evaluation — use /copilot-studio:create-eval-set for that.",
           "argument-hint": "<scenario name>",
           "allowed-tools": "Read, Write, Glob",
@@ -866,7 +868,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -882,15 +884,15 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
-          "description": "",
+          "user-invocable": false,
+          "description": "Create a test set CSV file for import into Copilot Studio's in-product Evaluate tab. Reads the agent's topics, instructions, and knowledge sources to generate meaningful test cases with appropriate graders (General quality, Compare meaning, Exact match, etc.). Use when the user asks to create, prepare, or generate evaluation test cases for their agent.\n",
           "allowed-tools": "Read, Glob, Grep, Write",
           "context": "fork",
           "agent": "copilot-studio-test"
         },
         "standard": {
           "name": "create-eval-set",
-          "description": null,
+          "description": "Create a test set CSV file for import into Copilot Studio's in-product Evaluate tab. Reads the agent's topics, instructions, and knowledge sources to generate meaningful test cases with appropriate graders (General quality, Compare meaning, Exact match, etc.). Use when the user asks to create, prepare, or generate evaluation test cases for their agent.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -921,10 +923,10 @@
           "v1.0.7"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -932,7 +934,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -948,9 +950,11 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Detect a Copilot Studio agent's authentication mode (DirectLine vs M365) by querying Dataverse. Returns the mode and connection details needed to chat.",
-          "argument-hint": "[--agent-dir <path>]",
+          "argument-hint": [
+            "--agent-dir <path>"
+          ],
           "allowed-tools": "Bash(node *chat-with-agent.bundle.js --detect-only *), Read, Glob",
           "agent": "copilot-studio-test"
         },
@@ -997,7 +1001,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1013,7 +1017,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "DEPRECATED: Use /copilot-studio:chat-with-agent instead — it auto-detects DirectLine vs M365 mode. This skill is kept for backwards compatibility only.",
           "argument-hint": "<utterance to send>",
           "allowed-tools": "Bash(node *directline-chat.bundle.js *), Bash(node *manage-agent.bundle.js detect-mode *), Read, Glob, Grep",
@@ -1065,7 +1069,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1081,7 +1085,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Edit an existing action (TaskDialog) in a Copilot Studio agent. Supports connector actions and MCP server actions. Modify inputs, outputs, descriptions, connection mode, and other properties.",
           "argument-hint": "<what to change, e.g. \"add description to SharePoint inputs\">",
           "allowed-tools": "Bash(node *connector-lookup.bundle.js *), Bash(node *schema-lookup.bundle.js *), Read, Edit, Glob",
@@ -1133,7 +1137,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1149,7 +1153,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Edit Copilot Studio agent settings, instructions, or configuration. Use when the user asks to change agent instructions, display name, conversation starters, AI settings, or generative actions toggle.",
           "argument-hint": "<what to change>",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *), Read, Edit, Glob",
@@ -1200,7 +1204,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1216,7 +1220,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Modify topic triggers — trigger phrases and model description. Use when the user asks to add, remove, or change trigger phrases, or edit a topic's model description.",
           "argument-hint": "<topic-name>",
           "allowed-tools": "Read, Edit, Glob",
@@ -1266,7 +1270,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1282,7 +1286,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "name": "int-patterns",
           "description": "Pattern library for Copilot Studio agent design. Contains proven and recommended implementation patterns with YAML examples. Used by the Advisor agent to suggest patterns and by the Author agent to reference YAML structure during implementation. USE FOR: design guidance, pattern suggestions, review against best practices, troubleshooting known pitfalls, YAML reference during implementation. DO NOT USE FOR: general YAML schema reference (use int-reference), topic creation mechanics (use new-topic).",
           "context": "fork"
@@ -1326,7 +1330,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1343,12 +1347,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "int-project-context",
-          "description": "",
-          "user-invocable": "false"
+          "description": "Shared project context for all Copilot Studio sub-agents. Provides project structure, schema lookup usage, and skill invocation guidance.\n",
+          "user-invocable": false
         },
         "standard": {
           "name": "int-project-context",
-          "description": null,
+          "description": "Shared project context for all Copilot Studio sub-agents. Provides project structure, schema lookup usage, and skill invocation guidance.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1374,10 +1378,10 @@
           "v1.0.7"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1385,7 +1389,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1403,7 +1407,7 @@
         "raw": {
           "name": "int-reference",
           "description": "Reference tables for Copilot Studio YAML authoring: triggers, actions, variables, entities, Power Fx functions, templates. Preloaded by author and advisor agents.",
-          "user-invocable": "false"
+          "user-invocable": false
         },
         "standard": {
           "name": "int-reference",
@@ -1444,7 +1448,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1460,7 +1464,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "List all available kind discriminator values from the Copilot Studio YAML schema. Use when the user asks what kinds/types are available.",
           "argument-hint": "<optional-filter-keyword>",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *)"
@@ -1506,7 +1510,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1522,7 +1526,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "List all topics in the Copilot Studio agent with their trigger types, phrases, and action counts. Use when the user wants to see what topics exist.",
           "allowed-tools": "Read, Glob, Grep"
         },
@@ -1569,7 +1573,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1585,7 +1589,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Look up Copilot Studio YAML schema definitions. Use when the user asks about schema structure, element properties, or how to use a specific YAML kind.",
           "argument-hint": "<definition-name>",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *)",
@@ -1632,7 +1636,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1648,7 +1652,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Push/pull Copilot Studio agent content via the VS Code extension's LanguageServerHost LSP binary. Handles authentication (interactive browser login for push/pull, device code flow for chat token), sync push, sync pull, clone, and diff operations.",
           "argument-hint": "<push|pull|clone|changes|validate|publish|auth|list-agents|list-envs>",
           "allowed-tools": "Bash(node *manage-agent.bundle.js *), Read, Glob, Grep",
@@ -1699,7 +1703,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1715,7 +1719,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Create a new Copilot Studio topic YAML file. Use when the user asks to create a new topic, conversation flow, or dialog for their agent.",
           "argument-hint": "<topic description>",
           "allowed-tools": "Bash(node *schema-lookup.bundle.js *), Bash(node *manage-agent.bundle.js *), Read, Write, Glob",
@@ -1767,7 +1771,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1783,15 +1787,15 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
-          "description": "",
+          "user-invocable": false,
+          "description": "Run evaluations against a Copilot Studio agent via the Power Platform Evaluation API. Works on DRAFT agents — no publish step required. Lists test sets, starts a run, polls until complete, fetches results, and proposes YAML fixes for failures. Use when the user wants to test agent changes without publishing.\n",
           "allowed-tools": "Bash(node *eval-api.bundle.js *), Bash(node *manage-agent.bundle.js push *), Bash(node *manage-agent.bundle.js pull *), Read, Glob, Grep, Edit",
           "context": "fork",
           "agent": "copilot-studio-test"
         },
         "standard": {
           "name": "run-eval",
-          "description": null,
+          "description": "Run evaluations against a Copilot Studio agent via the Power Platform Evaluation API. Works on DRAFT agents — no publish step required. Lists test sets, starts a run, polls until complete, fetches results, and proposes YAML fixes for failures. Use when the user wants to test agent changes without publishing.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1825,10 +1829,10 @@
           "v1.0.7"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1836,7 +1840,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1852,15 +1856,15 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
-          "description": "",
+          "user-invocable": false,
+          "description": "Run a batch test suite via the Copilot Studio Kit (Dataverse API). Uses the Power CAT Copilot Studio Kit to execute test cases against a published agent and produces pass/fail results with latencies. Requires the Kit installed in the environment, an App Registration with Dataverse permissions, and a published agent.\n",
           "allowed-tools": "Bash(node *run-tests.js *), Bash(npm install *), Read, Write, Glob, Grep, Edit",
           "context": "fork",
           "agent": "copilot-studio-test"
         },
         "standard": {
           "name": "run-tests-kit",
-          "description": null,
+          "description": "Run a batch test suite via the Copilot Studio Kit (Dataverse API). Uses the Power CAT Copilot Studio Kit to execute test cases against a published agent and produces pass/fail results with latencies. Requires the Kit installed in the environment, an App Registration with Dataverse permissions, and a published agent.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1894,10 +1898,10 @@
           "v1.0.7"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1905,7 +1909,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1921,15 +1925,15 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
-          "description": "",
+          "user-invocable": false,
+          "description": "Authenticate for Copilot Studio evaluation API and SDK chat. Caches a token that is shared across run-eval and chat-sdk skills. Run this before any eval or SDK chat workflow. Requires an App Registration with MakerOperations and Copilots.Invoke permissions.\n",
           "allowed-tools": "Bash(node *eval-api.bundle.js auth *), Read, Glob",
           "context": "fork",
           "agent": "copilot-studio-test"
         },
         "standard": {
           "name": "test-auth",
-          "description": null,
+          "description": "Authenticate for Copilot Studio evaluation API and SDK chat. Caches a token that is shared across run-eval and chat-sdk skills. Run this before any eval or SDK chat workflow. Requires an App Registration with MakerOperations and Copilots.Invoke permissions.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1959,10 +1963,10 @@
           "v1.0.7"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1970,7 +1974,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -1986,7 +1990,7 @@
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "user-invocable": "false",
+          "user-invocable": false,
           "description": "Validate Copilot Studio agent YAML files using the LSP binary's full diagnostics (YAML structure, Power Fx, schema, cross-file references). Use when the user asks to check, validate, or verify YAML files.",
           "argument-hint": "<path-to-agent-workspace>",
           "allowed-tools": "Bash(node *manage-agent.bundle.js *), Bash(node *schema-lookup.bundle.js *), Read, Glob"
@@ -2035,7 +2039,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 395,
+          "stars": 397,
           "contributors": 11,
           "last_commit": "2026-08-06T09:53:20Z",
           "archived": false
@@ -2051,7 +2055,7 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 395,
+      "stars": 397,
       "contributors": 11,
       "last_commit": "2026-08-06T09:53:20Z",
       "archived": false

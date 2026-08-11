@@ -1,7 +1,7 @@
 {
   "store": "daymade-claude-code-skills",
   "source_repo": "https://github.com/daymade/claude-code-skills.git",
-  "generated_at": "2026-08-10T11:24:00.804Z",
+  "generated_at": "2026-08-11T13:29:09.167Z",
   "scanned_ref": "1c71e5437f79f61e664a5613829984583cd7d9e0",
   "provenance": false,
   "tier": "community-curated",
@@ -19,12 +19,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "ashare-news-fetcher",
-          "description": "",
+          "description": "抓取 A 股消息面情报：从财联社、华尔街见闻、金十、新浪 7x24、东财快讯、 证监会/央行/上交所/财政部政策公告、东方财富股吧等公开来源抓取与股票相关的 新闻、政策、情绪，输出结构化 JSON 或 Markdown。 当用户提到“A 股消息面”、“抓新闻”、“个股消息”、“政策监管”、“股吧情绪”、 “财联社”、“东财快讯”、“市场情绪”或需要把某只股票相关的公开情报聚合出来时 触发。也适用于“帮我看看 000001 最近有什么消息”这类口语化请求。",
           "argument-hint": "[--sources <groups>] [--symbols <codes>] [--limit <n>]"
         },
         "standard": {
           "name": "ashare-news-fetcher",
-          "description": null,
+          "description": "抓取 A 股消息面情报：从财联社、华尔街见闻、金十、新浪 7x24、东财快讯、 证监会/央行/上交所/财政部政策公告、东方财富股吧等公开来源抓取与股票相关的 新闻、政策、情绪，输出结构化 JSON 或 Markdown。 当用户提到“A 股消息面”、“抓新闻”、“个股消息”、“政策监管”、“股吧情绪”、 “财联社”、“东财快讯”、“市场情绪”或需要把某只股票相关的公开情报聚合出来时 触发。也适用于“帮我看看 000001 最近有什么消息”这类口语化请求。",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -69,10 +69,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -80,7 +80,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -97,12 +97,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "asr-transcribe-to-text",
-          "description": "",
+          "description": "Transcribe audio/video to speaker-labeled text — who-said-what by default, plain-text opt-out; MLX-local on Apple Silicon or remote; local files, media URLs. Use for transcribing recordings/podcasts/lectures/meetings, ASR, speech-to-text, 转录, 语音转文字, 录音转文字, speaker diarization/说话人分离/识别/谁在说话, timestamps 字幕/时间戳/音画对齐, CAM++ voiceprint ID. This skill ALSO owns audio PREPROCESSING for ASR as a first-class trigger, even without transcription: convert any audio/video into an ASR-ready file (转换成适合 ASR 的格式, 转格式, convert/prepare audio for ASR, 音频预处理), downsample to 16kHz mono 16-bit (降采样, 重采样, 单声道, 归一化), merge multi-segment recorder dumps (多段合并/拼接, DJI TX01/TX02), transcode to small M4A + pitch-preserved speedup to cut metered-ASR billed minutes (转 M4A, 压缩上传, 加速, 1.3x, 飞书妙记/Feishu Minutes). Trigger even when it looks like a trivial one-line ffmpeg — the skill owns sample-rate/bit-depth/channel, merge-order, speed-vs-WER, format choices + a blessed prepare_asr_input.py.",
           "argument-hint": "[audio-or-video-file-path-or-url ...]"
         },
         "standard": {
           "name": "asr-transcribe-to-text",
-          "description": null,
+          "description": "Transcribe audio/video to speaker-labeled text — who-said-what by default, plain-text opt-out; MLX-local on Apple Silicon or remote; local files, media URLs. Use for transcribing recordings/podcasts/lectures/meetings, ASR, speech-to-text, 转录, 语音转文字, 录音转文字, speaker diarization/说话人分离/识别/谁在说话, timestamps 字幕/时间戳/音画对齐, CAM++ voiceprint ID. This skill ALSO owns audio PREPROCESSING for ASR as a first-class trigger, even without transcription: convert any audio/video into an ASR-ready file (转换成适合 ASR 的格式, 转格式, convert/prepare audio for ASR, 音频预处理), downsample to 16kHz mono 16-bit (降采样, 重采样, 单声道, 归一化), merge multi-segment recorder dumps (多段合并/拼接, DJI TX01/TX02), transcode to small M4A + pitch-preserved speedup to cut metered-ASR billed minutes (转 M4A, 压缩上传, 加速, 1.3x, 飞书妙记/Feishu Minutes). Trigger even when it looks like a trivial one-line ffmpeg — the skill owns sample-rate/bit-depth/channel, merge-order, speed-vs-WER, format choices + a blessed prepare_asr_input.py.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -147,10 +147,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -158,7 +158,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -175,12 +175,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "auto-repo-setup",
-          "description": "",
+          "description": "Diagnose, repair, and standardize repository setup and safe Git workflows for Claude Code or Codex. Use when a repository will not run, a collaborator is onboarding, dependencies or credentials are missing, the user wants startup sync, SessionStart output is duplicated, project instructions or hooks need auditing, or commit/push/conflict/history-cleanup needs a guarded workflow. Route ordinary startup behavior through project instructions or a natural language request; use lifecycle hooks only when behavior must occur before the first prompt and the target runtime has been verified.",
           "argument-hint": "[repository path]"
         },
         "standard": {
           "name": "auto-repo-setup",
-          "description": null,
+          "description": "Diagnose, repair, and standardize repository setup and safe Git workflows for Claude Code or Codex. Use when a repository will not run, a collaborator is onboarding, dependencies or credentials are missing, the user wants startup sync, SessionStart output is duplicated, project instructions or hooks need auditing, or commit/push/conflict/history-cleanup needs a guarded workflow. Route ordinary startup behavior through project instructions or a natural language request; use lifecycle hooks only when behavior must occur before the first prompt and the target runtime has been verified.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -225,10 +225,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -236,7 +236,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -253,11 +253,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "benchmark-due-diligence",
-          "description": ""
+          "description": "Runs adversarial due-diligence on a benchmark the user envies — a founder, KOL, company, or product whose claimed success looks inflated — splitting marketing bubble from real signal, then mapping the validated playbook onto the user's own resources. Use whenever the user wants to 尽调/对标/拆解 a competitor or role-model, 抄/偷师 someone's playbook, suspects 水分/泡沫 in their claims (#1 on Product Hunt, 0-to-1M users, funding, 估值几个亿), asks whether wins are 真本事 vs 运气/时机, or says someone is 太成功了/crushing it and wants the real story — even if they never say 尽调. Prefer over deep-research for debunking inflated claims and extracting a replicable playbook rather than a neutral briefing.\n"
         },
         "standard": {
           "name": "benchmark-due-diligence",
-          "description": null,
+          "description": "Runs adversarial due-diligence on a benchmark the user envies — a founder, KOL, company, or product whose claimed success looks inflated — splitting marketing bubble from real signal, then mapping the validated playbook onto the user's own resources. Use whenever the user wants to 尽调/对标/拆解 a competitor or role-model, 抄/偷师 someone's playbook, suspects 水分/泡沫 in their claims (#1 on Product Hunt, 0-to-1M users, funding, 估值几个亿), asks whether wins are 真本事 vs 运气/时机, or says someone is 太成功了/crushing it and wants the real story — even if they never say 尽调. Prefer over deep-research for debunking inflated claims and extracting a replicable playbook rather than a neutral briefing.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -302,10 +302,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -313,7 +313,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -330,11 +330,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "bigdata-skill",
-          "description": ""
+          "description": "Pull Bigdata.com (RavenPack) financial and news data via the official `bigdata-client` SDK and `/v1/*` REST endpoints — structured financials, prices, analyst estimates, daily entity-sentiment series, annotated chunk search, screener — when the Bigdata MCP returns only pre-synthesized tearsheets but you need the machine-readable substrate. Use when the user mentions Bigdata.com, RavenPack, a `bd_v2_` key, the bigdata MCP, rp_entity_id, chunk/query_unit cost, or wants structured financials, fundamentals, prices, sentiment, or annotated news."
         },
         "standard": {
           "name": "bigdata-skill",
-          "description": null,
+          "description": "Pull Bigdata.com (RavenPack) financial and news data via the official `bigdata-client` SDK and `/v1/*` REST endpoints — structured financials, prices, analyst estimates, daily entity-sentiment series, annotated chunk search, screener — when the Bigdata MCP returns only pre-synthesized tearsheets but you need the machine-readable substrate. Use when the user mentions Bigdata.com, RavenPack, a `bd_v2_` key, the bigdata MCP, rp_entity_id, chunk/query_unit cost, or wants structured financials, fundamentals, prices, sentiment, or annotated news.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -379,10 +379,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -390,7 +390,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -467,7 +467,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -544,7 +544,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -561,11 +561,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "claude-code-history-files-finder",
-          "description": ""
+          "description": "Searches and recovers Claude Code JSONL history across all active config homes and archives registered in ~/.claude/history-sources.json. Use --all-projects when the project is unknown and --codex to include Codex rollout search. Uses internal timestamps and searches messages, thinking, tool inputs/results, queues, attachments, summaries, titles, and file-history paths. Recovers exact captured bytes from Claude file-history snapshots, including post-Write edits and binary files; otherwise labels Write checkpoints as lower fidelity. Use for keyword/date-bounded history search, prior-conversation forensics, deleted-file recovery, vanished ~/.claude/jobs artifacts, tool/file-operation analysis, or requests mentioning session history, find in history, previous conversation, or .claude/projects. For a recent Claude+Codex inventory, use local-conversation-history instead."
         },
         "standard": {
           "name": "claude-code-history-files-finder",
-          "description": null,
+          "description": "Searches and recovers Claude Code JSONL history across all active config homes and archives registered in ~/.claude/history-sources.json. Use --all-projects when the project is unknown and --codex to include Codex rollout search. Uses internal timestamps and searches messages, thinking, tool inputs/results, queues, attachments, summaries, titles, and file-history paths. Recovers exact captured bytes from Claude file-history snapshots, including post-Write edits and binary files; otherwise labels Write checkpoints as lower fidelity. Use for keyword/date-bounded history search, prior-conversation forensics, deleted-file recovery, vanished ~/.claude/jobs artifacts, tool/file-operation analysis, or requests mentioning session history, find in history, previous conversation, or .claude/projects. For a recent Claude+Codex inventory, use local-conversation-history instead.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -610,10 +610,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -621,7 +621,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -638,11 +638,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "claude-code-hooks",
-          "description": ""
+          "description": "How to write, test, register, and debug Claude Code hooks — PreToolUse / PostToolUse / SessionStart / Stop Bash guards that enforce a rule the model would otherwise talk itself past. Use whenever the user wants to create a hook, block/intercept a tool call, turn a repeatedly-violated rule into a hard gate, add a guard rail, debug a hook that misfires or \"poisons the session\", register a hook across profiles, or mentions hooks / PreToolUse / Stop hook / 拦截 / 守卫 / 钩子 / 拦下. Bakes in the hard-won pitfalls: UserPromptSubmit only ever sees user input, never Claude's own text — a rule about Claude's own output belongs on Stop instead; token-level shlex matching (never awk splitting); bash -n + real-JSON end-to-end testing BEFORE registering (a corrupted PreToolUse hook poisons every Bash call); SSOT + symlink so a ~/.claude reinstall can't lose it; multi-profile convergence; and human-confirmation release gates. Reach for this even for \"make it stop doing X\" — a durable stop is a hook, not a reminder."
         },
         "standard": {
           "name": "claude-code-hooks",
-          "description": null,
+          "description": "How to write, test, register, and debug Claude Code hooks — PreToolUse / PostToolUse / SessionStart / Stop Bash guards that enforce a rule the model would otherwise talk itself past. Use whenever the user wants to create a hook, block/intercept a tool call, turn a repeatedly-violated rule into a hard gate, add a guard rail, debug a hook that misfires or \"poisons the session\", register a hook across profiles, or mentions hooks / PreToolUse / Stop hook / 拦截 / 守卫 / 钩子 / 拦下. Bakes in the hard-won pitfalls: UserPromptSubmit only ever sees user input, never Claude's own text — a rule about Claude's own output belongs on Stop instead; token-level shlex matching (never awk splitting); bash -n + real-JSON end-to-end testing BEFORE registering (a corrupted PreToolUse hook poisons every Bash call); SSOT + symlink so a ~/.claude reinstall can't lose it; multi-profile convergence; and human-confirmation release gates. Reach for this even for \"make it stop doing X\" — a durable stop is a hook, not a reminder.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -687,10 +687,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -698,7 +698,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -715,11 +715,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "fixing-claude-export-conversations",
-          "description": ""
+          "description": "Fixes broken line wrapping in Claude Code exported conversation files (.txt), reconstructing tables, paragraphs, paths, and tool calls that were hard-wrapped at fixed column widths. Includes an automated validation suite (generic, file-agnostic checks). Triggers when the user has a Claude Code export file with broken formatting, mentions \"fix export\", \"fix conversation\", \"exported conversation\", \"make export readable\", references a file matching YYYY-MM-DD-HHMMSS-*.txt, or has a .txt file with broken tables, split paths, or mangled tool output from Claude Code.\n"
         },
         "standard": {
           "name": "fixing-claude-export-conversations",
-          "description": null,
+          "description": "Fixes broken line wrapping in Claude Code exported conversation files (.txt), reconstructing tables, paragraphs, paths, and tool calls that were hard-wrapped at fixed column widths. Includes an automated validation suite (generic, file-agnostic checks). Triggers when the user has a Claude Code export file with broken formatting, mentions \"fix export\", \"fix conversation\", \"exported conversation\", \"make export readable\", references a file matching YYYY-MM-DD-HHMMSS-*.txt, or has a .txt file with broken tables, split paths, or mangled tool output from Claude Code.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -764,10 +764,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -775,7 +775,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -792,11 +792,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "claude-md-progressive-disclosurer",
-          "description": ""
+          "description": "Optimize / slim down / restructure a CLAUDE.md (or AGENTS.md) using progressive disclosure — move low-frequency detail to Level 2 references while keeping Level 1 lean, WITHOUT losing information. Use this whenever the user asks to optimize / 精简 / 瘦身 / 重构 CLAUDE.md, asks \"CLAUDE.md 是不是太大了 / 太长了\" (is my CLAUDE.md too big / too long / bloated), wants to 把内容拆到 reference / 外部 / Level 2, do 整段外移 / 渐进式披露 / progressive disclosure, or whenever a CLAUDE.md duplicates info across files or the LLM keeps failing to follow its rules. ALSO trigger the moment an optimization turns into moving / cutting / compressing sections of a CLAUDE.md — even mid-task while another claude-md skill is already running. Distinct from claude-md quality auditors / scorers: this is the restructuring-and-offloading methodology that guarantees zero information loss (grep-verified pointers, verbatim moves, 5b content-integrity audit). Covers hotspot-first profiling (先打热点) and cross-tool truncation (Codex project_doc_max_bytes).\n"
         },
         "standard": {
           "name": "claude-md-progressive-disclosurer",
-          "description": null,
+          "description": "Optimize / slim down / restructure a CLAUDE.md (or AGENTS.md) using progressive disclosure — move low-frequency detail to Level 2 references while keeping Level 1 lean, WITHOUT losing information. Use this whenever the user asks to optimize / 精简 / 瘦身 / 重构 CLAUDE.md, asks \"CLAUDE.md 是不是太大了 / 太长了\" (is my CLAUDE.md too big / too long / bloated), wants to 把内容拆到 reference / 外部 / Level 2, do 整段外移 / 渐进式披露 / progressive disclosure, or whenever a CLAUDE.md duplicates info across files or the LLM keeps failing to follow its rules. ALSO trigger the moment an optimization turns into moving / cutting / compressing sections of a CLAUDE.md — even mid-task while another claude-md skill is already running. Distinct from claude-md quality auditors / scorers: this is the restructuring-and-offloading methodology that guarantees zero information loss (grep-verified pointers, verbatim moves, 5b content-integrity audit). Covers hotspot-first profiling (先打热点) and cross-tool truncation (Codex project_doc_max_bytes).",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -841,10 +841,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -852,7 +852,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -869,11 +869,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "claude-migrate-memory-to-doc",
-          "description": ""
+          "description": "Migrates Claude Code personal memory (the per-project memory/ directory) into tool-agnostic reference docs, so other AI CLIs that auto-load AGENTS.md (Codex primarily; the content architecture transfers to Cursor and others) working in the same directory can read the same user profile, collaboration preferences, and methodology instead of being blind to them. Use this whenever the user says things like \"migrate my memory\", \"my memory is locked to Claude Code\", \"make Codex/Cursor read my profile\", \"memory should live in docs not one tool\", or reports that a second AI tool doesn't know who they are; also use it when memory has grown bloated with content that should be shared across tools or projects. Covers diagnosis, the references/ + CLAUDE.md-inline + AGENTS.md-symlink architecture, multi-agent review, empirical codex verification, and memory cleanup. Inline only — it orchestrates review subagents and runs codex."
         },
         "standard": {
           "name": "claude-migrate-memory-to-doc",
-          "description": null,
+          "description": "Migrates Claude Code personal memory (the per-project memory/ directory) into tool-agnostic reference docs, so other AI CLIs that auto-load AGENTS.md (Codex primarily; the content architecture transfers to Cursor and others) working in the same directory can read the same user profile, collaboration preferences, and methodology instead of being blind to them. Use this whenever the user says things like \"migrate my memory\", \"my memory is locked to Claude Code\", \"make Codex/Cursor read my profile\", \"memory should live in docs not one tool\", or reports that a second AI tool doesn't know who they are; also use it when memory has grown bloated with content that should be shared across tools or projects. Covers diagnosis, the references/ + CLAUDE.md-inline + AGENTS.md-symlink architecture, multi-agent review, empirical codex verification, and memory cleanup. Inline only — it orchestrates review subagents and runs codex.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -918,10 +918,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -929,7 +929,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1006,7 +1006,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1023,11 +1023,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "claude-switch-models-setup",
-          "description": ""
+          "description": "Set up and maintain multiple isolated Claude Code CLI profiles so students and power users can run different LLM providers (Kimi K3, Kimi K2.7 highspeed, MiniMax M3, MiniMax M2.7, GLM, DeepSeek, StepFun, Anthropic) in separate terminal windows at the same time. Use this skill whenever the user asks about multi-provider Claude setup, multiple Claude Code windows, switching models or the csk/csd/csg aliases, CLAUDE_CONFIG_DIR, the ~/.claude-profiles directory, or running Kimi/MiniMax/GLM/DeepSeek/StepFun alongside Anthropic. It also owns profile-drift troubleshooting — a third-party profile missing skills/hooks/plugins the default profile has, claude-profiles-doctor reporting a real directory where a symlink belongs, or settings not converging — and per-provider context-window configuration (the [1m] marker or explicit CLAUDE_CODE_MAX_CONTEXT_TOKENS)."
         },
         "standard": {
           "name": "claude-switch-models-setup",
-          "description": null,
+          "description": "Set up and maintain multiple isolated Claude Code CLI profiles so students and power users can run different LLM providers (Kimi K3, Kimi K2.7 highspeed, MiniMax M3, MiniMax M2.7, GLM, DeepSeek, StepFun, Anthropic) in separate terminal windows at the same time. Use this skill whenever the user asks about multi-provider Claude setup, multiple Claude Code windows, switching models or the csk/csd/csg aliases, CLAUDE_CONFIG_DIR, the ~/.claude-profiles directory, or running Kimi/MiniMax/GLM/DeepSeek/StepFun alongside Anthropic. It also owns profile-drift troubleshooting — a third-party profile missing skills/hooks/plugins the default profile has, claude-profiles-doctor reporting a real directory where a symlink belongs, or settings not converging — and per-provider context-window configuration (the [1m] marker or explicit CLAUDE_CODE_MAX_CONTEXT_TOKENS).",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1072,10 +1072,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1083,7 +1083,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1160,7 +1160,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1237,7 +1237,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1314,7 +1314,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1391,7 +1391,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1408,14 +1408,14 @@
         "kind": "skill-md",
         "raw": {
           "name": "competitors-analysis",
-          "description": "",
+          "description": "Discover, clone, update, and analyze competitor repositories with evidence-based competitive intelligence. Use when tracking competitors, reviewing competitor source code, adding a competitor repository, comparing product capabilities, building a competitor landscape, checking whether competitor code changed, or when the user says \"竞品分析\", \"竞品\", \"competitor scan\", \"latest competitor code\", \"analyze competitor\", or \"compare with X\". Repository-backed findings must come from local cloned code with file:line citations; market-landscape claims must cite their source and volatility.",
           "context": "fork",
           "agent": "general-purpose",
           "argument-hint": "[product-name] [competitor-url-or-search-query]"
         },
         "standard": {
           "name": "competitors-analysis",
-          "description": null,
+          "description": "Discover, clone, update, and analyze competitor repositories with evidence-based competitive intelligence. Use when tracking competitors, reviewing competitor source code, adding a competitor repository, comparing product capabilities, building a competitor landscape, checking whether competitor code changed, or when the user says \"竞品分析\", \"竞品\", \"competitor scan\", \"latest competitor code\", \"analyze competitor\", or \"compare with X\". Repository-backed findings must come from local cloned code with file:line citations; market-landscape claims must cite their source and volatility.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1460,10 +1460,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1471,7 +1471,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1549,7 +1549,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1566,12 +1566,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "continue-codex-work",
-          "description": "",
+          "description": "Recover actionable context from a prior Codex CLI session's local rollout files and continue interrupted work without running `codex resume`. Use this whenever the user wants to pick up Codex (OpenAI Codex CLI / GPT agent) work — they give a Codex session id, ask to continue what Codex was doing, say a Codex run was cut off mid-task, or want to inspect `~/.codex/sessions` rollout JSONL before resuming. This is the Codex counterpart of continue-claude-work: reach for it for Codex/`~/.codex` sessions, and for continue-claude-work when the prior session was Claude Code (`~/.claude`).",
           "argument-hint": "[session-id]"
         },
         "standard": {
           "name": "continue-codex-work",
-          "description": null,
+          "description": "Recover actionable context from a prior Codex CLI session's local rollout files and continue interrupted work without running `codex resume`. Use this whenever the user wants to pick up Codex (OpenAI Codex CLI / GPT agent) work — they give a Codex session id, ask to continue what Codex was doing, say a Codex run was cut off mid-task, or want to inspect `~/.codex/sessions` rollout JSONL before resuming. This is the Codex counterpart of continue-claude-work: reach for it for Codex/`~/.codex` sessions, and for continue-claude-work when the prior session was Claude Code (`~/.claude`).",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1616,10 +1616,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1627,7 +1627,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1644,11 +1644,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "debugging-network-issues",
-          "description": ""
+          "description": "Evidence-driven investigation for network, streaming, and protocol-layer bugs where symptoms don't match the obvious cause. Use when debugging connection resets (ECONNRESET, HTTP/2 RST_STREAM, INTERNAL_ERROR), SSE or long-polling stalls, fixed-time connection drops, CDN/proxy/CGNAT idle timeouts, client-side proxy/VPN/TUN misrouting, CNAME-based proxy rule overrides, or symptoms like \"socket closed unexpectedly\", \"stream interrupted\", \"fails after N seconds\", \"works sometimes but not always\", \"upstream silent for X seconds\", ERR_CONNECTION_CLOSED, SSL_ERROR_SYSCALL, or certificate-verification errors (UNKNOWN_CERTIFICATE_VERIFICATION_ERROR, wrong-site certificate) that hit some domains while others work. Also use for LAN-layer mysteries: identifying an unknown device (mystery IP/MAC/banner), devices silenced by a subnet change, or a host declared \"dead\" that is alive on another segment. Applies falsification-first layered isolation to pin down the responsible network layer instead of stacking assumptions."
         },
         "standard": {
           "name": "debugging-network-issues",
-          "description": null,
+          "description": "Evidence-driven investigation for network, streaming, and protocol-layer bugs where symptoms don't match the obvious cause. Use when debugging connection resets (ECONNRESET, HTTP/2 RST_STREAM, INTERNAL_ERROR), SSE or long-polling stalls, fixed-time connection drops, CDN/proxy/CGNAT idle timeouts, client-side proxy/VPN/TUN misrouting, CNAME-based proxy rule overrides, or symptoms like \"socket closed unexpectedly\", \"stream interrupted\", \"fails after N seconds\", \"works sometimes but not always\", \"upstream silent for X seconds\", ERR_CONNECTION_CLOSED, SSL_ERROR_SYSCALL, or certificate-verification errors (UNKNOWN_CERTIFICATE_VERIFICATION_ERROR, wrong-site certificate) that hit some domains while others work. Also use for LAN-layer mysteries: identifying an unknown device (mystery IP/MAC/banner), devices silenced by a subnet change, or a host declared \"dead\" that is alive on another segment. Applies falsification-first layered isolation to pin down the responsible network layer instead of stacking assumptions.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1693,10 +1693,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1704,7 +1704,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1721,11 +1721,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "deep-research",
-          "description": ""
+          "description": "Generate format-controlled research reports with evidence tracking, citations, source governance, and multi-pass synthesis.\nThis skill should be used when users request a research report, literature review, market or industry analysis,\ncompetitive landscape, policy or technical brief. Triggers: \"帮我调研一下\", \"深度研究\", \"综述报告\", \"深入分析\",\n\"research this topic\", \"write a report on\", \"survey the literature on\", \"competitive analysis of\",\n\"技术选型分析\", \"竞品研究\", \"政策分析\", \"行业报告\".\nV6 adds: source-type governance, AS_OF freshness checks, mandatory counter-review, and citation registry. V6.1 adds: source accessibility (circular verification forbidden, exclusive advantage encouraged).\n"
         },
         "standard": {
           "name": "deep-research",
-          "description": null,
+          "description": "Generate format-controlled research reports with evidence tracking, citations, source governance, and multi-pass synthesis.\nThis skill should be used when users request a research report, literature review, market or industry analysis,\ncompetitive landscape, policy or technical brief. Triggers: \"帮我调研一下\", \"深度研究\", \"综述报告\", \"深入分析\",\n\"research this topic\", \"write a report on\", \"survey the literature on\", \"competitive analysis of\",\n\"技术选型分析\", \"竞品研究\", \"政策分析\", \"行业报告\".\nV6 adds: source-type governance, AS_OF freshness checks, mandatory counter-review, and citation registry. V6.1 adds: source accessibility (circular verification forbidden, exclusive advantage encouraged).",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1770,10 +1770,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1781,7 +1781,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1855,7 +1855,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -1932,7 +1932,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2009,7 +2009,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2086,7 +2086,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2103,11 +2103,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "docx-creator",
-          "description": ""
+          "description": "Produce production-grade Word (.docx) documents — especially Chinese ones — by driving the minimax-skills:minimax-docx OpenXML engine correctly. Use whenever the deliverable is a .docx file: 生成 Word 文档 / 做一份 docx / 写合同 docx / 起草协议 / 正式文书 / 公文 / offer / 劳动合同 / 把 markdown 转成 Word / Word 排版 / 中文排版 / 签字栏 / 盖章版 / 甲方乙方, or any plain \"give me a Word file\" request. This skill adds the layer minimax-docx does not ship: a verified markdown-to-docx OpenXML generator, the alignment-layering rule that stops justified text from stretching 甲方/乙方 info blocks and signature blocks into garbage, per-list numbering restart, CJK font dual-slot setup, and a mandatory LibreOffice-to-PDF-to-PNG visual verification chain (qlmanage thumbnails are banned — they hide exactly the bugs that matter). Engine belongs to minimax-docx; correct usage and the field-tested workarounds belong here. For PDF output use daymade-docs:pdf-creator instead — the two pipelines are intentionally orthogonal."
         },
         "standard": {
           "name": "docx-creator",
-          "description": null,
+          "description": "Produce production-grade Word (.docx) documents — especially Chinese ones — by driving the minimax-skills:minimax-docx OpenXML engine correctly. Use whenever the deliverable is a .docx file: 生成 Word 文档 / 做一份 docx / 写合同 docx / 起草协议 / 正式文书 / 公文 / offer / 劳动合同 / 把 markdown 转成 Word / Word 排版 / 中文排版 / 签字栏 / 盖章版 / 甲方乙方, or any plain \"give me a Word file\" request. This skill adds the layer minimax-docx does not ship: a verified markdown-to-docx OpenXML generator, the alignment-layering rule that stops justified text from stretching 甲方/乙方 info blocks and signature blocks into garbage, per-list numbering restart, CJK font dual-slot setup, and a mandatory LibreOffice-to-PDF-to-PNG visual verification chain (qlmanage thumbnails are banned — they hide exactly the bugs that matter). Engine belongs to minimax-docx; correct usage and the field-tested workarounds belong here. For PDF output use daymade-docs:pdf-creator instead — the two pipelines are intentionally orthogonal.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2152,10 +2152,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2163,7 +2163,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2180,11 +2180,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "douban-skill",
-          "description": ""
+          "description": "Export and sync Douban (豆瓣) book/movie/music/game collections to local CSV files via Frodo API. Supports full export (all history) and RSS incremental sync (recent items). Use when the user wants to export Douban reading/watching/listening/gaming history, back up their Douban data, set up incremental sync, or mentions 豆瓣/douban collections. Triggers on: 豆瓣, douban, 读书记录, 观影记录, 书影音, 导出豆瓣.\n"
         },
         "standard": {
           "name": "douban-skill",
-          "description": null,
+          "description": "Export and sync Douban (豆瓣) book/movie/music/game collections to local CSV files via Frodo API. Supports full export (all history) and RSS incremental sync (recent items). Use when the user wants to export Douban reading/watching/listening/gaming history, back up their Douban data, set up incremental sync, or mentions 豆瓣/douban collections. Triggers on: 豆瓣, douban, 读书记录, 观影记录, 书影音, 导出豆瓣.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2229,10 +2229,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2240,7 +2240,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2317,7 +2317,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2394,7 +2394,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2471,7 +2471,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2550,7 +2550,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2627,7 +2627,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2644,11 +2644,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "frontend-visual-qa",
-          "description": ""
+          "description": "Audits already-rendered web, landing-page, HTML deck/slide, browser tool/game, dashboard/admin, design-system, and desktop UIs using real-browser or native-app journeys, inspected screenshots, DOM geometry, responsive or projection viewports, and a bundled Playwright sweep. Use after UI implementation to find typography, wrapping, overlap, overflow, responsive, route, overlay, map, transient-state, data-visualization, browser-output, file-dialog, PDF/print, or Electron-shell defects, or to compare a rendered artifact with a visual reference. Do not use for greenfield UI design, extracting a design system from screenshots, general QA-program setup, or nonvisual code debugging."
         },
         "standard": {
           "name": "frontend-visual-qa",
-          "description": null,
+          "description": "Audits already-rendered web, landing-page, HTML deck/slide, browser tool/game, dashboard/admin, design-system, and desktop UIs using real-browser or native-app journeys, inspected screenshots, DOM geometry, responsive or projection viewports, and a bundled Playwright sweep. Use after UI implementation to find typography, wrapping, overlap, overflow, responsive, route, overlay, map, transient-state, data-visualization, browser-output, file-dialog, PDF/print, or Electron-shell defects, or to compare a rendered artifact with a visual reference. Do not use for greenfield UI design, extracting a design system from screenshots, general QA-program setup, or nonvisual code debugging.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2693,10 +2693,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2704,7 +2704,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2781,7 +2781,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2859,7 +2859,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -2876,11 +2876,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "git-safety-net",
-          "description": ""
+          "description": "Audits, preserves, recovers, and safely retires local Git state: unpushed or wrong-branch commits, dirty or detached worktrees, forgotten duplicate clones of the same repo, untracked work no bundle can back up, orphaned stashes, dangling commits, stale branches, and squash/rebase merge uncertainty. Use when the user fears work was lost; asks to recover a commit or branch; asks whether a worktree, clone, or scratch directory can be deleted; wants everything converged onto one main branch; or needs proof that cleanup will not drop work. Use it even after an audit reported clean — the usual gap is scope: every in-repo command is blind to a second clone elsewhere on disk. Triggers on \"did I lose work\", \"is everything merged\", \"is anything else lost\", \"safe to delete this clone\", \"clean up old branches/stashes\", \"only keep one main branch\", \"git reflog\", \"dangling commits\", \"分支灾难\", \"误删分支/commit\", \"worktree 能删吗\", \"还有没有丢的东西\", \"只保留一个主分支\". Covers local-Git forensics, not GitHub PR/API operations or routine sync."
         },
         "standard": {
           "name": "git-safety-net",
-          "description": null,
+          "description": "Audits, preserves, recovers, and safely retires local Git state: unpushed or wrong-branch commits, dirty or detached worktrees, forgotten duplicate clones of the same repo, untracked work no bundle can back up, orphaned stashes, dangling commits, stale branches, and squash/rebase merge uncertainty. Use when the user fears work was lost; asks to recover a commit or branch; asks whether a worktree, clone, or scratch directory can be deleted; wants everything converged onto one main branch; or needs proof that cleanup will not drop work. Use it even after an audit reported clean — the usual gap is scope: every in-repo command is blind to a second clone elsewhere on disk. Triggers on \"did I lose work\", \"is everything merged\", \"is anything else lost\", \"safe to delete this clone\", \"clean up old branches/stashes\", \"only keep one main branch\", \"git reflog\", \"dangling commits\", \"分支灾难\", \"误删分支/commit\", \"worktree 能删吗\", \"还有没有丢的东西\", \"只保留一个主分支\". Covers local-Git forensics, not GitHub PR/API operations or routine sync.",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -2925,10 +2925,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2936,7 +2936,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3013,7 +3013,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3090,7 +3090,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3107,12 +3107,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "github-review-pr",
-          "description": "",
+          "description": "Reviews or re-reviews one contributor pull request—including an explicitly named closed PR being reconsidered—or a bounded newest-to-oldest sweep of all open contributor PRs, for a GitHub repository maintainer against the current base branch. Handles base drift, history discontinuities, polluted branches, ownership, curation, supersession, and review-conditioned repair or landing using immutable Git snapshots, three-way merge results, isolated contribution projection, checks, tests, and findings-first reporting. Use for a PR URL or number, \"main changed, review again\", \"review all open PRs newest to oldest\", \"apply our maintainer principles\", \"can we merge this and fix the rest ourselves?\", or merge readiness. Do not use for general GitHub CRUD, repository-wide audits, CI-only diagnosis, security-only diff audits, unpushed local diffs, merely addressing existing review comments, or merging without a fresh review.",
           "argument-hint": "[--personal-maintainer] [--all-open | PR URL or owner/repo#number]"
         },
         "standard": {
           "name": "github-review-pr",
-          "description": null,
+          "description": "Reviews or re-reviews one contributor pull request—including an explicitly named closed PR being reconsidered—or a bounded newest-to-oldest sweep of all open contributor PRs, for a GitHub repository maintainer against the current base branch. Handles base drift, history discontinuities, polluted branches, ownership, curation, supersession, and review-conditioned repair or landing using immutable Git snapshots, three-way merge results, isolated contribution projection, checks, tests, and findings-first reporting. Use for a PR URL or number, \"main changed, review again\", \"review all open PRs newest to oldest\", \"apply our maintainer principles\", \"can we merge this and fix the rest ourselves?\", or merge readiness. Do not use for general GitHub CRUD, repository-wide audits, CI-only diagnosis, security-only diff audits, unpushed local diffs, merely addressing existing review comments, or merging without a fresh review.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -3157,10 +3157,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -3168,7 +3168,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3185,11 +3185,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "github-sensitive-data-cleanup",
-          "description": ""
+          "description": "Scan and remove sensitive data (secrets, API keys, private domains/IPs, PII) from GitHub repository history. Use this skill whenever the user says \"scan sensitive data\", \"clean git history\", \"remove secrets from repo\", \"sanitize GitHub history\", \"清理敏感数据\", \"历史重写\", \"force push\", \"泄露\", or needs to repair a public repo after accidental secret/private context leakage. Also use before any force push to a public repository to verify visibility, backup, and scan results."
         },
         "standard": {
           "name": "github-sensitive-data-cleanup",
-          "description": null,
+          "description": "Scan and remove sensitive data (secrets, API keys, private domains/IPs, PII) from GitHub repository history. Use this skill whenever the user says \"scan sensitive data\", \"clean git history\", \"remove secrets from repo\", \"sanitize GitHub history\", \"清理敏感数据\", \"历史重写\", \"force push\", \"泄露\", or needs to repair a public repo after accidental secret/private context leakage. Also use before any force push to a public repository to verify visibility, backup, and scan results.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -3234,10 +3234,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -3245,7 +3245,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3322,7 +3322,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3339,11 +3339,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "ima-copilot",
-          "description": ""
+          "description": "Installs, troubleshoots, and personalizes the official Tencent IMA skill (a wrapper layer that orchestrates upstream ima-skill, not a replacement). Use when the user mentions IMA, 腾讯 IMA, ima.qq.com, ima-skill, installing or configuring ima-skill, IMA API key / credentials, searching across IMA knowledge bases, 知识库搜索, 笔记搜索, fan-out search with preferred KBs / priority boosting, or wants to diagnose, repair, or personalize an ima-skill install. Also trigger on the missing-YAML-frontmatter bug in ima-skill submodule SKILL.md files and errors like \"Skipped loading skill(s) due to invalid SKILL.md\".\n"
         },
         "standard": {
           "name": "ima-copilot",
-          "description": null,
+          "description": "Installs, troubleshoots, and personalizes the official Tencent IMA skill (a wrapper layer that orchestrates upstream ima-skill, not a replacement). Use when the user mentions IMA, 腾讯 IMA, ima.qq.com, ima-skill, installing or configuring ima-skill, IMA API key / credentials, searching across IMA knowledge bases, 知识库搜索, 笔记搜索, fan-out search with preferred KBs / priority boosting, or wants to diagnose, repair, or personalize an ima-skill install. Also trigger on the missing-YAML-frontmatter bug in ima-skill submodule SKILL.md files and errors like \"Skipped loading skill(s) due to invalid SKILL.md\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -3388,10 +3388,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -3399,7 +3399,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3476,7 +3476,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3493,11 +3493,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "llm-eval-harness",
-          "description": ""
+          "description": "Test/evaluate any LLM behind an OpenAI- or Anthropic-compatible endpoint: availability (max_tokens-aware), request fidelity (does system prompt/tools/history REACH the model, or does the gateway silently drop it), speed (TTFT+tok/s), concurrency (before a workshop), Anthropic protocol compliance, quality regression, vendor bug reports, deployment gates, resident canaries. Reach for this BEFORE hand-rolling a curl loop against any LLM endpoint — that instinct is the trap: it skips the N=10 sampling, Connection:close, and env-var key handling this bakes in. Use when someone tests/benchmarks/测评/压测 a model/endpoint, onboards a provider, decides whether to switch or temporarily fail over to an alternate channel (e.g. outage or quota exhaustion), writes a supported-models list, debugs \"model ignores system prompt\", or verifies a tok/s claim. Triggers on \"benchmark this model\", \"测一下这个模型/渠道/API\", \"接入新模型先测一下\", \"system prompt 不生效\", \"这个渠道能不能用/稳不稳\", \"临时切换过去顶一阵子\" — even without \"eval\", even wrapped in business narrative."
         },
         "standard": {
           "name": "llm-eval-harness",
-          "description": null,
+          "description": "Test/evaluate any LLM behind an OpenAI- or Anthropic-compatible endpoint: availability (max_tokens-aware), request fidelity (does system prompt/tools/history REACH the model, or does the gateway silently drop it), speed (TTFT+tok/s), concurrency (before a workshop), Anthropic protocol compliance, quality regression, vendor bug reports, deployment gates, resident canaries. Reach for this BEFORE hand-rolling a curl loop against any LLM endpoint — that instinct is the trap: it skips the N=10 sampling, Connection:close, and env-var key handling this bakes in. Use when someone tests/benchmarks/测评/压测 a model/endpoint, onboards a provider, decides whether to switch or temporarily fail over to an alternate channel (e.g. outage or quota exhaustion), writes a supported-models list, debugs \"model ignores system prompt\", or verifies a tok/s claim. Triggers on \"benchmark this model\", \"测一下这个模型/渠道/API\", \"接入新模型先测一下\", \"system prompt 不生效\", \"这个渠道能不能用/稳不稳\", \"临时切换过去顶一阵子\" — even without \"eval\", even wrapped in business narrative.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -3542,10 +3542,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -3553,7 +3553,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3630,7 +3630,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3707,7 +3707,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3784,7 +3784,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3801,12 +3801,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "local-conversation-history",
-          "description": "",
+          "description": "Lists recent local Claude Code and OpenAI Codex conversations for a workspace in one read-only command. For Claude Code, the default inventory combines every active config home with every long-term archive registered in ~/.claude/history-sources.json, de-duplicates session IDs, and orders or filters by internal JSONL timestamps rather than file mtime. Produces readable Markdown or JSON with titles, timezone-qualified timestamps, provenance, session IDs, and archive/test markers while excluding internal sub-agent noise by default; Codex raw-rollout fallback also computes internal record bounds without mtime. Use when the user asks to list, show, or browse recent local chats, task history, or session IDs across Claude Code and Codex. Do not use for keyword/full-event search, deleted-file recovery, or resuming work.",
           "argument-hint": "[workspace-path]"
         },
         "standard": {
           "name": "local-conversation-history",
-          "description": null,
+          "description": "Lists recent local Claude Code and OpenAI Codex conversations for a workspace in one read-only command. For Claude Code, the default inventory combines every active config home with every long-term archive registered in ~/.claude/history-sources.json, de-duplicates session IDs, and orders or filters by internal JSONL timestamps rather than file mtime. Produces readable Markdown or JSON with titles, timezone-qualified timestamps, provenance, session IDs, and archive/test markers while excluding internal sub-agent noise by default; Codex raw-rollout fallback also computes internal record bounds without mtime. Use when the user asks to list, show, or browse recent local chats, task history, or session IDs across Claude Code and Codex. Do not use for keyword/full-event search, deleted-file recovery, or resuming work.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -3851,10 +3851,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -3862,7 +3862,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3939,7 +3939,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -3956,12 +3956,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "marketplace-dev",
-          "description": "",
+          "description": "Converts any Claude Code skills repository into an official plugin marketplace — generates spec-conforming .claude-plugin/marketplace.json, validates with `claude plugin validate`, tests real installation, and PRs the upstream repo, encoding hard-won schema/version/description anti-patterns. Use when the user mentions marketplace, plugin support, one-click install, marketplace.json, plugin distribution, auto-update, or wants a skills repo installable via `claude plugin install`.",
           "argument-hint": "[repo-path]"
         },
         "standard": {
           "name": "marketplace-dev",
-          "description": null,
+          "description": "Converts any Claude Code skills repository into an official plugin marketplace — generates spec-conforming .claude-plugin/marketplace.json, validates with `claude plugin validate`, tests real installation, and PRs the upstream repo, encoding hard-won schema/version/description anti-patterns. Use when the user mentions marketplace, plugin support, one-click install, marketplace.json, plugin distribution, auto-update, or wants a skills repo installable via `claude plugin install`.",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -4006,10 +4006,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4017,7 +4017,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4034,11 +4034,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "marketplace-health-check",
-          "description": ""
+          "description": "Run a full 6-dimension health check of this Claude Code skills marketplace repo — code/script safety, documentation/SSOT consistency, security/PII leaks, open-PR triage, open-issue triage, and marketplace-manifest integrity — via a parallel fan-out Dynamic Workflow, then verify the serious findings and report them by priority. Use this whenever the user asks to check the repo, run a health check, do a full sweep/audit before a release, 全面体检, 检查仓库状态, 看看仓库健康吗, 审计一下仓库, or asks whether the PRs / issues / docs / versions / PII are in good shape across the board — even if they never say the word \"workflow\". Reach for it for any broad \"is this whole repo OK\" request, not just one-file checks."
         },
         "standard": {
           "name": "marketplace-health-check",
-          "description": null,
+          "description": "Run a full 6-dimension health check of this Claude Code skills marketplace repo — code/script safety, documentation/SSOT consistency, security/PII leaks, open-PR triage, open-issue triage, and marketplace-manifest integrity — via a parallel fan-out Dynamic Workflow, then verify the serious findings and report them by priority. Use this whenever the user asks to check the repo, run a health check, do a full sweep/audit before a release, 全面体检, 检查仓库状态, 看看仓库健康吗, 审计一下仓库, or asks whether the PRs / issues / docs / versions / PII are in good shape across the board — even if they never say the word \"workflow\". Reach for it for any broad \"is this whole repo OK\" request, not just one-file checks.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4083,10 +4083,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4094,7 +4094,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4111,11 +4111,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "meeting-minutes-taker",
-          "description": ""
+          "description": "Transforms raw meeting transcripts into high-fidelity, structured meeting minutes (notes / summaries). Use when (1) a meeting transcript is provided and meeting minutes, notes, or a summary are requested; (2) multiple versions of minutes must be merged without losing content; (3) existing minutes need review against the original transcript for missing items; (4) the transcript has anonymous speakers like \"Speaker 1/2/3\" or \"发言人1\" that need identifying (optionally mapped via a context.md team directory). Triggers on 会议纪要 / 会议记录 / 整理纪要 / 妙记转纪要, \"write meeting minutes\", \"summarize this meeting\", \"merge these minutes\", \"what's missing from these notes\". For fixing ASR/STT recognition errors in the raw transcript first, use transcript-fixer; this skill structures clean transcripts into minutes.\n"
         },
         "standard": {
           "name": "meeting-minutes-taker",
-          "description": null,
+          "description": "Transforms raw meeting transcripts into high-fidelity, structured meeting minutes (notes / summaries). Use when (1) a meeting transcript is provided and meeting minutes, notes, or a summary are requested; (2) multiple versions of minutes must be merged without losing content; (3) existing minutes need review against the original transcript for missing items; (4) the transcript has anonymous speakers like \"Speaker 1/2/3\" or \"发言人1\" that need identifying (optionally mapped via a context.md team directory). Triggers on 会议纪要 / 会议记录 / 整理纪要 / 妙记转纪要, \"write meeting minutes\", \"summarize this meeting\", \"merge these minutes\", \"what's missing from these notes\". For fixing ASR/STT recognition errors in the raw transcript first, use transcript-fixer; this skill structures clean transcripts into minutes.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4160,10 +4160,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4171,7 +4171,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4248,7 +4248,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4265,12 +4265,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "notify-wecom",
-          "description": "",
+          "description": "Send a single one-off message to a WeCom (Enterprise WeChat) group bot. Use this skill whenever the user says \"/notify-wecom\", \"send a quick WeCom message\", \"企微通知一下\", \"临时发一条企业微信\", or any one-shot notification that does not need a reusable template or setup workflow. The message is sent immediately; no confirmation prompt is shown unless the message is empty or the webhook is not configured.",
           "argument-hint": "[message]"
         },
         "standard": {
           "name": "notify-wecom",
-          "description": null,
+          "description": "Send a single one-off message to a WeCom (Enterprise WeChat) group bot. Use this skill whenever the user says \"/notify-wecom\", \"send a quick WeCom message\", \"企微通知一下\", \"临时发一条企业微信\", or any one-shot notification that does not need a reusable template or setup workflow. The message is sent immediately; no confirmation prompt is shown unless the message is empty or the webhook is not configured.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4315,10 +4315,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4326,7 +4326,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4343,12 +4343,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "openclaw",
-          "description": "",
+          "description": "Manage OpenClaw (龙虾) instance configurations. Use whenever the user wants to audit, diff, copy, add-model, list, or switch models in an openclaw.json file, or when they mention lobsters, 虾, 甲虾, 乙虾, DeepSeek patch, default model, model aliases, or OpenClaw config validation.",
           "argument-hint": "[audit|diff|copy|add-model|list|switch] [options]"
         },
         "standard": {
           "name": "openclaw",
-          "description": null,
+          "description": "Manage OpenClaw (龙虾) instance configurations. Use whenever the user wants to audit, diff, copy, add-model, list, or switch models in an openclaw.json file, or when they mention lobsters, 虾, 甲虾, 乙虾, DeepSeek patch, default model, model aliases, or OpenClaw config validation.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4393,10 +4393,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4404,7 +4404,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4421,11 +4421,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "openclaw-model-switch",
-          "description": ""
+          "description": "Switch or repair the model configuration of an OpenClaw instance (e.g. Kimi k2p6 → k3): change the default model, add model definitions, and fix model-config failures — 401 \"Invalid token\", \"No available channel / model not found\", thinking-level rejections (\"Thinking level X is not supported\"), and config edits that don't take effect. Use whenever the user wants to switch/upgrade/rollback the OpenClaw model (切换模型/换模型/ 升级模型), or says the OpenClaw/龙虾 bot's model is misconfigured (模型配的错了), or the bot falls back / errors on LLM calls."
         },
         "standard": {
           "name": "openclaw-model-switch",
-          "description": null,
+          "description": "Switch or repair the model configuration of an OpenClaw instance (e.g. Kimi k2p6 → k3): change the default model, add model definitions, and fix model-config failures — 401 \"Invalid token\", \"No available channel / model not found\", thinking-level rejections (\"Thinking level X is not supported\"), and config edits that don't take effect. Use whenever the user wants to switch/upgrade/rollback the OpenClaw model (切换模型/换模型/ 升级模型), or says the OpenClaw/龙虾 bot's model is misconfigured (模型配的错了), or the bot falls back / errors on LLM calls.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4470,10 +4470,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4481,7 +4481,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4558,7 +4558,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4635,7 +4635,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4652,11 +4652,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "pharma-daily-report",
-          "description": ""
+          "description": "生成 A 股医药行业日报：从新浪财经抓取 20 只核心医药股实时行情，分析 7 大细分赛道排名、涨跌榜 TOP 3、资金流向，然后通过飞书发送富文本日报。 覆盖恒瑞医药、百济神州、智飞生物、药明康德、迈瑞医疗、片仔癀、云南白药等 20 只核心标的。 当用户需要 医药日报、医药行业日报、pharma daily report、 新浪财经医药数据、A 股医药板块分析、飞书推送医药数据、 制药行业快报 时触发。也适用于\"帮我看一下今天医药板块\"、 \"给飞书发一份今天的医药数据\"等口语化请求。\n"
         },
         "standard": {
           "name": "pharma-daily-report",
-          "description": null,
+          "description": "生成 A 股医药行业日报：从新浪财经抓取 20 只核心医药股实时行情，分析 7 大细分赛道排名、涨跌榜 TOP 3、资金流向，然后通过飞书发送富文本日报。 覆盖恒瑞医药、百济神州、智飞生物、药明康德、迈瑞医疗、片仔癀、云南白药等 20 只核心标的。 当用户需要 医药日报、医药行业日报、pharma daily report、 新浪财经医药数据、A 股医药板块分析、飞书推送医药数据、 制药行业快报 时触发。也适用于\"帮我看一下今天医药板块\"、 \"给飞书发一份今天的医药数据\"等口语化请求。",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4701,10 +4701,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4712,7 +4712,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4729,11 +4729,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "photo-to-scanned-pdf",
-          "description": ""
+          "description": "Two pipelines ending at a scanner-look PDF. (1) Phone photos of paper documents (contracts, stamped certificates, receipts, forms, handwritten notes) → clean scanner-quality PDF: perspective rectification + noteshrink whitening + A4 assembly + mandatory whole-document check. Trigger: \"把照片 做成扫描件\", \"photos to scanned PDF\", \"make this look scanned\", \"手机拍的 文档转 PDF\", \"盖章文件扫描\", replacing pages in an existing scanned PDF, any CamScanner-like request. (2) A digital document with no signature yet (rendered docx/PDF, confirmation form, contract draft) → make it look hand-signed and scanned: synthesize a handwriting-style signature, composite it onto the signature line, apply the same scan-look post-processing. Trigger: \"帮我做个手写签名\", \"生成签名盖到这份文件上\", \"做成签过字的扫描件\", \"synthesize a signature\", any request for a document that needs to look signed without a real photographed signature. Do NOT hand-roll levels/contrast enhancement for scan-look — tried and rejected twice; this skill's pipeline is the proven one."
         },
         "standard": {
           "name": "photo-to-scanned-pdf",
-          "description": null,
+          "description": "Two pipelines ending at a scanner-look PDF. (1) Phone photos of paper documents (contracts, stamped certificates, receipts, forms, handwritten notes) → clean scanner-quality PDF: perspective rectification + noteshrink whitening + A4 assembly + mandatory whole-document check. Trigger: \"把照片 做成扫描件\", \"photos to scanned PDF\", \"make this look scanned\", \"手机拍的 文档转 PDF\", \"盖章文件扫描\", replacing pages in an existing scanned PDF, any CamScanner-like request. (2) A digital document with no signature yet (rendered docx/PDF, confirmation form, contract draft) → make it look hand-signed and scanned: synthesize a handwriting-style signature, composite it onto the signature line, apply the same scan-look post-processing. Trigger: \"帮我做个手写签名\", \"生成签名盖到这份文件上\", \"做成签过字的扫描件\", \"synthesize a signature\", any request for a document that needs to look signed without a real photographed signature. Do NOT hand-roll levels/contrast enhancement for scan-look — tried and rejected twice; this skill's pipeline is the proven one.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4778,10 +4778,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4789,7 +4789,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4806,11 +4806,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "ppt-creator",
-          "description": ""
+          "description": "【DEPRECATED · 已废弃】本 skill 已于 2026-08-07 停止维护。对作者本机环境：其方法论已整体并入 deck-creator（私有仓 daymade-skills-pro 的 Route B · draft），装有 deck-creator 的环境不要调用本 skill。 对外部用户：这是最终版本，保留安装兼容，不再接收更新——你可以继续按本文档使用， 但请知悉上游已冻结。将在 daymade-docs v2.0.0 中物理移除。"
         },
         "standard": {
           "name": "ppt-creator",
-          "description": null,
+          "description": "【DEPRECATED · 已废弃】本 skill 已于 2026-08-07 停止维护。对作者本机环境：其方法论已整体并入 deck-creator（私有仓 daymade-skills-pro 的 Route B · draft），装有 deck-creator 的环境不要调用本 skill。 对外部用户：这是最终版本，保留安装兼容，不再接收更新——你可以继续按本文档使用， 但请知悉上游已冻结。将在 daymade-docs v2.0.0 中物理移除。",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -4855,10 +4855,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -4866,7 +4866,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -4944,7 +4944,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5021,7 +5021,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5098,7 +5098,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5175,7 +5175,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5192,11 +5192,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "read-claude-web-conversation",
-          "description": ""
+          "description": "Read or export the COMPLETE transcript of a Claude.ai web conversation — both private claude.ai/chat/... and public claude.ai/share/... links — by calling Claude.ai's internal API from inside the user's logged-in Chrome, and download its FILES too (uploads, deliverables). Use whenever the user pastes a claude.ai conversation or share link and asks to read, summarize, export, archive, or extract it — \"read this Claude conversation\", \"导出这个网页版对话\", \"把这个对话拉到本地\". Every naive approach fails SILENTLY: curl/WebFetch hit a Cloudflare challenge; get_page_text sees only the last message; the default API rendering collapses tool calls into placeholders (~5% of it); a share payload uses block shapes a /chat/-only renderer drops without error. Works even when the claude-in-chrome extension cannot pair (different account), via CDP or a macOS AppleScript fallback. Scope: ONLINE claude.ai. For LOCAL Claude Code sessions use claude-code-history-files-finder; for an exported .txt/.json file use claude-export-txt-better."
         },
         "standard": {
           "name": "read-claude-web-conversation",
-          "description": null,
+          "description": "Read or export the COMPLETE transcript of a Claude.ai web conversation — both private claude.ai/chat/... and public claude.ai/share/... links — by calling Claude.ai's internal API from inside the user's logged-in Chrome, and download its FILES too (uploads, deliverables). Use whenever the user pastes a claude.ai conversation or share link and asks to read, summarize, export, archive, or extract it — \"read this Claude conversation\", \"导出这个网页版对话\", \"把这个对话拉到本地\". Every naive approach fails SILENTLY: curl/WebFetch hit a Cloudflare challenge; get_page_text sees only the last message; the default API rendering collapses tool calls into placeholders (~5% of it); a share payload uses block shapes a /chat/-only renderer drops without error. Works even when the claude-in-chrome extension cannot pair (different account), via CDP or a macOS AppleScript fallback. Scope: ONLINE claude.ai. For LOCAL Claude Code sessions use claude-code-history-files-finder; for an exported .txt/.json file use claude-export-txt-better.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -5241,10 +5241,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -5252,7 +5252,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5329,7 +5329,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5406,7 +5406,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5483,7 +5483,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5500,11 +5500,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "setup-notifications-via-wecom",
-          "description": ""
+          "description": "Set up and send technical status notifications through WeCom (Enterprise WeChat) webhooks. Use this skill whenever the user needs to send notifications, alerts, backup completion reports, or status updates via WeCom; when they mention 企业微信, 企微机器人, webhook, or alerting; or when a message needs to be clear, unambiguous, and technically precise rather than vague or condescending."
         },
         "standard": {
           "name": "setup-notifications-via-wecom",
-          "description": null,
+          "description": "Set up and send technical status notifications through WeCom (Enterprise WeChat) webhooks. Use this skill whenever the user needs to send notifications, alerts, backup completion reports, or status updates via WeCom; when they mention 企业微信, 企微机器人, webhook, or alerting; or when a message needs to be clear, unambiguous, and technically precise rather than vague or condescending.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -5549,10 +5549,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -5560,7 +5560,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5577,12 +5577,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "skill-creator",
-          "description": "",
+          "description": "Create new skills, modify and improve existing skills, and measure skill performance. This daymade edition supersedes the official skill-creator plugin — when both appear in the skill list, always use this one. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy. Also use for its three specialized distillations, even when the user never says \"skill\" — \"wrap this session up as a skill\" / \"把这次 session 做成一个 skill\" (wrapper skill for a third-party tool), \"mine my chat history for patterns\" / \"把这次对话沉淀到 skill 里\" (conversation mining), and \"these are my approved examples, learn what I really want\" / \"从我认可的样例里提炼我真正的喜好\" (artifact-corpus preference distillation).",
           "license": "Complete terms in LICENSE.txt"
         },
         "standard": {
           "name": "skill-creator",
-          "description": null,
+          "description": "Create new skills, modify and improve existing skills, and measure skill performance. This daymade edition supersedes the official skill-creator plugin — when both appear in the skill list, always use this one. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy. Also use for its three specialized distillations, even when the user never says \"skill\" — \"wrap this session up as a skill\" / \"把这次 session 做成一个 skill\" (wrapper skill for a third-party tool), \"mine my chat history for patterns\" / \"把这次对话沉淀到 skill 里\" (conversation mining), and \"these are my approved examples, learn what I really want\" / \"从我认可的样例里提炼我真正的喜好\" (artifact-corpus preference distillation).",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -5627,10 +5627,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -5638,7 +5638,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5655,11 +5655,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "skill-governance",
-          "description": ""
+          "description": "Enforce source-of-truth discipline for Claude Code skill marketplaces, caches, and loose userSettings skills. Use whenever the user says \"check skill drift\", \"检查 skill 漂移\", \"sync skills from source\", \"以源码为准同步 skill 缓存\", \"clean old skill cache versions\", \"清理 skill 缓存旧版本\", \"switch marketplace to local source\", \"marketplace 切到本地源码\", \"thin skills\", \"薄 skill\", \"loose skills\", \"清理 user skills\", or talks about skill caches being stale, version mismatches, orphaned plugins, duplicate direct-copy skills, untracked user skills, or rebuilding the marketplace cache from a local source repo."
         },
         "standard": {
           "name": "skill-governance",
-          "description": null,
+          "description": "Enforce source-of-truth discipline for Claude Code skill marketplaces, caches, and loose userSettings skills. Use whenever the user says \"check skill drift\", \"检查 skill 漂移\", \"sync skills from source\", \"以源码为准同步 skill 缓存\", \"clean old skill cache versions\", \"清理 skill 缓存旧版本\", \"switch marketplace to local source\", \"marketplace 切到本地源码\", \"thin skills\", \"薄 skill\", \"loose skills\", \"清理 user skills\", or talks about skill caches being stale, version mismatches, orphaned plugins, duplicate direct-copy skills, untracked user skills, or rebuilding the marketplace cache from a local source repo.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -5704,10 +5704,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -5715,7 +5715,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5792,7 +5792,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5873,7 +5873,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5890,11 +5890,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "slides-creator",
-          "description": ""
+          "description": "【DEPRECATED · 已废弃】本 skill 已于 2026-08-07 停止维护。对作者本机环境：其方法论 （First Law 用户原话优先 / ABCDEFG 叙事框架 / baoyu-slide-deck 委托协议 / 四层目录治理） 已整体并入 deck-creator（私有仓 daymade-skills-pro 的 Route A · narrative）， 装有 deck-creator 的环境不要调用本 skill。对外部用户：这是最终版本， 保留安装兼容，不再接收更新。将在后续大版本中物理移除。"
         },
         "standard": {
           "name": "slides-creator",
-          "description": null,
+          "description": "【DEPRECATED · 已废弃】本 skill 已于 2026-08-07 停止维护。对作者本机环境：其方法论 （First Law 用户原话优先 / ABCDEFG 叙事框架 / baoyu-slide-deck 委托协议 / 四层目录治理） 已整体并入 deck-creator（私有仓 daymade-skills-pro 的 Route A · narrative）， 装有 deck-creator 的环境不要调用本 skill。对外部用户：这是最终版本， 保留安装兼容，不再接收更新。将在后续大版本中物理移除。",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -5939,10 +5939,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -5950,7 +5950,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -5967,11 +5967,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "statusline-generator",
-          "description": ""
+          "description": "Installs, configures, customizes, or troubleshoots the Claude Code statusline (cwd, model, token counts). Use when the user wants to set up or change the statusline, switch minimal vs full layouts, show absolute token counts (e.g. ctx 108K / 1M) instead of a percentage, add cost via ccusage or git status, dump the stdin JSON Claude Code passes the script, or fix a statusline that is blank, silent, stuck, shows \"permission denied\", or stopped updating after a script edit (often a missing chmod +x). Trigger phrases: \"configure statusline\", \"statusline blank\", \"status line not showing\", \"statusline broken\", \"show token count in statusline\", 状态栏, 状态栏不显示, 状态栏空白, 显示工作目录, 显示 token 数.\n"
         },
         "standard": {
           "name": "statusline-generator",
-          "description": null,
+          "description": "Installs, configures, customizes, or troubleshoots the Claude Code statusline (cwd, model, token counts). Use when the user wants to set up or change the statusline, switch minimal vs full layouts, show absolute token counts (e.g. ctx 108K / 1M) instead of a percentage, add cost via ccusage or git status, dump the stdin JSON Claude Code passes the script, or fix a statusline that is blank, silent, stuck, shows \"permission denied\", or stopped updating after a script edit (often a missing chmod +x). Trigger phrases: \"configure statusline\", \"statusline blank\", \"status line not showing\", \"statusline broken\", \"show token count in statusline\", 状态栏, 状态栏不显示, 状态栏空白, 显示工作目录, 显示 token 数.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -6016,10 +6016,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -6027,7 +6027,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6104,7 +6104,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6181,7 +6181,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6258,7 +6258,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6275,11 +6275,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "terminal-screenshot",
-          "description": ""
+          "description": "Render a terminal CLI program's colored output to a PNG so Claude can actually SEE the real visual result — color contrast, alignment, background blocks, highlighting — instead of only reading plain text and raw ANSI escape codes. Use this whenever verifying or debugging how a CLI tool looks in the terminal: delta git diff colors, bat syntax highlighting, starship prompt, eza/ls colors, git diff, ripgrep matches, or any ANSI-colored output. ALWAYS use it right after changing any CLI color config (delta / bat / themes / lazygit pager) to visually confirm the result rather than guessing from hex values — reading a hex code is not the same as seeing the rendered contrast on the real terminal background. Trigger phrases: 看终端效果, 终端截图, 验证配色, 配色对比, 终端真实效果, terminal screenshot, render terminal output, ANSI to image, \"does this color look right\", \"is the contrast enough\", delta/bat color verification.\n"
         },
         "standard": {
           "name": "terminal-screenshot",
-          "description": null,
+          "description": "Render a terminal CLI program's colored output to a PNG so Claude can actually SEE the real visual result — color contrast, alignment, background blocks, highlighting — instead of only reading plain text and raw ANSI escape codes. Use this whenever verifying or debugging how a CLI tool looks in the terminal: delta git diff colors, bat syntax highlighting, starship prompt, eza/ls colors, git diff, ripgrep matches, or any ANSI-colored output. ALWAYS use it right after changing any CLI color config (delta / bat / themes / lazygit pager) to visually confirm the result rather than guessing from hex values — reading a hex code is not the same as seeing the rendered contrast on the real terminal background. Trigger phrases: 看终端效果, 终端截图, 验证配色, 配色对比, 终端真实效果, terminal screenshot, render terminal output, ANSI to image, \"does this color look right\", \"is the contrast enough\", delta/bat color verification.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -6324,10 +6324,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -6335,7 +6335,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6352,11 +6352,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "terraform-skill",
-          "description": ""
+          "description": "Operational traps for Terraform provisioners, multi-environment isolation, and zero-to-deployment reliability. Use when writing null_resource / remote-exec / local-exec / file provisioners, setting up fresh instances with cloud-init, or any IaC code that SSHs into remote hosts; when creating multi-environment Terraform setups (DNS record duplication, snapshot cross-contamination); or when debugging containers that are Restarting/unhealthy after terraform apply. Also when the user mentions terraform plan/apply errors, provisioner failures, infrastructure drift, TLS certificate errors, Cloudflare credential format, or Caddy/gateway / Caddyfile / compose configuration.\n"
         },
         "standard": {
           "name": "terraform-skill",
-          "description": null,
+          "description": "Operational traps for Terraform provisioners, multi-environment isolation, and zero-to-deployment reliability. Use when writing null_resource / remote-exec / local-exec / file provisioners, setting up fresh instances with cloud-init, or any IaC code that SSHs into remote hosts; when creating multi-environment Terraform setups (DNS record duplication, snapshot cross-contamination); or when debugging containers that are Restarting/unhealthy after terraform apply. Also when the user mentions terraform plan/apply errors, provisioner failures, infrastructure drift, TLS certificate errors, Cloudflare credential format, or Caddy/gateway / Caddyfile / compose configuration.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -6401,10 +6401,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -6412,7 +6412,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6486,7 +6486,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6503,11 +6503,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "transcript-fixer",
-          "description": ""
+          "description": "Corrects speech-to-text transcription errors using dictionary rules and Claude's built-in AI (no external API key required — Native AI Correction is the DEFAULT). Stage 1 alone is not the job. Stage 3 API is a backup for automation without Claude Code. Builds personalized correction databases that learn from each fix, auto-loads person-name ASR variants from your people roster, and reads per-domain context files that prime the AI pass for context-dependent homophones. Triggers when working with ASR/STT output containing recognition errors, homophones, garbled technical terms, person-name errors, or Chinese/English mixed content. Also triggers on requests to clean up meeting notes, lecture transcripts, interview recordings, or any text produced by speech recognition. Use this skill even when the user just says \"fix this transcript\", \"clean up these meeting notes\", or mentions garbled names without invoking ASR specifically."
         },
         "standard": {
           "name": "transcript-fixer",
-          "description": null,
+          "description": "Corrects speech-to-text transcription errors using dictionary rules and Claude's built-in AI (no external API key required — Native AI Correction is the DEFAULT). Stage 1 alone is not the job. Stage 3 API is a backup for automation without Claude Code. Builds personalized correction databases that learn from each fix, auto-loads person-name ASR variants from your people roster, and reads per-domain context files that prime the AI pass for context-dependent homophones. Triggers when working with ASR/STT output containing recognition errors, homophones, garbled technical terms, person-name errors, or Chinese/English mixed content. Also triggers on requests to clean up meeting notes, lecture transcripts, interview recordings, or any text produced by speech recognition. Use this skill even when the user just says \"fix this transcript\", \"clean up these meeting notes\", or mentions garbled names without invoking ASR specifically.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -6552,10 +6552,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -6563,7 +6563,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6580,12 +6580,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "tunnel-doctor",
-          "description": "",
+          "description": "Diagnoses and fixes Tailscale x proxy/VPN tool conflicts (Shadowrocket, Clash, Surge, OrbStack/Docker) on macOS — route hijacking, proxy env vars, system proxy bypass, SSH ProxyCommand double-tunneling, VM/container proxy propagation, stalled macOS DNS. Use when Tailscale ping works but SSH/HTTP times out, browser returns 503 but curl works, git push fails with \"failed to begin relaying via HTTP\", Docker pull/build times out behind TUN/VPN, setting up Tailscale SSH to WSL or remote dev over Tailscale, ssh/curl/git hang ~60s resolving a hostname while nslookup is instant, ping to a resolver works but dig times out, ssh -vvv freezes at \"debug2: resolving\", raw probes impossibly fast under a TUN (nc -z 0.00s), all DIRECT-routed sites fail at once (TLS handshake EOF, UNKNOWN_CERTIFICATE_VERIFICATION_ERROR, proxy CONNECT 503) while proxied sites work — TUN DIRECT split-brain — or a Windows host TUN (v2rayN) black-holing the whole machine incl. WSL and Tailscale (event-log forensics prove which action fixed it).\n",
           "allowed-tools": "Read, Grep, Edit, Bash"
         },
         "standard": {
           "name": "tunnel-doctor",
-          "description": null,
+          "description": "Diagnoses and fixes Tailscale x proxy/VPN tool conflicts (Shadowrocket, Clash, Surge, OrbStack/Docker) on macOS — route hijacking, proxy env vars, system proxy bypass, SSH ProxyCommand double-tunneling, VM/container proxy propagation, stalled macOS DNS. Use when Tailscale ping works but SSH/HTTP times out, browser returns 503 but curl works, git push fails with \"failed to begin relaying via HTTP\", Docker pull/build times out behind TUN/VPN, setting up Tailscale SSH to WSL or remote dev over Tailscale, ssh/curl/git hang ~60s resolving a hostname while nslookup is instant, ping to a resolver works but dig times out, ssh -vvv freezes at \"debug2: resolving\", raw probes impossibly fast under a TUN (nc -z 0.00s), all DIRECT-routed sites fail at once (TLS handshake EOF, UNKNOWN_CERTIFICATE_VERIFICATION_ERROR, proxy CONNECT 503) while proxied sites work — TUN DIRECT split-brain — or a Windows host TUN (v2rayN) black-holing the whole machine incl. WSL and Tailscale (event-log forensics prove which action fixed it).",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -6635,10 +6635,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -6646,7 +6646,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6723,7 +6723,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6800,7 +6800,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6877,7 +6877,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -6894,12 +6894,12 @@
         "kind": "skill-md",
         "raw": {
           "name": "windows-remote-desktop-connection-doctor",
-          "description": "",
+          "description": "Diagnose Windows App (Microsoft Remote Desktop / Azure Virtual Desktop / W365 / direct PC) connection issues on macOS. Analyze transport protocol selection (UDP Shortpath vs WebSocket), detect VPN/proxy interference, parse Windows App logs for Shortpath failures, and resolve stuck \"Configuring remote PC...\" dialogs caused by expired Microsoft accounts, server reboots, or client-side auth poisoning. Use when VDI connections are slow or stuck, when direct PC connections fail to connect, when transport shows WebSocket instead of UDP, when RDP Shortpath fails, or when Windows App is frozen at a progress dialog.",
           "allowed-tools": "Read, Grep, Bash"
         },
         "standard": {
           "name": "windows-remote-desktop-connection-doctor",
-          "description": null,
+          "description": "Diagnose Windows App (Microsoft Remote Desktop / Azure Virtual Desktop / W365 / direct PC) connection issues on macOS. Analyze transport protocol selection (UDP Shortpath vs WebSocket), detect VPN/proxy interference, parse Windows App logs for Shortpath failures, and resolve stuck \"Configuring remote PC...\" dialogs caused by expired Microsoft accounts, server reboots, or client-side auth poisoning. Use when VDI connections are slow or stuck, when direct PC connections fail to connect, when transport shows WebSocket instead of UDP, when RDP Shortpath fails, or when Windows App is frozen at a progress dialog.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -6948,10 +6948,10 @@
           "pdf-creator-v1.3.0"
         ]
       },
-      "trust_score": 35,
+      "trust_score": 40,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -6959,7 +6959,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -7036,7 +7036,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -7113,7 +7113,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1327,
+          "stars": 1329,
           "contributors": 11,
           "last_commit": "2026-08-08T12:14:47Z",
           "archived": false
@@ -7129,7 +7129,7 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1327,
+      "stars": 1329,
       "contributors": 11,
       "last_commit": "2026-08-08T12:14:47Z",
       "archived": false

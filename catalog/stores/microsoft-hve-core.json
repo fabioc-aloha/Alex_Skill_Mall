@@ -1,8 +1,8 @@
 {
   "store": "microsoft-hve-core",
   "source_repo": "https://github.com/microsoft/hve-core.git",
-  "generated_at": "2026-08-10T11:24:00.876Z",
-  "scanned_ref": "7523b50a9beb89b037218fa39e734c112f4fc7aa",
+  "generated_at": "2026-08-11T13:29:10.460Z",
+  "scanned_ref": "db1be8f09a91525ff0412d38c581e1cd6922e01b",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -13,19 +13,25 @@
       "name": "docs",
       "shape": "agent",
       "source_path": "docs",
-      "source_url": "https://github.com/microsoft/hve-core/tree/7523b50a9beb89b037218fa39e734c112f4fc7aa/docs",
+      "source_url": "https://github.com/microsoft/hve-core/tree/db1be8f09a91525ff0412d38c581e1cd6922e01b/docs",
       "readme_excerpt": "title: HVE Core Documentation",
       "frontmatter": {
         "kind": "agent-md",
         "raw": {
           "title": "HVE Core Documentation",
           "description": "Documentation hub for HVE Core, a prompt engineering framework that brings AI-powered agents, prompts, instructions, and skills to your GitHub Copilot workflow",
-          "sidebar_position": "1",
+          "sidebar_position": 1,
           "author": "Microsoft",
           "ms.date": "2026-08-02",
           "ms.topic": "overview",
-          "keywords": "",
-          "estimated_reading_time": "3"
+          "keywords": [
+            "hve core",
+            "documentation",
+            "copilot customizations",
+            "agents",
+            "prompt engineering"
+          ],
+          "estimated_reading_time": 3
         },
         "standard": {
           "name": "docs",
@@ -39,7 +45,13 @@
           "tools": null,
           "mode": null,
           "category": null,
-          "tags": null,
+          "tags": [
+            "hve core",
+            "documentation",
+            "copilot customizations",
+            "agents",
+            "prompt engineering"
+          ],
           "license": null,
           "requires": null,
           "author": "Microsoft"
@@ -47,7 +59,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "7523b50a9beb89b037218fa39e734c112f4fc7aa",
+        "default_sha": "db1be8f09a91525ff0412d38c581e1cd6922e01b",
         "tags": [
           "plugins-v3.3.106",
           "plugins-v3.3.105",
@@ -98,9 +110,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1334,
-          "contributors": 72,
-          "last_commit": "2026-08-10T05:57:23Z",
+          "stars": 1335,
+          "contributors": 74,
+          "last_commit": "2026-08-11T09:40:41Z",
           "archived": false
         }
       }
@@ -109,7 +121,7 @@
       "name": "evals",
       "shape": "unknown",
       "source_path": "evals",
-      "source_url": "https://github.com/microsoft/hve-core/tree/7523b50a9beb89b037218fa39e734c112f4fc7aa/evals",
+      "source_url": "https://github.com/microsoft/hve-core/tree/db1be8f09a91525ff0412d38c581e1cd6922e01b/evals",
       "readme_excerpt": "title: Evaluations",
       "frontmatter": {
         "kind": "agent-md",
@@ -139,7 +151,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "7523b50a9beb89b037218fa39e734c112f4fc7aa",
+        "default_sha": "db1be8f09a91525ff0412d38c581e1cd6922e01b",
         "tags": [
           "plugins-v3.3.106",
           "plugins-v3.3.105",
@@ -190,9 +202,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1334,
-          "contributors": 72,
-          "last_commit": "2026-08-10T05:57:23Z",
+          "stars": 1335,
+          "contributors": 74,
+          "last_commit": "2026-08-11T09:40:41Z",
           "archived": false
         }
       }
@@ -201,7 +213,7 @@
       "name": "scripts",
       "shape": "agent",
       "source_path": "scripts",
-      "source_url": "https://github.com/microsoft/hve-core/tree/7523b50a9beb89b037218fa39e734c112f4fc7aa/scripts",
+      "source_url": "https://github.com/microsoft/hve-core/tree/db1be8f09a91525ff0412d38c581e1cd6922e01b/scripts",
       "readme_excerpt": "title: Scripts",
       "frontmatter": {
         "kind": "agent-md",
@@ -211,8 +223,14 @@
           "author": "HVE Core Team",
           "ms.date": "2026-08-06",
           "ms.topic": "reference",
-          "keywords": "",
-          "estimated_reading_time": "5"
+          "keywords": [
+            "powershell",
+            "scripts",
+            "automation",
+            "linting",
+            "security"
+          ],
+          "estimated_reading_time": 5
         },
         "standard": {
           "name": "scripts",
@@ -226,7 +244,13 @@
           "tools": null,
           "mode": null,
           "category": null,
-          "tags": null,
+          "tags": [
+            "powershell",
+            "scripts",
+            "automation",
+            "linting",
+            "security"
+          ],
           "license": null,
           "requires": null,
           "author": "HVE Core Team"
@@ -234,7 +258,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "7523b50a9beb89b037218fa39e734c112f4fc7aa",
+        "default_sha": "db1be8f09a91525ff0412d38c581e1cd6922e01b",
         "tags": [
           "plugins-v3.3.106",
           "plugins-v3.3.105",
@@ -285,9 +309,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1334,
-          "contributors": 72,
-          "last_commit": "2026-08-10T05:57:23Z",
+          "stars": 1335,
+          "contributors": 74,
+          "last_commit": "2026-08-11T09:40:41Z",
           "archived": false
         }
       }
@@ -301,9 +325,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1334,
-      "contributors": 72,
-      "last_commit": "2026-08-10T05:57:23Z",
+      "stars": 1335,
+      "contributors": 74,
+      "last_commit": "2026-08-11T09:40:41Z",
       "archived": false
     }
   }

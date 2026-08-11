@@ -19,6 +19,53 @@ test('mixed component plugins are not mislabeled as skill-only', (t) => {
   assert.equal(inferShape(root, classifyFrontmatter(root)), 'mixed');
 });
 
+test('skill frontmatter preserves folded descriptions and nested metadata', (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-scan-yaml-'));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  fs.writeFileSync(path.join(root, 'SKILL.md'), `---
+name: data-manager-api-audience-ingestion
+description: >-
+  Guides developers through managing audience members using
+  the Data Manager API. Use when uploading an audience.
+metadata:
+  version: 1.1
+  category: GoogleAds
+---
+
+# Data Manager API Audience Ingestion
+`);
+
+  const { classifyFrontmatter } = require('../scripts/scan-sources.cjs');
+  const frontmatter = classifyFrontmatter(root);
+  assert.equal(frontmatter.kind, 'skill-md');
+  assert.equal(frontmatter.raw.description,
+    'Guides developers through managing audience members using the Data Manager API. Use when uploading an audience.');
+  assert.deepEqual(frontmatter.raw.metadata, { version: 1.1, category: 'GoogleAds' });
+});
+
+test('skill frontmatter parses Windows CRLF without a dangling carriage return', (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-scan-crlf-'));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const source = [
+    '---',
+    'name: text-to-speech',
+    'description: Convert text to speech. Use when generating voiceovers.',
+    'metadata: {"provider": "ElevenLabs"}',
+    '---',
+    '',
+    '# Text to Speech',
+    '',
+  ].join('\r\n');
+  fs.writeFileSync(path.join(root, 'SKILL.md'), source);
+
+  const { classifyFrontmatter } = require('../scripts/scan-sources.cjs');
+  const frontmatter = classifyFrontmatter(root);
+  assert.equal(frontmatter.kind, 'skill-md');
+  assert.equal(frontmatter.raw.description,
+    'Convert text to speech. Use when generating voiceovers.');
+  assert.deepEqual(frontmatter.raw.metadata, { provider: 'ElevenLabs' });
+});
+
 test('scan dedup prefers production plugins over skills and testing copies', () => {
   const { dedupeCandidates } = require('../scripts/scan-sources.cjs');
   const selected = dedupeCandidates([

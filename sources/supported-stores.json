@@ -1,6 +1,6 @@
 {
   "$schema": "./supported-stores.schema.json",
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-08-11",
   "purpose": "Single source of truth for Mall source discovery, scanning, trust scoring, rendering, and structural validation. Consumed by bootstrap-sources.cjs, scan-sources.cjs, list-refs.cjs, fetch-github-stats.cjs, compute-trust.cjs, render-catalog.cjs, and validate-catalog.cjs.",
   "stores": [
     {
@@ -144,6 +144,17 @@
       "note": "Design domain catalog (design-research, design-systems, ux-strategy, ui-design, interaction-design, ...). 33 plugins. Design coverage was zero after `awesome-design-skills` was cut round 1. Discovered via Steward Phase 3 audit 2026-07-28."
     },
     {
+      "name": "devexpress-agent-skills",
+      "remote": "https://github.com/DevExpress/agent-skills.git",
+      "pluginDir": "plugins",
+      "quality": "devexpress-official",
+      "license": "MIT",
+      "verified": true,
+      "verifiedDate": "2026-08-11",
+      "addedAt": "2026-08-11",
+      "note": "Official DevExpress skills for .NET and JS/TS component development. Seven plugin groups expose 78 nested skills with zero exact-name overlap. Store evaluation 10/10; disposable Mall scan produced 7 described plugin records."
+    },
+    {
       "name": "dotnet-maui-labs",
       "remote": "https://github.com/dotnet/maui-labs.git",
       "pluginDir": ".",
@@ -166,6 +177,28 @@
       "note": "Canonical .NET skills catalog (dotnet, dotnet-advanced, dotnet-data, dotnet-diag, dotnet-msbuild, ...). 15 plugins. First-party from the dotnet org. Discovered via Steward Phase 3 audit 2026-07-28."
     },
     {
+      "name": "elastic-agent-skills",
+      "remote": "https://github.com/elastic/agent-skills.git",
+      "pluginDir": "plugins",
+      "quality": "elastic-official",
+      "license": "Apache-2.0",
+      "verified": true,
+      "verifiedDate": "2026-08-11",
+      "addedAt": "2026-08-11",
+      "note": "Official Elastic skills for Elasticsearch, Kibana, Elastic Cloud, and observability. Five plugin groups expose 35 unique nested skill names with zero exact-name overlap. Store evaluation 10/10; disposable Mall scan produced 5 described, versioned plugin records."
+    },
+    {
+      "name": "elevenlabs-skills",
+      "remote": "https://github.com/elevenlabs/skills.git",
+      "pluginDir": ".",
+      "quality": "elevenlabs-official",
+      "license": "MIT",
+      "verified": true,
+      "verifiedDate": "2026-08-11",
+      "addedAt": "2026-08-11",
+      "note": "Official ElevenLabs speech, audio, music, and voice skills. Eleven records add ten unique names beyond the existing text-to-speech entry. Store evaluation 10/10; disposable Mall scan normalized 10/11 descriptions, with one repository support directory retained as an unknown-shape record."
+    },
+    {
       "name": "everything-claude-code",
       "remote": "https://github.com/WorldFlowAI/everything-claude-code.git",
       "pluginDir": ".",
@@ -174,6 +207,17 @@
       "verifiedDate": "2026-05-25",
       "note": "Resolved 2026-05-25 by name search; multi-type plugin store (agents/, commands/, skills/, plugins/, rules/, hooks/, mcp-configs/).",
       "provenance": false
+    },
+    {
+      "name": "expo-skills",
+      "remote": "https://github.com/expo/skills.git",
+      "pluginDir": "plugins/expo/skills",
+      "quality": "expo-official",
+      "license": "MIT",
+      "verified": true,
+      "verifiedDate": "2026-08-11",
+      "addedAt": "2026-08-11",
+      "note": "Official Expo and EAS application-development skills. Twenty-one production skill records, 14 exact-name additions beyond current catalog coverage. Store evaluation 10/10; disposable Mall scan normalized all 21 descriptions and 18 versions."
     },
     {
       "name": "garden-skills",
@@ -194,6 +238,28 @@
       "verifiedDate": "2026-05-25",
       "note": "Tier-1 sweep 2026-05-25. Official GitHub Copilot plugins collection (MCP servers, skills).",
       "provenance": false
+    },
+    {
+      "name": "google-skills",
+      "remote": "https://github.com/google/skills.git",
+      "pluginDir": "skills",
+      "quality": "google-official",
+      "license": "Apache-2.0",
+      "verified": true,
+      "verifiedDate": "2026-08-11",
+      "addedAt": "2026-08-11",
+      "note": "Official Google skills spanning Ads, Cloud, Maps, Workspace, Firebase, and developer APIs. Disposable Mall scan produced 106 described records with one exact-name overlap. Store evaluation 10/10. Admission includes the YAML-parser repair required to preserve folded descriptions, nested metadata, and Windows CRLF frontmatter."
+    },
+    {
+      "name": "huggingface-skills",
+      "remote": "https://github.com/huggingface/skills.git",
+      "pluginDir": "skills",
+      "quality": "huggingface-official",
+      "license": "Apache-2.0",
+      "verified": true,
+      "verifiedDate": "2026-08-11",
+      "addedAt": "2026-08-11",
+      "note": "Official Hugging Face skills for datasets, model evaluation, cloud deployment, training, and Spaces. Twenty-five records add 13 exact-name additions beyond current coverage. Store evaluation 10/10; disposable Mall scan normalized all 25 descriptions after the CRLF parser repair."
     },
     {
       "name": "karpathy-skills",

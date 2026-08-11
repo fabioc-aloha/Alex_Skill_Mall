@@ -1,7 +1,7 @@
 {
   "store": "copilot-agents-dojo",
   "source_repo": "https://github.com/andreaswasita/copilot-agents-dojo.git",
-  "generated_at": "2026-06-08T12:31:32.637Z",
+  "generated_at": "2026-08-11T13:29:09.093Z",
   "scanned_ref": "8207f1266911f420ab20b2ef0789760c4855fe9f",
   "provenance": false,
   "tier": "domain",
@@ -23,8 +23,16 @@
           "tier": "core",
           "category": "discipline",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[debugging, autonomy, root-cause]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "debugging",
+            "autonomy",
+            "root-cause"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -40,9 +48,9 @@
           "mode": null,
           "category": "discipline",
           "tags": [
-            "[debugging",
+            "debugging",
             "autonomy",
-            "root-cause]"
+            "root-cause"
           ],
           "license": null,
           "requires": null,
@@ -92,8 +100,16 @@
           "tier": "core",
           "category": "discipline",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[discipline, governance, foundation]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "discipline",
+            "governance",
+            "foundation"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -109,9 +125,9 @@
           "mode": null,
           "category": "discipline",
           "tags": [
-            "[discipline",
+            "discipline",
             "governance",
-            "foundation]"
+            "foundation"
           ],
           "license": null,
           "requires": null,
@@ -161,8 +177,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[design, socratic, discovery]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "design",
+            "socratic",
+            "discovery"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -178,9 +202,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[design",
+            "design",
             "socratic",
-            "discovery]"
+            "discovery"
           ],
           "license": null,
           "requires": null,
@@ -230,8 +254,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[review, quality, pr]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "review",
+            "quality",
+            "pr"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -247,9 +279,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[review",
+            "review",
             "quality",
-            "pr]"
+            "pr"
           ],
           "license": null,
           "requires": null,
@@ -299,8 +331,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[onboarding, exploration, conventions]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "onboarding",
+            "exploration",
+            "conventions"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -316,9 +356,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[onboarding",
+            "onboarding",
             "exploration",
-            "conventions]"
+            "conventions"
           ],
           "license": null,
           "requires": null,
@@ -368,8 +408,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[debugging, diagnostics, root-cause]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "debugging",
+            "diagnostics",
+            "root-cause"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -385,9 +433,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[debugging",
+            "debugging",
             "diagnostics",
-            "root-cause]"
+            "root-cause"
           ],
           "license": null,
           "requires": null,
@@ -437,8 +485,16 @@
           "tier": "core",
           "category": "discipline",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[quality, design, simplicity]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "quality",
+            "design",
+            "simplicity"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -454,9 +510,9 @@
           "mode": null,
           "category": "discipline",
           "tags": [
-            "[quality",
+            "quality",
             "design",
-            "simplicity]"
+            "simplicity"
           ],
           "license": null,
           "requires": null,
@@ -506,8 +562,17 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[requirements, traceability, nfr, togaf]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "requirements",
+            "traceability",
+            "nfr",
+            "togaf"
+          ],
           "verifier": "traceability-sample",
           "author": "Andreas Wasita (@andreaswasita)"
         },
@@ -524,10 +589,10 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[requirements",
+            "requirements",
             "traceability",
             "nfr",
-            "togaf]"
+            "togaf"
           ],
           "license": null,
           "requires": null,
@@ -577,8 +642,18 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[security, requirements, traceability, togaf, threat-modelling]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "security",
+            "requirements",
+            "traceability",
+            "togaf",
+            "threat-modelling"
+          ],
           "verifier": "traceability-sample",
           "author": "Andreas Wasita (@andreaswasita)"
         },
@@ -595,11 +670,11 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[security",
+            "security",
             "requirements",
             "traceability",
             "togaf",
-            "threat-modelling]"
+            "threat-modelling"
           ],
           "license": null,
           "requires": null,
@@ -649,8 +724,16 @@
           "tier": "practical",
           "category": "delegation",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[delegation, parallel, sub-agents]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "delegation",
+            "parallel",
+            "sub-agents"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -666,9 +749,9 @@
           "mode": null,
           "category": "delegation",
           "tags": [
-            "[delegation",
+            "delegation",
             "parallel",
-            "sub-agents]"
+            "sub-agents"
           ],
           "license": null,
           "requires": null,
@@ -718,8 +801,17 @@
           "tier": "core",
           "category": "delegation",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[delegation, durable, board, persistence]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "delegation",
+            "durable",
+            "board",
+            "persistence"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -735,10 +827,10 @@
           "mode": null,
           "category": "delegation",
           "tags": [
-            "[delegation",
+            "delegation",
             "durable",
             "board",
-            "persistence]"
+            "persistence"
           ],
           "license": null,
           "requires": null,
@@ -788,8 +880,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[execution, plan, todo]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "execution",
+            "plan",
+            "todo"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -805,9 +905,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[execution",
+            "execution",
             "plan",
-            "todo]"
+            "todo"
           ],
           "license": null,
           "requires": null,
@@ -857,8 +957,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[git, merge, lifecycle]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "git",
+            "merge",
+            "lifecycle"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -874,9 +982,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[git",
+            "git",
             "merge",
-            "lifecycle]"
+            "lifecycle"
           ],
           "license": null,
           "requires": null,
@@ -926,8 +1034,16 @@
           "tier": "core",
           "category": "discipline",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[planning, workflow, discipline]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "planning",
+            "workflow",
+            "discipline"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -943,9 +1059,9 @@
           "mode": null,
           "category": "discipline",
           "tags": [
-            "[planning",
+            "planning",
             "workflow",
-            "discipline]"
+            "discipline"
           ],
           "license": null,
           "requires": null,
@@ -995,8 +1111,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[git, pr, review]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "git",
+            "pr",
+            "review"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1012,9 +1136,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[git",
+            "git",
             "pr",
-            "review]"
+            "review"
           ],
           "license": null,
           "requires": null,
@@ -1064,8 +1188,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[review, feedback, iteration]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "review",
+            "feedback",
+            "iteration"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1081,9 +1213,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[review",
+            "review",
             "feedback",
-            "iteration]"
+            "iteration"
           ],
           "license": null,
           "requires": null,
@@ -1133,8 +1265,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[refactoring, quality, debt]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "refactoring",
+            "quality",
+            "debt"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1150,9 +1290,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[refactoring",
+            "refactoring",
             "quality",
-            "debt]"
+            "debt"
           ],
           "license": null,
           "requires": null,
@@ -1202,8 +1342,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[self-review, quality, gate]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "self-review",
+            "quality",
+            "gate"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1219,9 +1367,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[self-review",
+            "self-review",
             "quality",
-            "gate]"
+            "gate"
           ],
           "license": null,
           "requires": null,
@@ -1271,8 +1419,18 @@
           "tier": "practical",
           "category": "requirements",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[requirements, user-stories, acceptance-criteria, definition-of-ready, togaf]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "requirements",
+            "user-stories",
+            "acceptance-criteria",
+            "definition-of-ready",
+            "togaf"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1288,11 +1446,11 @@
           "mode": null,
           "category": "requirements",
           "tags": [
-            "[requirements",
+            "requirements",
             "user-stories",
             "acceptance-criteria",
             "definition-of-ready",
-            "togaf]"
+            "togaf"
           ],
           "license": null,
           "requires": null,
@@ -1342,8 +1500,16 @@
           "tier": "core",
           "category": "discipline",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[safety, guardrails, governance]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "safety",
+            "guardrails",
+            "governance"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1359,9 +1525,9 @@
           "mode": null,
           "category": "discipline",
           "tags": [
-            "[safety",
+            "safety",
             "guardrails",
-            "governance]"
+            "governance"
           ],
           "license": null,
           "requires": null,
@@ -1411,8 +1577,17 @@
           "tier": "practical",
           "category": "review",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[security, audit, secrets, review]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "security",
+            "audit",
+            "secrets",
+            "review"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1428,10 +1603,10 @@
           "mode": null,
           "category": "review",
           "tags": [
-            "[security",
+            "security",
             "audit",
             "secrets",
-            "review]"
+            "review"
           ],
           "license": null,
           "requires": null,
@@ -1481,8 +1656,17 @@
           "tier": "core",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[memory, lessons, patterns, continuous-learning]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "memory",
+            "lessons",
+            "patterns",
+            "continuous-learning"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1498,10 +1682,10 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[memory",
+            "memory",
             "lessons",
             "patterns",
-            "continuous-learning]"
+            "continuous-learning"
           ],
           "license": null,
           "requires": null,
@@ -1551,8 +1735,16 @@
           "tier": "core",
           "category": "delegation",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[delegation, parallel, context-management]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "delegation",
+            "parallel",
+            "context-management"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1568,9 +1760,9 @@
           "mode": null,
           "category": "delegation",
           "tags": [
-            "[delegation",
+            "delegation",
             "parallel",
-            "context-management]"
+            "context-management"
           ],
           "license": null,
           "requires": null,
@@ -1620,8 +1812,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[testing, tdd, quality]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "testing",
+            "tdd",
+            "quality"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1637,9 +1837,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[testing",
+            "testing",
             "tdd",
-            "quality]"
+            "quality"
           ],
           "license": null,
           "requires": null,
@@ -1689,8 +1889,17 @@
           "tier": "core",
           "category": "discipline",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[traceability, governance, togaf, gate]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "traceability",
+            "governance",
+            "togaf",
+            "gate"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1706,10 +1915,10 @@
           "mode": null,
           "category": "discipline",
           "tags": [
-            "[traceability",
+            "traceability",
             "governance",
             "togaf",
-            "gate]"
+            "gate"
           ],
           "license": null,
           "requires": null,
@@ -1759,8 +1968,16 @@
           "tier": "practical",
           "category": "workflow",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[git, worktree, isolation]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "git",
+            "worktree",
+            "isolation"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1776,9 +1993,9 @@
           "mode": null,
           "category": "workflow",
           "tags": [
-            "[git",
+            "git",
             "worktree",
-            "isolation]"
+            "isolation"
           ],
           "license": null,
           "requires": null,
@@ -1828,8 +2045,16 @@
           "tier": "core",
           "category": "activation",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[activation, framework, session]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "activation",
+            "framework",
+            "session"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1845,9 +2070,9 @@
           "mode": null,
           "category": "activation",
           "tags": [
-            "[activation",
+            "activation",
             "framework",
-            "session]"
+            "session"
           ],
           "license": null,
           "requires": null,
@@ -1897,8 +2122,16 @@
           "tier": "core",
           "category": "discipline",
           "created_by": "human",
-          "platforms": "[windows, macos, linux]",
-          "tags": "[verification, testing, quality]",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "verification",
+            "testing",
+            "quality"
+          ],
           "author": "Andreas Wasita (@andreaswasita)"
         },
         "standard": {
@@ -1914,9 +2147,9 @@
           "mode": null,
           "category": "discipline",
           "tags": [
-            "[verification",
+            "verification",
             "testing",
-            "quality]"
+            "quality"
           ],
           "license": null,
           "requires": null,

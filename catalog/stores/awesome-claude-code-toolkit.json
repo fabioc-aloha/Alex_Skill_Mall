@@ -1,7 +1,7 @@
 {
   "store": "awesome-claude-code-toolkit",
   "source_repo": "https://github.com/rohitg00/awesome-claude-code-toolkit.git",
-  "generated_at": "2026-07-29T00:50:58.012Z",
+  "generated_at": "2026-08-11T13:29:07.523Z",
   "scanned_ref": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9",
   "provenance": false,
   "tier": "community-curated",
@@ -61,7 +61,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -79,7 +79,7 @@
         "raw": {
           "name": "agentkit-seo",
           "description": "Route broad or ambiguous AgentKit SEO work to the right module while keeping context scoped. Use when a request spans multiple surfaces, asks for overall digital-presence strategy, involves provider or install architecture, needs agent-context planning, or the correct platform skill is unclear.",
-          "user-invocable": "true",
+          "user-invocable": true,
           "argument": "The specific SEO optimization task or platform to focus on (e.g., GitHub, LinkedIn, CV, etc.)"
         },
         "standard": {
@@ -122,7 +122,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -178,7 +178,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -237,7 +237,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -296,7 +296,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -355,7 +355,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -414,7 +414,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -434,7 +434,12 @@
           "description": "Persistent memory system for Claude Code. Two-layer architecture (hot cache + knowledge wiki), safety hooks, /close-day end-of-day synthesis. Zero external dependencies.",
           "author": "awrshift",
           "version": "3.2.0",
-          "tags": "[memory, context-management, productivity, agent-memory]",
+          "tags": [
+            "memory",
+            "context-management",
+            "productivity",
+            "agent-memory"
+          ],
           "repository": "https://github.com/awrshift/claude-memory-kit",
           "license": "MIT"
         },
@@ -451,10 +456,10 @@
           "mode": null,
           "category": null,
           "tags": [
-            "[memory",
+            "memory",
             "context-management",
             "productivity",
-            "agent-memory]"
+            "agent-memory"
           ],
           "license": "MIT",
           "requires": null,
@@ -483,7 +488,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -539,7 +544,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -598,7 +603,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -657,7 +662,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -716,7 +721,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -734,7 +739,7 @@
         "raw": {
           "name": "deep-dive",
           "description": "Claude-native deep research using DAG-based query planning, parallel subagent execution, and gap-driven iteration. No external API needed.",
-          "user-invocable": "true",
+          "user-invocable": true,
           "argument": "The research question or topic to investigate deeply"
         },
         "standard": {
@@ -777,7 +782,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -836,7 +841,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -895,7 +900,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -954,7 +959,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1013,7 +1018,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1072,7 +1077,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1131,7 +1136,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1190,7 +1195,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1246,7 +1251,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1305,7 +1310,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1364,7 +1369,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1423,7 +1428,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1482,7 +1487,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1541,7 +1546,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1600,7 +1605,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1659,7 +1664,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1718,7 +1723,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1777,7 +1782,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1836,7 +1841,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1895,7 +1900,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -1954,7 +1959,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2013,7 +2018,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2072,7 +2077,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2131,7 +2136,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2190,7 +2195,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2249,7 +2254,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2305,7 +2310,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2364,7 +2369,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2423,7 +2428,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2482,7 +2487,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2541,7 +2546,7 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 2478,
+          "stars": 2482,
           "contributors": 206,
           "last_commit": "2026-05-12T07:18:34Z",
           "archived": false
@@ -2557,7 +2562,7 @@
       "adoption": 10,
       "license": 10,
       "license_name": "Apache-2.0",
-      "stars": 2478,
+      "stars": 2482,
       "contributors": 206,
       "last_commit": "2026-05-12T07:18:34Z",
       "archived": false

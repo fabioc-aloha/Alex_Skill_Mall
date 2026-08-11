@@ -21,7 +21,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
+const { buildCloneArgs, buildTagFetchArgs } = require('./lib/source-bootstrap.cjs');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 const SOURCES_DIR = process.env.SOURCES_DIR;
@@ -88,16 +89,17 @@ for (const s of SUPPORTED.stores) {
     fs.rmSync(target, { recursive: true, force: true });
   }
 
-  const depthFlag = depth > 0 ? `--depth ${depth}` : '';
-  const cmd = `git clone ${depthFlag} "${s.remote}" "${target}"`;
   try {
-    execSync(cmd, { stdio: ['ignore', 'pipe', 'pipe'], timeout: 120000 });
+    execFileSync('git', buildCloneArgs(s.remote, target, depth), {
+      stdio: ['ignore', 'pipe', 'pipe'],
+      timeout: 120000,
+    });
     // Shallow clone (--depth N) does not fetch historic tags whose targets are
     // outside the fetched history. Pull tag refs explicitly so list-refs.cjs
     // sees them. --depth 1 on the fetch keeps each tag's commit shallow too.
     if (depth > 0) {
       try {
-        execSync(`git -C "${target}" fetch --tags --depth=1 --quiet`, {
+        execFileSync('git', buildTagFetchArgs(target), {
           stdio: ['ignore', 'pipe', 'pipe'],
           timeout: 60000,
         });

@@ -1,7 +1,7 @@
 {
   "store": "microsoft-fasttrack",
   "source_repo": "https://github.com/microsoft/FastTrack.git",
-  "generated_at": "2026-08-01T20:41:14.632Z",
+  "generated_at": "2026-08-11T13:29:10.331Z",
   "scanned_ref": "ed797e04187a335aff5c330092efb723bfd7d2a6",
   "provenance": false,
   "tier": "microsoft-official",
@@ -52,7 +52,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -71,17 +71,27 @@
           "title": "Analyze-SharePointRisk",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Score SharePoint permissions-report data for oversharing risk and generate interactive analysis and remediation guidance.",
           "author": "John Cummings",
           "version": "1.0.0",
           "published": "2025-10-16",
           "updated": "2025-10-23",
-          "tags": "",
+          "tags": [
+            "sharepoint",
+            "security"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A PowerShell analyzer for SharePoint Advanced Management Site Permissions Report CSVs that creates prioritized risk and remediation HTML reports.",
+          "whyUseIt": [
+            "Apply configurable risk scoring to broad access, anonymous links, sensitivity labels, and permission complexity.",
+            "Search, filter, sort, and export findings from an interactive report.",
+            "Use a separate seven-step guidance page to plan remediation."
+          ],
+          "howToUse": "Generate and download a **Site permissions report** from SharePoint Advanced Management, then run:\n\n```powershell\n.\\Analyze-SharePointRisk.ps1 -CsvPath \".\\your-permissions-report.csv\"\n```\n\nAdjust the interactive scoring if needed and review the generated analysis and guidance pages.",
+          "prerequisites": [
+            "PowerShell 5.1 or later",
+            "SharePoint Advanced Management Site Permissions Report CSV"
+          ]
         },
         "standard": {
           "name": "Analyze-SharePointRisk",
@@ -95,7 +105,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "sharepoint",
+            "security"
+          ],
           "license": null,
           "requires": null,
           "author": "John Cummings"
@@ -117,7 +130,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -167,7 +180,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -217,7 +230,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -267,7 +280,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -317,7 +330,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -367,7 +380,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -417,7 +430,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -441,13 +454,23 @@
           "version": "1.0.0",
           "published": "2023-12-22",
           "updated": "2025-10-02",
-          "tags": "",
+          "tags": [
+            "viva-engage",
+            "provisioning"
+          ],
           "format": "ps1",
           "status": "preview",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A non-production PowerShell sample that calls the Microsoft Graph community-creation API to create Viva Engage communities from a JSON input file.",
+          "whyUseIt": [
+            "Demonstrate the community-creation API with repeatable sample data.",
+            "Assign one specified owner or select random owners for generated communities."
+          ],
+          "howToUse": "Configure the app-registration values in the script, prepare a JSON file of community names and descriptions, then run `./Create-EngageCommunities.ps1 -InputFile C:\\Temp\\communities.json -NumberofCommunities 25 -AssignedOwner \"user@domain.com\"`.",
+          "prerequisites": [
+            "Entra app registration",
+            "Community.ReadWrite.All and User.Read.All application permissions",
+            "JSON file containing community names and descriptions"
+          ]
         },
         "standard": {
           "name": "Create-EngageCommunities",
@@ -461,7 +484,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "viva-engage",
+            "provisioning"
+          ],
           "license": null,
           "requires": null,
           "author": "Dean Cron"
@@ -483,7 +509,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -533,7 +559,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -583,7 +609,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -633,7 +659,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -683,7 +709,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -702,17 +728,29 @@
           "title": "Export-CopilotInteractions",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Export user-level Copilot prompts and responses from Microsoft Graph into analysis-ready CSV datasets.",
           "author": "Alejandro Lopez",
           "version": "1.0.0",
           "published": "2026-05-21",
           "updated": "2026-05-21",
-          "tags": "",
+          "tags": [
+            "copilot",
+            "graph"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A PowerShell exporter for Microsoft 365 Copilot enterprise interaction history that writes normalized interactions, users, errors, and pre-aggregated usage CSVs.",
+          "whyUseIt": [
+            "Feed Power BI, Excel, or another analytics tool with user-level interaction data.",
+            "Use interactive, client-secret, or certificate authentication.",
+            "Handle throttling, per-user failures, SKU tiers, and app/feature normalization during export."
+          ],
+          "howToUse": "Install `Microsoft.Graph.Authentication`, grant the documented Graph permissions, and test interactively:\n\n```powershell\n.\\Export-CopilotInteractions.ps1 -TenantId \"contoso.onmicrosoft.com\" -Interactive -MaxUsers 10\n```\n\nReview `Errors.csv`, then remove the user cap for the full export.",
+          "prerequisites": [
+            "PowerShell 5.1 or later",
+            "Microsoft.Graph.Authentication module",
+            "User.Read.All, Reports.Read.All, and AiEnterpriseInteraction.Read.All",
+            "Entra app registration for app-only authentication"
+          ]
         },
         "standard": {
           "name": "Export-CopilotInteractions",
@@ -726,7 +764,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "copilot",
+            "graph"
+          ],
           "license": null,
           "requires": null,
           "author": "Alejandro Lopez"
@@ -748,7 +789,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -798,7 +839,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -848,7 +889,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -867,17 +908,27 @@
           "title": "Export-M365CopilotReports",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Export Entra users, Purview Copilot audit events, all audit interactions, or Microsoft 365 Copilot usage reports.",
           "author": "Alejandro Lopez",
           "version": "1.0.0",
           "published": "2025-03-11",
           "updated": "2025-03-25",
-          "tags": "",
+          "tags": [
+            "copilot",
+            "reporting"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "An interactive PowerShell exporter for Entra user details, Purview audit data, and Microsoft 365 Copilot usage datasets used by analytics reports.",
+          "whyUseIt": [
+            "Prepare organizational data for Viva Insights or Power BI.",
+            "Export Copilot-specific or broader Purview audit events from one menu.",
+            "Collect Microsoft 365 Copilot usage reporting data without separate scripts."
+          ],
+          "howToUse": "Install the Microsoft Graph prerequisites documented by the script, open PowerShell in this folder, and run `./Export-M365CopilotReports.ps1`. Choose the desired export from the interactive menu and complete authentication.",
+          "prerequisites": [
+            "Microsoft Graph access",
+            "Permissions required by the selected report"
+          ]
         },
         "standard": {
           "name": "Export-M365CopilotReports",
@@ -891,7 +942,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "copilot",
+            "reporting"
+          ],
           "license": null,
           "requires": null,
           "author": "Alejandro Lopez"
@@ -913,7 +967,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -963,7 +1017,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1013,7 +1067,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1032,17 +1086,28 @@
           "title": "Get-AADAdminRoleMembers",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "List members of all Entra administrator roles, inspect one role, or report the roles assigned to a user.",
           "author": "Brian Baldock",
           "version": "1.0.0",
           "published": "2020-01-14",
           "updated": "2021-01-15",
-          "tags": "",
+          "tags": [
+            "entra",
+            "security",
+            "governance"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A PowerShell script for reporting Azure AD administrator-role membership across all roles, one named role, or one user.",
+          "whyUseIt": [
+            "Audit privileged role membership across the directory.",
+            "Answer which administrator roles a particular user belongs to.",
+            "Inspect the members of a specific administrator role."
+          ],
+          "howToUse": "Install the Azure AD PowerShell module, then run one mode, for example:\n\n```powershell\n.\\Get-AADAdminRoleMembers.ps1 -Admin admin@contoso.onmicrosoft.com -All\n```",
+          "prerequisites": [
+            "Azure AD PowerShell module",
+            "Directory account permitted to read administrator roles"
+          ]
         },
         "standard": {
           "name": "Get-AADAdminRoleMembers",
@@ -1056,7 +1121,11 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "entra",
+            "security",
+            "governance"
+          ],
           "license": null,
           "requires": null,
           "author": "Brian Baldock"
@@ -1078,7 +1147,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1128,7 +1197,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1178,7 +1247,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1228,7 +1297,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1247,17 +1316,26 @@
           "title": "Get-LicenseUsage",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Choose a preferred or backup Microsoft 365 subscription for assignment based on current license availability.",
           "author": "Brian Baldock",
           "version": "1.0.0",
           "published": "2022-01-19",
           "updated": "2022-01-19",
-          "tags": "",
+          "tags": [
+            "licensing",
+            "reporting"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A PowerShell sample for selecting between preferred and backup Microsoft 365 subscriptions based on their current assigned and available license counts.",
+          "whyUseIt": [
+            "Automate a license-assignment decision when equivalent entitlements span multiple subscriptions.",
+            "Use the result with group-based or direct license-assignment logic."
+          ],
+          "howToUse": "Install the Azure AD PowerShell module, then run:\n\n```powershell\n.\\Get-LicenseUsage.ps1 -Admin admin@contoso.com -PreferredLicense SPE_E5 -BackupLicense EMSPREMIUM\n```\n\nReview and adapt the documented `Get-LicensingUsage` decision logic for the tenant.",
+          "prerequisites": [
+            "Azure AD PowerShell module",
+            "Account permitted to read tenant licensing"
+          ]
         },
         "standard": {
           "name": "Get-LicenseUsage",
@@ -1271,7 +1349,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "licensing",
+            "reporting"
+          ],
           "license": null,
           "requires": null,
           "author": "Brian Baldock"
@@ -1293,7 +1374,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1312,18 +1393,31 @@
           "title": "Get-M365CopilotReadiness",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Assess Microsoft 365 Copilot readiness across identity, licensing, collaboration, sharing, and optional compliance checks.",
           "author": "John Cummings",
           "version": "1.0.0",
           "published": "2025-08-20",
           "updated": "2025-09-09",
-          "tags": "",
+          "tags": [
+            "copilot",
+            "readiness",
+            "m365"
+          ],
           "format": "ps1",
-          "featured": "true",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "featured": true,
+          "whatItIs": "A PowerShell assessment that collects Microsoft 365 configuration signals and creates JSON and HTML reports for Copilot deployment-readiness review.",
+          "whyUseIt": [
+            "Review Entra, licensing, Exchange, SharePoint, OneDrive, Teams, and Graph signals in one run.",
+            "Read plain-language descriptions and Copilot context for collected settings.",
+            "Optionally add a Microsoft Compliance Configuration Analyzer assessment."
+          ],
+          "howToUse": "Open PowerShell in the resource folder and run:\n\n```powershell\n.\\Get-M365CopilotReadiness.ps1 -OutputPath \"C:\\Temp\\M365Readiness\"\n```\n\nUse `-IncludeMCCA` for the optional compliance assessment. Complete the interactive sign-ins; failed services are logged while the remaining checks continue.",
+          "prerequisites": [
+            "Windows PowerShell 5.1 or PowerShell 7",
+            "Network access to Microsoft 365 endpoints",
+            "Documented read permissions and service admin roles",
+            "MCCA licensing and roles only when using -IncludeMCCA"
+          ]
         },
         "standard": {
           "name": "Get-M365CopilotReadiness",
@@ -1337,7 +1431,11 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "copilot",
+            "readiness",
+            "m365"
+          ],
           "license": null,
           "requires": null,
           "author": "John Cummings"
@@ -1359,7 +1457,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1409,7 +1507,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1428,17 +1526,27 @@
           "title": "Get-SiteInventory",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Inventory a SharePoint Online site collection and its document libraries, with optional subweb and workbook processing.",
           "author": "Patrick Rodgers",
           "version": "1.0.0",
           "published": "2018-06-22",
           "updated": "2018-10-30",
-          "tags": "",
+          "tags": [
+            "sharepoint",
+            "inventory"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A multi-script PowerShell inventory for a SharePoint Online site collection that can process subwebs concurrently and combine outputs into a workbook.",
+          "whyUseIt": [
+            "Collect site and document-library inventory across a site collection.",
+            "Tune concurrency, retain individual CSVs, or rebuild a workbook without re-querying SharePoint."
+          ],
+          "howToUse": "Copy the `Lib` folder and inventory scripts together, install the dependencies, and run:\n\n```powershell\npowershell -mta .\\Get-Inventory.ps1 -url <absolute-site-url> -processSubWebs\n```",
+          "prerequisites": [
+            "PowerShell 5 or later",
+            "SharePointPnPPowerShellOnline module",
+            "Microsoft Excel unless using -NoWorkbook"
+          ]
         },
         "standard": {
           "name": "get-siteinventory",
@@ -1452,7 +1560,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "sharepoint",
+            "inventory"
+          ],
           "license": null,
           "requires": null,
           "author": "Patrick Rodgers"
@@ -1474,7 +1585,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1493,17 +1604,28 @@
           "title": "Get-TeamsUserActivityReport",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Export detailed Microsoft Teams user activity for all users or a targeted CSV list through Microsoft Graph.",
           "author": "Alejandro Lopez",
           "version": "1.0.0",
           "published": "2025-09-30",
           "updated": "2025-09-30",
-          "tags": "",
+          "tags": [
+            "teams",
+            "reporting"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A PowerShell report that calls Microsoft Graph directly with application permissions and exports detailed Teams activity for all or selected users.",
+          "whyUseIt": [
+            "Report meetings, calls, chats, durations, and other Teams activity metrics.",
+            "Target a pilot group with a UPN CSV or report across the tenant.",
+            "Run as an authorized background process without the Microsoft.Graph PowerShell module."
+          ],
+          "howToUse": "Create an Entra app registration with `Reports.Read.All` application permission and a client secret. Run `./Get-TeamsUserActivityReport.ps1 -Period \"D7\"` for all users, or add `-UserCsvPath` with a CSV containing `UserPrincipalName`.",
+          "prerequisites": [
+            "PowerShell 5.1 or later",
+            "Entra app registration",
+            "Reports.Read.All application permission with admin consent"
+          ]
         },
         "standard": {
           "name": "Get-TeamsUserActivityReport",
@@ -1517,7 +1639,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "teams",
+            "reporting"
+          ],
           "license": null,
           "requires": null,
           "author": "Alejandro Lopez"
@@ -1539,7 +1664,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1589,7 +1714,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1608,17 +1733,30 @@
           "title": "Migrate-CopilotStudioAgents",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Inventory and copy classic Copilot Studio agents into department-mapped Power Platform environments with ownership recovery.",
           "author": "Dean Cron",
           "version": "1.0.0",
           "published": "2026-07-15",
           "updated": "2026-07-15",
-          "tags": "",
+          "tags": [
+            "copilot-studio",
+            "migration"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A PowerShell toolkit that inventories agents, maps owner departments to existing environments, and copies classic Copilot Studio agents through Dataverse solutions.",
+          "whyUseIt": [
+            "Plan environment redistribution from a tenant-wide inventory before making changes.",
+            "Preserve agent ownership and record-level sharing on a best-effort basis.",
+            "Run a full dry-run migration plan with `-WhatIf` before importing solutions."
+          ],
+          "howToUse": "1. Optionally generate and review `department-environment-mapping.json`.\n2. Run `Inventory-PowerPlatformAgents.ps1` to produce the raw inventory JSON.\n3. Run `Migrate-CopilotStudioAgents.ps1` with the inventory and mapping paths plus `-WhatIf`.\n4. Review `migration-plan.csv`, rerun without `-WhatIf`, then reconfigure connections and validate each migrated agent.",
+          "prerequisites": [
+            "Power Platform CLI and MSAL.PS",
+            "Power Platform or reader admin role",
+            "Microsoft Graph User.Read.All delegated access",
+            "Dataverse access in source and target environments",
+            "Pre-created target environments and target-user access"
+          ]
         },
         "standard": {
           "name": "Migrate-CopilotStudioAgents",
@@ -1632,7 +1770,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "copilot-studio",
+            "migration"
+          ],
           "license": null,
           "requires": null,
           "author": "Dean Cron"
@@ -1654,7 +1795,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1673,17 +1814,27 @@
           "title": "Preflight-OneDrive",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Scan a local or network folder for potential OneDrive for Business sync issues and optionally generate an HTML report.",
           "author": "Alejandro Lopez",
           "version": "1.0.0",
           "published": "2019-08-02",
           "updated": "2019-08-02",
-          "tags": "",
+          "tags": [
+            "onedrive",
+            "migration"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A PowerShell preflight scanner that checks a local folder or UNC path for potential OneDrive for Business synchronization issues.",
+          "whyUseIt": [
+            "Find problematic paths before deploying the OneDrive sync client.",
+            "Review results in the console or an optional HTML report."
+          ],
+          "howToUse": "Install the external dependencies, then run:\n\n```powershell\n.\\Preflight-OneDrive.ps1 -Path \"\\\\dc.contoso.com\\smb\" -GenerateHTMLReport\n```",
+          "prerequisites": [
+            "EnhancedHTML2 module",
+            "Test-OneDrivePath function",
+            "Read access to the folder being scanned"
+          ]
         },
         "standard": {
           "name": "Preflight-OneDrive",
@@ -1697,7 +1848,10 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "onedrive",
+            "migration"
+          ],
           "license": null,
           "requires": null,
           "author": "Alejandro Lopez"
@@ -1719,7 +1873,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1769,7 +1923,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1788,17 +1942,29 @@
           "title": "Teams Phone User Migration",
           "type": "script",
           "category": "PowerShell",
-          "summary": "",
+          "summary": "Run a two-phase CSV-driven Teams Phone migration for voice policies, phone numbers, and emergency locations.",
           "author": "Laure Van der Hauwaert",
           "version": "1.0.0",
           "published": "2024-10-21",
           "updated": "2024-10-21",
-          "tags": "",
+          "tags": [
+            "teams",
+            "telephony",
+            "migration"
+          ],
           "format": "ps1",
-          "whatItIs": "",
-          "whyUseIt": "",
-          "howToUse": "",
-          "prerequisites": ""
+          "whatItIs": "A pair of PowerShell samples for a staged Teams Phone migration: assign voice policies before cutover, then assign phone numbers and emergency locations.",
+          "whyUseIt": [
+            "Separate advance policy assignment from migration-day number activation.",
+            "Drive bulk assignments from a documented CSV format.",
+            "Log disabled, unlicensed, or otherwise failed user assignments."
+          ],
+          "howToUse": "Install the latest MicrosoftTeams module and fill the included CSV with user policies, numbers, and emergency locations. Run the Phase 1 script before cutover, then run the Phase 2 Cutover script on migration day.",
+          "prerequisites": [
+            "MicrosoftTeams PowerShell module",
+            "Teams administration permissions",
+            "Completed migration CSV"
+          ]
         },
         "standard": {
           "name": "Teams Phone User Migration",
@@ -1812,7 +1978,11 @@
           "tools": null,
           "mode": null,
           "category": "PowerShell",
-          "tags": null,
+          "tags": [
+            "teams",
+            "telephony",
+            "migration"
+          ],
           "license": null,
           "requires": null,
           "author": "Laure Van der Hauwaert"
@@ -1834,7 +2004,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1884,7 +2054,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1934,7 +2104,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -1984,7 +2154,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -2034,7 +2204,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -2084,7 +2254,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -2134,7 +2304,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -2184,7 +2354,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 219,
+          "stars": 220,
           "contributors": 24,
           "last_commit": "2026-08-10T07:33:51Z",
           "archived": false
@@ -2200,7 +2370,7 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 219,
+      "stars": 220,
       "contributors": 24,
       "last_commit": "2026-08-10T07:33:51Z",
       "archived": false

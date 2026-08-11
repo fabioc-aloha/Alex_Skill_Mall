@@ -1,19 +1,19 @@
 {
   "store": "qdrant-skills",
   "source_repo": "https://github.com/qdrant/skills.git",
-  "generated_at": "2026-08-10T11:24:00.970Z",
-  "scanned_ref": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+  "generated_at": "2026-08-11T13:29:11.971Z",
+  "scanned_ref": "1578f1fe8be965d68047155abe21e891995ffccb",
   "provenance": false,
   "tier": "qdrant-official",
   "license": "Apache-2.0",
   "reference_only": false,
-  "plugin_count": 12,
+  "plugin_count": 13,
   "plugins": [
     {
       "name": "qdrant-advisor",
       "shape": "skill",
       "source_path": "meta/qdrant-advisor",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/meta/qdrant-advisor",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/meta/qdrant-advisor",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -41,7 +41,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -59,7 +59,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -68,14 +68,19 @@
       "name": "qdrant-clients-sdk",
       "shape": "skill",
       "source_path": "skills/qdrant-clients-sdk",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-clients-sdk",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-clients-sdk",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "qdrant-clients-sdk",
           "description": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.",
-          "allowed-tools": ""
+          "allowed-tools": [
+            "Read",
+            "Grep",
+            "Glob",
+            "Bash"
+          ]
         },
         "standard": {
           "name": "qdrant-clients-sdk",
@@ -86,7 +91,12 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read",
+            "Grep",
+            "Glob",
+            "Bash"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -97,7 +107,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -115,7 +125,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -124,7 +134,7 @@
       "name": "qdrant-deployment-options",
       "shape": "skill",
       "source_path": "skills/qdrant-deployment-options",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-deployment-options",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-deployment-options",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -152,7 +162,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -170,7 +180,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -179,7 +189,7 @@
       "name": "qdrant-edge",
       "shape": "skill",
       "source_path": "skills/qdrant-edge",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-edge",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-edge",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -207,7 +217,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -225,7 +235,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -234,7 +244,7 @@
       "name": "qdrant-model-migration",
       "shape": "skill",
       "source_path": "skills/qdrant-model-migration",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-model-migration",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-model-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -262,7 +272,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -280,7 +290,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -289,14 +299,18 @@
       "name": "qdrant-monitoring",
       "shape": "skill",
       "source_path": "skills/qdrant-monitoring",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-monitoring",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-monitoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "qdrant-monitoring",
           "description": "Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'what metrics to track', 'is Qdrant healthy', 'optimizer stuck', 'why is memory growing', 'requests are slow', or needs to set up Prometheus, Grafana, or health checks. Also use when debugging production issues that require metric analysis.",
-          "allowed-tools": ""
+          "allowed-tools": [
+            "Read",
+            "Grep",
+            "Glob"
+          ]
         },
         "standard": {
           "name": "qdrant-monitoring",
@@ -307,7 +321,11 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read",
+            "Grep",
+            "Glob"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -318,7 +336,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -336,7 +354,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -345,7 +363,7 @@
       "name": "qdrant-multitenancy",
       "shape": "skill",
       "source_path": "skills/qdrant-multitenancy",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-multitenancy",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-multitenancy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -373,7 +391,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -391,7 +409,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -400,14 +418,18 @@
       "name": "qdrant-performance-optimization",
       "shape": "skill",
       "source_path": "skills/qdrant-performance-optimization",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-performance-optimization",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-performance-optimization",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "qdrant-performance-optimization",
           "description": "Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, and memory usage optimization. Use when planning configuration or capacity changes to improve speed and efficiency. For diagnosing an active production slowdown or analyzing live metrics, use qdrant-monitoring instead.",
-          "allowed-tools": ""
+          "allowed-tools": [
+            "Read",
+            "Grep",
+            "Glob"
+          ]
         },
         "standard": {
           "name": "qdrant-performance-optimization",
@@ -418,7 +440,11 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read",
+            "Grep",
+            "Glob"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -429,7 +455,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -447,7 +473,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -456,14 +482,18 @@
       "name": "qdrant-scaling",
       "shape": "skill",
       "source_path": "skills/qdrant-scaling",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-scaling",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-scaling",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "qdrant-scaling",
           "description": "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizontal', 'how to shard', or 'need to add capacity'.",
-          "allowed-tools": ""
+          "allowed-tools": [
+            "Read",
+            "Grep",
+            "Glob"
+          ]
         },
         "standard": {
           "name": "qdrant-scaling",
@@ -474,7 +504,11 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read",
+            "Grep",
+            "Glob"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -485,7 +519,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -503,7 +537,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -512,14 +546,18 @@
       "name": "qdrant-search-quality",
       "shape": "skill",
       "source_path": "skills/qdrant-search-quality",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-search-quality",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-search-quality",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "qdrant-search-quality",
           "description": "Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', 'wrong results', 'low precision', 'low recall', 'irrelevant matches', 'missing expected results', or asks 'how to improve search quality?', 'which embedding model?', 'should I use hybrid search?', 'should I use reranking?', 'how to measure retrieval quality?', 'build a golden set', 'ground truth dataset', or 'how to score recall@k?'. Also use when search quality degrades after quantization, model change, or data growth.",
-          "allowed-tools": ""
+          "allowed-tools": [
+            "Read",
+            "Grep",
+            "Glob"
+          ]
         },
         "standard": {
           "name": "qdrant-search-quality",
@@ -530,7 +568,11 @@
         },
         "extended": {
           "applyTo": null,
-          "tools": null,
+          "tools": [
+            "Read",
+            "Grep",
+            "Glob"
+          ],
           "mode": null,
           "category": null,
           "tags": null,
@@ -541,7 +583,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -559,7 +601,62 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-sizing",
+      "shape": "skill",
+      "source_path": "skills/qdrant-sizing",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-sizing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-sizing",
+          "description": "Sizes a Qdrant deployment before it is provisioned. Use when someone asks 'how much RAM do I need', 'how many nodes', 'how big should my cluster be', 'sizing', 'capacity planning', 'will N vectors fit', 'what instance type should I pick', or gives a vector count and dimensions and asks what to provision. Also use when an existing estimate needs checking before hardware or a cluster tier is bought."
+        },
+        "standard": {
+          "name": "qdrant-sizing",
+          "description": "Sizes a Qdrant deployment before it is provisioned. Use when someone asks 'how much RAM do I need', 'how many nodes', 'how big should my cluster be', 'sizing', 'capacity planning', 'will N vectors fit', 'what instance type should I pick', or gives a vector count and dimensions and asks what to provision. Also use when an existing estimate needs checking before hardware or a cluster tier is bought.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 220,
+          "contributors": 18,
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -568,7 +665,7 @@
       "name": "qdrant-version-upgrade",
       "shape": "skill",
       "source_path": "skills/qdrant-version-upgrade",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skills/qdrant-version-upgrade",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skills/qdrant-version-upgrade",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -596,7 +693,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -614,7 +711,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -623,7 +720,7 @@
       "name": "skill-test",
       "shape": "prompt",
       "source_path": "skill-test",
-      "source_url": "https://github.com/qdrant/skills/tree/15b556ae9b7dc3aa960d14a69ed82ec427305487/skill-test",
+      "source_url": "https://github.com/qdrant/skills/tree/1578f1fe8be965d68047155abe21e891995ffccb/skill-test",
       "readme_excerpt": "This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures",
       "frontmatter": {
         "kind": "none",
@@ -648,7 +745,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "15b556ae9b7dc3aa960d14a69ed82ec427305487",
+        "default_sha": "1578f1fe8be965d68047155abe21e891995ffccb",
         "tags": [
           "v0.1.0"
         ]
@@ -666,7 +763,7 @@
           "license_name": "Apache-2.0",
           "stars": 220,
           "contributors": 18,
-          "last_commit": "2026-08-10T09:58:28Z",
+          "last_commit": "2026-08-11T12:57:26Z",
           "archived": false
         }
       }
@@ -682,7 +779,7 @@
       "license_name": "Apache-2.0",
       "stars": 220,
       "contributors": 18,
-      "last_commit": "2026-08-10T09:58:28Z",
+      "last_commit": "2026-08-11T12:57:26Z",
       "archived": false
     }
   }

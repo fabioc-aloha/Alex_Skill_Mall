@@ -27,6 +27,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const YAML = require('yaml');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 const SUPPORTED_PATH = path.join(REPO_ROOT, 'sources', 'supported-stores.json');
@@ -49,30 +50,18 @@ function readSafe(p) {
 }
 
 function parseYamlFrontmatter(text) {
-  if (!text || !text.startsWith('---')) return null;
-  const end = text.indexOf('\n---', 3);
+  if (!text) return null;
+  const normalized = text.replace(/\r\n?/g, '\n');
+  if (!normalized.startsWith('---')) return null;
+  const end = normalized.indexOf('\n---', 3);
   if (end < 0) return null;
-  const body = text.slice(3, end);
-  const data = {};
-  for (const rawLine of body.split('\n')) {
-    if (!rawLine.trim() || rawLine.trim().startsWith('#')) continue;
-    // Indented continuation: skip (we capture key-value pairs only at this layer)
-    if (/^\s/.test(rawLine)) continue;
-    // Unindented list item: skip
-    if (/^-\s/.test(rawLine)) continue;
-    const t = rawLine.trim();
-    const m = t.match(/^([A-Za-z0-9_.-]+)\s*:\s*(.*)$/);
-    if (!m) continue;
-    let v = m[2].trim();
-    if (v.startsWith('"') && v.endsWith('"')) v = v.slice(1, -1);
-    if (v.startsWith("'") && v.endsWith("'")) v = v.slice(1, -1);
-    if (v === '|' || v === '>' || v === '|-' || v === '>-' || v === '') {
-      data[m[1]] = '';
-      continue;
-    }
-    data[m[1]] = v;
+  const body = normalized.slice(3, end);
+  try {
+    const data = YAML.parse(body);
+    return data && typeof data === 'object' && !Array.isArray(data) ? data : null;
+  } catch {
+    return null;
   }
-  return data;
 }
 
 function extractReadmeExcerpt(pluginPath) {

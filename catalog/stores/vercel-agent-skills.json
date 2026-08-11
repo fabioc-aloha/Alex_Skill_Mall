@@ -1,7 +1,7 @@
 {
   "store": "vercel-agent-skills",
   "source_repo": "https://github.com/vercel-labs/agent-skills.git",
-  "generated_at": "2026-06-04T02:58:39.909Z",
+  "generated_at": "2026-08-11T13:29:12.094Z",
   "scanned_ref": "7c180d9044c9ae2b442b567aad4e42a28dd5ed62",
   "provenance": false,
   "tier": "vercel-official",
@@ -19,13 +19,16 @@
         "kind": "skill-md",
         "raw": {
           "name": "vercel-composition-patterns",
-          "description": "",
+          "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
           "license": "MIT",
-          "metadata": ""
+          "metadata": {
+            "author": "vercel",
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "vercel-composition-patterns",
-          "description": "A structured repository for React composition patterns that scale. These",
+          "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -57,7 +60,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -75,7 +78,10 @@
         "raw": {
           "name": "deploy-to-vercel",
           "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
-          "metadata": ""
+          "metadata": {
+            "author": "vercel",
+            "version": "3.0.0"
+          }
         },
         "standard": {
           "name": "deploy-to-vercel",
@@ -111,7 +117,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -130,7 +136,10 @@
           "name": "vercel-react-best-practices",
           "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
           "license": "MIT",
-          "metadata": ""
+          "metadata": {
+            "author": "vercel",
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "vercel-react-best-practices",
@@ -166,7 +175,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -183,13 +192,16 @@
         "kind": "skill-md",
         "raw": {
           "name": "vercel-react-native-skills",
-          "description": "",
+          "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.",
           "license": "MIT",
-          "metadata": ""
+          "metadata": {
+            "author": "vercel",
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "vercel-react-native-skills",
-          "description": "A structured repository for creating and maintaining React Native Best Practices",
+          "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -221,7 +233,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -240,7 +252,10 @@
           "name": "vercel-react-view-transitions",
           "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
           "license": "MIT",
-          "metadata": ""
+          "metadata": {
+            "author": "vercel",
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "vercel-react-view-transitions",
@@ -276,7 +291,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -294,7 +309,10 @@
         "raw": {
           "name": "vercel-cli-with-tokens",
           "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
-          "metadata": ""
+          "metadata": {
+            "author": "vercel",
+            "version": "1.0.0"
+          }
         },
         "standard": {
           "name": "vercel-cli-with-tokens",
@@ -330,7 +348,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -348,7 +366,9 @@
         "raw": {
           "name": "vercel-optimize",
           "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.",
-          "metadata": ""
+          "metadata": {
+            "version": "1.2.0"
+          }
         },
         "standard": {
           "name": "vercel-optimize",
@@ -384,7 +404,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -402,7 +422,11 @@
         "raw": {
           "name": "web-design-guidelines",
           "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
-          "metadata": ""
+          "metadata": {
+            "author": "vercel",
+            "version": "1.0.0",
+            "argument-hint": "<file-or-pattern>"
+          }
         },
         "standard": {
           "name": "web-design-guidelines",
@@ -438,7 +462,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -456,7 +480,11 @@
         "raw": {
           "name": "writing-guidelines",
           "description": "Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".",
-          "metadata": ""
+          "metadata": {
+            "author": "vercel",
+            "version": "1.0.0",
+            "argument-hint": "<file-or-pattern>"
+          }
         },
         "standard": {
           "name": "writing-guidelines",
@@ -492,7 +520,7 @@
           "adoption": 10,
           "license": 0,
           "license_name": null,
-          "stars": 29916,
+          "stars": 29941,
           "contributors": 24,
           "last_commit": "2026-07-24T10:25:29Z",
           "archived": false
@@ -508,7 +536,7 @@
       "adoption": 10,
       "license": 0,
       "license_name": null,
-      "stars": 29916,
+      "stars": 29941,
       "contributors": 24,
       "last_commit": "2026-07-24T10:25:29Z",
       "archived": false

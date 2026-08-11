@@ -1,0 +1,717 @@
+{
+  "store": "elevenlabs-skills",
+  "source_repo": "https://github.com/elevenlabs/skills.git",
+  "generated_at": "2026-08-11T13:29:09.576Z",
+  "scanned_ref": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+  "provenance": false,
+  "tier": "elevenlabs-official",
+  "license": "MIT",
+  "reference_only": false,
+  "plugin_count": 11,
+  "plugins": [
+    {
+      "name": "agents",
+      "shape": "skill",
+      "source_path": "agents",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/agents",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "agents",
+          "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience, and when configuring an agent's tools, workflows, or procedures, including creating, editing, compiling, and publishing procedure drafts on an agent branch over the SDKs or REST API.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "agents",
+          "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience, and when configuring an agent's tools, workflows, or procedures, including creating, editing, compiling, and publishing procedure drafts on an agent branch over the SDKs or REST API.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dubbing",
+      "shape": "skill",
+      "source_path": "dubbing",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/dubbing",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "dubbing",
+          "description": "Dub audio and video into other languages using the ElevenLabs Dubbing API (dubbing_v2), preserving the original speakers' voices. Use when translating videos, podcasts, or recordings into other languages, localizing media content, reviewing or correcting dubbing transcripts and translations, or regenerating a dub after edits.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "dubbing",
+          "description": "Dub audio and video into other languages using the ElevenLabs Dubbing API (dubbing_v2), preserving the original speakers' voices. Use when translating videos, podcasts, or recordings into other languages, localizing media content, reviewing or correcting dubbing transcripts and translations, or regenerating a dub after edits.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "evals",
+      "shape": "agent",
+      "source_path": "evals",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/evals",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "evals",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "agent"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 32,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "music",
+      "shape": "skill",
+      "source_path": "music",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/music",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "music",
+          "description": "Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics, background music, jingles, or any AI-generated music composition. Supports prompt-based generation, composition plans for granular control, and detailed output with metadata.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "music",
+          "description": "Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics, background music, jingles, or any AI-generated music composition. Supports prompt-based generation, composition plans for granular control, and detailed output with metadata.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "setup-api-key",
+      "shape": "skill",
+      "source_path": "setup-api-key",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/setup-api-key",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "setup-api-key",
+          "description": "Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs. First checks whether ELEVENLABS_API_KEY is already configured and valid, and only runs full setup when needed.",
+          "license": "MIT",
+          "compatibility": "Requires internet access to elevenlabs.io and api.elevenlabs.io."
+        },
+        "standard": {
+          "name": "setup-api-key",
+          "description": "Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs. First checks whether ELEVENLABS_API_KEY is already configured and valid, and only runs full setup when needed.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "sound-effects",
+      "shape": "skill",
+      "source_path": "sound-effects",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/sound-effects",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "sound-effects",
+          "description": "Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, generating audio textures, producing ambient sounds, cinematic impacts, UI sounds, or any audio that isn't speech. Supports looping, duration control, and prompt influence tuning.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "sound-effects",
+          "description": "Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, generating audio textures, producing ambient sounds, cinematic impacts, UI sounds, or any audio that isn't speech. Supports looping, duration control, and prompt influence tuning.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "speech-engine",
+      "shape": "skill",
+      "source_path": "speech-engine",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/speech-engine",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "speech-engine",
+          "description": "Add real-time voice conversations to a custom agent runtime with ElevenLabs Speech Engine. Use when building Speech Engine servers, WebSocket handlers, WebRTC browser clients, conversation token endpoints, interruption-aware streaming responses, or voice-enabled chat agents that connect developer-owned server logic to ElevenLabs speech-to-text and text-to-speech.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "speech-engine",
+          "description": "Add real-time voice conversations to a custom agent runtime with ElevenLabs Speech Engine. Use when building Speech Engine servers, WebSocket handlers, WebRTC browser clients, conversation token endpoints, interruption-aware streaming responses, or voice-enabled chat agents that connect developer-owned server logic to ElevenLabs speech-to-text and text-to-speech.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "speech-to-text",
+      "shape": "skill",
+      "source_path": "speech-to-text",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/speech-to-text",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "speech-to-text",
+          "description": "Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "speech-to-text",
+          "description": "Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "text-to-speech",
+      "shape": "skill",
+      "source_path": "text-to-speech",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/text-to-speech",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "text-to-speech",
+          "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 70+ languages.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "text-to-speech",
+          "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 70+ languages.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "voice-changer",
+      "shape": "skill",
+      "source_path": "voice-changer",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/voice-changer",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "voice-changer",
+          "description": "Transform the voice in an audio recording into a different target voice while preserving emotion, timing, and delivery using the ElevenLabs Voice Changer (speech-to-speech) API. Use when converting one voice to another, changing the speaker/narrator of an existing recording, dubbing a voice-over in a different voice, creating character voices from a scratch performance, anonymizing a speaker, or any \"voice conversion / voice transfer / speech-to-speech\" task. Make sure to use this skill whenever the user mentions voice changing, voice conversion, speech-to-speech, swapping a voice in audio, re-voicing a clip, or applying a different voice to an existing recording — even if they don't explicitly say \"voice changer\". Do not use this skill to create or clone a new voice from a voice sample — that is voice cloning (IVC/PVC), a separate feature; this skill only converts an existing recording into an existing voice_id.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "voice-changer",
+          "description": "Transform the voice in an audio recording into a different target voice while preserving emotion, timing, and delivery using the ElevenLabs Voice Changer (speech-to-speech) API. Use when converting one voice to another, changing the speaker/narrator of an existing recording, dubbing a voice-over in a different voice, creating character voices from a scratch performance, anonymizing a speaker, or any \"voice conversion / voice transfer / speech-to-speech\" task. Make sure to use this skill whenever the user mentions voice changing, voice conversion, speech-to-speech, swapping a voice in audio, re-voicing a clip, or applying a different voice to an existing recording — even if they don't explicitly say \"voice changer\". Do not use this skill to create or clone a new voice from a voice sample — that is voice cloning (IVC/PVC), a separate feature; this skill only converts an existing recording into an existing voice_id.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "voice-isolator",
+      "shape": "skill",
+      "source_path": "voice-isolator",
+      "source_url": "https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/voice-isolator",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "voice-isolator",
+          "description": "Remove background noise and isolate vocals/speech from audio using ElevenLabs Voice Isolator (audio isolation) API. Use when cleaning up noisy recordings, removing music or background ambience from dialogue, isolating speech from field recordings, preparing audio for transcription, extracting vocals, or any \"denoise / clean up / isolate voice\" task.",
+          "license": "MIT",
+          "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+          "metadata": {
+            "openclaw": {
+              "requires": {
+                "env": [
+                  "ELEVENLABS_API_KEY"
+                ]
+              },
+              "primaryEnv": "ELEVENLABS_API_KEY"
+            }
+          }
+        },
+        "standard": {
+          "name": "voice-isolator",
+          "description": "Remove background noise and isolate vocals/speech from audio using ElevenLabs Voice Isolator (audio isolation) API. Use when cleaning up noisy recordings, removing music or background ambience from dialogue, isolating speech from field recordings, preparing audio for transcription, extracting vocals, or any \"denoise / clean up / isolate voice\" task.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "a3bbe2104f3c9828bfa4014149f755753842a1d0",
+        "tags": []
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 415,
+          "contributors": 7,
+          "last_commit": "2026-08-07T03:26:14Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 32,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 7,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 415,
+      "contributors": 7,
+      "last_commit": "2026-08-07T03:26:14Z",
+      "archived": false
+    }
+  }
+}

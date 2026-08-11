@@ -1,7 +1,7 @@
 {
   "store": "microsoft-fabric-skills",
   "source_repo": "https://github.com/microsoft/skills-for-fabric.git",
-  "generated_at": "2026-08-10T11:24:00.858Z",
+  "generated_at": "2026-08-11T13:29:10.238Z",
   "scanned_ref": "764ab77bb1b08e3ade44fb3b5667ae036882f210",
   "provenance": false,
   "tier": "microsoft-official",
@@ -68,7 +68,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -134,7 +134,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -151,11 +151,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "check-updates",
-          "description": ""
+          "description": "Check an installed skills-for-fabric plugin bundle or git clone for updates, show the matching changelog, and provide host-appropriate update guidance. Use when the user wants to: (1) check for skill updates, (2) see what changed, (3) verify the installed version. Triggers: \"check for updates\", \"am I up to date\", \"what version\", \"update skills\", \"show changelog\".\n"
         },
         "standard": {
           "name": "check-updates",
-          "description": null,
+          "description": "Check an installed skills-for-fabric plugin bundle or git clone for updates, show the matching changelog, and provide host-appropriate update guidance. Use when the user wants to: (1) check for skill updates, (2) see what changed, (3) verify the installed version. Triggers: \"check for updates\", \"am I up to date\", \"what version\", \"update skills\", \"show changelog\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -189,10 +189,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -200,7 +200,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -217,11 +217,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "databricks-migration",
-          "description": ""
+          "description": "Port Databricks notebooks and jobs to Microsoft Fabric. Provides an exhaustive dbutils to notebookutils substitution table: fs operations (runtime mounts or OneLake Shortcuts), secret scope to Key Vault URL conversion, notebook run and exit, widget replacement with parameter-tagged cells, and library install replacement with Fabric Environments. Covers Unity Catalog three-level namespace reduction to Lakehouse two-level schemas, DBFS path conversion to OneLake, Databricks Jobs to Spark Job Definitions, MLflow tracking URI removal, and Photon to Native Execution Engine substitution. Use when the user wants to: (1) replace dbutils with notebookutils, (2) collapse Unity Catalog namespaces to Lakehouse schemas, (3) convert Databricks Jobs or Delta Live Tables. Triggers: \"migrate from databricks\", \"databricks to fabric\", \"dbutils to notebookutils\", \"dbutils fabric\", \"unity catalog migration\", \"dbfs to onelake\", \"databricks notebook migration\", \"delta live tables fabric\", \"photon native execution\".\n"
         },
         "standard": {
           "name": "databricks-migration",
-          "description": null,
+          "description": "Port Databricks notebooks and jobs to Microsoft Fabric. Provides an exhaustive dbutils to notebookutils substitution table: fs operations (runtime mounts or OneLake Shortcuts), secret scope to Key Vault URL conversion, notebook run and exit, widget replacement with parameter-tagged cells, and library install replacement with Fabric Environments. Covers Unity Catalog three-level namespace reduction to Lakehouse two-level schemas, DBFS path conversion to OneLake, Databricks Jobs to Spark Job Definitions, MLflow tracking URI removal, and Photon to Native Execution Engine substitution. Use when the user wants to: (1) replace dbutils with notebookutils, (2) collapse Unity Catalog namespaces to Lakehouse schemas, (3) convert Databricks Jobs or Delta Live Tables. Triggers: \"migrate from databricks\", \"databricks to fabric\", \"dbutils to notebookutils\", \"dbutils fabric\", \"unity catalog migration\", \"dbfs to onelake\", \"databricks notebook migration\", \"delta live tables fabric\", \"photon native execution\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -255,10 +255,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -266,7 +266,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -332,7 +332,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -349,11 +349,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "deployment-pipelines-authoring-cli",
-          "description": ""
+          "description": "Automate Microsoft Fabric deployment pipelines (ALM promotion across dev/test/prod stages) via the Fabric core REST API from agentic CLI environments. Use when the user wants to: (1) create or update a deployment pipeline and its stages, (2) assign or unassign a workspace to a stage, (3) deploy content from one stage to the next (forward or backward) including selective item deploys, (4) track a deployment as a long-running operation, (5) manage deployment pipeline role assignments. Triggers: \"create deployment pipeline\", \"deploy to test stage\", \"promote workspace to production\", \"assign workspace to deployment pipeline stage\", \"deploy stage content\", \"check deployment status\", \"list deployment pipeline operations\", \"Fabric ALM promote dev to prod\", \"what permissions/roles are required to assign a workspace or deploy stage content\".\n"
         },
         "standard": {
           "name": "deployment-pipelines-authoring-cli",
-          "description": null,
+          "description": "Automate Microsoft Fabric deployment pipelines (ALM promotion across dev/test/prod stages) via the Fabric core REST API from agentic CLI environments. Use when the user wants to: (1) create or update a deployment pipeline and its stages, (2) assign or unassign a workspace to a stage, (3) deploy content from one stage to the next (forward or backward) including selective item deploys, (4) track a deployment as a long-running operation, (5) manage deployment pipeline role assignments. Triggers: \"create deployment pipeline\", \"deploy to test stage\", \"promote workspace to production\", \"assign workspace to deployment pipeline stage\", \"deploy stage content\", \"check deployment status\", \"list deployment pipeline operations\", \"Fabric ALM promote dev to prod\", \"what permissions/roles are required to assign a workspace or deploy stage content\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -387,10 +387,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -398,7 +398,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -415,11 +415,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "e2e-fabric-cost-estimation",
-          "description": ""
+          "description": "Estimate Microsoft Fabric capacity costs before migration by analyzing existing workload profiles (Spark, SQL, Power BI, Real-Time Intelligence) and recommending optimal SKU sizing, billing modes, and Reserved Instance strategies. Use when the user wants to: (1) estimate Fabric costs for a migration, (2) size a Fabric capacity SKU, (3) compare Fabric pricing tiers, (4) calculate storage/compute/network costs, (5) recommend Reserved vs. Pay-As-You-Go vs. Autoscale billing. Trigger phrases are scoped to Fabric capacity cost/sizing to avoid over-routing on generic cost, migration, or connection questions. Triggers: \"estimate fabric cost\", \"fabric capacity sizing\", \"fabric sku recommendation\", \"fabric cost estimate\", \"fabric reserved instance\", \"fabric capacity pay-as-you-go\", \"fabric autoscale billing\".\n"
         },
         "standard": {
           "name": "e2e-fabric-cost-estimation",
-          "description": null,
+          "description": "Estimate Microsoft Fabric capacity costs before migration by analyzing existing workload profiles (Spark, SQL, Power BI, Real-Time Intelligence) and recommending optimal SKU sizing, billing modes, and Reserved Instance strategies. Use when the user wants to: (1) estimate Fabric costs for a migration, (2) size a Fabric capacity SKU, (3) compare Fabric pricing tiers, (4) calculate storage/compute/network costs, (5) recommend Reserved vs. Pay-As-You-Go vs. Autoscale billing. Trigger phrases are scoped to Fabric capacity cost/sizing to avoid over-routing on generic cost, migration, or connection questions. Triggers: \"estimate fabric cost\", \"fabric capacity sizing\", \"fabric sku recommendation\", \"fabric cost estimate\", \"fabric reserved instance\", \"fabric capacity pay-as-you-go\", \"fabric autoscale billing\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -453,10 +453,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -464,7 +464,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -481,11 +481,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "e2e-medallion-architecture",
-          "description": ""
+          "description": "Plan and implement end-to-end Microsoft Fabric data platforms and Medallion Architecture (Bronze/Silver/Gold) lakehouse patterns using PySpark, Delta Lake, Lakehouse/Warehouse items, Fabric Pipelines, and semantic-model handoff. Use when the user wants to: (1) design a Bronze/Silver/Gold data lakehouse, (2) plan an ingestion-to-semantic-model Fabric data platform, (3) set up multi-layer workspaces with lakehouses for each tier, (4) build ingestion-to-analytics pipelines with data quality enforcement, (5) orchestrate Bronze-to-Silver-to-Gold flows via notebooks. For natural-language business questions over existing Power BI report data, use `fabriciq`. Triggers: \"medallion architecture\", \"bronze silver gold\", \"lakehouse layers\", \"e2e data pipeline\", \"end-to-end lakehouse\", \"data lakehouse pattern\", \"multi-layer lakehouse\", \"build medallion\", \"setup medallion\", \"end-to-end Fabric data platform\", \"bronze silver gold platform\", \"ingestion semantic model platform\".\n"
         },
         "standard": {
           "name": "e2e-medallion-architecture",
-          "description": null,
+          "description": "Plan and implement end-to-end Microsoft Fabric data platforms and Medallion Architecture (Bronze/Silver/Gold) lakehouse patterns using PySpark, Delta Lake, Lakehouse/Warehouse items, Fabric Pipelines, and semantic-model handoff. Use when the user wants to: (1) design a Bronze/Silver/Gold data lakehouse, (2) plan an ingestion-to-semantic-model Fabric data platform, (3) set up multi-layer workspaces with lakehouses for each tier, (4) build ingestion-to-analytics pipelines with data quality enforcement, (5) orchestrate Bronze-to-Silver-to-Gold flows via notebooks. For natural-language business questions over existing Power BI report data, use `fabriciq`. Triggers: \"medallion architecture\", \"bronze silver gold\", \"lakehouse layers\", \"e2e data pipeline\", \"end-to-end lakehouse\", \"data lakehouse pattern\", \"multi-layer lakehouse\", \"build medallion\", \"setup medallion\", \"end-to-end Fabric data platform\", \"bronze silver gold platform\", \"ingestion semantic model platform\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -519,10 +519,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -530,7 +530,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -596,7 +596,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -613,11 +613,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "eventschemaset-consumption-cli",
-          "description": ""
+          "description": "List, inspect, and describe Microsoft Fabric Event Schema Sets — the centralized catalogs of event types and message schemas — via the Fabric Items REST API using `az rest` and `jq`. Enumerate Event Schema Sets in a workspace, read item properties (sensitivity label, tags), and retrieve then base64-decode the item definition to summarize its `eventTypes` and `schemas`. Use when the user wants to: (1) list or search Event Schema Sets in a workspace, (2) inspect an Event Schema Set's properties, (3) decode a definition to enumerate its event types and message schemas, (4) verify schema formats and versions. Read-only; no authoring skill exists yet, so for writes use the Fabric Event Schema Set authoring REST APIs, and for the Eventstream ingestion pipeline use `eventstream-cli`. Triggers: \"list Event Schema Sets\", \"show event schema sets\", \"inspect an event schema set\", \"describe an event schema set\", \"decode event schema set definition\", \"enumerate event types and schemas in an event schema set\".\n"
         },
         "standard": {
           "name": "eventschemaset-consumption-cli",
-          "description": null,
+          "description": "List, inspect, and describe Microsoft Fabric Event Schema Sets — the centralized catalogs of event types and message schemas — via the Fabric Items REST API using `az rest` and `jq`. Enumerate Event Schema Sets in a workspace, read item properties (sensitivity label, tags), and retrieve then base64-decode the item definition to summarize its `eventTypes` and `schemas`. Use when the user wants to: (1) list or search Event Schema Sets in a workspace, (2) inspect an Event Schema Set's properties, (3) decode a definition to enumerate its event types and message schemas, (4) verify schema formats and versions. Read-only; no authoring skill exists yet, so for writes use the Fabric Event Schema Set authoring REST APIs, and for the Eventstream ingestion pipeline use `eventstream-cli`. Triggers: \"list Event Schema Sets\", \"show event schema sets\", \"inspect an event schema set\", \"describe an event schema set\", \"decode event schema set definition\", \"enumerate event types and schemas in an event schema set\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -651,10 +651,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -662,7 +662,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -728,7 +728,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -791,7 +791,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -854,7 +854,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -917,7 +917,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -980,7 +980,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -997,11 +997,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "fabriciq",
-          "description": ""
+          "description": "Answer natural-language business questions over existing Power BI reports and semantic models through the FabricIQ MCP endpoint. Orchestrates artifact discovery, schema inspection, entity resolution, DAX generation, and query execution to return plain-language answers. Use when the user asks what, which, compare, rank, explain, or summarize questions about the data in a Power BI report or semantic model, including asking for a DAX query to be run against a named model. Triggers: \"ask power bi\", \"PBI question\", \"discover my Power BI report\", \"report data\", \"dashboard data\", \"what are the top\", \"show me the power bi data\", \"which products sold\", \"compare sales in report\", \"which customers churned\", \"ask the Power BI report\", \"query a Power BI semantic model\", \"run a DAX query against a semantic model\".\n"
         },
         "standard": {
           "name": "fabriciq",
-          "description": null,
+          "description": "Answer natural-language business questions over existing Power BI reports and semantic models through the FabricIQ MCP endpoint. Orchestrates artifact discovery, schema inspection, entity resolution, DAX generation, and query execution to return plain-language answers. Use when the user asks what, which, compare, rank, explain, or summarize questions about the data in a Power BI report or semantic model, including asking for a DAX query to be run against a named model. Triggers: \"ask power bi\", \"PBI question\", \"discover my Power BI report\", \"report data\", \"dashboard data\", \"what are the top\", \"show me the power bi data\", \"which products sold\", \"compare sales in report\", \"which customers churned\", \"ask the Power BI report\", \"query a Power BI semantic model\", \"run a DAX query against a semantic model\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1035,10 +1035,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1046,7 +1046,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1112,7 +1112,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1129,12 +1129,15 @@
         "kind": "skill-md",
         "raw": {
           "name": "git-integration-operations-cli",
-          "description": "",
-          "metadata": ""
+          "description": "Automate the Microsoft Fabric Git integration lifecycle from CLI environments using the Fabric CLI (fab api), with az rest as a fallback. Use when the user wants to connect a workspace to Azure DevOps or GitHub, commit or update/pull workspace items, check Git sync status, resolve update conflicts, disconnect, automate Git sync with a service principal, or link a branch workspace to its base. Do NOT use for branch switching, for deployment tools (fab deploy, fabric-cicd, Bulk Import), for deployment-pipeline runtime, or for cross-workspace reference rebinding after promotion (a property of the item definition format, not the Git lifecycle). Triggers: \"connect workspace to git\", \"commit fabric to git\", \"update workspace from git\", \"fabric git status\", \"resolve git conflict fabric\", \"service principal git sync\", \"link branch to base\".\n",
+          "metadata": {
+            "maturity": "experimental",
+            "owner": "yaron"
+          }
         },
         "standard": {
           "name": "git-integration-operations-cli",
-          "description": null,
+          "description": "Automate the Microsoft Fabric Git integration lifecycle from CLI environments using the Fabric CLI (fab api), with az rest as a fallback. Use when the user wants to connect a workspace to Azure DevOps or GitHub, commit or update/pull workspace items, check Git sync status, resolve update conflicts, disconnect, automate Git sync with a service principal, or link a branch workspace to its base. Do NOT use for branch switching, for deployment tools (fab deploy, fabric-cicd, Bulk Import), for deployment-pipeline runtime, or for cross-workspace reference rebinding after promotion (a property of the item definition format, not the Git lifecycle). Triggers: \"connect workspace to git\", \"commit fabric to git\", \"update workspace from git\", \"fabric git status\", \"resolve git conflict fabric\", \"service principal git sync\", \"link branch to base\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1168,10 +1171,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1179,7 +1182,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1196,11 +1199,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "hdinsight-migration",
-          "description": ""
+          "description": "Port Azure HDInsight Spark clusters and Hive workloads to Microsoft Fabric. Replaces legacy HiveContext and standalone SparkContext constructors with the pre-instantiated SparkSession. Converts WASB and ABFS storage paths to OneLake abfss URLs via Shortcuts. Transforms Hive DDL (STORED AS ORC, external tables) to Delta Lake schemas inside Fabric Lakehouse. Maps Oozie workflow actions — spark, hive, shell, sqoop, coordinator — to Fabric Pipeline activities and schedule triggers. Introduces notebookutils for file and credential operations previously handled via subprocess or HDFS client calls. Use when the user wants to: (1) retire an HDInsight cluster and move to Fabric, (2) convert WASB paths or Hive DDL, (3) replace Oozie coordinators with Fabric Pipelines. Triggers: \"migrate from hdinsight\", \"hdi to fabric\", \"hivecontext sparksession fabric\", \"wasb to onelake\", \"hive ddl to delta\", \"oozie to fabric pipelines\", \"migrate an oozie action\", \"hive metastore lakehouse\", \"hdinsight spark migration\".\n"
         },
         "standard": {
           "name": "hdinsight-migration",
-          "description": null,
+          "description": "Port Azure HDInsight Spark clusters and Hive workloads to Microsoft Fabric. Replaces legacy HiveContext and standalone SparkContext constructors with the pre-instantiated SparkSession. Converts WASB and ABFS storage paths to OneLake abfss URLs via Shortcuts. Transforms Hive DDL (STORED AS ORC, external tables) to Delta Lake schemas inside Fabric Lakehouse. Maps Oozie workflow actions — spark, hive, shell, sqoop, coordinator — to Fabric Pipeline activities and schedule triggers. Introduces notebookutils for file and credential operations previously handled via subprocess or HDFS client calls. Use when the user wants to: (1) retire an HDInsight cluster and move to Fabric, (2) convert WASB paths or Hive DDL, (3) replace Oozie coordinators with Fabric Pipelines. Triggers: \"migrate from hdinsight\", \"hdi to fabric\", \"hivecontext sparksession fabric\", \"wasb to onelake\", \"hive ddl to delta\", \"oozie to fabric pipelines\", \"migrate an oozie action\", \"hive metastore lakehouse\", \"hdinsight spark migration\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1234,10 +1237,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1245,7 +1248,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1308,7 +1311,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1325,11 +1328,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "mlv-operations-cli",
-          "description": ""
+          "description": "Manage refresh schedules, selected-lineage execution definitions, and job execution for existing Microsoft Fabric Materialized Lake Views (MLVs) via REST APIs. Configure, update, and delete schedules and execution definitions; trigger on-demand refreshes; monitor job status; and cancel running jobs. Use `spark-authoring-cli` to author MLV definitions. Discovery, visual lineage, and data quality metrics require the Lakehouse UI. Triggers: \"schedule MLV refresh\", \"manage MLV refresh schedule\", \"trigger MLV refresh\", \"MLV job status\", \"cancel MLV refresh\", \"monitor MLV refresh\", \"recurring MLV refresh\", \"daily MLV refresh\".\n"
         },
         "standard": {
           "name": "mlv-operations-cli",
-          "description": null,
+          "description": "Manage refresh schedules, selected-lineage execution definitions, and job execution for existing Microsoft Fabric Materialized Lake Views (MLVs) via REST APIs. Configure, update, and delete schedules and execution definitions; trigger on-demand refreshes; monitor job status; and cancel running jobs. Use `spark-authoring-cli` to author MLV definitions. Discovery, visual lineage, and data quality metrics require the Lakehouse UI. Triggers: \"schedule MLV refresh\", \"manage MLV refresh schedule\", \"trigger MLV refresh\", \"MLV job status\", \"cancel MLV refresh\", \"monitor MLV refresh\", \"recurring MLV refresh\", \"daily MLV refresh\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1363,10 +1366,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1374,7 +1377,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1391,11 +1394,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "pipeline-migration",
-          "description": ""
+          "description": "Migrate Synapse Data Factory pipeline artifacts to Microsoft Fabric Data Factory. Handles: linked services → Fabric connections, dataset definitions inlined into pipeline activities, global parameters → Variable Libraries, SynapseNotebook activities → TridentNotebook. SSIS, SHIR-only, and Databricks activities are parked. Use when: (1) migrating Synapse pipelines to Fabric Data Factory, (2) converting SynapseNotebook activities to TridentNotebook, (3) translating linked services to Fabric connections, (4) converting global parameters to Fabric Variable Libraries, (5) inlining dataset definitions into Fabric pipeline activities. Triggers: \"synapse pipeline to fabric\", \"data factory pipeline migration\", \"tridentnotebook pipeline activity\", \"global parameters to variable library\", \"linked service to fabric connection\", \"inline dataset fabric pipeline\", \"pipeline migration from synapse\".\n"
         },
         "standard": {
           "name": "pipeline-migration",
-          "description": null,
+          "description": "Migrate Synapse Data Factory pipeline artifacts to Microsoft Fabric Data Factory. Handles: linked services → Fabric connections, dataset definitions inlined into pipeline activities, global parameters → Variable Libraries, SynapseNotebook activities → TridentNotebook. SSIS, SHIR-only, and Databricks activities are parked. Use when: (1) migrating Synapse pipelines to Fabric Data Factory, (2) converting SynapseNotebook activities to TridentNotebook, (3) translating linked services to Fabric connections, (4) converting global parameters to Fabric Variable Libraries, (5) inlining dataset definitions into Fabric pipeline activities. Triggers: \"synapse pipeline to fabric\", \"data factory pipeline migration\", \"tridentnotebook pipeline activity\", \"global parameters to variable library\", \"linked service to fabric connection\", \"inline dataset fabric pipeline\", \"pipeline migration from synapse\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1429,10 +1432,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1440,7 +1443,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1503,7 +1506,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1520,12 +1523,14 @@
         "kind": "skill-md",
         "raw": {
           "name": "powerbi-report-authoring",
-          "description": "",
-          "metadata": ""
+          "description": "Create and modify Power BI report files in PBIR/PBIP format using the `powerbi-report-author` and `powerbi-desktop` CLIs. Use when the user wants to: (1) implement an approved report spec or design brief, (2) add or edit pages, visuals, filters, slicers, bookmarks, themes, or formatting, (3) validate PBIR and verify rendering in Power BI Desktop. For open-ended visual design, use `powerbi-report-design` first. For end-to-end requirements and approval workflow, use `powerbi-report-planning` first. Triggers: \"edit PBIR\", \"create Power BI report page\", \"add visual to PBIP\", \"format report visual\", \"validate Power BI report\", \"reload Desktop screenshot\", \"implement an approved PBIP report spec\", \"edit PBIR pages/visuals\".",
+          "metadata": {
+            "version": "0.1.0"
+          }
         },
         "standard": {
           "name": "powerbi-report-authoring",
-          "description": null,
+          "description": "Create and modify Power BI report files in PBIR/PBIP format using the `powerbi-report-author` and `powerbi-desktop` CLIs. Use when the user wants to: (1) implement an approved report spec or design brief, (2) add or edit pages, visuals, filters, slicers, bookmarks, themes, or formatting, (3) validate PBIR and verify rendering in Power BI Desktop. For open-ended visual design, use `powerbi-report-design` first. For end-to-end requirements and approval workflow, use `powerbi-report-planning` first. Triggers: \"edit PBIR\", \"create Power BI report page\", \"add visual to PBIP\", \"format report visual\", \"validate Power BI report\", \"reload Desktop screenshot\", \"implement an approved PBIP report spec\", \"edit PBIR pages/visuals\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1559,10 +1564,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1570,7 +1575,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1587,12 +1592,14 @@
         "kind": "skill-md",
         "raw": {
           "name": "powerbi-report-design",
-          "description": "",
-          "metadata": ""
+          "description": "Generate Power BI report visual design guidance before PBIR files are written. Use when the user wants to: (1) choose tone, signature, page archetypes, chart types, layout, color, typography, theme direction, or accessibility approach, (2) redesign/restyle an existing report, apply a brand, or critique chart/layout choices, (3) produce a design contract for `powerbi-report-authoring`. For end-to-end requirements, approval, and build sequencing, use `powerbi-report-planning`. Triggers: \"design Power BI report\", \"make dashboard look professional\", \"choose chart type\", \"apply brand to report\", \"redesign report\", \"create design brief\", \"Power BI report design archetype\".",
+          "metadata": {
+            "version": "0.1.0"
+          }
         },
         "standard": {
           "name": "powerbi-report-design",
-          "description": null,
+          "description": "Generate Power BI report visual design guidance before PBIR files are written. Use when the user wants to: (1) choose tone, signature, page archetypes, chart types, layout, color, typography, theme direction, or accessibility approach, (2) redesign/restyle an existing report, apply a brand, or critique chart/layout choices, (3) produce a design contract for `powerbi-report-authoring`. For end-to-end requirements, approval, and build sequencing, use `powerbi-report-planning`. Triggers: \"design Power BI report\", \"make dashboard look professional\", \"choose chart type\", \"apply brand to report\", \"redesign report\", \"create design brief\", \"Power BI report design archetype\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1626,10 +1633,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1637,7 +1644,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1655,7 +1662,9 @@
         "raw": {
           "name": "powerbi-report-management",
           "description": "Manage Power BI report workspace items and PBIR definitions in Microsoft Fabric via `az rest` CLI against the Fabric REST API. Use when the user wants to: (1) upload or publish a PBIR/report definition to Fabric, (2) get or download report definitions, (3) update report item definitions or properties, (4) list workspace reports, (5) delete reports. For editing PBIR files, pages, visuals, filters, themes, or formatting, use `powerbi-report-authoring`. For business questions over report data, use `fabriciq`. Triggers: upload PBIR report definition, upload Power BI report, download PBIR definition, publish PBIR definition, publish Power BI report to Fabric, manage Power BI reports, list workspace reports.",
-          "metadata": ""
+          "metadata": {
+            "version": "0.1.0"
+          }
         },
         "standard": {
           "name": "powerbi-report-management",
@@ -1704,7 +1713,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1721,12 +1730,14 @@
         "kind": "skill-md",
         "raw": {
           "name": "powerbi-report-planning",
-          "description": "",
-          "metadata": ""
+          "description": "Build a guided requirements-to-implementation workflow for new Power BI reports and dashboards from semantic models, datasets, or PBIP projects. Use when the user wants to: (1) plan then implement a report, (2) define audience, scope, page plan, design direction, dependencies, and delivery target, (3) create a locked report spec with approval before PBIR authoring. For direct edits to existing report files, use `powerbi-report-authoring`. For design-only critique or redesign, use `powerbi-report-design`. Triggers: \"build me a dashboard\", \"create a new report\", \"plan then implement\", \"define and build Power BI report\", \"walk me through creating a report\".",
+          "metadata": {
+            "version": "0.1.0"
+          }
         },
         "standard": {
           "name": "powerbi-report-planning",
-          "description": null,
+          "description": "Build a guided requirements-to-implementation workflow for new Power BI reports and dashboards from semantic models, datasets, or PBIP projects. Use when the user wants to: (1) plan then implement a report, (2) define audience, scope, page plan, design direction, dependencies, and delivery target, (3) create a locked report spec with approval before PBIR authoring. For direct edits to existing report files, use `powerbi-report-authoring`. For design-only critique or redesign, use `powerbi-report-design`. Triggers: \"build me a dashboard\", \"create a new report\", \"plan then implement\", \"define and build Power BI report\", \"walk me through creating a report\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1760,10 +1771,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1771,7 +1782,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1788,11 +1799,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "search-consumption-cli",
-          "description": ""
+          "description": "Search the Microsoft Fabric catalog across workspaces using the Fabric Catalog Search API. Use when the user wants to: (1) find an item by display name when the workspace is unknown, (2) list or discover items of a specific type across the tenant, (3) identify which workspace contains an item, (4) return item/workspace IDs for downstream API calls. Dataflow Gen1/Gen2 items are not supported. For data queries after the item is known, use the workload-specific consumption skill (`sqldw-consumption-cli`, `spark-consumption-cli`, `eventhouse-cli`, or `fabriciq`). Triggers: \"catalog search\", \"fabric catalog search\", \"catalog lookup\", \"cross workspace catalog\", \"tenant catalog discovery\", \"tenant catalog inventory\", \"tenant catalog identifiers\", \"workspace catalog discovery\".\n"
         },
         "standard": {
           "name": "search-consumption-cli",
-          "description": null,
+          "description": "Search the Microsoft Fabric catalog across workspaces using the Fabric Catalog Search API. Use when the user wants to: (1) find an item by display name when the workspace is unknown, (2) list or discover items of a specific type across the tenant, (3) identify which workspace contains an item, (4) return item/workspace IDs for downstream API calls. Dataflow Gen1/Gen2 items are not supported. For data queries after the item is known, use the workload-specific consumption skill (`sqldw-consumption-cli`, `spark-consumption-cli`, `eventhouse-cli`, or `fabriciq`). Triggers: \"catalog search\", \"fabric catalog search\", \"catalog lookup\", \"cross workspace catalog\", \"tenant catalog discovery\", \"tenant catalog inventory\", \"tenant catalog identifiers\", \"workspace catalog discovery\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1826,10 +1837,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1837,7 +1848,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1854,11 +1865,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "semantic-model-authoring",
-          "description": ""
+          "description": "Author and inspect Power BI semantic models and their metadata: list tables, columns, measures, relationships; create, edit, deploy, refresh, and manage models; optimize DAX; build Import, DirectQuery, and Direct Lake models; configure data sources, permissions, connections; and prepare for AI/Copilot. Load this skill before acting on any semantic model authoring, metadata, or read-only inspection request: it picks the correct tool and method for the environment and permissions. Authoring-scoped: does not answer natural-language or data questions about a model's data. Does NOT author report visuals, manage workspaces, or manage RLS/OLS roles. Triggers: \"create or edit a semantic model\", \"create or edit a DAX measure\", \"discover semantic model metadata\", \"list tables, columns, or measures in a semantic model\", \"refresh semantic model\", \"deploy semantic model to Fabric\",  \"prepare semantic model for AI/Copilot\", \"set semantic model permissions\".\n"
         },
         "standard": {
           "name": "semantic-model-authoring",
-          "description": null,
+          "description": "Author and inspect Power BI semantic models and their metadata: list tables, columns, measures, relationships; create, edit, deploy, refresh, and manage models; optimize DAX; build Import, DirectQuery, and Direct Lake models; configure data sources, permissions, connections; and prepare for AI/Copilot. Load this skill before acting on any semantic model authoring, metadata, or read-only inspection request: it picks the correct tool and method for the environment and permissions. Authoring-scoped: does not answer natural-language or data questions about a model's data. Does NOT author report visuals, manage workspaces, or manage RLS/OLS roles. Triggers: \"create or edit a semantic model\", \"create or edit a DAX measure\", \"discover semantic model metadata\", \"list tables, columns, or measures in a semantic model\", \"refresh semantic model\", \"deploy semantic model to Fabric\",  \"prepare semantic model for AI/Copilot\", \"set semantic model permissions\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1892,10 +1903,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1903,7 +1914,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1920,11 +1931,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "spark-authoring-cli",
-          "description": ""
+          "description": "Develop Microsoft Fabric Spark/data engineering workflows and write code in Fabric Notebook cells with routing to resources. Provides workspace/lakehouse management, notebook code authoring (PySpark, Scala, SparkR, SQL), and Materialized Lake View (MLV) authoring (Spark SQL MLVs support incremental refresh; PySpark is full-refresh only). Routes to data engineering patterns, development workflow, or infrastructure orchestration. For existing MLV refresh or schedule management, use `mlv-operations-cli`. Triggers: \"develop notebook\", \"Delta Lake patterns\", \"Spark development\", \"lakehouse configuration\", \"write notebook code\", \"notebookutils\", \"notebook cell\", \"PySpark notebook\", \"%%sql cell\", \"%%configure\", \"fabric notebook\", \"run notebook\", \"notebook deployment\", \"materialized lake view\", \"MLV\", \"CREATE MATERIALIZED LAKE VIEW\", \"MLV incremental refresh\", \"review MLV for incremental refresh\", \"MLV refresh policy\"\n"
         },
         "standard": {
           "name": "spark-authoring-cli",
-          "description": null,
+          "description": "Develop Microsoft Fabric Spark/data engineering workflows and write code in Fabric Notebook cells with routing to resources. Provides workspace/lakehouse management, notebook code authoring (PySpark, Scala, SparkR, SQL), and Materialized Lake View (MLV) authoring (Spark SQL MLVs support incremental refresh; PySpark is full-refresh only). Routes to data engineering patterns, development workflow, or infrastructure orchestration. For existing MLV refresh or schedule management, use `mlv-operations-cli`. Triggers: \"develop notebook\", \"Delta Lake patterns\", \"Spark development\", \"lakehouse configuration\", \"write notebook code\", \"notebookutils\", \"notebook cell\", \"PySpark notebook\", \"%%sql cell\", \"%%configure\", \"fabric notebook\", \"run notebook\", \"notebook deployment\", \"materialized lake view\", \"MLV\", \"CREATE MATERIALIZED LAKE VIEW\", \"MLV incremental refresh\", \"review MLV for incremental refresh\", \"MLV refresh policy\"",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1958,10 +1969,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -1969,7 +1980,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -1986,11 +1997,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "spark-consumption-cli",
-          "description": ""
+          "description": "Interactive ad-hoc Spark analysis through Fabric Lakehouse Livy API sessions ONLY. This skill NEVER authors or runs a notebook: any notebook cell (%%sql/%%configure) or a notebook-run-by-name (and reporting its run status) is `spark-authoring-cli`, not this skill. Scope: create a Livy session, execute PySpark, inspect output, and compute quick calculations over lakehouse data (DataFrames, cross-lakehouse joins, Delta time-travel, unstructured/JSON). For Spark failure triage use `spark-operations-cli`; for plain T-SQL Lakehouse/Warehouse queries use `sqldw-consumption-cli`. Triggers: \"create Livy session\", \"run Livy calculation\", \"Livy session calculation\", \"interactive Livy session\", \"PySpark\", \"analyze with PySpark\", \"Spark DataFrame\", \"lakehouse with Python\", \"PySpark data quality\", \"Delta time-travel with Spark\", \"join tables across Lakehouses\".\n"
         },
         "standard": {
           "name": "spark-consumption-cli",
-          "description": null,
+          "description": "Interactive ad-hoc Spark analysis through Fabric Lakehouse Livy API sessions ONLY. This skill NEVER authors or runs a notebook: any notebook cell (%%sql/%%configure) or a notebook-run-by-name (and reporting its run status) is `spark-authoring-cli`, not this skill. Scope: create a Livy session, execute PySpark, inspect output, and compute quick calculations over lakehouse data (DataFrames, cross-lakehouse joins, Delta time-travel, unstructured/JSON). For Spark failure triage use `spark-operations-cli`; for plain T-SQL Lakehouse/Warehouse queries use `sqldw-consumption-cli`. Triggers: \"create Livy session\", \"run Livy calculation\", \"Livy session calculation\", \"interactive Livy session\", \"PySpark\", \"analyze with PySpark\", \"Spark DataFrame\", \"lakehouse with Python\", \"PySpark data quality\", \"Delta time-travel with Spark\", \"join tables across Lakehouses\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2024,10 +2035,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2035,7 +2046,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -2052,11 +2063,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "spark-operations-cli",
-          "description": ""
+          "description": "Diagnose failed Spark jobs, unhealthy Livy sessions, and performance bottlenecks in Microsoft Fabric via read-only CLI triage. Use ONLY for FAILED/unhealthy runs; running a notebook and reporting its success status is `spark-authoring-cli`. Use when the user wants to: (1) diagnose why a Spark job, notebook run, or Lakehouse job failed, (2) triage stuck or dead Livy sessions, (3) identify OOM, shuffle spill, or data skew, (4) retrieve driver/executor logs or Spark Advisor findings, (5) copy event logs and start a local Spark History Server, (6) diagnose Spark activities in a failed pipeline run. Triggers: \"diagnose my failed notebook\", \"why did my spark job fail\", \"triage spark failure\", \"diagnose pipeline run failure\", \"why did my pipeline fail\", \"livy session stuck in starting\", \"spark executor OOM\", \"check spark advisor findings\", \"shuffle spill diagnosis\", \"why did my lakehouse job fail\", \"diagnose lakehouse table load\", \"data skew diagnosis\", \"open spark history server locally\", \"spark job triage\".\n"
         },
         "standard": {
           "name": "spark-operations-cli",
-          "description": null,
+          "description": "Diagnose failed Spark jobs, unhealthy Livy sessions, and performance bottlenecks in Microsoft Fabric via read-only CLI triage. Use ONLY for FAILED/unhealthy runs; running a notebook and reporting its success status is `spark-authoring-cli`. Use when the user wants to: (1) diagnose why a Spark job, notebook run, or Lakehouse job failed, (2) triage stuck or dead Livy sessions, (3) identify OOM, shuffle spill, or data skew, (4) retrieve driver/executor logs or Spark Advisor findings, (5) copy event logs and start a local Spark History Server, (6) diagnose Spark activities in a failed pipeline run. Triggers: \"diagnose my failed notebook\", \"why did my spark job fail\", \"triage spark failure\", \"diagnose pipeline run failure\", \"why did my pipeline fail\", \"livy session stuck in starting\", \"spark executor OOM\", \"check spark advisor findings\", \"shuffle spill diagnosis\", \"why did my lakehouse job fail\", \"diagnose lakehouse table load\", \"data skew diagnosis\", \"open spark history server locally\", \"spark job triage\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2090,10 +2101,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2101,7 +2112,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -2167,7 +2178,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -2184,11 +2195,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "sqldw-authoring-cli",
-          "description": ""
+          "description": "Execute authoring T-SQL (DDL, DML, data ingestion, transactions, schema changes) against Microsoft Fabric Data Warehouse and SQL endpoints via the MCP `fabric-sqlendpoint-execute_query` tool. Use when the user wants to: (1) create/alter/drop tables, (2) insert/update/delete/merge data, (3) run COPY INTO or OPENROWSET ingestion, (4) manage transactions or stored procedures, (5) perform schema evolution, (6) use time travel or snapshots, (7) generate ETL/ELT workflows, (8) create views/functions/procedures on Lakehouse SQLEP. Triggers: \"create table in warehouse\", \"insert data via T-SQL\", \"load from ADLS\", \"COPY INTO\", \"run ETL with T-SQL\", \"alter warehouse table\", \"upsert with T-SQL\", \"merge into warehouse\", \"create T-SQL procedure\", \"warehouse time travel\", \"recover deleted warehouse data\", \"create warehouse schema\", \"deploy warehouse\", \"transaction conflict\", \"snapshot isolation error\".\n"
         },
         "standard": {
           "name": "sqldw-authoring-cli",
-          "description": null,
+          "description": "Execute authoring T-SQL (DDL, DML, data ingestion, transactions, schema changes) against Microsoft Fabric Data Warehouse and SQL endpoints via the MCP `fabric-sqlendpoint-execute_query` tool. Use when the user wants to: (1) create/alter/drop tables, (2) insert/update/delete/merge data, (3) run COPY INTO or OPENROWSET ingestion, (4) manage transactions or stored procedures, (5) perform schema evolution, (6) use time travel or snapshots, (7) generate ETL/ELT workflows, (8) create views/functions/procedures on Lakehouse SQLEP. Triggers: \"create table in warehouse\", \"insert data via T-SQL\", \"load from ADLS\", \"COPY INTO\", \"run ETL with T-SQL\", \"alter warehouse table\", \"upsert with T-SQL\", \"merge into warehouse\", \"create T-SQL procedure\", \"warehouse time travel\", \"recover deleted warehouse data\", \"create warehouse schema\", \"deploy warehouse\", \"transaction conflict\", \"snapshot isolation error\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2222,10 +2233,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2233,7 +2244,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -2250,11 +2261,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "sqldw-consumption-cli",
-          "description": ""
+          "description": "Execute read-only T-SQL queries against Fabric Data Warehouse, Lakehouse SQL Endpoints, and Mirrored Databases via the MCP `fabric-sqlendpoint-execute_query` tool. Default skill for any lakehouse data query (row counts, SELECT, filtering, aggregation) unless the user explicitly requests PySpark or Spark DataFrames. Use when the user wants to: (1) query warehouse/lakehouse data, (2) count rows or explore lakehouse tables, (3) discover schemas/columns, (4) generate T-SQL scripts, (5) monitor SQL performance, (6) export results to CSV/JSON. For a Fabric notebook cell (%%sql or other notebook magics), use `spark-authoring-cli`, not this skill. Triggers: \"warehouse\", \"SQL query\", \"T-SQL\", \"query warehouse\", \"show warehouse tables\", \"show lakehouse tables\", \"query lakehouse\", \"lakehouse table\", \"how many rows\", \"count rows\", \"SQL endpoint\", \"describe warehouse schema\", \"generate T-SQL script\", \"warehouse performance\", \"export SQL data\", \"connect to warehouse\", \"lakehouse data\", \"explore lakehouse\".\n"
         },
         "standard": {
           "name": "sqldw-consumption-cli",
-          "description": null,
+          "description": "Execute read-only T-SQL queries against Fabric Data Warehouse, Lakehouse SQL Endpoints, and Mirrored Databases via the MCP `fabric-sqlendpoint-execute_query` tool. Default skill for any lakehouse data query (row counts, SELECT, filtering, aggregation) unless the user explicitly requests PySpark or Spark DataFrames. Use when the user wants to: (1) query warehouse/lakehouse data, (2) count rows or explore lakehouse tables, (3) discover schemas/columns, (4) generate T-SQL scripts, (5) monitor SQL performance, (6) export results to CSV/JSON. For a Fabric notebook cell (%%sql or other notebook magics), use `spark-authoring-cli`, not this skill. Triggers: \"warehouse\", \"SQL query\", \"T-SQL\", \"query warehouse\", \"show warehouse tables\", \"show lakehouse tables\", \"query lakehouse\", \"lakehouse table\", \"how many rows\", \"count rows\", \"SQL endpoint\", \"describe warehouse schema\", \"generate T-SQL script\", \"warehouse performance\", \"export SQL data\", \"connect to warehouse\", \"lakehouse data\", \"explore lakehouse\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2288,10 +2299,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2299,7 +2310,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -2316,11 +2327,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "sqldw-operations-cli",
-          "description": ""
+          "description": "Analyze Fabric Data Warehouse performance via the MCP execute_query tool and queryinsights views. Diagnose slow queries, SQL pool pressure, cache coldness, and recommend clustering keys. Triggers: \"DW slow query analysis\", \"slowest queries warehouse\", \"queryinsights long running\", \"warehouse CPU resource consumers\", \"SQL pool pressure window\", \"pressure events warehouse\", \"DW cache warmth cold start\", \"cache warmth analysis\", \"warehouse cluster key recommendation\", \"cluster tables performance\", \"DW performance baseline comparison\", \"performance degraded warehouse\", \"warehouse user query patterns\", \"queryinsights diagnostics\", \"DW optimization MCP\".\n"
         },
         "standard": {
           "name": "sqldw-operations-cli",
-          "description": null,
+          "description": "Analyze Fabric Data Warehouse performance via the MCP execute_query tool and queryinsights views. Diagnose slow queries, SQL pool pressure, cache coldness, and recommend clustering keys. Triggers: \"DW slow query analysis\", \"slowest queries warehouse\", \"queryinsights long running\", \"warehouse CPU resource consumers\", \"SQL pool pressure window\", \"pressure events warehouse\", \"DW cache warmth cold start\", \"cache warmth analysis\", \"warehouse cluster key recommendation\", \"cluster tables performance\", \"DW performance baseline comparison\", \"performance degraded warehouse\", \"warehouse user query patterns\", \"queryinsights diagnostics\", \"DW optimization MCP\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2354,10 +2365,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2365,7 +2376,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -2382,11 +2393,11 @@
         "kind": "skill-md",
         "raw": {
           "name": "synapse-migration",
-          "description": ""
+          "description": "Port Azure Synapse Analytics Spark workloads to Microsoft Fabric. Translates mssparkutils calls to notebookutils (including the env→runtime namespace change), replaces Linked Services with Fabric Data Connections and OneLake Shortcuts. Covers Spark Pools, Lake Databases, Notebooks, and Spark Job Definitions. Use when the user wants to: (1) port Synapse Spark notebooks to Fabric Lakehouse or Spark Job Definitions, (2) replace mssparkutils or Linked Services in Synapse code. Triggers: \"migrate from synapse\", \"synapse to fabric\", \"mssparkutils to notebookutils\", \"synapse linked service replacement\", \"port synapse notebooks\", \"synapse workspace migration\".\n"
         },
         "standard": {
           "name": "synapse-migration",
-          "description": null,
+          "description": "Port Azure Synapse Analytics Spark workloads to Microsoft Fabric. Translates mssparkutils calls to notebookutils (including the env→runtime namespace change), replaces Linked Services with Fabric Data Connections and OneLake Shortcuts. Covers Spark Pools, Lake Databases, Notebooks, and Spark Job Definitions. Use when the user wants to: (1) port Synapse Spark notebooks to Fabric Lakehouse or Spark Job Definitions, (2) replace mssparkutils or Linked Services in Synapse code. Triggers: \"migrate from synapse\", \"synapse to fabric\", \"mssparkutils to notebookutils\", \"synapse linked service replacement\", \"port synapse notebooks\", \"synapse workspace migration\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -2420,10 +2431,10 @@
           "v0.3.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 37,
       "trust_signals": {
         "store": 32,
-        "frontmatter": 0,
+        "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
@@ -2431,7 +2442,7 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 953,
+          "stars": 957,
           "contributors": 6,
           "last_commit": "2026-08-06T19:47:08Z",
           "archived": false
@@ -2447,7 +2458,7 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 953,
+      "stars": 957,
       "contributors": 6,
       "last_commit": "2026-08-06T19:47:08Z",
       "archived": false
