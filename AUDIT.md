@@ -1,5 +1,10 @@
 # Project Audit
 
+> **Historical snapshot:** This audit records the 2026-08-06 state before the
+> 2026-08-11 first-wave official-store admission. Current generated state is
+> 48 stores and 4,047 plugin records; do not use the metrics below as current
+> catalog counts.
+
 **Audit date:** 2026-08-06
 **Audited commit:** `81405a0` (`main`)
 **Scope:** catalog ingestion, trust scoring, rendering, validation, plugin packaging, CI governance, generated state, and public documentation

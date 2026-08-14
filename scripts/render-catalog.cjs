@@ -489,7 +489,7 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('npm run admin:configure-approval');
   lines.push('npm run admin:configure-approval -- --apply');
   lines.push('');
-  lines.push('# Full 42-store network refresh (requires SOURCES_DIR plus GH_TOKEN or GITHUB_TOKEN)');
+  lines.push(`# Full ${stores.length}-store network refresh (requires SOURCES_DIR plus GH_TOKEN or GITHUB_TOKEN)`);
   lines.push('npm run maintain -- --full');
   lines.push('```');
   lines.push('');

@@ -8,16 +8,25 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Published
 
-- Published `alex-act-ai-operations` v0.1.0 from the immutable
+- Published `alex-act-ai-operations` v0.2.0 from the immutable
   `fabioc-aloha/Alex_ACT_AI_Operations` tag. The optional plugin provides
   provider-neutral planning and consent-gated execution across Microsoft
-  Foundry, Replicate, Hugging Face, and ElevenLabs.
-- Moved Core and Illustrator origin delivery records to their verified
-  `v1.1.0` release tags. Manager, Document Tools, Enterprise, and private MSFT
-  remain at `1.0.1`; Visual Storytelling remains vendored at `1.0.1`.
+  Foundry, Hugging Face, and ElevenLabs; Illustrator remains the single Alex
+  ACT Replicate implementation.
+- Moved Core and Manager origin delivery records to their verified `v1.1.0`
+  release tags and Illustrator to its verified `v2.0.0` release tag. Document
+  Tools and Enterprise remain at `1.0.1`; private MSFT remains absent from the
+  Mall; Visual Storytelling remains vendored at `1.0.1`.
 - Moved Core, Manager, Illustrator, Document Tools, and Enterprise origin
   delivery records to their verified `v1.0.1` release tags. Visual Storytelling
   remains vendored at `1.0.1`; MSFT remains private and absent from the Mall.
+
+### Current Catalog
+
+- Admitted six official upstream stores in the first-wave refresh: DevExpress,
+  Elastic, ElevenLabs, Expo, Google, and Hugging Face. The generated catalog
+  now contains 48 stores and 4,047 plugin records; the current source registry
+  and generated store files are authoritative for per-store counts.
 
 ### Security
 
@@ -30,8 +39,8 @@ All notable changes to Alex ACT Plugin Mall.
 
 - Deduplicated 11 same-store rows with deterministic precedence (curated plugin
   payload over standalone skill; production over testing) and made duplicate
-  names a hard catalog validation failure. Current generated state is 3,854
-  unique `(store, name)` identities across 42 stores.
+  names a hard catalog validation failure. The current generated state is
+  4,047 unique `(store, name)` identities across 48 stores.
 - Propagated `reference_only` into per-store records and `installable` into the
   public index; 25 reference-only entries are now explicitly non-installable.
 - Made the marketplace mandatory, required 40-character store refs and
