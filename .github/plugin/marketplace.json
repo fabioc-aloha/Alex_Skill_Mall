@@ -147,7 +147,7 @@
     },
     {
       "name": "alex-act-core",
-      "description": "The Alex ACT baseline runtime plugin. Installs 30 reusable framework skills and 14 slash-command prompts covering epistemic discipline, continuity semantics, security and privacy, tooling awareness, and engineering craft. Core authors 16 instructions; Manager owns lifecycle, greeting check-in, continuity operations, and the mixed-source instruction bootstrap. Document Tools owns conversion. Eight Core commands remain temporary namespaced redirects.",
+      "description": "The self-activating Alex ACT baseline runtime plugin. Core owns its runtime instructions and project bootstrap; native Copilot CLI commands own plugin lifecycle, Scout owns shared continuity, and Document Tools owns conversion.",
       "version": "2.0.0",
       "source": {
         "source": "github",
@@ -186,17 +186,6 @@
         "source": "github",
         "repo": "fabioc-aloha/Alex_ACT_Illustrator_Plugin",
         "ref": "v2.1.0"
-      },
-      "strict": true
-    },
-    {
-      "name": "alex-act-manager",
-      "description": "Lifecycle and operational continuity control plane for the Alex ACT constellation. Installs and repairs the spine, runs prioritized check-in, scaffolds repository continuity, validates and stages continuity records, and updates or removes Manager-owned state with explicit consent.",
-      "version": "1.3.0",
-      "source": {
-        "source": "github",
-        "repo": "fabioc-aloha/Alex_ACT_Manager",
-        "ref": "v1.3.0"
       },
       "strict": true
     },
