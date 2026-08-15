@@ -9,6 +9,8 @@ All notable changes to Alex ACT Plugin Mall.
 ### Changed
 
 - Advance `alex-act-core` origin delivery to the Core `v3.0.0` release tag.
+- Advance `alex-act-ai-operations` origin delivery to the provisional
+  `v0.2.1` release tag.
 
 ### Published
 
