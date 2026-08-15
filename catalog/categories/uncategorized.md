@@ -3602,17 +3602,12 @@
 | 34 | [`typescript-advanced`](https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/skills/typescript-advanced) | awesome-claude-code-toolkit | skill | Advanced TypeScript patterns including generics, conditional types, mapped type… |
 | 34 | [`websocket-realtime`](https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/skills/websocket-realtime) | awesome-claude-code-toolkit | skill | Real-time communication patterns with WebSocket, Socket.io, Server-Sent Events,… |
 | 33 | [`everything`](https://github.com/modelcontextprotocol/servers/tree/76d64c822f5125032f89eb71dbdb94e42b434821/src/everything) | mcp-servers | prompt | **[Architecture](docs/architecture.md) |
-| 32 | [`dev-browser`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/automation/dev-browser) | n-skills | skill |  |
 | 32 | [`evals`](https://github.com/elevenlabs/skills/tree/a3bbe2104f3c9828bfa4014149f755753842a1d0/evals) | elevenlabs-skills | agent |  |
 | 32 | [`fabric-authoring`](https://github.com/microsoft/skills-for-fabric/tree/764ab77bb1b08e3ade44fb3b5667ae036882f210/plugins/fabric-authoring) | microsoft-fabric-skills | mixed |  |
 | 32 | [`fabric-consumption`](https://github.com/microsoft/skills-for-fabric/tree/764ab77bb1b08e3ade44fb3b5667ae036882f210/plugins/fabric-consumption) | microsoft-fabric-skills | mixed |  |
 | 32 | [`fabric-operations`](https://github.com/microsoft/skills-for-fabric/tree/764ab77bb1b08e3ade44fb3b5667ae036882f210/plugins/fabric-operations) | microsoft-fabric-skills | mixed |  |
 | 32 | [`fabric-skills`](https://github.com/microsoft/skills-for-fabric/tree/764ab77bb1b08e3ade44fb3b5667ae036882f210/plugins/fabric-skills) | microsoft-fabric-skills | mixed |  |
-| 32 | [`gastown`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/tools/gastown) | n-skills | skill |  |
-| 32 | [`open-source-maintainer`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/workflow/open-source-maintainer) | n-skills | skill |  |
-| 32 | [`orchestration`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/workflow/orchestration) | n-skills | skill |  |
 | 32 | [`powerbi-authoring`](https://github.com/microsoft/skills-for-fabric/tree/764ab77bb1b08e3ade44fb3b5667ae036882f210/plugins/powerbi-authoring) | microsoft-fabric-skills | mixed |  |
-| 32 | [`zai-cli`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/tools/zai-cli) | n-skills | skill |  |
 | 30 | [`algorithmic-art`](https://github.com/anthropics/skills/tree/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/algorithmic-art) | claude-skills | skill | Creating algorithmic art using p5.js with seeded randomness and interactive par… |
 | 30 | [`brand-guidelines`](https://github.com/anthropics/skills/tree/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/brand-guidelines) | claude-skills | skill | Applies Anthropic's official brand colors and typography to any sort of artifac… |
 | 30 | [`canvas-design`](https://github.com/anthropics/skills/tree/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/canvas-design) | claude-skills | skill | Create beautiful visual art in .png and .pdf documents using design philosophy.… |
@@ -3639,8 +3634,13 @@
 | 30 | [`xlsx`](https://github.com/anthropics/skills/tree/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/xlsx) | claude-skills | skill | Use this skill any time a spreadsheet file is the primary input or output. This… |
 | 29 | [`api-architect`](https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/plugins/api-architect) | awesome-claude-code-toolkit | mixed |  |
 | 29 | [`code-guardian`](https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/plugins/code-guardian) | awesome-claude-code-toolkit | mixed |  |
+| 29 | [`dev-browser`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/automation/dev-browser) | n-skills | skill |  |
+| 29 | [`gastown`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/tools/gastown) | n-skills | skill |  |
 | 29 | [`hooks`](https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/hooks) | awesome-claude-code-toolkit | hook |  |
+| 29 | [`open-source-maintainer`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/workflow/open-source-maintainer) | n-skills | skill |  |
+| 29 | [`orchestration`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/workflow/orchestration) | n-skills | skill |  |
 | 29 | [`styleseed`](https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/skills/styleseed) | awesome-claude-code-toolkit | skill |  |
+| 29 | [`zai-cli`](https://github.com/numman-ali/n-skills/tree/b1c6173aa7f83c569248996e1db1b9ae7afdb76f/skills/tools/zai-cli) | n-skills | skill |  |
 | 26 | [`calculator`](https://github.com/Code-and-Sorts/awesome-copilot-agents/tree/a26d912e4a42122e1f99cda61445fe5226aae541/skills/calculator) | awesome-copilot-agents | skill | Performs arbitrary-precision arithmetic calculations including addition, subtra… |
 | 26 | [`jira-cli`](https://github.com/Code-and-Sorts/awesome-copilot-agents/tree/a26d912e4a42122e1f99cda61445fe5226aae541/skills/jira-cli) | awesome-copilot-agents | skill | Interact with Jira from the command line to create, list, view, edit, and trans… |
 | 24 | [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills/tree/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines) | karpathy-skills | skill | Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, r… |
@@ -3661,4 +3661,4 @@
 | 13 | [`verification-loop`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/verification-loop) | everything-claude-code | skill |  |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-08-11T18:09:49.772Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-08-15T13:08:05.565Z*
