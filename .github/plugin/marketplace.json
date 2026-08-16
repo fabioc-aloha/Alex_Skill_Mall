@@ -148,7 +148,7 @@
     {
       "name": "alex-act-core",
       "description": "The self-activating Alex ACT baseline runtime plugin. Installs 32 reusable framework skills and 9 slash-command prompts covering instruction activation, project bootstrap, epistemic discipline, continuity semantics, security and privacy, tooling awareness, project-capability authoring, and engineering craft. Core owns its 16 runtime instructions, receipt, and project-local scaffold. Native Copilot CLI owns plugin lifecycle; Scout owns shared continuity; Document Tools owns conversion.",
-      "version": "3.0.1",
+      "version": "3.0.2",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/Alex_ACT_Core",
@@ -170,7 +170,7 @@
     {
       "name": "alex-act-enterprise",
       "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /alex-act-enterprise setup-enterprise command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of the public alex-act-core runtime. Not internal-only (that's alex-act-msft).",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/alex-act-enterprise",
@@ -181,7 +181,7 @@
     {
       "name": "alex-act-illustrator-plugin",
       "description": "Expert visual-storytelling and authoring bundle for AI agents. Thirteen skills across five feature areas plus install composition and runtime setup: Flint chart and ThemeSpec language, Print figures, Replicate, Shell, Banner, install-visual-companions, and setup-illustrator-runtime. Shared framing, bounded creative exploration, and verification apply across all authoring features. Alex ACT constellation plugin governed by Alex ACT Steward.",
-      "version": "2.2.1",
+      "version": "2.2.2",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/Alex_ACT_Illustrator_Plugin",
