@@ -1,37 +1,28 @@
 {
   "upstream": {
     "repo": "https://github.com/fabioc-aloha/Alex_ACT_Visual_Storytelling",
-    "ref": "319090907ba30f3d35faa1e86b005dc6845c1e66"
+    "ref": "v2.0.1"
   },
   "engines": [
     "copilot"
   ],
   "shape": "IS..",
   "tier": "standard",
-  "token_cost": 24800,
-  "requires_edition": ">=1.0.0",
-  "requires_plugins": [],
+  "token_cost": 11100,
   "bundle": true,
   "components": [
     "data-analytics/storytelling-requirements",
     "data-analytics/datasource-connectors",
     "data-analytics/data-preparation",
-    "data-analytics/visual-vocabulary",
-    "data-analytics/delivery-ascii-dashboard",
-    "data-analytics/delivery-html-dashboard",
-    "media-graphics/delivery-svg-markdown"
+    "data-analytics/delivery-ascii-dashboard"
   ],
   "artifacts": {
     "skill": "SKILL.md",
     "instruction": null,
     "agent": "visual-storytelling.agent.md"
   },
-  "install_paths": {
-    "skill": ".github/skills/local/visual-storytelling/SKILL.md",
-    "agent": ".github/agents/local/visual-storytelling.agent.md"
-  },
   "migration": {
     "strategy": "vendor-components",
-    "reason": "Copilot CLI has no plugin dependency field; the bundle must be self-contained."
+    "reason": "ASCII delivery is bundled; graphical delivery requires Illustrator."
   }
 }

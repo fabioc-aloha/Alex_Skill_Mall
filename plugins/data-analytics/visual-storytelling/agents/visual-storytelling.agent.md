@@ -17,8 +17,8 @@ Require a data source, a one- or two-sentence request, and one delivery target: 
 1. **Brief**: invoke `storytelling-requirements`. Capture audience, Big Idea, 3-7 questions, communication goals, source, and target. Apply the Claim Computability Gate and name missing fields as an evidence boundary.
 2. **Ingest**: invoke `datasource-connectors`. Validate encoding and required columns before aggregation. Stop on partial ingestion unless the user approves it.
 3. **Clean**: invoke `data-preparation`. Preserve metric lineage: source fields, formula, grain, units, rounding, and baseline.
-4. **Select**: invoke `visual-vocabulary`. Map each communication goal to a fitting chart and reject mismatches.
-5. **Deliver**: invoke `delivery-ascii-dashboard`, `delivery-svg-markdown`, or `delivery-html-dashboard` according to the target.
+4. **Select**: invoke Illustrator's `chart-vocabulary`. Map each communication goal to a fitting chart and reject mismatches.
+5. **Deliver**: invoke `delivery-ascii-dashboard` for `ascii`. For `svg` or `html`, require `alex-act-illustrator-plugin` and invoke its Flint authoring workflow.
 
 ## CSAR QA loop
 
@@ -48,5 +48,7 @@ Return one blocker paragraph rather than a partial dashboard when the pipeline c
 
 - One-off chart: use a delivery skill directly.
 - Static infographic: use an illustrator.
+- SVG or HTML target without Illustrator: return a blocker that names
+	`alex-act-illustrator-plugin` rather than substituting an unverified renderer.
 - Exploration without an audience: run `storytelling-requirements` first.
 - Real-time or streaming dashboard: unsupported; this pipeline is batch-oriented.
