@@ -119,6 +119,51 @@ test('packagePlugin defaults to dry-run and does not write the destination', (t)
   assert.equal(fs.existsSync(path.join(repoRoot, 'plugins', 'productivity', 'fixture-plugin')), false);
 });
 
+test('packagePlugin advances source delivery without recreating a local payload', (t) => {
+  const sourceRoot = createSourcePlugin();
+  const repoRoot = createMallRoot();
+  t.after(() => fs.rmSync(sourceRoot, { recursive: true, force: true }));
+  t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
+  const { packagePlugin } = require('../scripts/lib/plugin-package.cjs');
+  const target = path.join(repoRoot, 'plugins', 'productivity', 'fixture-plugin');
+
+  writeJson(path.join(target, 'plugin.json'), {
+    name: 'fixture-plugin',
+    version: '1.2.2',
+    description: 'Fixture plugin used to verify the publication pipeline.',
+    author: { name: 'Fixture Author' },
+  });
+  writeJson(path.join(target, '.mall-metadata.json'), {
+    delivery: {
+      mode: 'source',
+      source: { source: 'github', repo: 'example/fixture-plugin', ref: 'v1.2.2' },
+    },
+    upstream: { repo: 'https://github.com/example/fixture-plugin', ref: 'v1.2.2' },
+  });
+
+  const result = packagePlugin({
+    repoRoot,
+    sourceRoot,
+    category: 'productivity',
+    repository: 'https://github.com/example/fixture-plugin',
+    ref: 'v1.2.3',
+    apply: true,
+    replace: true,
+  });
+
+  const manifest = JSON.parse(fs.readFileSync(path.join(target, 'plugin.json'), 'utf8'));
+  const metadata = JSON.parse(fs.readFileSync(path.join(target, '.mall-metadata.json'), 'utf8'));
+  assert.equal(result.validation.ok, true);
+  assert.equal(result.validation.fileCount, 2);
+  assert.equal(manifest.version, '1.2.3');
+  assert.equal(manifest.skills, undefined);
+  assert.equal(manifest.commands, undefined);
+  assert.equal(metadata.delivery.source.ref, 'v1.2.3');
+  assert.equal(metadata.upstream.ref, 'v1.2.3');
+  assert.equal(fs.existsSync(path.join(target, 'skills')), false);
+  assert.equal(fs.existsSync(path.join(target, 'commands')), false);
+});
+
 test('replacement fails closed when existing bundled resources are omitted', (t) => {
   const sourceRoot = createSourcePlugin();
   const repoRoot = createMallRoot();

@@ -314,6 +314,7 @@ function packagePlugin({
     try { existingMetadata = readJson(existingMetadataPath); }
     catch { /* malformed metadata is replaced and validated below */ }
   }
+  const sourceDelivered = existingMetadata.delivery?.mode === 'source';
   const existingBundled = existingMetadata.artifacts?.bundled || [];
   const includedTargets = new Set(includes.map((include) => include.target));
   const missingBundled = existingBundled.filter((targetName) => !includedTargets.has(targetName));
@@ -322,6 +323,9 @@ function packagePlugin({
       `existing bundled resources require explicit --include mappings: ${missingBundled.join(', ')}`,
     );
   }
+  if (sourceDelivered && includes.length > 0) {
+    throw new Error('source-delivered entries cannot add vendored resources');
+  }
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-package-'));
   const workRoot = path.join(tempRoot, sourceManifest.name);
   fs.mkdirSync(workRoot, { recursive: true });
@@ -329,30 +333,32 @@ function packagePlugin({
     const outputManifest = { ...sourceManifest };
     for (const [field, targetName] of Object.entries(PATH_COMPONENTS)) {
       delete outputManifest[field];
-      if (copyComponent(absoluteSource, workRoot, field, targetName, sourceManifest)) {
+      if (!sourceDelivered && copyComponent(absoluteSource, workRoot, field, targetName, sourceManifest)) {
         outputManifest[field] = `${targetName}/`;
       }
     }
     delete outputManifest.mcpServers;
-    if (sourceManifest.mcpServers && typeof sourceManifest.mcpServers === 'object') {
+    if (!sourceDelivered && sourceManifest.mcpServers && typeof sourceManifest.mcpServers === 'object') {
       outputManifest.mcpServers = sourceManifest.mcpServers;
-    } else if (copyComponent(absoluteSource, workRoot, 'mcpServers', 'mcp', sourceManifest)) {
+    } else if (!sourceDelivered && copyComponent(absoluteSource, workRoot, 'mcpServers', 'mcp', sourceManifest)) {
       outputManifest.mcpServers = 'mcp/';
     }
-    for (const rootFile of ['README.md', 'CHANGELOG.md', 'LICENSE']) {
-      const source = path.join(absoluteSource, rootFile);
-      if (fs.existsSync(source)) copyEntry(source, path.join(workRoot, rootFile));
-    }
-    for (const include of includes) {
-      const source = path.resolve(absoluteSource, include.source);
-      const includeTarget = path.resolve(workRoot, include.target);
-      if (!isInside(absoluteSource, source) || !fs.existsSync(source)) throw new Error(`include source invalid: ${include.source}`);
-      if (!isInside(workRoot, includeTarget)) throw new Error(`include target invalid: ${include.target}`);
-      copyEntry(source, includeTarget);
+    if (!sourceDelivered) {
+      for (const rootFile of ['README.md', 'CHANGELOG.md', 'LICENSE']) {
+        const source = path.join(absoluteSource, rootFile);
+        if (fs.existsSync(source)) copyEntry(source, path.join(workRoot, rootFile));
+      }
+      for (const include of includes) {
+        const source = path.resolve(absoluteSource, include.source);
+        const includeTarget = path.resolve(workRoot, include.target);
+        if (!isInside(absoluteSource, source) || !fs.existsSync(source)) throw new Error(`include source invalid: ${include.source}`);
+        if (!isInside(workRoot, includeTarget)) throw new Error(`include target invalid: ${include.target}`);
+        copyEntry(source, includeTarget);
+      }
     }
     writeJson(path.join(workRoot, 'plugin.json'), outputManifest);
-    const linkRewrites = rewriteUnshippableMarkdownLinks(workRoot);
-    writeJson(path.join(workRoot, '.mall-metadata.json'), {
+    const linkRewrites = sourceDelivered ? [] : rewriteUnshippableMarkdownLinks(workRoot);
+    const outputMetadata = {
       ...existingMetadata,
       upstream: {
         ...(existingMetadata.upstream || {}),
@@ -360,19 +366,33 @@ function packagePlugin({
         ref: ref || null,
         license: outputManifest.license || null,
       },
-      submission: {
+    };
+    if (sourceDelivered) {
+      outputMetadata.delivery = {
+        ...existingMetadata.delivery,
+        source: {
+          ...existingMetadata.delivery.source,
+          ref: ref || existingMetadata.delivery.source.ref,
+        },
+      };
+      delete outputMetadata.submission;
+      delete outputMetadata.artifacts;
+      delete outputMetadata.link_rewrites;
+    } else {
+      outputMetadata.submission = {
         schema_version: '1.0',
         submitted_by: submittedBy,
         evidence,
-      },
-      artifacts: {
+      };
+      outputMetadata.artifacts = {
         skills: listArtifacts(workRoot, 'skills'),
         agents: listArtifacts(workRoot, 'agents'),
         prompts: listArtifacts(workRoot, 'commands'),
         bundled: includes.map((include) => include.target),
-      },
-      link_rewrites: linkRewrites,
-    });
+      };
+      outputMetadata.link_rewrites = linkRewrites;
+    }
+    writeJson(path.join(workRoot, '.mall-metadata.json'), outputMetadata);
 
     const validation = validatePluginDirectory(workRoot);
     if (!validation.ok) {
@@ -399,7 +419,7 @@ function packagePlugin({
 }
 
 function resolveSource(source, ref = null) {
-  if (fs.existsSync(source)) return { sourceRoot: path.resolve(source), cleanup() {} };
+  if (fs.existsSync(source)) return { sourceRoot: path.resolve(source), cleanup() { } };
   if (!ref) throw new Error('--ref is required for remote sources');
   const remote = /^https?:\/\//.test(source) ? source : `https://github.com/${source}.git`;
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-vendor-source-'));
