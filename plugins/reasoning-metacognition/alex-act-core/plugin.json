@@ -1,7 +1,7 @@
 {
   "name": "alex-act-core",
-  "version": "3.0.0",
-  "description": "The self-activating Alex ACT baseline runtime plugin. Core owns its runtime instructions and project bootstrap; native Copilot CLI commands own plugin lifecycle, Scout owns shared continuity, and Document Tools owns conversion.",
+  "version": "3.0.1",
+  "description": "The self-activating Alex ACT baseline runtime plugin. Installs 32 reusable framework skills and 9 slash-command prompts covering instruction activation, project bootstrap, epistemic discipline, continuity semantics, security and privacy, tooling awareness, project-capability authoring, and engineering craft. Core owns its 16 runtime instructions, receipt, and project-local scaffold. Native Copilot CLI owns plugin lifecycle; Scout owns shared continuity; Document Tools owns conversion.",
   "keywords": [
     "alex-act",
     "epistemic-discipline",
@@ -23,6 +23,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/fabioc-aloha/Alex_ACT_Core.git"
-  },
-  "shape": "mixed"
+  }
 }

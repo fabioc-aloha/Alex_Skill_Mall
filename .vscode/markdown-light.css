@@ -131,6 +131,29 @@ pre code {
     color: #1f2328 !important;
 }
 
+/* VS Code injects this control after the light theme overrides its defaults. */
+pre>.code-block-copy-button {
+    background-color: #ffffff !important;
+    border: 1px solid #d1d9e0 !important;
+    border-radius: 4px !important;
+    color: #57606a !important;
+    opacity: 1 !important;
+}
+
+pre>.code-block-copy-button:hover {
+    background-color: #eaeef2 !important;
+    color: #1f2328 !important;
+}
+
+pre>.code-block-copy-button:focus-visible {
+    outline: 2px solid #0969da !important;
+    outline-offset: 2px !important;
+}
+
+pre>.code-block-copy-button .codicon {
+    color: inherit !important;
+}
+
 /* Force all code text readable (nuclear option for VS Code dark themes) */
 pre code,
 pre code span,
@@ -371,7 +394,7 @@ img {
     box-sizing: border-box !important;
 }
 
-.mermaid:not(svg) > svg {
+.mermaid:not(svg)>svg {
     display: block !important;
     width: auto !important;
     max-width: none !important;
