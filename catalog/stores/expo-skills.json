@@ -1,19 +1,19 @@
 {
   "store": "expo-skills",
   "source_repo": "https://github.com/expo/skills.git",
-  "generated_at": "2026-08-11T13:29:09.632Z",
-  "scanned_ref": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+  "generated_at": "2026-08-17T11:07:16.774Z",
+  "scanned_ref": "4f305e030846a267965b82d27a9c8b5348313264",
   "provenance": false,
   "tier": "expo-official",
   "license": "MIT",
   "reference_only": false,
-  "plugin_count": 21,
+  "plugin_count": 22,
   "plugins": [
     {
       "name": "eas-app-stores",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/eas-app-stores",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/eas-app-stores",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/eas-app-stores",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -43,7 +43,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -57,9 +57,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -68,7 +68,7 @@
       "name": "eas-hosting",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/eas-hosting",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/eas-hosting",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/eas-hosting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -98,7 +98,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -112,9 +112,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -123,20 +123,20 @@
       "name": "eas-observe",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/eas-observe",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/eas-observe",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/eas-observe",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "eas-observe",
-          "description": "EAS service (paid). Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, markInteractive, the useObserve hook, the Expo Router / React Navigation integrations for per-route metrics, and user-defined events via `Observe.logEvent`), querying via the EAS CLI (`eas observe:metrics-summary`, `observe:metrics`, `observe:routes`, `observe:events`, `observe:versions`), or interpreting the resulting metrics (cold/warm launch, TTR, TTI, navigation cold/warm TTR, update download, and the TTI frameRate params for triaging slow startups).",
-          "version": "1.0.0",
+          "description": "EAS service (paid). Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, markInteractive and ObserveInteractiveMarker, the useObserve hook, the Expo Router / React Navigation integrations for per-route metrics, user-defined events via `Observe.logEvent`, error reporting via ObserveErrorBoundary and `Observe.reportError`, and runtime config such as sampleRate and dispatchInDebug), querying via the EAS CLI (`eas observe:metrics-summary`, `observe:metrics`, `observe:routes`, `observe:events`, `observe:session`, `observe:versions`), interpreting the resulting metrics (cold/warm launch, TTR, TTI, navigation cold/warm TTR, update download, and the TTI frameRate/device/network params for triaging slow startups), or shipping an Observe integration inside a third-party package.",
+          "version": "1.1.0",
           "license": "MIT"
         },
         "standard": {
           "name": "eas-observe",
-          "description": "EAS service (paid). Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, markInteractive, the useObserve hook, the Expo Router / React Navigation integrations for per-route metrics, and user-defined events via `Observe.logEvent`), querying via the EAS CLI (`eas observe:metrics-summary`, `observe:metrics`, `observe:routes`, `observe:events`, `observe:versions`), or interpreting the resulting metrics (cold/warm launch, TTR, TTI, navigation cold/warm TTR, update download, and the TTI frameRate params for triaging slow startups).",
-          "version": "1.0.0",
+          "description": "EAS service (paid). Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, markInteractive and ObserveInteractiveMarker, the useObserve hook, the Expo Router / React Navigation integrations for per-route metrics, user-defined events via `Observe.logEvent`, error reporting via ObserveErrorBoundary and `Observe.reportError`, and runtime config such as sampleRate and dispatchInDebug), querying via the EAS CLI (`eas observe:metrics-summary`, `observe:metrics`, `observe:routes`, `observe:events`, `observe:session`, `observe:versions`), interpreting the resulting metrics (cold/warm launch, TTR, TTI, navigation cold/warm TTR, update download, and the TTI frameRate/device/network params for triaging slow startups), or shipping an Observe integration inside a third-party package.",
+          "version": "1.1.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -153,7 +153,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -167,9 +167,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -178,7 +178,7 @@
       "name": "eas-simulator",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/eas-simulator",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/eas-simulator",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/eas-simulator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -219,7 +219,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -233,9 +233,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -244,7 +244,7 @@
       "name": "eas-update-insights",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/eas-update-insights",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/eas-update-insights",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/eas-update-insights",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -277,7 +277,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -291,9 +291,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -302,14 +302,14 @@
       "name": "eas-workflows",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/eas-workflows",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/eas-workflows",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/eas-workflows",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "eas-workflows",
           "description": "EAS service (paid). Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.",
-          "allowed-tools": "Read,Write,Bash(node:*)",
+          "allowed-tools": "Read,Write,Bash(node:*),Bash(npx *eas-cli@*)",
           "version": "1.0.0",
           "license": "MIT License"
         },
@@ -325,7 +325,8 @@
           "tools": [
             "Read",
             "Write",
-            "Bash(node:*)"
+            "Bash(node:*)",
+            "Bash(npx *eas-cli@*)"
           ],
           "mode": null,
           "category": null,
@@ -337,7 +338,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -351,9 +352,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -362,7 +363,7 @@
       "name": "expo-app-clip",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-app-clip",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-app-clip",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-app-clip",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -390,7 +391,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 40,
@@ -404,9 +405,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -415,7 +416,7 @@
       "name": "expo-brownfield",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-brownfield",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-brownfield",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-brownfield",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -443,7 +444,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 40,
@@ -457,9 +458,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -468,7 +469,7 @@
       "name": "expo-data-fetching",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-data-fetching",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-data-fetching",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-data-fetching",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -498,7 +499,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -512,9 +513,64 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "expo-design-system",
+      "shape": "mixed",
+      "source_path": "plugins/expo/skills/expo-design-system",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-design-system",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "expo-design-system",
+          "description": "Framework (OSS). Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography, radius, shadow, motion), reusable component structure with variant/size/state prop conventions, and rules for when to extract a repeated view into a shared component. Use when creating or organizing theme files and design tokens (theme.ts / theme/), extending an existing theme or styling library (NativeWind, Tamagui, Restyle, Unistyles) in its own idiom, standardizing styles so screens (including AI-generated ones) look consistent and polished, building an in-app component library, or auditing an app for design-system drift (hardcoded colors, spacing, fonts). For platform styling specifics (semantic colors, HIG rules, native controls) use expo-native-ui; for Tailwind/CSS setup use expo-tailwind-setup; for folder layout of a new app use expo-project-structure.",
+          "version": "1.0.0",
+          "license": "MIT"
+        },
+        "standard": {
+          "name": "expo-design-system",
+          "description": "Framework (OSS). Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography, radius, shadow, motion), reusable component structure with variant/size/state prop conventions, and rules for when to extract a repeated view into a shared component. Use when creating or organizing theme files and design tokens (theme.ts / theme/), extending an existing theme or styling library (NativeWind, Tamagui, Restyle, Unistyles) in its own idiom, standardizing styles so screens (including AI-generated ones) look consistent and polished, building an in-app component library, or auditing an app for design-system drift (hardcoded colors, spacing, fonts). For platform styling specifics (semantic colors, HIG rules, native controls) use expo-native-ui; for Tailwind/CSS setup use expo-tailwind-setup; for folder layout of a new app use expo-project-structure.",
+          "version": "1.0.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
+        "tags": []
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -523,7 +579,7 @@
       "name": "expo-dev-client",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-dev-client",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-dev-client",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-dev-client",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -553,7 +609,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -567,9 +623,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -578,7 +634,7 @@
       "name": "expo-dom",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-dom",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-dom",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-dom",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -608,7 +664,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -622,9 +678,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -633,7 +689,7 @@
       "name": "expo-examples",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-examples",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-examples",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-examples",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -671,7 +727,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -685,9 +741,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -696,7 +752,7 @@
       "name": "expo-module",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-module",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-module",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-module",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -726,7 +782,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -740,9 +796,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -751,7 +807,7 @@
       "name": "expo-native-ui",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-native-ui",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-native-ui",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-native-ui",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -781,7 +837,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -795,9 +851,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -806,7 +862,7 @@
       "name": "expo-project-structure",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-project-structure",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-project-structure",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-project-structure",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -836,7 +892,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -850,9 +906,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -861,7 +917,7 @@
       "name": "expo-router",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-router",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-router",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-router",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -891,7 +947,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -905,9 +961,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -916,7 +972,7 @@
       "name": "expo-skill-feedback",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-skill-feedback",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-skill-feedback",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-skill-feedback",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -944,7 +1000,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 40,
@@ -958,9 +1014,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -969,7 +1025,7 @@
       "name": "expo-tailwind-setup",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-tailwind-setup",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-tailwind-setup",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-tailwind-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -999,7 +1055,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -1013,9 +1069,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -1024,7 +1080,7 @@
       "name": "expo-ui",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-ui",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-ui",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-ui",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1057,7 +1113,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -1071,9 +1127,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -1082,7 +1138,7 @@
       "name": "expo-upgrade",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-upgrade",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-upgrade",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-upgrade",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1112,7 +1168,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -1126,9 +1182,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -1137,7 +1193,7 @@
       "name": "expo-web-to-native",
       "shape": "mixed",
       "source_path": "plugins/expo/skills/expo-web-to-native",
-      "source_url": "https://github.com/expo/skills/tree/ea6f1492f4e69e5b530c3fb8162728a1b0d982eb/plugins/expo/skills/expo-web-to-native",
+      "source_url": "https://github.com/expo/skills/tree/4f305e030846a267965b82d27a9c8b5348313264/plugins/expo/skills/expo-web-to-native",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1167,7 +1223,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ea6f1492f4e69e5b530c3fb8162728a1b0d982eb",
+        "default_sha": "4f305e030846a267965b82d27a9c8b5348313264",
         "tags": []
       },
       "trust_score": 43,
@@ -1181,9 +1237,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2398,
-          "contributors": 25,
-          "last_commit": "2026-08-11T12:40:33Z",
+          "stars": 2426,
+          "contributors": 28,
+          "last_commit": "2026-08-17T09:47:21Z",
           "archived": false
         }
       }
@@ -1197,9 +1253,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 2398,
-      "contributors": 25,
-      "last_commit": "2026-08-11T12:40:33Z",
+      "stars": 2426,
+      "contributors": 28,
+      "last_commit": "2026-08-17T09:47:21Z",
       "archived": false
     }
   }

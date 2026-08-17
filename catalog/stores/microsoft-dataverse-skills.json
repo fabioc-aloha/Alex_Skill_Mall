@@ -2,7 +2,7 @@
   "store": "microsoft-dataverse-skills",
   "source_repo": "https://github.com/microsoft/Dataverse-skills.git",
   "generated_at": "2026-07-29T01:14:40.297Z",
-  "scanned_ref": "a8d4a8149cb4f0b27668e95586c2a9391d3eec33",
+  "scanned_ref": "e2381ab261a68c23a0ba55f901e3b2468f785cd6",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -13,7 +13,7 @@
       "name": "tests",
       "shape": "unknown",
       "source_path": "evals/tests",
-      "source_url": "https://github.com/microsoft/Dataverse-skills/tree/a8d4a8149cb4f0b27668e95586c2a9391d3eec33/evals/tests",
+      "source_url": "https://github.com/microsoft/Dataverse-skills/tree/e2381ab261a68c23a0ba55f901e3b2468f785cd6/evals/tests",
       "readme_excerpt": "Test files for the Dataverse Skills plugin eval system. Each `.biceval.json` contains one or more tests that are consumed by LocalEvalRunner to grade AI agent responses when the plugin is loaded.",
       "frontmatter": {
         "kind": "none",
@@ -38,41 +38,41 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a8d4a8149cb4f0b27668e95586c2a9391d3eec33",
+        "default_sha": "e2381ab261a68c23a0ba55f901e3b2468f785cd6",
         "tags": [
           "v0.1-full-skillset"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 42,
       "trust_signals": {
-        "store": 30,
+        "store": 32,
         "frontmatter": 5,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
           "maintenance": 15,
-          "adoption": 5,
+          "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 197,
+          "stars": 205,
           "contributors": 9,
-          "last_commit": "2026-08-11T05:28:08Z",
+          "last_commit": "2026-08-14T18:02:51Z",
           "archived": false
         }
       }
     }
   ],
   "store_trust": {
-    "score": 30,
+    "score": 32,
     "signals": {
       "provenance": 0,
       "maintenance": 15,
-      "adoption": 5,
+      "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 197,
+      "stars": 205,
       "contributors": 9,
-      "last_commit": "2026-08-11T05:28:08Z",
+      "last_commit": "2026-08-14T18:02:51Z",
       "archived": false
     }
   }

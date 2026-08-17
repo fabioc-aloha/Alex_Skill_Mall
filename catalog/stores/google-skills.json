@@ -1,19 +1,19 @@
 {
   "store": "google-skills",
   "source_repo": "https://github.com/google/skills.git",
-  "generated_at": "2026-08-11T13:29:09.707Z",
-  "scanned_ref": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+  "generated_at": "2026-08-17T11:07:16.783Z",
+  "scanned_ref": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
   "provenance": false,
   "tier": "google-official",
   "license": "Apache-2.0",
   "reference_only": false,
-  "plugin_count": 106,
+  "plugin_count": 109,
   "plugins": [
     {
       "name": "agent-platform-alert-configuration",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-alert-configuration",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-alert-configuration",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-alert-configuration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -22,12 +22,12 @@
           "metadata": {
             "category": "AiAndMachineLearning"
           },
-          "description": "Configures best-practice alerting policies for AI agents using OpenTelemetry (OTel) metrics. Use when analyzing, writing, or deploying alerting policies to monitor agent latency, error rates, token usage, and quality metrics. NOTE: Reliability, Cost, Safety, and Security alerts use generic OTel metrics and work across runtimes (e.g., Cloud Run, Vertex AI). Quality alerts rely on Vertex AI Online Monitors and are strictly bound to Vertex AI deployments.",
+          "description": "Configures best-practice alerting policies for AI agents using OpenTelemetry (OTel) metrics, generating output as Terraform (.tf) configuration files. Use when analyzing, writing, or deploying alerting policies to monitor agent latency, error rates, token usage, and quality metrics. Don't use for standard infrastructure monitoring unrelated to AI agents, or when the agent is not instrumented with OpenTelemetry (for Reliability, Cost, Safety, Security alerts). NOTE: Reliability, Cost, Safety, and Security alerts use generic OTel metrics and work across runtimes (such as Cloud Run, Vertex AI). Quality alerts rely on Vertex AI Online Monitors and are strictly bound to Vertex AI deployments.",
           "allowed-tools": "terraform gcloud python"
         },
         "standard": {
           "name": "agent-platform-alert-configuration",
-          "description": "Configures best-practice alerting policies for AI agents using OpenTelemetry (OTel) metrics. Use when analyzing, writing, or deploying alerting policies to monitor agent latency, error rates, token usage, and quality metrics. NOTE: Reliability, Cost, Safety, and Security alerts use generic OTel metrics and work across runtimes (e.g., Cloud Run, Vertex AI). Quality alerts rely on Vertex AI Online Monitors and are strictly bound to Vertex AI deployments.",
+          "description": "Configures best-practice alerting policies for AI agents using OpenTelemetry (OTel) metrics, generating output as Terraform (.tf) configuration files. Use when analyzing, writing, or deploying alerting policies to monitor agent latency, error rates, token usage, and quality metrics. Don't use for standard infrastructure monitoring unrelated to AI agents, or when the agent is not instrumented with OpenTelemetry (for Reliability, Cost, Safety, Security alerts). NOTE: Reliability, Cost, Safety, and Security alerts use generic OTel metrics and work across runtimes (such as Cloud Run, Vertex AI). Quality alerts rely on Vertex AI Online Monitors and are strictly bound to Vertex AI deployments.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -47,7 +47,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -61,9 +61,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -72,7 +72,7 @@
       "name": "agent-platform-deploy",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-deploy",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-deploy",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-deploy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -103,7 +103,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -117,9 +117,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -128,7 +128,7 @@
       "name": "agent-platform-endpoint-management",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-endpoint-management",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-endpoint-management",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-endpoint-management",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -159,7 +159,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -173,9 +173,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -184,7 +184,7 @@
       "name": "agent-platform-eval-flywheel",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-eval-flywheel",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-eval-flywheel",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-eval-flywheel",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -215,7 +215,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -229,9 +229,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -240,7 +240,7 @@
       "name": "agent-platform-inference",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-inference",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-inference",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-inference",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -271,7 +271,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -285,9 +285,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -296,7 +296,7 @@
       "name": "agent-platform-migrate-from-ai-studio",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-migrate-from-ai-studio",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-migrate-from-ai-studio",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-migrate-from-ai-studio",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -327,7 +327,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -341,9 +341,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -352,7 +352,7 @@
       "name": "agent-platform-model-registry",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-model-registry",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-model-registry",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-model-registry",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -383,7 +383,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -397,9 +397,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -408,7 +408,7 @@
       "name": "agent-platform-prompt-management",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-prompt-management",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-prompt-management",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-prompt-management",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -439,7 +439,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -453,9 +453,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -464,7 +464,7 @@
       "name": "agent-platform-rag-engine-management",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-rag-engine-management",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-rag-engine-management",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-rag-engine-management",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -495,7 +495,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -509,9 +509,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -520,7 +520,7 @@
       "name": "agent-platform-skill-registry",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-skill-registry",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-skill-registry",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-skill-registry",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -551,7 +551,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -565,9 +565,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -576,7 +576,7 @@
       "name": "agent-platform-troubleshooting",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-troubleshooting",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-troubleshooting",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-troubleshooting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -607,7 +607,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -621,9 +621,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -632,7 +632,7 @@
       "name": "agent-platform-tuning",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-tuning",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-tuning",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-tuning",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -663,7 +663,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -677,9 +677,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -688,7 +688,7 @@
       "name": "agent-platform-tuning-management",
       "shape": "skill",
       "source_path": "skills/cloud/agent-platform-tuning-management",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/agent-platform-tuning-management",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/agent-platform-tuning-management",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -719,7 +719,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -733,9 +733,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -744,7 +744,7 @@
       "name": "alloydb-basics",
       "shape": "skill",
       "source_path": "skills/cloud/alloydb-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/alloydb-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/alloydb-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -775,7 +775,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -789,9 +789,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -800,7 +800,7 @@
       "name": "bigquery-ai-ml",
       "shape": "skill",
       "source_path": "skills/cloud/bigquery-ai-ml",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/bigquery-ai-ml",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/bigquery-ai-ml",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -831,7 +831,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -845,9 +845,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -856,7 +856,7 @@
       "name": "bigquery-basics",
       "shape": "skill",
       "source_path": "skills/cloud/bigquery-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/bigquery-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/bigquery-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -887,7 +887,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -901,9 +901,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -912,7 +912,7 @@
       "name": "bigquery-bigframes",
       "shape": "skill",
       "source_path": "skills/cloud/bigquery-bigframes",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/bigquery-bigframes",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/bigquery-bigframes",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -943,7 +943,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -957,9 +957,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -968,7 +968,7 @@
       "name": "bigtable-basics",
       "shape": "skill",
       "source_path": "skills/cloud/bigtable-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/bigtable-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/bigtable-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -999,7 +999,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1013,9 +1013,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1024,7 +1024,7 @@
       "name": "cloud-logging-configuration-basics",
       "shape": "skill",
       "source_path": "skills/cloud/cloud-logging-configuration-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/cloud-logging-configuration-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/cloud-logging-configuration-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1055,7 +1055,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1069,9 +1069,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1080,7 +1080,7 @@
       "name": "cloud-logging-cross-project-configuration",
       "shape": "skill",
       "source_path": "skills/cloud/cloud-logging-cross-project-configuration",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/cloud-logging-cross-project-configuration",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/cloud-logging-cross-project-configuration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1111,7 +1111,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1125,9 +1125,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1136,7 +1136,7 @@
       "name": "cloud-logging-query-generation",
       "shape": "skill",
       "source_path": "skills/cloud/cloud-logging-query-generation",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/cloud-logging-query-generation",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/cloud-logging-query-generation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1167,7 +1167,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1181,9 +1181,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1192,7 +1192,7 @@
       "name": "cloud-monitoring-chart-generation",
       "shape": "skill",
       "source_path": "skills/cloud/cloud-monitoring-chart-generation",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/cloud-monitoring-chart-generation",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/cloud-monitoring-chart-generation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1201,11 +1201,11 @@
           "metadata": {
             "category": "CloudObservabilityAndMonitoring"
           },
-          "description": "Generates Google Cloud Monitoring Server-Driven UI (SDUI) Widget and XyChart Protocol Buffer textprotos from resolved PromQL queries. Use when:\n  - Generating valid google.monitoring.dashboard.v1.Widget textprotos,\n    containing PrometheusQuery datasets, for use with the Cloud Monitoring\n    Dashboards API, gcloud CLI, or declarative dashboard definitions.\n  - Synthesizing Server-Driven UI (SDUI) widget titles, axis labels, and\n    plot types for Prometheus queries.\nDon't use for:\n  - Metric discovery or PromQL query generation. For those tasks, use the\n    cloud-monitoring-metric-selection or cloud-monitoring-promql-query skills."
+          "description": "Generates Google Cloud Monitoring Server-Driven UI (SDUI) Widget and XyChart Protocol Buffer textprotos from resolved PromQL or ListTimeSeries queries. Use when:\n  - Generating valid google.monitoring.dashboard.v1.Widget textprotos,\n    containing PrometheusQuery or TimeSeriesFilter datasets, for use with the Cloud Monitoring\n    Dashboards API, gcloud CLI, or declarative dashboard definitions.\n  - Synthesizing Server-Driven UI (SDUI) widget titles, axis labels, and\n    plot types for Prometheus or ListTimeSeries queries.\nDon't use for:\n  - Metric discovery or PromQL query generation. For those tasks, use the\n    cloud-monitoring-metric-selection or cloud-monitoring-promql-query skills."
         },
         "standard": {
           "name": "cloud-monitoring-chart-generation",
-          "description": "Generates Google Cloud Monitoring Server-Driven UI (SDUI) Widget and XyChart Protocol Buffer textprotos from resolved PromQL queries. Use when:\n  - Generating valid google.monitoring.dashboard.v1.Widget textprotos,\n    containing PrometheusQuery datasets, for use with the Cloud Monitoring\n    Dashboards API, gcloud CLI, or declarative dashboard definitions.\n  - Synthesizing Server-Driven UI (SDUI) widget titles, axis labels, and\n    plot types for Prometheus queries.\nDon't use for:\n  - Metric discovery or PromQL query generation. For those tasks, use the\n    cloud-monitoring-metric-selection or cloud-monitoring-promql-query skills.",
+          "description": "Generates Google Cloud Monitoring Server-Driven UI (SDUI) Widget and XyChart Protocol Buffer textprotos from resolved PromQL or ListTimeSeries queries. Use when:\n  - Generating valid google.monitoring.dashboard.v1.Widget textprotos,\n    containing PrometheusQuery or TimeSeriesFilter datasets, for use with the Cloud Monitoring\n    Dashboards API, gcloud CLI, or declarative dashboard definitions.\n  - Synthesizing Server-Driven UI (SDUI) widget titles, axis labels, and\n    plot types for Prometheus or ListTimeSeries queries.\nDon't use for:\n  - Metric discovery or PromQL query generation. For those tasks, use the\n    cloud-monitoring-metric-selection or cloud-monitoring-promql-query skills.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1223,7 +1223,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1237,9 +1237,65 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "cloud-monitoring-list-time-series-request",
+      "shape": "skill",
+      "source_path": "skills/cloud/cloud-monitoring-list-time-series-request",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/cloud-monitoring-list-time-series-request",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "cloud-monitoring-list-time-series-request",
+          "metadata": {
+            "category": "CloudObservabilityAndMonitoring"
+          },
+          "description": "Generate valid Cloud Monitoring ListTimeSeries requests and aggregation specifications from metric descriptors and resource parameters. Use when asked to create, generate, format, or build ListTimeSeries requests, JSON payloads, filter expressions, or aligner/reducer aggregations for Cloud Monitoring metrics and charts. Don't use for metric discovery or metric selection."
+        },
+        "standard": {
+          "name": "cloud-monitoring-list-time-series-request",
+          "description": "Generate valid Cloud Monitoring ListTimeSeries requests and aggregation specifications from metric descriptors and resource parameters. Use when asked to create, generate, format, or build ListTimeSeries requests, JSON payloads, filter expressions, or aligner/reducer aggregations for Cloud Monitoring metrics and charts. Don't use for metric discovery or metric selection.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 18423,
+          "contributors": 6,
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1248,7 +1304,7 @@
       "name": "cloud-monitoring-metric-selection",
       "shape": "skill",
       "source_path": "skills/cloud/cloud-monitoring-metric-selection",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/cloud-monitoring-metric-selection",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/cloud-monitoring-metric-selection",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1279,7 +1335,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1293,9 +1349,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1304,7 +1360,7 @@
       "name": "cloud-run-basics",
       "shape": "skill",
       "source_path": "skills/cloud/cloud-run-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/cloud-run-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/cloud-run-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1335,7 +1391,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1349,9 +1405,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1360,7 +1416,7 @@
       "name": "cloud-sql-basics",
       "shape": "skill",
       "source_path": "skills/cloud/cloud-sql-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/cloud-sql-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/cloud-sql-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1391,7 +1447,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1405,9 +1461,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1416,7 +1472,7 @@
       "name": "data-manager-api-audience-ingestion",
       "shape": "skill",
       "source_path": "skills/ads/data-manager-api-audience-ingestion",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/data-manager-api-audience-ingestion",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/data-manager-api-audience-ingestion",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1448,7 +1504,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1462,9 +1518,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1473,7 +1529,7 @@
       "name": "data-manager-api-event-ingestion",
       "shape": "skill",
       "source_path": "skills/ads/data-manager-api-event-ingestion",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/data-manager-api-event-ingestion",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/data-manager-api-event-ingestion",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1505,7 +1561,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1519,9 +1575,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1530,7 +1586,7 @@
       "name": "data-manager-api-setup",
       "shape": "skill",
       "source_path": "skills/ads/data-manager-api-setup",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/data-manager-api-setup",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/data-manager-api-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1562,7 +1618,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1576,9 +1632,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1587,7 +1643,7 @@
       "name": "datalineage-bigquery-asset-impact-analysis",
       "shape": "skill",
       "source_path": "skills/cloud/datalineage-bigquery-asset-impact-analysis",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/datalineage-bigquery-asset-impact-analysis",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/datalineage-bigquery-asset-impact-analysis",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1618,7 +1674,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1632,9 +1688,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1643,7 +1699,7 @@
       "name": "datalineage-summary",
       "shape": "skill",
       "source_path": "skills/cloud/datalineage-summary",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/datalineage-summary",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/datalineage-summary",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1674,7 +1730,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1688,9 +1744,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1699,7 +1755,7 @@
       "name": "design-deploy",
       "shape": "skill",
       "source_path": "skills/cloud/design-deploy",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/design-deploy",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/design-deploy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1733,7 +1789,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1747,9 +1803,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1758,7 +1814,7 @@
       "name": "detection-engineering-coverage-evaluation",
       "shape": "skill",
       "source_path": "skills/cloud/detection-engineering-coverage-evaluation",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/detection-engineering-coverage-evaluation",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/detection-engineering-coverage-evaluation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1789,7 +1845,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1803,9 +1859,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1814,7 +1870,7 @@
       "name": "developer-device-platform-basics",
       "shape": "skill",
       "source_path": "skills/cloud/developer-device-platform-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/developer-device-platform-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/developer-device-platform-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1845,7 +1901,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1859,9 +1915,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1870,7 +1926,7 @@
       "name": "firebase-basics",
       "shape": "skill",
       "source_path": "skills/cloud/firebase-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/firebase-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/firebase-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1901,7 +1957,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1915,9 +1971,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1926,7 +1982,7 @@
       "name": "gcloud",
       "shape": "skill",
       "source_path": "skills/cloud/gcloud",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gcloud",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gcloud",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1957,7 +2013,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -1971,9 +2027,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -1982,7 +2038,7 @@
       "name": "gemini-agents-api",
       "shape": "skill",
       "source_path": "skills/cloud/gemini-agents-api",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gemini-agents-api",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gemini-agents-api",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2013,7 +2069,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2027,9 +2083,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2038,7 +2094,7 @@
       "name": "gemini-api",
       "shape": "skill",
       "source_path": "skills/cloud/gemini-api",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gemini-api",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gemini-api",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2070,7 +2126,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2084,9 +2140,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2095,7 +2151,7 @@
       "name": "gemini-interactions-api",
       "shape": "skill",
       "source_path": "skills/cloud/gemini-interactions-api",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gemini-interactions-api",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gemini-interactions-api",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2126,7 +2182,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2140,9 +2196,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2151,7 +2207,7 @@
       "name": "gemini-live-api",
       "shape": "skill",
       "source_path": "skills/cloud/gemini-live-api",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gemini-live-api",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gemini-live-api",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2182,7 +2238,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2196,9 +2252,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2207,7 +2263,7 @@
       "name": "gke-ai-troubleshooting-handle-disruption-gpu-tpu",
       "shape": "skill",
       "source_path": "skills/cloud/gke-ai-troubleshooting-handle-disruption-gpu-tpu",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-ai-troubleshooting-handle-disruption-gpu-tpu",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-ai-troubleshooting-handle-disruption-gpu-tpu",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2238,7 +2294,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2252,9 +2308,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2263,7 +2319,7 @@
       "name": "gke-ai-troubleshooting-jobset-interruption",
       "shape": "skill",
       "source_path": "skills/cloud/gke-ai-troubleshooting-jobset-interruption",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-ai-troubleshooting-jobset-interruption",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-ai-troubleshooting-jobset-interruption",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2294,7 +2350,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2308,9 +2364,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2319,7 +2375,7 @@
       "name": "gke-ai-troubleshooting-tpu-vbar-oom",
       "shape": "skill",
       "source_path": "skills/cloud/gke-ai-troubleshooting-tpu-vbar-oom",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-ai-troubleshooting-tpu-vbar-oom",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-ai-troubleshooting-tpu-vbar-oom",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2350,7 +2406,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2364,9 +2420,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2375,7 +2431,7 @@
       "name": "gke-app-onboarding",
       "shape": "skill",
       "source_path": "skills/cloud/gke-app-onboarding",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-app-onboarding",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-app-onboarding",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2406,7 +2462,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2420,9 +2476,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2431,7 +2487,7 @@
       "name": "gke-backup-dr",
       "shape": "skill",
       "source_path": "skills/cloud/gke-backup-dr",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-backup-dr",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-backup-dr",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2462,7 +2518,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2476,9 +2532,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2487,7 +2543,7 @@
       "name": "gke-basics",
       "shape": "skill",
       "source_path": "skills/cloud/gke-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2518,7 +2574,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2532,9 +2588,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2543,7 +2599,7 @@
       "name": "gke-batch-hpc",
       "shape": "skill",
       "source_path": "skills/cloud/gke-batch-hpc",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-batch-hpc",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-batch-hpc",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2574,7 +2630,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2588,9 +2644,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2599,7 +2655,7 @@
       "name": "gke-cluster-autoscaler",
       "shape": "skill",
       "source_path": "skills/cloud/gke-cluster-autoscaler",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-cluster-autoscaler",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-cluster-autoscaler",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2630,7 +2686,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2644,9 +2700,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2655,7 +2711,7 @@
       "name": "gke-cluster-creation",
       "shape": "skill",
       "source_path": "skills/cloud/gke-cluster-creation",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-cluster-creation",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-cluster-creation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2686,7 +2742,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2700,9 +2756,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2711,7 +2767,7 @@
       "name": "gke-compute-classes",
       "shape": "skill",
       "source_path": "skills/cloud/gke-compute-classes",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-compute-classes",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-compute-classes",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2742,7 +2798,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2756,9 +2812,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2767,7 +2823,7 @@
       "name": "gke-cost-analysis",
       "shape": "skill",
       "source_path": "skills/cloud/gke-cost-analysis",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-cost-analysis",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-cost-analysis",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2798,7 +2854,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2812,9 +2868,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2823,7 +2879,7 @@
       "name": "gke-cost-optimization",
       "shape": "skill",
       "source_path": "skills/cloud/gke-cost-optimization",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-cost-optimization",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-cost-optimization",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2854,7 +2910,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2868,9 +2924,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2879,7 +2935,7 @@
       "name": "gke-golden-path",
       "shape": "skill",
       "source_path": "skills/cloud/gke-golden-path",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-golden-path",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-golden-path",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2910,7 +2966,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2924,9 +2980,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2935,7 +2991,7 @@
       "name": "gke-inference",
       "shape": "skill",
       "source_path": "skills/cloud/gke-inference",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-inference",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-inference",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2966,7 +3022,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -2980,9 +3036,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -2991,7 +3047,7 @@
       "name": "gke-manifest-generation",
       "shape": "skill",
       "source_path": "skills/cloud/gke-manifest-generation",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-manifest-generation",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-manifest-generation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3022,7 +3078,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3036,9 +3092,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3047,7 +3103,7 @@
       "name": "gke-multitenancy",
       "shape": "skill",
       "source_path": "skills/cloud/gke-multitenancy",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-multitenancy",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-multitenancy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3078,7 +3134,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3092,9 +3148,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3103,7 +3159,7 @@
       "name": "gke-networking",
       "shape": "skill",
       "source_path": "skills/cloud/gke-networking",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-networking",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-networking",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3134,7 +3190,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3148,9 +3204,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3159,7 +3215,7 @@
       "name": "gke-observability",
       "shape": "skill",
       "source_path": "skills/cloud/gke-observability",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-observability",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-observability",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3190,7 +3246,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3204,9 +3260,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3215,7 +3271,7 @@
       "name": "gke-platform-security",
       "shape": "skill",
       "source_path": "skills/cloud/gke-platform-security",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-platform-security",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-platform-security",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3246,7 +3302,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3260,9 +3316,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3271,7 +3327,7 @@
       "name": "gke-productionize",
       "shape": "skill",
       "source_path": "skills/cloud/gke-productionize",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-productionize",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-productionize",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3302,7 +3358,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3316,9 +3372,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3327,7 +3383,7 @@
       "name": "gke-reliability",
       "shape": "skill",
       "source_path": "skills/cloud/gke-reliability",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-reliability",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-reliability",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3358,7 +3414,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3372,9 +3428,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3383,7 +3439,7 @@
       "name": "gke-service-networking",
       "shape": "skill",
       "source_path": "skills/cloud/gke-service-networking",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-service-networking",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-service-networking",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3414,7 +3470,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3428,9 +3484,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3439,7 +3495,7 @@
       "name": "gke-storage",
       "shape": "skill",
       "source_path": "skills/cloud/gke-storage",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-storage",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-storage",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3470,7 +3526,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3484,9 +3540,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3495,7 +3551,7 @@
       "name": "gke-tpu-dynamic-slices-monitoring",
       "shape": "skill",
       "source_path": "skills/cloud/gke-tpu-dynamic-slices-monitoring",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-tpu-dynamic-slices-monitoring",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-tpu-dynamic-slices-monitoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3526,7 +3582,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3540,9 +3596,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3551,7 +3607,7 @@
       "name": "gke-tpu-metrics-monitoring",
       "shape": "skill",
       "source_path": "skills/cloud/gke-tpu-metrics-monitoring",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-tpu-metrics-monitoring",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-tpu-metrics-monitoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3582,7 +3638,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3596,9 +3652,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3607,7 +3663,7 @@
       "name": "gke-upgrades",
       "shape": "skill",
       "source_path": "skills/cloud/gke-upgrades",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-upgrades",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-upgrades",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3638,7 +3694,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3652,9 +3708,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3663,7 +3719,7 @@
       "name": "gke-workload-scaling",
       "shape": "skill",
       "source_path": "skills/cloud/gke-workload-scaling",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-workload-scaling",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-workload-scaling",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3694,7 +3750,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3708,9 +3764,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3719,7 +3775,7 @@
       "name": "gke-workload-security",
       "shape": "skill",
       "source_path": "skills/cloud/gke-workload-security",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-workload-security",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-workload-security",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3750,7 +3806,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3764,9 +3820,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3775,7 +3831,7 @@
       "name": "gke-workload-troubleshooting",
       "shape": "skill",
       "source_path": "skills/cloud/gke-workload-troubleshooting",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/gke-workload-troubleshooting",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/gke-workload-troubleshooting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3806,7 +3862,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3820,9 +3876,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3831,7 +3887,7 @@
       "name": "google-ads-api-account-diagnostics",
       "shape": "skill",
       "source_path": "skills/ads/google-ads-api-account-diagnostics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/google-ads-api-account-diagnostics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/google-ads-api-account-diagnostics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3864,7 +3920,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3878,9 +3934,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3889,7 +3945,7 @@
       "name": "google-ads-api-mcp-setup",
       "shape": "skill",
       "source_path": "skills/ads/google-ads-api-mcp-setup",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/google-ads-api-mcp-setup",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/google-ads-api-mcp-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3923,7 +3979,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3937,9 +3993,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -3948,7 +4004,7 @@
       "name": "google-ads-api-quickstart",
       "shape": "skill",
       "source_path": "skills/ads/google-ads-api-quickstart",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/google-ads-api-quickstart",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/google-ads-api-quickstart",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3982,7 +4038,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -3996,9 +4052,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4007,7 +4063,7 @@
       "name": "google-agents-cli-onboarding",
       "shape": "skill",
       "source_path": "skills/cloud/google-agents-cli-onboarding",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-agents-cli-onboarding",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-agents-cli-onboarding",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4038,7 +4094,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4052,9 +4108,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4063,7 +4119,7 @@
       "name": "google-analytics-admin-api-basics",
       "shape": "skill",
       "source_path": "skills/analytics/google-analytics-admin-api-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/analytics/google-analytics-admin-api-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/analytics/google-analytics-admin-api-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4094,7 +4150,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4108,9 +4164,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4119,7 +4175,7 @@
       "name": "google-analytics-data-api-basics",
       "shape": "skill",
       "source_path": "skills/analytics/google-analytics-data-api-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/analytics/google-analytics-data-api-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/analytics/google-analytics-data-api-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4150,7 +4206,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4164,9 +4220,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4175,7 +4231,7 @@
       "name": "google-cloud-filestore-autoscale",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-filestore-autoscale",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-filestore-autoscale",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-filestore-autoscale",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4206,7 +4262,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4220,9 +4276,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4231,7 +4287,7 @@
       "name": "google-cloud-global-frontend-configuration",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-global-frontend-configuration",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-global-frontend-configuration",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-global-frontend-configuration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4262,7 +4318,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4276,9 +4332,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4287,7 +4343,7 @@
       "name": "google-cloud-networking-observability",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-networking-observability",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-networking-observability",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-networking-observability",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4318,7 +4374,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4332,9 +4388,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4343,7 +4399,7 @@
       "name": "google-cloud-recipe-auth",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-recipe-auth",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-recipe-auth",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-recipe-auth",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4374,7 +4430,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4388,9 +4444,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4399,7 +4455,7 @@
       "name": "google-cloud-recipe-foundation-builder",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-recipe-foundation-builder",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-recipe-foundation-builder",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-recipe-foundation-builder",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4430,7 +4486,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4444,9 +4500,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4455,7 +4511,7 @@
       "name": "google-cloud-recipe-onboarding",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-recipe-onboarding",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-recipe-onboarding",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-recipe-onboarding",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4486,7 +4542,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4500,9 +4556,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4511,7 +4567,7 @@
       "name": "google-cloud-slo-alert-configuration",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-slo-alert-configuration",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-slo-alert-configuration",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-slo-alert-configuration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4542,7 +4598,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4556,9 +4612,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4567,7 +4623,7 @@
       "name": "google-cloud-solution-agentic-ai-bidirectional-streaming",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-agentic-ai-bidirectional-streaming",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-agentic-ai-bidirectional-streaming",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-agentic-ai-bidirectional-streaming",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4598,7 +4654,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4612,9 +4668,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4623,7 +4679,7 @@
       "name": "google-cloud-solution-agentic-ai-borderless-data-lakehouse",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-agentic-ai-borderless-data-lakehouse",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-agentic-ai-borderless-data-lakehouse",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-agentic-ai-borderless-data-lakehouse",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4654,7 +4710,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4668,9 +4724,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4679,7 +4735,7 @@
       "name": "google-cloud-solution-agentic-ai-data-science-workflow",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4710,7 +4766,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4724,9 +4780,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4735,7 +4791,7 @@
       "name": "google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4766,7 +4822,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4780,9 +4836,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4791,7 +4847,7 @@
       "name": "google-cloud-solution-architecture",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-architecture",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-architecture",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-architecture",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4822,7 +4878,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4836,9 +4892,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4847,7 +4903,7 @@
       "name": "google-cloud-solution-build-deploy-agents",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-build-deploy-agents",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-build-deploy-agents",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-build-deploy-agents",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4878,7 +4934,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4892,9 +4948,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4903,7 +4959,7 @@
       "name": "google-cloud-solution-guided-gke-ai-migration",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-guided-gke-ai-migration",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-guided-gke-ai-migration",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-guided-gke-ai-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4934,7 +4990,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -4948,9 +5004,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -4959,7 +5015,7 @@
       "name": "google-cloud-solution-n-tier-serverless-web-app",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-n-tier-serverless-web-app",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-n-tier-serverless-web-app",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-n-tier-serverless-web-app",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4990,7 +5046,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5004,9 +5060,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5015,7 +5071,7 @@
       "name": "google-cloud-solution-rag-enterprise-search-gke-sqldb",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-solution-rag-enterprise-search-gke-sqldb",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-solution-rag-enterprise-search-gke-sqldb",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-solution-rag-enterprise-search-gke-sqldb",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5046,7 +5102,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5060,9 +5116,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5071,7 +5127,7 @@
       "name": "google-cloud-storage-basics",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-storage-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-storage-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-storage-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5113,7 +5169,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5127,9 +5183,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5138,7 +5194,7 @@
       "name": "google-cloud-waf-cost-optimization",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-waf-cost-optimization",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-waf-cost-optimization",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-waf-cost-optimization",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5169,7 +5225,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5183,9 +5239,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5194,7 +5250,7 @@
       "name": "google-cloud-waf-operational-excellence",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-waf-operational-excellence",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-waf-operational-excellence",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-waf-operational-excellence",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5225,7 +5281,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5239,9 +5295,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5250,7 +5306,7 @@
       "name": "google-cloud-waf-performance-optimization",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-waf-performance-optimization",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-waf-performance-optimization",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-waf-performance-optimization",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5281,7 +5337,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5295,9 +5351,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5306,7 +5362,7 @@
       "name": "google-cloud-waf-reliability",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-waf-reliability",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-waf-reliability",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-waf-reliability",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5337,7 +5393,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5351,9 +5407,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5362,7 +5418,7 @@
       "name": "google-cloud-waf-security",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-waf-security",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-waf-security",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-waf-security",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5393,7 +5449,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5407,9 +5463,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5418,7 +5474,7 @@
       "name": "google-cloud-waf-sustainability",
       "shape": "skill",
       "source_path": "skills/cloud/google-cloud-waf-sustainability",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/google-cloud-waf-sustainability",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/google-cloud-waf-sustainability",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5449,7 +5505,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5463,9 +5519,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5474,7 +5530,7 @@
       "name": "google-mobile-ads-android-migrate-to-next-gen",
       "shape": "skill",
       "source_path": "skills/ads/google-mobile-ads-android-migrate-to-next-gen",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/google-mobile-ads-android-migrate-to-next-gen",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/google-mobile-ads-android-migrate-to-next-gen",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5506,7 +5562,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5520,9 +5576,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5531,7 +5587,7 @@
       "name": "google-mobile-ads-banner",
       "shape": "skill",
       "source_path": "skills/ads/google-mobile-ads-banner",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/google-mobile-ads-banner",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/google-mobile-ads-banner",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5563,7 +5619,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5577,9 +5633,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5588,7 +5644,7 @@
       "name": "google-mobile-ads-get-started",
       "shape": "skill",
       "source_path": "skills/ads/google-mobile-ads-get-started",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/google-mobile-ads-get-started",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/google-mobile-ads-get-started",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5620,7 +5676,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5634,9 +5690,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5645,21 +5701,21 @@
       "name": "google-mobile-ads-interstitial",
       "shape": "skill",
       "source_path": "skills/ads/google-mobile-ads-interstitial",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/google-mobile-ads-interstitial",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/google-mobile-ads-interstitial",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "google-mobile-ads-interstitial",
-          "description": "Provides instructions for implementing, integrating, or configuring Google Mobile Ads (GMA) SDK interstitial ads in Android and iOS mobile applications. Use this skill when the task involves setting up interstitial ads. Don't use for \"rewarded interstitial\" ads.",
+          "description": "Provides instructions for implementing, integrating, or configuring Google Mobile Ads (GMA) SDK interstitial ads in Android, iOS, or Unity mobile applications. Use when the task involves setting up interstitial ads. Don't use for \"rewarded interstitial\" ads.",
           "metadata": {
-            "version": "1.0.0",
+            "version": "1.1.0",
             "category": "GoogleAds"
           }
         },
         "standard": {
           "name": "google-mobile-ads-interstitial",
-          "description": "Provides instructions for implementing, integrating, or configuring Google Mobile Ads (GMA) SDK interstitial ads in Android and iOS mobile applications. Use this skill when the task involves setting up interstitial ads. Don't use for \"rewarded interstitial\" ads.",
+          "description": "Provides instructions for implementing, integrating, or configuring Google Mobile Ads (GMA) SDK interstitial ads in Android, iOS, or Unity mobile applications. Use when the task involves setting up interstitial ads. Don't use for \"rewarded interstitial\" ads.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -5677,7 +5733,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5691,9 +5747,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5702,7 +5758,7 @@
       "name": "google-mobile-ads-rewarded",
       "shape": "skill",
       "source_path": "skills/ads/google-mobile-ads-rewarded",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/google-mobile-ads-rewarded",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/google-mobile-ads-rewarded",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5734,7 +5790,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5748,24 +5804,24 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
     },
     {
-      "name": "ima-sdk-basics",
+      "name": "ima-dai-sdk",
       "shape": "skill",
-      "source_path": "skills/ads/ima-sdk-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/ads/ima-sdk-basics",
+      "source_path": "skills/ads/ima-dai-sdk",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/ima-dai-sdk",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
-          "name": "ima-sdk-basics",
-          "description": "Use this skill for Interactive Media Ads (IMA) SDK client-side ad insertion when you are requesting video ads client-side into websites, apps, TVs or other platforms with VAST or VMAP. Do not use for Dynamic Ad Insertion (DAI), SSAI, or SGAI (use the `ima-sdk-dai-basics` skill instead).",
+          "name": "ima-dai-sdk",
+          "description": "Integrates the Google Interactive Media Ads (IMA) Dynamic Ad Insertion (DAI) SDK into websites, web apps, mobile apps, or TV apps. Use when: - A video player needs to load and play HLS or DASH streams in web apps, Android apps, iOS apps, tvOS apps, Cast (CAF) receivers, or Roku channels. - The app needs to make use of a Google DAI livestream event asset key, or content source CMS ID, video ID for video on demand. Don't use this skill to load and play a VAST or VMAP URL.",
           "license": "Apache-2.0",
           "metadata": {
             "author": "Google LLC",
@@ -5774,8 +5830,8 @@
           }
         },
         "standard": {
-          "name": "ima-sdk-basics",
-          "description": "Use this skill for Interactive Media Ads (IMA) SDK client-side ad insertion when you are requesting video ads client-side into websites, apps, TVs or other platforms with VAST or VMAP. Do not use for Dynamic Ad Insertion (DAI), SSAI, or SGAI (use the `ima-sdk-dai-basics` skill instead).",
+          "name": "ima-dai-sdk",
+          "description": "Integrates the Google Interactive Media Ads (IMA) Dynamic Ad Insertion (DAI) SDK into websites, web apps, mobile apps, or TV apps. Use when: - A video player needs to load and play HLS or DASH streams in web apps, Android apps, iOS apps, tvOS apps, Cast (CAF) receivers, or Roku channels. - The app needs to make use of a Google DAI livestream event asset key, or content source CMS ID, video ID for video on demand. Don't use this skill to load and play a VAST or VMAP URL.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -5793,7 +5849,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5807,9 +5863,124 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "ima-sdk-client-side",
+      "shape": "skill",
+      "source_path": "skills/ads/ima-sdk-client-side",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/ads/ima-sdk-client-side",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "ima-sdk-client-side",
+          "description": "Supports Interactive Media Ads (IMA) SDK. Use this skill for client-side ad insertion when you are requesting video ads for websites, apps, TVs or other platforms using VAST or VMAP. Do not use for Dynamic Ad Insertion (DAI), SSAI, or SGAI.",
+          "license": "Apache-2.0",
+          "metadata": {
+            "author": "Google LLC",
+            "version": "1.0.2",
+            "category": "GoogleAds"
+          }
+        },
+        "standard": {
+          "name": "ima-sdk-client-side",
+          "description": "Supports Interactive Media Ads (IMA) SDK. Use this skill for client-side ad insertion when you are requesting video ads for websites, apps, TVs or other platforms using VAST or VMAP. Do not use for Dynamic Ad Insertion (DAI), SSAI, or SGAI.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": "Apache-2.0",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 18423,
+          "contributors": 6,
+          "last_commit": "2026-08-14T19:19:17Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "managed-airflow-dag-authoring",
+      "shape": "skill",
+      "source_path": "skills/cloud/managed-airflow-dag-authoring",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/managed-airflow-dag-authoring",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "managed-airflow-dag-authoring",
+          "description": "Provides guidance for authoring Apache Airflow DAGs in Managed Service for Apache Airflow (MSAA; formerly Cloud Composer). Covers environment context discovery, Airflow 2 vs 3 compatibility, authoring best practices, and local/remote validation processes. Use when creating or extending an Airflow DAG. Don't use when authoring Python code unrelated to Airflow DAGs.",
+          "metadata": {
+            "category": "BigDataAndAnalytics"
+          }
+        },
+        "standard": {
+          "name": "managed-airflow-dag-authoring",
+          "description": "Provides guidance for authoring Apache Airflow DAGs in Managed Service for Apache Airflow (MSAA; formerly Cloud Composer). Covers environment context discovery, Airflow 2 vs 3 compatibility, authoring best practices, and local/remote validation processes. Use when creating or extending an Airflow DAG. Don't use when authoring Python code unrelated to Airflow DAGs.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
+        "tags": []
+      },
+      "trust_score": 40,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 18423,
+          "contributors": 6,
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5818,7 +5989,7 @@
       "name": "managed-airflow-migrations",
       "shape": "skill",
       "source_path": "skills/cloud/managed-airflow-migrations",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/managed-airflow-migrations",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/managed-airflow-migrations",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5849,7 +6020,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5863,9 +6034,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5874,7 +6045,7 @@
       "name": "spanner-basics",
       "shape": "skill",
       "source_path": "skills/cloud/spanner-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/spanner-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/spanner-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5905,7 +6076,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5919,9 +6090,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5930,7 +6101,7 @@
       "name": "workload-manager-basics",
       "shape": "skill",
       "source_path": "skills/cloud/workload-manager-basics",
-      "source_url": "https://github.com/google/skills/tree/5e7977d3f08b2e72ff4750ca411da26a033c191e/skills/cloud/workload-manager-basics",
+      "source_url": "https://github.com/google/skills/tree/8f57a0d9839ba9e33aa5367dfeb7ba37598175e3/skills/cloud/workload-manager-basics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5961,7 +6132,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5e7977d3f08b2e72ff4750ca411da26a033c191e",
+        "default_sha": "8f57a0d9839ba9e33aa5367dfeb7ba37598175e3",
         "tags": []
       },
       "trust_score": 40,
@@ -5975,9 +6146,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 17717,
+          "stars": 18423,
           "contributors": 6,
-          "last_commit": "2026-08-11T01:59:50Z",
+          "last_commit": "2026-08-14T19:19:17Z",
           "archived": false
         }
       }
@@ -5991,9 +6162,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "Apache-2.0",
-      "stars": 17717,
+      "stars": 18423,
       "contributors": 6,
-      "last_commit": "2026-08-11T01:59:50Z",
+      "last_commit": "2026-08-14T19:19:17Z",
       "archived": false
     }
   }
