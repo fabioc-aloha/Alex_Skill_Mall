@@ -2,22 +2,22 @@
 
 **Source:** [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)
 **Store trust:** 25/100
-**Signals:** maintenance 15 · adoption 10 · license 0 · 29941 stars · 24 contributors
-**Scanned ref:** `7c180d9044c9`
+**Signals:** maintenance 15 · adoption 10 · license 0 · 30119 stars · 24 contributors
+**Scanned ref:** `b8caa260a420`
 
 ## Plugins (9)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 35 | [`composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/composition-patterns) | skill | - | React composition patterns that scale. Use when refactoring components with boolean prop proliferat… |
-| 35 | [`react-best-practices`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/react-best-practices) | skill | - | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be… |
-| 35 | [`react-native-skills`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/react-native-skills) | skill | - | React Native and Expo best practices for building performant mobile apps. Use when building React N… |
-| 35 | [`react-view-transitions`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/react-view-transitions) | skill | - | Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewT… |
-| 35 | [`vercel-optimize`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/vercel-optimize) | skill | - | Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKi… |
-| 30 | [`deploy-to-vercel`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/deploy-to-vercel) | skill | - | Deploy applications and websites to Vercel. Use when the user requests deployment actions like "dep… |
-| 30 | [`vercel-cli-with-tokens`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/vercel-cli-with-tokens) | skill | - | Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel… |
-| 30 | [`web-design-guidelines`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/web-design-guidelines) | skill | - | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check ac… |
-| 30 | [`writing-guidelines`](https://github.com/vercel-labs/agent-skills/tree/7c180d9044c9ae2b442b567aad4e42a28dd5ed62/skills/writing-guidelines) | skill | - | Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check wri… |
+| 35 | [`composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/composition-patterns) | skill | - | React composition patterns that scale. Use when refactoring components with boolean prop proliferat… |
+| 35 | [`react-best-practices`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/react-best-practices) | skill | - | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be… |
+| 35 | [`react-native-skills`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/react-native-skills) | skill | - | React Native and Expo best practices for building performant mobile apps. Use when building React N… |
+| 35 | [`react-view-transitions`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/react-view-transitions) | skill | - | Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewT… |
+| 35 | [`vercel-optimize`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/vercel-optimize) | skill | - | Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKi… |
+| 30 | [`deploy-to-vercel`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/deploy-to-vercel) | skill | - | Deploy applications and websites to Vercel. Use when the user requests deployment actions like "dep… |
+| 30 | [`vercel-cli-with-tokens`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/vercel-cli-with-tokens) | skill | - | Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel… |
+| 30 | [`web-design-guidelines`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/web-design-guidelines) | skill | - | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check ac… |
+| 30 | [`writing-guidelines`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/writing-guidelines) | skill | - | Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check wri… |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-08-16T01:10:35.129Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-08-17T11:07:42.765Z*
