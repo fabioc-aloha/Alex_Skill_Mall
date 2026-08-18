@@ -7,6 +7,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.2] - 2026-08-18
+
+### Changed
+
+- **Repository presents as an independent plugin.** `v1.4.0` had applied the Alex ACT family repo treatment; this reverses the parts of it that asserted membership. Org Report is its own plugin, distributed through the Alex ACT Mall because that is where the Copilot CLI installs it from. Distribution channel, not membership.
+- **`assets/banner.svg` de-branded.** Removed the `ALEX` wordmark, the `ARTIFICIAL CRITICAL THINKING` tagline, and the embedded brand-mark PNG; rebalanced the remaining title block. This is the documented override path for the generator's brand config, which Org Report had never exercised. File drops from 24,803 to 1,451 bytes.
+- **README relationship section** renamed and rewritten to state independence directly rather than describing Org Report as a first-party constellation plugin.
+
+### Removed
+
+- **Sibling nav strip from the README.** It asserted family membership and its `Manager` link returned HTTP 404 — that repository was retired and deleted.
+
 ## [1.4.1] - 2026-08-05
 
 ### Changed
