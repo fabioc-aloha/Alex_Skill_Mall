@@ -3,13 +3,13 @@
   "provenance": "first-party",
   "delivery": {
     "mode": "source",
-    "adr": "ADR-023",
-    "reason": "Delivered from the origin repository at a release tag, so the Mall keeps no vendored copy that can drift from source.",
+    "adr": "ADR-037",
+    "reason": "Strict Agent Plugins package delivered from the Enterprise origin repository at its immutable release tag.",
     "source": {
       "source": "github",
       "repo": "fabioc-aloha/alex-act-enterprise",
       "ref": "v1.1.0",
-      "path": "packages/copilot"
+      "path": "packages/portable"
     }
   },
   "upstream": {

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "alex-act-enterprise-portable",
+  "version": "0.1.0",
+  "description": "Strict Agent Plugins package for the Alex ACT Enterprise setup skill. Install instead of alex-act-enterprise, not alongside it, because both packages expose setup-enterprise-stack.",
+  "keywords": [
+    "alex-act",
+    "microsoft-ecosystem",
+    "azure",
+    "fabric",
+    "power-bi",
+    "microsoft-365",
+    "config-template",
+    "agent-plugins"
+  ],
+  "author": {
+    "name": "Fabio Correa",
+    "url": "https://github.com/fabioc-aloha"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fabioc-aloha/alex-act-enterprise",
+  "repository": "https://github.com/fabioc-aloha/alex-act-enterprise.git"
+}
