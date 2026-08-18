@@ -714,13 +714,6 @@
       "strict": true
     },
     {
-      "name": "data-preparation",
-      "description": "Data cleaning, profiling, transformation, and quality gates -- prepares raw data for visualization and analysis",
-      "version": "2.0.1",
-      "source": "plugins/data-analytics/data-preparation",
-      "strict": true
-    },
-    {
       "name": "data-quality-monitoring",
       "description": "Data pipeline quality assurance -- anomaly detection, schema drift, null ratio monitoring, freshness checks, and safe-write protection for reliable data engineering",
       "version": "1.0.0",
@@ -739,13 +732,6 @@
       "description": "Schema design, normalization, query optimization, and data modeling patterns",
       "version": "1.0.0",
       "source": "plugins/data-analytics/database-design",
-      "strict": true
-    },
-    {
-      "name": "datasource-connectors",
-      "description": "Ingestion patterns for CSV, JSON, REST API, SQL, Excel, and Parquet -- guides an LLM through loading data from any common source",
-      "version": "2.0.1",
-      "source": "plugins/data-analytics/datasource-connectors",
       "strict": true
     },
     {
@@ -802,13 +788,6 @@
       "description": "Provide sensible defaults with user-overridable configuration -- reduce boilerplate without limiting flexibility",
       "version": "1.0.0",
       "source": "plugins/architecture-patterns/defaults-plus-overrides",
-      "strict": true
-    },
-    {
-      "name": "delivery-ascii-dashboard",
-      "description": "Render data dashboards as pure ASCII art in monospace text -- the cheapest, most portable delivery method. No rendering engine, no SVG, no browser. LLM-native output with predictable character geometry.",
-      "version": "2.0.1",
-      "source": "plugins/data-analytics/delivery-ascii-dashboard",
       "strict": true
     },
     {
@@ -2254,13 +2233,6 @@
       "strict": true
     },
     {
-      "name": "storytelling-requirements",
-      "description": "Guided requirements template for data storytelling projects -- walks users through audience, Big Idea, questions, data sources, and delivery target before any chart is created",
-      "version": "2.0.1",
-      "source": "plugins/data-analytics/storytelling-requirements",
-      "strict": true
-    },
-    {
       "name": "subagent-orchestrator",
       "description": "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.",
       "version": "1.0.0",
@@ -2461,13 +2433,6 @@
       "description": "Visual output that passes static checks can still fail to render:",
       "version": "1.0.0",
       "source": "plugins/code-quality/visual-artifact-qa",
-      "strict": true
-    },
-    {
-      "name": "visual-storytelling",
-      "description": "Turn raw data into visual stories through requirements, ingestion, preparation, narrative orchestration, and ASCII delivery. Requires alex-act-illustrator-plugin for chart selection and graphical delivery.",
-      "version": "2.0.1",
-      "source": "plugins/data-analytics/visual-storytelling",
       "strict": true
     },
     {

@@ -1,6 +1,6 @@
 # Plugin Mall Catalog
 
-Search index across **4060 plugins** in **48 stores**. Plugins are ranked by trust score; first-party Mall-curated entries (🏆) rank highest because they earn the highest signals — provenance (+50 for editorial adaptation) plus maintenance, adoption, license clarity, frontmatter completeness, and README presence.
+Search index across **4055 plugins** in **48 stores**. Plugins are ranked by trust score; first-party Mall-curated entries (🏆) rank highest because they earn the highest signals — provenance (+50 for editorial adaptation) plus maintenance, adoption, license clarity, frontmatter completeness, and README presence.
 
 - See [README.md](../README.md) for the storefront and store rankings.
 - See [categories/](categories/) for per-category browse.
@@ -66,7 +66,7 @@ Search index across **4060 plugins** in **48 stores**. Plugins are ranked by tru
 
 | Trust | Store | Plugins | Provenance |
 | ---: | --- | ---: | --- |
-| 82 | 🏆 [plugin-mall](stores/plugin-mall.md) | 361 | 🏆 first-party |
+| 82 | 🏆 [plugin-mall](stores/plugin-mall.md) | 356 | 🏆 first-party |
 | 35 | [alirezarezvani-claude-skills](stores/alirezarezvani-claude-skills.md) | 38 | third-party |
 | 35 | [antigravity-awesome-skills](stores/antigravity-awesome-skills.md) | 1929 | third-party |
 | 35 | [awesome-copilot](stores/awesome-copilot.md) | 505 | third-party |

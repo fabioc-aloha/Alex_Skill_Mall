@@ -2,7 +2,7 @@
   "schema_version": "3.0",
   "generated_at": "2026-08-18T01:19:26.187Z",
   "store_count": 48,
-  "plugin_count": 4060,
+  "plugin_count": 4055,
   "plugins": [
     {
       "name": "academic-editorial-judgment",
@@ -857,18 +857,6 @@
       "adapted_from": null
     },
     {
-      "name": "data-preparation",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "2.0.1",
-      "description_short": "Data cleaning, profiling, transformation, and quality gates -- prepares raw data for visualization and analysis",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/22f4ed211387d6248d20f311ea9b7594660dcf70/plugins/data-analytics/data-preparation",
-      "provenance": true,
-      "installable": true,
-      "adapted_from": null
-    },
-    {
       "name": "data-quality-monitoring",
       "store": "plugin-mall",
       "shape": "skill",
@@ -900,18 +888,6 @@
       "version": "1.0.0",
       "description_short": "Schema design, normalization, query optimization, and data modeling patterns",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/22f4ed211387d6248d20f311ea9b7594660dcf70/plugins/data-analytics/database-design",
-      "provenance": true,
-      "installable": true,
-      "adapted_from": null
-    },
-    {
-      "name": "datasource-connectors",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "2.0.1",
-      "description_short": "Ingestion patterns for CSV, JSON, REST API, SQL, Excel, and Parquet -- guides an LLM through loading data from any common source",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/22f4ed211387d6248d20f311ea9b7594660dcf70/plugins/data-analytics/datasource-connectors",
       "provenance": true,
       "installable": true,
       "adapted_from": null
@@ -984,18 +960,6 @@
       "version": "1.0.0",
       "description_short": "Provide sensible defaults with user-overridable configuration -- reduce boilerplate without limiting flexibility",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/22f4ed211387d6248d20f311ea9b7594660dcf70/plugins/architecture-patterns/defaults-plus-overrides",
-      "provenance": true,
-      "installable": true,
-      "adapted_from": null
-    },
-    {
-      "name": "delivery-ascii-dashboard",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "2.0.1",
-      "description_short": "Render data dashboards as pure ASCII art in monospace text -- the cheapest, most portable delivery method. No rendering engine, no SVG, no browser. LLM-native …",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/22f4ed211387d6248d20f311ea9b7594660dcf70/plugins/data-analytics/delivery-ascii-dashboard",
       "provenance": true,
       "installable": true,
       "adapted_from": null
@@ -2909,18 +2873,6 @@
       "adapted_from": null
     },
     {
-      "name": "storytelling-requirements",
-      "store": "plugin-mall",
-      "shape": "skill",
-      "trust_score": 95,
-      "version": "2.0.1",
-      "description_short": "Guided requirements template for data storytelling projects -- walks users through audience, Big Idea, questions, data sources, and delivery target before any …",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/22f4ed211387d6248d20f311ea9b7594660dcf70/plugins/data-analytics/storytelling-requirements",
-      "provenance": true,
-      "installable": true,
-      "adapted_from": null
-    },
-    {
       "name": "subagent-orchestrator",
       "store": "plugin-mall",
       "shape": "skill",
@@ -3204,18 +3156,6 @@
       "version": "1.0.0",
       "description_short": "Visual output that passes static checks can still fail to render:",
       "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/22f4ed211387d6248d20f311ea9b7594660dcf70/plugins/code-quality/visual-artifact-qa",
-      "provenance": true,
-      "installable": true,
-      "adapted_from": null
-    },
-    {
-      "name": "visual-storytelling",
-      "store": "plugin-mall",
-      "shape": "mixed",
-      "trust_score": 95,
-      "version": "2.0.1",
-      "description_short": "Turn raw data into visual stories through requirements, ingestion, preparation, narrative orchestration, and ASCII delivery. Requires alex-act-illustrator-plug…",
-      "source_url": "https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/22f4ed211387d6248d20f311ea9b7594660dcf70/plugins/data-analytics/visual-storytelling",
       "provenance": true,
       "installable": true,
       "adapted_from": null
