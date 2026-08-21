@@ -1,0 +1,41 @@
+{
+  "name": "youtube-research",
+  "version": "1.0.0",
+  "description": "Optional GitHub Copilot MCP integration for evidence-first YouTube research, transcript analysis, and source-grounded collateral generation.",
+  "keywords": [
+    "youtube",
+    "mcp",
+    "research",
+    "transcript",
+    "learning",
+    "collateral"
+  ],
+  "category": "media-graphics",
+  "author": {
+    "name": "Fabio Correa",
+    "url": "https://github.com/fabioc-aloha"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fabioc-aloha/youtube-mcp-tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabioc-aloha/youtube-mcp-tools.git"
+  },
+  "mcpServers": {
+    "youtube": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "youtube-mcp-tools@2.0.0"
+      ],
+      "env": {
+        "YOUTUBE_API_KEY": "${env:YOUTUBE_API_KEY}",
+        "YOUTUBE_MCP_DIRECT_PROVIDER": "${env:YOUTUBE_MCP_DIRECT_PROVIDER}",
+        "YOUTUBE_MCP_DIRECT_API_KEY": "${env:YOUTUBE_MCP_DIRECT_API_KEY}",
+        "YOUTUBE_MCP_DIRECT_MODEL": "${env:YOUTUBE_MCP_DIRECT_MODEL}",
+        "YOUTUBE_MCP_DIRECT_BASE_URL": "${env:YOUTUBE_MCP_DIRECT_BASE_URL}"
+      }
+    }
+  }
+}
