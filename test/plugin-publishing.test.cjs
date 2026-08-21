@@ -332,11 +332,11 @@ test('generated storefront advertises the current Alex ACT constellation and can
     assert.match(content, /alex-act-document-tools@alex-mall/);
     assert.match(content, /alex-act-enterprise@alex-mall/);
     assert.match(content, /alex-act-ai-operations@alex-mall/);
-    assert.match(content, /`4\.0\.0`/);
+    assert.match(content, /`4\.0\.1`/);
     assert.match(content, /`2\.5\.1`/);
     assert.match(content, /`1\.1\.1`/);
     assert.match(content, /`0\.2\.1`/);
-    assert.match(content, /Alex_ACT_Core\/tree\/v4\.0\.0/);
+    assert.match(content, /Alex_ACT_Core\/tree\/v4\.0\.1/);
     assert.match(content, /Alex_ACT_Illustrator_Plugin\/tree\/v2\.5\.1/);
     assert.match(content, /Alex_ACT_Document_Tools\/tree\/v1\.1\.1/);
     assert.match(content, /alex-act-enterprise\/tree\/v1\.1\.1\/packages\/copilot/);
