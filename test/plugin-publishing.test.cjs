@@ -319,16 +319,28 @@ test('contributor PR workflow validates without auto-merging', () => {
   assert.match(scanWorkflow, /gh pr merge[^\n]+--auto/);
 });
 
-test('generated storefront advertises canonical admin and contributor flows', () => {
+test('generated storefront advertises the current Alex ACT constellation and canonical admin flows', () => {
   const renderer = fs.readFileSync(path.join(ROOT, 'scripts', 'render-catalog.cjs'), 'utf8');
   const storefront = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
   for (const content of [renderer, storefront]) {
     assert.match(content, /Maintainer operations/);
     assert.match(content, /Publish a plugin/);
-    assert.match(content, /Start with Alex ACT Core/);
+    assert.match(content, /Build an Alex ACT setup/);
+    assert.match(content, /Published version/);
     assert.match(content, /alex-act-core@alex-mall/);
     assert.match(content, /alex-act-illustrator-plugin@alex-mall/);
+    assert.match(content, /alex-act-document-tools@alex-mall/);
     assert.match(content, /alex-act-enterprise@alex-mall/);
+    assert.match(content, /alex-act-ai-operations@alex-mall/);
+    assert.match(content, /`4\.0\.0`/);
+    assert.match(content, /`2\.4\.0`/);
+    assert.match(content, /`1\.1\.1`/);
+    assert.match(content, /`0\.2\.1`/);
+    assert.match(content, /Alex_ACT_Core\/tree\/v4\.0\.0/);
+    assert.match(content, /Alex_ACT_Illustrator_Plugin\/tree\/v2\.4\.0/);
+    assert.match(content, /Alex_ACT_Document_Tools\/tree\/v1\.1\.1/);
+    assert.match(content, /alex-act-enterprise\/tree\/v1\.1\.1\/packages\/copilot/);
+    assert.match(content, /Alex_ACT_AI_Operations\/tree\/v0\.2\.1/);
     assert.match(content, /\/alex-act-core bootstrap-core/);
     assert.doesNotMatch(content, /alex-act-manager|Alex_ACT_Manager/);
     assert.match(content, /github\.copilot\.chat\.skillTool\.enabled/);
