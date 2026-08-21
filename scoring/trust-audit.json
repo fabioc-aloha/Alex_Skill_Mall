@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-18T23:42:41.436Z",
+  "generated_at": "2026-08-21T03:27:25.927Z",
   "total_stores": 48,
-  "total_plugins": 4054,
+  "total_plugins": 4055,
   "score_distribution": {
     "0-19": 14,
     "20-39": 598,
     "40-59": 3087,
     "60-79": 0,
-    "80-100": 355
+    "80-100": 356
   },
   "stores_by_score": [
     {
       "store": "plugin-mall",
       "store_score": 82,
-      "plugin_count": 355,
+      "plugin_count": 356,
       "min_plugin_score": 90,
       "max_plugin_score": 95,
       "provenance": true,
@@ -639,25 +639,6 @@
       }
     },
     {
-      "store": "copilot-agents-dojo",
-      "store_score": 30,
-      "plugin_count": 28,
-      "min_plugin_score": 35,
-      "max_plugin_score": 35,
-      "provenance": false,
-      "signals": {
-        "provenance": 0,
-        "maintenance": 15,
-        "adoption": 5,
-        "license": 10,
-        "license_name": "MIT",
-        "stars": 51,
-        "contributors": 3,
-        "last_commit": "2026-07-20T12:25:24Z",
-        "archived": false
-      }
-    },
-    {
       "store": "mongodb-agent-skills",
       "store_score": 30,
       "plugin_count": 11,
@@ -787,6 +768,25 @@
         "stars": 40,
         "contributors": 2,
         "last_commit": "2026-07-31T09:42:46Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "copilot-agents-dojo",
+      "store_score": 27,
+      "plugin_count": 28,
+      "min_plugin_score": 32,
+      "max_plugin_score": 32,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 5,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 51,
+        "contributors": 3,
+        "last_commit": "2026-07-20T12:25:24Z",
         "archived": false
       }
     },

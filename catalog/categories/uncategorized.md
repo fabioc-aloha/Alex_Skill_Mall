@@ -3180,13 +3180,10 @@
 | 35 | [`api-testing-observability`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/api-testing-observability) | wshobson-agents | mixed |  |
 | 35 | [`application-performance`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/application-performance) | wshobson-agents | mixed |  |
 | 35 | [`arm-cortex-microcontrollers`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/arm-cortex-microcontrollers) | wshobson-agents | agent |  |
-| 35 | [`autonomous-bug-fix`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/autonomous-bug-fix) | copilot-agents-dojo | skill | Reproduces, diagnoses, fixes, and verifies bugs unaided. |
 | 35 | [`backend-api-security`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/backend-api-security) | wshobson-agents | agent |  |
 | 35 | [`backend-development`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/backend-development) | wshobson-agents | mixed |  |
-| 35 | [`behavioral-foundation`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/behavioral-foundation) | copilot-agents-dojo | skill | Surfaces the dojo's non-negotiable prime directives. |
 | 35 | [`block-no-verify`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/block-no-verify) | wshobson-agents | mixed |  |
 | 35 | [`blockchain-web3`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/blockchain-web3) | wshobson-agents | mixed |  |
-| 35 | [`brainstorming`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/brainstorming) | copilot-agents-dojo | skill | Refines rough ideas into approved designs before code. |
 | 35 | [`business-analytics`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/business-analytics) | wshobson-agents | mixed |  |
 | 35 | [`business-growth`](https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/business-growth) | alirezarezvani-claude-skills | skill |  |
 | 35 | [`c4-architecture`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/c4-architecture) | wshobson-agents | mixed |  |
@@ -3195,9 +3192,7 @@
 | 35 | [`cloud-infrastructure`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/cloud-infrastructure) | wshobson-agents | mixed |  |
 | 35 | [`code-documentation`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/code-documentation) | wshobson-agents | mixed |  |
 | 35 | [`code-refactoring`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/code-refactoring) | wshobson-agents | mixed |  |
-| 35 | [`code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/code-review) | copilot-agents-dojo | skill | Reviews diffs by severity to produce actionable feedback. |
 | 35 | [`codebase-cleanup`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/codebase-cleanup) | wshobson-agents | mixed |  |
-| 35 | [`codebase-onboarding`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/codebase-onboarding) | copilot-agents-dojo | skill | Maps an unfamiliar repo before touching its code. |
 | 35 | [`composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/composition-patterns) | vercel-agent-skills | skill | React composition patterns that scale. Use when refactoring components with boo… |
 | 35 | [`comprehensive-review`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/comprehensive-review) | wshobson-agents | mixed |  |
 | 35 | [`content-marketing`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/content-marketing) | wshobson-agents | agent |  |
@@ -3208,32 +3203,24 @@
 | 35 | [`database-cloud-optimization`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/database-cloud-optimization) | wshobson-agents | mixed |  |
 | 35 | [`database-design`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/database-design) | wshobson-agents | mixed |  |
 | 35 | [`database-migrations`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/database-migrations) | wshobson-agents | mixed |  |
-| 35 | [`debugging`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/debugging) | copilot-agents-dojo | skill | Systematic root-cause investigation for hard bugs. |
 | 35 | [`debugging-toolkit`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/debugging-toolkit) | wshobson-agents | mixed |  |
-| 35 | [`demand-elegance`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/demand-elegance) | copilot-agents-dojo | skill | Challenges hacky fixes on non-trivial changes. |
 | 35 | [`dependency-management`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/dependency-management) | wshobson-agents | mixed |  |
 | 35 | [`deployment-strategies`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/deployment-strategies) | wshobson-agents | agent |  |
 | 35 | [`deployment-validation`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/deployment-validation) | wshobson-agents | mixed |  |
-| 35 | [`derive-nfr-from-driver`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/derive-nfr-from-driver) | copilot-agents-dojo | skill | Derives measurable NFRs from a parent business driver. |
-| 35 | [`derive-security-from-risk`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/derive-security-from-risk) | copilot-agents-dojo | skill | Derives security requirements from a named threat. |
 | 35 | [`developer-essentials`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/developer-essentials) | wshobson-agents | mixed |  |
 | 35 | [`dgx-spark-ops`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/dgx-spark-ops) | wshobson-agents | mixed |  |
-| 35 | [`dispatching-parallel-agents`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/dispatching-parallel-agents) | copilot-agents-dojo | skill | Runs independent subtasks concurrently via sub-agents. |
 | 35 | [`distributed-debugging`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/distributed-debugging) | wshobson-agents | mixed |  |
 | 35 | [`docs`](https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/docs) | alirezarezvani-claude-skills | mixed |  |
 | 35 | [`documentation-generation`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/documentation-generation) | wshobson-agents | mixed |  |
 | 35 | [`documentation-standards`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/documentation-standards) | wshobson-agents | skill |  |
-| 35 | [`durable-work`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/durable-work) | copilot-agents-dojo | skill | Picks the board over sub-agents for cross-turn work. |
 | 35 | [`engineering`](https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/engineering) | alirezarezvani-claude-skills | skill |  |
 | 35 | [`error-debugging`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/error-debugging) | wshobson-agents | mixed |  |
 | 35 | [`error-diagnostics`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/error-diagnostics) | wshobson-agents | mixed |  |
-| 35 | [`executing-plans`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/executing-plans) | copilot-agents-dojo | skill | Executes approved plans one task at a time, verified. |
 | 35 | [`feedoracle-compliance`](https://github.com/davepoon/buildwithclaude/tree/a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d/plugins/feedoracle-compliance) | buildwithclaude | mixed |  |
 | 35 | [`fetch`](https://github.com/modelcontextprotocol/servers/tree/76d64c822f5125032f89eb71dbdb94e42b434821/src/fetch) | mcp-servers | unknown | A Model Context Protocol server that provides web content fetching capabilities… |
 | 35 | [`file-conversion`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/file-conversion) | wshobson-agents | skill |  |
 | 35 | [`filesystem`](https://github.com/modelcontextprotocol/servers/tree/76d64c822f5125032f89eb71dbdb94e42b434821/src/filesystem) | mcp-servers | unknown | Node.js server implementing Model Context Protocol (MCP) for filesystem operati… |
 | 35 | [`finance`](https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/finance) | alirezarezvani-claude-skills | skill |  |
-| 35 | [`finishing-a-development-branch`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/finishing-a-development-branch) | copilot-agents-dojo | skill | Verifies, summarises, and closes a development branch. |
 | 35 | [`framework-migration`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/framework-migration) | wshobson-agents | mixed |  |
 | 35 | [`frontend-mobile-development`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/frontend-mobile-development) | wshobson-agents | mixed |  |
 | 35 | [`frontend-mobile-security`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/frontend-mobile-security) | wshobson-agents | mixed |  |
@@ -3307,8 +3294,6 @@
 | 35 | [`origin`](https://github.com/davepoon/buildwithclaude/tree/a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d/plugins/origin) | buildwithclaude | mixed |  |
 | 35 | [`payment-processing`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/payment-processing) | wshobson-agents | mixed |  |
 | 35 | [`performance-testing-review`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/performance-testing-review) | wshobson-agents | mixed |  |
-| 35 | [`plan-before-code`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/plan-before-code) | copilot-agents-dojo | skill | Plans multi-step work before writing code. |
-| 35 | [`pr-workflow`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/pr-workflow) | copilot-agents-dojo | skill | Prepares branches and PRs for clean, reviewable merges. |
 | 35 | [`public-plugin-builder`](https://github.com/davepoon/buildwithclaude/tree/a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d/plugins/public-plugin-builder) | buildwithclaude | skill |  |
 | 35 | [`python-development`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/python-development) | wshobson-agents | mixed |  |
 | 35 | [`quantitative-trading`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/quantitative-trading) | wshobson-agents | mixed |  |
@@ -3316,18 +3301,11 @@
 | 35 | [`react-best-practices`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/react-best-practices) | vercel-agent-skills | skill | React and Next.js performance optimization guidelines from Vercel Engineering. … |
 | 35 | [`react-native-skills`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/react-native-skills) | vercel-agent-skills | skill | React Native and Expo best practices for building performant mobile apps. Use w… |
 | 35 | [`react-view-transitions`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/react-view-transitions) | vercel-agent-skills | skill | Guide for implementing smooth, native-feeling animations using React's View Tra… |
-| 35 | [`receiving-code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/receiving-code-review) | copilot-agents-dojo | skill | Processes review feedback until the change is approved. |
-| 35 | [`refactoring`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/refactoring) | copilot-agents-dojo | skill | Safe, test-backed code restructuring in small steps. |
-| 35 | [`requesting-code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/requesting-code-review) | copilot-agents-dojo | skill | Self-reviews work against the plan before sign-off. |
-| 35 | [`requirements-elicitation`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/requirements-elicitation) | copilot-agents-dojo | skill | Turns vague intent into testable requirements. |
 | 35 | [`research-ops`](https://github.com/alirezarezvani/claude-skills/tree/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/research-ops) | alirezarezvani-claude-skills | mixed |  |
 | 35 | [`reverse-engineering`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/reverse-engineering) | wshobson-agents | mixed |  |
 | 35 | [`review-skill`](https://github.com/mongodb/agent-skills/tree/b4ea8150a020b9babaddc6c271c6dc177c06a83f/tools/review-skill) | mongodb-agent-skills | skill | Review a proposed Agent Skill for structural validity and content quality befor… |
-| 35 | [`safety-guardrails`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/safety-guardrails) | copilot-agents-dojo | skill | Flags risky shell commands and unsafe tree ops. |
-| 35 | [`security-audit`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/security-audit) | copilot-agents-dojo | skill | Detects high-confidence security risks in code. |
 | 35 | [`security-compliance`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/security-compliance) | wshobson-agents | mixed |  |
 | 35 | [`security-scanning`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/security-scanning) | wshobson-agents | mixed |  |
-| 35 | [`self-improvement`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/self-improvement) | copilot-agents-dojo | skill | Captures lessons and promotes recurring patterns. |
 | 35 | [`seo-analysis-monitoring`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/seo-analysis-monitoring) | wshobson-agents | agent |  |
 | 35 | [`seo-content-creation`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/seo-content-creation) | wshobson-agents | agent |  |
 | 35 | [`seo-technical-optimization`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/seo-technical-optimization) | wshobson-agents | agent |  |
@@ -3360,21 +3338,15 @@
 | 35 | [`ss-verify`](https://github.com/bitjaru/styleseed/tree/2c4cd2453f08af023658d99d65a5de0d5de06b8b/engine/.claude/skills/ss-verify) | styleseed | skill | The VISUAL gate — render a UI or visual artifact through its surface adapter, i… |
 | 35 | [`startup-superpowers`](https://github.com/davepoon/buildwithclaude/tree/a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d/plugins/startup-superpowers) | buildwithclaude | mixed |  |
 | 35 | [`styleseed`](https://github.com/bitjaru/styleseed/tree/2c4cd2453f08af023658d99d65a5de0d5de06b8b/engine/.claude/skills/styleseed) | styleseed | skill | Route a StyleSeed request to exactly one first workflow after resolving the cur… |
-| 35 | [`subagent-strategy`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/subagent-strategy) | copilot-agents-dojo | skill | Delegates research and parallel work to sub-agents. |
 | 35 | [`systems-programming`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/systems-programming) | wshobson-agents | mixed |  |
 | 35 | [`tdd-workflows`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/tdd-workflows) | wshobson-agents | mixed |  |
 | 35 | [`team-collaboration`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/team-collaboration) | wshobson-agents | mixed |  |
-| 35 | [`test-writing`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/test-writing) | copilot-agents-dojo | skill | Writes meaningful tests that actually catch bugs. |
 | 35 | [`tests`](https://github.com/github/spec-kit/tree/bf88c9f9a82fa370c7a7257aa2b3cf10b457b65c/tests) | spec-kit | hook |  |
 | 35 | [`time`](https://github.com/modelcontextprotocol/servers/tree/76d64c822f5125032f89eb71dbdb94e42b434821/src/time) | mcp-servers | unknown | A Model Context Protocol server that provides time and timezone conversion capa… |
-| 35 | [`traceability-gate`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/traceability-gate) | copilot-agents-dojo | skill | Enforces parent-link lineage across requirement layers. |
 | 35 | [`travel-agent-skill`](https://github.com/davepoon/buildwithclaude/tree/a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d/plugins/travel-agent-skill) | buildwithclaude | skill |  |
 | 35 | [`tutorials`](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/ebe6b2b12b12df50fb10a446530554a1dd714003/tutorials) | claude-code-plugins-plus-skills | skill |  |
 | 35 | [`unit-testing`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/unit-testing) | wshobson-agents | mixed |  |
-| 35 | [`using-git-worktrees`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/using-git-worktrees) | copilot-agents-dojo | skill | Isolates each task in its own git worktree off main. |
-| 35 | [`using-superpowers`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/using-superpowers) | copilot-agents-dojo | skill | Activates the dojo framework at the start of a session. |
 | 35 | [`vercel-optimize`](https://github.com/vercel-labs/agent-skills/tree/b8caa260a420a73042e35521de4b5c8baf6446cc/skills/vercel-optimize) | vercel-agent-skills | skill | Use for Vercel cost and performance optimization on deployed projects, especial… |
-| 35 | [`verify-before-done`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/verify-before-done) | copilot-agents-dojo | skill | Proves work with tests, diffs, and logs before sign-off. |
 | 35 | [`vulnetix`](https://github.com/davepoon/buildwithclaude/tree/a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d/plugins/vulnetix) | buildwithclaude | skill |  |
 | 35 | [`web-scripting`](https://github.com/wshobson/agents/tree/d6837ae274c2cd817acad3fb98f193a4390a4c3e/plugins/web-scripting) | wshobson-agents | agent |  |
 | 35 | [`youtube-full`](https://github.com/davepoon/buildwithclaude/tree/a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d/plugins/youtube-full) | buildwithclaude | skill |  |
@@ -3619,9 +3591,37 @@
 | 34 | [`typescript-advanced`](https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/skills/typescript-advanced) | awesome-claude-code-toolkit | skill | Advanced TypeScript patterns including generics, conditional types, mapped type… |
 | 34 | [`websocket-realtime`](https://github.com/rohitg00/awesome-claude-code-toolkit/tree/ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9/skills/websocket-realtime) | awesome-claude-code-toolkit | skill | Real-time communication patterns with WebSocket, Socket.io, Server-Sent Events,… |
 | 33 | [`everything`](https://github.com/modelcontextprotocol/servers/tree/76d64c822f5125032f89eb71dbdb94e42b434821/src/everything) | mcp-servers | prompt | **[Architecture](docs/architecture.md) |
+| 32 | [`autonomous-bug-fix`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/autonomous-bug-fix) | copilot-agents-dojo | skill | Reproduces, diagnoses, fixes, and verifies bugs unaided. |
+| 32 | [`behavioral-foundation`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/behavioral-foundation) | copilot-agents-dojo | skill | Surfaces the dojo's non-negotiable prime directives. |
+| 32 | [`brainstorming`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/brainstorming) | copilot-agents-dojo | skill | Refines rough ideas into approved designs before code. |
+| 32 | [`code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/code-review) | copilot-agents-dojo | skill | Reviews diffs by severity to produce actionable feedback. |
+| 32 | [`codebase-onboarding`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/codebase-onboarding) | copilot-agents-dojo | skill | Maps an unfamiliar repo before touching its code. |
+| 32 | [`debugging`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/debugging) | copilot-agents-dojo | skill | Systematic root-cause investigation for hard bugs. |
+| 32 | [`demand-elegance`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/demand-elegance) | copilot-agents-dojo | skill | Challenges hacky fixes on non-trivial changes. |
+| 32 | [`derive-nfr-from-driver`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/derive-nfr-from-driver) | copilot-agents-dojo | skill | Derives measurable NFRs from a parent business driver. |
+| 32 | [`derive-security-from-risk`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/derive-security-from-risk) | copilot-agents-dojo | skill | Derives security requirements from a named threat. |
+| 32 | [`dispatching-parallel-agents`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/dispatching-parallel-agents) | copilot-agents-dojo | skill | Runs independent subtasks concurrently via sub-agents. |
+| 32 | [`durable-work`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/durable-work) | copilot-agents-dojo | skill | Picks the board over sub-agents for cross-turn work. |
 | 32 | [`evals`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/evals) | elevenlabs-skills | agent |  |
+| 32 | [`executing-plans`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/executing-plans) | copilot-agents-dojo | skill | Executes approved plans one task at a time, verified. |
 | 32 | [`fabric-skills`](https://github.com/microsoft/skills-for-fabric/tree/ac156d284ab8e51f121af3f42303ea79c88cdab5/plugins/fabric-skills) | microsoft-fabric-skills | mixed |  |
+| 32 | [`finishing-a-development-branch`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/finishing-a-development-branch) | copilot-agents-dojo | skill | Verifies, summarises, and closes a development branch. |
+| 32 | [`plan-before-code`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/plan-before-code) | copilot-agents-dojo | skill | Plans multi-step work before writing code. |
 | 32 | [`powerbi-authoring`](https://github.com/microsoft/skills-for-fabric/tree/ac156d284ab8e51f121af3f42303ea79c88cdab5/plugins/powerbi-authoring) | microsoft-fabric-skills | mixed |  |
+| 32 | [`pr-workflow`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/pr-workflow) | copilot-agents-dojo | skill | Prepares branches and PRs for clean, reviewable merges. |
+| 32 | [`receiving-code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/receiving-code-review) | copilot-agents-dojo | skill | Processes review feedback until the change is approved. |
+| 32 | [`refactoring`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/refactoring) | copilot-agents-dojo | skill | Safe, test-backed code restructuring in small steps. |
+| 32 | [`requesting-code-review`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/requesting-code-review) | copilot-agents-dojo | skill | Self-reviews work against the plan before sign-off. |
+| 32 | [`requirements-elicitation`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/requirements-elicitation) | copilot-agents-dojo | skill | Turns vague intent into testable requirements. |
+| 32 | [`safety-guardrails`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/safety-guardrails) | copilot-agents-dojo | skill | Flags risky shell commands and unsafe tree ops. |
+| 32 | [`security-audit`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/security-audit) | copilot-agents-dojo | skill | Detects high-confidence security risks in code. |
+| 32 | [`self-improvement`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/self-improvement) | copilot-agents-dojo | skill | Captures lessons and promotes recurring patterns. |
+| 32 | [`subagent-strategy`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/subagent-strategy) | copilot-agents-dojo | skill | Delegates research and parallel work to sub-agents. |
+| 32 | [`test-writing`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/test-writing) | copilot-agents-dojo | skill | Writes meaningful tests that actually catch bugs. |
+| 32 | [`traceability-gate`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/traceability-gate) | copilot-agents-dojo | skill | Enforces parent-link lineage across requirement layers. |
+| 32 | [`using-git-worktrees`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/using-git-worktrees) | copilot-agents-dojo | skill | Isolates each task in its own git worktree off main. |
+| 32 | [`using-superpowers`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/using-superpowers) | copilot-agents-dojo | skill | Activates the dojo framework at the start of a session. |
+| 32 | [`verify-before-done`](https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/verify-before-done) | copilot-agents-dojo | skill | Proves work with tests, diffs, and logs before sign-off. |
 | 30 | [`algorithmic-art`](https://github.com/anthropics/skills/tree/f6656c1256d5a8adfa37db9110046ef20bac644c/skills/algorithmic-art) | claude-skills | skill | Creating algorithmic art using p5.js with seeded randomness and interactive par… |
 | 30 | [`brand-guidelines`](https://github.com/anthropics/skills/tree/f6656c1256d5a8adfa37db9110046ef20bac644c/skills/brand-guidelines) | claude-skills | skill | Applies Anthropic's official brand colors and typography to any sort of artifac… |
 | 30 | [`canvas-design`](https://github.com/anthropics/skills/tree/f6656c1256d5a8adfa37db9110046ef20bac644c/skills/canvas-design) | claude-skills | skill | Create beautiful visual art in .png and .pdf documents using design philosophy.… |
@@ -3675,4 +3675,4 @@
 | 13 | [`verification-loop`](https://github.com/WorldFlowAI/everything-claude-code/tree/432485ba6b92c14fb357276a98957f348bcff9ee/skills/verification-loop) | everything-claude-code | skill |  |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-08-18T23:42:41.436Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-08-21T03:27:25.927Z*
