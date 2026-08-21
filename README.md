@@ -57,7 +57,7 @@ Core is the self-activating baseline every Alex ACT installation needs. Native C
 | What you want to do | Plugin | Published version | What it adds |
 | --- | --- | --- | --- |
 | Give Copilot a reliable baseline across projects | [`alex-act-core`](https://github.com/fabioc-aloha/Alex_ACT_Core/tree/v4.0.0) | `4.0.0` | Critical thinking, planning, security and privacy guidance, project bootstrap, and plugin management |
-| Create charts, print figures, banners, AI images, or browsable documentation | [`alex-act-illustrator-plugin`](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin/tree/v2.4.0) | `2.4.0` | Visual framing, authoring, generation, and verification workflows |
+| Create charts, print figures, banners, AI images, or browsable documentation | [`alex-act-illustrator-plugin`](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin/tree/v2.5.1) | `2.5.1` | Visual framing, authoring, generation, and verification workflows |
 | Convert Markdown, Word, HTML, and email deliverables | [`alex-act-document-tools`](https://github.com/fabioc-aloha/Alex_ACT_Document_Tools/tree/v1.1.1) | `1.1.1` | Portable document conversion and polished rich-email workflows |
 | Set up public Microsoft tools for a project | [`alex-act-enterprise`](https://github.com/fabioc-aloha/alex-act-enterprise/tree/v1.1.1/packages/copilot) | `1.1.1` | Guided setup for Azure, Fabric, Power BI, and Microsoft 365 Agents Toolkit |
 | Plan and govern an optional provider workflow | [`alex-act-ai-operations`](https://github.com/fabioc-aloha/Alex_ACT_AI_Operations/tree/v0.2.1) | `0.2.1` | Provider-neutral discovery, explicit consent, and execution evidence for Foundry, Hugging Face, and ElevenLabs |
