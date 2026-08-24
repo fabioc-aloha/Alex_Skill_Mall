@@ -2,24 +2,24 @@
 
 **Source:** [elevenlabs/skills](https://github.com/elevenlabs/skills)
 **Store trust:** 32/100
-**Signals:** maintenance 15 · adoption 7 · license 10 (MIT) · 417 stars · 7 contributors
-**Scanned ref:** `1d8a5c6cc1ed`
+**Signals:** maintenance 15 · adoption 7 · license 10 (MIT) · 425 stars · 7 contributors
+**Scanned ref:** `c0ea1cec19fa`
 
 ## Plugins (11)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 37 | [`agents`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/agents) | skill | - | Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, i… |
-| 37 | [`dubbing`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/dubbing) | skill | - | Dub audio and video into other languages using the ElevenLabs Dubbing API (dubbing_v2), preserving … |
-| 37 | [`music`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/music) | skill | - | Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics… |
-| 37 | [`setup-api-key`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/setup-api-key) | skill | - | Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user n… |
-| 37 | [`sound-effects`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/sound-effects) | skill | - | Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, ge… |
-| 37 | [`speech-engine`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/speech-engine) | skill | - | Add real-time voice conversations to a custom agent runtime with ElevenLabs Speech Engine. Use when… |
-| 37 | [`speech-to-text`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/speech-to-text) | skill | - | Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, gener… |
-| 37 | [`text-to-speech`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/text-to-speech) | skill | - | Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voi… |
-| 37 | [`voice-changer`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/voice-changer) | skill | - | Transform the voice in an audio recording into a different target voice while preserving emotion, t… |
-| 37 | [`voice-isolator`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/voice-isolator) | skill | - | Remove background noise and isolate vocals/speech from audio using ElevenLabs Voice Isolator (audio… |
-| 32 | [`evals`](https://github.com/elevenlabs/skills/tree/1d8a5c6cc1edf0b22df34620b9d5a1324a8d9f0a/evals) | agent | - |  |
+| 37 | [`agents`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/agents) | skill | - | Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, i… |
+| 37 | [`dubbing`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/dubbing) | skill | - | Dub audio and video into other languages using the ElevenLabs Dubbing API (dubbing_v2), preserving … |
+| 37 | [`music`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/music) | skill | - | Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics… |
+| 37 | [`setup-api-key`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/setup-api-key) | skill | - | Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user n… |
+| 37 | [`sound-effects`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/sound-effects) | skill | - | Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, ge… |
+| 37 | [`speech-engine`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/speech-engine) | skill | - | Add real-time voice conversations to a custom agent runtime with ElevenLabs Speech Engine. Use when… |
+| 37 | [`speech-to-text`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/speech-to-text) | skill | - | Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, gener… |
+| 37 | [`text-to-speech`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/text-to-speech) | skill | - | Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voi… |
+| 37 | [`voice-changer`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/voice-changer) | skill | - | Transform the voice in an audio recording into a different target voice while preserving emotion, t… |
+| 37 | [`voice-isolator`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/voice-isolator) | skill | - | Remove background noise and isolate vocals/speech from audio using ElevenLabs Voice Isolator (audio… |
+| 32 | [`evals`](https://github.com/elevenlabs/skills/tree/c0ea1cec19faa74bcda67822e9795bb5107c69b6/evals) | agent | - |  |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-08-21T03:27:25.927Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-08-24T11:10:51.234Z*
