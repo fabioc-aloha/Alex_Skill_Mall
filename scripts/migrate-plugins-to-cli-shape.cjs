@@ -473,13 +473,13 @@ function convertPlugin(repoRoot, plugin, dryRun) {
     if (dryRun) return { status: 'planned', name: plugin.name };
 
     const backup = `${plugin.path}.migration-backup-${process.pid}`;
-    fs.renameSync(plugin.path, backup);
+    moveContent(plugin.path, backup);
     try {
       copyDirectory(workDir, plugin.path);
       fs.rmSync(backup, { recursive: true, force: true });
     } catch (error) {
       fs.rmSync(plugin.path, { recursive: true, force: true });
-      fs.renameSync(backup, plugin.path);
+      moveContent(backup, plugin.path);
       throw error;
     }
     return { status: 'migrated', name: plugin.name };

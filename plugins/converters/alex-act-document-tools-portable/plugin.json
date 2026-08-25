@@ -1,0 +1,23 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "alex-act-document-tools-portable",
+    "version": "0.1.0",
+    "description": "Strict Agent Plugins package for the seven Alex ACT Document Tools skills and shared runtime. Install instead of alex-act-document-tools, not alongside it, because both packages expose the same skill names.",
+    "keywords": [
+        "document-conversion",
+        "markdown",
+        "docx",
+        "html",
+        "email",
+        "plain-text",
+        "pandoc",
+        "mermaid"
+    ],
+    "author": {
+        "name": "Fabio Correa",
+        "url": "https://github.com/fabioc-aloha"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools",
+    "repository": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools.git"
+}
