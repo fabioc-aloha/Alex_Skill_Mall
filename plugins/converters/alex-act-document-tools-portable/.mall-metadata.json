@@ -1,20 +1,20 @@
 {
-  "schema": "mall-plugin-metadata/2.0",
-  "provenance": "first-party",
-  "delivery": {
-    "mode": "source",
-    "adr": "ADR-037",
-    "reason": "Strict Agent Plugins package delivered from the Document Tools origin repository at its immutable release tag.",
-    "source": {
-      "source": "github",
-      "repo": "fabioc-aloha/Alex_ACT_Document_Tools",
-      "ref": "v1.2.0",
-      "path": "packages/portable"
+    "schema": "mall-plugin-metadata/2.0",
+    "provenance": "first-party",
+    "delivery": {
+        "mode": "source",
+        "adr": "ADR-037",
+        "reason": "Strict Agent Plugins package delivered from the Document Tools origin repository at its immutable release tag.",
+        "source": {
+            "source": "github",
+            "repo": "fabioc-aloha/Alex_ACT_Document_Tools",
+            "ref": "v1.2.0",
+            "path": "packages/portable"
+        }
+    },
+    "upstream": {
+        "repo": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools",
+        "license": "MIT",
+        "ref": "v1.2.0"
     }
-  },
-  "upstream": {
-    "repo": "https://github.com/fabioc-aloha/Alex_ACT_Document_Tools",
-    "license": "MIT",
-    "ref": "v1.2.0"
-  }
 }

@@ -148,33 +148,46 @@
     {
       "name": "alex-act-core",
       "description": "The self-activating Alex ACT baseline runtime plugin. Installs 34 reusable framework skills and 9 slash-command prompts covering instruction activation, project bootstrap, epistemic discipline, continuity semantics, security and privacy, tooling awareness, project-capability authoring, and engineering craft. Core owns its 16 runtime instructions, receipt, and project-local scaffold. Native Copilot CLI owns plugin lifecycle; native host memory and repository files provide continuity; Document Tools owns conversion.",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/Alex_ACT_Core",
-        "ref": "v4.0.1"
+        "ref": "v4.0.2"
       },
       "strict": true
     },
     {
       "name": "alex-act-document-tools",
       "description": "Document production bundle for AI agents. Converts among Markdown, Word, HTML, RFC 5322 email, and plain text through seven tested skills, two workflows, and a shared Pandoc-based runtime. Use when a project needs repeatable document import/export or a draft-only New Outlook email workflow without loading converter implementation into the Alex ACT Core reasoning brain.",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/Alex_ACT_Document_Tools",
-        "ref": "v1.1.1"
+        "ref": "v1.2.0",
+        "path": "packages/copilot"
+      },
+      "strict": true
+    },
+    {
+      "name": "alex-act-document-tools-portable",
+      "description": "Strict Agent Plugins package for the seven Alex ACT Document Tools skills and shared runtime. Install instead of alex-act-document-tools, not alongside it, because both packages expose the same skill names.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "fabioc-aloha/Alex_ACT_Document_Tools",
+        "ref": "v1.2.0",
+        "path": "packages/portable"
       },
       "strict": true
     },
     {
       "name": "alex-act-enterprise",
       "description": "Alex ACT config-template plugin for the public Microsoft ecosystem. Ships the setup-enterprise-stack skill and /alex-act-enterprise setup-enterprise command that emit or auto-install the enabledPlugins block for seven public Microsoft plugins any tenant can use: azure (azure-skills), fabric-consumption + fabric-skills + fabric-operations + fabric-authoring (copilot-plugins), powerbi-authoring (fabric-collection), and microsoft-365-agents-toolkit (copilot-plugins). Composes on top of the public alex-act-core runtime. Not internal-only (that's alex-act-msft).",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/alex-act-enterprise",
-        "ref": "v1.1.1",
+        "ref": "v1.1.2",
         "path": "packages/copilot"
       },
       "strict": true
@@ -182,11 +195,11 @@
     {
       "name": "alex-act-illustrator-plugin",
       "description": "Expert visual-storytelling and authoring bundle for AI agents. Fifteen skills across seven authoring areas plus install composition and runtime setup: Flint charts and themes, print figures, Replicate imagery, documentation shells, banners, ASCII charts, and raster annotation. Shared framing, bounded creative exploration, and verification apply across the authoring areas. Alex ACT constellation plugin governed by Alex ACT Steward.",
-      "version": "2.5.1",
+      "version": "2.5.2",
       "source": {
         "source": "github",
         "repo": "fabioc-aloha/Alex_ACT_Illustrator_Plugin",
-        "ref": "v2.5.1"
+        "ref": "v2.5.2"
       },
       "strict": true
     },
