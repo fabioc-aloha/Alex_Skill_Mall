@@ -311,6 +311,24 @@ test('classifies and validates a portable brain contract', () => {
     assert.equal(completeReport.findings.some((finding) => finding.code === 'incomplete-brain-contract'), false);
 });
 
+test('does not accept fenced examples as brain contract sections', () => {
+    const root = targetFixture();
+    write(path.join(root, 'BRAIN.md'), [
+        '# Brain Contract',
+        '```markdown',
+        '## Instruction Hierarchy',
+        '## Routing',
+        '## Arbitration',
+        '## Execution',
+        '## Verification',
+        '```',
+    ].join('\n'));
+    const result = assess(root);
+    assert.equal(result.status, 0, result.stderr);
+    const report = JSON.parse(result.stdout);
+    assert.ok(report.findings.some((finding) => finding.code === 'incomplete-brain-contract'));
+});
+
 test('previews and scaffolds native platform skill locations without overwriting by default', () => {
     const root = temporaryDirectory('brain-compiler-platform-');
     const preview = scaffold(root, 'claude-code');

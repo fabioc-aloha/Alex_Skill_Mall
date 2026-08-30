@@ -265,7 +265,8 @@ function artifactId(type, relativePath, frontmatter) {
 }
 
 function validateBrainContract(content, relativePath, findings) {
-    const missing = BRAIN_CONTRACT_SECTIONS.filter((section) => !new RegExp(`^#{1,6}\\s+${section}\\s*$`, 'mi').test(content));
+    const prose = removeFencedCode(content);
+    const missing = BRAIN_CONTRACT_SECTIONS.filter((section) => !new RegExp(`^#{1,6}\\s+${section}\\s*$`, 'mi').test(prose));
     if (missing.length > 0) {
         findings.push({
             severity: 'error',

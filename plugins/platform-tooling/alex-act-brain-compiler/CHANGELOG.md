@@ -22,6 +22,8 @@
 - Regression coverage resolves source and Mall-normalized component locations.
 - Portable brain-contract drafting and static completeness validation for
 	instruction hierarchy, routing, arbitration, execution, and verification.
+- Brain-contract validation ignores required-section examples inside fenced
+	code blocks.
 
 ### Changed
 
