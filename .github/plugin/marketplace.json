@@ -146,6 +146,13 @@
       "strict": true
     },
     {
+      "name": "alex-act-brain-compiler",
+      "description": "Assess and author Markdown brain artifacts for AI agent projects. The assessor builds a deterministic capability graph; the compiler produces reviewable optimized drafts from explicit files or user-provided text.",
+      "version": "0.2.2",
+      "source": "plugins/platform-tooling/alex-act-brain-compiler",
+      "strict": true
+    },
+    {
       "name": "alex-act-core",
       "description": "The self-activating Alex ACT baseline runtime plugin. Installs 35 reusable framework skills and 9 slash-command prompts covering instruction activation, project bootstrap, a curated read-in-place skill bridge, epistemic discipline, continuity semantics, security and privacy, tooling awareness, project-capability authoring, and engineering craft. Core owns its 16 runtime instructions, receipt, project-local scaffold, and bridge doctor. Native Copilot CLI owns plugin lifecycle; native host memory and repository files provide continuity; Document Tools owns conversion.",
       "version": "4.1.0",
