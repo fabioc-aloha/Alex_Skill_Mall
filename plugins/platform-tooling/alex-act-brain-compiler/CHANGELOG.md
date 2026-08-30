@@ -20,6 +20,8 @@
 - Mall-packaged platform scaffolding resolves its normalized `skills/` and
 	`commands/` component locations.
 - Regression coverage resolves source and Mall-normalized component locations.
+- Portable brain-contract drafting and static completeness validation for
+	instruction hierarchy, routing, arbitration, execution, and verification.
 
 ### Changed
 

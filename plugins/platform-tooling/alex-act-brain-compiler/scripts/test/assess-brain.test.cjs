@@ -287,6 +287,30 @@ test('recognizes case-variant skill links on case-insensitive filesystems', () =
     assert.equal(report.findings.some((finding) => finding.code === 'unrouted-prompt'), false);
 });
 
+test('classifies and validates a portable brain contract', () => {
+    const root = targetFixture();
+    const contract = path.join(root, 'BRAIN.md');
+    write(contract, '# Brain Contract\n\n## Instruction Hierarchy\n');
+    const incomplete = assess(root);
+    assert.equal(incomplete.status, 0, incomplete.stderr);
+    const incompleteReport = JSON.parse(incomplete.stdout);
+    assert.equal(incompleteReport.artifacts.find((artifact) => artifact.path === 'BRAIN.md').type, 'brain-contract');
+    assert.ok(incompleteReport.findings.some((finding) => finding.code === 'incomplete-brain-contract'));
+
+    write(contract, [
+        '# Brain Contract',
+        '## Instruction Hierarchy',
+        '## Routing',
+        '## Arbitration',
+        '## Execution',
+        '## Verification',
+    ].join('\n'));
+    const complete = assess(root);
+    assert.equal(complete.status, 0, complete.stderr);
+    const completeReport = JSON.parse(complete.stdout);
+    assert.equal(completeReport.findings.some((finding) => finding.code === 'incomplete-brain-contract'), false);
+});
+
 test('previews and scaffolds native platform skill locations without overwriting by default', () => {
     const root = temporaryDirectory('brain-compiler-platform-');
     const preview = scaffold(root, 'claude-code');

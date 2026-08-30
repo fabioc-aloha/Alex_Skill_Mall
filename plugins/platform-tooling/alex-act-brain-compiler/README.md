@@ -10,7 +10,7 @@ an explicitly selected file or text the user explicitly supplies.
 
 ## Current Scope
 
-Version `0.2.2` provides two distinct capabilities:
+Version `0.3.0` provides two distinct capabilities:
 
 - **Assess Brain** inspects one explicit local repository or plugin root. It
   discovers every active, non-archival Markdown brain file: instructions,
@@ -21,9 +21,9 @@ Version `0.2.2` provides two distinct capabilities:
   capability graph to stdout, or to a caller-selected output file outside the
   target root.
 - **Compile Brain** improves an explicit Markdown artifact or creates an
-  instruction, skill, prompt, or agent from user-provided text. It returns a
-  reviewable draft before any file is written and never treats unselected
-  conversation content as input.
+  instruction, skill, prompt, agent, or project-wide brain contract from
+  user-provided text. It returns a reviewable draft before any file is written
+  and never treats unselected conversation content as input.
 
 Remote snapshots and Agent Plugins 1.0 packaging are intentionally not
 implemented in this local source checkpoint. Mall distribution follows its
@@ -90,8 +90,13 @@ compiler:
 - preserves behavioral intent while improving structure, metadata, clarity,
   boundaries, and execution consistency;
 - classifies the output as an instruction, skill, prompt, or agent;
+- compiles project-wide architecture into a `BRAIN.md` contract with explicit
+  hierarchy, routing, arbitration, execution, and verification;
 - presents the complete draft and intended destination before writing; and
 - writes a new file or overwrites a source only after separate user approval.
+
+A brain contract is a portable supporting artifact. It becomes active only when
+the user explicitly incorporates it into the applicable platform entrypoint.
 
 ## Assessment Safety Contract
 

@@ -9,6 +9,7 @@ class AssessmentError extends Error { }
 const HISTORY_SEGMENTS = new Set(['_archive', '_github_backup', 'archive', 'history']);
 const ROOT_INSTRUCTIONS = new Set(['AGENTS.md', 'CLAUDE.md', 'GEMINI.md', 'copilot-instructions.md']);
 const MANIFEST_NAMES = new Set(['plugin.json', 'manifest.json', 'package.json', 'mcp.json']);
+const BRAIN_CONTRACT_SECTIONS = ['Instruction Hierarchy', 'Routing', 'Arbitration', 'Execution', 'Verification'];
 
 function stableJson(value) {
     return `${JSON.stringify(value, null, 2)}\n`;
@@ -232,6 +233,7 @@ function classify(relativePath) {
     const segments = relativePath.split('/');
     if (!basename.endsWith('.md')) return null;
     if (['docs', 'brain', 'architecture', 'research'].includes(segments[0])) return 'research';
+    if (basename === 'BRAIN.md' || basename.endsWith('.brain.md')) return 'brain-contract';
     if (basename.endsWith('.instructions.md') || ROOT_INSTRUCTIONS.has(basename)) return 'instruction';
     if (basename === 'SKILL.md') {
         const skillIndex = segments.lastIndexOf('skills');
@@ -260,6 +262,18 @@ function readJson(filePath, findings, relativePath) {
 function artifactId(type, relativePath, frontmatter) {
     if (type === 'skill') return frontmatter.name || path.posix.basename(path.posix.dirname(relativePath));
     return path.posix.basename(relativePath).replace(/(\.instructions|\.prompt|\.agent)?\.md$/, '');
+}
+
+function validateBrainContract(content, relativePath, findings) {
+    const missing = BRAIN_CONTRACT_SECTIONS.filter((section) => !new RegExp(`^#{1,6}\\s+${section}\\s*$`, 'mi').test(content));
+    if (missing.length > 0) {
+        findings.push({
+            severity: 'error',
+            code: 'incomplete-brain-contract',
+            path: relativePath,
+            message: `Brain contract is missing required sections: ${missing.join(', ')}`,
+        });
+    }
 }
 
 function writeOutput(output, content) {
@@ -338,7 +352,7 @@ function analyze(root, includeHistory) {
             path: relativePath,
             bytes,
             sha256: hashFile(filePath),
-            loadingTier: type === 'instruction' ? 'scope-dependent' : type === 'resource' || type === 'research' ? 'deferred' : 'on-demand',
+            loadingTier: type === 'instruction' ? 'scope-dependent' : type === 'resource' || type === 'research' || type === 'brain-contract' ? 'deferred' : 'on-demand',
         };
         if (frontmatter.description) artifact.description = frontmatter.description;
         artifacts.push(artifact);
@@ -349,7 +363,8 @@ function analyze(root, includeHistory) {
                 findings.push({ severity: 'error', code: 'skill-name-mismatch', path: relativePath, message: `${frontmatter.name} does not match ${expectedName}` });
             }
         }
-        if (content && ['instruction', 'skill', 'prompt', 'agent'].includes(type)) {
+        if (type === 'brain-contract') validateBrainContract(content, relativePath, findings);
+        if (content && ['instruction', 'skill', 'prompt', 'agent', 'brain-contract'].includes(type)) {
             for (const link of extractMarkdownLinks(content)) {
                 const target = path.resolve(path.dirname(filePath), link);
                 if (!isWithin(target, root)) {
