@@ -228,16 +228,17 @@ function extractMarkdownLinks(content) {
     return links.filter(Boolean);
 }
 
-function classify(relativePath) {
+function classify(root, relativePath) {
     const basename = path.posix.basename(relativePath);
     const segments = relativePath.split('/');
+    const rootIsSkillLibrary = path.basename(root).toLowerCase() === 'skills';
     if (!basename.endsWith('.md')) return null;
     if (['docs', 'brain', 'architecture', 'research'].includes(segments[0])) return 'research';
     if (basename === 'BRAIN.md' || basename.endsWith('.brain.md')) return 'brain-contract';
     if (basename.endsWith('.instructions.md') || ROOT_INSTRUCTIONS.has(basename)) return 'instruction';
     if (basename === 'SKILL.md') {
         const skillIndex = segments.lastIndexOf('skills');
-        return skillIndex >= 0 && segments.length === skillIndex + 3 ? 'skill' : 'resource';
+        return (skillIndex >= 0 && segments.length === skillIndex + 3) || (rootIsSkillLibrary && segments.length === 2) ? 'skill' : 'resource';
     }
     if (basename.endsWith('.prompt.md')) return 'prompt';
     if (basename.endsWith('.agent.md')) return 'agent';
@@ -342,7 +343,7 @@ function analyze(root, includeHistory) {
     for (const filePath of files) {
         const relativePath = normalizeRelative(root, filePath);
         if (isManifestPath(relativePath)) manifestFiles.push(filePath);
-        const type = classify(relativePath);
+        const type = classify(root, relativePath);
         if (!type) continue;
         const bytes = fs.statSync(filePath).size;
         const content = fs.readFileSync(filePath, 'utf8');

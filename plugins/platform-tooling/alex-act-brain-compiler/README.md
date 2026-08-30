@@ -10,9 +10,10 @@ an explicitly selected file or text the user explicitly supplies.
 
 ## Current Scope
 
-Version `0.3.1` provides two distinct capabilities:
+Version `0.3.2` provides two distinct capabilities:
 
-- **Assess Brain** inspects one explicit local repository or plugin root. It
+- **Assess Brain** inspects one explicit local repository, plugin, or
+  skill-library root. It
   discovers every active, non-archival Markdown brain file: instructions,
   skills, prompts, agents, bundled Markdown resources, root documentation, and
   research documentation. JSON manifests are read only to validate component

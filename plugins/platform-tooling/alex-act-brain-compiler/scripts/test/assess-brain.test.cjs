@@ -122,6 +122,16 @@ test('classifies root Markdown but excludes non-Markdown files from assessed art
     assert.equal(report.artifacts.some((artifact) => artifact.path === 'scripts/verify.cjs'), false);
 });
 
+test('classifies direct children of a skill-library root as skills', () => {
+    const root = temporaryDirectory('brain-compiler-library-');
+    write(path.join(root, 'skills', 'inspect', 'SKILL.md'), '---\nname: inspect\ndescription: "Inspects a skill library."\n---\n\n# Inspect\n');
+    const result = assess(path.join(root, 'skills'));
+    assert.equal(result.status, 0, result.stderr);
+    const report = JSON.parse(result.stdout);
+    assert.equal(report.counts.skill, 1);
+    assert.equal(report.artifacts.find((artifact) => artifact.path === 'inspect/SKILL.md').type, 'skill');
+});
+
 test('treats Markdown under documentation trees as research regardless of filename', () => {
     const root = targetFixture();
     write(path.join(root, 'docs', 'snapshot', '.github', 'skills', 'archived-skill', 'SKILL.md'), '---\nname: archived-skill\ndescription: "Historical evidence."\n---\n\n[Missing](missing.md)\n');

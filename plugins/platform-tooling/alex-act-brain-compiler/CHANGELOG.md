@@ -24,6 +24,8 @@
 	instruction hierarchy, routing, arbitration, execution, and verification.
 - Brain-contract validation ignores required-section examples inside fenced
 	code blocks.
+- Direct children of a physical skill-library root are classified as skills
+	rather than unclassified resources.
 
 ### Changed
 
