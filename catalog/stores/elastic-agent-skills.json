@@ -1,8 +1,8 @@
 {
   "store": "elastic-agent-skills",
   "source_repo": "https://github.com/elastic/agent-skills.git",
-  "generated_at": "2026-08-11T13:29:09.564Z",
-  "scanned_ref": "96736bec4aa27f236580a3fefc4b14582f0f8aa0",
+  "generated_at": "2026-08-31T11:06:59.352Z",
+  "scanned_ref": "a257ebf5dbf63c96b75b0396ef032509688eb95d",
   "provenance": false,
   "tier": "elastic-official",
   "license": "Apache-2.0",
@@ -13,14 +13,14 @@
       "name": "cloud",
       "shape": "skill",
       "source_path": "plugins/cloud",
-      "source_url": "https://github.com/elastic/agent-skills/tree/96736bec4aa27f236580a3fefc4b14582f0f8aa0/plugins/cloud",
+      "source_url": "https://github.com/elastic/agent-skills/tree/a257ebf5dbf63c96b75b0396ef032509688eb95d/plugins/cloud",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
+          "version": "0.4.0",
           "name": "cloud",
           "description": "Elastic Cloud skills - project setup, access management, network security, and Serverless project lifecycle",
-          "version": "0.3.0",
           "author": {
             "name": "Elastic",
             "url": "https://www.elastic.co"
@@ -41,7 +41,7 @@
         "standard": {
           "name": "cloud",
           "description": "Elastic Cloud skills - project setup, access management, network security, and Serverless project lifecycle",
-          "version": "0.3.0",
+          "version": "0.4.0",
           "lastReviewed": null,
           "shape": "skill"
         },
@@ -63,8 +63,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "96736bec4aa27f236580a3fefc4b14582f0f8aa0",
+        "default_sha": "a257ebf5dbf63c96b75b0396ef032509688eb95d",
         "tags": [
+          "v0.4.0",
           "v0.3.0",
           "v0.2.4",
           "v0.2.3",
@@ -86,9 +87,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 556,
-          "contributors": 7,
-          "last_commit": "2026-08-14T13:44:19Z",
+          "stars": 563,
+          "contributors": 8,
+          "last_commit": "2026-08-27T14:35:22Z",
           "archived": false
         }
       }
@@ -97,14 +98,14 @@
       "name": "elasticsearch",
       "shape": "skill",
       "source_path": "plugins/elasticsearch",
-      "source_url": "https://github.com/elastic/agent-skills/tree/96736bec4aa27f236580a3fefc4b14582f0f8aa0/plugins/elasticsearch",
+      "source_url": "https://github.com/elastic/agent-skills/tree/a257ebf5dbf63c96b75b0396ef032509688eb95d/plugins/elasticsearch",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
+          "version": "0.4.0",
           "name": "elasticsearch",
           "description": "Elasticsearch skills for GitHub Copilot — translate natural language to ES|QL, ingest data, manage security (authn, authz, audit), and troubleshoot clusters.",
-          "version": "0.3.0",
           "author": {
             "name": "Elastic",
             "url": "https://www.elastic.co"
@@ -127,7 +128,7 @@
         "standard": {
           "name": "elasticsearch",
           "description": "Elasticsearch skills for GitHub Copilot — translate natural language to ES|QL, ingest data, manage security (authn, authz, audit), and troubleshoot clusters.",
-          "version": "0.3.0",
+          "version": "0.4.0",
           "lastReviewed": null,
           "shape": "skill"
         },
@@ -151,8 +152,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "96736bec4aa27f236580a3fefc4b14582f0f8aa0",
+        "default_sha": "a257ebf5dbf63c96b75b0396ef032509688eb95d",
         "tags": [
+          "v0.4.0",
           "v0.3.0",
           "v0.2.4",
           "v0.2.3",
@@ -174,9 +176,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 556,
-          "contributors": 7,
-          "last_commit": "2026-08-14T13:44:19Z",
+          "stars": 563,
+          "contributors": 8,
+          "last_commit": "2026-08-27T14:35:22Z",
           "archived": false
         }
       }
@@ -185,14 +187,14 @@
       "name": "kibana",
       "shape": "skill",
       "source_path": "plugins/kibana",
-      "source_url": "https://github.com/elastic/agent-skills/tree/96736bec4aa27f236580a3fefc4b14582f0f8aa0/plugins/kibana",
+      "source_url": "https://github.com/elastic/agent-skills/tree/a257ebf5dbf63c96b75b0396ef032509688eb95d/plugins/kibana",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
+          "version": "0.4.0",
           "name": "kibana",
           "description": "Kibana skills - dashboards, alerting rules, connectors, Vega visualizations, Agent Builder, streams, and audit logging",
-          "version": "0.3.0",
           "author": {
             "name": "Elastic",
             "url": "https://www.elastic.co"
@@ -215,7 +217,7 @@
         "standard": {
           "name": "kibana",
           "description": "Kibana skills - dashboards, alerting rules, connectors, Vega visualizations, Agent Builder, streams, and audit logging",
-          "version": "0.3.0",
+          "version": "0.4.0",
           "lastReviewed": null,
           "shape": "skill"
         },
@@ -239,8 +241,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "96736bec4aa27f236580a3fefc4b14582f0f8aa0",
+        "default_sha": "a257ebf5dbf63c96b75b0396ef032509688eb95d",
         "tags": [
+          "v0.4.0",
           "v0.3.0",
           "v0.2.4",
           "v0.2.3",
@@ -262,9 +265,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 556,
-          "contributors": 7,
-          "last_commit": "2026-08-14T13:44:19Z",
+          "stars": 563,
+          "contributors": 8,
+          "last_commit": "2026-08-27T14:35:22Z",
           "archived": false
         }
       }
@@ -273,14 +276,14 @@
       "name": "observability",
       "shape": "skill",
       "source_path": "plugins/observability",
-      "source_url": "https://github.com/elastic/agent-skills/tree/96736bec4aa27f236580a3fefc4b14582f0f8aa0/plugins/observability",
+      "source_url": "https://github.com/elastic/agent-skills/tree/a257ebf5dbf63c96b75b0396ef032509688eb95d/plugins/observability",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
+          "version": "0.4.0",
           "name": "observability",
           "description": "Elastic Observability skills - OpenTelemetry instrumentation and migration (.NET, Java, Python), LLM observability, log search, SLOs, and service health",
-          "version": "0.3.0",
           "author": {
             "name": "Elastic",
             "url": "https://www.elastic.co"
@@ -303,7 +306,7 @@
         "standard": {
           "name": "observability",
           "description": "Elastic Observability skills - OpenTelemetry instrumentation and migration (.NET, Java, Python), LLM observability, log search, SLOs, and service health",
-          "version": "0.3.0",
+          "version": "0.4.0",
           "lastReviewed": null,
           "shape": "skill"
         },
@@ -327,8 +330,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "96736bec4aa27f236580a3fefc4b14582f0f8aa0",
+        "default_sha": "a257ebf5dbf63c96b75b0396ef032509688eb95d",
         "tags": [
+          "v0.4.0",
           "v0.3.0",
           "v0.2.4",
           "v0.2.3",
@@ -350,9 +354,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 556,
-          "contributors": 7,
-          "last_commit": "2026-08-14T13:44:19Z",
+          "stars": 563,
+          "contributors": 8,
+          "last_commit": "2026-08-27T14:35:22Z",
           "archived": false
         }
       }
@@ -361,14 +365,14 @@
       "name": "security",
       "shape": "skill",
       "source_path": "plugins/security",
-      "source_url": "https://github.com/elastic/agent-skills/tree/96736bec4aa27f236580a3fefc4b14582f0f8aa0/plugins/security",
+      "source_url": "https://github.com/elastic/agent-skills/tree/a257ebf5dbf63c96b75b0396ef032509688eb95d/plugins/security",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
+          "version": "0.4.0",
           "name": "security",
           "description": "Elastic Security skills - alert triage, case management, detection rule management, and sample data generation",
-          "version": "0.3.0",
           "author": {
             "name": "Elastic",
             "url": "https://www.elastic.co"
@@ -391,7 +395,7 @@
         "standard": {
           "name": "security",
           "description": "Elastic Security skills - alert triage, case management, detection rule management, and sample data generation",
-          "version": "0.3.0",
+          "version": "0.4.0",
           "lastReviewed": null,
           "shape": "skill"
         },
@@ -415,8 +419,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "96736bec4aa27f236580a3fefc4b14582f0f8aa0",
+        "default_sha": "a257ebf5dbf63c96b75b0396ef032509688eb95d",
         "tags": [
+          "v0.4.0",
           "v0.3.0",
           "v0.2.4",
           "v0.2.3",
@@ -438,9 +443,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 556,
-          "contributors": 7,
-          "last_commit": "2026-08-14T13:44:19Z",
+          "stars": 563,
+          "contributors": 8,
+          "last_commit": "2026-08-27T14:35:22Z",
           "archived": false
         }
       }
@@ -454,9 +459,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "Apache-2.0",
-      "stars": 556,
-      "contributors": 7,
-      "last_commit": "2026-08-14T13:44:19Z",
+      "stars": 563,
+      "contributors": 8,
+      "last_commit": "2026-08-27T14:35:22Z",
       "archived": false
     }
   }
