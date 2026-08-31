@@ -2,7 +2,7 @@
   "store": "mongodb-agent-skills",
   "source_repo": "https://github.com/mongodb/agent-skills.git",
   "generated_at": "2026-08-24T11:10:12.995Z",
-  "scanned_ref": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+  "scanned_ref": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
   "provenance": false,
   "tier": "mongodb-official",
   "license": "Apache-2.0",
@@ -13,7 +13,7 @@
       "name": "mongodb",
       "shape": "mixed",
       "source_path": "plugins/mongodb",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/plugins/mongodb",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/plugins/mongodb",
       "readme_excerpt": "For deployments you manage yourself — **Community**, **Enterprise Advanced**, a local dev container, or an Atlas cluster — this plugin connects your agent using nothing more than a connection string. ",
       "frontmatter": {
         "kind": "none",
@@ -38,7 +38,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -56,9 +56,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -67,7 +67,7 @@
       "name": "mongodb-atlas",
       "shape": "skill",
       "source_path": "plugins/mongodb-atlas",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/plugins/mongodb-atlas",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/plugins/mongodb-atlas",
       "readme_excerpt": "Connects your agent to **MongoDB Atlas** clusters through MongoDB's hosted Atlas MCP server (`https://mcp.mongodb.com/`) over OAuth — sign in with your Atlas account and skip the local setup and conne",
       "frontmatter": {
         "kind": "none",
@@ -92,7 +92,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -110,9 +110,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -121,7 +121,7 @@
       "name": "mongodb-atlas-stream-processing",
       "shape": "skill",
       "source_path": "skills/mongodb-atlas-stream-processing",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/skills/mongodb-atlas-stream-processing",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/skills/mongodb-atlas-stream-processing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -154,7 +154,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -172,9 +172,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -183,7 +183,7 @@
       "name": "mongodb-connection",
       "shape": "skill",
       "source_path": "skills/mongodb-connection",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/skills/mongodb-connection",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/skills/mongodb-connection",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -215,7 +215,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -233,9 +233,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -244,7 +244,7 @@
       "name": "mongodb-mcp-setup",
       "shape": "skill",
       "source_path": "skills/mongodb-mcp-setup",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/skills/mongodb-mcp-setup",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/skills/mongodb-mcp-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -276,7 +276,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -294,9 +294,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -305,7 +305,7 @@
       "name": "mongodb-natural-language-querying",
       "shape": "skill",
       "source_path": "skills/mongodb-natural-language-querying",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/skills/mongodb-natural-language-querying",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/skills/mongodb-natural-language-querying",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -340,7 +340,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -358,9 +358,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -369,7 +369,7 @@
       "name": "mongodb-query-optimizer",
       "shape": "skill",
       "source_path": "skills/mongodb-query-optimizer",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/skills/mongodb-query-optimizer",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/skills/mongodb-query-optimizer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -402,7 +402,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -420,9 +420,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -431,7 +431,7 @@
       "name": "mongodb-schema-design",
       "shape": "skill",
       "source_path": "skills/mongodb-schema-design",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/skills/mongodb-schema-design",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/skills/mongodb-schema-design",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -463,7 +463,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -481,9 +481,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -492,7 +492,7 @@
       "name": "mongodb-search-and-ai",
       "shape": "skill",
       "source_path": "skills/mongodb-search-and-ai",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/skills/mongodb-search-and-ai",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/skills/mongodb-search-and-ai",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -524,7 +524,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -542,9 +542,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -553,7 +553,7 @@
       "name": "review-skill",
       "shape": "skill",
       "source_path": "tools/review-skill",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/tools/review-skill",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/tools/review-skill",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -586,7 +586,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -604,9 +604,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -615,7 +615,7 @@
       "name": "skills-boundaries",
       "shape": "unknown",
       "source_path": "testing/skills-boundaries",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/03740fc6092ba0865b88ed37ad58f931f15af0cc/testing/skills-boundaries",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/47cc46148f53145eb9b880d2bf1aa89bc9097818/testing/skills-boundaries",
       "readme_excerpt": "This directory contains evaluation tests to validate that skills are invoked at the correct times based on user prompts.",
       "frontmatter": {
         "kind": "none",
@@ -640,7 +640,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "03740fc6092ba0865b88ed37ad58f931f15af0cc",
+        "default_sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -658,9 +658,9 @@
           "adoption": 5,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 175,
-          "contributors": 14,
-          "last_commit": "2026-08-24T10:21:27Z",
+          "stars": 181,
+          "contributors": 15,
+          "last_commit": "2026-08-30T21:26:34Z",
           "archived": false
         }
       }
@@ -674,9 +674,9 @@
       "adoption": 5,
       "license": 10,
       "license_name": "Apache-2.0",
-      "stars": 175,
-      "contributors": 14,
-      "last_commit": "2026-08-24T10:21:27Z",
+      "stars": 181,
+      "contributors": 15,
+      "last_commit": "2026-08-30T21:26:34Z",
       "archived": false
     }
   }
