@@ -1,0 +1,44 @@
+{
+  "upstream": {
+    "repo": "https://github.com/fabioc-aloha/alex-act-brain-compiler",
+    "ref": "v0.4.0",
+    "license": "MIT"
+  },
+  "submission": {
+    "schema_version": "1.0",
+    "submitted_by": "@fabioc-aloha",
+    "evidence": "Review-first brain assessment and authoring with a human-facing artifact gate. Used to author and audit brain artifacts across four first-party repositories."
+  },
+  "artifacts": {
+    "skills": [
+      "skills/assess-brain/SKILL.md",
+      "skills/compile-brain/SKILL.md"
+    ],
+    "agents": [],
+    "prompts": [
+      "commands/assess-brain.md",
+      "commands/compile-brain.md"
+    ],
+    "bundled": [
+      "assets",
+      "package.json",
+      "scripts/assess-brain.cjs",
+      "scripts/scaffold-platform.cjs",
+      "scripts/test"
+    ]
+  },
+  "link_rewrites": [
+    {
+      "file": "README.md",
+      "label": "docs/index.html",
+      "target": "docs/index.html",
+      "reason": "not-vendored"
+    },
+    {
+      "file": "README.md",
+      "label": "docs/research/",
+      "target": "docs/research/README.md",
+      "reason": "not-vendored"
+    }
+  ]
+}

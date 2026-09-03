@@ -1,0 +1,15 @@
+{
+    "name": "alex-act-brain-compiler",
+    "version": "0.4.0",
+    "private": true,
+    "description": "Assessment and review-first brain authoring plugin for AI agent projects.",
+    "license": "MIT",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "test": "node --test scripts/test/assess-brain.test.cjs",
+        "assess": "node scripts/assess-brain.cjs",
+        "scaffold": "node scripts/scaffold-platform.cjs"
+    }
+}
