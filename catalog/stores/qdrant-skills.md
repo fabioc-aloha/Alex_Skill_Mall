@@ -2,26 +2,26 @@
 
 **Source:** [qdrant/skills](https://github.com/qdrant/skills)
 **Store trust:** 32/100
-**Signals:** maintenance 15 · adoption 7 · license 10 (Apache-2.0) · 223 stars · 18 contributors
-**Scanned ref:** `93b66882bab8`
+**Signals:** maintenance 15 · adoption 7 · license 10 (Apache-2.0) · 228 stars · 19 contributors
+**Scanned ref:** `fb869d3d69cb`
 
 ## Plugins (13)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 42 | [`skill-test`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skill-test) | prompt | - | This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures |
-| 37 | [`qdrant-advisor`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/meta/qdrant-advisor) | skill | - | Diagnose, troubleshoot, and advise on any Qdrant deployment by loading the latest official Qdrant s… |
-| 37 | [`qdrant-clients-sdk`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-clients-sdk) | skill | - | Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdran… |
-| 37 | [`qdrant-deployment-options`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-deployment-options) | skill | - | Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud'… |
-| 37 | [`qdrant-edge`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-edge) | skill | - | Guides building on Qdrant Edge, the embedded in-process shard. Use when someone asks 'how to sync E… |
-| 37 | [`qdrant-model-migration`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-model-migration) | skill | - | Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch e… |
-| 37 | [`qdrant-monitoring`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-monitoring) | skill | - | Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'w… |
-| 37 | [`qdrant-multitenancy`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-multitenancy) | skill | - | Guides tenant isolation architecture in Qdrant for multi-tenant or multi-user applications. Use whe… |
-| 37 | [`qdrant-performance-optimization`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-performance-optimization) | skill | - | Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, … |
-| 37 | [`qdrant-scaling`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-scaling) | skill | - | Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fi… |
-| 37 | [`qdrant-search-quality`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-search-quality) | skill | - | Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', … |
-| 37 | [`qdrant-sizing`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-sizing) | skill | - | Sizes a Qdrant deployment before it is provisioned. Use when someone asks 'how much RAM do I need',… |
-| 37 | [`qdrant-version-upgrade`](https://github.com/qdrant/skills/tree/93b66882bab856a92907798ce1fad5b034ed4604/skills/qdrant-version-upgrade) | skill | - | Covers upgrading Qdrant server and SDKs without interrupting availability or losing data integrity.… |
+| 42 | [`skill-test`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skill-test) | prompt | - | This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures |
+| 37 | [`qdrant-advisor`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/meta/qdrant-advisor) | skill | - | Diagnose, troubleshoot, and advise on any Qdrant deployment by loading the latest official Qdrant s… |
+| 37 | [`qdrant-clients-sdk`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-clients-sdk) | skill | - | Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdran… |
+| 37 | [`qdrant-deployment-options`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-deployment-options) | skill | - | Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud'… |
+| 37 | [`qdrant-edge`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-edge) | skill | - | Guides building on Qdrant Edge, the embedded in-process shard. Use when someone asks 'how to sync E… |
+| 37 | [`qdrant-model-migration`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-model-migration) | skill | - | Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch e… |
+| 37 | [`qdrant-monitoring`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-monitoring) | skill | - | Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'w… |
+| 37 | [`qdrant-multitenancy`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-multitenancy) | skill | - | Guides tenant isolation architecture in Qdrant for multi-tenant or multi-user applications. Use whe… |
+| 37 | [`qdrant-performance-optimization`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-performance-optimization) | skill | - | Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, … |
+| 37 | [`qdrant-scaling`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-scaling) | skill | - | Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fi… |
+| 37 | [`qdrant-search-quality`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-search-quality) | skill | - | Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', … |
+| 37 | [`qdrant-sizing`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-sizing) | skill | - | Sizes a Qdrant deployment before it is provisioned. Use when someone asks 'how much RAM do I need',… |
+| 37 | [`qdrant-version-upgrade`](https://github.com/qdrant/skills/tree/fb869d3d69cb951e95beebf7213b3fe198e4286d/skills/qdrant-version-upgrade) | skill | - | Covers upgrading Qdrant server and SDKs without interrupting availability or losing data integrity.… |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-08-25T06:46:27.839Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-08-31T11:07:38.559Z*

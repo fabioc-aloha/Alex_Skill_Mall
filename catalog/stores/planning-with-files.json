@@ -1,8 +1,8 @@
 {
   "store": "planning-with-files",
   "source_repo": "https://github.com/OthmanAdi/planning-with-files.git",
-  "generated_at": "2026-08-24T11:10:12.999Z",
-  "scanned_ref": "9e94390e5912b1ff296556505cd999ff84838160",
+  "generated_at": "2026-08-31T11:06:59.487Z",
+  "scanned_ref": "2d98d3194370780fdd837687bdc6390bafd5a6f5",
   "provenance": false,
   "tier": "reference",
   "license": null,
@@ -13,13 +13,13 @@
       "name": "planning-with-files",
       "shape": "skill",
       "source_path": "skills/planning-with-files",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/9e94390e5912b1ff296556505cd999ff84838160/skills/planning-with-files",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/2d98d3194370780fdd837687bdc6390bafd5a6f5/skills/planning-with-files",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "planning-with-files",
-          "description": "Manus-style persistent file-based planning for AI coding agents: keeps task_plan.md, findings.md, and progress.md on disk so work survives context loss and /clear. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
+          "description": "Persistent file-based planning for multi-step AI-agent work. Keeps task_plan.md, findings.md, and progress.md on disk; lifecycle hooks inject selected project planning context. Automatic recovery reads project planning files only. Explicit session-catchup.py --metadata reads same-project local agent session records and emits aggregate counts only; --replay may emit bounded nonce-framed excerpts. Optional gated mode can request continuation only when the host supports it and never runs commands declared in Markdown. The skill has no network upload path. Use for research or work needing 5+ tool calls.",
           "user-invocable": true,
           "allowed-tools": "Read Write Edit Bash Glob Grep",
           "hooks": {
@@ -28,7 +28,7 @@
                 "hooks": [
                   {
                     "type": "command",
-                    "command": "SH=\"${CLAUDE_SKILL_DIR}/scripts/inject-plan.sh\"; [ -f \"$SH\" ] || SH=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/inject-plan.sh\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/inject-plan.sh\" 2>/dev/null | head -1); [ -n \"$SH\" ] && [ -f \"$SH\" ] && sh \"$SH\" --context=userprompt; exit 0"
+                    "command": "[ -n \"${CLAUDE_PLUGIN_ROOT:-}\" ] && exit 0; SH=\"${CLAUDE_SKILL_DIR}/scripts/inject-plan.sh\"; [ -f \"$SH\" ] || SH=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/inject-plan.sh\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/inject-plan.sh\" 2>/dev/null | head -1); [ -n \"$SH\" ] && [ -f \"$SH\" ] && sh \"$SH\" --context=userprompt; exit 0"
                   }
                 ]
               }
@@ -39,7 +39,7 @@
                 "hooks": [
                   {
                     "type": "command",
-                    "command": "SH=\"${CLAUDE_SKILL_DIR}/scripts/inject-plan.sh\"; [ -f \"$SH\" ] || SH=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/inject-plan.sh\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/inject-plan.sh\" 2>/dev/null | head -1); [ -n \"$SH\" ] && [ -f \"$SH\" ] && sh \"$SH\" --context=pretool; exit 0"
+                    "command": "[ -n \"${CLAUDE_PLUGIN_ROOT:-}\" ] && exit 0; SH=\"${CLAUDE_SKILL_DIR}/scripts/inject-plan.sh\"; [ -f \"$SH\" ] || SH=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/inject-plan.sh\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/inject-plan.sh\" 2>/dev/null | head -1); [ -n \"$SH\" ] && [ -f \"$SH\" ] && sh \"$SH\" --context=pretool; exit 0"
                   }
                 ]
               }
@@ -50,7 +50,7 @@
                 "hooks": [
                   {
                     "type": "command",
-                    "command": "if [ -f task_plan.md ] || [ -f .planning/.active_plan ] || ls .planning/*/task_plan.md >/dev/null 2>&1; then echo '[planning-with-files] Update progress.md with what you just did. If a phase is now complete, update task_plan.md status.'; fi"
+                    "command": "[ -n \"${CLAUDE_PLUGIN_ROOT:-}\" ] && exit 0; if [ -f task_plan.md ] || [ -f .planning/.active_plan ] || ls .planning/*/task_plan.md >/dev/null 2>&1; then echo '[planning-with-files] Update progress.md with what you just did. If a phase is now complete, update task_plan.md status.'; fi"
                   }
                 ]
               }
@@ -60,7 +60,7 @@
                 "hooks": [
                   {
                     "type": "command",
-                    "command": "PS1_T=\"${CLAUDE_SKILL_DIR}/scripts/check-complete.ps1\"; [ -f \"$PS1_T\" ] || PS1_T=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/check-complete.ps1\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/check-complete.ps1\" 2>/dev/null | head -1); SH_T=\"${CLAUDE_SKILL_DIR}/scripts/gate-stop.sh\"; [ -f \"$SH_T\" ] || SH_T=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/gate-stop.sh\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/gate-stop.sh\" 2>/dev/null | head -1); case \"$(uname -s 2>/dev/null)\" in MINGW*|MSYS*|CYGWIN*) if [ -n \"$PS1_T\" ] && [ -f \"$PS1_T\" ]; then powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File \"$PS1_T\" -Gate 2>/dev/null; elif [ -n \"$SH_T\" ] && [ -f \"$SH_T\" ]; then sh \"$SH_T\" 2>/dev/null; fi ;; *) if [ -n \"$SH_T\" ] && [ -f \"$SH_T\" ]; then sh \"$SH_T\" 2>/dev/null; elif [ -n \"$PS1_T\" ] && [ -f \"$PS1_T\" ]; then powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File \"$PS1_T\" -Gate 2>/dev/null; fi ;; esac; exit 0"
+                    "command": "[ -n \"${CLAUDE_PLUGIN_ROOT:-}\" ] && exit 0; PS1_T=\"${CLAUDE_SKILL_DIR}/scripts/check-complete.ps1\"; [ -f \"$PS1_T\" ] || PS1_T=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/check-complete.ps1\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/check-complete.ps1\" 2>/dev/null | head -1); SH_T=\"${CLAUDE_SKILL_DIR}/scripts/gate-stop.sh\"; [ -f \"$SH_T\" ] || SH_T=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/gate-stop.sh\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/gate-stop.sh\" 2>/dev/null | head -1); case \"$(uname -s 2>/dev/null)\" in MINGW*|MSYS*|CYGWIN*) if [ -n \"$PS1_T\" ] && [ -f \"$PS1_T\" ]; then powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File \"$PS1_T\" -Gate 2>/dev/null; elif [ -n \"$SH_T\" ] && [ -f \"$SH_T\" ]; then sh \"$SH_T\" 2>/dev/null; fi ;; *) if [ -n \"$SH_T\" ] && [ -f \"$SH_T\" ]; then sh \"$SH_T\" 2>/dev/null; elif [ -n \"$PS1_T\" ] && [ -f \"$PS1_T\" ]; then powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File \"$PS1_T\" -Gate 2>/dev/null; fi ;; esac; exit 0"
                   }
                 ]
               }
@@ -71,19 +71,19 @@
                 "hooks": [
                   {
                     "type": "command",
-                    "command": "SH=\"${CLAUDE_SKILL_DIR}/scripts/inject-plan.sh\"; [ -f \"$SH\" ] || SH=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/inject-plan.sh\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/inject-plan.sh\" 2>/dev/null | head -1); [ -n \"$SH\" ] && [ -f \"$SH\" ] && sh \"$SH\" --context=precompact; exit 0"
+                    "command": "[ -n \"${CLAUDE_PLUGIN_ROOT:-}\" ] && exit 0; SH=\"${CLAUDE_SKILL_DIR}/scripts/inject-plan.sh\"; [ -f \"$SH\" ] || SH=$(ls \"$HOME/.claude/skills/planning-with-files/scripts/inject-plan.sh\" \"$HOME/.claude/plugins/marketplaces/planning-with-files/scripts/inject-plan.sh\" 2>/dev/null | head -1); [ -n \"$SH\" ] && [ -f \"$SH\" ] && sh \"$SH\" --context=precompact; exit 0"
                   }
                 ]
               }
             ]
           },
           "metadata": {
-            "version": "3.11.2"
+            "version": "3.12.1"
           }
         },
         "standard": {
           "name": "planning-with-files",
-          "description": "Manus-style persistent file-based planning for AI coding agents: keeps task_plan.md, findings.md, and progress.md on disk so work survives context loss and /clear. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
+          "description": "Persistent file-based planning for multi-step AI-agent work. Keeps task_plan.md, findings.md, and progress.md on disk; lifecycle hooks inject selected project planning context. Automatic recovery reads project planning files only. Explicit session-catchup.py --metadata reads same-project local agent session records and emits aggregate counts only; --replay may emit bounded nonce-framed excerpts. Optional gated mode can request continuation only when the host supports it and never runs commands declared in Markdown. The skill has no network upload path. Use for research or work needing 5+ tool calls.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -103,8 +103,9 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "9e94390e5912b1ff296556505cd999ff84838160",
+        "default_sha": "2d98d3194370780fdd837687bdc6390bafd5a6f5",
         "tags": [
+          "v3.12.0",
           "v3.11.2",
           "v3.11.1",
           "v3.11.0",
@@ -193,6 +194,7 @@
           "v2.1.0",
           "v2.0.1",
           "v2.0.0",
+          "v1.0.1",
           "v1.0.0"
         ]
       },
@@ -207,9 +209,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 26331,
-          "contributors": 44,
-          "last_commit": "2026-08-22T11:09:40Z",
+          "stars": 26488,
+          "contributors": 45,
+          "last_commit": "2026-08-31T10:10:43Z",
           "archived": false
         }
       }
@@ -218,13 +220,13 @@
       "name": "planning-with-files-ar",
       "shape": "skill",
       "source_path": "skills/i18n/planning-with-files-ar",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/9e94390e5912b1ff296556505cd999ff84838160/skills/i18n/planning-with-files-ar",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/2d98d3194370780fdd837687bdc6390bafd5a6f5/skills/i18n/planning-with-files-ar",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "planning-with-files-ar",
-          "description": "نظام تخطيط الملفات بنمط Manus لتنظيم وتتبع تقدم المهام المعقدة. ينشئ ملفات task_plan.md و findings.md و progress.md. يُستخدم عند طلب التخطيط أو تحليل المهام أو تنظيم المشاريع أو تتبع التقدم أو الخطط متعددة الخطوات. يدعم الاستعادة التلقائية للجلسة بعد /clear. كلمات التشغيل: تخطيط المهام، إدارة المشاريع، خطة العمل، تحليل المهام، تنظيم المشروع، تتبع التقدم، خطة متعددة الخطوات، ساعدني في التخطيط، تحليل المشروع",
+          "description": "تخطيط مستمر قائم على الملفات لعمل وكلاء الذكاء الاصطناعي متعدد الخطوات. يحتفظ بملفات task_plan.md و findings.md و progress.md على القرص، وتحقن خطافات دورة الحياة سياق التخطيط المحدد للمشروع. تقرأ الاستعادة التلقائية ملفات تخطيط المشروع فقط. يمكن للأمر الصريح session-catchup.py --metadata فحص بيانات وصفية لجلسات الوكيل المحلية التابعة للمشروع نفسه، بينما قد يصدر --replay مقتطفات محدودة مؤطرة بقيمة nonce. يمكن للوضع المحكوم الاختياري طلب المتابعة فقط عندما يدعمه المضيف، ولا ينفذ أبدًا أوامر معلنة في Markdown. لا تتضمن المهارة مسارًا لرفع البيانات عبر الشبكة. تُستخدم للبحث أو العمل الذي يحتاج إلى 5 استدعاءات أدوات أو أكثر.",
           "user-invocable": true,
           "allowed-tools": "Read Write Edit Bash Glob Grep",
           "hooks": {
@@ -283,12 +285,12 @@
             ]
           },
           "metadata": {
-            "version": "3.11.2"
+            "version": "3.12.1"
           }
         },
         "standard": {
           "name": "planning-with-files-ar",
-          "description": "نظام تخطيط الملفات بنمط Manus لتنظيم وتتبع تقدم المهام المعقدة. ينشئ ملفات task_plan.md و findings.md و progress.md. يُستخدم عند طلب التخطيط أو تحليل المهام أو تنظيم المشاريع أو تتبع التقدم أو الخطط متعددة الخطوات. يدعم الاستعادة التلقائية للجلسة بعد /clear. كلمات التشغيل: تخطيط المهام، إدارة المشاريع، خطة العمل، تحليل المهام، تنظيم المشروع، تتبع التقدم، خطة متعددة الخطوات، ساعدني في التخطيط، تحليل المشروع",
+          "description": "تخطيط مستمر قائم على الملفات لعمل وكلاء الذكاء الاصطناعي متعدد الخطوات. يحتفظ بملفات task_plan.md و findings.md و progress.md على القرص، وتحقن خطافات دورة الحياة سياق التخطيط المحدد للمشروع. تقرأ الاستعادة التلقائية ملفات تخطيط المشروع فقط. يمكن للأمر الصريح session-catchup.py --metadata فحص بيانات وصفية لجلسات الوكيل المحلية التابعة للمشروع نفسه، بينما قد يصدر --replay مقتطفات محدودة مؤطرة بقيمة nonce. يمكن للوضع المحكوم الاختياري طلب المتابعة فقط عندما يدعمه المضيف، ولا ينفذ أبدًا أوامر معلنة في Markdown. لا تتضمن المهارة مسارًا لرفع البيانات عبر الشبكة. تُستخدم للبحث أو العمل الذي يحتاج إلى 5 استدعاءات أدوات أو أكثر.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -308,8 +310,9 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "9e94390e5912b1ff296556505cd999ff84838160",
+        "default_sha": "2d98d3194370780fdd837687bdc6390bafd5a6f5",
         "tags": [
+          "v3.12.0",
           "v3.11.2",
           "v3.11.1",
           "v3.11.0",
@@ -398,6 +401,7 @@
           "v2.1.0",
           "v2.0.1",
           "v2.0.0",
+          "v1.0.1",
           "v1.0.0"
         ]
       },
@@ -412,9 +416,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 26331,
-          "contributors": 44,
-          "last_commit": "2026-08-22T11:09:40Z",
+          "stars": 26488,
+          "contributors": 45,
+          "last_commit": "2026-08-31T10:10:43Z",
           "archived": false
         }
       }
@@ -423,13 +427,13 @@
       "name": "planning-with-files-de",
       "shape": "skill",
       "source_path": "skills/i18n/planning-with-files-de",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/9e94390e5912b1ff296556505cd999ff84838160/skills/i18n/planning-with-files-de",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/2d98d3194370780fdd837687bdc6390bafd5a6f5/skills/i18n/planning-with-files-de",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "planning-with-files-de",
-          "description": "Manus-artiges Dateiplanungssystem zur Organisation und Verfolgung des Fortschritts komplexer Aufgaben. Erstellt task_plan.md, findings.md und progress.md. Wird verwendet, wenn der Benutzer plant, zerlegt oder organisiert: mehrstufige Projekte, Forschungsaufgaben oder Arbeiten mit über 5 Tool-Aufrufen. Unterstützt automatische Sitzungswiederherstellung nach /clear. Auslöser: Aufgabenplanung, Projektplanung, Arbeitsplan erstellen, Aufgaben analysieren, Projekt organisieren, Fortschritt verfolgen, Mehrstufige Planung, Hilf mir bei der Planung, Projekt zerlegen",
+          "description": "Persistente dateibasierte Planung für mehrstufige Arbeit mit KI-Agenten. Hält task_plan.md, findings.md und progress.md auf dem Datenträger; Lebenszyklus-Hooks speisen ausgewählten Planungskontext des Projekts ein. Die automatische Wiederherstellung liest nur die Planungsdateien des Projekts. Nur ein ausdrücklicher Aufruf von session-catchup.py --metadata darf lokale Sitzungsmetadaten desselben Projekts prüfen; --replay darf begrenzte, nonce-gerahmte Auszüge ausgeben. Der optionale Gate-Modus kann nur bei Unterstützung durch den Host eine Fortsetzung anfordern und führt niemals in Markdown angegebene Befehle aus. Der Skill hat keinen Netzwerk-Uploadpfad. Verwenden für Forschung oder Arbeit mit mehr als 5 Tool-Aufrufen.",
           "user-invocable": true,
           "allowed-tools": "Read Write Edit Bash Glob Grep",
           "hooks": {
@@ -488,12 +492,12 @@
             ]
           },
           "metadata": {
-            "version": "3.11.2"
+            "version": "3.12.1"
           }
         },
         "standard": {
           "name": "planning-with-files-de",
-          "description": "Manus-artiges Dateiplanungssystem zur Organisation und Verfolgung des Fortschritts komplexer Aufgaben. Erstellt task_plan.md, findings.md und progress.md. Wird verwendet, wenn der Benutzer plant, zerlegt oder organisiert: mehrstufige Projekte, Forschungsaufgaben oder Arbeiten mit über 5 Tool-Aufrufen. Unterstützt automatische Sitzungswiederherstellung nach /clear. Auslöser: Aufgabenplanung, Projektplanung, Arbeitsplan erstellen, Aufgaben analysieren, Projekt organisieren, Fortschritt verfolgen, Mehrstufige Planung, Hilf mir bei der Planung, Projekt zerlegen",
+          "description": "Persistente dateibasierte Planung für mehrstufige Arbeit mit KI-Agenten. Hält task_plan.md, findings.md und progress.md auf dem Datenträger; Lebenszyklus-Hooks speisen ausgewählten Planungskontext des Projekts ein. Die automatische Wiederherstellung liest nur die Planungsdateien des Projekts. Nur ein ausdrücklicher Aufruf von session-catchup.py --metadata darf lokale Sitzungsmetadaten desselben Projekts prüfen; --replay darf begrenzte, nonce-gerahmte Auszüge ausgeben. Der optionale Gate-Modus kann nur bei Unterstützung durch den Host eine Fortsetzung anfordern und führt niemals in Markdown angegebene Befehle aus. Der Skill hat keinen Netzwerk-Uploadpfad. Verwenden für Forschung oder Arbeit mit mehr als 5 Tool-Aufrufen.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -513,8 +517,9 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "9e94390e5912b1ff296556505cd999ff84838160",
+        "default_sha": "2d98d3194370780fdd837687bdc6390bafd5a6f5",
         "tags": [
+          "v3.12.0",
           "v3.11.2",
           "v3.11.1",
           "v3.11.0",
@@ -603,6 +608,7 @@
           "v2.1.0",
           "v2.0.1",
           "v2.0.0",
+          "v1.0.1",
           "v1.0.0"
         ]
       },
@@ -617,9 +623,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 26331,
-          "contributors": 44,
-          "last_commit": "2026-08-22T11:09:40Z",
+          "stars": 26488,
+          "contributors": 45,
+          "last_commit": "2026-08-31T10:10:43Z",
           "archived": false
         }
       }
@@ -628,13 +634,13 @@
       "name": "planning-with-files-es",
       "shape": "skill",
       "source_path": "skills/i18n/planning-with-files-es",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/9e94390e5912b1ff296556505cd999ff84838160/skills/i18n/planning-with-files-es",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/2d98d3194370780fdd837687bdc6390bafd5a6f5/skills/i18n/planning-with-files-es",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "planning-with-files-es",
-          "description": "Sistema de planificación basado en archivos estilo Manus para organizar y rastrear el progreso de tareas complejas. Crea task_plan.md, findings.md y progress.md. Cuando el usuario solicita planificación, desglose u organización de proyectos multipaso, tareas de investigación o trabajos que requieren más de 5 llamadas a herramientas. Soporta recuperación automática de sesión tras /clear. Palabras clave: planificación de tareas, planificación de proyecto, crear plan de trabajo, analizar tareas, organizar proyecto, seguimiento de progreso, planificación multipaso, ayúdame a planificar, desglosar proyecto",
+          "description": "Planificación persistente basada en archivos para tareas multipaso de agentes de IA. Mantiene task_plan.md, findings.md y progress.md en disco; los hooks del ciclo de vida inyectan contexto seleccionado de planificación del proyecto. La recuperación automática solo lee los archivos de planificación del proyecto. session-catchup.py --metadata, solicitado de forma explícita, puede inspeccionar metadatos locales de sesiones del mismo proyecto; --replay puede emitir extractos limitados y enmarcados con nonce. El modo con gate opcional solo puede solicitar que el host continúe si este lo admite y nunca ejecuta comandos declarados en Markdown. El skill no tiene ninguna ruta de carga por red. Úsalo para investigación o trabajo que requiera 5 o más llamadas a herramientas.",
           "user-invocable": true,
           "allowed-tools": "Read Write Edit Bash Glob Grep",
           "hooks": {
@@ -693,12 +699,12 @@
             ]
           },
           "metadata": {
-            "version": "3.11.2"
+            "version": "3.12.1"
           }
         },
         "standard": {
           "name": "planning-with-files-es",
-          "description": "Sistema de planificación basado en archivos estilo Manus para organizar y rastrear el progreso de tareas complejas. Crea task_plan.md, findings.md y progress.md. Cuando el usuario solicita planificación, desglose u organización de proyectos multipaso, tareas de investigación o trabajos que requieren más de 5 llamadas a herramientas. Soporta recuperación automática de sesión tras /clear. Palabras clave: planificación de tareas, planificación de proyecto, crear plan de trabajo, analizar tareas, organizar proyecto, seguimiento de progreso, planificación multipaso, ayúdame a planificar, desglosar proyecto",
+          "description": "Planificación persistente basada en archivos para tareas multipaso de agentes de IA. Mantiene task_plan.md, findings.md y progress.md en disco; los hooks del ciclo de vida inyectan contexto seleccionado de planificación del proyecto. La recuperación automática solo lee los archivos de planificación del proyecto. session-catchup.py --metadata, solicitado de forma explícita, puede inspeccionar metadatos locales de sesiones del mismo proyecto; --replay puede emitir extractos limitados y enmarcados con nonce. El modo con gate opcional solo puede solicitar que el host continúe si este lo admite y nunca ejecuta comandos declarados en Markdown. El skill no tiene ninguna ruta de carga por red. Úsalo para investigación o trabajo que requiera 5 o más llamadas a herramientas.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -718,8 +724,9 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "9e94390e5912b1ff296556505cd999ff84838160",
+        "default_sha": "2d98d3194370780fdd837687bdc6390bafd5a6f5",
         "tags": [
+          "v3.12.0",
           "v3.11.2",
           "v3.11.1",
           "v3.11.0",
@@ -808,6 +815,7 @@
           "v2.1.0",
           "v2.0.1",
           "v2.0.0",
+          "v1.0.1",
           "v1.0.0"
         ]
       },
@@ -822,9 +830,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 26331,
-          "contributors": 44,
-          "last_commit": "2026-08-22T11:09:40Z",
+          "stars": 26488,
+          "contributors": 45,
+          "last_commit": "2026-08-31T10:10:43Z",
           "archived": false
         }
       }
@@ -833,13 +841,13 @@
       "name": "planning-with-files-zh",
       "shape": "skill",
       "source_path": "skills/i18n/planning-with-files-zh",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/9e94390e5912b1ff296556505cd999ff84838160/skills/i18n/planning-with-files-zh",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/2d98d3194370780fdd837687bdc6390bafd5a6f5/skills/i18n/planning-with-files-zh",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "planning-with-files-zh",
-          "description": "基于 Manus 风格的文件规划系统，用于组织和跟踪复杂任务的进度。创建 task_plan.md、findings.md 和 progress.md 三个文件。当用户要求规划、拆解或组织多步骤项目、研究任务或需要超过5次工具调用的工作时使用。支持 /clear 后的自动会话恢复。触发词：任务规划、项目计划、制定计划、分解任务、多步骤规划、进度跟踪、文件规划、帮我规划、拆解项目",
+          "description": "用于多步骤 AI 代理工作的持久化文件规划系统。将 task_plan.md、findings.md 和 progress.md 保存在磁盘上，生命周期钩子会注入选定的项目规划上下文。自动恢复只读取项目规划文件。只有显式运行 session-catchup.py --metadata 才会检查本机同项目的会话元数据；--replay 可输出有长度限制且由 nonce 框定的同项目摘录。可选门禁仅在宿主支持时请求继续，绝不执行 Markdown 中声明的命令。本技能没有网络上传路径。适用于研究或需要 5 次以上工具调用的工作。触发词：任务规划、项目计划、制定计划、分解任务、多步骤规划、进度跟踪、文件规划、帮我规划、拆解项目",
           "user-invocable": true,
           "allowed-tools": "Read Write Edit Bash Glob Grep",
           "hooks": {
@@ -898,12 +906,12 @@
             ]
           },
           "metadata": {
-            "version": "3.11.2"
+            "version": "3.12.1"
           }
         },
         "standard": {
           "name": "planning-with-files-zh",
-          "description": "基于 Manus 风格的文件规划系统，用于组织和跟踪复杂任务的进度。创建 task_plan.md、findings.md 和 progress.md 三个文件。当用户要求规划、拆解或组织多步骤项目、研究任务或需要超过5次工具调用的工作时使用。支持 /clear 后的自动会话恢复。触发词：任务规划、项目计划、制定计划、分解任务、多步骤规划、进度跟踪、文件规划、帮我规划、拆解项目",
+          "description": "用于多步骤 AI 代理工作的持久化文件规划系统。将 task_plan.md、findings.md 和 progress.md 保存在磁盘上，生命周期钩子会注入选定的项目规划上下文。自动恢复只读取项目规划文件。只有显式运行 session-catchup.py --metadata 才会检查本机同项目的会话元数据；--replay 可输出有长度限制且由 nonce 框定的同项目摘录。可选门禁仅在宿主支持时请求继续，绝不执行 Markdown 中声明的命令。本技能没有网络上传路径。适用于研究或需要 5 次以上工具调用的工作。触发词：任务规划、项目计划、制定计划、分解任务、多步骤规划、进度跟踪、文件规划、帮我规划、拆解项目",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -923,8 +931,9 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "9e94390e5912b1ff296556505cd999ff84838160",
+        "default_sha": "2d98d3194370780fdd837687bdc6390bafd5a6f5",
         "tags": [
+          "v3.12.0",
           "v3.11.2",
           "v3.11.1",
           "v3.11.0",
@@ -1013,6 +1022,7 @@
           "v2.1.0",
           "v2.0.1",
           "v2.0.0",
+          "v1.0.1",
           "v1.0.0"
         ]
       },
@@ -1027,9 +1037,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 26331,
-          "contributors": 44,
-          "last_commit": "2026-08-22T11:09:40Z",
+          "stars": 26488,
+          "contributors": 45,
+          "last_commit": "2026-08-31T10:10:43Z",
           "archived": false
         }
       }
@@ -1038,13 +1048,13 @@
       "name": "planning-with-files-zht",
       "shape": "skill",
       "source_path": "skills/i18n/planning-with-files-zht",
-      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/9e94390e5912b1ff296556505cd999ff84838160/skills/i18n/planning-with-files-zht",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files/tree/2d98d3194370780fdd837687bdc6390bafd5a6f5/skills/i18n/planning-with-files-zht",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "planning-with-files-zht",
-          "description": "基於 Manus 風格的檔案規劃系統，用於組織和追蹤複雜任務的進度。建立 task_plan.md、findings.md 和 progress.md 三個檔案。當使用者要求規劃、拆解或組織多步驟專案、研究任務或需要超過5次工具呼叫的工作時使用。支援 /clear 後的自動會話恢復。觸發詞：任務規劃、專案計畫、制定計畫、分解任務、多步驟規劃、進度追蹤、檔案規劃、幫我規劃、拆解專案",
+          "description": "用於多步驟 AI 代理工作的持久化檔案規劃。將 task_plan.md、findings.md 與 progress.md 保存在磁碟上，生命週期鉤子會注入選定的專案規劃內容。自動恢復只讀取專案規劃檔案；只有明確執行 session-catchup.py --metadata 才會檢查本機同一專案的代理工作階段中繼資料，--replay 則會輸出有界且以 nonce 框定的摘錄。選用的閘門模式只會在主機支援時要求繼續，而且絕不執行 Markdown 中宣告的命令。此技能沒有網路上傳路徑。適用於研究或需要超過 5 次工具呼叫的工作。觸發詞：任務規劃、專案計畫、制定計畫、分解任務、多步驟規劃、進度追蹤、檔案規劃、幫我規劃、拆解專案",
           "user-invocable": true,
           "allowed-tools": "Read Write Edit Bash Glob Grep",
           "hooks": {
@@ -1103,12 +1113,12 @@
             ]
           },
           "metadata": {
-            "version": "3.11.2"
+            "version": "3.12.1"
           }
         },
         "standard": {
           "name": "planning-with-files-zht",
-          "description": "基於 Manus 風格的檔案規劃系統，用於組織和追蹤複雜任務的進度。建立 task_plan.md、findings.md 和 progress.md 三個檔案。當使用者要求規劃、拆解或組織多步驟專案、研究任務或需要超過5次工具呼叫的工作時使用。支援 /clear 後的自動會話恢復。觸發詞：任務規劃、專案計畫、制定計畫、分解任務、多步驟規劃、進度追蹤、檔案規劃、幫我規劃、拆解專案",
+          "description": "用於多步驟 AI 代理工作的持久化檔案規劃。將 task_plan.md、findings.md 與 progress.md 保存在磁碟上，生命週期鉤子會注入選定的專案規劃內容。自動恢復只讀取專案規劃檔案；只有明確執行 session-catchup.py --metadata 才會檢查本機同一專案的代理工作階段中繼資料，--replay 則會輸出有界且以 nonce 框定的摘錄。選用的閘門模式只會在主機支援時要求繼續，而且絕不執行 Markdown 中宣告的命令。此技能沒有網路上傳路徑。適用於研究或需要超過 5 次工具呼叫的工作。觸發詞：任務規劃、專案計畫、制定計畫、分解任務、多步驟規劃、進度追蹤、檔案規劃、幫我規劃、拆解專案",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1128,8 +1138,9 @@
       },
       "available_refs": {
         "default": "master",
-        "default_sha": "9e94390e5912b1ff296556505cd999ff84838160",
+        "default_sha": "2d98d3194370780fdd837687bdc6390bafd5a6f5",
         "tags": [
+          "v3.12.0",
           "v3.11.2",
           "v3.11.1",
           "v3.11.0",
@@ -1218,6 +1229,7 @@
           "v2.1.0",
           "v2.0.1",
           "v2.0.0",
+          "v1.0.1",
           "v1.0.0"
         ]
       },
@@ -1232,9 +1244,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 26331,
-          "contributors": 44,
-          "last_commit": "2026-08-22T11:09:40Z",
+          "stars": 26488,
+          "contributors": 45,
+          "last_commit": "2026-08-31T10:10:43Z",
           "archived": false
         }
       }
@@ -1248,9 +1260,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 26331,
-      "contributors": 44,
-      "last_commit": "2026-08-22T11:09:40Z",
+      "stars": 26488,
+      "contributors": 45,
+      "last_commit": "2026-08-31T10:10:43Z",
       "archived": false
     }
   }
