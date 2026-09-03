@@ -1,30 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
   <title id="title">Alex ACT Brain Compiler</title>
-  <desc id="description">A Markdown brain is assessed into a capability graph and an immutable evidence report.</desc>
+  <desc id="description">Two capabilities for Markdown brain artifacts. Assess reads a project and reports a capability graph with a hash receipt. Compile turns a selected file or supplied text into a reviewable draft after a behavior check. Neither writes to a target without approval.</desc>
   <rect width="1200" height="320" fill="#f6faf9"/>
   <rect width="14" height="320" fill="#007c7a"/>
+
   <path d="M42 70H260" stroke="#007c7a" stroke-width="6"/>
   <text x="42" y="54" fill="#007c7a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">ALEX ACT</text>
   <text x="42" y="132" fill="#15243a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700">BRAIN COMPILER</text>
-  <text x="44" y="174" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20">Markdown-only assessment for AI agent projects.</text>
-  <g transform="translate(636 74)">
-    <rect x="0" y="0" width="122" height="76" rx="6" fill="#e0f1ef" stroke="#007c7a" stroke-width="2"/>
-    <text x="61" y="34" text-anchor="middle" fill="#005d5b" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">MARKDOWN</text>
-    <text x="61" y="56" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">brain files</text>
-    <path d="M138 38H186" stroke="#2d6cdf" stroke-width="3"/>
-    <path d="M180 30L192 38L180 46" fill="none" stroke="#2d6cdf" stroke-width="3"/>
-    <rect x="204" y="0" width="122" height="76" rx="6" fill="#e8eefc" stroke="#2d6cdf" stroke-width="2"/>
-    <text x="265" y="34" text-anchor="middle" fill="#1e4fa3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">GRAPH</text>
-    <text x="265" y="56" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">relationships</text>
-    <path d="M342 38H390" stroke="#d45d2b" stroke-width="3"/>
-    <path d="M384 30L396 38L384 46" fill="none" stroke="#d45d2b" stroke-width="3"/>
-    <rect x="408" y="0" width="122" height="76" rx="6" fill="#fbe9df" stroke="#d45d2b" stroke-width="2"/>
-    <text x="469" y="34" text-anchor="middle" fill="#a7441f" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">EVIDENCE</text>
-    <text x="469" y="56" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">hash receipt</text>
+  <text x="44" y="172" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19">Assess and author Markdown brain artifacts.</text>
+
+  <text x="44" y="242" fill="#15243a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">Read-only assessment. Review-first authoring.</text>
+  <text x="44" y="274" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">No target writes. No target execution. Nothing written without approval.</text>
+
+  <g transform="translate(636 44)">
+    <text x="0" y="34" fill="#005d5b" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">ASSESS</text>
+    <rect x="72" y="0" width="112" height="58" rx="6" fill="#e0f1ef" stroke="#007c7a" stroke-width="2"/>
+    <text x="128" y="26" text-anchor="middle" fill="#005d5b" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">MARKDOWN</text>
+    <text x="128" y="44" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">brain files</text>
+    <path d="M196 29H236" stroke="#2d6cdf" stroke-width="3"/>
+    <path d="M230 22L242 29L230 36" fill="none" stroke="#2d6cdf" stroke-width="3"/>
+    <rect x="252" y="0" width="112" height="58" rx="6" fill="#e8eefc" stroke="#2d6cdf" stroke-width="2"/>
+    <text x="308" y="26" text-anchor="middle" fill="#1e4fa3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">GRAPH</text>
+    <text x="308" y="44" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">relationships</text>
+    <path d="M376 29H416" stroke="#d45d2b" stroke-width="3"/>
+    <path d="M410 22L422 29L410 36" fill="none" stroke="#d45d2b" stroke-width="3"/>
+    <rect x="432" y="0" width="112" height="58" rx="6" fill="#fbe9df" stroke="#d45d2b" stroke-width="2"/>
+    <text x="488" y="26" text-anchor="middle" fill="#a7441f" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">REPORT</text>
+    <text x="488" y="44" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">hash receipt</text>
   </g>
-  <text x="636" y="208" fill="#15243a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">Assess the surface. Preserve the source.</text>
-  <text x="636" y="242" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">No target writes. No target execution. No implied runtime claims.</text>
-  <circle cx="1124" cy="262" r="22" fill="#007c7a"/>
-  <circle cx="1072" cy="262" r="14" fill="#2d6cdf"/>
-  <circle cx="1034" cy="262" r="8" fill="#d45d2b"/>
+
+  <g transform="translate(636 148)">
+    <text x="0" y="34" fill="#005d5b" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">COMPILE</text>
+    <rect x="72" y="0" width="112" height="58" rx="6" fill="#e0f1ef" stroke="#007c7a" stroke-width="2"/>
+    <text x="128" y="26" text-anchor="middle" fill="#005d5b" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">SOURCE</text>
+    <text x="128" y="44" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">file or text</text>
+    <path d="M196 29H236" stroke="#2d6cdf" stroke-width="3"/>
+    <path d="M230 22L242 29L230 36" fill="none" stroke="#2d6cdf" stroke-width="3"/>
+    <rect x="252" y="0" width="112" height="58" rx="6" fill="#e8eefc" stroke="#2d6cdf" stroke-width="2"/>
+    <text x="308" y="26" text-anchor="middle" fill="#1e4fa3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">REVIEW</text>
+    <text x="308" y="44" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">invariants held</text>
+    <path d="M376 29H416" stroke="#d45d2b" stroke-width="3"/>
+    <path d="M410 22L422 29L410 36" fill="none" stroke="#d45d2b" stroke-width="3"/>
+    <rect x="432" y="0" width="112" height="58" rx="6" fill="#fbe9df" stroke="#d45d2b" stroke-width="2"/>
+    <text x="488" y="26" text-anchor="middle" fill="#a7441f" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">DRAFT</text>
+    <text x="488" y="44" text-anchor="middle" fill="#4c6274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">you approve</text>
+  </g>
+
+  <circle cx="1124" cy="278" r="16" fill="#007c7a"/>
+  <circle cx="1084" cy="278" r="10" fill="#2d6cdf"/>
+  <circle cx="1054" cy="278" r="6" fill="#d45d2b"/>
 </svg>

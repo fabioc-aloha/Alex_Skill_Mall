@@ -231,13 +231,13 @@ function extractMarkdownLinks(content) {
 function classify(root, relativePath) {
     const basename = path.posix.basename(relativePath);
     const segments = relativePath.split('/');
-    const rootIsSkillLibrary = path.basename(root).toLowerCase() === 'skills';
+    const rootIsSkillLibrary = ['skills', 'skills-visual'].includes(path.basename(root).toLowerCase());
     if (!basename.endsWith('.md')) return null;
     if (['docs', 'brain', 'architecture', 'research'].includes(segments[0])) return 'research';
     if (basename === 'BRAIN.md' || basename.endsWith('.brain.md')) return 'brain-contract';
     if (basename.endsWith('.instructions.md') || ROOT_INSTRUCTIONS.has(basename)) return 'instruction';
     if (basename === 'SKILL.md') {
-        const skillIndex = segments.lastIndexOf('skills');
+        const skillIndex = segments.findIndex((segment) => ['skills', 'skills-visual'].includes(segment));
         return (skillIndex >= 0 && segments.length === skillIndex + 3) || (rootIsSkillLibrary && segments.length === 2) ? 'skill' : 'resource';
     }
     if (basename.endsWith('.prompt.md')) return 'prompt';
@@ -329,6 +329,37 @@ function validateManifestPaths(root, manifestRelativePath, manifest, findings) {
             validateComponentPath(root, manifestRelativePath, `assets.${field}[${index}]`, value, findings);
         });
     }
+}
+
+function buildSkillImportance(artifacts, relationships, normalizedBodies) {
+    const duplicatePaths = new Set(
+        [...normalizedBodies.values()]
+            .filter((paths) => paths.length > 1)
+            .flat(),
+    );
+    return artifacts
+        .filter((artifact) => artifact.type === 'skill')
+        .map((skill) => {
+            const skillDirectory = path.posix.dirname(skill.path);
+            const inboundRoutes = relationships.filter((relationship) => relationship.to === skill.path).length;
+            const outboundRoutes = relationships.filter((relationship) => relationship.from === skill.path).length;
+            const bundledResources = artifacts.filter((artifact) => artifact.type === 'resource'
+                && artifact.path.startsWith(`${skillDirectory}/`)).length;
+            const uniqueBody = !duplicatePaths.has(skill.path);
+            const staticImportanceScore = Math.min(inboundRoutes, 2) * 20
+                + Math.min(outboundRoutes, 2) * 5
+                + Math.min(bundledResources, 1) * 5
+                + (uniqueBody ? 5 : 0);
+            return {
+                id: skill.id,
+                path: skill.path,
+                staticImportanceScore,
+                maximumScore: 60,
+                signals: { inboundRoutes, outboundRoutes, bundledResources, uniqueBody },
+            };
+        })
+        .sort((left, right) => right.staticImportanceScore - left.staticImportanceScore
+            || left.path.localeCompare(right.path));
 }
 
 function analyze(root, includeHistory) {
@@ -429,7 +460,15 @@ function analyze(root, includeHistory) {
         counts[artifact.type] = (counts[artifact.type] || 0) + 1;
         bytes[artifact.type] = (bytes[artifact.type] || 0) + artifact.bytes;
     }
-    return { artifacts: artifacts.sort((left, right) => left.path.localeCompare(right.path)), relationships, findings, counts, bytes };
+    const sortedArtifacts = artifacts.sort((left, right) => left.path.localeCompare(right.path));
+    return {
+        artifacts: sortedArtifacts,
+        relationships,
+        findings,
+        counts,
+        bytes,
+        skillImportance: buildSkillImportance(sortedArtifacts, relationships, normalizedBodies),
+    };
 }
 
 function main() {
@@ -443,7 +482,7 @@ function main() {
     const analysis = analyze(root, options.includeHistory);
     const after = fingerprint(root);
     const report = {
-        schemaVersion: 1,
+        schemaVersion: 2,
         target: { fileCount: before.length, contentSha256: hashBuffer(stableJson(before)) },
         includeHistory: options.includeHistory,
         ...analysis,

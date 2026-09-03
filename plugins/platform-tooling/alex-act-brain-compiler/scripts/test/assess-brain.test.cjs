@@ -93,6 +93,26 @@ test('assesses a plugin-shaped target deterministically without target mutation'
     assert.ok(report.relationships.some((relationship) => relationship.state === 'explicitly-routed-skill'));
 });
 
+test('reports explainable structural importance for each skill', () => {
+    const root = targetFixture();
+    const result = assess(root);
+    assert.equal(result.status, 0, result.stderr);
+    const report = JSON.parse(result.stdout);
+
+    assert.deepEqual(report.skillImportance, [{
+        id: 'inspect',
+        path: '.github/skills/inspect/SKILL.md',
+        staticImportanceScore: 30,
+        maximumScore: 60,
+        signals: {
+            inboundRoutes: 1,
+            outboundRoutes: 0,
+            bundledResources: 1,
+            uniqueBody: true,
+        },
+    }]);
+});
+
 test('reports broken local links without executing target code', () => {
     const root = targetFixture();
     write(path.join(root, '.github', 'prompts', 'broken.prompt.md'), '[Missing](missing.md)\n');
@@ -130,6 +150,18 @@ test('classifies direct children of a skill-library root as skills', () => {
     const report = JSON.parse(result.stdout);
     assert.equal(report.counts.skill, 1);
     assert.equal(report.artifacts.find((artifact) => artifact.path === 'inspect/SKILL.md').type, 'skill');
+});
+
+test('classifies visual skill directories as skills', () => {
+    const root = temporaryDirectory('brain-compiler-visual-skills-');
+    write(path.join(root, 'skills-visual', 'chart', 'SKILL.md'), '---\nname: chart\ndescription: "Creates visualizations."\n---\n\n# Chart\n');
+
+    const result = assess(root);
+    assert.equal(result.status, 0, result.stderr);
+    const report = JSON.parse(result.stdout);
+
+    assert.equal(report.counts.skill, 1);
+    assert.equal(report.artifacts.find((artifact) => artifact.path === 'skills-visual/chart/SKILL.md').type, 'skill');
 });
 
 test('treats Markdown under documentation trees as research regardless of filename', () => {
@@ -400,4 +432,21 @@ test('scaffolds from the normalized Mall package layout', () => {
     assert.equal(result.status, 0, result.stderr);
     assert.equal(fs.existsSync(path.join(target, '.github', 'skills', 'compile-brain', 'SKILL.md')), true);
     assert.equal(fs.existsSync(path.join(target, '.github', 'prompts', 'compile-brain.prompt.md')), true);
+});
+
+test('compile contract requires semantic preservation review before approval', () => {
+    const skill = fs.readFileSync(compileSkill, 'utf8');
+    const prompt = fs.readFileSync(compilePrompt, 'utf8');
+
+    for (const content of [skill, prompt]) {
+        assert.match(content, /Semantic Preservation Gate/);
+        assert.match(content, /behavioral invariants/i);
+        assert.match(content, /relative links/i);
+        assert.match(content, /supporting resources/i);
+        assert.match(content, /scenario/i);
+        assert.match(content, /high-reduction/i);
+        assert.match(content, /conservative first pass/i);
+        assert.match(content, /20%/);
+        assert.match(content, /second pass/i);
+    }
 });
