@@ -1,19 +1,100 @@
 {
   "store": "copilot-agents-dojo",
   "source_repo": "https://github.com/andreaswasita/copilot-agents-dojo.git",
-  "generated_at": "2026-08-11T13:29:09.093Z",
-  "scanned_ref": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+  "generated_at": "2026-09-07T11:06:25.255Z",
+  "scanned_ref": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
   "provenance": false,
   "tier": "domain",
   "license": null,
   "reference_only": false,
-  "plugin_count": 28,
+  "plugin_count": 29,
   "plugins": [
+    {
+      "name": "architecture-sketching",
+      "shape": "skill",
+      "source_path": "skills/architecture-sketching",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/architecture-sketching",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "architecture-sketching",
+          "description": "Defines types and boundaries before implementation.",
+          "tier": "practical",
+          "category": "workflow",
+          "created_by": "human",
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "tags": [
+            "architecture",
+            "design",
+            "types",
+            "interfaces",
+            "boundaries"
+          ],
+          "author": "Andreas Wasita (@andreaswasita)"
+        },
+        "standard": {
+          "name": "architecture-sketching",
+          "description": "Defines types and boundaries before implementation.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": "workflow",
+          "tags": [
+            "architecture",
+            "design",
+            "types",
+            "interfaces",
+            "boundaries"
+          ],
+          "license": null,
+          "requires": null,
+          "author": "Andreas Wasita (@andreaswasita)"
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
+        "tags": [
+          "v1.3.0",
+          "v1.2.0",
+          "v1.1.0",
+          "v1.0.0",
+          "copilot-dojo-v0.1.0"
+        ]
+      },
+      "trust_score": 35,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 51,
+          "contributors": 3,
+          "last_commit": "2026-09-07T01:30:06Z",
+          "archived": false
+        }
+      }
+    },
     {
       "name": "autonomous-bug-fix",
       "shape": "skill",
       "source_path": "skills/autonomous-bug-fix",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/autonomous-bug-fix",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/autonomous-bug-fix",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -59,7 +140,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -68,20 +149,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -90,7 +171,7 @@
       "name": "behavioral-foundation",
       "shape": "skill",
       "source_path": "skills/behavioral-foundation",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/behavioral-foundation",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/behavioral-foundation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -136,7 +217,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -145,20 +226,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -167,7 +248,7 @@
       "name": "brainstorming",
       "shape": "skill",
       "source_path": "skills/brainstorming",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/brainstorming",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/brainstorming",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -213,7 +294,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -222,20 +303,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -244,7 +325,7 @@
       "name": "code-review",
       "shape": "skill",
       "source_path": "skills/code-review",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/code-review",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/code-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -290,7 +371,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -299,20 +380,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -321,7 +402,7 @@
       "name": "codebase-onboarding",
       "shape": "skill",
       "source_path": "skills/codebase-onboarding",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/codebase-onboarding",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/codebase-onboarding",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -367,7 +448,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -376,20 +457,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -398,7 +479,7 @@
       "name": "debugging",
       "shape": "skill",
       "source_path": "skills/debugging",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/debugging",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/debugging",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -444,7 +525,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -453,20 +534,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -475,7 +556,7 @@
       "name": "demand-elegance",
       "shape": "skill",
       "source_path": "skills/demand-elegance",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/demand-elegance",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/demand-elegance",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -521,7 +602,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -530,20 +611,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -552,7 +633,7 @@
       "name": "derive-nfr-from-driver",
       "shape": "skill",
       "source_path": "skills/derive-nfr-from-driver",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/derive-nfr-from-driver",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/derive-nfr-from-driver",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -601,7 +682,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -610,20 +691,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -632,7 +713,7 @@
       "name": "derive-security-from-risk",
       "shape": "skill",
       "source_path": "skills/derive-security-from-risk",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/derive-security-from-risk",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/derive-security-from-risk",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -683,7 +764,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -692,20 +773,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -714,7 +795,7 @@
       "name": "dispatching-parallel-agents",
       "shape": "skill",
       "source_path": "skills/dispatching-parallel-agents",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/dispatching-parallel-agents",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/dispatching-parallel-agents",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -760,7 +841,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -769,20 +850,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -791,7 +872,7 @@
       "name": "durable-work",
       "shape": "skill",
       "source_path": "skills/durable-work",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/durable-work",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/durable-work",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -839,7 +920,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -848,20 +929,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -870,7 +951,7 @@
       "name": "executing-plans",
       "shape": "skill",
       "source_path": "skills/executing-plans",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/executing-plans",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/executing-plans",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -916,7 +997,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -925,20 +1006,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -947,7 +1028,7 @@
       "name": "finishing-a-development-branch",
       "shape": "skill",
       "source_path": "skills/finishing-a-development-branch",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/finishing-a-development-branch",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/finishing-a-development-branch",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -993,7 +1074,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1002,20 +1083,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1024,7 +1105,7 @@
       "name": "plan-before-code",
       "shape": "skill",
       "source_path": "skills/plan-before-code",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/plan-before-code",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/plan-before-code",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1070,7 +1151,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1079,20 +1160,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1101,7 +1182,7 @@
       "name": "pr-workflow",
       "shape": "skill",
       "source_path": "skills/pr-workflow",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/pr-workflow",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/pr-workflow",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1147,7 +1228,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1156,20 +1237,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1178,7 +1259,7 @@
       "name": "receiving-code-review",
       "shape": "skill",
       "source_path": "skills/receiving-code-review",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/receiving-code-review",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/receiving-code-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1224,7 +1305,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1233,20 +1314,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1255,7 +1336,7 @@
       "name": "refactoring",
       "shape": "skill",
       "source_path": "skills/refactoring",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/refactoring",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/refactoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1301,7 +1382,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1310,20 +1391,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1332,7 +1413,7 @@
       "name": "requesting-code-review",
       "shape": "skill",
       "source_path": "skills/requesting-code-review",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/requesting-code-review",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/requesting-code-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1378,7 +1459,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1387,20 +1468,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1409,7 +1490,7 @@
       "name": "requirements-elicitation",
       "shape": "skill",
       "source_path": "skills/requirements-elicitation",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/requirements-elicitation",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/requirements-elicitation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1459,7 +1540,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1468,20 +1549,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1490,7 +1571,7 @@
       "name": "safety-guardrails",
       "shape": "skill",
       "source_path": "skills/safety-guardrails",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/safety-guardrails",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/safety-guardrails",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1536,7 +1617,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1545,20 +1626,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1567,7 +1648,7 @@
       "name": "security-audit",
       "shape": "skill",
       "source_path": "skills/security-audit",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/security-audit",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/security-audit",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1615,7 +1696,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1624,20 +1705,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1646,7 +1727,7 @@
       "name": "self-improvement",
       "shape": "skill",
       "source_path": "skills/self-improvement",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/self-improvement",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/self-improvement",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1694,7 +1775,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1703,20 +1784,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1725,7 +1806,7 @@
       "name": "subagent-strategy",
       "shape": "skill",
       "source_path": "skills/subagent-strategy",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/subagent-strategy",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/subagent-strategy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1771,7 +1852,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1780,20 +1861,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1802,7 +1883,7 @@
       "name": "test-writing",
       "shape": "skill",
       "source_path": "skills/test-writing",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/test-writing",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/test-writing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1848,7 +1929,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1857,20 +1938,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1879,7 +1960,7 @@
       "name": "traceability-gate",
       "shape": "skill",
       "source_path": "skills/traceability-gate",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/traceability-gate",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/traceability-gate",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1927,7 +2008,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -1936,20 +2017,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -1958,7 +2039,7 @@
       "name": "using-git-worktrees",
       "shape": "skill",
       "source_path": "skills/using-git-worktrees",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/using-git-worktrees",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/using-git-worktrees",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2004,7 +2085,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -2013,20 +2094,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -2035,7 +2116,7 @@
       "name": "using-superpowers",
       "shape": "skill",
       "source_path": "skills/using-superpowers",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/using-superpowers",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/using-superpowers",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2081,7 +2162,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -2090,20 +2171,20 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
@@ -2112,7 +2193,7 @@
       "name": "verify-before-done",
       "shape": "skill",
       "source_path": "skills/verify-before-done",
-      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/8207f1266911f420ab20b2ef0789760c4855fe9f/skills/verify-before-done",
+      "source_url": "https://github.com/andreaswasita/copilot-agents-dojo/tree/96d5d9d904eae69fadefcb1e0ee2d1fa9456101e/skills/verify-before-done",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2158,7 +2239,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8207f1266911f420ab20b2ef0789760c4855fe9f",
+        "default_sha": "96d5d9d904eae69fadefcb1e0ee2d1fa9456101e",
         "tags": [
           "v1.3.0",
           "v1.2.0",
@@ -2167,36 +2248,36 @@
           "copilot-dojo-v0.1.0"
         ]
       },
-      "trust_score": 32,
+      "trust_score": 35,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 5,
         "readme": 0,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
           "stars": 51,
           "contributors": 3,
-          "last_commit": "2026-07-20T12:25:24Z",
+          "last_commit": "2026-09-07T01:30:06Z",
           "archived": false
         }
       }
     }
   ],
   "store_trust": {
-    "score": 27,
+    "score": 30,
     "signals": {
       "provenance": 0,
-      "maintenance": 12,
+      "maintenance": 15,
       "adoption": 5,
       "license": 10,
       "license_name": "MIT",
       "stars": 51,
       "contributors": 3,
-      "last_commit": "2026-07-20T12:25:24Z",
+      "last_commit": "2026-09-07T01:30:06Z",
       "archived": false
     }
   }
