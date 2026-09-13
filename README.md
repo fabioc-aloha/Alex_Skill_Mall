@@ -2,7 +2,7 @@
 
 ![Alex ACT Plugin Mall](assets/banner.svg)
 
-Alex ACT Plugin Mall lets you add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable starting point, then add only the specializations that match your work.
+Alex ACT Plugin Mall lets you add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT ONE**, a single install that covers critical thinking, engineering craft, prose and documentation, document conversion, and visual authoring.
 
 The Mall publishes **359 curated plugins** for direct installation and maintains a **trust-scored discovery index** across **4,266 plugins** in **53 stores**.
 
@@ -32,8 +32,8 @@ copilot plugin marketplace browse alex-mall
 # Install a plugin (plugin@marketplace format)
 copilot plugin install <plugin-name>@alex-mall
 
-# Install the self-activating baseline
-copilot plugin install alex-act-core@alex-mall
+# Install the recommended runtime
+copilot plugin install alex-act-one@alex-mall
 ```
 
 Plugins install into `~/.copilot/installed-plugins/alex-mall/<plugin-name>/`.
@@ -52,25 +52,21 @@ copilot plugin marketplace remove alex-mall      # unregister the marketplace
 
 ## Build an Alex ACT setup
 
-Core is the self-activating baseline every Alex ACT installation needs. Native Copilot CLI commands provide plugin lifecycle; add the optional capabilities that match the work at hand.
+Alex ACT ONE is the recommended starting point. It installs once at user level, and Copilot CLI, VS Code, and Microsoft Scout all read the same copy on disk.
 
 | What you want to do | Plugin | Published version | What it adds |
 | --- | --- | --- | --- |
-| Give Copilot a reliable baseline across projects | [`alex-act-core`](https://github.com/fabioc-aloha/Alex_ACT_Core/tree/v4.0.1) | `4.0.1` | Critical thinking, planning, security and privacy guidance, project bootstrap, and plugin management |
-| Create charts, print figures, banners, AI images, or browsable documentation | [`alex-act-illustrator-plugin`](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin/tree/v2.5.1) | `2.5.1` | Visual framing, authoring, generation, and verification workflows |
-| Convert Markdown, Word, HTML, and email deliverables | [`alex-act-document-tools`](https://github.com/fabioc-aloha/Alex_ACT_Document_Tools/tree/v1.1.1) | `1.1.1` | Portable document conversion and polished rich-email workflows |
-| Set up public Microsoft tools for a project | [`alex-act-enterprise`](https://github.com/fabioc-aloha/alex-act-enterprise/tree/v1.1.1/packages/copilot) | `1.1.1` | Guided setup for Azure, Fabric, Power BI, and Microsoft 365 Agents Toolkit |
-| Plan and govern an optional provider workflow | [`alex-act-ai-operations`](https://github.com/fabioc-aloha/Alex_ACT_AI_Operations/tree/v0.2.1) | `0.2.1` | Provider-neutral discovery, explicit consent, and execution evidence for Foundry, Hugging Face, and ElevenLabs |
+| Give Copilot one dependable setup across every project | [`alex-act-one`](https://github.com/fabioc-aloha/Alex_ACT_ONE/tree/v0.1.1) | `0.1.1` | Critical thinking and problem framing, engineering craft, prose and documentation, document conversion, visual authoring, and agent brain authoring |
 
 ### Recommended path
 
-1. Install Core with `copilot plugin install alex-act-core@alex-mall`.
-2. Reload VS Code, open Copilot Chat, and run `/alex-act-core bootstrap-core`.
-3. Add an optional plugin when you know what you need:
-   - Visual work: `copilot plugin install alex-act-illustrator-plugin@alex-mall`
-   - Document production: `copilot plugin install alex-act-document-tools@alex-mall`
-   - Public Microsoft tools: `copilot plugin install alex-act-enterprise@alex-mall`
-   - Provider operations: `copilot plugin install alex-act-ai-operations@alex-mall`
+1. Install it with `copilot plugin install alex-act-one@alex-mall`.
+2. Turn on the always-on instructions once in each app you use, with `/alex-act-one bootstrap-core`. Activation previews every file and waits for your approval before writing anything.
+3. Skills are available immediately. Instructions apply per app, because each app keeps its own profile.
+
+### The earlier constellation
+
+Five plugins preceded Alex ACT ONE: `alex-act-core`, `alex-act-illustrator-plugin`, `alex-act-document-tools`, `alex-act-enterprise`, and `alex-act-ai-operations`. They stay published so existing installations keep working, and they are no longer maintained. Install Alex ACT ONE instead.
 
 > **Private specialization:** `alex-act-msft` is private and intended only for Microsoft-internal work. It is not published in this public Mall.
 
@@ -108,8 +104,7 @@ To make a project auto-install specific plugins for every collaborator, commit a
     }
   },
   "enabledPlugins": {
-    "alex-act-illustrator-plugin@alex-mall": true,
-    "alex-act-enterprise@alex-mall": true
+    "alex-act-one@alex-mall": true
   }
 }
 ```
