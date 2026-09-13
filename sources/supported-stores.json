@@ -180,6 +180,17 @@
       "note": ".NET MAUI experimental / pre-release tools. First-party from the dotnet org. 1 plugin declared. Discovered via Steward Phase 4 audit 2026-07-28."
     },
     {
+      "name": "dotnet-modernize",
+      "remote": "https://github.com/dotnet/modernize-dotnet.git",
+      "pluginDir": ".",
+      "quality": "dotnet-official",
+      "verified": true,
+      "verifiedDate": "2026-09-13",
+      "addedAt": "2026-09-13",
+      "provenance": false,
+      "note": ".NET modernization plugin. 1 plugin (modernize-dotnet). License unresolved by GitHub API (NOASSERTION). Discovered via Steward candidate sweep 2026-09-13."
+    },
+    {
       "name": "dotnet-skills",
       "remote": "https://github.com/dotnet/skills.git",
       "pluginDir": ".",
