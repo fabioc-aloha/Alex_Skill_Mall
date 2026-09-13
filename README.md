@@ -2,12 +2,12 @@
 
 ![Alex ACT Plugin Mall](assets/banner.svg)
 
-Alex ACT Plugin Mall lets users add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable working baseline, then add only the specializations that match your work.
+Alex ACT Plugin Mall lets you add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable starting point, then add only the specializations that match your work.
 
-The Mall publishes **359 curated plugins** for direct installation and maintains a **trust-scored discovery index** across **4266 plugins** in **53 stores**.
+The Mall publishes **359 curated plugins** for direct installation and maintains a **trust-scored discovery index** across **4,266 plugins** in **53 stores**.
 
-- Installation is **opt-in** and user-invoked. Publication does not mutate your projects.
-- Current release: **[v3.0.0](https://github.com/fabioc-aloha/Alex_Skill_Mall/releases/tag/v3.0.0)**. Rollback anchor: annotated tag `v2.0.0`.
+- Installation is **opt-in** and user-invoked. It never changes your existing projects.
+- Current release: **[v3.0.0](https://github.com/fabioc-aloha/Alex_Skill_Mall/releases/tag/v3.0.0)**.
 
 ---
 
