@@ -53,6 +53,18 @@
       "note": "Azure git-ape — platform-engineering framework for the agentic age. 2 plugins declared (git-ape, ape-context). Discovered via Steward Phase 4 audit 2026-07-28."
     },
     {
+      "name": "azure-sdk-tools",
+      "remote": "https://github.com/Azure/azure-sdk-tools.git",
+      "pluginDir": ".",
+      "quality": "microsoft-official",
+      "verified": true,
+      "verifiedDate": "2026-09-13",
+      "addedAt": "2026-09-13",
+      "provenance": false,
+      "note": "Azure SDK Team tooling. 1 plugin (azure-sdk-tools). Discovered via Steward candidate sweep 2026-09-13.",
+      "license": "MIT"
+    },
+    {
       "name": "buildwithclaude",
       "remote": "https://github.com/davepoon/buildwithclaude.git",
       "pluginDir": "plugins",
