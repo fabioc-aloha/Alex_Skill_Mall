@@ -363,6 +363,18 @@
       "note": "Microsoft Dataverse skills wrapping the Dataverse MCP server + CLI + Python SDK. 1 plugin declared. Discovered via Steward Phase 4 audit 2026-07-28."
     },
     {
+      "name": "microsoft-devsquad-copilot",
+      "remote": "https://github.com/microsoft/devsquad-copilot.git",
+      "pluginDir": ".",
+      "quality": "microsoft-official",
+      "verified": true,
+      "verifiedDate": "2026-09-13",
+      "addedAt": "2026-09-13",
+      "provenance": false,
+      "note": "Microsoft CSU DevSquad agentic workflow discipline. 1 plugin (devsquad). Discovered via Steward candidate sweep 2026-09-13.",
+      "license": "MIT"
+    },
+    {
       "name": "microsoft-fabric-skills",
       "remote": "https://github.com/microsoft/skills-for-fabric.git",
       "pluginDir": ".",
