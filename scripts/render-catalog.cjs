@@ -329,12 +329,12 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('');
   lines.push('![Alex ACT Plugin Mall](assets/banner.svg)');
   lines.push('');
-  lines.push('Alex ACT Plugin Mall lets users add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable working baseline, then add only the specializations that match your work.');
+  lines.push('Alex ACT Plugin Mall lets you add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable starting point, then add only the specializations that match your work.');
   lines.push('');
-  lines.push(`The Mall publishes **${curatedCount} curated plugins** for direct installation and maintains a **trust-scored discovery index** across **${index.plugin_count} plugins** in **${index.store_count} stores**.`);
+  lines.push(`The Mall publishes **${curatedCount} curated plugins** for direct installation and maintains a **trust-scored discovery index** across **${index.plugin_count.toLocaleString('en-US')} plugins** in **${index.store_count} stores**.`);
   lines.push('');
-  lines.push('- Installation is **opt-in** and user-invoked. Publication does not mutate your projects.');
-  lines.push('- Current release: **[v3.0.0](https://github.com/fabioc-aloha/Alex_Skill_Mall/releases/tag/v3.0.0)**. Rollback anchor: annotated tag `v2.0.0`.');
+  lines.push('- Installation is **opt-in** and user-invoked. It never changes your existing projects.');
+  lines.push('- Current release: **[v3.0.0](https://github.com/fabioc-aloha/Alex_Skill_Mall/releases/tag/v3.0.0)**.');
   lines.push('');
   lines.push('---');
   lines.push('');
