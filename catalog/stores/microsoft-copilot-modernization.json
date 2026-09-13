@@ -1,0 +1,108 @@
+{
+  "store": "microsoft-copilot-modernization",
+  "source_repo": "https://github.com/microsoft/github-copilot-modernization.git",
+  "generated_at": "2026-09-13T22:27:34.207Z",
+  "scanned_ref": "5d2a3268d816f794defb03a45cf527360b16071e",
+  "provenance": false,
+  "tier": "microsoft-official",
+  "license": "MIT",
+  "reference_only": false,
+  "plugin_count": 1,
+  "plugins": [
+    {
+      "name": "github-copilot-modernization",
+      "shape": "mixed",
+      "source_path": "plugins/github-copilot-modernization",
+      "source_url": "https://github.com/microsoft/github-copilot-modernization/tree/5d2a3268d816f794defb03a45cf527360b16071e/plugins/github-copilot-modernization",
+      "readme_excerpt": "[![Listed in Awesome Copilot](https://img.shields.io/badge/Listed_in-Awesome_Copilot-blue?logo=github)](https://awesome-copilot.github.com/plugins/#file=plugins%2Fgithub-copilot-modernization)",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "github-copilot-modernization",
+          "description": "Autonomous application modernization with assess → plan → execute workflow",
+          "version": "1.23.0",
+          "author": {
+            "name": "Microsoft",
+            "email": "copilot-support@microsoft.com"
+          },
+          "license": "MIT",
+          "keywords": [
+            "java",
+            "dotnet",
+            ".net",
+            "modernization",
+            "azure",
+            "migration",
+            "assessment"
+          ],
+          "agents": "agents/",
+          "skills": [
+            "skills/"
+          ],
+          "mcpServers": ".mcp.json"
+        },
+        "standard": {
+          "name": "github-copilot-modernization",
+          "description": "Autonomous application modernization with assess → plan → execute workflow",
+          "version": "1.23.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": [
+            "java",
+            "dotnet",
+            ".net",
+            "modernization",
+            "azure",
+            "migration",
+            "assessment"
+          ],
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5d2a3268d816f794defb03a45cf527360b16071e",
+        "tags": []
+      },
+      "trust_score": 41,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 42,
+          "contributors": 8,
+          "last_commit": "2026-08-27T07:38:16Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 28,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 3,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 42,
+      "contributors": 8,
+      "last_commit": "2026-08-27T07:38:16Z",
+      "archived": false
+    }
+  }
+}

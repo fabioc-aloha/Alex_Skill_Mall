@@ -1,0 +1,93 @@
+{
+  "store": "microsoft-devsquad-copilot",
+  "source_repo": "https://github.com/microsoft/devsquad-copilot.git",
+  "generated_at": "2026-09-13T22:27:34.214Z",
+  "scanned_ref": "3ae856c6bdd455a059815df96e945116c0239c8f",
+  "provenance": false,
+  "tier": "microsoft-official",
+  "license": "MIT",
+  "reference_only": false,
+  "plugin_count": 1,
+  "plugins": [
+    {
+      "name": "docs",
+      "shape": "unknown",
+      "source_path": "docs",
+      "source_url": "https://github.com/microsoft/devsquad-copilot/tree/3ae856c6bdd455a059815df96e945116c0239c8f/docs",
+      "readme_excerpt": "[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "docs",
+          "description": "[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "3ae856c6bdd455a059815df96e945116c0239c8f",
+        "tags": [
+          "v0.12.0",
+          "v0.11.1",
+          "v0.11.0",
+          "v0.10.0",
+          "v0.9.0",
+          "v0.8.1",
+          "v0.8.0",
+          "v0.7.2",
+          "v0.7.1",
+          "v0.7.0",
+          "v0.6.1",
+          "v0.6.0",
+          "v0.3.0",
+          "v0.2.0",
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 38,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 44,
+          "contributors": 6,
+          "last_commit": "2026-09-13T05:52:25Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 28,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 3,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 44,
+      "contributors": 6,
+      "last_commit": "2026-09-13T05:52:25Z",
+      "archived": false
+    }
+  }
+}
