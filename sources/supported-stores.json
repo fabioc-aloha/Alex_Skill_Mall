@@ -1,6 +1,6 @@
 {
   "$schema": "./supported-stores.schema.json",
-  "lastUpdated": "2026-08-11",
+  "lastUpdated": "2026-09-13",
   "purpose": "Single source of truth for Mall source discovery, scanning, trust scoring, rendering, and structural validation. Consumed by bootstrap-sources.cjs, scan-sources.cjs, list-refs.cjs, fetch-github-stats.cjs, compute-trust.cjs, render-catalog.cjs, and validate-catalog.cjs.",
   "stores": [
     {
@@ -197,16 +197,6 @@
       "verifiedDate": "2026-08-11",
       "addedAt": "2026-08-11",
       "note": "Official ElevenLabs speech, audio, music, and voice skills. Eleven records add ten unique names beyond the existing text-to-speech entry. Store evaluation 10/10; disposable Mall scan normalized 10/11 descriptions, with one repository support directory retained as an unknown-shape record."
-    },
-    {
-      "name": "everything-claude-code",
-      "remote": "https://github.com/WorldFlowAI/everything-claude-code.git",
-      "pluginDir": ".",
-      "quality": "community",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Resolved 2026-05-25 by name search; multi-type plugin store (agents/, commands/, skills/, plugins/, rules/, hooks/, mcp-configs/).",
-      "provenance": false
     },
     {
       "name": "expo-skills",
@@ -508,5 +498,19 @@
       "provenance": false
     }
   ],
-  "schema_version": "2.0"
+  "schema_version": "2.0",
+  "retired": [
+    {
+      "name": "everything-claude-code",
+      "remote": "https://github.com/WorldFlowAI/everything-claude-code.git",
+      "pluginDir": ".",
+      "quality": "community",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Resolved 2026-05-25 by name search; multi-type plugin store (agents/, commands/, skills/, plugins/, rules/, hooks/, mcp-configs/).",
+      "provenance": false,
+      "pruned_pending": "2026-09-13",
+      "pruned_reason": "232 days without a commit; trust 13, lowest in the registry"
+    }
+  ]
 }
