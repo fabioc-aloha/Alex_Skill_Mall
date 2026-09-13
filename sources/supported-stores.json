@@ -33,16 +33,6 @@
       "provenance": false
     },
     {
-      "name": "awesome-claude-code-toolkit",
-      "remote": "https://github.com/rohitg00/awesome-claude-code-toolkit.git",
-      "pluginDir": ".",
-      "quality": "community-curated",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Tier 2 adoption 2026-05-25. Multi-type: agents/, commands/, plugins/, skills/, hooks/.",
-      "provenance": false
-    },
-    {
       "name": "awesome-copilot",
       "remote": "https://github.com/github/awesome-copilot.git",
       "pluginDir": ".",
@@ -515,6 +505,18 @@
       "reference_only": true,
       "pruned_pending": "2026-09-13",
       "pruned_reason": "137 days without a commit; not-cli and already reference_only, yielding 2 plugins"
+    },
+    {
+      "name": "awesome-claude-code-toolkit",
+      "remote": "https://github.com/rohitg00/awesome-claude-code-toolkit.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Tier 2 adoption 2026-05-25. Multi-type: agents/, commands/, plugins/, skills/, hooks/.",
+      "provenance": false,
+      "pruned_pending": "2026-09-13",
+      "pruned_reason": "124 days without a commit"
     }
   ]
 }
