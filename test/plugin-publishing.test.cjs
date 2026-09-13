@@ -319,12 +319,10 @@ test('contributor PR workflow validates without auto-merging', () => {
   assert.match(scanWorkflow, /gh pr merge[^\n]+--auto/);
 });
 
-test('generated storefront advertises the current Alex ACT constellation and canonical admin flows', () => {
+test('generated storefront advertises the maintained runtime and its install path', () => {
   const renderer = fs.readFileSync(path.join(ROOT, 'scripts', 'render-catalog.cjs'), 'utf8');
   const storefront = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
   for (const content of [renderer, storefront]) {
-    assert.match(content, /Maintainer operations/);
-    assert.match(content, /Publish a plugin/);
     assert.match(content, /Build an Alex ACT setup/);
     assert.match(content, /Published version/);
     assert.match(content, /alex-act-one@alex-mall/);
@@ -334,13 +332,31 @@ test('generated storefront advertises the current Alex ACT constellation and can
     assert.match(content, /github\.copilot\.chat\.skillTool\.enabled/);
     assert.match(content, /chat\.editing\.revealNextChangeOnResolve/);
     assert.match(content, /alex-act-msft.*is private/);
-    assert.match(content, /npm install --ignore-scripts/);
-    assert.match(content, /npm run vendor/);
-    assert.match(content, /npm run submit:prepare/);
-    assert.match(content, /branch protection/);
+    assert.match(content, /branch protection|CONTRIBUTING\.md/);
     assert.doesNotMatch(content, /flint-chart-plugin@alex-mall/);
   }
   assert.doesNotMatch(renderer, /lines\.push\('npm ci'\)/);
+});
+
+// The storefront is read by someone deciding whether to install, not by a
+// maintainer. Contributor and maintainer procedure lives in CONTRIBUTING.md and
+// the scoring docs; Edition is retired and ships no mall prompts.
+test('storefront keeps internal process and retired surfaces out', () => {
+  const storefront = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
+  for (const pattern of [
+    /npm run vendor/,
+    /npm run maintain/,
+    /npm run submit:prepare/,
+    /admin:configure-approval/,
+    /Alex_ACT_Edition/,
+    /\/mall-search/,
+    /\/mall-install/,
+    /Score distribution/,
+  ]) {
+    assert.doesNotMatch(storefront, pattern, `storefront must not carry ${pattern}`);
+  }
+  assert.match(storefront, /CONTRIBUTING\.md/, 'contributors need a pointer to the real procedure');
+  assert.match(storefront, /How trust scoring works/, 'published signals stay on the storefront');
 });
 
 // This replaces hardcoded version literals. Pinning them made the check enforce
