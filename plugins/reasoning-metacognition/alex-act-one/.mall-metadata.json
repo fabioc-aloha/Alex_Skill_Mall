@@ -1,0 +1,19 @@
+{
+  "schema": "mall-plugin-metadata/2.0",
+  "provenance": "first-party",
+  "delivery": {
+    "mode": "source",
+    "adr": "ADR-023",
+    "reason": "Delivered from the origin repository at a release tag, so the Mall keeps no vendored copy that can drift from source. A vendored payload would also exceed the Windows plugin file limit at this package's size.",
+    "source": {
+      "source": "github",
+      "repo": "fabioc-aloha/Alex_ACT_ONE",
+      "ref": "v0.1.1"
+    }
+  },
+  "upstream": {
+    "repo": "https://github.com/fabioc-aloha/Alex_ACT_ONE",
+    "license": "MIT",
+    "ref": "v0.1.1"
+  }
+}
