@@ -327,21 +327,9 @@ test('generated storefront advertises the current Alex ACT constellation and can
     assert.match(content, /Publish a plugin/);
     assert.match(content, /Build an Alex ACT setup/);
     assert.match(content, /Published version/);
-    assert.match(content, /alex-act-core@alex-mall/);
-    assert.match(content, /alex-act-illustrator-plugin@alex-mall/);
-    assert.match(content, /alex-act-document-tools@alex-mall/);
-    assert.match(content, /alex-act-enterprise@alex-mall/);
-    assert.match(content, /alex-act-ai-operations@alex-mall/);
-    assert.match(content, /`4\.0\.1`/);
-    assert.match(content, /`2\.5\.1`/);
-    assert.match(content, /`1\.1\.1`/);
-    assert.match(content, /`0\.2\.1`/);
-    assert.match(content, /Alex_ACT_Core\/tree\/v4\.0\.1/);
-    assert.match(content, /Alex_ACT_Illustrator_Plugin\/tree\/v2\.5\.1/);
-    assert.match(content, /Alex_ACT_Document_Tools\/tree\/v1\.1\.1/);
-    assert.match(content, /alex-act-enterprise\/tree\/v1\.1\.1\/packages\/copilot/);
-    assert.match(content, /Alex_ACT_AI_Operations\/tree\/v0\.2\.1/);
-    assert.match(content, /\/alex-act-core bootstrap-core/);
+    assert.match(content, /alex-act-one@alex-mall/);
+    assert.match(content, /\/alex-act-one bootstrap-core/);
+    assert.match(content, /no longer maintained/);
     assert.doesNotMatch(content, /alex-act-manager|Alex_ACT_Manager/);
     assert.match(content, /github\.copilot\.chat\.skillTool\.enabled/);
     assert.match(content, /chat\.editing\.revealNextChangeOnResolve/);
@@ -353,4 +341,39 @@ test('generated storefront advertises the current Alex ACT constellation and can
     assert.doesNotMatch(content, /flint-chart-plugin@alex-mall/);
   }
   assert.doesNotMatch(renderer, /lines\.push\('npm ci'\)/);
+});
+
+// This replaces hardcoded version literals. Pinning them made the check enforce
+// staleness: the storefront advertised Core 4.0.1 and Document Tools 1.1.1 long
+// after the manifest served 4.1.0 and 1.2.0, and the test kept it that way.
+test('storefront advertises Alex ACT ONE at the version the marketplace serves', () => {
+  const storefront = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
+  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, '.github', 'plugin', 'marketplace.json'), 'utf8'));
+  const record = manifest.plugins.find((p) => p.name === 'alex-act-one');
+  assert.ok(record, 'alex-act-one must have a marketplace record');
+  assert.ok(
+    storefront.includes(`\`${record.version}\``),
+    `storefront must show the served version ${record.version}`,
+  );
+  assert.ok(
+    storefront.includes(`${record.source.repo}/tree/${record.source.ref}`),
+    `storefront must link the served ref ${record.source.ref}`,
+  );
+});
+
+test('storefront does not promote the retired constellation', () => {
+  const storefront = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
+  const retired = [
+    'alex-act-core',
+    'alex-act-illustrator-plugin',
+    'alex-act-document-tools',
+    'alex-act-ai-operations',
+  ];
+  for (const name of retired) {
+    assert.ok(
+      !storefront.includes(`copilot plugin install ${name}@alex-mall`),
+      `${name} is no longer maintained and must not be advertised as an install`,
+    );
+  }
+  assert.match(storefront, /no longer maintained/);
 });

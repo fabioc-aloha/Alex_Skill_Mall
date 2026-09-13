@@ -38,6 +38,7 @@ const CATALOG_CATEGORIES_DIR = path.join(CATALOG_DIR, 'categories');
 const SCORING_DIR = path.join(REPO_ROOT, 'scoring');
 const SOURCES_DIR = path.join(REPO_ROOT, 'sources');
 const SUPPORTED_PATH = path.join(SOURCES_DIR, 'supported-stores.json');
+const MARKETPLACE_PATH = path.join(REPO_ROOT, '.github', 'plugin', 'marketplace.json');
 const TRUST_AUDIT_JSON_PATH = path.join(SCORING_DIR, 'trust-audit.json');
 
 const DRY_RUN = process.argv.includes('--dry-run');
@@ -322,6 +323,26 @@ function renderTrustAuditMd(auditJson) {
 
 // --- Storefront README ---
 
+// Published versions come from the manifest the CLI actually installs from.
+// Hand-written ones drifted: the table claimed Core 4.0.1 and Illustrator 2.5.1
+// while the manifest served 4.1.0 and 2.5.2.
+function publishedVersions() {
+  try {
+    const manifest = JSON.parse(fs.readFileSync(MARKETPLACE_PATH, 'utf8'));
+    return new Map((manifest.plugins || []).map((p) => [p.name, { version: p.version, ref: p.source?.ref, repo: p.source?.repo }]));
+  } catch {
+    return new Map();
+  }
+}
+
+function pluginRow(versions, name, fallbackRepo, fallbackVersion) {
+  const record = versions.get(name) || {};
+  const version = record.version || fallbackVersion;
+  const repo = record.repo || fallbackRepo;
+  const ref = record.ref || `v${version}`;
+  return { link: `[\`${name}\`](https://github.com/${repo}/tree/${ref})`, version: `\`${version}\`` };
+}
+
 function renderStorefrontReadme(stores, index, auditJson) {
   const curatedCount = stores.find((s) => s.store === 'plugin-mall')?.plugin_count || 365;
   const lines = [];
@@ -329,7 +350,7 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('');
   lines.push('![Alex ACT Plugin Mall](assets/banner.svg)');
   lines.push('');
-  lines.push('Alex ACT Plugin Mall lets you add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT Core** for a dependable starting point, then add only the specializations that match your work.');
+  lines.push('Alex ACT Plugin Mall lets you add trusted capabilities to GitHub Copilot without copying a whole AI setup into every project. Start with **Alex ACT ONE**, a single install that covers critical thinking, engineering craft, prose and documentation, document conversion, and visual authoring.');
   lines.push('');
   lines.push(`The Mall publishes **${curatedCount} curated plugins** for direct installation and maintains a **trust-scored discovery index** across **${index.plugin_count.toLocaleString('en-US')} plugins** in **${index.store_count} stores**.`);
   lines.push('');
@@ -359,8 +380,8 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('# Install a plugin (plugin@marketplace format)');
   lines.push('copilot plugin install <plugin-name>@alex-mall');
   lines.push('');
-  lines.push('# Install the self-activating baseline');
-  lines.push('copilot plugin install alex-act-core@alex-mall');
+  lines.push('# Install the recommended runtime');
+  lines.push('copilot plugin install alex-act-one@alex-mall');
   lines.push('```');
   lines.push('');
   lines.push('Plugins install into `~/.copilot/installed-plugins/alex-mall/<plugin-name>/`.');
@@ -379,25 +400,24 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('');
   lines.push('## Build an Alex ACT setup');
   lines.push('');
-  lines.push('Core is the self-activating baseline every Alex ACT installation needs. Native Copilot CLI commands provide plugin lifecycle; add the optional capabilities that match the work at hand.');
+  const versions = publishedVersions();
+  const one = pluginRow(versions, 'alex-act-one', 'fabioc-aloha/Alex_ACT_ONE', '0.1.1');
+
+  lines.push('Alex ACT ONE is the recommended starting point. It installs once at user level, and Copilot CLI, VS Code, and Microsoft Scout all read the same copy on disk.');
   lines.push('');
   lines.push('| What you want to do | Plugin | Published version | What it adds |');
   lines.push('| --- | --- | --- | --- |');
-  lines.push('| Give Copilot a reliable baseline across projects | [`alex-act-core`](https://github.com/fabioc-aloha/Alex_ACT_Core/tree/v4.0.1) | `4.0.1` | Critical thinking, planning, security and privacy guidance, project bootstrap, and plugin management |');
-  lines.push('| Create charts, print figures, banners, AI images, or browsable documentation | [`alex-act-illustrator-plugin`](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin/tree/v2.5.1) | `2.5.1` | Visual framing, authoring, generation, and verification workflows |');
-  lines.push('| Convert Markdown, Word, HTML, and email deliverables | [`alex-act-document-tools`](https://github.com/fabioc-aloha/Alex_ACT_Document_Tools/tree/v1.1.1) | `1.1.1` | Portable document conversion and polished rich-email workflows |');
-  lines.push('| Set up public Microsoft tools for a project | [`alex-act-enterprise`](https://github.com/fabioc-aloha/alex-act-enterprise/tree/v1.1.1/packages/copilot) | `1.1.1` | Guided setup for Azure, Fabric, Power BI, and Microsoft 365 Agents Toolkit |');
-  lines.push('| Plan and govern an optional provider workflow | [`alex-act-ai-operations`](https://github.com/fabioc-aloha/Alex_ACT_AI_Operations/tree/v0.2.1) | `0.2.1` | Provider-neutral discovery, explicit consent, and execution evidence for Foundry, Hugging Face, and ElevenLabs |');
+  lines.push(`| Give Copilot one dependable setup across every project | ${one.link} | ${one.version} | Critical thinking and problem framing, engineering craft, prose and documentation, document conversion, visual authoring, and agent brain authoring |`);
   lines.push('');
   lines.push('### Recommended path');
   lines.push('');
-  lines.push('1. Install Core with `copilot plugin install alex-act-core@alex-mall`.');
-  lines.push('2. Reload VS Code, open Copilot Chat, and run `/alex-act-core bootstrap-core`.');
-  lines.push('3. Add an optional plugin when you know what you need:');
-  lines.push('   - Visual work: `copilot plugin install alex-act-illustrator-plugin@alex-mall`');
-  lines.push('   - Document production: `copilot plugin install alex-act-document-tools@alex-mall`');
-  lines.push('   - Public Microsoft tools: `copilot plugin install alex-act-enterprise@alex-mall`');
-  lines.push('   - Provider operations: `copilot plugin install alex-act-ai-operations@alex-mall`');
+  lines.push('1. Install it with `copilot plugin install alex-act-one@alex-mall`.');
+  lines.push('2. Turn on the always-on instructions once in each app you use, with `/alex-act-one bootstrap-core`. Activation previews every file and waits for your approval before writing anything.');
+  lines.push('3. Skills are available immediately. Instructions apply per app, because each app keeps its own profile.');
+  lines.push('');
+  lines.push('### The earlier constellation');
+  lines.push('');
+  lines.push('Five plugins preceded Alex ACT ONE: `alex-act-core`, `alex-act-illustrator-plugin`, `alex-act-document-tools`, `alex-act-enterprise`, and `alex-act-ai-operations`. They stay published so existing installations keep working, and they are no longer maintained. Install Alex ACT ONE instead.');
   lines.push('');
   lines.push('> **Private specialization:** `alex-act-msft` is private and intended only for Microsoft-internal work. It is not published in this public Mall.');
   lines.push('');
@@ -435,8 +455,7 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('    }');
   lines.push('  },');
   lines.push('  "enabledPlugins": {');
-  lines.push('    "alex-act-illustrator-plugin@alex-mall": true,');
-  lines.push('    "alex-act-enterprise@alex-mall": true');
+  lines.push('    "alex-act-one@alex-mall": true');
   lines.push('  }');
   lines.push('}');
   lines.push('```');
