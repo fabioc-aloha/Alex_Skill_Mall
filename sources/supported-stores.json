@@ -361,6 +361,18 @@
       "notes": "Microsoft official Windows app dev skills (WinUI 3 + Windows App SDK). 8 SKILL.md units at plugins/winui/skills/<name>/SKILL.md (winui-setup, winui-design, winui-packaging, winui-code-review, etc.). pluginDir is scoped to winui because the repo has plugins/<area>/skills/<name>/ 3-level layout and the scanner walks 2 levels; if Microsoft adds non-WinUI areas later, repoint pluginDir or split entries. Score 9/10 (M:2 A:1 L:2 F:2 D:2). Verified by dry-run clone 2026-06-23."
     },
     {
+      "name": "microsoft-winapp-cli",
+      "remote": "https://github.com/microsoft/winappCli.git",
+      "pluginDir": ".",
+      "quality": "microsoft-official",
+      "verified": true,
+      "verifiedDate": "2026-09-13",
+      "addedAt": "2026-09-13",
+      "provenance": false,
+      "note": "Windows App Development CLI. 1 plugin (winappcli). Discovered via Steward candidate sweep 2026-09-13.",
+      "license": "MIT"
+    },
+    {
       "name": "microsoftdocs-agent-skills",
       "remote": "https://github.com/MicrosoftDocs/Agent-Skills.git",
       "pluginDir": ".",
