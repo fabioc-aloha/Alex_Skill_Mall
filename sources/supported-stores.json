@@ -52,17 +52,6 @@
       "provenance": false
     },
     {
-      "name": "awesome-copilot-agents",
-      "remote": "https://github.com/Code-and-Sorts/awesome-copilot-agents.git",
-      "pluginDir": ".",
-      "quality": "community-curated",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "note": "Resolved 2026-05-25 by name search; multi-type store with agents/, instructions/, prompts/, skills/. pluginDir changed from 'skills' to '.' to match actual layout.",
-      "provenance": false,
-      "reference_only": true
-    },
-    {
       "name": "azure-git-ape",
       "remote": "https://github.com/Azure/git-ape.git",
       "pluginDir": ".",
@@ -513,6 +502,19 @@
       "provenance": false,
       "pruned_pending": "2026-09-13",
       "pruned_reason": "146 days without a commit; reference-tier entry yielding 1 plugin"
+    },
+    {
+      "name": "awesome-copilot-agents",
+      "remote": "https://github.com/Code-and-Sorts/awesome-copilot-agents.git",
+      "pluginDir": ".",
+      "quality": "community-curated",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "note": "Resolved 2026-05-25 by name search; multi-type store with agents/, instructions/, prompts/, skills/. pluginDir changed from 'skills' to '.' to match actual layout.",
+      "provenance": false,
+      "reference_only": true,
+      "pruned_pending": "2026-09-13",
+      "pruned_reason": "137 days without a commit; not-cli and already reference_only, yielding 2 plugins"
     }
   ]
 }
