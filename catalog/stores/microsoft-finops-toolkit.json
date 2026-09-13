@@ -1,0 +1,241 @@
+{
+  "store": "microsoft-finops-toolkit",
+  "source_repo": "https://github.com/microsoft/finops-toolkit.git",
+  "generated_at": "2026-09-13T22:27:34.228Z",
+  "scanned_ref": "34d8beb5a905f3ce405529748814aea3a8091fc5",
+  "provenance": false,
+  "tier": "microsoft-official",
+  "license": "MIT",
+  "reference_only": false,
+  "plugin_count": 3,
+  "plugins": [
+    {
+      "name": "announce",
+      "shape": "unknown",
+      "source_path": "announce",
+      "source_url": "https://github.com/microsoft/finops-toolkit/tree/34d8beb5a905f3ce405529748814aea3a8091fc5/announce",
+      "readme_excerpt": "FinOps toolkit blog posts and announcements published to the [FinOps Tech Community blog](https://techcommunity.microsoft.com/tag/finops%20toolkit?nodeId=board%3AFinOpsBlog) and other channels. Used a",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "announce",
+          "description": "FinOps toolkit blog posts and announcements published to the [FinOps Tech Community blog](https://techcommunity.microsoft.com/tag/finops%20toolkit?nodeId=board%3AFinOpsBlog) and other channels. Used a",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "dev",
+        "default_sha": "34d8beb5a905f3ce405529748814aea3a8091fc5",
+        "tags": [
+          "v14",
+          "v13",
+          "v12",
+          "v0.11",
+          "v0.10",
+          "v0.9",
+          "v0.8",
+          "v0.7",
+          "v0.6",
+          "v0.5",
+          "v0.4",
+          "v0.3",
+          "v0.2.1",
+          "v0.2",
+          "v0.1.1",
+          "v0.1",
+          "v0.0.1-alpha",
+          "v0.0.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 601,
+          "contributors": 41,
+          "last_commit": "2026-09-12T05:08:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "docs",
+      "shape": "unknown",
+      "source_path": "docs",
+      "source_url": "https://github.com/microsoft/finops-toolkit/tree/34d8beb5a905f3ce405529748814aea3a8091fc5/docs",
+      "readme_excerpt": "layout: default",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "layout": "default",
+          "title": "FinOps toolkit - Kick start your FinOps efforts",
+          "nav_order": 1,
+          "nav_exclude": true,
+          "description": "Automate and extend the Microsoft Cloud with starter kits, scripts, and advanced solutions to accelerate your FinOps journey.",
+          "permalink": "/"
+        },
+        "standard": {
+          "name": "docs",
+          "description": "Automate and extend the Microsoft Cloud with starter kits, scripts, and advanced solutions to accelerate your FinOps journey.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "dev",
+        "default_sha": "34d8beb5a905f3ce405529748814aea3a8091fc5",
+        "tags": [
+          "v14",
+          "v13",
+          "v12",
+          "v0.11",
+          "v0.10",
+          "v0.9",
+          "v0.8",
+          "v0.7",
+          "v0.6",
+          "v0.5",
+          "v0.4",
+          "v0.3",
+          "v0.2.1",
+          "v0.2",
+          "v0.1.1",
+          "v0.1",
+          "v0.0.1-alpha",
+          "v0.0.1"
+        ]
+      },
+      "trust_score": 38,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 1,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 601,
+          "contributors": 41,
+          "last_commit": "2026-09-12T05:08:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "src",
+      "shape": "unknown",
+      "source_path": "src",
+      "source_url": "https://github.com/microsoft/finops-toolkit/tree/34d8beb5a905f3ce405529748814aea3a8091fc5/src",
+      "readme_excerpt": "**Welcome aboard!** 👋 If this is your first time to our repo, here are a few tips:",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "src",
+          "description": "**Welcome aboard!** 👋 If this is your first time to our repo, here are a few tips:",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "dev",
+        "default_sha": "34d8beb5a905f3ce405529748814aea3a8091fc5",
+        "tags": [
+          "v14",
+          "v13",
+          "v12",
+          "v0.11",
+          "v0.10",
+          "v0.9",
+          "v0.8",
+          "v0.7",
+          "v0.6",
+          "v0.5",
+          "v0.4",
+          "v0.3",
+          "v0.2.1",
+          "v0.2",
+          "v0.1.1",
+          "v0.1",
+          "v0.0.1-alpha",
+          "v0.0.1"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 601,
+          "contributors": 41,
+          "last_commit": "2026-09-12T05:08:10Z",
+          "archived": false
+        }
+      }
+    }
+  ],
+  "store_trust": {
+    "score": 32,
+    "signals": {
+      "provenance": 0,
+      "maintenance": 15,
+      "adoption": 7,
+      "license": 10,
+      "license_name": "MIT",
+      "stars": 601,
+      "contributors": 41,
+      "last_commit": "2026-09-12T05:08:10Z",
+      "archived": false
+    }
+  }
+}

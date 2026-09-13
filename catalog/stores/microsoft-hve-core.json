@@ -1,19 +1,19 @@
 {
   "store": "microsoft-hve-core",
   "source_repo": "https://github.com/microsoft/hve-core.git",
-  "generated_at": "2026-09-07T11:06:25.422Z",
-  "scanned_ref": "8aa6b214461e06df5b304ee48027fc49dfb5fd6f",
+  "generated_at": "2026-09-13T22:27:34.229Z",
+  "scanned_ref": "9bf1a30022ca907e06d93baa00f87cf889ee573b",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
   "reference_only": false,
-  "plugin_count": 3,
+  "plugin_count": 4,
   "plugins": [
     {
       "name": "docs",
       "shape": "agent",
       "source_path": "docs",
-      "source_url": "https://github.com/microsoft/hve-core/tree/8aa6b214461e06df5b304ee48027fc49dfb5fd6f/docs",
+      "source_url": "https://github.com/microsoft/hve-core/tree/9bf1a30022ca907e06d93baa00f87cf889ee573b/docs",
       "readme_excerpt": "title: HVE Core Documentation",
       "frontmatter": {
         "kind": "agent-md",
@@ -59,8 +59,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8aa6b214461e06df5b304ee48027fc49dfb5fd6f",
+        "default_sha": "9bf1a30022ca907e06d93baa00f87cf889ee573b",
         "tags": [
+          "snapshot-20260908",
           "snapshot-20260901",
           "plugins-v3.3.106",
           "plugins-v3.3.105",
@@ -111,9 +112,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1436,
-          "contributors": 82,
-          "last_commit": "2026-09-07T05:58:14Z",
+          "stars": 1458,
+          "contributors": 84,
+          "last_commit": "2026-09-13T19:51:21Z",
           "archived": false
         }
       }
@@ -122,7 +123,7 @@
       "name": "evals",
       "shape": "unknown",
       "source_path": "evals",
-      "source_url": "https://github.com/microsoft/hve-core/tree/8aa6b214461e06df5b304ee48027fc49dfb5fd6f/evals",
+      "source_url": "https://github.com/microsoft/hve-core/tree/9bf1a30022ca907e06d93baa00f87cf889ee573b/evals",
       "readme_excerpt": "title: Evaluations",
       "frontmatter": {
         "kind": "agent-md",
@@ -152,8 +153,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8aa6b214461e06df5b304ee48027fc49dfb5fd6f",
+        "default_sha": "9bf1a30022ca907e06d93baa00f87cf889ee573b",
         "tags": [
+          "snapshot-20260908",
           "snapshot-20260901",
           "plugins-v3.3.106",
           "plugins-v3.3.105",
@@ -204,9 +206,102 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1436,
-          "contributors": 82,
-          "last_commit": "2026-09-07T05:58:14Z",
+          "stars": 1458,
+          "contributors": 84,
+          "last_commit": "2026-09-13T19:51:21Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hve-updates",
+      "shape": "unknown",
+      "source_path": "slides/hve-updates",
+      "source_url": "https://github.com/microsoft/hve-core/tree/9bf1a30022ca907e06d93baa00f87cf889ee573b/slides/hve-updates",
+      "readme_excerpt": "title: HVE Core updates deck",
+      "frontmatter": {
+        "kind": "agent-md",
+        "raw": {
+          "title": "HVE Core updates deck",
+          "description": "Interactive HTML presentation of HVE Core changes from April to September 2026.",
+          "ms.date": "2026-09-12"
+        },
+        "standard": {
+          "name": "hve-updates",
+          "description": "Interactive HTML presentation of HVE Core changes from April to September 2026.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "9bf1a30022ca907e06d93baa00f87cf889ee573b",
+        "tags": [
+          "snapshot-20260908",
+          "snapshot-20260901",
+          "plugins-v3.3.106",
+          "plugins-v3.3.105",
+          "plugins-v3.3.104",
+          "plugins-v3.3.103",
+          "plugins-v3.3.102",
+          "plugins-v3.3.101",
+          "plugins-test-20260730-b7a3dce6",
+          "hve-core-v3.3.101",
+          "hve-core-v3.3.41",
+          "hve-core-v3.3.27",
+          "hve-core-v3.3.10",
+          "hve-core-v3.3.1",
+          "hve-core-v3.2.2",
+          "hve-core-v3.2.1",
+          "hve-core-v3.2.0",
+          "hve-core-v3.1.46",
+          "hve-core-v3.1.44",
+          "hve-core-v3.0.2",
+          "hve-core-v3.0.1",
+          "hve-core-v3.0.0",
+          "hve-core-v2.3.10",
+          "hve-core-v2.3.9",
+          "hve-core-v2.3.8",
+          "hve-core-v2.3.7",
+          "hve-core-v2.3.6",
+          "hve-core-v2.3.5",
+          "hve-core-v2.3.4",
+          "hve-core-v2.3.3",
+          "hve-core-v2.3.2",
+          "hve-core-v2.3.1",
+          "hve-core-v2.3.0",
+          "hve-core-v2.2.0",
+          "hve-core-v2.1.0",
+          "hve-core-v2.0.1",
+          "hve-core-v2.0.0",
+          "hve-core-v1.1.0"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 3,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 1458,
+          "contributors": 84,
+          "last_commit": "2026-09-13T19:51:21Z",
           "archived": false
         }
       }
@@ -215,7 +310,7 @@
       "name": "scripts",
       "shape": "agent",
       "source_path": "scripts",
-      "source_url": "https://github.com/microsoft/hve-core/tree/8aa6b214461e06df5b304ee48027fc49dfb5fd6f/scripts",
+      "source_url": "https://github.com/microsoft/hve-core/tree/9bf1a30022ca907e06d93baa00f87cf889ee573b/scripts",
       "readme_excerpt": "title: Scripts",
       "frontmatter": {
         "kind": "agent-md",
@@ -223,7 +318,7 @@
           "title": "Scripts",
           "description": "PowerShell scripts for linting, validation, and security automation",
           "author": "HVE Core Team",
-          "ms.date": "2026-08-21",
+          "ms.date": "2026-09-05",
           "ms.topic": "reference",
           "keywords": [
             "powershell",
@@ -260,8 +355,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8aa6b214461e06df5b304ee48027fc49dfb5fd6f",
+        "default_sha": "9bf1a30022ca907e06d93baa00f87cf889ee573b",
         "tags": [
+          "snapshot-20260908",
           "snapshot-20260901",
           "plugins-v3.3.106",
           "plugins-v3.3.105",
@@ -312,9 +408,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1436,
-          "contributors": 82,
-          "last_commit": "2026-09-07T05:58:14Z",
+          "stars": 1458,
+          "contributors": 84,
+          "last_commit": "2026-09-13T19:51:21Z",
           "archived": false
         }
       }
@@ -328,9 +424,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1436,
-      "contributors": 82,
-      "last_commit": "2026-09-07T05:58:14Z",
+      "stars": 1458,
+      "contributors": 84,
+      "last_commit": "2026-09-13T19:51:21Z",
       "archived": false
     }
   }
