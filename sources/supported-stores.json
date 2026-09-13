@@ -252,16 +252,6 @@
       "note": "Official Hugging Face skills for datasets, model evaluation, cloud deployment, training, and Spaces. Twenty-five records add 13 exact-name additions beyond current coverage. Store evaluation 10/10; disposable Mall scan normalized all 25 descriptions after the CRLF parser repair."
     },
     {
-      "name": "karpathy-skills",
-      "remote": "https://github.com/multica-ai/andrej-karpathy-skills.git",
-      "pluginDir": ".",
-      "quality": "reference",
-      "verified": true,
-      "verifiedDate": "2026-05-25",
-      "local_dir_name": "andrej-karpathy-skills",
-      "provenance": false
-    },
-    {
       "name": "libukai-awesome-agent-skills",
       "remote": "https://github.com/libukai/awesome-agent-skills.git",
       "pluginDir": "skills",
@@ -511,6 +501,18 @@
       "provenance": false,
       "pruned_pending": "2026-09-13",
       "pruned_reason": "232 days without a commit; trust 13, lowest in the registry"
+    },
+    {
+      "name": "karpathy-skills",
+      "remote": "https://github.com/multica-ai/andrej-karpathy-skills.git",
+      "pluginDir": ".",
+      "quality": "reference",
+      "verified": true,
+      "verifiedDate": "2026-05-25",
+      "local_dir_name": "andrej-karpathy-skills",
+      "provenance": false,
+      "pruned_pending": "2026-09-13",
+      "pruned_reason": "146 days without a commit; reference-tier entry yielding 1 plugin"
     }
   ]
 }
