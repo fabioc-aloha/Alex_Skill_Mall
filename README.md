@@ -20,7 +20,7 @@ Nothing in this pipeline reads content. Scanning indexes what exists, packaging 
 Alex ACT ONE ships [`evaluate-before-adopting`](https://github.com/fabioc-aloha/Alex_ACT_ONE/blob/main/skills/evaluate-before-adopting/SKILL.md) for exactly this. Rather than installing straight from the CLI, ask it to evaluate the candidate first:
 
 ```text
-Evaluate <plugin-name> from the Alex Mall before I install it.
+Evaluate <plugin-name>@alex-mall before I install it.
 ```
 
 It resolves which copy you are actually looking at when several stores carry the same name, verifies the checkable specifics — package names against the registry, APIs against the SDK, endpoints by fetching them — follows every reference, weighs the freshness stamp, and judges fit for where you are putting it. A real pass over a plugin scored 95, the top band, found a NuGet package that does not exist and an SDK API that was never published.
@@ -55,6 +55,16 @@ copilot plugin install alex-act-one@alex-mall
 ```
 
 Plugins install into `~/.copilot/installed-plugins/alex-mall/<plugin-name>/`.
+
+**Install the runtime first, then check what follows it.** The `alex-act-one` plugin ships [`evaluate-before-adopting`](https://github.com/fabioc-aloha/Alex_ACT_ONE/blob/main/skills/evaluate-before-adopting/SKILL.md), a skill that reads a candidate the way your agent will read it: as instructions that run with your tools, your files, and your credentials. It reads any scripts the plugin bundles, and checks that the package names and APIs it cites actually exist.
+
+Once the runtime is installed, ask it before you install anything else:
+
+```text
+Evaluate <plugin-name>@alex-mall before I install it.
+```
+
+It costs a minute, and it earns that minute when adoption is hard to reverse: a runtime every project loads, or a plugin that will hold credentials. See [Before you install](#before-you-install) for what the trust score does and does not cover.
 
 ### 3. Verify and manage
 
