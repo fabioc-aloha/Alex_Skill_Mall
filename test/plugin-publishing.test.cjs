@@ -298,7 +298,11 @@ test('contributor PR workflow validates without auto-merging', () => {
   const workflow = fs.readFileSync(path.join(ROOT, '.github', 'workflows', 'validate-plugin-pr.yml'), 'utf8');
   const codeowners = fs.readFileSync(path.join(ROOT, '.github', 'CODEOWNERS'), 'utf8');
   assert.match(workflow, /submit:validate/);
-  assert.doesNotMatch(workflow, /pull_request:\s*\n\s+paths:/);
+  assert.match(workflow, /pull_request:\s*\n\s+paths-ignore:/);
+  for (const generatedPath of ['catalog/**', 'scoring/**', 'README.md', 'sources/SOURCES.md']) {
+    assert.match(workflow, new RegExp(`- '${generatedPath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`));
+  }
+  assert.doesNotMatch(workflow, /- 'plugins\/\*\*'/);
   assert.match(workflow, /npm ci --ignore-scripts/);
   assert.match(workflow, /actions\/checkout@[0-9a-f]{40}/);
   assert.match(workflow, /actions\/setup-node@[0-9a-f]{40}/);
