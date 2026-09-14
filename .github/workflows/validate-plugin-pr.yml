@@ -2,6 +2,11 @@ name: Validate Plugin Contribution
 
 on:
   pull_request:
+    paths-ignore:
+      - 'catalog/**'
+      - 'scoring/**'
+      - 'README.md'
+      - 'sources/SOURCES.md'
 
 permissions:
   contents: read
