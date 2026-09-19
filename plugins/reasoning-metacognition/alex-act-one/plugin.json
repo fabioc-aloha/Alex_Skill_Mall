@@ -1,7 +1,15 @@
 {
   "name": "alex-act-one",
-  "version": "0.2.0",
-  "description": "Alex ACT ONE. A single-install runtime for GitHub Copilot covering critical thinking and problem framing, engineering craft, prose and documentation, document conversion, visual authoring, and agent brain authoring. Installs once at user level and is read by Copilot CLI, VS Code with GitHub Copilot Chat, and Microsoft Scout.",
+  "version": "0.3.0",
+  "description": "Alex ACT ONE. A user-level runtime for GitHub Copilot covering critical thinking and problem framing, engineering craft, prose and documentation, document conversion, visual authoring, and agent brain authoring. Copilot CLI, VS Code with GitHub Copilot Chat, the GitHub Copilot app, and Microsoft Scout can use the plugin from the Copilot CLI user store; Scout must enable Load Copilot CLI skills, activation is per app, and Scout requires separate MCP registration.",
+  "keywords": [
+    "alex-act",
+    "critical-thinking",
+    "epistemic-discipline",
+    "problem-framing",
+    "visual-authoring",
+    "document-conversion"
+  ],
   "category": "foundation",
   "author": {
     "name": "Fabio Correa",
