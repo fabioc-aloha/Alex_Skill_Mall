@@ -27,6 +27,7 @@ Established 2026-06-23 per ADR-008 § Falsification: "Track triggers in `docs/le
 ```
 
 Tag vocabulary:
+- `[PLUGIN-WITHDRAWAL]` — plugin removed from new installation while its catalog record supplies a successor
 
 - `[MALL-AUTOMATION]` — ADR-008 falsifier-trigger evidence
 - `[STORE-LICENSE]` — license-clarity decisions (e.g. NOASSERTION fallback)
@@ -36,6 +37,14 @@ Tag vocabulary:
 - `[CONVENTION]` — schema / format / policy change
 
 ## Log
+
+### 2026-09-19
+
+| Date | Tag | Source / trigger | Decision | Evidence |
+| --- | --- | --- | --- |
+| 2026-09-19 | `[PLUGIN-WITHDRAWAL]` | Steward ADR-023 classified `alex-act-core` as a ONE-migration candidate; Mall withdrawal support is available at `282978d` | S — withdraw `alex-act-core` from new installation. Its catalog record remains reader-visible and directs new installations to `alex-act-one@alex-mall`; existing installations and the Core source repository are unchanged. | [Steward ADR-023](https://github.com/fabioc-aloha/Alex_ACT_ONE_Steward/blob/main/decisions/ADR-023-classify-public-legacy-listings-before-withdrawal.md); Mall `282978d`; approved 2026-09-19 |
+
+### Earlier Entries
 
 | Date | Tag | Source / trigger | Decision | Evidence |
 | --- | --- | --- | --- | --- |

@@ -108,7 +108,6 @@ function buildIndex(stores) {
         description_short: truncate(p.frontmatter?.standard?.description || '', 160),
         source_url: p.source_url,
         provenance: store.store === 'plugin-mall',
-        installable: !store.reference_only,
         installable: !store.reference_only && !retired,
         adapted_from: p.adapted_from || null,
         ...(retired ? { retirement: p.retirement } : {}),
@@ -478,7 +477,7 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('');
   lines.push('### The earlier constellation');
   lines.push('');
-  lines.push('Five plugins preceded Alex ACT ONE: `alex-act-core`, `alex-act-illustrator-plugin`, `alex-act-document-tools`, `alex-act-enterprise`, and `alex-act-ai-operations`. They stay published so existing installations keep working, and they are no longer maintained. Install Alex ACT ONE instead.');
+  lines.push('Five plugins preceded Alex ACT ONE: `alex-act-core`, `alex-act-illustrator-plugin`, `alex-act-document-tools`, `alex-act-enterprise`, and `alex-act-ai-operations`. They remain in the catalog for existing installations and migration guidance. `alex-act-core` is withdrawn for new installations; the other entries are no longer maintained. Install Alex ACT ONE instead.');
   lines.push('');
   lines.push('> **Private specialization:** `alex-act-msft` is private and intended only for Microsoft-internal work. It is not published in this public Mall.');
   lines.push('');
@@ -493,15 +492,6 @@ function renderStorefrontReadme(stores, index, auditJson) {
     lines.push('');
   }
   lines.push('---');
-  if (require.main === module) main();
-
-  module.exports = {
-    buildIndex,
-    renderCategoryMd,
-    renderStoreMd,
-    renderStorefrontReadme,
-    withdrawalNotice,
-  };
   lines.push('');
   lines.push('## Use in VS Code');
   lines.push('');
@@ -698,4 +688,12 @@ function main() {
   console.log(`index.json size:    ${(indexBytes / 1024 / 1024).toFixed(2)} MB`);
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {
+  buildIndex,
+  renderCategoryMd,
+  renderStoreMd,
+  renderStorefrontReadme,
+  withdrawalNotice,
+};
