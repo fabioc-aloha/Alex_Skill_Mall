@@ -331,7 +331,6 @@ test('generated storefront advertises the maintained runtime and its install pat
     assert.match(content, /Published version/);
     assert.match(content, /alex-act-one@alex-mall/);
     assert.match(content, /\/alex-act-one bootstrap-core/);
-    assert.match(content, /no longer maintained/);
     assert.doesNotMatch(content, /alex-act-manager|Alex_ACT_Manager/);
     assert.match(content, /github\.copilot\.chat\.skillTool\.enabled/);
     assert.match(content, /chat\.editing\.revealNextChangeOnResolve/);
@@ -339,6 +338,8 @@ test('generated storefront advertises the maintained runtime and its install pat
     assert.match(content, /branch protection|CONTRIBUTING\.md/);
     assert.doesNotMatch(content, /flint-chart-plugin@alex-mall/);
   }
+  assert.match(renderer, /withdrawn/i);
+  assert.match(storefront, /no longer maintained/);
   assert.doesNotMatch(renderer, /lines\.push\('npm ci'\)/);
 });
 
@@ -381,19 +382,25 @@ test('storefront advertises Alex ACT ONE at the version the marketplace serves',
   );
 });
 
-test('storefront does not promote the retired constellation', () => {
+test('storefront does not promote withdrawn legacy listings', () => {
   const storefront = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
-  const retired = [
+  const withdrawn = [
     'alex-act-core',
     'alex-act-illustrator-plugin',
     'alex-act-document-tools',
-    'alex-act-ai-operations',
+    'alex-act-document-tools-portable',
+    'alex-act-enterprise',
   ];
-  for (const name of retired) {
+  for (const name of withdrawn) {
     assert.ok(
       !storefront.includes(`copilot plugin install ${name}@alex-mall`),
       `${name} is no longer maintained and must not be advertised as an install`,
     );
   }
   assert.match(storefront, /no longer maintained/);
+  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, '.github', 'plugin', 'marketplace.json'), 'utf8'));
+  assert.ok(
+    manifest.plugins.some((plugin) => plugin.name === 'alex-act-ai-operations'),
+    'AI Operations remains an independent installable plugin',
+  );
 });
