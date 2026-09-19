@@ -16,5 +16,13 @@
     "repo": "https://github.com/fabioc-aloha/alex-act-enterprise",
     "license": "MIT",
     "ref": "v1.1.2"
+  },
+  "retirement": {
+    "state": "withdrawn",
+    "message": "This package is no longer maintained. For new installations, use `alex-act-one@alex-mall`.",
+    "replacement": {
+      "name": "alex-act-one",
+      "marketplace": "alex-mall"
+    }
   }
 }
