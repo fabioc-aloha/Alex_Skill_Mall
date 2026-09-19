@@ -196,3 +196,42 @@ test('renderer fails closed on an incomplete origin source', (t) => {
   assert.throws(() => renderMarketplace({ repoRoot }), /delivery\.source\.ref must be a non-empty string/);
   assert.equal(fs.existsSync(path.join(repoRoot, '.github', 'plugin', 'marketplace.json')), false);
 });
+
+test('withdrawn curated entries stay in the catalog but leave the install marketplace', (t) => {
+  const repoRoot = createFixtureRepo();
+  t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
+  const { renderMarketplace } = require('../scripts/render-marketplace.cjs');
+  const target = addOriginPlugin(repoRoot, {
+    mode: 'source',
+    source: { source: 'github', repo: 'fabioc-aloha/legacy-plugin', ref: 'v1.0.0' },
+  }, 'withdrawn-plugin');
+  const metadataPath = path.join(target, '.mall-metadata.json');
+  const metadata = readJson(metadataPath);
+  metadata.retirement = {
+    state: 'withdrawn',
+    message: 'Use the supported successor for new installations.',
+    replacement: { name: 'successor-plugin', marketplace: 'alex-mall' },
+  };
+  fs.writeFileSync(metadataPath, JSON.stringify(metadata, null, 2) + '\n');
+
+  renderMarketplace({ repoRoot });
+
+  const marketplace = readJson(path.join(repoRoot, '.github', 'plugin', 'marketplace.json'));
+  assert.equal(marketplace.plugins.some((plugin) => plugin.name === 'withdrawn-plugin'), false);
+});
+
+test('renderer rejects a withdrawn entry without a safe replacement route', (t) => {
+  const repoRoot = createFixtureRepo();
+  t.after(() => fs.rmSync(repoRoot, { recursive: true, force: true }));
+  const { renderMarketplace } = require('../scripts/render-marketplace.cjs');
+  const target = addOriginPlugin(repoRoot, {
+    mode: 'source',
+    source: { source: 'github', repo: 'fabioc-aloha/legacy-plugin', ref: 'v1.0.0' },
+  }, 'withdrawn-plugin');
+  const metadataPath = path.join(target, '.mall-metadata.json');
+  const metadata = readJson(metadataPath);
+  metadata.retirement = { state: 'withdrawn', message: 'Use a successor.' };
+  fs.writeFileSync(metadataPath, JSON.stringify(metadata, null, 2) + '\n');
+
+  assert.throws(() => renderMarketplace({ repoRoot }), /replacement must name a plugin and marketplace/);
+});

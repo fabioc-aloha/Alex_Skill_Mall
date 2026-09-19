@@ -22,14 +22,15 @@ function fixture() {
   ];
   writeJson(path.join(root, 'sources', 'supported-stores.json'), { schema_version: '2.0', stores });
   for (const store of stores) {
+    const pluginName = store.name === 'plugin-mall' ? 'curated-skill' : `${store.name}-skill`;
     writeJson(path.join(root, 'catalog', 'stores', `${store.name}.json`), {
       store: store.name,
       scanned_ref: 'a'.repeat(40),
       plugin_count: 1,
       store_trust: { score: store.provenance ? 82 : 35 },
       plugins: [{
-        name: `${store.name}-skill`,
-        source_url: `https://example.invalid/tree/${'a'.repeat(40)}/${store.name}-skill`,
+        name: pluginName,
+        source_url: `https://example.invalid/tree/${'a'.repeat(40)}/${pluginName}`,
         trust_score: store.provenance ? 82 : 45,
         trust_signals: { store: store.provenance ? 82 : 35, frontmatter: 5, readme: 5, store_breakdown: { provenance: store.provenance ? 50 : 0 } },
       }],
@@ -40,7 +41,7 @@ function fixture() {
   writeJson(path.join(root, 'catalog', 'index.json'), {
     schema_version: '3.0', store_count: 2, plugin_count: 2,
     plugins: stores.map((store) => ({
-      name: `${store.name}-skill`, store: store.name,
+      name: store.name === 'plugin-mall' ? 'curated-skill' : `${store.name}-skill`, store: store.name,
       trust_score: store.provenance ? 82 : 45,
       installable: !store.reference_only,
     })),
@@ -203,6 +204,56 @@ test('marketplace entries must reconcile exactly with curated plugin folders', (
     marketplace.plugins = [];
     writeJson(marketplacePath, marketplace);
     assert.ok(codes(validateCatalog(root)).includes('MARKETPLACE_CURATED_SET_MISMATCH'));
+  } finally { cleanup(root); }
+});
+
+test('withdrawn curated entries are absent from the marketplace without a mismatch', () => {
+  const root = fixture();
+  try {
+    const metadataPath = path.join(root, 'plugins', 'test-category', 'curated-skill', '.mall-metadata.json');
+    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
+    metadata.retirement = {
+      state: 'withdrawn',
+      message: 'Use the supported successor for new installations.',
+      replacement: { name: 'successor-plugin', marketplace: 'alex-mall' },
+    };
+    writeJson(metadataPath, metadata);
+    const marketplacePath = path.join(root, '.github', 'plugin', 'marketplace.json');
+    const marketplace = JSON.parse(fs.readFileSync(marketplacePath, 'utf8'));
+    marketplace.plugins = [];
+    writeJson(marketplacePath, marketplace);
+
+    const storePath = path.join(root, 'catalog', 'stores', 'plugin-mall.json');
+    const store = JSON.parse(fs.readFileSync(storePath, 'utf8'));
+    store.plugins[0].retirement = metadata.retirement;
+    writeJson(storePath, store);
+    const indexPath = path.join(root, 'catalog', 'index.json');
+    const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+    index.plugins[0].retirement = metadata.retirement;
+    index.plugins[0].installable = false;
+    writeJson(indexPath, index);
+
+    assert.equal(validateCatalog(root).ok, true, JSON.stringify(validateCatalog(root)));
+  } finally { cleanup(root); }
+});
+
+test('withdrawal metadata must reach both catalog surfaces', () => {
+  const root = fixture();
+  try {
+    const metadataPath = path.join(root, 'plugins', 'test-category', 'curated-skill', '.mall-metadata.json');
+    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
+    metadata.retirement = {
+      state: 'withdrawn',
+      message: 'Use the supported successor for new installations.',
+      replacement: { name: 'successor-plugin', marketplace: 'alex-mall' },
+    };
+    writeJson(metadataPath, metadata);
+    const marketplacePath = path.join(root, '.github', 'plugin', 'marketplace.json');
+    const marketplace = JSON.parse(fs.readFileSync(marketplacePath, 'utf8'));
+    marketplace.plugins = [];
+    writeJson(marketplacePath, marketplace);
+
+    assert.ok(codes(validateCatalog(root)).includes('RETIREMENT_CATALOG_MISMATCH'));
   } finally { cleanup(root); }
 });
 

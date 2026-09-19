@@ -31,6 +31,7 @@ const YAML = require('yaml');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 const SUPPORTED_PATH = path.join(REPO_ROOT, 'sources', 'supported-stores.json');
+const PLUGIN_NAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const CATALOG_STORES_DIR = path.join(REPO_ROOT, 'catalog', 'stores');
 
 const STORE_ARG_IDX = process.argv.indexOf('--store');
@@ -142,16 +143,46 @@ function inferShape(pluginPath, frontmatter) {
   return 'unknown';
 }
 
+function readRetirement(pluginPath) {
+  const metadataPath = path.join(pluginPath, '.mall-metadata.json');
+  if (!fs.existsSync(metadataPath)) return null;
+  let metadata;
+  try {
+    metadata = JSON.parse(readSafe(metadataPath));
+  } catch {
+    throw new Error(`${metadataPath}: invalid JSON`);
+  }
+  const retirement = metadata.retirement;
+  if (retirement === undefined) return null;
+  if (!retirement || typeof retirement !== 'object' || Array.isArray(retirement)
+    || retirement.state !== 'withdrawn'
+    || typeof retirement.message !== 'string' || !retirement.message.trim()
+    || !retirement.replacement || typeof retirement.replacement !== 'object'
+    || Array.isArray(retirement.replacement)
+    || !PLUGIN_NAME_PATTERN.test(retirement.replacement.name || '')
+    || !PLUGIN_NAME_PATTERN.test(retirement.replacement.marketplace || '')) {
+    throw new Error(`${metadataPath}: retirement must declare withdrawn state, message, and replacement name plus marketplace`);
+  }
+  return {
+    state: 'withdrawn',
+    message: retirement.message.trim(),
+    replacement: {
+      name: retirement.replacement.name,
+      marketplace: retirement.replacement.marketplace,
+    },
+  };
+}
+
 // --- Per-store walker ---
 
-function resolveStoreRoot(store) {
+function resolveStoreRoot(store, options = {}) {
   // plugin-mall: scan this repo itself (Mall self-scan).
   // third-party: scan $SOURCES_DIR/<local_dir_name || name>.
   if (store.name === 'plugin-mall') {
-    return REPO_ROOT;
+    return options.repoRoot || REPO_ROOT;
   }
   const dirName = store.local_dir_name || store.name;
-  return path.join(SOURCES_DIR, dirName);
+  return path.join(options.sourcesDir || SOURCES_DIR, dirName);
 }
 
 function buildSourceUrl(store, pluginRelPath, ref) {
@@ -234,8 +265,8 @@ function dedupeCandidates(candidates) {
   return [...selected.values()].sort((left, right) => left.name.localeCompare(right.name));
 }
 
-function scanStore(store) {
-  const storeRoot = resolveStoreRoot(store);
+function scanStore(store, options = {}) {
+  const storeRoot = resolveStoreRoot(store, options);
   const pluginsRoot = path.join(storeRoot, store.pluginDir);
 
   const out = {
@@ -262,12 +293,13 @@ function scanStore(store) {
     const frontmatter = classifyFrontmatter(c.absPath);
     const readmeExcerpt = extractReadmeExcerpt(c.absPath);
     const shape = inferShape(c.absPath, frontmatter);
+    const retirement = readRetirement(c.absPath);
 
     // Build the source_path relative to the source repo root (e.g. 'skills/code-review/')
     const sourcePathParts = [store.pluginDir, c.relPath].filter((p) => p && p !== '.');
     const sourcePath = sourcePathParts.join('/');
 
-    out.plugins.push({
+    const plugin = {
       name: c.name,
       shape,
       source_path: sourcePath,
@@ -280,7 +312,9 @@ function scanStore(store) {
       },
       // available_refs added by Phase 3c list-refs.cjs
       // trust_score + trust_signals added by Phase 3d compute-trust.cjs
-    });
+    };
+    if (retirement) plugin.retirement = retirement;
+    out.plugins.push(plugin);
   }
 
   out.plugin_count = out.plugins.length;
@@ -318,6 +352,7 @@ function projectScanOwned(record) {
       readme_excerpt: p.readme_excerpt,
       frontmatter_kind: p.frontmatter?.kind,
       frontmatter_raw: p.frontmatter?.raw,
+      retirement: p.retirement || null,
     })),
   };
 }
@@ -399,3 +434,4 @@ function main() {
 if (require.main === module) main();
 
 module.exports = { classifyFrontmatter, dedupeCandidates, inferShape, listPluginCandidates, scanStore };
+module.exports = { classifyFrontmatter, dedupeCandidates, inferShape, listPluginCandidates, readRetirement, scanStore };

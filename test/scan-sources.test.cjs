@@ -85,3 +85,38 @@ test('snapshot reconciliation uses the same production precedence', () => {
   ]);
   assert.deepEqual(selected.map((plugin) => plugin.source_path), ['plugins/sample']);
 });
+
+test('self-scan carries withdrawal metadata into the catalog record', (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mall-scan-retirement-'));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const plugin = path.join(root, 'plugins', 'testing', 'withdrawn-plugin');
+  fs.mkdirSync(plugin, { recursive: true });
+  fs.writeFileSync(path.join(plugin, 'plugin.json'), JSON.stringify({
+    name: 'withdrawn-plugin',
+    version: '1.0.0',
+    description: 'Fixture plugin with a replacement route.',
+    author: { name: 'Fixture' },
+  }));
+  fs.writeFileSync(path.join(plugin, '.mall-metadata.json'), JSON.stringify({
+    retirement: {
+      state: 'withdrawn',
+      message: 'Use the supported successor for new installations.',
+      replacement: { name: 'successor-plugin', marketplace: 'alex-mall' },
+    },
+  }));
+
+  const { scanStore } = require('../scripts/scan-sources.cjs');
+  const record = scanStore({
+    name: 'plugin-mall',
+    pluginDir: 'plugins',
+    remote: 'https://example.invalid/mall.git',
+    quality: 'first-party',
+    provenance: true,
+  }, { repoRoot: root });
+
+  assert.deepEqual(record.plugins[0].retirement, {
+    state: 'withdrawn',
+    message: 'Use the supported successor for new installations.',
+    replacement: { name: 'successor-plugin', marketplace: 'alex-mall' },
+  });
+});

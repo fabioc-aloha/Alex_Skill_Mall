@@ -95,6 +95,20 @@ function requireSourceSpec(spec, pluginName) {
   return entry;
 }
 
+function requireRetirement(retirement, pluginName) {
+  if (retirement === undefined) return null;
+  if (!retirement || typeof retirement !== 'object' || Array.isArray(retirement)
+    || retirement.state !== 'withdrawn'
+    || typeof retirement.message !== 'string' || !retirement.message.trim()
+    || !retirement.replacement || typeof retirement.replacement !== 'object'
+    || Array.isArray(retirement.replacement)
+    || !NAME_PATTERN.test(retirement.replacement.name || '')
+    || !NAME_PATTERN.test(retirement.replacement.marketplace || '')) {
+    throw new Error(`${pluginName}: retirement replacement must name a plugin and marketplace`);
+  }
+  return retirement;
+}
+
 // Object sources have no natural ordering, so dedup and sort on a stable string.
 function sourceKey(source) {
   if (typeof source === 'string') return source;
@@ -112,7 +126,9 @@ function buildEntry(plugin) {
     || typeof manifest.author.name !== 'string' || !manifest.author.name.trim()) {
     throw new Error(`${name}: author must be an object with a non-empty name`);
   }
-  const delivery = readJson(plugin.metadataPath).delivery;
+  const metadata = readJson(plugin.metadataPath);
+  const delivery = metadata.delivery;
+  const retirement = requireRetirement(metadata.retirement, name);
   const fromSource = Boolean(delivery) && delivery.mode === 'source';
   if (!fromSource) {
     // The limit binds only payloads the Mall vendors and installs from disk.
@@ -123,6 +139,8 @@ function buildEntry(plugin) {
       );
     }
   }
+
+  if (retirement) return null;
 
   return {
     name,
@@ -151,6 +169,7 @@ function renderMarketplace({ repoRoot, outputPath = null } = {}) {
   if (!repoRoot) throw new Error('repoRoot is required');
   const entries = listCuratedPlugins(repoRoot)
     .map(buildEntry)
+    .filter(Boolean)
     .sort((left, right) => left.name.localeCompare(right.name) || sourceKey(left.source).localeCompare(sourceKey(right.source)));
   if (entries.length === 0) throw new Error('no migrated curated plugins found');
   validateEntries(entries);

@@ -6,6 +6,33 @@ const path = require('node:path');
 
 const REQUIRED_NUMERIC_SIGNALS = ['store', 'frontmatter', 'readme'];
 const MARKETPLACE_PATH = '.github/plugin/marketplace.json';
+const PLUGIN_NAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+function validateRetirement(retirement, relativePath, pluginName, errors) {
+  if (retirement === undefined) return null;
+  if (!retirement || typeof retirement !== 'object' || Array.isArray(retirement)
+    || retirement.state !== 'withdrawn'
+    || typeof retirement.message !== 'string' || !retirement.message.trim()
+    || !retirement.replacement || typeof retirement.replacement !== 'object'
+    || Array.isArray(retirement.replacement)
+    || !PLUGIN_NAME_PATTERN.test(retirement.replacement.name || '')
+    || !PLUGIN_NAME_PATTERN.test(retirement.replacement.marketplace || '')) {
+    errors.push(finding('RETIREMENT_INVALID', relativePath,
+      `${pluginName} retirement must declare withdrawn state, message, and replacement name plus marketplace`));
+    return null;
+  }
+  return {
+    state: 'withdrawn',
+    message: retirement.message.trim(),
+    replacement: {
+      name: retirement.replacement.name,
+      marketplace: retirement.replacement.marketplace,
+    },
+  };
+}
+
+function retirementKey(retirement) {
+  return retirement ? JSON.stringify(retirement) : '';
+}
 
 function finding(code, relativePath, message) {
   return { code, path: relativePath.replace(/\\/g, '/'), message };
@@ -25,7 +52,7 @@ function sourceKey(source) {
   return `${source.repo}@${source.ref}${source.path ? `/${source.path}` : ''}`;
 }
 
-function curatedPlugins(root) {
+function curatedPlugins(root, errors) {
   const pluginsRoot = path.join(root, 'plugins');
   if (!fs.existsSync(pluginsRoot)) return [];
   const plugins = [];
@@ -38,24 +65,27 @@ function curatedPlugins(root) {
       const metadataPath = path.join(pluginRoot, '.mall-metadata.json');
       if (!fs.existsSync(path.join(pluginRoot, 'plugin.json'))
         || !fs.existsSync(metadataPath)) continue;
-      let delivery = null;
+      let metadata = null;
       try {
-        delivery = JSON.parse(fs.readFileSync(metadataPath, 'utf8')).delivery;
+        metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
       } catch {
-        delivery = null;
+        errors.push(finding('JSON_INVALID', path.relative(root, metadataPath), 'Required JSON is missing or malformed'));
       }
+      const delivery = metadata?.delivery;
+      const retirement = validateRetirement(metadata?.retirement, path.relative(root, metadataPath), plugin.name, errors);
       plugins.push({
         name: plugin.name,
         source: delivery && delivery.mode === 'source' && delivery.source
           ? sourceKey(delivery.source)
           : `plugins/${category.name}/${plugin.name}`,
+        retirement,
       });
     }
   }
   return plugins;
 }
 
-function validateMarketplace(root, errors) {
+function validateMarketplace(root, errors, curated = curatedPlugins(root, errors)) {
   if (!fs.existsSync(path.join(root, MARKETPLACE_PATH))) {
     errors.push(finding('MARKETPLACE_MISSING', MARKETPLACE_PATH, 'Required install marketplace is missing'));
     return;
@@ -67,8 +97,9 @@ function validateMarketplace(root, errors) {
     return;
   }
 
-  const curated = curatedPlugins(root);
-  const expected = new Map(curated.map((plugin) => [plugin.name, plugin.source]));
+  const expected = new Map(curated
+    .filter((plugin) => !plugin.retirement)
+    .map((plugin) => [plugin.name, plugin.source]));
   const actual = new Map();
   for (const plugin of marketplace.plugins) {
     const spec = plugin && plugin.source;
@@ -99,6 +130,7 @@ function validateMarketplace(root, errors) {
 function validateCatalog(root = process.cwd()) {
   const absoluteRoot = path.resolve(root);
   const errors = [];
+  const curated = curatedPlugins(absoluteRoot, errors);
   const registry = readJson(absoluteRoot, 'sources/supported-stores.json', errors);
   const index = readJson(absoluteRoot, 'catalog/index.json', errors);
   if (!registry || !index) return result(errors, 0, 0);
@@ -135,6 +167,7 @@ function validateCatalog(root = process.cwd()) {
   }
 
   let pluginSum = 0;
+  const catalogRetirements = new Map();
   for (const fileName of jsonFiles) {
     const relativePath = `catalog/stores/${fileName}`;
     const store = readJson(absoluteRoot, relativePath, errors);
@@ -164,6 +197,8 @@ function validateCatalog(root = process.cwd()) {
       errors.push(finding('STORE_MARKDOWN_MISSING', `catalog/stores/${expectedName}.md`, 'Every store JSON requires rendered Markdown'));
     }
     for (const plugin of store.plugins) {
+      const retirement = validateRetirement(plugin.retirement, relativePath, plugin.name, errors);
+      catalogRetirements.set(`${expectedName}/${plugin.name}`, retirement);
       if (typeof plugin.trust_score !== 'number' || plugin.trust_score < 0 || plugin.trust_score > 100) {
         errors.push(finding('TRUST_SCORE_INVALID', relativePath, 'Plugin trust_score must be between 0 and 100'));
       }
@@ -191,17 +226,29 @@ function validateCatalog(root = process.cwd()) {
   if (Array.isArray(index.plugins)) {
     const installability = new Map(registry.stores.map((store) =>
       [store.name, !store.reference_only]));
+    const indexRetirements = new Map();
     for (const plugin of index.plugins) {
-      if (plugin.installable !== installability.get(plugin.store)) {
+      const retirement = validateRetirement(plugin.retirement, 'catalog/index.json', plugin.name, errors);
+      indexRetirements.set(`${plugin.store}/${plugin.name}`, retirement);
+      const expectedInstallable = installability.get(plugin.store) && !retirement;
+      if (plugin.installable !== expectedInstallable) {
         errors.push(finding('PLUGIN_INSTALLABILITY_INVALID', 'catalog/index.json',
           `${plugin.store}/${plugin.name} has incorrect installable state`));
+      }
+    }
+    for (const plugin of curated.filter((entry) => entry.retirement)) {
+      const key = `plugin-mall/${plugin.name}`;
+      if (retirementKey(plugin.retirement) !== retirementKey(catalogRetirements.get(key))
+        || retirementKey(plugin.retirement) !== retirementKey(indexRetirements.get(key))) {
+        errors.push(finding('RETIREMENT_CATALOG_MISMATCH', 'catalog/index.json',
+          `${plugin.name} retirement metadata must match the store catalog and index`));
       }
     }
   }
   if (!fs.existsSync(path.join(absoluteRoot, 'sources', 'SOURCES.md'))) {
     errors.push(finding('SOURCES_MARKDOWN_MISSING', 'sources/SOURCES.md', 'Rendered source registry is missing'));
   }
-  validateMarketplace(absoluteRoot, errors);
+  validateMarketplace(absoluteRoot, errors, curated);
 
   return result(errors, jsonFiles.length, pluginSum);
 }
