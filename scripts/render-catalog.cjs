@@ -477,7 +477,7 @@ function renderStorefrontReadme(stores, index, auditJson) {
   lines.push('');
   lines.push('### The earlier constellation');
   lines.push('');
-  lines.push('Five plugins preceded Alex ACT ONE: `alex-act-core`, `alex-act-illustrator-plugin`, `alex-act-document-tools`, `alex-act-enterprise`, and `alex-act-ai-operations`. They remain in the catalog for existing installations and migration guidance. `alex-act-core` is withdrawn for new installations; the other entries are no longer maintained. Install Alex ACT ONE instead.');
+  lines.push('Six packages preceded Alex ACT ONE: `alex-act-core`, `alex-act-illustrator-plugin`, `alex-act-document-tools`, `alex-act-document-tools-portable`, `alex-act-enterprise`, and `alex-act-ai-operations`. They remain in the catalog for existing installations and migration guidance. `alex-act-core`, `alex-act-document-tools`, and `alex-act-document-tools-portable` are withdrawn for new installations. `alex-act-illustrator-plugin` and `alex-act-enterprise` remain available but are no longer maintained. `alex-act-ai-operations` remains available pending a separate successor or retirement decision. Install Alex ACT ONE instead.');
   lines.push('');
   lines.push('> **Private specialization:** `alex-act-msft` is private and intended only for Microsoft-internal work. It is not published in this public Mall.');
   lines.push('');

@@ -44,6 +44,8 @@ Tag vocabulary:
 | --- | --- | --- | --- |
 | 2026-09-19 | `[PLUGIN-WITHDRAWAL]` | Steward ADR-023 classified `alex-act-core` as a ONE-migration candidate; Mall withdrawal support is available at `282978d` | S — withdraw `alex-act-core` from new installation. Its catalog record remains reader-visible and directs new installations to `alex-act-one@alex-mall`; existing installations and the Core source repository are unchanged. | [Steward ADR-023](https://github.com/fabioc-aloha/Alex_ACT_ONE_Steward/blob/main/decisions/ADR-023-classify-public-legacy-listings-before-withdrawal.md); Mall `282978d`; approved 2026-09-19 |
 
+| 2026-09-19 | `[PLUGIN-WITHDRAWAL]` | Shared `v1.2.0` source and mutually exclusive package contract; ONE provides the seven conversion skills and draft-only rich-email workflow | S — withdraw both `alex-act-document-tools` and `alex-act-document-tools-portable` from new installation as one decision. Their catalog records remain reader-visible and direct new installations to `alex-act-one@alex-mall`; existing installations and the source repository are unchanged. | [Steward ADR-023](https://github.com/fabioc-aloha/Alex_ACT_ONE_Steward/blob/main/decisions/ADR-023-classify-public-legacy-listings-before-withdrawal.md); user approval 2026-09-19; source tag `v1.2.0` resolves; Mall `npm run maintain -- --curated` 69/69 and catalog validation PASS |
+
 ### Earlier Entries
 
 | Date | Tag | Source / trigger | Decision | Evidence |
