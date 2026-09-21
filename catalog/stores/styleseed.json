@@ -1,8 +1,8 @@
 {
   "store": "styleseed",
   "source_repo": "https://github.com/bitjaru/styleseed.git",
-  "generated_at": "2026-09-07T11:06:25.549Z",
-  "scanned_ref": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+  "generated_at": "2026-09-21T11:06:55.247Z",
+  "scanned_ref": "44475742e96ffa66d869274b0643042f5c6b47e9",
   "provenance": false,
   "tier": "domain",
   "license": "MIT",
@@ -13,7 +13,7 @@
       "name": "ss-a11y",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-a11y",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-a11y",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-a11y",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -49,7 +49,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -85,9 +85,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -96,7 +96,7 @@
       "name": "ss-audit",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-audit",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-audit",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-audit",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -130,7 +130,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -166,9 +166,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -177,19 +177,19 @@
       "name": "ss-build",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-build",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-build",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-build",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "ss-build",
-          "description": "Build a screen with StyleSeed's composed design method — choose or compile an output grammar, apply a brand recipe plus domain/page/profile/lock constraints, then run the code and pixel gates before presenting.",
+          "description": "Build a screen with StyleSeed's composed method, then run the code and pixel gates before presenting. Use when building or rebuilding a screen; sets up the project first if needed.",
           "argument-hint": "[what to build]",
           "allowed-tools": "Read, Write, Edit, Grep, Glob, Bash, WebFetch"
         },
         "standard": {
           "name": "ss-build",
-          "description": "Build a screen with StyleSeed's composed design method — choose or compile an output grammar, apply a brand recipe plus domain/page/profile/lock constraints, then run the code and pixel gates before presenting.",
+          "description": "Build a screen with StyleSeed's composed method, then run the code and pixel gates before presenting. Use when building or rebuilding a screen; sets up the project first if needed.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -215,7 +215,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -251,9 +251,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -262,7 +262,7 @@
       "name": "ss-component",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-component",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-component",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-component",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -299,7 +299,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -335,9 +335,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -346,7 +346,7 @@
       "name": "ss-copy",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-copy",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-copy",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-copy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -382,7 +382,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -418,9 +418,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -429,19 +429,19 @@
       "name": "ss-dial",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-dial",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-dial",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-dial",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "ss-dial",
-          "description": "Turn ONE design axis up or down as a coordinated, deterministic transform — \"denser\", \"sharper corners\", \"more muted\", \"bolder\", \"flatter\", \"livelier\". Not a vibe the model reinterprets each time; a defined ramp that moves many tokens together, respects the guardrails (8px grid, a11y floors, single accent, nested-radius), updates the lock, and re-runs the gate. Use this when a human saying \"more X\" would otherwise get an inconsistent one-off.",
+          "description": "Turn one design axis up or down — \"denser\", \"bolder\", \"flatter\", \"livelier\", \"sharper corners\". Use for a single-axis change, not a mood word (those go to /ss-restyle); updates the lock and re-runs the gate.",
           "argument-hint": "<axis> <direction>  — e.g. \"density denser\", \"radius sharper\", \"color more-muted\", \"weight bolder\"",
           "allowed-tools": "Read, Write, Edit, Grep, Glob, Bash"
         },
         "standard": {
           "name": "ss-dial",
-          "description": "Turn ONE design axis up or down as a coordinated, deterministic transform — \"denser\", \"sharper corners\", \"more muted\", \"bolder\", \"flatter\", \"livelier\". Not a vibe the model reinterprets each time; a defined ramp that moves many tokens together, respects the guardrails (8px grid, a11y floors, single accent, nested-radius), updates the lock, and re-runs the gate. Use this when a human saying \"more X\" would otherwise get an inconsistent one-off.",
+          "description": "Turn one design axis up or down — \"denser\", \"bolder\", \"flatter\", \"livelier\", \"sharper corners\". Use for a single-axis change, not a mood word (those go to /ss-restyle); updates the lock and re-runs the gate.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -466,7 +466,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -502,9 +502,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -513,7 +513,7 @@
       "name": "ss-feedback",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-feedback",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-feedback",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-feedback",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -549,7 +549,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -585,9 +585,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -596,7 +596,7 @@
       "name": "ss-flow",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-flow",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-flow",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-flow",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -633,7 +633,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -669,9 +669,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -680,7 +680,7 @@
       "name": "ss-lint",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-lint",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-lint",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-lint",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -715,7 +715,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -751,9 +751,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -762,19 +762,19 @@
       "name": "ss-motion",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-motion",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-motion",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-motion",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "ss-motion",
-          "description": "Apply a named StyleSeed motion to a component — either one of the 5 personality seeds (Spring/Silk/Snap/Float/Pulse × entrance/exit/hover/press/layout) or a distinctive keyword move from the motion library (toggle-flip, toggle-curtain, reveal-blur, pop-in, shimmer, …). Translates vibe words into framer-motion code from one source of truth.",
+          "description": "Apply a named StyleSeed motion from the five personality seeds or the keyword move library. Use when asked for a specific motion or a vibe word like \"springy\", \"snappy\", or \"shimmer\".",
           "argument-hint": "[vibe-seed-or-keyword] [context] [file-path]",
           "allowed-tools": "Read, Write, Edit, Grep, Glob, Bash"
         },
         "standard": {
           "name": "ss-motion",
-          "description": "Apply a named StyleSeed motion to a component — either one of the 5 personality seeds (Spring/Silk/Snap/Float/Pulse × entrance/exit/hover/press/layout) or a distinctive keyword move from the motion library (toggle-flip, toggle-curtain, reveal-blur, pop-in, shimmer, …). Translates vibe words into framer-motion code from one source of truth.",
+          "description": "Apply a named StyleSeed motion from the five personality seeds or the keyword move library. Use when asked for a specific motion or a vibe word like \"springy\", \"snappy\", or \"shimmer\".",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -799,7 +799,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -835,9 +835,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -846,7 +846,7 @@
       "name": "ss-page",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-page",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-page",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-page",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -883,7 +883,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -919,9 +919,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -930,7 +930,7 @@
       "name": "ss-pattern",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-pattern",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-pattern",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-pattern",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -967,7 +967,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1003,9 +1003,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1014,19 +1014,19 @@
       "name": "ss-reference",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-reference",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-reference",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-reference",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "ss-reference",
-          "description": "Compile screenshots, URLs, Figma exports, or an existing UI into a project-local StyleSeed output grammar with evidence, tokens, confidence, anti-patterns, and a validation screen. Use when the user supplies a design reference that StyleSeed does not already model.",
+          "description": "Compile screenshots, URLs, Figma exports, or an existing UI into a project-local output grammar. Use when the user supplies a design reference StyleSeed does not already model.",
           "argument-hint": "[reference paths or URLs] [--name slug]",
           "allowed-tools": "Read, Write, Edit, Grep, Glob, Bash, WebFetch"
         },
         "standard": {
           "name": "ss-reference",
-          "description": "Compile screenshots, URLs, Figma exports, or an existing UI into a project-local StyleSeed output grammar with evidence, tokens, confidence, anti-patterns, and a validation screen. Use when the user supplies a design reference that StyleSeed does not already model.",
+          "description": "Compile screenshots, URLs, Figma exports, or an existing UI into a project-local output grammar. Use when the user supplies a design reference StyleSeed does not already model.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1052,7 +1052,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1088,9 +1088,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1099,17 +1099,17 @@
       "name": "ss-resolve",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-resolve",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-resolve",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-resolve",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "ss-resolve",
-          "description": "Compile a small, deterministic StyleSeed rule bundle for one agent, output grammar, surface adapter, domain, page type, brand recipe, palette recipe, and optional profile. Use before setup or build, when project configuration changes, when updating StyleSeed, or to diagnose local installation, rule drift, and evidence health without changing files."
+          "description": "Compile the effective StyleSeed rule bundle for one artifact, or inspect install and evidence health read-only. Use before setup or build, or to diagnose rule drift."
         },
         "standard": {
           "name": "ss-resolve",
-          "description": "Compile a small, deterministic StyleSeed rule bundle for one agent, output grammar, surface adapter, domain, page type, brand recipe, palette recipe, and optional profile. Use before setup or build, when project configuration changes, when updating StyleSeed, or to diagnose local installation, rule drift, and evidence health without changing files.",
+          "description": "Compile the effective StyleSeed rule bundle for one artifact, or inspect install and evidence health read-only. Use before setup or build, or to diagnose rule drift.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1127,7 +1127,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1163,9 +1163,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1174,7 +1174,7 @@
       "name": "ss-restyle",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-restyle",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-restyle",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-restyle",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1211,7 +1211,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1247,9 +1247,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1258,7 +1258,7 @@
       "name": "ss-review",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-review",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-review",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-review",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1292,7 +1292,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1328,9 +1328,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1339,7 +1339,7 @@
       "name": "ss-score",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-score",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-score",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-score",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1374,7 +1374,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1410,9 +1410,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1421,7 +1421,7 @@
       "name": "ss-setup",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-setup",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-setup",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1459,7 +1459,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1495,9 +1495,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1506,17 +1506,17 @@
       "name": "ss-studio",
       "shape": "mixed",
       "source_path": "engine/.claude/skills/ss-studio",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-studio",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-studio",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "ss-studio",
-          "description": "Turn a product brief and optional references into three distinct creative directions, a human-selected StyleSeed interaction plan, generated image/video asset jobs, a working UI prototype, and a verified prototype-first showcase reel. Use for client concepts, app interaction exploration, trendy but coherent UI direction, reference discovery and synthesis, or any request that needs more than one static screen."
+          "description": "Turn a brief into three creative directions, a human-selected interaction plan, prototype, and showcase reel. Use when a request needs more than one static screen — client concepts or interaction exploration."
         },
         "standard": {
           "name": "ss-studio",
-          "description": "Turn a product brief and optional references into three distinct creative directions, a human-selected StyleSeed interaction plan, generated image/video asset jobs, a working UI prototype, and a verified prototype-first showcase reel. Use for client concepts, app interaction exploration, trendy but coherent UI direction, reference discovery and synthesis, or any request that needs more than one static screen.",
+          "description": "Turn a brief into three creative directions, a human-selected interaction plan, prototype, and showcase reel. Use when a request needs more than one static screen — client concepts or interaction exploration.",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -1534,7 +1534,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1570,9 +1570,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1581,19 +1581,19 @@
       "name": "ss-tokens",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-tokens",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-tokens",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-tokens",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "ss-tokens",
-          "description": "Generate an accessible semantic palette from a key color, or view, add, and modify StyleSeed design tokens. Use when a user supplies a brand color, asks which colors combine well, needs light/dark theme roles, or needs token files for implementation.",
+          "description": "Generate an accessible semantic palette from a key color, or view, add, and modify design tokens. Use when a user supplies a brand color or needs light/dark theme roles.",
           "argument-hint": "[action: generate|list|add|update] [token-type: color|spacing|shadow|radius|typography]",
           "allowed-tools": "Read, Write, Edit, Grep, Glob, Bash"
         },
         "standard": {
           "name": "ss-tokens",
-          "description": "Generate an accessible semantic palette from a key color, or view, add, and modify StyleSeed design tokens. Use when a user supplies a brand color, asks which colors combine well, needs light/dark theme roles, or needs token files for implementation.",
+          "description": "Generate an accessible semantic palette from a key color, or view, add, and modify design tokens. Use when a user supplies a brand color or needs light/dark theme roles.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1618,7 +1618,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1654,9 +1654,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1665,7 +1665,7 @@
       "name": "ss-update",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-update",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-update",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-update",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1702,7 +1702,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1738,9 +1738,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1749,19 +1749,19 @@
       "name": "ss-verify",
       "shape": "skill",
       "source_path": "engine/.claude/skills/ss-verify",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/ss-verify",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/ss-verify",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "ss-verify",
-          "description": "The VISUAL gate — render a UI or visual artifact through its surface adapter, inspect the actual pixels, then fix and re-render until it passes the composed StyleSeed rule set.",
+          "description": "Inspect rendered UI or visual artifacts against their StyleSeed contract. Report findings; fix and re-render only within an authorized build or repair task.",
           "argument-hint": "[route, file, artifact manifest, or export directory]",
           "allowed-tools": "Read, Write, Edit, Grep, Glob, Bash"
         },
         "standard": {
           "name": "ss-verify",
-          "description": "The VISUAL gate — render a UI or visual artifact through its surface adapter, inspect the actual pixels, then fix and re-render until it passes the composed StyleSeed rule set.",
+          "description": "Inspect rendered UI or visual artifacts against their StyleSeed contract. Report findings; fix and re-render only within an authorized build or repair task.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -1786,7 +1786,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1822,9 +1822,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1833,7 +1833,7 @@
       "name": "styleseed",
       "shape": "skill",
       "source_path": "engine/.claude/skills/styleseed",
-      "source_url": "https://github.com/bitjaru/styleseed/tree/f7f7ead67a32aacc6bdf29effda161f9748f8548/engine/.claude/skills/styleseed",
+      "source_url": "https://github.com/bitjaru/styleseed/tree/44475742e96ffa66d869274b0643042f5c6b47e9/engine/.claude/skills/styleseed",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1868,7 +1868,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "f7f7ead67a32aacc6bdf29effda161f9748f8548",
+        "default_sha": "44475742e96ffa66d869274b0643042f5c6b47e9",
         "tags": [
           "v4.2.0",
           "v4.1.0",
@@ -1904,9 +1904,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 952,
-          "contributors": 5,
-          "last_commit": "2026-09-11T11:42:10Z",
+          "stars": 961,
+          "contributors": 6,
+          "last_commit": "2026-09-18T07:57:29Z",
           "archived": false
         }
       }
@@ -1920,9 +1920,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 952,
-      "contributors": 5,
-      "last_commit": "2026-09-11T11:42:10Z",
+      "stars": 961,
+      "contributors": 6,
+      "last_commit": "2026-09-18T07:57:29Z",
       "archived": false
     }
   }
