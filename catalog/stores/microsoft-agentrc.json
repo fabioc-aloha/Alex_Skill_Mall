@@ -1,8 +1,8 @@
 {
   "store": "microsoft-agentrc",
   "source_repo": "https://github.com/microsoft/agentrc.git",
-  "generated_at": "2026-07-29T00:51:00.099Z",
-  "scanned_ref": "ae430643f7ccfcd16a407a252bdcb3e82115a072",
+  "generated_at": "2026-09-28T11:08:22.844Z",
+  "scanned_ref": "daa92160534031186327e3d8b25b11beeda7c021",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -13,7 +13,7 @@
       "name": "examples",
       "shape": "unknown",
       "source_path": "examples",
-      "source_url": "https://github.com/microsoft/agentrc/tree/ae430643f7ccfcd16a407a252bdcb3e82115a072/examples",
+      "source_url": "https://github.com/microsoft/agentrc/tree/daa92160534031186327e3d8b25b11beeda7c021/examples",
       "readme_excerpt": "This folder is a small, self-contained set of examples for the most common AgentRC workflows. Use it as a reference when you want to bootstrap configuration, evaluate repository guidance, or customize",
       "frontmatter": {
         "kind": "none",
@@ -38,7 +38,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ae430643f7ccfcd16a407a252bdcb3e82115a072",
+        "default_sha": "daa92160534031186327e3d8b25b11beeda7c021",
         "tags": [
           "v2.1.0",
           "v2.0.1-91",
@@ -147,9 +147,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1075,
+          "stars": 1083,
           "contributors": 10,
-          "last_commit": "2026-09-21T05:29:48Z",
+          "last_commit": "2026-09-23T21:01:52Z",
           "archived": false
         }
       }
@@ -158,15 +158,32 @@
       "name": "plugin",
       "shape": "skill",
       "source_path": "plugin",
-      "source_url": "https://github.com/microsoft/agentrc/tree/ae430643f7ccfcd16a407a252bdcb3e82115a072/plugin",
-      "readme_excerpt": "Agent plugin for AI-assisted repository priming. Provides skills that generate instruction files for GitHub Copilot, Claude, and other AI coding assistants.",
+      "source_url": "https://github.com/microsoft/agentrc/tree/daa92160534031186327e3d8b25b11beeda7c021/plugin",
+      "readme_excerpt": "[Agent Plugins 1.0](https://agent-plugins.org/) package for AI-assisted repository priming. It provides portable skills that generate instruction files for GitHub Copilot and other compatible AI codin",
       "frontmatter": {
-        "kind": "none",
-        "raw": {},
+        "kind": "plugin-json",
+        "raw": {
+          "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+          "name": "agentrc",
+          "version": "2.1.0",
+          "description": "Skills for AI-assisted repository priming — generate copilot-instructions.md, area instructions, and nested AGENTS.md files.",
+          "author": {
+            "name": "Microsoft"
+          },
+          "homepage": "https://github.com/microsoft/agentrc",
+          "repository": "https://github.com/microsoft/agentrc",
+          "license": "MIT",
+          "keywords": [
+            "agentrc",
+            "instructions",
+            "copilot",
+            "repository-priming"
+          ]
+        },
         "standard": {
-          "name": "plugin",
-          "description": "Agent plugin for AI-assisted repository priming. Provides skills that generate instruction files for GitHub Copilot, Claude, and other AI coding assistants.",
-          "version": null,
+          "name": "agentrc",
+          "description": "Skills for AI-assisted repository priming — generate copilot-instructions.md, area instructions, and nested AGENTS.md files.",
+          "version": "2.1.0",
           "lastReviewed": null,
           "shape": "skill"
         },
@@ -175,15 +192,20 @@
           "tools": null,
           "mode": null,
           "category": null,
-          "tags": null,
-          "license": null,
+          "tags": [
+            "agentrc",
+            "instructions",
+            "copilot",
+            "repository-priming"
+          ],
+          "license": "MIT",
           "requires": null,
           "author": null
         }
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ae430643f7ccfcd16a407a252bdcb3e82115a072",
+        "default_sha": "daa92160534031186327e3d8b25b11beeda7c021",
         "tags": [
           "v2.1.0",
           "v2.0.1-91",
@@ -281,10 +303,10 @@
           "v1.0.0"
         ]
       },
-      "trust_score": 45,
+      "trust_score": 48,
       "trust_signals": {
         "store": 35,
-        "frontmatter": 5,
+        "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
@@ -292,9 +314,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1075,
+          "stars": 1083,
           "contributors": 10,
-          "last_commit": "2026-09-21T05:29:48Z",
+          "last_commit": "2026-09-23T21:01:52Z",
           "archived": false
         }
       }
@@ -303,7 +325,7 @@
       "name": "ui",
       "shape": "unknown",
       "source_path": "src/ui",
-      "source_url": "https://github.com/microsoft/agentrc/tree/ae430643f7ccfcd16a407a252bdcb3e82115a072/src/ui",
+      "source_url": "https://github.com/microsoft/agentrc/tree/daa92160534031186327e3d8b25b11beeda7c021/src/ui",
       "readme_excerpt": "AgentRC TUI components live here.",
       "frontmatter": {
         "kind": "none",
@@ -328,7 +350,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ae430643f7ccfcd16a407a252bdcb3e82115a072",
+        "default_sha": "daa92160534031186327e3d8b25b11beeda7c021",
         "tags": [
           "v2.1.0",
           "v2.0.1-91",
@@ -437,9 +459,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1075,
+          "stars": 1083,
           "contributors": 10,
-          "last_commit": "2026-09-21T05:29:48Z",
+          "last_commit": "2026-09-23T21:01:52Z",
           "archived": false
         }
       }
@@ -448,7 +470,7 @@
       "name": "vscode-extension",
       "shape": "unknown",
       "source_path": "vscode-extension",
-      "source_url": "https://github.com/microsoft/agentrc/tree/ae430643f7ccfcd16a407a252bdcb3e82115a072/vscode-extension",
+      "source_url": "https://github.com/microsoft/agentrc/tree/daa92160534031186327e3d8b25b11beeda7c021/vscode-extension",
       "readme_excerpt": "Prime your repositories for AI-assisted development, right from VS Code.",
       "frontmatter": {
         "kind": "none",
@@ -473,7 +495,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ae430643f7ccfcd16a407a252bdcb3e82115a072",
+        "default_sha": "daa92160534031186327e3d8b25b11beeda7c021",
         "tags": [
           "v2.1.0",
           "v2.0.1-91",
@@ -582,9 +604,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1075,
+          "stars": 1083,
           "contributors": 10,
-          "last_commit": "2026-09-21T05:29:48Z",
+          "last_commit": "2026-09-23T21:01:52Z",
           "archived": false
         }
       }
@@ -598,9 +620,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1075,
+      "stars": 1083,
       "contributors": 10,
-      "last_commit": "2026-09-21T05:29:48Z",
+      "last_commit": "2026-09-23T21:01:52Z",
       "archived": false
     }
   }

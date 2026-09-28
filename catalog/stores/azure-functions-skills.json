@@ -1,205 +1,19 @@
 {
   "store": "azure-functions-skills",
   "source_repo": "https://github.com/Azure/azure-functions-skills.git",
-  "generated_at": "2026-09-13T22:27:34.059Z",
-  "scanned_ref": "7209256c3f5990ee858f1578167b60c102491b95",
+  "generated_at": "2026-09-28T11:08:22.653Z",
+  "scanned_ref": "56dc5cefe93523f509151de4bdcd90f25e72de6d",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
   "reference_only": false,
-  "plugin_count": 6,
+  "plugin_count": 2,
   "plugins": [
-    {
-      "name": "dashboard",
-      "shape": "unknown",
-      "source_path": "dashboard",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/7209256c3f5990ee858f1578167b60c102491b95/dashboard",
-      "readme_excerpt": "Generate the supplied Benchmark Explorer design from **existing** Vally 0.16.0",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "dashboard",
-          "description": "Generate the supplied Benchmark Explorer design from **existing** Vally 0.16.0",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "7209256c3f5990ee858f1578167b60c102491b95",
-        "tags": [
-          "v0.12.1",
-          "v0.12.0",
-          "v0.11.0",
-          "v0.10.0",
-          "v0.9.0",
-          "v0.8.0",
-          "v0.0.6-preview",
-          "v0.0.5-preview",
-          "v0.0.4-preview",
-          "v0.0.3-preview",
-          "v0.0.2-preview"
-        ]
-      },
-      "trust_score": 38,
-      "trust_signals": {
-        "store": 28,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 3,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 17,
-          "contributors": 11,
-          "last_commit": "2026-09-19T23:41:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "evals",
-      "shape": "unknown",
-      "source_path": "evals",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/7209256c3f5990ee858f1578167b60c102491b95/evals",
-      "readme_excerpt": "This directory holds [Vally](https://aka.ms/vally) (`@microsoft/vally-cli`) evaluation",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "evals",
-          "description": "This directory holds [Vally](https://aka.ms/vally) (`@microsoft/vally-cli`) evaluation",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "7209256c3f5990ee858f1578167b60c102491b95",
-        "tags": [
-          "v0.12.1",
-          "v0.12.0",
-          "v0.11.0",
-          "v0.10.0",
-          "v0.9.0",
-          "v0.8.0",
-          "v0.0.6-preview",
-          "v0.0.5-preview",
-          "v0.0.4-preview",
-          "v0.0.3-preview",
-          "v0.0.2-preview"
-        ]
-      },
-      "trust_score": 38,
-      "trust_signals": {
-        "store": 28,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 3,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 17,
-          "contributors": 11,
-          "last_commit": "2026-09-19T23:41:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "experiments",
-      "shape": "unknown",
-      "source_path": "experiments",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/7209256c3f5990ee858f1578167b60c102491b95/experiments",
-      "readme_excerpt": "These Vally **0.16.0** experiments reuse the",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "experiments",
-          "description": "These Vally **0.16.0** experiments reuse the",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "7209256c3f5990ee858f1578167b60c102491b95",
-        "tags": [
-          "v0.12.1",
-          "v0.12.0",
-          "v0.11.0",
-          "v0.10.0",
-          "v0.9.0",
-          "v0.8.0",
-          "v0.0.6-preview",
-          "v0.0.5-preview",
-          "v0.0.4-preview",
-          "v0.0.3-preview",
-          "v0.0.2-preview"
-        ]
-      },
-      "trust_score": 36,
-      "trust_signals": {
-        "store": 28,
-        "frontmatter": 5,
-        "readme": 3,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 3,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 17,
-          "contributors": 11,
-          "last_commit": "2026-09-19T23:41:50Z",
-          "archived": false
-        }
-      }
-    },
     {
       "name": "frds",
       "shape": "unknown",
       "source_path": "docs/frds",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/7209256c3f5990ee858f1578167b60c102491b95/docs/frds",
+      "source_url": "https://github.com/Azure/azure-functions-skills/tree/56dc5cefe93523f509151de4bdcd90f25e72de6d/docs/frds",
       "readme_excerpt": "FRDs make substantial changes understandable and reviewable before implementation.",
       "frontmatter": {
         "kind": "none",
@@ -224,7 +38,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "7209256c3f5990ee858f1578167b60c102491b95",
+        "default_sha": "56dc5cefe93523f509151de4bdcd90f25e72de6d",
         "tags": [
           "v0.12.1",
           "v0.12.0",
@@ -252,69 +66,7 @@
           "license_name": "MIT",
           "stars": 17,
           "contributors": 11,
-          "last_commit": "2026-09-19T23:41:50Z",
-          "archived": false
-        }
-      }
-    },
-    {
-      "name": "prd-docs",
-      "shape": "unknown",
-      "source_path": "docs/prd-docs",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/7209256c3f5990ee858f1578167b60c102491b95/docs/prd-docs",
-      "readme_excerpt": "Individual feature specs broken out from the Draft Spec. Each FRD is self-contained and can be implemented independently.",
-      "frontmatter": {
-        "kind": "none",
-        "raw": {},
-        "standard": {
-          "name": "prd-docs",
-          "description": "Individual feature specs broken out from the Draft Spec. Each FRD is self-contained and can be implemented independently.",
-          "version": null,
-          "lastReviewed": null,
-          "shape": "unknown"
-        },
-        "extended": {
-          "applyTo": null,
-          "tools": null,
-          "mode": null,
-          "category": null,
-          "tags": null,
-          "license": null,
-          "requires": null,
-          "author": null
-        }
-      },
-      "available_refs": {
-        "default": "main",
-        "default_sha": "7209256c3f5990ee858f1578167b60c102491b95",
-        "tags": [
-          "v0.12.1",
-          "v0.12.0",
-          "v0.11.0",
-          "v0.10.0",
-          "v0.9.0",
-          "v0.8.0",
-          "v0.0.6-preview",
-          "v0.0.5-preview",
-          "v0.0.4-preview",
-          "v0.0.3-preview",
-          "v0.0.2-preview"
-        ]
-      },
-      "trust_score": 38,
-      "trust_signals": {
-        "store": 28,
-        "frontmatter": 5,
-        "readme": 5,
-        "store_breakdown": {
-          "provenance": 0,
-          "maintenance": 15,
-          "adoption": 3,
-          "license": 10,
-          "license_name": "MIT",
-          "stars": 17,
-          "contributors": 11,
-          "last_commit": "2026-09-19T23:41:50Z",
+          "last_commit": "2026-09-26T00:14:03Z",
           "archived": false
         }
       }
@@ -323,7 +75,7 @@
       "name": "templates",
       "shape": "mixed",
       "source_path": "templates",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/7209256c3f5990ee858f1578167b60c102491b95/templates",
+      "source_url": "https://github.com/Azure/azure-functions-skills/tree/56dc5cefe93523f509151de4bdcd90f25e72de6d/templates",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -348,7 +100,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "7209256c3f5990ee858f1578167b60c102491b95",
+        "default_sha": "56dc5cefe93523f509151de4bdcd90f25e72de6d",
         "tags": [
           "v0.12.1",
           "v0.12.0",
@@ -376,7 +128,7 @@
           "license_name": "MIT",
           "stars": 17,
           "contributors": 11,
-          "last_commit": "2026-09-19T23:41:50Z",
+          "last_commit": "2026-09-26T00:14:03Z",
           "archived": false
         }
       }
@@ -392,7 +144,7 @@
       "license_name": "MIT",
       "stars": 17,
       "contributors": 11,
-      "last_commit": "2026-09-19T23:41:50Z",
+      "last_commit": "2026-09-26T00:14:03Z",
       "archived": false
     }
   }
