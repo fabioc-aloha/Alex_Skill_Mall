@@ -1,8 +1,8 @@
 {
   "store": "elevenlabs-skills",
   "source_repo": "https://github.com/elevenlabs/skills.git",
-  "generated_at": "2026-08-31T11:06:59.353Z",
-  "scanned_ref": "a310b94d1f266038430d693694b947d3f937ad2a",
+  "generated_at": "2026-10-05T11:08:33.095Z",
+  "scanned_ref": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
   "provenance": false,
   "tier": "elevenlabs-official",
   "license": "MIT",
@@ -13,13 +13,13 @@
       "name": "agents",
       "shape": "skill",
       "source_path": "agents",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/agents",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/agents",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "agents",
-          "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience, and when configuring an agent's tools, workflows, or procedures, including creating, editing, compiling, and publishing procedure drafts on an agent branch over the SDKs or REST API.",
+          "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience, and when configuring an agent's tools, workflows, or procedures, including creating, editing, and publishing free-form and structured procedure drafts on an agent branch over the SDKs or REST API.",
           "license": "MIT",
           "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
           "metadata": {
@@ -35,7 +35,7 @@
         },
         "standard": {
           "name": "agents",
-          "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience, and when configuring an agent's tools, workflows, or procedures, including creating, editing, compiling, and publishing procedure drafts on an agent branch over the SDKs or REST API.",
+          "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience, and when configuring an agent's tools, workflows, or procedures, including creating, editing, and publishing free-form and structured procedure drafts on an agent branch over the SDKs or REST API.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -53,7 +53,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -67,9 +67,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -78,7 +78,7 @@
       "name": "dubbing",
       "shape": "skill",
       "source_path": "dubbing",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/dubbing",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/dubbing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -118,7 +118,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -132,9 +132,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -143,7 +143,7 @@
       "name": "evals",
       "shape": "agent",
       "source_path": "evals",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/evals",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/evals",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -168,7 +168,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 32,
@@ -182,9 +182,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -193,7 +193,7 @@
       "name": "music",
       "shape": "skill",
       "source_path": "music",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/music",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/music",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -233,7 +233,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -247,9 +247,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -258,7 +258,7 @@
       "name": "setup-api-key",
       "shape": "skill",
       "source_path": "setup-api-key",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/setup-api-key",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/setup-api-key",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -288,7 +288,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -302,9 +302,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -313,7 +313,7 @@
       "name": "sound-effects",
       "shape": "skill",
       "source_path": "sound-effects",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/sound-effects",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/sound-effects",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -353,7 +353,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -367,9 +367,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -378,7 +378,7 @@
       "name": "speech-engine",
       "shape": "skill",
       "source_path": "speech-engine",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/speech-engine",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/speech-engine",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -418,7 +418,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -432,9 +432,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -443,7 +443,7 @@
       "name": "speech-to-text",
       "shape": "skill",
       "source_path": "speech-to-text",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/speech-to-text",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/speech-to-text",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -483,7 +483,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -497,9 +497,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -508,13 +508,13 @@
       "name": "text-to-speech",
       "shape": "skill",
       "source_path": "text-to-speech",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/text-to-speech",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/text-to-speech",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "text-to-speech",
-          "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 70+ languages.",
+          "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 90+ languages.",
           "license": "MIT",
           "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
           "metadata": {
@@ -530,7 +530,7 @@
         },
         "standard": {
           "name": "text-to-speech",
-          "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 70+ languages.",
+          "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 90+ languages.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -548,7 +548,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -562,9 +562,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -573,7 +573,7 @@
       "name": "voice-changer",
       "shape": "skill",
       "source_path": "voice-changer",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/voice-changer",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/voice-changer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -613,7 +613,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -627,9 +627,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -638,7 +638,7 @@
       "name": "voice-isolator",
       "shape": "skill",
       "source_path": "voice-isolator",
-      "source_url": "https://github.com/elevenlabs/skills/tree/a310b94d1f266038430d693694b947d3f937ad2a/voice-isolator",
+      "source_url": "https://github.com/elevenlabs/skills/tree/81f1eafc65c9219ab4aa305d81ffc552a6f43f9d/voice-isolator",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -678,7 +678,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a310b94d1f266038430d693694b947d3f937ad2a",
+        "default_sha": "81f1eafc65c9219ab4aa305d81ffc552a6f43f9d",
         "tags": []
       },
       "trust_score": 37,
@@ -692,9 +692,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 460,
-          "contributors": 7,
-          "last_commit": "2026-09-25T18:17:17Z",
+          "stars": 472,
+          "contributors": 8,
+          "last_commit": "2026-10-03T21:23:14Z",
           "archived": false
         }
       }
@@ -708,9 +708,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 460,
-      "contributors": 7,
-      "last_commit": "2026-09-25T18:17:17Z",
+      "stars": 472,
+      "contributors": 8,
+      "last_commit": "2026-10-03T21:23:14Z",
       "archived": false
     }
   }

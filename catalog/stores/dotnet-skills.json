@@ -1,19 +1,19 @@
 {
   "store": "dotnet-skills",
   "source_repo": "https://github.com/dotnet/skills.git",
-  "generated_at": "2026-09-28T11:08:22.759Z",
-  "scanned_ref": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+  "generated_at": "2026-10-05T11:08:33.090Z",
+  "scanned_ref": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
   "provenance": false,
   "tier": "dotnet-official",
   "license": "MIT",
   "reference_only": false,
-  "plugin_count": 19,
+  "plugin_count": 20,
   "plugins": [
     {
       "name": "agentic-workflows",
       "shape": "unknown",
       "source_path": "agentic-workflows",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/agentic-workflows",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/agentic-workflows",
       "readme_excerpt": "This directory publishes reusable [GitHub Agentic Workflows](https://github.com/github/gh-aw)",
       "frontmatter": {
         "kind": "none",
@@ -38,7 +38,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -55,9 +55,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -66,7 +66,7 @@
       "name": "dotnet",
       "shape": "skill",
       "source_path": "plugins/dotnet",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet",
       "readme_excerpt": "Core .NET and C# skills for coding agents.",
       "frontmatter": {
         "kind": "plugin-json",
@@ -99,7 +99,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -116,9 +116,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -127,7 +127,7 @@
       "name": "dotnet-advanced",
       "shape": "skill",
       "source_path": "plugins/dotnet-advanced",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-advanced",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-advanced",
       "readme_excerpt": "Advanced .NET and C# skills for niche scenarios and coding agents.",
       "frontmatter": {
         "kind": "plugin-json",
@@ -159,7 +159,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -176,9 +176,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -187,7 +187,7 @@
       "name": "dotnet-ai",
       "shape": "skill",
       "source_path": "plugins/dotnet-ai",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-ai",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-ai",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -219,7 +219,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -236,9 +236,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -247,7 +247,7 @@
       "name": "dotnet-aspnetcore",
       "shape": "skill",
       "source_path": "plugins/dotnet-aspnetcore",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-aspnetcore",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-aspnetcore",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -279,7 +279,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -296,9 +296,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -307,7 +307,7 @@
       "name": "dotnet-blazor",
       "shape": "skill",
       "source_path": "plugins/dotnet-blazor",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-blazor",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-blazor",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -339,7 +339,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -356,9 +356,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -367,7 +367,7 @@
       "name": "dotnet-data",
       "shape": "skill",
       "source_path": "plugins/dotnet-data",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-data",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-data",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -399,7 +399,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -416,9 +416,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -427,7 +427,7 @@
       "name": "dotnet-diag",
       "shape": "mixed",
       "source_path": "plugins/dotnet-diag",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-diag",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-diag",
       "readme_excerpt": "Skills for .NET performance investigations, debugging, and incident analysis.",
       "frontmatter": {
         "kind": "plugin-json",
@@ -462,7 +462,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -479,9 +479,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -490,7 +490,7 @@
       "name": "dotnet-experimental",
       "shape": "skill",
       "source_path": "plugins/dotnet-experimental",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-experimental",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-experimental",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -522,7 +522,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -539,9 +539,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -550,7 +550,7 @@
       "name": "dotnet-maui",
       "shape": "skill",
       "source_path": "plugins/dotnet-maui",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-maui",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-maui",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -582,7 +582,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -599,9 +599,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -610,7 +610,7 @@
       "name": "dotnet-msbuild",
       "shape": "mixed",
       "source_path": "plugins/dotnet-msbuild",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-msbuild",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-msbuild",
       "readme_excerpt": "Skills for MSBuild failure diagnosis, performance optimization, code quality, and modernization.",
       "frontmatter": {
         "kind": "plugin-json",
@@ -662,7 +662,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -679,9 +679,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -690,7 +690,7 @@
       "name": "dotnet-nuget",
       "shape": "skill",
       "source_path": "plugins/dotnet-nuget",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-nuget",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-nuget",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -722,7 +722,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -739,9 +739,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -750,7 +750,7 @@
       "name": "dotnet-template-engine",
       "shape": "mixed",
       "source_path": "plugins/dotnet-template-engine",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-template-engine",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-template-engine",
       "readme_excerpt": "Skills for discovering, instantiating, authoring, and validating .NET templates.",
       "frontmatter": {
         "kind": "plugin-json",
@@ -785,7 +785,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -802,9 +802,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -813,7 +813,7 @@
       "name": "dotnet-test",
       "shape": "mixed",
       "source_path": "plugins/dotnet-test",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-test",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-test",
       "readme_excerpt": "Skills and GitHub Copilot custom agents for running, generating, analyzing, and improving tests. Originally built for .NET (MSTest, xUnit, NUnit, TUnit) and platforms (VSTest, Microsoft.Testing.Platfo",
       "frontmatter": {
         "kind": "plugin-json",
@@ -857,7 +857,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -874,9 +874,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -885,7 +885,7 @@
       "name": "dotnet-test-migration",
       "shape": "mixed",
       "source_path": "plugins/dotnet-test-migration",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-test-migration",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-test-migration",
       "readme_excerpt": "Skills and a GitHub Copilot orchestrator agent for migrating .NET test frameworks and platforms. Covers framework version upgrades (MSTest, xUnit), cross-framework conversion (xUnit/NUnit → MSTest), a",
       "frontmatter": {
         "kind": "plugin-json",
@@ -920,7 +920,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -937,9 +937,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -948,7 +948,7 @@
       "name": "dotnet-upgrade",
       "shape": "skill",
       "source_path": "plugins/dotnet-upgrade",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet-upgrade",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-upgrade",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -980,7 +980,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -997,9 +997,69 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dotnet-winforms",
+      "shape": "skill",
+      "source_path": "plugins/dotnet-winforms",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet-winforms",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dotnet-winforms",
+          "version": "0.1.0",
+          "description": "Skills for Windows Forms development: project setup, UI design, data binding, accessibility, and modern .NET practices.",
+          "skills": [
+            "./skills/"
+          ]
+        },
+        "standard": {
+          "name": "dotnet-winforms",
+          "description": "Skills for Windows Forms development: project setup, UI design, data binding, accessibility, and modern .NET practices.",
+          "version": "0.1.0",
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
+        "tags": [
+          "v1.0.0",
+          "skill-validator-nightly"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 8,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 5556,
+          "contributors": 62,
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -1008,7 +1068,7 @@
       "name": "dotnet11",
       "shape": "skill",
       "source_path": "plugins/dotnet11",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/plugins/dotnet11",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/plugins/dotnet11",
       "readme_excerpt": "Skills focused on new APIs and language features introduced in .NET 11.",
       "frontmatter": {
         "kind": "plugin-json",
@@ -1040,7 +1100,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -1057,9 +1117,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -1068,7 +1128,7 @@
       "name": "eval-quality",
       "shape": "unknown",
       "source_path": "eng/eval-quality",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/eng/eval-quality",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/eng/eval-quality",
       "readme_excerpt": "`check_eval_quality.py` blocks structural defects that can corrupt an eval",
       "frontmatter": {
         "kind": "none",
@@ -1093,7 +1153,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -1110,9 +1170,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -1121,7 +1181,7 @@
       "name": "vally-adapter",
       "shape": "unknown",
       "source_path": "eng/vally-adapter",
-      "source_url": "https://github.com/dotnet/skills/tree/b649b55a32cbd5ba32964e818bb0799ed3bcbbcd/eng/vally-adapter",
+      "source_url": "https://github.com/dotnet/skills/tree/e87c5da26cbf0f8c701e91247c4817df0adc12f7/eng/vally-adapter",
       "readme_excerpt": "This document explains how this repository evaluates skills, how it builds on",
       "frontmatter": {
         "kind": "none",
@@ -1146,7 +1206,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "b649b55a32cbd5ba32964e818bb0799ed3bcbbcd",
+        "default_sha": "e87c5da26cbf0f8c701e91247c4817df0adc12f7",
         "tags": [
           "v1.0.0",
           "skill-validator-nightly"
@@ -1163,9 +1223,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 5497,
+          "stars": 5556,
           "contributors": 62,
-          "last_commit": "2026-09-28T09:18:37Z",
+          "last_commit": "2026-10-05T10:16:01Z",
           "archived": false
         }
       }
@@ -1179,9 +1239,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 5497,
+      "stars": 5556,
       "contributors": 62,
-      "last_commit": "2026-09-28T09:18:37Z",
+      "last_commit": "2026-10-05T10:16:01Z",
       "archived": false
     }
   }

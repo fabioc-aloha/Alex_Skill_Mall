@@ -2,28 +2,28 @@
 
 **Source:** [qdrant/skills](https://github.com/qdrant/skills)
 **Store trust:** 32/100
-**Signals:** maintenance 15 · adoption 7 · license 10 (Apache-2.0) · 253 stars · 20 contributors
-**Scanned ref:** `56f8fef3851d`
+**Signals:** maintenance 15 · adoption 7 · license 10 (Apache-2.0) · 254 stars · 20 contributors
+**Scanned ref:** `3faf74cd42da`
 
 ## Plugins (15)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 42 | [`skill-test`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skill-test) | prompt | - | This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures |
-| 37 | [`qdrant-advisor`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/meta/qdrant-advisor) | skill | - | Diagnose, troubleshoot, and advise on any Qdrant deployment by loading the latest official Qdrant s… |
-| 37 | [`qdrant-clients-sdk`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-clients-sdk) | skill | - | Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdran… |
-| 37 | [`qdrant-deployment-options`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-deployment-options) | skill | - | Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud'… |
-| 37 | [`qdrant-edge`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-edge) | skill | - | Guides building on Qdrant Edge, the embedded in-process shard. Use when someone asks 'how to sync E… |
-| 37 | [`qdrant-hybrid-cloud-setup`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-hybrid-cloud-setup) | skill | - | Setting up and running Qdrant Hybrid Cloud on your own Kubernetes cluster (managed, on-prem, or edg… |
-| 37 | [`qdrant-migration-tool`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-migration-tool) | skill | - | Guides use of the Qdrant Migration Tool CLI to move vectors, metadata, and sparse embeddings from a… |
-| 37 | [`qdrant-model-migration`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-model-migration) | skill | - | Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch e… |
-| 37 | [`qdrant-monitoring`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-monitoring) | skill | - | Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'w… |
-| 37 | [`qdrant-multitenancy`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-multitenancy) | skill | - | Guides tenant isolation architecture in Qdrant for multi-tenant or multi-user applications. Use whe… |
-| 37 | [`qdrant-performance-optimization`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-performance-optimization) | skill | - | Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, … |
-| 37 | [`qdrant-scaling`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-scaling) | skill | - | Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fi… |
-| 37 | [`qdrant-search-quality`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-search-quality) | skill | - | Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', … |
-| 37 | [`qdrant-sizing`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-sizing) | skill | - | Sizes a Qdrant deployment before it is provisioned. Use when someone asks 'how much RAM do I need',… |
-| 37 | [`qdrant-version-upgrade`](https://github.com/qdrant/skills/tree/56f8fef3851dfffa5d54674dac99b8d8dff6d795/skills/qdrant-version-upgrade) | skill | - | Covers upgrading Qdrant server and SDKs without interrupting availability or losing data integrity.… |
+| 42 | [`skill-test`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skill-test) | prompt | - | This skill test framework runs Claude Code inside a fresh Docker container for each prompt, captures |
+| 37 | [`qdrant-advisor`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/meta/qdrant-advisor) | skill | - | Diagnose, troubleshoot, and advise on any Qdrant deployment by loading the latest official Qdrant s… |
+| 37 | [`qdrant-clients-sdk`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-clients-sdk) | skill | - | Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdran… |
+| 37 | [`qdrant-deployment-options`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-deployment-options) | skill | - | Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud'… |
+| 37 | [`qdrant-edge`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-edge) | skill | - | Guides building on Qdrant Edge, the embedded in-process shard. Use when someone asks 'how to sync E… |
+| 37 | [`qdrant-hybrid-cloud-setup`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-hybrid-cloud-setup) | skill | - | Setting up and running Qdrant Hybrid Cloud on your own Kubernetes cluster (managed, on-prem, or edg… |
+| 37 | [`qdrant-migration-tool`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-migration-tool) | skill | - | Guides use of the Qdrant Migration Tool CLI to move vectors, metadata, and sparse embeddings from a… |
+| 37 | [`qdrant-model-migration`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-model-migration) | skill | - | Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch e… |
+| 37 | [`qdrant-monitoring`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-monitoring) | skill | - | Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'w… |
+| 37 | [`qdrant-multitenancy`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-multitenancy) | skill | - | Guides tenant isolation architecture in Qdrant for multi-tenant or multi-user applications. Use whe… |
+| 37 | [`qdrant-performance-optimization`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-performance-optimization) | skill | - | Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, … |
+| 37 | [`qdrant-scaling`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-scaling) | skill | - | Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fi… |
+| 37 | [`qdrant-search-quality`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-search-quality) | skill | - | Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', … |
+| 37 | [`qdrant-sizing`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-sizing) | skill | - | Sizes a Qdrant deployment before it is provisioned. Use when someone asks 'how much RAM do I need',… |
+| 37 | [`qdrant-version-upgrade`](https://github.com/qdrant/skills/tree/3faf74cd42daa1b7119849cb587a9754407a6260/skills/qdrant-version-upgrade) | skill | - | Covers upgrading Qdrant server and SDKs without interrupting availability or losing data integrity.… |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-09-28T11:09:08.059Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-10-05T11:09:20.902Z*

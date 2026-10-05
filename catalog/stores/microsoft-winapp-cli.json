@@ -1,8 +1,8 @@
 {
   "store": "microsoft-winapp-cli",
   "source_repo": "https://github.com/microsoft/winappCli.git",
-  "generated_at": "2026-09-28T11:08:22.883Z",
-  "scanned_ref": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+  "generated_at": "2026-10-05T11:08:33.210Z",
+  "scanned_ref": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -13,7 +13,7 @@
       "name": "cpp-app",
       "shape": "unknown",
       "source_path": "samples/cpp-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/cpp-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/cpp-app",
       "readme_excerpt": "This sample demonstrates how to use winapp CLI with a C++ application built with CMake to add package identity and package as MSIX.",
       "frontmatter": {
         "kind": "none",
@@ -38,8 +38,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -76,9 +77,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -87,7 +88,7 @@
       "name": "cpp-app-winui",
       "shape": "unknown",
       "source_path": "samples/cpp-app-winui",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/cpp-app-winui",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/cpp-app-winui",
       "readme_excerpt": "This sample demonstrates a WinUI 3 desktop window built entirely in C++ with CMake - no XAML files, no MIDL, no MSBuild. The UI is constructed programmatically using C++/WinRT projections.",
       "frontmatter": {
         "kind": "none",
@@ -112,8 +113,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -150,9 +152,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -161,7 +163,7 @@
       "name": "docs",
       "shape": "unknown",
       "source_path": "docs",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/docs",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/docs",
       "readme_excerpt": "> [!IMPORTANT]",
       "frontmatter": {
         "kind": "none",
@@ -186,8 +188,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -224,9 +227,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -235,7 +238,7 @@
       "name": "dotnet-app",
       "shape": "unknown",
       "source_path": "samples/dotnet-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/dotnet-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/dotnet-app",
       "readme_excerpt": "This sample demonstrates how to use winapp CLI with a .NET console application to add package identity and package as MSIX.",
       "frontmatter": {
         "kind": "none",
@@ -260,8 +263,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -298,9 +302,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -309,7 +313,7 @@
       "name": "electron",
       "shape": "unknown",
       "source_path": "samples/electron",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/electron",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/electron",
       "readme_excerpt": "This sample demonstrates usage of the @microsoft/winappcli npm package with an Electron app.",
       "frontmatter": {
         "kind": "none",
@@ -334,8 +338,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -372,9 +377,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -383,7 +388,7 @@
       "name": "electron-winml",
       "shape": "unknown",
       "source_path": "samples/electron-winml",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/electron-winml",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/electron-winml",
       "readme_excerpt": "This sample demonstrates how to integrate Windows Machine Learning (WinML) into an Electron application using the Windows App Development CLI. The app uses the SqueezeNet 1.1 model to classify images ",
       "frontmatter": {
         "kind": "none",
@@ -408,8 +413,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -446,9 +452,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -457,7 +463,7 @@
       "name": "flutter-app",
       "shape": "unknown",
       "source_path": "samples/flutter-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/flutter-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/flutter-app",
       "readme_excerpt": "This sample demonstrates how to use winapp CLI with a Flutter application to add package identity, use Windows App SDK APIs, and package as MSIX.",
       "frontmatter": {
         "kind": "none",
@@ -482,8 +488,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -520,9 +527,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -531,7 +538,7 @@
       "name": "maui-app",
       "shape": "unknown",
       "source_path": "samples/maui-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/maui-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/maui-app",
       "readme_excerpt": "This sample is a real .NET MAUI Windows project (similar to how `samples/dotnet-app` is a real .NET project) plus a Pester validation script for the MAUI + `winapp` packaging flow.",
       "frontmatter": {
         "kind": "none",
@@ -556,8 +563,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -594,9 +602,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -605,7 +613,7 @@
       "name": "msix-assets",
       "shape": "unknown",
       "source_path": "scripts/msix-assets",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/scripts/msix-assets",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/scripts/msix-assets",
       "readme_excerpt": "This package contains a pre-release development build of the Windows Development CLI MSIX packages.",
       "frontmatter": {
         "kind": "none",
@@ -630,8 +638,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -668,9 +677,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -679,7 +688,7 @@
       "name": "node-winui",
       "shape": "unknown",
       "source_path": "samples/node-winui",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/node-winui",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/node-winui",
       "readme_excerpt": "This sample creates a WinUI 3 `Application` and `Window` directly from Node.js.",
       "frontmatter": {
         "kind": "none",
@@ -704,8 +713,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -742,9 +752,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -753,7 +763,7 @@
       "name": "rust-app",
       "shape": "unknown",
       "source_path": "samples/rust-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/rust-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/rust-app",
       "readme_excerpt": "This sample demonstrates how to check for package identity and send Windows notifications from a Rust application.",
       "frontmatter": {
         "kind": "none",
@@ -778,8 +788,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -816,9 +827,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -827,7 +838,7 @@
       "name": "sparse-app",
       "shape": "unknown",
       "source_path": "samples/sparse-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/sparse-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/sparse-app",
       "readme_excerpt": "A minimal WPF app that demonstrates the **production sparse packaging** workflow with the `winapp` CLI: grant [package identity](https://learn.microsoft.com/windows/apps/desktop/modernize/package-iden",
       "frontmatter": {
         "kind": "none",
@@ -852,8 +863,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -890,9 +902,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -901,7 +913,7 @@
       "name": "tauri-app",
       "shape": "unknown",
       "source_path": "samples/tauri-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/tauri-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/tauri-app",
       "readme_excerpt": "This sample demonstrates how to use winapp CLI with a Tauri application to add package identity, use Windows APIs, and package as MSIX.",
       "frontmatter": {
         "kind": "none",
@@ -926,8 +938,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -964,9 +977,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -975,7 +988,7 @@
       "name": "winapp",
       "shape": "skill",
       "source_path": "plugins/winapp",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/plugins/winapp",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/plugins/winapp",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "plugin-json",
@@ -983,7 +996,7 @@
           "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
           "name": "winappcli",
           "description": "Windows app development, packaging, and distribution. Helps with creating Windows installers (MSIX), code signing, certificates, Windows SDK and Windows App SDK setup, package identity for Windows APIs (push notifications, background tasks, share target), appxmanifest authoring, and Microsoft Store distribution. Supports Electron, .NET, C++, Rust, Flutter, and Tauri apps.",
-          "version": "0.7.1",
+          "version": "0.7.2",
           "author": {
             "name": "Microsoft",
             "url": "https://github.com/microsoft/WinAppCli"
@@ -1037,7 +1050,7 @@
         "standard": {
           "name": "winappcli",
           "description": "Windows app development, packaging, and distribution. Helps with creating Windows installers (MSIX), code signing, certificates, Windows SDK and Windows App SDK setup, package identity for Windows APIs (push notifications, background tasks, share target), appxmanifest authoring, and Microsoft Store distribution. Supports Electron, .NET, C++, Rust, Flutter, and Tauri apps.",
-          "version": "0.7.1",
+          "version": "0.7.2",
           "lastReviewed": null,
           "shape": "skill"
         },
@@ -1095,8 +1108,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -1133,9 +1147,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -1144,7 +1158,7 @@
       "name": "winapp-Analyzer",
       "shape": "unknown",
       "source_path": "src/winapp-Analyzer",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/src/winapp-Analyzer",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/src/winapp-Analyzer",
       "readme_excerpt": "A Roslyn analyzer that catches common WinUI 3 / Windows App SDK pitfalls at",
       "frontmatter": {
         "kind": "none",
@@ -1169,8 +1183,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -1207,9 +1222,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -1218,7 +1233,7 @@
       "name": "winapp-npm",
       "shape": "unknown",
       "source_path": "src/winapp-npm",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/src/winapp-npm",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/src/winapp-npm",
       "readme_excerpt": "> **Status: Public Preview** - The Windows App Development CLI is experimental and in active development. We'd love your feedback! Share your thoughts by creating an [issue](https://github.com/microso",
       "frontmatter": {
         "kind": "none",
@@ -1243,8 +1258,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -1281,9 +1297,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -1292,7 +1308,7 @@
       "name": "winapp-NuGet",
       "shape": "unknown",
       "source_path": "src/winapp-NuGet",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/src/winapp-NuGet",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/src/winapp-NuGet",
       "readme_excerpt": "Enables `dotnet run` for packaged Windows applications.",
       "frontmatter": {
         "kind": "none",
@@ -1317,8 +1333,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -1355,9 +1372,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -1366,7 +1383,7 @@
       "name": "winui-app",
       "shape": "unknown",
       "source_path": "samples/winui-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/winui-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/winui-app",
       "readme_excerpt": "This sample demonstrates a WinUI 3 desktop application with UI controls designed for testing `winapp ui` commands.",
       "frontmatter": {
         "kind": "none",
@@ -1391,8 +1408,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -1429,9 +1447,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -1440,7 +1458,7 @@
       "name": "winui-solution",
       "shape": "unknown",
       "source_path": "samples/winui-solution",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/winui-solution",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/winui-solution",
       "readme_excerpt": "This sample is a **multi-project Visual Studio solution** used to exercise",
       "frontmatter": {
         "kind": "none",
@@ -1465,8 +1483,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -1503,9 +1522,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -1514,7 +1533,7 @@
       "name": "winui-unpackaged-app",
       "shape": "unknown",
       "source_path": "samples/winui-unpackaged-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/winui-unpackaged-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/winui-unpackaged-app",
       "readme_excerpt": "This sample demonstrates an **unpackaged** WinUI 3 desktop app — one that runs",
       "frontmatter": {
         "kind": "none",
@@ -1539,8 +1558,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -1577,9 +1597,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -1588,7 +1608,7 @@
       "name": "wpf-app",
       "shape": "unknown",
       "source_path": "samples/wpf-app",
-      "source_url": "https://github.com/microsoft/winappCli/tree/8158d14f8940e1a23d972e729e1dcce84de423ef/samples/wpf-app",
+      "source_url": "https://github.com/microsoft/winappCli/tree/e18dcfaff7ad1ee5830f75494bb46e01521c1aff/samples/wpf-app",
       "readme_excerpt": "This sample demonstrates how to use winapp CLI with a WPF application to add package identity and package as MSIX.",
       "frontmatter": {
         "kind": "none",
@@ -1613,8 +1633,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8158d14f8940e1a23d972e729e1dcce84de423ef",
+        "default_sha": "e18dcfaff7ad1ee5830f75494bb46e01521c1aff",
         "tags": [
+          "v0.7.1",
           "v0.7.0",
           "v0.6.1",
           "v0.6.0",
@@ -1651,9 +1672,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1282,
+          "stars": 1292,
           "contributors": 27,
-          "last_commit": "2026-09-25T02:37:05Z",
+          "last_commit": "2026-10-04T23:20:30Z",
           "archived": false
         }
       }
@@ -1667,9 +1688,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1282,
+      "stars": 1292,
       "contributors": 27,
-      "last_commit": "2026-09-25T02:37:05Z",
+      "last_commit": "2026-10-04T23:20:30Z",
       "archived": false
     }
   }
