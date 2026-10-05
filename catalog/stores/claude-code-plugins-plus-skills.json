@@ -2,7 +2,7 @@
   "store": "claude-code-plugins-plus-skills",
   "source_repo": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills.git",
   "generated_at": "2026-07-29T00:50:59.387Z",
-  "scanned_ref": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+  "scanned_ref": "64fe39631606d8f6402ae72cca35ea3135850286",
   "provenance": false,
   "tier": "community-curated",
   "license": null,
@@ -13,7 +13,7 @@
       "name": "agent-plugin",
       "shape": "agent",
       "source_path": "templates/agent-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/templates/agent-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/templates/agent-plugin",
       "readme_excerpt": "Plugin with specialized subagent.",
       "frontmatter": {
         "kind": "none",
@@ -38,7 +38,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -107,6 +107,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -285,9 +287,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -296,7 +298,7 @@
       "name": "ai-agency",
       "shape": "unknown",
       "source_path": "plugins/ai-agency",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/plugins/ai-agency",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/plugins/ai-agency",
       "readme_excerpt": "**Professional tools for AI agencies building with Make.com, Zapier, n8n, OpenAI, Anthropic, and more.**",
       "frontmatter": {
         "kind": "none",
@@ -321,7 +323,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -390,6 +392,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -568,9 +572,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -579,7 +583,7 @@
       "name": "ai-ml",
       "shape": "unknown",
       "source_path": "plugins/ai-ml",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/plugins/ai-ml",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/plugins/ai-ml",
       "readme_excerpt": "This directory contains 25 specialized plugins for machine learning, data science, and AI development workflows.",
       "frontmatter": {
         "kind": "none",
@@ -604,7 +608,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -673,6 +677,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -851,9 +857,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -862,7 +868,7 @@
       "name": "analytics-daemon",
       "shape": "unknown",
       "source_path": "packages/analytics-daemon",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/packages/analytics-daemon",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/packages/analytics-daemon",
       "readme_excerpt": "Local analytics daemon that monitors Claude Code conversation files for real-time plugin usage tracking and dashboard integration.",
       "frontmatter": {
         "kind": "none",
@@ -887,7 +893,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -956,6 +962,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -1134,9 +1142,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -1145,7 +1153,7 @@
       "name": "analytics-dashboard",
       "shape": "unknown",
       "source_path": "packages/analytics-dashboard",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/packages/analytics-dashboard",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/packages/analytics-dashboard",
       "readme_excerpt": "Real-time analytics dashboard for Claude Code plugin usage, skill triggers, and API costs.",
       "frontmatter": {
         "kind": "none",
@@ -1170,7 +1178,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1239,6 +1247,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -1417,9 +1427,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -1428,7 +1438,7 @@
       "name": "api-development",
       "shape": "unknown",
       "source_path": "plugins/api-development",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/plugins/api-development",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/plugins/api-development",
       "readme_excerpt": "A comprehensive collection of 25 professional plugins for API development with Claude Code.",
       "frontmatter": {
         "kind": "none",
@@ -1453,7 +1463,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1522,6 +1532,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -1700,9 +1712,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -1711,7 +1723,7 @@
       "name": "cli",
       "shape": "unknown",
       "source_path": "packages/cli",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/packages/cli",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/packages/cli",
       "readme_excerpt": "> Command-line tool for installing and managing Claude Code plugins from [tonsofskills.com](https://tonsofskills.com)",
       "frontmatter": {
         "kind": "none",
@@ -1736,7 +1748,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -1805,6 +1817,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -1983,9 +1997,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -1994,7 +2008,7 @@
       "name": "command-plugin",
       "shape": "prompt",
       "source_path": "templates/command-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/templates/command-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/templates/command-plugin",
       "readme_excerpt": "Plugin with custom slash commands.",
       "frontmatter": {
         "kind": "none",
@@ -2019,7 +2033,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2088,6 +2102,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -2266,9 +2282,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -2277,7 +2293,7 @@
       "name": "database",
       "shape": "unknown",
       "source_path": "plugins/database",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/plugins/database",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/plugins/database",
       "readme_excerpt": "A comprehensive collection of 25 database and backend plugins for Claude Code, covering migration management, performance optimization, security, monitoring, and advanced database operations.",
       "frontmatter": {
         "kind": "none",
@@ -2302,7 +2318,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2371,6 +2387,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -2549,9 +2567,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -2560,7 +2578,7 @@
       "name": "devops",
       "shape": "unknown",
       "source_path": "plugins/devops",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/plugins/devops",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/plugins/devops",
       "readme_excerpt": "A comprehensive collection of 25 DevOps infrastructure plugins for Claude Code, covering the entire DevOps lifecycle.",
       "frontmatter": {
         "kind": "none",
@@ -2585,7 +2603,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2654,6 +2672,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -2832,9 +2852,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -2843,7 +2863,7 @@
       "name": "e2e",
       "shape": "unknown",
       "source_path": "tests/e2e",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/tests/e2e",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/tests/e2e",
       "readme_excerpt": "Comprehensive end-to-end testing for real-world plugin installation, activation, and usage scenarios.",
       "frontmatter": {
         "kind": "none",
@@ -2868,7 +2888,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -2937,6 +2957,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -3115,9 +3137,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -3126,7 +3148,7 @@
       "name": "freshie",
       "shape": "unknown",
       "source_path": "freshie",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/freshie",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/freshie",
       "readme_excerpt": "Configuration Management Database (CMDB) for the claude-code-plugins ecosystem.",
       "frontmatter": {
         "kind": "none",
@@ -3151,7 +3173,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -3220,6 +3242,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -3398,9 +3422,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -3409,7 +3433,7 @@
       "name": "full-plugin",
       "shape": "mixed",
       "source_path": "templates/full-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/templates/full-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/templates/full-plugin",
       "readme_excerpt": "Full-featured plugin with commands, agents, and hooks.",
       "frontmatter": {
         "kind": "none",
@@ -3434,7 +3458,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -3503,6 +3527,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -3681,9 +3707,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -3692,7 +3718,7 @@
       "name": "lab",
       "shape": "unknown",
       "source_path": "workspace/lab",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/workspace/lab",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/workspace/lab",
       "readme_excerpt": "**Purpose:** Safe sandbox for learning and building phased workflow skills with strict validation.",
       "frontmatter": {
         "kind": "none",
@@ -3717,7 +3743,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -3786,6 +3812,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -3964,9 +3992,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -3975,7 +4003,7 @@
       "name": "minimal-plugin",
       "shape": "unknown",
       "source_path": "templates/minimal-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/templates/minimal-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/templates/minimal-plugin",
       "readme_excerpt": "Brief description of your plugin.",
       "frontmatter": {
         "kind": "none",
@@ -4000,7 +4028,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -4069,6 +4097,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -4247,9 +4277,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -4258,7 +4288,7 @@
       "name": "performance",
       "shape": "unknown",
       "source_path": "plugins/performance",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/plugins/performance",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/plugins/performance",
       "readme_excerpt": "A comprehensive collection of 25 performance and monitoring plugins for Claude Code, covering profiling, optimization, observability, and SRE best practices.",
       "frontmatter": {
         "kind": "none",
@@ -4283,7 +4313,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -4352,6 +4382,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -4530,9 +4562,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -4541,7 +4573,7 @@
       "name": "plugin-validator",
       "shape": "unknown",
       "source_path": "packages/plugin-validator",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/packages/plugin-validator",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/packages/plugin-validator",
       "readme_excerpt": "**Validate Claude Code plugins for completeness and best practices before publishing.**",
       "frontmatter": {
         "kind": "none",
@@ -4566,7 +4598,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -4635,6 +4667,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -4813,9 +4847,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -4824,7 +4858,7 @@
       "name": "pr-classifier",
       "shape": "unknown",
       "source_path": "scripts/pr-classifier",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/scripts/pr-classifier",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/scripts/pr-classifier",
       "readme_excerpt": "Given a list of files changed in a PR, emit a structured JSON object describing the contribution: which plugins, skills, agents, MCP servers, hooks, workflows, scripts, and docs are affected, plus any",
       "frontmatter": {
         "kind": "none",
@@ -4849,7 +4883,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -4918,6 +4952,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -5096,9 +5132,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -5107,7 +5143,7 @@
       "name": "security",
       "shape": "unknown",
       "source_path": "plugins/security",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/plugins/security",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/plugins/security",
       "readme_excerpt": "Comprehensive collection of 25 security and compliance plugins for Claude Code, covering vulnerability scanning, penetration testing, compliance auditing, and security best practices.",
       "frontmatter": {
         "kind": "none",
@@ -5132,7 +5168,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -5201,6 +5237,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -5379,9 +5417,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -5390,7 +5428,7 @@
       "name": "skill-docs",
       "shape": "unknown",
       "source_path": "templates/skill-docs",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/templates/skill-docs",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/templates/skill-docs",
       "readme_excerpt": "Fill-in-the-blank templates for the documents every marketplace submission ships with.",
       "frontmatter": {
         "kind": "none",
@@ -5415,7 +5453,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -5484,6 +5522,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -5662,9 +5702,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -5673,7 +5713,7 @@
       "name": "skill-plugin",
       "shape": "skill",
       "source_path": "templates/skill-plugin",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/templates/skill-plugin",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/templates/skill-plugin",
       "readme_excerpt": "Brief description of what your skill plugin does.",
       "frontmatter": {
         "kind": "none",
@@ -5698,7 +5738,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -5767,6 +5807,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -5945,9 +5987,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -5956,7 +5998,7 @@
       "name": "skills",
       "shape": "unknown",
       "source_path": "skills",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/skills",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/skills",
       "readme_excerpt": "**500 production-ready Agent Skills** organized into 20 categories.",
       "frontmatter": {
         "kind": "none",
@@ -5981,7 +6023,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -6050,6 +6092,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -6228,9 +6272,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -6239,7 +6283,7 @@
       "name": "testing",
       "shape": "unknown",
       "source_path": "plugins/testing",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/plugins/testing",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/plugins/testing",
       "readme_excerpt": "A comprehensive collection of 10 professional testing plugins covering all aspects of software quality assurance.",
       "frontmatter": {
         "kind": "none",
@@ -6264,7 +6308,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -6333,6 +6377,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -6511,9 +6557,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -6522,7 +6568,7 @@
       "name": "tutorials",
       "shape": "skill",
       "source_path": "tutorials",
-      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/a7be181f5879c2ef0b9435ea074fd49fd75e407f/tutorials",
+      "source_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/64fe39631606d8f6402ae72cca35ea3135850286/tutorials",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
@@ -6547,7 +6593,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "a7be181f5879c2ef0b9435ea074fd49fd75e407f",
+        "default_sha": "64fe39631606d8f6402ae72cca35ea3135850286",
         "tags": [
           "v4.33.0",
           "v4.32.0",
@@ -6616,6 +6662,8 @@
           "v1.0.36",
           "v1.0.0",
           "evidence-latest",
+          "archive/stats-workflow-fix-ca17503a9",
+          "archive/security-identity-727935670",
           "@intentsolutionsio/zero-tech-debt@1.0.2",
           "@intentsolutionsio/zai-cli@1.0.2",
           "@intentsolutionsio/youtube-strategy@1.0.4",
@@ -6794,9 +6842,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 2794,
-          "contributors": 55,
-          "last_commit": "2026-09-28T10:29:35Z",
+          "stars": 2812,
+          "contributors": 59,
+          "last_commit": "2026-10-05T10:48:14Z",
           "archived": false
         }
       }
@@ -6810,9 +6858,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 2794,
-      "contributors": 55,
-      "last_commit": "2026-09-28T10:29:35Z",
+      "stars": 2812,
+      "contributors": 59,
+      "last_commit": "2026-10-05T10:48:14Z",
       "archived": false
     }
   }

@@ -2,24 +2,25 @@
 
 **Source:** [mongodb/agent-skills](https://github.com/mongodb/agent-skills)
 **Store trust:** 30/100
-**Signals:** maintenance 15 · adoption 5 · license 10 (Apache-2.0) · 187 stars · 16 contributors
-**Scanned ref:** `d1d2d86754ff`
+**Signals:** maintenance 15 · adoption 5 · license 10 (Apache-2.0) · 188 stars · 17 contributors
+**Scanned ref:** `18b014ee53f5`
 
-## Plugins (11)
+## Plugins (12)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 40 | [`mongodb`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/plugins/mongodb) | mixed | - | For deployments you manage yourself — **Community**, **Enterprise Advanced**, a local dev container… |
-| 40 | [`mongodb-atlas`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/plugins/mongodb-atlas) | skill | - | Connects your agent to **MongoDB Atlas** clusters through MongoDB's hosted Atlas MCP server (`https… |
-| 40 | [`skills-boundaries`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/testing/skills-boundaries) | unknown | - | This directory contains evaluation tests to validate that skills are invoked at the correct times b… |
-| 35 | [`mongodb-atlas-stream-processing`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/skills/mongodb-atlas-stream-processing) | skill | - | Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data sourc… |
-| 35 | [`mongodb-connection`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/skills/mongodb-connection) | skill | - | Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driv… |
-| 35 | [`mongodb-mcp-setup`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/skills/mongodb-mcp-setup) | skill | - | Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the … |
-| 35 | [`mongodb-natural-language-querying`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/skills/mongodb-natural-language-querying) | skill | - | Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with col… |
-| 35 | [`mongodb-query-optimizer`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/skills/mongodb-query-optimizer) | skill | - | Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or … |
-| 35 | [`mongodb-schema-design`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/skills/mongodb-schema-design) | skill | - | MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas… |
-| 35 | [`mongodb-search-and-ai`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/skills/mongodb-search-and-ai) | skill | - | Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (s… |
-| 35 | [`review-skill`](https://github.com/mongodb/agent-skills/tree/d1d2d86754ff303ac441624b2ac8e0380465aa9b/tools/review-skill) | skill | - | Review a proposed Agent Skill for structural validity and content quality before publishing. Runs t… |
+| 40 | [`mongodb`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/plugins/mongodb) | mixed | - | For deployments you manage yourself — **Community**, **Enterprise Advanced**, a local dev container… |
+| 40 | [`mongodb-atlas`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/plugins/mongodb-atlas) | skill | - | Connects your agent to **MongoDB Atlas** clusters through MongoDB's hosted Atlas MCP server (`https… |
+| 40 | [`skills-boundaries`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/testing/skills-boundaries) | unknown | - | This directory contains evaluation tests to validate that skills are invoked at the correct times b… |
+| 35 | [`mongodb-atlas-stream-processing`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/skills/mongodb-atlas-stream-processing) | skill | - | Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data sourc… |
+| 35 | [`mongodb-connection`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/skills/mongodb-connection) | skill | - | Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driv… |
+| 35 | [`mongodb-mcp-setup`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/skills/mongodb-mcp-setup) | skill | - | Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the … |
+| 35 | [`mongodb-natural-language-querying`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/skills/mongodb-natural-language-querying) | skill | - | Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with col… |
+| 35 | [`mongodb-qe-size-estimation`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/skills/mongodb-qe-size-estimation) | skill | - | Estimates the storage and memory impact of encrypting fields in collections with Queryable Encrypti… |
+| 35 | [`mongodb-query-optimizer`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/skills/mongodb-query-optimizer) | skill | - | Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or … |
+| 35 | [`mongodb-schema-design`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/skills/mongodb-schema-design) | skill | - | MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas… |
+| 35 | [`mongodb-search-and-ai`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/skills/mongodb-search-and-ai) | skill | - | Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (s… |
+| 35 | [`review-skill`](https://github.com/mongodb/agent-skills/tree/18b014ee53f5e8a824942cc6b0ced37f921e7b3c/tools/review-skill) | skill | - | Review a proposed Agent Skill for structural validity and content quality before publishing. Runs t… |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-09-28T11:09:08.059Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-10-05T11:09:20.902Z*
