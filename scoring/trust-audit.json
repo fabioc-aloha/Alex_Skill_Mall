@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-05T11:09:20.902Z",
+  "generated_at": "2026-10-12T11:10:31.018Z",
   "total_stores": 53,
-  "total_plugins": 4813,
+  "total_plugins": 4862,
   "score_distribution": {
     "0-19": 0,
-    "20-39": 648,
-    "40-59": 3806,
+    "20-39": 549,
+    "40-59": 3954,
     "60-79": 0,
     "80-100": 359
   },
@@ -31,9 +31,28 @@
       }
     },
     {
+      "store": "ai-research-skills",
+      "store_score": 35,
+      "plugin_count": 100,
+      "min_plugin_score": 43,
+      "max_plugin_score": 48,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 13476,
+        "contributors": 16,
+        "last_commit": "2026-10-11T02:56:34Z",
+        "archived": false
+      }
+    },
+    {
       "store": "antigravity-awesome-skills",
       "store_score": 35,
-      "plugin_count": 2561,
+      "plugin_count": 2586,
       "min_plugin_score": 42,
       "max_plugin_score": 50,
       "provenance": false,
@@ -43,16 +62,16 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 47261,
-        "contributors": 383,
-        "last_commit": "2026-10-04T23:57:35Z",
+        "stars": 47492,
+        "contributors": 404,
+        "last_commit": "2026-10-12T05:15:46Z",
         "archived": false
       }
     },
     {
       "store": "awesome-copilot",
       "store_score": 35,
-      "plugin_count": 527,
+      "plugin_count": 531,
       "min_plugin_score": 40,
       "max_plugin_score": 48,
       "provenance": false,
@@ -62,16 +81,16 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 39715,
-        "contributors": 436,
-        "last_commit": "2026-10-04T23:45:13Z",
+        "stars": 39944,
+        "contributors": 435,
+        "last_commit": "2026-10-12T07:39:57Z",
         "archived": false
       }
     },
     {
       "store": "buildwithclaude",
       "store_score": 35,
-      "plugin_count": 118,
+      "plugin_count": 122,
       "min_plugin_score": 35,
       "max_plugin_score": 45,
       "provenance": false,
@@ -81,9 +100,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 3588,
-        "contributors": 152,
-        "last_commit": "2026-10-04T12:14:22Z",
+        "stars": 3620,
+        "contributors": 173,
+        "last_commit": "2026-10-12T04:13:01Z",
         "archived": false
       }
     },
@@ -100,16 +119,16 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 2812,
+        "stars": 2831,
         "contributors": 59,
-        "last_commit": "2026-10-05T10:48:14Z",
+        "last_commit": "2026-10-12T10:32:51Z",
         "archived": false
       }
     },
     {
       "store": "daymade-claude-code-skills",
       "store_score": 35,
-      "plugin_count": 117,
+      "plugin_count": 120,
       "min_plugin_score": 40,
       "max_plugin_score": 45,
       "provenance": false,
@@ -119,28 +138,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 1442,
+        "stars": 1453,
         "contributors": 11,
-        "last_commit": "2026-10-05T10:04:22Z",
-        "archived": false
-      }
-    },
-    {
-      "store": "designer-skills",
-      "store_score": 35,
-      "plugin_count": 9,
-      "min_plugin_score": 45,
-      "max_plugin_score": 45,
-      "provenance": false,
-      "signals": {
-        "provenance": 0,
-        "maintenance": 15,
-        "adoption": 10,
-        "license": 10,
-        "license_name": "MIT",
-        "stars": 2837,
-        "contributors": 6,
-        "last_commit": "2026-09-05T15:32:50Z",
+        "last_commit": "2026-10-12T11:04:00Z",
         "archived": false
       }
     },
@@ -157,9 +157,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 5556,
-        "contributors": 62,
-        "last_commit": "2026-10-05T10:16:01Z",
+        "stars": 5608,
+        "contributors": 65,
+        "last_commit": "2026-10-12T10:33:40Z",
         "archived": false
       }
     },
@@ -176,16 +176,16 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 2655,
+        "stars": 2771,
         "contributors": 30,
-        "last_commit": "2026-10-05T09:46:17Z",
+        "last_commit": "2026-10-07T12:47:44Z",
         "archived": false
       }
     },
     {
       "store": "google-skills",
       "store_score": 35,
-      "plugin_count": 150,
+      "plugin_count": 156,
       "min_plugin_score": 40,
       "max_plugin_score": 40,
       "provenance": false,
@@ -195,9 +195,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "Apache-2.0",
-        "stars": 20937,
+        "stars": 21197,
         "contributors": 7,
-        "last_commit": "2026-10-02T16:53:41Z",
+        "last_commit": "2026-10-09T19:32:48Z",
         "archived": false
       }
     },
@@ -214,9 +214,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "Apache-2.0",
-        "stars": 11137,
+        "stars": 11162,
         "contributors": 42,
-        "last_commit": "2026-10-01T12:33:22Z",
+        "last_commit": "2026-10-08T15:30:08Z",
         "archived": false
       }
     },
@@ -233,9 +233,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 53296,
-        "contributors": 45,
-        "last_commit": "2026-10-03T01:51:50Z",
+        "stars": 54287,
+        "contributors": 46,
+        "last_commit": "2026-10-08T21:51:51Z",
         "archived": false
       }
     },
@@ -252,9 +252,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 1091,
+        "stars": 1097,
         "contributors": 10,
-        "last_commit": "2026-10-02T15:20:02Z",
+        "last_commit": "2026-10-07T23:02:06Z",
         "archived": false
       }
     },
@@ -271,9 +271,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 1217,
+        "stars": 1243,
         "contributors": 7,
-        "last_commit": "2026-10-01T20:23:30Z",
+        "last_commit": "2026-10-05T11:17:15Z",
         "archived": false
       }
     },
@@ -290,9 +290,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 1498,
-        "contributors": 93,
-        "last_commit": "2026-10-05T08:48:45Z",
+        "stars": 1519,
+        "contributors": 95,
+        "last_commit": "2026-10-11T17:43:14Z",
         "archived": false
       }
     },
@@ -309,17 +309,17 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 3081,
+        "stars": 3102,
         "contributors": 31,
-        "last_commit": "2026-10-05T11:05:47Z",
+        "last_commit": "2026-10-12T11:07:17Z",
         "archived": false
       }
     },
     {
       "store": "microsoft-winapp-cli",
       "store_score": 35,
-      "plugin_count": 21,
-      "min_plugin_score": 41,
+      "plugin_count": 24,
+      "min_plugin_score": 35,
       "max_plugin_score": 45,
       "provenance": false,
       "signals": {
@@ -328,9 +328,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 1292,
+        "stars": 1305,
         "contributors": 27,
-        "last_commit": "2026-10-04T23:20:30Z",
+        "last_commit": "2026-10-12T05:16:12Z",
         "archived": false
       }
     },
@@ -347,9 +347,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 27286,
-        "contributors": 50,
-        "last_commit": "2026-10-01T19:57:49Z",
+        "stars": 27407,
+        "contributors": 52,
+        "last_commit": "2026-10-12T08:07:36Z",
         "archived": false
       }
     },
@@ -366,9 +366,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 140173,
-        "contributors": 301,
-        "last_commit": "2026-10-03T16:48:20Z",
+        "stars": 140911,
+        "contributors": 306,
+        "last_commit": "2026-10-10T01:32:35Z",
         "archived": false
       }
     },
@@ -385,9 +385,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 33147,
-        "contributors": 146,
-        "last_commit": "2026-10-02T16:25:55Z",
+        "stars": 33922,
+        "contributors": 152,
+        "last_commit": "2026-10-09T17:54:47Z",
         "archived": false
       }
     },
@@ -404,9 +404,9 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 40205,
-        "contributors": 83,
-        "last_commit": "2026-10-05T01:07:11Z",
+        "stars": 40450,
+        "contributors": 82,
+        "last_commit": "2026-10-12T03:07:19Z",
         "archived": false
       }
     },
@@ -423,7 +423,7 @@
         "adoption": 10,
         "license": 10,
         "license_name": "MIT",
-        "stars": 27645,
+        "stars": 28044,
         "contributors": 46,
         "last_commit": "2026-08-30T09:46:16Z",
         "archived": false
@@ -442,9 +442,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 268,
+        "stars": 271,
         "contributors": 10,
-        "last_commit": "2026-10-05T01:32:10Z",
+        "last_commit": "2026-10-09T05:11:43Z",
         "archived": false
       }
     },
@@ -461,9 +461,28 @@
         "adoption": 10,
         "license": 10,
         "license_name": "GPL-3.0",
-        "stars": 1747,
+        "stars": 1754,
         "contributors": 9,
         "last_commit": "2026-08-26T21:08:01Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "designer-skills",
+      "store_score": 32,
+      "plugin_count": 9,
+      "min_plugin_score": 42,
+      "max_plugin_score": 42,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 10,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 2893,
+        "contributors": 6,
+        "last_commit": "2026-09-05T15:32:50Z",
         "archived": false
       }
     },
@@ -480,9 +499,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 224,
+        "stars": 225,
         "contributors": 23,
-        "last_commit": "2026-10-05T04:46:11Z",
+        "last_commit": "2026-10-12T11:09:38Z",
         "archived": false
       }
     },
@@ -499,9 +518,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "Apache-2.0",
-        "stars": 591,
+        "stars": 593,
         "contributors": 9,
-        "last_commit": "2026-10-02T12:13:48Z",
+        "last_commit": "2026-10-07T17:49:38Z",
         "archived": false
       }
     },
@@ -518,9 +537,28 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 472,
+        "stars": 484,
         "contributors": 8,
-        "last_commit": "2026-10-03T21:23:14Z",
+        "last_commit": "2026-10-12T08:55:59Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "garden-skills",
+      "store_score": 32,
+      "plugin_count": 6,
+      "min_plugin_score": 42,
+      "max_plugin_score": 42,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 15,
+        "adoption": 7,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 12836,
+        "contributors": 3,
+        "last_commit": "2026-10-11T02:28:13Z",
         "archived": false
       }
     },
@@ -537,9 +575,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 460,
+        "stars": 468,
         "contributors": 12,
-        "last_commit": "2026-10-01T09:06:55Z",
+        "last_commit": "2026-10-08T09:08:43Z",
         "archived": false
       }
     },
@@ -556,9 +594,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 237,
-        "contributors": 11,
-        "last_commit": "2026-10-05T06:49:41Z",
+        "stars": 244,
+        "contributors": 12,
+        "last_commit": "2026-10-09T23:29:14Z",
         "archived": false
       }
     },
@@ -575,9 +613,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 227,
+        "stars": 229,
         "contributors": 26,
-        "last_commit": "2026-10-05T07:30:52Z",
+        "last_commit": "2026-10-12T07:34:31Z",
         "archived": false
       }
     },
@@ -594,9 +632,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 608,
+        "stars": 612,
         "contributors": 41,
-        "last_commit": "2026-10-05T07:39:14Z",
+        "last_commit": "2026-10-12T07:21:09Z",
         "archived": false
       }
     },
@@ -613,28 +651,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 460,
-        "contributors": 19,
-        "last_commit": "2026-10-01T00:21:29Z",
-        "archived": false
-      }
-    },
-    {
-      "store": "n-skills",
-      "store_score": 32,
-      "plugin_count": 5,
-      "min_plugin_score": 32,
-      "max_plugin_score": 32,
-      "provenance": false,
-      "signals": {
-        "provenance": 0,
-        "maintenance": 15,
-        "adoption": 7,
-        "license": 10,
-        "license_name": "Apache-2.0",
-        "stars": 1051,
-        "contributors": 3,
-        "last_commit": "2026-09-12T00:25:34Z",
+        "stars": 469,
+        "contributors": 20,
+        "last_commit": "2026-10-12T05:16:12Z",
         "archived": false
       }
     },
@@ -651,9 +670,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "Apache-2.0",
-        "stars": 254,
+        "stars": 255,
         "contributors": 20,
-        "last_commit": "2026-09-30T12:15:08Z",
+        "last_commit": "2026-10-09T14:48:23Z",
         "archived": false
       }
     },
@@ -670,9 +689,9 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 967,
+        "stars": 976,
         "contributors": 6,
-        "last_commit": "2026-10-01T00:16:33Z",
+        "last_commit": "2026-10-12T04:24:55Z",
         "archived": false
       }
     },
@@ -690,17 +709,17 @@
         "license": 10,
         "license_name": "MIT",
         "stars": 134,
-        "contributors": 190,
-        "last_commit": "2026-10-03T21:42:41Z",
+        "contributors": 191,
+        "last_commit": "2026-10-12T10:51:25Z",
         "archived": false
       }
     },
     {
-      "store": "copilot-agents-dojo",
+      "store": "microsoft-copilot-modernization",
       "store_score": 30,
-      "plugin_count": 29,
-      "min_plugin_score": 35,
-      "max_plugin_score": 35,
+      "plugin_count": 1,
+      "min_plugin_score": 43,
+      "max_plugin_score": 43,
       "provenance": false,
       "signals": {
         "provenance": 0,
@@ -708,9 +727,9 @@
         "adoption": 5,
         "license": 10,
         "license_name": "MIT",
-        "stars": 54,
-        "contributors": 3,
-        "last_commit": "2026-09-07T01:30:06Z",
+        "stars": 53,
+        "contributors": 8,
+        "last_commit": "2026-09-23T16:17:59Z",
         "archived": false
       }
     },
@@ -727,47 +746,9 @@
         "adoption": 5,
         "license": 10,
         "license_name": "Apache-2.0",
-        "stars": 188,
+        "stars": 190,
         "contributors": 17,
-        "last_commit": "2026-10-02T22:03:18Z",
-        "archived": false
-      }
-    },
-    {
-      "store": "ai-research-skills",
-      "store_score": 29,
-      "plugin_count": 100,
-      "min_plugin_score": 37,
-      "max_plugin_score": 42,
-      "provenance": false,
-      "signals": {
-        "provenance": 0,
-        "maintenance": 9,
-        "adoption": 10,
-        "license": 10,
-        "license_name": "MIT",
-        "stars": 13257,
-        "contributors": 16,
-        "last_commit": "2026-06-16T01:36:46Z",
-        "archived": false
-      }
-    },
-    {
-      "store": "garden-skills",
-      "store_score": 29,
-      "plugin_count": 5,
-      "min_plugin_score": 39,
-      "max_plugin_score": 39,
-      "provenance": false,
-      "signals": {
-        "provenance": 0,
-        "maintenance": 12,
-        "adoption": 7,
-        "license": 10,
-        "license_name": "MIT",
-        "stars": 12741,
-        "contributors": 3,
-        "last_commit": "2026-07-12T14:36:31Z",
+        "last_commit": "2026-10-10T01:32:32Z",
         "archived": false
       }
     },
@@ -784,7 +765,7 @@
         "adoption": 7,
         "license": 10,
         "license_name": "MIT",
-        "stars": 368,
+        "stars": 375,
         "contributors": 17,
         "last_commit": "2026-08-31T17:30:48Z",
         "archived": false
@@ -803,9 +784,28 @@
         "adoption": 7,
         "license": 7,
         "license_name": "CC-BY-4.0",
-        "stars": 773,
+        "stars": 778,
         "contributors": 7,
-        "last_commit": "2026-10-04T02:45:38Z",
+        "last_commit": "2026-10-11T02:44:21Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "n-skills",
+      "store_score": 29,
+      "plugin_count": 5,
+      "min_plugin_score": 29,
+      "max_plugin_score": 29,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 7,
+        "license": 10,
+        "license_name": "Apache-2.0",
+        "stars": 1050,
+        "contributors": 3,
+        "last_commit": "2026-09-12T00:25:34Z",
         "archived": false
       }
     },
@@ -824,26 +824,7 @@
         "license_name": "MIT",
         "stars": 18,
         "contributors": 11,
-        "last_commit": "2026-10-02T22:01:15Z",
-        "archived": false
-      }
-    },
-    {
-      "store": "microsoft-copilot-modernization",
-      "store_score": 28,
-      "plugin_count": 1,
-      "min_plugin_score": 41,
-      "max_plugin_score": 41,
-      "provenance": false,
-      "signals": {
-        "provenance": 0,
-        "maintenance": 15,
-        "adoption": 3,
-        "license": 10,
-        "license_name": "MIT",
-        "stars": 49,
-        "contributors": 8,
-        "last_commit": "2026-09-23T16:17:59Z",
+        "last_commit": "2026-10-07T03:44:53Z",
         "archived": false
       }
     },
@@ -860,9 +841,28 @@
         "adoption": 3,
         "license": 10,
         "license_name": "MIT",
-        "stars": 45,
+        "stars": 49,
         "contributors": 6,
-        "last_commit": "2026-10-04T18:45:15Z",
+        "last_commit": "2026-10-09T13:19:49Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "copilot-agents-dojo",
+      "store_score": 27,
+      "plugin_count": 29,
+      "min_plugin_score": 32,
+      "max_plugin_score": 32,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 5,
+        "license": 10,
+        "license_name": "MIT",
+        "stars": 54,
+        "contributors": 3,
+        "last_commit": "2026-09-07T01:30:06Z",
         "archived": false
       }
     },
@@ -879,7 +879,7 @@
         "adoption": 5,
         "license": 10,
         "license_name": "MIT",
-        "stars": 57,
+        "stars": 58,
         "contributors": 2,
         "last_commit": "2026-08-18T07:21:44Z",
         "archived": false
@@ -898,9 +898,9 @@
         "adoption": 10,
         "license": 0,
         "license_name": null,
-        "stars": 179713,
+        "stars": 180636,
         "contributors": 15,
-        "last_commit": "2026-10-03T20:38:10Z",
+        "last_commit": "2026-10-09T18:45:52Z",
         "archived": false
       }
     },
@@ -917,16 +917,16 @@
         "adoption": 10,
         "license": 0,
         "license_name": "NOASSERTION",
-        "stars": 91011,
-        "contributors": 427,
-        "last_commit": "2026-10-05T05:59:16Z",
+        "stars": 91166,
+        "contributors": 428,
+        "last_commit": "2026-10-12T05:33:37Z",
         "archived": false
       }
     },
     {
       "store": "databricks-agent-skills",
       "store_score": 22,
-      "plugin_count": 35,
+      "plugin_count": 38,
       "min_plugin_score": 27,
       "max_plugin_score": 32,
       "provenance": false,
@@ -936,9 +936,9 @@
         "adoption": 7,
         "license": 0,
         "license_name": "NOASSERTION",
-        "stars": 340,
+        "stars": 347,
         "contributors": 25,
-        "last_commit": "2026-10-02T08:36:01Z",
+        "last_commit": "2026-10-12T08:51:28Z",
         "archived": false
       }
     },
@@ -955,7 +955,7 @@
         "adoption": 10,
         "license": 0,
         "license_name": "NOASSERTION",
-        "stars": 1207,
+        "stars": 1206,
         "contributors": 7,
         "last_commit": "2026-08-25T19:08:41Z",
         "archived": false
@@ -974,7 +974,7 @@
         "adoption": 10,
         "license": 0,
         "license_name": null,
-        "stars": 31945,
+        "stars": 32271,
         "contributors": 25,
         "last_commit": "2026-08-28T13:36:31Z",
         "archived": false
@@ -995,7 +995,7 @@
         "license_name": "NOASSERTION",
         "stars": 76,
         "contributors": 6,
-        "last_commit": "2026-10-05T09:53:57Z",
+        "last_commit": "2026-10-07T14:36:36Z",
         "archived": false
       }
     },
@@ -1012,7 +1012,7 @@
         "adoption": 3,
         "license": 0,
         "license_name": null,
-        "stars": 5147,
+        "stars": 5160,
         "contributors": null,
         "last_commit": "2026-09-04T01:35:58Z",
         "archived": false
