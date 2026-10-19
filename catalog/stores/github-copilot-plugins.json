@@ -2,7 +2,7 @@
   "store": "github-copilot-plugins",
   "source_repo": "https://github.com/github/copilot-plugins.git",
   "generated_at": "2026-08-01T20:41:14.598Z",
-  "scanned_ref": "fbf7c536a5c7af0c94ff5f528a39004c55129e6d",
+  "scanned_ref": "b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a",
   "provenance": false,
   "tier": "github-official",
   "license": null,
@@ -13,7 +13,7 @@
       "name": "build-perf-cpp",
       "shape": "mixed",
       "source_path": "plugins/build-perf-cpp",
-      "source_url": "https://github.com/github/copilot-plugins/tree/fbf7c536a5c7af0c94ff5f528a39004c55129e6d/plugins/build-perf-cpp",
+      "source_url": "https://github.com/github/copilot-plugins/tree/b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a/plugins/build-perf-cpp",
       "readme_excerpt": "Analyze MSVC build performance with `vcperf.exe` and ETL traces from GitHub",
       "frontmatter": {
         "kind": "plugin-json",
@@ -72,23 +72,23 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "fbf7c536a5c7af0c94ff5f528a39004c55129e6d",
+        "default_sha": "b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a",
         "tags": []
       },
-      "trust_score": 42,
+      "trust_score": 45,
       "trust_signals": {
-        "store": 29,
+        "store": 32,
         "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
           "stars": 375,
-          "contributors": 17,
-          "last_commit": "2026-08-31T17:30:48Z",
+          "contributors": 18,
+          "last_commit": "2026-10-14T00:18:58Z",
           "archived": false
         }
       }
@@ -97,7 +97,7 @@
       "name": "spark",
       "shape": "skill",
       "source_path": "plugins/spark",
-      "source_url": "https://github.com/github/copilot-plugins/tree/fbf7c536a5c7af0c94ff5f528a39004c55129e6d/plugins/spark",
+      "source_url": "https://github.com/github/copilot-plugins/tree/b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a/plugins/spark",
       "readme_excerpt": "Comprehensive guidance for building modern web applications with opinionated defaults for tech stack, design system, and code standards.",
       "frontmatter": {
         "kind": "none",
@@ -122,39 +122,39 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "fbf7c536a5c7af0c94ff5f528a39004c55129e6d",
+        "default_sha": "b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a",
         "tags": []
       },
-      "trust_score": 39,
+      "trust_score": 42,
       "trust_signals": {
-        "store": 29,
+        "store": 32,
         "frontmatter": 5,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
           "stars": 375,
-          "contributors": 17,
-          "last_commit": "2026-08-31T17:30:48Z",
+          "contributors": 18,
+          "last_commit": "2026-10-14T00:18:58Z",
           "archived": false
         }
       }
     }
   ],
   "store_trust": {
-    "score": 29,
+    "score": 32,
     "signals": {
       "provenance": 0,
-      "maintenance": 12,
+      "maintenance": 15,
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
       "stars": 375,
-      "contributors": 17,
-      "last_commit": "2026-08-31T17:30:48Z",
+      "contributors": 18,
+      "last_commit": "2026-10-14T00:18:58Z",
       "archived": false
     }
   }

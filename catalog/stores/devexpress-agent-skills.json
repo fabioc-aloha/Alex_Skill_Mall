@@ -1,26 +1,26 @@
 {
   "store": "devexpress-agent-skills",
   "source_repo": "https://github.com/DevExpress/agent-skills.git",
-  "generated_at": "2026-08-24T11:10:12.856Z",
-  "scanned_ref": "5146b8d3b707699889a52902082a35ba8296dcb7",
+  "generated_at": "2026-10-19T11:07:56.347Z",
+  "scanned_ref": "81e725b1a67a7f50a7c2308d38e922782892d8df",
   "provenance": false,
   "tier": "devexpress-official",
   "license": "MIT",
   "reference_only": false,
-  "plugin_count": 7,
+  "plugin_count": 8,
   "plugins": [
     {
       "name": "dx-blazor",
       "shape": "mixed",
       "source_path": "plugins/dx-blazor",
-      "source_url": "https://github.com/DevExpress/agent-skills/tree/5146b8d3b707699889a52902082a35ba8296dcb7/plugins/dx-blazor",
+      "source_url": "https://github.com/DevExpress/agent-skills/tree/81e725b1a67a7f50a7c2308d38e922782892d8df/plugins/dx-blazor",
       "readme_excerpt": "This plugin contains AI agent skills for [DevExpress Blazor Components](https://www.devexpress.com/blazor/) (UI component library for the Microsoft Blazor framework).",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "dx-blazor",
           "description": "DevExpress Blazor skills: AI Chat, charts, gauges, Grid, Treelist, Pivot Table, Scheduler, Combo Box, Ribbon, and Toolbar.",
-          "version": "1.5.0",
+          "version": "1.6.0",
           "license": "MIT",
           "author": {
             "name": "DevExpress",
@@ -50,7 +50,7 @@
         "standard": {
           "name": "dx-blazor",
           "description": "DevExpress Blazor skills: AI Chat, charts, gauges, Grid, Treelist, Pivot Table, Scheduler, Combo Box, Ribbon, and Toolbar.",
-          "version": "1.5.0",
+          "version": "1.6.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -78,8 +78,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5146b8d3b707699889a52902082a35ba8296dcb7",
+        "default_sha": "81e725b1a67a7f50a7c2308d38e922782892d8df",
         "tags": [
+          "1.6.0",
           "1.5.0",
           "1.4.0",
           "1.3.0",
@@ -87,20 +88,121 @@
           "1.1.0"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 58,
+          "stars": 63,
           "contributors": 2,
-          "last_commit": "2026-08-18T07:21:44Z",
+          "last_commit": "2026-10-19T09:14:17Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "dx-dashboard",
+      "shape": "mixed",
+      "source_path": "plugins/dx-dashboard",
+      "source_url": "https://github.com/DevExpress/agent-skills/tree/81e725b1a67a7f50a7c2308d38e922782892d8df/plugins/dx-dashboard",
+      "readme_excerpt": "This plugin contains AI agent skills for [DevExpress BI Dashboard](https://www.devexpress.com/products/net/dashboard/) (a component for building interactive analytical dashboards in ASP.NET Core, Blaz",
+      "frontmatter": {
+        "kind": "plugin-json",
+        "raw": {
+          "name": "dx-dashboard",
+          "description": "DevExpress Dashboard skills: configure and register data sources (SQL, Object, Entity Framework, JSON, MongoDB, Excel, OLAP, XPO, Federation) in code, create and bind dashboard parameters, and export dashboards to PDF, Image, or Excel for ASP.NET Core, Blazor, WinForms, and WPF.",
+          "version": "1.6.0",
+          "license": "MIT",
+          "author": {
+            "name": "DevExpress",
+            "email": "clientservices@devexpress.com",
+            "url": "https://www.devexpress.com"
+          },
+          "skills": "./skills/",
+          "keywords": [
+            "devexpress",
+            "dashboard",
+            "dotnet",
+            "aspnetcore",
+            "blazor",
+            "winforms",
+            "wpf",
+            "data-sources",
+            "parameters",
+            "export",
+            "pdf",
+            "skills"
+          ],
+          "mcpServers": {
+            "dxdocs": {
+              "url": "https://api.devexpress.com/mcp/docs",
+              "type": "http"
+            }
+          }
+        },
+        "standard": {
+          "name": "dx-dashboard",
+          "description": "DevExpress Dashboard skills: configure and register data sources (SQL, Object, Entity Framework, JSON, MongoDB, Excel, OLAP, XPO, Federation) in code, create and bind dashboard parameters, and export dashboards to PDF, Image, or Excel for ASP.NET Core, Blazor, WinForms, and WPF.",
+          "version": "1.6.0",
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": [
+            "devexpress",
+            "dashboard",
+            "dotnet",
+            "aspnetcore",
+            "blazor",
+            "winforms",
+            "wpf",
+            "data-sources",
+            "parameters",
+            "export",
+            "pdf",
+            "skills"
+          ],
+          "license": "MIT",
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "81e725b1a67a7f50a7c2308d38e922782892d8df",
+        "tags": [
+          "1.6.0",
+          "1.5.0",
+          "1.4.0",
+          "1.3.0",
+          "1.2.0",
+          "1.1.0"
+        ]
+      },
+      "trust_score": 43,
+      "trust_signals": {
+        "store": 30,
+        "frontmatter": 8,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 5,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 63,
+          "contributors": 2,
+          "last_commit": "2026-10-19T09:14:17Z",
           "archived": false
         }
       }
@@ -109,14 +211,14 @@
       "name": "dx-devextreme",
       "shape": "mixed",
       "source_path": "plugins/dx-devextreme",
-      "source_url": "https://github.com/DevExpress/agent-skills/tree/5146b8d3b707699889a52902082a35ba8296dcb7/plugins/dx-devextreme",
-      "readme_excerpt": "This plugin contains AI agent skills for [DevExtreme](https://js.devexpress.com/) (DevExpress UI component library for Angular, React, Vue, and jQuery).",
+      "source_url": "https://github.com/DevExpress/agent-skills/tree/81e725b1a67a7f50a7c2308d38e922782892d8df/plugins/dx-devextreme",
+      "readme_excerpt": "This plugin contains AI agent skills for [DevExtreme](https://js.devexpress.com/) and [DevExtreme-based ASP.NET Core Controls](https://docs.devexpress.com/AspNetCore/400263/devextreme-based-controls).",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "dx-devextreme",
-          "description": "DevExtreme JavaScript UI skills: DataGrid, Scheduler, Form, Chat, Button, SelectBox, DateBox, CheckBox, NumberBox, TextBox, TextArea, DataSource, and Theming for Angular, React, Vue, and jQuery.",
-          "version": "1.5.0",
+          "description": "DevExtreme skills: DataGrid, Scheduler, Form, Chat, Button, SelectBox, DateBox, CheckBox, NumberBox, TextBox, TextArea, DataSource, and Theming for Angular, React, Vue, jQuery, and ASP.NET Core Controls.",
+          "version": "1.6.0",
           "license": "MIT",
           "author": {
             "name": "DevExpress",
@@ -149,8 +251,8 @@
         },
         "standard": {
           "name": "dx-devextreme",
-          "description": "DevExtreme JavaScript UI skills: DataGrid, Scheduler, Form, Chat, Button, SelectBox, DateBox, CheckBox, NumberBox, TextBox, TextArea, DataSource, and Theming for Angular, React, Vue, and jQuery.",
-          "version": "1.5.0",
+          "description": "DevExtreme skills: DataGrid, Scheduler, Form, Chat, Button, SelectBox, DateBox, CheckBox, NumberBox, TextBox, TextArea, DataSource, and Theming for Angular, React, Vue, jQuery, and ASP.NET Core Controls.",
+          "version": "1.6.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -182,8 +284,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5146b8d3b707699889a52902082a35ba8296dcb7",
+        "default_sha": "81e725b1a67a7f50a7c2308d38e922782892d8df",
         "tags": [
+          "1.6.0",
           "1.5.0",
           "1.4.0",
           "1.3.0",
@@ -191,20 +294,20 @@
           "1.1.0"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 58,
+          "stars": 63,
           "contributors": 2,
-          "last_commit": "2026-08-18T07:21:44Z",
+          "last_commit": "2026-10-19T09:14:17Z",
           "archived": false
         }
       }
@@ -213,14 +316,14 @@
       "name": "dx-office-file-api",
       "shape": "mixed",
       "source_path": "plugins/dx-office-file-api",
-      "source_url": "https://github.com/DevExpress/agent-skills/tree/5146b8d3b707699889a52902082a35ba8296dcb7/plugins/dx-office-file-api",
+      "source_url": "https://github.com/DevExpress/agent-skills/tree/81e725b1a67a7f50a7c2308d38e922782892d8df/plugins/dx-office-file-api",
       "readme_excerpt": "This plugin contains AI agent skills for [DevExpress Office & PDF File API](https://www.devexpress.com/products/net/office-file-api/) (AI-powered .NET library that allows you to generate, edit, and co",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "dx-office-file-api",
           "description": "DevExpress Office File API skills: Spreadsheet, Word Processing, legacy PDF, new PDF (CTP), Presentation, Barcode, Unit Conversion, Excel Export, Zip, and AI-Powered Extensions for headless .NET document automation.",
-          "version": "1.5.0",
+          "version": "1.6.0",
           "license": "MIT",
           "author": {
             "name": "DevExpress",
@@ -252,7 +355,7 @@
         "standard": {
           "name": "dx-office-file-api",
           "description": "DevExpress Office File API skills: Spreadsheet, Word Processing, legacy PDF, new PDF (CTP), Presentation, Barcode, Unit Conversion, Excel Export, Zip, and AI-Powered Extensions for headless .NET document automation.",
-          "version": "1.5.0",
+          "version": "1.6.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -282,8 +385,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5146b8d3b707699889a52902082a35ba8296dcb7",
+        "default_sha": "81e725b1a67a7f50a7c2308d38e922782892d8df",
         "tags": [
+          "1.6.0",
           "1.5.0",
           "1.4.0",
           "1.3.0",
@@ -291,20 +395,20 @@
           "1.1.0"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 58,
+          "stars": 63,
           "contributors": 2,
-          "last_commit": "2026-08-18T07:21:44Z",
+          "last_commit": "2026-10-19T09:14:17Z",
           "archived": false
         }
       }
@@ -313,14 +417,14 @@
       "name": "dx-reporting",
       "shape": "mixed",
       "source_path": "plugins/dx-reporting",
-      "source_url": "https://github.com/DevExpress/agent-skills/tree/5146b8d3b707699889a52902082a35ba8296dcb7/plugins/dx-reporting",
+      "source_url": "https://github.com/DevExpress/agent-skills/tree/81e725b1a67a7f50a7c2308d38e922782892d8df/plugins/dx-reporting",
       "readme_excerpt": "This plugin contains AI agent skills for [DevExpress Reports](https://www.devexpress.com/products/net/reporting/) (a feature-complete reporting platform that ships with an intuitive IDE-integrated Rep",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "dx-reporting",
-          "description": "DevExpress XtraReports skills for .NET, ASP.NET Core, Blazor, and Visual Studio designer code patterns: runtime report creation, web viewer/designer integration, safe *.Designer.cs edits, report storage, customization, and export (PDF, XLSX, DOCX, and more).",
-          "version": "1.5.0",
+          "description": "DevExpress XtraReports skills for .NET, ASP.NET Core, Blazor, WinForms, WPF, and Visual Studio designer code patterns: runtime report creation, web and desktop viewer/designer integration, safe *.Designer.cs edits, report storage, customization, and export (PDF, XLSX, DOCX, and more).",
+          "version": "1.6.0",
           "license": "MIT",
           "author": {
             "name": "DevExpress",
@@ -337,6 +441,8 @@
             "xtrareports",
             "aspnetcore",
             "blazor",
+            "winforms",
+            "wpf",
             "visual-studio",
             "report-designer",
             "skills"
@@ -350,8 +456,8 @@
         },
         "standard": {
           "name": "dx-reporting",
-          "description": "DevExpress XtraReports skills for .NET, ASP.NET Core, Blazor, and Visual Studio designer code patterns: runtime report creation, web viewer/designer integration, safe *.Designer.cs edits, report storage, customization, and export (PDF, XLSX, DOCX, and more).",
-          "version": "1.5.0",
+          "description": "DevExpress XtraReports skills for .NET, ASP.NET Core, Blazor, WinForms, WPF, and Visual Studio designer code patterns: runtime report creation, web and desktop viewer/designer integration, safe *.Designer.cs edits, report storage, customization, and export (PDF, XLSX, DOCX, and more).",
+          "version": "1.6.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -366,6 +472,8 @@
             "xtrareports",
             "aspnetcore",
             "blazor",
+            "winforms",
+            "wpf",
             "visual-studio",
             "report-designer",
             "skills"
@@ -377,8 +485,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5146b8d3b707699889a52902082a35ba8296dcb7",
+        "default_sha": "81e725b1a67a7f50a7c2308d38e922782892d8df",
         "tags": [
+          "1.6.0",
           "1.5.0",
           "1.4.0",
           "1.3.0",
@@ -386,20 +495,20 @@
           "1.1.0"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 58,
+          "stars": 63,
           "contributors": 2,
-          "last_commit": "2026-08-18T07:21:44Z",
+          "last_commit": "2026-10-19T09:14:17Z",
           "archived": false
         }
       }
@@ -408,14 +517,14 @@
       "name": "dx-winforms",
       "shape": "mixed",
       "source_path": "plugins/dx-winforms",
-      "source_url": "https://github.com/DevExpress/agent-skills/tree/5146b8d3b707699889a52902082a35ba8296dcb7/plugins/dx-winforms",
+      "source_url": "https://github.com/DevExpress/agent-skills/tree/81e725b1a67a7f50a7c2308d38e922782892d8df/plugins/dx-winforms",
       "readme_excerpt": "This plugin contains AI agent skills for [DevExpress WinForms Controls](https://www.devexpress.com/products/net/controls/winforms/) (Windows Forms controls for .NET 8+ and .NET Framework 4.6.2+).",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "dx-winforms",
           "description": "DevExpress WinForms skills: Data Grid, Tree List, Pivot Grid, Property Grid, Charts, Scheduler, AI Chat, Data Editors, Loading Indicators, Layout Management, Ribbon and Bars, Accordion, Tab Control, MVVM Framework.",
-          "version": "1.5.0",
+          "version": "1.6.0",
           "license": "MIT",
           "author": {
             "name": "DevExpress",
@@ -446,7 +555,7 @@
         "standard": {
           "name": "dx-winforms",
           "description": "DevExpress WinForms skills: Data Grid, Tree List, Pivot Grid, Property Grid, Charts, Scheduler, AI Chat, Data Editors, Loading Indicators, Layout Management, Ribbon and Bars, Accordion, Tab Control, MVVM Framework.",
-          "version": "1.5.0",
+          "version": "1.6.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -475,8 +584,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5146b8d3b707699889a52902082a35ba8296dcb7",
+        "default_sha": "81e725b1a67a7f50a7c2308d38e922782892d8df",
         "tags": [
+          "1.6.0",
           "1.5.0",
           "1.4.0",
           "1.3.0",
@@ -484,20 +594,20 @@
           "1.1.0"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 58,
+          "stars": 63,
           "contributors": 2,
-          "last_commit": "2026-08-18T07:21:44Z",
+          "last_commit": "2026-10-19T09:14:17Z",
           "archived": false
         }
       }
@@ -506,14 +616,14 @@
       "name": "dx-wpf",
       "shape": "mixed",
       "source_path": "plugins/dx-wpf",
-      "source_url": "https://github.com/DevExpress/agent-skills/tree/5146b8d3b707699889a52902082a35ba8296dcb7/plugins/dx-wpf",
+      "source_url": "https://github.com/DevExpress/agent-skills/tree/81e725b1a67a7f50a7c2308d38e922782892d8df/plugins/dx-wpf",
       "readme_excerpt": "This plugin contains AI agent skills for [DevExpress WPF Controls](https://www.devexpress.com/products/net/controls/wpf/) (Windows Presentation Foundation controls and frameworks for .NET 8+ and .NET ",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "dx-wpf",
-          "description": "DevExpress WPF skills: Data Grid, Tree List, Pivot Grid, Scheduler, Charts, Tab Control, Ribbon and Bars, MVVM Framework, Property Grid, Data Editors, Layout Management, Loading Indicators, Accordion, AI Chat Control.",
-          "version": "1.5.0",
+          "description": "DevExpress WPF skills: Data Grid, Tree List, Pivot Grid, Scheduler, Charts, Tab Control, Ribbon and Bars, MVVM Framework, Property Grid, Data Editors, Layout Management, Loading Indicators, Accordion, AI Chat Control, Grid Data Source Advisor, Dependency Injection (adding Microsoft.Extensions.DependencyInjection to an existing app), Theme Customization (appearance, templates, and theme-resource overrides), and Screen from Screenshot (building a DevExpress WPF screen from a screenshot, mockup, or Figma frame).",
+          "version": "1.6.0",
           "license": "MIT",
           "author": {
             "name": "DevExpress",
@@ -525,11 +635,17 @@
             "devexpress",
             "wpf",
             "data-grid",
+            "data-source",
             "editors",
             "scheduler",
             "charts",
             "ribbon",
             "mvvm",
+            "dependency-injection",
+            "theming",
+            "appearance",
+            "screenshot",
+            "mockup",
             "skills"
           ],
           "mcpServers": {
@@ -541,8 +657,8 @@
         },
         "standard": {
           "name": "dx-wpf",
-          "description": "DevExpress WPF skills: Data Grid, Tree List, Pivot Grid, Scheduler, Charts, Tab Control, Ribbon and Bars, MVVM Framework, Property Grid, Data Editors, Layout Management, Loading Indicators, Accordion, AI Chat Control.",
-          "version": "1.5.0",
+          "description": "DevExpress WPF skills: Data Grid, Tree List, Pivot Grid, Scheduler, Charts, Tab Control, Ribbon and Bars, MVVM Framework, Property Grid, Data Editors, Layout Management, Loading Indicators, Accordion, AI Chat Control, Grid Data Source Advisor, Dependency Injection (adding Microsoft.Extensions.DependencyInjection to an existing app), Theme Customization (appearance, templates, and theme-resource overrides), and Screen from Screenshot (building a DevExpress WPF screen from a screenshot, mockup, or Figma frame).",
+          "version": "1.6.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -555,11 +671,17 @@
             "devexpress",
             "wpf",
             "data-grid",
+            "data-source",
             "editors",
             "scheduler",
             "charts",
             "ribbon",
             "mvvm",
+            "dependency-injection",
+            "theming",
+            "appearance",
+            "screenshot",
+            "mockup",
             "skills"
           ],
           "license": "MIT",
@@ -569,8 +691,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5146b8d3b707699889a52902082a35ba8296dcb7",
+        "default_sha": "81e725b1a67a7f50a7c2308d38e922782892d8df",
         "tags": [
+          "1.6.0",
           "1.5.0",
           "1.4.0",
           "1.3.0",
@@ -578,20 +701,20 @@
           "1.1.0"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 58,
+          "stars": 63,
           "contributors": 2,
-          "last_commit": "2026-08-18T07:21:44Z",
+          "last_commit": "2026-10-19T09:14:17Z",
           "archived": false
         }
       }
@@ -600,14 +723,14 @@
       "name": "dx-xaf",
       "shape": "mixed",
       "source_path": "plugins/dx-xaf",
-      "source_url": "https://github.com/DevExpress/agent-skills/tree/5146b8d3b707699889a52902082a35ba8296dcb7/plugins/dx-xaf",
+      "source_url": "https://github.com/DevExpress/agent-skills/tree/81e725b1a67a7f50a7c2308d38e922782892d8df/plugins/dx-xaf",
       "readme_excerpt": "AI agent skills for [DevExpress XAF](https://www.devexpress.com/products/net/application_framework/) (Cross-Platform .NET App UI). XAF is an ORM-based .NET Application Framework designed to help you d",
       "frontmatter": {
         "kind": "plugin-json",
         "raw": {
           "name": "dx-xaf",
           "description": "DevExpress XAF (eXpressApp Framework) skills: business model, business logic, controllers, views, editors, filtering, appearance, validation, security, reports, and performance for EF Core and XPO.",
-          "version": "1.5.0",
+          "version": "1.6.0",
           "license": "MIT",
           "author": {
             "name": "DevExpress",
@@ -641,7 +764,7 @@
         "standard": {
           "name": "dx-xaf",
           "description": "DevExpress XAF (eXpressApp Framework) skills: business model, business logic, controllers, views, editors, filtering, appearance, validation, security, reports, and performance for EF Core and XPO.",
-          "version": "1.5.0",
+          "version": "1.6.0",
           "lastReviewed": null,
           "shape": "mixed"
         },
@@ -673,8 +796,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "5146b8d3b707699889a52902082a35ba8296dcb7",
+        "default_sha": "81e725b1a67a7f50a7c2308d38e922782892d8df",
         "tags": [
+          "1.6.0",
           "1.5.0",
           "1.4.0",
           "1.3.0",
@@ -682,36 +806,36 @@
           "1.1.0"
         ]
       },
-      "trust_score": 40,
+      "trust_score": 43,
       "trust_signals": {
-        "store": 27,
+        "store": 30,
         "frontmatter": 8,
         "readme": 5,
         "store_breakdown": {
           "provenance": 0,
-          "maintenance": 12,
+          "maintenance": 15,
           "adoption": 5,
           "license": 10,
           "license_name": "MIT",
-          "stars": 58,
+          "stars": 63,
           "contributors": 2,
-          "last_commit": "2026-08-18T07:21:44Z",
+          "last_commit": "2026-10-19T09:14:17Z",
           "archived": false
         }
       }
     }
   ],
   "store_trust": {
-    "score": 27,
+    "score": 30,
     "signals": {
       "provenance": 0,
-      "maintenance": 12,
+      "maintenance": 15,
       "adoption": 5,
       "license": 10,
       "license_name": "MIT",
-      "stars": 58,
+      "stars": 63,
       "contributors": 2,
-      "last_commit": "2026-08-18T07:21:44Z",
+      "last_commit": "2026-10-19T09:14:17Z",
       "archived": false
     }
   }
