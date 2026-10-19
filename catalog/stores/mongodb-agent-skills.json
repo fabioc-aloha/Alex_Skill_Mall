@@ -1,8 +1,8 @@
 {
   "store": "mongodb-agent-skills",
   "source_repo": "https://github.com/mongodb/agent-skills.git",
-  "generated_at": "2026-10-05T11:08:33.278Z",
-  "scanned_ref": "c370a63b27075008a92134686b24af3817edeb00",
+  "generated_at": "2026-10-19T11:07:56.486Z",
+  "scanned_ref": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
   "provenance": false,
   "tier": "mongodb-official",
   "license": "Apache-2.0",
@@ -13,7 +13,7 @@
       "name": "mongodb",
       "shape": "mixed",
       "source_path": "plugins/mongodb",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/plugins/mongodb",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/plugins/mongodb",
       "readme_excerpt": "For deployments you manage yourself — **Community**, **Enterprise Advanced**, a local dev container, or an Atlas cluster — this plugin connects your agent using nothing more than a connection string. ",
       "frontmatter": {
         "kind": "none",
@@ -38,7 +38,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -58,7 +58,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -67,7 +67,7 @@
       "name": "mongodb-atlas",
       "shape": "skill",
       "source_path": "plugins/mongodb-atlas",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/plugins/mongodb-atlas",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/plugins/mongodb-atlas",
       "readme_excerpt": "Connects your agent to **MongoDB Atlas** clusters through MongoDB's hosted Atlas MCP server (`https://mcp.mongodb.com/`) over OAuth — sign in with your Atlas account and skip the local setup and conne",
       "frontmatter": {
         "kind": "none",
@@ -92,7 +92,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -112,7 +112,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -121,7 +121,7 @@
       "name": "mongodb-atlas-stream-processing",
       "shape": "skill",
       "source_path": "skills/mongodb-atlas-stream-processing",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/skills/mongodb-atlas-stream-processing",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/skills/mongodb-atlas-stream-processing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -154,7 +154,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -174,7 +174,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -183,7 +183,7 @@
       "name": "mongodb-connection",
       "shape": "skill",
       "source_path": "skills/mongodb-connection",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/skills/mongodb-connection",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/skills/mongodb-connection",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -215,7 +215,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -235,7 +235,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -244,7 +244,7 @@
       "name": "mongodb-mcp-setup",
       "shape": "skill",
       "source_path": "skills/mongodb-mcp-setup",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/skills/mongodb-mcp-setup",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/skills/mongodb-mcp-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -276,7 +276,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -296,7 +296,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -305,7 +305,7 @@
       "name": "mongodb-natural-language-querying",
       "shape": "skill",
       "source_path": "skills/mongodb-natural-language-querying",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/skills/mongodb-natural-language-querying",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/skills/mongodb-natural-language-querying",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -340,7 +340,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -360,7 +360,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -369,7 +369,7 @@
       "name": "mongodb-qe-size-estimation",
       "shape": "skill",
       "source_path": "skills/mongodb-qe-size-estimation",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/skills/mongodb-qe-size-estimation",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/skills/mongodb-qe-size-estimation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -401,7 +401,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -421,7 +421,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -430,7 +430,7 @@
       "name": "mongodb-query-optimizer",
       "shape": "skill",
       "source_path": "skills/mongodb-query-optimizer",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/skills/mongodb-query-optimizer",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/skills/mongodb-query-optimizer",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -463,7 +463,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -483,7 +483,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -492,7 +492,7 @@
       "name": "mongodb-schema-design",
       "shape": "skill",
       "source_path": "skills/mongodb-schema-design",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/skills/mongodb-schema-design",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/skills/mongodb-schema-design",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -524,7 +524,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -544,7 +544,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -553,13 +553,13 @@
       "name": "mongodb-search-and-ai",
       "shape": "skill",
       "source_path": "skills/mongodb-search-and-ai",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/skills/mongodb-search-and-ai",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/skills/mongodb-search-and-ai",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "mongodb-search-and-ai",
-          "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid Search solutions. Use this skill when users need to build search functionality for text-based queries (autocomplete, fuzzy matching, faceted search), semantic similarity (embeddings, RAG applications), or combined approaches. Also use when users need text containment, substring matching ('contains', 'includes', 'appears in'), case-insensitive or multi-field text search, or filtering across many fields with variable combinations. Provides workflows for selecting the right search type, creating indexes, constructing queries, and optimizing performance using the MongoDB MCP server.\n",
+          "description": "Covers everything about search in MongoDB: Atlas Search (full-text), Vector Search (semantic), and Hybrid Search. Use this skill for ANY question about MongoDB search, including open-ended and explanatory ones asked before the user has any data or use case — 'how does search work in MongoDB?', 'I'm new to MongoDB search, where do I start?', 'what's the difference between Atlas Search and Vector Search?', 'which search type should I use?', 'what is vector search?', 'how does automated embedding work?', 'can you explain hybrid search?'. Do not answer these from general knowledge; use this skill. Also use to build search features: full-text queries, autocomplete, fuzzy matching, faceted search, semantic similarity, embeddings, RAG, text containment or substring matching ('contains', 'includes'), case-insensitive or multi-field text search, and filtering across many fields. Provides workflows for choosing a search type, creating indexes, writing queries, and optimizing performance via the MongoDB MCP server.\n",
           "license": "Apache-2.0",
           "metadata": {
             "version": "1.0.0"
@@ -567,7 +567,7 @@
         },
         "standard": {
           "name": "mongodb-search-and-ai",
-          "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid Search solutions. Use this skill when users need to build search functionality for text-based queries (autocomplete, fuzzy matching, faceted search), semantic similarity (embeddings, RAG applications), or combined approaches. Also use when users need text containment, substring matching ('contains', 'includes', 'appears in'), case-insensitive or multi-field text search, or filtering across many fields with variable combinations. Provides workflows for selecting the right search type, creating indexes, constructing queries, and optimizing performance using the MongoDB MCP server.",
+          "description": "Covers everything about search in MongoDB: Atlas Search (full-text), Vector Search (semantic), and Hybrid Search. Use this skill for ANY question about MongoDB search, including open-ended and explanatory ones asked before the user has any data or use case — 'how does search work in MongoDB?', 'I'm new to MongoDB search, where do I start?', 'what's the difference between Atlas Search and Vector Search?', 'which search type should I use?', 'what is vector search?', 'how does automated embedding work?', 'can you explain hybrid search?'. Do not answer these from general knowledge; use this skill. Also use to build search features: full-text queries, autocomplete, fuzzy matching, faceted search, semantic similarity, embeddings, RAG, text containment or substring matching ('contains', 'includes'), case-insensitive or multi-field text search, and filtering across many fields. Provides workflows for choosing a search type, creating indexes, writing queries, and optimizing performance via the MongoDB MCP server.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -585,7 +585,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -605,7 +605,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -614,7 +614,7 @@
       "name": "review-skill",
       "shape": "skill",
       "source_path": "tools/review-skill",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/tools/review-skill",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/tools/review-skill",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -647,7 +647,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -667,7 +667,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -676,7 +676,7 @@
       "name": "skills-boundaries",
       "shape": "unknown",
       "source_path": "testing/skills-boundaries",
-      "source_url": "https://github.com/mongodb/agent-skills/tree/c370a63b27075008a92134686b24af3817edeb00/testing/skills-boundaries",
+      "source_url": "https://github.com/mongodb/agent-skills/tree/6c921fdd97d123692fa2ee59332a41a183cc2e14/testing/skills-boundaries",
       "readme_excerpt": "This directory contains evaluation tests to validate that skills are invoked at the correct times based on user prompts.",
       "frontmatter": {
         "kind": "none",
@@ -701,7 +701,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "c370a63b27075008a92134686b24af3817edeb00",
+        "default_sha": "6c921fdd97d123692fa2ee59332a41a183cc2e14",
         "tags": [
           "v1.1.0",
           "v1.0.0",
@@ -721,7 +721,7 @@
           "license_name": "Apache-2.0",
           "stars": 190,
           "contributors": 17,
-          "last_commit": "2026-10-10T01:32:32Z",
+          "last_commit": "2026-10-19T08:03:50Z",
           "archived": false
         }
       }
@@ -737,7 +737,7 @@
       "license_name": "Apache-2.0",
       "stars": 190,
       "contributors": 17,
-      "last_commit": "2026-10-10T01:32:32Z",
+      "last_commit": "2026-10-19T08:03:50Z",
       "archived": false
     }
   }
