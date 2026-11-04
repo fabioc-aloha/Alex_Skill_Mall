@@ -20,7 +20,7 @@
 | 95 | 🏆 [`socratic-questioning`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3a6aea62c1962789828dc920dc08921ba943006e/plugins/reasoning-metacognition/socratic-questioning) | plugin-mall | skill | Help users discover answers, don't just deliver them. |
 | 93 | 🏆 [`debugging-patterns`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3a6aea62c1962789828dc920dc08921ba943006e/plugins/reasoning-metacognition/debugging-patterns) | plugin-mall | skill | Systematic problem-solving and error analysis. |
 | 90 | 🏆 [`alex-act-core`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3a6aea62c1962789828dc920dc08921ba943006e/plugins/reasoning-metacognition/alex-act-core) | plugin-mall | unknown | The self-activating Alex ACT baseline runtime plugin. Installs 35 reusable fram… |
-| 90 | 🏆 [`alex-act-one`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/3a6aea62c1962789828dc920dc08921ba943006e/plugins/reasoning-metacognition/alex-act-one) | plugin-mall | unknown | Alex ACT ONE. A user-level runtime for GitHub Copilot covering critical thinkin… |
+| 90 | 🏆 [`alex-act-one`](https://github.com/fabioc-aloha/Alex_Skill_Mall/tree/a03ff320d1c4c38737b762f10dc6f2da8b1edab5/plugins/reasoning-metacognition/alex-act-one) | plugin-mall | unknown | Alex ACT ONE. A user-level runtime for GitHub Copilot covering critical thinkin… |
 
 ## Withdrawn Plugins
 
