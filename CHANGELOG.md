@@ -16,6 +16,17 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Published
 
+- Deliver `alex-act-one` v0.9.2 from its immutable source release tag, adding
+  explicit `-BrowserExecutablePath` renderer verification, non-destructive
+  fetch-policy and cleanup recovery diagnostics, reconciled release continuity
+  and checklist guidance, and refreshed offline Flint demonstration provenance.
+  Runtime pins are unchanged; host and accessibility evidence retain their
+  documented limits.
+- Deliver `alex-act-one` v0.9.1 from its immutable source release tag, including
+  document-source and code preservation, per-document extracted media,
+  converter safety, installation preservation, and corrected Linux/browser
+  verification. Runtime pins are unchanged; host and accessibility evidence
+  retain their documented limits.
 - Deliver `alex-act-one` v0.9.0 from its immutable source release tag, including
   the Flint interaction workflow and offline galleries, guarded activation,
   runtime/conversion repairs, version-bound live scenarios, and denied-source
