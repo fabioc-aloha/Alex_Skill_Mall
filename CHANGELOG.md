@@ -16,6 +16,11 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Published
 
+- Deliver `alex-act-one` v0.9.0 from its immutable source release tag, including
+  the Flint interaction workflow and offline galleries, guarded activation,
+  runtime/conversion repairs, version-bound live scenarios, and denied-source
+  recovery boundaries. Runtime package pins are unchanged; current host-test
+  scope and limits remain documented in the source release.
 - Published `alex-act-ai-operations` v0.2.0 from the immutable
   `fabioc-aloha/Alex_ACT_AI_Operations` tag. The optional plugin provides
   provider-neutral planning and consent-gated execution across Microsoft
