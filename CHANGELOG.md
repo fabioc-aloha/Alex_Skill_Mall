@@ -16,6 +16,11 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Published
 
+- Deliver `alex-act-one` v0.9.5 from its immutable runtime payload, removing
+  bundled Replicate support and updating reviewed Microsoft-proxy npm pins.
+  Root helpers support explicit non-uninstalling refresh and selected-runtime
+  verification. The full source matrix passed; the maintainer will reinstall
+  manually, so local activation is not claimed.
 - Deliver `alex-act-one` v0.9.4 from its immutable source release tag and
   `package/alex-act-one` runtime payload, excluding maintainer archives while
   retaining both Flint demonstrations. The full same-commit source matrix
