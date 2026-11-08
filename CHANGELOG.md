@@ -16,6 +16,12 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Published
 
+- Deliver `alex-act-one` v0.9.4 from its immutable source release tag and
+  `package/alex-act-one` runtime payload, excluding maintainer archives while
+  retaining both Flint demonstrations. The full same-commit source matrix
+  passed. The maintainer approved publication with local installation
+  verification deferred to a manual reinstall; installation and activation
+  are not claimed.
 - Deliver `alex-act-one` v0.9.3 from its immutable source release tag, adding
   recovered session-state project artifacts, a shared repository artifact-storage
   contract across workflows, a read-only session-artifact detector, and a
