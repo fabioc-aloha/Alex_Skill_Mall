@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T18:38:15.658Z",
+  "generated_at": "2026-11-08T20:09:04.670Z",
   "total_stores": 53,
   "total_plugins": 4923,
   "score_distribution": {
@@ -886,25 +886,6 @@
       }
     },
     {
-      "store": "claude-skills",
-      "store_score": 25,
-      "plugin_count": 20,
-      "min_plugin_score": 30,
-      "max_plugin_score": 30,
-      "provenance": false,
-      "signals": {
-        "provenance": 0,
-        "maintenance": 15,
-        "adoption": 10,
-        "license": 0,
-        "license_name": null,
-        "stars": 182118,
-        "contributors": 15,
-        "last_commit": "2026-10-09T18:45:52Z",
-        "archived": false
-      }
-    },
-    {
       "store": "mcp-servers",
       "store_score": 25,
       "plugin_count": 7,
@@ -939,6 +920,25 @@
         "stars": 32629,
         "contributors": 25,
         "last_commit": "2026-10-14T17:58:45Z",
+        "archived": false
+      }
+    },
+    {
+      "store": "claude-skills",
+      "store_score": 22,
+      "plugin_count": 20,
+      "min_plugin_score": 27,
+      "max_plugin_score": 27,
+      "provenance": false,
+      "signals": {
+        "provenance": 0,
+        "maintenance": 12,
+        "adoption": 10,
+        "license": 0,
+        "license_name": null,
+        "stars": 182118,
+        "contributors": 15,
+        "last_commit": "2026-10-09T18:45:52Z",
         "archived": false
       }
     },
