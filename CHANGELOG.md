@@ -16,6 +16,11 @@ All notable changes to Alex ACT Plugin Mall.
 
 ### Published
 
+- Deliver `alex-act-one` v0.9.3 from its immutable source release tag, adding
+  recovered session-state project artifacts, a shared repository artifact-storage
+  contract across workflows, a read-only session-artifact detector, and a
+  preview-first multi-account GitHub credential helper check. Runtime pins are
+  unchanged; host and accessibility evidence retain their documented limits.
 - Deliver `alex-act-one` v0.9.2 from its immutable source release tag, adding
   explicit `-BrowserExecutablePath` renderer verification, non-destructive
   fetch-policy and cleanup recovery diagnostics, reconciled release continuity
