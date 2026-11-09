@@ -1,19 +1,19 @@
 {
   "store": "qdrant-skills",
   "source_repo": "https://github.com/qdrant/skills.git",
-  "generated_at": "2026-10-19T11:07:56.528Z",
-  "scanned_ref": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+  "generated_at": "2026-11-09T21:15:51.971Z",
+  "scanned_ref": "1d010729e5e573c4736cae520b47b1acce785c02",
   "provenance": false,
   "tier": "qdrant-official",
   "license": "Apache-2.0",
   "reference_only": false,
-  "plugin_count": 15,
+  "plugin_count": 16,
   "plugins": [
     {
       "name": "qdrant-advisor",
       "shape": "skill",
       "source_path": "meta/qdrant-advisor",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/meta/qdrant-advisor",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/meta/qdrant-advisor",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -41,7 +41,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -57,9 +57,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -68,7 +68,7 @@
       "name": "qdrant-clients-sdk",
       "shape": "skill",
       "source_path": "skills/qdrant-clients-sdk",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-clients-sdk",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-clients-sdk",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -107,7 +107,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -123,9 +123,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -134,7 +134,7 @@
       "name": "qdrant-deployment-options",
       "shape": "skill",
       "source_path": "skills/qdrant-deployment-options",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-deployment-options",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-deployment-options",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -162,7 +162,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -178,9 +178,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -189,7 +189,7 @@
       "name": "qdrant-edge",
       "shape": "skill",
       "source_path": "skills/qdrant-edge",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-edge",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-edge",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -217,7 +217,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -233,9 +233,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -244,7 +244,7 @@
       "name": "qdrant-hybrid-cloud-setup",
       "shape": "skill",
       "source_path": "skills/qdrant-hybrid-cloud-setup",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-hybrid-cloud-setup",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-hybrid-cloud-setup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -272,7 +272,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -288,9 +288,64 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "qdrant-managed-cloud-quickstart",
+      "shape": "skill",
+      "source_path": "skills/qdrant-managed-cloud-quickstart",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-managed-cloud-quickstart",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "qdrant-managed-cloud-quickstart",
+          "description": "Getting a first Qdrant Managed Cloud cluster running and connected safely: Free, Standard, and Premium tiers, choices that can't be changed later, creating clusters from the Console or the qcloud CLI, Database API keys, ports and TLS, strict mode on new collections, Cloud Inference, and what to set before relying on a cluster. Use when someone says 'getting started with Qdrant Cloud', 'create a Qdrant Cloud cluster', 'is the free tier enough', 'do I need the Premium tier', 'create a cluster with qcloud', 'my free cluster was suspended', 'can't connect to Qdrant Cloud', 'which API key do I use', 'filter works locally but fails on Cloud', or 'Cloud Inference'."
+        },
+        "standard": {
+          "name": "qdrant-managed-cloud-quickstart",
+          "description": "Getting a first Qdrant Managed Cloud cluster running and connected safely: Free, Standard, and Premium tiers, choices that can't be changed later, creating clusters from the Console or the qcloud CLI, Database API keys, ports and TLS, strict mode on new collections, Cloud Inference, and what to set before relying on a cluster. Use when someone says 'getting started with Qdrant Cloud', 'create a Qdrant Cloud cluster', 'is the free tier enough', 'do I need the Premium tier', 'create a cluster with qcloud', 'my free cluster was suspended', 'can't connect to Qdrant Cloud', 'which API key do I use', 'filter works locally but fails on Cloud', or 'Cloud Inference'.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
+        "tags": [
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 37,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "Apache-2.0",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -299,7 +354,7 @@
       "name": "qdrant-migration-tool",
       "shape": "skill",
       "source_path": "skills/qdrant-migration-tool",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-migration-tool",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-migration-tool",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -327,7 +382,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -343,9 +398,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -354,7 +409,7 @@
       "name": "qdrant-model-migration",
       "shape": "skill",
       "source_path": "skills/qdrant-model-migration",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-model-migration",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-model-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -382,7 +437,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -398,9 +453,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -409,7 +464,7 @@
       "name": "qdrant-monitoring",
       "shape": "skill",
       "source_path": "skills/qdrant-monitoring",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-monitoring",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-monitoring",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -446,7 +501,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -462,9 +517,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -473,7 +528,7 @@
       "name": "qdrant-multitenancy",
       "shape": "skill",
       "source_path": "skills/qdrant-multitenancy",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-multitenancy",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-multitenancy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -501,7 +556,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -517,9 +572,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -528,7 +583,7 @@
       "name": "qdrant-performance-optimization",
       "shape": "skill",
       "source_path": "skills/qdrant-performance-optimization",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-performance-optimization",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-performance-optimization",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -565,7 +620,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -581,9 +636,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -592,7 +647,7 @@
       "name": "qdrant-scaling",
       "shape": "skill",
       "source_path": "skills/qdrant-scaling",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-scaling",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-scaling",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -629,7 +684,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -645,9 +700,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -656,7 +711,7 @@
       "name": "qdrant-search-quality",
       "shape": "skill",
       "source_path": "skills/qdrant-search-quality",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-search-quality",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-search-quality",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -693,7 +748,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -709,9 +764,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -720,7 +775,7 @@
       "name": "qdrant-sizing",
       "shape": "skill",
       "source_path": "skills/qdrant-sizing",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-sizing",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-sizing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -748,7 +803,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -764,9 +819,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -775,7 +830,7 @@
       "name": "qdrant-version-upgrade",
       "shape": "skill",
       "source_path": "skills/qdrant-version-upgrade",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skills/qdrant-version-upgrade",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skills/qdrant-version-upgrade",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -803,7 +858,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -819,9 +874,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -830,7 +885,7 @@
       "name": "skill-test",
       "shape": "prompt",
       "source_path": "skill-test",
-      "source_url": "https://github.com/qdrant/skills/tree/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/skill-test",
+      "source_url": "https://github.com/qdrant/skills/tree/1d010729e5e573c4736cae520b47b1acce785c02/skill-test",
       "readme_excerpt": "This repo runs an agent CLI — Claude Code or Codex — inside a fresh Docker",
       "frontmatter": {
         "kind": "none",
@@ -855,7 +910,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+        "default_sha": "1d010729e5e573c4736cae520b47b1acce785c02",
         "tags": [
           "v0.1.0"
         ]
@@ -871,9 +926,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "Apache-2.0",
-          "stars": 260,
-          "contributors": 20,
-          "last_commit": "2026-10-19T11:06:24Z",
+          "stars": 269,
+          "contributors": 21,
+          "last_commit": "2026-11-09T20:14:21Z",
           "archived": false
         }
       }
@@ -887,9 +942,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "Apache-2.0",
-      "stars": 260,
-      "contributors": 20,
-      "last_commit": "2026-10-19T11:06:24Z",
+      "stars": 269,
+      "contributors": 21,
+      "last_commit": "2026-11-09T20:14:21Z",
       "archived": false
     }
   }

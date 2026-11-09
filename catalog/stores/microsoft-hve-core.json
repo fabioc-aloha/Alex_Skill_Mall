@@ -1,8 +1,8 @@
 {
   "store": "microsoft-hve-core",
   "source_repo": "https://github.com/microsoft/hve-core.git",
-  "generated_at": "2026-10-19T11:07:56.441Z",
-  "scanned_ref": "ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134",
+  "generated_at": "2026-11-09T21:15:51.830Z",
+  "scanned_ref": "31a37b2131189a4433457619570e49c13e99aaa9",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -13,7 +13,7 @@
       "name": "docs",
       "shape": "agent",
       "source_path": "docs",
-      "source_url": "https://github.com/microsoft/hve-core/tree/ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134/docs",
+      "source_url": "https://github.com/microsoft/hve-core/tree/31a37b2131189a4433457619570e49c13e99aaa9/docs",
       "readme_excerpt": "title: HVE Core Documentation",
       "frontmatter": {
         "kind": "agent-md",
@@ -22,7 +22,7 @@
           "description": "Documentation hub for HVE Core, a prompt engineering framework that brings AI-powered agents, instructions, and skills to your GitHub Copilot workflow",
           "sidebar_position": 1,
           "author": "Microsoft",
-          "ms.date": "2026-10-07",
+          "ms.date": "2026-11-06",
           "ms.topic": "overview",
           "keywords": [
             "hve core",
@@ -59,7 +59,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134",
+        "default_sha": "31a37b2131189a4433457619570e49c13e99aaa9",
         "tags": [
           "snapshot-20260908",
           "snapshot-20260901",
@@ -100,7 +100,10 @@
           "hve-core-v2.0.0",
           "hve-core-v1.1.0",
           "backlog-grooming-sweep/ca4134af385d3cf2be61fd4744295f97db074e232f82f4e16e256c920d4be109",
-          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6"
+          "backlog-grooming-sweep/85699decb607935f8a4d97f9dcfb3784c4817feca290f257aad529a65d0488c7",
+          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6",
+          "backlog-grooming-sweep/0788c63405201901e007b486a04c5bbe7226528766a598c803415f70479a5110",
+          "backlog-grooming-sweep/065fdbf0e047021cb633f3f70724630ab1895f46dcd71138c5f9bd11a8d01caf"
         ]
       },
       "trust_score": 43,
@@ -114,9 +117,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1533,
-          "contributors": 98,
-          "last_commit": "2026-10-19T07:51:22Z",
+          "stars": 1608,
+          "contributors": 104,
+          "last_commit": "2026-11-09T20:43:37Z",
           "archived": false
         }
       }
@@ -125,7 +128,7 @@
       "name": "evals",
       "shape": "unknown",
       "source_path": "evals",
-      "source_url": "https://github.com/microsoft/hve-core/tree/ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134/evals",
+      "source_url": "https://github.com/microsoft/hve-core/tree/31a37b2131189a4433457619570e49c13e99aaa9/evals",
       "readme_excerpt": "title: Evaluations",
       "frontmatter": {
         "kind": "agent-md",
@@ -133,7 +136,7 @@
           "title": "Evaluations",
           "description": "Architecture overview and contributor guide for Vally evaluation specs",
           "author": "HVE Core Team",
-          "ms.date": "2026-10-07"
+          "ms.date": "2026-11-05"
         },
         "standard": {
           "name": "evals",
@@ -155,7 +158,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134",
+        "default_sha": "31a37b2131189a4433457619570e49c13e99aaa9",
         "tags": [
           "snapshot-20260908",
           "snapshot-20260901",
@@ -196,7 +199,10 @@
           "hve-core-v2.0.0",
           "hve-core-v1.1.0",
           "backlog-grooming-sweep/ca4134af385d3cf2be61fd4744295f97db074e232f82f4e16e256c920d4be109",
-          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6"
+          "backlog-grooming-sweep/85699decb607935f8a4d97f9dcfb3784c4817feca290f257aad529a65d0488c7",
+          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6",
+          "backlog-grooming-sweep/0788c63405201901e007b486a04c5bbe7226528766a598c803415f70479a5110",
+          "backlog-grooming-sweep/065fdbf0e047021cb633f3f70724630ab1895f46dcd71138c5f9bd11a8d01caf"
         ]
       },
       "trust_score": 41,
@@ -210,9 +216,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1533,
-          "contributors": 98,
-          "last_commit": "2026-10-19T07:51:22Z",
+          "stars": 1608,
+          "contributors": 104,
+          "last_commit": "2026-11-09T20:43:37Z",
           "archived": false
         }
       }
@@ -221,18 +227,18 @@
       "name": "hve-updates",
       "shape": "unknown",
       "source_path": "slides/hve-updates",
-      "source_url": "https://github.com/microsoft/hve-core/tree/ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134/slides/hve-updates",
+      "source_url": "https://github.com/microsoft/hve-core/tree/31a37b2131189a4433457619570e49c13e99aaa9/slides/hve-updates",
       "readme_excerpt": "title: HVE Core updates deck",
       "frontmatter": {
         "kind": "agent-md",
         "raw": {
           "title": "HVE Core updates deck",
-          "description": "Interactive HTML presentation of HVE Core changes from April to September 2026.",
-          "ms.date": "2026-09-30"
+          "description": "Interactive HTML presentation of HVE Core changes from April to October 2026.",
+          "ms.date": "2026-10-27"
         },
         "standard": {
           "name": "hve-updates",
-          "description": "Interactive HTML presentation of HVE Core changes from April to September 2026.",
+          "description": "Interactive HTML presentation of HVE Core changes from April to October 2026.",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -250,7 +256,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134",
+        "default_sha": "31a37b2131189a4433457619570e49c13e99aaa9",
         "tags": [
           "snapshot-20260908",
           "snapshot-20260901",
@@ -291,7 +297,10 @@
           "hve-core-v2.0.0",
           "hve-core-v1.1.0",
           "backlog-grooming-sweep/ca4134af385d3cf2be61fd4744295f97db074e232f82f4e16e256c920d4be109",
-          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6"
+          "backlog-grooming-sweep/85699decb607935f8a4d97f9dcfb3784c4817feca290f257aad529a65d0488c7",
+          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6",
+          "backlog-grooming-sweep/0788c63405201901e007b486a04c5bbe7226528766a598c803415f70479a5110",
+          "backlog-grooming-sweep/065fdbf0e047021cb633f3f70724630ab1895f46dcd71138c5f9bd11a8d01caf"
         ]
       },
       "trust_score": 43,
@@ -305,9 +314,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1533,
-          "contributors": 98,
-          "last_commit": "2026-10-19T07:51:22Z",
+          "stars": 1608,
+          "contributors": 104,
+          "last_commit": "2026-11-09T20:43:37Z",
           "archived": false
         }
       }
@@ -316,7 +325,7 @@
       "name": "rai-planner",
       "shape": "unknown",
       "source_path": "slides/rai-planner",
-      "source_url": "https://github.com/microsoft/hve-core/tree/ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134/slides/rai-planner",
+      "source_url": "https://github.com/microsoft/hve-core/tree/31a37b2131189a4433457619570e49c13e99aaa9/slides/rai-planner",
       "readme_excerpt": "title: RAI Planner with HVE Core deck",
       "frontmatter": {
         "kind": "agent-md",
@@ -345,7 +354,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134",
+        "default_sha": "31a37b2131189a4433457619570e49c13e99aaa9",
         "tags": [
           "snapshot-20260908",
           "snapshot-20260901",
@@ -386,7 +395,10 @@
           "hve-core-v2.0.0",
           "hve-core-v1.1.0",
           "backlog-grooming-sweep/ca4134af385d3cf2be61fd4744295f97db074e232f82f4e16e256c920d4be109",
-          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6"
+          "backlog-grooming-sweep/85699decb607935f8a4d97f9dcfb3784c4817feca290f257aad529a65d0488c7",
+          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6",
+          "backlog-grooming-sweep/0788c63405201901e007b486a04c5bbe7226528766a598c803415f70479a5110",
+          "backlog-grooming-sweep/065fdbf0e047021cb633f3f70724630ab1895f46dcd71138c5f9bd11a8d01caf"
         ]
       },
       "trust_score": 43,
@@ -400,9 +412,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1533,
-          "contributors": 98,
-          "last_commit": "2026-10-19T07:51:22Z",
+          "stars": 1608,
+          "contributors": 104,
+          "last_commit": "2026-11-09T20:43:37Z",
           "archived": false
         }
       }
@@ -411,7 +423,7 @@
       "name": "rpi-with-hve",
       "shape": "unknown",
       "source_path": "slides/rpi-with-hve",
-      "source_url": "https://github.com/microsoft/hve-core/tree/ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134/slides/rpi-with-hve",
+      "source_url": "https://github.com/microsoft/hve-core/tree/31a37b2131189a4433457619570e49c13e99aaa9/slides/rpi-with-hve",
       "readme_excerpt": "title: RPI with HVE Core deck",
       "frontmatter": {
         "kind": "agent-md",
@@ -440,7 +452,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134",
+        "default_sha": "31a37b2131189a4433457619570e49c13e99aaa9",
         "tags": [
           "snapshot-20260908",
           "snapshot-20260901",
@@ -481,7 +493,10 @@
           "hve-core-v2.0.0",
           "hve-core-v1.1.0",
           "backlog-grooming-sweep/ca4134af385d3cf2be61fd4744295f97db074e232f82f4e16e256c920d4be109",
-          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6"
+          "backlog-grooming-sweep/85699decb607935f8a4d97f9dcfb3784c4817feca290f257aad529a65d0488c7",
+          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6",
+          "backlog-grooming-sweep/0788c63405201901e007b486a04c5bbe7226528766a598c803415f70479a5110",
+          "backlog-grooming-sweep/065fdbf0e047021cb633f3f70724630ab1895f46dcd71138c5f9bd11a8d01caf"
         ]
       },
       "trust_score": 43,
@@ -495,9 +510,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1533,
-          "contributors": 98,
-          "last_commit": "2026-10-19T07:51:22Z",
+          "stars": 1608,
+          "contributors": 104,
+          "last_commit": "2026-11-09T20:43:37Z",
           "archived": false
         }
       }
@@ -506,7 +521,7 @@
       "name": "scripts",
       "shape": "unknown",
       "source_path": "scripts",
-      "source_url": "https://github.com/microsoft/hve-core/tree/ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134/scripts",
+      "source_url": "https://github.com/microsoft/hve-core/tree/31a37b2131189a4433457619570e49c13e99aaa9/scripts",
       "readme_excerpt": "title: Scripts",
       "frontmatter": {
         "kind": "agent-md",
@@ -551,7 +566,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "ee3df3231ebf07e6f0c4b3ff1dd3a8f1f08e0134",
+        "default_sha": "31a37b2131189a4433457619570e49c13e99aaa9",
         "tags": [
           "snapshot-20260908",
           "snapshot-20260901",
@@ -592,7 +607,10 @@
           "hve-core-v2.0.0",
           "hve-core-v1.1.0",
           "backlog-grooming-sweep/ca4134af385d3cf2be61fd4744295f97db074e232f82f4e16e256c920d4be109",
-          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6"
+          "backlog-grooming-sweep/85699decb607935f8a4d97f9dcfb3784c4817feca290f257aad529a65d0488c7",
+          "backlog-grooming-sweep/37c9b98b1c2d9cca6b2e8bc689bad64eacc156d2a7284d9518de3fe9e48fcfb6",
+          "backlog-grooming-sweep/0788c63405201901e007b486a04c5bbe7226528766a598c803415f70479a5110",
+          "backlog-grooming-sweep/065fdbf0e047021cb633f3f70724630ab1895f46dcd71138c5f9bd11a8d01caf"
         ]
       },
       "trust_score": 41,
@@ -606,9 +624,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1533,
-          "contributors": 98,
-          "last_commit": "2026-10-19T07:51:22Z",
+          "stars": 1608,
+          "contributors": 104,
+          "last_commit": "2026-11-09T20:43:37Z",
           "archived": false
         }
       }
@@ -622,9 +640,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1533,
-      "contributors": 98,
-      "last_commit": "2026-10-19T07:51:22Z",
+      "stars": 1608,
+      "contributors": 104,
+      "last_commit": "2026-11-09T20:43:37Z",
       "archived": false
     }
   }
