@@ -2,7 +2,7 @@
   "store": "microsoft-agentrc",
   "source_repo": "https://github.com/microsoft/agentrc.git",
   "generated_at": "2026-09-28T11:08:22.844Z",
-  "scanned_ref": "e7044624f930684c6ee5f70cfa5b81d81686485b",
+  "scanned_ref": "7003319eb0a6120b3e979b7235b8f10b100d200d",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
@@ -13,7 +13,7 @@
       "name": "examples",
       "shape": "unknown",
       "source_path": "examples",
-      "source_url": "https://github.com/microsoft/agentrc/tree/e7044624f930684c6ee5f70cfa5b81d81686485b/examples",
+      "source_url": "https://github.com/microsoft/agentrc/tree/7003319eb0a6120b3e979b7235b8f10b100d200d/examples",
       "readme_excerpt": "This folder is a small, self-contained set of examples for the most common AgentRC workflows. Use it as a reference when you want to bootstrap configuration, evaluate repository guidance, or customize",
       "frontmatter": {
         "kind": "none",
@@ -38,9 +38,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "e7044624f930684c6ee5f70cfa5b81d81686485b",
+        "default_sha": "7003319eb0a6120b3e979b7235b8f10b100d200d",
         "tags": [
           "v2.1.0",
+          "v2.0.1-98",
+          "v2.0.1-97",
+          "v2.0.1-96",
+          "v2.0.1-95",
+          "v2.0.1-94",
           "v2.0.1-93",
           "v2.0.1-92",
           "v2.0.1-91",
@@ -149,9 +154,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1100,
-          "contributors": 10,
-          "last_commit": "2026-10-16T07:30:46Z",
+          "stars": 1124,
+          "contributors": 11,
+          "last_commit": "2026-11-06T07:28:33Z",
           "archived": false
         }
       }
@@ -160,7 +165,7 @@
       "name": "plugin",
       "shape": "skill",
       "source_path": "plugin",
-      "source_url": "https://github.com/microsoft/agentrc/tree/e7044624f930684c6ee5f70cfa5b81d81686485b/plugin",
+      "source_url": "https://github.com/microsoft/agentrc/tree/7003319eb0a6120b3e979b7235b8f10b100d200d/plugin",
       "readme_excerpt": "[Agent Plugins 1.0](https://agent-plugins.org/) package for AI-assisted repository priming. It provides portable skills that generate instruction files for GitHub Copilot and other compatible AI codin",
       "frontmatter": {
         "kind": "plugin-json",
@@ -207,9 +212,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "e7044624f930684c6ee5f70cfa5b81d81686485b",
+        "default_sha": "7003319eb0a6120b3e979b7235b8f10b100d200d",
         "tags": [
           "v2.1.0",
+          "v2.0.1-98",
+          "v2.0.1-97",
+          "v2.0.1-96",
+          "v2.0.1-95",
+          "v2.0.1-94",
           "v2.0.1-93",
           "v2.0.1-92",
           "v2.0.1-91",
@@ -318,9 +328,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1100,
-          "contributors": 10,
-          "last_commit": "2026-10-16T07:30:46Z",
+          "stars": 1124,
+          "contributors": 11,
+          "last_commit": "2026-11-06T07:28:33Z",
           "archived": false
         }
       }
@@ -329,7 +339,7 @@
       "name": "ui",
       "shape": "unknown",
       "source_path": "src/ui",
-      "source_url": "https://github.com/microsoft/agentrc/tree/e7044624f930684c6ee5f70cfa5b81d81686485b/src/ui",
+      "source_url": "https://github.com/microsoft/agentrc/tree/7003319eb0a6120b3e979b7235b8f10b100d200d/src/ui",
       "readme_excerpt": "AgentRC TUI components live here.",
       "frontmatter": {
         "kind": "none",
@@ -354,9 +364,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "e7044624f930684c6ee5f70cfa5b81d81686485b",
+        "default_sha": "7003319eb0a6120b3e979b7235b8f10b100d200d",
         "tags": [
           "v2.1.0",
+          "v2.0.1-98",
+          "v2.0.1-97",
+          "v2.0.1-96",
+          "v2.0.1-95",
+          "v2.0.1-94",
           "v2.0.1-93",
           "v2.0.1-92",
           "v2.0.1-91",
@@ -465,9 +480,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1100,
-          "contributors": 10,
-          "last_commit": "2026-10-16T07:30:46Z",
+          "stars": 1124,
+          "contributors": 11,
+          "last_commit": "2026-11-06T07:28:33Z",
           "archived": false
         }
       }
@@ -476,7 +491,7 @@
       "name": "vscode-extension",
       "shape": "unknown",
       "source_path": "vscode-extension",
-      "source_url": "https://github.com/microsoft/agentrc/tree/e7044624f930684c6ee5f70cfa5b81d81686485b/vscode-extension",
+      "source_url": "https://github.com/microsoft/agentrc/tree/7003319eb0a6120b3e979b7235b8f10b100d200d/vscode-extension",
       "readme_excerpt": "Prime your repositories for AI-assisted development, right from VS Code.",
       "frontmatter": {
         "kind": "none",
@@ -501,9 +516,14 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "e7044624f930684c6ee5f70cfa5b81d81686485b",
+        "default_sha": "7003319eb0a6120b3e979b7235b8f10b100d200d",
         "tags": [
           "v2.1.0",
+          "v2.0.1-98",
+          "v2.0.1-97",
+          "v2.0.1-96",
+          "v2.0.1-95",
+          "v2.0.1-94",
           "v2.0.1-93",
           "v2.0.1-92",
           "v2.0.1-91",
@@ -612,9 +632,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 1100,
-          "contributors": 10,
-          "last_commit": "2026-10-16T07:30:46Z",
+          "stars": 1124,
+          "contributors": 11,
+          "last_commit": "2026-11-06T07:28:33Z",
           "archived": false
         }
       }
@@ -628,9 +648,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 1100,
-      "contributors": 10,
-      "last_commit": "2026-10-16T07:30:46Z",
+      "stars": 1124,
+      "contributors": 11,
+      "last_commit": "2026-11-06T07:28:33Z",
       "archived": false
     }
   }

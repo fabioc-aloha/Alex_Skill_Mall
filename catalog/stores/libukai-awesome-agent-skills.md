@@ -1,9 +1,9 @@
 # libukai-awesome-agent-skills
 
 **Source:** [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills)
-**Store trust:** 15/100
-**Signals:** maintenance 12 · adoption 3 · license 0 · 5183 stars
-**Scanned ref:** `5ccadec8831f`
+**Store trust:** 20/100
+**Signals:** maintenance 15 · adoption 5 · license 0 · 5215 stars · 2 contributors
+**Scanned ref:** `3159af9b36ed`
 
 _No plugins scanned in this store._
 
