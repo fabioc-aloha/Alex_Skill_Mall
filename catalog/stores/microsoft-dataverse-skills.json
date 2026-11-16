@@ -1,19 +1,77 @@
 {
   "store": "microsoft-dataverse-skills",
   "source_repo": "https://github.com/microsoft/Dataverse-skills.git",
-  "generated_at": "2026-07-29T01:14:40.297Z",
-  "scanned_ref": "27e6f6a3fef23075ede87d8e5f028cde29e0130e",
+  "generated_at": "2026-11-16T20:49:29.685Z",
+  "scanned_ref": "79ec1e2e0a4243179c34aa631a79d99912820ab8",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
   "reference_only": false,
-  "plugin_count": 1,
+  "plugin_count": 2,
   "plugins": [
+    {
+      "name": "mcp",
+      "shape": "unknown",
+      "source_path": "mcp",
+      "source_url": "https://github.com/microsoft/Dataverse-skills/tree/79ec1e2e0a4243179c34aa631a79d99912820ab8/mcp",
+      "readme_excerpt": "Connect AI agents to Microsoft Dataverse to query, create, and manage",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "mcp",
+          "description": "Connect AI agents to Microsoft Dataverse to query, create, and manage",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "79ec1e2e0a4243179c34aa631a79d99912820ab8",
+        "tags": [
+          "v1.19.0",
+          "v1.18.0",
+          "v1.17.0",
+          "v1.16.1",
+          "v1.16.0",
+          "v1.15.0",
+          "v0.1-full-skillset"
+        ]
+      },
+      "trust_score": 42,
+      "trust_signals": {
+        "store": 32,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 259,
+          "contributors": 12,
+          "last_commit": "2026-11-16T20:27:13Z",
+          "archived": false
+        }
+      }
+    },
     {
       "name": "tests",
       "shape": "unknown",
       "source_path": "evals/tests",
-      "source_url": "https://github.com/microsoft/Dataverse-skills/tree/27e6f6a3fef23075ede87d8e5f028cde29e0130e/evals/tests",
+      "source_url": "https://github.com/microsoft/Dataverse-skills/tree/79ec1e2e0a4243179c34aa631a79d99912820ab8/evals/tests",
       "readme_excerpt": "Test files for the Dataverse Skills plugin eval system. Each `.biceval.json` contains one or more tests that are consumed by LocalEvalRunner to grade AI agent responses when the plugin is loaded.",
       "frontmatter": {
         "kind": "none",
@@ -38,8 +96,9 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "27e6f6a3fef23075ede87d8e5f028cde29e0130e",
+        "default_sha": "79ec1e2e0a4243179c34aa631a79d99912820ab8",
         "tags": [
+          "v1.19.0",
           "v1.18.0",
           "v1.17.0",
           "v1.16.1",
@@ -59,9 +118,9 @@
           "adoption": 7,
           "license": 10,
           "license_name": "MIT",
-          "stars": 255,
+          "stars": 259,
           "contributors": 12,
-          "last_commit": "2026-11-07T08:44:01Z",
+          "last_commit": "2026-11-16T20:27:13Z",
           "archived": false
         }
       }
@@ -75,9 +134,9 @@
       "adoption": 7,
       "license": 10,
       "license_name": "MIT",
-      "stars": 255,
+      "stars": 259,
       "contributors": 12,
-      "last_commit": "2026-11-07T08:44:01Z",
+      "last_commit": "2026-11-16T20:27:13Z",
       "archived": false
     }
   }
