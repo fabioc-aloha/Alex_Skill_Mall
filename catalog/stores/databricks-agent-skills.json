@@ -1,19 +1,19 @@
 {
   "store": "databricks-agent-skills",
   "source_repo": "https://github.com/databricks/databricks-agent-skills.git",
-  "generated_at": "2026-11-16T20:49:29.544Z",
-  "scanned_ref": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+  "generated_at": "2026-11-23T22:22:07.841Z",
+  "scanned_ref": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
   "provenance": false,
   "tier": "databricks-official",
   "license": null,
   "reference_only": false,
-  "plugin_count": 41,
+  "plugin_count": 42,
   "plugins": [
     {
       "name": "databricks-ai-functions",
       "shape": "mixed",
       "source_path": "skills/databricks-ai-functions",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-ai-functions",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-ai-functions",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -46,8 +46,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -116,9 +120,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -127,21 +131,21 @@
       "name": "databricks-ai-runtime",
       "shape": "mixed",
       "source_path": "skills/databricks-ai-runtime",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-ai-runtime",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-ai-runtime",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "databricks-ai-runtime",
-          "description": "Databricks AI Runtime, the `databricks air` CLI commands for submitting and managing GPU training workloads on Databricks serverless compute. Use for: writing and submitting `databricks air` workload YAML, choosing an accelerator type and Python environment, passing hyperparameters and secrets, configuring retries, checking run status, listing/cancelling runs, streaming a run's logs and watching its progress, debugging failed runs, GPU pools, multi-container workloads, custom Docker image setup, and converting a workload to a Databricks Asset Bundle.",
+          "description": "Databricks AI Runtime, the `databricks air` CLI commands for submitting and managing GPU training workloads on Databricks serverless compute. Use for: writing and submitting `databricks air` workload YAML, choosing an accelerator type and Python environment, reading Unity Catalog tables as training data with UCDataset, passing hyperparameters and secrets, configuring retries, checking run status, listing/cancelling runs, streaming a run's logs and watching its progress, debugging failed runs, GPU pools, multi-container workloads, custom Docker image setup, and converting a workload to a Databricks Asset Bundle.",
           "compatibility": "Requires Databricks CLI 1.18.0 or newer for the air command. Flattened code_source, multi-container workloads, and workspace-validated dry runs require CLI 1.20.0 or newer; older CLIs can use the nested snapshot format documented below. Listing the accelerator types available in your workspace requires CLI 1.23.0 or newer. See the [AI Runtime CLI setup guide](https://docs.databricks.com/aws/en/machine-learning/ai-runtime/connecting/cli).",
           "metadata": {
-            "version": "0.3.0"
+            "version": "0.3.1"
           }
         },
         "standard": {
           "name": "databricks-ai-runtime",
-          "description": "Databricks AI Runtime, the `databricks air` CLI commands for submitting and managing GPU training workloads on Databricks serverless compute. Use for: writing and submitting `databricks air` workload YAML, choosing an accelerator type and Python environment, passing hyperparameters and secrets, configuring retries, checking run status, listing/cancelling runs, streaming a run's logs and watching its progress, debugging failed runs, GPU pools, multi-container workloads, custom Docker image setup, and converting a workload to a Databricks Asset Bundle.",
+          "description": "Databricks AI Runtime, the `databricks air` CLI commands for submitting and managing GPU training workloads on Databricks serverless compute. Use for: writing and submitting `databricks air` workload YAML, choosing an accelerator type and Python environment, reading Unity Catalog tables as training data with UCDataset, passing hyperparameters and secrets, configuring retries, checking run status, listing/cancelling runs, streaming a run's logs and watching its progress, debugging failed runs, GPU pools, multi-container workloads, custom Docker image setup, and converting a workload to a Databricks Asset Bundle.",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -159,8 +163,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -229,9 +237,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -240,7 +248,7 @@
       "name": "databricks-aibi-dashboards",
       "shape": "mixed",
       "source_path": "skills/databricks-aibi-dashboards",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-aibi-dashboards",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-aibi-dashboards",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -273,8 +281,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -343,9 +355,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -354,7 +366,7 @@
       "name": "databricks-app-design",
       "shape": "mixed",
       "source_path": "skills/databricks-app-design",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-app-design",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-app-design",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -386,8 +398,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -456,9 +472,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -467,7 +483,7 @@
       "name": "databricks-apps",
       "shape": "mixed",
       "source_path": "skills/databricks-apps",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-apps",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-apps",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -500,8 +516,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -570,9 +590,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -581,7 +601,7 @@
       "name": "databricks-apps-python",
       "shape": "mixed",
       "source_path": "skills/databricks-apps-python",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-apps-python",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-apps-python",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -614,8 +634,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -684,9 +708,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -695,7 +719,7 @@
       "name": "databricks-core",
       "shape": "mixed",
       "source_path": "skills/databricks-core",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-core",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-core",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -704,7 +728,7 @@
           "description": "Databricks CLI operations and the parent/entry-point skill for Databricks CLI use: authentication, profile selection, and bundles. Load this first for CLI, auth, profile, and bundle tasks, then load the matching product skill. For finding or exploring data, answering questions about the data, or generating SQL, load the databricks-data-discovery skill (it routes to Genie One). Contains up-to-date guidelines for Databricks-related CLI tasks.",
           "compatibility": "Requires databricks CLI (>= v1.0.0)",
           "metadata": {
-            "version": "0.1.0"
+            "version": "0.2.0"
           }
         },
         "standard": {
@@ -727,8 +751,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -797,9 +825,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -808,7 +836,7 @@
       "name": "databricks-dabs",
       "shape": "mixed",
       "source_path": "skills/databricks-dabs",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-dabs",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-dabs",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -836,8 +864,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -906,9 +938,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -917,7 +949,7 @@
       "name": "databricks-data-discovery",
       "shape": "mixed",
       "source_path": "skills/databricks-data-discovery",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-data-discovery",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-data-discovery",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -950,8 +982,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1020,9 +1056,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1031,7 +1067,7 @@
       "name": "databricks-dbsql",
       "shape": "mixed",
       "source_path": "skills/databricks-dbsql",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-dbsql",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-dbsql",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1064,8 +1100,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1134,9 +1174,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1145,7 +1185,7 @@
       "name": "databricks-docs",
       "shape": "mixed",
       "source_path": "skills/databricks-docs",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-docs",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-docs",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1178,8 +1218,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1248,9 +1292,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1259,7 +1303,7 @@
       "name": "databricks-execution-compute",
       "shape": "mixed",
       "source_path": "skills/databricks-execution-compute",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-execution-compute",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-execution-compute",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1292,8 +1336,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1362,9 +1410,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1373,7 +1421,7 @@
       "name": "databricks-genie-agents",
       "shape": "mixed",
       "source_path": "skills/databricks-genie-agents",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-genie-agents",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-genie-agents",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1405,8 +1453,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1475,9 +1527,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1486,7 +1538,7 @@
       "name": "databricks-iceberg",
       "shape": "mixed",
       "source_path": "skills/databricks-iceberg",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-iceberg",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-iceberg",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1519,8 +1571,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1589,9 +1645,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1600,13 +1656,13 @@
       "name": "databricks-jobs",
       "shape": "mixed",
       "source_path": "skills/databricks-jobs",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-jobs",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-jobs",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "databricks-jobs",
-          "description": "Develop and deploy Lakeflow Jobs on Databricks via DABs, Python SDK, or the CLI. Use when creating data engineering jobs with notebooks, Python wheels, SQL, dbt, or pipelines. Invoke BEFORE starting implementation. For compute (serverless, performance mode, classic), also use databricks-serverless.",
+          "description": "Develop and deploy Lakeflow Jobs on Databricks via DABs, Python SDK, or the CLI. Use when creating jobs with AI Function tasks, notebooks, Python wheels, SQL, dbt, or pipelines. Invoke BEFORE starting implementation. For configurable compute, also use databricks-serverless.",
           "compatibility": "Requires databricks CLI (>= v1.0.0)",
           "metadata": {
             "version": "0.3.0"
@@ -1615,7 +1671,7 @@
         },
         "standard": {
           "name": "databricks-jobs",
-          "description": "Develop and deploy Lakeflow Jobs on Databricks via DABs, Python SDK, or the CLI. Use when creating data engineering jobs with notebooks, Python wheels, SQL, dbt, or pipelines. Invoke BEFORE starting implementation. For compute (serverless, performance mode, classic), also use databricks-serverless.",
+          "description": "Develop and deploy Lakeflow Jobs on Databricks via DABs, Python SDK, or the CLI. Use when creating jobs with AI Function tasks, notebooks, Python wheels, SQL, dbt, or pipelines. Invoke BEFORE starting implementation. For configurable compute, also use databricks-serverless.",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -1633,8 +1689,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1703,9 +1763,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1714,7 +1774,7 @@
       "name": "databricks-lakebase",
       "shape": "mixed",
       "source_path": "skills/databricks-lakebase",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-lakebase",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-lakebase",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1747,8 +1807,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1817,9 +1881,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1828,7 +1892,7 @@
       "name": "databricks-lakeflow-connect",
       "shape": "mixed",
       "source_path": "skills/databricks-lakeflow-connect",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-lakeflow-connect",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-lakeflow-connect",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1861,8 +1925,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -1931,9 +1999,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -1942,7 +2010,7 @@
       "name": "databricks-lakeflow-connect-saas",
       "shape": "mixed",
       "source_path": "skills/databricks-lakeflow-connect-saas",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-lakeflow-connect-saas",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-lakeflow-connect-saas",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1975,8 +2043,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2045,9 +2117,126 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "databricks-lakehouse-mcp",
+      "shape": "mixed",
+      "source_path": "skills/databricks-lakehouse-mcp",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-lakehouse-mcp",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "skill-md",
+        "raw": {
+          "name": "databricks-lakehouse-mcp",
+          "description": "Discover, connect to, or recover the hosted Databricks Lakehouse MCP (system.ai.lakehouse), then load its guidance for inspecting, editing, running, and reading results from Databricks notebooks. Use for notebook work in a Databricks workspace or when the user asks to set up the Lakehouse MCP.",
+          "metadata": {
+            "version": "0.1.0"
+          },
+          "parent": "databricks-core"
+        },
+        "standard": {
+          "name": "databricks-lakehouse-mcp",
+          "description": "Discover, connect to, or recover the hosted Databricks Lakehouse MCP (system.ai.lakehouse), then load its guidance for inspecting, editing, running, and reading results from Databricks notebooks. Use for notebook work in a Databricks workspace or when the user asks to set up the Lakehouse MCP.",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
+        "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
+          "v0.2.49",
+          "v0.2.48",
+          "v0.2.47",
+          "v0.2.46",
+          "v0.2.45",
+          "v0.2.44",
+          "v0.2.43",
+          "v0.2.42",
+          "v0.2.41",
+          "v0.2.40",
+          "v0.2.39",
+          "v0.2.38",
+          "v0.2.37",
+          "v0.2.36",
+          "v0.2.35",
+          "v0.2.34",
+          "v0.2.32",
+          "v0.2.31",
+          "v0.2.30",
+          "v0.2.29",
+          "v0.2.28",
+          "v0.2.27",
+          "v0.2.26",
+          "v0.2.25",
+          "v0.2.24",
+          "v0.2.23",
+          "v0.2.22",
+          "v0.2.21",
+          "v0.2.20",
+          "v0.2.19",
+          "v0.2.18",
+          "v0.2.17",
+          "v0.2.16",
+          "v0.2.15",
+          "v0.2.14",
+          "v0.2.13",
+          "v0.2.12",
+          "v0.2.11",
+          "v0.2.10",
+          "v0.2.9",
+          "v0.2.8",
+          "v0.2.7",
+          "v0.2.6",
+          "v0.2.5",
+          "v0.2.4",
+          "v0.2.3",
+          "v0.2.2",
+          "v0.2.1",
+          "v0.2.0",
+          "v0.1.5",
+          "v0.1.4",
+          "v0.1.3",
+          "v0.1.2",
+          "v0.1.1",
+          "v0.1.0"
+        ]
+      },
+      "trust_score": 27,
+      "trust_signals": {
+        "store": 22,
+        "frontmatter": 5,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 7,
+          "license": 0,
+          "license_name": "NOASSERTION",
+          "stars": 409,
+          "contributors": 25,
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2056,7 +2245,7 @@
       "name": "databricks-metric-views",
       "shape": "mixed",
       "source_path": "skills/databricks-metric-views",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-metric-views",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-metric-views",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2089,8 +2278,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2159,9 +2352,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2170,7 +2363,7 @@
       "name": "databricks-ml-training",
       "shape": "mixed",
       "source_path": "skills/databricks-ml-training",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-ml-training",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-ml-training",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2203,8 +2396,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2273,9 +2470,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2284,7 +2481,7 @@
       "name": "databricks-mlflow-evaluation",
       "shape": "mixed",
       "source_path": "skills/databricks-mlflow-evaluation",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-mlflow-evaluation",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-mlflow-evaluation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2317,8 +2514,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2387,9 +2588,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2398,7 +2599,7 @@
       "name": "databricks-mlflow-tracing",
       "shape": "mixed",
       "source_path": "skills/databricks-mlflow-tracing",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-mlflow-tracing",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-mlflow-tracing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2430,8 +2631,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2500,9 +2705,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2511,7 +2716,7 @@
       "name": "databricks-model-serving",
       "shape": "mixed",
       "source_path": "skills/databricks-model-serving",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-model-serving",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-model-serving",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2544,8 +2749,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2614,9 +2823,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2625,22 +2834,22 @@
       "name": "databricks-pipelines",
       "shape": "mixed",
       "source_path": "skills/databricks-pipelines",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-pipelines",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-pipelines",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "databricks-pipelines",
-          "description": "Develop Lakeflow Spark Declarative Pipelines (formerly Delta Live Tables) on Databricks. Use when building batch or streaming data pipelines with Python or SQL, including Auto CDC from event streams or periodic complete snapshots. Invoke BEFORE starting implementation.",
+          "description": "Spark Declarative Pipelines (formerly DLT) in Python or SQL: streaming tables, materialized views, expectations, Auto CDC, Auto Loader, and pipeline settings. Also covers continuous mode, run-as, parameters, rewind, views, sinks and ForEachBatch, append flows, pipeline setup, migrating from legacy DLT, cluster keys, streaming state, and dedup or windowed aggregations. Also file ingestion from volumes, cloud storage, SFTP, Google Drive, SharePoint or OneDrive and document parsing; debugging failed, slow, or flaky updates from the update history; and migrating dbt or Informatica projects to SDP.",
           "compatibility": "Requires databricks CLI (>= v1.0.0)",
           "metadata": {
-            "version": "0.3.0"
+            "version": "0.4.0"
           },
           "parent": "databricks-core"
         },
         "standard": {
           "name": "databricks-pipelines",
-          "description": "Develop Lakeflow Spark Declarative Pipelines (formerly Delta Live Tables) on Databricks. Use when building batch or streaming data pipelines with Python or SQL, including Auto CDC from event streams or periodic complete snapshots. Invoke BEFORE starting implementation.",
+          "description": "Spark Declarative Pipelines (formerly DLT) in Python or SQL: streaming tables, materialized views, expectations, Auto CDC, Auto Loader, and pipeline settings. Also covers continuous mode, run-as, parameters, rewind, views, sinks and ForEachBatch, append flows, pipeline setup, migrating from legacy DLT, cluster keys, streaming state, and dedup or windowed aggregations. Also file ingestion from volumes, cloud storage, SFTP, Google Drive, SharePoint or OneDrive and document parsing; debugging failed, slow, or flaky updates from the update history; and migrating dbt or Informatica projects to SDP.",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -2658,8 +2867,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2728,9 +2941,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2739,7 +2952,7 @@
       "name": "databricks-python-sdk",
       "shape": "mixed",
       "source_path": "skills/databricks-python-sdk",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-python-sdk",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-python-sdk",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2772,8 +2985,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2842,9 +3059,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2853,7 +3070,7 @@
       "name": "databricks-sandbox",
       "shape": "mixed",
       "source_path": "skills/databricks-sandbox",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-sandbox",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-sandbox",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2886,8 +3103,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -2956,9 +3177,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -2967,7 +3188,7 @@
       "name": "databricks-serverless",
       "shape": "mixed",
       "source_path": "skills/databricks-serverless",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-serverless",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-serverless",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3000,8 +3221,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3070,9 +3295,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3081,7 +3306,7 @@
       "name": "databricks-serverless-migration",
       "shape": "mixed",
       "source_path": "skills/databricks-serverless-migration",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-serverless-migration",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-serverless-migration",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3114,8 +3339,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3184,9 +3413,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3195,7 +3424,7 @@
       "name": "databricks-serverless-migration-api",
       "shape": "mixed",
       "source_path": "skills/databricks-serverless-migration-api",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-serverless-migration-api",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-serverless-migration-api",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3228,8 +3457,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3298,9 +3531,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3309,7 +3542,7 @@
       "name": "databricks-setup-local",
       "shape": "mixed",
       "source_path": "skills/databricks-setup-local",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-setup-local",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-setup-local",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3342,8 +3575,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3412,9 +3649,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3423,7 +3660,7 @@
       "name": "databricks-spark-structured-streaming",
       "shape": "mixed",
       "source_path": "skills/databricks-spark-structured-streaming",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-spark-structured-streaming",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-spark-structured-streaming",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3456,8 +3693,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3526,9 +3767,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3537,7 +3778,7 @@
       "name": "databricks-synthetic-data-gen",
       "shape": "mixed",
       "source_path": "skills/databricks-synthetic-data-gen",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-synthetic-data-gen",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-synthetic-data-gen",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3570,8 +3811,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3640,9 +3885,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3651,7 +3896,7 @@
       "name": "databricks-unity-catalog",
       "shape": "mixed",
       "source_path": "skills/databricks-unity-catalog",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-unity-catalog",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-unity-catalog",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3684,8 +3929,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3754,9 +4003,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3765,7 +4014,7 @@
       "name": "databricks-unity-gateway",
       "shape": "mixed",
       "source_path": "skills/databricks-unity-gateway",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-unity-gateway",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-unity-gateway",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3798,8 +4047,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3868,9 +4121,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3879,7 +4132,7 @@
       "name": "databricks-unstructured-pdf-generation",
       "shape": "mixed",
       "source_path": "skills/databricks-unstructured-pdf-generation",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-unstructured-pdf-generation",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-unstructured-pdf-generation",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3912,8 +4165,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -3982,9 +4239,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -3993,13 +4250,13 @@
       "name": "databricks-vector-search",
       "shape": "mixed",
       "source_path": "skills/databricks-vector-search",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-vector-search",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-vector-search",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "databricks-vector-search",
-          "description": "Databricks AI Search (formerly Vector Search) endpoints and indexes for RAG and semantic search. Use when asked to: create Standard or Storage-Optimized endpoints and Delta Sync or Direct Access indexes with AISearchClient; query with ANN, hybrid, or full-text search and filters; sync, monitor, or migrate indexes; set a target QPS, triage 429s, or load-test an endpoint; wire an index into an agent as a retriever tool. NOT for: no-code document Q&A (databricks-genie-agents); serving-endpoint CRUD (databricks-model-serving); custom ResponsesAgent authoring and deployment (databricks-ml-training).",
+          "description": "Databricks AI Search (formerly Vector Search) endpoints and indexes for RAG and semantic search. Use when asked to: create Standard or Storage-Optimized endpoints and Delta Sync or Direct Access indexes with AISearchClient; query with ANN, hybrid, or full-text search and filters; sync, monitor, or migrate indexes; run the built-in index search quality evaluation; set a target QPS, triage 429s, or load-test an endpoint; wire an index into an agent as a retriever tool. NOT for: MLflow evaluation of RAG apps/agents (databricks-mlflow-evaluation); no-code document Q&A (databricks-genie-agents); serving-endpoint CRUD (databricks-model-serving); custom ResponsesAgent authoring and deployment (databricks-ml-training).",
           "compatibility": "Requires databricks-ai-search >= 0.79 (Python); >= 0.80 for start_endpoint/stop_endpoint; 0.82+ for the databricks-ai-search CLI",
           "metadata": {
             "version": "0.2.0"
@@ -4008,7 +4265,7 @@
         },
         "standard": {
           "name": "databricks-vector-search",
-          "description": "Databricks AI Search (formerly Vector Search) endpoints and indexes for RAG and semantic search. Use when asked to: create Standard or Storage-Optimized endpoints and Delta Sync or Direct Access indexes with AISearchClient; query with ANN, hybrid, or full-text search and filters; sync, monitor, or migrate indexes; set a target QPS, triage 429s, or load-test an endpoint; wire an index into an agent as a retriever tool. NOT for: no-code document Q&A (databricks-genie-agents); serving-endpoint CRUD (databricks-model-serving); custom ResponsesAgent authoring and deployment (databricks-ml-training).",
+          "description": "Databricks AI Search (formerly Vector Search) endpoints and indexes for RAG and semantic search. Use when asked to: create Standard or Storage-Optimized endpoints and Delta Sync or Direct Access indexes with AISearchClient; query with ANN, hybrid, or full-text search and filters; sync, monitor, or migrate indexes; run the built-in index search quality evaluation; set a target QPS, triage 429s, or load-test an endpoint; wire an index into an agent as a retriever tool. NOT for: MLflow evaluation of RAG apps/agents (databricks-mlflow-evaluation); no-code document Q&A (databricks-genie-agents); serving-endpoint CRUD (databricks-model-serving); custom ResponsesAgent authoring and deployment (databricks-ml-training).",
           "version": null,
           "lastReviewed": null,
           "shape": "mixed"
@@ -4026,8 +4283,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -4096,9 +4357,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -4107,7 +4368,7 @@
       "name": "databricks-zerobus-ingest",
       "shape": "mixed",
       "source_path": "skills/databricks-zerobus-ingest",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/skills/databricks-zerobus-ingest",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/skills/databricks-zerobus-ingest",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4140,8 +4401,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -4210,9 +4475,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -4221,7 +4486,7 @@
       "name": "experimental",
       "shape": "unknown",
       "source_path": "experimental",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/experimental",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/experimental",
       "readme_excerpt": "> ⚠️ **Experimental: best-effort, not officially supported**",
       "frontmatter": {
         "kind": "none",
@@ -4246,8 +4511,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -4316,9 +4585,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -4327,7 +4596,7 @@
       "name": "hooks",
       "shape": "hook",
       "source_path": "hooks",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/hooks",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/hooks",
       "readme_excerpt": "Three hooks make sure Databricks work flows through the skills. All are",
       "frontmatter": {
         "kind": "none",
@@ -4352,8 +4621,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -4422,9 +4695,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -4433,7 +4706,7 @@
       "name": "metaplugin",
       "shape": "unknown",
       "source_path": "metaplugin",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/metaplugin",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/metaplugin",
       "readme_excerpt": "`plugin.meta.json` in this folder is the **single source of truth** for the",
       "frontmatter": {
         "kind": "none",
@@ -4458,8 +4731,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -4528,9 +4805,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -4539,7 +4816,7 @@
       "name": "rules",
       "shape": "unknown",
       "source_path": "rules",
-      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/8a5fec030c04a3f0a19f4b2d51c91a1313b78e66/rules",
+      "source_url": "https://github.com/databricks/databricks-agent-skills/tree/5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4/rules",
       "readme_excerpt": "`databricks-routing.mdc` in this directory is generated from",
       "frontmatter": {
         "kind": "none",
@@ -4564,8 +4841,12 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "8a5fec030c04a3f0a19f4b2d51c91a1313b78e66",
+        "default_sha": "5ecd4e16f9fdaab05f25b1ee8f0364a3623baac4",
         "tags": [
+          "v0.2.53",
+          "v0.2.52",
+          "v0.2.51",
+          "v0.2.50",
           "v0.2.49",
           "v0.2.48",
           "v0.2.47",
@@ -4634,9 +4915,9 @@
           "adoption": 7,
           "license": 0,
           "license_name": "NOASSERTION",
-          "stars": 402,
+          "stars": 409,
           "contributors": 25,
-          "last_commit": "2026-11-16T08:37:37Z",
+          "last_commit": "2026-11-23T08:32:49Z",
           "archived": false
         }
       }
@@ -4650,9 +4931,9 @@
       "adoption": 7,
       "license": 0,
       "license_name": "NOASSERTION",
-      "stars": 402,
+      "stars": 409,
       "contributors": 25,
-      "last_commit": "2026-11-16T08:37:37Z",
+      "last_commit": "2026-11-23T08:32:49Z",
       "archived": false
     }
   }

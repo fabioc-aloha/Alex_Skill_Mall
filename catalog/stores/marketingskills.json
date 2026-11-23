@@ -1,19 +1,19 @@
 {
   "store": "marketingskills",
   "source_repo": "https://github.com/coreyhaines31/marketingskills.git",
-  "generated_at": "2026-11-16T20:49:29.665Z",
-  "scanned_ref": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+  "generated_at": "2026-11-23T22:22:07.918Z",
+  "scanned_ref": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
   "provenance": false,
   "tier": "domain",
   "license": null,
   "reference_only": false,
-  "plugin_count": 57,
+  "plugin_count": 58,
   "plugins": [
     {
       "name": "ab-testing",
       "shape": "skill",
       "source_path": "skills/ab-testing",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ab-testing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/ab-testing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -44,8 +44,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -171,9 +187,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -182,7 +198,7 @@
       "name": "ad-creative",
       "shape": "skill",
       "source_path": "skills/ad-creative",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ad-creative",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/ad-creative",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -190,7 +206,7 @@
           "name": "ad-creative",
           "description": "When the user wants to write or judge ad creative, or asks which ad, hook, or angle to run or kill: headlines, primary text, and variations for Google, Meta, LinkedIn, and TikTok, fresh angles when creative fatigues. Test hypotheses name the metric, comparison, and expected direction. No AI tells like 'it's not X, it's Y'. For campaign strategy, see ads. For landing pages, see copywriting.",
           "metadata": {
-            "version": "2.13.0"
+            "version": "2.13.5"
           }
         },
         "standard": {
@@ -213,8 +229,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -340,9 +372,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -351,7 +383,7 @@
       "name": "ads",
       "shape": "skill",
       "source_path": "skills/ads",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ads",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/ads",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -359,7 +391,7 @@
           "name": "ads",
           "description": "When the user wants to plan, run, or fix paid ads on Google, Meta, and LinkedIn, or asks a judgement call on them: are ads worth it, which channel or budget split, why CPA rose, kill or keep a campaign. End with facts, hypotheses, and missing data; label unavailable inputs MISSING instead of estimating. For ad copy, see ad-creative. For pixels and CAPI, see conversion-tracking. For landing pages, see cro.",
           "metadata": {
-            "version": "2.7.5"
+            "version": "2.7.9"
           }
         },
         "standard": {
@@ -382,8 +414,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -509,9 +557,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -520,7 +568,7 @@
       "name": "ai-seo",
       "shape": "skill",
       "source_path": "skills/ai-seo",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/ai-seo",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -528,7 +576,7 @@
           "name": "ai-seo",
           "description": "When the user wants to get cited and recommended in AI answers (ChatGPT, Perplexity, AI Overviews), or asks why AI cites a competitor, which content gets cited, or whether llms.txt or a page format is worth it: AEO, GEO, AI visibility, agent-readable sites. For technical and on-page SEO, see seo-audit. For structured data, see schema.",
           "metadata": {
-            "version": "2.12.3"
+            "version": "2.12.7"
           }
         },
         "standard": {
@@ -551,8 +599,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -678,9 +742,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -689,7 +753,7 @@
       "name": "aisa",
       "shape": "unknown",
       "source_path": "tools/aisa",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/tools/aisa",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/aisa",
       "readme_excerpt": "> **◆ Verified Partner integration.** AIsa sponsors Marketing Skills. This guide adds an optional data connection and does not change what any skill recommends. Compare alternatives for the task. See ",
       "frontmatter": {
         "kind": "none",
@@ -714,8 +778,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -841,9 +921,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -852,7 +932,7 @@
       "name": "analytics",
       "shape": "skill",
       "source_path": "skills/analytics",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/analytics",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/analytics",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -860,7 +940,7 @@
           "name": "analytics",
           "description": "When the user wants to set up or audit analytics, or asks whether a metric or number is calculated right, what to track, or how to name events: tracking plans, GA4, GTM, Mixpanel, PostHog, UTMs. Rate metrics divide matching closed windows, never full-period spend by partial-period results. For conversions in ad platforms, see conversion-tracking. For attribution or platforms that over-claim, see attribution. For tests, see ab-testing.",
           "metadata": {
-            "version": "2.2.5"
+            "version": "2.2.7"
           }
         },
         "standard": {
@@ -883,8 +963,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -1010,9 +1106,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -1021,7 +1117,7 @@
       "name": "aso",
       "shape": "skill",
       "source_path": "skills/aso",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/aso",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/aso",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1029,7 +1125,7 @@
           "name": "aso",
           "description": "When the user wants to audit or optimize an App Store or Google Play listing, or asks which title, keywords, or screenshots to pick or why downloads are low: subtitle, description, ratings, and comparing listings with competitors.",
           "metadata": {
-            "version": "2.0.6"
+            "version": "2.1.0"
           }
         },
         "standard": {
@@ -1052,8 +1148,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -1179,9 +1291,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -1190,7 +1302,7 @@
       "name": "attribution",
       "shape": "skill",
       "source_path": "skills/attribution",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/attribution",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/attribution",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1198,7 +1310,7 @@
           "name": "attribution",
           "description": "When the user wants to work out which marketing drives revenue, or asks whether a channel is really working, which numbers to trust, or how to credit podcasts and dark social: attribution models, platforms that over-claim, MMM, incrementality and holdout tests, self-reported attribution. For tracking and UTMs, see analytics. For pixels and CAPI, see conversion-tracking. For CRM revenue, see revops. For AI search blind spots, see ai-seo.",
           "metadata": {
-            "version": "1.1.9"
+            "version": "1.1.10"
           }
         },
         "standard": {
@@ -1221,8 +1333,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -1348,9 +1476,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -1359,7 +1487,7 @@
       "name": "churn-prevention",
       "shape": "skill",
       "source_path": "skills/churn-prevention",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/churn-prevention",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/churn-prevention",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1367,7 +1495,7 @@
           "name": "churn-prevention",
           "description": "When the user wants to reduce churn, or asks why customers cancel, whether to offer a discount or pause: cancellation flows, exit surveys, save offers, dunning and failed-payment recovery. For win-back emails, see emails. For in-app upgrade screens, see paywalls.",
           "metadata": {
-            "version": "2.0.6"
+            "version": "2.0.7"
           }
         },
         "standard": {
@@ -1390,8 +1518,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -1517,9 +1661,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -1528,7 +1672,7 @@
       "name": "clis",
       "shape": "unknown",
       "source_path": "tools/clis",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/tools/clis",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/clis",
       "readme_excerpt": "Zero-dependency, single-file CLI tools for marketing platforms that don't ship their own.",
       "frontmatter": {
         "kind": "none",
@@ -1553,8 +1697,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -1680,9 +1840,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -1691,7 +1851,7 @@
       "name": "co-marketing",
       "shape": "skill",
       "source_path": "skills/co-marketing",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/co-marketing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/co-marketing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1699,7 +1859,7 @@
           "name": "co-marketing",
           "description": "When the user wants co-marketing partners or joint campaigns, or asks whether a partner fits, a size mismatch matters, or how to split work and leads: integration partners, cross-promotion, co-branded content, joint webinars. For referral programs, see referrals. For launch partnerships, see launch. For running the event, see events.",
           "metadata": {
-            "version": "2.0.6"
+            "version": "2.0.7"
           }
         },
         "standard": {
@@ -1722,8 +1882,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -1849,9 +2025,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -1860,7 +2036,7 @@
       "name": "cold-email",
       "shape": "skill",
       "source_path": "skills/cold-email",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/cold-email",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/cold-email",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -1868,7 +2044,7 @@
           "name": "cold-email",
           "description": "When the user wants to write or run B2B cold outbound, or asks whether an opener, reason to reach out, or email works or why nobody replies: cold emails, follow-ups, sending domains, deliverability, LinkedIn, cadences. Send from secondary domains, verify lists first, turn off open tracking, stop every channel when a prospect replies. No AI tells like 'it's not X, it's Y'. For the list, see prospecting. For lifecycle email, see emails. For call scripts, see sales-enablement.",
           "metadata": {
-            "version": "2.2.4"
+            "version": "2.2.7"
           }
         },
         "standard": {
@@ -1891,8 +2067,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -2018,9 +2210,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -2029,7 +2221,7 @@
       "name": "community-marketing",
       "shape": "skill",
       "source_path": "skills/community-marketing",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/community-marketing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/community-marketing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2060,8 +2252,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -2187,9 +2395,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -2198,7 +2406,7 @@
       "name": "competitor-profiling",
       "shape": "skill",
       "source_path": "skills/competitor-profiling",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/competitor-profiling",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/competitor-profiling",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2206,7 +2414,7 @@
           "name": "competitor-profiling",
           "description": "When the user wants to research competitors into dated profiles, or asks what a rival charges, claims, or is doing, or whether a conclusion about them is fair: positioning, pricing, features, reviews, SEO, observed facts kept apart from inference. For comparison pages, see competitors. For battle cards, see sales-enablement. For accounts you sell to, see prospecting. For how a competitor grew, see reverse-engineer-marketing.",
           "metadata": {
-            "version": "2.1.8"
+            "version": "2.1.9"
           }
         },
         "standard": {
@@ -2229,8 +2437,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -2356,9 +2580,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -2367,7 +2591,7 @@
       "name": "competitors",
       "shape": "skill",
       "source_path": "skills/competitors",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/competitors",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/competitors",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2398,8 +2622,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -2525,9 +2765,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -2536,7 +2776,7 @@
       "name": "composio",
       "shape": "unknown",
       "source_path": "tools/composio",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/tools/composio",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/composio",
       "readme_excerpt": "Get MCP access to 500+ marketing tools through a single integration.",
       "frontmatter": {
         "kind": "none",
@@ -2561,8 +2801,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -2688,9 +2944,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -2699,7 +2955,7 @@
       "name": "content-strategy",
       "shape": "skill",
       "source_path": "skills/content-strategy",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/content-strategy",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/content-strategy",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2730,8 +2986,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -2857,9 +3129,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -2868,7 +3140,7 @@
       "name": "conversion-tracking",
       "shape": "skill",
       "source_path": "skills/conversion-tracking",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/conversion-tracking",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/conversion-tracking",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -2899,8 +3171,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -3026,9 +3314,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -3037,7 +3325,7 @@
       "name": "copy-editing",
       "shape": "skill",
       "source_path": "skills/copy-editing",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/copy-editing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/copy-editing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3068,8 +3356,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -3195,9 +3499,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -3206,7 +3510,7 @@
       "name": "copywriting",
       "shape": "skill",
       "source_path": "skills/copywriting",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/copywriting",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/copywriting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3214,7 +3518,7 @@
           "name": "copywriting",
           "description": "When the user wants to write or rewrite page copy (homepage, landing, pricing, feature), or asks which headline, promise, or message to lead with. Diagnoses the input first (blank brief, real voice, or point edit) and changes only what it calls for. Claims must be supportable; a declined claim names the evidence that would unlock it. No AI tells like 'it's not X, it's Y' or 'no X, no Y, no Z'. For editing, see copy-editing. For emails, see emails. For the offer, see offers.",
           "metadata": {
-            "version": "2.3.5"
+            "version": "2.3.6"
           }
         },
         "standard": {
@@ -3237,8 +3541,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -3364,9 +3684,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -3375,7 +3695,7 @@
       "name": "cro",
       "shape": "skill",
       "source_path": "skills/cro",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/cro",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/cro",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3406,8 +3726,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -3533,9 +3869,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -3544,7 +3880,7 @@
       "name": "customer-research",
       "shape": "skill",
       "source_path": "skills/customer-research",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/customer-research",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/customer-research",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3552,7 +3888,7 @@
           "name": "customer-research",
           "description": "When the user wants to run or synthesize customer research, or asks what customer quotes, reviews, or feedback really mean, what is safe to conclude, and what to ask next: interviews, surveys, voice of customer, personas, JTBD, mining Reddit and reviews. For copy from research, see copywriting. For acting on it in pages, see cro.",
           "metadata": {
-            "version": "2.0.8"
+            "version": "2.0.9"
           }
         },
         "standard": {
@@ -3575,8 +3911,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -3702,9 +4054,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -3713,7 +4065,7 @@
       "name": "directory-submissions",
       "shape": "skill",
       "source_path": "skills/directory-submissions",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/directory-submissions",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/directory-submissions",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3721,7 +4073,7 @@
           "name": "directory-submissions",
           "description": "When the user wants to list a product in startup, SaaS, AI, MCP, and review directories, or asks which directories are worth it or whether listings are working: Product Hunt, G2, Capterra, AlternativeTo, MCP registries, awesome lists, and a submission tracker. For the broader launch, see launch. For other link building, see link-building.",
           "metadata": {
-            "version": "2.2.0"
+            "version": "2.2.1"
           }
         },
         "standard": {
@@ -3744,8 +4096,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -3871,9 +4239,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -3882,7 +4250,7 @@
       "name": "emails",
       "shape": "skill",
       "source_path": "skills/emails",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/emails",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/emails",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -3890,7 +4258,7 @@
           "name": "emails",
           "description": "When the user wants to create or improve automated email sequences, or asks what to send, when, or whether an email or flow is working: welcome, onboarding, nurture, and win-back flows. No AI tells like 'it's not X, it's Y', 'no X, no Y, no Z' lists, or fake 'Re:' subject lines. For cold outreach, see cold-email. For in-app onboarding, see onboarding. For texts, see sms.",
           "metadata": {
-            "version": "2.1.7"
+            "version": "2.1.9"
           }
         },
         "standard": {
@@ -3913,8 +4281,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -4040,9 +4424,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -4051,7 +4435,7 @@
       "name": "events",
       "shape": "skill",
       "source_path": "skills/events",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/events",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/events",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4082,8 +4466,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -4209,9 +4609,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -4220,7 +4620,7 @@
       "name": "free-tools",
       "shape": "skill",
       "source_path": "skills/free-tools",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/free-tools",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/free-tools",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4251,8 +4651,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -4378,9 +4794,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -4389,7 +4805,7 @@
       "name": "image",
       "shape": "skill",
       "source_path": "skills/image",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/image",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/image",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4397,7 +4813,7 @@
           "name": "image",
           "description": "When the user wants to create, generate, edit, or optimize marketing images, or asks which approach to take (generate, design, or photograph): blog heroes, social graphics, product mockups, banners, OG images. For ad images, see ad-creative. For video, see video.",
           "metadata": {
-            "version": "2.0.6"
+            "version": "2.0.8"
           }
         },
         "standard": {
@@ -4420,8 +4836,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -4547,9 +4979,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -4558,7 +4990,7 @@
       "name": "influencer-marketing",
       "shape": "skill",
       "source_path": "skills/influencer-marketing",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/influencer-marketing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/influencer-marketing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4566,7 +4998,7 @@
           "name": "influencer-marketing",
           "description": "When the user wants creator, influencer, or ambassador partnerships, or asks which creators fit, what to pay, which rights to buy, or whether a sponsorship worked: vetting, contracts, briefs, UGC, newsletter and podcast sponsorships, FTC disclosure. For affiliate payouts, see referrals. For community advocacy, see community-marketing. For creator content as ads, see ad-creative.",
           "metadata": {
-            "version": "1.4.3"
+            "version": "1.4.4"
           }
         },
         "standard": {
@@ -4589,8 +5021,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -4716,9 +5164,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -4727,7 +5175,7 @@
       "name": "launch",
       "shape": "skill",
       "source_path": "skills/launch",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/launch",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/launch",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4735,7 +5183,7 @@
           "name": "launch",
           "description": "When the user wants to plan a product or feature launch, or asks whether it's ready, when to announce, or how to get noticed: Product Hunt, beta and early access, waitlists, release go-to-market, launch checklists, release notes. For marketing after launch, see marketing-ideas. For the offer, see offers.",
           "metadata": {
-            "version": "2.2.3"
+            "version": "2.2.4"
           }
         },
         "standard": {
@@ -4758,8 +5206,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -4885,9 +5349,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -4896,7 +5360,7 @@
       "name": "lead-magnets",
       "shape": "skill",
       "source_path": "skills/lead-magnets",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/lead-magnets",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/lead-magnets",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -4927,8 +5391,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -5054,9 +5534,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -5065,20 +5545,20 @@
       "name": "link-building",
       "shape": "skill",
       "source_path": "skills/link-building",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/link-building",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/link-building",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
         "raw": {
           "name": "link-building",
-          "description": "When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link or whether a link tactic is safe: link gaps, unlinked mentions, broken links, guest posts, best-of outreach. Never buy links that pass ranking credit: paid or exchanged placements get rel=sponsored or nofollow. For press, see public-relations. For directories, see directory-submissions. For reviews, see referrals. For communities, see community-marketing.",
+          "description": "When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link, whether a link tactic is safe, or where to buy placements: link gaps, unlinked mentions, broken links, guest posts, link marketplaces. On paid links, state Google's rule (rel=sponsored or nofollow) and the risk, then let the user decide. For press, see public-relations. For directories, see directory-submissions. For reviews, see referrals. For communities, see community-marketing.",
           "metadata": {
-            "version": "1.0.4"
+            "version": "1.1.0"
           }
         },
         "standard": {
           "name": "link-building",
-          "description": "When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link or whether a link tactic is safe: link gaps, unlinked mentions, broken links, guest posts, best-of outreach. Never buy links that pass ranking credit: paid or exchanged placements get rel=sponsored or nofollow. For press, see public-relations. For directories, see directory-submissions. For reviews, see referrals. For communities, see community-marketing.",
+          "description": "When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link, whether a link tactic is safe, or where to buy placements: link gaps, unlinked mentions, broken links, guest posts, link marketplaces. On paid links, state Google's rule (rel=sponsored or nofollow) and the risk, then let the user decide. For press, see public-relations. For directories, see directory-submissions. For reviews, see referrals. For communities, see community-marketing.",
           "version": null,
           "lastReviewed": null,
           "shape": "skill"
@@ -5096,8 +5576,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -5223,9 +5719,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -5234,7 +5730,7 @@
       "name": "marketing-council",
       "shape": "skill",
       "source_path": "skills/marketing-council",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/marketing-council",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/marketing-council",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5265,8 +5761,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -5392,9 +5904,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -5403,7 +5915,7 @@
       "name": "marketing-ideas",
       "shape": "skill",
       "source_path": "skills/marketing-ideas",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/marketing-ideas",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/marketing-ideas",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5434,8 +5946,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -5561,9 +6089,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -5572,7 +6100,7 @@
       "name": "marketing-loops",
       "shape": "skill",
       "source_path": "skills/marketing-loops",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/marketing-loops",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/marketing-loops",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5580,7 +6108,7 @@
           "name": "marketing-loops",
           "description": "When the user wants a recurring marketing job an AI agent runs on a cadence or trigger, or asks what a weekly or daily automated check should do, remember, and when it should stop: SEO and ads checks, churn watches, outbound triage. For one-off ideas, see marketing-ideas. For the test loop, see ab-testing.",
           "metadata": {
-            "version": "1.8.4"
+            "version": "1.9.1"
           }
         },
         "standard": {
@@ -5603,8 +6131,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -5730,9 +6274,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -5741,7 +6285,7 @@
       "name": "marketing-plan",
       "shape": "skill",
       "source_path": "skills/marketing-plan",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/marketing-plan",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/marketing-plan",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5749,7 +6293,7 @@
           "name": "marketing-plan",
           "description": "When the user wants a full marketing or go-to-market plan for a client, an advised company, or their own product, or asks how to sequence or prioritize several initiatives with a fixed team and budget: channels, budget, team, goals across AARRR, market sizing. For positioning first, see product-marketing. For ideas only, see marketing-ideas.",
           "metadata": {
-            "version": "1.2.5"
+            "version": "1.2.6"
           }
         },
         "standard": {
@@ -5772,8 +6316,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -5899,9 +6459,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -5910,7 +6470,7 @@
       "name": "marketing-psychology",
       "shape": "skill",
       "source_path": "skills/marketing-psychology",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/marketing-psychology",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/marketing-psychology",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -5941,8 +6501,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -6068,9 +6644,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -6079,7 +6655,7 @@
       "name": "offers",
       "shape": "skill",
       "source_path": "skills/offers",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/offers",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/offers",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6110,8 +6686,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -6237,9 +6829,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -6248,7 +6840,7 @@
       "name": "onboarding",
       "shape": "skill",
       "source_path": "skills/onboarding",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/onboarding",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/onboarding",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6279,8 +6871,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -6406,9 +7014,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -6417,7 +7025,7 @@
       "name": "paywalls",
       "shape": "skill",
       "source_path": "skills/paywalls",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/paywalls",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/paywalls",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6425,7 +7033,7 @@
           "name": "paywalls",
           "description": "When the user wants to create or improve in-app paywalls and upgrade moments, or asks when or how hard to ask free users to pay (after they've seen value): upgrade screens, upsell modals, feature gates, limit-reached and trial-expired screens, mobile subscription paywalls. For public pricing pages, see cro. For pricing decisions, see pricing.",
           "metadata": {
-            "version": "2.1.4"
+            "version": "2.1.5"
           }
         },
         "standard": {
@@ -6448,8 +7056,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -6575,9 +7199,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -6586,7 +7210,7 @@
       "name": "popups",
       "shape": "skill",
       "source_path": "skills/popups",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/popups",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/popups",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6617,8 +7241,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -6744,9 +7384,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -6755,7 +7395,7 @@
       "name": "pricing",
       "shape": "skill",
       "source_path": "skills/pricing",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/pricing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/pricing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6786,8 +7426,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -6913,9 +7569,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -6924,7 +7580,7 @@
       "name": "product-marketing",
       "shape": "skill",
       "source_path": "skills/product-marketing",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/product-marketing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/product-marketing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -6955,8 +7611,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -7082,9 +7754,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -7093,7 +7765,7 @@
       "name": "programmatic-seo",
       "shape": "skill",
       "source_path": "skills/programmatic-seo",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/programmatic-seo",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/programmatic-seo",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7124,8 +7796,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -7251,9 +7939,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -7262,7 +7950,7 @@
       "name": "prospecting",
       "shape": "skill",
       "source_path": "skills/prospecting",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/prospecting",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/prospecting",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7270,7 +7958,7 @@
           "name": "prospecting",
           "description": "When the user wants to find and qualify prospects for outbound, or asks who to target first, which signal to prioritize, or where to spot buyers with the problem: buying signals, enrichment, verification, account research. Verify emails before a sequence, never scrape LinkedIn: define audiences in Sales Navigator and pull contacts from licensed data. For outreach, see cold-email. For competitor research, see competitor-profiling.",
           "metadata": {
-            "version": "1.5.3"
+            "version": "1.8.0"
           }
         },
         "standard": {
@@ -7293,8 +7981,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -7420,9 +8124,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -7431,7 +8135,7 @@
       "name": "public-relations",
       "shape": "skill",
       "source_path": "skills/public-relations",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/public-relations",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/public-relations",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7439,7 +8143,7 @@
           "name": "public-relations",
           "description": "When the user wants press and media coverage, or asks what to say to a reporter, whether a story is newsworthy, or how to handle a crisis: pitches, press releases, media lists, HARO, op-eds, podcast guest prep, newsjacking (public relations, not pull requests). For directories, see directory-submissions. For launches, see launch. For cold outreach to prospects, see cold-email.",
           "metadata": {
-            "version": "1.2.4"
+            "version": "1.3.1"
           }
         },
         "standard": {
@@ -7462,8 +8166,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -7589,9 +8309,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -7600,7 +8320,7 @@
       "name": "referrals",
       "shape": "skill",
       "source_path": "skills/referrals",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/referrals",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/referrals",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7608,7 +8328,7 @@
           "name": "referrals",
           "description": "When the user wants referral and affiliate programs or word of mouth, or asks what to reward, how much to pay, or which loop to start with: refer-a-friend incentives, commissions and payouts, partner programs, 'made with' badges, review campaigns. For launch virality, see launch. For creator deals, see influencer-marketing.",
           "metadata": {
-            "version": "2.2.4"
+            "version": "2.2.7"
           }
         },
         "standard": {
@@ -7631,8 +8351,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -7758,9 +8494,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -7769,7 +8505,7 @@
       "name": "reverse-engineer-marketing",
       "shape": "skill",
       "source_path": "skills/reverse-engineer-marketing",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/reverse-engineer-marketing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/reverse-engineer-marketing",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7777,7 +8513,7 @@
           "name": "reverse-engineer-marketing",
           "description": "When the user wants to know how another company grew and what to copy, or asks what a competitor did and when: a dated log of their moves against their traffic from public data, archives, job posts, reviews, and their funnel, compared with the user's data, ending in plays routed to other skills. Also finds where competitors are weak. For a snapshot profile, see competitor-profiling. For comparison pages, see competitors.",
           "metadata": {
-            "version": "1.1.4"
+            "version": "1.2.0"
           }
         },
         "standard": {
@@ -7800,8 +8536,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -7927,9 +8679,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -7938,7 +8690,7 @@
       "name": "revops",
       "shape": "skill",
       "source_path": "skills/revops",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/revops",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/revops",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -7969,8 +8721,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -8096,9 +8864,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -8107,7 +8875,7 @@
       "name": "sales-enablement",
       "shape": "skill",
       "source_path": "skills/sales-enablement",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/sales-enablement",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/sales-enablement",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8115,7 +8883,7 @@
           "name": "sales-enablement",
           "description": "When the user wants sales collateral, or asks what to give a champion or rep, or how to answer an objection or make the case: decks, one-pagers, objection handling, demo scripts, talk tracks, battle cards, proposals, win-loss. For public comparison pages, see competitors. For buyer research, see customer-research. For website copy, see copywriting. For cold emails, see cold-email. For the offer, see offers.",
           "metadata": {
-            "version": "2.4.3"
+            "version": "2.4.4"
           }
         },
         "standard": {
@@ -8138,8 +8906,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -8265,9 +9049,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -8276,7 +9060,7 @@
       "name": "schema",
       "shape": "skill",
       "source_path": "skills/schema",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/schema",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/schema",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8307,8 +9091,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -8434,9 +9234,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -8445,7 +9245,7 @@
       "name": "seo-audit",
       "shape": "skill",
       "source_path": "skills/seo-audit",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/seo-audit",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/seo-audit",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8453,7 +9253,7 @@
           "name": "seo-audit",
           "description": "When the user wants to audit or diagnose SEO, or asks why traffic dropped, a page won't rank, or whether a setup like canonicals, hreflang, or redirects is right: technical SEO, indexing, Google updates, on-page and titles, Core Web Vitals, local SEO. Start here when someone just says their SEO is bad. For pages at scale, see programmatic-seo. For structured data, see schema. For AI search, see ai-seo.",
           "metadata": {
-            "version": "2.2.5"
+            "version": "2.2.10"
           }
         },
         "standard": {
@@ -8476,8 +9276,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -8603,9 +9419,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -8614,7 +9430,7 @@
       "name": "signup",
       "shape": "skill",
       "source_path": "skills/signup",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/signup",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/signup",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8645,8 +9461,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -8772,9 +9604,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -8783,7 +9615,7 @@
       "name": "site-architecture",
       "shape": "skill",
       "source_path": "skills/site-architecture",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/site-architecture",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/site-architecture",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8814,8 +9646,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -8941,9 +9789,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -8952,7 +9800,7 @@
       "name": "sms",
       "shape": "skill",
       "source_path": "skills/sms",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/sms",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/sms",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -8960,7 +9808,7 @@
           "name": "sms",
           "description": "When the user wants SMS, MMS, or WhatsApp marketing, or asks whether texting is worth it or a message is allowed: abandoned cart, win-back, and promo texts, WhatsApp templates and windows, TCPA and A2P 10DLC compliance, SMS vs email. For email, see emails. For phone capture popups, see popups.",
           "metadata": {
-            "version": "1.1.3"
+            "version": "1.1.4"
           }
         },
         "standard": {
@@ -8983,8 +9831,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -9110,9 +9974,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -9121,7 +9985,7 @@
       "name": "social",
       "shape": "skill",
       "source_path": "skills/social",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/social",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/social",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9129,7 +9993,7 @@
           "name": "social",
           "description": "When the user wants organic social content for LinkedIn, X, Instagram, TikTok, or Facebook, or asks what to post, which format to favor, or from which account: posts, threads, carousels, short-form video scripts, calendars, build-in-public posts from commits, listening. No AI tells like 'it's not X, it's Y' or broetry. For content strategy, see content-strategy. For paid ads, see ad-creative. For press, see public-relations.",
           "metadata": {
-            "version": "2.5.2"
+            "version": "2.6.1"
           }
         },
         "standard": {
@@ -9152,8 +10016,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -9279,25 +10159,25 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
     },
     {
-      "name": "triggers",
+      "name": "tool-awareness",
       "shape": "unknown",
-      "source_path": "evals/triggers",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/evals/triggers",
-      "readme_excerpt": "Checks whether Claude Code picks the right skill for a prompt when the whole pack is installed. Each prompt runs through headless Claude Code (`claude -p`) with this repo loaded as a plugin, user and ",
+      "source_path": "evals/tool-awareness",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/evals/tool-awareness",
+      "readme_excerpt": "Checks how a skill's wording about a tool changes the answers an agent gives. It answers four questions:",
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "triggers",
-          "description": "Checks whether Claude Code picks the right skill for a prompt when the whole pack is installed. Each prompt runs through headless Claude Code (`claude -p`) with this repo loaded as a plugin, user and ",
+          "name": "tool-awareness",
+          "description": "Checks how a skill's wording about a tool changes the answers an agent gives. It answers four questions:",
           "version": null,
           "lastReviewed": null,
           "shape": "unknown"
@@ -9315,8 +10195,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -9442,9 +10338,188 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "triggers",
+      "shape": "unknown",
+      "source_path": "evals/triggers",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/evals/triggers",
+      "readme_excerpt": "Checks whether Claude Code picks the right skill for a prompt when the whole pack is installed. Each prompt runs through headless Claude Code (`claude -p`) with this repo loaded as a plugin, user and ",
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "triggers",
+          "description": "Checks whether Claude Code picks the right skill for a prompt when the whole pack is installed. Each prompt runs through headless Claude Code (`claude -p`) with this repo loaded as a plugin, user and ",
+          "version": null,
+          "lastReviewed": null,
+          "shape": "unknown"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
+        "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
+          "v2.14.12",
+          "v2.14.11",
+          "v2.14.10",
+          "v2.14.9",
+          "v2.14.8",
+          "v2.14.7",
+          "v2.14.6",
+          "v2.14.5",
+          "v2.14.4",
+          "v2.14.3",
+          "v2.14.2",
+          "v2.14.1",
+          "v2.14.0",
+          "v2.13.10",
+          "v2.13.9",
+          "v2.13.8",
+          "v2.13.7",
+          "v2.13.6",
+          "v2.13.5",
+          "v2.13.4",
+          "v2.13.3",
+          "v2.13.2",
+          "v2.13.1",
+          "v2.13.0",
+          "v2.12.4",
+          "v2.12.3",
+          "v2.12.2",
+          "v2.12.1",
+          "v2.12.0",
+          "v2.11.38",
+          "v2.11.37",
+          "v2.11.36",
+          "v2.11.35",
+          "v2.11.34",
+          "v2.11.33",
+          "v2.11.32",
+          "v2.11.31",
+          "v2.11.30",
+          "v2.11.29",
+          "v2.11.28",
+          "v2.11.27",
+          "v2.11.26",
+          "v2.11.25",
+          "v2.11.24",
+          "v2.11.23",
+          "v2.11.22",
+          "v2.11.21",
+          "v2.11.20",
+          "v2.11.19",
+          "v2.11.18",
+          "v2.11.17",
+          "v2.11.16",
+          "v2.11.15",
+          "v2.11.14",
+          "v2.11.13",
+          "v2.11.12",
+          "v2.11.11",
+          "v2.11.10",
+          "v2.11.9",
+          "v2.11.8",
+          "v2.11.7",
+          "v2.11.6",
+          "v2.11.5",
+          "v2.11.4",
+          "v2.11.3",
+          "v2.11.2",
+          "v2.11.1",
+          "v2.11.0",
+          "v2.10.5",
+          "v2.10.4",
+          "v2.10.3",
+          "v2.10.2",
+          "v2.10.1",
+          "v2.10.0",
+          "v2.9.1",
+          "v2.9.0",
+          "v2.8.12",
+          "v2.8.11",
+          "v2.8.10",
+          "v2.8.9",
+          "v2.8.8",
+          "v2.8.7",
+          "v2.8.6",
+          "v2.8.5",
+          "v2.8.4",
+          "v2.8.3",
+          "v2.8.2",
+          "v2.8.1",
+          "v2.8.0",
+          "v2.7.0",
+          "v2.6.0",
+          "v2.5.1",
+          "v2.5.0",
+          "v2.4.2",
+          "v2.4.1",
+          "v2.4.0",
+          "v2.3.0",
+          "v2.2.0",
+          "v2.1.0",
+          "v2.0.1",
+          "v2.0.0",
+          "v1.10.0",
+          "v1.9.0",
+          "v1.8.0",
+          "v1.7.0",
+          "v1.6.0",
+          "v1.5.0",
+          "v1.4.0",
+          "v1.3.0",
+          "v1.2.0",
+          "v1.1.0",
+          "v1.0.0"
+        ]
+      },
+      "trust_score": 45,
+      "trust_signals": {
+        "store": 35,
+        "frontmatter": 5,
+        "readme": 5,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 10,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -9453,7 +10528,7 @@
       "name": "video",
       "shape": "skill",
       "source_path": "skills/video",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/video",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/skills/video",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "skill-md",
@@ -9461,7 +10536,7 @@
           "name": "video",
           "description": "When the user wants to create video with AI tools or code, or asks which approach to use (screen recording, AI avatar, generated, or templated) or how to make videos repeatably: product demos, AI generation (Veo, Sora, HeyGen), programmatic video with Remotion. For what to post, see social. For video ads, see ad-creative.",
           "metadata": {
-            "version": "2.4.3"
+            "version": "2.4.7"
           }
         },
         "standard": {
@@ -9484,8 +10559,24 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "default_sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
         "tags": [
+          "v2.14.28",
+          "v2.14.27",
+          "v2.14.26",
+          "v2.14.25",
+          "v2.14.24",
+          "v2.14.23",
+          "v2.14.22",
+          "v2.14.21",
+          "v2.14.20",
+          "v2.14.19",
+          "v2.14.18",
+          "v2.14.17",
+          "v2.14.16",
+          "v2.14.15",
+          "v2.14.14",
+          "v2.14.13",
           "v2.14.12",
           "v2.14.11",
           "v2.14.10",
@@ -9611,9 +10702,9 @@
           "adoption": 10,
           "license": 10,
           "license_name": "MIT",
-          "stars": 60780,
-          "contributors": 61,
-          "last_commit": "2026-11-11T17:49:23Z",
+          "stars": 62238,
+          "contributors": 89,
+          "last_commit": "2026-11-23T21:01:10Z",
           "archived": false
         }
       }
@@ -9627,9 +10718,9 @@
       "adoption": 10,
       "license": 10,
       "license_name": "MIT",
-      "stars": 60780,
-      "contributors": 61,
-      "last_commit": "2026-11-11T17:49:23Z",
+      "stars": 62238,
+      "contributors": 89,
+      "last_commit": "2026-11-23T21:01:10Z",
       "archived": false
     }
   }

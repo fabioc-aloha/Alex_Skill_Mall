@@ -2,7 +2,7 @@
 
 **Source:** [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills)
 **Store trust:** 20/100
-**Signals:** maintenance 15 · adoption 5 · license 0 · 5223 stars · 2 contributors
+**Signals:** maintenance 15 · adoption 5 · license 0 · 5231 stars · 2 contributors
 **Scanned ref:** `3159af9b36ed`
 
 _No plugins scanned in this store._
