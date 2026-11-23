@@ -1,19 +1,19 @@
 {
   "store": "azure-functions-skills",
   "source_repo": "https://github.com/Azure/azure-functions-skills.git",
-  "generated_at": "2026-10-05T11:08:32.978Z",
-  "scanned_ref": "20a0251440ceb3325ccd4f2196a0934930f03cce",
+  "generated_at": "2026-11-23T22:22:07.809Z",
+  "scanned_ref": "40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28",
   "provenance": false,
   "tier": "microsoft-official",
   "license": "MIT",
   "reference_only": false,
-  "plugin_count": 3,
+  "plugin_count": 6,
   "plugins": [
     {
       "name": "evals",
       "shape": "unknown",
       "source_path": "evals",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/20a0251440ceb3325ccd4f2196a0934930f03cce/evals",
+      "source_url": "https://github.com/Azure/azure-functions-skills/tree/40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28/evals",
       "readme_excerpt": "This folder contains optional evaluation scenarios for individual skills.",
       "frontmatter": {
         "kind": "none",
@@ -38,7 +38,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "20a0251440ceb3325ccd4f2196a0934930f03cce",
+        "default_sha": "40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28",
         "tags": [
           "v0.12.1",
           "v0.12.0",
@@ -64,9 +64,9 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 20,
+          "stars": 21,
           "contributors": 11,
-          "last_commit": "2026-11-13T22:23:12Z",
+          "last_commit": "2026-11-23T20:00:54Z",
           "archived": false
         }
       }
@@ -75,7 +75,7 @@
       "name": "frds",
       "shape": "unknown",
       "source_path": "docs/frds",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/20a0251440ceb3325ccd4f2196a0934930f03cce/docs/frds",
+      "source_url": "https://github.com/Azure/azure-functions-skills/tree/40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28/docs/frds",
       "readme_excerpt": "FRDs make substantial changes understandable and reviewable before implementation.",
       "frontmatter": {
         "kind": "none",
@@ -100,7 +100,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "20a0251440ceb3325ccd4f2196a0934930f03cce",
+        "default_sha": "40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28",
         "tags": [
           "v0.12.1",
           "v0.12.0",
@@ -126,28 +126,28 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 20,
+          "stars": 21,
           "contributors": 11,
-          "last_commit": "2026-11-13T22:23:12Z",
+          "last_commit": "2026-11-23T20:00:54Z",
           "archived": false
         }
       }
     },
     {
-      "name": "templates",
-      "shape": "mixed",
-      "source_path": "templates",
-      "source_url": "https://github.com/Azure/azure-functions-skills/tree/20a0251440ceb3325ccd4f2196a0934930f03cce/templates",
+      "name": "functions",
+      "shape": "skill",
+      "source_path": "starter/functions",
+      "source_url": "https://github.com/Azure/azure-functions-skills/tree/40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28/starter/functions",
       "readme_excerpt": null,
       "frontmatter": {
         "kind": "none",
         "raw": {},
         "standard": {
-          "name": "templates",
+          "name": "functions",
           "description": null,
           "version": null,
           "lastReviewed": null,
-          "shape": "mixed"
+          "shape": "skill"
         },
         "extended": {
           "applyTo": null,
@@ -162,7 +162,7 @@
       },
       "available_refs": {
         "default": "main",
-        "default_sha": "20a0251440ceb3325ccd4f2196a0934930f03cce",
+        "default_sha": "40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28",
         "tags": [
           "v0.12.1",
           "v0.12.0",
@@ -188,9 +188,195 @@
           "adoption": 3,
           "license": 10,
           "license_name": "MIT",
-          "stars": 20,
+          "stars": 21,
           "contributors": 11,
-          "last_commit": "2026-11-13T22:23:12Z",
+          "last_commit": "2026-11-23T20:00:54Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "hosted-skills",
+      "shape": "skill",
+      "source_path": "starter/hosted-skills",
+      "source_url": "https://github.com/Azure/azure-functions-skills/tree/40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28/starter/hosted-skills",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "hosted-skills",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "skill"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28",
+        "tags": [
+          "v0.12.1",
+          "v0.12.0",
+          "v0.11.0",
+          "v0.10.0",
+          "v0.9.0",
+          "v0.8.0",
+          "v0.0.6-preview",
+          "v0.0.5-preview",
+          "v0.0.4-preview",
+          "v0.0.3-preview",
+          "v0.0.2-preview"
+        ]
+      },
+      "trust_score": 28,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 21,
+          "contributors": 11,
+          "last_commit": "2026-11-23T20:00:54Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "runtime",
+      "shape": "hook",
+      "source_path": "starter/runtime",
+      "source_url": "https://github.com/Azure/azure-functions-skills/tree/40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28/starter/runtime",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "runtime",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "hook"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28",
+        "tags": [
+          "v0.12.1",
+          "v0.12.0",
+          "v0.11.0",
+          "v0.10.0",
+          "v0.9.0",
+          "v0.8.0",
+          "v0.0.6-preview",
+          "v0.0.5-preview",
+          "v0.0.4-preview",
+          "v0.0.3-preview",
+          "v0.0.2-preview"
+        ]
+      },
+      "trust_score": 28,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 21,
+          "contributors": 11,
+          "last_commit": "2026-11-23T20:00:54Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "name": "templates",
+      "shape": "mixed",
+      "source_path": "templates",
+      "source_url": "https://github.com/Azure/azure-functions-skills/tree/40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28/templates",
+      "readme_excerpt": null,
+      "frontmatter": {
+        "kind": "none",
+        "raw": {},
+        "standard": {
+          "name": "templates",
+          "description": null,
+          "version": null,
+          "lastReviewed": null,
+          "shape": "mixed"
+        },
+        "extended": {
+          "applyTo": null,
+          "tools": null,
+          "mode": null,
+          "category": null,
+          "tags": null,
+          "license": null,
+          "requires": null,
+          "author": null
+        }
+      },
+      "available_refs": {
+        "default": "main",
+        "default_sha": "40043d3f05e3ca90ea1c4eeefe03901c1f4d3c28",
+        "tags": [
+          "v0.12.1",
+          "v0.12.0",
+          "v0.11.0",
+          "v0.10.0",
+          "v0.9.0",
+          "v0.8.0",
+          "v0.0.6-preview",
+          "v0.0.5-preview",
+          "v0.0.4-preview",
+          "v0.0.3-preview",
+          "v0.0.2-preview"
+        ]
+      },
+      "trust_score": 28,
+      "trust_signals": {
+        "store": 28,
+        "frontmatter": 0,
+        "readme": 0,
+        "store_breakdown": {
+          "provenance": 0,
+          "maintenance": 15,
+          "adoption": 3,
+          "license": 10,
+          "license_name": "MIT",
+          "stars": 21,
+          "contributors": 11,
+          "last_commit": "2026-11-23T20:00:54Z",
           "archived": false
         }
       }
@@ -204,9 +390,9 @@
       "adoption": 3,
       "license": 10,
       "license_name": "MIT",
-      "stars": 20,
+      "stars": 21,
       "contributors": 11,
-      "last_commit": "2026-11-13T22:23:12Z",
+      "last_commit": "2026-11-23T20:00:54Z",
       "archived": false
     }
   }

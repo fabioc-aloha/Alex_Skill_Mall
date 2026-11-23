@@ -1,6 +1,6 @@
 # Plugin Mall Catalog
 
-Search index across **5246 plugins** in **53 stores**. Plugins are ranked by trust score; first-party Mall-curated entries (🏆) rank highest because they earn the highest signals — provenance (+50 for editorial adaptation) plus maintenance, adoption, license clarity, frontmatter completeness, and README presence.
+Search index across **5423 plugins** in **53 stores**. Plugins are ranked by trust score; first-party Mall-curated entries (🏆) rank highest because they earn the highest signals — provenance (+50 for editorial adaptation) plus maintenance, adoption, license clarity, frontmatter completeness, and README presence.
 
 - See [README.md](../README.md) for the storefront and store rankings.
 - See [categories/](categories/) for per-category browse.
@@ -67,20 +67,21 @@ Search index across **5246 plugins** in **53 stores**. Plugins are ranked by tru
 | Trust | Store | Plugins | Provenance |
 | ---: | --- | ---: | --- |
 | 82 | 🏆 [plugin-mall](stores/plugin-mall.md) | 359 | 🏆 first-party |
-| 35 | [alirezarezvani-claude-skills](stores/alirezarezvani-claude-skills.md) | 46 | third-party |
-| 35 | [antigravity-awesome-skills](stores/antigravity-awesome-skills.md) | 2890 | third-party |
-| 35 | [awesome-copilot](stores/awesome-copilot.md) | 573 | third-party |
+| 35 | [alirezarezvani-claude-skills](stores/alirezarezvani-claude-skills.md) | 47 | third-party |
+| 35 | [antigravity-awesome-skills](stores/antigravity-awesome-skills.md) | 3040 | third-party |
+| 35 | [awesome-copilot](stores/awesome-copilot.md) | 575 | third-party |
 | 35 | [buildwithclaude](stores/buildwithclaude.md) | 121 | third-party |
 | 35 | [claude-code-plugins-plus-skills](stores/claude-code-plugins-plus-skills.md) | 24 | third-party |
-| 35 | [daymade-claude-code-skills](stores/daymade-claude-code-skills.md) | 123 | third-party |
+| 35 | [daymade-claude-code-skills](stores/daymade-claude-code-skills.md) | 125 | third-party |
+| 35 | [designer-skills](stores/designer-skills.md) | 9 | third-party |
 | 35 | [dotnet-skills](stores/dotnet-skills.md) | 20 | third-party |
 | 35 | [expo-skills](stores/expo-skills.md) | 23 | third-party |
 | 35 | [garden-skills](stores/garden-skills.md) | 6 | third-party |
-| 35 | [google-skills](stores/google-skills.md) | 204 | third-party |
+| 35 | [google-skills](stores/google-skills.md) | 219 | third-party |
 | 35 | [huggingface-skills](stores/huggingface-skills.md) | 25 | third-party |
-| 35 | [marketingskills](stores/marketingskills.md) | 57 | third-party |
+| 35 | [marketingskills](stores/marketingskills.md) | 58 | third-party |
 | 35 | [microsoft-agentrc](stores/microsoft-agentrc.md) | 4 | third-party |
-| 35 | [microsoft-fabric-skills](stores/microsoft-fabric-skills.md) | 30 | third-party |
+| 35 | [microsoft-fabric-skills](stores/microsoft-fabric-skills.md) | 31 | third-party |
 | 35 | [microsoft-hve-core](stores/microsoft-hve-core.md) | 6 | third-party |
 | 35 | [microsoft-skills](stores/microsoft-skills.md) | 3 | third-party |
 | 35 | [microsoft-winapp-cli](stores/microsoft-winapp-cli.md) | 27 | third-party |
@@ -88,11 +89,10 @@ Search index across **5246 plugins** in **53 stores**. Plugins are ranked by tru
 | 35 | [spec-kit](stores/spec-kit.md) | 7 | third-party |
 | 35 | [styleseed](stores/styleseed.md) | 1 | third-party |
 | 35 | [vercel-skills](stores/vercel-skills.md) | 1 | third-party |
-| 35 | [wshobson-agents](stores/wshobson-agents.md) | 93 | third-party |
+| 35 | [wshobson-agents](stores/wshobson-agents.md) | 94 | third-party |
 | 32 | [ai-research-skills](stores/ai-research-skills.md) | 100 | third-party |
 | 32 | [azure-git-ape](stores/azure-git-ape.md) | 3 | third-party |
 | 32 | [context-engineering-kit](stores/context-engineering-kit.md) | 13 | third-party |
-| 32 | [designer-skills](stores/designer-skills.md) | 9 | third-party |
 | 32 | [dotnet-maui-labs](stores/dotnet-maui-labs.md) | 19 | third-party |
 | 32 | [elastic-agent-skills](stores/elastic-agent-skills.md) | 5 | third-party |
 | 32 | [elevenlabs-skills](stores/elevenlabs-skills.md) | 13 | third-party |
@@ -109,16 +109,16 @@ Search index across **5246 plugins** in **53 stores**. Plugins are ranked by tru
 | 29 | [github-copilot-plugins](stores/github-copilot-plugins.md) | 2 | third-party |
 | 29 | [microsoftdocs-agent-skills](stores/microsoftdocs-agent-skills.md) | 201 | third-party |
 | 29 | [n-skills](stores/n-skills.md) | 5 | third-party |
-| 28 | [azure-functions-skills](stores/azure-functions-skills.md) | 3 | third-party |
+| 28 | [azure-functions-skills](stores/azure-functions-skills.md) | 6 | third-party |
 | 27 | [copilot-agents-dojo](stores/copilot-agents-dojo.md) | 29 | third-party |
 | 27 | [microsoft-copilot-modernization](stores/microsoft-copilot-modernization.md) | 1 | third-party |
 | 25 | [claude-skills](stores/claude-skills.md) | 20 | third-party |
 | 25 | [mcp-servers](stores/mcp-servers.md) | 7 | third-party |
 | 25 | [vercel-agent-skills](stores/vercel-agent-skills.md) | 9 | third-party |
-| 22 | [databricks-agent-skills](stores/databricks-agent-skills.md) | 41 | third-party |
-| 22 | [dotnet-modernize](stores/dotnet-modernize.md) | 2 | third-party |
+| 22 | [databricks-agent-skills](stores/databricks-agent-skills.md) | 42 | third-party |
 | 20 | [github-actions-migrations](stores/github-actions-migrations.md) | 3 | third-party |
 | 20 | [libukai-awesome-agent-skills](stores/libukai-awesome-agent-skills.md) | 0 | third-party |
+| 19 | [dotnet-modernize](stores/dotnet-modernize.md) | 2 | third-party |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-11-16T20:50:19.170Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-11-23T22:22:47.594Z*

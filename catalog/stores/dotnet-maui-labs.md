@@ -2,32 +2,32 @@
 
 **Source:** [dotnet/maui-labs](https://github.com/dotnet/maui-labs)
 **Store trust:** 32/100
-**Signals:** maintenance 15 · adoption 7 · license 10 (MIT) · 240 stars · 28 contributors
-**Scanned ref:** `0b2dd2f458a3`
+**Signals:** maintenance 15 · adoption 7 · license 10 (MIT) · 243 stars · 28 contributors
+**Scanned ref:** `064b330818ee`
 
 ## Plugins (19)
 
 | Trust | Plugin | Shape | Version | Description |
 | ---: | --- | --- | --- | --- |
-| 42 | [`AI`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/src/AI) | unknown | - | Build, test, and contribute to `Microsoft.Maui.Essentials.AI`, which provides |
-| 42 | [`AIExtensions`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/src/AIExtensions) | unknown | - | AI integration packages for .NET MAUI, built on [`Microsoft.Extensions.AI`](https://learn.microsoft… |
-| 42 | [`AIExtensions.Sample.ChatPlayground`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/samples/AIExtensions.Sample.ChatPlayground) | unknown | - | A .NET MAUI sample for comparing Apple Intelligence, Windows AI, Gemini Nano, |
-| 42 | [`AIExtensions.Sample.Garden`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/samples/AIExtensions.Sample.Garden) | unknown | - | A polished .NET MAUI sample that demonstrates **AI Extensions** |
-| 42 | [`AIExtensions.Sample.Hello`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/samples/AIExtensions.Sample.Hello) | unknown | - | The smallest possible AI Extensions app: one DI-bound |
-| 42 | [`AppProjectReference`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/src/AppProjectReference) | unknown | - | `Microsoft.Maui.Build.AppProjectReference` lets a consuming project (a test project, packaging proj… |
-| 42 | [`Cli`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/src/Cli) | unknown | - | A command-line tool for .NET MAUI development environment setup and device management. |
-| 42 | [`Comet`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/src/Comet) | unknown | - | Comet is an MVU framework for [.NET MAUI](https://learn.microsoft.com/dotnet/maui/what-is-maui). Wr… |
-| 42 | [`DevFlow`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/src/DevFlow) | unknown | - | A comprehensive testing, automation, and debugging toolkit for .NET MAUI applications — and, since |
-| 42 | [`DevFlow.Sample.Native`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/samples/DevFlow.Sample.Native) | unknown | - | Four plain .NET app heads — **no MAUI reference anywhere** — that host the DevFlow agent through |
-| 42 | [`EssentialsAISample`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/samples/EssentialsAISample) | unknown | - | AI-powered travel itinerary generator using Microsoft.Extensions.AI and Microsoft.Agents.AI in .NET… |
-| 42 | [`Go`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/src/Go) | unknown | - | > **Status:** experimental / alpha. APIs and wire protocol may change. |
-| 42 | [`Linux.Gtk4`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/platforms/Linux.Gtk4) | unknown | - | A .NET MAUI backend for Linux, powered by **GTK4**. Run your .NET MAUI applications natively on Lin… |
-| 42 | [`MacOS`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/platforms/MacOS) | unknown | - | A native [.NET MAUI](https://dot.net/maui) backend for macOS using AppKit — not Mac Catalyst. |
-| 42 | [`plugins`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/plugins) | unknown | - | Distributable agent skills for .NET MAUI development. Installable via the Copilot CLI, Claude Code,… |
-| 42 | [`Testing`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/src/Testing) | unknown | - | `Microsoft.Maui.Testing` runs Microsoft.Testing.Platform (MTP) tests inside native Android, iOS, an… |
-| 42 | [`Windows.WPF`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/platforms/Windows.WPF) | unknown | - | [![NuGet](https://img.shields.io/nuget/v/Microsoft.Maui.Platforms.Windows.WPF.svg?label=Microsoft.M… |
-| 40 | [`AIExtensions.Sample.DIParameters`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/samples/AIExtensions.Sample.DIParameters) | unknown | - | A console app that shows the parameter shapes |
-| 40 | [`common`](https://github.com/dotnet/maui-labs/tree/0b2dd2f458a39b3153684650090b9979d6fe9d1a/eng/common) | unknown | - | uuuuuuuuuuuuuuuuuuuu |
+| 42 | [`AI`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/src/AI) | unknown | - | Build, test, and contribute to `Microsoft.Maui.Essentials.AI`, which provides |
+| 42 | [`AIExtensions`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/src/AIExtensions) | unknown | - | AI integration packages for .NET MAUI, built on [`Microsoft.Extensions.AI`](https://learn.microsoft… |
+| 42 | [`AIExtensions.Sample.ChatPlayground`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/samples/AIExtensions.Sample.ChatPlayground) | unknown | - | A .NET MAUI sample for comparing Apple Intelligence, Windows AI, Gemini Nano, |
+| 42 | [`AIExtensions.Sample.Garden`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/samples/AIExtensions.Sample.Garden) | unknown | - | A polished .NET MAUI sample that demonstrates **AI Extensions** |
+| 42 | [`AIExtensions.Sample.Hello`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/samples/AIExtensions.Sample.Hello) | unknown | - | The smallest possible AI Extensions app: one DI-bound |
+| 42 | [`AppProjectReference`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/src/AppProjectReference) | unknown | - | `Microsoft.Maui.Build.AppProjectReference` lets a consuming project (a test project, packaging proj… |
+| 42 | [`Cli`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/src/Cli) | unknown | - | A command-line tool for .NET MAUI development environment setup and device management. |
+| 42 | [`Comet`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/src/Comet) | unknown | - | Comet is an MVU framework for [.NET MAUI](https://learn.microsoft.com/dotnet/maui/what-is-maui). Wr… |
+| 42 | [`DevFlow`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/src/DevFlow) | unknown | - | A comprehensive testing, automation, and debugging toolkit for .NET MAUI applications — and, since |
+| 42 | [`DevFlow.Sample.Native`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/samples/DevFlow.Sample.Native) | unknown | - | Four plain .NET app heads — **no MAUI reference anywhere** — that host the DevFlow agent through |
+| 42 | [`EssentialsAISample`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/samples/EssentialsAISample) | unknown | - | AI-powered travel itinerary generator using Microsoft.Extensions.AI and Microsoft.Agents.AI in .NET… |
+| 42 | [`Go`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/src/Go) | unknown | - | > **Status:** experimental / alpha. APIs and wire protocol may change. |
+| 42 | [`Linux.Gtk4`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/platforms/Linux.Gtk4) | unknown | - | A .NET MAUI backend for Linux, powered by **GTK4**. Run your .NET MAUI applications natively on Lin… |
+| 42 | [`MacOS`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/platforms/MacOS) | unknown | - | A native [.NET MAUI](https://dot.net/maui) backend for macOS using AppKit — not Mac Catalyst. |
+| 42 | [`plugins`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/plugins) | unknown | - | Distributable agent skills for .NET MAUI development. Installable via the Copilot CLI, Claude Code,… |
+| 42 | [`Testing`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/src/Testing) | unknown | - | `Microsoft.Maui.Testing` runs Microsoft.Testing.Platform (MTP) tests inside native Android, iOS, an… |
+| 42 | [`Windows.WPF`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/platforms/Windows.WPF) | unknown | - | [![NuGet](https://img.shields.io/nuget/v/Microsoft.Maui.Platforms.Windows.WPF.svg?label=Microsoft.M… |
+| 40 | [`AIExtensions.Sample.DIParameters`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/samples/AIExtensions.Sample.DIParameters) | unknown | - | A console app that shows the parameter shapes |
+| 40 | [`common`](https://github.com/dotnet/maui-labs/tree/064b330818ee998be616213b60f1ea31242f878a/eng/common) | unknown | - | uuuuuuuuuuuuuuuuuuuu |
 
 ---
-*Generated by `scripts/render-catalog.cjs` at 2026-11-16T20:50:19.170Z*
+*Generated by `scripts/render-catalog.cjs` at 2026-11-23T22:22:47.594Z*
